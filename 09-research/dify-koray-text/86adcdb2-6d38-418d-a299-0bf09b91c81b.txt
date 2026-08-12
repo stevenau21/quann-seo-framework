@@ -1,0 +1,95 @@
+Skip to content
+Entity Identity resolution is the process of recognizing an entity with its type, attributes, and values. Entity-Idendity Resolution is distinct from named entity recognition, but it is a necessary step in the process. Entities are living things inside the Knowledge Bases with different attribute-value pairs, which means that their identity changes with other types of associations. The optimization and control of identity shifts and changes in knowledge bases based on document statistics is known as entity identity management. Document statistics represent the entity values and their definitions with certain types of linguistic statistics, such as statements, declarations, or dense, that are retrieved from content items. For example, a document that is mentioned 99 times from 46 different sources is resolved as a “horse, animal, living thing” if it is mentioned 5 times from 2 sources as a “brand name.” It means that the entities’ first identity comes from the document statistics, but it doesn’t mean that the search queries are not important. For example, a search query might have 990,000 search requests per year, and signal that the specific entity is a brand, while the same phrase might be used in 9 other queries, but they represent an animal with 450,000 search requests. In this case, even if the document statistics represent an animal for the same phrase, the knowledge base gives more weight to the other profile of the entity. But, in information retrieval systems, mostly the query search demand and document statistics share the same correlations because of traditional SEO practices. Thus, a search engine might expect document and query statistics to align with each other, even if they don’t. In this SEO Case Study, we examine how document and query statistics create search memory in search engines’ entity resolution algorithms, and how it affects the Brand SERP, and Knowledge Panel Management. The specific SEO case study is titled “A Feminist SEO Case Study” because Google refers to and mentions a famous and successful Turkish dentist as an “ex-wife” within the Knowledge Panel, despite the fact that she has many other attributes in her potential digital and real-life existence. The main issue was that the subject entity’s ex-husband was and still is a media-holding owner in Turkey. Furthermore, some important factors caused fake news distribution without even triggering queries, and these fake news stories that harmed the entity’s digital reputation came in a variety of formats and from important, authoritative sources. The Brand SERP, Knowledge Panel Management, Exact Match Domain SEO Case Studies, and Guides are all related to the Entity Identity Creation and Management SEO Case Study. The conceptual definitions to explain the entity identity resolution and management for Knowledge Graph and Base control with document statistics are given at the end of the case study.
+Contents of the Article
+show
+1.
+Background of the SEO Case Study, From an Ex-wife to a Dentist
+2.
+The First Situation of the Entity Identity with Fake Magazine News, and Being an Ex-wife
+2.1.
+How does Semantic Distance help Autosuggestion to shape Entity Identity?
+2.2.
+What are the Tiers of Entity Identities?
+2.3.
+What is Corroboration of Web Answers for Entity Identity Tiers?
+2.3.1.
+Why are the Embarrassment Factor and Safe Answers Important for the Corroboration of Web Answers?
+2.4.
+Why is the Nature of Meaning relevant to Google’s Understanding of the Definition of Things?
+2.4.1.
+Why are factoids important for Entity Identity Creation and Management?
+2.5.
+How to Affect Document Statistics with Legal Ways?
+2.6.
+How to Affect Document Statistics with Search Engine Communication?
+2.6.1.
+How do Content Removal Requests Affect Google’s Judgement for Documents?
+2.6.2.
+How do Content Removal Requests Affect Google’s Judgement for Web Sources?
+2.6.3.
+How do Content Removal Requests Affect Google’s Judgment of Entity Identities?
+2.6.4.
+How do Content Removal Requests Affect Google’s judgment for Consensus about Entities?
+3.
+Entity Homes and Topical Maps
+3.1.
+What are the Examples of Entity Homes and Entity Identities on SERP?
+4.
+Why are Universal Search and Different Verticals of Search Important for Entity Identity Management?
+5.
+Why is Blurring the Identity for Information Foraging Important?
+6.
+Why is Using Other Search Engines important for Entity Identity Creation and Management?
+7.
+Why is Digital PR Important for Entity Identity Creation and Management?
+8.
+Why are Every File Types important for the Entity Identity Creation and Management?
+8.1.
+Why is Using Diferent Authors important for Entity Identity Creation and Management?
+8.2.
+What are the Search Engine Result Page Samples for the Entity Identity Creation and Management SEO Case Study?
+9.
+What are the Spammy Examples for Entity Identity Creation and Management?
+9.1.
+Why is DMCA Requests useful for Entity Identity Creation against Spammy Results?
+9.2.
+What is SERP Estate Control for Entity Identity Creation and Management?
+9.3.
+Why is PageRank Important for Entity Identity Creation and Management?
+10.
+Last Thoughts on Entity Identity Creating and Management
+Background of the SEO Case Study, From an Ex-wife to a Dentist
+Emek Külür is a successful and famous dentist and a medical expert in Turkey, the USA, and Europe with more than 30,000 patients on record. Emek Külür treated more than 30,000 people for better mouth and tooth health. She performed and published research on child growth, health, and habits, such as tooth brushing, to educate mothers and fathers. Mrs. Emek studied at the New York University Dentistry Faculty and worked together with Dr. Denis Tornow, and Dr. Norman Cranin at Brookdale Hospital. She returned to Turkey and established two separate dentistry and smile aesthetic clinics in two separate hospitals, Kadiköy Şifa Hospital and Memoeiral Hospital. She is a mother and educates her daughter to be a dentist. She has found her own company with the name of Smile Institute in Turkey. She is also a sculptor who loves art, and she designs her patients’ teeth while also creating implants.
+In other words, the entity is a mother, an always-on learner, a doctor, a businesswoman, a sculptor, and many other things. But, imagine that Google defines this entity as only the “ex-wife” of someone. And this ex-husband, who is a media holding owner, along with some other people, publishes a lot of articles, which we had to clean up and suppress. Basically, this is a case study to change the digital aspect and identity of an entity that is associated with certain types of queries.
+The SEO Case Study has been written during my Semantic SEO Course creation process. Furthermore, many screenshots and videos that I took are not included in the SEO case study. For example, for the query “Emek Kulur Treatment Fee” query, I have seen pornographic and fake content on adult websites intended to harm Mrs. Emek. In this SEO Case Study, as a consultant and always-on SEO learner, you can see the prominence of communication. When I have these types of heartbreaking results, I didn’t reflect them on the client, I just suppress them with different types of content. Moreover, during the SEO Case Study, I had to deal with news websites that received 5,000,000 or more clicks per month as well as websites that received only 40,000 clicks per month.
+Thus, you will see three aspects in the SEO Case Study.
+How ChatGPT like Diaoluge-based Generative AI Systems can perceive entities.
+Why ChatGTP-like systems make real experts more important than ever.
+Why ChatGPT-like systems are extremely repetitive and limited to document statistics.
+Why ChatGPT is an accelerator, but not a solution for most SEO tasks.
+How Query and Document statistics affect the perspective of entity identities.
+How to change an entity’s most important attributes and values for these entities to change its overall definition in Google’s Brain (Knowledge Vault).
+The screenshots and videos are from different timelines of the SEO Case Study. However, due to the Semantic SEO Course preparation process, the first screenshots and videos are not added to the case study.
+The specific SEO Case Study will be updated further with new and existing samples.
+To understand the Entity Identity Creation and Management SEO Case Study, you should read and watch the following SEO Case Studies.
+Predicates and Triples
+Entity Attribute Value Models
+Exact Match Domain SEO Case Study
+Entity-oriented Search SEO Case Study
+Lexical Relations SEO Case Study
+Brand SERP Management
+Knowledge Panel Management
+Google Author Rank
+Expanding Topical Maps
+“SEOs are extremely powerful. We decide who will click what and learn, decide, and believe which statement about whom. The management of knowledge and the illusion of choice are two sides of the philosophy of knowledge. And, that’s why I love SEO.”
+Koray Tuğberk GÜBÜR
+The First Situation of the Entity Identity with Fake Magazine News, and Being an Ex-wife
+Entities of the type “person,” “place,” “organization,” “song,” and “movie” are shown in Google’s autocomplete with a picture or a subtitle that shows the most important thing about the entity. Below, you can see that Emek Külür’s entity is served as a magazine figure and ex-wife inside the auto-complete suggestions.
+The other entities that are used inside the auto-complete suggestions have the attributes of “marriages”, “husband”, “divorce”, “lover”, “biography”, “ekşi”, “age”. All these attributes are heavily magazine-related, and none of them focus on the career of the person. The “ekşi” means a non-realistic forum in Turkey where anyone can write anything about anyone without any kind of legal obligations or limitations.
+In the first few weeks, the “fake search demand” has been successfully created, and it is seen that it changes the order of the attributes. The “biography” attribute is a multi-layered contextual attribute because we can put “age”, or “business” inside it; thus, the first target inside the semantic network is the specific “biography” attribute, and the next step changes its connections to other attributes with document statistics. I call this the “Re-construction of Attributes” for the entity. “Fake search demand” has been used for the last 5 years to confuse Google, and the Google Chrome Developers team has a different team that is focused and assigned only to understand the fake traffic. Google always favors popularity, and if you fake popularity, their system is gamed. Thus, they are way more careful about these types of signals. That’s why these signals are used only for testing, to see the thresholds for search behaviors and query statistics, and to document statistical change that needs to affect the entity’s identity. I wouldn’t suggest you use fake search demand, or traffic without being a true expert. Another way of faking popularity is through “expertise.” Because the website publishers couldn’t fake the traffic, they faked the expertise with PageRank or AI Content, which brings us to the Google Author Rank research for understanding the real expertise. Thus, to play with the document statistics properly, the documents that signal different entity identities and contexts should have higher expertise. In other words, it is not just about how many documents define the entity; it is about who defines it, and with what kinds of trustworthiness and unique expertise.
+Below, you can see how the entity identity has been changed slowly due to query statistical change.
+The “biography” is merged with “kimdir” which means “who” question, and it is followed by the “business location” of Emek Külür, and “fiyat” which means “price”. Then, we have Instagram because Emek Külür’s Instagram account is associated with the business perspective because it is heavily used for business purposes. And, in the end, there is the “ex-wife” context, as well as the “ekşi,” which defines Emek Külür as an ex-wife. All this quick change signal means that the “ex-wife” context for the entity comes from an old “search memory,” which means that the document and query statistics are old, and the search engine is ready to change its own latest algorithmic decisions if there is new information. One more note is that the specific “ex-wife” entity image comes from a magazine source. In other words, the subtitle, and image source are aligned with the order of the auto-suggestions.
+How does Semantic Distance help Autosuggestion to shape Entity Identity?
+Semantic distance is the distance between two concepts or existing things with meaning. There are two main methods to measure the semantic distance between two concepts or real-world existing things. The first one is calculating the association and connection angles and their counts between two entities. The second one is counting the length of the connection length between two things with certain associations. In other words, if A is connected to B, B to C, and C to Z, it means that the semantic distance between Relevance calculation changes how to query semantics and document statistics are added together to make up the semantic distance calculation. Even if the semantic distance is 99 based on connection count, and length with a narrow association diversity, the documents’ PageRank, their vocabulary differences, and query metrics can change it. A Holistic SEO has to understand the search engine engineer, the engineer’s data, and limitations to bending entity identities, or topical map creation for a specific entity. For example, a document that ranks for 99 queries, contains 2 entities that exist in these 99 search queries, and 7 different predicates and the specific document is similar to other 17 documents that rank 400 more diverse queries with 23 different predicates, but mostly only one of these entities is labeled with these predicates, as an agent. In this case, the relations and associations between these two entities will change, and 2
+
+[...truncated...]

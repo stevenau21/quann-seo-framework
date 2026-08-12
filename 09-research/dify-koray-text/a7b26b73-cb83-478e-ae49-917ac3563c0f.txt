@@ -1,0 +1,118 @@
+HTML "legend" Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <legend> HTML Tag can assist your users in comprehending your forms and other elements by indicating the purpose of the group of elements. For instance, a <legend> HTML Tag could offer a caption for a <fieldset> element that says “Name Details,” while another may read “Address Details”. The <legend> HTML Tag is part of the forms and input tags category. The attributes of the <legend> HTML Tag are global and event attributes.
+<legend> code block example to learn how it works is given below.
+<fieldset>
+<legend>Caption here</legend>
+fieldset content
+</fieldset>
+The second example usage of the “<legend>” code block example is below.
+<fieldset>
+<legend>Covid-19 Contact Tracing Form</legend>
+<p>Full Name: <input type="text" style="width:120px;"> Contact Number: <input type="text" style="width:120px;"></p>
+<p>Age: <input type="text" style="width:60px;"> Temperature: <input type="text" style="width:60px;">
+<p>Complete Address: <input type="text" style="width:240px;"></p>
+</fieldset>
+<fieldset>
+<legend>Gender</legend>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="other"> Other
+</fieldset>
+Contents of the Article
+show
+1.
+What is <legend> HTML Tag?
+2.
+How to Use <legend> HTML Tag?
+2.1.
+Example Usage of <legend> HTML Tag?
+3.
+What are the Attributes of <legend> HTML Tag?
+4.
+What are the Default CSS Settings for <legend> HTML Tag?
+5.
+What are the Related other HTML Tags to <legend>?
+What is <legend> HTML Tag?
+The legend tag specifies the title of the child content. The element that contains the legend is the parent element. The caption for the <fieldset> element is defined using this tag.
+How to Use <legend> HTML Tag?
+To use the <legend> HTML Tag, the site developer should write <legend></legend>, with the caption added between the beginning and finishing tags.
+Example Usage of <legend> HTML Tag?
+The following examples of usage of <legend> HTML Tag is given below.
+<fieldset>
+<legend>Survey Form</legend>
+<p>Name: <input type="text" style="width:120px;"> Contact Number: <input type="text" style="width:120px;"></p>
+<p>Email Address: <input type="text" style="width:120px;">
+<p>Address: <input type="text" style="width:240px;">
+<p>Ratings: <input type="text" style="width:60px;">
+<p>Comments: <input type="text" style="width:240px;">
+<p>Suggestions: <input type="text" style="width:240px;">
+</p>
+</fieldset>
+What are the Attributes of <legend> HTML Tag?
+There are multiple attributes for the <legend> HTML Tag. The following attributes are listed below.
+Global Attributes: The <legend> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <legend> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <legend> HTML Tag?
+The following is the Default CSS Setting for the <legend> HTML Tag.
+legend {
+background-color: #000;
+color: #fff;
+padding: 3px 6px;
+}
+.output {
+font: 1rem 'Fira Sans', sans-serif;
+}
+input {
+margin: .4rem;
+}
+What are the Related other HTML Tags to <legend>?
+The other related HTML Tags to the <legend> HTML Tag are listed below.
+<select> HTML Tag: The
+<select>
+HTML Tag is related to <legend> HTML Tag because they are both forms and input tags. The <select> HTML Tag is used to define a drop down list.
+<optgroup> HTML Tag: The
+<optgroup>
+HTML Tag is related to <legend> HTML Tag because they are both forms and input tags. The <optgroup> HTML Tag denotes a group of options in a drop-down list.
+<option> HTML Tag: The <option> HTML Tag is related to <legend> HTML Tag because they are both forms and input tags. The <option> HTML Tag defines the select element’s options.
+<label> HTML Tag: The
+<label>
+HTML Tag is related to <legend> HTML Tag because they are both forms and input tags. The <label> HTML Tag is used to specify labels for input elements.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML “legend” Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML “meter” Tag Definition, Usage and…
+TechSEO
+HTML <input>  Definition, Usage and Exa…
+0
+0
+0

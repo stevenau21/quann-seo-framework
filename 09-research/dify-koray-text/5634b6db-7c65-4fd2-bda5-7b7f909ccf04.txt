@@ -1,0 +1,133 @@
+HTML <article> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <article> HTML Tag defines a semantic component that gives significance to the content on a website page. It usually provides information or material that is either the main section or a sample of the main information of a website page. The <article> HTML Tag can always be used to characterize segments on a webpage, but using the <article> HTML Tag is preferable because whenever a browser or web crawler visits a web address and sees a section of the content contained within the <article> HTML Tag, it will immediately recognize that this specific part contains the main topic. The <article> HTML Tag is part of the Styles and Semantic HTML category in HTML Element Reference. The attributes of the <address> HTML Tag are global and event attributes.
+<article> code block example to learn how it works is given below.
+<article>
+<h1> </h1>
+<p>Article content</p>
+</article>
+The second example usage of the “<article>” code block example is given below.
+<article>
+<p>Here we go! This is our very first blog post</p>
+<footer>
+<p> Posted on <time datetime="2022-01-20 13:00">January 31</time> by Kryptonite </p>
+</footer>
+</article>
+Contents of the Article
+show
+1.
+What is <article> HTML Tag?
+2.
+How to Use <article> HTML Tag?
+2.1.
+Example Usage of <article> HTML Tag?
+3.
+What are the Attributes of <article> HTML Tag?
+4.
+What are the Default CSS Settings for <article> HTML Tag?
+5.
+What are the Related other HTML Tags to <article>?
+What is <article> HTML Tag?
+The <article> HTML Tag defines a piece of material that can stand on its own within a document, page, program, or web page. The <article> HTML Tag material is comprehensible. It stands on its own as a stand-alone piece of material on the page. On forums, blogs, news stories, comments, interactive widgets or gadgets, or any other individual piece of material, and so on, the <article> HTML Tag is commonly used.
+How to Use <article> HTML Tag?
+To use the <article> HTML Tag, the web developer should write <article></article> with article content placed in between the start and ending of the <article> HTML Tag. Although the tag lacks local attributes, it can be used with any of the global or event content attributes.
+Example Usage of <article> HTML Tag?
+The following examples of usage of <article> HTML Tag are given below.
+<html>
+<article>
+<h1>Earth</h1>
+<p>The Earth is approximately 93 million miles distant from the Sun on average. It travels around the Sun at such an average speed of 18.5 miles per second.</p>
+</article>
+</html>
+<article>
+<h1>It's our first blog post</h1>
+<p> Posted on <time datetime="2022-01-25 15:00">Jan 31</time> by Kryptonite </p>
+<p>Studytonight is a website which provides amazing programming tutorials and articles.</p>
+</article>
+<div>Some other related content... </div>
+What are the Attributes of <article> HTML Tag?
+There are multiple attributes for the <article> HTML Tag. The following attributes are listed below.
+Global Attributes: The <article> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <article> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <article> HTML Tag?
+The following are the Default CSS Settings for the <article> HTML Tag. Some examples are listed below this document.
+.forecast {
+margin: 0;
+padding: .3rem;
+background-color: #eee;
+font: 1rem 'Fira Sans', sans-serif;
+}
+.forecast > h1,
+.day-forecast {
+margin: .5rem;
+padding: .3rem;
+font-size: 1.2rem;
+}
+.day-forecast {
+background: right/contain content-box border-box no-repeat
+url('/media/examples/rain.svg') white;
+}
+.day-forecast > h2,
+.day-forecast > p {
+margin: .2rem;
+font-size: 1rem;
+}
+What are the Related other HTML Tags to <article>?
+The other related HTML Tags to the <article> HTML Tag are listed below.
+<main> HTML Tag: The <main> HTML Tag and <article> HTML Tag are related because they are both  Style and Semantics HTML Tags. It specifies the document’s primary content using the
+<main>
+HTML Tag.
+<header> HTML Tag: The <header> HTML Tag and <article> HTML Tag are related because they are both Style and Semantics HTML Tag. The
+<header>
+HTML Tag specifies a header for a page or portion of content.
+<details> HTML Tag: The <details> HTML Tag and <article> HTML Tag are related because they are both Style and Semantics HTML Tags. The
+<details>
+HTML Tag specifies additional information that the user can either display or hide.
+<data> HTML Tag: The <data> HTML Tag and <article> HTML Tag are related because they are both Style and Semantics HTML Tags. Content can be translated into machine-readable form using an HTML Tag that is known as the
+<data>
+HTML Tag.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+2 thoughts on “HTML <article> Tag Definition, Usage and Examples”
+Hi
+Can a page have multiple article tags?
+Reply
+Hello Salman,
+It is suggested to have a single-main article, and an article tag for a better web document organization.
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <article> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <meta> Tag Definition, Usage and Exampl…
+TechSEO
+HTML <img> Tag Definition, Usage and Example…
+0
+0
+2

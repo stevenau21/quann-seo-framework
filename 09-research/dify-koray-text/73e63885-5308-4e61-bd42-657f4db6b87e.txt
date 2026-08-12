@@ -1,0 +1,99 @@
+Hidden Content: Definition and Effects on SEO - Holistic SEO
+Skip to content
+Hidden content refers to content or links that can be read from a website in the source text, but is not visible to the visitor of a website. The goal of hiding content is not to restrict the
+usability of a website
+(text deserts), but to offer the search engines relevant content. The text enriched and hidden by keyword s has the goal to positively influence the results in the organic search results. Hiding content counts as manipulation according to Google Webmaster guidelines and is classified as Black Hat SEO.
+In the mid-1990s, a webmaster was able to get his page forward relatively quickly with a few “tricks” in the search results. Hidden content was also part of this: simply accumulate a section of text with keywords and make it disappear, for example, with white text color on a white background for the user’s eye, but not for the robot. At that time, search engine robots were not yet able to distinguish this text from other visible parts of the text. Nowadays, however, robots are developed to such an extent that they can easily recognize this and other hidden content. Also, hidden content is a subtype of
+Cloaking
+.
+Contents of the Article
+show
+1.
+PRACTICAL IMPLEMENTATION OF HIDDEN CONTENT
+2.
+SEARCH ENGINE OPTIMIZATION (SEO)
+3.
+DANGERS AND PUNISHMENTS
+4.
+HIDDEN CONTENT IS ALLOWED
+5.
+Last Thoughts on Hidden Content and Holistic SEO
+PRACTICAL IMPLEMENTATION OF HIDDEN CONTENT
+In practice, hidden content can appear in different forms. The most common occurrences are explained in more detail below:
+Manipulation of the font size
+: Using CSS, the hidden text is set to the size “0” and is therefore no longer recognizable to the user.
+Manipulation of the font
+color: By adjusting the font color to the color of the background, it is no longer visible to the user. This can either be solved using CSS or in the span tag and the respective color command.
+Hiding div containers
+: By hiding div containers using CSS “visibility: hidden” or “display: none”, entire text blocks can be removed from the front end.
+Text behind images
+: Another variant of hidden content is to overlay existing text with an image.
+Hidden links
+: Hidden links are also part of hidden content. For example, the linking of special characters such as hyphens or periods is classified as negative.
+As long as content appears in the source text, it can be read by search engines, even if no text is visible on the front end.
+SEARCH ENGINE OPTIMIZATION (SEO)
+When search engines were still in their infancy around the 1990s, search engine optimization was still very easy. Webmasters were able to achieve quick ranking successes with simple means. A tried and tested means was the use of hidden content. This content was specifically enriched with keywords in order to positively influence the ranking. It was not uncommon for keyword stuffing to be used in the hidden texts in order to rank a wide range of search terms.
+Even big brands like BMW used the measures to increase the findability of their website.
+In the past, crawlers could not distinguish between hidden and visible content
+. This has changed in the meantime. The
+Googlebot
+is now able to render a complete website and thus recognize differences between the source text and the delivered website.
+DANGERS AND PUNISHMENTS
+All search engines prohibit the use of hidden content in their guidelines (link to the Google Webmaster guidelines). Failure to do so may result in a penalty. Individual subpages or the complete domain can either be devalued in the ranking, or even the entire domain can be removed from the index. In today’s world, hidden content should no longer be used in an SEO strategy.
+Hiding links and or text violates the webmaster guidelines of search engine operators such as Google, Yahoo, and Bing. From Google, for example, there is a very specific guideline under the title “Hidden Text and Hidden Links”. After all, the procedure is nothing more than a manipulation of the search results and thus falls under the area of Black Hat SEO. If you hide content on your website, this can result in a penalty. This can affect a single page, but can also result in the search engine operator excluding the entire website from the index. The search algorithms from Google and Co. are constantly being improved so that hidden content of any kind is always recognized better. It is therefore not advisable to use this method to influence the ranking.
+HIDDEN CONTENT IS ALLOWED
+There are also exceptions to hidden content, which are not a deception according to the Google Webmaster guidelines.
+Alt attribute in pictures
+: It is allowed to add pictures with the alt attribute. The Alt attribute can be used to provide further, descriptive information about the image.
+Noscript in
+JavaScript
+: The NoScript tag enables you to provide the same information to users without JavaScript. An example of a text-based browser (without JavaScript) is Lynx.
+Videos
+: Google writes in the webmaster guidelines that adding text in the HTML code (description) is not a problem. It is also possible to provide a transcript of the video.
+In principle, additional information that explains content such as images, videos, or Javascript is not classified as hidden content and is therefore in compliance with guidelines.
+In this form, the hidden content is not only allowed but expressly requested.
+Furthermore, hidden content in the form of White Hat SEO can be used so as not to negatively influence the design of a page. In these examples, the content is actually not hidden but also not visible because of the web page’s design and interactivity design. This can be solved, for example:
+Showing some sections of the web page after certain interactions
+Use captions for placing keywords
+Show some content after the user’s hover or click actions
+Buttons to expand and collapse texts
+Last Thoughts on Hidden Content and Holistic SEO
+Hidden content is an old Black Hat SEO Technique but still, in 2020, there are some websites that use hidden content to create relevancy and gain ranking. In some cases, industries, and strategies, can also boost rankings. Hidden Content is a sub-kind of Cloaking. There are lots of different methods for cloaking, such as the Japanese Keyword Hack. A Holistic SEO doesn’t need to use Black Hat Techniques thanks to his/her Coding and Marketing Skills. But still, knowing Black Hat Techniques give a broader perspective to the SEOs, and also it teaches how to protect the customers from these kinds of acts and how to beat competitors who use Black Hat Techniques.
+In 2020, since the Search Engines embraces the Uncertainty Principles, bad hidden content and normally hidden content (hiding content for design and UX within certain interactions) have thin differences. In some SEO Strategies, these kinds of black hat techniques can create advantages by exploiting this thin difference line. When a Holistic SEO sees this kind of situation, he/she can report the situation to Google and also examine the web page to understand Search Engines’ behaviors better.
+Our Hidden Content Guideline will continue to improve over time.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Theoretical SEO
+What is Hidden Content? How to Detect and Avoid It?
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+Theoretical SEO
+Keyword Stuffing: Definition, Examples, and Effect…
+Theoretical SEO
+Google Caffeine Update: Fresher and Faster Indexin…
+0
+0
+0

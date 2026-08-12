@@ -1,0 +1,165 @@
+Customer Journey: How to Create a Customer Journey Map - Holistic SEO
+Skip to content
+A customer journey map is a visual representation of the experiences that customers have while interacting with a brand or on the way to buying a product. It shows the individual steps and the points of contact (touchpoints) between the company and the customer. Mostly diagrams and tables are used for this representation, but above all infographics.
+A good product alone is no guarantee of good sales. Today’s customers expect a positive customer experience at every stage of their journey, from the decision to purchase. Every point of this customer journey is a possible exit point – or a promising touchpoint. Touchpoints are places or moments where points of contact arise between customers and companies – either directly or via products and brands.
+Customer Journey Example
+The customer journey follows the simple AIDA principle: Attention, Interest, Desire, Action. The customer has to be addressed differently in these four steps. If information is still in the foreground when arousing attention (Attention) and interest (Interest), emotional aspects play a very important role in strengthening or arousing desire (Desire) and the ultimately decisive action. After the actual action, the process does not necessarily end. For example, satisfied customers can become a mouthpiece for the corporate message.
+Customer journey maps make the customer’s journey clear step by step. And with the customer journey mapping process, you learn to better understand customers.
+You may want to read some of the related UX and Marketing Guidelines:
+What is User-retention Rate?
+What is Conversion Funnel?
+What is a Mobile-first Design?
+What is Click Path?
+Contents of the Article
+show
+1.
+What is the AIDA customer journey model?
+2.
+What is the customer journey model of the consumer decision journey?
+3.
+What customer journey models are there?
+3.1.
+Customer journey model: Moments of Truth
+4.
+What are the advantages of customer Journey maps?
+5.
+How can a customer journey map be created?
+5.1.
+1. Definition of the Buyer persona
+5.2.
+2. Define the individual steps of the customer journey
+5.3.
+3. Define the Possible touchpoints
+6.
+Digital Mapping Tools
+7.
+The Right Content for the Customer Journey
+8.
+What is the difference between customer journey and sales funnel?
+9.
+Frequently Asked Questions Related to the Customer Journey
+10.
+Customer Journey Map and Its Importance for SEO
+What is the AIDA customer journey model?
+The
+AIDA
+approach is based on a four-step
+Customer
+–
+Journey model
+. The AIDA model is divided into the following levels:
+Attention,
+Interest
+Desire
+Action
+The
+AIDA
+model describes the four continuous phases from the first approach to a customer, the
+target group
+, to the
+purchase decision
+.
+Information phase
+: Orientation and finding of information of the customer. The customer does research on the Internet. Gather the information he needs.
+Specification phase
+: Analysis and requirements phase. The customer’s needs are deepened and substantiated.
+Provider Selection phase
+: Here a solution and the right provider are searched for and summarized. Information on the websites compared and reduced.
+Provider selection – phase and decision-making
+: The final phase, also called the close phase, means that contact with the provider is established. This makes an offer. Important bases for purchase are representations, advantages, and benefits. The customer buys the product or service. Completion of the
+customer journey
+.
+AIDA Customer Journey Model
+What is the customer journey model of the consumer decision journey?
+The
+Consumer Decision Journey
+was developed by the McKinsey management consultancy. This model is not a funnel, begins in the consideration phase and ends like the AIDA model in the purchase phase. It, therefore, consists of only two phases and only represents a section of the customer journey.
+Customer Decision Journey
+The user has a need and is looking for satisfaction to find solutions that are initially limited to the brands that are already known to him. Now the user sorts his preferences in his head and analyzes which solution offer suits him the most. In the end, the user decides to buy a specific range of solutions. This turns the user into a customer. On the next customer trip, the customer will look back at the experiences already made and take them into account when making their decision.
+What customer journey models are there?
+Customer journey model: Moments of Truth
+The second customer journey model,
+Moments of Truth
+, is one of the best-known customer-Disney models. It was developed by
+Procter & Gamble
+. It is divided into three phases:
+What is the Moment of Truth?
+The customer is stimulated by a z. B. a TV advertisement, attention to a
+brand,
+or a product. If the stimulus was sufficient, the customer decides in store for this brand or product. This is often the first moment of truth. At the
+second moment, often Truth
+, the customer consumes the product or service and experiences it with it.
+Different Moments of Truth terms were coined by different companies or authors over time.
+The term has become an integral part of marketing. These different moments of truth have the following meanings:
+First Moment of Truth (FMOT)
+, coined in 2005 by Alan George Lafley  (Procter & Gamble), describes the moment when consumers perceive a product on the shelf.
+The Second Moment of Truth (SMOT)
+characterizes the moment when consumers buy a product after the quality promise. B. the brand, check.
+Third Moment of Truth (TMOT)
+, coined by digital and social media expert
+Pete Blackshaw
+(Procter & Gamble) in 2006, describes the moment when consumers express themselves positively, neutrally, or negatively on the product based on their own experiences. This happens either in direct contact with other consumers or indirectly such as on social media. These statements play a crucial role in online marketing today, for example in the area of ​​social media monitoring, reviews, and evaluations in e-commerce, in communities or forums as well as in the implementation of campaigns in recommendation marketing.
+Zero moments often truth
+(ZMOT) refers to the moment at which the potential customer begins researching a product or service on the Internet. By a stimulus by e.g. B. advertising, is searched for a
+solution
+on the Internet for more information. With the increasing use of mobile devices such as smartphones or tablets, this behavior is moving ever closer to the place of purchase.
+First Moment of Truth (FMOT)
+, coined in 2005 by Alan George Lafley  (Procter & Gamble), describes the moment when consumers perceive a product on the shelf.
+The Second Moment of Truth (SMOT)
+characterizes the moment when consumers buy a product after the quality promise. B. the brand, check.
+Third Moment of Truth (TMOT)
+, coined by digital and social media expert
+Pete Blackshaw
+(Procter & Gamble) in 2006, describes the moment when consumers express themselves positively, neutrally, or negatively on the product based on their own experiences. This happens either in direct contact with other consumers or indirectly such as on social media. These statements play a crucial role in online marketing today, for example in the area of ​​social media monitoring, reviews, and evaluations in e-commerce, in communities or forums as well as in the implementation of campaigns in recommendation marketing.
+Zero moments often truth
+(ZMOT) refers to the moment at which the potential customer begins researching a product or service on the Internet. By a stimulus by e.g. B. advertising, is searched for a
+solution
+on the Internet for more information. With the increasing use of mobile devices such as smartphones or tablets, this behavior is moving ever closer to the place of purchase.
+What are the advantages of customer Journey maps?
+The customer journey has established itself as an abstract model in marketing. Mapping brings this journey of the customer into a vivid form. So it makes the movements visible. Customer journey maps have a number of advantages:
+They provide an overview of the entire customer journey.
+They make data immediately visible and therefore easier to understand.
+They show exit points, hurdles and touch points.
+They clarify the relationships between individual aspects.
+They help to win new customers and to bind existing customers to a company.
+Although customer journey maps often have a simplifying and generalizing effect, they have proven themselves in marketing practice above all because of their creative potential.
+How can a customer journey map be created?
+Mapping means mapping the customer experience. This process can be very complex. Visual representations, therefore, facilitate understanding. The actual map of the trip can be created using sophisticated tools, but generally also with a pencil and sketch pad. Regardless of whether you create the card in analog or digital form: In principle, the procedure consists of three points: buyer personas, steps, and touchpoints.
+1. Definition of the Buyer persona
+The quality of the customer journey maps depends to a large extent on how well the customer is presented in the form of a persona – and as clearly as possible: With mapping, you design a virtual person with all their wishes, current problems and specific characteristics (age, life circumstances, job, Family, values, etc.). It is also useful to give the persona a name and an image. This persona then becomes a cross-section of the customers – but with its own identity.
+2. Define the individual steps of the customer journey
+What is the typical path of the persona from consideration to purchase, for example when it comes to a product? There are various intermediate destinations on every step of this journey. These steps can be set up, for example, in the form of a storyboard. Images support understanding. Even simple stick figures are enough. For professional customer journey mapping, there are of course numerous tools that can be used, for example, to visualize the emotions on the various steps.
+3. Define the Possible touchpoints
+Can the individual steps be used for touchpoints? At what points does the company contact customers? These include, for example, an online advertisement, a visit to the website, the store, or contacting service or support.
+It is important that this is usually not just about selling a special product. The focus is on strengthening the entire brand. The customer journey does not end when you buy a product. This is where intelligent marketing comes in and tries to find out how, for example, satisfied customers can be used to spread the brand.
+Digital Mapping Tools
+Numerous tools for creating customer journey maps offer the user extensive options. These tools aim to represent as many aspects as possible simply and accurately using graphic means. These include, for example
+The possibility to display emotion curves that show the feelings of the customers on the different steps,
+Create personas and give them a face
+To link the steps or touchpoints with web analyzes,
+Present the results in different ways (for example as a film or PowerPoint presentation).
+The Right Content for the Customer Journey
+Modern marketing is based on the individual touchpoints between customers and the company. Mapping is also helpful for the development of a content strategy along the customer journey. Sometimes the customer’s road map clearly shows the solution to a problem:
+What information does the customer need at a specific point in his trip?
+In what form should this information be conveyed? Advice or checklists? Videos or infographics? Short definitions or extensive tables?
+Does the customer want to be entertained rather than informed at a certain point?
+The customer journey map highlights problems at the various interaction points. Many touchpoints are ineffective only because the text does not strike the right note, appeals to the wrong emotions, or is simply not written in the target group’s language. A single word can determine whether the user clicks on the decisive link on a website or not.
+The worst-case: A customer is so unsuitably addressed to the target group that he turns away from the company permanently and is difficult to regain. To avoid this risk, outsourcing text creation is a good option.
+What is the difference between customer journey and sales funnel?
+There are different models for the representation of the customer trip, which have evolved over time. These models try to represent the often very individual and unstructured customer trip in practice in a methodical model.
+Sales Funnels and Customer Journey are parallel terms to each other.
+When considering the journey from the target group to the customer or buyer journey, there are two basic model approaches.
+Sales funnel
+Customer journey
+While sales funnel only take into account the phases from the awareness phase to the purchase, the customer journey goes further and pursues the existing customer even further. Customer journey models are often represented as vertical funnels or horizontal models. Customer Journey also includes the emotional phases of the customers along with different
+buyer personas
+and multiple communication factors, unlike sales funnels.
+Frequently Asked Questions Related to the Customer Journey
+What is the classic customer journey model?
+The classic customer journey model differentiates between the phases of awareness, consideration, purchase, retention, and advocacy.
+What does customer journey mapping mean?
+With customer journey mapping, possible channels, advertising media, content, advertising media … are classified into the individual phases of the customer journey of the respective target group.
+What are touchpoints?
+Touchpoints are contact points at which a user gets contact with a brand, a product, or an offer. Possible touchpoints can be content, advertising, the product itself, or communication with sales or
+
+[...truncated...]

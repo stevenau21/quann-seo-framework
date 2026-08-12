@@ -1,0 +1,115 @@
+If-Match HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The If-Match HTTP Header conditionally sends the request. The server will return the requested resource only if it matches one of the listed ETags for the GET and HEAd methods. The HTTP GET method is used to obtain a representation of the requested resource. GET requests should be used exclusively to obtain data. The HTTP HEAD method obtains the headers that would be returned if the HEAD request’s URL were instead obtained via the HTTP GET method. In the event of PUT and other unsafe methods, it will just upload the resource. The HTTP PUT request method creates a new resource or overwrites the target resource’s representation with the request payload. The comparison with the ETag encoded in the file is performed using a strong comparison technique, which means that the two files are regarded as an identical byte for byte. If an ETag is listed with the W/prefix, the comparison technique will never match it. The If-Match HTTP Header has two directive values. The syntax of the If-Match HTTP Header is the <etag_value>, which is the entity tag uniquely representing the requested resources. The “*” is an asterisk with a special value that can be used to represent any resource. The examples of the If-Match HTTP Header are shown below.
+If-Match: "gyc13a654329c89090ef5b2c3930249c76ca92d62d"
+If-Match: "17ab83", "54ed81", "7872vd"
+If-Match: *
+If-Match HTTP Header Response Header is seen above. In the article, the If-Match HTTP Header Syntax, Directives, and Uses with examples will be processed.
+Contents of the Article
+show
+1.
+What is the If-Match HTTP Header?
+1.1.
+What is the Syntax of If-Match HTTP Header?
+1.2.
+What is the Directive of If-Match HTTP Header?
+2.
+How to use an If-Match HTTP Header?
+2.1.
+Examples of If-Match HTTP Header Use
+3.
+What is the Specification Document for If-Match HTTP Header?
+4.
+What are the types of If-Match HTTP Header?
+4.1.
+What are the similar HTTP Headers to the If-Match HTTP Header?
+5.
+Which Browsers Support If-Match HTTP Header?
+What is the If-Match HTTP Header?
+The HTTP headers are a set of data that is transmitted over the internet. If-Match is a type of request header. It is used to make a request conditional on a specific outcome. It will only upload the resource if it meets one of the conditional ETags described above. The server will give back the requested resource for PUT and other non-safe methods if it matches one of the conditional ETags listed above.
+What is the Syntax of If-Match HTTP Header?
+The syntax for using If-Match HTTP Header is written below.
+If-Match: <etag_value>
+If-Match: <etag_value>, <etag_value>, …
+What is the Directive of If-Match HTTP Header?
+There are two directives that can be put in the If-Match HTTP Header. The directives for using the If-Match HTTP Header are given below.
+<etag_value>
+Entity tags are unique identifiers for the resources that have been requested. They are made up of a string of ASCII letters that are enclosed in double quotes (like “675af34563dc-tr34”). In some cases, they may be prefixed with W/ to indicate that they are “weak,” i.e. that they just represent the resource conceptually, rather than byte-by-byte. Weak entity-tags, on the other hand, will never match in an If-Match header.
+"*"
+The asterisk is a special value that can be used to represent any resource.
+The If-Match directive examples are listed below.
+If-Match: *
+If-Match: "afyr906nfk5145hfef5bhoy507dfhgfd9h"
+How to use an If-Match HTTP Header?
+The use of the If-Match HTTP header is for the GET and HEAD methods to combine with a Range Header. It guarantees that the new ranges requested originate from the same resource as the prior one. If it doesn’t match, then a 416 (Range Not Satisfiable) answer is returned. The If-Match HTTP Header is used to prevent the lost update problem from occurring with other methods, and in particular with PUT. It will be determined if an update to a resource that a user wishes to upload will override another change that has occurred since the original resource was fetched by checking for conflicts. The 412 (Precondition Failed) response code will be issued to the user if the request is unable to be fulfilled.
+Examples of If-Match HTTP Header Use
+An example of the If-Match HTTP Header use is given below.
+If-Match: "bfc13a52729c8960ef5b2c8930249c96ca82d91d"
+If-Match: "07ad83", "38ed21", "9592nd"
+If-Match: *
+What is the Specification Document for If-Match HTTP Header?
+There is only one specification document for the Server HTTP Header, which is RFC 7232. RFC 7232 mentions the definition and uses of the If-Match HTTP Header. Also, the example directives of the If-Match Header are mentioned in the article.
+What are the types of If-Match HTTP Header?
+The  If-Match HTTP Header HTTP Type is listed below.
+Response Headers – The If-Match HTTP Header includes extra information about the response, such as its location or the identity of the server that provided it.
+Representation Header – The If-Match HTTP Header provides information about the content of the resource’s body.
+Payload Headers – The If-Match HTTP Header contain representation-independent information on the payload data, such as the length of the content and the encoding used for transmission
+What are the similar HTTP Headers to the If-Match HTTP Header?
+The similar HTTP Headers to the If-Match HTTP Header are listed below,
+201 Created:
+The HTTP 201 created protocol is used to communicate with the server. The success status response code indicates that the request was successful and that a resource equivalent to the If-Match HTTP Header was created as a result of the successful completion of the request.
+204 No Content:
+The HTTP 204 No Content answer to Etag is cacheable in the same way that the If-Match HTTP Header is cacheable.
+Which Browsers Support If-Match HTTP Header?
+There are multiple browsers that support If-Match HTTP Header. The following browsers are listed below.
+Internet Explorer Browser is compatible with the If-Match HTTP Header.
+Edge Browser is compatible with the If-Match HTTP Header.
+Firefox Browser is compatible with the If-Match HTTP Header.
+Chrome Browser is compatible with the If-Match HTTP Header.
+Safari Browser is compatible with the If-Match HTTP Header.
+Opera Browser is compatible with the If-Match HTTP Header.
+Safari on IOS Browser is compatible with the If-Match HTTP Header.
+Android Browser Browser is compatible with the If-Match HTTP Header.
+Opera Mobile Browser is compatible with the If-Match HTTP Header.
+Chrome for Android Browser is compatible with the If-Match HTTP Header.
+Firefox for Android Browser is compatible with the If-Match HTTP Header.
+Samsung Internet Browser is compatible with the If-Match HTTP Header.
+You can see an image that shows cross-browsers compatibility of Referer HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+If-Match HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Content-Language HTTP Header: Syntax, Directive, E…
+TechSEO
+Accept-CH-Lifetime HTTP Header: Syntax, Directive,…
+0
+0
+0

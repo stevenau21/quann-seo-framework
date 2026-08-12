@@ -1,0 +1,330 @@
+NLTK Stemming Words: How to Stem with NLTK? - Holistic SEO
+Skip to content
+NLTK Stemming is a process to produce morphological variations of a word’s original root form with NLTK. Stemming is a part of linguistic morphology and information retrieval. The root of the stemmed word has to be equal to the morphological root of the word. Stemming algorithms and stemming technologies are called stemmers. Natural Language Tool Kit has a built-in stemming algorithm called “PorterStemmer”. “PorterStemmer” of the NLTK comes from the Linguistic Scientist Martin Porter. Some of the Stemming examples can be found below.
+For the word Flying, “ing” is the suffix. The original stem word is Fly.
+The words beauty and duty are the stem words for beautiful and dutiful.
+The suffixes able, and possible can be used for generating ability, and possibility words with stemming.
+The Waits, Waited, Waiting words are the inflectional forms of the word Wait.
+NLTK Stemming is beneficial for performing the steaming process to clean textual data to develop a Natural Language Processing Algorithm. NLTK Lemmatization and NLTK Stemming are connected to each other to perform a better Word and Sentence Tokenization with NLTK. Besides the NLTK PorterStemmer, there are other stemming algorithms within the NLTK such as SnowballStemmer, or RegexpStemmer. Different types of stemmers within the NLTK focus on different languages, rules, or algorithmic rules. For instance, the RegexpStemmer is a rule-based stemmer that focuses on regex rules, while PorterStemmer is the standard stemmer of the NLTK.
+In this NLTK Stemming tutorial and guideline, stemming functions, parameters, visualizations, and examples will be processed and demonstrated.
+Contents of the Article
+show
+1.
+How to Perform Stemming with NLTK?
+2.
+What are the benefits of the NLTK Stemming Algorithms?
+3.
+What modules do exist within the NLTK for Stemming?
+3.1.
+How to perform a Regex Stemming with NLTK?
+3.2.
+How to use LancasterStemmer with NLTK?
+3.3.
+How to use SnowballStemmer with NLTK?
+4.
+How to Stem Sentences with NLTK?
+5.
+What is the Relation between NLTK Stemming and NLTK Tokenization?
+6.
+What is the Relation Between NLTK Stemming and NLTK Lemmatization?
+7.
+What is the Relation Between NLTK Stemming and Named Entity Recognition?
+8.
+What is the Definition of Stemming for NLP?
+9.
+Last Thoughts on NLTK Stemming and Holistic SEO
+How to Perform Stemming with NLTK?
+To perform stemming with NLTK (Natural Language Tool Kit), the “PorterStemmer” from the “nltk.stem” should be imported to the Python Script. Before tokenizing the words with NLTK, performing stemming can change the tokens after the stemming process. Below, you will be able to see an example of the NLTK Stemming with Python code script.
+from nltk.stem import PorterStemmer
+from nltk.tokenize import word_tokenize
+import pandas as pd
+ps = PorterStemmer()
+text = """Hebrew and Arabic are still considered difficult research languages for stemming. English stemmers are fairly trivial (with only occasional problems, such as "dries" being the third-person singular present form of the verb "dry", "axes" being the plural of "axe" as well as "axis"); but stemmers become harder to design as the morphology, orthography, and character encoding of the target language becomes more complex. For example, an Italian stemmer is more complex than an English one (because of a greater number of verb inflections), a Russian one is more complex (more noun declensions), a Hebrew one is even more complex (due to nonconcatenative morphology, a writing system without vowels, and the requirement of prefix stripping: Hebrew stems can be two, three or four characters, but not more), and so on."""
+tokens = word_tokenize(text)
+print(tokens)
+stemmed = []
+for token in tokens:
+stemmed_word = ps.stem(token)
+stemmed.append(stemmed_word)
+print(stemmed)
+df = pd.DataFrame(data={"tokens":tokens, "stemmed": stemmed})
+OUTPUT >>>
+['Hebrew', 'and', 'Arabic', 'are', 'still', 'considered', 'difficult', 'research', 'languages', 'for', 'stemming', '.', 'English', 'stemmers', 'are', 'fairly', 'trivial', '(', 'with', 'only', 'occasional', 'problems', ',', 'such', 'as', '``', 'dries', "''", 'being', 'the', 'third-person', 'singular', 'present', 'form', 'of', 'the', 'verb', '``', 'dry', "''", ',', '``', 'axes', "''", 'being', 'the', 'plural', 'of', '``', 'axe', "''", 'as', 'well', 'as', '``', 'axis', "''", ')', ';', 'but', 'stemmers', 'become', 'harder', 'to', 'design', 'as', 'the', 'morphology', ',', 'orthography', ',', 'and', 'character', 'encoding', 'of', 'the', 'target', 'language', 'becomes', 'more', 'complex', '.', 'For', 'example', ',', 'an', 'Italian', 'stemmer', 'is', 'more', 'complex', 'than', 'an', 'English', 'one', '(', 'because', 'of', 'a', 'greater', 'number', 'of', 'verb', 'inflections', ')', ',', 'a', 'Russian', 'one', 'is', 'more', 'complex', '(', 'more', 'noun', 'declensions', ')', ',', 'a', 'Hebrew', 'one', 'is', 'even', 'more', 'complex', '(', 'due', 'to', 'nonconcatenative', 'morphology', ',', 'a', 'writing', 'system', 'without', 'vowels', ',', 'and', 'the', 'requirement', 'of', 'prefix', 'stripping', ':', 'Hebrew', 'stems', 'can', 'be', 'two', ',', 'three', 'or', 'four', 'characters', ',', 'but', 'not', 'more', ')', ',', 'and', 'so', 'on', '.']
+['hebrew', 'and', 'arab', 'are', 'still', 'consid', 'difficult', 'research', 'languag', 'for', 'stem', '.', 'english', 'stemmer', 'are', 'fairli', 'trivial', '(', 'with', 'onli', 'occasion', 'problem', ',', 'such', 'as', '``', 'dri', "''", 'be', 'the', 'third-person', 'singular', 'present', 'form', 'of', 'the', 'verb', '``', 'dri', "''", ',', '``', 'axe', "''", 'be', 'the', 'plural', 'of', '``', 'axe', "''", 'as', 'well', 'as', '``', 'axi', "''", ')', ';', 'but', 'stemmer', 'becom', 'harder', 'to', 'design', 'as', 'the', 'morpholog', ',', 'orthographi', ',', 'and', 'charact', 'encod', 'of', 'the', 'target', 'languag', 'becom', 'more', 'complex', '.', 'for', 'exampl', ',', 'an', 'italian', 'stemmer', 'is', 'more', 'complex', 'than', 'an', 'english', 'one', '(', 'becaus', 'of', 'a', 'greater', 'number', 'of', 'verb', 'inflect', ')', ',', 'a', 'russian', 'one', 'is', 'more', 'complex', '(', 'more', 'noun', 'declens', ')', ',', 'a', 'hebrew', 'one', 'is', 'even', 'more', 'complex', '(', 'due', 'to', 'nonconcaten', 'morpholog', ',', 'a', 'write', 'system', 'without', 'vowel', ',', 'and', 'the', 'requir', 'of', 'prefix', 'strip', ':', 'hebrew', 'stem', 'can', 'be', 'two', ',', 'three', 'or', 'four', 'charact', ',', 'but', 'not', 'more', ')', ',', 'and', 'so', 'on', '.']
+The explanation of the NLTK Stemmer code block above can be found as follows.
+First, imported the NLTK.stem.PorterStemmer.
+Second, imported NLTK.tokenize.wordtokenize.
+Third, imported the Pandas as pd.
+Fourth, create a variable, and assign the PorterStemmer() to it.
+Take a text for Stemming. In this example, a text is used for Stemming.
+Tokenize the words for getting tokens from the example text.
+Print the tokens.
+Create a variable for appending the stemmed tokens.
+Use a for loop for stemming the tokenized words from the example text that is used for the “word_tokenize” function.
+Print the stemmed words that are stemmed with NLTK “PorterStemmer()”.
+Create a data frame with the tokenized words, and stemmed words to compare them to each other.
+Below, you will see the output of the NLTK Stemming with the words stem root and their original form with suffixes.
+The table version of the results of the NLTK Stemming can be found below.
+tokens
+stemmed
+0
+Hebrew
+hebrew
+1
+and
+and
+2
+Arabic
+arab
+3
+are
+are
+4
+still
+still
+5
+considered
+consid
+6
+difficult
+difficult
+7
+research
+research
+8
+languages
+languag
+9
+for
+for
+10
+stemming
+stem
+11
+.
+.
+12
+English
+english
+13
+stemmers
+stemmer
+14
+are
+are
+15
+fairly
+fairli
+16
+trivial
+trivial
+17
+(
+(
+18
+with
+with
+19
+only
+onli
+20
+occasional
+occasion
+21
+problems
+problem
+22
+,
+,
+23
+such
+such
+24
+as
+as
+25
+“
+“
+26
+dries
+dri
+27
+‘
+‘
+28
+being
+be
+29
+the
+the
+30
+third-person
+third-person
+31
+singular
+singular
+32
+present
+present
+33
+form
+form
+34
+of
+of
+35
+the
+the
+36
+verb
+verb
+37
+“
+“
+38
+dry
+dri
+39
+‘
+‘
+40
+,
+,
+41
+“
+“
+42
+axes
+axe
+43
+‘
+‘
+44
+being
+be
+45
+the
+the
+46
+plural
+plural
+47
+of
+of
+48
+“
+“
+49
+axe
+axe
+Stemmed and the Tokenized versions of the words from the textual data example with NLTK.
+What are the benefits of the NLTK Stemming Algorithms?
+The benefits of the NLTK Stemming algorithms are listed below.
+Removing the affixes from the words.
+Helping to understand the role of the word within the sentence
+Helping to understand tense of the sentence
+Helping to see derivational morphology of words
+Making irregular words to similar each other for better text understanding
+What modules do exist within the NLTK for Stemming?
+The modules that can be used for stemming with NLTK are listed below.
+nltk.stem.regexp module
+nltk.stem.rslp module
+nltk.stem.snowball module
+nltk.stem.util module
+nltk.stem.wordnet module
+nltk.stem.api module
+nltk.stem.arlstem module
+nltk.stem.arlstem2 module
+nltk.stem.cistem module
+nltk.stem.isri module
+nltk.stem.lancaster module
+nltk.stem.porter module
+The different types of NLTK Stemmers exist with different algorithms for different purposes. The explanations, descriptions, and examples of all of the NLTK Stemmers can be found in the next sections.
+How to perform a Regex Stemming with NLTK?
+To perform a Regex Stemming with NLTK, the “RegexpStemmer” should be used. Regex Stemming with NLTK is an example of rule-based stemming. A regex rule can be used for stemming the words with a different methodology. In this context, only a certain suffix can be stemmed with a different output via NLTK. Example usage of the RegexpStemmer can be found below.
+from nltk.stem import RegexpStemmer
+st = RegexpStemmer('ing$|s$|ed$|able$', min=4)
+regex_stemming_words = ["running", "runs", "runed", "workable"]
+for word in regex_stemming_words:
+print(st.stem(word))
+OUTPUT>>>
+runn
+run
+run
+work
+The example explanation of the NLTK Stemming with Regex Rules can be found below.
+Import the NLTK.stem.RegexpStemmer
+Assigned it to a different variable which is “st”.
+Take words for stemming with Regex and NLTK.
+Use a for loop for stemming with regex, and NLTK.
+Put a minimum length for the stemming word length with the “min” parameter of “RegexpStemmer”.
+Determine the “suffixes that will be stemmed” with NLTK RegexpStemmer, in this case, these are ” ing$|s$|ed$|able$”.
+The regex stemming with NLTK can be used for text cleaning for specific cases. Instead of training a new algorithm, the regex rules can be more economical and faster for NLTK Stemming.
+How to use LancasterStemmer with NLTK?
+To use the Lancaster Stemmer with NLTK, the “LancasterStemmer” function from NLTK should be used. The instructions for using the LancasterStemmer with NLTK can be found below.
+Import the “LancasterStemmer” from the “nltk.stem”.
+Create a variable, assign the “LancasterStemmer()” to the variable.
+Call the “LancasterStemmer().stem()” method for the example text.
+Take the results for examination, or training an NLP Algorithm.
+Example usage of the Lancaster Stemmer can be found below.
+from nltk.stem import LancasterStemmer
+lancaster=LancasterStemmer()
+print("Lancaster Stemmer Examples")
+print(lancaster.stem("dogs"))
+print(lancaster.stem("shooting"))
+print(lancaster.stem("shot"))
+print(lancaster.stem("standartization"))
+OUTPUT>>>
+Lancaster Stemmer Examples
+dog
+shoot
+shot
+standart
+The Lancaster Stemming with NLTK example and its output can be seen above. The Lancaster Stemming (Paice-Husk stemmer) and the Porter Stemming are close to each other. The Porter Stemmer is the oldest NLTK Stemmer since 1990, while the Lancaster Stemmer has been developed later for some other specific situations. In some cases, the PorterStemmer, and the LancasterStemmer are not perfect for the English Language, since they remove the suffixes from the words based on certain rules in the context of Suffix Stripping. To perform stemming for the English Language based on the Linguistics, the “PorterStemmer” should be used with the SnowballStemmers which is developed by Martin Porter.
+To learn how to use SnowballStemmer with NLTK for English Linguistics, read the next section.
+How to use SnowballStemmer with NLTK?
+To use the SnowballStemmers with NLTK, the “SnowballStemmbers” function of the NLTK is used. To use the SnowballStemmer with NLTK, follow the instructions below.
+Import the “nltk.stem.snowball.SnowballStemmer”.
+Assign the “SnowballStemmer()” to a variable.
+Take the textual date and assign it to a variable such as “snowball_stemmer_words”.
+Perform the SnowballStemmer over the textual data with the “SnowballStemmer.stem()” example.
+Print the output of the NLTK SnowballStemmer.
+Example usage of the SnowballStemmer with NLTK can be found below.
+from nltk.stem.snowball import SnowballStemmer
+snowball_stemmer = SnowballStemmer(language='english')
+words = ['loved','table','closely','serch engine optimization','googling',
+'stemming','stemmer','lemmatization','opportunity', 'process']
+snowball_stemmer_words = []
+for w in words:
+x = snowball_stemmer.stem(w)
+snowball_stemmer_words.append(x)
+ps = PorterStemmer()
+porter_stemmer_words = []
+for w in words:
+x = ps.stem(w)
+porter_stemmer_words.append(x)
+for e1, e2 in zip(words, snowball_stemmer_words):
+print(e1+' ----> '+e2)
+class bcolors:
+HEADER = '\033[95m'
+OKBLUE = '\033[94m'
+OKCYAN = '\033[96m'
+OKGREEN = '\033[92m'
+WARNING = '\033[93m'
+FAIL = '\033[91m'
+ENDC = '\033[0m'
+BOLD = '\033[1m'
+UNDERLINE = '\033[4m'
+print(f"{bcolors.WARNING}Comparison of the PorterStemmer to the SnowballStemmer{bcolors.ENDC}")
+for e1, e2 in zip(snowball_stemmer_words, porter_stemmer_words ):
+print(e1+' ----> '+e2)
+from nltk.stem.snowball import SnowballStemmer
+snowball_stemmer = SnowballStemmer(language='english')
+words = ['loved','table','closely','serch engine optimization','googling',
+'stemming','stemmer','lemmatization','opportunity', 'process']
+snowball_stemmer_words = []
+for w in words:
+x = snowball_stemmer.stem(w)
+snowball_stemmer_words.app
+
+[...truncated...]

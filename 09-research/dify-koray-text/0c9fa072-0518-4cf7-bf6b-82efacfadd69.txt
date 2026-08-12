@@ -1,0 +1,275 @@
+Document Object Model: Introduction to the HTML DOM
+Skip to content
+The
+Document Object Model
+is a specification of a programming interface which HTML – or XML – document as a tree structure represents in which each node an object is, which represents a part of the document, e.g. B. a paragraph, a heading, a video, or a table cell. The interface is platform and programming language independent and thus allows standardized changes to the structure and layout of a document. In the web browser, this forms an important building block for dynamic websites.
+The DOM is defined by the World Wide Web Consortium. An implementation that meets the DOM specification consists of a set of classes together with their methods and attributes in the sense of object-oriented programming.
+The term “Document Object
+Model
+” is actually a misnomer, since DOM is not defined as a model but as an interface for data access and is also referred to as such by the W3C. The designation as a
+model
+, on the other hand, emphasizes the well-defined object
+model
+on which the interface is based, the validity of which is a prerequisite for the validity of the interface built on it. At a higher level of abstraction, an interface is also a model, named for the way in which objects or data are accessed.
+Document Object Model representation and DOM Interface Methods.
+Contents of the Article
+show
+1.
+How is the History of Document Object Model API (DOM API)?
+2.
+A Basic DOM Example
+3.
+What are the Types of Relationships of DOM Nodes?
+4.
+What are the Types of Nodes in DOM Tree?
+5.
+How is the Processing a DOM Document?
+6.
+Standardization of Document Object Model API
+6.1.
+Document Object Model (DOM) Level 0
+6.2.
+Document Object Model (DOM) Level 1
+6.3.
+Document Object Model (DOM) Level 2
+6.4.
+Document Object Model (DOM) Level 3
+7.
+What the DOM is not?
+7.1.
+The DOM is the Source HTML
+7.1.1.
+1. When the HTML is not Valid
+7.1.2.
+2. When the DOM is Modified by JavaScript
+7.2.
+DOM is not Seen in the Browser’s Graphical Face
+7.3.
+The DOM is not Seen in the DevTools of Google Chrome
+8.
+What are the Document Object Model (DOM) Types?
+8.1.
+What is the Pre-DOM?
+8.1.1.
+How to Check Pre-DOM of a Web Page?
+8.2.
+What is After DOM?
+8.2.1.
+How to Check After DOM?
+8.3.
+What is Virtual DOM?
+8.3.1.
+How to Check Virtual DOM?
+8.4.
+What is Shadow DOM?
+8.4.1.
+How to Check Shadow DOM?
+8.5.
+What is Moving DOM?
+8.5.1.
+How to Check Moving DOM?
+8.6.
+What is Browser DOM?
+9.
+What are the Data Types in the Document Object Model (DOM)?
+10.
+What are the Interfaces on the DOM API?
+11.
+What are the Node Types in the DOM API
+12.
+How to Test the Document Object Model API?
+13.
+What is the Relation Between DOM and CSSOM?
+14.
+What is the Relation Between DOM and DOMContentLoaded Time?
+15.
+What is the Relation Between DOM and Rendering Tree?
+16.
+What is the Best Size for DOM Tree?
+17.
+Last Thoughts on Document Object Model and Holistic SEO
+How is the History of Document Object Model API (DOM API)?
+DOM was originally created under the influence of at least two developments that have significantly shaped the computer world in the recent past. Both are based on the need to be able to easily and uniformly access the structured data in HTML and XML documents.
+In the mid-1990s, as the World Wide Web grew in popularity, the scripting language JavaScript was invented and popular web browsers have since included interpreters that execute such scripts. JavaScript defined rudimentary options for accessing the HTML document and for handling events. Different browser manufacturers later invented different models for
+dynamic HTML
+(DHTML) that allowed more extensive changes to the structure and appearance of the document while the document is viewed in the browser. However, these differences made them work for web developers who wanted to use dynamic HTML an extremely tedious affair, as they were often practically forced to write a separate version for each browser to be supported. The first DOM standards of the W3C are therefore attempts to use the various proprietary JavaScript and DHTML techniques that were used during the time of the Browser Warsemerged, merged, standardized, and ultimately replaced. This has succeeded so that DOM is of central importance in JavaScript programming today.
+At the same time, XML emerged as a general exchange format for the human-readable representation of structured data, which was linked to the success of HTML. A comprehensible, powerful, and cross-programming language interface was required to process XML documents. DOM offers this and also defines additional interfaces for the convenient handling of XML documents.
+A short definition and schema for Document Object Model (DOM).
+A Basic DOM Example
+The following HTML code defines a table with the element
+table
+and various sub-elements :
+<table>
+<thead>
+<tr>
+<th>
+First name
+</th>
+<th>
+Last name
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Bugs B
+</td>
+<td>
+Bunny
+</td>
+</tr>
+</tbody>
+</table>
+This is what it looks like in the browser:
+What are the Types of Relationships of DOM Nodes?
+The present structure is characterized in the object model by the following relationships:
+The root node (
+roo
+t) “
+table
+” is a child. Children elements of the “table” are “
+thead
+” and “
+tbody
+“.
+The “
+table
+” element node has reversed a parent (
+parent
+) of “
+thead"
+and “
+tbody
+“.
+Nodes with a common parent (for example, the two “
+th
+” element node) mates (are
+siblings
+) mentioned.
+Starting from any node, every other node can be reached via these relationships.
+What are the Types of Nodes in DOM Tree?
+The most important node types in DOM are:
+A document node represents the entire tree structure.
+A document fragment node represents part of the tree structure.
+An element node corresponds exactly to an element in HTML or XML.
+An attribute node corresponds exactly to an attribute in HTML or XML.
+A text node represents the text content of an element.
+Attribute nodes are a special type of node because they do not appear as nodes in the tree structure, which is mainly formed by element nodes. Attribute nodes are therefore not “children” of element nodes, but properties of them.
+How is the Processing a DOM Document?
+In the first step, an existing document is read in by the program and a document object is generated. This object can be used to access the content, structure, and display using the methods of the DOM API.
+In particular, Document Object Model processing can include the steps below.
+the navigation between the individual nodes of a document,
+creating, moving, and deleting nodes as well as
+reading, changing and deleting text content.
+At the end of processing, a new XML or HTML document can be generated from the document object by so-called serialization.
+Standardization of Document Object Model API
+DOM has been a standard of the W3C since 1998 and has been updated and expanded several times since then. There are several versions (levels) each with different modules:
+Document Object Model (DOM) Level 0
+DOM 0 level was never formally specified. DOM Level 0 describes the techniques that can be used using JavaScript to access HTML documents. These were introduced by web browsers such as Internet Explorer and Netscape Navigator before the standardization of DOM.
+Document Object Model (DOM) Level 1
+Published in late 1998 for updating the DOM Level 0 by W3C. You can see the content of the Document Object Model Level 1 below.
+DOM Core
+(DOM core) defines the movement in the DOM tree, the manipulation of the nodes, including the insertion of new elements, and the setting of attributes.
+DOM HTML
+is the extension for accessing HTML documents. It standardizes and complements the already widespread practice, which is based on the JavaScript specifications from Netscape and Microsoft JScript.
+Document Object Model (DOM) Level 2
+Published in late 2000 for updating the DOM Level 1 by W3C. You can see the content of the Document Object Model Level 2 below.
+DOM Core
+: u. a. Extension to XML namespace support
+DOM HTML
+: u. a. Extension to XHTML documents, adaptation to DOM 2 Core
+DOM Style
+and
+DOM CSS
+enable dynamic reading, adding, and changing the formatting or the layout of the document using style sheets, especially Cascading Style Sheets (CSS).
+DOM Views
+allows access to information about specific types of reproduction of the document (for example the graphic display in the web browser). This is mainly used in conjunction with DOM CSS in order to find out the actual CSS property values ​​of certain elements (eg “What background color is this heading?”).
+DOM Events
+standardizes the processing of events in the document, for example, user actions. Mainly used in connection with JavaScript when displaying HTML documents in web browsers. Based on the models of event handling of Netscape Navigator and Internet Explorer for HTML documents.
+DOM Traversal
+and
+DOM Range
+: Traversing the node tree based on certain selection criteria, working with areas in the document that include certain elements and text nodes
+Document Object Model (DOM) Level 3
+Published April 2004 by W3C for updating the DOM Level 2. You can see the content of the Document Object Model Level 3 below.
+DOM 3 Core
+: comprehensive expansion, u. a. improved exception handling and handling of character encodings
+DOM 3 Load and Save
+enables the serialization of documents or document parts as well as the parsing of XML documents in character strings in document objects. In addition, XML documents can be sent and retrieved via HTTP, as is possible with the more popular XMLHttpRequest technique.
+DOM 3 XPath
+allows nodes to be selected based on XPath expressions.
+DOM 3 Events
+extends DOM 2 Events u. a. to keyboard events.
+DOM 3 Validation
+allows you to check whether the DOM document remains valid after a dynamic change (adding or removing nodes).
+DOM 3 Views and Formatting
+allows dynamic access to content, structure, and style and changes to them.
+DOM 3 Abstract Schemas
+What the DOM is not?
+From the example above one could conclude that the DOM is an exact mapping of the HTML source document or of what you see in your DevTools. However, there are some differences. To fully understand what the DOM is, we must first understand what it is not.
+The DOM is the Source HTML
+Although created from the HTML source document, the DOM does not always accurately reflect it. It may differ in two cases:
+1. When the HTML is not Valid
+The DOM is an interface for valid HTML documents. During the DOM creation process, the browser may need to correct invalid information. Take this HTML document for example:
+<!doctype html>
+<html>
+Hello, world!
+</html>
+Elements “
+<head>
+” and are missing “
+<body>
+” from this document, although they are required invalid HTML. If we inspect the created tree, we can see that the error has been fixed:
+DOM Tree Example of the Code Bloc given above.
+2. When the DOM is Modified by JavaScript
+In addition to being an interface for viewing the content of an HTML document, the DOM can be modified, making it a living resource. We can for example create additional nodes via JavaScript.
+var newParagraph = document.createElement("p");
+var paragraphContent = document.createTextNode("I'm new!");
+newParagraph.appendChild(paragraphContent);
+document.body.appendChild(newParagraph);
+The DOM will be updated, but of course our HTML source document will remain unchanged.
+DOM is not Seen in the Browser’s Graphical Face
+What you see in your browser’s viewport is the render tree which, as we have seen, is a mix of DOM and CSSOM. What distinguishes the DOM from the render tree is that the latter only understands what will be “painted” on the screen. As a result, it excludes visually hidden elements, for example, stylish ones “
+display: none
+“.
+<!doctype html>
+<html lang="en">
+<head></head>
+<body>
+<h1>Hello, world!</h1>
+<p style="display: none;">How are you?</p>
+</body>
+</html>
+The DOM will include the element “
+<p>
+“.
+DOM Tree will include the “non-displayable” elements.
+However, the render tree, therefore what is visible in the viewport will not include this element.
+Rendering Tree won’t include the “non displayable” elements.
+The DOM is not Seen in the DevTools of Google Chrome
+This difference doesn’t matter much because the DevTools Element Inspector offers the best approximation of the DOM available in the browser. However, DevTools includes information that is not in the DOM.
+The best example of this is the CSS pseudo-elements created via selectors
+::before
+and
+::after
+. They are part of the CSSOM and the render tree but technically they do not belong to the DOM since this one is built from the only HTML source document, which does not include the styles applied to the elements.
+Although not part of the DOM, the pseudo-elements appear in our DevTools inspector:
+Psuedo Elements within the DevTools are not part of the Document Object Model.
+This is the reason why pseudo-elements cannot be targeted by JavaScript, because they are not part of the DOM.
+What are the Document Object Model (DOM) Types?
+Document Object Models can be diversified according to their functions and loading phases of the web page. Document Object Model types are listed below.
+Pre DOM is the DOM type that
+After DOM
+Virtual DOM
+Shadow DOM
+Moving DOM
+Browser DOM
+To learn what Document Object Model is learning the terminology about Document Object Model types is necessary. Below, you will see the definitions and features of Document Object Model (DOM) Types, and their relations to each other.
+What is the Pre-DOM?
+Pre DOM is the DOM that appears in the source code of the web page before the web page loads. Pre-DOM contains the source code of a web page, since no fonts, CSS, and JS resources on the web page are downloaded, it contains only HTML document. Pre-DOM is used by the Browser to create the “After DOM”.
+How to Check Pre-DOM of a Web Page?
+To check a web page’s “pre-DOM” you can use the “ctrl + u” shortcut through a keyboard.
+You may see a pre-DOM view from Holisticseo.digital via
+
+[...truncated...]

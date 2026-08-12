@@ -1,0 +1,104 @@
+“aria-details” ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-details attribute is used to notify the end-user that the element being viewed has more information for a specific object being selected.  The purpose of aria-details is to provide additional content through an assistive technology resource to display it through the current page or a designated external page. The developer can use the aria-details attribute to provide a visible section that is intended to provide the end-user with added or supplementary information from the main element. The aria-details can be used in elements such as lists of IDs that may lead to additional or linked auxiliary information. The aria-details can be used for aria-describedby, aria-label, and aria-labelledby.
+Contents of the Article
+show
+1.
+What is the function of the “aria-details” ARIA Label?
+2.
+What are the uses of the “aria-details” ARIA Label?
+3.
+Example Uses of “aria-details” ARIA Label
+4.
+What are the related ARIA Labels to “aria-details”?
+What is the function of the “aria-details” ARIA Label?
+The aria-details attribute not only expands the element with its additional information, but it helps navigate end-users of each element through Assistive Technology. The aria-details handle information well when it goes through Assistive Technology, as they are not converted into flattened data strings that may affect the information being presented. Developers using the aria-details command should make it a point that all elements appear as they are intended. Aria-details provides a set of information and data in a hierarchical and organized manner. Such information may include illustrations, external links, or any form of extended information.
+What are the uses of the “aria-details” ARIA Label?
+Listed below are the uses of the “aria-details” ARIA Label.
+Document structure roles:
+this defines the content in a certain section that provides standalone information. The usual roles include article, table, and heading.
+Widget roles:
+The widget role includes information that is structured by authors to be interactive for users. Widget roles would comprise radio, button, and checkbox.
+Landmark roles:
+The Landmark roles denote an important section of a given webpage and how it is being structured. Landmark roles may become distracting for some users when it is being overused all over the web page.
+Live region roles:
+The Live region is an interaction using Assistive Technologies to notify users, most especially the visually impaired, of any dynamic changes being done.
+Window roles:
+The Window role uses actions that generate sub-windows on specific or current pages. They may appear as pop-up windows or alert windows.
+Abstract roles:
+The Abstract roles are performed by browsers and are the basis for most ARIA roles mentioned.
+Example Uses of “aria-details” ARIA Label
+Listed below are the example uses of the “aria-details” ARIA Label.
+The aria-details attributes have been a useful command for authors. The aria-details create a more organized section where supplementary information can be placed and made accessible using Assistive Technologies. Listed below are some examples and the uses of the aria-details attribute.
+This example shows the aria-details attribute used in a web page showcasing modern art. The specific command allows the addition of extended information that describes the illustration from the artworks presented.
+<img src="ledemoiselles.jpg" alt="​​Les Demoiselles d'Avignon" aria-details="det">
+<details id="det">
+<summary>Example</summary>
+<p>
+The Les Demoiselles d'Avignon is a modern art painting by Pablo Picasso that diverts from traditional techniques of painting.
+</p>
+<p>
+The following drawing illustrates five prostitutes posing in nude that adds to Picasso’s collection of masterpieces.
+</p>
+<object data="modern-art.svg"  type="image/svg+xml"/>
+<p>
+The painting was first seen by Picasso’s companions before it was shown in public for exhibit in 1916.
+</p>
+</details>
+The aria-details can be used for instances where an element is presented towards a link to a different page containing supplementary information. This creates an accessible link to related literature with the element being presented.
+<img src="pablopicassoart.jpg" alt="Pablo Picasso" aria-details="det">
+<p>
+See an <a href="http://ppso.com/pt.html" id="det">Pablo Picasso’s other Collection of Paintings </a>
+</p>
+What are the related ARIA Labels to “aria-details”?
+Listed below are the related ARIA Labels to “aria-details”.
+aria-describedby:
+The aria-describedby is related to aria-details because they both define lengthier descriptions of specified elements. The
+aria-describedby
+attribute identifies specified elements and gives the object its corresponding definition or description.
+aria-label:
+The aria-label is related to aria-details because they both provide extended information, but differs in length. The
+aria-label
+attribute identifies a specific element and provides its corresponding string value and is in short labels.
+aria-labelledby:
+The aria-labelledby is related to aria-details because they both use the command to provide supplementary information to an element, but the aria-labelledby attribute is expressed in shorter labels. The
+aria-labelledby
+attribute provides an association between one element to a different element, in order to stipulate an accessible name for the specific element being defined.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-details” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-disabled” ARIA Label for Accessi…
+TechSEO
+“aria-description” ARIA Label for Acce…
+0
+0
+0

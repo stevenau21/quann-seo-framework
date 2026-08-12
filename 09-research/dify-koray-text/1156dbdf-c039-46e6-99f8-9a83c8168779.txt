@@ -1,0 +1,119 @@
+Python Image Resize with Python in Scale: Ultimate Guideline - Holistic SEO
+Skip to content
+Image manipulation, optimization and resizing or downscaling, color type changing, or other kinds of image-related processes have value for SEO, UX, Page Speed, and Bandwith. Because of those motivations, Image Compression Algorithms are developed every year. In this article, we will focus on how to resize multiple images in bulk with Python. For multiple images compression in bulk with Python,  you can read our complete guideline.
+Note: Images on this content are
+not compressed
+so that the differences between optimized-resized and non-optimized/resized ımages can be seen clearly. I recommend you to examine the pixel quality so that you can see the capacity of the Image optimization in scale via Python.
+Like in the Image Compression article, we will use Pillow Library (Python’s Image Library) for image compression. If you didn’t download Pillow before, you can use the code below:
+pip install pillow
+First, we need to import libraries:
+from PIL import Image
+import os
+import PIL
+import glob
+OS and Glob Modules for the showing absolute path of our Python file so that we can use shorter file names. PIL and Image from PIL are for opening, changing and saving images with different optimization options.
+image = Image.open('1.jpeg')
+print(image.size)
+OUTPUT>>>
+(2400, 1500)
+resized_image = image.resize((500,500))
+print(resized_image.size)
+OUTPUT>>>
+(500, 500)
+We can change an image’s size or shape very easily thanks to Pillow. You can see our image below:
+A Resized Image Example with Python
+The problem here, when we resized the image from 2400, 1500 to 500, 500 it lost its aspect ratio. So, how can we optimize images according to a fixed width and height ratio? You can create profile pictures, thumbnails, cover pictures, and more with Python’s PIL Library in bulk.
+Contents of the Article
+show
+1.
+How to Resize Images in a Fixed Aspect Ratio with Python’s PIL Library
+2.
+How to Create Thumbnail Image with a Fixed Aspect Ratio in Python’s Pillow Library
+3.
+How to Resize Multiple Images in bulk with Python and Pillow
+How to Resize Images in a Fixed Aspect Ratio with Python’s PIL Library
+To protect pictures’ image and width ratio during resizing process, we need to determine a base width for our script. You can see that our “image.size” code gives us a tuple. We can call tuple’s members by one by. We will use height and width values by proportioning them to fixed height.
+fixed_height = 420
+image = Image.open('1.jpeg')
+height_percent = (fixed_height / float(image.size[1]))
+width_size = int((float(image.size[0]) * float(height_percent)))
+image = image.resize((width_size, fixed_height), PIL.Image.NEAREST)
+image.save('resized_nearest.jpg')
+First line: Determine a fixed number for creating the ratio.
+Second line: Open the image.
+Third line: Create the height percent according to your fixed value.
+Fourth line: Create the image width by multiplying it with the proportioned height value.
+Fifth line: Resize the image with the help of PIL.Image.NEAREST which also optimize and compress the image.
+Sixth line: Save the image with a new name.
+You can see the proportioned image below:
+You can see the difference, every object has the right resolution.
+To learn more about Python SEO, you may read the related guidelines:
+How to optimize images in  bulk with Python
+How to perform DNS Reverse Lookup thanks to Python
+How to perform TF-IDF Analysis with Python
+How to crawl and analyze a Website via Python
+How to perform text analysis via Python
+How to test a robots.txt file via Python
+How to Create Thumbnail Image with a Fixed Aspect Ratio in Python’s Pillow Library
+To create a proportioned image resize process, we don’t need so much effort. Pillow Library has another built-in method to make this process easy. It is called as “thumbnail”. With thumbnail, you can determine a size and Pillow create it in the most convenient aspect ratio for the coder.
+image.thumbnail(size=(400,400))
+image.save('thumbnail_optimized.jpeg', optimize=True, quality=65)
+Here, we have set 400 width and 400 height. We have also saved the file with optimization and 65% quality. Let’s see the difference this time.
+The image is 400 width and 250 height. Also, it is only 18,9 KB. Our original image was 464 KB with the dimensions 2400, 1500. We have compressed it more than 20 times.
+If you wonder how the size of the image would change if we would use a higher resolution with the same image optimization code structure, you can read “How to Compress and Optimize Images in bulk with Python” article.
+We have performed a resize process sucessfully. So, how can we perform the same thing in bulk?
+How to Resize Multiple Images in bulk with Python and Pillow
+To perform the same process in bulk, we need to use a for loop in our script. We will optimize every image one by one and save them. Also, we will use the optimization attributes of the save method.
+Our methodology is simple:
+First step: Create a list that includes all the images from the current directory with a list comprehension.
+Second step: Create a loop which resizes and optimizes the images from the same list and save them with a different name.
+images = [file for file in os.listdir() if file.endswith(('jpeg', 'png', 'jpg'))]
+for image in images:
+img = Image.open(image)
+img.thumbnail((600,600))
+img.save("resized_"+image, optimize=True, quality=40)
+You can see the difference below in terms of size:
+We have compressed the three images from 7,66 MB to 99,6 KB. Also, we have changed the resolution, the original images’ width is between 3000 and 5000 while our optimized images’ width is between 450 and 600.
+We have compressed our images while optimizing and resizing in bulk. You can see one of them below to check its visual quality and resolution as it is.
+Resized and Optimized Images via Python
+The image above has been compressed from 4,3 MB to 37 KB. The original one has 3711 width and 4639 height while the resized and optimized version has 480 width and 600 height. Thumbnail method always protects the aspect ratio, so it always chose the bigger value from size or width to equal it the value from our code. We have used “image.thumbnail(size=(600,600,))” code, since the height is bigger from the height for the original image, the optimized and resized version also has the same ratio.
+Image optimization, compression, manipulation and drawing can be done in bulk with Python. Since, images are one of the most important part of the web and web users, we will continue to search better ways to optimize them for the user experience as Holistic SEOs.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+1 thought on “How to Resize Images with Python in Bulk”
+sir I can’t understand your Python-related article can you recommend me any course or anything to learn and use python
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Python SEO
+How to Resize Images with Python in Bulk
+by Koray Tuğberk GÜBÜR
+time to read: 4 min
+Python SEO
+PyTrend Guideline: Create Dashboard for Google Tre…
+Python SEO
+How to Optimize Images with Python for SEO and UX…
+0
+0
+1

@@ -1,0 +1,178 @@
+"aria-colindex" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-colindex attribute indicates an element’s column index or position with regard to the number of columns within the table or treegrid. The purpose of the aria-colindex is to define the substructure, an element’s column index, or position according to the number of columns. Some tables can be vast which would result in only a small part of the content being shown. The developer can use aria-colindex to supply information regarding the table, grid, and treegrid structures. To be used in partnership with the aria-colcount attribute, it informs the assistive technologies on the number of columns the table has if all columns are present. The aria-colindex can be used in elements such as <table>, <th>, and <td>. The <table> element represents the tabular data, while <th> and <td> present a cell as a header of a group of table cells and specify a cell of a table that contains data. The aria-colindex can be used for ARIA Labels such as aria-colindextext, aria-colcount, and aria-colspan.
+Contents of the Article
+show
+1.
+What is the function of the “aria-colindex” ARIA Label?
+2.
+What are the uses of the “aria-colindex” ARIA Label?
+3.
+Example Uses of “aria-colindex” ARIA Label
+4.
+What are the related ARIA Labels to “aria-colindex”?
+What is the function of the “aria-colindex” ARIA Label?
+The aria-colindex functions to determine an element’s column index on the basis of the overall number of columns. The loading process can only improve a little section of the columns. The developer notifies its users of which parts of the content will be displayed and which table content is not present. The command creates information regarding the table’s structure and transmits this information with the assistive technologies on the number of columns the table has. The aria-colindex attribute utilizes an element’s column position in relation to the entire number of columns.
+What are the uses of the “aria-colindex” ARIA Label?
+Listed below are the uses of the “aria-colindex” ARIA Label.
+Table:
+The table attribute of an ARIA role indicates that the elements comprising the role have a non-interactive table structure with data organized in rows and columns, such as a native HTML <table> element.
+Grid:
+The grid role is for a widget that has one or more rows of cells. A cell’s position in the grid is controlled through the keyboard input.
+Treegrid:
+The treegrid role defines an element that is a grid with rows that are developed and broken down in the same manner as a tree.
+Example Uses of “aria-colindex” ARIA Label
+Listed below are the example uses of the “aria-colindex” ARIA Label.
+The aria-colindex command identifies the composition of an element’s column index or position corresponding to its aggregate columns in a given structure. The example below depicts a grid containing 6 columns, in which columns 1,2,5, and 6 are visible to the user. The total amount of columns that made the table is set as aria-colcount=”6”. The columns aren’t instant, each cell in this designated case column header and gridcell elements, have the aria-colindex attribute.
+<div role="grid" aria-colcount="6">
+<div role="rowgroup">
+<div role="row">
+<div role="columnheader" aria-colindex="1">First name</div>
+<div role="columnheader" aria-colindex="2">Last name</div>
+<div role="columnheader" aria-colindex="5">City</div>
+<div role="columnheader" aria-colindex="6">Zip</div>
+</div>
+</div>
+<div role="rowgroup">
+<div role="row">
+<div role="gridcell" aria-colindex="1">Jay</div>
+<div role="gridcell" aria-colindex="2">Manuel</div>
+<div role="gridcell" aria-colindex="5">Savona</div>
+<div role="gridcell" aria-colindex="6">14127</div>
+</div>
+</div>
+…
+</div>
+The following example shows a grid with 8 columns, in which columns 3, 4, 5, and 6 are shown to the user.
+<div role="grid" aria-colcount="8">
+<div role="rowgroup">
+<div role="row">
+<div role="columnheader" aria-colindex="1">First name</div>
+<div role="columnheader" aria-colindex="2">Last name</div>
+<div role="columnheader" aria-colindex="5">City</div>
+<div role="columnheader" aria-colindex="6">Zip</div>
+</div>
+</div>
+<div role="rowgroup">
+<div role="row">
+<div role="gridcell" aria-colindex="3">Garry</div>
+<div role="gridcell" aria-colindex="4">Valencia</div>
+<div role="gridcell" aria-colindex="5">Marsielle</div>
+<div role="gridcell" aria-colindex="6">14127</div>
+</div>
+</div>
+…
+</div>
+The following example shows a grid with 15 columns, in which columns 7, 9, 10, and 11 are shown to the user.
+<div role="grid" aria-colcount="15">
+<div role="rowgroup">
+<div role="row">
+<div role="columnheader" aria-colindex="7">First name</div>
+<div role="columnheader" aria-colindex="9">Last name</div>
+<div role="columnheader" aria-colindex="10">City</div>
+<div role="columnheader" aria-colindex="11">Zip</div>
+</div>
+</div>
+<div role="rowgroup">
+<div role="row">
+<div role="gridcell" aria-colindex="7">Jordan</div>
+<div role="gridcell" aria-colindex="9">Costa</div>
+<div role="gridcell" aria-colindex="10">Barcelona</div>
+<div role="gridcell" aria-colindex="11">13426</div>
+</div>
+</div>
+…
+</div>
+The following example shows a grid with 100 columns, in which columns 25, 35, 45, and 55 are shown to the user.
+<div role="grid" aria-colcount="100">
+<div role="rowgroup">
+<div role="row">
+<div role="columnheader" aria-colindex="25">First name</div>
+<div role="columnheader" aria-colindex="35">Last name</div>
+<div role="columnheader" aria-colindex="45">City</div>
+<div role="columnheader" aria-colindex="55">Zip</div>
+</div>
+</div>
+<div role="rowgroup">
+<div role="row">
+<div role="gridcell" aria-colindex="25">Debra</div>
+<div role="gridcell" aria-colindex="35">Burks</div>
+<div role="gridcell" aria-colindex="45">New York</div>
+<div role="gridcell" aria-colindex="55">14127</div>
+</div>
+</div>
+…
+</div>
+In using semantic table header elements and not all columns are in the DOM, the aria-colindex attribute only needs to be determined once per column in the column header <th>. Below is an example.
+<table aria-colcount="6">
+<thead>
+<tr>
+<th aria-colindex="1" scope="col">First name</th>
+<th aria-colindex="2" scope="col">Last name</th>
+<th aria-colindex="5" scope="col">City</th>
+<th aria-colindex="6" scope="col">Zip</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Debra</td>
+<td>Burks</td>
+<td>New York</td>
+<td>14127</td>
+</tr>
+...
+</tbody>
+</table>
+What are the related ARIA Labels to “aria-colindex”?
+Listed below are the related ARIA Labels to “aria-colindex”.
+aria-colcount:
+The aria-colcount is related to the aria-colindex as they both share the same functions. The aria-colcount determines the number of columns, while the aria-colindex designates the element’s column index. The
+aria-colcount
+indicates the number of columns in a given table if some columns aren’t found in a DOM.
+aria-colspan:
+The aria-colcount is reminiscent of the aria-colindex because both share the same functions. The aria-colspan attribute determines the number of columns in a cell within a table or treegrid.  The aria-colindex determines an element’s column index.
+The
+aria-colspan
+attributed identifies the number of spanned columns by a cell or gridcell.
+aria-colindextext:
+The aria-colindextext is linked to aria-colindex as they both use the same DOM. The
+aria-colindextext
+attribute dictates a human-readable text alternative for the numeric aria-colindex.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-colindex” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 5 min
+TechSEO
+“aria-colindextext” ARIA Label for Acc…
+TechSEO
+“aria-colcount” ARIA Label for Accessi…
+0
+0
+0

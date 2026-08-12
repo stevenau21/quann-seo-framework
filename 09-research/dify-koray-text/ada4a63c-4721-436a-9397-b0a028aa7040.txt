@@ -1,0 +1,92 @@
+HTML <sub> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The HTML strong> Tag indicates subscript text in an HTML page. Subscript text is shown half a character below the standard line and is occasionally displayed in a smaller font. Chemical formulas, such as H2O, can benefit from the subscript text. The <sub> HTML Tag is part of formatting HTML category in HTML Element Reference. The attributes of the <sub> HTML Tag are global attributes and event attributes.
+<sub> code block example to learn how it works is given below.
+<sub>Subscript text here...</sub>
+The second example usage of the “<sub>” code block example is below.
+H<sub>2</sub>O
+Contents of the Article
+show
+1.
+What is <sub> HTML Tag?
+2.
+How to Use <sub> HTML Tag?
+2.1.
+Example Usage of <sub> HTML Tag?
+3.
+What are the Attributes of <sub> HTML Tag?
+4.
+What are the Default CSS Settings for <sub> HTML Tag?
+5.
+What are the Related other HTML Tags to <sub>?
+What is <sub> HTML Tag?
+The HTML <sub> Tag indicates that the contents are of high significance, seriousness, or urgency. Browsers usually display the text in bold font. This HTML <sub>  Tag can be used in a variety of ways, including denoting mathematical variables in the form of subscript text. It may also be used to signify the number of atoms in a chemical formula, such as glucose-c6h12o6.
+How to Use <sub> HTML Tag?
+To use the <sub> HTML Tag the web developer should create the <sub> HTML Tag with the subscript text added between the start and end tags. The <sub> HTML Tag should be used solely to mark up typographical conventions with special meanings. In general, it should be utilized only when the absence of the element will alter the meaning of the material. It should not be utilized just for presentation.
+Example Usage of <sub> HTML Tag?
+The following example of usage of <sub> HTML tag is given below.
+<p>This text contains <sub>subscript</sub> text.</p>
+What are the Attributes of <sub> HTML Tag?
+There are multiple attributes for the <sub> HTML Tag. The following attributes are listed below.
+Global Attributes: The <sub> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <sub> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <sub> HTML Tag?
+The following is the Default CSS Setting for the <sub> HTML Tag.
+p {
+font-size: 1rem;
+}
+What are the Related other HTML Tags to <sub>?
+The other related HTML Tags to the <sub> HTML Tag are listed below.
+<em> HTML Tag: The
+<em>
+HTML Tag is related to <sub> HTML Tag because they are both in formatting HTML Tags. The <em> HTML Tag is used to make text stand out.
+<font> HTML Tag: The
+<font>
+HTML Tag is related to <sub> HTML Tag because they are both in formatting HTML Tags. The <font> HTML Tag is used to set the font for text.
+<i> HTML Tag: The
+<i>
+HTML Tag is related to <sub> HTML Tag because they are both in formatting HTML Tags. The <i> HTML Tag is used in HTML to show what text is more important or different than the rest.
+<ins> HTML Tag: The
+<ins>
+HTML Tag is related to <sub> HTML Tag because they are both in formatting HTML Tags. The <ins> HTML Tag is used to describe text that was added.
+<rt> HTML Tag: The
+<rt>
+HTML Tag is related to <sub> HTML Tag because they are both in formatting HTML Tags. The <rt> HTML Tag is used to define character explanations.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <sub> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <strong> Tag Definition, Usage and Exam…
+TechSEO
+HTML <u> Tag Definition, Usage and Examples…
+0
+0
+0

@@ -1,0 +1,137 @@
+"HSTS MISSING FROM HTTPS SERVER" Error: How to Fix it? - Holistic SEO
+Skip to content
+“Missing HSTS from HTTPS Server” or Missing HSTS Error and warning involves the missing HSTS response header and command from the response of the webserver. HSTS provides end-to-end secure web browsing and website session for web users. Missing HSTS is a concern for web security and user privacy. Websites use HTTP to HTTPS redirection to keep web users safe. A user might use an HTTP link accidentally by copying and pasting or manually typing. HTTP URLs put users into the web security risks such as Man-in-the-Middle (MITM) attacks, and Secure Sockets Layer Stripping. A hacker that exploits the MITM can redirect a user to the clone website to steal the information of the users. And, HSTS prevents these types of attacks and hackers from stealing data. Thus, Missing HSTS Warning and Error is prominent for web security and SEO.
+Key points for fixing and understanding HSTS Missing from HTTPS Server.
+Missing HSTS from HTTP Server represents web security, SEO, and user privacy problem.
+Missing HSTS from HTTP Server error is fixed via modifying the response headers.
+Missing HSTS from HTTP Server is related to HTTP to HTTPS 301 redirection.
+Missing HSTS from HTTP Server prevents Man in the middle Attacks and Session Cookie Hijacking.
+SEO Crawlers, Response Header Audit tools, and Manual Audits from Chrome DevTools are used for fixing the Missing HSTS from Web Server Errors.
+Google has an HSTS Preload List for protecting the first-time HSTS user website visitors.
+To understand the Missing HSTS Error and fix understanding response headers, web security issues, user-agents, web browsers, web servers, HTTPS Strict Transport Security concepts, and is necessary.
+Contents of the Article
+show
+1.
+What are the dangers of the HSTS Missing from HTTPS Server error?
+1.1.
+Why do attackers use the Missing HSTS from HTTPS Server Errors?
+1.2.
+How does HSTS Work?
+2.
+How to Detect Missing HSTS Error from a Website?
+3.
+How to Fix the HSTS Missing From HTTP Server Error?
+3.1.
+1. Create a Full Website Backup before adding the HTTP Transport Security Header
+3.2.
+2. Use an HTTP to HTTPS Redirect with 301 Status Code
+3.3.
+3. Add the HSTS Header to the Web Server for Forcing the Usage of HTTPS
+3.4.
+4. Add the Website to the HSTS Preload List of Google for Protection
+3.5.
+5. Audit and Validate the HSTS Header from the Website
+4.
+What is the relevance of Missing HSTS to Search Engine Optimization?
+5.
+What are the other Web Security Related Errors besides Missing HSTS?
+6.
+Last Thoughts on Holistic SEO and Missing HSTS from HTTP Server Error
+What are the dangers of the HSTS Missing from HTTPS Server error?
+The dangers of the HSTS Missing from HTTPS Server error are listed below.
+MITM: Man in the middle attacks are possible via HSTS MISSING FROM HTTPS SERVER errors. And, a hacker can redirect a user from an HTTP URL to a clone website, and exploit the users’ information.
+Cookie Hijacking: A hacker can steal the cookies during a website session via an HTTP connection. And, a cookie can contain passwords, usernames, and other valuable private information about users.
+A website that redirects itself from HTTP to HTTPS definitely should use the HSTS (HTTP Strict Transport Security) response header to block these types of missing HSTS error dangers.
+Why do attackers use the Missing HSTS from HTTPS Server Errors?
+HSTS Missing from HTTPS Server is a medium-risk vulnerability for the websites. Missing HSTS is low-hanging fruit for website hackers and attackers. Even if it is easy to fix, an unfixed fundamental web security response header creates a big risk for the web users such as HTTP Strict Transport Security. The HSTS Response Header forces a website to be used only by the HTTPS connection to protect it from attackers.
+How does HSTS Work?
+HSTS protects the websites from HTTP to HTTPS redirection. An HSTS redirection is actually not a redirection, it is a forced browser session location change. Thus, a search engine crawler doesn’t recognize the HSTS redirections, while users’ user agents and web browsers recognize it. To understand the HSTS, read the
+HTTPS Strict Transport Security
+. To understand the relevance of Missing HSTS Error from Web Server error to the user-agents, web browsers, and webs servers, read the articles below.
+What is a web browser?
+What is a user-agent?
+What is a web server?
+How to Detect Missing HSTS Error from a Website?
+To detect the Missing HSTS Error from a Website, use the Security Header audit tools. SEO Crawlers and Security Header tools are used to detect the web security and privacy issues like HSTS Missing errors. To find and detect the Missing HSTS from HTTPS Server error, follow these steps.
+Use a security response header audit tool.
+Check whether the Missing HSTS Warning appears or not.
+Validate the error by checking the response headers of the Web Document via Google Chrome DevTools.
+Use an SEO Crawler to see which URLs Missing HSTS Error exists.
+Validate the Missing HSTS Error for these URLs with a manual security response header audit.
+Below, you can see how the Screaming Frog, which is an SEO Crawler shows the missing HSTS Errors.
+Check the Missing HSTS Error from HTTPS Web Server error from Google Chrome DevTools as below.
+In both of the detecting the HSTS Missing Warnings and Errors, the example of audit for the HSTS header is shown. The “securityheaders” online tool is used to detect the Missing HSTS Errors as below.
+How to Fix the HSTS Missing From HTTP Server Error?
+To fix the HSTS Missing from HTTP Server error, follow the 5 steps below.
+Create a Full Website Backup before adding the HTTP Transport Security Header
+Use an HTTP to HTTPS Redirect with 301 Status Code
+Add the HSTS Header to the Web Server for Forcing the Usage of HTTPS
+Add the Website to the HSTS Preload List of Google for Protection
+Audit and Validate the HSTS Header from the Website
+Fixation and solution of HSTS Missing from HTTPS Server provides a better trust for the websites from search engines and web users.
+1. Create a Full Website Backup before adding the HTTP Transport Security Header
+To enable the HSTS and HTTP Strict Transport Security for a website, the web server configuration should be changed. Thus, taking a backup of the website is necessary against possible webserver change errors. While adding a response header like “Strict-Transport-Security” the backup provides insurance for possible data losses. To take a full backup of the website for adding HSTS to the web server, you can use a manual server backup or an automated weekly backup. From cPanel, or other types of hosting configuration software for web servers can be used for HSTS addition and website full backup.
+2. Use an HTTP to HTTPS Redirect with 301 Status Code
+To use HSTS, the website has to have an HTTPS connection and an SSL Certificate. A website can’t be used via HSTS if it doesn’t have a valid SSL Certificate. To deploy an SSL Certificate for a website, a Cloudflare CDN Service, or any kind of Always-on SSL certificate. Using Company Level SSL Certificates provides better trust for the users and the possible search engine algorithms since it provides relevance to the credibility. But, to use HSTS, any kind of valid SSL Certificate with a valid CRT or CER is good enough.
+To redirect all the HTTP Connection to the HTTPS Connection, use the code below for Nginx servers.
+server {
+listen 80;
+server_name example-domain.com www.example-domain.com;
+return 301 https://example-domain.com$request_uri;
+}
+To redirect all the HTTP Connections to the HTTPS to use the HSTS on WordPress websites, use the code block below.
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+Header always set Strict-Transport-Security max-age=31536000
+3. Add the HSTS Header to the Web Server for Forcing the Usage of HTTPS
+To add the HSTS Header to the Apache Web Servers, use the “Header Always” method with the “set” command. To solve the Missing HSTS from Web Server on WordPress and other Apache Web Servers with an “htaccess” file, use the code block below.
+Header always set Strict-Transport-Security max-age=31536000
+To add the HSTS Header for the Nginx Web servers to solve the Missing HSTS from the Web Server, use the code block below.
+add_header Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+4. Add the Website to the HSTS Preload List of Google for Protection
+Adding the website to the HSTS Preload List is prominent because it provides protection for first-time HSTS using websites. To activate the HSTS on a website, the web browser has to open the website at least one more. Thus, during the first initial web session, the website is used from the HSTS Preload List for the protection of the users. HSTS Preload List is created by the Google search engine.
+“hstspreload.org” is used for adding domains to the HSTS Preload List. Any website added to the HSTS Preload list is used via HSTS, even if the connection to the website is first-time. To add a website to the HSTS Preload List for solving the Missing HSTS from Web Server error, provide the criteria below.
+Have a valid certificate.
+Redirect the website from HTTP to HTTPS.
+Serve all subdomains of the website over HTTPS.
+Support HTTPS for the “www” subdomain if a DNS record for that subdomain exists.
+Serve an HSTS header on the base domain for HTTPS requests:
+The max age must be at least, 31536000 seconds which is equal to 1 year.
+The “includeSubDomains” directive must be specified.
+The preload directive must be specified.
+Removing a website from the HSTS Preload List is possible, but it should be done if the HSTS Preload List Criteria are not provided.
+5. Audit and Validate the HSTS Header from the Website
+Auditing and validating the HSTS Header from the website is the last step of solving the Missing HSTS from the Web Server error. To validate and audit the HSTS Header from the Website, use an SEO Crawler that takes the response headers of the website, and manually audits the response headers from a web browser such as Google Chrome. An example of the Audition of the HSTS Header for a website is below.
+What is the relevance of Missing HSTS to Search Engine Optimization?
+The relevance of Missing HSTS from Web Server error to search engine optimization is the trust that the search engines seek for ranking them. A search engine ranks trustworthy and secure websites for users. A website that doesn’t use HSTS does not provide a secure website connection and browsing experience. Most search engines use valid SSL Certificates as the ranking factors. Google started to use SSL Certificate as a ranking factor in 2014. Google performs web security tests and provides information about website security in Google Search Console. If a website is hacked, Google Chrome blocks the connection to the website. Thus, Missing HSTS Error is an important factor for SEO and also web security.
+What are the other Web Security Related Errors besides Missing HSTS?
+There are other Web Security-related errors besides Missing HSTS from HTTP Server Error. Main and similar web security-related issues to Missing HSTS Error from HTTP Web Server are listed below.
+Protocol-relative URLs
+Unsafe Cross-Origin Links
+Missing X-Frame Options Header
+Missing X-Content Type-Options Header
+Missing Secure Referrer-Policy Header
+To understand the web security-related errors along with missing HSTS from a web server, read the
+security response headers
+and their functions.
+Last Thoughts on Holistic SEO and Missing HSTS from HTTP Server Error
+Missing HSTS Header from the webserver problem is a prominent problem for search engine optimization. Holistic SEO provides insights and methods for all SEO-related practices. Thus, providing a better, trustworthy, and secure web browsing possibility via HSTS is necessary. HSTS is used via the “strict-transport-security” response header. And, to use the HSTS, there are other criteria like serving all the websites from an HTTPS connection and redirecting the HTTP connections to the HTTPS. A website that doesn’t use HTTPS or a proper SSL Certificate is demoted in the rankings. And, a website that provides proper web security for the users is ranked higher by the search engines. Implementation and solution of the Missing HSTS from HTTP Web Server problem solution with coding and using the HSTS First list of Google are explained in this article to help all webmasters, SEOs, and website owners.
+Missing HSTS from the HTTP Web Server guide will be updated in light of the new information.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 2
+
+[...truncated...]

@@ -1,0 +1,134 @@
+HTML <input>  Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <input> HTML Tag is used to create interactive controls for web-based forms that accept data from the user; depending on the device and user agent, a variety of different types of input data and control widgets are available. Due to the sheer number of possible combinations of input types and attributes, the <input> HTML Tag is one of the most powerful and complex in all of HTML. The <input> HTML Tag is part of the Forms and Input HTML category in HTML Element Reference. The attributes of the <input> HTML Tag are accept, alt, autocomplete, autofocus, checked, dirname, disabled, form, formaction, formenctype, formmethod, formnovalidate, formtarget, height, list, max, maxlength, multiple, name, pattern, placeholder, readonly, required, size, src, step, type, value, width, global, and event attributes.
+<input> code block example to learn how it works is given below.
+<input type="text" name="fcolor" value="Blue">
+The second example usage of the “<input>” code block example is below.
+<form action="/html/tags/html_form_tag_action.cfm" target="_blank" method="get">
+<p><label>Email Address: <input type="text" name="email" maxlength="100" style="width:120px;"></label></p>
+<p><label>Password: <input type="text" name="password" maxlength="100" style="width:120px;"></label></p>
+<input type="submit" value="Sign In!">
+</form>
+Contents of the Article
+show
+1.
+What is <input> HTML Tag?
+2.
+How to Use <input> HTML Tag?
+2.1.
+Example Usage of <input> HTML Tag?
+3.
+What are the Attributes of <input> HTML Tag?
+4.
+What are the Default CSS Settings for <input> HTML Tag?
+5.
+What are the Related other HTML Tags to <input>?
+What is <input>  HTML Tag?
+The <input> HTML Tag field can be specified in HTML as a location for the user to enter data. Within the <form> HTML Tag, the <input> Tag is used to declare input controls that allow users to enter data. An input field can take on a variety of different types depending on the type of attribute. The <input> HTML Tag is a blank element with only attributes. The <label> HTML Tag can be used to define labels for the <input> HTML Tag.
+How to Use <input>  HTML Tag?
+To use <input> HTML Tag, the web developer should create a <input> and no end tag. An <input> HTML Tag is usually given a type attribute to define the type of control, as well as a name attribute to allow the form processor to refer to it. A value attribute is frequently used to specify the form control’s default value.
+Example Usage of <input>  HTML Tag?
+The following example of usage of <input> HTML Tag is given below.
+<form action="/html/tags/html_form_tag_action.cfm" target="_blank" method="get">
+<p><label>Full Name: <input type="text" name="name" maxlength="100" style="width:120px;"></label></p>
+<p><label>Email Address: <input type="text" name="email" maxlength="100" style="width:120px;"></label></p>
+<input type="submit" value="Submit!">
+</form>
+What are the Attributes of <input>  HTML Tag?
+There are multiple attributes for the <input> HTML Tag. The following attributes are listed below.
+Type Attribute: The <input> HTML Tag supports type attribute. The type attribute specifies the type of the <input> HTML Tag. Text is the default value.
+Value Attribute: The <input> HTML Tag supports value attribute. The value attribute is used to specify the <input> HTML Tag’s value.
+Placeholder Attribute: The <input> HTML Tag supports placeholder attribute. The placeholder attribute is used to specify a hint that describes the expected value of an input field.
+Name Attribute: The <input> HTML Tag supports name attribute. The name attribute specifies the name of the <input> HTML Tag.
+Alt Attribute: The <input> HTML Tag supports alt attribute. If the user is unable to view the image, the alt attribute is used to provide alternative text.
+Autofocus Attribute: The <input> HTML Tag supports autofocus attribute. The autofocus attribute indicates that an element should be given focus when the page loads.
+Checked Attribute: The <input> HTML Tag supports checked attribute. When the page loads, the checked attribute specifies that an element should be pre-selected (checked).
+Disabled Attribute: The <input> HTML Tag supports disabled attribute. The disabled attribute indicates that the element is disabled.
+Form Attribute: The <input> HTML Tag supports form attribute. The form attribute specifies one or more forms to which the <input> HTML Tag belongs.
+Max Attribute: The <input> HTML Tag supports max attribute. The max attribute specifies the maximum value that can be assigned to an <input> HTML Tag.
+Required Attribute: The <input> HTML Tag supports required attribute. The required attribute specifies that an input field must be filled out before the form can be submitted.
+Readonly Attribute: The <input> HTML Tag supports readonly attribute. The readonly attribute indicates whether or not an input field is read-only.
+Accept Attribute: The <input> HTML Tag supports accept attribute. The accept attribute specifies the file types that the server accepts.
+Align Attribute: The <input> HTML Tag supports align attribute. The align attribute is used to specify how an image input should be aligned.
+Autocomplete Attribute: The <input> HTML Tag supports autocomplete attribute. The autocomplete attribute specifies whether an <input> HTML Tag should have autocomplete enabled.
+Dirname Attribute: The <input> HTML Tag supports dirname attribute. The dirname attribute specifies the text direction that will be submitted.
+Formaction Attribute: The <input> HTML Tag supports formaction attributes. When a form is submitted, the formaction attribute specifies the URL of the file that will process the input control.
+Formenctype Attribute: The <input> HTML Tag supports formenctype attribute. The formenctype attribute specifies how the form-data should be encoded before being submitted to the server.
+Formmethod Attribute: The <input> HTML Tag supports formmethod attribute. The formmethod attribute specifies the HTTP method to be used when sending data to the action URL.
+Formnovalidate Attribute: The <input> HTML Tag supports formnovalidate attribute. The formnovalidate attribute specifies whether or not form elements should be validated when submitted.
+Formtarget Attribute: The <input> HTML Tag supports formtarget attribute. The formtarget attribute specifies where the response received after submitting the form should be displayed.
+Height Attribute: The <input> HTML Tag supports height attribute. The height attribute defines the height of an <input> HTML Tag.
+List Attribute: The <input> HTML Tag supports list attribute. The list attribute refers to a <datalist> HTML Tag with pre-defined options for an <input> HTML Tag.
+Maxlength Attribute: The <input> HTML Tag supports maxlength attribute. The maxlength attribute specifies the maximum number of characters that can be entered into an <input> HTML Tag.
+Min Attribute: The <input> HTML Tag supports min attribute. The min attribute specifies the minimum value for an <input> HTML Tag.
+Multiple Attribute: The <input> HTML Tag supports multiple attributes. The multiple attribute indicates that a user can enter more than one value in an <input> HTML Tag.
+Pattern Attribute: The <input> HTML Tag supports pattern attribute. The pattern attribute specifies a regular expression against which the value of an <input> HTML Tag is checked.
+Sizes Attribute: The <input> HTML Tag supports sizes attribute. The sizes attribute is used to specify the width of an <input> HTML Tag in characters.
+Src Attribute: The <input> HTML Tag supports src attribute. The src attribute specifies the URL of an image to be used as a submit button.
+Step Attribute: The <input> HTML Tag supports step attribute. The step attribute defines the legal number intervals for an input field.
+Width Attribute: The <input> HTML Tag supports width attribute. The width attribute defines the width of an <input> HTML Tag.
+Global Attributes: The <input> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <input> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <input>  HTML Tag?
+The following are the Default CSS Settings for the <input> HTML Tag.
+label {
+display: block;
+font: 1rem 'Fira Sans', sans-serif;
+}
+input,
+label {
+margin: .4rem 0;
+}
+What are the Related other HTML Tags to <input>?
+The other related HTML Tags to <input> HTML Tag are listed below.
+<label> HTML Tag: The
+<label>
+HTML Tag is related to <input> HTML Tag because they are both forms and input tags. The <label> HTML Tag is used to specify labels for <input> HTML Tag.
+<legend> HTML Tag: The
+<legend>
+HTML Tag is related to <input> HTML Tag because they are both forms and input tags. The caption for the fieldset element is defined using the <legend> HTML Tag.
+<fieldset> HTML Tag: The
+<fieldset>
+HTML Tag is related to <input> HTML Tag because they are both forms and input tags. The <fieldset> HTML Tag defines a group of related elements in a form.
+<datalist> HTML Tag: The
+<datalist>
+HTML Tag is related to <input> HTML Tag because they are both forms and input tags. The <datalist> HTML Tag specifies the options list for the input control.
+<output> HTML Tag: The <output> HTML Tag is related to <input> HTML Tag because they are both forms and input tags. The <output> HTML Tag denotes the outcome of a calculation.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <input>  Definition, Usage and Examples
+by Holistic SEO
+time to read: 7 min
+TechSEO
+HTML “legend” Tag Definition, Usage an…
+TechSEO
+HTML <source> Tag Definition, Usage and Exam…
+0
+0
+0

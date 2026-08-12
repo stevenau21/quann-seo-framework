@@ -1,0 +1,138 @@
+HTML <main> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <main> HTML Tag indicates the document’s primary content within the document’s <body>. The primary content area contains content that is directly related to or expands upon the document’s or application’s central topic or feature. To make use of the <header> HTML Tag, the developer should provide the primary content of the document. The <main> HTML Tag is part of the style and semantic tags category in HTML Element Reference. The attributes of the <main> HTML tag are global attributes and event attributes.
+<main> code block example to learn how it works is given below.
+<main>
+>Main content<
+</main>
+The second example usage of the “<main>” code block example is given below.
+<main>
+<h1>Photosynthesis</h1>
+<p>Photosynthesis is a process that plants and other organisms use to turn sunlight into food..</p>
+<article>
+<h2>Light Energy</h2>
+<p>light energy is used to..</p>
+<p>... </p>
+<p>... </p>
+</article>
+<article>
+<h2>Green Plants</h2>
+<p>During photosynthesis in green plants,..</p>
+<p>... </p>
+<p>... </p>
+</main>
+Contents of the Article
+show
+1.
+What is <main> HTML Tag?
+2.
+How to Use <main> HTML Tag?
+2.1.
+Example Usage of <main> HTML Tag?
+3.
+What are the Attributes of <main> HTML Tag?
+4.
+What are the Default CSS Settings for <main> HTML Tag?
+5.
+What are the Related other HTML Tags to <main>?
+What is <main> HTML Tag?
+The <main> HTML Tag is used to convey the document’s primary information. The content inside the <main> element should be unique for the document. Which includes the sidebars, navigation links, copyright information, site logos, and search forms.
+How to Use <main> HTML Tag?
+To use <main> HTML Tag, the developer should provide the content between the <main> and </main> HTML Tags. A document may not have more than one <main> HTML Tag. The <main> HTML Tag cannot be a descendant of the
+<article>
+,
+<aside>
+,
+<footer>
+,
+<header>
+, or
+<navigation>
+HTML Tags.
+Example Usage of <main> HTML Tag?
+Listed below is the following example of usage of <main> HTML Tag.
+<header>The Sun</header>
+<main>
+<p>By far the biggest object in the solar system is the Sun.</p>
+<p>The magnetic field of the Sun is extremely strong (by terrestrial standards) and extremely complicated.</p>
+</main>
+What are the Attributes of <main> HTML Tag?
+There are multiple attributes for the <main> HTML Tag. The following attributes are listed below.
+Global Attributes: The <main> HTML tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <main> HTML tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <main> HTML Tag?
+The following are the Default CSS Settings for the <main> HTML Tag.
+<html>
+<head>
+<style>
+main {
+margin: 0;
+padding: 4px;
+background-color: white;
+}
+main > h1, p, .browser {
+margin: 11px;
+padding: 4px;
+}
+.browser {
+background: black;
+}
+.browser > h2, p {
+margin: 5px;
+font-size: 95%;
+}
+</style>
+</head>
+<body>
+What are the Related other HTML Tags to <main>?
+The other related HTML Tags to <main> HTML Tag are listed below.
+<div> HTML Tag: The
+<div>
+HTML Tag is related to <main> HTML Tag because they are both style and semantic tags. The <div> HTML Tag acts as a container for flow content. It has no influence on the text or layout unless and until it is styled with CSS.
+<summary> HTML Tag: The
+<summary>
+HTML Tag is related to <main> HTML Tag because they are both style and semantic tags. The <summary> HTML Tag specifies a summary, caption, or legend for the disclosure box of a <details> HTML Tag.
+<style> HTML Tag: The
+<style>
+HTML Tag is related to <main> HTML Tag because they are both style and semantic tags. The <style> HTML Tag  specifies the style of a document or section of a document. It contains CSS that is applied to the contents of the <style> HTML Tag containing document.
+<header> HTML Tag: The
+<header>
+HTML Tag is related to <main> HTML Tag because they are both style and semantic tags. The <header> HTML Tag represents introductory material, which is often a series of introductory or navigational aids.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <main> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <aside> Tag Definition, Usage and Examp…
+TechSEO
+HTML <blockquote> Tag Definition, Usage and …
+0
+0
+0

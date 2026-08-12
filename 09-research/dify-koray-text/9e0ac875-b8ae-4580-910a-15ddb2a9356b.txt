@@ -1,0 +1,119 @@
+"aria-readonly" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-readonly attribute determines elements that are in a read-only state, especially with interactive elements that are not editable. The purpose of the aria-readonly is to provide information for the user that an interactive element cannot be modified. The developer can use the aria-readonly attribute for list elements that are read-only, to let the user know that a list cannot be edited, else it can be selected as a read-only. The state of a read-only identified by aria-readonly for element still allows the user to copy the read-only content and paste it into their document. The aria-readonly can be used for elements such as forms, columns, rows, and tables. The aria-readonly can also be used with other aria-labels such as, aria-owns, aria-activedescendant, and aria-autocomplete.
+Contents of the Article
+show
+1.
+What is the function of the “aria-readonly” ARIA Label?
+2.
+What are the uses of the “aria-readonly” ARIA Label?
+3.
+Example Uses of “aria-readonly” ARIA Label
+4.
+What is the related ARIA Label to “aria-readonly”
+What is the function of the “aria-readonly” ARIA Label?
+The function of aria-readonly is to identify a known interactive element that will not be used to edit or input a value. The element that has a state of read-only is set to web pages that need credentials to allow editing values. The aria-readonly value of an element, still allows the user to copy the content, unlike when using the other related ARIA label, aria-disabled. It will not allow the user to interact with the content as it is stated to the user that it is disabled, whereas aria-readonly is perfect for documents that are allowed to be copied.
+What are the uses of the “aria-readonly” ARIA Label?
+Listed below are the uses of the “aria-readonly” ARIA Label.
+Gridcell role:
+It is used intentionally to play the same role as the HTML table data element, which is used to make a cell grid or a treegrid.
+Columnheader role:
+It is a value that is defined by an attribute to identify an element as a cell in a row that has header information for a column, the same as the native table header.
+Rowheader role:
+It is a cell that contains header information of a row beneath the structure of a grid, table, or treegrid.
+Checkbox
+: The checkbox role is for supportable interactive controls.  Elements that contain role=”checkbox” must also involve the aria-checked attribute to reveal the checkbox’s state to assistive technology.
+Combobox
+: A combobox role recognize an element as an input that controls another element, such as a listbox or grid, that can dynamically appear to help the user set the value of that input.
+Example Uses of “aria-readonly” ARIA Label
+Listed below are the example uses of the “aria-readonly” ARIA label.
+The aria-readonly attribute can be declared within the element’s conditions, the value of the attribute should be stated as “true”, else there is no need to include the aria-readonly.
+<input type=”text” aria-activedescendant=”cb1-opt6″ aria-readonly=”true”
+aria-owns=”cb1-list” aria-autocomplete=”list” role=”combobox” id=”cb1-edit”>
+<ul aria-expanded=”true” role=”listbox” id=”cb1-list”>
+<li role=”option” id=”cb1-opt1″>Warriors</li>
+<li role=”option” id=”cb1-opt2″>Celtics</li>
+<li role=”option” id=”cb1-opt3″>Heat</li>
+<li role=”option” id=”cb1-opt4″>Suns</li>
+<li role=”option” id=”cb1-opt5″>Rockets</li>
+<li role=”option” id=”cb1-opt6″>Spurs</li>
+<li role=”option” id=”cb1-opt7″>Jazz</li>
+</ul>
+<input type=”text” aria-activedescendant=”cb1-opt6″
+aria-readonly=”true”
+aria-owns=”cb1-list” aria-autocomplete=”list”
+role=”combobox” id=”cb1-edit” value="Read only", readonly>
+<ul aria-expanded=”true” role=”listbox” id=”cb1-list”>
+<li role=”option” id=”cb1-opt1″>APPLE</li>
+<li role=”option” id=”cb1-opt2″>MICROSOFT</li>
+<li role=”option” id=”cb1-opt3″>LINUX</li>
+</ul>
+<input type=”text” aria-activedescendant=”cb1-opt6″
+aria-readonly=”true”
+aria-owns=”cb1-list” aria-autocomplete=”list”
+role=”combobox” id=”cb1-edit” value="Cannot be edit", readonly>
+<ul aria-expanded=”true” role=”listbox” id=”cb1-list”>
+<li role=”option” id=”cb1-opt1″>Yellow</li>
+<li role=”option” id=”cb1-opt2″>Blue</li>
+<li role=”option” id=”cb1-opt3″>Red</li>
+</ul>
+<input type=”text” aria-activedescendant=”cb1-opt6″
+aria-readonly=”true”
+aria-owns=”cb1-list” aria-autocomplete=”list”
+role=”combobox” id=”cb1-edit” value="Select a currency", readonly>
+<ul aria-expanded=”true” role=”listbox” id=”cb1-list”>
+<li role=”option” id=”cb1-opt1″>British Pound</li>
+<li role=”option” id=”cb1-opt2″>US Dollar</li>
+<li role=”option” id=”cb1-opt3″>Philippine Peso</li>
+</ul>
+<input type=”text” aria-activedescendant=”cb1-opt6″
+aria-readonly=”true”
+aria-owns=”cb1-list” aria-autocomplete=”list”
+role=”combobox” id=”cb1-edit” value="Read only file", readonly>
+<ul aria-expanded=”true” role=”listbox” id=”cb1-list”>
+<li role=”option” id=”cb1-opt1″>Income Statement</li>
+<li role=”option” id=”cb1-opt2″>Expenses Report</li>
+<li role=”option” id=”cb1-opt3″>Quarterly Report</li>
+</ul>
+What is the related ARIA Label to “aria-readonly”
+The aria-disabled is related to aria-readonly because they both indicate that the element is not allowed to be edited. The
+aria-disabled
+indicates a state for an interactive element that can be inaccessible or accessible in precedence if required actions are met. The purpose of aria-disabled is to provide information to the user that an instance cannot proceed due to some required toggles in need of interactions or blanks to be filled in information. The function aria-disabled is to make the interactive elements disable their function until an instance or required fields are filled in. The aria-disabled value is boolean, which means it only has two values, which are “true” or “false”.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-readonly” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Aria Labels for Accessibility: Examples, Types, Us…
+TechSEO
+“aria-valuetext” ARIA Label for Access…
+0
+0
+0

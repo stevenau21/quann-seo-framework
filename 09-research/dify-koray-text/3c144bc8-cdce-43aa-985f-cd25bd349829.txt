@@ -1,0 +1,133 @@
+HTML <area> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <area> HTML Tag denotes a region within an image map that contains predefined clickable regions. An image map enables the association of geometric areas on an image with hypertext links. The <area> HTML Tag is only used inside of a <map> HTML Tag. The <area> HTML Tag is part of the images tags category in HTML Element Reference. The attributes of the <area> HTML Tag are alt, coords, download, href, hreflang, media, referrer-policy, rel, shape, target, type, global attributes, and event attributes.
+<area> code block example to learn how it works is given below.
+<img src ="/map.png" alt="image" usemap ="#map">
+<map name="map">
+<area
+shape="rect"
+coords="50,50,100,100"
+href="/box/"
+alt="name">
+</map>
+The second example usage of the “<area>” code block example is below.
+<img src ="/pix/examples/usa-ca-map.gif"
+width="195" height="150"
+alt="Map of Canada and USA"
+usemap ="#usa-ca">
+<map name="usa-ca">
+<area shape ="poly" coords ="3,9,3,9,264,685,85"
+href ="https://en.wikipedia.org/wiki/Canada" target="_blank"
+alt="Canada">
+<area shape ="poly" coords ="9,9,3,869,163,507"
+href ="https://en.wikipedia.org/wiki/United_States" target="_blank"
+alt="USA">
+</map>
+Contents of the Article
+show
+1.
+What is an <area> HTML Tag?
+2.
+How to Use <area> HTML Tag?
+2.1.
+Example Usage of <area> HTML Tag?
+3.
+What are the Attributes of <area> HTML Tag?
+4.
+What are the Default CSS Settings for <area> HTML Tag?
+5.
+What are the Related other HTML Tags to <area>?
+What is an <area> HTML Tag?
+The <area> HTML Tag is used to define alt text for an image that is not displayed when the image attribute is not present. It is necessary for web developers because it provides alternative information to the user in the event that the image is not loaded.
+How to Use <area> HTML Tag?
+To use <area> HTML Tag, the web developer should create just like this <area shape=”” coords=”” href=”” alt=””> with the relevant attribute values inserted between the respective attribute’s double quotes and no end tag. It must combine the <area> HTML Tag with other elements such as the <map> or <template> HTML Tags, as well as an <img> HTML Tag to show the actual photo.
+Example Usage of <area> HTML Tag?
+The following example of usage of <area> HTML Tag is given below.
+<img src ="/pix/examples/eu-map.gif"
+width="300" height="185"
+alt="Map of Europe"
+usemap ="#eu">
+<map name="eu">
+<area shape ="poly" coords ="5,48,45,12,120,7,140,70,150,135,18,95"
+href ="https://en.wikipedia.org/wiki/Europe" target="_blank"
+href ="https://en.wikipedia.org/wiki/Europe" target="_blank"
+alt="Europe">
+</map>
+What are the Attributes of <area> HTML Tag?
+There are multiple attributes for the <area> HTML Tag. The following attributes are listed below.
+Global Attributes: The <area> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <area> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+alt: The <area> HTML Tag supports alt attributes. The alt attribute specifies a replacement text for the specified area. If the href attribute is present, this is required.
+coords: The <area> HTML Tag supports coords attributes. The coords attribute specifies the area’s coordinates.
+href: The <area> HTML Tag supports href attribute. The href attribute specifies the area’s hyperlink target.
+download: The <area> HTML Tag supports download attribute. The download attribute indicates that when a user clicks on the hyperlink, the target will be downloaded.
+hreflang: The <area> HTML Tag supports hreflang attribute. The hreflang attribute identifies the target URL’s language.
+media: The <area> HTML Tag supports media attributes. The media attribute indicates the type of media/device for which the target URL is optimized.
+rel: The <area> HTML Tag supports rel attribute. The rel attribute establishes a connection between the current document and the destination URL.
+referrerpolicy: The <area> HTML Tag supports referrer policy attribute. The referrer policy attribute indicates which referrer information should be sent along with the link.
+shape: The <area> HTML Tag supports shape attribute. The shape property indicates the type of media/device for which the target URL is optimized.
+target: The <area> HTML Tag supports target attribute. The target attribute indicates the location of the target URL when it is opened.
+type: The <area> HTML Tag supports type attribute. The type attribute indicates the target URL’s media type.
+What are the Default CSS Settings for <area> HTML Tag?
+The following is the Default CSS Setting for the <area> HTML Tag.
+img {
+display: block;
+margin: 0 auto;
+width: 260px;
+height: 248px;
+}
+What are the Related other HTML Tags to <area>?
+The other related HTML Tags to <area> HTML Tag are listed below.
+<img> HTML Tag: The
+<img>
+HTML Tag is related to <area> HTML Tag because they are both images tags. The <img> HTML Tag is used to specify the content of an image.
+<map> HTML Tag: The
+<map>
+HTML Tag is related to <area> HTML Tag because they are both images tags. The <map> HTML Tag is used to define an image map.
+<canvas> HTML Tag: The
+<canvas>
+HTML Tag is related to <area> HTML Tag because they are both images tags. The <canvas> HTML Tag is used to create JavaScript-based graphics elements.
+<figcaption> HTML Tag: The
+<figcaption>
+HTML Tag is related to <area> HTML Tag because they are both image tags. The <figcaption> HTML Tag specifies the caption for the figure tag.
+<figure> HTML Tag: The
+<figure>
+HTML Tag is related to <area> HTML Tag because they are both images tags. The <figure> HTML Tag denotes self-contained content.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <area> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <img> Tag Definition, Usage and Example…
+TechSEO
+Image Title vs Image Alt Tag: Image Titles for SEO…
+0
+0
+0

@@ -1,0 +1,160 @@
+HTML <th> Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <th> HTML Tag defines as a header cell that contains information about the HTML table. Typically, the browsers have rendered the text inside the <th> HTML Tag as bold, centre-aligned text. Additionally, this tag is frequently referred to as the <th> element. The <th> HTML Tag should be contained within a <tr> HTML Tag, which must be nested correctly as well. The <th> HTML Tag is part of the Tables HTML category in HTML Element Reference. The attributes of the <th> HTML Tag are global and event attributes.
+<th> code block example to learn how it works is given below.
+<th>Content here…</th>
+The second example usage of the “<th>” code block example is given below.
+<table>
+<tr>
+<th>No.</th>
+<th>Name</th>
+<th>Address</th>
+</tr>
+<tr>
+<td>1</td>
+<td>John Doe</td>
+<td>4429 Little Street Cortland, United States</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Jane Doe</td>
+<td>275 Melody Lane Bigelow, United States</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Johnny Doe</td>
+<td>4819 Stout Street New Holland, United States</td>
+</tr>
+</table>
+Contents of the Article
+show
+1.
+What is <th> HTML Tag?
+2.
+How to Use <th> HTML Tag?
+2.1.
+Example Usage of <th> HTML Tag?
+3.
+What are the Attributes of <th> HTML Tag?
+4.
+What are the Default CSS Settings for <th> HTML Tag?
+5.
+What are the Related other HTML Tags to <th>?
+What is <th> HTML Tag?
+The <th> HTML Tag designates a cell as the header of a collection of table cells. The scope and headers attributes classify the precise nature of this group.CSS attributes allow the user to override the browser’s default styling of the header cell, which is bold and centered by default. The <th> HTML Tag should be utilised as a child element of the
+<tr>
+element or table row within <table> element. The table’s size is automatically adjusted depending on the size of the content.
+How to Use <th> HTML Tag?
+To use the <th> HTML Tag, the web developer should write <th></th> with content text inserted between the beginning and end tags. Furthermore, the web developer should insert the <th></th> inside the <table> tag.
+Example Usage of <th> HTML Tag?
+The following examples of usage of <th> HTML Tag are given below.
+<table>
+<tr>
+<th>Fruit</th>
+<th>Price</th>
+</tr>
+<tr>
+<td>Banana</td>
+<td>$20</td>
+</tr>
+</table>
+<table>
+<tr>
+<th>Company</th>
+<th>Services</th>
+</tr>
+<tr>
+<td>ABC Travel and Tours Agency</td>
+<td>Book flights, hotel rooms, tour guiding</td>
+</tr>
+</table>
+What are the Attributes of <th> HTML Tag?
+There are multiple attributes for the <th> HTML Tag. The following attributes are listed below.
+Abbr Attribute: The <th> HTML Tag supports the abbr attribute. The abbr attribute provides a condensed version of the content in the header cell.
+Colspan Attribute: The <th> HTML Tag supports the colspan attribute. The colspan attribute specifies the maximum number of columns that a header cell should cover.
+Header Attribute: The <th> HTML Tag supports the header attribute. The header attribute indicates which header cells a cell is associated with.
+RowspanAttribute: The <th> HTML Tag supports the rowspan attribute. The rowspan attribute indicates the maximum number of rows that a header cell should span.
+Scope Attribute: The <th> HTML Tag supports the scope attribute. The scope attribute specifies if a header is a group of columns, columns, rows, or row header cells.
+Global Attributes: The <th> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <th> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <th> HTML Tag?
+The following are the Default CSS Settings for the <th> HTML Tag.
+td,
+th {
+border: 1px solid rgb(190, 190, 190);
+padding: 10px;
+}
+td {
+text-align: center;
+}
+tr:nth-child(even) {
+background-color: #eee;
+}
+th[scope="col"] {
+background-color: #696969;
+color: #fff;
+}
+th[scope="row"] {
+background-color: #d7d9f2;
+}
+caption {
+padding: 10px;
+caption-side: bottom;
+}
+table {
+border-collapse: collapse;
+border: 2px solid rgb(200, 200, 200);
+letter-spacing: 1px;
+font-family: sans-serif;
+font-size: .8rem;
+}
+What are the Related other HTML Tags to <th>?
+The other related HTML Tags to the <th> HTML Tag are listed below.
+<col> HTML Tag: The
+<col>
+HTML Tag and <th> HTML Tag are related because they are both tables HTML Tags. The <col> HTML Tag specifies the columns settings for each column contained within a <colgroup> element.
+<colgroup> HTML Tag: The
+<colgroup>
+HTML Tag and <th> HTML Tag are related because they are both tables HTML Tags. The <colgroup> HTML Tag Specifies a group of one or more columns in a table for formatting
+<tbody> HTML Tag: The <tbody> HTML Tag and <th> HTML Tag are related because they are both tables HTML Tags.  The <tbody> HTML Tag groups the body content in a table
+<tr> HTML Tag: The
+<tr>
+HTML Tag and <th> HTML Tag are related because they are both tables HTML Tags. The <tfoot> HTML Tag specifies a table row.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <th> Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <font> Tag Definition, Usage and Exampl…
+TechSEO
+HTML “select”  Definition, Usage and E…
+0
+0
+0

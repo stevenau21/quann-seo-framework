@@ -1,0 +1,173 @@
+Loading Font Files with Best Practices - Holistic SEO
+Skip to content
+Optimizing WebFont files includes the process of decreasing the size of font files and using only necessary glyphs along with better font-file extensions such as Woff2 instead of TFF or Woff for better web page loading performance. A WebFont file contains stylish glyphs that refer to a letter, numeric value, or a character for a word to change the style of the text within the HTML document. Font files are essential resources of a web page such as CSS, images, JavaScript files, and optimizing font files by compressing, cleaning, and changing their extension is important. To optimize a web font file loading, the steps below can be used.
+Load Font Files as Async
+Inline the Font Declaration within Critical CSS
+Do not Use @import for font files
+Optimize Font Declaration Order
+Use Local Function for font files
+Use Unicode-range
+Inline the Font Files with
+Clean the Unused Glyphs
+Use text-rendering CSS Property
+Use CDN Cache for Font Files
+Use the Correct Font Files
+Use Preconnect for Font Files
+Use Preload Font Files
+Cache Font Files with Static Browser Cache
+Use Font-variables
+Use Font-display
+Cache the FONT Files with Service Workers
+Use Font Loading API
+Decrease the Count of Font Files
+Decrease the Size of Font Files
+In this WebFont guideline, optimizing, compressing, and using font files for better loading speed will be processed with possible font loading issues such as FOUT, FOIT and render-blocking resources, and async loading of web page resources. Web font best practices and font file optimization practices will be told with detailed examples, steps, and explanations. A web font and desktop font are two different font types, WebFont covers the font files for the web pages while desktop font covers the font files for desktop applications. WebFont guideline focuses on web page font files’ effects for page speed.
+Contents of the Article
+show
+1.
+What are the Web Font Loading Related Performance Issues?
+2.
+What are the steps to improve WebFont loading speed?
+3.
+What are the General Page Loading Performance Improvements for Web Fonts?
+4.
+What are the Web Font File Improvements for better web page loading speed?
+4.1.
+1. Decrease the Size of Font Files
+4.2.
+2. Decrease the Count of Font Files
+4.3.
+3. Use Font Loading API
+4.4.
+4. Cache the FONT Files with Service Workers
+4.5.
+5. Use Font-display
+4.6.
+6. Use Font-variables
+4.7.
+7. Cache Font Files with Static Browser Cache
+4.8.
+8. Use Preload Font Files
+5.
+9. Use Preconnect for Font Files
+5.1.
+10. Use the Correct Font File Extension
+5.2.
+11. Use CDN Cache for Font Files
+5.3.
+12. Use Text-rendering CSS Property
+5.4.
+13. Clean the Unused Glyphs
+5.5.
+14. Inline the Font Files with Data URI
+5.6.
+15. Use Unicode-range
+5.7.
+16. Use Local Function for font files when it is possible
+5.8.
+17. Optimize Font Declaration Order
+5.9.
+18. Do not Use @import for font files
+5.10.
+19. Inline the Font Declaration within Critical CSS
+5.11.
+20. Load Font Files as Async
+6.
+Which Pagespeed Metrics can be improved with Web Font Best Practices?
+7.
+How Font File Best Practices can help for Conversion Rate?
+8.
+How does Font File Optimization make a Landing Page Better?
+9.
+Last Thoughts on Web Font File Optimization, Font Loading Speed and Holistic SEO
+What are the Web Font Loading Related Performance Issues?
+The web Font loading-related web page loading performance (page speed) issues are listed below.
+FOUT: Flash of Unstyled Text (Content) involves the style change and flicker effect for text of the web page during loading.
+FOIT: Flash of Invisible Text (Content) involves the blank text problem during web page loading.
+Render-blocking Font-files involes the font-files’ render-blocking effect.
+Too many font file variations includes increased request size, and count due to the excessive amount of WebFont files.
+Using Font-display with wrong syntax includes flawed usage of font-files with CSS.
+A visible representation of the web font loading-related performance issues such as FOUT and FOIT can be found below.
+A visual explanation for FOUT and FOIT which are related to the user experience.
+What are the steps to improve WebFont loading speed?
+The steps to improve WebFont loading speed are divided into two, general page speed improvements and font-file focused page speed improvements. Improving server infrastructure, and query chains, or cleaning the unused code will improve the page speed for WebFont load speed since they are general improvements. But, using Woff2 instead of TFF files will decrease only the font-file size as WebFont focuses on page speed improvement.
+What are the General Page Loading Performance Improvements for Web Fonts?
+The general web page loading performance improvements for web fonts are listed below.
+Using a CDN Cache system for improving the font loading.
+Using Brotli compression for better
+TCP Slow Start
+to request the font files earlier.
+Cleaning Unused CSS and JavaScript codes to decrease the total size of the web page.
+Compressing images to decrease the total size of the web page.
+Decreasing the overall request count to call web fonts faster.
+Using HTTP 2.1 or HTTP Quick for retrieving web font files earlier.
+Using browser hints such as preload, or preconnect to call the necessary resources earlier.
+Decreasing the DOM Size to improve the DOMContentLoaded event and web font files’ loading indirectly.
+Load the font files as async.
+What are the Web Font File Improvements for better web page loading speed?
+The improvements for font file loading involves font-file-oriented web page speed optimizations such as font file size decreasing, font-file compression, font-display usage, or font loading API usage. To improve the font-file loading speed by preventing the FOUT and FOIT, the methods below can be used.
+Decrease the Size of Font Files
+Clean the Unused Glyphs
+Decrease the total count of font files
+Use Font Loading API
+Use Font-display
+Use Font-variable
+Cache Font Files with Service Worker
+Cache Font Files with Browser Cache for Static Files
+Use Preload for Font Files
+Use Preconnect for Font Files
+Use Correct Font File Extensions
+To load web fonts faster, improving page speed with web page loading performance improvements that focus on web fonts is essential. Below, you will see every web font loading optimization method’s explanation with examples. If a CDN is used for third-party font files’ being downloaded, the “crossorigin” attribute should be used definitely.
+An example of Render-tree with text elements, and visualization of font files’ requesting methods.
+1. Decrease the Size of Font Files
+To decrease the size of font files, decreasing the count of font files, changing the font file extension, and cleaning the unused glyphs from font files are the main methods. If a website uses 5 different font files, it means that five different font file requests will be made. 5 different font files will increase the total size of font files within the web page. Some of these font files won’t be used for all of the web pages or all of the components of the web pages. Thus, prioritizing the font files, and not creating a separate font file for every type of stylish difference such as italic, bold, and others, is one of the main keys. In this context, using font variables will be a key for optimizing the font file size. To decrease the font file size, the instructions below can be used.
+Use WOFF2 extension instead of Woff and TFF
+Unite all of the font files from different variations with font-variable
+Clean the unused and unnecessary font files
+Do not load every font file for every web page
+Prioritize the font files that will be used for
+above the fold
+part of web pages.
+To learn more about “Compressing Font File Size”, read the related guideline.
+2. Decrease the Count of Font Files
+Decreasing the count of font files involves cleaning, and deleting some of the font files from the website resources to decrease the number of font files that are used by the website. Decreasing the total count of font files within a website will give a better focus on the main content of the website to load faster. Using fewer font files is to improve the paint time of the text with the necessary style of the used font files. For example, if a website uses 11 different font files, this will block the main thread of the browser from rendering, and even requesting the rest of the resources for the website. To not create a total blocking time problem, and not delaying the first contentful paint, decreasing the font file count is a necessity.
+In the Chrome DevTools, the font file count, their initiator, timing, and size, protocol, method of request can be seen.
+Having one, or two different font files for web pages will help a website to decrease the total request size and count by improving the web page loading performance with readable typography. Decreasing the font file count will help to improve the first paint time, along with decreasing the server overload. To learn how many font files a website uses, you can use Google Chrome’s DevTools’ Network tab or Firefox Developer Tools. Both of the browsers will show the font files, their sizes, loading order, priority, and protocol to help font file optimization. To decrease the count of the font files, the developer should delete some of the font files from the HTML Document’s request tree, and the server of the website. To delete the correct font files to decrease the count of font files, the readability of the font file, typography of font file, and its total size, usability should be accounted for a better user experience.
+3. Use Font Loading API
+Font Loading API of Chrome is an interface let interfering with the web font loading behavior of the chrome browser. Changing the initially loaded font file, or modifying the font file loading timing is involved with Font Loading API. A specific font file’s necessity can be higher than other font files to improve the initial contact with the user during the loading of the web pages. Prioritizing some of the font files with Font Loading API lets a developer load a specific font file earlier to improve the initial web page loading by preventing the blank text issue. An example of Use Font Loading API with JavaScript can be found below.
+var font = new FontFace("Open Sans", "url(open-sans.woff2)", {
+style: 'normal', unicodeRange: 'U+000-5FF', weight: '400'
+});
+// Without the rendering, fetch the font file directly.
+font.load().then(function() {
+// apply the font (which may re-render text and cause a page reflow)
+// after the font has finished downloading
+document.fonts.add(font);
+document.body.style.fontFamily = "Awesome Font, serif";
+var content = document.getElementById("content");
+content.style.visibility = "visible";
+});
+4. Cache the FONT Files with Service Workers
+Service Workers are browser-centered caching systems that help a browser to load resources of web pages without requesting them from the server of the website. Caching font files with Service Workers will help a browser to load the font files locally, without calling the font files from the server. Loading web font files from local cache with service workers will improve the font load time by more than 20% until 40% based on the Time to First Byte value of the server. To use a Service Worker for loading the font files faster, activating the Progressive Web Applications for the website is a necessary step. To make the website downloadable, and cache the web font files along with other resources, you can read the related “Service Worker Creation” guideline.
+5. Use Font-display
+Font-display is a CSS property that can be used within CSS files to affect the web font file loading timing. Font-face CSS Property work with “@font-face” rules which are “auto”, “block”, “swap”, “fallback”, “optional”. Font-display determines how and when a font file should be loaded, and when it should be swapped with the default font file of the browsers. To improve the font file loading speed, the font-display property values’ meanings are listed below.
+Auto: User-agent of the requestor determines the font display strategy.
+Block: Blocks the font file until the infinite swap period starts.
+Fallback: Determines the font file as a fallback font document if the prioritized font file is not compatible.
+Optional: Browser swaps the font face after a short blocking time.
+Swap: After a small font face block timing, browser swaps the font face.
+An example of “font-display” for font file loading optimization can be found below.
+@font-face {
+font-family: Verdana;
+src: url(/verdana.woff2) format('woff2'),
+url(/verdana.woff) format('woff');
+font-weight: 400;
+font-style: normal;
+font-display: fallback; /* swap, optional, fallback, block can be used too. */
+}
+To understand the Font-display values, the Font Display Timeline should be understood. Font-display Timeline includes Font Block Period which involves the time that the font face is not loaded, and the elements with that specific font-face should be rendered with invisible fallback font face. Font swap period is included font display timeline as well, it involves rendering the web page elements with the fallback font face until the font face is loaded. And, font failure period involves the failed font face loading attempts. To understand the font-display property, read the related font-display usage guideline.
+Using the font-display property can prevent having an invisible text error, and prioritize the loading of the font files.
+6. Use Font-variables
+Font-variables or variable fonts are beneficial for decreasing the size of font files, and font file count to improve the font file loading speed. A font variable can include multiple font file features such as being italic, bolder, or lighter. Font variables can be used via “Font-face” rules to control the registered axes of the glyphs within font files such as weight, width, slant, optical size, and italics. With font variables, a developer 
+
+[...truncated...]

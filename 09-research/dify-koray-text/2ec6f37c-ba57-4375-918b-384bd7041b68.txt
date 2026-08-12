@@ -1,0 +1,126 @@
+Skip to content
+Cumulative Layout Shift (CLS)
+is one of the Core Web Vitals metrics and user-centric performance metrics that focus on visual-stability during the entire life span of a web page. CLS is an important term for preventing the layout shifts that annoy users. While reading a text or being about to click a link, if the text or the link moves down or up suddenly, it will create an annoyance for the user.
+Oftentimes, Layout Shifts are stressful, annoying for the user, and lowering the trust in the content publisher. Also, in some cases, the CLS may also cause real financial losses. Therefore, a low Cumulative Layout Shifting Score is important for both SEO and UX. Cumulative Layout Shift (CLS) Issue in Google Search Console’s Core Web Vitals Report is another signal that shows users are experiencing layout shiftings while using the web site.
+Cumulative Layout Shifting and Other Core Web Vitals Issues for a website’s mobile performance report on Google Search Console. This Core Web Vitals report screenshot is from one of the biggest news brands in Turkey.
+Because of Google’s Page Experience Algorithm based on Web Page Loading Performance with user-centric metrics such as Core Web Vitals, Cumulative Layout Shifting has become an important User Experience, Conversion Rate Optimization, and Search Engine Optimization term. In this guideline, you will find answers for the definition, measurement, scoring, and improvement methodologies for CLS.
+The questions that are answered in this Cumulative Layout Shift (CLS) SEO Guide below:
+What is Cumulative Layout Shift (CLS)?
+How is CLS calculated?
+What is a good CLS score?
+How does CLS impact user experience?
+How can I measure CLS on my website?
+What are some common causes of CLS?
+How can I reduce CLS on my website?
+What is the impact of images and videos on CLS?
+How does CLS differ from other web performance metrics?
+How does CLS affect search engine optimization?
+How does CLS impact mobile devices?
+Can CLS be measured in real-time?
+How does CLS relate to web accessibility?
+How does CLS impact e-commerce websites?
+How does CLS impact website bounce rate?
+Contents of the Article
+show
+1.
+What is Cumulative Layout Shift (CLS)?
+2.
+How is CLS Calculated?
+3.
+What is a Good CLS Score?
+4.
+How Does CLS Impact User Experience?
+5.
+How Can I Measure CLS on My Website?
+6.
+What are Some Common Causes of CLS?
+7.
+How Can I Reduce CLS on My Website?
+8.
+What is The Impact of Images and Videos on CLS?
+9.
+How Does CLS Differ From Other Web Performance Metrics?
+10.
+How Does CLS Affect Search Engine Optimization?
+11.
+How Does CLS Impact Mobile Devices?
+12.
+Can CLS be Measured in Real-Time?
+13.
+How Does CLS Relate to Web Accessibility?
+14.
+How does CLS impact e-commerce websites?
+15.
+How Does CLS Impact Website Bounce Rate?
+16.
+Why Does Cumulative Layout Shift (CLS) Occur?
+17.
+What is Distance Fraction for CLS?
+17.1.
+Why is Distance Fraction Important for CLS?
+18.
+What is the Difference between Expected and Unexpected Layout Shifts?
+18.1.
+Layout Shift Events That Started by the User
+18.2.
+Natural and Smooth Animations and Transitions
+19.
+What are the Differences Between Bad and Good Layout Shifts?
+20.
+How to Measure Cumulative Layout Shift?
+21.
+How to Measure Cumulative Layout Shift Manually?
+22.
+How to Improve Cumulative Layout Shifting?
+22.1.
+Images without Height and Width Value
+22.2.
+How to Prevent CLS Using Responsive Image?
+22.3.
+Cumulative Layout Shifting and Advertisements
+22.3.1.
+How to Prevent CLS for Ads Elements on the Web Page?
+22.3.1.1.
+Making a Static Slot for Ads
+22.3.1.2.
+Keeping Ads Placement Off Top of Page
+22.4.
+The Importance of Iframe and Embed for Cumulative Layout Shifting Optimization
+22.4.1.
+How to Prevent Cumulative Layout Shifting for Iframe and Embed?
+22.5.
+Dynamic Content Injection and Cumulative Layout Shifting
+22.6.
+Web Fonts, FOUT, FOIT and Cumulative Layout Shifting
+22.7.
+Animations and Cumulative Layout Shifting
+23.
+How to Examine Layout Shifting with Chrome DevTools
+24.
+Last Thoughts on Cumulative Layout Shift, User-centric Performance Metrics, and Holistic SEO
+What is Cumulative Layout Shift (CLS)?
+As an SEO, web developer, or website owner, it is important to understand the Cumulative Layout Shift (CLS) metric. The CLS metric evaluates how consistent a website’s layout remains over time and can be used to determine the overall user experience of your site. It computes all the separate layout shift scores for every unexpected layout shift that takes place during page loading and records them in a table. A high CLS score indicates that there are many unexpected shifts that can disrupt users while they attempt to interact with content on your site; this decreases user satisfaction levels and makes it difficult for them to follow what they are doing on your website. On the other hand, having a low CLS score means that minimal unexpected shifts occur, providing an improved user experience as content does not move around unexpectedly when users navigate through pages or sections of your site. This can be determined by looking at how many times each page has been loaded since its creation – if more than one load occurs then you should investigate why this might have happened as multiple loads could indicate instability within certain areas of your design structure, leading to increased CLS scores due to lack of consistency in layouts across different visits from same/different visitors.
+In order to ensure optimal performance from both search engine crawlers & human visitors alike, it is essential for any webmaster/developer/owner to take steps towards improving their website’s cumulative Layout Shift Score (CLS). One way would be to use techniques such as lazy-loading images & videos, so elements don’t suddenly appear mid-way down long pages causing accidental clicks & confusion amongst viewers; another method involves using fixed positioning where possible, so elements stay put even after new items get added onto existing structures, ensuring stability throughout entire browsing session without disruption caused by sudden changes in position during navigation process. Finally, developers should always test their designs thoroughly before going live – making sure all components remain stable regardless amount of traffic being sent through the system, thus avoiding potential increase in undesired movement between objects resulting in higher overall CLS values potentially damaging visitor’s experiences, negatively impacting conversions rates significantly too.
+How is CLS Calculated?
+As a web developer, it’s important to be aware of Cumulative Layout Shift (CLS) and its implications for website performance. CLS is calculated by summing the individual layout shift scores for every viewport unexpected layout shift that occurs during the entire lifespan of the page. The impact fraction is determined by measuring how much space on viewport unexpected viewport an element takes up, the distance, while the distance fraction measures how far it moved in relation to viewport height. A good rule of thumb is to aim for a CLS score lower than 0.1 as this indicates minimal disruption from unexpected shifts in content or visuals on your website pages which can negatively affect user experience and engagement with your site overall.
+For SEO purposes, having low CLS scores are also beneficial as Google has recently announced that they will use this metric when evaluating websites’ rankings in search results; thus, improving your site’s CLS score could potentially help boost visibility online and attract more organic traffic from potential customers or clients who may be searching keywords related to what you offer! As such, incorporating strategies like lazy loading images into any new developments you make can help reduce unnecessary shifts caused by large files being loaded onto pages all at once – resulting in improved user experience along with better SEO outcomes over time.
+What is a Good CLS Score?
+As a web developer or website owner, it is important to understand the importance of Cumulative Layout Shift (CLS) and its impact on user experience. CLS measures how many content shifts around while users are viewing a page. The Web Vitals team at Google recommends that websites aim for a CLS score of less than 0.1, as this is considered to be an acceptable threshold for visual stability and user experience. A score of 0 is ideal but can be difficult to achieve in practice due to various factors contributing towards layout shifts such as images loading slowly, dynamic content is added after the initial page load, etc.
+In order to maintain good CLS scores, developers should pay close attention when building pages with elements that could cause layout shift like ads or other third-party scripts – use techniques such as setting sizes for images upfront, so they don’t change the size once loaded onto the page; using CSS position: sticky instead of JavaScript; avoiding large font size changes between headings, etc. Additionally, tracking metrics related not just only CLS but also FID (First Input Delay), LCP (Largest Contentful Paint) & TTI (Time To Interactive) helps gain better insights into overall performance & UX quality on your website/application.
+Overall having low cumulative layout shift scores ensures smooth transitions between different states in your application which gives end users seamless experiences without any unexpected jumps making them more likely to stay longer and come back again leading to higher conversions rates or whatever goal you have set up
+How Does CLS Impact User Experience?
+For SEO, Web developers and website owners, Cumulative Layout Shift (CLS) is an important factor to consider when designing or optimizing a website. A high CLS score can have a significant impact on user experience by causing unexpected layout shifts that are disruptive and frustrating for users. These layout shifts can make it difficult for users to complete their intended task, particularly on mobile devices where screen sizes are smaller and control over interactions is less precise. Furthermore, these unexpected shifts can be especially challenging for those with visual impairments who may not be able to accurately locate elements that have moved unexpectedly.
+On the other hand, having a low CLS score indicates that your website has minimal unexpected layout shifts which provides an improved user experience overall. By reducing disruptions caused by these sudden changes in design elements like buttons or text boxes you will create more positive experiences which will help drive engagement with your content as well as increase conversion rates from visitors into customers/clients etc.. To ensure your site’s CLS scores remain low web developers should use techniques such as reserving space ahead of time before loading images so they don’t push existing content out of place once loaded; setting all font sizes in relative units rather than absolute values; avoiding dynamic resizing of page elements; using CSS transitions when changing element properties instead of JavaScript-based animations where possible etc..
+By taking the time to properly optimize their websites according to SEO best practices webmasters can ensure they provide their visitors with great experiences while also increasing traffic & conversions at the same time.
+How Can I Measure CLS on My Website?
+There are several ways to measure Cumulative Layout Shift (CLS) on a website:
+Browser DevTools: Most modern web browsers come with developer tools that allow you to measure CLS, as well as other web performance metrics. In Google Chrome, for example, you can use the Lighthouse tool to measure CLS.
+Web Vitals JavaScript library: Google has developed a JavaScript library called Web Vitals that allows you to measure and track CLS and other web performance metrics on your website.
+Google Analytics: You can use Google Analytics to monitor CLS and measure it with the help of the “Web Vitals” function in your Google Analytics account.
+Google Search Console: Google Search Console gives you information about the CLS score of your website in the “Core Web Vitals” section of the platform.
+Third-party tools: There are several third-party tools such as GTmetrix, SpeedCurve, and Calibre that allow you to measure and track CLS and other web performance metrics.
+It should be noted that CLS measurement on your website will more effective if you test it with real devices and real-world conditions, which may differ from a synthetic testing method.
+What are Some Common Causes of CLS?
+Cumulative layout shift CLS is a problem that can affect the user experience of any website it occurs when elements on the page are shifted around unexpectedly which can be disorienting and distracting for visitors as a web developer or website owner It’s important to understand some of the common causes of CLS, so you can take steps to prevent them from occurring on your site one common cause is loading images or videos without specifying their dimensions beforehand without knowing how much space these elements will occupy they can cause layout shifts as soon as they’re loaded, and the page reflows to accommodate them additionally asynchronous content loading such as ads or widget scan also lead to unexpected layout changes if not implemented correctly likewise with dynamic content updates using JavaScript and third-party scripts like analytics tools that aren’t properly integrated into your codebase finally hiding elements without first defining their size in advance may also result in unexpected layout shifts when those hidden items are revealed later on down the line fortunately there are ways you can mitigate against CLS issues arising on your site by taking proactive measures such as setting image sizes before loading them onto pages implementing asynchronous content correctly making sure all fonts have been applied prior to rendering pages ensuring all dynamic updates 
+
+[...truncated...]

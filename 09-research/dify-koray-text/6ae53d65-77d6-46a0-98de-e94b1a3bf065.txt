@@ -1,0 +1,97 @@
+HTML <section> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The  <section> HTML Tag indicates a generic standalone section of a document that lacks a more specific semantic element. With very few exceptions, sections should also have a heading. The developer should use the <section> HTML Tag if no more specific element exists to represent it. Each HTML Tag containing a section should be labeled. The <section> HTML Tag is part of the style and semantic tags category in HTML Element Reference. The attributes of the <section> HTML tag are global attributes and event attributes.
+<section> code block example to learn how it works is given below.
+<section>
+Content
+</section>
+The second example usage of the “<section>” code block example is given below.
+<section>
+<h2>Facebook</h2>
+<p>Facebook is a social networking website where users can create profiles, share information about themselves such as photos and quotes, and respond to or link to the information shared by others.</p>
+</section>
+Contents of the Article
+show
+1.
+What is <section> HTML Tag?
+2.
+How to Use <section> HTML Tag?
+2.1.
+Example Usage of <section> HTML Tag?
+3.
+What are the Attributes of <section> HTML Tag?
+4.
+What are the Default CSS Settings for <section> HTML Tag?
+5.
+What are the Related other HTML Tags to <section>?
+What is <section> HTML Tag?
+The <section> HTML Tag indicates a section of a document, such as a chapter, a header, or a footer. The <section> HTML Tag categorizes the content by section and subsection. When two headers or footers or any other section of a document is required, the <section> HTML Tag is used. The <section> HTML Tag was used to categorize the generic block of related content. The <section> HTML Tag’s primary advantage is that it is a semantic tag, which means that it describes its meaning to both the browser and the developer.
+How to Use <section> HTML Tag?
+To use the <section> HTML Tag, the web developer should write the section’s content between the <section> and </section> HTML Tags. This tag is used if no more specific element exists to represent it. Each <section> HTML Tag should be labeled.
+Example Usage of <section> HTML Tag?
+The following example of usage of <section> HTML Tag is given below.
+<section>
+<h2>Instagram</h2>
+<p>Instagram is a social networking service for sharing photos and videos founded by Kevin Systrom and Mike Krieger in the United States.</p>
+</section>
+What are the Attributes of <section> HTML Tag?
+There are multiple attributes for the <section> HTML Tag. The following attributes are listed below.
+Global Attributes: The <section> HTML tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <section> HTML tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <section> HTML Tag?
+The following is the Default CSS Setting for the <section> HTML Tag.
+hgroup > h1, h2 {
+margin: 0;
+}
+What are the Related other HTML Tags to <section>?
+The other related HTML Tags to <section> HTML Tag are listed below.
+<summary> HTML Tag: The
+<summary>
+HTML Tag is related to <section> HTML Tag because they are both style and semantic tags. The <summary> HTML Tag specifies a summary, caption, or legend for the disclosure box of a <details> HTML Tag.
+<article> HTML Tag: The
+<article>
+HTML Tag is related to <section> HTML Tag because they are both style and semantic tags. The <article> HTML Tag. The <article> HTML Tag specifies a self-contained composition in a document, page, application, or site that is meant to be distributable or reusable independently.
+<header> HTML Tag: The
+<header>
+HTML Tag is related to <section> HTML Tag because they are both flow content. The <header> HTML Tag represents introductory material, which is often a series of introductory or navigational aids.
+<div> HTML Tag: The
+<div>
+HTML Tag is related to <section> HTML Tag because they are both style and semantic tags. The <div> HTML Tag acts as a container for flow content. It has no influence on the text or layout unless and until it is styled with CSS.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <section> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <video> Tag Definition, Usage and Examp…
+TechSEO
+HTML <hr> Tag Definition, Usage and Examples…
+0
+0
+0

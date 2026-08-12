@@ -1,0 +1,140 @@
+Skip to content
+The <html> HTML Tag define as the compartment for all of the other HTML elements, with the exception of the <doctype> HTML Tag, which isn’t technically an HTML element since it is defined as such in the HTML specification. In an HTML document, the <html> HTML Tag is used to represent the document’s origin. All other elements must be derived from this element in some way. The user-agent should always include the lang attribute within the <html> tag in order to assert the language of the Website page in the <html> HTML tag. This is intended to be of support to search engines and web browsers. The <html> HTML Tag is part of the Basic HTML Tags category. The attributes of the <html> HTML Tag are xlmns and Global Attributes. HTML documents contain the <html> HTML Tag.The code block and code sample for the <html> HTML Tag are shown below.
+“<HTML> code block example” to learn how it works is given below.
+<html>
+<head>
+<title>Title</title>
+</head>
+<body>
+Body
+</body>
+</html>
+The second example usage of the “<HTML>” code block example is below.
+<html>
+<html> lang=en>
+<head>
+<meta charset=utf-8>
+<title>My web page</title>
+</head>
+<style>
+body {background-color: #F0F8FF; color: #FAEBD7}
+<body>
+<h1> Welcome to my blog
+This is my first ever blog
+</body>
+</HTML>
+Contents of the Article
+show
+1.
+What is <html> HTML Tag?
+2.
+How to Use <html> HTML Tag?
+2.1.
+Example Usage of <html> HTML Tag?
+3.
+What are the Attributes of <html> HTML Tag?
+4.
+What are the Default CSS Settings for <html> HTML Tag?
+5.
+What are the Related other HTML Tags to <html>?
+What is <html> HTML Tag?
+The <html> HTML Tag is the origin of all the elements when an HTML document is created.  All those other components must be derived from this element in some way. The <html> HTML Tag is used to illustrate the timeline of an HTML element within an HTML document.
+How to Use <html> HTML Tag?
+To use the <html> HTML Tag, the web developer should write an <html>and </html> with all other elements as well and it should be enclosed between the start and ending tags. It is necessary to include a <!doctype> element prior to the html element as it is the first HTML element in an HTML document. The first tag contained within an <html> tag must be a <head> tag, which must be followed by a <body> tag.
+Example Usage of <html> HTML Tag?
+The following examples of usage of <html> HTML Tag are given below.
+<html>
+<html> lang=en>
+<head>
+<meta charset=utf-8>
+<title>My web page</title>
+</head>
+<style>
+body {background-color: #F5F5DC; color: #000000}
+. times new roman {font-family: Times New Roman", Times, serif; color: red}
+</style>
+<body>
+<h1> Welcome to my blog
+<p class=”times new roman”> This is my first ever blog </p>
+<p>Here are some things that I would consider:</p>
+</body>
+<html>
+<html> lang=en>
+<head>
+<meta charset=utf-8>
+<title>My web page</title>
+</head>
+<style>
+body {background-color: #FFD700; color: #F8F8FF}
+. times new roman {font-family: Times New Roman", Times, serif; color: red}
+</style>
+<body>
+<h1> Welcome to my life
+<p class=”times new roman”> This is my first ever life blog </p>
+<p>Here are some things that I would consider:</p>
+</body>
+</HTML>
+What are the Attributes of <html> HTML Tag?
+There are multiple attributes for the <html> HTML Tag. The following attributes are listed below.
+Xlmns Attribute: The <html> HTML Tag supports the xlmns attribute. This attribute stipulates the XML namespace if you require your content to be compliant with XHTML.
+Global Attributes: The <html> HTML Tag supports the Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+What are the Default CSS Settings for <html> HTML Tag?
+The following are the Default CSS Settings for the <html> HTML Tag. Some examples are listed below this document.
+html {
+display: block;
+}
+html:focus {
+outline: none;
+}
+What are the Related other HTML Tags to <html>?
+The other related HTML Tags to the <html> HTML Tag are listed below.
+<title> HTML Tag: The
+<title>
+HTML Tag and <html> HTML Tag are related because they are both basic HTML Tags. In the <title> HTML Tag the document’s title is defined in this section.
+<head> HTML Tag: The
+<head>
+HTML Tag and <html> HTML Tag are related because they are both basic HTML Tags. It is necessary to specify the head portion of the page, which contains information that is relevant to the document, with an HTML Tag called “head.” The <head> HTML Tag contains other head components such as the <title>, <meta>, <link>, <style>, and <link> Tags, amongst other things.
+<hr> HTML Tag: The
+<hr>
+HTML Tag and <html> HTML Tag are related because they are both basic HTML Tags.  The <hr> HTML Tag refers to a change in the content’s subject focus.
+<br> HTML Tag: The
+<br>
+HTML Tag and <html> HTML Tag are related because they are both basic HTML Tags. The <br> HTML Tag function adds a single line break.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <html> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <map> Tag Definition, Usage and Example…
+TechSEO
+HTML <head> Tag Definition, Usage and Exampl…
+0
+0
+0

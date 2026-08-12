@@ -1,0 +1,122 @@
+HTTP Strict Transport Security (HSTS) Response Header - Holistic SEO
+Skip to content
+HTTP Strict Transport Security (HSTS) is a protocol policy to protect websites against cybersecurity issues such as man-in-the-middle attacks, protocol downgrade attacks, cookie hijacking. HSTS forces web browsers and user-agents to interact with only the HTTPS version of the website. HTTPS provides a Transport Layer Security (TLS). HTTP Strict Transport Security has been specified within the RFC 6797 on 19 November 2012. HSTS can be implemented to a website via the “Strict-Transport-Security” HTTP Response Header. HSTS can cause a connection request to end as an error, or it can redirect a user with 307 Redirection HTTP Status Code to the HTTPS version of the same requested URL. The HSTS Response Header should be implemented only if the website has a valid TLS certificate. If the website doesn’t have a proper TLS Certificate, it will make the website unreachable. To prevent HTTP-caused cybersecurity problems, the Strict-Transport-Security” response header should be used.
+Contents of the Article
+show
+1.
+What is the Syntax of the HTTP Strict Transport Security Response Header?
+2.
+What are the HTTP Strict Transport Security Directives?
+2.1.
+1. Max-age Directive of Strict-Transport-Security
+2.2.
+2. includeSubDomains Directive of Strict-Transport-Security
+2.3.
+3. preload Directive of Strict-Transport-Security
+3.
+What is the description of the HTTP Strict Transport Security Response Header?
+4.
+How does a web browser handle the HTTP Strict Transport Security Header?
+5.
+What is preloading the Strict Transport Security?
+5.1.
+What are the conditions of HSTS Prelaod?
+6.
+What is the History of HSTS?
+7.
+What are the possible scenarios for HSTS?
+8.
+What redirection method does HTTP Strict Transport Security use?
+8.1.
+How does Search Engine Crawler interact with the 307 Redirection method?
+9.
+How to audit the HSTS Response Header with a web browser?
+10.
+What is the web browser compatibility of the HSTS Response Header?
+11.
+What are the other security related response headers beside Strict Transport Security?
+12.
+Last Thoughts on HSTS Response Header and Holistic SEO
+What is the Syntax of the HTTP Strict Transport Security Response Header?
+The syntax examples of the HTTP Strict Transport Security are listed below.
+The value of the Strict-Transport-Security response header should be lowercase.
+The multiple values of the Strict-Transport-Security should have “;” between them.
+The directives for the Strict-Transport-Security should have a space between them.
+The examples of the Strict-Transport-Security Response Header can be found below.
+Strict-Transport-Security: max-age=
+Strict-Transport-Security: max-age=; includeSubDomains
+Strict-Transport-Security: max-age=; preload
+What are the  HTTP Strict Transport Security Directives?
+There are three different directives for HTTP Strict Transport Security. The directives of the HTTP Strict Transport Security are “max-age”, “includeSubdomains”, and “preload”. The explanations of the directives of the Strict-Transport-Security HTTP Header can be found below.
+“max-age” is to make certain that how long the website will be accessible only from the HTTPS.
+“includeSubDomains” is to make certain that whether the subdomains of the website should be included for HSTS or not.
+“preload” is to make the HTTPS connections faster via the preload list of the web browsers. It makes a web browser to register the website to the preload list of domains for HSTS.
+To make the usage and add the Strict-Transport-Security response header, you can check the individual directive sections.
+1. Max-age Directive of Strict-Transport-Security
+“Max-age” will represent the seconds that the HSTS response header will last. When a browser makes a request, it will refresh the stated time within their HSTS list of domains for the HSTS validity timeline. Below, you can see an example usage of the “max-age” for the Strict-Transport-Security response header.
+2. includeSubDomains Directive of Strict-Transport-Security
+“includeSubDomains” Directive of the Strict-Transport-Security response header is to make sure that the subdomains are protected like the main domain. To be registered into the preload list of the HSTS for web browsers, sub-domains should use HSTS as well. An example of includeSubDomains directive for Strict-Transport-Security is below.
+3. preload Directive of Strict-Transport-Security
+“preload” is a directive for the Strict-Transport-Security that states whether the website will be registered to the prelaod list of the web browsers or not. To be able to record into the preload list of Chrome, the “prelaod” directive has to be used. Below, there is an example usage of the preload directive for the Strict-Transport-Security response header.
+What is the description of the HTTP Strict Transport Security Response Header?
+The HTTP Strict Transport Security Response Header is especially for preventing man-in-the-middle-attacks. HTTP Strict Transport Security Response Header can prevent a website to make a redirection to another website if the user lands on an HTTP URL. Without HSTS, if a user lands on the HTTP URL, the user can be redirected to an external domain. The HSTS forces the web browsers to use the HTTPS version of the same URL with a 307 redirection status code. HSTS Implementation with Strict-Transport-Security header will be a valid rule for the website when the web browser interacts the first time. Since the web browser knows that the website is compatible with HSTS, the Strict-Transport-Security rule will be valid, and active.
+How does a web browser handle the HTTP Strict Transport Security Header?
+A web browser handles the HTTP Strict Transport Security by interacting with the Strict-Transport-Security Response Header value. If the Strict-Transport-Security max-age value is 0, the HSTS will be expired. When the browser perceives the Strict-Transport-Security response header, it refreshes the expiration date. The HSTS information will be recorded by the web browsers automatically.
+What is preloading the Strict Transport Security?
+Preloading for Strict Transport Security is the process of recording a domain name to the preload list of a web browser. By recording a domain name to the preload list of a web browser, the HSTS usage will be validated earlier. And, the website will be able to use the HSTS earlier, and faster. Google Chrome and Firefox have different HSTS Preload Lists.
+To use Google’s HSTS Preload list, use the “Chromium.org/hsts”.
+To use the Firefox HSTS preload list, use the “nsSTSPreloadList.inc”.
+What are the conditions of HSTS Prelaod?
+A Strict-Transport-Security preload list is useful to make websites load over HTTPS faster. The conditions of being recorded into the HSTS Preload List are below.
+Have a valid TLS Certificate
+Redirect from HTTP to HTTPS with 301 Redirection on the same host, if you are using port 80.
+Have HTTPS for all subdomains.
+In particular, you must support HTTPS for the www subdomain if a DNS record for that subdomain exists.
+Have an HSTS response header on the root domain for HTTPS requests from the web browsers
+The max-age must be at least 31536000 seconds which is equal to the 1 year.
+The includeSubDomains directive must be determined within the Strict-Transport-Security directives correctly.
+The preload directive must be specified within the Strict-Transport-Security directives.
+If there is a redirection for the HTTPS URL, the redirection should continue to have the HSTS response header.
+What is the History of HSTS?
+HSTS specifications were published as RFC 6797 in November 2012, after they were approved for publication as RFCs by the IESG on October 2, 2012, and the authors originally submitted them as Internet drafts in June 2010. Since the specification for the P applies, the name of “Strict Transport Security” (STS) in an “HTTP Strict Transport Security” has been changed. On December 18, 2009, a so-called “community version” of the “STS” specification was published with community feedback. On September 18, 2009, PayPal’s Jeff Hodges, Collin Jackson, and Adam Barth released their original design. As described in their paper, “HTTPS: Protecting High-Security Web Sites from Network Attacks”, the HSTS specification is based on original work by Jackson and Barth.
+Who invented HSTS? HSTS is the realization of one part of an overall vision to improve web security as outlined in Jeff Hodges and Andy Steingruebl’s 2010 paper, The Need for Coherent Web Security Policy Framework.
+What are the possible scenarios for HSTS?
+Possible scenarios for HSTS usage demonstrate the necessity of HSTS usage. Scenarios for HSTS usage can contain a social facility or a website clone situation. If a web user uses a free internet access point, they can be redirected to a specific website in the situation that they use an HTTP version of a website. A hacker can create a clone website for a bank, and they can use HTTP Connections and links to redirect users to their clone websites. To be able to prevent these types of hacking activities, the HSTS should be used. The possible scenarios for HSTS vary from a clone website to the internet access points.
+What redirection method does HTTP Strict Transport Security use?
+HTTP Strict Transport Security uses the 307 Redirection method. 307 Redirection method is a redirection based on the web browser. Thus, within the GET Request with a “curl” command form the CMD might not see the 307 redirections.
+How does Search Engine Crawler interact with the 307 Redirection method?
+Googlebot and some other search engines such as Microsoft Bing, or Yandex have different web crawlers to index the web pages over the web. Search Engine Crawlers are not able to see 307 Redirections since it is actually not a server-side redirection. In this context, to improve the Search Engine Optimization performance, a website should fix the Mixed Content errors, and clean all of the HTTP URLs from the internal links. A website should use the 301 Redirection method from HTTP to HTTPS for the search engine crawlers.
+How to audit the HSTS Response Header with a web browser?
+To audit the HSTS Response Header, web browsers can be used. To be able to check a web page’s response headers, Google Chrome, Firefox, Opera, or other web browsers can be used. In Google Chrome and Firefox, after making a request to a web page, the DevTools of Google Chrome, and the Developer Tools of Firefox should be used. In the Network tab, every request can be seen, and the “Response” section will include all of the response headers. From the list, the Strict-Transport-Security response header should be found and audited. Below, you can see the HSTS Response Header audit with Google Chrome Browser.
+What is the web browser compatibility of the HSTS Response Header?
+The compatibility of the HSTS Response Header is over 98.5% for the global population that uses web browsers. The Firefox, Google Chrome, Apple Safari, Microsoft Edge support HSTS Response Headers. Below, you can see the supporting and not supporting browsers for Strict-Transport-Security Response Header.
+Web browser compatibility for the Strict-Transport-Security.
+What are the other security related response headers beside Strict Transport Security?
+The other security-related HTTP headers besides the Strict Transport Security are listed below.
+X-Content-Type-Options
+X-Frame-Options
+To learn more about Security Related Response Headers, you can read the related guideline.
+Last Thoughts on HSTS Response Header and Holistic SEO
+The HSTS Response Header is a Security Related Response Header. Web security is a fundamental need for Holistic SEO. Without web security, even if the relevance of the website is high for a topic, and a web page’s relevance to a query, the targeted URL won’t be able to be ranked within the SERP. Security problems can harm Search Engine Optimization Performance, and privacy, the security of the users, the image of the brands. HSTS is important to protect users to get harmed by cybersecurity vulnerabilities. Implementing HSTS can change according to the technology of the webserver. On WordPress, the “.htaccess” file can be used, in NodeJS, the “response.setHeader()” can be used. Knowing these types of differences, and subtle sides such as “prelaod list of HSTS” are necessary to make a website gain more traffic while making the web users happy.
+The guide of the HSTS Response Header will be updated over time.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Ca
+
+[...truncated...]

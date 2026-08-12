@@ -1,0 +1,115 @@
+HTML <dir> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <dir> HTML Tag can define a directory list. Due to the fact that the <dir> HTML Tag is discontinued in HTML 4.01 and outdated in HTML 5, it is suggested that user should avoid using it. Instead, user should use the <ul> HTML Tag. The output will remain consistent. The <dir> HTML Tag is part of the List HTML category in HTML Element Reference. The attributes of the <dir> HTML Tag are optional, global and event attributes.
+<dir> code block example to learn how it works is given below.
+<dir> List </dir>
+The second example usage of the “<dir>” code block example is below.
+<html>
+<body>
+<h1>HollisticSeoDigital</h1>
+<h2><dir> Tag</h2>
+<p>List of Officers:</p>
+<!-- dir tag starts here-->
+<dir>
+<li>Senior Labor & Employment Advisor</li>
+<li>Deputy Secretary</li>
+<li>Under Secretary</li>
+<li>Section Officer</li>
+</dir>
+<!-- dir tag ends here-->
+</body>
+</html>
+Contents of the Article
+show
+1.
+What is <dir> HTML Tag?
+2.
+How to Use <dir> HTML Tag?
+2.1.
+Example Usage of <dir> HTML Tag?
+3.
+What are the Attributes of <dir> HTML Tag?
+4.
+What is the Default CSS Setting for <dir> HTML Tag?
+5.
+What are the Related other HTML Tags to <dir>?
+What is <dir> HTML Tag?
+The <dir> HTML Tag creates a list of directory titles. HTML4 makes use of it. HTML 5 does not support it, <ul> or CSS is used in place of the <dir> HTML Tag. Because HTML5 is now supported by the majority of modern browsers, the information on this page is based on HTML version 4.01.
+How to Use <dir> HTML Tag?
+To use the <dir> HTML Tag, the site developer should write <dir>HTML</dir> to define directory titles. Given that it is now deprecated it is better to avoid using it. User should instead use the <ul> HTML Tag.
+Example Usage of <dir> HTML Tag?
+The following example of usage of <dir> HTML Tag is given below.
+<html>
+<body>
+<h1>HollisticSeoDigital</h1>
+<h2><dir> Tag</h2>
+<p>Table of Contents:</p>
+<!-- dir tag starts here-->
+<dir>
+<li>Phyton SEO</li>
+<li>Tech SEO</li>
+<li>Theoretical SEO</li>
+<li>On-page SEO</li>
+<li>Page Speed</li>
+</dir>
+<!-- dir tag ends here-->
+</body>
+</html>
+What are the Attributes of <dir> HTML Tag?
+There are multiple attributes for the <dir> HTML Tag. The following attributes are listed below.
+Optional Attributes: The <dir> HTML Tag supports optional attributes. This tag has a single optional attribute called Compact. It is used to determine the list size, which is reduced by decreasing the space between list items. This attribute is boolean.
+Global Attributes: The <dir> HTML Tag supports global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <dir> HTML Tag supports event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <dir> HTML Tag?
+The following is the Default CSS Setting for the <dir> HTML Tag.
+<ul style="line-hright:80%">
+What are the Related other HTML Tags to <dir>?
+The other related HTML Tags to the <dir> HTML Tag are listed below.
+<ol> HTML Tag: The
+<ol> HTML Tag
+is related to <dir> HTML Tag because they are both list tags. On a website or web page, the <ol> HTML Tag defines an ordered list. The ordered list element’s default list style is numerical or decimal.
+<ul> HTML Tag: The
+<ul> HTML Tag
+is related to <dir> HTML Tag because they are both list tags. The <ul> HTML Tag is used to define an unordered list.
+<li> HTML Tag: The <li> HTML Tag is related to <dir> HTML Tag because they are both list tags. The <li> HTML Tag is used to specify list or menu items.
+<dl> HTML Tag: The
+<dl> HTML Tag
+is related to <dir> HTML Tag because they are both list tags. The <dl> HTML Tag is used to define a description list.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <dir> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 5 min
+TechSEO
+505 HTTP Response Status Code Definition: Example,…
+TechSEO
+HTML <strike> Definition, Usage and Examples…
+0
+0
+0

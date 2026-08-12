@@ -1,0 +1,84 @@
+300 HTTP Response Status Codes: Meaning, Methods - Redirection - Holistic SEO
+Skip to content
+The 300 HTTP Status Codes means that the request seems to have more than one potential response. The user agent or user should pick one of the 300 HTTP Status Codes. There is no defined technique to pick one of the responses. As there is no defined manner of picking one of the responses, this response code is extremely seldom used. If the server has a preferred option, it should produce a Location header. For example, this code may be used to show several video format choices, to display files with alternative filename extensions, or to propose word-sense sorting. Other than GET and HEAD requests methods, the server should provide a 300 response with a list of representation information and URI references from which the user or user agent may pick. If the user agent recognizes the media type, it may automatically choose from the list. This standard does not offer an automated selection format, since HTTP strives to maintain orthogonal payload definition. As established by shared design or content negotiation, the representation is delivered in a parse-friendly format or in a generally recognized hypertext format. Unless otherwise specified in the method description or explicit cache controls, a 300 HTTP Status Codes response is cacheable.
+Contents of the Article
+show
+1.
+What are the 300 (Redirection) Status Codes?
+1.1.
+List of 300 HTTP Response Status Codes and Meaning
+2.
+What are the HTTP Methods for HTTP 300 Status Codes?
+What are the 300 (Redirection) Status Codes?
+There are multiple status codes using the 300 HTTP Redirection Response Status Codes. The Status Codes using the 300 HTTP Redirection Response Status Code are listed below.
+The main 300 (Redirection) HTTP Status Codes are listed below.
+301 HTTP Status Code: The
+301 HTTP Status Code
+is one of the main 300 HTTP Status Codes, which means the requested message was redirected. An HTTP 301 Status Code indicates that the resource sought by the client has permanently relocated. The updated location should be included in the HTTP response, and the client should utilize it the next time it requests the same resource. Unless the request method was HEAD, the entity should have a tiny hypertext notice with a reference to the updated URL(s). Before redirecting to a new URL, the client must ask the user whether the 301 Status Code is for a non-GET or HEAD request.
+302 HTTP Status Code: The
+302 HTTP Status Code
+is one of the main 300 HTTP Status Codes, which means the requested message was redirected. An HTTP 302 Status Code indicates that the resource sought by the client has relocated temporarily. This code tells the client to keep utilizing the same URL. A redirection using the HTTP 302 Status Code is the most prevalent. The industry standard HTTP/1.0 specification requires a temporary redirect by the client. If the 302 Status Code is obtained in response to a request other than GET or HEAD, the user agent shall not instantly redirect the request only if the user confirms it.
+List of 300 HTTP Response Status Codes and Meaning
+The 300 Response Status Codes are listed below.
+301 Moved Permanently: The 301 HTTP Status Code means that the requested resource’s URI has been modified. In most cases, the response should include a new URI.
+302 Found: The 302 HTTP Status Code means that the requested resource’s URI has been temporarily modified. In the future, further modifications to the URI may be made. As a result, the client should use the same URI in future queries.
+303 See Other: The
+303 HTTP Status Code
+means that the server provided this response to instruct the client to use a GET request to get the requested resource from another URI.
+304 Not Modified: The
+304 HTTP Status Code
+is only used for caching. It informs the client that the response has not been updated, allowing the client to continue using the cached version of the response.
+305 Use Proxy: The
+305 HTTP Status Code
+means that a proxy is required to obtain the requested response. For security concerns, this response code is not widely accepted.
+306 Unused: The
+306 HTTP Status Code
+is no longer applicable.
+307 Temporary Redirect: The
+307 HTTP Status Code
+means that the requested resource is temporarily moved to another URI. A new request should be made by using a temporary URI from the response’s Location field. The second request must follow the same protocol. As with HTTP 302 “Found”, the user agent may not modify the HTTP method. The second request must also use a POST, for example.
+308 Permanent Redirect: The
+308 HTTP Status Code
+means that the requested resource has been moved permanently to another URI. The user agent must not affect the HTTP method utilized. For example, if the first request was a POST, the second must also be a POST.
+What are the HTTP Methods for HTTP 300 Status Codes?
+The HTTP Methods for HTTP 300 Status Codes are listed below.
+GET: The resource has been retrieved and is being sent in the message body.
+HEAD: The representation headers are included in the response, but no message body is included.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+300 HTTP Response Status Codes: Meaning, Methods – Redirection
+by Holistic SEO
+time to read: 3 min
+TechSEO
+400 HTTP Response Status Codes: Meaning, Methods &…
+TechSEO
+200 HTTP Response Status Codes: Meaning, Methods &…
+0
+0
+0

@@ -1,0 +1,94 @@
+"aria-checked" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-checked command represents the actual “checked ” status of checkboxes, buttons, and other widgets. The intention of the aria-checked is to identify if the element is checked “true”, unchecked “false”, or if the correct status is indeterminate “mixed”, implying that it is neither checked nor unchecked. Developers can use aria-checked by enabling focus with the tabindex and JavaScript is needed in providing the aria-checked state. The aria-checked can be utilised by the <input> element. The <input> HTML element makes interactive controls for web-based forms so that it can accept data from its user. A variety of input data and control widgets are accessible in conditions with the device and user agent. The aria-check can be used for ARIA Labels such as aria-pressed and aria-selected.
+Contents of the Article
+show
+1.
+What is the function of the “aria-checked” ARIA Label?
+2.
+What are the uses of the “aria-checked” ARIA Label?
+3.
+Example Uses of “aria-checked” ARIA Label
+4.
+What are the related ARIA Labels to “aria-checked”?
+What is the function of the “aria-checked” ARIA Label?
+The functions of aria-checked are checking the input whether it is checked, unchecked, or represents a group of elements that have a mixture of checked and unchecked values. Some checkboxes do not honour mixed values, so they are essentially boolean checkboxes. In strong native semantics of HTML’s native checkbox, authors are suggested against using the aria-checked on an input type-checkbox. Instead, use the native checked attribute or indeterminate IDL attribute to specify the checkbox’s checked or mixed state.
+What are the uses of the “aria-checked” ARIA Label?
+Listed below are the uses of the “aria-checked” ARIA Label.
+Checkbox:
+The checkbox role is for checkable interactive controls. Elements having role=”checkbox” need to be included in the aria-checked attribute to show the checkbox’s state to assistive technology.
+Menuitemcheckbox:
+The menuitemcheckbox role is a menuitem with a checkable state whose probable values are true, false, or mixed.
+Menuitemradio:
+The menuitemradio is a checkable menuitem in a set of elements with similar roles, only one of which can be checked at a time.
+Option:
+The option role is used to specify selections a user can create in a listbox. These options are the same with the <option> elements in a <select>  element.
+Radio:
+The radio role is one of a group of checkable buttons, in a radiogroup, where only one of the buttons can be checked up at a time.
+Switch:
+The switch role is functionally the same as the checkbox role, except that instead of expressing “checked” and “unchecked” states. The switch role signifies the states “on” and “off”.
+Example Uses of “aria-checked” ARIA Label
+Listed below are the example uses of the “aria-checked” ARIA Label.
+The tabindex attribute is needed to enable focus. JavaScript is necessary to toggle the aria-checked state. If the checkbox is a component of a submittable form, more JavaScript is needed to specify a name and a value.
+Below is the example usage of aria-checked=false.
+<span role="checkbox" id="checkBoxInput" aria-checked="false" tabindex="0" aria-labelledby="chk15-label"></span>
+<label id="chk15-label">Subscribe to the newsletter</label>
+Below is the example usage of aria-checked=true.
+<span role="checkbox" id="checkBoxInput" aria-checked="ftrue" tabindex="0" aria-labelledby="chk15-label"></span>
+<label id="chk15-label">Subscribe to the newsletter</label>
+Below is the example usage of aria-checked=indeterminate.
+<span role="checkbox" id="checkBoxInput" aria-checked="indeterminate" tabindex="0" aria-labelledby="chk15-label"></span>
+<label id="chk15-label">Subscribe to the newsletter</label>
+<span role="checkbox" id="checkBoxInput" aria-checked="indeterminate" tabindex="0" aria-labelledby="chk15-label"></span>
+<label id="chk15-label">Subscribe to my channel</label>
+By using the <input> element with type=”checkbox” instead of ARIA, JavaScripts are not necessary.
+<input type="checkbox" id="chk15-label" name="Subscribe">
+<label for="chk15-label">Subscribe to the newsletter</label>
+What are the related ARIA Labels to “aria-checked”?
+Listed below are the related ARIA Labels to “aria-checked”.
+aria-pressed:
+The aria-checked is linked to aria-pressed because the two attributes both indicate the ongoing state of a button. The aria-checked and aria-pressed attributes have the same tristate value. The
+aria-pressed
+attribute determines the present “pressed” state of a toggle button.
+aria-selected:
+The aria-selected is related to aria-checked because the two attributes both indicate the current state of a button. They have similar functions, which is determining the current state of various widgets. The
+aria-selected
+attribute represents the actual “selected” state of various widgets.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-checked” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-colcount” ARIA Label for Accessi…
+TechSEO
+“aria-busy” ARIA Label for Accessibili…
+0
+0
+0

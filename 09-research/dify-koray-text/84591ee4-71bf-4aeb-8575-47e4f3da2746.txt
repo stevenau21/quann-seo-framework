@@ -1,0 +1,120 @@
+Sec-CH-UA-Platform-Version HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Sec-CH-UA-Platform-Version HTTP Header is a header in the Sec-CH-UA-Client-Hint request that tells the client what operating system version the client is running. There is only one value for using the Sec-CH-UA-Platform-Version HTTP Header. The value using the Sec-CH-UA-Platform-Version HTTP Header is the version. The version string usually contains the operating system version in the form of a string, with dot-separated major, minor, and patch version numbers in the order they were added. An example of the Sec-CH-UA-Platform-Version HTTP Header is written below.
+GET /GET /my/page HTTP/1.1
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Platform: "Windows"
+Sec-CH-UA-Platform-Version: "10.0.0"
+The Sec-CH-UA-Platform-Version HTTP Header Request Header is seen above. In the article, the Sec-CH-UA-Platform-Version HTTP Header Syntax, Directives, and Uses example will be processed.
+Contents of the Article
+show
+1.
+What is Sec-CH-UA-Platform Version HTTP Header?
+1.1.
+What is the Syntax of the Sec-CH-UA-Platform Version HTTP Header?
+1.2.
+What is the Directive of Sec-CH-UA-Platform HTTP Header?
+2.
+How to use Sec-CH-UA-Platform Version HTTP Header?
+2.1.
+Examples of Sec-CH-UA-Platform Version HTTP Header Use
+3.
+What are the Specification Documents for Sec-CH-UA-Platform Version HTTP Header?
+4.
+What is the type of Sec-CH-UA-Platform Version?
+4.1.
+What are the similar HTTP Headers to the Sec-CH-UA-Platform Version?
+5.
+Which Browsers Support Sec-CH-UA-Platform-Version HTTP Header?
+What is Sec-CH-UA-Platform Version HTTP Header?
+The Sec-CH-UA-Platform-Version user agent client hint request header specifies the user agent’s operating system version.
+What is the Syntax of the Sec-CH-UA-Platform Version HTTP Header?
+Sec-CH-UA-Platform-Version HTTP Header uses only one value. The syntax for using the Sec-CH-UA-Platform-Version HTTP Header is written below.
+Sec-CH-UA-Platform-Version: <version>
+What is the Directive of Sec-CH-UA-Platform HTTP Header?
+The Sec-CH-UA-Platform-Version HTTP Header only contains one directive. The version string is often a string containing the operating system’s major, minor, and patch version numbers separated by commas. For instance, “11.0.0.” The version string on Linux is always empty. On Linux, the version string is always null. An example directive for using the Sec-CH-UA-Platform-Version HTTP Header is given below.
+GET /GET /my/page HTTP/1.1
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Platform: "Windows"
+Sec-CH-UA-Platform-Version: "10.0.0"
+How to use Sec-CH-UA-Platform Version HTTP Header?
+The server sends back a header that includes the client’s operating system version when a client sends a request to the Sec-CH-AU-Platform-Version HTTP Header.
+Examples of Sec-CH-UA-Platform Version HTTP Header Use
+To request the Sec-CH-UA-Platform Version header, for example, the server includes the Accept-CH in any response to a request from the client, using the name of the desired header as a token in the response.
+HTTP/1.1 200 OK
+Accept-CH: Sec-CH-UA-Platform-Version
+For example, the client is able to choose to supply the hint and then include the Sec-CH-UA-Platform-Version header in subsequent requests to indicate which platform is being used. Consider the following request headers that could be submitted by a browser operating on Windows 10.
+GET /GET /my/page HTTP/1.1
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Platform: "Windows"
+Sec-CH-UA-Platform-Version: "10.0.0"
+What are the Specification Documents for Sec-CH-UA-Platform Version HTTP Header?
+There is only one specification document for the Sec-C-UA-Platform HTTP Header, which is the User-Agent Client Hints. The User-Agent Client Hints article 3.8 mentions the Sec-CH-UA-Platform-Version HTTP Header definition and uses. Additionally, the article discusses the Sec-CH-UA-Platform-Version  HTTP Header’s values and examples.
+What is the type of Sec-CH-UA-Platform Version?
+The Sec-CH-UA-Platform-Version-HTTP Header is a Request Header. The Sec-CH-UA-Platform-Version HTTP Header is included in the Sec-CH-UA-Platform-Version user agent client hint request header and contains the version of the operating system on which the user agent is currently executing.
+What are the similar HTTP Headers to the Sec-CH-UA-Platform Version?
+The similar HTTP Headers to the Sec-CH-UA-Platform Version HTTP Header are listed below.
+HTTP Client Hints:
+The HTTP Client Hints is similar to the Sec-CH-UA-Platform-Version HTTP Header. Based on the client’s input, HTTP Client hints can select which resources to transmit. Similar to the Sec-CH-UA-Platform-Version HTTP Header, the HTTP Client Hints specifies the user agent’s operating system version.
+User-Agent Client Hints API:
+The User-Agent Client Hints API is similar to the Sec-CH-UA-Platform-Version HTTP Header. It expose browser and platform information via User-Agent response and request headers. Furthermore, the User-Agent Client Hints provides a JavaScript API. Similar to the Sec-CH-UA-Platform-Version HTTP Header, the User-Agent Client Hints API specifies the user agent’s operating system version.
+Accept-CH HTTP Header:
+The Accept-CH HTTP Header is similar to the Sec-CH-UA-Platform-Version HTTP Header. The
+Accept-CH HTTP Header
+tells a server which client suggestions to include in the following requests, such as the Sec-CH-UA-Platform-Version HTTP Header tells a server the operating system version the user agent is running.
+Vary HTTP Header:
+The Vary HTTP Header is similar to the Sec-CH-UA-Platform-Version HTTP Header. The Vary HTTP response header is employed to decide whether to utilize a cached answer or a new one from the origin server. Similar to the Sec-CH-UA-Platform-Version HTTP Header, the Vary HTTP Header specifies the user agent’s operating system version.
+Which Browsers Support Sec-CH-UA-Platform-Version HTTP Header?
+There are multiple browsers that support Sec-CH-UA-Platform-Version HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible e with the Sec-CH-UA-Platform-Version HTTP Header.
+Edge Browser is compatible e with the Sec-CH-UA-Platform-Version HTTP Header.
+Opera Browser is compatible e with the Sec-CH-UA-Platform-Version HTTP Header.
+WebView Android Browser is compatible e with the Sec-CH-UA-Platform-Version HTTP Header.
+Chrome Android Browser is compatible e with the Sec-CH-UA-Platform-Version HTTP Header.
+Opera Android Browser is compatible e with the Sec-CH-UA-Platform-Version HTTP Header.
+Samsung Internet Browser is compatible e with the Sec-CH-UA-Platform-Version HTTP Header.
+You can see an image that shows the cross-browser compatibility of Sec-CH-UA-Platform-Version HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Sec-CH-UA-Platform-Version HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+X-Forwarded-For HTTP Header: Syntax, Directive, Ex…
+TechSEO
+X-Forwarded-Proto HTTP Header: Syntax, Directive, …
+0
+0
+0

@@ -1,0 +1,363 @@
+NLTK Tokenize: How to Tokenize Words and Sentences with NLTK? - Holistic SEO
+Skip to content
+To tokenize sentences and words with NLTK, “
+nltk.word_tokenize()
+” function will be used. NLTK Tokenization is used for parsing a large amount of textual data into parts to perform an analysis of the character of the text. NLTK for tokenization can be used for training machine learning models, Natural Language Processing text cleaning. The tokenized words and sentences with NLTK can be turned into a data frame and vectorized. Natural Language Tool Kit (NLTK) tokenization involves punctuation cleaning, text cleaning, vectorization of parsed text data for better lemmatization, and stemming along with machine learning algorithm training.
+Natural Language Tool Kit Python Libray has a tokenization package is called “tokenize”. In the “tokenize” package of NLTK, there are two types of tokenization functions.
+“word_tokenize” is to tokenize words.
+“sent_tokenize” is to tokenize sentences.
+Contents of the Article
+show
+1.
+How to Tokenize Words with Natural Language Tool Kit (NLTK)?
+1.1.
+What are the advantages of word tokenization with NLTK?
+2.
+How to Tokenize Sentences with Natural Language Tool Kit (NLTK)?
+2.1.
+What are the advantages of sentence tokenization with NLTK?
+3.
+How to perform Regex Tokenization with NLTK?
+4.
+How to perform Rule-based Tokenization with NLTK?
+5.
+How to use Lemmatization with NLTK Tokenization?
+6.
+How to use Stemming with NLTK Tokenization?
+7.
+How to Tokenize Content of a Website via NLTK?
+8.
+How to Filter out the Stop Words for Tokenization with NLTK?
+9.
+How to Count Tokenized Words with NLTK without Stop Words?
+9.1.
+How to visualize the Word Tokenization with NLTK without the Stop Words?
+10.
+How to Calculate the Effect of the Stop Words for the Length of the Corpora?
+11.
+How to Remove the Punctuation from Word Tokenization with NLTK?
+11.1.
+How to visualize the NLTK Word Tokenization result without punctuation?
+12.
+How to Remove stop words and punctuations from text data for a better NLTK Word Tokenization?
+13.
+How to perform sentence Tokenization with NLTK?
+14.
+How to perform sentence tokenization with NLTK without the stop words?
+15.
+How to Interpret the Tokenized Text with NLTK?
+16.
+How can a Search Engine Use Tokenization?
+17.
+Last Thoughts on NLTK Tokenize and Holistic SEO
+How to Tokenize Words with Natural Language Tool Kit (NLTK)?
+Tokenization of words with NLTK means parsing a text into the words via Natural Language Tool Kit. To tokenize words with NLTK, follow the steps below.
+Import the “word_tokenize” from the “nltk.tokenize”.
+Load the text into a variable.
+Use the “word_tokenize” function for the variable.
+Read the tokenization result.
+Below, you can see a tokenization example with NLTK for a text.
+from nltk.tokenize import word_tokenize
+text = "Search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic rather than direct traffic or paid traffic."
+print(word_tokenize(text))
+>>>OUTPUT
+['Search', 'engine', 'optimization', 'is', 'the', 'process', 'of', 'improving', 'the', 'quality', 'and', 'quantity', 'of', 'website', 'traffic', 'to', 'a', 'website', 'or', 'a', 'web', 'page', 'from', 'search', 'engines', '.', 'SEO', 'targets', 'unpaid', 'traffic', 'rather', 'than', 'direct', 'traffic', 'or', 'paid', 'traffic', '.']
+The explanation of the tokenization example above can be seen below.
+The first line is for importing the “word_tokenize” function.
+The second line of code is to provide text data for tokenization.
+Third line of code to print the output of the “word_tokenize”.
+What are the advantages of word tokenization with NLTK?
+The word tokenization benefits with NLTK involves the benefits of White Space Tokenization, Dictionary Based Tokenization, Rule-Based Tokenization, Regular Expression Tokenization, Penn Treebank Tokenization, Spacy Tokenization, Moses Tokenization, Subword Tokenization. All type of word tokenization is a part of the text normalization process. Normalizing the text with stemming and lemmatization improves the accuracy of the language understanding algorithms. The benefits and advantages of the word tokenization with NLTK can be found below.
+Removing the stop words easily from the corpora before the tokenization.
+Splitting words into the sub-words for understanding the text better.
+Removing the text disambiguate is faster and requires less coding with NLTK.
+Besides White Space Tokenization, Dictionary Based and Rule-based Tokenization can be implemented easily.
+Performing Byte Pair Encoding, Word Piece Encoding, Unigram Language Model, Setence Piece Encoding is easier with NLTK.
+NLTK has TweetTokenizer for tokenizing the tweets that including emojis and other Twitter norms.
+NLTK has PunktSentenceTokenizer has a pre-trained model for tokenization in multiple European Languages.
+NLTK has Multi Word Expression Tokenizer for tokenizing the compound words such as “in spite of”.
+NLTK has RegexpTokenizer to tokenize sentences based on the regular expressions.
+How to Tokenize Sentences with Natural Language Tool Kit (NLTK)?
+To tokenize the sentences with Natural Language Tool kit, the steps below should be followed.
+Import the “sent_tokenize” from “nltk.tokenize”.
+Load the text for sentence tokenization into a variable.
+Use the “sent_tokenize” for the specific variable.
+Print the output.
+Below, you can see an example of NLTK Tokenization for sentences.
+from nltk.tokenize import sent_tokenize
+text = "God is Great! I won a lottery."
+print(sent_tokenize(text))
+Output: ['God is Great!', 'I won a lottery ']
+At the code block above, the text is tokenized into the sentences. By taking all of the sentences into a list with the sentence tokenization with NLTK can be used to see which sentence is connected to which one, average word per sentence, and unique sentence count.
+What are the advantages of sentence tokenization with NLTK?
+The advantages of sentence tokenization with NLTK are listed below.
+NLTK provides a chance to perform text data mining for sentences.
+NLTK sentence tokenization involves comparing different text corporas at the sentence level.
+Sentence tokenization with NLTK provides understanding how many sentences are used in a different sources of texts such as websites, or books, and papers.
+Thanks to NLTK “sent_tokenize” function, it is possible to see how the sentences are connected to each other, with what bridge words.
+Via NLTK sentence tokenizer, performing an overall sentiment analysis for the sentences is possible.
+Performing Semantic Role Labeling for the sentences to understand how the sentences are connected each other is one of the benefits of NLTK sentence tokenization.
+How to perform Regex Tokenization with NLTK?
+Regex Tokenization with NLTK is to perform tokenization based on regex rules. Regex Tokenization via NLTK can be used for extracting certain phrase patterns from a corpus. To perform regex tokenization with NLTK, the “tokenize.regexp()” method should be used. An example of the regex tokenization NLTK is below.
+from nltk.tokenize import RegexpTokenizer
+regex_tokenizer = RegexpTokenizer('\?', gaps = True)
+text = "How to perform Regex Tokenization with NLTK? To perform regex tokenization with NLTK, the regex pattern should be chosen."
+regex_tokenization = regex_tokenizer.tokenize(text)
+print(regex_tokenization)
+OUTPUT >>>
+['How to perform Regex Tokenization with NLTK', ' To perform regex tokenization with NLTK, the regex pattern should be chosen.']
+The Regex Tokenization example with NLTK demonstrates that how to take a question sentence and a sentence after it. By taking sentences that end with a question mark, and taking the sentences after it, matching the answers and questions, or taking the question formats from a corpus is possible.
+How to perform Rule-based Tokenization with NLTK?
+Rule-based Tokenization is tokenization based on certain rules that are generated from certain conditions. NLTK has three different rule-based tokenization algorithms as TweetTokenizer for Twitter Tweets, and MWET for Multi-word tokenization, along with the TreeBankTokenizer for the English Language rules. Rule-based Tokenization is helpful for performing the tokenization based on the best possible conditions for the nature of the textual data.
+An example of Rule-based tokenization with MWET for multi-word tokenization can be seen below.
+from nltk.tokenize import MWETokenizer
+sentence = "I have sent Steven Nissen to the new reserch center for the nutritional value of the coffee. This sentence will be tokenized while Mr. Steven Nissen is on the journey. The #truth will be learnt. And, it's will be well known thanks to this tokenization example."
+tokenizer = MWETokenizer()
+tokenizer.add_mwe(("Steven", "Nissen"))
+result = tokenizer.tokenize(word_tokenize(sentence))
+result
+OUTPUT >>>
+['I',
+'have',
+'sent',
+'Steven',
+'Nissen',
+'to',
+'the',
+'new',
+'reserch',
+'center',
+'for',
+'the',
+'nutritional',
+'value',
+'of',
+'the',
+'coffee',
+'.',
+'This',
+'sentence',
+'will',
+'be',
+'tokenized',
+'while',
+'Mr.',
+'Steven',
+'Nissen',
+'is',
+'on',
+'the',
+'journey',
+'.',
+'The',
+'#',
+'truth',
+'will',
+'be',
+'learnt',
+'.',
+'And',
+',',
+'it',
+"'s",
+'will',
+'be',
+'well',
+'known',
+'thanks',
+'to',
+'this',
+'tokenization',
+'example',
+'.']
+An example of Rule-based tokenization with TreebankWordTokenizer for English language text can be seen below.
+from nltk.tokenize import TreebankWordTokenizer
+sentence = "I have sent Steven Nissen to the new reserch center for the nutritional value of the coffee. This sentence will be tokenized while Mr. Steven Nissen is on the journey. The #truth will be learnt. And, it's will be well known thanks to this tokenization example."
+tokenizer = TreebankWordTokenizer()
+result = tokenizer.tokenize(sentence)
+result
+OUTPUT >>>
+['I',
+'have',
+'sent',
+'Steven',
+'Nissen',
+'to',
+'the',
+'new',
+'reserch',
+'center',
+'for',
+'the',
+'nutritional',
+'value',
+'of',
+'the',
+'coffee.',
+'This',
+'sentence',
+'will',
+'be',
+'tokenized',
+'while',
+'Mr.',
+'Steven',
+'Nissen',
+'is',
+'on',
+'the',
+'journey.',
+'The',
+'#',
+'truth',
+'will',
+'be',
+'learnt.',
+'And',
+',',
+'it',
+"'s",
+'will',
+'be',
+'well',
+'known',
+'thanks',
+'to',
+'this',
+'tokenization',
+'example',
+'.']
+An example of Rule-based tokenization with TweetTokenizer for Twitter Tweets’ tokenization can be seen below.
+from nltk.tokenize import TweetTokenizer
+sentence = "I have sent Steven Nissen to the new reserch center for the nutritional value of the coffee. This sentence will be tokenized while Mr. Steven Nissen is on the journey. The #truth will be learnt. And, it's will be well known thanks to this tokenization example."
+tokenizer = TweetTokenizer()
+result = tokenizer.tokenize(sentence)
+result
+OUTPUT>>>
+['I',
+'have',
+'sent',
+'Steven',
+'Nissen',
+'to',
+'the',
+'new',
+'reserch',
+'center',
+'for',
+'the',
+'nutritional',
+'value',
+'of',
+'the',
+'coffee',
+'.',
+'This',
+'sentence',
+'will',
+'be',
+'tokenized',
+'while',
+'Mr',
+'.',
+'Steven',
+'Nissen',
+'is',
+'on',
+'the',
+'journey',
+'.',
+'The',
+'#truth',
+'will',
+'be',
+'learnt',
+'.',
+'And',
+',',
+"it's",
+'will',
+'be',
+'well',
+'known',
+'thanks',
+'to',
+'this',
+'tokenization',
+'example',
+'.']
+The most standard rule-based type of word tokenization is white space tokenization. White-space tokenization is basically taken spaces between words for the tokenization. White-space tokenization can be performed with the “split(” “)” method and argument as below.
+sentence = "I have sent Steven Nissen to the new reserch center for the nutritional value of the coffee. This sentence will be tokenized while Mr. Steven Nissen is on the journey. The #truth will be learnt. And, it's will be well known thanks to this tokenization example."
+result = sentence.split(" ")
+result
+OUTPUT >>>
+['I',
+'have',
+'sent',
+'Steven',
+'Nissen',
+'to',
+'the',
+'new',
+'reserch',
+'center',
+'for',
+'the',
+'nutritional',
+'value',
+'of',
+'the',
+'coffee.',
+'This',
+'sentence',
+'will',
+'be',
+'tokenized',
+'while',
+'Mr.',
+'Steven',
+'Nissen',
+'is',
+'on',
+'the',
+'journey.',
+'The',
+'#truth',
+'will',
+'be',
+'learnt.',
+'And,',
+"it's",
+'will',
+'be',
+'well',
+'known',
+'thanks',
+'to',
+'this',
+'tokenization',
+'example.']
+In NLTK tokenization methods, there are other tokenization methodologies such as
+PunktSentenceTokenizer
+for detecting the sentence boundaries, and Punctuation-based tokenization for tokenizing the punctuation-related words, and multiword properly.
+How to use Lemmatization with NLTK Tokenization?
+To use lemmatization with NLTK Tokenization, the “nltk.stem.wordnet.WordNetLemmetizer” should be used. WordNetLemmetizer from NLTK is to lemmatize the words within the text. The word lemmatization is the process of turning a word into its original dictionary form.  Unlike stemming, lemmatization removes all of the suffixes, prefixes, and morphological changes for the word. NLTK Lemmatization is useful to see a word’s context and understand which words are actually the same during the word tokenization. Below, you will see word tokenization and lemmatization with NLTK example code block.
+from nltk.stem.wordnet import WordNetLemmatizer
+lemmatize = WordNetLemmatizer()
+lemmatized_words = []
+for w in tokens:
+rootWord = lemmatize.lemmatize(w)
+lemmetized_words.append(rootWord)
+counts_lemmetized_words = Counter(lemmatized_words)
+df_tokenized_lemmatized_words = pd.DataFrame.from_dict(counts_lemmatized_words, orient="index").reset_index()
+df_tokenized_lemmatized_words.sort_values(by=0, ascending=False, inplace=True)
+df_tokenized_lemmatized_words[:50]
+The NLTK Tokenization and Lemmatization example code bloc explanation is below.
+The “nltk.stem.wordnet” is called for importing WordNetLemmatizer.
+It is assigned to a variable which is “lemmatize”.
+An empty list is created for the “lemmatized_words”.
+A for loop is created for lemmatizing every word within the tokenized words with NLTK.
+The lemmatized and tokenized words are appended to the “lemmatized_words” list.
+The counter object has been used for cou
+
+[...truncated...]

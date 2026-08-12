@@ -1,0 +1,135 @@
+Skip to content
+A canonical tag (also known as “rel = canonical”) is a way of telling search engines that a particular URL is the main copy of a page. Using the canonical tag prevents problems due to identical or “duplicate” content that appears on multiple URLs. In practical terms, the canonical tag tells search engines which version of a URL should appear in the search results.
+Canonical Tags are not commands for the Search Engine. They are just hints for finding the canonical URL of a web page. Signals that Canonical tags are hints instead of commands can be seen in Google Search Console’s Coverage Report section when the Search Engine chooses a different URL as the canonical version from the users’ canonical tag.
+Canonical Tag Usage can fix lots of unhealthy Coverage Errors.
+As such, Canonical Tags are part of the technical SEO area.
+Contents of the Article
+show
+1.
+Why is canonization important in SEO?
+2.
+How do URLs duplicate the same content?
+3.
+How does Canonical Tag prevent Duplicate Content Issues?
+4.
+11 Best Practices for Canonical Tags for SEO
+4.1.
+1. Canonical tags can be self-referencing
+4.2.
+2. Proactively canonize your homepage
+4.3.
+3. Spot-check your dynamic canonical tags
+4.4.
+4. Avoid mixed signals
+4.5.
+5. Be careful when canonizing near-duplicates
+4.6.
+6. Canonize cross-domain duplicates
+4.7.
+7. Use Only Canonical URLs in Sitemaps
+4.8.
+8. Use Internal Links for Showing Canonical URLs
+4.9.
+9. Use only One Canonical Tag for Every Web Page
+4.10.
+10. Use Canonical Tags only in the Head Section of the URL
+4.11.
+11. Be Careful While Using Relative URLs in the Canonical Tags
+5.
+What are the two Ways to add a canonical tag to Web Documents for SEO?
+5.1.
+1. Canonicalization with HTTP Response Headers:
+5.2.
+2. HTML Canonical Tag:
+5.3.
+What Are the Differences Between HTTP Header and HTML Canonical Methods?
+6.
+What should I know about Canonical Tags that point to 404 Pages?
+7.
+What is the relationship between Canonical Tags and Hreflang Tags?
+8.
+What is the relationship between Canonical Tags and 301 redirects?
+9.
+How to check your canonical tags for SEO
+9.1.
+1. Show Source Code
+9.2.
+2. Verification in bulk with software solutions
+10.
+Last Thoughts on Canonical Tags and Holistic SEO
+Why is canonization important in SEO?
+Duplicate content
+is a complicated topic, but if search engines crawl a lot of URLs with identical (or very similar) content, this can cause a lot of SEO problems, such as Ranking Signal Dilution. First, if Search Engine Crawlers like Google’s Googlebot have to dig through too much duplicate content, they may miss some of your unique content. Second, so-called “duplicate content” can water down your ranking potential. Finally, it can also happen that search engines select the wrong URL as the “original”, even if your content has a good ranking. Using canonization helps you control your duplicate content and avoid “noindex”.
+Also, in the context of choosing the wrong URL for indexing, you can read our
+URL Hijacking
+Article to learn more about the Search Engine’s perception of indexing and the uncertainty principle.
+How do URLs duplicate the same content?
+You may be thinking, “Why should someone duplicate a page?” And wrongly assume that canonization is not something to worry about. The problem is that, as humans, we tend to see a page as a concept, such as your homepage. For search engines, however, each unique URL is a separate page.
+For example, in a situation such as that, Google could reach your homepage in all of the following ways at the same time:
+http://www.example.com
+https://www.example.com
+http://example.com
+http://example.com/index.php
+http://example.de/index.php?r…
+For a human, all of these URLs represent a single page. For a crawler, however, each of these URLs is a unique page. Even in this single example, we can see that five copies of the homepage are in play. However, this is just a small sample of the variations you might encounter. Modern content management systems (CMS) and dynamic websites exacerbate the problem. Many websites automatically add tags, allow multiple paths, and URLs to the same content, and add URL parameters for searches, sorts, currency options, etc. You may have thousands of duplicate URLs on your page and not even notice them. This is just one of many factors that need to be considered when creating WordPress websites.
+How does Canonical Tag prevent Duplicate Content Issues?
+Canonical tags are being used for URL Consolidation and preventing Ranking Signal Dilution. Duplicate URLs and their consolidation are important for Search Engines so that they can save resources and the original URLs’ original version can be met by search engine users with the right search intent. Duplicate URLs or Duplicate content can be caused by the reasons below.
+Parameterized URLs for search parameters: example.com/?q=search-term
+Session ID Parameters in the URLs: example.com/?sessionsid=3
+Pages for different device types with different URLs: example.com/mobile and example.com/desktop
+Having pages for different connection types with different URLs: example.com/mobile-3g and example.com/desktop-3g
+Serving the same content with “www” and “non-www” versions: example.com and www.example.com
+Serving the same content with HTTP and HTTPS at the same time: http://example.com and https://www.example.com
+Serving the same content with and without trailing slash (slash at the end of the URL): example.com/ and example.com
+Serving the content with capitalized and lowered letters in the URL, such as example.com/pagE and example.com/page
+Serving the same content on different file extensions, such as example.com/page.html and example.com/page.htm
+Serving the same content’s printable and presentable versions on different URLs, such as example.com/page and example.com/print/page
+Having the AMP versions of the same content on different URLs, such as example.com and amp.example.com,
+Serving the same content with syndication on different URLs such as “example.com/original-content” and “syndicationsite.com/syndicated-content”.
+In all of those cases of duplicated content, using canonical tags will help search engines cluster the same content from the different URLs and index the correct URL while transferring the duplicated URLs’ ranking signals to the canonical version. Also, if there is a lot of syndicated content for an original content publisher, cross-domain canonical is one of the key applications here.
+If people deliberately chose to syndicate their content, it makes it difficult to identify the originating source. That’s why we recommend using canonical or blocking. The publishers syndicating can require this.
+Danny Sullivan, September 18, 2019
+11 Best Practices for Canonical Tags for SEO
+Duplicate content issues can be extremely tricky, so here are a few important things to keep in mind when using the Canonical Tag to avoid common mistakes:
+1. Canonical tags can be self-referencing
+Self-referencing canonical tags are the canonical tags that point to the URL that they are found on. A self-referencing canonical tag means that the content’s original source is the URL that the canonical tag is inside. For instance, if there is a web page on the “https://example.com/example” URL, the canonical tag should be the URL itself. An example of a self-referencing canonical tag is below.
+<link rel="canonical" href="https://example.com/example">
+Google also said that self-referencing canonical tags make it clear that the URL is the original source of the content, this makes it clear that the Search Engine can count on that web page more. A quote about self-referencing canonical tags from John Mueller is below.
+I recommend [using a] self-referential canonical because it really makes it clear to us which page you want to have indexed, or what the URL should be when it is indexed. Even if you have one page, sometimes there are different variations of the URL that can pull that page up. For example, with parameters in the end with upper lower case or www and non-www. All of these things can be cleaned up with a rel canonical tag.
+John Mueller, Google Webmaster Trend Analyst
+2. Proactively canonize your homepage
+Given that duplicate websites are very common and that people can link to your homepage in many ways (which you cannot control), it is usually a good idea to add a canonical tag to your homepage template to avoid unforeseen problems.
+3. Spot-check your dynamic canonical tags
+Sometimes bad code causes a page to write a different canonical tag for each version of the URL (with the entire canonical tag missing). Make sure to check your URLs randomly, especially for e-commerce and CMS-controlled pages.
+4. Avoid mixed signals
+Search engines can avoid or misinterpret a canonical tag when sending mixed signals. In other words, don’t canonize side A -> side B and then side B -> side A. Nor canonize side A to side B and then create a 301 redirect from side B to side A. It’s also generally a bad idea to concatenate canonical tags (A–> B, B–> C, C–> D) if you can avoid it. Send clear signals or force search engines to make bad decisions.
+5. Be careful when canonizing near-duplicates
+When most people think of canonization, they think of exact duplicate content. It is possible to use the canonical tag on near-duplicates (pages with very similar content), but be careful. There is a lot of discussion on this topic, but in general, it is okay to use canonical tags for very similar pages. For example, a product page differs only by currency, location, or a small product attribute. Keep in mind that the non-canonical versions of this page may not be eligible for ranking. If the pages are too different, search engines can ignore the tag entirely.
+6. Canonize cross-domain duplicates
+If you control both sides, you can use the canonical tag across domains. Let’s say you are a publisher who often publishes the same article on half a dozen pages. If you use the canonical tag, your ranking power will only be concentrated on one page. Keep in mind that canonization excludes non-canonical pages from the ranking, so make sure that this usage suits your business case.
+7. Use Only Canonical URLs in Sitemaps
+In a sitemap, only the Canonical URL should have a place. A non-canonical URL will be excluded by Google. This will decrease the website’s quality score for Google, and the signals from the website will be taken in a more suspicious way by the Search Engine Algorithms.
+8. Use Internal Links for Showing Canonical URLs
+Showing canonical URLs can also be done via internal links. If every duplicate page’s canonical tag points out page B, but every one of the internal links mostly points to Page C for the same content group, this will create confusion. A Canonical Tag is just a hint, not just a command. Because of those wrong and mixed signals, Google started to calculate canonical tags using its own algorithms according to the Uncertainty Principle. Using semantic and consistent signals for Search Engine Optimization will create trust for the web entity from the viewpoint of the Search Engine.
+9. Use only One Canonical Tag for Every Web Page
+If there are multiple canonical tags on a web page, Google will ignore them both. Multiple canonical tag designations on a web page can happen because of the wrong implementation of the page templates or because of copying and pasting the different source codes to the different pages. If there are multiple canonical tags on a web page, the benefit of the canonical tag for the canonicalization target URL will be lost.
+10. Use Canonical Tags only in the Head Section of the URL
+Google will ignore canonical tags in the body section of the HTML Document. To avoid any HTML Parsing problems, canonical tags should be added to the head section of the URL, and they should be located as early as possible. Also, the canonical tag in the head section of the HTML Document helps the Search Engine crawl the document. It can simply use different HTML Parsers or Information Extraction methodologies for the different HTML Document Sections.
+11. Be Careful While Using Relative URLs in the Canonical Tags
+Canonical tags can be used with relative URLs. A relative URL in the canonical tag can’t use the “HTTP” or “HTTPS” prefix on it. Thus, only the path, folder, and file names should be in the relative URL. If a domain name without the “HTTP” or “HTTP” prefixes is written into the relative URL, the canonical tag will mostly target a 404 page. For instance, if there is a canonical tag like the one below.
+<link rel="canonical" href="example.com/page-example"/>
+This canonical URL will be read by Google as “http://example.com/example.com/page-example” since it doesn’t have the “HTTP” or “HTTPS” protocol as the prefix. The right relative URL usage in the canonical in this example would be as below.
+<link rel="canonical" href="/page-example"/>
+The canonical tag above will point to the URL “http://example.com/page-example” as it should be. The relative URL usage in the Canonical Tag is an important point to pay attention to.
+What are the two Ways to add a canonical tag to Web Documents for SEO?
+In the realm of search engine optimization (SEO), ensuring that search engines understand the preferred version of a webpage is paramount. This is where canonicalization comes into play. Canonicalization is the process of selecting the best URL when there are several choices, and it usually refers to home pages.
+There are two primary methods to signal to search engines about the canonical version of a page: through HTML and HTTP headers. Let’s delve deeper into these methods, emphasizing the HTTP headers approach, and understand their differences.
+1. Canonicalization with HTTP Response Headers:
+When dealing with non-HTML files (like PDFs) or when setting a canonical tag in the HTML isn’t feasible, HTTP headers come to the rescue.
+To indicate the canonical version of a page via HTTP headers, you’d use the
+Link
+header with the
+rel="canonical"
+attribute
+
+[...truncated...]

@@ -1,0 +1,104 @@
+Date HTTP Header: Syntax, Directives, Examples - Holistic SEO
+Skip to content
+HTTP headers are used to send extra information with an HTTP response or request. The Date HTTP header contains the message’s creation date and time. It is supported by every browser. There are multiple values using the Date HTTP Header. The values using the Date HTTP Header are day name, day, month, year, hour, minute, second, and GMT. An example of a DNT HTTP Header is written below.
+Date: Wed, 16 Oct 2019 07:28:00 GMT
+The Date HTTP Header Response Header is seen above. In the article, the Date HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is the Date HTTP Header?
+1.1.
+What is the Syntax of the Date HTTP Header?
+1.2.
+What are the Directives of Date HTTP Header?
+2.
+How to use Date HTTP Header?
+2.1.
+Examples of Date HTTP Header Use
+3.
+What is the Specification Document for Date HTTP Header?
+4.
+What is the type of Date HTTP Header?
+4.1.
+What is the similar HTTP Header to the Date HTTP Header?
+5.
+Which Browsers Support Date HTTP Header?
+What is the Date HTTP Header?
+Date HTTP Header objects in JavaScript represent a single point in time in a platform-independent format. Date objects include a number that represents milliseconds since January 1, 1970, UTC.
+What is the Syntax of the Date HTTP Header?
+The Date HTTP Header has multiple values in its syntax. The syntax using the Date HTTP Header is written below.
+Date: day-name, day month year hour:minute: seconds GMT
+What are the Directives of Date HTTP Header?
+The Date HTTP Header has multiple directives. The directives and examples used for the Date HTTP Header are listed below.
+day-name: It is a case-sensitive directive that defines the name of the day on which the message was created. The values it has are “Mon”, “Tuesday,” “Wednesday,” “Thursday,” “Friday,” “Saturday,” and “Sunday.”
+day: It provides the month and day of the week in a two-digit format. In its case, the values is in the range of “00” to “31.” For example, the numbers 01, 21, and 29.
+month: It provides the month’s name and is case-sensitive to ensure that the correct month is entered. It hase the values “January,” “February,” “March,” “April,” “May,” “June,” “July,” “Aug,” “Sep,” “Oct,” “Nov,” and “December.” Year: It indicates the year in the format of four digits. For example, 2019 and 2018.
+hour: It indicates the time zone in a 24-hour, two-digit format. It has a value between ’00’ and ’23’. For instance, ten and twenty-one minutes indicate the minute in a two-digit format. It can have a value between ’00’ and ’59’. For example, 05, 21
+second: It indicates the second in a two-digit format. It can have a value between ’00’ and ’59’. For example, 05, 21
+GMT: GMT stands for Greenwich meantime.
+How to use Date HTTP Header?
+Date HTTP Header objects in JavaScript are used to describe a single point in time in a platform-independent way via the HTTP protocol. Date objects have a number that represents the number of milliseconds that have elapsed since the first day of January 1970 UTC, which is the first day of the month.
+Examples of Date HTTP Header Use
+The following is an example of how to use the Date HTTP Header.
+Date: Mon, 1 Jan 2019 07:23:45 GMT
+Date: Tue, 2 Feb 2019 07:05:01 GMT
+Date: Wed, 3 Mar 2019 09:28:20 GMT
+Date: Thu, 4 Apr 2019 08:50:33 GMT
+Date: Fri, 5 May 2019 03:28:29 GMT
+What is the Specification Document for Date HTTP Header?
+There is only one specification for the Date HTTP Header which is the ECMAScript Language Specification. The ECMAScript Language Specification Article 21.4 the Date HTTP Header’s definition and applications were mentioned. Additionally, this article discusses the Date HTTP Header’s values and examples.
+What is the type of Date HTTP Header?
+The Date HTTP Header is a Response header that contains additional information about the response, such as the time and date of the response, as well as the server that sent it.
+What is the similar HTTP Header to the Date HTTP Header?
+There is only one similar HTTP Header to the Date HTTP Header, which is the Date() constructor, which gives a JavaScript Date object representing a single point in time in a platform-independent format. The Date objects contain a number that indicates milliseconds since 1 January 1970 UTC similar to the Date HTTP Header.
+Which Browsers Support Date HTTP Header?
+There are multiple browsers that support Date HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Date HTTP Header.
+Edge Browser is compatible with the Date HTTP Header.
+Firefox Browser is compatible with the Date HTTP Header.
+Internet Explorer Browser is compatible with the Date HTTP Header.
+Opera Browser is compatible with the Date HTTP Header.
+WebView Android Browser is compatible with the Date HTTP Header.
+Chrome Android Browser is compatible with the Date HTTP Header.
+Firefox Android Browser is compatible with the Date HTTP Header.
+Opera Android Browser is compatible with the Date HTTP Header.
+Samsung Internet Browser is compatible with the Date HTTP Header.
+You can see an image that shows cross-browser compatibility of Date HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Date HTTP Header: Syntax, Directives, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+DNT HTTP Header: Syntax, Directive, Examples
+TechSEO
+Content Negotiation: Principles, Types, Working Ex…
+0
+0
+0

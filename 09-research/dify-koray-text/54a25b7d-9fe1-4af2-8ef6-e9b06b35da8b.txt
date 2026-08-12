@@ -1,0 +1,102 @@
+"aria-hidden" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-hidden is an attribute that describes an elements’ visibility on the assistive technology, the role of element is to be hidden unless expose by an instance. The benefit of aria-hidden is to avoid redundant object that the screen reader receives. It can prevent not important objects to be interpreted differently like images and icons. The importance of the aira-hidden relies on the purpose of the assistive technology, the goal is to provide necessary information for the person using it. The functionality and appearance of the page in the browser is not affected by the aria labels that are used. Therefore, the aria-hidden can be useful to prevent conveying wrong information to the user, it removes the repeated sentence that may confuse or misinterpret the information they will receive. The aria-hidden is stated by developers to some contents or elements that are redundant information or repeated text. The aria-hidden attribute can also be used in other aria labels, such as the aria-disabled, aria-modal, and aria-expanded attributes.
+Contents of the Article
+show
+1.
+What is the function of the “aria-hidden” ARIA Label?
+2.
+What are the uses of the “aria-hidden” ARIA Label?
+3.
+Example Uses of “aria-hidden” ARIA Label
+4.
+What are the related ARIA Labels to “aria-hidden”?
+What is the function of the “aria-hidden” ARIA Label?
+The function of aria-hidden is to prevent some nonfunctional or decorative contents to be exposed to hidden collapsible or expandable information and other repetitive content or redundant text will be hidden. The aria-hidden attribute may hide other contents like rendered contents from the assistive technologies, caution must be applied unless it improves the users of the assistive technology performance by discarding unnecessary content. Using aria-hidden=”true” removes the element and its child element from the accessibility tree in the browser and in the assistive technologies. Assistive technology is the term used for technology devices that are powered by software programs such as HTML and aria labels to provide the needs of persons with disabilities to understand or interpret functions through aria labels technology.
+What are the uses of the “aria-hidden” ARIA Label?
+Listed below are the uses of the “aria-hidden” ARIA Label.
+Toolbar role:
+It defines the interface of commonly used function buttons as a collection of the containing element that can be toggled.
+Tooltip role:
+It is a descriptive text bubble that appears when an element is pointer focus or keyboard focus.
+Feed role:
+It is a list of articles that is scrollable, contents of articles can be added or removed at the end of the list as the user is scrolling the list.
+Note role:
+It suggests a section that may be included in a parent content or main content. Describing a note is optional, but can help screen reader users understand its context and purpose. The name can be provided using aria-labelledby if a visible label is present.
+Math role
+: indicates that the content is equivalent or has a mathematical expression. It is used to be marked up in an accessible format such as MathML, or with another type of textual representation, which can be changed over to a reachable format by the browser or a polyfill library.
+Example Uses of “aria-hidden” ARIA Label
+Listed below are the example uses of the “aria-hidden” ARIA Label.
+A screen reader or other form of assistive technology will not be able to see content that has the aria-hidden property attached to it, regardless of whether the element and all the parent content are visible.
+<button>
+<span class="Secret Recipe" aria-hidden="true"></span>
+<span class="label">
+These are the ingredients.
+</span>
+</button>
+<p aria-hidden=true>
+This is not visible content!
+</p>
+<p aria-hidden="true">
+This is hidden to anyone
+</p>
+<span aria-hidden="true">
+You can’t see me!</span>
+<button>
+<span class="My Secret" aria-hidden="true"></span>
+<span class="label">
+Nothing to know here!
+</span>
+What are the related ARIA Labels to “aria-hidden”?
+Listed below are the related ARIA Labels to “aria-hidden”.
+aria-disabled:
+The aria-disabled are related to aria-hidden because they both too are hidden in a current state unless retrieved by control or an instance. The
+aria-disabled
+indicates that the element is usable but disabled and unable to edit or otherwise operational.
+aria-expanded:
+The aria-expanded are related to aria-hidden because they both remain hidden until an instance is executed or triggered. The
+aria-expanded
+attribute is set to an element to which indicator control is expanded or collapsed, or it may contain child elements that are hidden.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+2 thoughts on ““aria-hidden” ARIA Label for Accessibility”
+Great article! I’ve been struggling with how to add ARIA labels to my website and this article has really helped me understand the process.
+Reply
+Thank you for your kind comment about our aria label guideline.
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-hidden” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-invalid” ARIA Label for Accessib…
+TechSEO
+“aria-grabbed” ARIA Label for Accessib…
+0
+0
+2

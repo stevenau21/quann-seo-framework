@@ -1,0 +1,104 @@
+Skip to content
+User-centric web page speed performance metrics focus on different verticals that affect the perception of users for the page loading performance of a website. User-centric performance metrics are announced by Google Developers and W3C Web Performance Working Group to organize the concepts that are related to the Lighthouse. User-centric performance metrics involve the relativity of perception during the different stages of the web page loading process. From requesting the web page-related resources such as images, fonts, CSS, and JS files, and reading, parsing, rendering these resources are included within the user-centric metrics. The examples for the relativity of speed in user-centric metrics can be explained with the examples below.
+A slow website can be loaded as fast if the user’s device and internet connection are fast.
+A website can load itself at the 5th second suddenly, and it can be perceived as slower than a website that loads itself in 7 seconds gradually.
+A website that is loaded fast might be irresponsive, and block users from performing any event, and process.
+A website can be loaded fast, but the animations, and transitions might not be smooth.
+To learn how every user interacts with the website, Google, and other search engines try to focus on user-experience reports such as Chrome User Experience Report more than lab data such as Lighthouse report. In this article, the user-centric performance metrics, their meanings, and connections to the web page speed metrics will be processed.
+Contents of the Article
+show
+1.
+What are the four questions that defined the user-centric web page speed performance metrics?
+2.
+How are the User-centric Metrics measured?
+2.1.
+What are the “In the Lab” methods for user-centric metric measurement?
+2.2.
+What are the “In the field” methods for user-centric metric measurement?
+2.3.
+What are the Real User Monitoring methods for user-centric metric measurement?
+3.
+What are the Types of User-centric Web page Performance Metrics?
+4.
+Which page loading performance metrics are connected to the user-centric performance metrics?
+5.
+What are the Custom Metrics for User-centric Performance Metrics?
+5.1.
+What APIs can be used for Custom Metrics in the scope of User-centric Metric Performance?
+6.
+What are the side contexts of User-centric Performance Metrics?
+6.1.
+What is the relevance of user-centric metrics to Mobile-only Indexing?
+6.2.
+What is the relation between User-centric Metrics and SERP Quality?
+6.3.
+What is the relation between user-centric metrics and Search Intent?
+6.4.
+What is the relation between User-centric Metrics and Mobile-first Design, and Usability?
+7.
+Last Thoughts on User-centric Performance Metrics and Holistic SEO
+What are the four questions that defined the user-centric web page speed performance metrics?
+The questions that are used for defining the user-centric performance metrics are listed below.
+“Is it happenning?” question focuses on the response time, and loading event’s starting poting.
+“Is it delightful?” question focuses on the whether the content is enough at the early stage of web page lifecycle or not.
+“Is it useful?” question focuses on whether the users are able to interact with the page or not.
+“Is it usable?” question focuses on whether the interactions are smooth or not.
+All user-centric performance-related question tries to focus on different lifecycle stages of the web pages by measuring the web page’s usability, and user-friendliness. Instead of focusing on the timing of the “load” events, developers started to focus on more useful user-centric metrics to understand how the web page is efficient to satisfy the
+search intent
+and the visit intent of the users or not.
+User-centric metrics can be used for better web page loading performance optimization to improve CRO and SEO.
+How are the User-centric Metrics measured?
+There are only two ways to measure the user-centric performance metrics, which are “In The Lab”, and “In the Field”.
+In the Lab: user-centric metrics can be measured by simulating an artificial user experience to load the web page by measuring every response of the web page to the browser automation system.
+In the field: user-centric metrics can be measured by collecting the user feedback, and user behaviors from the browsers with user monitoring systems.
+Real User Monitoring: user-centric metrics can be measured as live to see how the users interact with the web page. Live user tracking to see the user-centric web page speed metrics can help a developer, and SEO to see the improvable points within a web page better.
+Although there are certain ways to measure user-centric metrics and the methodology to measure user-centric metrics are very strict, the commentary and the meaning of the data obtained can change according to the measured medium.
+What are the “In the Lab” methods for user-centric metric measurement?
+To measure the user-centric performance metrics within the lab, the tools and technologies below can be used.
+Performing a Lighthouse test within the Chrome Browser.
+Using Lighthouse NPM Package within the local machine with a performance budget.
+Using GTMetrix to see how the web page response to the requests.
+Using WebPageTest to see the performance metrics, waterfall, and further customized analysis of a web page.
+The main advantage of the in-the-lab methods for user-centric metric measurement is to provide instant, and bulk feedback from the web development changes for page speed. All of the lab data will be lack in terms of the real user metrics (RUM). Thus, supporting the information that is gathered from lab data for user-centric metrics is important to have a better, and realistic web page speed optimization strategy. The main advantage of the lab data is having instant feedback from the web page loading simulators while developing and improving the web pages. Since, real-world users’ data can flow slower, performing a bulk web page loading test with page speed tools is useful to have faster feedback for possible, and future improvements. Using lab data from multiple sources can give more suggestions, diagnoses, and improvement plans for the user-centric performance metrics. To learn the best page speed test tools, you can read the related guide.
+In the lab methods, being one of the three ways of measuring the user-centric metrics, is widely used by various mediums like Task Completion Time (TCT), Interaction to Next Paint (INP), and many others due to the advantages above. To exemplify, Interaction to Next Paint heavily relies on Lighthouse as a webpage loading performance tester which is mentioned above as one of the tools that can be used to follow “in the lab” methods to measure user-centric metric.
+What are the “In the field” methods for user-centric metric measurement?
+To collect Real User Metrics (RUM) for user-centric performance metrics’ measurement, the methods below can be used.
+Creating a Chrome User Experience (CrUX) Report.
+Collecting user-centric metrics with Google Tag Manager
+Collecting user-centric metrics with Google Analytics
+Using Dareboost, Site24x7, Tek-tools, Pingdom for collecting user-centric performance metrics.
+Using Pagespeed Insights API and Tool
+The advantage of the in-the-field methods for user-centric metric measurement is to provide real user metrics in bulk to help the development team of the website. Using in-the-field methods for user-centric performance metrics can provide a better understanding of the conversion rate, user experience, and users’ feelings while using the website. Thus, improvements can be done with more data and better empathy from visitors. In this context, the lab data, and the field data for user-centric metrics should be used together.
+As mentioned above, there are various methods to measure user-centric metrics under the “in the field” category and these methods are commonly used by various mediums just like the “in the lab methods”. One of those mediums who uses in the field methods is “Interaction to Next Paint (INP)”. Interaction to Next Paint relies on Chrome User Experience Report (Crux) data to explain what percentage of the users interacted with a good or bad INP score.
+What are the Real User Monitoring methods for user-centric metric measurement?
+Real User Monitoring methods for user-centric metric measurement are listed below.
+Using a user monitoring technology such as Hotjar, and Microsoft Clarity
+Using Google Analytics events with Google Tag Manager for real-time user monitoring in the context of user-centric metrics.
+Using Puppeteer, and custom JavaScripts for measuring the timings of user-centric metrics.
+Real-time User Monitoring can be done to understand how the website and the webpages are performing at that very specific time. To improve the user-centric performance metrics, real user monitoring can be used along with in the field, and in the lab methods.
+What are the Types of User-centric Web page Performance Metrics?
+There are five types of user-centric web page performance metrics. User-centric metric types are Perceived Load Speed”, Load Responsiveness, Runtime Responsiveness, Visual Stability, and Smoothness. The types of user-centric web page performance metrics and their definitions along with functions are listed below.
+Perceived Load Speed measures the perception of the web page speed during the web page loading phase (early stage of web page lifecycle). If a web page doesn’t create a fast loading perception, it can cause users to loose their focus and concentration to use the web page.
+Load Responsiveness, measures whether the web page is able to respond to the users’ input events during the loading of the web page. If the user is not able to perform its visit intent for the web page, it means that web page doesn’t have load responsiveness.
+Runtime Responsiveness, measures the responsiveness after the web page is loaded. If a web page doesn’t respond to the user during the active state of the web page, it means that loading the web page fast or slow doesn’t make a difference for user experience.
+Visual Stability measures how the visible elements on the web page is stable. Unwanted, and unexpected shifts within the web page’s layout can cause stress and dissatisfaction of users.
+Smoothness measures the transitions, animations and changes on the web page with Frames per Second (FPS). Smoothness as a user-centric web page performance metric measures the web page’s quality for visual communication with the web page user (visitor).
+Which page loading performance metrics are connected to the user-centric performance metrics?
+The web page loading time performance (page speed) metrics that are connected to the user-centric metrics can be found below.
+First Paint is connected to user-centric performance metrics because perception of speed and first pain are relevant. If first paint is slow, or late, the user won’t be able to perceive the visual change during the loading of the web page.
+First Contentful Paint
+is connected to user-centric performance metrics because first contentful paint and first meaningful paint will affect the perception of the user for page speed. A slow, and non-important first contentful paint, and the first paint will cause users to think that the web page is slow, even if it loads in fewer time.
+Largest Contentful Paint
+is connected to user-centric performance metrics because LCP Element is assumed as the functional part of the web page to reflect its purpose. If the most important, and functional part of the web page is not laoded fast enough, it can harm the perception of speed.
+First Input Delay
+is connected to the user-centric page speed metrics because First Input Delay (FID) is related to the “Load Responsiveness” and “Runtime Responsiveness”. If the web page doesn’t respond a user during the web page loading, and web page usage stages, the First Input Delay will be higher. FID can be caused due to exessive amount of web page resource requests that can block the main thread of the browser. If the main thread is blocked, it can’t answer the input of the user, and it can cause FID by harming the load responsiveness and runtime responsiveness.
+Time to Interactive
+is connected to the user-centric performance metrics because Time to Interactive (TTI) measures when the web page is fully responsive, and loaded. To measure it, TTI tries to catch the “quiet window” of the web page loading process. If a web page is fully loaded, and there is no long task in the browser main thread, it means that the web page is fully responsive. If the TTI is late, or problematic, it can harm the “runtime responsiveness”, and the “load responsiveness”.
+Total Blocking Time
+is connected to user-centric performance metrics because Total Blocking Time (TBT) measures the total time that users’ couldn’t interact with the web page. Total Blocking Time is connected to the load responsiveness, and runtime responsiveness directly. A high total blocking time can be a signal for visual smoothness and perception of speed related problems. High TBT and slow web page loading time are correlated to each other because it means that the browser couldn’t process everything as it should due to the high request count, slow connection, or total request size, and unoptimized web page for better page speed.
+Speed Index
+is connected to the user-centric performance metrics because Speed Indek and “Smoothness”, “Perception of Speed”, are related. If a web page doesn’t change the frames, and their content at the above the fold section of the web page during the web page loading phase, it means that the web page doesn’t process all the requests with the necessary speed. It can harm the perception of speed since the web page’s upper section stays frozen for longer times than 2, or 3 seconds.
+Cumulative Layout Shift
+is connected to user-centric performance metrics because Visual Stability and Cumulative Layout Shift are related. Cumulative Layout Shift shows how
+
+[...truncated...]

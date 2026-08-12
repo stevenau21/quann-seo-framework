@@ -1,0 +1,160 @@
+HTML <caption> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <caption> HTML Tag is used to create captions for the table> element. A <caption> HTML Tag represents the title of the table. When it is unclear what the data in the table represents, the <caption> HTML Tag might be beneficial. This is frequently true when a data set consists solely of numbers, characters, or symbols. You may offer context for the data in the table by using the <caption> HTML Tag. The <caption> HTML Tag is part of Tables HTML category in HTML Element Reference. The attributes of the <caption> HTML Tag are global attributes and events attributes.
+<caption> code block example to learn how it works is given below.
+<table>
+<caption>Table caption</caption>
+<tr>
+<td>Left cell</td>
+<td>Right cell</td>
+</tr>
+</table>
+The second example usage of the “<caption>” code block example is below.
+<title>Example</title>
+<style>
+table {width:100%;border-collapse:collapse;}
+td, th {border:1px solid #ccc;}
+th {background:#ccc;color:white;}
+caption {text-align:left;}
+</style>
+<table>
+<caption>
+<p><strong>Table 1.</strong></p>
+<p>This table demonstrates how $5,000 will grow over 10 years assuming an interest rate of 2% per annum. It also displays the weekly and annual yields based on the capital invested for that year in the YG Entertainment company.</p>
+</caption>
+<tr><th>Year</th><th>Capital</th><th>Per week</th><th>Per Year</th></tr>
+<tr><td>1</td><td>$10,000</td><td>$10</td><td>$500</td></tr>
+<tr><td>2</td><td>$10,500</td><td>$10</td><td>$525</td></tr>
+<tr><td>3</td><td>$11,025</td><td>$11</td><td>$551</td></tr>
+<tr><td>4</td><td>$11,576</td><td>$11</td><td>$579</td></tr>
+<tr><td>5</td><td>$12,155</td><td>$12</td><td>$608</td></tr>
+<tr><td>6</td><td>$12,763</td><td>$12</td><td>$638</td></tr>
+<tr><td>7</td><td>$13,401</td><td>$13</td><td>$670</td></tr>
+<tr><td>8</td><td>$14,071</td><td>$14</td><td>$704</td></tr>
+<tr><td>9</td><td>$14,775</td><td>$14</td><td>$739</td></tr>
+<tr><td>10</td><td>$15,513</td><td>$15</td><td>$776</td></tr>
+</table>
+Contents of the Article
+show
+1.
+What is <caption> HTML Tag?
+2.
+How to Use <caption> HTML Tag?
+2.1.
+Example Usage of <caption> HTML Tag?
+3.
+What are the Attributes of <caption> HTML Tag?
+4.
+What are the Default CSS Settings for <caption> HTML Tag?
+5.
+What are the Related other HTML Tags to <caption>?
+What is <caption> HTML Tag?
+The <caption> HTML Tag is used to define a table’s caption. This tag will be added immediately after the table> tag. For each table, only one caption may be supplied. It is automatically oriented to the center.
+How to Use <caption> HTML Tag?
+To use the <caption> HTML Tag, The site developer should write the <caption></caption> between the start and end tags, with the caption content placed It must be the first child of the <table> HTML Tag.
+Example Usage of <caption> HTML Tag?
+The following example of usage of <caption> HTML tag is given below.
+<table>
+<caption>Annual savings</caption>
+<tr>
+<th>Annual</th>
+<th>Savings</th>
+</tr>
+<tr>
+<td>September</td>
+<td>$100</td>
+</tr>
+</table>
+What are the Attributes of <caption> HTML Tag?
+There are multiple attributes for the <colgroup> HTML Tag. The following attributes are listed below.
+Global Attributes: The <caption> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <caption> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <caption> HTML Tag?
+The following is the Default CSS Setting for the <caption> HTML Tag.
+caption {
+padding: 10px;
+caption-side: bottom;
+}
+table {
+border-collapse: collapse;
+border: 2px solid rgb(200, 200, 200);
+letter-spacing: 1px;
+font-family: sans-serif;
+font-size: .8rem;
+}
+td,
+th {
+border: 1px solid rgb(190, 190, 190);
+padding: 7px 5px;
+}
+th {
+background-color: rgb(235, 235, 235);
+}
+td {
+text-align: center;
+}
+tr:nth-child(even) td {
+background-color: rgb(250, 250, 250);
+}
+tr:nth-child(odd) td {
+background-color: rgb(240, 240, 240);
+}
+.heman {
+font: 1.4rem molot;
+text-shadow: 1px 1px 1px #fff, 2px 2px 1px #000;
+}
+.skeletor {
+font: 1.7rem rapscallion;
+letter-spacing: 3px;
+text-shadow: 1px 1px 0 #fff, 0 0 9px #000;
+}
+What are the Related other HTML Tags to <caption>?
+The other related HTML Tags to the <caption> HTML Tag are listed below.
+<table> HTML Tag: The <table> HTML Tag is related to <caption> HTML Tag because they are both tables tags. A table is defined by the <table> HTML Tag.
+<th> HTML Tag: The
+<th>
+HTML Tag is related to <caption> HTML Tag because they are both tables tags. The <th> HTML Tag specifies a table header cell.
+<tr> HTML Tag: The
+<tr>
+HTML Tag is related to <caption> HTML Tag because they are both tables tags. The <tr> HTML Tag specifies a table row.
+<td> HTML Tag: The
+<td>
+HTML Tag is related to <caption> HTML Tag because they are both tables tags. The td> HTML Tag specifies a table cell.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <caption> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 5 min
+TechSEO
+HTML <col> Tag Definition, Usage and Example…
+TechSEO
+HTML <ins> Tag Definition, Usage and Example…
+0
+0
+0

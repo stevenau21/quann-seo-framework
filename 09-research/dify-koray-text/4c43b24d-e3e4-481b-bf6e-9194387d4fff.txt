@@ -1,0 +1,89 @@
+Accept-Language HTTP Header: Principles, Types, Working Examples - Holistic SEO
+Skip to content
+Accept-Language is a type of HTTP Request header that determines the client’s preferred language, either the local or the natural language. The Accept-Language HTTP Request header can include multiple languages. Accept-Language HTTP request header values can be separated with a comma. The search engine determines the appropriate values for the Accept-Language HTTP Request header based on the user interface language. Modification of these values is not recommended to be performed by the user since it may lead to fingerprinting. The process of Accept-Language HTTP Request header starts with the Content-negotiation mechanism when the webserver needs to choose from the representations and return to the client using the Content-language HTTP response header. The Accept-Language HTTP Request header serves as a reference document to the webserver to determine the target Content language.
+Contents of the Article
+show
+1.
+What are the principles of Accept-Language HTTP Header?
+1.1.
+What is the Syntax of Accept-Language HTTP Request Header?
+1.2.
+What are the directives of Accept-Language HTTP Header?
+2.
+What are the Accept-Language-related HTTP Headers?
+2.1.
+Examples of Accept-Language HTTP Request Header Use.
+3.
+What is the relation between Accept-Language HTTP Header and Content-Language HTTP Header?
+What are the principles of Accept-Language HTTP Header?
+The Accept-Language HTTP request header determines the correct language for server-generated messages and HTML pages. Accept-Language HTTP request header might not match the content language if the user-agent is from a different region and language than the server’s region and language. In this case, the server will be returning a status code “406 (Not Acceptable)” error code to the user agent. Although to ensure user convenience, the web server usually overrides the Accept-Language HTTP request header and prefers to pursue the requested user language. The syntax and example are demonstrated below.
+What is the Syntax of Accept-Language HTTP Request Header?
+The following syntax shows the proper arrangement on how to use the Accept-Language HTTP request header.
+The syntax for The Accept-Language HTTP request header is shown below
+Accept-Language: <language>
+Accept-Language: *
+Example usage of the syntax of Accept-Language HTTP request header is below.
+Accept-Language: fr-CH, fr;q=0.9, en;q=0.8, de;q=0.7, *;q=0
+An example for the Accept-Language HTTP request header is shown below.
+Accept-Language: de
+Accept-Language: de-CA
+Accept-Language: en-US,en;q=0.5
+For multiple languages, these are listed by separating with commas, an example is shown below.
+Accept-Language: fr-CA, fr;q=0.9, en;q=0.8, de;q=0.7, *;q=0.
+The following codes are explained below.
+Single value (English of US): en-US
+Double value (English of US, French of Canada): en-US, fr-CA
+Single value with factor weighting (English of US, with factor weighting): en-US, en;q=0.9
+What are the directives of Accept-Language HTTP Header?
+The following directives define the proper ruling for the Accept-Language HTTP request header.
+<language> A language tag (which is sometimes referred to as a “locale identifier”). This consists of a 2-3 letter base language tag that indicates a language, optionally followed by additional subtags separated by ‘-‘. The most common extra information is the country or region variant (like ‘en-US’ or ‘fr-CA’) or the type of alphabet to use (like ‘sr-Latn’). Other variants, like the type of orthography (‘de-DE-1996’), are usually not used in the context of this header.
+<*> Any language; ‘*’ is used as a wildcard.
+<;q= (q-factor weighting)> Any value placed in an order of preference expressed using a relative quality value called weight.
+What are the Accept-Language-related HTTP Headers?
+The related HTTP headers for the Accept-Language HTTP request header are Content-negotiation and Content-Language HTTP response header. While the Accept-Language HTTP request header provides the language representations based on the client’s preferences, the Content-negotiation is used to select a language from the representations, and the information is sent to the client thru the Content-language HTTP response header.
+Examples of Accept-Language HTTP Request Header Use.
+An example of Accept-language HTTP request header usage is for web pages accessed from another country where the language is different. Another example of Accept-language HTTP request header usage is when a user agent needs to use another device with a different user interface. The Accept-language HTTP request header will determine the required language that the user will understand and the server will have this processed by using the Content-negotiation. A language range in the Accept-language HTTP request header can be accompanied by an associated quality value that estimates the user agent’s preference for the languages required. The quality value default is “q=1”. A user agent, for instance, prefers the Danish language but may accept British English and other forms of English language. A language range matches a language tag if it exactly equals the tag, or if it exactly matches a prefix for the tag such that the first tag character after the prefix is “-“. The special range “*”, if present in the Accept-Language field, matches every tag not matched by any other range present in the Accept-Language field. The code for the said example is below.
+Accept-Language: da, en-gb;q=0.8, en;q=0.7
+What is the relation between Accept-Language HTTP Header and Content-Language HTTP Header?
+The relation between the Accept-language HTTP request header and the Content-language HTTP response header is their function to provide correct language based on the user’s preference. The content-language HTTP response header is used by a web server to provide a response to the client to notify the selected language from the representations contained in the Accept-language HTTP request header.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+2 thoughts on “Accept-Language HTTP Header: Principles, Types, Working Examples”
+Thank you!
+Reply
+Thanks for the kind comment.
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Accept-Language HTTP Header: Principles, Types, Working Examples
+by Koray Tuğberk GÜBÜR
+time to read: 3 min
+TechSEO
+If-Range HTTP header: Principles, Types, Working E…
+TechSEO
+Access-Control-Allow-Methods: Syntax, Directive, E…
+0
+0
+2

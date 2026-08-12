@@ -1,0 +1,98 @@
+How to Perform Text Analysis via Python and Advertools - Holistic SEO
+Skip to content
+Text or content is a written source that conveys certain information in a certain structure, emotion and voice, and with different methodologies. Each piece of writing can be perceived as better with a specific subject in different aspects. Using different spelling techniques, sentence structures, or using different words makes the two texts on the same subject quite different from each other. It is useful to analyze content and text to see which sentence structure and form of call more helpful to users and search engines. Python and data science are important terms in holistic SEO. Thanks to data processing and Python, SEOs can analyze this kind of information in a shorter time and with less effort.
+Natural language processing, understanding, or natural language generation will be some of the most popular terms and skills in the future of holistic SEO. When we generate text with AI and Trained Data Sets, we can tell machines to write content according to our desires regarding sentiment, sentence structure, or terminology. But for now, in this article, we will use “phrase-based” methodologies for text snippets to analyze sentences, texts, and contents. Instead of AI-based methods, the phrase-based methodology looks for a specific word or phrase in particular content to understand the content’s structure, purpose, writing techniques, and sentiment analysis. In the future, we will also write content and text analysis guidelines using AI-based methodologies through Python Libraries.
+In this article, we will use Advertools, a Python Library for SEO and SEM created by Elias Dabbas, whom
+I admire for his skills.
+Contents of the Article
+show
+1.
+What is the Difference Between Absolute and Weighted Frequency?
+2.
+An Example of Text Analysis with Absolute Keyword Frequency via Python
+3.
+An Example of Text Analysis with Weighted Keyword Frequency via Python
+4.
+Last Thoughts on Word Frequency Calculation Via Python and Its Use Cases for SEO
+What is the Difference Between Absolute and Weighted Frequency?
+The word frequency is defined by how often a word is used in a text. It is a concept closely related to metrics like Keyword Density, search engines like Google, Bing or DuckDuckGo in any way and spam methods such as keyword stuffing.
+The main difference between Absolute and Weighted Frequency concerns how keyword frequency is interpreted. Absolute Keyword Frequency is the ratio of words used to the total number of words in the text. Weighted Word Frequency measures how often a word is used based on another metric in that word’s database. For example, in an e-commerce database, the word that generates the most profits will have a higher frequency, even if used less frequently. Similarly, when you combine two social media posts, the weighted frequency of the words in the posts will differ according to different metrics, likes or comments.
+With this method, an SEO can calculate the “Weighted Frequency” of the words that convert or bring traffic.
+The necessary function for this task from Advertools is “word_frequency()”.
+To learn more about Python SEO, you may read the related guidelines:
+How to resize images in  bulk with Python
+How to perform TF-IDF Analysis with Python
+How to crawl and analyze a Website via Python
+How to test a robots.txt file via Python
+How to Compare and Analyse Robots.txt File via Python
+How to Categorize URL Parameters and Queries via Python?
+How to Perform a Content Structure Analysis via Python and Sitemaps
+An Example of Text Analysis with Absolute Keyword Frequency via Python
+First, we will calculate an “absolute keyword frequency” with a random paragraph.
+import advertools as adv
+import pandas as pd
+pd.set_option(‘display.max_rows’, 85)
+text = “A long paragraph from the life of Turkish Historian, İlber Ortaylı (We didn’t put the paragraph here.”
+adv.word_frequency(text).head(20)
+We have imported the necessary libraries, determined the row count which will be displayed, assigned our text to the “text” variable and calculated the word frequency via the “word_frequency()” method. You may see the result below:
+We have absolute frequencies for our sentences.
+Since İlber Ortaylı is a University professor, we see many words related to education with high frequency. This is also similar to the Term Frequency from the TF-IDF Analysis via Python Guideline. Now, we can also use some functional “attributes” from Advertools for the same purpose, such as “removing the stop words.”
+Stop words are words that do not contribute meaning to the sentence, such as “of,” “a,” “is,” “our,” “you,” “he,” and more. Advertools presents a ready-to-go stopword list for different languages; you may see them via the “adv.stopwords.keys()” method.
+adv.stopwords.keys()
+OUTPUT>>>
+dict_keys(['arabic', 'azerbaijani', 'bengali', 'catalan', 'chinese', 'croatian', 'danish', 'dutch', 'english', 'finnish', 'french', 'german', 'greek', 'hebrew', 'hindi', 'hungarian', 'indonesian', 'irish', 'italian', 'japanese', 'kazakh', 'nepali', 'norwegian', 'persian', 'polish', 'portuguese', 'romanian', 'russian', 'sinhala', 'spanish', 'swedish', 'tagalog', 'tamil', 'tatar', 'telugu', 'thai', 'turkish', 'ukrainian', 'urdu', 'vietnamese'])
+One of the other attributes of the “adv.word_frequency” is “phrase_len,” which determines the symbolic word’s word count in Advertools Word Frequency Calculation. It is one by default, but we will use it before to show the removal of the stop words.
+adv.word_frequency(text, phrase_len=3).head(20)
+Word frequencies with “phrase_len=3” attribute.
+As you may see, we have row entries consisting of three words and some stop words. I should note that, instead of using TF-IDF Analysis, using the Advertools Word Frequency method with the “phrase_len” attribute sometimes may give more hints about the context of the article. Now, we can remove them via the attribute. Let’s compare the results with and without “rm_words.”
+adv.word_frequency(text, phrase_len=1, rm_words=[‘the’,’and’, ‘his’, ‘to’, ‘in’, ‘a’, ‘he’, ‘at’, ‘of’, ‘from’, ‘was’, ‘as’]).head(20)
+We have removed the stop words.
+adv.word_frequency(text, phrase_len=1, rm_words=[]).head(20)
+You may see how stop words change the output.
+The difference is clear. If you compare something which is just “one word”, you shouldn’t include the stop words, but for the longer row entries, keeping stop words may be better. These kinds of Absolute Keyword Frequency calculations may help with TF-IDF Analysis to see the characteristics of standardized content for certain groups of queries and topics. Via Python and Advertools, you may check the SERP Results quickly and create a custom script for checking the top search result’s content character.
+Note: “rm_words” doesn’t protect the context and meaning of the phrase if the “phrase_len” is longer than 1. In this case, you should clean your data from the stop words before implementing the “word_frequency” method.
+After the Absolute Frequency, we can also create an example for the Weighted Frequency Analysis.
+An Example of Text Analysis with Weighted Keyword Frequency via Python
+We can use our GSC Data for an affiliate website since we need a third metric besides the keyword’s usage count for weighted frequency analysis. You may think that you can’t perform a keyword frequency analysis for a data frame, but it is not true. For a third metric, you may calculate the weight of that query or query group.
+queries = pd.read_csv(‘Queries-ex.csv’, index_col=None)
+adv.word_frequency(queries[‘Query’]).head(30)
+We have performed our absolute frequency analysis with our Query column.
+You may see the query frequency in our Google Search Console Data.
+We also see another valuable thing here. We see that 380 queries have the “best” word in them, while “massager”, “massage”, and “chair” have more than 750 occurrences in the column. It simply shows the content strategy of the entire website; we may even guess the meta titles for the contents via all the information here. You may create a harness from the words of “electric”, “massage”, “chair”, “head”, “best” and “machine” words for different search intents.
+Lastly, you may use the same example with the “phrase_len=3” attribute.
+adv.word_frequency(queries[‘Query’], phrase_len=3).head(30)
+You may see the result of the code below:
+In this example, we see some pointless word patterns such as “is the best” or “what is the” and “for home use”. These are the parts of the queries that are longer than three words. However, they still reflect the minor search intents and search demands for SEO. For instance, we see seven queries, including the “for home” phrase, in the search data, showing a valuable purpose for the user. SEO Can analyze more for the same group of queries to optimize the best content marketing methodologies. Also, we all know that the “advertools’ word_frequency” method is not for query grouping, but this method can help you to group queries in a glimpse. If you wonder more about “query classification”, you should read our “How to Classify Queries via Python” guideline, written with the help of JR Oakles’ code lab.
+Lastly, you can see how often two-word queries appear in our data.
+Now, we can perform the same thing with also weighted frequency calculation.
+adv.word_frequency(queries[‘Query’], queries[‘Impressions’], phrase_len=2).head(30)
+The code above gives the weighted word frequency based on impression amount. We will also have some new columns to explain.
+You may see our output better now.
+“wtd_freq” means the weighted frequency of the words, while “rel_value” means the divided result of “wtd_freq” to the “abs_freq”. So, “rel_value” may be a shorter way to think of “frequency efficiency”. We may sort our values according to the “wtd_freq” column.
+weighted_fr = adv.word_frequency(queries[‘Query’], queries[‘Impressions’], phrase_len=2).head(30)
+weighted_fr.sort_values(by=’wtd_freq’, ascending=False)
+You may see the result below:
+We sorted the data frame according to the weighted frequency.
+You also may calculate the query groups’ impression amount per query. We may perform the same thing via click data and observe the change. You may see the result below:
+Weighted Frequency according to the Advertools’ “word_frequency” function.
+By combining different data sets, you may determine the worst query groups for Bounce Rate, Length of Stay, Clicks, Impressions, Entrance Amount, or Exit Amount. For instance, in this comparison, the queries with “foot massager” and “best foot” phrases are not performing well according to their impression amount. Also, you may concatenate different data frames with a weighted frequency calculation data frame to see some connections more efficiently.
+The “word_frequency()” method also has another attribute, such as “regex”, which is being used for splitting words according to the different characters or rules. There is another method that is essential for its efficiency. The “extra_info” attribute determines whether additional info should be given. You may see an example below:
+weighted_fr = adv.word_frequency(queries[‘Query’], queries[‘Clicks’], extra_info=True, phrase_len=2).head(30)
+weighted_fr.sort_values(by=’wtd_freq’, ascending=False)
+You also calculate the Cumulative and Cumulative Percentages thanks to the “extra_info” attribute.
+The added columns are “wtd_freq_perc”, “wtd_freq_perc_cum”, “abs_perc_cum”. “wtd_freq_perc” is weighted frequency percentage, “wtd_freq_perc_cum” is the cumulative weighted frequency percentage and “abs_perc_cum” is cumulative absolute percentage. All of that information can be used for the valuation of SEO Data to see necessary points in a content strategy and its success points and unsuccessful parts. Weighted Word Frequency can also be used for scraped Tweets or other Social Media interaction results. You may calculate the most engaging tweet’s most used features or the most liked tweet’s mutual points within a limited hashtag profile. Also, performing sentiment analysis via this methodology is possible.
+Last Thoughts on Word Frequency Calculation Via Python and Its Use Cases for SEO
+We have performed a simple pair of use cases in this guideline for Word Frequency Calculation. Thanks to countless different methods and libraries, text Processing, mining, sentiment analysis, and more can be done with Python. In this guideline, we solely focused on Advertools’ one method, which is being created and used for word frequency calculation with two different methodologies and multi-structured data frame creation. Exploring the most important phrases for any specific metric, grouping the queries according to their frequency and word count, and relating them with different metrics are valuable positive skills for SEO. Exploring a content’s most used phrases with different word splitting styles, weighting phrases according to their social media engagement rate, exploring content and character of hashtags on a scale, and performing sentiment analysis for competitors and customers are also valuable.
+If you want to learn more about this methodology, I recommend looking at
+Elias Dabbas’ interactive guideline
+for word frequency use cases.
+Our text-processing guidelines via Python will continue to grow. Our “word frequency analysis guideline” has lots of missing points, we will continue to improve it.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision tr
+
+[...truncated...]

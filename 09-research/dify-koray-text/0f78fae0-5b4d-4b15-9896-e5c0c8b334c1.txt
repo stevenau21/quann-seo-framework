@@ -1,0 +1,146 @@
+Skip to content
+Review Rating: 5/5
+Kalicube Pro is the industry’s definitive platform for optimizing brands for inclusion in the Algorithmic Trinity (search, Knowledge Graphs and LLMs), engineered to measure and improve a brand’s Understandability, Credibility and Deliverability in Google and AI.
+I am particularly impressed by its ability to help SEOs improve E.E.A.T. signals (Jason Barnard uses the term N.E.E.A.T.T: Notability, Experience, Expertise, Authoritativeness, Trustworthiness, and Transparency). It provides precise analysis of a brand’s Digital Brand Echo, how it is perceived by AI and provides steps to improve a brand’s performance in AI Assistive Engines like Google, Bing, and ChatGPT, making it the ultimate Generative Engine Optimization platform.
+Kalicube Pro offers an entity-first perspective, analyzing an AI Assistive Engine’s confidence in its understanding of a brand entity—the core factor that drives Knowledge Panel generation and stability. Leveraging over 9.4 billion brand datapoints collected from Google and AI since 2015, the platform makes it simple to improve an entity’sTopical Authority and relevance for key concepts and audience intent.
+The Kalicube ProSaaS Platform uniquely combines data directly from Google’s Knowledge Graph with deep SERP analysis and AI outputs to provide a complete picture of a brand’s position across the entire Algorithmic Trinity(Knowledge Graphs, LLMs and Search), offering a clear roadmap for achieving a positive, accurate, and convincing digital narrative.
+This introduction was updated in August 2025.
+Why might that be important? The answer is simple! Brand prestige management and brand reputation for Search Engine Optimization is an important signal to provide a better organic search position. Thus, Kalicube Pro improves its usefulness by providing the means to manage Knowledge Panels, and optimise Brand SERPs… along with the amazing bonus that it shines a light on otherwise hidden insights to improve your brand’s reputation.
+kalicube Pro is an advanced platform that is most suited to digital agencies wishing to optimise Brand SERPs, manage Knowledge Panels, improve PR, and deal with ORM issues for their clients.
+Contents of the Article
+show
+1.
+How to Use Kalicube Pro for Brand SERP Optimization?
+2.
+Changing Tracking Information
+2.1.
+The Data: Where Can You Find the Brand SERP and Knowledge Panel Tracking in Kalicube Pro?
+2.1.1.
+Easily Visualising an Entity’s Knowledge Panel with Kalicube Pro
+2.1.2.
+How to Check a Brand SERP with Kalicube Pro?
+2.2.
+Tracking the Historical Changes on a Brand SERP
+2.2.1.
+How to Set a Task for Brand SERP Optimization and Knowledge Panel Management?
+2.2.2.
+How to Perform an NLP Entity Analysis for Brand SERP with Kalicube Pro?
+3.
+How to Evaluate the Entity Defining Process with Kalicube Pro
+3.1.
+What is the Terminology of Kalicube Pro for Brand SERP and Knowledge Panel Optimization?
+3.2.
+How to Use Kalicube Pro for Knowledge Panel Management?
+3.2.1.
+Kalicube Pro also interprets the output of the NLP Analysis as below.
+3.2.2.
+The next step is adding the fundamental facts
+3.2.3.
+The next step is Classifying knowledge resources
+4.
+Kalicube Pro Offers Entity Optimisation for Brand SERPs, Knowledge Panels, Entity SEO and Entity Identity
+5.
+Which Insights does Kalicube Pro Provide for Brand SERP and Knowledge Panel Optimization?
+6.
+Analysing a Brand SERP or Knowledge Panel in the Context of its Industry
+6.1.
+Insights of Kalicube Pro with Visuals and Percentages for Entity-oriented Search
+6.1.1.
+Industry Entity Equivalent Brand SERP Data:
+6.1.2.
+Industry Entity Equivalent Knowledge Panel Data:
+6.2.
+Brand SERP Data for the SEO Industry Provided by Kalicube Pro
+6.2.1.
+1. SERP Features Brand SERP Data
+6.3.
+2. Blue Links within Knowledge Panels (KP)
+6.4.
+3. Social Platforms
+6.5.
+4. News Sources for a Person
+6.6.
+5. Sites from Video Boxes for a Person
+6.7.
+6. People Also Ask Sources
+6.8.
+7. Image Sources
+6.9.
+8. Knowledge SERP Features
+6.10.
+9. Subtitles
+6.11.
+10. Trusted Sources
+6.12.
+11. Attributes
+6.13.
+12. Entity Statements
+6.14.
+13. Entities Right Rail
+6.15.
+14. Entities Left Rail
+7.
+How to Check the Named Entity SERP Industry Insights of Kalicube Pro?
+7.1.
+What is the List of Categories for the Entities within Google Knowledge Graph?
+7.2.
+How to Test a Copywriting with the Google’s Perception via Kalicube Pro?
+8.
+The New Foundation: Entity Optimization with Kalicube Pro based on Holistic SEO
+8.1.
+Kalicube Pro: The Definitive Platform for AI-Era Optimization
+8.2.
+Engineering Trust: From Semantic Analysis to Algorithmic Authority
+How to Use Kalicube Pro for Brand SERP Optimization?
+To use the Kalicube Pro, the first step is to create an Entity Group from the graphical user interface. To create an entity group with entity names, types, and entity homes, you can follow the process below. As a first step, you should create an entity group by clicking the Account Home’s Create Entity Group.
+Create entity group to perform Knowledge Panel and Brand SERP Optimization from Kalicube Pro.
+At the second step, choose a name for the Entity Group name.
+At the third step, choose an entity name, entity home, and entity type as below.
+Adding an ENtity to an Entity Group (in this case, SEOs)
+I have chosen “Rand Fishkin” as an example entity to demonstrate an Entity Identity analysis using Kalicube Pro. The entity type of Rand Fishkin is “Person”, and the entity home URL is the URL from Rand Fishkin’s company. Importantly, the Entity Home is somthing Google often imposes, but that we need to ensure we control. So, here, Rand’s Entity Home is Google Books. Using Kalicube we aim to change that to a URL that Rand controls.
+Entity Profile Analysis of Kalicube Pro
+After you press the “Add Entity to Client” button, you will need to choose an Entity Subtitle and Entity qualifier word. If you don’t know the terms for entity-oriented search, Kalicube Pro defines the Entity Subtitle as below.
+Choice of Entity Subtitle and Entity Qualifier Words
+Meaning of “Qualifier” for entity-oriented search from the perspective of Kalicube Pro is shown below.
+Qualifier Word Description
+I have filled the Qualifier and Entity Subtitle sections with “Internet Marketer” and “SEO” values. I know that Rand Fishkin says that he is not an SEO anymore, but actually, he has a SaaS platform for Twitter Search Engine Optimization. In this context, he is not an SEO for Google anymore, but he is an SEO for Twitter. Thus, I used the word “SEO” for him, also since the entity home includes a book with the title of “SEO”, it will be easier the associate him to the SEO.
+Information for Knowledge Panel
+At the next step, there are two more things to be chosen, the “primary domain” and the “audience” of the entity. I have chosen “Sparktoro.com” as the main domain, and “Digital Marketers, SEOs, Influencers” as the main audience.
+The primary domain is used by Kalicube for providing helpful advice about the most efficient ways to manage the Entity Identity in Google. The audience is used by Kalicube to better understand the context of the Entity so that the Kalicube algorithms can provide more appropriate suggestions for building topical relevance for the Entity.
+Primary Domain and Audience Information
+At the bottom section, Kalicube suggested the correct category, which is impressive. I have chosen to accept Kalicube’s suggestion of  “Business / Advertising” as Category for Rand Fishkin.
+Choice of Business Category
+The last step to start the analysis of an entity with Kalicube Pro is entering the main Google references for the Entity. This is vital since Kalicube uses this to ensure it is “reading Google’s mind” accurately.  Information here includes “Knowledge Graph ID (kgmid)”, “Wikipedia Article”, and “Wikidata URL”.
+This information is vital – when this data exists, Google is heavily influenced by it. Kalicube takes this into account when analysing Entity data.
+If you don’t know how to fill in Knowledge Info, Wikipedia Article, and Wikidata URL sections, you can use the Kalicube Pro’s
+Knowledge Graph Explorer
+.
+Kalicube Pro’s Knowledge Graph Explorer
+When I use the Rand Fishkin within the Knowledge Graph Explorer of Kalicube Pro to analyze an entity, I see that there are multiple entities from Google’s Knowledge Graph. There are two Entities that are actually the same person. This is a problem for Rand Fishkin – Google thinks that there are two different Rand Fishkin… but we all know there is only one Rand Fishkin 🙂
+You can click on the handy link provided by Kalicube Pro and check the result. Kalicube’s link uses the “kgmid” parameter value to see the entity’s ID and queries Google to see exactly what it has understood.
+This is the dominant Entity – delivered by Google Books.
+Above we see the Rand Fishkin Entity we would expect. But Google has created a duplicate because Rand appeared in a film. Google thinks there are two distinct Rand Fishkin. Films, music and other entertainment-related entities are very strong and this often throws a curve ball for Google. This is a major problem for any individual who has a near-or-far presence in the entertainments industry.
+We know that this is from a movie-related entity because we have acknowledged the panel as below.
+Deciding the Type of Entity
+Kalicube Pro has already provided stunning insights. Google thinks there are two Rand’s when there is only one. Merging the two Rand Fishkin into one is a job Kalicube Pro does very well, as I know from personal experience.
+This is a nice example of the need for “Entity Reconciliation”. Entity reconciliation is the process of uniting information on the web for the same entity from different sources to recognize the different profiles, and attributes of that specific entity.
+Jason Barnard talks a lot about “Entity deduping”. WHat he means is that when Google sees two entities where it should see only one; it is our responsibility to clarify to Google that they are one and the same and encourage it to merge the two Entities.
+In this context, Rand Fishkin has two “person” entities on Google’s Knowledge Graph, one is “actor”, the other one is “person without an extra qualifier”. There are different hierarchies in the entity types, an entity can be a person, but the occupation can be “Consultant”. Thus, in the Knowledge Panel of Rand Fishkin as just a person, we don’t have a subtitle, because he has books that can define him as an author, but also he is an entrepreneur, marketer, and influencer at the same time. If the search engine isn’t confident enough to give the entity a character, it won’t show an entity subtitle, and this lack of confidence to define the entity’s type will affect the shape of the SERP. When the Entity subtitle is clear for Google, for example “actor”, it will show a “video carousel”… but in this case, that is not the aim.
+The non-actor Rand Fishkin is seen by Google as an entrepreneur, or business person and that means it can increase his prominence for certain types of industries, and groups of queries. In particular in the context of Sparktoro – below, you will see the SERP of Sparktoro for its brand name. Given his topical relevancy, Rand logically appears.
+After analyzing Rand Fishkin’s possible gains from the Knowledge Panel Management in terms of SEO, we can continue to add Rand Fishkin to our Entity Group from Kalicube Pro, for regular analysis.
+Filling Out Entity Group from Kalicube Pro
+We have added the correct Knowledge Info or entity ID to the Kalicube Pro’s entity submission panel. And, we couldn’t add the Wikipedia Article, or Wikidata URL, because Rand Fishkin doesn’t exist in there. I guess it is because, Rand, doesn’t like Wikipedia, or Wiki-related platforms so much due to the misinformation on these platforms.
+Lastly, we will need to choose the locations to track the knowledge panel of Rand Fishkin (Kalicube Pro allows five locations: multiple towns in one country or multiple towns in multiple countries).
+This is because according to the language of the query, browser, or the local domain extension of Google, the knowledge panel can change because Google Knowledge Graph provides for the same entity in different languages with different contexts.
+To give an example of language-dependent entity identity changes, you can check “Koray Tuğberk GÜBÜR” from English and Turkish queries as below.
+If you search “Koray Tugberk GUBUR” with only English characters, you will see the knowledge panel below.
+Koray Tuğberk Gübür Knowledge Panel in English Char. Only
+And, I can tell that I even didn’t like the situation that “Pinterest of mine” appears there, but the search engine was able to pick that out because my Pinterest account only has things related to SEO and Python, also it has my own image. Thus, the search engine is confident enough. And, since at the “entity home” section we have the Linkedin, Search Engine has given my knowledge panel more source breadth and information angle. Below, you will see the knowledge panel result, only for the Turkish version of “Koray Tugberk GUBUR” which is “Koray Tuğberk GÜBÜR”.
+Knowledge Panel of Koray Tuğberk Gübür in Turkish Char.
+It has less information and dimension. But, as you can see, still the result is English, so still it can provide more information. Let’s use the Turkish version of my name for an entity search from Turkey.
+Entity Search for Koray Tuğberk Gübür from Turkey
+Now, we have way much less information, and every dimension and subtitle is Turkish. Let’s use my name’s English written version from a Turkey-based search to see how the knowledge panel changes.
+Turkey Based Knowledge Panel of Koray Tuğberk Gübür with English Char. Only
+We also have “Holistic SEO & Digital” as the “related entity” within the knowledge panel side because my agency is more related to my name’s English version, and also it is located in Turkey. Thus, language and location detection to understand the query and the need behind the query are way much more effective than most SEO 
+
+[...truncated...]

@@ -1,0 +1,141 @@
+What is Speed Index? Speed Index Optimization - Holistic SEO
+Skip to content
+Speed Index is a web page load performance metric that shows how quickly elements of a web page become visible. Speed Index (SI) is measured only on the visible portion of the screen. The visible part of the screen, above the head section, affects the Speed Index score with visual progress and visual completeness speed of web page contents. Different viewport sizes will produce different Speed Index scores. Speed Index has been introduced by Webpagetest in 2012. And, for the importance of Speed Index along with its measurement and optimization methodologies, lots of different approaches exist. Speed Index is also related to the “
+Perception of Page Speed
+” along with the “
+Actual Page Speed
+“.
+An improved speed index score means that a website communicates visually faster with the user and gives the user a faster opportunity to achieve the purpose of the visit. Speed Index is not a web page load performance measure in Core Web Vitals. However, Speed Index is one of the important indicators showing how efficiently a web page is loaded for the user.
+Therefore, there is an important link between
+Search Intent
+and Speed Index. If a user’s Search Intent “requires a fast action”, the importance of the Speed Index will increase even more for both UX and SEO.
+Visualization of Speed Index Measurement. Speed Index measurement is based on visual completeness progress.
+Contents of the Article
+show
+1.
+Which Web Page Loading Performance Metrics Are Related to the Speed Index?
+2.
+Why is Speed Index Important for SEO and UX?
+3.
+What is the Relationship Between Speed Index and Navigation Timing API?
+4.
+Who Improved the Speed Index Term and Measurement Method?
+5.
+How is Speed Index Measured?
+5.1.
+Visual Completeness Curve in the Plot-line For Calculating the Speed Index
+5.2.
+Why Doesn’t Pixel Matching Work for Visual Progress Measuring?
+5.3.
+How Does Color-Comparison Between Frames Help for Speed Index Measurement?
+5.3.1.
+What is the Problem of Color Comparison Method in Speed Index Measurement?
+5.4.
+How Does Paint Events Help for Measuring Speed Index?
+6.
+How Does Lighthouse Measure Speed Index?
+6.1.
+What is the Good Score for Speed Index according to the Lighthouse?
+7.
+How to Optimize Speed Index for a Web Site?
+7.1.
+1. Using Lazyload for Deferring Off-screen Images to Improve Speed Index
+7.2.
+2. Adding Placeholders for Images to Improve Speed Index
+7.3.
+3. Using Progressive Image Extensions to Improve Speed Index
+7.4.
+4. Cleaning Unused Codes from the Web Pages to Improve Speed Index
+7.5.
+5. Compressing and Minfying the Javascript and CSS Files to Improve Speed Index
+7.6.
+6. Reducing the Request Size by Bundling CSS and JavaScript Files to Improve Speed Index
+7.7.
+7. Creating a Cache Hierarchy and Strategy for Web Pages to Improve Speed Index
+7.8.
+8. Optimizing the Image Files to Improve Speed Index
+7.9.
+9. Deferring the Third-party Javascript Trackers to Improve Speed Index
+7.10.
+10. Optimizing the Fonts to Improve Speed Index
+7.11.
+11. Refactoring the Javascript and CSS Files to Improve Speed Index
+7.12.
+12. Improving the Server Infrastructure to Improve Speed Index
+7.13.
+13. Using CDN to Improve Speed Index
+7.14.
+14. Preloading the Key Requests to Improve Speed Index
+7.15.
+15. Using Server-side Rendering to Improve Speed Index
+7.16.
+16. Using Pre-rendering to Improve Speed Index
+7.17.
+17. Using Brotli, Gzip or Deflate for Server-side Compressing of Files to Improve Speed Index
+7.18.
+18. Using Shadow DOM to Improve Speed Index
+7.19.
+19. Using Virtual DOM to Improve Speed Index
+7.20.
+20. Decreasing the DOM Size to Improve Speed Index
+7.21.
+21. Use Content-visibility: Auto for Delaying the Off-page Element’s Rendering
+8.
+Last Thoughts on Speed Index and Holistic SEO
+Which Web Page Loading Performance Metrics Are Related to the Speed Index?
+All web page loading performance metrics are linked. While a website has a bad Time to First Byte, it cannot have a good Speed ​​Index. Or if a website has a good
+Largest Contentful Paint
+, the Speed ​​Index Score is likely to be good too. All web page performance metrics affect each other. Therefore, when considering Core Web Vitals and other web page performance metrics, the link between them must be known. The metrics most relevant to Speed ​​Index are
+First Contentful Paint
+, Largest Contentful Paint, as Speed ​​Index is measured directly in the field in the “viewport”. Other than that, the most relevant metric for the other Speed ​​Index is Time to First Byte. It is impossible for the top of a web page to have a fast image completion speed if your server is handling every request slowly.
+Web Page Performance Metrics related to Speed ​​Index are listed below for reasons.
+First Paint
+First Contentful Paint
+Largest Contentful Paint
+Time to First Byte
+First Paint (FP), First Contentful Paint (FCP), and Largest Contentful Paint (LCP) are directly related to the Speed ​​Index because they are being calculated within the Speed ​​Index (SI)’s measurement as “frames” or “paint events”.
+First Paint
+means the first paint event of a web page with the first pixel painted, while First Contentful Paint means the first “meaningful painting”. They are intertwined with the Speed ​​Index concept as both affect the visual completion of the content at the top of the page.
+Speed Index Representation Visualization
+Time to First Byte should be taken into account in the Speed ​​Index Score calculation as it directly affects the loading speed of all resources to be used in the Speed ​​Index Score calculation as Paint Event and “Video Frames”.
+Web Page Performance Metrics that are not directly related to the Speed Index is listed below.
+Total Blocking Time
+First Input Delay
+First Idle Time
+Total Blocking Time
+(TBT),
+First Input Delay
+(FID), First Idle (FI) web page loading performance metrics more related to user-experience and “load-responsiveness”. Since Speed ​​Index is related to “perceptional speed”, it is not in the same category as “TBT, FID and FI” times.
+Why is Speed Index Important for SEO and UX?
+Speed Index is about looking at the loading event of a web page through the eyes of the user rather than handling a web page only with browser events. For this reason, it is one of the straightforward user-centric performance metrics of the Speed Index. User-centric Page Speed or web page loading performance metrics are metrics used to directly understand the user’s experience of web page loading.
+SEO and User Experience are concepts that are directly related to each other. When a web page that offers a bad user experience is seen by the Search Engine because it fails to match Search Intent, it will be dropped in rankings. For this reason, a good Speed Index Score indicates better and faster communication with the user visually. A better User Experience is necessary for a better Search Engine Optimization Performance.
+Another Example of Visual Representation of Speed Index. Site A in this example, has a better Visual Completeness Progress.
+What is the Relationship Between Speed Index and Navigation Timing API?
+Navigation Timing API is an application that has been used to measure the speed and performance of a website for a long time. Navigation Timing API offers more consistent metrics than most Javascript-based tools.
+Navigation Timing API is an application that works with “Real-world Data” ie “Real User Metrics (RUM)”. For this reason, it is more valuable than tools that measure web page loading speed with “Lab Data”. Navigation Timing API uses different elements such as “window.performance”, “window.performance.timing”, “window.performance.timing.navigationStart”. Although “Window.performance” is an element used by the High-Resolution Time API, “Navigation Timing API” has added two separate elements such as “timing” and “navigation”, allowing difficult-to-measure website speed metrics to be measured with real user data.
+Navigation Timing API works with XMLHttpRequest in the user’s browser, transmitting the user’s experience to the server.
+So, what is the relationship between Speed Index and Navigation Timing API? Navigation Timing API cannot measure “visual completion and visual completion speed” in any way. It only indicates that certain web page loading events are completed at a certain time. However, it cannot show the visual function of a “web page performance measurement event” completed in the 3rd second on the web page.
+The Page Load Cycle Example. Image Source: W3C.
+In this context, the Speed Index is a resource that complements the lack of Navigation Timing API’s visual load time measurement point. Speed Index is also at the point of “perceptional web page loading timing” and is at an important point in SEO, UX, and Web Development. To measure the Speed Index, the “Speedline Node.js Module” has been started to use by developers so that Speed Index Measurement can be performed.
+Who Improved the Speed Index Term and Measurement Method?
+Webpagetest.org found the Speed Index Web Page Loading Performance Metric. Webpagetest.org believes that each web page velocity metric only measures a single point, so it will only represent a value if taken together. Since Speed Index measures the visual completion speed of the content in the above fold section, it refers to the combination of many speed metrics. According to Webpagetest.org, Speed Index is a web page speed measurement metric that shows how the “onload” event on two separate web pages has different values for the user’s page loading experience.
+How is Speed Index Measured?
+While the Speed Index is measured, the content in the visible part of a web page’s screen is recorded in frames 10 times every 1 second during the page loading. The difference between each record taken while loading the page, that is, the differences between frames, is looked at the point of the content loading speed in perception.
+The “complete” ratio is calculated as a percentage by comparing the difference between each frame recorded while the page is loading and the last frame taken after the web page is loaded. The Complete Ratio for the different frames is also an indicator of the Speed Index Score.
+Visualization of Speed Index Measurement with Visual Comleteness Curve.
+While measuring the Speed Index Score, Visual Completeness is shown in a line-plot throughout the load time. Visual Completeness Percentage is processed and placed on the graph by looking at the differences between the frames recorded for each moment during the web page loading. Visual Completeness Rate is in Y-Axis, Load Time is in X-Axis. At this point, when two separate websites are compared, the speed of Visual Completeness is found, and Visual Completeness Speed is the Speed Index.
+Visual Completeness Curve in the Plot-line For Calculating the Speed Index
+For Speed Index Measurement, the area below and above the Visual Completeness line can also be calculated. The curve in the graph, the area below and above the Visual Completeness Ratio, can give the Speed Index Score. To measure the Speed Index Score, the area above the Visual Completeness Curve should be taken as a basis. The reason for this is that a web page can continue to consistently complete its content within the above the fold section. A website that achieves as much Visual Completeness as possible for 10 seconds by pushing a splash screen or uploaded content down can achieve a level of Speed Index Score that normally shouldn’t be.
+Visually Complete Progress Calculation Curve, Below the Line Methodology
+Looking at the top of the Visual Completeness Curve, you can see the area where “Visual Completeness” has not been achieved. The area that is not visually completed will show the Speed Index Score more accurately. Thus, the fact that a website spins for 10 seconds and loads its content at once will prevent it from obtaining a more Speed Index Score.
+Why Doesn’t Pixel Matching Work for Visual Progress Measuring?
+Pixel Matching is a solution for visual completeness progress measurement. The similarity ratio is extracted by comparing the pixels between two separate frames. With the ratio of the matching pixels from the two different frames, the visual completeness progress’ speed is assumed to be fast or slow. However, Pixel Matching is not sufficient for Speed Index measurement. Just changing the position of a web page element by 1 pixel by pushing other web page elements up, down or right, or left means that all the remaining pixels also change.
+Even in the simplest layout changes, changing the values of all pixels between two frames will bring the Speed Index measurement to 100% Visual Progress in any case. Because Pixel-comparison and Pixel-matching methods do not work, the “color-comparison” method has been applied in Speed Index measurement.
+Visually Complete Progress Calculation Curve, Above the Line Methodology
+How Does Color-Comparison Between Frames Help for Speed Index Measurement?
+With the color-comparison method, the first frame and the last frame during the loading of the content in the above the fold section of a web page are accepted as the base comparison point. By comparing the colors in the first frame and the colors in the last frame, the Speed Index Score is calculated by looking at which one of the frames in between is more similar to which base point.
+What is the Problem of Color Comparison Method in Speed Index Measurement?
+In Speed Index measurement, there are some problems with the Color-comparison method. For example, when an animation or video background is used in the above the fold section, there is a situation where the colors change continuously. For this reason, the Color-comparison method can actually interpret a web page element that has already been loaded and communicated with the user as an element of the web page that changes as it is loaded.
+When video or animation is used, the Speed Index measurement is based on the last frame of the video or animation
+
+[...truncated...]

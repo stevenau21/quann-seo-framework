@@ -1,0 +1,99 @@
+Bounce Rate: Definition, Importance and Analyzing for Marketing - Holistic SEO
+Skip to content
+The bounce rate is a key figure in web analysis. It refers to the visitors who leave a website from the entry page and do not open another web page. This distinguishes it from the dropout rate, which always refers to an entire website session and thereby to the last page of this visit.
+Contents of the Article
+show
+1.
+Bounce Rate as a Relevance Indicator
+2.
+Possible Causes of High Bounce Rate
+3.
+What does the bounce rate say?
+4.
+How to Analyze and Evaluate Bounce Rate
+5.
+Example of bounce rate by traffic source:
+6.
+Difference between Bounce Rate and Exit Rate
+Bounce Rate as a Relevance Indicator
+The bounce rate can be a signal for the quality of a website. A high bounce rate would therefore mean poor quality, e.g. because the content does not correspond to what the user expects, a low bounce rate for high quality, since the user appears to be interested in further content. However, the emphasis is on “can”, because low or high values alone do not allow a clear statement about the bounce rate. Only aspects such as the type of website and the consideration of the value depending on other factors within the web analysis enable clear statements to be made as to whether the pages are relevant to the user.
+Before thinking Bounce Rate as a ranking factor for a Search Engine, SEO should understand the user’s search intent and user’s behavior on the web page. A high bounce rate can also signify high satisfaction during the visit. For instance, if the user can understand and acquire the search and visit intent in 20 seconds, they can exit from the web site via entry web page, and it is not necessarily a bad user experience.
+Related Articles for User Behavior Metrics and Experience:
+What is Click Path for Users
+Conversion Funnel for Better Conversion Rate
+Above the Fold and Page Layout
+What is Mobile-first Design
+What is Usability for Users
+Possible Causes of High Bounce Rate
+There are lots of possible reasons for High Bounce Rate, you may find some of them below:
+High charging time
+A lot of advertising
+Difficult navigation
+Irrelevant content
+Ads / keywords do not match page content
+Interaction is not possible due to technical errors
+Browser Compatibility Issues
+Lacking Web Accessibility for disabled users
+Bad Page Layout
+Security issues and warnings
+Bad Reputation
+Non-responsive Design
+Slow Page Speed
+Poor quality or incomprehensible content
+In this case, changes to the landing page, the ad text, or the keywords are necessary. But it is also possible that a high bounce rate is caused by factors that you cannot influence, for example:
+There is only one page (single landing page). In this case, you would have to resort to other web analysis options to check the user experience, e.g. Events or the length of stay.
+Special user behavior, e.g. by always accessing the page via a bookmark or accessing blog posts via RSS feed, Twitter, or Facebook. In this case, he often leaves the website after the start page.
+The reason for a high bounce rate can also be an incorrectly implemented tracking code.
+You can read our “
+Reasons for High Bounce Rate
+” article to learn more about what you can do for better user experience.
+What does the bounce rate say?
+“How high can the bounce rate be?” “What is a bad bounce rate?” These are the most common questions that website owners ask about the bounce rate. However, precise answers cannot be provided, because whether a bounce rate is good or bad depends on the page type, as with the length of stay.
+A site focused on the communication of information, e.g. a blog usually has a higher bounce rate than an online shop, in which the user usually looks around in several categories and “browses” between products. Perhaps a user will find your blog post via search engines, read it completely, find exactly the information he was looking for, and therefore leave the page again – although this causes a high bounce rate, it still speaks for the page.
+Because of these complex reasons, you always need to think according to your industry and target market along with page type and user persona to determine a safe bounce rate for your web entity.
+How to Analyze and Evaluate Bounce Rate
+The bounce rate is calculated as follows: Visits to a website with a single page view are compared by all page visitors in terms of ratio. For example, if you have a bounce rate of 65 percent, it means that 65 percent of all visitors have left the website after visiting a single page.
+To be able to better estimate this value, you can use the benchmark comparison in Analytics under the Target group. Your page is automatically assigned to an industry according to your website content, but you can also make a different assignment from the industry selection. Further restrictions such as according to traffic volume are also possible in order to obtain relatively reliable values ​​for the comparison.
+You can display the bounce rate from different points of view in Google Analytics, e.g. with regard to the traffic source (Aquisition> All Traffic> Channels) or the most important landing pages (Behavior> Website content> Landing pages).
+Example of bounce rate by traffic source:
+An Example of Google Analytics > Audience > Benchmarking by Traffic Source. The green colors show the values are better for this property from the benchmark. You can check also your industry’s bounce rate with your bounce rate values for different traffic sources.
+Taken separately, the bounce rate doesn’t say much. You need to get to the root of the cause or exclude certain causes to find the problem for the high bounce rate (if the high value is a problem at all). An evaluation is e.g. possible depending on other values of the web analysis tool, e.g. depending on the screen resolution. A high bounce rate could be due to the fact that call-to-action elements are no longer visible at a low screen resolution.
+Also, you should examine your bounce rate separately for different devices, query groups, and web page categories. Different screen resolutions, browsers, or locations can have different usage conditions along with users who can have different personas and visit intents according to their queries. To optimize your web page for the users, a Holistic SEO always should think carefully in terms of browser, device, user persona, and location, and time of the day variations.
+Difference between Bounce Rate and Exit Rate
+The bounce rate is often confused with the exit rate, so to speak “bounce” corresponds to “exit”. However, both values are completely different key figures. If a user clicks on another page of the website and then leaves it, it is not a jump, but an exit. The exit rate always refers to the last page from which a visitor jumps if he has visited more than one page.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+UX
+What is the Bounce Rate?
+by Koray Tuğberk GÜBÜR
+time to read: 4 min
+UX
+What is Click Path? How to Use it to Analyze User …
+UX
+What are Below the Fold and Above the Fold?
+0
+0
+0

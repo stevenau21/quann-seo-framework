@@ -1,0 +1,112 @@
+HTML <datalist> Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <datalist> HTML Tag is used in HTML files to enable autocomplete functionality. It can be used in conjunction with an input tag to allow users to easily fill out forms using select data. The <datalist> HTML Tag is part of the Forms and Input HTML category in HTML Element Reference. The attributes of the <datalist> HTML Tag are global and event attributes.
+<datalist> code block example to learn how it works is given below.
+<input name="" list="myId">
+<datalist id="myId">
+<option value="">
+<option value="">
+</datalist>
+The second example usage of the “<datalist>” code block example is given below.
+<label>
+What's your favorite Smartphone Apps?
+<input name="favSmartphoneApps" list="characters" maxlength="50">
+<datalist id="Apps">
+<option value="Facebook">
+<option value="Instagram">
+<option value="Twitter">
+<option value="Whatsapp">
+<option value="Tiktok">
+</datalist>
+</label
+Contents of the Article
+show
+1.
+What is <datalist> HTML Tag?
+2.
+How to Use <datalist> HTML Tag?
+2.1.
+Example Usage of <datalist> HTML Tag?
+3.
+What are the Attributes of <datalist> HTML Tag?
+4.
+What is the Default CSS Setting for <datalist> HTML Tag?
+5.
+What are the Related other HTML Tags to <datalist>?
+What is <datalist> HTML Tag?
+The <datalist> HTML Tag denotes a collection of predefined options for an <input> HTML Tag. The <datalist> HTML Tag is used to enable “autocomplete” for <input> HTML Tag. As users enter data, they will see a drop-down list of predefined options. The id attribute of the <datalist> HTML Tag must match the list attribute of the <input> HTML Tag, which binds them together.
+How to Use <datalist> HTML Tag?
+To use <datalist> HTML Tag, the web developer should create <datalist id=””></datalist> with any number of <option> tags between the start and end tags. The id attribute specifies the <datalist> HTML Tag’s unique identifier. This ID can be used to refer to an input element with a list attribute. The list attribute refers to the value of the id attribute on the <datalist> HTML Tag.
+Example Usage of <datalist> HTML Tag?
+The following example of usage of <datalist> HTML Tag is given below.
+<label>
+Which country do you want to visit?
+<input name="visitCountry" list="characters" maxlength="50">
+<datalist id="Country">
+<option value="Japan">
+<option value="Canada">
+<option value="France">
+<option value="USA">
+<option value="Australia">
+</datalist>
+</label>
+What are the Attributes of <datalist> HTML Tag?
+There are multiple attributes for the <datalist> HTML Tag. The following attributes are listed below.
+Global Attributes: The <datalist> HTML Tag supports global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <datalist> HTML Tag supports event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <datalist> HTML Tag?
+The following is the Default CSS Setting for the <datalist> HTML Tag.
+label {
+font-family: "Fira Sans", sans-serif;
+}
+What are the Related other HTML Tags to <datalist>?
+The other related HTML Tags to <datalist> HTML Tag are listed below.
+<option> HTML Tag: The <option> HTML Tag is related to <datalist> HTML Tag because they are both forms and input tags. The <option> HTML Tag defines the select element’s options.
+<label> HTML Tag: The
+<label>
+HTML Tag is related to <datalist> HTML Tag because they are both forms and input tags. The <label> HTML Tag is used to specify labels for input elements.
+<legend> HTML Tag: The
+<legend>
+HTML Tag is related to <datalist> HTML Tag because they are both forms and input tags. The caption for the fieldset element is defined using the <legend> HTML Tag.
+<fieldset> HTML Tag: The
+<fieldset>
+HTML Tag is related to <datalist> HTML Tag because they are both forms and input tags. The <fieldset> HTML Tag defines a group of related elements in a form.
+<output> HTML Tag: The <output> HTML Tag is related to <datalist> HTML Tag because they are both forms and input tags. The <output> HTML Tag denotes the outcome of a calculation.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <datalist> Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <fieldset> Definition, Usage and Exampl…
+TechSEO
+HTML <button> Definition, Usage and Examples…
+0
+0
+0

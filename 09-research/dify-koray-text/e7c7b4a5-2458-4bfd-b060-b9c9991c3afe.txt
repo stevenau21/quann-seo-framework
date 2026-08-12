@@ -1,0 +1,92 @@
+Skip to content
+The <s> HTML Tag inserts a strikethrough, or a line, into text. The <s> HTML Tag is used to indicate information that is no longer relevant or accurate. Even so, <s> HTML Tag should not be used to indicate document edits, instead, the <del> HTML Tag and <ins> HTML Tag should be used. The <s> HTML Tag is part of the formatting HTML tags category in HTML Element Reference. The attributes of the <s> HTML Tag are global attributes and event attributes.
+<s> code block example to learn how it works is given below.
+<s>Irrelevant/inaccurate text</s>
+The second example usage of the “<s>” code block example is given below.
+<p>Hawaiian pizza from just <s>₱399</s> ₱299!</p>
+Contents of the Article
+show
+1.
+What is <s> HTML Tag?
+2.
+How to Use <s> HTML Tag?
+2.1.
+Example Usage of <s> HTML Tag?
+3.
+What are the Attributes of <s> HTML Tag?
+4.
+What is the Default CSS Setting for <s> HTML Tag?
+5.
+What are the Related other HTML Tags to <s>?
+What is <s> HTML Tag?
+The <s> HTML Tag is used to indicate text that is no longer accurate, correct, or relevant. A line will be drawn through the text. The <s> HTML Tag should never be used to indicate deleted text in a document; instead, use the <del> HTML Tag. It is necessary for web developers to easily assess that the text is already inaccurate.
+How to Use <s> HTML Tag?
+To use <s> HTML Tag, the web developer should insert irrelevant or inaccurate text between <s> HTML Tag and </s> HTML Tag then this tag will create a line through the text.
+Example Usage of <s> HTML Tag?
+The following example of usage of <s> HTML Tag is given below.
+<p><s>There will be a few reservations available at the bella hotel this weekend.</s></p>
+<p>Fully Booked!</p>
+What are the Attributes of <s> HTML Tag?
+There are multiple attributes for the <s> HTML Tag. The following attributes are listed below.
+Global Attributes: The <link> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <link> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <s> HTML Tag?
+The following is the Default CSS Setting for the <s> HTML Tag.
+s {
+text-decoration: line-through;
+}
+What are the Related other HTML Tags to <s>?
+The other related HTML Tags to <s> HTML Tag are listed below.
+<ins> HTML Tag: The
+<ins>
+HTML Tag is related to <s> HTML Tag because they are both in formatting HTML Tags. The <ins> HTML Tag is used to describe text that was added.
+<del> HTML Tag: The
+<del>
+HTML Tag is related to <s> HTML Tag because they are both in formatting HTML Tags. The <del> HTML Tag specifies the text that has been deleted from the document.
+<samp> HTML Tag: The
+<samp>
+HTML Tag is related to <s> HTML Tag because they are both in formatting HTML Tags. The <samp> HTML Tag is used to specify a sample of a computer program’s output.
+<small> HTML Tag: The
+<small>
+HTML Tag is related to <s> HTML Tag because they are both in formatting HTML Tags. The <small> HTML Tag is used to define text that is smaller in size.
+<strike> HTML Tag: The
+<strike>
+HTML Tag is related to <s> HTML Tag because they are both in formatting HTML Tags. HTML strike-through text is defined using the <strike> HTML Tag.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <s> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <samp> Tag Definition, Usage and Exampl…
+TechSEO
+HTML <small> Tag Definition, Usage and Examp…
+0
+0
+0

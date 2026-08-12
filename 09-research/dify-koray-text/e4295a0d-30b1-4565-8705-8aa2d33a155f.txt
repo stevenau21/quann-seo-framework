@@ -1,0 +1,99 @@
+HTML <wbr> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <wbr> HTML Tag defines a point inside content in which the browser may automatically separate a line if it is required to do so. The <wbr> HTML Tag can be utilized on exceedingly long phrases or other long sequences of text that do not contain any spaces in between them. It is possible that long lines of text will either wrap in an inconvenient position making it challenging to read, or will not wrap at all-mistakenly shifting the page layout out to the side once more, making it difficult to see and interpret the material as intended. The <wbr> HTML Tag is part of the Formatting HTML category in HTML Element Reference. The attributes of the <wbr> HTML Tag are global and event attributes.
+<wbr> code block example to learn how it works is given below.
+<wbr>.....</wbr>
+The second example usage of the “<wbr>”code block example is given below.
+<p>A lung disease induced by the inhalation of extremely small silicate or quartz dust particles is called <i>Pneu<wbr>mono<wbr>ultra<wbr>micro<wbr>scopic<wbr>silico<wbr>volcano<wbr>coniosis</i></p>
+Pneumonoultramicroscopicsilicovolcanoconiosis
+Contents of the Article
+show
+1.
+What is <wbr> HTML Tag?
+2.
+How to Use <wbr> HTML Tag?
+2.1.
+Example Usage of <wbr> HTML Tag?
+3.
+What are the Attributes of <wbr> HTML Tag?
+4.
+What are the Default CSS Settings for <wbr> HTML Tag?
+5.
+What are the Related other HTML Tags to <wbr>?
+What is <wbr> HTML Tag?
+The <wbr> HTML Tag is utilized to indicate the presence of a line break possibility inside an HTML document. Users will have to scroll to the right in order to read a lengthy word or phrase if the <wbr> HTML ag is not present. It is possible for a single long word to wrap or not wrap at all if the <wbr> HTML Tag is not present, which causes problems with the page’s layout. Without <wbr> tag, users will have to scroll right to read a long complete word or sentence. The <wbr> HTML Tag is a new addition to HTML 5.
+How to Use <wbr> HTML Tag?
+To use the <wbr> HTML Tag, the web developer should write <wbr> with no end tag inside the <i> HTML Tag to break a long word or line so that readers will not have to scroll to the right in order to read the lengthy word. The tex inside the <i> and <wbr> HTML Tag should result in line break and in italic form.
+Example Usage of <wbr> HTML Tag?
+The following examples of usage of <wbr> HTML Tag are given below.
+<p>A longest forms of literature in the dictionary, and it is also the term for a dream of lengthy sentences is called <i>Hippo<wbr>poto<wbr>mons<wbr>troses<wbr>quippedalio<wbr>phobia</i></p>
+Hippopotomonstrosesquippedaliophobia
+<p>A term you can use when you have nothing to say is called <i>Super<wbr>cali<wbr>fragi<wbr>listic<wbr>expialido<wbr>cious</i></p>
+Supercalifragilisticexpialidocious
+What are the Attributes of <wbr> HTML Tag?
+There are multiple attributes for the <wbr> HTML Tag. The following attributes are listed below.
+Global Attributes: The <wbr> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <wbr> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <wbr> HTML Tag?
+The following are the Default CSS Settings for the <wbr> HTML Tag.
+.output {
+background-color: gray;
+}
+#example-paragraphs {
+background-color: white;
+overflow: hidden;
+resize: horizontal;
+width: 9rem;
+}
+What are the Related other HTML Tags to <wbr>?
+The other related HTML Tags to the <wbr> HTML Tag are listed below.
+<bdi> HTML Tag: The
+<bdi>
+HTML Tag and <wbr> HTML Tag are related because they are both formatting HTML Tags.The <bdi> HTML Tag separates a section of text from the rest so that it can be formatted differently.
+<s> HTML Tag: The
+<s>
+HTML Tag and <wbr> HTML Tag are related because they are both formatting HTML Tag. The <s> HTML Tags specifies erroneous or outdated information
+<template> HTML Tag: The
+<template>
+HTML Tag and <wbr> HTML Tag are related because they are both formatting HTML Tags. The <template> HTML Tag specifies that when the page loads, the container defines what content should be hidden.
+<samp> HTML Tag: The
+<samp>
+HTML Tag and <wbr> HTML Tag are related because they are both formatting HTML Tags. The <samp> HTML Tag defines  a computer program’s sample output.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <wbr> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <var> Tag Definition, Usage and Example…
+TechSEO
+HTML <time> Tag Definition, Usage and Exampl…
+0
+0
+0

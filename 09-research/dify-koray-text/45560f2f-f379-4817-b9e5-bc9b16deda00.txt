@@ -1,0 +1,127 @@
+User-Agent HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The User-Agent HTTP Header is a request header that contains a string identifying the operating system and browser used by the web server. The User-Agent HTTP Header contains the User-Agent string. The User-Agent request header is a unique string that enables servers and network peers to identify the requesting user agent’s application, operating system, vendor, and/or version. The User-Agent HTTP Header has multiple values. The <product version>, and comment> <are all required>. The syntax value of the User-Agent HTTP header is used to identify the application, operating system, vendor, and version of the request user agent. The example of the User-Agent HTTP Header is shown below.
+User-Agent: Mozilla/5.0 (<system-information>) <platform> (<platform-details>) <extensions>
+The User-Agent HTTP Header Request Header is seen above. In the article, the User-Agent HTTP Header Syntax, Directives, and Uses with examples will be processed.
+Contents of the Article
+show
+1.
+What is the User-Agent HTTP Header?
+1.1.
+What is the Syntax of User-Agent HTTP Header?
+1.2.
+What is the Directive of User-Agent HTTP Header?
+2.
+How to use User-Agent HTTP Header?
+2.1.
+Examples of User-Agent Use
+3.
+What is the Specification Document for User-Agent HTTP Header?
+4.
+What is the type of User-Agent HTTP Header?
+4.1.
+What are the similar HTTP Headers to the User-Agent HTTP Header?
+5.
+Which Browsers Support User-Agent HTTP Header?
+What is the User-Agent HTTP Header?
+The User-Agent HTTP Header is a header that contains a string that tells the web server what kind of operating system and browser it is. Use the User-Agent Request Header to tell servers and other network users what kind of software, operating system, vendor, or version of software you’re using. The purpose of the User-Agent HTTP Header is to create an access log with all the requests to the server.
+What is the Syntax of User-Agent HTTP Header?
+The User-Agent HTTP Header contains three parts in its syntax. The syntax for using the User-Agent HTTP Header is written below.
+User-Agent: <product> / <product-version> <comment>
+What is the Directive of User-Agent HTTP Header?
+There are multiple directives that can be put in the User-Agent HTTP Header. The directives for using the User-Agent HTTP Header are given below.
+<product>
+Unique identification for the product, such as its name or development codename.
+<product-version>
+The product’s version number can be found here.
+<comment>
+There are zero or more comments that contain further information. For example, information about sub-products.
+How to use User-Agent HTTP Header?
+The User-Agent HTTP Header is used to identify the web-operating server’s system and browser, and it is used to allow network protocol peers to identify the web server. Every website a user visits receives the User-Agent HTTP Header, which is sent by the browser. A user agent string is not written in a standardized manner because different web browsers use different formats, and many web browsers load a large amount of information onto their user agents. The User-Agent HTTP Header field is included in the HTTP header for the website when user browser establishes a connection with a website. The information contained in the header area differs from browser to browser. The information is used to serve different websites to different web browsers and operating systems based on the information gathered from them.
+Examples of User-Agent Use
+The User-Agent HTTP Header has different examples using different web browsers. An example of the use of the User-Agent HTTP Header is given below.
+Firefox UA string
+Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion
+Chrome UA string
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Opera UA string
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41
+Microsoft Edge UA string
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
+Safari UA string
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 Safari/604.1
+Internet Explorer UA string
+Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)
+Crawler and bot UA strings
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+Library and net tool UA strings
+curl/7.64.1
+PostmanRuntime/7.26.5
+What is the Specification Document for User-Agent HTTP Header?
+There is only one specification document for the User-Agent HTTP Header which is the
+Hypertext Transfer Protocol (HTTP/1.1)
+:
+Semantics and Content
+. The
+Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content Article 5.5.3 mentions the definition and uses of the User-Agent HTTP Header. Additionally, this article discusses the User-Agent HTTP Header’s examples and values.
+What is the type of User-Agent HTTP Header?
+The User-Agent HTTP Header- The type of HTTP header for the User-Agent HTTP Header is Request Headers because they contain information about the operating system and browser identified by the string used by the web server.
+What are the similar HTTP Headers to the User-Agent HTTP Header?
+The similar HTTP Headers to the  User-Agent HTTP Header are listed below.
+Firefox user agent string references:
+The Firefox user agent string specifies the user agent string that is used in Firefox 4 and later, as well as applications that are built on Gecko 2.0 or later.
+Browser detection using the user agent:
+The User-Agent HTTP Header is used to identify the browser. It is generally not a good idea to serve separate web pages or services to different browser types. Regardless of which browser or gadget someone is using, the Web is intended to be available to everyone. There are methods for developing your website so that it gradually improves itself based on the availability of features rather than by targeting specific browsers or operating systems.
+Which Browsers Support User-Agent HTTP Header?
+There are multiple browsers that support the User-Agent HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the User-Agent HTTP Header
+Edge Browser is compatible with the User-Agent HTTP Header
+Firefox Browser is compatible with the User-Agent HTTP Header
+Internet Explorer Browser is compatible with the User-Agent HTTP Header
+Opera Browser is compatible with the User-Agent HTTP Header
+Safari Browser is compatible with the User-Agent HTTP Header
+WebView Android Browser is compatible with the User-Agent HTTP Header
+Chrome Android Browser is compatible with the User-Agent HTTP Header
+Firefox Android Browser is compatible with the User-Agent HTTP Header
+Opera Android Browser is compatible with the User-Agent HTTP Header
+Safari IOS Browser is compatible with the User-Agent HTTP Header
+Samsung Internet Browser is compatible with the User-Agent HTTP Header
+You can see an image that shows cross-browser compatibility of User-Agent HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+User-Agent HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+ECT HTTP Header: Syntax, Directive, Examples
+TechSEO
+Early-Data HTTP Header: Syntax, Directive, Example…
+0
+0
+0

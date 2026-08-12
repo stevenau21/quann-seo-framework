@@ -1,0 +1,129 @@
+What is First Input Delay and How to Optimize It? - Holistic SEO
+Skip to content
+First Input Delay is the time between the user’s first interaction with the web page and the web page’s response. First Input Delay (FID) is also a user-centric Load Timing Metric. Also, FID is an important signal to see the “load responsiveness” of the web page. Even if a web page loads faster than its competitors without letting the users interact, this situation won’t be perceived as a good performance by the users and also Search Engines.
+Web Design and Layout are important factors for SEO and UX but also, they are not calculated or perceived as a “metric”. Measuring Web Design and Layout productivity and efficiency can be possible via indirect methods such as A/B Testing, Creativity, Analytical Comparison, and Experience. But, Page speed metrics can be calculated directly. Thanks to this difference, Search Engines, and various UX Tools try to calculate and measure user-centric page speed metrics deeper and more detailed.
+In this guideline, we will focus on the First Input Delay’s definition, function, measurement, and optimization.
+Contents of the Article
+show
+1.
+What is FID?
+2.
+What is a Good FID Score for Users?
+3.
+How to Measure FID in Browsers?
+4.
+First Input Delay and Asynchronous Loading of Web Page Assets
+5.
+First Input Delay and Event Listeners
+6.
+Why is the First Input Delay most important?
+6.1.
+Some of the thoughts related to the First Input Delay’s Importance
+7.
+What is the First Input Examples?
+8.
+What if a User never creates an input example during the page load?
+9.
+Why FID doesn’t include the Event’s itself in the calculation?
+10.
+How to Measure FID?
+11.
+How to Improve First Input Delay?
+12.
+Last Thoughts on First Input Delay and Holistic SEO
+What is FID?
+FID is the measurement of the first processable interaction of the user with the web page. This interaction can be a click on an input field, input events, or any type of Javascript-powered user interaction (in terms of input events). Without processing the event listeners and event handlers a browser can’t reach the user. Even if those event handlers and event listeners would be processed, if a browser’s main thread is in a bottleneck, it still might not respond to the user.
+Because of these types of relations between web page components, a Holistic SEO and Developer should be able to calculate and analyze the interaction of the web page assets with each other during the page is being loaded.
+What is a Good FID Score for Users?
+A good First Input Delay is lesser than 100 MS. Between 100 MS and 300 MS can be perceived as acceptable. If FID is more than 300 MS, it should be improved. If 75% percent of the users and sessions have experienced an FID Timing under the 100 MS, it means that the web site performs well in terms of First Input Delay.
+How to Measure FID in Browsers?
+First Input Delay or Input Latency only calculates the time between interaction and its performing. FID doesn’t include the event itself in its definition. Event’s performing can affect the user experience but still, a Holistic SEO and Developer should remember that FID is only the process of waiting for the beginning of the event while the web page tries to respond to the user’s input.
+Long and heavy page assets are being downloaded during the First Contentful Paint and Time to Interactive. “First Contentful Paint” or the “First Significant Paint” are the metrics that show the time when the web page expresses a meaning during the web page loading experience. First Input Delay or the Input Latency on the other hand tries to catch the time gap of this meaningful component’s first usable moment.
+FID also can vary according to the exact timing of the First Input. If the first input happens during the longest and heaviest task for the main thread of the browser, it will be calculated as higher than usual. Because of this situation, Total Blocking Time is also another important page speed and web page loading performance metric.
+First Input Delay and Asynchronous Loading of Web Page Assets
+To improve the FID, some developers always use the asynchronous loading. Asynchronous loading means that web page components are being loaded as parallel to each other at the same moment. This situation also creates a bottleneck during the web page loading. But, since they are being loaded asynchronously, this will mean that browser can perceive the first input of the user to process the event handlers. But since the browser also fetches, downloads, and processes the other web page assets, the event that the user is expecting can’t happen as it should be.
+So, asynchronous loading can improve the FID Time since the “event’s itself is not included in FID Calculation” but this doesn’t necessarily mean that the user experience has been improved.
+First Input Delay and Event Listeners
+To calculate the FID, we don’t need event listeners always. Most of the user interaction based events don’t require an event listener. The important condition for the FID Calculation is having an input. We especially try to find the first idle time of the main thread after the input received.
+In this context, you may see the HTML Elements which don’t require an event listener.
+<input> fields.
+<textarea> fields.
+<select> elements.
+<option> elements.
+<a> elements.
+The HTML Elements that don’t require an event listener can be more but for the message we are trying to give, these are enough.
+Why is the First Input Delay most important?
+This question can read like that “why is the second input delay not important as much as the first input delay?”. Because the first input delay reflects the user’s first interaction with the web page. Most of the users know what to do on the web page since they are coming with specific user intent. If they can’t see the “content” and they can’t interact with the “content”, this will frustrate most of the users.
+Some of the thoughts related to the First Input Delay’s Importance
+First input delay and first interaction of the user with the web site is important. The human brain can create its over-all view and opinion via the first impression. If the first interaction is not quick enough, the user might think that that the web site is not reliable or quality.
+Most of the Load Responsiveness Errors and Load Interactivity problems occur while the web pages are being loaded. That’s why being responsive to the user’s input during the loading phase is important.
+First Input Delay and the Input Delays after the Loading are two different terms in the page speed science. Separating from them to each other helps the developers and SEOs to think more analytical and structured.
+What is the First Input Examples?
+To put it simply, input examples exist of input events. So, scrolling or zooming are not counted as user input and they are not being evaluated in the Frist Input Delay. Also, “continuous actions” such as zooming and scrolling can be performed from another browser thread so that browsers can hide their latency. In short, input delays are in the R Section of the “RAIL, Response, Animation, Idle, Load” Performance Model.
+What if a User never creates an input example during the page load?
+Not all of the user inputs are included in the First Inputs as told before. Also, all of the user inputs can’t be happening during the idle times of the main thread of the browser. Sometimes when the Browser’s main thread and the device’s CPU are busy, the user will try to interact with the web page, and sometimes these will happen during the idle time of the main thread.
+The important metric here is that providing the users best possibility to create a shorter First Input Delay under the 100 MS with high probability.
+Why FID doesn’t include the Event’s itself in the calculation?
+If the user based events would be included in the First Input Delay, developers would try to create more asynchronous loading events and try to wrap their event handlers with “setTimeout()”, “requestAnimationFrame()”. This will shorten the FID but also worsen the user experience. Also, calculating the actual FID wouldn’t be possible since every event has different timing, we couldn’t separate the actual FID from the event itself.
+To perform a more objective and easy calculation for user-based experience during the page loading phase, FID doesn’t include the event’s itself.
+How to Measure FID?
+First Input Delay can’t be measured via the simulators or page speed tools. It only can be measured via actual user-experiences. Via Big Query and Chrome Experience Report of Google, a Holistic SEO can see the actual percent of fast or slow FID for a specific time and web site. But, Total Blocking Time is the closely related term for the First Input Delay and TBT can be measured via Lab. tools. So, a low TBT means better FID possibility for the users.
+The tools below can be used for the analysing First Input Delay a Web Entity.
+Pagespeed Insights
+Chrome User Experience Reports
+Search Console (Core Web Vitals)
+Firebase Performance Monitoring
+How to Improve First Input Delay?
+Since the Total Blocking Time can be measured via the longer tasks than 40 MS during the page load, improving the TBT will also improve the FID. The best methods for improving FID can be found below:
+Optimize the Resource Load Order
+Optimize the Javascript Execution Time
+Defer the uncritical Javascript Assets for execution.
+Minimize the unused Polyfills activity for the browser.
+Try to take advantage of Webpack, Parcel, and Rollup as module bundlers.
+Reduce the Third-party Javascript Amount
+Decrease the asset request count and size
+Improve the server response time
+Split the code and use critical CSS for the above the fold section of the web page
+Minimize the Browser’s Main Thread Processing Work
+Use Server-side Rendering along with Server-side Cache
+Use Web-workers along with Service-worker
+Along with these, try to focus on FID for the mobile devices. You will see a higher FID for the mobile devices according to the desktop devices, because of this difference, especially the optimization process should be performed for the mobile user performance.
+Last Thoughts on First Input Delay and Holistic SEO
+First Input Delay is one of the most important factors in terms of user experience and creating a reliable impression for the user. It also affects SEO Performance since the UX is the sibling of SEO. Bad user experience and bad FID score also create suspicion for the Search Engine Algorithms. If your web page is not responsive during the loading because of the bad resource load order or code structure, a Search Engine might rerank the search results for creating a better user-experience and click satisfaction.
+Because of this direct and indirect effect of First Input Delay and User-based Performance Metrics, thinking like an SEO and writing code like a developer is more important than ever for the Marketing Projects.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+PageSpeed
+What is First Input Delay and How to Optimize It?
+by Koray Tuğberk GÜBÜR
+time to read: 7 min
+PageSpeed
+What is First Contentful Paint: How to Optimize it…
+PageSpeed
+Time to First Byte (TTFB): Server Response Time an…
+0
+0
+0

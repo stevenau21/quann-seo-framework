@@ -1,0 +1,217 @@
+What is Topical Authority? How does Topical Authority Work?
+Skip to content
+Topical Authority is a semantic SEO methodology to rank higher on search engine result pages by processing connected topics and entailed search queries with accurate, unique, and expert information. The topical Authority concept was founded by Koray Tugberk GUBUR on 18 May 2022 for conceptualizing semantic content marketing.
+In the Topical Authority SEO Case Study, using Contextual and Conceptual Hierarchies along with Topical Graphs to satisfy every macro and micro Search Intent within a Semantic Search Network will be shown through mainly a real-world SEO Case Study. This SEO Case Study includes four different SEO Success Stories and Projects. The main SEO Project has the
+result of 0 to 128,000 Organic Traffic in 123 days and 12,000 Organic Clicks per day in 162 days.
+This article includes highly advanced SEO Terminology, Theories, and Concepts. Also, it includes an Executive Summary. You will see the background of the four SEO Projects and the same methodology for consistent SEO results below.
+If you want, you can read a briefer executive summary with only actionable points that have been
+published on OnCrawl and focuses on the Second Site SEO Project mainly
+.
+Below, you will see the last 28 Days’ Comparison from the 27th of November, Google Search Console.
+This Google Search Console screenshot has been taken on 5th December, Saturday as the Last 28 Days Comparison.
+This screenshot was taken on 27th November.
+Below, you will see the Last 28 Day comparison from the 29th day of December.
+Every month the traffic has doubled, and for the last month, it has tripled.
+Below, you will see the Last 28 Days comparison from the 29th day of January.
+And, this is the last 28 Day Comparison until now.
+Below, you will see the last 6-month graphic from Google Search Console.
+General view of SEO Journey.
+On the 14th, 15th, and 17th of November, Google has performed two minor Google Updates. Globally, the featured snippet amount has been decreased by 2.5%. Only 1-3 rankings changed. Also, On the same day, there was a server crash. And, we lost all of the Featured Snippets, in 1 day. The second drop on the graph for the SEO Case Study Site’s Google Search Console Screenshot had been caused by Google’s January 2020 Broad Core Algorithm Update.
+My main purpose with this SEO Project is actually 1 Million Organic sessions in 12 Months. But, I am not sure whether I will be able to succeed after I lose these two minor Google Updates that are solely focused on Featured Snippets and possibly coming Passage Indexing (Ranking).
+Below, you will see another screenshot from the 6th of December 2020, 2 days after the December Core Algorithm Update.
+As you may see, with consistency, I have recovered most of the lost traffic.
+We will show
+how Google tries to see the Possibility of User Satisfaction after a click
+and how a URL can be more authoritative and satisfying for the users and Google’s algorithm in terms of the information and function it contains.
+Below, you will see the graphic for all of November 2020.
+November 2020 Organic Traffic Comparison for the SEO Case Study.
+Below, you will see the December 2020 Organic Traffic Report from Google Search Console.
+December 2020 Organic Traffic Situation. You may see that there is an increase of around 100% or even more every month.
+Before going further, let me introduce myself. My name is Koray Tuğberk GÜBÜR and I am a Holistic SEO Expert. I own an agency called Holistic SEO & Digital. I manage digital marketing campaigns with different aspects from Data Science, UX, CRO to SEO. In this SEO Case Study, I will mostly focus on SEO’s Theoretical Side’s  true power on SERP.
+At this point, I know you all have the same question on your mind. Normally, I would not give the name of the website as the aim of the project is 1 Million Organic Session Per Month and this SEO Project still continues to grow. But I got “as always” reasonable comments from Elias Dabbas, whom I see as a mentor.
+You can see the rapid traffic increase from SEMRush’s Organic Search Sensors for the “First Site”.
+That’s why I will explain the name of the domain. More importantly, “
+Most Prestigious SEO Crawler: OnCrawl Review
+”, Google Search Console Data of the relevant domain, and all Technical SEO Analysis appear, you can review. So, you can see that I have achieved relevant success with a website with lots of errors only with “
+Semantic SEO
+” and SEO Theories/Patents.
+The website (First Site) is called “Getwordly.com”. As you review it, as I said and explained during the article, all the Organic Traffic Growth success was born only from SEO Theories and Semantic SEO, not Technical SEO, Pagespeed Optimization Brand Power, or Advanced Layout design.
+Ket facts about Topical Authority for SEO are listed below.
+Topical Authority is a factual methodology to improve the rankings of a website without backlinks.
+Topical Authority is used to provide the expertise of a source for a topic by covering more entities, attributes, and sub-topics with accurate information.
+Contextual vectors, layers, and domains are used with knowledge domains to provide topical authority.
+Topical Authority is a methodology concept from Semantic SEO.
+Topical Authority is implemented with Natural Language Understanding, Processing, and Algorithmic Authorship with certain rules.
+Topical Authority is a concept from Google Search Patents and Research Papers.
+Topical Authority is a way of balancing the PageRank for finding more authoritative sources with the information on the sources.
+Koray Tugberk GUBUR created more than 7 SEO Case Studies while inventing new SEO Methods and Concepts by leveraging the Topical Authority.
+Topical Authority SEO case study and tutorial with real-world expertise and scientific research for search engines involve topical authority, coverage, topical map, and semantic SEO-related contexts along with Contextual Authority with Hierarchy for SEO with the organic growth numbers from 0 to 128,000 in 123 Days and 12,000 Organic Clicks per Day.
+Contents of the Article
+show
+1.
+Who Should Read the SEO Case Study Based on Semantic SEO and Semantic Search Concepts?
+1.1.
+200.000+ Organic Traffic Per Month in 6 Months: Interingilizce.com (Second Site)
+1.2.
++7.000 Clicks per Day in 6 Months and Effects of a Real-World War on an SEO Project: Site 3
+1.3.
+Interesting Fluctuations and Cultural Differences for the Last Website:
+2.
+Background of the SEO Case Study: No Design, No Speed, No Technical SEO, No On-Page Optimization, No Internal Links, No Healthy Server, No Site-wide Navigation
+3.
+What are the Knowledge Domains
+4.
+What is the Complex Adaptive System?
+4.1.
+Uncertainty Principle and Complex Adaptive System
+5.
+What are the Context Vectors?
+6.
+What is the Contextual Hierarchy?
+7.
+What is the Topical Graph?
+8.
+What are the Entity Connections?
+9.
+What is Neural Matching for Google?
+10.
+What are Neural Nets for Google?
+11.
+What is a Unique Information Gain Score?
+12.
+What is “Question Generation” from Content?
+12.1.
+Why is “Question Generation from Content” important for our SEO Case Study?
+13.
+What is “Heading Vectors” for Google?
+13.1.
+Why is “Heading Vectors” important for our SEO Case Study?
+14.
+What are the Link Types for a Search Engine?
+14.1.
+Why is “Link Types” important?
+15.
+What is the Update Score for Google?
+15.1.
+Why is “Content Update Score” important?
+16.
+What is Content Publishing Frequency?
+16.1.
+Why is “Content Publishing Frequency” important?
+17.
+What is the Content-Format for Semantic Search Engine?
+17.1.
+Why is Content-Format important?
+17.2.
+What is the Importance of Content-Length?
+18.
+What is the Importance of Natural Language Processing for SEO Projects?
+18.1.
+What is the Dependency Tree?
+18.1.1.
+Why is the Dependency Tree important?
+18.2.
+What is Part of a Speech Tag?
+18.2.1.
+Why is Part of Speech Tag Important?
+18.3.
+What is the Sentiment of Content Sections for Certain User Needs?
+18.3.1.
+Why is the Sentiment Structure of Content important?
+18.4.
+What is Named Entity Recognition?
+18.4.1.
+Why Is Named Entity Recognition Important?
+19.
+What is the Entity Type Matching?
+19.1.
+Why is Entity Type Matching Important?
+20.
+What is the Content Section for Initial Contact of Users?
+20.1.
+Canonical Query, Canonical Search Intent, and Ranking Signal Dilution in terms of Initial Contact Phase with Users
+20.2.
+Why is the Content Section for the Initial Contact with Users important?
+20.3.
+Initial Contact Section of the Content and Passage Indexing/Ranking Relation
+21.
+What is Search Engine Communication?
+21.1.
+Why is Search Engine Communication Important?
+22.
+What is PageRank Sharing with Hreflang Attribute?
+22.1.
+How do we know PageRank gets affected by Hreflang Attribute?
+23.
+What is the Query/SERP Mapping?
+23.1.
+Why is Query/SERP Mapping important?
+24.
+What are Topical Coverage, Authority, and Topical Connections?
+24.1.
+Why are Topical Connections Important?
+25.
+What is the Semantic SEO’s Effect on Crawl Efficiency?
+26.
+What is Page Segmentation for Search Engines?
+26.1.
+Why is Web Page Segmentation Important?
+27.
+What is the Initial Ranking of a Web Page?
+27.1.
+Why is Initial Ranking Important?
+28.
+What is the Impact of Neighbor Content and Website Segmentation?
+28.1.
+Why is Neighbor Content and Website Segmentation Important?
+29.
+What is the Featured Snippet Oriented Content Marketing?
+29.1.
+Why is Featured Snippet Oriented Content Marketing Important?
+30.
+An Executive Summary for Semantic SEO Case Study in the Light of SEO Theories
+30.1.
+Why didn’t I use a Header and Footer Menu?
+30.2.
+Importance of Link Count and Contextual Relevance within Links
+30.3.
+What is the Effect of Lackness of Technical SEO?
+30.4.
+What was the Effect of Hreflang?
+30.5.
+With What Frequency Do I Update Content Blocks?
+30.6.
+Why did I lose all of the Featured Snippets during the 14-15 November Google Update?
+30.7.
+What is the Current Situation of the SEO Project?
+31.
+Last Thoughts on Semantic SEO within Holistic SEO Vision
+Who Should Read the SEO Case Study Based on Semantic SEO and Semantic Search Concepts?
+This article mainly on Getwordly.com’s SEO Project and Case Study and Its Success is largely for experts familiar with advanced SEO Theories, Search Engine Patents, and Concepts. Therefore, the Executive Summary is at the end of the article.
+If you don’t have enough information or analytical thinking skills to understand a Search Engine’s perspective, you won’t understand the executive summary and the results that I manage to get, therefore I strongly recommend you to not read this article.
+And,
+read the second SEO Case Study article that is published on OnCrawl.com for mainly the “Second Site” which is Interingilizce.com
+that covers the same methodologies with a broader and brief Executive Summary.
+This is the Ahrefs view from the 6th December 2020 of Getwordly.com.
+Below, you will see the last situation of Getwordly.com’s Ahrefs Report.
+The real situation of the SEO Case Study is way much better than in the Ahrefs, as you might notice.
+To show that the concepts in the article are working, I put the graphics of three more websites that I used the same methods and SEO Insight. However, I will explain the names of these sites in shorter and less detailed articles that I will write for regular readers, with their unique characteristics.
+All three websites below are in the same SEO Project, in the same niche. Only the “target audience” of some varies depending on the geography. The Topical Authority SEO Case Study websites continue to increase their organic traffic. Below, you can see the updated version.
+Below, you can see the organic traffic increase from the YouTube Channel Video of Koray Tuğberk GÜBÜR.
+Koray Tugberk GUBUR explains the Topical Authority Case Study websites, and concepts, and how they improved their organic search performance.
+200.000+ Organic Traffic Per Month in 6 Months: Interingilizce.com (Second Site)
+The Second Site’s SEO Case Study is published on OnCrawl.com. If you are an average SEO or newbie in terms of “Search Engine Patents, Theories, and Terms”, I strongly recommend you to read Second Site’s SEO Case Study since it will be a more simplistic Executive Summary.
+This site is only for “Turkish” and it is from the same niche. Thus, it has acquired the same traffic slower, because GetWordly.com is a multi-language website. “Site 2’s” Semantic SEO Case Study will be published later with a more simple article for normal readers, later. You may see its organic growth thanks to SEO Knowledge and Semantic SEO, below.
+Besides GetWordly.com, Site 2 which is Interingilizce.com:
+Second site’s Google Search Console Data for only 4 Months.
+Below, you will see the last 5 months’ graphic with a broader aspect from Interingilizce.com’s Google Search Console.
+Interingilizce.com’s last 5 months graphic from GSC for analyzing the success of the SEO Case Study.
+This is the graphic for the last 6 months. You may see the similarities between Getwordly.com and the “Site 2” which is Interingilizce.com, since they are from the same niche with the same methodology, it is a normal process. And, after the December Core Algorithm Update, I have lost the featured snippets again but it didn’t happen for Getwordly.com, at least yet.
+November 2020 Situation of the Second Site (Interingilizce.com) in terms of Organic Search.
+Below, you will see the December 2020 Situation of the Second site in terms of Organic Search.
+There is not much increase like the first site, because the second site (Interingilizce.com) wasn’t in the focus and also it is not an international site.
+As you can see in the 6 months, we have acquired 180.000 Organic Traffic per Month. The Last 28 Days Comparison from the GSC below had been taken in the Middle of December 2020.
+Organic Traffic Graphic for December 2020.
+And this graphic above is for showing the Last 28 Days (From the Middle of December 2020) comparison. For every Semantic SEO 
+
+[...truncated...]

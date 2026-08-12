@@ -1,0 +1,104 @@
+Sec-CH-UA-Mobile HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Sec-CH-UA-Mobile user agent client hint header in the request specifies whether the browser is running on a mobile device. Additionally, a desktop browser uses it to signal a preference for a “mobile” user experience. The Sec-CH-UA-Mobile HTTP Header is a low-entropy hint. Low entropy suggestions include little information that may be used to “fingerprint” a certain person. It is delivered by default, without the server explicitly opting in via Accept-CH unless a user agent permission policy prohibits it. A server may set the Accept-CH header to indicate which client hint headers a client must include in subsequent requests. There is only one value for using the Sec-CH-UA-Mobile HTTP Header. The value for using the Sec-CH-UA-Mobile HTTP Header is boolean. An example of the Sec-CH-UA-Mobile HTTP Header is written below.
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Mobile: ?1
+The Sec-CH-UA-Mobile HTTP Header Request Header is seen above. In the article, the Sec-CH-UA-Mobile HTTP Header Syntax, Directives, and Uses example will be processed.
+Contents of the Article
+show
+1.
+What is Sec-CH-UA-Mobile HTTP Header?
+1.1.
+What is the Syntax of Sec-CH-UA-Mobile HTTP Header?
+1.2.
+What is the Directive of Sec-CH-UA-Mobile HTTP Header?
+2.
+How to use Sec-CH-UA-Mobile HTTP Header?
+2.1.
+Examples of Sec-CH-UA-Mobile HTTP Header Use
+3.
+What is the Specification Document for Sec-CH-UA-Mobile HTTP Header?
+4.
+What is the type of Sec-CH-UA-Mobile HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Sec-CH-UA-Mobile HTTP Header?
+5.
+Which Browsers Support Sec-CH-UA-Mobile HTTP Header?
+What is Sec-CH-UA-Mobile HTTP Header?
+A user agent client hint header known as the Sec-CH-UA-Mobile HTTP Header identifies a mobile device as the source of the request. As a bonus, a desktop browser uses it to indicate that it prefers a “mobile” experience. A low entropy hint is the Sec-CH-UA-Mobile HTTP Header. A user agent permission policy does not prevent it from being supplied by default, and the server does not have to explicitly opt-in via Accept-CH.
+What is the Syntax of Sec-CH-UA-Mobile HTTP Header?
+The Sec-CH-UA-Mobile HTTP Header uses only one value. The syntax for using the Sec-CH-UA-Mobile HTTP Header is written below.
+Sec-CH-UA-Mobile: <boolean>
+What is the Directive of Sec-CH-UA-Mobile HTTP Header?
+The Sec-CH-UA-Mobile HTTP Header only contains one directive. The boolean indicates by the number 1 that the user agent prefers a mobile experience (true). A value of 0 indicates that the user-agent does not prefer a mobile-friendly environment (false). An example directive for using the Sec-CH-UA-Mobile HTTP Header is given below.
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Mobile: ?1
+How to use Sec-CH-UA-Mobile HTTP Header?
+For mobile devices, the user agent client hint request header uses the Sec-CH-UA-Mobile HTTP Header as the user agent client hint request header. As a result, a desktop browser might use it to express a desire to have a more “mobile” experience. A low entropy hint is the Sec-CH-UA-Mobile HTTP Header. It is sent by default unless a user agent permission policy prevents it, and the server must explicitly opt-in by sending Accept-CH to do so.
+Examples of Sec-CH-UA-Mobile HTTP Header Use
+A low-entropy hint like Sec-CH-UA-Mobile HTTP Header is typically included in all requests. Requests from a desktop browser typically include the following header: Here’s an illustration of what I mean.
+Sec-CH-UA-Mobile: ?0
+The following headers are examples of requests sent by mobile browsers.
+Sec-CH-UA-Mobile: ?1
+What is the Specification Document for Sec-CH-UA-Mobile HTTP Header?
+There is only one specification document for the Sec-CH-UA-Mobile HTTP Header, which is the User-Agent Client Hints. The User-Agent Client Hints article 3.5 mentions the Sec-CH-UA-Mobile HTTP Header’s definition and uses. Additionally, the article discusses the Sec-CH-UA-Mobile HTTP Header’s values and examples.
+What is the type of Sec-CH-UA-Mobile HTTP Header?
+The Sec-CH-UA-Mobile HTTP Header user agent client hint header is a type of Request Header that indicates whether or not the browser is running on a mobile device, such as a smartphone or tablet.
+What are the similar HTTP Headers to the Sec-CH-UA-Mobile HTTP Header?
+The similar HTTP Headers to the Sec-CH-UA-Mobile HTTP Header are listed below.
+HTTP Client Hints:
+Servers can proactively request Client Hints from a client in order to obtain information about the device, network, user, and user-agent preferences of a given client. Similar to the Sec-CH-AU-Mobile HTTP Header, which is likewise a request header type.
+User-Agent Client Hints API:
+A JavaScript API and a User-Agent response and request headers API are provided by the User-Agent Client Hints API, which extends the Client Hints API by exposing browser and platform information via User-Agent response and request headers. Similar to the Sec-CH-AU-Mobile HTTP Header, which is similarly a request header type.
+Accept-CH HTTP Header:
+The Accept-CH HTTP Header is similar to the Sec-CH-UA-Mobile HTTP Header. Client hint headers may be included in subsequent requests if the
+Accept-CH HTTP Header
+is set by the server to define which client hint headers should be sent. Client hint headers are used in a manner similar to the Sec-CH-AU-Mobile HTTP Header.
+Which Browsers Support Sec-CH-UA-Mobile HTTP Header?
+There are multiple browsers that support Sec-CH-UA-Mobile HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Sec-CH-UA-Mobile HTTP Header.
+Edge Browser is compatible with the Sec-CH-UA-Mobile HTTP Header.
+Opera Browser is compatible with the Sec-CH-UA-Mobile HTTP Header.
+WebView Android Browser is compatible with the Sec-CH-UA-Mobile HTTP Header.
+Chrome Android Browser is compatible with the Sec-CH-UA-Mobile HTTP Header.
+Opera Android Browser is compatible with the Sec-CH-UA-Mobile HTTP Header.
+Samsung Internet Browser is compatible with the Sec-CH-UA-Mobile HTTP Header.
+You can see an image that shows the cross-browser compatibility of Sec-CH-UA-Mobile HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Sec-CH-UA-Mobile HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+Sec-Fetch-User : Syntax, Directive, Examples
+TechSEO
+Sec-CH-UA-Full-Version HTTP Header: Syntax, Direct…
+0
+0
+0

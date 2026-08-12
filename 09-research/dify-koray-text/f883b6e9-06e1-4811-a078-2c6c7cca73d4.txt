@@ -1,0 +1,123 @@
+Pillar Content and Topic Clusters: Best Examples and Practices - Holistic SEO
+Skip to content
+Pillar content is a strategy of content marketing that intelligently structures central and secondary content. The basic content is the actual pillar content around which topic clusters are grouped. The long-term effect of this approach is the position of an expert on a particular topic. For many keywords – especially long-tail keywords – this position has a positive effect on Google ranking. Pillar Pages give Google a clear signal of the relevance of a website for a specific topic.
+Understanding the rules of Search  Engine Optimization (SEO) is not always easy, mainly because the search engine algorithms constantly change. However, it is important to stay updated because this is the only way to ensure your blog posts achieve a good ranking in the search results. A current trend that you should pay attention to in this regard is topic clusters and content strategies that are designed to build authority for such clusters.
+The search behaviour of users has changed, as has the technology used to interpret and generate search results. So far, longtail keywords have been the focus of most SEO strategies. But a lot has changed here and new approaches have come to the fore, affecting your content’s structural organization.
+In this post, we want to take a closer look at how user search behavior has changed, the benefits of SEO strategies that focus on topic clusters, and what pillar sites are all about.
+Some of the other content-related guidelines are:
+What is thin content?
+What is duplicate content?
+What is Evergreen Content?
+What is hidden content?
+What is Content Seeding?
+Contents of the Article
+show
+1.
+What is Pillar Content?
+2.
+Why is Pillar Content So Important?
+2.1.
+Google search is changing.
+2.2.
+We search differently in Google.
+2.3.
+Users enter longer, more formulated search queries
+2.4.
+The quality and accuracy of search results increases.
+2.5.
+Topic clusters enable better rankings and more relevant search results
+3.
+How do you create pillar content?
+4.
+Pillar Pages are Comprehensive and Up-to-Date
+5.
+Last Thoughts on Pillar Content and Topic Cluster Term
+6.
+How does a pillar page differ from a regular blog post?
+7.
+What are the key elements of an effective pillar page?
+8.
+How can a pillar page improve SEO rankings?
+9.
+What types of topics are best suited for pillar pages?
+10.
+How does a pillar page link to cluster content?
+11.
+What is the ideal length for a pillar page?
+12.
+How often should a pillar page be updated?
+13.
+Can a pillar page include multimedia elements like videos or infographics?
+14.
+How do pillar pages fit into an overall content strategy?
+15.
+What are the best practices for internal linking within a pillar page?
+16.
+How can a pillar page help with lead generation?
+17.
+How to promote a pillar page for maximum reach?
+18.
+Can a pillar page target multiple keywords?
+19.
+How to measure the success of a pillar page?
+What is Pillar Content?
+Pillar is the English word for a pillar or support. The catchphrase Pillar Content stands for a paradigm shift in content marketing. The trend is moving away from a purely keyword-oriented SEO strategy and towards focusing on topics. A pillar page provides comprehensive and, at the same time, compact information on a topic. A topic or content cluster is grouped around this pillar page.
+The term cluster stands for a cluster of similar elements that must be brought into a certain structure.
+The secret of effective pillar content is to structure the many aspects of a topic. The pillar is the starting point for further specialized content. An example:
+The main topic (corresponding to the main keyword) is the bicycle.
+Content cluster: mountain bikes, racing bikes, e-bikes, bicycle repairs, bike tours, cycling in summer and winter, accessories and spare parts for bicycles, advantages of bicycles as a means of transport.
+This content strategy is primarily not a question of format but of structure. The content can be presented in various forms – for example, as blog texts, videos, graphics, e-books, podcasts, or picture galleries. Correct linking is crucial for cluster content. This is primarily based on long-tail keywords, i.e. longer search queries that do not consist of just one key term. An example: “How do you repair a gear shift on a bicycle?” Or similar.
+Why is Pillar Content So Important?
+Aligning content with search queries that are entered verbally is becoming increasingly important. Because formulated questions increasingly replace simple keywords. Some of them touch on several aspects of a topic. And some of these questions are also asked in colloquial language. That means Search engine optimization of content is becoming much more complex. Inbound marketing used to be enough to rank well for a simple keyword; today, it is necessary to consider almost all possible questions.
+But how do you target topic-oriented questions instead of simple keywords? This is where the Pillar Content concept comes in. Pillar content is core content, i.e., the basic pillars of a topic. Secondary content is gathered around this core content so that the website captures all topic aspects. So, two points are important here:
+The core topic (pillar content)
+The secondary aspects are relevant to the topic (cluster content).
+The actual pillar page is the basis for the content cluster. Certain secondary aspects of the topic can, in turn, have sub-pages. This creates a kind of tree structure with hierarchical levels.
+It is important not to lose sight of the central term, which can usually be focused on a single keyword.
+Google search is changing.
+Search engines are getting smarter every day. Google has become excellent at scouring huge amounts of content for relevant content pieces and returning the most suitable results to the searcher. Pages with too many irrelevant internal links are punished. Just like “keyword-stuffers” – these are pages that are filled with keywords – often without context – to manipulate search results – without giving the reader any value.
+It is, therefore, not surprising that Google has changed the way search results are displayed. It is no longer about keyword-relevant results but about subject-related results. Since the RankBrain update in 2015, Google has been able to compare keywords and sentences from past searches with similar topics. The result: a real context-controlled search results page! For Google users, if you search for a specific topic now, you will get relevant results like never before. Regardless of which keyword you used to get there. Even if you don’t know exactly what you’re looking for, Google smart is smart enough to find out by using the search query context. Google knows what you meant, not just what you typed in!
+We search differently in Google.
+At the same time, the way we search has changed. In the beginning, we typed single words, often the most important keywords were included. When someone was looking for a restaurant in Hamburg, they would type “Hamburg Restaurants” and click through the search results to find one nearby. As the search engines became more intelligent, users entered longer searches. Instead, as they said: “Where is there a restaurant near me?” In 2017, 64% of all searches contained four or more words.
+Users enter longer, more formulated search queries
+Imagine you were looking for a sushi restaurant. Do you enter “restaurant” in the search box or rather a longer query like “Japanese restaurants near me”?
+Most users choose the second variant: 64% of all search queries contain at least four words. In addition, increasing numbers of users are entering phrased sentences as search terms, enabling them to achieve the most suitable search results.
+One reason for this is the increasing use of voice input. Thanks to Siri, Google Assistant, and other tools, 20% of Google searches on mobile devices are voice-based. And given the growing popularity of Amazon Echo and Google Home devices, this number is expected to continue to grow.
+But this is not the only reason for the longer searches. The amount of content with which the Internet is flooded plays a role here because quantity is not always the same as quality. So, users with more targeted searches try to bypass the flood of unusable information and limit the results from the outset. Furthermore, more and more users are moving to skim Google search results and focus on blog post headings and highlighted Google snippets. Because they often provide rough answers to their questions.
+On the other hand, search engines are also getting better at filtering out the most relevant results from thousands of contents.
+The quality and accuracy of search results increases.
+Google is continuously optimizing its algorithm to improve the relevance of search results continuously. For example, Google takes action against the excessive use of irrelevant internal links by no longer having formulated search queries checked for individual keywords. Instead, they are now interpreted as a unit. The company also uses artificial intelligence to interpret certain search terms more precisely.
+In other words, Google helps users find what they are looking for – even if their search query wasn’t formulated optimally. For example, if you type “running shoes”, Google will now show results for “sneakers”. For bloggers and SEO experts, this means that when creating content, they need to be even more careful about closing any gaps that could prevent their content from ranking well.
+To cover as many variants of search queries on a particular topic as possible, it is advisable to structure your website concerning various core topics. This core content is then linked via hyperlinks to more specific blog posts on specific longtail keywords (in formulated form). And that brings us to the thematic cluster model.
+Topic clusters enable better rankings and more relevant search results
+So far, most bloggers and SEO experts have focused on achieving a high ranking for specific keywords with individual blog posts. However, with such an approach, content is usually poorly structured, and users find it difficult to find the information they want. In addition, this approach means that your contributions on similar topics compete with each other regarding their ranking.
+Until recently, this was our approach, and the structure of our content was roughly as follows:
+However, if you want to achieve a high ranking these days and provide the best answers to searchers, a new approach is needed: the topic cluster model. First, select the topics for which you want to achieve a good ranking in the search results. You then create the content based on certain keywords that are relevant to this topic and that are interrelated. The aim is to comprehensively cover a topic area in your content and thus build SEO authority. With the changeover to this model, our blog structure is now designed in such a way that many different articles are arranged around a topic (cluster) and linked to other content in the cluster via hyperlinks:
+At the heart of this model is an optimized page architecture, designed to arrange and link URLs so that multiple pages of a website make it into the Google ranking – and users can find the desired content more quickly. This architecture is based on three components – pillar content, cluster content, and hyperlinks:
+The “pillar content” describes the topic for which bloggers and SEO experts want to achieve the best possible ranking, which is done by creating more specific cluster content.
+How do you create pillar content?
+The first thing you should do is get rid of your focus on
+keywords
+. Instead, focus first on the
+topics
+for which you want to get a good ranking. Then search for relevant blog topics based on relevant keywords.
+Also, take into account what interests your target group the most and what challenges they are facing. Your topic should be broad enough that there is room for further contributions, i.e. further cluster content. But also make sure to choose it so that you can actually address all aspects of the topic on a single page.
+A pillar page should provide an answer to the questions that users type into Google searches. This, in turn, should lead them to choose your content with all other results in view of further information. After visitors have read your Pillar page, they should be able to find out more about hyperlinks to more specific cluster content.
+The procedure for creating pillar content (or for converting existing pages) can be described in five points:
+Find the topic and express it in the main keyword.
+Create an overview of the topic clusters.
+Create content.
+Build a cluster structure that essentially consists of links to the individual pages.
+Constant updating of the content.
+Pillar Content is less about the form of the content, but more about structuring it in a user-friendly way. For example:
+Overview pages that briefly but comprehensively present the main topic. In addition sub-pages on individual topic aspects.
+Main content in various media formats (texts, graphics, videos, audios), which are linked in a structured manner and thus illuminate all aspects of the topic.
+So that the actual pillar page does not become too long, reference is made to cluster content pages with regard to individual aspects. An intelligent and structured link is a key success factor for the pillar content strategy.
+Pillar Pages are Comprehensive and Up-to-Date
+How do I get content for Pillar Pages? The Internet offers numerous tools for this. Four examples:
+Google Trends can be used to find out which questions are frequently asked about a topic or problem.
+Tools for finding synonyms or TF-IDF tools also provide valuable information on which keywords appear frequently in connection with another related keyword.
+Google News is a good tool to get inspiration for creating current cluster pages or updating existing content.
+The personas concept c
+
+[...truncated...]

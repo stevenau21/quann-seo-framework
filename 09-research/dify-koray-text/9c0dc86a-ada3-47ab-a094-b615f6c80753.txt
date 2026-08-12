@@ -1,0 +1,78 @@
+Accept-CH-Lifetime HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Accept-CH-Lifetime HTTP header is set by the webserver to define the persistence of the Accept-CH HTTP header value. The Accept-CH HTTP response header specifies which HTTP Client Hints the client should include in subsequent requests. The Accept-CH HTTP response header is used by the webserver to request additional information from web browsers about the client’s device, network, and user agent preferences. The HTTP Client hints are a set of request headers that provide useful information regarding the client’s device type and network requirements and enable the web servers to optimize what is served for those conditions. Web servers continuously request the HTTP Client hint headers from the client using the  Accept-CH HTTP response header. The client may then decide to add the requested headers in subsequent requests. HTTP Client Hints are available only on protected sources by using the TLS(Transport Layer Security). The TLS(Transport Layer Security) is a security protocol created to establish privacy and protected data communications over the world wide web. The main usage of Transport Layer Security is to encrypt the communication between web applications and web servers, such as web browsers loading a website. The Accept-CH and Accept-CH-Lifetime HTTP headers should be continued for all protected requests to assure Client Hints are reliably transmitted.
+Contents of the Article
+show
+1.
+What is Accept-CH-Lifetime HTTP Header?
+1.1.
+What is the Syntax of Accept-CH-Lifetime HTTP Header?
+1.2.
+What is the Directive of Accept-CH-Lifetime HTTP Header?
+2.
+How to use Accept-CH-Lifetime HTTP Header?
+2.1.
+Example of Accept-CH-Lifetime HTTP Header Use.
+3.
+What are the Specification Documents for Accept-CH-Lifetime HTTP Header?
+3.1.
+What are the similar HTTP Headers to the Accept-CH-Lifetime HTTP Header?
+What is Accept-CH-Lifetime HTTP Header?
+The Accept-CH-Lifetime header is used to determine the persistence of the Accept-CH HTTP header value that defines which HTTP Client Hints the client should add in succeeding requests. Although the Accept-CH-Lifetime HTTP header is no longer recommended, selected web browsers still support the header. It may have now been removed from the related web standards, but is still being used and retained for compatibility usage. The selected web browsers that support the Accept-CH-Lifetime HTTP headers are Google Chrome, Microsoft Edge, and Opera. This feature is accessible only in secure contexts (HTTPS), in some supporting browsers. A secure context is a window for which specific minimum standards of authentication and confidentiality are set. Several Web APIs and features are allowed only in a secure context. The main usage of secure contexts is to avoid MITM(man-in-the-middle) attackers from invading powerful APIs that could further compromise the client of an attack. A man-in-the-middle (MITM) attack is a form of eavesdropping where conversation between two user agents is monitored and changed by an unauthorized party also known as hackers.
+What is the Syntax of Accept-CH-Lifetime HTTP Header?
+The syntax for the Accept-CH-Lifetime header is below.
+Accept-CH-Lifetime: <age>
+What is the Directive of Accept-CH-Lifetime HTTP Header?
+The only directive for the Accept-CH-Lifetime header is shown below.
+<age> Indicates the value of persistence for the Accept-CH HTTP header
+How to use Accept-CH-Lifetime HTTP Header?
+To use the Accept-CH-Lifetime header, it generally comes after the Accept-CH HTTP response header. By using the Accept-CH-Lifetime header, we must determine the appropriate value of the header that will determine the persistence of the Accept-CH HTTP header value.
+Example of Accept-CH-Lifetime HTTP Header Use.
+An example of the Accept-CH-Lifetime header is below.
+Accept-CH: Viewport-Width
+Accept-CH-Lifetime: 95300
+What are the Specification Documents for Accept-CH-Lifetime HTTP Header?
+The specification document for the Accept-CH-Lifetime header is below.
+RFC8942: The RFC8942 or the HTTP Client Hints explains how an Accept-CH HTTP response header and Accept-CH-Lifetime HTTP header can be used by web servers to promote their use of HTTP request headers for proactive content negotiation, along with the use of HTTP Client hints, as a set of regulations for the making of HTTP headers.
+What are the similar HTTP Headers to the Accept-CH-Lifetime HTTP Header?
+The similar HTTP headers for the Accept-CH-Lifetime header are below.
+Accept-CH HTTP response header: The
+Accept-CH HTTP
+response header is used by the web server to ask for other information from web browsers about the client’s device, network, and user agent preferences. The Accept-CH and Accept-CH-Lifetime HTTP headers should be continued for all protected requests to assure Client Hints are securely transmitted.
+Viewport-Width: Viewport-Width Device Client Hint HTTP request header gives the client’s layout viewport width in the form of CSS pixels.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Accept-CH-Lifetime HTTP Header: Syntax, Directive, Examples
+by Koray Tuğberk GÜBÜR
+time to read: 3 min
+TechSEO
+If-Match HTTP Header: Syntax, Directive, Examples…
+TechSEO
+500 HTTP Response Status Codes: Meaning, Methods &…
+0
+0
+0

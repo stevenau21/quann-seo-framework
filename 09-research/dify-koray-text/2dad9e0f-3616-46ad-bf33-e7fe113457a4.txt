@@ -1,0 +1,396 @@
+Skip to content
+HTML (Hypertext Markup Language) is a markup language used by web browsers to interpret and create text, pictures, and other content into visual or audio web pages. The purpose of HTML tags is to structure a web page for web browsers. It can be supported by technology like Cascading Style Sheets (CSS) and programming languages like JavaScript. HTML was invented in 1980 by Tim Barners Lee. This article will provide you with a fundamental understanding of HTML and its purposes, as the title suggests.
+Meanwhile, the comprehensive HTML tags guide may help you learn more about every HTML tag from <a> to <xmp>. Each tag reference offers background information as well as examples of how to utilize the tag in question. It’s ideal for troubleshooting issues while you’re creating HTML. The root of an HTML document is represented by the <html> tag. Except for the <!DOCTYPE> tag, the <html> tag serves as a container for all other HTML elements. HTML tags can also be classified into fundamental categories such as Basic HTML Root Tags, Formatting Tags, Audio and Video Tags, Form and Input Tags, Frame Tags, Link Tags, List Tags, Table Tags, Style Tags, Meta Tags, and so on.
+Listed below are the 10 HTML basic tags and their definitions.
+<!DOCTYPE>:
+<!doctype> HTML basic tag specifies the document type.
+<html>:
+<html> HTML basic tag specifies HTML document
+<head>:
+<head> HTML basic tag contains metadata/information for the document
+<title>
+:
+<title> HTML basic tag specifies a title for the document
+<body>:
+<body> HTML basic tag specifies the document’s body
+<h1> to <h6>:
+<h1> to <h6> HTML basic tag specifies the HTML headings
+<p>:
+<p> HTML basic tag specifies a paragraph
+<br>:
+<br> HTML basic tag inserts a single line break
+<hr>:
+<hr> HTML basic tag specifies a thematic change in the content
+<!–…–>:
+<!–…–>
+HTML basic tag specifies a comment
+Contents of the Article
+show
+1.
+HTML Tags by Alphabet
+2.
+HTML Tags by Category (HTML Tag Types)
+2.1.
+Basic HTML Tags
+2.2.
+Formatting HTML Tags
+2.3.
+Forms and Input Tags
+2.4.
+Frame Tags
+2.5.
+Images Tags
+2.6.
+Audio/Video Tags
+3.
+Link Tags
+3.1.
+List Tags
+3.2.
+Table Tags
+3.3.
+Style and Semantic Tags
+3.4.
+Meta Tags
+3.5.
+Programming Tags
+3.6.
+1. HTML Tags for Document Metadata
+3.7.
+2. HTML Tags for Sectioning Root
+3.8.
+3. HTML Tags for Content Sectioning
+3.9.
+4. HTML Tags for Text Content
+3.10.
+5. HTML Tags for Text Semantics
+3.11.
+6. HTML Tags for Image and Multimedia
+3.12.
+7. HTML Tags for Embedded Content
+3.13.
+8. HTML Tags for SVG and MathML
+3.14.
+9. HTML Tags for Scripting
+3.15.
+10. HTML Tags for Demarcating Edits
+3.16.
+11. HTML Tags for Table Content
+3.17.
+12. HTML Tags for Forms
+3.18.
+13. HTML Tags for Interactive Elements
+3.19.
+14. HTML Tags for Web Components
+3.20.
+15. Obsolete and Deprecated HTML Tags
+3.21.
+HTML Attributes
+3.22.
+HTML Events
+3.22.1.
+Window Event Attributes
+3.22.2.
+Form Events
+3.22.3.
+Keyboard Events
+3.22.4.
+Mouse Events
+3.23.
+HTML Colors
+3.23.1.
+Drag Events
+3.23.2.
+Clipboard Events
+3.23.3.
+Media Events
+3.23.4.
+Misc Events
+3.24.
+HTML Canvas
+3.24.1.
+Colors, Styles, and Shadows
+3.24.2.
+Line Styles
+3.24.3.
+Rectangles
+3.24.4.
+Paths
+3.24.5.
+Transformations
+3.24.6.
+Text
+3.24.7.
+Image Drawing
+3.24.8.
+Pixel Manipulation
+3.24.9.
+Compositing
+3.24.10.
+Other
+3.25.
+HTML Doctypes
+3.26.
+HTML Character Sets
+3.27.
+HTTP Messages
+3.28.
+HTTP Methods
+3.29.
+HTML Country Codes
+3.30.
+HTML Language Codes
+HTML Tags by Alphabet
+HTML tags are an excellent starting point for learning web development. An HTML tag is a particular keyword enclosed by sharp brackets < and >, such as: <body>. Tags nearly always come in pairs, with one at the start and one at the end. Listed below are the following HTML tags in alphabetical order and their definitions.
+<!–…–>:
+<!–…–> HTML tag specifies the comment.
+<!DOCTYPE>
+:<!DOCTYPE> HTML tag specifies the document type.
+<a>
+:<a> HTML tag specifies the hyperlink.
+<abbr>
+: <abbr> HTML tag specifies the abbreviation or an acronym.
+<acronym>
+: <acronym> HTML tag also specifies an acronym but not supported in HTML5. Use <abbr> instead.
+<address>
+: <address> HTML tag specifies the contact information for the author/owner of a document.
+<applet>
+: <applet> HTML tag specifies an embedded applet but this HTML tag is not supported in HTML5. Use <embed> or <object> instead.
+<area>
+: <area> HTML tag specifies  an area inside an image map.
+<article>
+: <article> HTML tag specifies an article.
+<aside>
+: <aside> HTML tag specifies the content aside from the page content.
+<audio>
+: <audio> HTML tag specifies the embedded sound content.
+<b>
+: <b> HTML tag specifies the bold text.
+<base>
+: <base> HTML tag specifies the the base URL/target for all relative URLs in a document.
+<basefont>:
+<basefont> HTML tag specifies a default color, size, and font for all text in a document but this HTML tag is not supported in HTML5. Use CSS instead.
+<bdi>
+: <bdi> HTML tag isolates a part of text that might be formatted in a different direction from other text outside it.
+<bdo>
+: <bdo> HTML tag overrides the current text direction.
+<big>
+: <big> HTML tag specifies the big text bu this HTML tag is not supported in HTML5. Use CSS instead.
+<blockquote>
+: <blockquote> HTML tag specifies a section that is quoted from another source.
+<body>
+: <body> HTML tag specifies the document’s body.
+<br>
+: <br> HTML tag specifies a single line break.
+<button>
+: <button> HTML tag specifies a clickable button.
+<canvas>
+: <canvas> HTML tag is used to draw graphics, on the fly, via scripting (usually JavaScript).
+<caption>
+: <caption> HTML tag specifies a table caption.
+<center>
+: <center> HTML tag specifies the centered text, but this HTML tag is not supported in HTML5. Use CSS instead.
+<cite>:
+<cite> HTML tag specifies the title of a work.
+<code>
+: <code> HTML tag specifies a piece of computer code.
+<col>
+: <col> HTML tag specifies the column properties for each column within a <colgroup> element.
+<colgroup>
+: <colgroup> HTML tag specifies a group of one or more columns in a table for formatting.
+<data>:
+<data> HTML tag adds a machine-readable translation of a given content.
+<datalist>
+: <datalist> HTML tag specifies a list of pre-defined options for input controls.
+<dd>
+: <dd> HTML tag specifies the description/value of a term in a description list.
+<del>
+: <del> HTML tag specifies the text that has been deleted from a document.
+<details>
+: <details> HTML tag specifies the additional details that the user can view or hide
+<dfn>
+: <dfn> HTML tag specifies a term that is going to be defined within the content
+<dialog>
+: <dialog> HTML tag specifies the dialog box or window
+<dir>
+: <dir> HTML tag specifies the  directory list, but this HTML tag is not supported in HTML5. Use <ul> instead.
+<div>
+: <div> HTML tag specifies the section in a document.
+<dl>
+: <dl> HTML tag specifies the description list.
+<dt>
+: <dt> HTML tag specifies the term/name in a description list.
+<em>
+: <em>
+HTML tag specifies the emphasized text.
+<embed>
+: <embed> HTML tag specifies the container for an external application.
+<fieldset>
+: <fieldset> HTML tag is a groups related elements in a form.
+<figcaption>:
+<figcaption> HTML tag specifies the caption for a <figure> element.
+<figure>
+: <figure> HTML tag specifies the self-contained content <font> but this HTML tag is not supported in HTML5. Use CSS instead.
+<footer>
+: <footer> HTML tag specifies the footer for a document or section.
+<form>:
+<form> HTML tag specifies an HTML form for user input.
+<frame>
+: <frame> HTML tag specifies a window (a frame) in a frameset but this HTML tag is not supported in HTML5.
+<frameset>
+: <frameset> HTML tag specifies the set of frames.
+<h1> to <h6>
+: <h1> to <h6> HTML tag specifies the HTML headings.
+<head>
+: <head> HTML tag contains metadata/information for the document.
+<header>
+: <header> HTML tag specifies a header for a document or section.
+<hr>
+: <hr> HTML tag specifies a thematic change in the content.
+<html>
+: <html> HTML tag specifies the root of an HTML document.
+<i>
+: This <i> tag specifies a part of text in an alternate voice or mood.
+<iframe>
+: <iframe> HTML tag specifies an inline frame.
+<img>
+: <img> HTML tag specifies an image.
+<input>
+: <input> HTML tag specifies an input control.
+<ins>
+: <ins> HTML tag specifies a text that has been inserted into a document.
+<kbd>:
+<kbd> HTML tag specifies the keyboard input.
+<label>
+: <label> HTML tag specifies the label for an <input> element.
+<legend>
+: <legend> HTML tag specifies a caption for a <fieldset> element.
+<li>
+: <li> HTML tag specifies a list item.
+<link>
+: <link> HTML tag specifies the relationship between a document and an external resource (most used to link to style sheets).
+<main>
+: <main> HTML tag specifies the main content of a document.
+<map>
+: <map> HTML tag specifies an image map.
+<mark>
+: <mark> HTML tag specifies the marked/highlighted text.
+<meta>
+: <meta> HTML tag specifies the metadata about an HTML document.
+<meter>
+: <meter> HTML tag specifies a scalar measurement within a known range (a gauge).
+<nav>
+: <nav> HTML tag specifies the navigation links.
+<noframes>
+: <noframes> HTML tag specifies an alternate content for users that do not support frames, but this HTML tag is not supported in HTML5.
+<noscript>
+: <noscript> HTML tag specifies an alternate content for users that do not support client-side scripts.
+<object>
+: <object> HTML tag specifies a container for an external application.
+<ol>
+: <ol> HTML tag specifies an ordered list.
+<optgroup>
+: <optgroup> HTML tag specifies a group of related options in a drop-down list.
+<option>
+: <option> HTML tag specifies an option in a drop-down list.
+<output>
+: <output> HTML tag specifies the result of a calculation.
+<p>
+: <p> HTML tag specifies a paragraph.
+<param>
+: <param> HTML tag specifies a parameter for an object.
+<picture>
+: <picture> HTML tag specifies a container for multiple image resources.
+<pre>
+: <pre> HTML tag specifies the preformatted text.
+<progress>:
+<progress> HTML tag represents the progress of a task.
+<q>
+: <q> HTML tag specifies a short quotation.
+<rp>
+: <rp> HTML tag specifies what to show in browsers that do not support ruby annotations.
+<rt>:
+<rt> HTML tag specifies an explanation/pronunciation of characters (for East Asian typography).
+<ruby>
+: <ruby> HTML tag specifies a ruby annotation (for East Asian typography).
+<s>
+: <s> HTML tag specifies the text that is no longer correct.
+<samp>
+: <samp> HTML tag specifies the sample output from a computer program.
+<script>
+: <script> HTML tag specifies a client-side script.
+<section>
+: <section> HTML tag specifies a section in a document.
+<select>
+: <select> HTML tag specifies a drop-down list.
+<small>:
+<small> HTML tag specifies the smaller text.
+<source>
+: <source> HTML tag specifies the multiple media resources for media elements (<video> and <audio>).
+<span>
+: <span> HTML tag specifies a section in a document.
+<strike>
+: <strike> HTML tag specifies the strikethrough text, but this HTML tag is not supported in HTML5. Use <del> or <s> instead.
+<strong>
+: <strong> HTML tag specifies the important text.
+<style>
+: <style> HTML tag specifies the style information for a document.
+<sub>:
+<sub> HTML tag specifies the subscripted text.
+<summary>
+: <summary> HTML tag specifies the visible heading for a <details> element.
+<sup>
+: <sup> HTML tag specifies the superscripted text.
+<svg>
+: <svg> HTML tag specifies a container for SVG graphics.
+<table>
+: <table> HTML tag specifies a table.
+<tbody>
+: <tbody> HTML tag groups the body content in a table.
+<td>:
+<td> HTML tag specifies a cell in a table.
+<template>
+: <template> HTML tag specifies a container for content that should be hidden when the page loads.
+<textarea>
+: <textarea> HTML tag specifies a multiline input control (text area).
+<tfoot>
+: <tfoot>
+HTML tag groups the footer content in a table.
+<th>
+: <th> HTML tag specifies a header cell in a table.
+<thead>
+: <thead> HTML tag groups the header content in a table.
+<time>:
+<time> HTML tag specifies the specific time (or datetime).
+<title>
+: <title> HTML tag specifies a title for the document.
+<tr>:
+<tr> HTML tag specifies a row in a table.
+<track>:
+<track> HTML tag specifies the text tracks for media elements (<video> and <audio>)
+<tt>:
+<tt> HTML tag specifies the teletype text but this HTML tag is not supported in HTML5. Use CSS instead.
+<u>
+: <u> HTML tag specifies some text that is unarticulated and styled differently from normal text.
+<ul>:
+<ul> HTML tag specifies an unordered list.
+<var>
+: <var> HTML tag specifies the variable.
+<video>
+: <video> HTML tag specifies the embedded video content.
+<wbr>
+: <wbr> HTML tag specifies the possible line-break.
+HTML Tags by Category (HTML Tag Types)
+The following is a list of all HTML tags organized by category, along with descriptions of their purposes and applications.
+Basic HTML Tags
+Basic HTML Tags, Formatting HTML Tags, Forms and Input Tags, Frame Tags, Style, and Semantic Tags, Link Tags, Audio Video Tags, Meta Tags, Programming Tags, and Table Tags are the most common types of HTML Tags. The following are the lists of basic HTML tags, together with their definitions.
+HTML <comment> Tag:
+The HTML <comment> element is used in the main code file to add comments. These comments, unlike other HTML material, are not shown in the browser. It is only available to programmers.
+HTML <doctype> Tag:
+The <Doctype> declaration is not an HTML tag; it is used to inform the browser about the HTML version used on the web page. The <Doctype> element should be the first tag in your HTML document, right before the Html beginning tag.
+HTML <html> Tag:
+The root of an HTML document is defined by the HTML <html> Tag. The HTML <html> tag serves as the primary container for all other HTML elements in an HTML document. The body and head sections are the two primary portions of an HTML document.
+HTML <head> Tag:
+The HTML <head> Tag is used to define a web page’s metadata. Metadata is information about a web page that includes the page title, styles, scripts, character se
+
+[...truncated...]

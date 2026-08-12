@@ -1,0 +1,149 @@
+Pagination SEO: What is Pagination for SEO? - Holistic SEO
+Skip to content
+In connection with websites and search engine optimization, the term
+pagination is used
+for content that is
+not completely displayed on one page
+. Pagination describes the distribution of content on more than one URL, whereby you can “scroll” to the following and previous URLs. Problems with duplicate content often result from paginated shop or directory pages, since pages 2 and 3 are usually very similar to page 1 without offering any additional added value.
+Paginated pages are important for the following website types:
+Product directories and category pages in e-commerce
+Search result lists
+Blogs
+Forums
+Websites that work with large databases, for example, company registers or recipes
+In the case of documents that are divided over several pages for usability reasons, it is important to inform the search engines that the current URL is a page from a multi-page document. Also which URL is the page before and the page after.
+Contents of the Article
+show
+1.
+What are the Wrong Implementations of Pagination in SEO?
+1.1.
+Why Canonical Tag shouldn’t be used for Pagination in SEO?
+1.2.
+Why Paginated Content should be included in Sitemaps for SEO?
+1.3.
+Why a Content Shouldn’t be Divided into Multiple Pages?
+1.4.
+Why Repetitive and Duplicate Content Should be Avoided for Pagination SEO?
+1.5.
+Why “Noindex, Follow” shouldn’t be used?
+1.6.
+Why is a linear Pagination Bad for Users?
+2.
+SEO Arguments for Pagination
+2.1.
+What are the SEO Arguments that Against Pagination?
+2.2.
+Position 2: Pagination makes products accessible to everyone
+3.
+Which Perspective is the right one for SEO?
+4.
+How to Implement Pagination with Infinite Scroll for SEO?
+4.1.
+A Pagination SEO Experiment and Analysis for Crawl Budget by Henry Matthew
+4.2.
+What Happens When You Combine These Two Paginated Methods?
+5.
+Different Methods to Paginate Pages Search Engine Friendly
+5.1.
+Method 1: Leave It as It is
+5.2.
+Method 2: Use the Complete Overview Paginated Pages (View-All Pages)
+5.3.
+Method 3: Canonical Tag on The First Page
+5.4.
+Method 4: Noindex, Follow
+5.5.
+Method 5: Using the robots.txt
+5.6.
+Method 6: Divide Content Into Fine-grained Categories for Pagination
+6.
+Method 7: Deindexing Paginated Content with Google Search Console for PaginationSEO
+6.1.
+Obsolete method: rel = ”next” / ”prev”
+7.
+Pagination SEO Methods from Online Stores
+8.
+The Navigation and Pagination Types
+8.1.
+Basic Pagination Type for SEO
+8.2.
+First and Last Pages for Pagination
+8.3.
+Neighbour Numbers for Pagination
+8.4.
+Previous and Next Pages for SEO
+8.5.
+Logarithmic Page Navigation for SEO
+9.
+Integration of parameters as part of the pagination
+10.
+Last Thoughts on Pagination and Holistic SEO
+What are the Wrong Implementations of Pagination in SEO?
+At the beginning of 2019, Google announced that the attributes “rel =prev” and “rel = next”, which were inserted in the <head> area of ​​the page, would no longer be taken into account. These were previously understood as a useful indication for search engines to recognize the paginated websites.
+And, it should be noted that Google has stopped using “rel = prev” and “rel = next” 4 years ago before the official statement for the Search Engine Optimization Community.
+Google Webmaster declares pagination no longer relevant for SEO for Google Search Engine.
+In the past, there were different strategies for dealing with paginated pages. Most of these were based on the intention that only the first page of paginated pages should appear in the search engine’s index. In online shops with very few articles, one wanted to direct the search engine to the article detail pages and not “distract” with the category pages. In the case of online shops with a large number of articles and frequent product range changes, the category pages are often more important than the product detail pages.
+The following things are often done wrong for Pagination in the Search Engine Optimization field:
+Put a canonical tag on page 2 and the following on page 1. The canonical tag is mainly intended for pages with almost identical content, not to define pagination.
+Put canonical on page 1 and combine it with the NOINDEX Meta Robots instruction. This is even worse than the previous example: Google has expressly said that in this constellation the NOINDEX configuration is inherited on page 1. This means that not only pages 2 (as requested) are not indexed, but the first page does not appear in the search results either.
+Incorrect use of “rel = prev” and “rel = next”. These instructions belong in the “
+<head>
+” area of ​​the HTML source code, not as an attribute in the link tags of the pagination links. You can do this, but it’s not the approach Google recommends. The assumption is that the information in the <head> can be parsed much more easily and quickly than attributes in “<a href>” tags.
+Why Canonical Tag shouldn’t be used for Pagination in SEO?
+Another known bug relates to the canonical tag related to paginated pages. There is still a persistent rumor in SEO circles that apart from the first page of a product category, all other pages (2, 3, 4, etc.) must contain a canonical tag with a reference to the first page. However, this overlooks the fact that a
+canonical tag
+is intended for websites with identical content and not to define pagination. Shop pages with pagination do not contain duplicate content as they show different products.
+A canonical tag of the paginated pages on the first page in combination with the noindex meta tag is worse than the previous example. In this constellation, the
+noindex
+configuration of the pagination is passed on to the first page. Not only are the pages with pagination not indexed, but the first page is also not displayed in the search results. Since the first website is an important category page, the consequences of this action are easy to understand.
+Why Paginated Content should be included in Sitemaps for SEO?
+As a common habit for some SEOs, paginated pages are not included in the
+sitemap
+. The background is that in an online shop the main page is indexed with an item listing and paginated pages have little added value in comparison. Since paginated content includes unique content and links for users and Search Engines, paginated content such as directory lists, category pages, or blog post lists should be included in the sitemaps.
+Why a Content Shouldn’t be Divided into Multiple Pages?
+News sites and some blog sites publish articles divided into multiple pages. According to Google, “content shouldn’t be served over different pages”, because it makes it harder to understand the content for the Search Engines while harms the user experience. Most of the content publishers’ main intent by dividing content over multiple pages is that acquiring more pageview for the ads revenue. But, this will eventually harm the Search Engine Rankings for Organic Performance while harming the website’s branding and reliability by disturbing the users.
+Thus, for protecting the content integrity, a content shouldn’t be divided into multiple pages.
+Why Repetitive and Duplicate Content Should be Avoided for Pagination SEO?
+In order to avoid
+duplicate content
+, any (SEO) text should only appear on the first component page. If this is also displayed on other pagination websites, the website operator creates a large number of pages with the same content. These are then downgraded by Google as thin content. And, any product, blog post, or paginated content element should only appear on one page, it shouldn’t be repeated. Another way to avoid repetitive and duplicate content for the pagination is that decreasing the boilerplate content while increasing the element count per page. If there is not enough paginated content element for the paginated web page, Google will start to “dilute” the paginated contents’ prominence and it will focus on “boilerplate content”.
+Also, increasing the paginated content element per paginated page will decrease the count of the paginated web page so that “click exploration path” will be shortened.
+Why “Noindex, Follow” shouldn’t be used?
+It is no longer a secret among SEOs: Google has confirmed that after a certain time the meta robots tag
+noindex, follow will be converted
+into a noindex,
+nofollow meta tag
+.
+“But if we see the noindex there for longer than we think this page really doesn’t want to be used in search so we will remove it completely. And then we won’t follow the links anyway. So in noindex and follow is essentially kind of the same as a noindex, nofollow. There’s no really big difference there in the long run. ” Source: seroundtable.com
+If your own pagination is set to
+noindex, follow
+must be clear that Google will no longer follow the links or the paginated pages after a certain time. The use of noindex, follow is therefore no longer appropriate.
+If you don’t want to watch the video, you can read the transcript below.
+So it’s kind of tricky with noindex. Which I think is somewhat of a misconception in general with an SEO community. In that with a noindex and follow it’s still the case that we see the noindex. Snd in the first step we say okay you don’t want this page shown in the search results. We’ll still keep it in our index, we just won’t show it and then we can follow those links. But if we see the noindex there for longer than we think this page really doesn’t want to be used in search so we will remove it completely. And then we won’t follow the links anyway. So in noindex and follow is essentially kind of the same as a noindex, nofollow. There’s no really big difference there in the long run.
+John Mueller, Google Webmaster Trend Analyst
+Why is a linear Pagination Bad for Users?
+Large online shops have more than 100 pagination pages. In this case, the focus must also be on the topic of usability. In this situation, it cannot really be assumed that users, let alone a bot, will actually reach all of these pages. A solution here would be: display middle and back paginated pages directly on the first page to make them more accessible. Above all, the Googlebot comes close to all websites with a low double-digit number.
+In many areas, there is no consensus among SEOs when it comes to pagination, and two approaches are often recommended. We would like to introduce these two to you as different positions in the next two paragraphs.
+SEO Arguments for Pagination
+In the SEO Community, there are different perspectives and opinions. Search Engine’s official guidelines and explanations are told. But, to understand and learn SEO, also SEO Community’s opinions and arguments should be known by a Holistic SEO. Thus, below we have curated different opinions and arguments from the SEO Community towards Pagination.
+What are the SEO Arguments that Against Pagination?
+In the SEO World, besides the correct Pagination practices, there are creative and different approaches to Pagination. One of these insights is to allow Search Engine to discover the website from product and service pages by moving internal links to page elements that are normally located in paginated category pages such as “product categories” or “blog post categories”.
+Thus, it is ensured that the most relevant product, service, or article page is scanned, not the website from the web pages that are gradually buried in click depth. According to the same view, paginated content pages should be “noindex” so that an improvement for “crawl budget” should also be provided. With this method, only the first page of the paginated content is indexed by Google, while the rest is not displayed in the search results. Below, you will see some E-commerce Websites that use similar methods such as using a canonical tag on paginated content for the first page or noindex tag for the paginated content.
+Zalando
+Otto
+About You (Canonical Tag is only set appropriately aboutyou.de)
+If we deepen Pagination’s influence on Crawl Efficiency. SEO also needs to keep an eye on the
+crawl budget
+. For example, if there are more than 1,000,000 websites on a domain, the Google bot usually cannot or will no longer crawl all web pages from the website. It is therefore important to control this accordingly. Otherwise new or more important websites will no longer be crawled and indexed, but paginated component pages that are classified as weak content. Furthermore, there are a number of arguments against pagination from the SEO Community below.
+With pagination, your own content is partially hidden behind hundreds of links. A clear signal for search engines that this is less relevant content. Then why should these pages ever rank well?
+If one of the component pages is temporarily unavailable during crawling, the Google Crawler can no longer access and index the following pages.
+With a high number of websites, the crawling process through the paginated pages is greatly slowed down and easily leads to not all pages being included.
+Another point is the use of the laboriously paginated pages: analysis tools often provide information that hardly anyone has ever looked at the last pages, as the click depth is generally very high.
+Now the entire necessity of technical pagination from an SEO perspective has been called into question. However, there is also a contrary position, which classifies pagination as relevant in its function of making websites accessible.
+Note: All of the arguments from this section which is againt Pagination has been already answered. This section has been written to show every perspective in the SEO Community for the Pagination.
+Position 2: Pagination makes products accessible to everyone
+Pagination makes product pages accessible to crawlers of Search Engines such as
+Googlebot
+. In many online shops, products are not linked anywhere else in the shop except on the second page. This is the only way for Googlebot, Bingbot, or other Search Engine crawlers to discover a big website’s products, services, or articles via internal links. If th
+
+[...truncated...]

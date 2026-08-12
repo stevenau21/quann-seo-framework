@@ -1,0 +1,134 @@
+Layout, Reflow Cost, and JavaScript Layout Thrashing Guideline - Holistic SEO
+Skip to content
+Layout refers to the geometrical position, size, and shape of the elements on a web page. The layout means that the web browser places the elements on a web page as size, position, and format. There is no difference between Layout and Reflow in terms of definition and function. The layout is used for Chrome, Safari, Internet Explorer and Microsoft Edge, while Reflow is used for Firefox.
+Layout Cost and Reflow Cost refer to the time and resource size a web browser spends while formatting, positioning, and painting web page elements in a web page. If, repeatedly, a web page element changes in terms of position, style, and painting, the previous Layout and Reflow operations will become invalid. This override increases the Reflow and Layout Cost, this is called Layout Thrashing or Synchronous Layout. JavaScript Layout Thrashing is an unnecessary increase in layout cost and reflow cost by using Javascript.
+This article will show the definition of Reflow, Layout and their costs, and Layout Thrashing concepts, along with the prevention methods.
+Contents of the Article
+show
+1.
+What is Layout Thrashing?
+1.1.
+What is JavaScript Layout Thrashing?
+2.
+What is the Layout Cost?
+2.1.
+What are the two basic elements that increase the Layout Cost?
+2.2.
+What Are The Methods To Reduce Layout Cost?
+3.
+Why Updating Layout without a Condition Should be Avoided?
+4.
+A Layout Thrashing Example
+5.
+How Many Types of Layout Thrashing Are There?
+6.
+How to Audit Layout Events and Cost?
+7.
+How to Analyze Layers of Web Page for Layout Cost?
+8.
+Last Thoughts on Layout Thrashing and Holistic SEO
+What is Layout Thrashing?
+Layout trashing is the refresh of the related web page element as size, shape, color, placement by overriding the previous style and layout events of a web page element with “recalculate style” and “layout” web browser events. The layout is performed by the web browser to composite the layers of the web page. A layout process is heavily affected by the DOM, CSSOM, and Rendering Tree. The used CSS Triggers, Animations and layer count, size affect the layout (reflow) cost. Layout Cost affects the importance and severity of the layout thrash. If the layout cost is high and the reflow event happened by overriding the previous style commands with no logical reason in terms of web page loading performance and page speed, the layout cost will increase the effect of the layout thrash.
+What is JavaScript Layout Thrashing?
+JavaScript layout thrashing is the layout thrashing that happens because of the JavaScript files that perform a redraw event on the web pages. After the web page is loaded or during the web page is being loaded, a javascript file can redraw or mutate the web page elements by creating a layout thrashing. To avoid JavaScript layout thrashing the DOM Mutation by JavaScript or changing the styled elements with JS repeadetly should be avoided.
+What is the Layout Cost?
+Layout Cost is the computation needs of the web browser while creating DOM, CSSOM, and Rendering Tree while shaping, positioning, and painting web page elements. Every CSS Trigger and CSS Property has a different layout cost, and the layout cost is heavily dependent on the web browser’s time. A Gecko, Blink, WebKit, EdgeHTML browser will produce different layout costs for different CSS Triggers. There are three different styling events, these are paint, composite, layout. After the layout operations by the web browser, the paint and composite styling events happen.
+What are the two basic elements that increase the Layout Cost?
+The two basic elements that increase the layout and reflow cost are listed below.
+Amount of the web page elements for layout.
+The complexity of the layout process
+What Are The Methods To Reduce Layout Cost?
+Below are the methods that can be used to reduce the Layout Cost.
+Decrease the Document Object Model (DOM) size.
+Use faster renderable CSS Properties.
+Use CSS Properties that cost less.
+Use Flexbox instead of floating.
+Use CSS Animations instead of positions for animation creation.
+Do not restyle big DOM Elements for the small changes.
+Not repetitively sculpt, paint, or position the same Web Page Element.
+Avoid forced synchronous layout.
+Use libraries like FastDOM to reduce the possible layout thrashing events.
+Why Updating Layout without a Condition Should be Avoided?
+When the layout of a web element of a web page is changed, the browser has to invalidate the layout action it previously performed. Activities of this type that create layout calculation and make differences such as “width”, “length”, “right”, “left”, “top”, “bottom” within the scope of “geometric properties” increase the cost of the layout. Once the DOM Tree has been created and the CSSOM has been completed, it is important that a browser does not change the layout anymore to avoid creating a CPU Bottleneck and optimizing the resource required to render the web page.
+Avoiding Layout Thrashing is necessary so that the Layout is not updated frequently and unnecessarily. Layout Thrashing increases the loading time of a web page, and negatively affects web page loading performance metrics such as
+Largest Contentful Paint
+and
+Time to Interactive
+.
+A Layout Thrashing Example
+An example of a web page layout and reflow thrashing is given in the code block below.
+<style>
+.box {
+width: 10px;
+height: 10px;
+background: #e5e5e5;
+}
+.box--expanded {
+width: 300px;
+height: 250px;
+background: #e4e4e4;
+}
+</style>
+<div class="box box--expanded"></div>
+In the example above, the “div” HTML element has been layout as “10 px width”, “10 px height”, “background color #e5e5e5” as the beginning. Than, the “div HTML element” has been layout as “300px width”, “250px height”, “background color #e4e4e4” as the beginning. Thus, the layout of the “HTML div element” has changed without any need and condition. In other words, the layout cost for the specific “div” element has been increased.
+How Many Types of Layout Thrashing Are There?
+There are two different types of Layout Trahing.
+Unconditional Layout Thrashing
+Conditional Layout Thrashing
+The main difference between Conditional and Unconditional Layout Thrashing is that someone experiences unnecessarily, without any user behavior or time-dependent condition. Conditional Layout Thrashing can be experienced depending on the behavior of the user such as “mouse up”, “hover”, “scroll up” or a certain period of time. Conditional Layout Thrashing does not pose a problem in terms of page load time performance and user experience.
+Conditional and Unconditional Layout Thrashing is similar to the definition of the concept of Layout Shifting. Just as Conditional Layout Thrashing is subject to a condition, it is experienced after an expected behavior by the user, Layout Shifting does not pose a problem when it is experienced after user behavior. Therefore, only unexpected layout shift events are included when calculating
+Cumulative Layout Shift
+.
+How to Audit Layout Events and Cost?
+To measure and audit the Layout Cost and Layout Thrashing, the Chrome Browser’s DevTools can be used. In the Performance section (Timeline with the old name), a user can record the browser’s CPU and GPU costs, web page loading process, and all of the event trees for analyzing. Below, you will see an example of the layout and rendering cost pie chart from Chrome DevTool’s Performance tab.
+In the Performance tab of the Google Chrome Browser, after performing a performance test, the user will see a summary chart that shows the percentages of the events that take time and create cost. “Rendering”, “Loading”, “Scripting”, “Painting”, “System”, “Idle” are the dimensions of the Summary Pie Chart for the Performance Report of Google Chrome. Rendering, Painting, and Scripting are related to the Layout events, but to see how they affect the recalculate style events, the user will need to click to the “Event Log” section.
+In the event log section, there are some “Recalculate Style” events, if you click one of these event’s source, Google Chrome will show the reason of the layout trashing reason within the Source tab.
+The marked line is changing a web page element’s size, shape, and location by changing its content. To prevent this particular layout thrash example, the element shouldn’t be refreshed or updated in terms of the layout without a necessary condition.
+How to Analyze Layers of Web Page for Layout Cost?
+Web Page Layers are the layers that composited after paint and style events by the web browser based on the DOM Tree. Analyzing Web Page Layers and Animations can help to decrease the layout cost. To refresh a small web page element’s position, restyling and compositing the entire document or a big DOM Parent element is not necessary. Thus, creating a useful layer profile is important to decrease the layout cost.
+Below, you can see a layout visualization by Chrome DevTools for a web page.
+In the example above, you can see the importance of DOM Tree and also CSSOM along with Rendering Tree for layout cost. By analyzing these layers’ structure, decreasing the layer count, or dividing some big layers to decrease the layout cost or layout thrashing can be done in terms of better web page loading performance and user experience.
+Last Thoughts on Layout Thrashing and Holistic SEO
+Layout Thrashing is an advanced concept for page speed, computation needs, and user experience. A slow web page can be crawled slower by the search engines and used by the users, thus cleaning a web page from layout thrashing examples will create a faster working web page for the users and search engine crawlers by helping the Search Engine Optimization. To prevent layout thrashing a developer or a Holistic SEO can use the web browser’s developer tools for debugging. Decreasing the layout cost, browser rendering optimization, and Layout thrashing is connected to the Holistic SEO because layout thrashing events can affect the user experience, conversion rate, indexing delay, and page speed metrics heavily. Diagnosing and solving layout thrashing events are important to improve the usability of the web page.
+The layout thrashing guideline will be updated in the light of new updates over time.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+2 thoughts on “Layout, Reflow Cost, and JavaScript Layout Thrashing Guideline”
+Waiting for update. Very interesting article.
+Reply
+Thank you, Roman. I will be updating and adding more information to the article by time.
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Layout, Reflow Cost, and JavaScript Layout Thrashing Guideline
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+TechSEO
+Use Apache Bench (AB) to Test a Website’s Se…
+TechSEO
+What is Pagination: Paginated Content and SEO Effe…
+0
+0
+2

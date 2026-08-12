@@ -1,0 +1,115 @@
+DPR HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The DPR HTTP Header device client hint request header contains the pixel ratio of the client device. The DPR HTTP Header Ratio indicates the number of physical device pixels required to represent each CSS pixel. The word “CSS pixel” refers to the CSS unit of absolute length PX, which is specified normatively as exactly 1/96th of an inch. The DPR HTTP Header is no longer recommended. However, it has been removed from the applicable web standards or it has been retained for compatibility purposes alone. There is only one value using the DPR HTTP Header. The value using the DPR HTTP Header is the “number”. The example of the DPR HTTP Header is written below.
+DPR: 2.0
+The DPR HTTP Header Request Header is seen above. In the article, the DPR HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is DPR HTTP Header?
+1.1.
+What is the Syntax of the DPR HTTP Header?
+1.2.
+What is the Directive of DPR HTTP Header?
+2.
+How to use DPR HTTP Header?
+2.1.
+Examples of DPR HTTP Header Use
+3.
+What is the Specification Document for DPR HTTP Header?
+4.
+What are the types of DPR HTTP Header?
+4.1.
+What are the similar HTTP Headers to the DPR HTTP Header?
+5.
+Which Browsers Support DPR HTTP Header?
+What is DPR HTTP Header?
+The pixel ratio of the client device is provided via the DPR HTTP Header device client hint request header. For every CSS pixel, there is a matching number of pixels on the actual device. Selecting image sources that have the right pixel density for a given screen is made easier with this tip. The x descriptors in the srcset attribute of the <img> src element have a similar purpose in allowing user agents to select a preferred picture.
+What is the Syntax of the DPR HTTP Header?
+The DPR HTTP Header has only one value in its syntax. The syntax using the DPR HTTP Header is written below.
+DPR: <number>
+What is the Directive of DPR HTTP Header?
+The DPR HTTP Header can only contain one directive. The number is the client device pixel ratio. An example directive for using the DPR HTTP Header is given below.
+DPR: 2.0
+Content-DPR: 2.0
+How to use DPR HTTP Header?
+The DPR HTTP Header device client hint request header is used to provide the pixel ratio of the client device. The DPR HTTP Header ratio represents the number of physical device pixels that correspond to each CSS pixel. The DPR HTTP Header comes in handy when choosing image sources that best match the pixel density of a screen. It is similar to the role that x descriptors play in the <img> srcset attribute, which allows user agents to select a preferred image. If a server chooses which resource to send in a response using the DPR HTTP Header, the response must include the Content-DPR header. If the value in Content-DPR differs from the value in the request’s DPR HTTP Header, the client must use the value in Content-DPR for layout. If the DPR HTTP Header appears multiple times in a message, the most recent occurrence is used.
+Examples of DPR HTTP Header Use
+The following is an example of how to use the DPR HTTP Header.
+For example, suppose a server must first opt-in to receive the DPR header by sending the response header Accept-CH with the directive DPR HTTP Header.
+Accept-CH: DPR
+The client may then send DPR HTTP Header to the server in subsequent requests.
+DPR: 2.0
+If a request with the DPR header (as shown above) is for an image resource, the server response must include the Content-DPR header as well.
+Content-DPR: 2.0
+What is the Specification Document for DPR HTTP Header?
+There is only one specification for the DPR HTTP Header which is the HTTP Client Hint. The HTTP Client Hint Article 3 mentions the DPR HTTP Header’s definition and uses. It also mentioned the DPR HTTP Header syntax and examples.
+What are the types of DPR HTTP Header?
+The DPR HTTP Header Types are listed below.
+The DPR HTTP Header is a Request Header HTTP Type because it contains additional information about the resource to be fetched or about the client making the request.
+The DPR HTTP Header is a Response HTTP Header HTTP Type because it contains additional information about the response, such as its location or the server that provided it.
+The DPR HTTP Header is a Representation Header HTTP Type because it contains information about the resource’s body, such as its MIME type or the encoding/compression used.
+What are the similar HTTP Headers to the DPR HTTP Header?
+There are other similar HTTP to the DPR HTTP Header. The examples are listed below.
+Content-DPR HTTP Header:
+In requests when the screen DPR client hint is used to select an image resource, the Content-DPR HTTP Header response header is utilized to confirm the picture device to pixel ratio. It is similar to the DPR HTT Header, which also contains pixel information.
+Device Memory HTTP Header:
+The Device-Memory HTTP Header is similar to the DRP HTTP Header. The
+Device Memory HTTP Header
+is a device client hint request header field that provides the client device’s approximate RAM capacity.
+Viewport-Width HTTP Header:
+The Viewport-Width HTTP Header is similar to the DPR HTTP Header. The
+Viewport-Width HTTP Header
+is a device client hint request header that specifies the viewport width of the client’s layout in CSS pixels. It is similar to the DPR HTT Header which also contains information about CSS Pixel.
+Width HTTP Header:
+The Width HTTP Header is similar to the DPR HTTP Header. The
+Width HTTP Header
+is a device client hint request header element that specifies the physical pixel width of the requested resource; the inherent size of a picture. It is similar to the DPR HTT Header, which also contains picture metadata.
+Which Browsers Support DPR HTTP Header?
+There are multiple browsers that support DPR HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the DPR HTTP Header.
+Edge Browser is compatible with the DPR HTTP Header.
+Opera Browser is compatible with the DPR HTTP Header.
+WebView Android Browser is compatible with the DPR HTTP Header.
+Chrome Android Browser is compatible with the DPR HTTP Header.
+Opera Android Browser is compatible with the DPR HTTP Header.
+Samsung Internet Browser is compatible with the DPR HTTP Header.
+You can see an image that shows the cross-browser compatibility of DPR HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+DPR HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Sec-WebSocket-Accept HTTP Header: Syntax, Directiv…
+TechSEO
+Digest HTTP Header: Syntax, Directive, Examples
+0
+0
+0

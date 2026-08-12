@@ -1,0 +1,105 @@
+Accept-Post HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Accept-Post HTTP Response Header signifies that the post is acceptable on the requested resource and approved document format. The Accept-Post HTTP Response header will mention one or more supported document/media types when sent as a Response to the unsupported file. When an unsupported document type is sent as an HTTP Post request to the web server, it will respond with a status code “415 Unsupported Media Type” and an Accept-Post HTTP response header. The Accept-Post HTTP Response Header is comparable to the Accept-Patch Response header. Suppose the operation does not modify the resource identified by the Request-URI in a foreseen way. In that case, Accept-Post HTTP Header should be considered instead of the Accept-Patch HTTP Header or Accept-Put HTTP headers.
+Contents of the Article
+show
+1.
+What is Accept-Post HTTP Header?
+1.1.
+What is the Syntax of Accept-Post HTTP Header?
+1.2.
+What is the Directive of Accept-Post HTTP Header?
+2.
+How to use Accept-Post HTTP Header?
+2.1.
+Examples of Accept-Post HTTP Header Use.
+3.
+What are the Specification Documents for Accept-Post HTTP Header?
+3.1.
+What are the similar HTTP Headers to the Accept-Post HTTP Header?
+What is Accept-Post HTTP Header?
+Accept-Post is an HTTP Response Header that shows which specific media types will the web server support for HTTP Post requests and which are not. If the particular HTTP Post request is an unsupported format, the web server will send a “415 Unsupported Media Type” error message. A response such as this will also include an Accept-Post HTTP response header to inform the client what Post document/media formats are supported.
+What is the Syntax of Accept-Post HTTP Header?
+The syntax of an Accept-Post HTTP Response Header uses the ABNF (Augmented Backus-Naur Form) syntax defined in RFC7231 (Section 1.2). The Accept-Post header includes a comma-separated list of media or document ranges with parameters (optional). The document format specified in the header tells that the requested format is validated on Post requests to the resource identified by the Request-URI. The syntax is demonstrated below.
+Accept: <MIME_type>/<MIME_subtype>
+Accept: <MIME_type>/*
+Accept: */*
+An example of the above syntax is below.
+Accept-Post: application/example, text/example
+Accept-Post: image/webp
+Accept-Post: */*
+What is the Directive of Accept-Post HTTP Header?
+The directives of the Accept-Post HTTP Header are below.
+<MIME_type> specifies the type of media/file (such as video or text)
+<MIME_subtype> identifies the specific type of data of the MIME type represents
+How to use Accept-Post HTTP Header?
+The usage of an Accept-Post HTTP Response Header is sent to the client with the confirmation from the web server if the document format in an HTTP Post request is acceptable or not. An error status code is being sent together with the Accept-Post HTTP Response Header if the document format submitted by the client to the web server was not acceptable. An example of the Accept-Post HTTP Response Header and HTTP Post request is below.
+The Atom Publishing Protocol (AtomPub) determines a way of interacting with collections members, with the use of representations using the Atom syntax. AtomPub permits clients to create new collection members with the use of an HTTP Post request. The HTTP Post request is sent to the collection URI (Uniform Resource Identifier). AtomPub web servers can limit the acceptable document types in the HTTP post requests and are listed in an “AtomPub Service Document”. The Accept-Post HTTP response header field allows an AtomPub webserver to show its supported document formats/ media types in interactions with the collection resource, there will be no need for the client to locate and interact with the “AtomPub Service Document”. This improves the visibility of the “Post to Create” model of AtomPub and makes it easier for clients to find out about the abilities of a specific collection.
+Examples of Accept-Post HTTP Header Use.
+An example of an Accept-Post HTTP Response Header usage is explained below.
+The LDP (Linked Data Platform) defines a group of “Best practices” and a “Simple Approach” for a read-write LDA (Linked Data Architecture), using HTTP access to Web resources that define their state utilizing the RDF data model.  LDP defines LDP Containers (LDPC) and LDP Resources (LDPR).  Combining new LDPRs to an LDPC is possible by sending an HTTP Post request to the LDPC.  An LDPC can check the document types it accepts for these Post requests and must show its support for accepted document types by providing an HTTP Response using the Accept-Post HTTP response header. The demonstration below is container information with three members.
+The request to the webserver is below.
+GET /c1/ HTTP/1.1
+Host: example.org
+Accept: text/turtle
+The response to the client is below.
+HTTP/1.1 200 OK
+Content-Type: text/turtle
+Date: Thu, 13 Jan 2022 18:26:59 GMT
+ETag: "9ceeb0784220148bfe98b738d5bb6d12"
+Accept-Post: text/turtle, application/ld+json
+Allow: POST,GET,OPTIONS,HEAD,PUT
+Link: <http://www.w3.org/ns/ldp#BasicContainer>; rel="type",
+<http://www.w3.org/ns/ldp#Resource>; rel="type"
+Transfer-Encoding: chunked
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix ldp: <http://www.w3.org/ns/ldp#>.
+<http://example.org/c1/>
+a ldp:BasicContainer;
+dcterms:title "A simple container";
+ldp:contains <r1>, <r2>, <r3>.
+What are the Specification Documents for Accept-Post HTTP Header?
+The specification documents for an Accept-Post HTTP Response Header are below.
+RFC5789: The RFC5789 specification introduces the new HTTP response header Accept-Post. The specifications indicate how the Accept-Post HTTP header is used to determine the acceptable media formats on Post requests. The Accept-Post HTTP header is created based on the Accept-Patch header, defined in RFC5789.
+RFC7231: The RFC7231 is defined in sections 1.2 and 5.3.2, where ABNF syntax used for Accept-Post HTTP Response Header is defined.  The ABNF (Augmented Backus-Naur Form) syntax defined in RFC7231 is below.
+Accept-Post = "Accept-Post" ":" # media-range
+What are the similar HTTP Headers to the Accept-Post HTTP Header?
+The similar HTTP headers of an Accept-Post HTTP Response Header are the Accept-Patch HTTP header and the Accept-Put HTTP header. The Accept-Patch HTTP header is similar to the Accept-Post HTTP header. The definition of similar headers for the Accept-Post HTTP response header is below.
+The Accept-Patch HTTP header shows the acceptable media types. In contrast, the Accept-Post HTTP header makes use of the “media range concept” of the HTTP Accept header and thus allows media type “wildcards” media type as well.
+The Accept-Put HTTP header only allows a complete replacement of the whole document, unlike the Accept-Patch and Accept-Post HTTP headers that allow the modification of an existing HTTP resource.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Accept-Post HTTP Header: Syntax, Directive, Examples
+by Koray Tuğberk GÜBÜR
+time to read: 4 min
+TechSEO
+Cookie2 HTTP Header: Syntax, Directive, Examples
+TechSEO
+Public-Key-Pins-Report-Only: Syntax, Directive, Ex…
+0
+0
+0

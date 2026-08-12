@@ -1,0 +1,173 @@
+Nofollow Tag Guideline: What is Nofollow Link? - Holistic SEO
+Skip to content
+The nofollow tag is a hint to Search Engine Crawlers which outbound links should not be followed. Nofollow links show how much a content publisher trusts URLs from other websites that it cites as a source. Also, nofollowed links cannot be used in the Search Engine deems the nofollow tag used correctly for PageRank flow. The “rel=nofollow” is also an HTML tag that has been created 14 years ago.
+With the acceptance of the nofollow attribute as a hint by Google, “user-generated”, “sponsored” options have been added. The “sponsored” attribute is used for advertising links purchased with money. Used for links in user-generated content, in the format “user-generated” “ugc”.
+The nofollow attribute has ceased to be a command and turned into an Indian for Googlebot because of the webmasters’ focus on PageRank Stuffing or PageRank sculpting in their outbound links. The regular marking of all outbound links as nofollow by every content publisher on the web made it difficult for Google to understand the nature of the links. Therefore, while Google brought values ​​such as “sponsored”, “ugc” next to the “nofollow” attribute, it started to accept the “nofollow” attribute as a hint.
+Contents of the Article
+show
+1.
+What are Nofollow Links?
+2.
+What is the Difference Between Followed and Nofollowed Links in HTML Source Code?
+3.
+Nofollow, UGC and Sponsored Differences
+4.
+When is Nofollow Attribute Introduced?
+4.1.
+How Search Engines Interpret the Nofollow Tag
+5.
+Why did Google Decide to Use Nofollow as a Hint instead of Command for the Googlebot?
+5.1.
+Improvement of Natural Language Processing and Nofollow Tag’s Status
+5.2.
+Evergreen Googlebot and the Nofollow Attribute’s Status
+5.3.
+Myths, Researches, Possibly Wrong and Correct Implementation of SEOs for Nofollow Tags
+6.
+Did Nofollow Tag as a Hint for Googlebot Affected All Web?
+7.
+Why is Nofollow Important?
+8.
+Do Nofollow Links Help for SEO?
+9.
+How to Audit and Behave Nofollow Links in terms of SEO?
+10.
+Are YouTube links nofollow?
+11.
+Are Linkedin Links Nofollow?
+12.
+Are the Twitter Links Nofollow?
+13.
+Are Facebook Links Nofollow?
+14.
+How do I add a nofollow to the Amazon affiliate link?
+15.
+Should internal links be nofollow?
+16.
+How to Check Nofollow URLs on a Web Site
+16.1.
+1. Use Google Chrome DevTools for Checking the URL’s Nofollow Attribute
+16.2.
+2. Use Chrome and Firefox Extensions and Addons for Checking Nofollow Lİnks
+16.3.
+3. Use SEO Crawlers for Checking the Nofollow URLs in a Website
+16.4.
+4. Use Python and Scraping for Nofollowed External or Internal URLs Extracting
+17.
+Last Thoughts on Holistic SEO and Nofollowed Links
+What are Nofollow Links?
+Nofollow links are the links that used with “rel=’nofollow'” or “ugc” and “sponsored” variations so that the Search Engine Crawler continues to stay on the same domain and the
+PageRank
+of the web page doesn’t flow to another web page from another domain. PageRank Sculpting is an old term in SEO, also Google doesn’t crawl the nofollowed links according to the official Google Statements.
+What is the Difference Between Followed and Nofollowed Links in HTML Source Code?
+On the web page, while reading an article or scrolling to the bottom difference between a nofollowed and followed link can’t be understood since it is a hint on the background of the web page. Below, you will see a nofollowed link with an anchor text.
+<a href="https://www.example.com/" rel="nofollow"</a>
+The “rel=’nofollow'” addon in the “<a></a>”
+HTML
+Tag here means that the Search Engine Crawler shouldn’t use this link for crawling or connecting this web page to another one in the link graph for any kind of PageRank flow and relevancy.
+Below, you will see an example of dofollow link.
+<a href="https://www.example.com/" rel="dofollow"</a>
+“rel=’dofollow'” links are the opposite of the “nofollow” links. Dofollow links are the default value of any link in the HTML “<a></a>” tags, using them specifically is not necessary.
+Nofollow, UGC and Sponsored Differences
+Nofollow, ugc and sponsored attributes can be used for preventing a link to relate your web site to another web site, crawling the linked web page, and flowing the PageRank. There are some semantic and purpose-oriented differences between ugc, sponsored, and nofollow attributes. At the table below, you may understand the differences between nofollow, sponsored, and ugc and see when to use which one of these.
+rel
+Value
+Description
+rel="sponsored"
+rel=”sponsored” should be used for only the sponsored, paid, and advertisement links that are being added for marketing purposes.
+If you want to prevent the “PageRank” flow to another webpage, you may choose to use “rel=’sponsored'” instead of nofollow.
+Since nofollow is a hint, it still might flow PageRank, unlike a paid link. It is definite that the “sponsored” attribute will cut the PageRank flow.
+rel="ugc"
+User-Generated Content Links such as in forum posts, user comments, member blog posts should be used with the “ugc” attribute. It is not determined that what is the weight of a user-generated link over a link on the main content of the page or to another section of the same page, but giving social context to a link can create a more social proof signal or crowdsource signal for the targeted web page and may flow PageRank in some value.
+rel="nofollow"
+According to the Google Guideline and official Google statements, the nofollow attribute should be used if the “sponsored” and “ugc” can’t be used. Also, using nofollow without sponsored and ugc values are accepted by Google.
+Multiple values
+According to the Google Official Statements and Guideline, using multiple values for a link is possible. So, a link can be a sponsored, ugc at the same time, and also using these two with nofollow is accepted. You can separate multiple nofollow attributes with space or comma. Below, you will see two examples.
+<a href="https://example.com/example-content" rel="ugc,sponsored nofollow">
+Example Anchor Text
+</a>
+<a href="https://example.com/example-content" rel="ugc,nofollow">
+Example Anchor Text
+</a>
+cheese.
+Differences between Nofollow, Sponsored and UGC Attributes along with their effects on links and usage styles.
+When is Nofollow Attribute Introduced?
+Google has introduced the Nofollow Attribute in 2005 with the explanation below.
+If you’re a blogger (or a blog reader), you’re painfully familiar with people who try to raise their own websites’ search engine rankings by submitting linked blog comments like “Visit my discount pharmaceuticals site.” This is called comment spam, we don’t like it either, and we’ve been testing a new tag that blocks it. From now on, when Google sees the attribute (rel=“nofollow”) on hyperlinks, those links won’t get any credit when we rank websites in our search results. This isn’t a negative vote for the site where the comment was posted; it’s just a way to make sure that spammers get no benefit from abusing public areas like blog comments, trackbacks, and referrer lists.
+A quote from Google’s official guideline about Nofollow Attribute and Comment spam is below.
+If you can’t or don’t want to vouch for the content of pages you link to from your site — for example, untrusted user comments or guestbook entries — you should nofollow those links.
+This can discourage spammers from targeting your site and will help keep your site from inadvertently passing PageRank to bad neighborhoods on the web.
+Google Webmaster Guideline
+Nofollow Attribute has been introduced against the comment spam. Other Search Engines such as Yahoo and Bing followed Google’s decision after this announcement. But all of these Search Engines have interpreted the nofollow tag differently.
+How Search Engines Interpret the Nofollow Tag
+Google’s understanding of the nofollow attribute has changed over the years. It started against comment spam then it continued with the source links and paid links along with an excessive amount of links… But during these years, every Search Engine had its own understanding of the nofollow attribute. Below, you will see which search engine does what for the nofollow tag.
+rel=”nofollow” Action
+Google
+Yahoo!
+Bing
+Ask.com
+Baidu
+Uses the link for ranking
+No (Might use if the algorithm decides)
+No
+No
+N/A
+No
+Follows the link
+No (Might use if the algorithm decides)
+Yes
+N/A
+No
+N/A
+Indexes the “linked to” page
+No (Might use if the algorithm decides)
+Yes
+No
+No
+N/A
+Shows the existence of the link
+Only for a previously indexed page
+Yes
+Yes
+Yes
+N/A
+In results pages for anchor text
+Only for a previously indexed page
+Yes
+Only for a previously indexed page
+Yes
+N/A
+Nofollow Attribute Interpretation for different Search Engines including Google and Bing.
+Why did Google Decide to Use Nofollow as a Hint instead of Command for the Googlebot?
+Google decided to use the nofollow attribute as a hint rather than a command because the vast majority of webmasters mark all outgoing links with nofollow without any valid reason for users. The main purpose here was to focus on a point that has nothing to do with User Experience, such as PageRank, rather than aiming at user benefit. Unnecessarily marking all links as nofollow made it difficult to understand the nature of the links, so Google changed their understanding on this point.
+The following points were instrumental in treating the nofollow attribute as a hint.
+Improvement of Natural Language Processing and Nofollow Tag’s Status
+With the development of Google, Machine Learning, and Natural Language Processing algorithms, it has begun to understand what words mean, whether users’ comments have a sense of humor, and which article is written by a specialist. With Microsoft Bing following Natural Language Processing (NLP) algorithms, there is a competition between Google and Bing to improve search results with NLP and Machine Learning.
+Google’s ability to distinguish the meanings in comments written by people, especially the ability to better understand and interpret links in user-generated comments and content, prepared the birth of the “ugc” attribute.
+Evergreen Googlebot and the Nofollow Attribute’s Status
+It has enabled
+Googlebot
+, which is the general name given to Google Crawlers, to render Javascript and analyze the entire view on the web pages and to distinguish between the page sections and the ad spaces within the page. Being able to better interpret both the language used and the visuals used has paved the way for Google to develop its algorithm by recognizing the “nofollow” attribute as a hint.
+Myths, Researches, Possibly Wrong and Correct Implementation of SEOs for Nofollow Tags
+Also, webmasters have used nofollow tags out of the context. Google has invented the nofollow attribute for preventing spam but webmasters used it for sculpting the PageRank. And, some webmasters used an excessive amount of dofollow outbound links so that Google thinks that they are linking other sites naturally, without having any concern about the PageRank level of the web page. To prevent these types of myths and unnecessary practices in the industry of SEO, Google has decided to change the nofollow tag’s meaning and rules.
+Also, some SEOs already believed that nofollow links have weight on crawling frequency along with PageRank and authority of a web site on a given topic with a relevant link from a quality web page. Some SEOs believed that if a website has only nofollow links, Google will ignore it and some researches with outbound links with and without nofollow showed that there are multiple levels of correlations between rankings and nofollow and dofollow links. Thus, after the 15 years, both SEOs and the Search Engine’s itself has decided to move on and created a more ambiguous but also natural environment for nofollow tags.
+Did Nofollow Tag as a Hint for Googlebot Affected All Web?
+Google Webmaster Trend Analyst John Mueller said on the English Webmaster Help Forums that the Google Development Team performed experiments on the nofollow attribute. Even if no information was given about the experiments the Google Development Team performed on the nofollow attribute, there was no major ranking change or Google Dance after nofollow was deemed a hint. Thus assuming that the relevant changes were made in a controlled manner and experimentally affected a small portion of the web is possible because there is no opposite explanation.
+Why is Nofollow Important?
+Nofollow attribute is important because Search Engines usually follow, crawl and flow PageRank for the followed links, unlike nofollow links. Nofollow links can’t be used for relating two web pages to each other or categorizing the web page with other nofollowed links. Since Google changed the nofollow attribute’s meaning for the Googlebot, we assume that if the Nofollow attribute used in place, it will work properly.
+Nofollow distribution example for different links from the same source.
+Do Nofollow Links Help for SEO?
+Yes, Google is a Hypertextual Search Engine. That is, it discovers web pages through links. Can understand the subject and quality of a web page through links. Since Nofollow Attribute is now a hint, Googlebot may decide to follow a nofollowed link and include it in the ranking calculation. Also, it helps for diversifying the backlink profile of a website with a more natural distribution.
+For the first time years ago, Matt Cutts had the following sentence on how nofollow can influence PageRank flow through links.
+So what happens when you have a page with “ten PageRank points” and ten outgoing links, and five of those links are nofollowed?
+[…]
+Originally, the five links without nofollow would have flowed two points of PageRank each […] More than a year ago,
+Google changed how the PageRank flows so that the five links without nofollow would flow one point of PageRank each.
+Matt Cutts
+Related Read Suggestion:
+What is Link Juice?
+What is the hreflang tag?
+How to Audit and Behave Nofollow Links in terms of SEO?
+Various Off-
+
+[...truncated...]

@@ -1,0 +1,89 @@
+HTML <b> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <b> HTML Tag specifies a text that look bold, but the <b> HTML Tag does not convey any semantic information to the text. The <b> HTML Tag must not be mystify with the HTML <strong> HTML Tag, which emphasizes text with a lot of weight. The <b> HTML Tag element is utilized to direct the reader’s interest to the contents of the element, which is not otherwise given special consideration in the HTML document. The <b> HTML Tag is part of the Formatting HTML category in HTML Element Reference. The attributes of the <b> HTML Tag are global and event attributes.
+<b> code block example to learn how it works is given below.
+<b>bold text applied here</b>
+The second example usage of the “<b>” code block example is given below.
+<p>The <b>Samsung Galaxy S22</b> surpassed the <b> iPhone 13 pro Max</b> Even so, we urge to get both.</p>
+Contents of the Article
+show
+1.
+What is <b> HTML Tag?
+2.
+How to Use <b> HTML Tag?
+2.1.
+Example Usage of <b> HTML Tag?
+3.
+What are the Attributes of <b> HTML Tag?
+4.
+What is the Default CSS Setting for <b> HTML Tag?
+5.
+What are the Related other HTML Tags to <b>?
+What is <b> HTML Tag?
+The <b> HTML Tag is utilized to direct the viewer’s interest to elements whose contents are not otherwise given special consideration. The <b> HTML Tag was previously referred to as the Boldface element, and many browsers continue to render the text in boldface. However, users should avoid using <b> to style text. Instead, use the CSS font-weight attribute to generate boldface text or the <strong> element to signal that content is of particular importance.
+How to Use <b> HTML Tag?
+To use the <b> HTML Tag, the web developers should write the <b></b> with the phrase to be bold in between the start and the end tags just as it should with the majority of other tags. Although the tag lacks local attributes, it can be used with any of the global or event content attributes.
+Example Usage of <b> HTML Tag?
+The following examples of usage of <b> HTML Tag are given below.
+<p>The <b>Caffe Latte</b> edged out the <b> Coffee Macchiato</b> however, it has the same volume of milk since it is poured into the very same container.</p>
+<p>The <b>Jollibee</b> edged out the <b>Mcdonald</b> slightly with their chicken meal, although it is suggested to buy both.</p>
+What are the Attributes of <b> HTML Tag?
+There are multiple attributes for the <b> HTML Tag. The following attributes are listed below.
+Global Attributes: The <b> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <b> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <b> HTML Tag?
+The following is the Default CSS Setting for the <b> HTML Tag.
+b {
+}
+What are the Related other HTML Tags to <b>?
+The other related HTML Tags to the <b> HTML Tag are listed below.
+<bdi> HTML Tag: The
+<bdi>
+HTML Tag and <b> HTML Tag are related because they are both formatting HTML Tags.The <bdi> HTML Tag separates a section of text from the rest so that it can be formatted differently.
+<u> HTML Tag: The
+<u>
+HTML Tag and <b> HTML Tag are related because they are both formatting HTML Tag. The <u> HTML Tags specifies that some text is not articulated and is formatted differently from typical text.
+<template> HTML Tag: The <template> HTML Tag and <b> HTML Tag are related because they are both formatting HTML Tags. The
+<template>
+HTML Tag specifies that when the page loads, the container defines what content should be hidden.
+<samp> HTML Tag: The
+<samp>
+HTML Tag and <b> HTML Tag are related because they are both formatting HTML Tags. The <samp> HTML Tag defines  a computer program’s sample output.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <b> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <abbr> Tag Definition, Usage and Exampl…
+TechSEO
+HTML <embed> Tag Definition, Usage and Examp…
+0
+0
+0

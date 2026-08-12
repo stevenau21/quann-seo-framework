@@ -1,0 +1,192 @@
+Video Sitemap: Ultimate Guideline for SEOs - Holistic SEO
+Skip to content
+A video sitemap is a basis for providing Google with necessary information about video content. The video sitemap is an XML file and contains the metadata of a video, including the title, description, length, and source of your videos. But why is a video sitemap important? Video content can be recognized and indexed faster by
+Googlebot
+Video through a video sitemap. Google also recommends labeling video content on a website with the appropriate markup according to schema.org.
+Related guidelines for SEO and Sitemaps:
+What is an XML Sitemap?
+What is an Image Sitemap?
+What is a News Sitemap?
+What is an HTML Sitemap?
+How to Submit a Sitemap to the Search Engine?
+Contents of the Article
+show
+1.
+Guideline for Video Sitemap
+2.
+Contents of a Video XML sitemap
+3.
+Submit the video sitemap to the webmaster tools
+4.
+Example of a Video Sitemap
+5.
+What are the Meanings of Tags in Video Sitemaps?
+6.
+Schema Mark Up Usage and Videos
+7.
+Last Thoughts on Video Sitemap and Video SEO
+Guideline for Video Sitemap
+A separate video sitemap can be created or also videos can be added into a regular sitemap.
+More than one video can be added to the video sitemap from one URL. If there are two videos in web pages, both of those videos should be placed into the same URLs’ <url> tag. You may see an example below:
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://www.example.com</loc>
+<video>https://www.example.com/video.mp4</video>
+<video>https://www.example.com/video-1.mp4</video>
+</url>
+</urlset>
+<loc>
+Only the relevant videos to the main content can be added to the sitemap. If it is a small and minor video for design, it shouldn’t be in a sitemap.
+Video Sitemaps have special tags for themselves like in Image Sitemaps. Using those tags give more relevancy and clarity for the Search Engine and they help for improving the video search performance for the web site. A web site owner should try to use all of those tags in a decent logic.
+Try to write a better descriptive text for the videos into the sitemap. If the descriptive text on the sitemap is not good enough, Google may choose to use it on the web page. Also, a Holistic SEO should use those texts in a semantic and consistent order with each other so that Google may not consume its crawl and evaluation budget on those things.
+Remember, any kind of sitemap is not a guarantee for indexing the content. Only the relevant, quality and unique content can be indexed by Search Engines. Crawl Efficiency and Crawl Budget Improvements help Search Engines in this context.
+If there is not a video on the URL which is specified by the web site owner, the Search Engine will ignore the URL. Those kinds of errors can be seen in the Google Search Console, Coverage Report.
+Every video sitemap can have only 50.000 videos. If there are more than 50.000 videos in a web site, multiple video sitemaps can be used with a sitemap index file.
+Every video sitemap can only be 50mb in size max. If there are lots of video sitemap tags in a video sitemap, it can be 50MB without 50.000 videos in it. Using video sitemap tags carefully can be more important in such situations.
+Search Engine should be able to reach out to the video content’s source code. To provide this, the video player source can’t be unreachable for Googlebot-video or other Search Engine Crawlers. Without reaching the source code, the Search Engine can’t index the video content. Also, there shouldn’t be a login process to reach videos.
+To prevent the spammers who are imitating the Googlebot, you can perform a DNS Reverse Look Up process with your log files. But even if there is an overload on your server, you shouldn’t block the Googlebot, you can decrease the crawl rate via Google Search Console.
+Like in Video Source Code, Video Content, video hosting web page shouldn’t be blocked by the robots.txt file.
+Be sure that the information in the video sitemap and the information for the video on the web page can verify each other. If there is wrong information in the video sitemap, it can’t be taken as a crawling, rendering, and indexing guide by Google, after a while, Google may decrease the crawl frequency of the sitemap.
+Like in image sitemaps, via a Content Delivery Network, video content can be served. In this case, CDN Domain has to be verified in Google Search Console. Only those kinds of external domains can have a place in another domain’s video sitemap.
+Contents of a Video XML sitemap
+For each video in the XML sitemap, at least the following information must be provided so that it can be displayed in the search results:
+<video: video>: includes all information about the video
+<video: title>: title of the video; should match the title tag of the page
+<video: description>: description; should match the page’s meta description
+<loc>: URL of the page on which the video is played
+<video: thumbnail_loc>: URL of the image for the thumbnail (a high-resolution image with up to 1920 × 1080 pixels)
+URL with the raw data of the video (<video: content_loc>) or the URL to the Flash Player for the video (<video: player_loc>)
+The following information is also possible and useful:
+<video: duration>: Duration of the video in seconds
+<video: expiration_date>: Date from which the video is no longer available.
+Optionally, additional tags can be used. Regardless of the file format, it must be possible to access all videos via https. Google can recognize and crawl videos in the following file types:
+Flash SWF objects
+.mpg
+.mpeg
+.mp4
+.mov
+.wmv
+.asf
+.avi
+.ra
+.R.A.M
+.rm
+.flv
+Metafiles whose sources must be downloaded via streaming protocols are not supported.
+Submit the video sitemap to the webmaster tools
+After creating the sitemap, it makes sense to submit it to the Google and Bing webmaster tools in order to inform the search engines. After the sitemap has been crawled, any errors are reported.
+If there is more than one XML sitemap, they do not all have to be submitted individually. It is sufficient to create an XML sitemap index file and enter it in the webmaster tools. This index file is structured like a normal XML sitemap, but contains the following XML tags:
+<sitemapindex>: parent tag that includes the file.
+<sitemap>: is subordinate to the <sitemapindex> tag and is superior to every XML sitemap contained in the index file.
+<loc>: is subordinate to the <sitemap> tag and specifies the location of the respective XML sitemap.
+<lastmod>: optional day indicating the date of the last change.
+Example of a Video Sitemap
+You may find an example of video sitemap below:
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+<loc>http://www.holisticseo.digital/videos/video-1</loc>
+<video:video>
+<video:thumbnail_loc>http://www.holisticseo.digital/thumbnail-images/image-1</video:thumbnail_loc>
+<video:title>Will Google Indexing API Kill SEO?</video:title>
+<video:description>Is it time to learn Front-end and change your Job?</video:description>
+<video:content_loc>
+http://videos.videoplayer.com/holistic-seo-digital/video-1.mp4</video:content_loc>
+<video:player_loc>
+http://videos.videoplayer.com/holistic-seo-digital/videoplayer.php?video=123</video:player_loc>
+<video:duration>45000</video:duration>
+<video:expiration_date>2026-10-06T12:23:20+03:00</video:expiration_date>
+<video:rating>5.0</video:rating>
+<video:view_count>99999999</video:view_count>
+<video:publication_date>2022-02-06T19:10:20+08:00</video:publication_date>
+<video:family_friendly>yes</video:family_friendly>
+<video:restriction relationship="allow">IE GB US CA TR</video:restriction>
+<video:price currency="EUR">0.1</video:price>
+<video:requires_subscription>no</video:requires_subscription>
+<video:uploader
+info="https://www.holisticseo.digital/star-authors/holistic-seo-number-99">Number99
+</video:uploader>
+<video:live>no</video:live>
+</video:video>
+</url>
+</urlset>
+Here, we have a video hosting URL which is “http://www.holisticseo.digital/videos/video-1”. Also, we have a thumbnail URL, video title, description, and video content’s URL along with, video player’s URL, expiration date, duration information, publication date, uploader information, rating, and more. All of that information can make Google’s job easier to gather all of that information about a single web page asset.
+Also, we have XML Name Space (xmlns) as “xmlns:video=”http://www.google.com/schemas/sitemap-video/1.1”. It shows our video sitemap’s version and its structure along with the context. If we would use a pure video sitemap instead of inserting a video into a regular sitemap, the “xmlns=”http://www.sitemaps.org/schemas/sitemap/0.9” XML Name Space and URL sections would be missing.
+What are the Meanings of Tags in Video Sitemaps?
+Tag
+Required?
+Description
+<url>
+Required
+It is the tag for showing the URL-based information in normal sitemaps.
+<loc>
+Required
+It shows the location of the URL’s content. It can be used in the same context with regular sitemaps for video sitemaps. If there is more than one video in a URL, multiple video tags can be used for every one of them. Also, this URL is the hosting of the videos, so users will watch the videos in the same URL.
+<video:video>
+Required
+It includes all the information which is related to the video
+.
+<video:thumbnail_loc>
+Required
+Shows the location of the video thumbnail image.
+<video:title>
+Required
+It includes the video title of the video. All HTML Entities should be used in CData Blocks. Video titles should be the same as the title on the web page.
+<video:description>
+Required
+It can be 2048 characters at max. Like in Video Title, all HTML Entities should be escaped with CDATA Blocks. It also should be the same as the description on the web page.
+<video:content_loc>
+Required: either
+video:content_loc
+or
+video:player_loc
+Flash and HTML Format for video content is not suggested. HTML is not being supported by Google and Flash is not being supported by Mobile Platforms. and so maybe indexed less well. This is not the URL for the hosting page, but URL for the video’s itself. This has the same function with
+VideoObject.contentUrl
+in structured data.
+Best practice:
+If your server has overload issues, be sure that you have let Googlebot access the video content via DNS Reverse Look Up.
+<video:player_loc>
+Required: either
+video:content_loc
+or
+video:player_loc
+This is the URL for the video player itself. Usually, this information includes the source attribute of the video embed tag. Equivalent of <video:player_loc> in structured data is VideoObject.embedUrl.  It also has some attributes such as allow_embed. Only “yes” or “no” answer can be given to “allow_embed” attribute. If it is yes, it means that Google can index the video in video search results.
+<video:duration>
+Recommended
+It is the duration of the video content.
+<video:expiration_date>
+Recommended when applicable
+After this date, the video content can’t be reachable on the internet. If there is no expiration date, this tag shouldn’t be used in a video sitemap. The date should be in the W3C Date Format. If this value exist in a video sitemap, Google won’t show the video content after the expiration date. YYYY-MM-DD  or complete YYYY-MD-DDThh:mm:ss+TZD formats are supported, such as 2022-09-21T12:10:10+02:04.
+<video:rating>
+Optional
+This shows the rating result of the video content. It has to be between 0.0 and 5.0 in float format.
+<video:view_count>
+Optional
+The number of times the video has been viewed.
+<video:publication_date>
+Optional
+It shows the publication date of the video. The date should be in the W3C Date Format. Supported formats are YYY-MD-DD or complete YYYY-MD-DDThh:mm:ss+TZD formats are supported, such as 2023-02-20T11:05:00+01:02.
+<video:family_friendly>
+Optional
+yes
+(or omitted) if the video can be available with SafeSearch on.
+no
+if the video should be available only with SafeSearch off.
+<video:restriction>
+Optional
+<video:restriction> is for restricting the video from specific areas. Every country code should be used in ISO 3166 Format. Every video can have only one restriction tag. If there is not a <video:restriction> tag in the video sitemap, Google will assume that there is no restriction. This restriction tag only affects the search results but doesn’t prevent the user to reach to the video content.
+There is also an attribute for <video:restriction> tag. It is “relationship[allow/deny]”. If allow is used, the listed countries will be perceived as non-restricted, if deny is used, the listed countries will be perceived as restricted by Googlebot-video. Example: <video:restriction relationship=”allow”>US, FR</video:restriction>
+<video:platform>
+Optional
+<video:platform> tag is for restricting the platforms from showing the video content. Like in <video:restriction>, for <video:platform> we have relationship[deny/allow] attribute. A web site owner can prevent Search Engines from showing the video content from specific platforms such as mobile, tv, or web. Tv is for Television such as GoogleTV, mobile is for mobile browsers and the web is for desktop web searches.
+Example of use: <video:platform relationship=”allow”>web mobile tv</video:platform>. In this example, since we have allowed all platforms, it doesn’t create a difference from the default situation.
+<video:price>
+Optional
+<video:price> is showing the price for watching or downloading the video. If the video is free, this tag shouldn’t be used. Also, there are three attributes for this tag and two of them are currency[Required in ISO 4217 Format] and type[rent/own]. Currency shows the money kind to purchase the video, rent shows the purchase type of the video.
+The last attribute is resolution[hd/sd], it shows the resolution value of the video.
+<video:requires_subscription>
+Optional
+It shows the necessity of subscription to reach out to the video content. Only “yes” or “no” strings can be used 
+
+[...truncated...]

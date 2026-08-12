@@ -1,0 +1,147 @@
+Skip to content
+Search engine optimization has always been based on two pillars: off-page and on-page SEO (External and Internal Factors for Ranking a web entity on the SERP). As the name suggests, on-page SEO includes all internal website factors. They start with the content of the website, lead through the page structure, and internal links to meta tags. Anyone who deals with the topic will discover unused potential when visiting almost every website. This article gives a first insight into the topic. SEO (Search Engine Optimization) generally deals with various optimization factors, areas, and measures inside and outside your website for
+a better ranking
+on the results pages of search engines (SERP).
+Against the background that  93% of all online experiences start with search engines
+The relevance of the topic of SEO should be immediately apparent. So whether you run your own WordPress shop or another type of website, on-page SEO is a cornerstone of any
+sustainable SEO strategy.
+SEO optimization is a way to improve the number of visitors to your website without the additional use of advertising costs, such as for SEA.
+70-80% of users ignore Google Ads and concentrate solely on organic search results.
+Good rankings start with the content of a website, the most important of all on-page factors. But that’s not all: structural elements and internal links also play a crucial role. In this post, we summarize the most important factors of on-page SEO. Key facts about OnPage SEO are listed below.
+OnPage SEO is always a must in SEO practices for every SEO Project.
+On-Page SEO represents an optimization of the on-page elements such as web page layouts, and SEO HTML Tags (title tag, meta description, URL).
+On-page SEO involves the SERP Snippet optimization for a better Click-through Rate.
+On-Page SEO and Endogenous SEO Factors are related to each other, but not the same. Ingenious SEO Factors involve ranking a website based on internal ranking signals rather than external SEO Factors such as PageRank. On-Page elements and ranking factors are included in the Endogenous SEO Factors.
+Content Quality is included in the On-Page SEO. Neural Matching and some other similar Search Engine algorithms and concepts focus on qualitative and quantitative ranking algorithms by measuring the possibility of relevance and query responsiveness. Optimization of content with On-page SEO.
+Using Power Words, and understanding CTA Elements are included in On-Page SEO practices.
+Using Information Retrieval understanding and measurement for better title tags, headings, and web page segments is a practice for On-Page SEO.
+Contents of the Article
+show
+1.
+Onpage SEO Elements and Their Optimization
+1.1.
+1. Importance of Comprehensiveness and Quality of Content for On-Page SEO
+1.2.
+2. Heading Usage and Scannable Content Structure for On-Page SEO
+1.3.
+3. Keyword Research, TF-IDF, and LSI Analysis for On-Page SEO
+1.3.1.
+1. Google Autocomplete for Better Topical Comprehension in On-page SEO
+1.3.2.
+2. Users Also Ask for Better Topical Comprehension in On-page SEO
+1.3.3.
+3. Similar Searches for Better Topical Comprehension in On-page SEO
+1.4.
+4. Multimedia Optimization in On-Page SEO
+1.5.
+5. URL Optimization in On-Page SEO
+1.5.1.
+1. How to Build a URL for On-Page SEO
+1.5.2.
+2. How to Optimize URL Structure for On-Page SEO
+1.6.
+6. SSL Certificate Usage for On-Page SEO
+1.7.
+7. Web Page Structure and Breadcrumb for On-Page SEO
+1.8.
+6. Use of Schema Markups in On-page SEO
+1.9.
+7. How to Optimize Meta Tags for On-page SEO
+1.9.1.
+1. How to Optimize Title Tags for On-page SEO
+1.9.2.
+2. How to Optimize Meta Descriptions for On-Page SEO
+1.10.
+8. Internal Link Usage for On-page SEO
+1.11.
+9. Importance of Loading Time for On-Page SEO
+1.12.
+10. Importance of Web Site Structure for On-Page SEO
+2.
+Last Thoughts on On-page SEO and Holistic SEO
+Onpage SEO Elements and Their Optimization
+Generally, SEO can be divided into three elementary areas: On-Page SEO, Off-Page SEO, and Technical SEO.
+How many types of SEO exist in terms of working area?
+Off-page SEO
+deals with all content and concerns that do not take place on your own website. So off-page SEO is all about building links, social shares, mentions, and a good reputation.
+With
+on-page SEO
+is about all the content that appears on your website and over which you have direct influence.
+Technical SEO
+describes, as the name suggests, all the technical details and matters of your site.
+These types are not about SEO Mentality and Methodology, it is mostly about the SEO Process areas. Black Hat SEO, Gray Hat SEO or Barnacle SEO, GIF SEO, Video SEO, or Social Media Optimization shouldn’t be confused with the SEO Types. In this article, mostly On-page Elements will be spoken but also Technical SEO is a factor for On-Page SEO and UX along with Crawl Budget. So, to understand On-page SEO Better, reading Technical SEO Guidelines can help, in this article, Technical SEO Factors will be spoken lesser.
+1. Importance of Comprehensiveness and Quality of Content for On-Page SEO
+The heart of good search engine optimization is the content of a website. The 2011 Panda update sharpened this previously lost focus of many site operators. However, it is still unclear what really makes good content. Here is an assessment by Moz’s SEO experts: “From an SEO perspective, good content always fulfills two things. It can be linked and fulfills a demand ”. Against this background, the following applies: Always deliver significantly better content than any other website operator and meet a specific demand. The rankings often come naturally.
+A study for correlation between Rankings and Word Count on the Web Pages.
+If you hide your images and texts behind a paywall, you risk relevance in search engines. The content may meet demand, but can only be viewed by selected users. So you are not “linkable”. The perfect counterexample is provided by the online encyclopedia Wikipedia. It has developed a reputation for working out almost every topic of decent quality. Your texts, therefore, meet specific user demands. Since every Wikipedia entry is openly accessible, it can also be linked. Two reasons why Wikipedia is regularly at the top end of search engine results.
+Anyone who understands this meta-perspective comes a lot closer to high-quality content and good rankings. On-page SEO is primarily driven by clear ranking factors. In terms of content, a focus on certain keywords is important. Let’s take the example of Wikipedia again: It provides searchers with an all-around overview of information about certain terms or people, such as Steve Jobs. The individual website is clearly structured. It provides information about the childhood, adolescence, and career of the Apple founder, lists well-known quotes and awards, and closes with relevant sources. This all-encompassing overview justifies why Wikipedia comes first for the search term “Steve Jobs”.
+The focus is on one or a few search terms that ideally fulfill a specific search intention. A website, therefore, answers questions, offers services, or sells products: the main thing is that it performs at least one search intention 100 percent. A classic wrap in the style of Wikipedia is not always necessary. Google is increasingly moving the search results into “clusters”. Each listed website fulfills a specific search intention, i.e., it meets specific questions or requirements. Those who can fill one of these clusters as well as possible have a good chance of first-class rankings.
+The important factors at a glance for text-based content on a web page:
+Original content
+: no copies or reformulations of other articles—Google’s algorithm is smart enough to detect such duplicates and penalize websites with less visibility.
+Helpful and relevant content
+: Strive for texts and content that offer added value for the user and do not publish inferior products just for the sake of posting
+Fair and well-researched content:
+Make sure that your texts answer a topic or question as impartially as possible and take all aspects into account.
+Updated content
+: should be
+checked at regular intervals and updated if necessary.
+Last but not least, the
+topicality of your pages is
+another direct ranking factor that you can influence.
+The grammar of the content
+: It should go without saying that your
+texts
+are
+written as perfectly as possible in terms of grammar and spelling, so as
+not to prevent the meaningfulness of your texts. You may read our “
+How to Fix Grammar Errors in content via Python
+” Guideline.
+Readability
+: The
+font size is also a decisive factor in
+terms of readability—so try not to fall below a font size of 14px, at least for articles or blog entries.
+Text Mark-Ups
+: In addition,  use
+italics
+and
+bold type
+, where possible.
+2. Heading Usage and Scannable Content Structure for On-Page SEO
+In terms of structure, one thing is particularly important:  definitely assign an H1 tag to the title of your page!  This corresponds to the heading of your page and is used by Google as one of the first factors for “rating and understanding” your web page. However, add only one H1 heading to each page
+.
+Further subchapters should be marked with the following tags H2-H4.
+You can imagine the ideal headline structure like a book. Would you buy a book without a title?  Or a book with two titles? No. Therefore, like authors, you should choose a title and then work with subheadings. It also makes sense to use your
+keyword
+or to use a variation in one of these subheadings.  On the one hand, the division of your content into different subcategories makes it easier for the reader to record and process what has been written. On the other hand, search engines can understand and classify your content even more comprehensively.  In the next step, let’s look at how you can use keyword analysis to align your content in such a way that the search intentions of the users are satisfied, and you thus generate a very good user experience.
+To learn more about
+Heading Tags and their functions for SEO and Web Accessibility
+, you can read our guidelines.
+3. Keyword Research, TF-IDF, and LSI Analysis for On-Page SEO
+With thorough keyword research, you can ensure that your content meets the user’s intentions.  Instead of overwhelming your entire article with your keyword (
+keyword stuffing
+), as was previously the practice, you should use the keyword and any synonyms naturally.
+Note:  Be sure to use your keyword once within the first paragraph in a way to reflects the
+user’s search intent
+. This corresponds to today’s method of sensitizing Google to your keyword. Next, I will present three very helpful strategies that will help you to optimally align your texts when you are designing them.  Among other things, it is also important to expand the range of your topic using LSI keywords in order to signal to Google that your content covers the topic in full. LSI stands for  “latent semantic indexing”. This tool helps Google identify the depth of the topic in your article based on related synonyms in your text.  Even if LSI is an old concept from Bell Labs in 1998 to index the books into an offline database, it helps SEOs to understand the co-occurrence logic of the words. But, the concept of LSI shouldn’t be used as an activity-related term to the On-Page SEO, it can be used as a sample of search engine perspective for keyword relations. This also means that your website is indexed not only for the keyword you have selected but also for related words. Targeting a topic in a holistic way will create better Expertise, Trustworthiness, and Authority in terms of SEO. Reading our Keyword Research and
+Keyword Definitive Information
+Guidelines will help you to understand this section better.
+Three simple tricks help you find relevant LSI keywords:
+1. Google Autocomplete for Better Topical Comprehension in On-page SEO
+As soon as you type a search term in the Google search bar, further possible inquiries are automatically displayed. These suggestions are an excellent addition to your content.
+Google Autocomplete Data can be used for On-page SEO
+2. Users Also Ask for Better Topical Comprehension in On-page SEO
+When you search for a term, Google will show you the corresponding results. In addition, another section has recently been displayed – the “Users also ask” area.
+People Also Ask For Questions can be used for On-page SEO
+The entries in this section serve as excellent inspiration for smaller headlines throughout your article.
+3. Similar Searches for Better Topical Comprehension in On-page SEO
+Last but not least, Google will show you a list of similar searches on this topic at the end of the search results.
+By mentioning isolated requests in your text, you can optimize your page for several keywords.
+Similar Searches Data can be used for On-page SEO
+By using these similar searches in your content, you can communicate the topic of your page to Google even more clearly. Also, since Google is an entity-based Search Engine, it can understand real-world entities to classify the search intent better. The “People also search for” section shows the most related entities related to the On-page SEO, so using this information can help a Holistic SEO to understand the topic of the content. Thus, optimizing on-page can be easier by using real-world entities in a way that satisfies the multiple but organized search intents Also, using
+TF-IDF Analysis
+for competitors’ web pages can help to create better content in terms of communication with users and covering better the topic.
+4. Multimedia Optimization in On-Page SEO
+Only additional content such as photos and videos from the optimal overall package. Unfortunately, search engines have trouble reading the content of these elements. Site operators must, therefore, intervene in a supportive manner. This is relatively easy with pictures: The file name should contain the most important keywords, as well as the description of the picture content via alt text. A sui
+
+[...truncated...]

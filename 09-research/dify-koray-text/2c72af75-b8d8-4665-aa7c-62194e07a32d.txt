@@ -1,0 +1,228 @@
+"aria-rowcount" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-rowcount is an attribute that is set to define the number of rows that are in the table. The purpose of the aria-rowcount is to provide the full information regarding the actual number of rows that are within the table. The developer can use the aria-rowcount to let the user know what is the complete number of rows. While the display has the limitations of giving a viewable image or table, it can only accommodate information per frame. The aria-rowcount can be used with the elements such as table, grid, and treegrid. The aria-rowcount can be used with other ARIA labels such as aria-rowindex and aria-colcount.
+Contents of the Article
+show
+1.
+What is the function of “aria-rowcount” ARIA Label?
+2.
+What are the uses of the “aria-rowcount” ARIA Label?
+3.
+Example Uses of “aria-rowcount” ARIA Label
+4.
+What are the related ARIA Labels to “aria-rowcount”?
+What is the function of “aria-rowcount” ARIA Label?
+The function of the aria-rowcount is to count the number of rows available on the table. The benefit of using the aria-rowcount for the user is that they would be informed how many rows are there on the table, even if the user agent was unable to display the complete table on the screen. The developer must not include rows that are unknown, the aria-rowcount value should be -1 in order for the user not to include the count. There are tables that have many rows, rows that could not be exposed as a whole, the browser controls the number of rows published in order to provide a great user experience. The aria-rowcount can be set to provide a subset of data for the user, to let them know that there are still rows of content available.
+What are the uses of the “aria-rowcount” ARIA Label?
+Listed below are the uses of the “aria-rowcount” ARIA Label.
+Table role:
+The table value of the ARIA role attribute determines the element comprising the role as holding a non-interactive table structure that contains data arranged in rows and columns, the same as the HTML API.
+Grid role:
+The grid role is for the widget that contains more than one row of cells, its position can be focused or interacted with the keyboard.
+Treegrid role:
+The treegrid role determines an element as a grid that has expandable or collapsible rows and columns, similar manner as the tree.
+Cell role:
+The cell role enables the attribute to identify whether the cell is part of the table or grid.
+Gridcell role:
+The gridcell role is used to build a cell in the grid or treegrid, its intention is to shadow the native HTML table data as grouping information.
+Example Uses of “aria-rowcount” ARIA Label
+Listed below are the example uses of the “aria-rowcount” ARIA Label.
+The benefit of using the aria-rowcount for the user is that they would be informed how many rows are there on the table, even if the user agent was unable to display the complete table on the screen.
+<div role="grid" aria-rowcount="2000">
+<div role="rowgroup">
+<div role="row" aria-rowindex="1">
+<span role="columnheader">First Name</span>
+<span role="columnheader">Last Name</span>
+<span role="columnheader">Company</span>
+<span role="columnheader">Telephone</span>
+</div>
+</div>
+<div role="rowgroup">
+<div role="row" aria-rowindex="100">
+<span role="gridcell">Floyd</span>
+<span role="gridcell">Jordan</span>
+<span role="gridcell">Townsville Ltd.</span>
+<span role="gridcell">552-1212</span>
+</div>
+<div role="row" aria-rowindex="101">
+<span role="gridcell">Shane</span>
+<span role="gridcell">Jane</span>
+<span role="gridcell">Townsville Ltd.</span>
+<span role="gridcell">555-4231</span>
+</div>
+<div role="row" aria-rowindex="102">
+<span role="gridcell">Terrence</span>
+<span role="gridcell">Jarden</span>
+<span role="gridcell">Townsville Ltd.</span>
+<span role="gridcell">555-9543</span>
+</div>
+</div>
+</div>
+<div role="grid" aria-rowcount="2000">
+<div role="rowgroup">
+<div role="row" aria-rowindex="1">
+<span role="columnheader">Name</span>
+<span role="columnheader">Vehicle Description</span>
+<span role="columnheader">Plate Number</span>
+<span role="columnheader">Parking Ticket</span>
+</div>
+</div>
+<div role="rowgroup">
+<div role="row" aria-rowindex="100">
+<span role="gridcell">James</span>
+<span role="gridcell">Pick up truck</span>
+<span role="gridcell">CCP 9901</span>
+<span role="gridcell">tckt0054</span>
+</div>
+<div role="row" aria-rowindex="101">
+<span role="gridcell">Shane</span>
+<span role="gridcell">Hatchback Car</span>
+<span role="gridcell">HVC 2121</span>
+<span role="gridcell">tckt0055</span>
+</div>
+<div role="row" aria-rowindex="102">
+<span role="gridcell">Terrence</span>
+<span role="gridcell">Mini Van</span>
+<span role="gridcell">VAN 3310</span>
+<span role="gridcell">tckt0056</span>
+</div>
+</div>
+</div>
+<div role="grid" aria-rowcount="2000">
+<div role="rowgroup">
+<div role="row" aria-rowindex="1">
+<span role="columnheader">First Name</span>
+<span role="columnheader">Last Name</span>
+<span role="columnheader">Address</span>
+<span role="columnheader">Telephone</span>
+</div>
+</div>
+<div role="rowgroup">
+<div role="row" aria-rowindex="100">
+<span role="gridcell">Freddy</span>
+<span role="gridcell">Krugger</span>
+<span role="gridcell">24 Spy Ville st.</span>
+<span role="gridcell">555-4564</span>
+</div>
+<div role="row" aria-rowindex="101">
+<span role="gridcell">Sean</span>
+<span role="gridcell">O’conor</span>
+<span role="gridcell">5th Salvation avenue</span>
+<span role="gridcell">555-7897</span>
+</div>
+<div role="row" aria-rowindex="102">
+<span role="gridcell">Tokyo</span>
+<span role="gridcell">Jarr</span>
+<span role="gridcell">Fukushima Japan</span>
+<span role="gridcell">555-3216</span>
+</div>
+</div>
+</div>
+<div role="grid" aria-rowcount="2000">
+<div role="rowgroup">
+<div role="row" aria-rowindex="1">
+<span role="columnheader">First Name</span>
+<span role="columnheader">Last Name</span>
+<span role="columnheader">Position</span>
+<span role="columnheader">Department</span>
+</div>
+</div>
+<div role="rowgroup">
+<div role="row" aria-rowindex="100">
+<span role="gridcell">Ben</span>
+<span role="gridcell">Park</span>
+<span role="gridcell">Valet Parker</span>
+<span role="gridcell">Customer Service</span>
+</div>
+<div role="row" aria-rowindex="101">
+<span role="gridcell">Sarah</span>
+<span role="gridcell">Germs</span>
+<span role="gridcell">Company Nurse</span>
+<span role="gridcell">Human Relations</span>
+</div>
+<div role="row" aria-rowindex="102">
+<span role="gridcell">Tanner</span>
+<span role="gridcell">Wolf</span>
+<span role="gridcell">Cleaner</span>
+<span role="gridcell">House Keeping</span>
+</div>
+</div>
+</div>
+<div role="grid" aria-rowcount="2000">
+<div role="rowgroup">
+<div role="row" aria-rowindex="1">
+<span role="columnheader">First Name</span>
+<span role="columnheader">Last Name</span>
+<span role="columnheader">Gender</span>
+<span role="columnheader">Age</span>
+</div>
+</div>
+<div role="rowgroup">
+<div role="row" aria-rowindex="100">
+<span role="gridcell">Fernando</span>
+<span role="gridcell">Poe</span>
+<span role="gridcell">Male</span>
+<span role="gridcell">35</span>
+</div>
+<div role="row" aria-rowindex="101">
+<span role="gridcell">Susan</span>
+<span role="gridcell">Roses</span>
+<span role="gridcell">Female</span>
+<span role="gridcell">30</span>
+</div>
+<div role="row" aria-rowindex="102">
+<span role="gridcell">Grace</span>
+<span role="gridcell">Poe</span>
+<span role="gridcell">Female</span>
+<span role="gridcell">25</span>
+</div>
+</div>
+</div>
+What are the related ARIA Labels to “aria-rowcount”?
+Listed below are the related ARIA Labels to “aria-rowcount”.
+aria-rowindex:
+The aria-rowindex is related to the aria-rowcount because they are both holding a numeric value that is assistive technology needed. The
+aria-rowindex
+is an attribute that defines a position that the screen reader could interpret and provides information for the user.
+aria-colcount:
+The aria-colcount is related to the aria-rowcount because they are both used in elements such as table grid and treegrid. The
+aria-colcount
+is an attribute that is useful for the user and also for the developer, it sets the entire column count of a table element.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-rowcount” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 6 min
+TechSEO
+“aria-rowindex” ARIA Label for Accessi…
+TechSEO
+“aria-roledescription” ARIA Label for …
+0
+0
+0

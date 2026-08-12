@@ -1,0 +1,130 @@
+User-agent: Definition, Usage & Importance for SEO - Holistic SEO
+Skip to content
+A user agent is a client-side application for using a network service. The user agent forms the interface to the user, which represents the content of the service and receives commands from the user. Examples of user agents are web browsers, e-mail programs, news readers or IRC clients. Many user agents transfer their name and other data in the header of a request to a server as a character string (user agent string). The corresponding header in the Hypertext Transfer Protocol (HTTP) is User-Agent.
+Contents of the Article
+show
+1.
+How is the User-agent composed?
+2.
+How does the server user agent use information?
+3.
+User Agents and Crawlers
+4.
+How can I use the User Agent for SEO?
+4.1.
+Some Popular and Important User-agent Examples
+How is the User-agent composed?
+The syntax for the User Agent entry is very simple:
+User-agent: /
+However, if we take a look at a standard user agent of the Googlebots smartphone, for example, it looks different:
+Mozilla / 5.0 (Linux; Android 6.0.1; Nexus 5X Build / MMB29P) AppleWebKit / 537.36 (KHTML, like Gecko) Chrome / 41.0.2272.96 Mobile Safari / 537.36 (compatible; Googlebot / 2.1; + http: //www.google .com / bot.html)
+We can break down Googlebot Smartphone user agent as follows:
+Mozilla– is the product
+5.0– is the product version.
+(Linux; – the operating system of the device.
+Android 6.0.1; – the version of the operating system.
+Nexus 5X Build / MMB29P) – the build name of the operating system.
+AppleWebKit / 537.36– the rendering engine of the browser.
+(KHTML, like Gecko) – the rendering engine behaves like (is based on) KHTML, which behaves like Gecko.
+Chrome / 41.0.2272.96 – the browser and its version number.
+Mobile Safari / 537.36 – the browser behaves like Safari in version number 537.36.
+(compatible; – This is where the actual comment begins, with the explanation that the querying device is compatible with the Mozilla Browser.
+Googlebot / 2.1; – Name and version number of the querying crawler.
+http: //www.google.com/bot.html) – where can I get more information about this agent?
+If you are wondering why the Googlebot, which is a Google Chrome browser, claims to be Mozilla, you are not alone. There is an amusing “history of the browser user-agent string” in which everything important is compiled.
+The bottom line is that almost all browsers pretend to be “Mozilla” for “reasons”. The value is therefore irrelevant and the comments have been much longer.
+Related Articles to the User-agent Topic:
+Definition of IP Address
+Definition of DNS
+Definition of Proxy Servers
+What are Robots.txt Files
+How to test Robots.txt Files via Python
+How to Analyse Robots.txt Files via Python
+What is a Log File?
+What is Log File Analysis?
+How to verify Googlebot via Python and DNS Lookup?
+How does the server user agent use information?
+The server can use the information about the requesting system to provide users with a suitable version of the website. For example, if the user agent indicates to the server that a request is coming from an Android phone with the Chrome browser, the server can play the mobile version of the requested website if a mobile version of the page is available.
+The server can also use the user agent to determine whether the browser version used is still up-to-date. If, for example, an “old” browser is used, such as Internet Explorer 6, the server can react to this and send a request to upgrade, instead of the requested web address.
+Finally, the information from the user agents can be collected by the web servers, for example for statistical purposes.
+In addition, the user agent can be used to distinguish people from machines, i.e. search engine crawlers. Your request is very similar to human requests, except that information such as “Googlebot / 2.1” or “msnbot-media / 1.0” is stored here. This distinction is particularly important for statistical analysis.
+User Agents and Crawlers
+Crawlers also have a user agent. The fact that the user agent marks a bot as such gives web servers these special “privileges”. For example, the webserver can wave the Googlebot through registration pages. However, it is very important not to run the risk of showing users other content than Googlebot, which is cloaking.
+Via the robots.txt file (which also contains the user agent), the web server can also ask bots not to crawl certain areas of a website.
+How can I use the User Agent for SEO?
+Knowing what information the various Google Crawlers are using can be used to set your browser using a browser add-on or the Developer Console so that you can transmit the same identifier.
+For example, it can often be checked whether a website delivers different content to Googlebot than regular visitors.
+To get to the required view, please use the following keyboard shortcut to call up the Chrome developer tools:
+Right-click on the web page.
+Select the inspect.
+Select the three dots at the right top corner.
+Select the Network Conditions throughout more options
+How to change User-agent from Chrome DevTools.
+You can also use Chrome Extensions such as User-agent Switcher to use other user-agent while browsing the net.
+Note: If a web server makes
+DNS Reverse Lookup
+, it can easily understand that you are using a fake user-agent. Thanks to this recognition, a web server can deny to serve you the content according to your fake user-agent.
+Some Popular and Important User-agent Examples
+The following table contains various other user agent strings that can become relevant in SEO projects, for example in terms of saving bandwidth.
+Crawler
+User agent token
+User agent string
+Pinterest
+Pinterestbot
+– Pinterest / 0.2 (+ https: //www.pinterest.com/bot.html)
+– Mozilla / 5.0 (compatible; Pinterestbot / 1.0; + https: //www.pinterest.com/bot.html)
+– Mozilla / 5.0 (Linux; Android 6.0.1; Nexus 5X Build / MMB29P) AppleWebKit / 537.36 (KHTML, like Gecko) Chrome / 41.0.2272.96 Mobile Safari / 537.36 (compatible; Pinterestbot / 1.0; + https: //www.pinterest.com/ bot.html)
+LinkedIn
+LinkedInBot
+LinkedInBot / 1.0 (compatible; Mozilla / 5.0; Jakarta Commons-HttpClient / 3.1 + http: //www.linkedin.com)
+Bing
+bingbot
+– Mozilla / 5.0 (compatible; bingbot / 2.0; + http: //www.bing.com/bingbot.htm)
+– Mozilla / 5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit / 537.51.1 (KHTML, like Gecko) Version / 7.0 Mobile / 11A465 Safari / 9537.53 (compatible; bingbot / 2.0; + http: //www.bing.com/bingbot.htm)
+– Mozilla / 5.0 (Windows Phone 8.1; ARM; Trident / 7.0; Touch ; rv: 11.0; IEMobile / 11.0; NOKIA; Lumia 530) like Gecko (compatible; bingbot / 2.0; + http: //www.bing.com/bingbot.htm)
+Yandex *
+YandexBot
+Mozilla / 5.0 (compatible; YandexBot / 3.0; + http: //yandex.com/bots)
+Wayback machine
+archive.org_bot
+Mozilla / 5.0 (compatible; archive.org_bot + http: //www.archive.org/details/archive.org_bot)
+* About Yandex: there are a number of other user agents that identify themselves as YandexBot and may still be valid.
+User-agents are also important for Log Analysis. If you know the IP Addresses and User-agents of the service or crawler you care about, you can make a distinction by filtering them out to see their frequency of visits. Especially making the DNS Reverse Lookup process an obligatory step for Log Analysis can help to clear the harmful data from the logs.
+User-agents are also important for Technical SEO and Data Science. Sometimes, a webmaster may need to create a ready-to-go fast check system to see which user-agent sees the web site how. For instance: taking screenshots via Puppeteer with different user-agents for different browsers and screen resolutions can be given as an example here. Also, creating insights with the user-agents is possible.
+As Holistic SEOs, we will continue to improve our User-agent Article to improve our information.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+What is the User-agent?
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+TechSEO
+What are Cookies? Importance of Cookies for Market…
+TechSEO
+What is Robots.txt File: Everything You Need to Kn…
+0
+0
+0

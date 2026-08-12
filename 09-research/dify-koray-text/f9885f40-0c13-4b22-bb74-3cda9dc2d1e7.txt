@@ -1,0 +1,94 @@
+Skip to content
+The aria-activedescendant specifies the ongoing active element whenever the focus is on another widget, combobox, or textbox. The aria-activedescendant command manages assistive technologies to allow focus for interactive elements that include multiple focusable descendants like grids, menus, and toolbars. Developers can utilize the aria-activedescendant in composite widgets, wherein a container element is focusable, however, its child elements aren’t natively focusable. This attribute serves to replace the need for focusable child elements within the container by sending a message to its user agent of the active child element within the widget. The attribute can be used to designate the currently active element in a container element. This would alert assistive technology users to know the currently active element when focused. The aria-activedescendant command can also be utilized for aria-labels like aria-owns and aria-controls.
+Contents of the Article
+show
+1.
+What is the function of the “aria-activedescendant” ARIA Label?
+2.
+What are the uses of the “aria-activedescendant” ARIA Label?
+3.
+Example Uses of “aria-activedescendant” ARIA Label
+4.
+What are the related ARIA Labels to “aria-activedescendant”?
+What is the function of the “aria-activedescendant” ARIA Label?
+The aria-activedescendant generally designates active elements when they are in focus. The command allows the browser to have the DOM in focus towards the container element that commands the corresponding container element. The command informs the assistive technology with the details of certain elements that contain focus. The aria-activedescendant attribute does not create focus.
+What are the uses of the “aria-activedescendant” ARIA Label?
+Listed below are the uses of the “aria-activedescendant” ARIA Label.
+Composite Widgets:
+This is mainly used in composite widgets when a container element is focusable, but its child elements are not.
+Group
+:  It is used in groups to inform assistive technologies which group button has a visual focus.
+Textbox:
+When an aria-activedescendant is used in a textbox, it uses its ID value to indicate whether it is either a descendant of the current focus element or a logical descendant, aria-owns. It indicates when the current element has DOM focus, such as when it is part of a composite widget.
+Example Uses of “aria-activedescendant” ARIA Label
+Listed below are the example uses of the “aria-activedescendant” ARIA Label.
+Below is an example of a combobox that utilizes the aria-activedescendant command. The user is able to choose values from a given dropdown list with values and a textbox. The selected value can be entered into the textbox. An aria-activedescendant property is modified as the user navigates through the list, based on the ID attribute of the current child element.
+<input type="text" aria-activedescendant="cb1-opt6" aria-readonly="true"
+aria-owns="cb1-list" aria-autocomplete="list" role="combobox" id="cb1-edit">
+<ul aria-expanded="true" role="listbox" id="cb1-list">
+<li role="option" id="cb1-opt1">Philippines</li>
+<li role="option" id="cb1-opt2">Japan</li>
+<li role="option" id="cb1-opt3">Korea</li>
+<li role="option" id="cb1-opt4">China</li>
+<li role="option" id="cb1-opt5">Taiwan</li>
+<li role="option" id="cb1-opt6">Vietnam</li>
+<li role="option" id="cb1-opt7">Singapore</li>
+</ul>
+The following is an example of a listbox using aria-activedescendant. In a list box, the user might wish to keep the page focused on the listbox container, but update the aria-activedescendant command to the selection on the list. This would result in the selected item appearing in assistive technology as the focused item.
+<div role="listbox" tabindex="0"
+aria-activedescendant="disneyprincess"
+<!--...-->
+<div role="option" id="ariel">Ariel</div>
+<div role="option" id="belle">Belle</div>
+<div role="option" id="elsa">Elsa</div>
+<div role="option" id="aurora">Aurora</div>
+<!--...-->
+</div><!-- listbox -->
+What are the related ARIA Labels to “aria-activedescendant”?
+Listed below are the related Aria-Labels to “aria-activedescendant”.
+aria-owns:
+The aria-owns are related to the aria-activedescendant as they both provide a text alternative to a certain element that does not have visible text on the display. Given that the DOM hierarchy is unable to represent the relationship, the
+aria-owns
+command designates a specific element/s  to define a visual, functional, or contextual relationship between a parent and its child elements.
+aria-controls:
+The aria-controls are linked to the aria-activedescendant as they both provide a text substitute to an element that doesn’t have visible text on display. The
+aria-controls
+identify the element/s whose contents are controlled by the element that has the attribute set.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-activedescendant” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-atomic” ARIA Label for Accessibi…
+TechSEO
+“HSTS MISSING FROM HTTPS SERVER” Error…
+0
+0
+0

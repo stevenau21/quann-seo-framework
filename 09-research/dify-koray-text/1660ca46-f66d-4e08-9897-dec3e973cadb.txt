@@ -1,0 +1,108 @@
+HTML <div> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <div> HTML Tag specifies the general containment for information that flows. The <div> HTML Tag has no influence on the subject matter or layout until it is modified in some way employing CSS, for example, by applying formatting directly to it or by applying a layout pattern like graphics design to its primary element. The <div> HTML Tag is used to gather a large number of HTML elements in a single section. When there isn’t any applicable HTML element to employ, the <div> HTML Tag should be utilized as a last alternative. The <div> HTML Tag is part of the Styles and Semantic HTML category in HTML Element Reference. The attributes of the <div> HTML Tag are the global and event attributes.
+<div> code block example to learn how it works is given below.
+<div>
+This section should contain general information...
+</div>
+The second example usage of the “<div>” code block example is given below.
+<div class="music box">
+<p>Here's a classical music played in a lovely music box.</p>
+</div>
+Contents of the Article
+show
+1.
+What is <div> HTML Tag?
+2.
+How to Use <div> HTML Tag?
+2.1.
+Example Usage of <div> HTML Tag?
+3.
+What are the Attributes of <div> HTML Tag?
+4.
+What are the Default CSS Settings for <div> HTML Tag?
+5.
+What are the Related other HTML Tags to <div>?
+What is <div> HTML Tag?
+The <div> HTML Tag is commonly used by web developers to group HTML components together and to apply CSS styles to a large number of elements at the same time. For example, if user wraps a group of paragraph components into <div> HTML Tag, web developers can take full advantage of CSS styles and set font styles to all of the paragraph components at the same time, rather than having to code the same style for each section element separately. The <div> HTML Tag is similar to a container unit that is being used to encompass other page elements and separate HTML documents into sections.
+How to Use <div> HTML Tag?
+To use the <div>, HTML Tag, the web developer should write <div></div> with the generic content placed between the start and ending tags. The web developer can include the class attribute and afterward adjust the size and shape of the <div> HTML Tag to be equal in both width and length. With the <div> HTML Tag, web developers can build a circle by programming a blank <div> HTML Tag in the HTML, adjusting the length and width of the <div> HTML Tag to equal values in the CSS, and then applying a line of control of 50 percent.
+Example Usage of <div> HTML Tag?
+The following examples of usage of <div> HTML Tag are given below.
+<div class="dancing box">
+<p>The ballerina is spinning inside the dancing box, which is playing classical music.</p>
+</div>
+<div class="shadowed box">
+</div>
+What are the Attributes of <div> HTML Tag?
+There are multiple attributes for the <div> HTML Tag. The following attributes are listed below.
+Global Attributes: The <div> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <div> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <div> HTML Tag?
+The following are the Default CSS Settings for the <div> HTML Tag. Some examples are listed below this document.
+.warning {
+border: 10px ridge #f00;
+background-color: #ff0;
+padding: .5rem;
+display: flex;
+flex-direction: column;
+}
+.warning img {
+width: 100%;
+}
+.warning p {
+font: small-caps bold 1.2rem sans-serif;
+text-align: center;
+}
+What are the Related other HTML Tags to <div>?
+The other related HTML Tags to the <div> HTML Tag are listed below.
+<main> HTML Tag: The
+<main>
+HTML Tag and <div> HTML Tag are related because they are both style and semantics HTML Tags. It specifies the document’s primary content using the <main> HTML Tag.
+<header> HTML Tag: The
+<header>
+HTML Tag and <div> HTML Tag are related because they are both style and semantics HTML Tag. The <header> HTML Tags specifies a header for a page or portion of content.
+<details> HTML Tag: The
+<details>
+HTML Tag and <div> HTML Tag are related because they are both style and semantics HTML Tags. The <details> HTML Tag specifies additional information that the user can either display or hide.
+<data> HTML Tag: The
+<data>
+HTML Tag and <div> HTML Tag are related because they are both style and semantics HTML Tags. Content can be translated into machine-readable form using an HTML Tag that is known as the <data> HTML Tag.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <div> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <blockquote> Tag Definition, Usage and …
+TechSEO
+HTML <dt> Tag Definition, Usage and Examples…
+0
+0
+0

@@ -1,0 +1,222 @@
+Aria Labels for Accessibility: Examples, Types, Uses, and Definitions - Holistic SEO
+Skip to content
+The aria labels are properties roles and states that are added to the HTML structure to set the elements and provide information from a web content that is accessible for persons with disabilities. Assistive technology is an application capable of providing assistance driven by semantic HTML and aria labels. The WAI-ARIA specification attributes extend the native HTML elements by letting the user change how an HTML element is translated into the accessibility tree. The aria label started in 2008 with the drafts and was completed on March 20, 2014, by the w3 organization as a recommendation. The goal of the aria label is to provide assistance to persons that are impaired visually. The support from the browser is massively growing, and almost all browsers are able to interpret aria label attributes the aria label attributes define the HTML element as the identifier to communicate with the user. The aria label web accessibility is possible thanks to the semantic HTML and JavaScript it is likely to include aria attributes with the codes. The aria labels can be used together with HTML semantics and other native elements that can be repurposed using the aria attributes. The aria label web accessibility is achievable because of the growing support of web browsers for the goal of providing assistance for persons with disabilities. Below is an example of aria label syntax.
+<button aria-label="mammals"
+class="dog"
+</button>
+Contents of the Article
+show
+1.
+What ARIA Label Stands for?
+2.
+What are the benefits of ARIA Labels?
+3.
+What is the ARIA-Label Syntax?
+3.1.
+ARIA-Label Syntax Example
+4.
+What is ARIAMixin API for aria-label?
+5.
+Which HTML tags are not compatible with ARIA-Labels?
+6.
+What is the List of aria labels?
+6.1.
+1. Aria-activedescendant
+6.2.
+2. Aria-atomic
+6.3.
+3. Aria-autocomplete
+6.4.
+4. Aria-braillelabel
+6.5.
+5. Aria-brailleroledescription
+6.6.
+6. Aria-busy
+6.7.
+7. Aria-checked
+6.8.
+8. Aria-colcount
+6.9.
+9. Aria-colindex
+6.10.
+10. Aria-colindextext
+6.11.
+11. Aria-colspan
+6.12.
+12. Aria-controls
+6.13.
+13. Aria-current
+6.14.
+14. Aria-describedby
+6.15.
+15. Aria-description
+6.16.
+16. Aria-details
+6.17.
+17. Aria-dropeffect
+6.18.
+18. Aria-errormessage
+6.19.
+19. Aria-flowto
+6.20.
+20. Aria-expanded
+6.21.
+21. Aria-haspopup
+6.22.
+22. Aria-hidden
+6.23.
+23. Aria-valuetext
+6.24.
+24. Aria-valuenow
+6.25.
+25. Aria-sort
+6.26.
+26. Aria-setsize
+6.27.
+27. Aria-rowspan
+6.28.
+28. Aria-rowindextext
+6.29.
+29. Aria-rowcount
+6.30.
+30. Aria-required
+6.31.
+31. Aria-relevant
+6.32.
+32. Aria-pressed
+6.33.
+33. Aria-posinset
+6.34.
+34. Aria-owns
+6.35.
+35. Aria-orientation
+6.36.
+36. Aria-multiline
+6.37.
+37. Aria-live
+6.38.
+38. Aria-level
+6.39.
+39. Aria-labelledby
+6.40.
+40. Aria-label
+6.41.
+41. Aria-keyshortcuts
+6.42.
+42. Aria-invalid
+6.43.
+43. Aria-readonly
+6.44.
+44. Aria-grabbed
+6.45.
+45. Aria-disabled
+6.46.
+46. Aria-multiselectable
+6.47.
+47. Aria-placeholder
+6.48.
+48. Aria-roledescription
+6.49.
+49. Aria-rowindex
+6.50.
+50. Aria-selected
+6.51.
+51. Aria-valuemin
+6.52.
+52. Aria-valuemax
+7.
+What to know about Aria labels?
+7.1.
+Do aria labels provide web usability for people with any kind of disability?
+7.2.
+Do aria labels help for Search Engine Optimization?
+7.3.
+Is it hard to use aria labels?
+What ARIA Label Stands for?
+Aria label stands for Accessible Rich Internet Application, a W3C specification for enhancing accessibility beyond what can be achieved with a semantic HTML. The initiative of the organizer is to provide solutions for person with disabilities to connect to the internet or applications via ARIA labels. Aria label can use properties to enhance the web accessibility for interactive controls, such as tree menus, sliders, pop-ups, etc. It can also set useful positions for page structure and dynamically-updated “live regions”. The Arial label is also used to improve keyboard accessibility and interactivity, and more. It stands for the purpose of letting the web be visualized through the ARIA label. The acceptance and support by the assistive technologies and browser enables to reach the goal of providing normal approach the specified users.
+What are the benefits of ARIA Labels?
+The aria labels have a lot of benefits, especially for the persons that really need them. The aria label provides a visual experience by delivering information via sound or audio, it can be navigated using a keyboard or a pointer.
+These are the benefit of ARIA labels.
+Accessibility:
+Providing accessibility for persons with disabilities, especially blind people, provides a visual extension that interprets the environment of the web page.
+Experience:
+The aria label shows how to toggle control and how to write on a text box, it simply interprets what is inside the page.
+Visual Equivalence:
+The importance of the aria label defines the need for users to experience how the World Wide Web is felt without needing to visualize all of it. The aria label is a simple addition to the HTML API, but it is a powerful tool for more person that needs it.
+What is the ARIA-Label Syntax?
+The ARIA syntax is distinguishable because it begins with the word “aria”, it is attached with a relevant word that is described as its function. The “aria” identity and the attribute name is connected with a dash or hyphen, as an example, “aria-label”. The attribute can be set with a value of a state or number or string, such as, “true”, “false”, “1”, or the value described by the ID.
+ARIA-Label Syntax Example
+These are examples of ARIA label syntax.
+This is an aria-label example, the button role contains ARIA label attribute that defines the button pressed instance with a label “Email is sent”.
+<button aria-label="Email is sent">send</button>
+This is an aria-labelledby example, the attribute provides reference information that is available from elements.
+<span role="checkbox" aria-checked="false" tabindex="0" aria-labelledby="tac"></span>
+<span id="tac">I agree to the Terms and Conditions.</span>
+This is an aria-describedby example, this attribute share similar role as the aria-labelledby, though its main function is to provide a relationship between elements. The example shows that aria-describedby referenced “trash-now” for the value of the id.
+<button aria-describedby="trash-now">To Recycle Bin</button>
+...
+<p id="trash-now">The recycle bin will empty trash in 7 days</p>
+What is ARIAMixin API for aria-label?
+The ARIAMixin API enables the ARIA label property to be part of the Element interface and Elementinternals interface to reflect the value of an aria label attribute. The Element interface is the base HTML element that is used to structure an HTML web page, the Elementinternals however, are custom-made elements that play the role of regular HTML elements but have special purposes. The ARIAMixin API allows the native elements to be re-purpose as ARIA label properties.
+Which HTML tags are not compatible with ARIA-Labels?
+The ARIA label is designed to be used together with HTML and Javascript, it is compatible with all elements, and it can be used along with the HTML codes. However, there are instances that ARIA is not needed, although it can be applied but would not make sense. According to the rule of using ARIA labels, using semantic HTML should be used first, if it does not work ARIA will take over. Screen readers and assistive technology have the ability to interpret semantic HTML but sometimes native elements are not present in the DOM, for that ARIA is used.
+What is the List of aria labels?
+1. Aria-activedescendant
+The aria-activedecendant attribute specifies the presently active element when the focus is on a composite widget, combobox, textgroup, group, or application. The aria-activedecendant attribute allows assistive technologies to focus on interactive items. It can be used to refer to the recent active element, informing assistive technology users of what is the current state. The browser maintains the DOM focus on the containing element or an input element when using aria-activedecendant. The user agent, however, conveys desktop focus events and states to assistive technology as if the aria-activedecendant element is currently in focus. This attribute is only applicable to elements with the role of the composite widget like combobox, textbox, group, or application. The
+aria-activedecendant
+attribute is in charge of informing assistive technology about which element is in focus. Javascript is used to change the focus and manage the value of the attributes. When focused, ensure that the presently active descendant is displayed and in view.
+<input type="text" aria-activedescendant="cb1-opt6" aria-readonly="true"
+aria-owns="cb1-list" aria-autocomplete="list" role="combobox" id="cb1-edit">
+<ul aria-expanded="true" role="listbox" id="cb1-list">
+<li role="option" id="cb1-opt1">Philippines</li>
+<li role="option" id="cb1-opt2">Japan</li>
+<li role="option" id="cb1-opt3">Korea</li>
+<li role="option" id="cb1-opt4">China</li>
+<li role="option" id="cb1-opt5">Taiwan</li>
+<li role="option" id="cb1-opt6">Vietnam</li>
+<li role="option" id="cb1-opt7">Singapore</li>
+</ul>
+In a combobox, for example, the value of aria-activedecendant on an element corresponds to descendants of a listbox controlled by that element.
+2. Aria-atomic
+The aria-atomic attribute serves an essential purpose; it specifies whether the screen reader should always provide necessary information for the entire active region, even if only a section of it changed. The
+aria-atomic
+value is referred to as a state where only two value recognized it is either true or false, however, the default setting is false. Both accessibility APIs and the Document Object Model contain events that indicate when relevant portions of the document have changed. When the content of a live area changes, user agents must inspect the altered element and traverse its ancestors to locate the first element with an aria-atomic set. When the content of a live area changes, user agents must examine the updated element and traverse the ancestors to find the first ancestor with an aria-atomic set.
+<span aria-labelledby="It is Christmas Day"
+aria-live="polite"
+aria-atomic="true">
+<input type="number" id="DAY"
+value="25">
+<input type="number" id="Month"
+value="12">
+<input type="number" id="YEAR"
+value="2022">
+</span>
+An example of aria-atomic is shown above, indicating to the screen reader when the changes should be announced.
+3. Aria-autocomplete
+The aria-autocomplete is a type of attribute that identifies or predicts the value of an element base on the given value of the aria-autocomplete. The aria-autocomplete provides assistance for the user if the user enters familiar or the same value that is already declared in the same input box, text box, or search box. The
+aria-autocomplete
+can be set with static values but in order to provide helpful information for the user, it should be set as dynamic. The user will be able to efficiently enter the desired text as announced by the screen reader, it is effective if the user input is a recurrence or globally updated like the search engine box.
+aria-autocomplete="monkey"
+aria-autocomplete="banana"
+aria-autocomplete="gold"
+aria-autocomplete="key"
+This example syntax basically emphasizes how to manually input values that will be triggered on the interactive input boxes, the function of an aria-autocomplete. If anyone typed the first letter of the declared value of aria-autocomplete, it would suggest the values declared.
+4. Aria-braillelabel
+The aria-braillelabel is an attribute that identifies a recent element pointed that turns the label into braille, when using the aria-braillelabel make sure the element to which it is applied has a valid access name. Providing a valid accessible name enables the aria-braillelabel to be used for braille assistive technology. The value of aria-braillelabel is contained with specified content based on the Unicode and Unicode braille, it is not empty or only white space. The
+aria-braillelabel
+matches with the language of the document as it is localized for that purpose. The aria-braillelabel provides information to the user that the element is available through the Unicode braille that is translated into braille to let the user know how to configure the settings.
+<button aria-braillelabel="***">
+<img alt="3 out of 5 stars" src="three_stars.png">
+</button>
+The example states that the aria-braillelabe is to provide a braille equivalent information that would be translated into the braille, above states 3 special star characters that describe the image element containing 3 stars.
+5. Aria-brailleroledescription
+The aria-brailleroledescription attribute specifies a human-readable, author-localized abbreviated description of an element’s role that is intended to be converted into Braille. Braille is not a one-to-one transliteration of letters and numbers, but rather a combination of abbreviations, contractions, and characters that represent words. The
+aria-brailleroledescription
+attribute allows for the providing a condensed version of the aria-roledescrioption value, which is a human-readable, author-localized description of an element’s role, for improved user experience with Braille interfaces. The value of aria-brailleroledescription is essentially and condensed version of the aria-roledescription attribute that will be converted into Braille.
+<article aria-roledescription="slide" aria-brailleroledescription="sld" aria-labelledby="slide1heading">
+<h1 id="slide1heading">Be my guest</h1>
+<img alt="I" src="images/i.jpg">
+</article>
+The Screen Readers interpret the preceding as slide be my guest image me, but with the braille, it is interpreted as “sld, be my guest gra, me”. The aria-roledescription attribute assigns the role “slide” to the article element the aria-roledescription=” slide” is a role not defined in the specification but is a regular role for slides in a presentation the role is written in braille and is
+
+[...truncated...]

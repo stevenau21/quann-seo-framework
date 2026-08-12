@@ -1,0 +1,169 @@
+HTML <colgroup> Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <colgroup> HTML Tag specifies a group of one or more columns within an HTML table. It helps to apply styles to one or more columns. This is useful since it removes the need to apply styles at the individual <td> level. The <colgroup> HTML Tag is part of Tables HTML category in HTML Element Reference. The attributes of the <colgroup> HTML Tag are span, global attributes, and events attributes. The code block and code sample for the <colgroup> HTML Tag are shown below.
+<colgroup> code block example to learn how it works is given below.
+<table>
+<colgroup span="" class="">
+</colgroup>
+<tr>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+</tr>
+</table>
+Or this
+<table>
+<colgroup>
+<col class=""></col>
+<col class=""></col>
+<col class=""></col>
+</colgroup>
+<tr>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+</tr>
+</table>
+The second example usage of the “<colgroup>” code block example is below.
+<title>Example</title>
+<style>
+table {border-collapse:collapse;}
+td, th {border:1px solid #ccc;}
+</style>
+<table>
+<colgroup span="2" style="background:#eee;"></colgroup>
+<tr>
+<th>Header 1</th>
+<th>Header 2</th>
+<th>Header 3</th>
+</tr>
+<tr>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+</tr>
+<tr>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+</tr>
+</table>
+Contents of the Article
+show
+1.
+What is <colgroup> HTML Tag?
+2.
+How to Use <colgroup> HTML Tag?
+2.1.
+Example Usage of <colgroup> HTML Tag?
+3.
+What are the Attributes of <colgroup> HTML Tag?
+4.
+What are the Default CSS Settings for <colgroup> HTML Tag?
+5.
+What are the Related other HTML Tags to <colgroup>?
+What is <colgroup> HTML Tag?
+The <colgroup> HTML Tag is used to identify a group of one or more columns in a table for formatting. It is handy for applying styles to full columns rather than repeating styles for each column and row.
+How to Use <colgroup> HTML Tag?
+To use the <colgroup> HTML Tag, The site developer should write the <colgroup></colgroup> tag. It can have a span property that defines how many columns to span, or it can include one or more
+<col>
+tags that represent various columns inside the <colgroup> element.
+Example Usage of <colgroup> HTML Tag?
+The following example of usage of <colgroup> HTML tag is given below.
+<table>
+<colgroup>
+<col span="2" style="background-color:red">
+<col style="background-color:blue">
+</colgroup>
+<tr>
+<th>ISBN</th>
+<th>Title</th>
+<th>Price</th>
+</tr>
+<tr>
+<td>3476896</td>
+<td>My first HTML</td>
+<td>$53</td>
+</tr>
+</table>
+What are the Attributes of <colgroup> HTML Tag?
+There are multiple attributes for the <colgroup> HTML Tag. The following attributes are listed below.
+Global Attributes: The <colgroup> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <colgroup> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+Span Attributes: The <colgroup> HTML Tag supports Span Attributes. The Span Attribute determines how many columns a column group should span.
+What are the Default CSS Settings for <colgroup> HTML Tag?
+The following is the Default CSS Setting for the <colgroup> HTML Tag.
+.spiderman {
+background-color: #d7d9f2;
+}
+.superman {
+background-color: #ffe8d4;
+}
+caption {
+padding: 8px;
+caption-side: bottom;
+}
+table {
+border-collapse: collapse;
+border: 2px solid rgb(100, 100, 100);
+letter-spacing: 1px;
+font-family: sans-serif;
+font-size: .7rem;
+}
+td,
+th {
+border: 1px solid rgb(100, 100, 100);
+padding: 10px 10px;
+}
+td {
+text-align: center;
+What are the Related other HTML Tags to <colgroup>?
+The other related HTML Tags to the <ins> HTML Tag are listed below.
+<table> HTML Tag: The <table> HTML Tag is related to <colgroup> HTML Tag because they are both tables tags. A table is defined by the <table> HTML Tag.
+<caption> HTML Tag: The
+<caption>
+HTML Tag is related to <colgroup> HTML Tag because they are both table tags. The <caption> HTML Tag specifies the caption for a table.
+<th> HTML Tag: The
+<th>
+HTML Tag is related to <colgroup> HTML Tag because they are both table tags. The <th> HTML Tag specifies a table header cell.
+<tr> HTML Tag: The
+<tr>
+HTML Tag is related to <colgroup> HTML Tag because they are both table tags. The <tr> HTML Tag specifies a table row.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <colgroup> Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <td> Tag Definition, Usage and Example…
+TechSEO
+HTML <col> Tag Definition, Usage and Example…
+0
+0
+0

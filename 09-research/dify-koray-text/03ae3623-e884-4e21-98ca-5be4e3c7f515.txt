@@ -1,0 +1,127 @@
+Robots.txt File: Definition, Examples and Creating & Testing - Holistic SEO
+Skip to content
+The robots.txt file is a text file in which it can be determined which areas of a domain may and may not be crawled by a web crawler. With robots.txt, individual files in a directory, complete directories, subdirectories, or entire domains can be excluded from crawling. The robots.txt file is stored in the root of the domain. It is the first document that a bot retrieves when it visits a website. The bots of major search engines like Google and Bing stick to the instructions. Otherwise, there is no guarantee that a bot will comply with the robots.txt specifications.
+Disallow and Allow Difference for SEOs based on Garry Illyes’ tweet.
+Contents of the Article
+show
+1.
+Where to put the robots.txt file?
+2.
+Structure of the Protocol of Robots.txt File
+3.
+Creation and Control of Robots.txt
+4.
+Exclusion of Web Pages from the Index
+5.
+Use Robots.txt with Wildcards (Regular Expression)
+6.
+How to Allow a Certain File which is in Disallowed Folder Already?
+7.
+Importance for Search Engine Optimization
+8.
+How to Solve Blocked by Robots.txt Warning Google Search Console Coverage Report
+9.
+What is Robots.txt Art?
+Where to put the robots.txt file?
+So that the search engines find robots.txt, it must be in the main directory of the domain. If you save the file somewhere else, the search engines will not find and pay attention to it. There can only be one “robots.txt” file per main domain.
+Note: Subdomains and the Main Domain have to have different Robots.txt Files.
+Structure of the Protocol of Robots.txt File
+The so-called “Robots Exclusion Standard Protocol” (short: REP) was published in 1994. This protocol specifies that search engine robots (also: user agents) first look for a file called robots.txt in the root directory and read out the specifications before they start crawling and indexing. To do this, the robots.txt file must be stored in the root directory of the domain and have exactly this file name in small letters. The bot reads the robots.txt in a case-sensitive manner. The same applies to the directives noted in the robots.txt.
+However, it should be noted that not all crawlers adhere to these rules and the robots.txt file, therefore, does not offer any access protection. Some search engines still index the blocked pages and only display them in the search results pages without description text. This occurs especially when the page is heavily linked. Backlinks from other websites ensure that the bot becomes aware of a website, even without directives from robots.txt. The main search engines, such as Google, Yahoo, and Bing, however, adhere to the requirements in robots.txt and follow the REP.
+Related Python SEO Guidelines for Robots.txt Files:
+How to test a robots.txt file via Python
+How to Compare and Analyse Robots.txt File via Python
+Creation and Control of Robots.txt
+The robots.txt can easily be created using a text editor because it is saved and read in plain text format. There are also free tools on the web that query the most important information for robots.txt and automatically create the file. The robots.txt can also be created and checked at the same time using the Google Search Console.
+Each file is made up of two blocks. First, the creator specifies to which user agent (s) the instructions should apply. A block follows this with the introduction “Disallow”, after which the pages to be excluded from indexing can be listed. Optionally, the second block can also consist of the introduction “Allow”, to supplement this with a third block “Disallow” and to specify the instructions.
+Before the robots.txt is uploaded to the root directory of the website, the file should always be checked for correctness. Even the smallest syntax errors can cause the user agent to disregard the specifications and also crawl pages that should not appear in the search engine index. To check whether the robots.txt file works as expected, an analysis can be carried out in the Google Search Console under “Coverage Report” -> Excluded -> “Blocked by robots.txt”. ,
+Note: You can use Google’s Robots.txt Testing Tool to understand which pages and directories are open to crawling and which pages are not
+Exclusion of  Web Pages from the Index
+The simplest structure of robots.txt looks like this:
+User-agent: Googlebot
+Disallow:
+This code means that Googlebot can crawl all pages. The opposite of this, namely prohibiting web crawlers from crawling the entire website, looks as follows:
+User-agent: Googlebot
+Disallow: /
+In the “User-agent” line, the user enters the user agents after the colon for which the requirements apply. The following entries can be made here, for example:
+Googlebot (Google search engine)
+Googlebot image (Google image search)
+Adsbot-Google (Google AdWords)
+Slurp (Yahoo)
+bingbot (bing)
+If several user agents are to be addressed, each bot receives its own line. An overview of all common commands and parameters for robots.txt can be found at holisticseo.digital/robots.txt.
+A reference to the XML sitemap is implemented as follows:
+Sitemap: http://www.domain.de/sitemap.xml
+You should always use different sitemaps for the subdomains. Do not put the Main Domain’s sitemap into the subdomains robots.txt file.
+A blocked URL can be indexed because of the internal links without a title and description, with only the blue link which include the naked URL.
+Use Robots.txt with Wildcards (Regular Expression)
+The Robots Exclusion Protocol does not allow regular expressions (wildcards) in a strict sense. But the major search engine operators support certain terms such as * and $. This means regular expressions are mostly used only with the Disallow directive to exclude files, directories, or websites.
+The character * serves as a placeholder for any character strings that follow this character. The crawlers would not index websites that contain this string, provided they support wildcard syntax. For the user agent, it means that the directive applies to all crawlers – even without specifying a character string. An example:
+User-agent: *
+Disallow: * cars
+This directive would not index all websites that contain the string “cars”. This is often used for parameters such as session IDs (for example with Disallow: *id) or URL parameters (for example with Disallow: / *?) To exclude so-called no-crawl URLs.
+The character $ serves as a placeholder for a filter rule that takes effect at the end of a character string. The crawler would not index content that ends in this string. An example:
+User-agent: *
+Disallow: * .phone$
+With this directive, all content that ends with “.phones” would be excluded from indexing. Analogously, this can be transferred to various file formats: For example, .pdf (with Disallow: /
+.pdf$), .xls (with Disallow: /
+.xls$), or other file formats such as images, program files or log files can be selected not to bring it into the search engine index. Here, too, the directive refers to the behavior of all crawlers (user-agent: *) that support wildcards.
+Here, we simply block all Search Engine User-agents from crawling and indexing our domain because this picture has been taken after the website has been built.
+How to Allow a Certain File which is in Disallowed Folder Already?
+Sometimes, a webmaster may want to let crawlers crawl a certain URL while disallowing the crawlers for the URL’s category. To do this, the webmaster should use “disallow” and “allow” commands in a sequence as follows:
+User-agent: *
+disallow: /disallowed-category/
+allow: /disallowed-category/allowed-file
+According to the search demand and content quality, this technique especially helps for e-commerce SEO Projects. While closing a URL parameter to the index for all sites, for only one product, the webmaster may want to let the crawlers index the URL.
+Importance for Search Engine Optimization
+The robots.txt of a page has a significant influence on search engine optimization. With pages that have been excluded by robots.txt, a website can not usually rank or appear with placeholder text in the SERPs. An excessive restriction of user agents can, therefore, result in disadvantages in the ranking. Too open notation of directives can lead to the indexing of pages, for example, duplicate content contains or concerns sensitive areas such as a login. When creating the robots.txt file, accuracy according to the syntax is absolutely necessary. The latter also applies to the use of wildcards, which is why a test in the Google Search Console makes sense. It is important, however, that commands robots.txt do not prevent indexing. In this case, webmasters should instead use the Noindex meta tag and exclude individual pages from indexing by specifying them in the header.
+The robots.txt file is the most important way for webmasters to control the behavior of search engine crawlers. If errors occur here, websites can become unreachable because the URLs are not crawled at all and therefore cannot appear in the search engine index. Because the question of which pages should be indexed and which should not have an indirect impact on the way search engines view websites or register them at all. Basically, the correct use of robots.txt has no positive or negative effects on the actual ranking of a website in the SERPs. Rather, it controls the work of Googlebot and the crawl budget optimally used. The correct use of the file ensures that all-important areas of the domain are crawled, and current content is indexed by Google.
+How to Solve Blocked by Robots.txt Warning Google Search Console Coverage Report
+If a URL is blocked by the robots.txt but also in the Sitemap, Google will show the “Submitted URL marked ‘noindex'” warning.
+If a URL is blocked and then tagged with noindex, the URL will stay as indexed.
+This is because, since the Googlebot or other Crawlers has been blocked by the webmaster or the website operator, the Search Engine can’t see the “noindex tag”. Also, every URL in the Sitemap should be open to crawlers and never be tagged as noindex. They shouldn’t be redirected or give the 404 status code.
+You may see this type of URL in Google Search Console Coverage Report.
+To remove the blocked and also tagged as noindex URLs from the index, the webmaster should remove the blocking code line from the robots.txt file. When the Search Engine can crawl the web pages with noindex, Google will remove those web pages from the index. Also, using Google’s URL Removal Tool can make progress here. To keep those URLs away from Google and to prevent they from consuming the Crawl Quota, webmaster should block them again to the Search Engine Crawlers.
+What is Robots.txt Art?
+Some programmers and webmasters also use robots.txt to hide funny messages. However, this “art” has no effect on crawling or search engine optimization.
+This is an example of Robots.txt Art.
+Also, some brands use Robots.txt files for showing their logos to make marketing for developers and webmasters. You may see an example from Nike below:
+Nike’s Robots.txt file and its art for marketing.
+Robots.txt files are important factors for SEO. Even the slightest error can block all domains to the Search Engine Crawlers or remove all domains from the index and create harmful situations for SEO Projects. As Holistic SEOs, we always put alarms for Robots.txt file changes, so that we can be warned whenever a change happens. Also, we test every Robots.txt file change with Google’s Robots.txt file testing tool.
+I always recommend you to use Robots.txt file carefully and be open as much as possible to the Search Engine Crawlers. A blocked URL means that a non-visible web page for Google and Google treats these URLs as unique web pages, if their URL Structure is close to the ones which can be crawled, Google can think some of those URLs as duplicate. While determining the Site Hierarchy and Parameter Structure, all of those should be taught by the Holistic SEO Expert.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+What is Robots.txt File: Everything You Need to Know
+by Koray Tuğberk GÜBÜR
+time to read: 8 min
+TechSEO
+What is the User-agent?
+TechSEO
+What is Redirection? Everything about 301, 302 and…
+0
+0
+0

@@ -1,0 +1,154 @@
+Return on Capital Employed (ROCE): Calculation and Definition - Holistic SEO
+Skip to content
+The
+return on capital employed
+, or
+ROCE for
+short, is one of the key indicators of
+profitability
+and shows how large the return on capital employed is. To this end, the ROCE compares the operating result before taxes and interest (
+EBIT
+) with the assets tied up in the company. These assets correspond to the total capital minus short-term liabilities and cash and cash equivalents. This is also the difference to
+return on investment (ROI)
+. The ROCE only refers to the capital with which the daily business operations are financed in the long term. In contrast to
+own
+or
+Return on debt
+is irrelevant whether it is equity or debt. This approach determines a company’s return on the capital parts it uses.
+Short Definition of ROCE is below.
+The
+return on capital employed (ROCE)
+is always used when it is necessary to assess how well the company assets are being managed. At ROCE, the “remuneration” of capital providers (profit from the owners and interest of the lenders) is set in relation to the capital they provide (equity, bonds, loans, etc.).
+ROCE Formula: How to Calculate Return on Capital Employed?
+Contents of the Article
+show
+1.
+ROCE Formula Explained
+1.1.
+Example of Calculation for ROCE
+1.1.1.
+Passive determination of ROCE
+1.1.2.
+Active investigation ROCE
+2.
+Interpretation of the ROCE
+3.
+Return on Capital Employed and Digital Marketing: How is It Related to the SEO?
+ROCE Formula Explained
+To calculate the return on capital employed, the EBIT is divided by the capital invested. The ROCE formula looks like this:
+EBIT stands for Earnings Before Interests and Tasks.
+The EBIT corresponds to the gross profit of a company in a given period.
+Now, the amount of capital invested is still missing in order to be able to calculate the ROCE. Capital employed can be determined in several ways. A first approach is a passive calculation, in which a large part of the balance sheet values ​​is taken from the liabilities side. You add equity and long-term debt and deduct the liquid funds. This gives the sum of the balance sheet items that represent long-term tied company assets in the balance sheet.
+Another way of presenting this calculation of capital employed is the addition of long-term assets and net current assets, also called asset determination. Long-term assets include property, plant, and equipment (machines, buildings, …) and intangible assets (patent rights, trademark licenses, …). Net current assets are all short-term assets except cash and cash equivalents and short-term liabilities, and therefore mainly include a company’s receivables and inventories. In addition, short-term debt is deducted from the active determination.
+You also may want to read some related Marketing Guidelines.
+What is the Return of Investment (ROI)?
+What is NeuroMarketing?
+What is Flywheel Marketing?
+How to use Eye-tracking for better Marketing Campaign Management
+What is Community Management?
+Example of Calculation for ROCE
+The following company balance sheet is available at the end of the financial year:
+assets
+liabilities
+Capital assets
+$ 4,100,000
+Equity
+$ 3,250,000
+Current assets
+Debt
+Stocks
+$ 875,000
+Accruals
+$ 950,000
+Claims from L. u. L.
+$ 1,000,000
+Liabilities from L. u. L.
+$ 700,000
+Cash and cash equivalents
+$ 725,000
+Long Term Loans
+$ 1,800,000
+The
+EBIT
+is
+$342,875
+.
+In order to be able to calculate the ROCE, the capital invested must first be determined. Either the active or the passive determination can be used.
+Passive determination of ROCE
+Equity
+$ 3,250,000
++
+accruals
+$ 950,000
++
+Long Term Loans
+$ 1,800,000
+–
+Cash and cash equivalents
+$ 725,000
+=
+Capital invested
+$ 5,275,000
+Active investigation ROCE
+Capital assets
+$ 4,100,000
++
+Stocks
+$ 875,000
++
+Claims from L. u. L.
+$ 1,000,000
+–
+Liabilities from L. u. L.
+$ 700,000
+=
+Capital invested
+$ 5,275,000
+If you have calculated consistently and correctly here, the same amount of capital is used for both approaches. This capital employed of € 5,275,000 can now be used in the ROCE formula.
+%
+The long-term capital tied up in the company has an interest rate of 6.5%.
+Interpretation of the ROCE
+Since in practice there are differences in the calculation of the capital employed (different balance sheet items/criteria), ROCE comparisons between companies are only possible with reservations. The calculation method used can usually be found in the glossary of the company examined. Once this hurdle has been overcome, the ROCE shows the return on the capital tied up in the company.
+When comparing the ROCE between companies or with the market interest rate, it should be noted that the same periods are considered. The reason for this is that the ROCE is heavily dependent on the current cost of capital and is of course influenced by fundamental market and economic fluctuations. Therefore, comparing the ROCE of individual periods makes little sense. An important entrepreneurial indicator, however, is the trend of the ROCE over long periods. Usually, investors prefer companies with stable and rising ROCE values ​​over companies whose values ​​fluctuate widely.
+If the ROCE exceeds the average cost of capital in the company, this indicates that borrowing has generated profits. If the key figure is also higher than the market interest rate, additional loans or credits can be used to generate further returns if these can be invested in the company just as well.
+Critics of ROCE criticize the lack of inclusion of the capital structure when calculating the key figure. So whether a company is almost entirely financed with outside capital has no effect on ROCE. In addition, a company’s risk structure plays no role in the return on capital employed. Instead, the ROCE assumes that the risk is evenly distributed across the company in question. In practice, the ROCE can therefore often not be used across companies, since different areas differ greatly in terms of risk.
+Return on Capital Employed and Digital Marketing: How is It Related to the SEO?
+ROCE is an important key figure in Digital Marketing to understand the customers’ situation financially. If a Holistic SEO can calculate the ROCE or be aware of the ROCE of customers, he or she can manage the SEO Project in a more effective way so that the customers’ digital assets and existence can be increased in terms of value. If a company or customer in a bad situation in terms of ROCE, they can end the SEO Project or freeze all digital marketing campaigns. In Coronavirus Pandemic, 2020, this happened. Most of the Agencies lost their customers and most of the global companies have stopped the marketing process, they have cut the marketing budget. If a Holistic SEO can understand this business and entrepreneur terms and balance, he/she can help the customers in a better visionary and equipped way so the customers can want to continue to the project in the same or with a lighter budget.
+Also, ROCE can help the SEOs to understand the agencies they work with or their own company’s situation in terms of economy and sustainability. Building a brand-new agency requires knowledge of business terminologies like ROCE or ROI and more.
+As Holistic SEOs, we will continue to improve our ROCE guidelines as new practices are created or new examples happened.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Marketing
+What is the Return on Capital Employed (ROCE)?
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+Marketing
+What is a Landing Page?
+Marketing
+What is the Return of Investment (ROI)?
+0
+0
+0

@@ -1,0 +1,117 @@
+Skip to content
+The aria-autocomplete attribute defines if the entering description or content results in the display of a number of predictions from the user’s meant value for a combobox, searchbox, or textbox and how these predictions are displayed. The goal of the attribute is to connect features that provide inline suggestions from user inputs. The ext for completed from the value of the field displays just after the input cursor. A command such as tabbing follows this principle wherein the value being suggested is considered the value if it is taken action by the user itself. In certain conditions wherein a non-specific input element is being proposed to the users, developers can do away with a specific value or assign the aria-autocomplete attribute to “none”. The aria-autocomplete command can be used in elements such as <datalist>. The <datalist> HTML element includes a series of <option> elements that contain submitted options that can be selected from within another control. The aria-autocomplete can be used for ARIA Labels like aria-controls, aria-haspopup, aria-activedescendant, and aria-expanded.
+Contents of the Article
+show
+1.
+What is the function of the “aria-autocomplete” ARIA Label?
+2.
+What are the uses of the “aria-autocomplete” ARIA Label?
+3.
+Example Uses of “aria-autocomplete” ARIA Label
+4.
+What are the related ARIA Labels to “aria-autocomplete”?
+What is the function of the “aria-autocomplete” ARIA Label?
+The aria-autocomplete attribute specifies the type of autocompletion interaction paradigm that will be used by a textbook, search box, or combobox when dynamically assisting users with text input. It differentiates between two models: the inline model (aria-autocomplete=inline”), which displays a single estimate value. The list model (aria-autocomplete=”list”), which displays a selection of potential values in a distinct element that appears adjacent to or just below the text input. The aria-autocomplete=”both” is used when the interface displays a list and a projected value.
+What are the uses of the “aria-autocomplete” ARIA Label?
+Listed below are the uses of the “aria-autocomplete” ARIA Label.
+combobox role:
+The combobox role designates an element as an input that influences another element, such as a listbox or grid, that can automatically appear to assist the user in setting the value of that input.
+textbox role:
+The textbook role identifies an element that permits the entry of free-form text. The browser notifies the user’s assistive technology when an accessible textbook event occurs.
+inherits from search box role:
+The search box role identifies an element as a sort of textbook designed for entering search criteria.
+Example Uses of “aria-autocomplete” ARIA Label
+Listed below are the example uses of the “aria-autocomplete” ARIA Label.
+The aria-autocomplete attribute for assistive technologies merely identifies the type of anticipated behavior for an input element; it does not deliver the functionality. The actual autocompletion function should be implemented with HTML elements or JavaScript. In this case, a page comprises a combobox consisting of a textbook and a dropdown list of user-selectable options. The selected list items become the textbook’s value. As the user navigates through the list using the arrow keys, aria-activedescendant is modified to reflect the attribute of the currently browsed child element.
+<input type=" aria-activedescendant="cb1-opt7" aria-readonly="true"
+aria-owns="cb1-list" aria-autocomplete="list" role="combobox"
+id="cb1-edit">
+<ul aria-expanded="true" role="listbox" id="cb1-list">
+<ul aria="option"is="cb1-opt1">Argentina</li>
+<ul aria="option"is="cb1-opt1">Bolivia</li>
+<ul aria="option"is="cb1-opt1">Brazil</li>
+<ul aria="option"is="cb1-opt1">Chile</li>
+<ul aria="option"is="cb1-opt1">Colombia</li>
+<ul aria="option"is="cb1-opt1">Ecuador</li>
+<ul aria="option"is="cb1-opt1">Guyana</li>
+</ul>
+<input type=" aria-activedescendant="cb1-opt7" aria-readonly="true"
+aria-owns="cb1-list" aria-autocomplete="list" role="combobox"
+id="cb1-edit">
+<ul aria-expanded="true" role="listbox" id="cb1-list">
+<ul aria="option"is="cb1-opt1">Golden State Warriors</li>
+<ul aria="option"is="cb1-opt1">Miami Heat</li>
+<ul aria="option"is="cb1-opt1">Brooklyn Nets</li>
+<ul aria="option"is="cb1-opt1">Toronto Raptors</li>
+<ul aria="option"is="cb1-opt1">Los Angeles Lakers</li>
+<ul aria="option"is="cb1-opt1">LA Clippers</li>
+<ul aria="option"is="cb1-opt1">Philadelphia 76ers</li>
+</ul>
+<ul id="animals-listbox" role="listbox" aria-label="Animals">
+<li id=“fruits-drupes” role="option">drupes</li>
+<li id="animal-berries” role="option">berries</li>
+</ul>
+<ul id=“animals-listbox" role="listbox" aria-label="Animals">
+<li id="animal-mammals” role="option">mammals</li>
+<li id="animal-reptiles” role="option">reptiles</li>
+</ul>
+<ul id=“plants-listbox" role="listbox" aria-label="Animals">
+<li id=“plants-grasses” role="option">grasses</li>
+<li id=“plants-herbaceous” role="option">herbaceous</li>
+</ul>
+What are the related ARIA Labels to “aria-autocomplete”?
+Listed below are the related ARIA Labels to “aria-autocomplete”.
+aria-controls:
+The aria-controls are related to aria-autocomplete because they both use DOM to keep the focus on the text input while the list of suggestions is displayed. The
+aria-controls
+attribute names the element(s) whose content or presence is managed by the attribute from which this attribute is set.
+aria-haspopup:
+The aria-haspopup is related to aria-autocomplete because they both use DOM to keep the focus on the text input while the list of suggestions is displayed.  The
+aria-haspopup
+attribute tells the element on which it is set what kinds of interlayer pop-up elements are available and how they can be used.
+aria-activedescendant:
+The aria-activedescendant is related to aria-autocomplete because they both implement a list of values that focuses on DOM to remain on the text input while the suggestion list is displayed. The
+aria-activedescendant
+attribute specifies the presently active element when the objective is on a composite widget, combobox, textbox, group, or application.
+aria-expanded:
+The aria-expanded is related to aria-autocomplete because they both use DOM to keep the focus on the text input while the list of suggestions is displayed.  The
+aria-expanded
+is set on an attribute to demonstrate if control is expanded or collapsed and if its child element is shown or hidden.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-autocomplete” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 4 min
+TechSEO
+“aria-braillelabel” ARIA Label for Acc…
+TechSEO
+“aria-atomic” ARIA Label for Accessibi…
+0
+0
+0

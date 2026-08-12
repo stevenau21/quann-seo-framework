@@ -1,0 +1,213 @@
+Crawl and Analyse a Web Site with Python - Holistic SEO
+Skip to content
+There are many Python Modules available that can be used to crawl a website in all aspects on a large scale. Custom scripts that can be written in modules such as Scrapy, BeautifulSoup, and Requests will be sufficient in this regard. However, there is a problem that there is no Python Module or a scripting script that will make it possible to scan every website in Screaming Frog detail free of charge. However, Elias Dabbas changed this situation. Advertools, in which we have written Guidelines for Holistic SEOs in many articles in our Python SEO Category, can help you do better than a third-party crawler with its “crawl ()” function.
+In this article, we will show you how to browse a website with the help of Advertools and Python and evaluate it with the possibilities that third-party paid tools do not offer.
+Without further progress, if you do not have enough coding experience, it may be useful to examine our other articles showing what can be done with Advertools within Python SEO.
+Contents of the Article
+show
+1.
+How to Crawl a Website and Examine via Python
+1.1.
+How to Check whether there is a missing title (and more) on our website via Python?
+1.2.
+How to Check whether there is a missing meta description on our website via Python?
+2.
+How to find Missing Values in the Columns?
+2.1.
+How to check Status Codes of URLs from a Website with Python
+2.2.
+How to Check Average Meta Title Length of a Web Site via Python?
+2.3.
+How to learn How Many Title Tags are Longer than 60 Characters via Python?
+2.4.
+How to Find Meta Titles Consist of Certain Number of Words
+2.5.
+How to Pull the Meta Titles that are longer than 60 Characters via Python?
+3.
+How to Calculate Pixel Length of Meta Titles or Descriptions via Pytho?
+4.
+How to find Meta Titles which are longer than 580px via Python?
+5.
+How to Find Most Frequently Used Words in Meta Tags and Other On-Page Elements via Python
+5.1.
+How to Create a WordCloud from a Web Site’s Title Tags?
+6.
+How to Categorize URLs of a Web Site via Python?
+6.1.
+How to see which category has how many URLs via Python?
+6.2.
+How to find duplicate Titles or Descriptions from a Web Site via Python
+6.3.
+How to find not self-referencing Canonical Tags via Python?
+7.
+How to Scrape Custom Values and Data from Web Sites via Python
+7.1.
+How to See Average and General Size of Web Pages of a Web Site via Python?
+8.
+How to Pull and Filter Web Pages According to their Sizes via Python
+9.
+How to Check a Web Site’s Site-wide Used Response Headers via Python?
+9.1.
+How to Check Download Latency (Time to First Byte) for entire Web Site via Python?
+9.2.
+How to print a columns which has a certain condition via Python?
+9.3.
+How to test whether a website has used a security-related Response Header or not via Python?
+9.4.
+How to test all of the Response Header’s Usage Case via Python?
+10.
+How to check a web site’s Structured Data Usage via Python?
+11.
+How to check Links on the web pages from a web site to see whether they used a “nofollow” tag or no via Python?
+12.
+How to pull all the Image URLs from an entire web site via Python?
+13.
+How to Find Duplicate, Missing, and Multiple Heading Tags via Python?
+14.
+How to check all the Anchor Text on a entire web page via Python?
+15.
+How to Pull All of The Content from a Web Site via Python?
+16.
+Last Thoughts on Holistic SEO and Crawling, Analyzing a Web Entity via Python
+How to Crawl a Website and Examine via Python
+We will use the crawl function of Advertools to browse a website and position the scanned data in a data frame. First, we will import the necessary data.
+import pandas as pd
+from advertools import crawl
+We have chosen a small web entity so that we can create an easy-going usage example in terms of time and cost.
+crawl('https://encazip.com', 'encazip.jl', follow_links=True)
+enczp = pd.read_json('encazip.jl', lines=True)
+enczp.head(5)
+The first line has crawled the “Encazip.com” which is a company that provides electricity consumers to change the distribution company in terms of electricity distribution. We have crawled the website and output the data in “jl” format. “follow_links=True” attribute is for making crawlers following the URLs on a web page.
+We have created a variable that is “enczp”, we have used the “encazip.jl” output via “lines=True” attribution so that our crawled data can be seen in a data frame.
+We have called our variable’s data.
+You may see the output below.
+Crawled Web Site’s Dataframe with Pandas
+We have 68 columns. Just look at the column names to understand the amount of data crawl offers to us.
+enczp.columns
+You may see our columns’ names in a screenshot as below:
+Columns of our Dataframe
+Giving the 68 column names in one frame may have created a complex image, you can see the relevant points in a grouped form below.
+Status Code
+URL, Title
+Description
+Canonical
+Open Graph
+Twitter Cards
+Response Size
+Headings Tags
+Body Text
+Internal Links
+Crawl Time
+Response Headers
+Structured Data
+Request Headers
+Image Alt Tags
+Nofollow Links
+Anchor Texts
+Response Latency
+Image Sources,
+Also, thanks to Advertools’ technology, we have an option to add more columns via “CSS selectors” and “selectors” attribute. We will show an example later.
+It is possible to get all these data without any paid SEO Crawler. Also, thanks to Python Modules, Libraries, and Holistic SEO Vision, unlike third-party crawlers’ use cases, we have endless opportunities and possibilities for our SEO projects thanks to this free and unlimited crawler who developed by Elias Dabbas.
+You can crawl two separate websites and visualize them by comparing many points such as content, heading, title, canonical, URL, response headers, structured data, latency, and you. Or you can compare contents via NLP Algorithms and analyze what percentage of their titles are sarcastic or you can perform entity extraction and relationship visualization. You can do everything with Python with unlimited flexibility and creativity at any point from site speed, security to On-Page SEO Elements.
+To learn more about Python SEO, you may read the related guidelines:
+How to resize images in  bulk with Python
+How to perform DNS Reverse Lookup thanks to Python
+How to perform TF-IDF Analysis with Python
+How to perform text analysis via Python
+How to test a robots.txt file via Python
+How to Compare and Analyse Robots.txt File via Python
+How to Categorize Queries via Python?
+How to Categorize URL Parameters and Queries via Python?
+How to Check whether there is a missing title (and more) on our website via Python?
+We can use “isna” and “value_counts()” method.
+enczp['title'].isna().value_counts()
+OUTPUT>>>
+False    98
+Name: title, dtype: int64
+In this example, we don’t have any missing title tags. Also, you may use this methodology also for “Canonical tags”, “image alt tags”, “heading 1-6” tags, “Structured Data”, “Open Graph” and “Twitter Card”. We are choosing “meta titles” just as an example to keep the article brief.
+How to Check whether there is a missing meta description on our website via Python?
+We can use “isna” and “value_counts()” method for other data columns also.
+enczp['meta_desc'].isna().value_counts()
+OUTPUT>>>
+False    97
+True      1
+Name: meta_desc, dtype: int64
+We have a missing description in this case, so, how can we see it?
+How to find Missing Values in the Columns?
+After learning whether there is a missing value in the columns, we can pull the missing data point.
+enczp[enczp['meta_desc'].isna()]
+You may see the result below.
+Pandas “isna()” method’s usage example.
+We don’t have a meta description for this URL, because it has a 404 Status Code. So, why it is in our data frame? Because, Encazip Web Entity has broken internal links, so it caused us to crawl these unnecessary URLs.
+This reminds us that we should check also the status codes.
+How to check Status Codes of URLs from a Website with Python
+We will use the same methodology. Choosing the “status” column and using the “value_counts()” method will give the data we want.
+enczp['status'].value_counts()
+OUTPUT>>>
+200    97
+404     1
+Name: status, dtype: int64
+We have only one 404 URL and it is the one with missing description.
+How to Check Average Meta Title Length of a Web Site via Python?
+To perform this task, we need to use “str()”, “len()” and “mean()” methods in a harmony. We also can find the “shortest” title and character count, longest like average. We can use this information to compare web entities’ general situation. You also can use this Data Scientist Perspective for SERP Analysis.
+enczp['title'].str.len().mean()
+OUTPUT>>>
+50.8469387755102
+Our average title length is 50.84 character.
+How to learn How Many Title Tags are Longer than 60 Characters via Python?
+To learn how many title tags are longer than 60 characters, using “str()”, “len” methods and “>” logical operator is necessary. You can see an example below.
+(enczp['title'].str.len() > 60).value_counts()
+False    92
+True      6
+Name: title, dtype: int64
+Only 6 of our meta titles are longer than 60 characters.
+How to Find Meta Titles Consist of Certain Number of Words
+Also, we may check meta titles consist of specific number of words. %45 of the Google searches consist of queries with four words. So, using more descriptive and relevant words in a Meta Title can help. May Screaming Frog show Meta Titles according to the word count? No… But Python can!
+enczp['title_word_count'] = enczp['title'].str.count(' ') + 1
+enczp.filter(['title_word_count', 'title']).head(15)
+We have “count” a certain character in the certain Data Series (column).
+We also have added a “1” point for every result, because Python starts counting from 0. We have assigned all of these data into a new column.
+We have filtered these columns and called the first 15 lines.
+You may see the result below:
+“filter()” Method and Usage on Pandas Dataframe
+We see that also there is an error page in our result. We have counted the ” ” characters, which means we have counted the spaces between words. You may need to use some strip methods for these kinds of calculations also. You may use this methodology also for descriptions, anchor texts, or “URLs” with stripping the “-” sign between words.
+You may also use AI and Data Science to see whether a certain type of words in the meta titles take more clicks, impressions, or have more queries for taking search activity. These are a few options from Python’s endless world for SEO.
+How to Pull the Meta Titles that are longer than 60 Characters via Python?
+We can pull a specific row that doesn’t meet a certain condition as we did for the “Missing Description” section.
+enczp[enczp['title'].str.len() > 60].url.to_frame()
+pd.set_option('display.max_colwidth',155)
+You may see the result below.
+“to_frame()” method of Pandas, usage example.
+How to Calculate Pixel Length of Meta Titles or Descriptions via Pytho?
+We also can calculate the pixel length. If a Holistic SEO Knows Python, you can’t be beaten by Screaming Frog, it is impossible. Pixel length for a Meta Title and Meta Description shouldn’t be longer than 580px and 920px. For “pixel length calculation” we will use “PIL” which means “Python Image Library”. We have used Python’s PIL before for “
+image optimization via Python Guideline
+“. We also can calculate pixel coordinates, pixel length or image size, writing a text on images, or anything you may imagine. You may see the correct methodology for pixel calculation via Python below.
+from PIL import ImageFont
+font = ImageFont.truetype('Roboto-Regular.ttf', 20)
+enczp['title_pxlength'] = [font.getsize(x) for x in enczp.title]
+enczp.filter(['title', 'title_pxlength'])
+In the first line, we have imported the necessary Module.
+We have created a variable that is “font”. We have assigned it “Roboto-Regular.ttf” font family and determined the font size as 20 Pixel.
+We have created a new column which is “title_pxlength”. We have calculated “pixel length” and also “pixel height” for the meta titles and put all of them into a list via List Comprehension.
+We have filtered the “title” and “title_pxlength” columns to see our title’s pixel length.
+You may see the result below.
+Python Pixel Length Calculation Example.
+We have pixel length and pixel heights for our Meta Titles. We can use the same methodology for also Anchor Texts or Descriptions, URLs, etc… You may ask that why we used “Roboto-regular” and 20 pixel” for our pixel length calculation. Because, Google is using Roboto-regular for its Meta Titles as 20px.
+How to find Meta Titles which are longer than 580px via Python?
+Some SEOs may need help for using “tuples” in Pandas Rows to filter via conditions. So, we can also show this. There is a special method for tuples in Pandas Rows which is “itertuples()”. But, we will use an easier method.
+enczp[['title_pxlength', 'title_pxheight']] = pd.DataFrame(enczp['title_pxlength'].tolist(), index=enczp.index)
+enczp[['title_pxlength', 'title_pxheight']]
+We have created two different columns for “title pixel length” and “title pixel height”. We have turned the “tuples” of “title_pxlenght” column into a list, then we have turned it into a data frame and assigned every different tuple component into the columns we have created via our valid data frame’s index. You may see the result below:
+Pixel Length and Height can be seen as above.
+Now, we can perform our mission for this heading.
+enczp[enczp['title_pxlength'] > 580]['title'].to_frame()
+We have filtered the titles that are longer than 580 pixel and put them into a frame. You may see the result below.
+You may see the longer meta titles than 580 pixel.
+If you think that you should always try to perform these processes over and over again, you may also create your custom functions as below:
+def pxlength(df):
+from PIL import ImageFont
+font = ImageFont.truetype('Roboto-Regular.ttf', 20)
+df['pxlength'] = [font.getsize(x) for x in df.title]
+df[['title_pxlength', 'title_pxheight']] = pd.DataFrame(df['title_pxlength'].tol
+
+[...truncated...]

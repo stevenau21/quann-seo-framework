@@ -1,0 +1,179 @@
+Skip to content
+The <td> HTML Tag defines a standard of what is expected in a cell in an HTML table. The standard HTML text and left-aligned are used for the <td> HTML Tag. Table data is contained in the HTML table and the table headings. The <td> HTML Tag should be the child element of the <tr> HTML Tag, which is also know as the table row element. The <td> HTML Tag is part of the Table Tags category in HTML Element Reference. The attributes of the <td> HTML Tag are cops-an, headers, rowspan, global, and event attributes.
+<td> code block example to learn how it works is given below.
+<table>
+<tr>
+<td>1 Cell</td>
+<td>2 Cell</td>
+</tr>
+</table>
+The second example usage of the “<td>” code block example is given below.
+<style>
+table, td, th {
+border: 1px dotted blue;
+}
+</style>
+<table>
+<tr>
+<th>1 Header</th>
+<th>2 Header</th>
+</tr>
+<tr>
+<td>1 Cell</td>
+<td>2 Cell</td>
+</tr>
+</table>
+Contents of the Article
+show
+1.
+What is <td> HTML Tag
+2.
+How to Use <td> HTML Tag?
+2.1.
+Example Usage of <td> HTML Tag?
+3.
+What are the Attributes of <td> HTML Tag?
+4.
+What are the Default CSS Settings for <td> HTML Tag?
+5.
+What are the Related other HTML Tags to <td>?
+What is <td> HTML Tag
+The <td> HTML Tag indicates a data cell or table in an HTML table. The <td> HTML Tag is utilized in conjunction with the <table> and <tr> elements to display data in a table. An HTML table contains two types of cells, mainly the header cell and the data cell. The header cell displays information about the header made with the <th> element. The data cell holds information that was created using the <td> element. Even without style sheets, a web browser can clearly display header and data cells with this diction. In the header cell, for example, the text is displayed in a bold font, whereas in the data cell, the text is displayed normally.
+How to Use <td> HTML Tag?
+To use the <td> HTML Tag, the web developer should write <td></td> with the table data between the tags. The <td> HTML Tag must be part of a child of a <tr> HTML Tag in order to work.
+Example Usage of <td> HTML Tag?
+The following examples of usage of <td> HTML Tag are given below.
+<table>
+<caption>Star Wars football player</caption>
+<tr>
+<th scope="col">Player</th>
+<th scope="col">Score</th>
+<th scope="col">Points</th>
+</tr>
+<tr>
+<th scope="row">Yoda-7</th>
+<td>7</td>
+<td>6,789</td>
+</tr>
+<tr>
+<th scope="row">Boba Fett Odo</th>
+<td>7</td>
+<td>6,143</td>
+</tr>
+<tr>
+<th scope="row">Jabba the Hutt</th>
+<td>9</td>
+<td>5, 123</td>
+</tr>
+</table>
+<table>
+<caption>NBA All-Star player</caption>
+<tr>
+<th scope="col">Player</th>
+<th scope="col">Score</th>
+<th scope="col">Points</th>
+</tr>
+<tr>
+<th scope="row">Lebron James-21</th>
+<td>21</td>
+<td>3</td>
+</tr>
+<tr>
+<th scope="row">Stephen Curry</th>
+<td>15</td>
+<td>3</td>
+</tr>
+<tr>
+<th scope="row">Giannis Antetokounmpo</th>
+<td>9</td>
+<td>3</td>
+</tr>
+</table>
+What are the Attributes of <td> HTML Tag?
+​​There are multiple attributes for the <td> HTML Tag. The following attributes are listed below.
+Colspan Attribute: The <td> HTML Tag supports the colspan attribute. The colspan attribute specifies how many columns each cell should span.
+Headers Attribute: The <td> HTML Tag supports the headers attribute. The headers attribute specifies which header cells a certain cell is linked to.
+Rowspan Attribute: The <td> HTML Tag supports the rowspan attribute. The rowspan specifies how many rows a cell should span.
+Global Attributes: The <td> HTML Tag supports the global attributes. The term “global attributes” refers to attributes that can be applied to an element in HTML, even though it has no effect on all of them. It is possible to specify global attributes on any HTML element, even if it is not specifically included in the standard.
+Event Attributes: The <td> HTML Tag supports the event attributes. The Event Attributes are the details that assist the user-agent to comprehend a given event’s context are referred to as event attributes. It is possible to combine Event Attributes with HTML elements to conduct different actions. Errors that arise during the loading of an external file can be handled by this attribute.
+What are the Default CSS Settings for <td> HTML Tag?
+The following are the Default CSS Settings for the <td> HTML Tag. The following are some examples.
+td,
+th {
+border: 1px solid rgb(190, 190, 190);
+padding: 10px;
+}
+td {
+text-align: center;
+}
+tr:nth-child(even) {
+background-color: #eee;
+}
+th[scope="col"] {
+background-color: #696969;
+color: #fff;
+}
+th[scope="row"] {
+background-color: #d7d9f2;
+}
+caption {
+padding: 10px;
+caption-side: bottom;
+}
+table {
+border-collapse: collapse;
+border: 2px solid rgb(200, 200, 200);
+letter-spacing: 1px;
+font-family: sans-serif;
+font-size: .8rem;
+}
+What are the Related other HTML Tags to <td>?
+The other related HTML Tags to the <td> HTML Tag are listed below.
+<col> HTML Tag: The
+<col>
+HTML Tag and <td> HTML Tag are related because they are both tables HTML Tags. The <col> HTML Tag specifies the columns settings for each column contained within a <colgroup> element.
+<colgroup> HTML Tag: The
+<colgroup>
+HTML Tag and <td> HTML Tag are related because they are both tables HTML Tags. The <colgroup> HTML Tag Specifies a group of one or more columns in a table for formatting
+<tbody> HTML Tag: The <tbody> HTML Tag and <td> HTML Tag are related because they are both tables HTML Tags.  The <tbody> HTML Tag groups the body content in a table
+<tfoot> HTML Tag: The
+<tfoot>
+HTML Tag and <td> HTML Tag are related because they are both tables HTML Tags. The <tfoot> HTML Tag groups the footer content in a table.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <td> Tag Definition, Usage and Example
+by Holistic SEO
+time to read: 5 min
+TechSEO
+HTML <tfoot> Tag Definition, Usage and Examp…
+TechSEO
+HTML <colgroup> Definition, Usage and Exampl…
+0
+0
+0

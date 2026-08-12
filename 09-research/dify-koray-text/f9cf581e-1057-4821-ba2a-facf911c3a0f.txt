@@ -1,0 +1,91 @@
+Skip to content
+The aria-placeholder is an attribute that provides a text indicating a hint to an input or a format for input, it can be a sample input for a text box or a format like a date or time. The purpose of the aria-placeholder is to help the user to enter the right format or value for the text box. The developer can use the aria-placeholder to let the user know how to input a value and what is the right format to input, especially for the date and time. The aria-placeholder is used for elements such as text box, combo box, search box, slide, and the spin button. The aria-placeholder can be used with other ARIA labels such as aria-labelledby and aria-label.
+Contents of the Article
+show
+1.
+What is the function of the “aria-placeholder” ARIA Label?
+2.
+What are the uses of the “aria-placeholder” ARIA Label?
+3.
+Example Uses of “aria-placeholder” ARIA Label
+4.
+What are the related ARIA Labels to “aria-placeholder”?
+What is the function of the “aria-placeholder” ARIA Label?
+The function of the aria-placeholder is to provide a hint of text information about a text field that is required, including what is the format or the right input value. The benefit of the aria-placeholder is to inform the user what format is needed in the input box, it helps the user how to enter a name correctly, or how to enter a date and time. The aria-placeholder is not needed if the placeholder HTML element is already providing the information that the screen reader has, but the aria-placeholder is the best attribute for the job to ensure the text hint is available for the user.
+What are the uses of the “aria-placeholder” ARIA Label?
+Listed below are the uses of the “aria-placeholder” ARIA Label.
+Textbox role:
+It identifies an input element that accepts text input in the form of text, numbers, and other special characters. The textbox role comprises the input field that is available and identified as an input element by the role as a text box.
+Searchbox role:
+It identifies an input element that is specific to input search criteria that may be located locally on the page or globally. The semantic input type search should be used instead of the semantic HTML present in the DOM.
+Example Uses of “aria-placeholder” ARIA Label
+Listed below are the example uses of the “aria-placeholder” ARIA Label.
+The benefit of the aria-placeholder is to inform the user what format is needed in the input box, it helps the user how to enter a name correctly, or how to enter a date and time.
+<span id="YourDateApplication">Your Date of Application</span>
+<div contenteditable role="textbox"
+aria-labelledby="YourDateApplication"
+aria-placeholder="MM-DD-YYYY">mm-dd-yy</div>
+<span id="Date Of Birth">Date of Birth</span>
+<div contenteditable role="textbox"
+aria-labelledby="Date Of Birth"
+aria-placeholder="MM-DD-YYYY">mm/dd/yyyy</div>
+<span id="Enter Name">Please Enter Full Name</span>
+<div contenteditable role="textbox"
+aria-labelledby="Enter Name"
+aria-placeholder="FullName">Last name, First name</div>
+<span id="DateToday">Please enter date today.</span>
+<div contenteditable role="textbox"
+aria-labelledby="DateToday"
+aria-placeholder="mm-dd-yy">mm-dd-yy</div>
+<span id="Nick Name">Please enter your Nick Name</span>
+<div contenteditable role="textbox"
+aria-labelledby="Nick Name"
+aria-placeholder="Name">nickname</div>
+What are the related ARIA Labels to “aria-placeholder”?
+Listed below are the related ARIA Labels to “aria-placeholder”.
+aria-labelledby:
+The aria-labelledby is related to the aria-placeholder because they are both supplying a piece of text information that can be useful for the user to identify an element.  An accessible name is provided for the elements that are identified by the
+aria-labelledby
+property, which is an element in its own right. When a native element does not have enough features to describe in order to offer a label for it, the aria-labelledby attribute is used to set an accessible name for the element instead.
+aria-label:
+The aria-label is related to the aria-placeholder because they both provide the user with text information that is beneficial for identifying an element. An interactive element can be defined with an aria-label attribute, which provides the screen reader with an appropriate name that describes the element. This name is shared with the screen reader. The
+aria-label
+is there to provide an accessible name that is pertinent for its use, particularly with interactive features like the button.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-placeholder” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-posinset” ARIA Label for Accessibility
+TechSEO
+“aria-owns” ARIA Label for Accessibili…
+0
+0
+0

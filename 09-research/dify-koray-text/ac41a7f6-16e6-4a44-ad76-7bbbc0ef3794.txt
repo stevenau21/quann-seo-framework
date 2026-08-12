@@ -1,0 +1,98 @@
+HTML <br> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The HTML <br> Tag generates a line break in text (carriage-return).It is useful when composing a poem or an address where the line division is important. The <br> HTML Tag is an empty tag, which means it does not have an end tag. The <br> HTML Tag is part of Basic HTML category in HTML Element Reference. The attributes of the <br> HTML Tag are global attributes and event attributes.
+<br> code block example to learn how it works is given below.
+Line 1<br>
+Line 2
+The second example usage of the “<br>” code block example is below.
+<address>
+Bantay Bata Founfdation<br>
+East Road, <br>
+P.O. Box 355, 00509<br>
+CAVITE, PHILIPPINES
+</address>
+Contents of the Article
+show
+1.
+What is <br> HTML Tag?
+2.
+How to Use <br> HTML Tag?
+2.1.
+Example Usage of <br> HTML Tag?
+3.
+What are the Attributes of <br> HTML Tag?
+4.
+What is the Default CSS Setting for <br> HTML Tag?
+5.
+What are the Related other HTML Tags to <br>?
+What is <br> HTML Tag?
+The <br> HTML Tag specifies how to insert a line break. The browser does not detect newly formatted lines or paragraphs in the content. To begin a new line, it is necessary to use the <br> to insert a line break. The< br> element is used to introduce a single carriage return or line break into the page. This element does not have an end tag.
+How to Use <br> HTML Tag?
+To use the <br> HTML Tag the web developer must indicate a line break within a text. It is typically used in poems or addresses where line division is required. It is an empty tag, therefore it does not require the companionship of an end tag. When the <br> tag is included in the HTML code, it behaves similarly to pressing the enter key in a word processor.
+Example Usage of <br> HTML Tag?
+The following example of usage of <br> HTML tag is given below.
+Use <br> in a poem:
+<p>No Man Is An Island.<br>
+Entire of itself,,<br>
+Every man is a piece of the continent,<br>
+A part of the main.</p>
+<p><em>-John Donne</em></p>
+What are the Attributes of <br> HTML Tag?
+There are multiple attributes for the <br> HTML Tag. The following attributes are listed below.
+Global Attributes: The <br> HTML Tag supports global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <br> HTML Tag supports event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <br> HTML Tag?
+The following is the Default CSS Setting for the <br> HTML Tag.
+p {
+font-size: 1rem;
+font-family: sans-serif;
+margin: 20px;
+}
+What are the Related other HTML Tags to <br>?
+The other related HTML Tags to the <br> HTML Tag are listed below.
+<comment> HTML Tag: The <comment> HTML Tag is related to <br> HTML Tag because they are both in basic HTML Tags. The <comment> HTML Tag is used to insert comments into the main HTML code file.
+<doctype> HTML Tag: The <doctype> HTML Tag is related to <br> HTML Tag because they are both in basic HTML Tags. The <doctype> HTML Tag informs the Browser about the HTML version.
+<title> HTML Tag: The
+<title>
+HTML Tag is related to <br> HTML Tag because they are both in basic HTML Tags. The <title> HTML Tag is used to define the page’s title.
+<body> HTML Tag: The
+<body>
+HTML Tag is related to <br> HTML Tag because they are both in basic HTML Tags. The <body> HTML Tag is used to define the body of a web page.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <br> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <footer> Tag Definition, Usage and Exam…
+TechSEO
+HTML <cite> Tag Definition, Usage and Exampl…
+0
+0
+0

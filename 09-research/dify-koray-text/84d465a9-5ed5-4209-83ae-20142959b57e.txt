@@ -1,0 +1,116 @@
+Sec-CH-UA-Full-Version HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Sec-CH-UA-Full-Version HTTP Header user agent client hint request header contains the full version string of the user agent. There is only one value for using the Sec-CH-UA-Full-Version HTTP Header. The value for using the Sec-CH-UA-Full-Version HTTP Header is the version. An example of the Sec-CH-UA-Full-Version HTTP Header is written below.
+GET /GET /my/page HTTP/1.1
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Full-Version: "96.0.4664.110"
+Sec-CH-UA-Platform: "Windows"
+The Sec-CH-UA-Full-Version HTTP Header Request Header is seen above. The Sec-CH-UA-Full-Version HTTP Header Syntax, Directives, and Uses examples will be processed in the article.
+Contents of the Article
+show
+1.
+What is Sec-CH-UA-Full-Version HTTP Header?
+1.1.
+What is the Syntax of Sec-CH-UA-Full-Version HTTP Header?
+1.2.
+What is the Directive of Sec-CH-UA-Full-Version HTTP Header?
+2.
+How to use Sec-CH-UA-Full-Version HTTP Header?
+2.1.
+Examples of Sec-CH-UA-Full-Version HTTP Header Use
+3.
+What is the Specification Document for Sec-CH-UA-Full-Version HTTP Header?
+4.
+What is the type of Sec-CH-UA-Full-Version HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Sec-CH-UA-Full-Version HTTP Header?
+5.
+Which Browsers Support Sec-CH-UA-Full-Version HTTP Header?
+What is Sec-CH-UA-Full-Version HTTP Header?
+The Sec-CH-UA-Full-Version HTTP Header contains the complete version string of the user agent.
+What is the Syntax of Sec-CH-UA-Full-Version HTTP Header?
+The Sec-CH-UA-Full-Version HTTP Header uses only one value. The syntax for using the Sec-CH-UA-Full-Version HTTP Header is written below.
+Sec-CH-UA-Full-Version: <version>
+What is the Directive of Sec-CH-UA-Full-Version HTTP Header?
+The Sec-CH-UA-Full-Version HTTP Header only contains one directive. The version is a string that contains the complete version number, such as “96.0.4664.93.” An example directive for using the Sec-CH-UA-Full-Version HTTP Header is given below.
+GET /GET /my/page HTTP/1.1
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Full-Version: "96.0.4664.110"
+Sec-CH-UA-Platform: "Windows"
+How to use Sec-CH-UA-Full-Version HTTP Header?
+Using the Sec-CH-UA-Full-Version HTTP Header user agent client hint request header, users are able to find the full version string of the user agent.
+Examples of Sec-CH-UA-Full-Version HTTP Header Use
+For example, a server may request the Sec-CH-UA-Full-Version header by supplying the Accept-CH header in a response to any client request, using the requested header’s name as a token.
+HTTP/1.1 200 OK
+Accept-CH: Sec-CH-UA-Full-Version
+The client opts to offer the hint and include the Sec-CH-UA-Full-Version header in subsequent requests, or it chooses to ignore the hint and not include the header. For example, the client might include the header shown in the example.
+GET /GET /my/page HTTP/1.1
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Full-Version: "96.0.4664.110"
+Sec-CH-UA-Platform: "Windows"
+What is the Specification Document for Sec-CH-UA-Full-Version HTTP Header?
+There is only one specification document for the Sec-CH-UA-Full-Version HTTP Header, which is the User-Agent Client Hints. The User-Agent Client Hints article 3.4 mentions the Sec-CH-UA-Full-Version HTTP Header’s definition and uses. Additionally, this article discusses the Sec-CH-UA-Full-Version HTTP Header’s values and examples.
+What is the type of Sec-CH-UA-Full-Version HTTP Header?
+The Sec-CH-UA-Full-Version is a request header type that provides the complete version string of the user-agent. Also, it contains more information about the resource to be fetched, or about the client requesting the resource.
+What are the similar HTTP Headers to the Sec-CH-UA-Full-Version HTTP Header?
+The similar HTTP Headers to the Sec-CH-UA-Full-Version HTTP Header are listed below.
+HTTP Client Hints: The HTTP Client Hints is similar to the Sec-CH-UA-Full-Version HTTP Header. The HTTP Client Hints is a set of HTTP request header fields that a server proactively requests from a client in order to obtain information about a client’s device, network, user, and user-agent-specific preferences. It is also a request header type.
+User-Agent Client Hints API: The User-Agent Client Hints API is similar to the Sec-CH-UA-Full-Version HTTP Header. The User-Agent Client Hints API expands the Client Hints API by providing a mechanism for exposing browser and platform information via User-Agent response and request headers, as well as a JavaScript API and a resemblance to the Sec-CH-UA-Full-Version HTTP Header.
+Accept-CH HTTP Header: The Accept-CH HTTP Header is similar to the Sec-CH-UA-Full-Version HTTP Header. A server is able to set the
+Accept-CH HTTP Header
+to specify which client hint headers a client should include in subsequent requests, similar to how the Sec-CH-UA-Full-Version HTTP Header sets and provides the user-full agent’s version string.
+Vary HTTP Header: The Vary HTTP Header is similar to the Sec-CH-UA-Full-Version HTTP Header. The Vary HTTP Header response header specifies how to match future request headers in order to identify whether a cached answer can be utilized or whether a new response must be obtained from the origin server. It is a request header type, comparable to the Sec-CH-UA-Full-Version HTTP Header.
+Which Browsers Support Sec-CH-UA-Full-Version HTTP Header?
+There are multiple browsers that support Sec-CH-UA-Full-Version HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Sec-CH-UA-Full-Version HTTP Header.
+Edge Browser is compatible with the Sec-CH-UA-Full-Version HTTP Header.
+Opera Browser is compatible with the Sec-CH-UA-Full-Version HTTP Header.
+WebView Android Browser is compatible with the Sec-CH-UA-Full-Version HTTP Header.
+Chrome Android Browser is compatible with the Sec-CH-UA-Full-Version HTTP Header.
+Opera Android Browser is compatible with the Sec-CH-UA-Full-Version HTTP Header.
+Samsung Internet Browser is compatible with the Sec-CH-UA-Full-Version HTTP Header.
+You can see an image that shows the cross-browser compatibility of Sec-CH-UA-Full-Version HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Sec-CH-UA-Full-Version HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+Sec-CH-UA-Mobile HTTP Header: Syntax, Directive, E…
+TechSEO
+Sec-CH-UA-Full-Version-List HTTP Header: Syntax, D…
+0
+0
+0

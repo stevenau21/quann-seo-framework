@@ -1,0 +1,145 @@
+How to Scrape PAA Questions on SERP via Python for SEO - Holistic SEO
+Skip to content
+“People Also Ask” Questions is one of the most important guides of Holistic SEOs. People Also Ask (PAA) Questions on the SERP shows the questions which are the most relevant with the search term. Understanding the search intent and user intent, different sides of the topic can be easier via PAA. In addition to these, Google has different terminology in their patents such as “Information Gain Score” or “Gibberish Score”. Information Gain Score is for determining the unique content with the added value while the Gibberish Score is for determining the content without any added value or function. In this guideline, we will use GQuestions Master Python Library for collecting the PAA Questions for determining queries.
+If you want to learn more about Search Engine Theories and Concepts, I recommend you read our guidelines which tell about how Google generates questions from the text, unifying the queries, rewriting queries, creating content clusters, calculating content’s structure efficiency and determine the content’s authority. PAA is just one side of all these processes. You may see a screenshot below which shows how Google wants to add questions to its database from users.
+Google’s experiment for taking questions from users, it is being performed in India for now.
+Sometimes, on the internet, some questions or sub-topics may not have a valuable search volume, but still, writing about these topics can be valuable. Because Information Gain Score and Authority in a specific Knowledge Domain can be increased by these kinds of unique movements. Because giving the unique content and information to the Search Engine in a topic will create expertise in the eyes of Search Engine. To learn more, you may follow the anchor texts for reading relevant articles. After submitting a question to Google, you may see Google’s response to validate this.
+Google explains how your questions may help it to create a better SERP.
+Note: Scraping PAA Questions is not allowed by Google. Google’s Robots.txt file doesn’t let crawlers to crawl PAA Questions. Scraping something not allowed may cause a lawsuit and also it is against TOS (Laws and Ethics of Scraping). But, if you use these information for making web a better and user-friendly place, for increasing your content’s quality, I believe this will be okay for Google. You may see my dialogue with John Mueller about this subject.
+A question of Koray Tuğberk Gübür and John Mueller’s answer to it.
+After I have said, I am using this information for the good of users, John Mueller liked my answer. So, we can see the point of Google. Do not harm Google, do not harm users while using this guideline. Lastly, you should know that Gquestion Library is not an official Google Library.
+To learn more about Python SEO, you may read the related guidelines:
+How to resize images in  bulk with Python
+How to perform TF-IDF Analysis with Python
+How to crawl and analyze a Website via Python
+How to perform text analysis via Python
+How to test a robots.txt file via Python
+How to Compare and Analyse Robots.txt File via Python
+How to Categorize URL Parameters and Queries via Python?
+How to Perform a Content Structure Analysis via Python and Sitemaps
+How to Check Grammar and Language Errors with Python
+How to check Status Codes of URLs in a Sitemap via Python
+How to Categorize Queries with Apriori Algorithm and Python
+How to check Status Codes of URLs in a Sitemap via Python
+Contents of the Article
+show
+1.
+What is Gquestions Library for PAA Questions?
+2.
+How to Download the Gquestions Library?
+3.
+How to Use Gquestions Library for Scraping PAA Questions?
+4.
+Importance of PAA Questions and How to Use Them?
+What is Gquestions Library for PAA Questions?
+Gquestions is a Python Library which uses Selenium, Pandas, Pytz, Numpy and urllib3 for collecting the PAA Questions.
+How to Download the Gquestions Library?
+You need to install the dependencies of the Gquestions first. You may use the code below to download all dependencies. But, you also should know where to use this code. First, you should go to the
+https://github.com/nittolese/gquestions
+address and download the necessary files. When you open the file, you will see “requirements.txt” in it.
+Files in the Gquestions Python Package.
+Open your terminal as administrator here and write the code below.
+pip install -r requirements.txt
+Installation screenshot of the Gquestions.
+Now, you have downloaded the Gquestions and also necessary dependencies.
+How to Use Gquestions Library for Scraping PAA Questions?
+After these two simple questions and answers, we may begin our brief guideline. Gquestions can be used over CLI (Command Line Prompt). To use it correctly, you should go to the folder you have downloaded the Gquestions in your system. You may use “cd /path/pat_level_2” command to go to the necessary location. But before this step, I need to warn you about one more thing. If you didn’t use Selenium or install the Selenium before, you may not use the Gquestion as it should.
+In Gquestions Library, we use Chromium via Selenium. To controll the chrome in headless mode, you need to download the necessary Chromedriver. From
+https://chromedriver.chromium.org/
+address, you may download the necessary version. I recommend you to download current stable version.
+You should download the “stable release” for more reliable usage.
+After downloading the necessary file, open a new folder in your “C:\” path. For instance: I have put the name of the file as “webdrivers” like below:
+Chrome Web Driver Installation into local machine.
+Now, you need to add this folder into your Path. If you don’t know what is Path in Windows System or how to add some program into path, I recommend you to read our guidelines. In this article, I won’t give so much details about adding a variable into the path, but simply you may follow the processes below:
+Click to the start and type into search “System variables” and click the first result
+Click Environment Variables
+In both of “Variables for Users” and “Variables for System” click to the “PATH”.
+Click New, copy/paste your ChromeDriver.exe file’s path there and save.
+You may see the most of the steps here.
+How to add Chromedriver into the Path?
+Now, I believe even if you have zero coding experience, with these details and our guidelines which try to prevent all possible errors, you will succeed it. Let’s continue, we are ready to use Gquestions now.
+First, use the “cd” command to come to the Gquestions-master Library’s folder in CMD or open the CMD in that folder.
+We have used the CD Command in CMD so that we can enter into the necessary folder.
+The necessary code for creating a scraping process below:
+python gquestions.py query <keyword> (en|es) [depth <depth>] [--csv] [--headless]
+“Python” part is for using the Python environment
+“gquestions.py” part is for making the main scripts work.
+“Keyword” attribute is for determining the query which will be scrape about.
+“(en|es)” attribute is for determining the search activity’s language.
+“Depth” attribute is for determining how many times the scraper will continue to dig in PAA Questions.
+“CSV” attribute is for determining output file’s extension.
+“Headless” attribute is for determining whether the scraper should use graphical interface of Chrome or not.
+Let’s make an example use.
+python gquestions.py query “creatine” en depth 1
+After the starting code, the browser will open and it will start to scrape all questions like below.
+We have started to scrape the Google People Also Asked for Questions via Gquestions.
+You may see how the browser work with Selenium without “headless” mode in automatic mode.
+You may see that our script uses Google Chrome to script the data, it clicks the questions to open the tab and takes the information needed.
+Now let’s check our results.
+Since, we didn’t add the “–csv” attribute to the our code, we won’t get CSV Output, but we have a better structured and logical question tree.
+You may use contextual tree of the output in a visual way.
+We can see here all of the PAA questions in a hierarchy and contextual order. Like in our
+PyTrend Guideline for SEO
+, with Gquestions-master, we can simply see the users thinking ways, information need, their concerns, desires, search journeys, and important points for them. Using Python or other programming languages to understand users with a broader perspective is a must for Holistic SEO. We are writing these guidelines with detail and such a error preventive methodology so that coding skills can be a permanent necessity for SEO. Now, let’s get our CSV Output.
+CSV Output view for People Also Asked for Questions.
+The logical structure exist in CSV to. If you don’t know what to do in Gquestion-master, you should simply use the “python gquestion.py -h” command. You may see the related visual below.
+You can see all the necessary examples and variations for usage of Gquestions Python Module.
+Importance of PAA Questions and How to Use Them?
+PAA Questions are the insights to see what users think and how they think. PAA Questions show how a topic can be detailed, also in this Guideline, we only used one query which is “creatine”. We also might use “creatine acne” or “creatine power” queries to see what else users think, wonder and ask. We also may scrape the answers, title’s of the answer pages to see how to create a better content strategy. As Holistic SEOs, we always believe the difference of non-known and non-tried methodologies. With classical approaches and traditional SEO methods, in 2020 and beyond, SEO Projects can’t create amazing success stories. Holistic SEO should know coding, data science, analytical thinking and marketing, branding along with more.
+We will continue to improve our guideline for using Gquestions.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+8 thoughts on “How to Scrape PAA Questions on SERP via Python for SEO”
+Wow
+So perfect
+Reply
+Thank you, Ale.
+Reply
+Hi koray,
+Bu konuda seo geri dönüşü, kopya içerik tespiti ve adsense reklam başarısı konusunda bana bilgi yorumu yazar mısın? şimdiden teşekkürler.
+Reply
+I was looking for copper and found gold. Amazing explanation Koray!
+Reply
+Thank you so much, Leo!
+Reply
+Thank You, Sir, But I tried this method, and it’s not working.
+Reply
+Hello Akash,
+What is the error message that you get from the code editor?
+Reply
+Thanks for a great tool. Only one suggestion. Please, renew the requirements. These are outdated now..
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Python SEO
+How to Scrape PAA Questions on SERP via Python for SEO
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+Python SEO
+How to Check Status Codes of URLs in a Sitemap via…
+Python SEO
+PyTrend Guideline: Create Dashboard for Google Tre…
+0
+0
+8

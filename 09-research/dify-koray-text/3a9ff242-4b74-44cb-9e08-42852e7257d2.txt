@@ -1,0 +1,123 @@
+HTML <summary> Tag Definition, Usage and Example - Holistic SEO
+Skip to content
+The <summary> HTML Tag, defines a given visible header for <details> element. The details can be viewed or hidden by clicking the heading. To summarize the information in the <details> element, HTML uses the <summary> HTML Tag. There should be a <summary> HTML Tag below of the <details> element.The <summary> HTML Tag, although optional, is helpful when working with many <details> elements, as each <summary> HTML Tag can give an instructive legend that identifies each <details> element. The <summary> HTML Tag is part of the Styles and Semantics HTML category in HTML Element Reference.The attributes of the <summary> HTML Tag are global and event attributes.
+<summary> code block example to learn how it works is given below.
+<details>
+<summary>Click to open</summary>
+<p>Collapsible content...</p>
+</details>
+The second example usage of the “<summary>” code block example is given below.
+<details>
+<summary>Holisticseo Summary</summary>
+<p> Holisticseo is a well-known online resource.</p>
+<p>On Holisticseo, you can find lessons on a wide range of topics, including HTTP, HTML, CSS, and more.</p>
+</details>
+Contents of the Article
+show
+1.
+What is <summary> HTML Tag
+2.
+How to Use <summary> HTML Tag?
+2.1.
+Example Usage of <summary> HTML Tag?
+3.
+What are the Attributes of <summary> HTML Tag?
+4.
+What are the Default CSS Settings for <summary> HTML Tag?
+5.
+What are the Related other HTML Tags to <summary>?
+What is <summary> HTML Tag
+The <details> element can be utilized in combination with the <summary> HTML Tag to specify a summary or legend. The details of this summary or legend can be expanded or collapsed by clicking on it. When a user clicks on the summary, previously hidden content in the <details> element becomes available.
+How to Use <summary> HTML Tag?
+To use the <summary> HTML Tag, the web developer should write the <summary></summary> with summary or legend placed in between the start and end tags. The web developer should placed the <summary> HTML Tag right after the <details> HTML Tag as the <summary> HTML Tag element must be the first child.
+Example Usage of <summary> HTML Tag?
+The following examples of usage of <summary> HTML Tag are given below.
+<details>
+<summary>Samsung Book Pro Specification</summary>
+<ul>
+<li><strong>291.3x199.8x7.4 mm aluminum body; 754g (Wi-Fi and LTE) display</strong> with 2-in-1 form factor with a detachable keyboard; S Pen stylus; both included</li>
+<li><strong>7th Gen Intel Core i5 processor, Dual Core 3.1GHz</strong> with 4GB/8GB RAM; 128GB/256GB eMMC</li>
+<li><strong>microSD up to 256GB</strong> with 39W battery; up to 10.5hrs, Fast Charging support</li>
+<li><strong>Wi-Fi 802.11 a/b/g/n/ac, 2X2 MIMO; LTE Cat. 6; Bluetooth® 4.1 BLE;(Type-C);</strong> GPS + GLONASS; 2x USB 3.1</li>
+<li><strong>Windows 10 OS</strong> 13MP Auto focus + 5MP fixed camera</li>
+</ul>
+</details>
+<details>
+<summary>Cultural Center of the Philippines</summary>
+<p>Cultural Center of the Philippines was founded in 1969 and has been putting on shows featuring Philippine music, dance, theater, visual art, literature, film, and design.</p>
+</details>
+What are the Attributes of <summary> HTML Tag?
+There are multiple attributes for the <summary> HTML Tag. The following attributes are listed below.
+Global Attributes: The <summary> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <summary> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <summary> HTML Tag?
+The following are the Default CSS Settings for the <summary> HTML Tag. Some examples are listed below this document.
+details {
+border: 1px solid #aaa;
+border-radius: 4px;
+padding: .5em .5em 0;
+}
+summary {
+font-weight: bold;
+margin: -.5em -.5em 0;
+padding: .5em;
+}
+details[open] {
+padding: .5em;
+}
+details[open] summary {
+border-bottom: 1px solid #aaa;
+margin-bottom: .5em;
+}
+What are the Related other HTML Tags to <summary>?
+The other related HTML Tags to the <summary> HTML Tag are listed below.
+<main> HTML Tag: The
+<main>
+HTML Tag and <summary> HTML Tag are related because they are both style and semantics HTML Tags. It specifies the document’s primary content using the <main> HTML Tag.
+<header> HTML Tag: The
+<header>
+HTML Tag and <summary> HTML Tag are related because they are both style and semantics HTML Tag. The <header> HTML Tags specifies a header for a page or portion of content.
+<details> HTML Tag: The
+<details>
+HTML Tag and <summary> HTML Tag are related because they are both style and semantics HTML Tags. The <details> HTML Tag specifies additional information that the user can either display or hide.
+<data> HTML Tag: The
+<data>
+HTML Tag and <summary> HTML Tag are related because they are both style and semantics HTML Tags. Content can be translated into machine-readable form using an HTML Tag that is known as the <data> HTML Tag.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <summary> Tag Definition, Usage and Example
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <embed> Tag Definition, Usage and Examp…
+TechSEO
+HTML <del> Tag Definition, Usage and Example…
+0
+0
+0

@@ -1,0 +1,95 @@
+"aria-brailleroledescription" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-brailleroledescription command identifies a human-readable, author-localized abbreviated specification for the part of the elements intended to be converted into Braille. The purpose of the attribute is to provide a specified description of a widget using Braille. Basically, the value of aria-brailleroledescription abbreviates the aria-roledescription attribute in order for it to be converted to braille. The developer can use it to identify the intention of non-interactive container roles. The aria-brailleroledescription can be used with elements that are valid ARIA roles or elements with inferred role semantics. The aria-brailleroledescription can be used with other aria Labels such as aria-roledescription.
+Contents of the Article
+show
+1.
+What is the function of the “aria-brailleroledescription” ARIA Label?
+2.
+What are the uses of the “aria-brailleroledescription” ARIA Label?
+3.
+Example Uses of “aria-brailleroledescription” ARIA Label
+4.
+What is the related ARIA Label to “aria-brailleroledescription”?
+What is the function of the “aria-brailleroledescription” ARIA Label?
+The function of the aria-brailleroledescription attribute is to be able to abbreviate and shorten certain commands of the aria-roledescription for the purpose of translating them into Braille. The abbreviated version created by the aria-brailleroledescription is considered a human-readable, author-localized description for the element role. This attribute aims to improve the Braille interface’s overall user experience. However, its function can only be used with the presence of the aria-roledescription.
+What are the uses of the “aria-brailleroledescription” ARIA Label?
+Listed below are the uses of the “aria-brailleroledescription” ARIA Label.
+Application role:
+this signals to assistive technologies that the particular content has elements that are not conformed according to an HTML or WAI-ARIA widget.
+Article role:
+The article specifies the ability of a certain part of a page that can stand alone as content on its own in a specified document or website.
+Banner role:
+defines global site header that such as logos and search features that are found at the uppermost part of a web page.
+Button role:
+Button roles are specified for elements that can be clicked and can trigger a response when clicked. Aria-brailleroledescription can help the screen reader to identify that the element is a button.
+Cell role:
+the cell role attribute is able to specify an element in a cell or in a tabular container that does not contain column or row header information.
+Example Uses of “aria-brailleroledescription” ARIA Label
+Listed below are the example uses of the “aria-brailleroledescription” ARIA Label.
+Following is an example showing the use of aria-brailleroledescription abbreviating the role of a repeated non-interactive “slide” container in a web-based presentation application.
+<div role="article" aria-roledescription="slide" aria-brailleroledescription="sld" id="slide" aria-labelledby="slideheading">
+<h1 id="slideheading">Quarterly Report</h1>
+<!-- remaining slide contents -->
+</div>
+<div role="article" aria-roledescription="slide" aria-brailleroledescription="sld" id="slide" aria-labelledby="slideheading">
+<h1 id="slideheading">Quarterly Report</h1>
+<!-- remaining slide contents -->
+</div>
+The semantic <article> is given the role of “slide” by the aria-roledescription attribute. In Braille, the role is presented as “sld”. The “gra” is short for “graphic”, which is how the “image” role is shortened in Braille.
+<article aria-roledescription="slide" aria-brailleroledescription="sld" aria-labelledby="slide1heading">
+<h1 id="slide1heading">Welcome to my talk</h1>
+<img alt="Me" src="images/me.jpg">
+</article>
+In this example, the role “gate” is given the aria-roledescription attribute. In Braille, the role is presented as “gte”.
+<article aria-roledescription="gate" aria-brailleroledescription="gte" aria-labelledby="gate1heading">
+<h1 id="gate1heading">good morning</h1>
+<img alt="Me" src="images/me.jpg">
+</article>
+In this example, the role “grass” is given the aria-roledescription attribute. In Braille, the role is presented as “grs”.
+<article aria-roledescription="grass" aria-brailleroledescription="grs" aria-labelledby="grass1heading">
+<h1 id="grass1heading">do not step on the grass</h1>
+<img alt="Me" src="images/me.jpg">
+</article>
+What is the related ARIA Label to “aria-brailleroledescription”?
+The aria-roledescription attribute is related to the aria-brailleroledescription as both define a human-readable, author-localized description for the role of an element. The
+aria-roledescription
+command is essential when using the aria-brailleroledescription. The aria-brailleroledescription depicts an abbreviated version of the aria-roledescription being translated into Braille.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-brailleroledescription” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-busy” ARIA Label for Accessibili…
+TechSEO
+“aria-braillelabel” ARIA Label for Acc…
+0
+0
+0

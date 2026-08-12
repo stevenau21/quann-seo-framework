@@ -1,0 +1,167 @@
+Landing Page: Definition and Design Principles - Holistic SEO
+Skip to content
+Landing pages are web pages that potential customers come across through a web search, advertisements, or other marketing measures. The page is usually accessed by entering the URL directly, by clicking on a banner or ad or using the organic search results of search engines. However, it is usually not accessible via the navigation menu of a website. The landing page serves to induce the user to take
+targeted action
+and is accordingly geared to his needs. That means:
+Ideally, it offers the user exactly the information or products that he was looking for or that was announced in the ad,
+it increases his interest in a product or information and
+it enables the user to get the right information or the product with as little effort as possible.
+At the same time, a landing page not only serves the website operator to sell his product or information, but he can also use the page to determine contact details or other information.
+Short Definition of Landing Page Term:
+A landing page (also a landing page) is a website to which a potential customer is directed via a search engine or an (advertising) advertisement. The website serves to induce the user to take a targeted action (conversion) that the website operator defines beforehand. Goals can be, for example: selling products, generating leads, distributing content or redirecting visitors to another page.
+Contents of the Article
+show
+1.
+What types of landing pages are there?
+2.
+What is the difference between a landing page and a homepage?
+3.
+Landing Page Goals
+3.1.
+1. Satisfy user needs
+3.2.
+2. Spread content
+3.3.
+3. Sell ​​products and services
+3.4.
+4. Generate leads
+3.5.
+5. Make preselection and control traffic in a targeted manner
+4.
+Basic Features of Landing Pages
+5.
+How users get to a landing page
+6.
+Design of a Landing Page
+7.
+Why should you test your landing pages?
+8.
+How landing pages guide the user
+9.
+Landing Pages and SEO
+What types of landing pages are there?
+Types of landing pages can be vary according to the industries. Different industries have different aims so their landing pages can also be affected from this. You can find landing page types below:
+Generate a lead
+Buy a product
+Book a service
+Arrange an initial interview
+Visit a real place
+Make a registration
+Donate money
+This list can be as long as life. A military service can create a landing page for enrolling to the army or a car race team can create a landing page for its live-stream event etc. But in general, the purpose of landing page is selling a product, attracting the user for a certain cooperation or taking information from the user.
+What is the difference between a landing page and a homepage?
+Your homepage is there for, to give your visitors, who still does not know your company in a very short time a good idea of what
+it
+brings your business,
+what
+it does and what it
+uniquely
+makes. It should give him a nice overall impression. Ideally, there is also a call-to-action for lead generation so that your visitor does not disappear forever. Your home page is usually overloaded with various distractions such as mottos. It is just designed to invite customers to browse more.
+Your landing page, on the other hand, has only
+one
+goal. Namely that the desired conversion is carried out. It has
+nothing to
+distract from the actual action. If possible, have no navigation or external links for your landing pages. Everything that distracts is like holes in a boat. As a result, you lose valuable attention and distract from the actual goal.
+Using internal links and showing the site-structure and internal relevant navigation to the users from landing pages are not necessarily harmful. If you design your landing page in a friendly way, these links can carry the
+PageRank
+, make it easier to crawl for search engines along with navigating for the users while your conversion rate is not affected negatively.
+You should have many elements of a good landing page on your home page. But a homepage has
+several
+tasks. A landing page, on the other hand, only
+one
+. Ideally, you should have a
+CTA
+on your home page that links to a landing page!
+Landing Page Goals
+Users typically target landing pages through advertisements or snippets of search results that spark their interest. This means that visitors usually go to a landing page based on a specific need. The basic goal of a landing page is now to satisfy precisely these needs of the customer, to generate or reinforce a suitable action impulse, and to induce the customer to interact. The most common motivations for users to visit a landing page include:
+Receive information
+Buy products
+Registration for a community, service, etc.
+The request offers for product or services
+Landing Page Goals can be sum up like below:
+1. Satisfy user needs
+Every landing page serves marketing purposes: it should be optimized precisely for a previously defined target group and the exact answer to a need of these users.
+2. Spread content
+Once users have found their way to the page, website operators can offer content there free of charge, for sale, or in exchange for data. In addition to texts, graphics, images or videos are also available. Good content serves, in the sense of content marketing, user loyalty, image maintenance, and advertising for a page/product/company.
+Content Seeding
+may help you more with this topic.
+3. Sell ​​products and services
+Landing pages are often used to sell a product or service. The great advantage of a landing page – compared to a category page in an online shop, for example – is the strict focus on a specific product and thus the more precise targeting.
+4. Generate leads
+With the help of landing pages, website operators can generate customer contacts by, for example, querying user data in exchange for information, content or registration processes. To learn more about
+Lead Generation
+, you may read our guidelines.
+5. Make preselection and control traffic in a targeted manner
+A landing page can be used to categorize visitors in order to influence their way to the following pages. On the one hand, users can be guided more easily to what they are looking for, and on the other hand products and information can be brought to the customer in a more targeted manner.
+Basic Features of Landing Pages
+Every landing page should meet the expectations of the user from the search terms or the advertising context (conformity with expectations). Landing pages have (almost) only the information that is necessary to reproduce information according to the search query or to reflect the content of the advertising material.
+The landing page has to create and maintain the trust of the user about the content or the brand presented.
+Landing pages are viewed by the user only for a short time for decision making. If the landing page has not communicated the features of the displayed information or goods within these five to ten seconds, the page is exited again.
+Landing pages should seduce the user to act. A prominent reference to the purpose of the page (buying, collaborating) should not be missing. This can be the generation of so-called qualified leads: To do this, visitors to the landing page must express their (non-binding) interest (in a service and/or in a product) by entering their name and email address in a form provided for this purpose. Such a request to interact on a website is called “call-to-action”.
+How users get to a landing page
+Marketing experts can go different ways to reach visitors and thus generate traffic on a landing page:
+Newsletters and e-mail marketing:
+Traffic on landing pages can be directed through targeted links in newsletters and e-mails.
+Video:
+In web videos, there is the possibility of incorporating links and thus directing the user to certain pages. As a rule, attention should be paid to thematic proximity between the video and the linked website.
+Social media
+:
+Links to landing pages can also be scattered via social media. Thanks to the properties of social media, website operators can also make a targeted pre-selection of users for the link to a website to reach.
+Ads and display advertising:
+AdWords ads, pop-up and banner ads are chargeable, their use and effectiveness are controversial. Nevertheless, they enable the targeted advertising of a website or a product and can thus generate traffic. Here, too, the use of an exactly matching and optimized landing page to which the ad links is mandatory.
+Offline advertising (print, TV, radio, QR code):
+Marketers often also use offline advertising – such as flyers, advertisements in magazines, advertising posters, TV, or radio advertising – to refer users to landing pages. However, the existing break between the advertising medium and the Internet can lead to large losses in the number of visitors, since it requires a high level of interest and a high level of activity by the user. Communication tools such as QR codes try to make this media break easier to overcome with the help of mobile devices.
+Organic search results:
+In order to generate traffic via organic search results, landing pages should appear as far ahead as possible in the SERPs from Google and Co. Therefore, the content should be search engine and keyword optimized and therefore tailored to the target group and their search queries.
+Design of a Landing Page
+A good landing page is optimized for a target group. Therefore, all elements of the page should be created sensibly and not be superfluous. It is clearly and purposefully designed and also picks up elements from the ad that led the user to it.
+Even if the design and content are not defined in principle and depend on the product and target, the following elements should not be missing on a landing page (sine qua non elements of landing pages):
+Identification of the company:
+As a rule, landing pages should be designed in the corporate design in order to establish a relationship with the company and thus ensure orientation and authenticity.
+Headline and sub-headline:
+A meaningful address to the reader ensures the necessary attention and can increase the interest of the reader. However, headings on the Internet should make it clear at first glance what the reader can expect – even on a landing page.
+Product information/benefits/reasoning for the product:
+The reasoning for a product can be varied. In any case, an introduction and the advantages are just as important as the benefit that the customer can derive from the product or the information. If available, the price should also be shown, and (at least) a picture of the product should be used.
+Data query:
+An input field with which user data can be queried is useful for every landing page. Here, marketers should always weigh up the amount of data they can gain and the potential termination of the user due to too much data being requested.
+Call-to-action:
+A strikingly designed call-to-action (button) is intended to encourage users to act.
+Non-obligatory elements for a Landing Page:
+Trust elements and testimonials:
+Certificates, trust seals, and testimonials are good ways to increase authenticity and trust in a page.
+Content with added value:
+In addition to simple product descriptions, for example, videos, infographics, or interactive calculators can offer added value for the user. If the product, design, and technology allow content with added value to be meaningfully integrated, these elements can be a good means of increasing the conversion rate of a page.
+Contact option:
+For “emergencies”, it may be useful to provide an additional contact option, such as an email address, for communication.
+What a landing page should not (necessarily) contain:
+Navigation
+menu
+and superfluous links:
+The user should not be able to be led away from the page by a menu or by external links.
+Social media buttons:
+Buttons for Facebook or Google+ can distract from the actual goal of the page.
+Unnecessary, contradictory, or unclear product
+information
+:
+The information on a landing page should be concise and clear in order to avoid confusion and uncertainty, as this can reduce the impulse to act.
+Why should you test your landing pages?
+Context. Every company, every audience is different. Only through
+A/B tests
+can you find out how to create the best landing page. You send z. B. 50% of visitors to one version of the landing page and 50% to the other.
+The thing is, even small changes like B. the button color can in some cases do little miracles for the conversion rate.
+Unfortunately, 61% of companies run fewer than five tests every month. We should all change that quickly, right?
+What should you test? For the start, you should concentrate on the following elements:
+Heading
+Call to action
+Over time, you collect a lot of data and get to know
+exactly
+what your target group likes and what not through
+scientific
+tests (and not through dull gut feeling). This not only makes your landing pages better but also brings something for your entire marketing and product development. That is why Tim Ash, author of Landing Page Optimization, says so nicely:
+Your visitors are the real landing page experts.
+Technically you can do this e.g. with Optimizely, Visual Website Optimizer, or some WordPress plugins. Marketing platforms (such as HubSpot or Hotjar) can often do that too.
+Just keep in mind that your landing pages will never be perfect. If you think you’ve got there, you should probably start testing again.
+How landing pages guide the user
+Landing pages are special web pages that are designed to move visitors to a predefined action. Users usually come across these pages through advertisements, organic search results, or marketing measures. From the company’s point of view, they are used to offer targeted information or products, to generate data or to direct traffic flows. Landing pages are structured according to certain, albeit variable, specifications and should definitely contain certain elements in order to achieve their goal
+
+[...truncated...]

@@ -1,0 +1,162 @@
+HTML <tr> Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <tr> HTML Tag defines a set of row of cells in the table. The cells of the row can then be created by combining <td> which is the data cell and <th> which is the header cell elements. A <tr> HTML Tag element may comprise one or more <th> or <td> HTML elements. The <tr> HTML Tag element is utilized to arrange the <th> or <td> together with values into a single row of table headings or data values, similar to how the <th> HTML Tag element is utilized. The <tr> HTML Tag element could be a direct child of the <table> element, or it may be contained within a parent <thead>, <tfoot>, or <tbody> element, depending on the situation. The <tr> HTML Tag is part of the Tables HTML category in HTML Element Reference. The attributes of the <tr> HTML Tag are global and event attributes.
+<tr> code block example to learn how it works is given below.
+<tr>.......</tr>
+The second example usage of the “<tr>” code block example is given below.
+<table border=“2”>
+<caption><b>Top three leading country</b></caption>
+<tr>
+<th>Rank</th>
+<th>Country</th>
+<th>Score</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Finlad</td>
+<td>99.06</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Denmark</td>
+<td>98.13</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Norway</td>
+<td>96.75</td>
+</tr>
+</table>
+Contents of the Article
+show
+1.
+What is <tr> HTML Tag?
+2.
+How to Use <tr> HTML Tag?
+2.1.
+Example Usage of <tr> HTML Tag?
+3.
+What are the Attributes of <tr> HTML Tag?
+4.
+What are the Default CSS Settings for <tr> HTML Tag?
+5.
+What are the Related other HTML Tags to <tr>?
+What is <tr> HTML Tag?
+The <tr> HTML Tag,  specify a row in the HTML table. One or more <th> HTML Tags can specify the table’s header cells, while one or more <td> tags specify the table’s standard cells in each <tr> HTML Tag. The <tr> element is another name for <tr> HTML Tag.This tag should be a direct or nested child of the <table>  element, although it can also be a direct child of the table header, body, and foot.
+How to Use <tr> HTML Tag?
+To use the <tr> HTML Tag, the web developer should write <tr></tr> with inserted children nested between the start and ending tags. Although the tag lacks local attributes, it can be used with any of the global or event content attributes.
+Example Usage of <tr> HTML Tag?
+The following examples of usage of <tr> HTML Tag are given below.
+<table>
+<tr>
+<th>Revenue</th>
+<th>Yearly</th>
+</tr>
+<tr>
+<td>$20,000</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>$40,000</td>
+<td>2021</td>
+</tr>
+</table>
+<table>
+<tr>
+<th>Birthday</th>
+<th>Parents Name</th>
+</tr>
+<tr>
+<td>August 09, 1976</td>
+<td>John Doe</td>
+</tr>
+<tr>
+<td>January 18, 1977</td>
+<td>Jane Doe</td>
+</tr>
+</table>
+What are the Attributes of <tr> HTML Tag?
+There are multiple attributes for the <tr> HTML Tag. The following attributes are listed below.
+Global Attributes: The <tr> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <tr> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <tr> HTML Tag?
+The following are the Default CSS Settings for the <tr> HTML Tag. The following are some examples.
+td,
+th {
+border: 1px solid rgb(190, 190, 190);
+padding: 10px;
+}
+td {
+text-align: center;
+}
+tr:nth-child(even) {
+background-color: #eee;
+}
+th[scope="col"] {
+background-color: #696969;
+color: #fff;
+}
+th[scope="row"] {
+background-color: #d7d9f2;
+}
+caption {
+padding: 10px;
+caption-side: bottom;
+}
+table {
+border-collapse: collapse;
+border: 2px solid rgb(200, 200, 200);
+letter-spacing: 1px;
+font-family: sans-serif;
+font-size: .8rem;
+}
+What are the Related other HTML Tags to <tr>?
+The other related HTML Tags to the <tr> HTML Tag are listed below.
+<col> HTML Tag: The
+<col>
+HTML Tag and <tr> HTML Tag are related because they are both tables HTML Tags. The <col> HTML Tag specifies the columns settings for each column contained within a <colgroup> element.
+<colgroup> HTML Tag: The
+<colgroup>
+HTML Tag and <tr> HTML Tag are related because they are both tables HTML Tags. The <colgroup> HTML Tag specifies a groupd of one or more columns in a table for formatting.
+<tbody> HTML Tag: The <tbody> HTML Tag and <tr> HTML Tag are related because they are both tables HTML Tags.  The <tbody> HTML Tag groups the body content in a table
+<td> HTML Tag: The
+<td>
+HTML Tag and <tr> HTML Tag are related because they are both tables HTML Tags. The <td> HTML Tag specifies a table cell.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <tr> Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <button> Definition, Usage and Examples…
+TechSEO
+HTML <thead> Definition, Usage and Examples…
+0
+0
+0

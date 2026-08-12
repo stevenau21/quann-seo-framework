@@ -1,0 +1,113 @@
+Public-Key-Pins HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+Public-Key-Pins HTTP Header is a response header that is used to associate a specific cryptographic public key with a specific web server in order to reduce the risk of MITM attacks with forged certificates. A manipulator-in-the-middle attack (MitM) is when someone is in the middle of communication between two systems. For example, a Wi-Fi router is vulnerable to being hacked into. There are still some browsers that don’t support it, though. Instead, make use of the Expect-CT and Certificate Transparency headers. Using an open platform, Certificate Transparency aims to guard against and keep track of certificates uncountable. In order to avoid the misuse of a site’s certificate from going unreported, the Expect-CT header allows sites to opt into reporting and/or enforcement of Certificate Transparency standards. There are multiple values for using the Public-Keys-Pins HTTP Header. The values for using the Public-Keys-Pins HTTP Header are “pin-sha256=”pin-value”, “max-age = expire-time”, “includeSubDomains”, “includeSubDomains”. An example of the Public-Keys-Pins HTTP Header is written below.
+Public-Key-Pins:  pin-sha256 = "cUPcTAZWKaASuYWhhneY3oBAkE3h2+soZS7sWs=";
+pin-sha256 = "M8YztCzM3olS5P4ohyBNf6lHjmjAiKhrGPQE=";
+max-age = 51000;
+includeSubDomains;
+The Public-Key-Pins HTTP Header Response Header is seen above. The Public-Keys-Pins HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is a Public-Key-Pins HTTP Header?
+1.1.
+What is the Syntax of the Public-Key-Pins HTTP Header?
+1.2.
+What are the Directives of Public-Key-Pins HTTP Header?
+2.
+How to use a Public-Key-Pins HTTP Header?
+2.1.
+Examples of Public-Key-Pins HTTP Header Use
+3.
+What is the Specification Document for Public-Key-Pins HTTP Header?
+4.
+What is the type of Public-Key-Pins HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Public-Key-Pins HTTP Header?
+5.
+Which Browsers Support Public-Key-Pins HTTP Header?
+What is a Public-Key-Pins HTTP Header?
+The Public-Key-Pins HTTP Header response header is used to link a specific cryptographic public key to a specific web server in order to reduce the risk of MITM attacks with forged certificates. However, it is no longer supported and has been removed from modern browsers. Instead, use the Certificate Transparency and Expect-CT headers.
+What is the Syntax of the Public-Key-Pins HTTP Header?
+The Public-Key-Pins HTTP Header uses multiple values in its syntax. The syntax for using the Public-Key-Pins HTTP Header is written below.
+Public-Key-Pins: pin-sha256="<pin-value>";
+max-age=<expire-time>;
+includeSubDomains;
+report-uri="<uri>"
+What are the Directives of Public-Key-Pins HTTP Header?
+The Public-Keys-Pins HTTP Header has multiple directives. The directives used for the Public-Keys-Pins HTTP Header are listed below.
+pin-sha256="<pin-value>"
+The quoted string is the Subject Public Key Information (SPKI) fingerprint in Base64 format. Multiple pins are able to be specified for different public keys. In the future, some browsers support hashing algorithms other than SHA-256.
+max-age=<expire-time>
+The amount of time, in seconds, that the browser should remember that this site only is accessed by using one of the defined keys.
+includeSubDomains (Optional)
+If the optional parameter for Public-Key-Pins HTTP Header is specified, this rule applies to all subdomains of the site.
+report-uri="<uri>" (Optional)
+Pin validation failures are reported to the given URL if the optional parameter is specified. An example directive for using the Public-Keys-Pin HTTP Header is written below.
+Public-Key-Pins:
+pin-sha256="cUPcTAZWKaRSuYWhhneDppWpY3oBAkE3h2+soZS7sWs=";
+pin-sha256="M9HztCzM3elUxkcjR2S5P7thyBNf6lHkmjAHKhpGPWE=";
+max-age=5184000; includeSubDomains;
+report-uri="https://www.example.org/hpkp-report"
+How to use a Public-Key-Pins HTTP Header?
+The Public-Key-Pins HTTP Header response header is used to associate a specific cryptographic public key with a specific web server to reduce the danger of MITM attacks with fake certificates. However, it is no longer supported and has been removed from newer browsers. Instead, use the Certificate Transparency and Expect-CT headers.
+Examples of Public-Key-Pins HTTP Header Use
+The user should write the server’s public key that is used in production when the user writes pin-sha256=”cUPcTAZWKaASuYWhhneDttWpY3oBAkE3h2+soZS7sWs=”. The backup key is also pinned by the second pin declaration pin-sha256=”M8HztCzM3elUxkcjR2S5P4hhyBNf6lHkmjAHKhpGPWE=”. max-age=5184000 instructs the client to keep the information for two months, which the IETF RFC considers to be a reasonable time limit. The included SubDomains declaration indicates that the key pinning is valid for all subdomains. Lastly, report-uri=”https://www.example.org/hpkp-report” specifies where pin validation failures should be reported.
+Public-Key-Pins:
+pin-sha256 = "cUPcTAZWKaASuYWhhneY3oBAkE3h2+soZS7sWs=";
+pin-sha256 = "M8HztCzM3elS5P4hhyBNf6lHkmjAHKhpGPWE=";
+max-age = 51000;
+includeSubDomains;
+report-uri = "https://www.geeksforgeeks.org/hpkp-report"
+What is the Specification Document for Public-Key-Pins HTTP Header?
+There is only one specification document for the Public-Key Pins HTTP Header, which is RFC 7469. RFC 7469 Public Key Pinning Extension for HTTP Section 2.1 mentions the Public-Key-Pins HTTP Header with the Public-Key-Pins-Report Only as a header field and informs its uses. Additionally, the article discusses the Public-Key-Pins HTTP Header’s definition, usage, and examples.
+What is the type of Public-Key-Pins HTTP Header?
+The HTTP Public-Key-Pins is a response header type that is used to associate a specific cryptographic public key with a specific web server in order to reduce the risk of MITM attacks using forged certificates.
+What are the similar HTTP Headers to the Public-Key-Pins HTTP Header?
+There are other similar HTTP to the Public-Key-Pins HTTP Header. An example is listed below.
+Public-Key-Pins-Report-Only:
+The HTTP Public-Key-Pins-Report-Only response header was used to send reports of pinning violations to the specified report-URI, but unlike Public-Key-Pins, it still allows browsers to connect to the server if the pinning is violated. The Public-Key-Pins HTTP and the
+Public-Key-Pins-Report-Only HTTP Header
+are both response headers.
+Except-CT HTTP Header:
+The Expect-CT header allows sites to opt into Certificate Transparency reporting and/or enforcement, preventing the usage of missed issued certificates for that site from going unnoticed. The Public-Key-Pins HTTP Header enforces Certificate Transparency requirements similar to the Except-CT Header.
+Which Browsers Support Public-Key-Pins HTTP Header?
+There is no compatible browser for the Public-Key-Pins HTTP Header, including Google Chrome, Firefox, and Microsoft Edge.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Public-Key-Pins HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Server HTTP Header: Syntax, Directive, Examples
+TechSEO
+Referer HTTP Header: Syntax, Directive, Examples
+0
+0
+0

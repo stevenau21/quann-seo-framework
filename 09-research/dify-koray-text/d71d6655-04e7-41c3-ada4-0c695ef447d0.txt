@@ -1,0 +1,270 @@
+Create Word Cloud with Masks in Python - Holistic SEO
+Skip to content
+Word Cloud is a visualization technique that works for showing the most important thematic words in harmony from a group of words within a context. Word Clouds can be used to show the most important terms from the customer reviews or contents of the customers. Word Clouds Comparison may help to detect the differences for third-party metrics that are related to the words. For instance, in a word cloud, the size of a word can be changed according to the search volume of the word in a search engine or occurrence frequency in a document.
+In this article, we will focus on benefits of word clouds and their creation methodologies with Python.
+Contents of the Article
+show
+1.
+What are the Necessary Python Libraries and Packages for Creating Word Clouds?
+2.
+Importing Necessary Python Libraries for Creating Word Clouds
+3.
+Creating a Word Cloud with Python: First Instance
+4.
+Changing the Font-size, Max Words, and Background Color of Word Clouds in Python
+5.
+How to Create an Output File from Word Cloud in Python
+6.
+How to Create a Word Cloud from Data Frame’s Columns in Python
+7.
+How to Create Word Clouds with the Different Images’ Shapes with Python
+7.1.
+How an Image Should be for WordClouds in Python?
+7.2.
+A Word Cloud Building Example with Maskable Images
+8.
+A Word Cloud Making Example with the Logo of a Brand
+9.
+How to Use Word Clouds for Holistic SEO with Python
+10.
+Why Word Clouds Shouldn’t be used as Definitive Insight Extracting Methodology?
+11.
+Last Thoughts on Word Clouds, Data Science, SEO and Analytical Thinking Relations
+What are the Necessary Python Libraries and Packages for Creating Word Clouds?
+To create a word cloud in Python, there is a specific library called “WordCloud”. WordCloud Python Library is solely focused on creating word clouds from the words that are given. Along with Word Cloud, we will use “numpy”, “pandas”, “matplotlib”, “pillow”. You may see the names of the necessary libraries to create a word cloud in Python and their functions below.
+WordCloud is for creating word clouds with Python.
+Pandas is for extracting data and words from a group of information.
+Numpy is for changing the shape of the word cloud.
+Pillow is for taking images for creating word clouds.
+Matplotlib is for creating plots for the gathered data with Pandas.
+Importing Necessary Python Libraries for Creating Word Clouds
+To begin our tutorial, we need to import the necessary libraries as below.
+import numpy as np
+import pandas as pd
+from os import path
+from PIL import Image
+from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+import matplotlib.pyplot as plt
+% matplotlib inline
+We will perform our Word Cloud visualization via Python through Netflix Movies Title Data Frame.
+df = pd.read_csv("netflix_titles.csv")
+OUTPUT>>>
+df
+You may see the view of the data frame below.
+Netflix Movie Data Frame Result.
+We have 6234 Movies with 12 different columns. We have actor and actress names, countries, release years, ratings, durations, and categories of the movies. We may check some of the feature’s unique value counts. For instance, on Netflix, we have 72 different movie and series types.
+(len(df.listed_in.str.split(',').explode().unique()))
+OUTPUT>>>
+72
+We have taken the “listed_in” column from our “df” data frame.
+We have turned it into a string with the “str()” method.
+We have split the values with “,” delimiter.
+We have taken all the split values into a time series with the index numbers via the “explode()” method.
+We have extracted only the unique values with “unique()”.
+We have taken the length of our created data series.
+This means that we have 72 different movie and series types, as a beginning we can create a word cloud from our movie types.
+Creating a Word Cloud with Python: First Instance
+To create a Word Cloud with Python, we have imported the WordCloud library and the “WordCloud” function from it. To understand and use any type of function in Python, you can use the “?Function_name” command as below.
+?WordCloud
+OUTPUT>>>
+Init signature:
+WordCloud(
+font_path=None,
+width=400,
+height=200,
+margin=2,
+ranks_only=None,
+prefer_horizontal=0.9,
+mask=None,
+scale=1,
+color_func=None,
+max_words=200,
+min_font_size=4,
+stopwords=None,
+random_state=None,
+background_color='black',
+max_font_size=None,
+font_step=1,
+mode='RGB',
+relative_scaling='auto',
+regexp=None,
+collocations=True,
+colormap=None,
+normalize_plurals=True,
+contour_width=0,
+contour_color='black',
+repeat=False,
+include_numbers=False,
+min_word_length=0,
+collocation_threshold=30,
+)
+Docstring:
+Word cloud object for generating and drawing.
+Parameters
+----------
+font_path : string
+Font path to the font that will be used (OTF or TTF).
+Defaults to DroidSansMono path on a Linux machine. If you are on
+another OS or don't have this font, you need to adjust this path.
+width : int (default=400)
+Width of the canvas.
+height : int (default=200)
+Height of the canvas.
+prefer_horizontal : float (default=0.90)
+The ratio of times to try horizontal fitting as opposed to vertical.
+If prefer_horizontal < 1, the algorithm will try rotating the word
+if it doesn't fit. (There is currently no built-in way to get only
+vertical words.)
+mask : nd-array or None (default=None)
+If not None, gives a binary mask on where to draw words. If mask is not
+None, width and height will be ignored and the shape of mask will be
+used instead. All white (#FF or #FFFFFF) entries will be considerd
+"masked out" while other entries will be free to draw on. [This
+changed in the most recent version!]
+contour_width: float (default=0)
+If mask is not None and contour_width > 0, draw the mask contour.
+contour_color: color value (default="black")
+Mask contour color.
+scale : float (default=1)
+Scaling between computation and drawing. For large word-cloud images,
+using scale instead of larger canvas size is significantly faster, but
+might lead to a coarser fit for the words.
+min_font_size : int (default=4)
+Smallest font size to use. Will stop when there is no more room in this
+size.
+font_step : int (default=1)
+Step size for the font. font_step > 1 might speed up computation but
+give a worse fit.
+max_words : number (default=200)
+The maximum number of words.
+stopwords : set of strings or None
+The words that will be eliminated. If None, the build-in STOPWORDS
+list will be used. Ignored if using generate_from_frequencies.
+background_color : color value (default="black")
+Background color for the word cloud image.
+max_font_size : int or None (default=None)
+Maximum font size for the largest word. If None, height of the image is
+used.
+mode : string (default="RGB")
+Transparent background will be generated when mode is "RGBA" and
+background_color is None.
+relative_scaling : float (default='auto')
+Importance of relative word frequencies for font-size.  With
+relative_scaling=0, only word-ranks are considered.  With
+relative_scaling=1, a word that is twice as frequent will have twice
+the size.  If you want to consider the word frequencies and not only
+their rank, relative_scaling around .5 often looks good.
+If 'auto' it will be set to 0.5 unless repeat is true, in which
+case it will be set to 0.
+.. versionchanged: 2.0
+Default is now 'auto'.
+color_func : callable, default=None
+Callable with parameters word, font_size, position, orientation,
+font_path, random_state that returns a PIL color for each word.
+Overwrites "colormap".
+See colormap for specifying a matplotlib colormap instead.
+To create a word cloud with a single color, use
+``color_func=lambda *args, **kwargs: "white"``.
+The single color can also be specified using RGB code. For example
+``color_func=lambda *args, **kwargs: (255,0,0)`` sets color to red.
+regexp : string or None (optional)
+Regular expression to split the input text into tokens in process_text.
+If None is specified, ``r"\w[\w']+"`` is used. Ignored if using
+generate_from_frequencies.
+collocations : bool, default=True
+Whether to include collocations (bigrams) of two words. Ignored if using
+generate_from_frequencies.
+.. versionadded: 2.0
+colormap : string or matplotlib colormap, default="viridis"
+Matplotlib colormap to randomly draw colors from for each word.
+Ignored if "color_func" is specified.
+.. versionadded: 2.0
+normalize_plurals : bool, default=True
+Whether to remove trailing 's' from words. If True and a word
+appears with and without a trailing 's', the one with trailing 's'
+is removed and its counts are added to the version without
+trailing 's' -- unless the word ends with 'ss'. Ignored if using
+generate_from_frequencies.
+repeat : bool, default=False
+Whether to repeat words and phrases until max_words or min_font_size
+is reached.
+include_numbers : bool, default=False
+Whether to include numbers as phrases or not.
+min_word_length : int, default=0
+Minimum number of letters a word must have to be included.
+collocation_threshold: int, default=30
+Bigrams must have a Dunning likelihood collocation score greater than this
+parameter to be counted as bigrams. Default of 30 is arbitrary.
+See Manning, C.D., Manning, C.D. and Schütze, H., 1999. Foundations of
+Statistical Natural Language Processing. MIT press, p. 162
+https://nlp.stanford.edu/fsnlp/promo/colloc.pdf#page=22
+Attributes
+----------
+``words_`` : dict of string to float
+Word tokens with associated frequency.
+.. versionchanged: 2.0
+``words_`` is now a dictionary
+``layout_`` : list of tuples (string, int, (int, int), int, color))
+Encodes the fitted word cloud. Encodes for each word the string, font
+size, position, orientation and color.
+Notes
+-----
+Larger canvases with make the code significantly slower. If you need a
+large word cloud, try a lower canvas size, and set the scale parameter.
+The algorithm might give more weight to the ranking of the words
+than their actual frequencies, depending on the ``max_font_size`` and the
+scaling heuristic.
+File:           c:\python38\lib\site-packages\wordcloud\wordcloud.py
+Type:           type
+Subclasses:
+Thanks to the question mark before the function name, we can see all of the parameters, examples, and definitions for a Python command. We see that most of the parameters that “WordCloud” has been about the “visualization of the word cloud” such as margin, height, width, and more. First, we will create a word cloud from the first description of our Data Frame.
+df[:1]
+You may see the output below.
+First row of our Netflix Data Frame.
+Our movie is “Norm of the Nort: King Sized Adventure”. And the description of this movie is below.
+df[:1]['description']
+You may see the result below.
+Netflix Movie Description Result.
+Since, our result has been truncated because of its length, we also can use “pd.option_context” via Pandas.
+with pd.option_contexxt('max_colwidth', None):
+print(df.description[:1])
+You may see the result below.
+Netflix Movie Description as full width via “pd.option_context()”
+Now, we have all of the words in the description example so that we can compare them with our example of the word cloud. To create a word cloud with Python, the necessary codes are below.
+text = df.description[0]
+wordcloud = WordCloud().generate(text)
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis("off")
+plt.figure(figsize=(10,10))
+plt.show()
+Before showing the result, let’s explain the code lines here.
+We have assigned our description to the “text” variable.
+We have created a “Word Cloud” object with the “WordCloud()” and “generate()” function and method, assigned it into the “wordcloud” variable.
+We have turned off the axis via “matplotlib”.
+We have changed the size of the plot via “plt.figure(figsize=(Number, Number))”.
+We have called our plot.
+You may see the result below.
+Python Word Cloud Example for the First Netflix Movie Description from our Netflix Movies Data Frame.
+We have created a word cloud from our related description. This is just a basic example of the use case of word clouds. We see that our first description talks about the terms “wedding”, “planning”, “take”, “back”. With the biggest words in the word cloud, you may understand the theme of the description and the word cloud that has been created from it.
+Changing the Font-size, Max Words, and Background Color of Word Clouds in Python
+After creating a word cloud in Python, we also can change the design of the word cloud. You may see some of the examples below.
+wordcloud = WordCloud(max_font_size=45, max_words=10, background_color="#e5e5e5").generate(text)
+plt.figure()
+plt.imshow(wordcloud, interpolation="bilinear", alpha=0.8, aspect="equal")
+plt.axis("off")
+plt.show()
+In the code example above, we have changed the font size of the words that can have maximum, we have limited the number of words until 10, we have changed the background color to “e5e5e5”. Also, we have used “plt.imshow()” method for interpolation, alpha, and aspect ratio configuration. Alpha is for the opacity of the words while aspect is for the width and height percentages of the values. Interpolation is also for making the image more smooth and aesthetic for reading. You may see the result below.
+Python Word Cloud with different font-size, background color and opacity.
+You may check whether the word cloud image has the features that we have determined or not.
+How to Create an Output File from Word Cloud in Python
+To take an output file from the word cloud design we have used before, we will use the “to_file(“file path”)” method. You may see an example of taking a word cloud output file as an image below.
+wordcloud.to_file("first_output.png")
+OUTPUT>>>
+<wordcloud.wordcloud.WordCloud at 0x1eb1f11f3a0>
+You may see the result below.
+Word Cloud Output visuals from VSCode and the related Windows Folder.
+On the left side of the image above, you will see the output in the VSCode Folder, at the right side, you will see the output file in the windows folder. At below, you will see the image itself.
+PNG Format of our outputted Python word cloud.
+This was an example of a single sentence, now we can create a bigger word cloud example the words are used in the movie and
+
+[...truncated...]

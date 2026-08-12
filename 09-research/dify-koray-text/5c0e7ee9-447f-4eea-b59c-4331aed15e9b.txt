@@ -1,0 +1,91 @@
+HTML <em> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <em> HTML Tag defines a text with emphasis on stress. Browsers italicize the text within the <em> HTML Tag. The <em> HTML Tag is a logical markup element, as opposed to the <i> HTML Tag, that has the same visual impact as italic but does not hold a semantic load. Although the <em> HTML Tag is not obsolete, it is possible to obtain better effects with the CSS font-style property. The <em> HTML Tag is used to highlight text that should be highlighted more than the surrounding text. The <em> HTML Tag is part of the Formatting HTML category in HTML Element Reference. The attributes of the <em> HTML Tag are global and event attributes.
+<em> code block example to learn how it works is given below.
+<body>
+<p><em>Text here</em>no text in this location</p>
+</body>
+The second example usage of the “<em>” code block example is given below.
+It is <em>too</em> much for me to bear any longer!
+Contents of the Article
+show
+1.
+What is <em> HTML Tag?
+2.
+How to Use <em> HTML Tag?
+2.1.
+Example Usage of <em> HTML Tag?
+3.
+What are the Attributes of <em> HTML Tag?
+4.
+What is the Default CSS Setting for <em> HTML Tag?
+5.
+What are the Related other HTML Tags to <em>?
+What is <em> HTML Tag?
+The <em> HTML Tag designates content that should be shown in italic by the browser since it indicates that the text has a lot of emphases. The <em> HTML Tag’s another frequent name is <em> element. Emphasis is defined with the <em> HTML Tag. Italics are commonly used to highlight the text within an ad. Using verbal stress, a screen reader will enunciate the words in <em> HTML Tag. It is possible to stack the <em> HTML Tag element with increasing levels of emphasis.
+How to Use <em> HTML Tag?
+To use the <em> HTML Tag, the web developer should write <em></em> with emphasized text placed between the start and ending tags. Although the tag lacks local attributes, it can be used with any of the global or event content attributes.
+Example Usage of <em> HTML Tag?
+The following examples of usage of <em> HTML Tag are given below.
+<p>We <em>must</em> act quickly!</p>
+<p>It is <em>not</em> you, it's me.</p>
+What are the Attributes of <em> HTML Tag?
+There are multiple attributes for the <em> HTML Tag. The following attributes are listed below.
+Global Attributes: The <em> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <em> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <em> HTML Tag?
+The following is the Default CSS Setting for the <em> HTML Tag.
+em {
+}
+What are the Related other HTML Tags to <em>?
+The other related HTML Tags to the <em> HTML Tag are listed below.
+<bdi> HTML Tag: The
+<bdi>
+HTML Tag and <em> HTML Tag are related because they are both formatting HTML Tags.The <bdi> HTML Tag separates a section of text from the rest so that it can be formatted differently.
+<u> HTML Tag: The
+<u>
+HTML Tag and <em> HTML Tag are related because they are both formatting HTML Tag. The <u> HTML Tags specifies that some text is not articulated and is formatted differently from typical text.
+<template> HTML Tag: The <template> HTML Tag and <em> HTML Tag are related because they are both formatting HTML Tags. The
+<template>
+HTML Tag specifies that when the page loads, the container defines what content should be hidden.
+<samp> HTML Tag: The
+<samp>
+HTML Tag and <em> HTML Tag are related because they are both formatting HTML Tags. The <samp> HTML Tag defines  a computer program’s sample output.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <em> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <data> Tag Definition, Usage and Exampl…
+TechSEO
+HTML <dfn> Tag Definition, Usage and Example…
+0
+0
+0

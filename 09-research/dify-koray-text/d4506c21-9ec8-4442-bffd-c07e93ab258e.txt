@@ -1,0 +1,88 @@
+Graphics Interchange Format (GIF): Definition and Usage - Holistic SEO
+Skip to content
+GIFs consist of a series of frames that follow each other, creating an animation without sound that repeats in a loop in 5 to 10 seconds (with exceptions). These have a maximum of 256 colors, so they are lighter than videos but more dynamic than conventional images, taking the best of both formats. The word GIF is an acronym that stands for Graphics Interchange Format, or in Spanish, Graphics Interchange Format. This image format was created in 1987 by Steve Wilhite as Compuserve, an American communications company.
+Although they exist 30 years ago, it is in this decade that GIFs have become a worldwide trend. So much so that in 2012 the term “GIF” became the word of the year according to the Oxford Dictionary. Today, these animated images abound on social media, chats, emails, articles, ad campaigns, and the media
+This trend shows no signs of disappearing in a good time. In fact, in just 4 years, the bank of GIFs Giphy has already outnumbered Snapchat and Twitter, with nearly 250 million users a day (Snapchat has 165 and Twitter, 140 million). The use of these images begins to compete with that of emojis, becoming a powerful means of expression.
+Related Articles:
+What are the Image Formats?
+The difference between JPG and JPEG
+Note: The GIFs in this article are converted to “videos” for a better user experience. But, the article’s theme can be understood in the context of the “animated images’ effect on static contents.”
+Contents of the Article
+show
+1.
+What are the Advantages of the GIFs for Content Marketing and User Experience?
+2.
+Where to find GIFs?
+3.
+Last Thoughts about GIFs in User Experience and Marketing
+What are the Advantages of the GIFs for Content Marketing and User Experience?
+According to Alex Chung (CEO of Giphy), if an image is worth a thousand words, “the average GIF contains 60 frames, making it capable of transmitting up to 60,000 words. The same as an average novel.
+Although the comparison between a GIF and a novel seems very exaggerated, it does reveal the power that gifs have to transmit emotions and information quickly and without much effort. Here are other great advantages of this format:
+As I already mentioned, GIFs are lighter than videos, so they can be easily viewed from any type of device, including mobile.
+They can be inserted into emails and, unlike videos, they play automatically, increasing the possibility of being seen.
+It is inevitable to see them. GIFs capture attention, make it easier for us to understand any concept, and remember it for longer.
+GIFs can be used to animate infographics and bring ideas to life that would otherwise be more difficult to explain.
+Note: GIFs are lighter from videos if only the videos are longer than GIFs, in normal conditions any video with the same length with a GIF is lighter than the GIF. Also, videos can be played automatically, which is not recommended for the Page Speed or for the User Experience in some situations.
+They generate emotional impact. They can make people laugh, remember, inspire, question, surprise or motivate reflection in just a few seconds.
+How to perform Moonwalk? A GIF can teach it to you.
+They can help give brand visibility and generate engagement with their target audience. Such is the case of Coca-Cola with the GIFthefeeling.com microsite, part of the 2016 “Taste the Feeling” campaign, in which the same users created and shared GIFs that expressed the feeling of taking a Coca-Cola.
+Coca-Cola’s GIFs with Liberation Themes.
+They are incredibly viral. According to HubSpot, visual content is 40 times more likely to be shared on networks than other types of content. Brands like Fox TV, Lego, and even NASA have understood this, and today they have their own channels on Giphy.
+They have great educational potential that can be used to make tutorials and guides.
+In addition to succeeding in digital media, GIFs can be taken to other channels such as outdoor advertising, just as Netflix did in this campaign that launched in France:
+Isn’t it better from a static image?
+Where to find GIFs?
+There are millions of GIFs on the Internet that you can take advantage of. Some places where you can find them are:
+Giphy: the world’s largest library of GIFs. It has a search engine of different categories and GIFs can be easily shared, downloaded, or inserted on any blog or website.
+Google Images: just type the search term in Google, go to Images, and in the Tools menu go to Type and select “Animated”. Nothing is easy.
+Bing Images: you can find even better GIFs in Bing’s image search. Surprisingly, they show more search results for the image search.
+Reddit: You can follow some Subreddits to find GIFs for a specific sector or niche. There are GIFs for even a single verb or situation in the Subreddit, such as walking or walking in the wood, etc.
+But if creativity is your thing, and you prefer to make your own GIFs, here are some tools you can use to create them easily:
+GIF Maker
+: Giphy’s tool for creating GIFs. You can choose to upload multiple images or a video, or you can even insert the URL of the video you want to use. It also has clip art that you can customize.
+Make a GIF
+: on this site, you can also create GIFs from videos, images, and even from your webcam. You will also find tons of GIFs created by users.
+Photoshop
+: This program allows you to import videos in the form of frames. You select the part of the video that you want to convert (no more than 10 seconds), edit it to your liking, and put it in the loop option. In the end, you save for Web.
+Last Thoughts about GIFs in User Experience and Marketing
+GIFs are a great resource that many brands are still afraid to explore. The truth is that there is nothing to fear as long as they are used consistently within the strategy. Some tips to keep in mind are:
+Also, use them sparingly. Too many GIFs can be annoying.
+As a brand, you’d better create your own GIFs (or at least put the source where you got them from).
+Use them in context. Strive to make your GIFs really complement and enrich the topic you are talking about (if not, better not even put them). Also, always be careful about the performance and page speed, GIFs are heavy resources, so you need to optimize them.
+If you want to learn more about visual assets on the web, you can read your “What is the difference between JPG and JPEG” article.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+What is Graphics Interchange Format (GIF)?
+by Koray Tuğberk GÜBÜR
+time to read: 4 min
+TechSEO
+What is CSS? How to Learn and Use CSS?
+TechSEO
+What is the Difference between JPG and PNG?
+0
+0
+0

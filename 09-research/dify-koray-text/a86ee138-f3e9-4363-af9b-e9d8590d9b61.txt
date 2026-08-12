@@ -1,0 +1,96 @@
+HTML <u> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <u> HTML Tag specifies to express text that is not articulated and is formatted differently from ordinary text, such as spelling errors or appropriate names in Chinese literature, among other things. The <u> HTML Tag is commonly used to highlight the material within a document and specify text that has a non-textual annotation attached to it. This can be changed by the user using CSS. Consider not using the <u> HTML Tag element in situations where it can be mistaken for a hyperlink. The <u> HTML Tag is part of the Formatting HTML category in HTML Element Reference. The attributes of the <u> HTML Tag are global and event attributes.
+<u> code block example to learn how it works is given below.
+<body>
+<p><u>Text that has been styled in a different way goes here.</u>styled text should not be put here</p>
+</body>
+The second example usage of the “<u>” code block example is given below.
+<p>Her name is<u class="spelling">wrngflly</u>
+mispelled.</p>
+Contents of the Article
+show
+1.
+What is <u> HTML Tag?
+2.
+How to Use <u> HTML Tag?
+2.1.
+Example Usage of <u> HTML Tag?
+3.
+What are the Attributes of <u> HTML Tag?
+4.
+What are the Default CSS Settings for <u> HTML Tag?
+5.
+What are the Related other HTML Tags to <u>?
+What is <u> HTML Tag?
+The <u> HTML Tag is being described as text that should be formatted differently or that should have a non-textual annotation attached to it. Underlined text is usually displayed by browsers when text is contained within the <u> HTML Tag. The <u> HTML Tag is also known to as the <u> element. It should be noted that the <u> element was discontinued in HTML 4.01 and was initially declared outdated in the HTML5 specification. However, it has been re-introduced into the HTML5 specification as a legitimate HTML element with a new purpose.
+How to Use <u> HTML Tag?
+To use the <u> HTML Tag, the web developer should write <u and add the non-textual annotation></u> with the word to underline it between the start and end of the tags. Although the tag lacks local attributes, it can be used with any of the global or event content attributes.
+Example Usage of <u> HTML Tag?
+The following examples of usage of <u> HTML Tag are given below.
+<p>Tomorrow is her mother's<u class="underline">death</u>anniversary.</p>
+<p>Today is her<u class="underline">special</u>day.</p>
+What are the Attributes of <u> HTML Tag?
+There are multiple attributes for the <u> HTML Tag. The following attributes are listed below.
+Global Attributes: The <u> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <u> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <u> HTML Tag?
+The following are the Default CSS Settings for the <u> HTML Tag.
+p {
+font: 1rem 'Fira Sans', sans-serif;
+}
+u {
+text-decoration: #f00 wavy underline;
+}
+What are the Related other HTML Tags to <u>?
+The other related HTML Tags to the <u> HTML Tag are listed below.
+<bdi> HTML Tag: The
+<bdi>
+HTML Tag and <u> HTML Tag are related because they are both formatting HTML Tags.The <bdi> HTML Tag separates a section of text from the rest so that it can be formatted differently.
+<s> HTML Tag: The
+<s>
+HTML Tag and <u> HTML Tag are related because they are both formatting HTML Tag. The <s> HTML Tags specifies erroneous or outdated information
+<template> HTML Tag: The
+<template>
+HTML Tag and <u> HTML Tag are related because they are both formatting HTML Tags. The <template> HTML Tag specifies that when the page loads, the container defines what content should be hidden.
+<samp> HTML Tag: The
+<samp>
+HTML Tag and <u> HTML Tag are related because they are both formatting HTML Tags. The <samp> HTML Tag defines  a computer program’s sample output.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <u> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <sub> Tag Definition, Usage and Example…
+TechSEO
+HTML <var> Tag Definition, Usage and Example…
+0
+0
+0

@@ -1,0 +1,112 @@
+Sec-CH-UA-Full-Version-List HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Sec-CH-UA-Full-Version-List HTTP Header user agent client hint request header contains information about the user agent’s branding as well as its full version number. Each brand linked with the browser is listed in a comma-separated list in the Sec-CH-UA-Full-Version-List HTTP Header, which contains the brand and full version information for each brand. The Sec-CH-UA-Full-Version-List HTTP Header uses two values. The Sec-CH-UA-Full-Version HTTP Header values are the brand and full version. An example of a Sec-CH-UA-Full-Version HTTP Header is written below.
+GET /my/page HTTP/1.1
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Full-Version-List: " Not A;Brand";v="99.0.0.0", "Chromium";v="98.0.4750.0", "Google Chrome";v="98.0.4750.0"
+Sec-CH-UA-Platform: "Linux"
+The Sec-CH-AU-Full-Version-List HTTP Header Request Header is seen above. In the article, the Sec-CH-AU-Full-Version HTTP Header Syntax, Directives, and Uses example will be processed.
+Contents of the Article
+show
+1.
+What is Sec-CH-UA-Full-Version-List HTTP Header?
+1.1.
+What is the Syntax of Sec-CH-UA-Full-Version-List HTTP Header?
+1.2.
+What are the Directives of Sec-CH-UA-Full-Version-List HTTP Header?
+2.
+How to use Sec-CH-UA-Full-Version-List HTTP Header?
+2.1.
+Examples of Sec-CH-UA-Full-Version-List HTTP Header Use
+3.
+What is the Specification Document for Sec-CH-UA-Full-Version-List HTTP Header?
+4.
+What is the type of Sec-CH-UA-Full-Version-List HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Sec-CH-UA-Full-Version-List HTTP Header?
+5.
+Which Browsers Support Sec-CH-UA-Full-Version-List HTTP Header?
+What is Sec-CH-UA-Full-Version-List HTTP Header?
+The user agent client hint request header Sec-CH-UA-Full-Version-List HTTP Header contains information about the user agent’s branding as well as its full version number. Each brand associated with the browser is listed in the Sec-CH-UA-Full-Version-List HTTP Header in a comma-separated list, which contains the brand and full version information for each brand.
+What is the Syntax of Sec-CH-UA-Full-Version-List HTTP Header?
+The Sec-CH-UA-Full-Version-List HTTP Header contains two parts in its syntax. Brand names in the user agent brand list, separated by commas, along with the entire version number of the user agent for each brand. The syntax for a single entry is written in the following manner.
+Sec-CH-UA-Full-Version-List: "<brand>";v="<full version>", ...
+What are the Directives of Sec-CH-UA-Full-Version-List HTTP Header?
+There are two directives that can be put in the Sec-CH-UA-Full-Version-List HTTP Header. The user agent’s brand, such as “Chromium” or “Google Chrome,” or an intentionally incorrect brand, such as “Not A; Brand”. The full version value is a full version number, such as 98.0.4750.0. The directives for using the Sec-CH-UA-Full-Version-List HTTP Header are written below.
+GET /my/page HTTP/1.1
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Full-Version-List: " Not A;Brand";v="99.0.0.0", "Chromium";v="98.0.4750.0", "Google Chrome";v="98.0.4750.0"
+Sec-CH-UA-Platform: "Linux"
+How to use Sec-CH-UA-Full-Version-List HTTP Header?
+The Sec-CH-UA-Full-Version-List HTTP Header is used to show the name and full version of each brand that’s linked to the browser in a comma-separated list, with each brand’s name and version number in the middle of the list. It’s called a brand because it’s a commercial name for the user agent. These brands are Chromium and Opera. A user agent should have a lot of brands linked to it. There are many brands of browsers that are based on Chromium, like Opera, Chrome, and Edge. They will all show up in the Sec: CH-UA-Full-Version-List header. Thus, the header enables the server to tailor its answer based on both shared brands and customizations inside their individual builds. In any place and with any name, the header may include “fake” brands. This is a feature that prevents servers from outright rejecting unknown user agents, forcing them to fabricate their brand identity.
+Examples of Sec-CH-UA-Full-Version-List HTTP Header Use
+To request the Sec-CH-UA-Full-Version-List HTTP Header, for example, the server must include the Accept-CH in a response to any request from the client, where the name of the desired header is used as a token to identify the request.
+HTTP/1.1 200 OK
+Accept-CH: Sec-CH-UA-Full-Version-List
+The client are able to choose to provide the hint and include the Sec-CH-UA-Full-Version-List header in subsequent requests, as demonstrated in the example below. Providing the hint is optional.
+GET /my/page HTTP/1.1
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Full-Version-List: " Not A;Brand";v="99.0.0.0", "Chromium";v="98.0.4750.0", "Google Chrome";v="98.0.4750.0"
+Sec-CH-UA-Platform: "Linux"
+What is the Specification Document for Sec-CH-UA-Full-Version-List HTTP Header?
+There is only one specification document for the Sec-CH-UA-Full-Version-List HTTP Header, which is the User-Agent Client Hints. The User-Agent Client Hints article 3.9 mentions the Sec-CH-UA-Full-Version-List HTTP Header’s definition and uses. Additionally, the article discusses the Sec-CH-UA-Full-Version HTTP Header’s values and examples.
+What is the type of Sec-CH-UA-Full-Version-List HTTP Header?
+The Sec-CH-UA-Full-Version-List HTTP Header user agent client hint is a request header that contains information about the user agent’s branding as well as its full version information.
+What are the similar HTTP Headers to the Sec-CH-UA-Full-Version-List HTTP Header?
+The similar HTTP Headers to the Sec-CH-UA-Full-Version-List HTTP Header are listed below.
+HTTP Client Hints:
+Client Hints are a collection of HTTP request header fields that a server can request proactively from a client to obtain information about the device, network, user, and user-agent-specific preferences, comparable to the Sec-CH-UA-Full-Version-List HTTP Header.
+User-Agent Client Hints API:
+The User-Agent Client Hints API expands the Client Hints API by providing a mechanism for exposing browser and platform information via User-Agent response and request headers, as well as a JavaScript API similar to the Sec-CH-UA-Full-Version-List HTTP Header, which also includes the User-Agent.
+Accept-CH HTTP Header:
+The Accept-CH HTTP Header is similar to the Sec-CH-UA-Full-Version-List HTTP Header. The
+Accept-CH HTTP Header
+may be set by a server to designate which client hint headers a client should include in subsequent requests.
+Vary HTTP Header:
+Similar to the Sec-CH-UA-Full-Version HTTP Header, the Vary HTTP Header response header specifies how to match future request headers to determine if a cached response can be utilized or whether a fresh one must be received from the origin server.
+Which Browsers Support Sec-CH-UA-Full-Version-List HTTP Header?
+There are no compatible browsers for the Sec-CH-UA-Full-Version-List HTTP Header.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Sec-CH-UA-Full-Version-List HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Sec-CH-UA-Full-Version HTTP Header: Syntax, Direct…
+TechSEO
+Sec-Fetch-Dest HTTP Header: Syntax, Directive, Exa…
+0
+0
+0

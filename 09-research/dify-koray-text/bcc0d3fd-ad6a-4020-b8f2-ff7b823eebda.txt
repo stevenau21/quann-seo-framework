@@ -1,0 +1,120 @@
+"aria-rowindextext" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-rowindextext is an attribute that provides a human-understandable text to users regarding its position on the table element. The purpose of the aria-rowindextext is to communicate to the user through assistive technology if the information or position of the raw is not present or larger than the available row span. The developer can use the aria-rowindextext to inform the user or provide additional information regarding its navigation with the assistive technology. The aria-rowindextext can be with elements within the row groups such as cells, grid cells, column headers, row headers, table, and treegrid. The aria-rowindextext can be used with other aria labels such as aria-rowindex, aria-rowcount, aria-rowspan, aria-colindextext, and aria-colindex.
+Contents of the Article
+show
+1.
+What is the function of the “aria-rowindextext” ARIA Label?
+2.
+What are the uses of the “aria-rowindextext” ARIA Label?
+3.
+Example Uses of “aria-rowindextext” ARIA Label
+4.
+What are the related ARIA Labels to “aria-rowindextext”?
+What is the function of the “aria-rowindextext” ARIA Label?
+The function of the aria-rowindextext attribute is to define a position using alternate information that is a readable text. The user can benefit from such information once the row span is unable to provide larger data or information. The aria-rowindextext enables the developers to provide useful inputs to the attributes to be able to enhance the user experience and functionality of the assistive technology. The aria-rowindextext can only be used if the aria-rowindex value will become inconsistent, the rowindex value is used by the assistive technology to track the position of the user. The elements that have a row role and cell is added with an aria-rowindextext attribute along with the aria-rowindex value.
+What are the uses of the “aria-rowindextext” ARIA Label?
+Listed below are the uses of the “aria-rowindextext” ARIA Label.
+Cell role:
+It is a value that is defined by an attribute to identify an element as being a cell in a table that does not have a column and row or header.
+Row role:
+Is set by an attribute to be identified as a row and should be nested within a grid or table element.
+Columnheader role:
+Is an attribute value that identifies an element as there is a cell in a row that has header information for the column, similar to the native HTML table element with column functionality.
+Gridcell role:
+Is part of the grid and treegrid’s cell, It is to play the role the same as the native HTML table data element as a grouping table-style information.
+Rowheader role:
+It is a cell that contains header information of a row beneath the structure of a grid, table, or treegrid.
+Example Uses of “aria-rowindextext” ARIA Label
+Listed below are the example uses of the “aria-rowindextext” ARIA Label.
+The aria-rowindextext provides a helpful relevant information about the aria-rowindex stated row position, it enables the user to have more information that an aria-rowindex can’t.
+<thead role="rowgroup">
+<tr role="row">
+<th role="columnheader" id="role-heading" aria-sort="none" aria-rowindex="1" aria-rowindextext="Heading row">Aria-rowindextext Info</th>
+<th role="columnheader" id="element-heading" aria-sort="none" aria-rowindex="1">Element Info</th>
+</tr>
+</thead>
+<thead role="rowgroup">
+<tr role="row">
+<th role="columnheader" id="role-heading" aria-sort="none" aria-rowindex="1" aria-rowindextext="Heading row">A INFO </th>
+<th role="columnheader" id="element-heading" aria-sort="none" aria-rowindex="1"> B INFO</th>
+</tr>
+</thead>
+<thead role="rowgroup">
+<tr role="row">
+<th role="columnheader" id="role-heading" aria-sort="none" aria-rowindex="1" aria-rowindextext="Heading row">Column Header 1</th>
+<th role="columnheader" id="element-heading" aria-sort="none" aria-rowindex="1">Column Header 2</th>
+</tr>
+</thead>
+<thead role="rowgroup">
+<tr role="row">
+<th role="columnheader" id="role-heading" aria-sort="none" aria-rowindex="1" aria-rowindextext="Heading row">Header role Information</th>
+<th role="columnheader" id="element-heading" aria-sort="none" aria-rowindex="1">Header Element Information</th>
+</tr>
+</thead>
+<thead role="rowgroup">
+<tr role="row">
+<th role="columnheader" id="role-heading" aria-sort="none" aria-rowindex="1" aria-rowindextext="Heading row">Header A</th>
+<th role="columnheader" id="element-heading" aria-sort="none" aria-rowindex="1">Header B</th>
+</tr>
+</thead>
+What are the related ARIA Labels to “aria-rowindextext”?
+Listed below are the related ARIA Labels to “aria-rowindextext”.
+aria-rowindex:
+The aria-rowindex is related to aria-rowindextext because they are both defining the table elements, grid, and others that belong to the rowgroup. The aria-rowindex attribute defines the element’s row position, the value of the
+aria-rowindex
+is an integer number.
+aria-rowcount:
+The aria-rowcount is related to aria-rowindextext because they are both used in a row role. The
+aria-rowcount
+simply totals the number of rows in a table or grid.
+aria-rowspan:
+The aria-rowspan related to aria-rowindextext because they are both used to define the row or cell. The
+aria-rowspan
+is an attribute that defines particularly the row spanned by a cell or a gridcell, treegrid, or table.
+aria-colindextext:
+The aria-colindextext is related to aria-rowindextext because they are both used to provide additional information to the user if the attribute that provides position is meaningless. The
+aria-colindextext
+is an attribute that provides readable text information if the numeric position information is missing.
+aria-colindex:
+The aria-colindex is related to aria-rowindextext because they are both used in the table role. The
+aria-colindex
+is an attribute that identifies the element position in the column, the value of the attribute is an integer number.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-rowindextext” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 4 min
+TechSEO
+“aria-selected” ARIA Label for Accessi…
+TechSEO
+“aria-rowindex” ARIA Label for Accessi…
+0
+0
+0

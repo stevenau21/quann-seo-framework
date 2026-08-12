@@ -1,0 +1,89 @@
+Skip to content
+The HTML <samp>Tag is a phrase tag that is used to specify a sample output text from a computer program. This sample output is the output that is displayed to the user when the user is running an application. This example output is the output that is presented to the user when an application is run. The <samp> HTML Tag is part of formatting HTML category in HTML Element Reference. The attributes of the <samp> HTML Tag are global attributes and event attributes.
+<samp> code block example to learn how it works is given below.
+<samp>Sample output...</samp>
+The second example usage of the “<samp>” code block example is below.
+<p>My computer says <samp>Good Evening!</samp> every time I start it... amazing!</p>
+Contents of the Article
+show
+1.
+What is <samp> HTML Tag?
+2.
+How to Use <samp> HTML Tag?
+2.1.
+Example Usage of <samp> HTML Tag?
+3.
+What are the Attributes of <samp> HTML Tag?
+4.
+What are the Default CSS Settings for <samp> HTML Tag?
+5.
+What are the Related other HTML Tags to <samp>?
+What is <samp> HTML Tag?
+The <samp> HTML Tag is used to provide the output of a computer program as a sample. The material is shown in the browser’s default monospace typeface.
+How to Use <samp> HTML Tag?
+To use the <samp> HTML Tag the web developer should write the <samp> tag with sample output inserted between the start and end tags. For example, the message “Are you sure you want to replace this file?” is a common message displayed when attempting to replace one file with another, and in this context, would be considered “sample output,” which could be used within an <samp> HTML Tag element if this message were to be reproduced in another context.
+Example Usage of <samp> HTML Tag?
+The following example of usage of <samp> HTML tag is given below.
+<p>I was trying to reset my laptop, but I got this hilarious message:</p>
+<p><samp>internet not found <br>Press F3 to continue</samp></p>
+What are the Attributes of <samp> HTML Tag?
+There are multiple attributes for the <samp> HTML Tag. The following attributes are listed below.
+Global Attributes: The <samp> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <samp> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <samp> HTML Tag?
+The following is the Default CSS Setting for the <samp> HTML Tag.
+samp {
+font-weight: bold;
+}
+What are the Related other HTML Tags to <samp>?
+The other related HTML Tags to the <samp> HTML Tag are listed below.
+<acronym> HTML Tag: The
+<acronym>
+HTML Tag is related to <samp> HTML Tag because they are both in formatting HTML Tags. The <acronym> HTML Tag is similar to abbreviation tag. The abbreviation is defined using the <acronym> HTML Tag.
+<abbr> HTML Tag: The
+<abbr>
+HTML Tag is related to <samp> HTML Tag because they are both in formatting HTML Tags. The <abbr> HTML Tag is used to define abbreviations such as HTML, CSS, and so on.
+<big> HTML Tag: The
+<big>
+HTML Tag is related to <samp> HTML Tag because they are both in formatting HTML Tags. The <big> HTML Tag is used to define large text.
+<blockquote> HTML Tag: The
+<blockquote>
+HTML Tag is related to <samp> HTML Tag because they are both in formatting HTML Tags. The <blockquote> HTML Tag is used to include quotations from other sources.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <samp> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <ruby> Tag Definition, Usage and Exampl…
+TechSEO
+HTML <s> Tag Definition, Usage and Examples…
+0
+0
+0

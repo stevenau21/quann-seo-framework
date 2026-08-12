@@ -1,0 +1,97 @@
+Skip to content
+The aria-label is a type of attribute that gives an interactive element a descriptive name that is communicated to a screen reader so that the user can understand what is being described. An accessible name that is pertinent to its use is what the aria-label is supposed to provide for its users, in particular when it comes to interactive features like the button. In the event that the DOM or the user agent is unable to detect the unique label character or picture that is provided by the page, the developer may make use of the aria-label. The aria-label can be utilized for the purpose of implementing interactive elements like buttons and labels. The aria-label is compatible with a variety of other aria labels, including the aria-labelledby and aria-describedby labels. More often than not, a browser’s capability to define an element can be compromised, particularly with regard to providing a meaningful name, which is something that an aria-label can give. The objective of the ARIA label is to provide useful data for assistive technology.
+Contents of the Article
+show
+1.
+What is the function of the “aria-label” ARIA Label?
+2.
+What are the uses of the “aria-label” ARIA Label?
+3.
+Example Uses of “aria-label” ARIA Label
+4.
+What are the related ARIA Labels to “aria-label”?
+What is the function of the “aria-label” ARIA Label?
+The function of the aria-label is to provide a meaningful identity of the interactive element that is not provided by the semantic elements. The benefit of aria-label giving a meaningful name to the interactive element is for the screen reader to be able to provide the user a relevant meaning of the element. The aria-label’s importance for the user agent is significant, the other ARIA labels also rely on the value of the aria-label. The aria-label is intended for use on interactive elements, or elements with an ARIA role when there is no meaningful label visible in the DOM that could describe the function of the element.
+What are the uses of the “aria-label” ARIA Label?
+Listed below are the uses of the “aria-label” ARIA Label.
+Scrollbar role:
+It is an object interface that controls the scrolling of content within a viewing area.
+Search box role:
+It indicates an element is a kind of interactive box that can be imputed with text that is intended for a specific search function.
+Slider role:
+It defines an interactive input where the user can slide within the range in selecting a value.
+Spin button role:
+It defines a type of given range that predicts what the user would select, that can be within the range value.
+Switch role:
+It is a type of interactive element that has the same function as the checkbox, It has a toggle switch identity that can have true or false value.
+Example Uses of “aria-label” ARIA Label
+Listed below are the example uses of the “aria-label” ARIA Label.
+The ability of the screen reader to present the user with an appropriate meaning of the element is made possible by the fact that the aria-label attribute gives the interactive element a meaningful name.
+<button aria-label="Close" onclick="myDialog.close()">
+<svg aria-hidden="true" focusable="false" width="17" height="17" >
+</svg>X
+</button>
+<button aria-label="Close" onclick="myDialog.close()">
+<svg aria-hidden="true" focusable="false" width="17" height="17" >
+</svg>>>
+</button>
+<button aria-label="Close" onclick="myDialog.close()">
+<svg aria-hidden="true" focusable="false" width="17" height="17" >
+</svg><<
+</button>
+<button aria-label="Close" onclick="myDialog.close()">
+<svg aria-hidden="true" focusable="false" width="17" height="17" >
+</svg>?
+</button>
+<button aria-label="Close" onclick="myDialog.close()">
+<svg aria-hidden="true" focusable="false" width="17" height="17" >
+</svg>!
+</button>
+What are the related ARIA Labels to “aria-label”?
+Listed below are the related ARIA Labels to “aria-label”.
+aria-describedby:
+The aria-describedby is related to aria-label because they both use a string value to identify an element. The
+aria-describedby
+element supplies the user with information that they may require, in contrast to the aria-labelledby element, which merely provides an accessible name for the user’s assistive technology to decipher.
+aria-labelledby:
+The aria-labelledby is related to aria-label because they both utilized concurrently in the process of describing an element that has an accessible name. The
+aria-labelledby
+provides n accessible name for the elements that are specified, which is an element in its own right. When the native elements do not have sufficient features to describe or label them, the aria-labelledby attribute is used to set a name that is available to users.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-label” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-labelledby” ARIA Label for Acces…
+TechSEO
+“aria-keyshortcuts” ARIA Label for Acc…
+0
+0
+0

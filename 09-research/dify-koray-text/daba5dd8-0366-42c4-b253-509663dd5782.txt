@@ -1,0 +1,144 @@
+400 HTTP Response Status Codes: Meaning, Methods - Successful Responses - Holistic SEO
+Skip to content
+The 400 Bad Request error is an HTTP status code that indicates that the request you provided to the website server, which is usually something as basic as a request to load a web page, was incorrect or damaged and the server couldn’t interpret it. The 400 Bad Request error is frequently produced by entering or pasting the incorrect URL into the address bar, but there are a few other somewhat typical causes. The 400 HTTP Status Code is part of the “Client Errors” status code. This type of status code is used when the error appears to have been caused by the client. Except when replying to a HEAD request, the server should provide an object that describes the error scenario and whether it is a temporary or permanent problem. These status codes apply to all request methods. Any contained entity should be displayed to the user using user agents.
+Contents of the Article
+show
+1.
+What are the 400 (Bad Request) Status Codes?
+1.1.
+List of 400 HTTP Response Status Codes and Meaning
+2.
+What are the HTTP Methods for HTTP 400 Status Codes?
+What are the 400 (Bad Request) Status Codes?
+The error code “400 bad request” is an issue name that comprises information about the malfunction, such as why it occurred, which system component or application malfunctioned, and other data. The numerical code in the issue name typically comprises data that can be deciphered by the manufacturer of the faulty component or program. The problem with this code can arise in several areas throughout the system, thus even if it contains certain details in its name, it is impossible for a user to pinpoint and resolve the issue cause without specific technical knowledge or proper software.
+The main 400 HTTP Status Codes are listed below.
+401 Unauthorized HTTP Status Code: Although the HTTP standard defines “unauthorized,” this response indicates “unauthenticated” logically. That is, in order to receive the requested response, the client must authenticate themselves.
+402 Payment Required HTTP Status Code: This response code will be used in the future. The intended goal of developing this code was to utilize it in digital payment systems; however, this status code is rarely used, and no uniform convention exists.
+403 Forbidden HTTP Status Code: Because the client lacks access privileges to the content and is hence unauthorized, the server refuses to provide the requested resource. Unlike 401 Unauthorized, the server knows who the client is.
+404 Not Found HTTP Status Code: The server was unable to locate the requested resource. This indicates that the URL was not recognized by the browser. In an API, this could potentially signify that the endpoint is correct but the resource does not exist. Servers may also use this response rather than 403 Forbidden to conceal the existence of a resource from an unauthorized client. Because of its frequent occurrence on the internet, this response code is most likely the most well-known.
+List of 400 HTTP Response Status Codes and Meaning
+The 400 Response Status Codes are listed below.
+400 Bad Request
+: Due to an apparent client problem, the server cannot or will not perform the request.
+401 Unauthorized
+: Similar to 403 Forbidden, but used when authentication is necessary and has failed or has not yet been provided.
+402 Payment Required
+: Set aside for future use. The original plan was for this code to be used as part of a digital cash or micropayment mechanism, as proposed.
+403 Forbidden
+: The request contains proper data that the server recognized, but the server is refusing to act. This could be because the user lacks the requisite rights for a resource, requires an account of some kind, or is trying a banned behavior.
+404 Not Found
+: The requested resource was not found, but it may be accessible in the future. Subsequent client requests are permitted.
+405 Method Not Allowed
+: The requested resource does not support a request method.
+406 Not Acceptable
+: The requested resource can only generate content that is unacceptable according to the Accept headers given in the request.
+407 Proxy Authentication Required
+: First, the client must authenticate itself with the proxy.
+408 Request Timeout: The
+408 Request Timeout Status Code
+indicates that the server did not receive a full request in the time allotted.
+409 Conflict: The
+409 Conflict Status Code
+indicates that the request could not be performed owing to an issue with the current state of the target resource, and it is used in cases where the user may be able to resubmit the request when the conflict is resolved.
+410 Gone: The
+410 Gone Status Code
+indicates that the target resource has been destroyed and that the condition appears to be permanent.
+411 Length Required: The
+411 Length Required Status Code
+indicates that the server denied the request because the Content-Length header field was not specified.
+412 Precondition Failed: The
+412 Precondition Failed Status Code
+indicates that the server failed to meet one or more of the preconditions specified in the request header fields.
+413 Payload Too Large: The
+413 Payload Too Large Status Code
+indicates that the server refuses to perform the request because the request payload is too large for the server to handle. While the server may end the connection to prevent the client from completing the request, it should generate a Retry-After header value that specifies how long the client can retry.
+414 URI Too Long: The
+414 URI The Too Long Status Code
+indicates that the server is refusing to service the request because the request-target was too long for the server to parse.
+415 Unsupported Media Type: The
+415 Unsupported Media Type Status Code
+means that the server is rejecting the request because it does not support the media format of the requested data.
+416 Range Not Satisfiable: The
+416 Range Not Satisfiable Status Code
+indicates that the range supplied in the request’s Range header field cannot be satisfied. The reason for this could be that the specified range exceeds the data capacity of the target URI.
+417 Expectation Failed: The
+417 Expectation Failed Status Code
+indicates that the server was unable to meet the Expectation specified in the Expect request-header field.
+418 I’m a teapot: The
+418 I’m a Teapot Status Code
+indicates that the server will not brew coffee since it is a teapot. (This is a reference to the “Hyper Text Coffee Pot Control Protocol” April Fools’ hoax from 1998.)
+421 Misdirected Request: The
+421 Misdirected Request Status Code
+indicates that the client request was directed to a server that was not configured to respond.
+422 Unprocessable Entity: The
+422 Unprocessable Entity Status Code
+indicates that, despite the fact that the request was well-formed, the server was unable to follow it owing to semantic issues.
+423 Locked: The
+423 Locked Status Code
+indicates that the resource being accessed has been locked.
+424 Failed Dependency: The
+424 Failed Dependency Status Code
+indicates that the request failed as a result of a preceding request failing.
+425 Too Early: The
+425 Too Early Status Code
+indicates that the server is unwilling to take the risk of processing a request that may be replayed.
+426 Upgrade Required: The
+426 Upgrade Required Status Code
+number indicates that, while the server refuses to perform the requested action using the current protocol, it may be willing to do so if the client has been upgraded to a different protocol.
+428 Precondition Required: The
+428 Precondition Required Status Code
+indicates that the origin server requires a conditional request.
+429 Too Many Requests: The
+429 Too Many Queries Status Code
+indicates that the user sent too many requests in the allotted period.
+431 Request Header Fields Too Large: The
+431 Request Header Fields Too Large Error Status Code
+indicates that the server is unwilling to perform the request because its header fields are actually too large; however, the request may be resubmitted provided the request header fields are reduced in size.
+451 Unavailable For Legal Reasons: The response code
+451 Unavailable For Legal Reasons Status Code
+indicates that the user requested an unlawful resource (such as pages and sites blocked by the government).
+What are the HTTP Methods for HTTP 400 Status Codes?
+The HTTP Methods for HTTP 400 Status Codes are listed below.
+GET: The resource has been retrieved and is being sent in the message body.
+HEAD: The representation headers are included in the response, but no message body is included.
+POST: The resource describing the action’s outcome is transmitted in the message body.
+PUT: Replaces the uploaded content with all current representations of the target resource.
+TRACE: The message body contains the server’s response to the request message.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+400 HTTP Response Status Codes: Meaning, Methods – Successful Responses
+by Holistic SEO
+time to read: 5 min
+TechSEO
+402 HTTP Response Status Code Definition: Example,…
+TechSEO
+300 HTTP Response Status Codes: Meaning, Methods &…
+0
+0
+0

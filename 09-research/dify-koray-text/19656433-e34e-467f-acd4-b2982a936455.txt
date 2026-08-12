@@ -1,0 +1,98 @@
+HTML <frameset> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <frameset> HTML Tag defines a collection of frames that are used to embed websites into the main web page. The <frameset> Tag may include multiple HTML frame tags. The <frameset> Tag is also a block level element. In HTML5, the <frameset> HTML Tag has been deprecated and is no longer supported. Instead, the iframe tag should be used. The <frameset> HTML Tag is part of the frame tags category in HTML Element Reference. The attributes of the <frameset> HTML Tag are cols, rows, border, frameborder, framespacing global and event attributes.
+<frameset> code block example to learn how it works is given below.
+<frameset>...</frameset>
+The second example usage of the “<frameset>” code block example is given below.
+<frameset cols="25%,50%,25%">
+<frame src="https://www.instagram.com/accounts/login/" >
+<frame src="https://www.instagram.com/accounts/login/">
+</frameset>
+Contents of the Article
+show
+1.
+What is <frameset> HTML Tag?
+2.
+How to Use <frameset> HTML Tag?
+2.1.
+Example Usage of <frameset> HTML Tag?
+3.
+What are the Attributes of <frameset> HTML Tag?
+4.
+What are the Default CSS Settings for <frameset> HTML Tag?
+5.
+What are the Related other HTML Tags to <frameset>?
+What is <frameset> HTML Tag?
+The <frameset> HTML Tag is used to specify the frameset. One or more frame tags are included in the <frameset> HTML Tag. The <frameset> HTML Tag is used to describe the number of rows and columns in a frameset, as well as their pixel spacing.  Each element may contain a distinct document. HTML4 made use of the <frameset> Tag. Because of the usability issues that frames have caused, they are not supported in HTML 5. Despite this, the <iframe> tag is still supported in HTML 5. This page’s content is based on HTML version 4.01. HTML5 is now supported by the majority of modern browsers.
+How to Use <frameset> HTML Tag?
+To use the <frameset> HTML Tag, the site developer should write <frameset cols = “pixels|%|*”> to define a particular section with one or more than one sub section inside, made up of frame tags.
+Example Usage of <frameset> HTML Tag?
+The following examples of usage of <frameset> HTML Tag is given below.
+<frameset cols="25%,50%,25%">
+<frame
+<frame src="https://www.holisticseo.digital/python-seo/">
+<frame src="https://www.holisticseo.digital/techseo/">
+<frame src="https://www.holisticseo.digital/python-seo/">
+<frame src="https://www.holisticseo.digital/theoretical-seo/">
+<frame src="https://www.holisticseo.digital/on-page-seo/">
+</frameset>
+What are the Attributes of <frameset> HTML Tag?
+There are multiple attributes for the <frameset> HTML Tag. The following attributes are listed below.
+cols attributes: The <frameset> HTML Tag supports cols attributes. The cols attribute is used in a web browser to generate vertical frames. This attribute is used to specify the number and size of columns within the frameset tag.
+rows attributes: The <frameset> HTML Tag supports rows attributes. The rows element is used in the web browser to construct horizontal frames. This attribute specifies the number of rows and their dimensions within the frameset tag.
+border attributes: The <frameset> HTML Tag supports border attributes. The width of each frame’s border in pixels is defined by this frameset tag attribute. When there is no border, the value zero is used.
+frameborder attributes: The <frameset> HTML Tag frameborder name attributes. The frameborder attribute specifies whether or not the frame should include a border.
+framespacing attributes: The <frameset> HTML Tag supports framespacing attributes. The framespacing attribute specifies the amount of space between frames in a frameset. This function accepts any integer value as a parameter, which essentially specifies the pixel value.
+Global Attributes: The <frameset> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <frameset> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <frameset> HTML Tag?
+There is no Default CSS Setting for the <frameset> HTML Tag
+What are the Related other HTML Tags to <frameset>?
+The other related HTML Tags to the <frameset> HTML Tag are listed below.
+<frame> HTML Tag: The
+<frame>
+HTML Tag is related to <frameset> HTML Tag because they are both frame tags. The <frame> HTML Tag designates a specific area or window within a parent web page for other HTML web pages.
+<iframe> HTML Tag: The
+<iframe>
+HTML Tag is related to <frameset> HTML Tag because they are both frame tags. The <iframe> HTML Tag denotes an inline frame. It is used to incorporate other HTML documents or third-party content into the current web page, such as media files or applets.
+noframes> HTML Tag: The
+<noframes>
+HTML Tag is related to <frameset> HTML Tag because they are both frame tags. The <noframe> HTML Tag was created as a fallback option for browsers that do not support the frame tag. Use of the HTML noframes Tag is no longer recommended because it has been deprecated.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <frameset> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <center> Tag Definition, Usage and Exam…
+TechSEO
+HTML <frame> Tag Definition, Usage and Examp…
+0
+0
+0

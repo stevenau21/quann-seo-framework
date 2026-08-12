@@ -1,0 +1,118 @@
+Skip to content
+The aria-valuenow is a property holding the current or present value from a widget range, it may contain a string or number value. The aria-valuenow can also contain the value from the progressbar meter, and the input element’s value can also be derived from ranges numbers dates, and times. The purpose of aria-valuenow is to contain the present value indicated by the range or input. The function of aria-valuenow is to define the current value and hold all types of values that can be a number string character date or time. The developer can use the aria-valuenow to determine what is the set value in an instance, it may help with assistive technology for range instructions and other factors. The aria-valuenow can be used for elements such as progressbar meter input and range widget. The aria-valuenow can use with other aria labels such as aria-valuemin aria-valuemax and aria-valuetext.
+Contents of the Article
+show
+1.
+What is the function of the “aria-valuenow” ARIA Label?
+2.
+What are the uses of the “aria-valuenow” ARIA Label?
+3.
+Example Uses of “aria-valuenow” ARIA Label
+4.
+What are the related ARIA Labels to “aria-valuenow”?
+What is the function of the “aria-valuenow” ARIA Label?
+The function of the aria-valuenow is to hold a present value, it can contain any value like string number character date time and even contents of roles and HTML elements. The aria-valuenow depends on within the range of aria-valuemin and aria-valuemax, if the value input is beyond the range it is considered invalid. The aria-valuenow should not be used on a progress bar value that cannot be determined, it must possess a specified range in order for the value to be valid. If the value input is a decimal, the aria-valuenow definition would still be valid under these conditions; the input should be a numeric value and the input is within the set range between the minimum and maximum value.
+What are the uses of the “aria-valuenow” ARIA Label?
+Listed below are the uses of the “aria-valuenow” ARIA Label.
+Separator role:
+It indicates the element is a separator that distinguishes sections of the content contained in a toolbar, controller, or navigation.
+Spinbutton role:
+Is an input widget that defines a range that contains a range that is restricted to a set of discrete values.
+Scrollbar role:
+It is a graphical interface that can be interacted by a keyboard or mouse pointer to scroll a view either up or down. Content can only be scrollable if the content exceeds the size of the screen and will only be viewed by scrolling down to see more information or content.
+Meter role:
+It defines a range that possesses a numeric value through a graphical display, examples are battery load percentage and engine temperature gauge.
+Slider role:
+It has a minimum and maximum value that is imputed through the widget, it can be interacted with by the user and selected within the given value.
+Example Uses of “aria-valuenow” ARIA Label
+Listed below are the example uses of the “aria-valuenow” ARIA Label.
+The aria-valuenow identifies the elements holding the current value that can be a string, integer, or decimal. The value of aria-valuenow can be static or dynamically input through interactive elements.
+<p id="temperatureLabel">
+Thermal Temperature for cooking
+</p>
+<div role="meter" id="temperature"
+aria-valuenow="200"
+aria-valuemin="70"
+aria-valuemax="250"
+aria-labelledby="temperatureLabel">
+<div class="meter-color" aria-hidden="true"></div>
+</div>
+<div role="slider"
+aria-valuenow="3"
+aria-valuemin="1"
+aria-valuemax="10">
+<p id="temperatureLabel">
+This is the air conditioner cooling level
+</p>
+<div role="meter" id="temperature"
+aria-valuenow="22"
+aria-valuemin="15"
+aria-valuemax="30"
+aria-labelledby="temperatureLabel">
+<div class="meter-color" aria-hidden="true"></div>
+</div>
+<p id="TheDayCounter">
+These are the days of the week
+</p>
+<div role="meter" id="dayscounter"
+aria-valuenow="2"
+aria-valuemin="1"
+aria-valuemax="7"
+aria-labelledby="TheDayCounter">
+<div class="meter-color" aria-hidden="true"></div>
+</div>
+<div class="progress">
+<div class="progress-bar w-75" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+What are the related ARIA Labels to “aria-valuenow”?
+Listed below are the related ARIA Labels to “aria-valuenow”.
+aria-valuetext:
+The aria-valuetext is related to aria-valuenow because they are both used to define a string value. The aria-valuetext attribute value is a string together with the aria-valuenow as an indicator for a range widget element. The
+aria-valuetext
+value may only contain a string set by the developer to convey helpful information for the user to know what is the next step for tackling these elements.
+aria-valuemin:
+The aria-valuemin is related to aria-valuenow because they are both defining the range of the widget. The
+aria-valuemin
+contains the minimum value within the range.
+aria-valuemax:
+The aria-valuemax is related to aria-valuenow because they are both defining the range of the widget. The
+aria-valuemax
+contains the maximum value from the set given ranges by the widget.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-valuenow” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-valuetext” ARIA Label for Access…
+TechSEO
+“aria-valuemin” ARIA Label for Accessi…
+0
+0
+0

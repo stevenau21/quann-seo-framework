@@ -1,0 +1,104 @@
+Content-Length HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Content-Length HTTP Header entity-header is used to communicate to the recipient the size of the entity-body in decimal octets, or bytes. The Content-Length HTTP Header is an illegal header name. Essentially, it refers to the amount of data contained in the body of the request or response. The body follows the blank line immediately below the headers. There is only one value for using the Content-Length HTTP Header. The value using the Content-Length HTTP Header is the length. An example of a Content-Length HTTP Header is given below.
+content-length: 6453
+The Content-Length HTTP Header Response Header is seen above. In the article, the Content-Length HTTP Header Syntax, Directives, and Uses example will be processed.
+Contents of the Article
+show
+1.
+What is a Content-Length HTTP Header?
+2.
+What is the Syntax of Content-Length HTTP Header?
+3.
+What is the Directive on Content-Length HTTP Header?
+4.
+How to use Content-Length HTTP Header?
+5.
+Examples of Content-Length HTTP Header Use
+6.
+What is the Specification Document for Content-Length HTTP Header?
+7.
+What are the types of Content-Length HTTP Header?
+8.
+What is the similar HTTP Header to the Content-Length HTTP Header?
+9.
+Which Browsers Support Content-Length HTTP Header?
+What is a Content-Length HTTP Header?
+The Content-Length HTTP Header specifies the size, in bytes, of the body of the message sent to the recipient. It refers to the size of the body of the request or response.
+What is the Syntax of Content-Length HTTP Header?
+The Content-Length HTTP Header uses only one value in its syntax. The syntax for using the Content-Length HTTP Header is written below.
+Content-Length: <length>
+What is the Directive on Content-Length HTTP Header?
+There is only one directive that is used in the Content-Length HTTP Header. The “length” defines the length of the entity’s body in octets or bytes, expressed as a decimal number. The example directive for using the Content-Length HTTP Header is given below.
+content-length: 58838
+How to use Content-Length HTTP Header?
+The Content-Length HTTP Header is used to indicate the size of the entity-body in octets or bytes, and it is delivered to the recipient in the form of a decimal number of bytes. It is a prohibited header name in the HTML code. Essentially, it refers to the amount of data contained within the body of the request or response. The body of the paragraph follows the blank line below the headers.
+Examples of Content-Length HTTP Header Use
+The following is an example of how to use the Content-Length HTTP Header.
+content-length: 6253
+content-length: 4563
+content-length: 2593
+content-length: 5653
+content-length: 5543
+What is the Specification Document for Content-Length HTTP Header?
+There is only one specification document for the Content-Length HTTP Header, which is RFC 7230. The RFC 7230 Article 3.3.2. The page discusses the Content-Length HTTP Header and its applications. Additionally, the article discusses the Content-Length HTTP Header’s definition and usage.
+What are the types of Content-Length HTTP Header?
+The Content-Length HTTP Header Type is listed below.
+The Content-Length HTTP Header is a Response Type Header because it holds extra information about the response, such as its location or the server from which it originated.
+The Content-Length HTTP Header is a Request Type Header because it contains additional information about the resource being fetched or the client making the request.
+The Content-Length HTTP Header is a Payload Type Header because it contains representation-independent information about payload data, such as content length and transport encoding.
+What is the similar HTTP Header to the Content-Length HTTP Header?
+There is a similar HTTP Header to the Content-Length HTTP Header which is the Transfer-Encoding HTTP Header. The
+Transfer-Encoding HTTP Header
+specifies the form of encoding used to safely transfer the payload body to the user similar to the Content-Length HTTP Header which is also a request, response, and payload header type.
+Which Browsers Support Content-Length HTTP Header?
+There are multiple browsers that support Content-Length HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Content-Length HTTP Header.
+Edge Browser is compatible with the Content-Length HTTP Header.
+Firefox Browser is compatible with the Content-Length HTTP Header.
+Internet Explorer Browser is compatible with the Content-Length HTTP Header.
+Opera Browser is compatible with the Content-Length HTTP Header.
+WebView Android Browser is compatible with the Content-Length HTTP Header.
+Chrome Android Browser is compatible with the Content-Length HTTP Header.
+Firefox Android Browser is compatible with the Content-Length HTTP Header.
+Opera Android Browser is compatible with the Content-Length HTTP Header.
+Samsung Internet Browser is compatible with the Content-Length HTTP Header.
+You can see an image that shows cross-browser compatibility of Content-Length HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Content-Length HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+Access-Control-Allow-Headers: Syntax, Directive, E…
+TechSEO
+Authorization HTTP Header: Syntax, Directive, Exam…
+0
+0
+0

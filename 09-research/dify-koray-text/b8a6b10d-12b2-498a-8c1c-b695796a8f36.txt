@@ -1,0 +1,110 @@
+Host HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Host HTTP Header request header gives the host and port number of the server that is receiving the request. If no port is specified, the assumed default port for the requested service is (e.g., 443 for an HTTPS URL, and 80 for an HTTP URL). All HTTP/1.1 request packets must include a Host HTTP Header field. A 400 (Bad Request) status code may be returned for any HTTP/1.1 request message that does not have a Host HTTP Header field or has more than one. The HTTP status code 400 Bad Request indicates that the server is unable or unwilling to process the request owing to what is generally considered to be a client’s fault. There are multiple values using the Host HTTP Header. The values for using the Host HTTP Header are host and port. An example of the Host HTTP Header is written below.
+Host: www.facebook.com
+Host: www.twitter.com
+The Host HTTP Header Request Header is seen above. In the article, the Host HTTP Header Syntax, Directives, and Uses example will be processed.
+Contents of the Article
+show
+1.
+What is the Host HTTP Header?
+1.1.
+What is the Syntax of the Host HTTP Header?
+1.2.
+What are the Directives of the Host HTTP Header?
+2.
+How to use the Host HTTP Header?
+2.1.
+Examples of Host HTTP Header Use
+3.
+What is the Specification Document for the Host HTTP Header?
+4.
+What are the types of Host HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Host HTTP Header?
+5.
+Which Browsers Support Host HTTP Header?
+What is the Host HTTP Header?
+The Host HTTP Header specifies the server’s domain name. Additionally, it represents the server’s Transmission Control Protocol (TCP) port number. It is optional to specify the port number; the default value is used. When no port number is specified for an HTTP URL, for example, “80” is assigned as the port number. The HTTP Host header specifies the request type. All HTTP/1.1 request messages must include the host header field. When a request message lacks a header field or contains multiple header fields, a 400 Bad Request is sent.
+What is the Syntax of the Host HTTP Header?
+The Host HTTP Header uses multiple values in its syntax. The syntax for using the Host HTTP Header is written below.
+Host: <host>:<port>
+What are the Directives of the Host HTTP Header?
+The Host HTTP Header contains multiple directives. The directives using the Host HTTP Header and an example of their directives are listed below.
+<host>: This directive specifies the server’s domain name.
+<port>: This is an optional directive. It specifies the TCP port on which the server is listening.
+www.pinterest.com
+www.multipy.com
+How to use the Host HTTP Header?
+Users are able to use the Host HTTP Request Header to tell which server to send their request to. The Host HTTP Header tells the user what hostname and the port number they are on. If no port is specified, the implied default port for the requested service is (e.g., 443 for an HTTPS URL, and 80 for an HTTP URL). All HTTP/1.1 request messages must include a Host header field. A 400 (Bad Request) status code may be returned for any HTTP/1.1 request message that does not contain a Host header field or contains more than one.
+Examples of Host HTTP Header Use
+The following is an example of how to use the Host HTTP Header.
+An example of a host for the Facebook home page.
+Host: www. Facebook.com
+An example of a host for the Facebook CDN page.
+Host: www.cdn.facebook.com
+What is the Specification Document for the Host HTTP Header?
+There is only one specification document for the Host HTTP Header, which is RFC 7230. The RFC 7230 Article 5.4 mentions the Host HTTP Header’s definition and uses. It gives information for some examples and values of the Host HTTP Header.
+What are the types of Host HTTP Header?
+The Host HTTP Header HTTP Types are listed below.
+The Host HTTP Header is a Request Header that specifies the server’s host and port number.
+The Host HTTP Header is a Response Header that contains additional information about the response, such as its location or the server that is delivering it.
+What are the similar HTTP Headers to the Host HTTP Header?
+There are other similar HTTP to the Host HTTP Header. An example is listed below.
+400 Bad Request:
+The HTTP 400 Bad Request response status code indicates that the server cannot or will not process the request due to what is perceived to be a client error (for example, malformed request syntax, invalid request message framing, or deceptive request routing). When the Host HTTP Header Field is empty or contains more than one Host HTTP Header, the Host HTTP header is used in this HTTP.
+<base>:
+The <base> HTML element indicates the base URL that all relative URLs in a page should reference. A document may include only one base> element. As with the Host HTTP Header, which is included in the URL.
+Which Browsers Support Host HTTP Header?
+There are multiple browsers that support Host HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Host HTTP Header.
+Edge Browser is compatible with the Host HTTP Header.
+Firefox Browser is compatible with the Host HTTP Header.
+Internet Explorer Browser is compatible with the Host HTTP Header.
+Opera Browser is compatible with the Host HTTP Header.
+Safari Browser is compatible with the Host HTTP Header.
+WebView Android Browser is compatible with the Host HTTP Header.
+Chrome Android Browser is compatible with the Host HTTP Header.
+Firefox for Android Browser is compatible with the Host HTTP Header.
+Opera Android Browser is compatible with the Host HTTP Header.
+Safari on iOS Browser is compatible with the Host HTTP Header.
+Samsung Internet Browser is compatible with the Host HTTP Header.
+You can see an image that shows cross-browser compatibility of Host HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Host HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+X-DNS-Prefetch-Control HTTP Header: Syntax, Direct…
+TechSEO
+From HTTP Header: Syntax, Directive, Examples
+0
+0
+0

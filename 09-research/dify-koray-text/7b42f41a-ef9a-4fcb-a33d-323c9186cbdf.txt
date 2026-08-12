@@ -1,0 +1,98 @@
+HTML <template> Tag Definition, Usage and Example - Holistic SEO
+Skip to content
+The <template> HTML Tag defines which HTML fragments can be duplicated and then injected into the content by a script. It is possible to identify HTML fragments that are not utilized when the document is loaded but can be used afterward by using the <template> HTML Tag. The contents of the <template> HTML Tag are not part of the document until it is seen. As a result, nothing is downloaded and the DOM can’t be used to refer to it until it is visible. The HTML Tag’s content is cloned and put into the DOM. If the user wants to use it more than once, the user is allowed to. The <template> HTML Tag is part of the Formatting Tags category in HTML Element Reference. The attribute of the <template> HTML Tag is global attributes.
+<template> code block example to learn how it works is given below.
+<template>.........</template>
+The second example usage of the “<template>” code block example is given below.
+<div id="container"></div>
+<template id="template">
+<div>Open</div>
+</template>
+Contents of the Article
+show
+1.
+What is <template> HTML Tag
+2.
+How to Use <template> HTML Tag?
+2.1.
+Example Usage of <template> HTML Tag?
+3.
+What is the Attribute of <template> HTML Tag?
+4.
+What are the Default CSS Settings for <template> HTML Tag?
+5.
+What are the Related other HTML Tags to <template>?
+What is <template> HTML Tag
+The <template> HTML Tag serves as the container for HTML that is not intended to be displayed directly when a page loads, but rather to be created later during runtime by utilizing any programming language. The <template> HTML Tag is a type of content that is being saved for future usage in the document. During the loading of the page, the parser processes the contents of the <template> HTML Tag to confirm that all those contents are acceptable but the <template> HTML Tag contents, however, are not presented by the page’s browser. The <template> tag can be placed anywhere inside of <head>, body>, <frameset>, or <table> elements.
+How to Use <template> HTML Tag?
+To use the <template> HTML Tag, the web developer should write <template></template> with template content placed in between the start and end tags. Additionally, web developers can take advantage of the id attribute to make scripts refer to an element.
+Example Usage of <template> HTML Tag?
+The following examples of usage of <template> HTML Tag are given below.
+<template id=“myfirsttemplate">
+<img src=“cat” alt=“dog’s image" height=“200” width=“200”>
+<script>
+alert("Thank you for choosing template. Tap OK to see image.")
+</script>
+</template>
+<template id=“firsttemplate">
+<img src=“dog.jpg" alt=“dog’s image" height=“200” width=“200”>
+<script>
+alert("Thank you for choosing template. Tap OK to see image.")
+</script>
+</template>
+What is the Attribute of <template> HTML Tag?
+There is only one attribute for the <template> HTML Tag. The <template> HTML Tag supports the Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+What are the Default CSS Settings for <template> HTML Tag?
+There is no available Default CSS Settings for <template> HTML Tag.
+What are the Related other HTML Tags to <template>?
+The other related HTML Tags to the <template> HTML Tag are listed below.
+<acronym> HTML Tag: The
+<acronym>
+HTML Tag is related to <template> HTML Tag because they are both in formatting HTML Tags. The <acronym> HTML Tag is similar to abbreviation tag. The abbreviation is defined using the <acronym> HTML Tag.
+<abbr> HTML Tag: The
+<abbr>
+HTML Tag is related to <template> HTML Tag because they are both in formatting HTML Tags. The <abbr> HTML Tag is used to define abbreviations such as HTML, CSS, and so on.
+<blockquote> HTML Tag: The
+<blockquote>
+HTML Tag is related to <template> HTML Tag because they are both in formatting HTML Tags. The <blockquote> HTML Tag is used to include quotations from other sources.
+<bdi> HTML Tag: The
+<bdi>
+HTML Tag is related to <template> HTML Tag because they are both in formatting HTML Tags. The <bdi> HTML Tag is used to create text that is written in a different direction than the rest of the text.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <template> Tag Definition, Usage and Example
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <track> Tag Definition, Usage and Examp…
+TechSEO
+HTML <dialog> Tag Definition, Usage and Exam…
+0
+0
+0

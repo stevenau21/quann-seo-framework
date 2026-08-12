@@ -1,0 +1,115 @@
+How to Check, Analyse and Compare Robots.txt Files via Python - Holistic SEO
+Skip to content
+Robots.txt file is a text file that tells how a crawler should behave when scanning a web entity. Even the slightest errors in the Robots.txt file in the root directory can put many SEO Projects at risk. Therefore, checking and editing the Robots.txt file for a web entity is one of the most important tasks. In this article, with the help of Python, we will convert the robots.txt file of multiple web assets into the data frame without touching the browser, then check which URLs are disallowed in bulk. In this article, we will use Python’s
+Advertools Library
+which is created and being developed by Elias Dabbas.
+If you are wondering what the robots.txt file is when it came up, and for what purpose it has been brought to the present day by developers and search engines, read our “
+What is robots.txt
+” guidebook.
+Contents of the Article
+show
+1.
+How to Turn a Robots.txt file into a Data Frame via Python?
+2.
+Last Thoughts on Robots.txt Examination via Python
+How to Turn a Robots.txt file into a Data Frame via Python?
+To pull the content of a robots.txt file and turn it into a data frame, we will use the “robotstxt_to_df()” function. The returned output will have four columns and rows robots.txt file’s content has as much as. Let’s perform a study over New York Time’s robots.txt file.
+from advertools import robotstxt_to_df
+robotstxt_to_df('https://www.nytimes.com/robots.txt')
+OUTPUT>>>
+INFO:root:Getting: https://www.nytimes.com/robots.txt
+You may see the output of robotstxt_to_df() functions’ output below.
+We have turned a Robots.txt file into a dataframe thanks to Advertools.
+Instead of using Jupyter Notebook this time, we have used Visual Studio Code and “Ipython Notebook”. The design of the output is different because of this preference difference. As you may see, we have four column.
+“Directive” is for the rows’ beginning terminology of the robots.txt file, you may see which user-agent is disallowed from what.
+“Content” is for seeing which URL Paths and Rules are disallowed or allowed for the user-agent.
+“Robotstxt_url” is for showing the which robots.txt file we are checking for that row. We may unify different robots.txt files into one data frame, so this is useful.
+“Download_date” is showing the date of our code.
+In this example, we see that the New York Times doesn’t make its “pdf” files accessible for crawlers, embedded videos, advertisements, and some URL Queries along with “search” activities.  Also, we see that they are letting their RSS Feed being crawled by the Search Engine User-agents. But, in Robots.txt file, keeping “allow” lines are actually not necessary.  But in this example, they are disallowing the “ads” and “svc” categories (paths), while allowing the “ads/public” and “/svc/news/v3/pshb.rss” files and folders. In this way, we may see their allow and disallow strategy for optimizing their Crawl Budget and Efficiency along with some parts of the indexing strategy.
+To learn more about Python SEO, you may read the related guidelines:
+How to resize images in  bulk with Python
+How to perform TF-IDF Analysis with Python
+How to crawl and analyze a Website via Python
+How to perform text analysis via Python
+How to test a robots.txt file via Python
+How to Categorize Queries via Python?
+How to Categorize URL Parameters and Queries via Python?
+You also may ask that, where are the sitemaps in the data frame? These are only the first 12 rows of the data frame. We may extract more data from it.
+import pandas as pd
+pd.set_option('display.max_rows',55)
+nytimes = robotstxt_to_df('https://www.nytimes.com/robots.txt')
+nytimes[nytimes['directive']=='Sitemap']
+We imported the Pandas Library with the abbreviation “pd”.
+With the “pd.set_option” function, we changed the total number of rows that can be displayed.
+We have assigned the data frame to the variable “nytimes”.
+With a filtering, we wanted only “Sitemap” from the “directive” column to be withdrawn.
+Note: In some Robots.txt files, you may find some lines which are against the guideline such as “sitemap” instead of “Sitemap”. Google tolerates these kinds of errors as we can see from Google’s official Robots.txt Github Repository. But, you may want to check both terms in your Python Script since Python strings are case sensitive.
+You may see the result below.
+We have filtered all of the sitemaps and their addresses via Advertools and Python.
+We may simply use Advertools’ “sitemap_to_df()” function to turn these sitemaps into data frames and then we can unify them in a single data frame for content strategy analysis. But, for Content Strategy Analysis via Sitemaps and Python Guideline is written for this purpose. We recommend you to read it. For now, we will continue our robots.txt file examination. As you may see, we have 9 different Sitemaps, some of them are News Sitemaps, some of them are Video Sitemaps, they have “cooking and recipe” sitemaps along with “election” sitemaps. You may see New York Times categorization in terms of content categories,  and we can simply understand the most important sections for them.
+To see our sitemap addresses fully, I will use “pd.set_option()” method again.
+pd.set_option('display.max_colwidth',255)
+nytimes[nytimes['directive']=='Sitemap']
+Now, we may see the all addresses fully.
+We also changed the width of the columns so that sitemap addresses can be red fully.
+It seems that our guesses are right, also we should have control the “sitemapindex.xml” addresses for more information. And I still wonder the search volume data for the United States the elections in 2016 and 2018, it seems that they have some search and traffic potential based on their sitemap categorization, right? Thanks to Advertools, as a Holistic SEO, I can verify my experience in my News SEO field, easily. This is also a valid situation in Turkey, you may also create articles and infographics for elections in 1955 or 1965 with some photographs, they also will attract organic traffic. But, let’s say, you don’t know this? You can learn it via Advertools. Also, you should be able to notice the
+differences between a Sitemap and Sitemap Index
+files.
+Now, let’s check the user-agents in our robots.txt file. What does New York Times care about user-agent? What are they hiding from which crawler?
+nytimes[nytimes['directive']=='User-agent']
+We have performed a filter process via our Pandas Library, we will filtered all of the rows which include a “User-agent” string in the “Directive” column.
+We have filtered User-agents from our robots.txt file thanks to Pandas Package.
+But, we have only two rows, one is for “all user-agents” the other one is just for “Googlebot”. But, Googlebot row has 35 as its index. So, why do we have so much rows? I believe, New York Times has some typo errors which are against the Google Guideline just we said in the “note” section while examining the sitemaps. Let’s use a “or” operator in our code.
+ua = nytimes[nytimes['directive'].str.contains('.gent', regex=True)]
+“Pandas.str.contains()” method has “regex” options. Since I am sure that New York Times has some typo errors in its Robots.txt file, I have assumed that all of the rows with the “user-agent” phrase should have a “.gent” section as mutual without any capital letter. The “.words” section says that “any rows with followed by “words” phrase after some sort of characters while the “regext=True” says that this is a regex phrase. Now, we may see the result below.
+ua
+Thanks to regex, we have more User-agent in our filtered dataframe.
+And we are right about our guess. They have typo errors and inconsistencies in their Robots.txt file. Even if Google tolerates these errors, it is a certainty that Google makes more algorithms and “if-else” statements work to understand these errors, so removing them may increase a minor quality score for the web entity. Now we see that they treat the “omgilibot” differently than others.
+“Omgili” and “Omgilibot” are crawlers of a dead Search Engine which belong to the Omgili Search Engine. You also may want to disallow it since still it tries to crawl your site and consumes bandwidth. We also see what New York Times are doing for these bots.
+nytimes.iloc[29:40]
+Since, our “omgilibot” and “omgili” crawlers have the “31” and 33″ as their indexes, while Googlebot has the index number “35”, it is not so hard to guess that New York Times has “disallowed” those bots. But, still we may see a certain space of our data frame via “iloc” method.
+We have filtered Robots.txt File to see more detail for our user-agents.
+And, our guess is right. Also, we see that New York Times has blocked specifically the “Googlebot” from crawling some URL Queries such as “partner”, “smid” or “utm_sources”. But still, these URLs are open to other types of Google user-agents such as “Googlebot-news” or “Googlebot-images”. Is it a problem? Or is it having a vision problem? It is your call.
+If you want to check all of the User-agent in a robots.txt file with a single line of code, you may follow below. We will perform another example via Washington Post Newspaper’s robots.txt file before proceeding the robots.txt file testing via Python.
+robotstxt_to_df('https://www.washingtonpost.com/robots.txt')
+OUTPUT>>>
+INFO:root:Getting: https://www.washingtonpost.com/robots.txt
+You may see the result below:
+We have 105 rows in our Robots.txt file from Washington Post.
+This time, we have a really bigger robots.txt file. Let’s check the all unique user-agents.
+washpost = robotstxt_to_df('https://www.washingtonpost.com/robots.txt')
+washpostua = (washpost[washpost['directive'].str.contains('.gent', regex=True)]['content'].drop_duplicates().tolist())
+We have assigned our “robotstxt_to_df()” method’s output for Washington Post into a variable.
+We have created another variable so that we can pull all the unique rows which include the “user-agent” variations in the “directive” columns. And here is our result:
+washpostua
+We should have some specific rules for only Twitterbot.
+We have only two different values for our “user-agent” options. One is for “all” while the other one is for “Twitterbot”. Also, we don’t have any kind of related user-agents for “Omgilibot” or “Omgili” here while the New York Times doesn’t have anything related to the Twitterbot. These differences help an SEO to think about differences of big news company’s SEO Strategies along with Social Media or other types of understandings and policies. To be honest, I have wondered what they are disallowing Twitterbot for.
+washpost[washpost['content']=='Twitterbot']
+I am checking the index number of the row which include the “Twitterbot” phrase.
+washpost.iloc[100:110]
+I am pulling the necessary rows here.
+We have filtered the rows between 100 and 110 to see more detail related to the Twitterbot and Washington Post Robots.txt file.
+We see that, they are allowing Twitterbot for crawling the /posttv-beta/ path while disallowing them for the “amp version” of their posts. I am not sure, why they are using the “Allow” command here for “/posttv-beta/” path, so I have checked other rows for this path or phrase..
+washpost[washpost['content'].str.contains('post')]
+So, I have checked every rows with the “phrase of post”. You may see the result below:
+We see that they are disallowing all of the URLs from the “/posttv-beta/” folder for all User-agents. Since they have only “two user-agent” variations which are “*” and “Twitterbot”, they are allowing Twitterbot for reaching the same category with some “disallow” exceptions which you may see at the image. We can guess the function of this folder via its name, it is probably a kind of “post TV” application which is in beta. Thanks to robots.tx file check, we may see these kinds of differences between competitive web entities in a glimpse.
+We also may perform the same control for the “amp” folder which is Twitterbot blocked from crawling.
+washpost[washpost['content'].str.contains('amp')]
+Washington Post disallows most of its AMP Files.
+We know that the number 100 in the index column expresses the “Twitterbot”. Below of the number 100 is for the all of the user-agents which includes the Twitterbot. We see that all of the user-agents are disallowed for certain file paths from “/amphtml/” folder while the Twitterbot is blocked for all of this folder. I actually, wonder the reason of this. Also, why do they have “test” urls in their main domain, instead of a hidden “test” subdomain?
+We may perform the same Sitemap Check for Washington Post to see whether they have a similar categorization or not.
+washpost[washpost['directive']=='Sitemap']
+Sitemap  Files of Washington Post from Robots.txt file.
+We have only two different sitemap index files in our Robots.txt file from Washington Post. They are both in the “arcio” subfolder. The main problem here is that according to the Google Guidelines, a sitemap should be in the root of the server, so they shouldn’t be under the subfolder. A sitemap from a subdomain or a subfolder can be valid only for that section of the main entity. So, in this example, even if the Google tolerate this situation and understand it, it still wouldn’t be the best practice. Let’s check some similarities, such as “amp” folders.
+washpost[washpost['content'].str.contains('.amp', regex=True)]
+All of the AMP files from Content Column of Robots.txt Dataframe.
+As in NY Times Robots.txt file, we have similar situation here, some parts of the “amp” URLs are blocked for crawling, these are mostly “test” URLs but also there are some non-test URL Categories to. With a simple “requests” or “beautifulsoup4” module script, you may also check the content of these pages to see whether they are important or not.
+import requests
+from bs4 import BeautifulSoup
+r = requests.get('https://www.washingtonpost.com/amphtml/news/test')
+source = BeautifulSoup(r.content, 'lxml')
+source
+We have imported “requests” and “BeatifulSoup” libraries in the first two lines.
+We 
+
+[...truncated...]

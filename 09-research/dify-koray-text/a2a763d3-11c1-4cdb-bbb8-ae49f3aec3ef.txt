@@ -1,0 +1,93 @@
+"aria-braillelabel" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-braillelabel interprets a sequence of values that creates labels of the element. This is specified to be converted into Braille. The purpose of the aria-braillelabel is to recreate how assistive technologies express the accessibility of each name of an element in Braille. The attribute should only be utilized when there are differences between the accessible anime and the Braille being translated. The developer should ensure that the element to which the aria-braillelabel is applied has a valid, accessible name before applying the aria-braillelabel. The value of aria-braillelabel should not be empty or does not contain only whitespace characters. It should not coincide with the accessible name. The aria-braillelabel’s values should be localized to coincide with the document language.  Lastly, the developer needs to communicate with the user that this attribute is available, especially if it contains Unicode Braille Patterns, to let the user know the settings to apply specific braille translations. A user will only use the aria-braillelabel if the accessible name does not give them the user experience they are looking for. If the aria-label is not able to define the string value of an interactive element, then the aria-braillelabel will be used to provide an adequate braille representation. The elements The aria-braillelabel can be used for aria-label and aria-brailleroledescription.
+Contents of the Article
+show
+1.
+What is the function of the “aria-braillelabel” ARIA Label?
+2.
+What are the uses of the “aria-braillelabel” ARIA Label?
+3.
+Example Uses of “aria-braillelabel” ARIA Label
+4.
+What are the related ARIA Labels to “aria-braillelabel”?
+What is the function of the “aria-braillelabel” ARIA Label?
+The aria-braillelabel and aria-label have the same functions. The aria-braillelabel provides the user with a recognizable name of the object in Braille. The aria-braillelabel is only used if the accessible name is not able to provide an adequate braille representation. Customizing a button’s name is possible using the aria-braillelabel. It translates the button’s name into braille output. The aria-braillelabel can be used in all elements of the aria-label base markup.
+What are the uses of the “aria-braillelabel” ARIA Label?
+Listed below are the uses of the “aria-braillelabel” ARIA Label.
+Document structure roles:
+The aria-braillelabel is primarily used within certain sections of a document or content that needs configured description. Assistive technologies receive document structure data from roles with no HTML equivalent. This is evident in screen readers.
+Widget roles:
+The aria-braillelabel attribute can be utilized in certain widget roles to define interactive patterns. These widget roles duplicate the semantics of native HTML elements which are well-supported but are not used. The difference between the two is that document structure roles don’t necessarily need JavaScript interaction as opposed to widget roles.
+Landmark roles:
+Aria-braillelabel may be used for landmark roles to distinguish a way in identifying the web page structure and organization. Landmark roles are used by screen readers to provide keyboard navigation in important sections of the page.
+Window roles:
+Aria-braillelabel can be used in window roles to define sub-windows to the main document window, within the same window, such as popup modal dialogues.
+Abstract roles:
+Abstract roles can use aria-braillelabel to help browsers organize and streamline a document.  However, developers writing HTML markup shouldn’t use abstract roles, as it can result in any meaningful information to convey to assistive technologies or to users.
+Example Uses of “aria-braillelabel” ARIA Label
+Listed below are the example uses of the “aria-braillelabel” ARIA Label.
+Assistive technologies should use the value of aria-braillelabel when presenting the accessible name of an element in Braille, but should not change other functionality. For example, an assistive technology that provides aural rendering should use the accessible name.
+<button aria-braillelabel="****">
+<img alt="4 stars" src="images/stars.jpg">
+</button>
+<button aria-braillelabel="***">
+<img alt="3 out of 5 stars" src="three_stars.png">
+</button>
+<button aria-braillelabel="***">
+<img alt="cats and dogs" src="pets.png">
+</button>
+<button aria-braillelabel="****">
+<img alt="Humming bird" src="flying_bird.jpg">
+</button>
+<button aria-braillelabel="****">
+<img alt="porsche" src="fast_cars.jpg">
+</button>
+What are the related ARIA Labels to “aria-braillelabel”?
+Listed below are the related ARIA Labels to “aria-braillelabel”.
+aria-label:
+The aria-label attribute and the aria-braillelabel share the same purpose of defining a certain string value pertaining to a specific set of elements. It is intended for use of interactive elements through  ARIA declarations. The aria-braillelabel, on the other hand, is only used if the accessible name does not provide the user with the desired experience. The accessible name from the content or through the aria-label almost always provides the best user experience, so don’t use the aria-braillelabel to replicate the aria-label. The aria-braillelabel is only used if the accessible name does not serve as an adequate representation in braille. The
+aria-label
+is only read by the screen reader, while the aria-braillelabel content is converted into braille, and provides the user a recognizable name of the object in Braille.
+aria-brailleroledescription:
+The aria-brailleroledescription and aria-braillelabel relate to each other because they both define and translate the string value. A difference between the two is that aria-braillelabel translates the elements into braille only if the accessible name can’t provide an adequate braille representation. While
+aria-brailleroledesrciption
+provides a human-readable, author-localize abbreviated description for the role of an element that is intended to be converted to braille.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-braillelabel” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-brailleroledescription” ARIA Lab…
+TechSEO
+“aria-autocomplete” ARIA Label for Acc…
+0
+0
+0

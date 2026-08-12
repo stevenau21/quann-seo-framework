@@ -1,0 +1,128 @@
+Skip to content
+The Sec-Fetch-Site HTTP Header specifies the relationship between the origin of the request initiator and the requested resource’s origin. The Sec-Fetch-Site HTTP Header in other words, indicates to a server if a request for a resource originates from the same origin, the same site, a different site, or is “user-initiated.” The server is then allowed to use the information to determine whether or not to allow the request. Requests from the same origin are normally allowed by default, but what happens with requests from different sources depends on the resource being requested as well as information in the Fetch metadata request headers. A “fetch metadata request header” is an HTTP request header that contains additional information about the request’s origin context. Requests that are not accepted by default should be returned with a 403 response code. The status code 403 Forbidden indicates that the server understands the request but refuses to allow it. The Sec-Fetch-Site HTTP Header has multiple values. The syntax values for using the Sec-Fetch-Site HTTP Header are cross-site, same-origin, same-site, and none. The example of the Sec-Fetch-Site HTTP Header is written below.
+GET /foo.json
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+The Sec-Fetch-Site Request Header is seen above. In the article, the Sec-Fetch-Site HTTP Header Syntax, Directives, and Uses with examples will be processed.
+Contents of the Article
+show
+1.
+What is the Sec-Fetch-Site HTTP Header?
+1.1.
+What is the Syntax of the Sec-Fetch-Site HTTP Header?
+1.2.
+What are the Directive of Sec-Fetch-Site HTTP Header?
+2.
+How to use Sec-Fetch-Site HTTP Header?
+2.1.
+Examples of Sec-Fetch-Site HTTP Header Use
+3.
+What is the Specification Document for Sec-Fetch-Site HTTP Header?
+4.
+What is the type of Sec-Fetch-Site HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Sec-Fetch-Site HTTP Header?
+5.
+Which Browsers Support Sec-Fetch-Site HTTP Header?
+What is the Sec-Fetch-Site HTTP Header?
+The Sec-Fetch-Site HTTP Header fetches the metadata request header and identifies the relationship between the origin of the request initiator and the origin of the requested resource in a request for a resource. The Sec-Fetch-Site HTTP Header informs a server whether or not a request for a resource is coming. It’s either from the same origin, the same site, a different site, or whether or not the request was started by the user, for better or worse. The server is then allowed to use the information to determine whether or not the request should be granted by the user.
+What is the Syntax of the Sec-Fetch-Site HTTP Header?
+The Sec-Fetch-Site HTTP Header contains four values in its syntax. The syntax for using the Sec-Fetch-Site HTTP Header is written below.
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Site: same-site
+Sec-Fetch-Site: none
+What are the Directive of Sec-Fetch-Site HTTP Header?
+There are four directives that should be put in the Sec-Fetch-Site HTTP Header. The directives for using the Sec-Fetch-Site HTTP Header are listed below.
+cross-site: The request originator and the server that hosts the resource are on separate domains.
+same-origin: The origin of the request initiator and the server hosting the resource are the same (same scheme, host, and port).
+same-site: The initiator of the request and the server holding the resource must have the same scheme, domain, and/or subdomain, but not necessarily the same port.
+none: This is a request initiated by the user. Entering a URL into the address bar, opening a bookmark, or dragging and dropping a file into the browser window are all examples.
+An example of the directives of the Sec-Fetch-Site HTTP Header is written below.
+GET /foo.json
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+How to use Sec-Fetch-Site HTTP Header?
+The Sec-Fetch-Site HTTP Header is used to indicate the relationship between a request initiator’s origin and the origin of the requested resource. A request for a resource can be marked as “user-initiated” if the header in question indicates that it is coming from a different website or is coming from the same origin as the original request. The information is then used by the server to decide whether or not to authorize the request. Same-origin requests would normally be allowed by default, but what occurs for requests from other origins may further depend on what resource is being requested, or information in other Fetch metadata request headers. A 403 response code should be used as the default response for requests that are not accepted.
+Examples of Sec-Fetch-Site HTTP Header Use
+An example of the Sec-Fetch-Site HTTP Header use is given below.
+If a fetch request to https://mysite.example/foo.json from a web page on https://mysite.example (with the same port number) is from the same source as the web page. Sec-Fetch-Site: same-origin will be sent by the browser when it requests a file from another site. The server will usually let the request go through.
+GET /foo.json
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+If another site requests the same URL, the browser sends a different header (e.g. Sec-Fetch-Site: cross-site), which the server is able to decide whether to accept or not.
+GET /foo.json
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+What is the Specification Document for Sec-Fetch-Site HTTP Header?
+There is only one specification document for the Sec-Fetch-Site HTTP Header, which is the Fetch Metadata Request Header. The Fetch Metadata Request Header article No. 2.3 mentions the definition and uses of the Sec-Fetch-Site HTTP Header. It also mentions the Sec-Fetch-Site HTTP Header on how to set the server as a header for a request.  Additionally, the article discusses the Sec-Fetch-Site HTTP Header’s definition and usage.
+What is the type of Sec-Fetch-Site HTTP Header?
+The Sec-Fetch-Site HTTP Header HTTP Header type is Request Header because it specifies the relationship between the origin of the request initiator and the requested resource’s origin.
+What are the similar HTTP Headers to the Sec-Fetch-Site HTTP Header?
+The similar HTTP Headers to the Sec-Fetch-Site HTTP Header are listed below.
+Sec-Fetch-Mode HTTP Header:
+The Sec-Fetch-Mode HTTP Header is similar to the Sec-Fetch-Site HTTP Header. The
+Sec-Fetch-Mode HTTP Header
+fetches the metadata header and identifies the mode of the request. Similar to the Sec-Fetch-HTTP Header, they both fetch metadata request headers.
+Sec-Fetch-User HTTP Header:
+The Sec-Fetch-User HTTP Header is similar to the Sec-Fetch-Site HTTP Header. The Sec-Fetch-User HTTP Header Type is similar to the Sec-Fetch-Site HTTP Header Type in that it is a fetch metadata request header. User-activated requests are the only ones for which the
+Sec-Fetch-User HTTP Header
+is sent, and the value it contains is always the same.
+Sec-Fetch-Dest HTTP Header:
+The Sec-Fetch-Dest HTTP Header is similar to the Sec-Fetch-Site HTTP Header. The Sec-Fetch-Dest HTTP Header fetch metadata request header indicates the request’s destination. The similarity of the
+Sec-Fetch-Dest HTTP Header
+to the Sec-Fetch-Site HTTP Header is the HTTP Type.
+Which Browsers Support Sec-Fetch-Site HTTP Header?
+There are multiple browsers that support Sec-Fetch-Site HTTP Headers. The following browsers are listed below.
+Chrome Browser is compatible e with the Sec-Fetch-Site HTTP Headers
+Edge Browser is compatible e with the Sec-Fetch-Site HTTP Headers
+Firefox Browser is compatible e with the Sec-Fetch-Site HTTP Headers
+Opera Browser is compatible e with the Sec-Fetch-Site HTTP Headers
+WebView Android Browser is compatible e with the Sec-Fetch-Site HTTP Headers
+Chrome Android Browser is compatible e with the Sec-Fetch-Site HTTP Headers
+Firefox Android Browser is compatible e with the Sec-Fetch-Site HTTP Headers
+Opera Android Browser is compatible e with the Sec-Fetch-Site HTTP Headers
+Samsung Internet Browser is compatible e with the Sec-Fetch-Site HTTP Headers
+You can see an image that shows the cross-browser compatibility of Sec-Fetch-Site HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Sec-Fetch-Site HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 5 min
+TechSEO
+Origin HTTP Header: Syntax, Directive, Examples
+TechSEO
+Sec-CH-UA-Platform HTTP Header: Syntax, Directive,…
+0
+0
+0

@@ -1,0 +1,97 @@
+"aria-multiline" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-multiline is an attribute that determines a search box or a text box contains multiple lines or only has a single line. The purpose of the aria-multiline is to let the user know that after typing an object and pressing the Enter key or Return key the line might break into another line or else it will proceed to submit. The developer can use the aria-multiline property to provide a piece of information if the user pressed enter after typing, not knowing it has proceeded to another line of the same element. The aria-multiline can be used in elements such as search box and text box. The aria-multiline can be used with other ARIA labels, such as aria-labelledby, aria-describedby, and aria-description.
+Contents of the Article
+show
+1.
+What is the function of the “aria-multiline” ARIA Label?
+2.
+What are the uses of the “aria-multiline” ARIA Label?
+3.
+Example Uses of “aria-multiline” ARIA Label
+4.
+What are the related ARIA Labels to “aria-multiline”
+What is the function of the “aria-multiline” ARIA Label?
+The purpose of the aria-multiline element is to supply the user with information on a text box or search box they are using. The user of the screen reader is informed by the aria-multiline attribute that the text box that is currently focused on is made up of numerous lines. This is one of the advantages of using the attribute. The aria-multiline feature makes it possible for the user to respond in a variety of different ways to a text area that has many lines of text. The aria-multiline feature indicates assistive technologies if a text box permits many lines of input or merely a single line. This allows assistive technologies to create anticipations on what date format and possible keystrokes will be used.
+What are the uses of the “aria-multiline” ARIA Label?
+Listed below are the uses of the “aria-multiline” ARIA Label.
+Textbox role:
+It is used to determine an element that allows text input or text information.
+Searchbox role:
+It indicates an element that is a type of text box that enables a function to search or submit a query.
+Example Uses of “aria-multiline” ARIA Label
+Listed below are the example uses of the “aria-multiline” ARIA Label.
+The aria-multiline identifies an element and informs the user that a text box is composed of multi-level text areas so that the user would know how to execute a search or input.
+<textarea rows="4" cols="50"
+aria-labelledby="aria-text-label"
+id="aria-text"
+role="textbox" aria-multiline="true">This text box has multiple rows</textarea>
+<textarea rows="4" cols="50" id="text">this is a multi-line text box</textarea>
+<textarea rows="4" cols="50"
+aria-labelledby="aria-text-label"
+id="aria-text"
+role="textbox" aria-multiline="true">this is a multi-line text box</textarea>
+<textarea rows="4" cols="50"
+aria-labelledby="aria-text-label"
+id="aria-text"
+role="textbox" aria-multiline="true">Please enter 4 types of animals each every line</textarea>
+<textarea rows="4" cols="50"
+aria-labelledby="aria-text-label"
+id="aria-text"
+role="textbox" aria-multiline="true">Please enter 4 questions.</textarea>
+<textarea rows="4" cols="50"
+aria-labelledby="aria-text-label"
+id="aria-text"
+role="textbox" aria-multiline="true">Input 4 activities</textarea>
+What are the related ARIA Labels to “aria-multiline”
+Listed below are the related ARIA Labels to “aria-multiline”.
+aria-labelledby:
+The aria-labelledby is related to aria-multiline because they are both used to describe text input elements. The
+aria-labelledby
+is an attribute that determines the element that labels information about an element used.
+aria-describedby:
+The aria-describedby is related to aria-multiline because they are both used to describe text input elements. The
+aria-describedby
+is an attribute that determines the element that labels information about an element where it is set.
+aria-description:
+The aria-description is related to aria-multiline because they are both used to describe text input elements. The
+aria-description
+attribute defines a string value that describes the pointed or used element.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-multiline” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 2 min
+TechSEO
+“aria-multiselectable” ARIA Label for …
+TechSEO
+“aria-live” ARIA Label for Accessibili…
+0
+0
+0

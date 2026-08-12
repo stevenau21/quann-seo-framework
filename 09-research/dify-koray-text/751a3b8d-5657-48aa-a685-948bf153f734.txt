@@ -1,0 +1,107 @@
+Press Release: Definition, Best Examples and Practices - Holistic SEO
+Skip to content
+Press releases are texts that inform press representatives about the latest news from companies, institutions, or associations. The aim is to influence the public’s perception of the company through editorial reporting in the media.
+A press release is a tool for public relations. This proven medium is by no means, as often claimed, on the descending branch – it still serves as the most important source of research for the majority of media makers after a personal interview. At the same time, the need for the multimedia content is increasing rapidly, so that companies do journalists a great favor if they provide well-prepared image and video material on their website. While press conferences are generally becoming less important, social media and blogs are becoming increasingly important for research. That is what the results of the “Research 2018” survey by news Aktuell GmbH showed.
+In addition to sending press releases by email, online PR via online press portals such as OpenPR is gaining in relevance in press work. In addition to the press, important influencers such as bloggers often belong to the target group of press releases.
+Contents of the Article
+show
+1.
+The correct structure of a press release
+2.
+Success Factors of a Press Release
+3.
+Examples of Succesfull Press Relases
+4.
+Importance of Image in Press Releases: Why You Should include an Image?
+5.
+Why You Shouldn’t use Marketing Language on Press Releases?
+6.
+Last Thoughts on Press Release and its Importance for SEO
+The correct structure of a press release
+Certain standards have been established for the structure of press releases. The correct structure increases the chance of publication. Tips for building a press release:
+Choose an appropriate and not too long headline: editorial offices receive countless press releases every day. Whether a message is observed or not depends largely on the heading.
+Never forget place and date
+Put the most important things at the beginning
+The opening credits: The first paragraph should answer the most important “W questions” (who? what? how? when? where? why?) and leave as few questions as possible. Ideally, journalists should be able to independently publish the first paragraph as a short message.
+The communicating part: there is space in the body for details and background information. Numbers and names make messages more concrete, precise quotations enliven the text.
+Company ties and contact details: Below the press release is the most important information about the company. B. Founding year, industry, customers, etc. A link to the company website and a contact person for journalists should also be mentioned.
+Length: It is recommended that the length of the press release never exceed an A4 page.
+Success Factors of a Press Release
+In the daily flood of emails, many press releases end up in the trash in the email inbox. The following factors are crucial for journalists to read a press release and take its content into account:
+Relevance: Only send press releases if you really have something important and new to say. Ask yourself: Why is this content important for journalists? What is new, current, and special? This should be answered in the press release.
+The right press distribution list: Address your report to a personal contact person instead of a general editorial address, so that the text does not get lost in the bulk of the emails. Addressing the appropriate media representative or influencer increases the chance of publication. Set up a press distribution list yourself or outsource this task to external service providers.
+The right time for delivery: in times of little competition (eg “summer break”), the chances of the media picking up a certain press release are higher. It is also better to send your information in the morning than in the afternoon.
+Language and style: Use simple sentences and a few technical terms as possible. If technical terms cannot be avoided, explain them. In contrast to advertising texts, press information should be written informatively and as factually as possible. So avoid superlatives.
+You also may want to read our some of the related Marketing Guidelines.
+Return of Investment Definition and Importance
+NeuroMarketing and Principles
+Flywheel Marketing and Its Effects on Revenue
+Eye-tracking and Importance for UX
+Community Management for Better Customer Loyalty
+What is Page Impression?
+What is Conversion Rate Optimization?
+What is Guerilla Marketing?
+Examples of Succesfull Press Relases
+1.Apple Product Launch Press Release:
+Apple Press Release Example
+2. Thrill of the Hunt Event Press Release:
+Thrill of Hunt Press Release Example
+3. Florida Blue Hurricane Aid Press Release
+Florida Blue Press Release Example.
+4. Florida Tech Science Press Release
+Florida Tech Science Press Release Example.
+5. NASA Press Release Example
+NASA Press Release Example.
+Why are all of these press releases successful?
+The Header can tell all of the topics.
+Contents and topics are interesting and important.
+The language tone can be understandable and easy to read.
+The Press Release Owner, Company Logo, and Name, Topic are clearly stated from the first contact time.
+Importance of Image in Press Releases: Why You Should include an Image?
+Press releases should always be sent with pictures or picture download links. Images deepen the message and arouse emotions. Many products can only be understood with pictures. In addition, many specialists or local editors work with low image budgets and under high time pressure, which makes image research, the use of photographers, and the purchase of agency images more difficult or impossible. The editorial staff is therefore grateful for good, press-ready image material. In the case of colored print media (especially magazines), the size of the image should not be less than the page width in centimeters or two columns of the medium (in the case of multi-column publications in A4 format or larger) and the resolution should be 300 dpi or more. The ideal shipping format is therefore the compressed file
+format JPEG
+.
+Attention: In the case of e-mails, download links with direct access to images, further information, or a news area that is always up-to-date are better installed than file attachments. This means that the message reaches the recipient in good time, even with full mailboxes or overloaded servers, and can be opened quickly.
+Why You Shouldn’t use Marketing Language on Press Releases?
+Press releases should be textually professional, but the tone should be neutral. Self-praise, superlatives, and empty phrases have lost nothing in a PM. A press release must communicate in a credible manner so that it is not exposed or misunderstood by the journalist as advertising or spam.
+Note: Company or product reports that have been ‘upgraded’ in terms of text/content to give advice, consumer tips, specialist articles, or specialist interviews have a significantly higher chance of being published!
+Last Thoughts on Press Release and its Importance for SEO
+The press release is still a very important element of press work for companies. In order to be noticed in the daily flood of information, in addition to the correct structure of the press release, the relevance of the content, the right press distribution list, the right time for dispatch as well as language and style are crucial for success.
+Press Releases are closely related to SEO. A structured and virally shared Press Release can give strength to a  brand’s authority and relevance to certain topics and queries. Press Releases can be a source for trust and expertise along with brand search demand. An increase in the trustworthy brand mention amount, links, and positive reputation comments and brand search queries can increase the Search Engine Results.
+A Holistic SEO can organize the press releases along with Influencer Marketing, Content Strategy and Community Management so that the Brand’s Off-page work can be managed succesfully
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Marketing
+What is Press Release? Press Release Examples and Guideline
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+Marketing
+What is Call To Action (CTA)? How to Use CTA in Di…
+Marketing
+What is Lead Generation Marketing? A Guide for Beg…
+0
+0
+0

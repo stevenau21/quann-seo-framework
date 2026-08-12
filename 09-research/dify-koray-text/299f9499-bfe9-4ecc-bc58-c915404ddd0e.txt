@@ -1,0 +1,112 @@
+"aria-flowto" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-flowto is an attribute responsible for selecting the following element or entity in a reading content order randomly. This makes it easier for the user to override the default setting of the assistive technology, it is to read the document in order of how it was written. If the readers’ perception of the order of the content is altered in any way, the aria-flowto component will attempt to reconstruct a reading path that begins with the original source order. Changing the tab order and the order property of CSS can both be accomplished by using the tabindex attribute, therefore a developer can utilize the aria-flowto to signal the assistive technology in giving an alternative reading command to the source order. This enables the assistive technology to interpret a document in the correct order, rather than the reading order that is set as the default for the document source. The aria-flowto attribute can be utilized by any and all roles in the aria labels, in addition to being usable by any and all components in the base markup.
+Contents of the Article
+show
+1.
+What is the function of the “aria-flowto” ARIA Label?
+2.
+What are the uses of the “aria-flowto” ARIA Label?
+3.
+Example Uses of “aria-flowto” ARIA Label
+4.
+What are the related ARIA Labels to “aria-flowto”?
+What is the function of the “aria-flowto” ARIA Label?
+aria-flowto is used to determine which piece comes next in an alternative reading order based on the order that the developer desires. It gives assistive technology the ability to disregard the general reading order that is set as the default for the document source. On the other hand, if the aria-flowto element only has a single ID reference, it complies with the user’s request to move the assistive technology ahead of the normal document reading order. Aside from that, the assistive technology should provide the ID references as path choices whenever it is shown numerous references for the same ID.
+What are the uses of the “aria-flowto” ARIA Label?
+Listed below are the uses of the “aria-flowto” ARIA Label.
+button:
+The button role is for elements that are clickable and prompts a response when clicked by the user. By adding the role=”button”, it helps the readers to identify that the element is a button, but doesn’t give button functionality.
+checkbox:
+The checkbox role is an element that provides checkable interactive controls. In order to activate the checkbox’s state to assistive technology, elements having role=”checkbox” should also include aria-checked attributes.
+banner:
+The banner role functions to identify a global site header. It contains information such as logo, search feature, company name, and global navigation or slogans. It is commonly placed at the top of the page.
+directory:
+The directory role is for focusing contents within the composite widgets or applications. It helps assistive technology to go back to a reading mode and can switch in reading contexts.
+list:
+The list role is used to define a certain list of elements, items, or sections. Normally, it is partnered with the listitem role to identify a list item contained in the list.
+Example Uses of “aria-flowto” ARIA Label
+Listed below are the example uses of the “aria-flowto” ARIA Label.
+Reading order can be set up with the help of aria-flowto for the content that is displayed on the page. In this particular illustration, a page has both a primary article and multiple supplementary articles. The default reading order does not begin with the primary article since there are layout considerations involved. A reading order that begins with the primary article and then moves on to the supporting articles might be suggested by using the aria-flow notation.
+<h1 aria-flowto="main">Daily Report</h1>
+<h2> Sports Fest</h2>
+<article id="sports fest"
+title="Sports" aria-flowto="fest">
+<p> There will be a lot of three-pointers in today's basketball game!</p>
+</article
+<h1 aria-flowto="main">Daily Report</h1>
+<h2> Sports Fest</h2>
+<article id="sports fest"
+title="Sports" aria-flowto="fest">
+<p> There will be a lot of spikers in today's volleyball game!</p>
+</article
+<h1 aria-flowto="main">Daily Report</h1>
+<h2> Election Forecast</h2>
+<article id="election forecast"
+title="Election" aria-flowto="Forecast">
+<p> Whoever wins the election will be a great leader for the country!</p>
+</article
+<h1 aria-flowto="main">Daily Report</h1>
+<h2> Festival Contest</h2>
+<article id="festival contest"
+title="Festival" aria-flowto="Contest">
+<p> Whoever wins the contest will claim the biggest prize!</p>
+</article
+<h1 aria-flowto="main">Daily Report</h1>
+<h2> Dance Contest</h2>
+<article id="dance contest"
+title="Dance" aria-flowto="Contest">
+<p> Whoever wins the dance contest will have the chance to perform on Television!</p>
+</article
+What are the related ARIA Labels to “aria-flowto”?
+Listed below are the related ARIA Labels to “aria-flowto”.
+aria-labelledby:
+The aria-labelledby is related to aria-flowto because their ID reference list values are the same. The
+aria-labelledby
+attribute is used to supply the name of the object that may be understood by the user.
+aria-controls:
+The aria-controls are related to the aria-flowto because both of them have an ID reference list as values.   The
+aria-controls
+attribute is used to define an element or elements of the contents which are managed by another element.
+aria-describedby:
+The aria-describedby is related to the aria-flowto because they both share the same value kinds, such as the ID reference list. The
+aria-describedby
+is used to provide a connection for other elements and generate an alternative text.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-flowto” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 4 min
+TechSEO
+“aria-grabbed” ARIA Label for Accessib…
+TechSEO
+“aria-expanded” ARIA Label for Accessi…
+0
+0
+0

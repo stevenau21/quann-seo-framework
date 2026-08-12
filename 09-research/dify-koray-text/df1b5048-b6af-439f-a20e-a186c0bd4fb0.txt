@@ -1,0 +1,142 @@
+Authorization HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+Authorization HTTP Request Header is an HTTP header for authorization of access to a web server. HTTP Authorization is used for securing resources within a web server. The Authorization HTTP Header is used with WWW-Authenticate HTTP Header. If there is a protected resource with HTTP WWW-Authenticate, the webserver will give the 401 HTTP Status Code. Since the resources within the webserver are protected, the credentials for the webserver will be required with HTTP Authentication. The purpose of HTTP Authentication is to provide the most secure scheme and protocol for the user-agent. The related HTTP Status Code for the Authorization HTTP Header is 401. “401 Unauthorized” is the meaning of the 401 HTTP Status Code. A sample HTTP response for the “401” HTTP status code is shown in the following form.
+HTTP/1.1 401 Unauthorized
+Date: Mon, 22 Nov 2021 08:22:00 GMT
+WWW-Authenticate: Basic realm="Access to staging site”
+Authorization HTTP Request Header can be seen above within the HTTP 401 Status Code. In this article, the Authorization Syntax, Directives, and Uses with examples will be processed.
+Contents of the Article
+show
+1.
+What is Authorization?
+1.1.
+What is the Syntax of Authorization?
+1.2.
+What are the Directives of Authorization?
+2.
+How to use Authorization?
+2.1.
+Examples of Authorization Use
+3.
+What are the Specification Documents for Authorization?
+4.
+What are the type of Authorization?
+4.1.
+What are the similar HTTP Authorization Headers?
+5.
+Which Browsers Support Authorization HTTP Header?
+What is Authorization?
+This is a process of giving permission or being permitted to receive access from the webserver. A system where an engine or a person is allowed to view, edit or use a certain database for business or personal purposes. HTTP Header Authorization is used to provide restrictions for limited access of a group or individual from a file or database.
+What is the Syntax of Authorization?
+The syntax or pattern of an Authorization consists of two sub-parts, which are the type and to be followed by the credentials.
+Authorization: <type> <credentials>
+There are three parts to the Authorization syntax. The first part will contain the Authorization HTTP Header. The HTTP Authorization Header value will be preceded by a “:”. Authorization value comes last in the syntax of the header. The value of the authorization is divided between the type and credentials.
+What are the Directives of Authorization?
+The directives of Authorization are the restrictions documented and approved by the system or the web. The two types of directives are shown below.
+Basic
+Created based on the specific method.
+Syntax:
+Basic <credentials>
+Example:
+Authorization: Basic YWxhZGRpbjpvcGVuc2VzYW1l
+Digest <response>
+This directive is specified in detail, a procedure that encrypts the realm, username, and password, in a form of hexadecimal that confirms the validity of the password entered by an individual.
+Syntax:
+Digest <response>
+Example:
+Authorization: Digest username=<username>,
+realm="<realm>",
+uri="<url>",
+algorithm=<algorithm>,
+nonce="<nonce>",
+nc=<nc>,
+cnonce="<cnonce>",
+qop=<qop>,
+response="<response>",
+opaque="<opaque>"
+Username: A common name that will identify the user’s identity for the named realm.
+Username*: This format is used, extended symbol from RFC5987, whenever a name is not recognized as the username and userhash is false.
+Userhash: Pertains to a hashed username.
+Uri: Is the Uniform Resource Identifier of the resource to which the request takes place. a URI pertains to the HTTP URL that proceeds with the standard syntax protocols of the Web URLs, defined by RFC 2616.
+Realm: The realm of the username and password shall be the same as the equivalent to the authorization mechanism that will be used to validate access to a resource.
+Opaque: Refers to the data needed for the authorization scheme, as a response to the resource being requested.
+Algorithm: Used to analyze the digest.
+QOP: A symbol on the thread that refers to the Quality of Protection.
+CNONCE: The ASCII string used by the client and server to have mutual authentication and protection to avoid CPA (chosen-plaintext attack).
+NC: A hex digit number that clients send as a request, wherein a web server can make use of two NC numbers to accommodate duplicate requests.
+How to use Authorization?
+Authorization HTTP header is used to give access approval to other individuals, where they will be allowed to access certain databases with limited restrictions. When an unauthorized request is collected by the web server, it replies with an HTTP 401 Unauthorized response with a WWW-Authenticate header. This will generate the search engine to require the client for credentials. The search engine will then function the same request with an Authorization header indicating the client’s credentials.
+Websites cannot just access each other’s web pages, for security reasons. If a user sends an Authorization HTTP header together with a request to another website, that website will prompt the search engine that it is authorized.
+Authorization HTTP header is also used by an application that may acquire a token from the web server and send it with each application to authorize the request.
+Examples of Authorization Use
+Examples of Authorization are shown below.
+Human resources Management has permission to view employee databases and this protocol is always represented as a method of limiting access in an information system. The human resources can use a protected web server with HTTP Authorization for limiting access to the employee database.
+Students are allowed to use limited internet access in a university for their classes. Universities use certain protocols on their web server with HTTP Authorization for limiting the access of the students.
+Authorization from a Government database is provided most commonly to their IT department with strict compliance, signed contract, and approval from the head office to legally conduct the service and maintenance. The Government implements strict network protocols through a protected web server with HTTP Authorization to provide necessary restrictions.
+In a corporate office, the Finance Department provides extreme restrictions for their documents. The Authorization for the access of these documents on a database is strictly limited to the Finance Head or Director. Access may also be provided to other Finance employees but it usually undergoes signed documents and/or contract
+What are the Specification Documents for Authorization?
+The Specification Documents for Authorizations are as follows:
+RFC 7616: RFC 7616 is a specification about Proxy-Authenticate and Authorization. In the 4.2 part of the RFC 7616, the HTTP Authorization header is defined with its syntax. And, it cites the RFC 7234.
+RFC 7617: RFC 7617 Is a type of protected authorization that transfers credentials by using base64 codes.
+RFC 7235 section 4.2 Authorization credentials: The same credentials are validated for all other requests within the same section if the request is authorized and a section is determined.
+What are the type of Authorization?
+The types of Authorization are shown below.
+Basic Access Authorization: The client provides a username and password when making a request, which is sent in an Authorization header.
+Bearer Access Authorization: In this method, cryptic strings are generated by the server as part of the login process, and the token is sent in an Authorization header, as with basic authorization.
+Digest Access Authorization: This type encrypts all usernames and passwords, HTTP methods, and requested URLs (usernames and passwords) before they are sent to the server (message-digest algorithm). The password and username are sent in unencrypted plain text (like Basic Authentication) via forms, which can expose usernames and passwords unless the connection is encrypted over HTTPS/SSL. Among their benefits is the ability to customize the browser’s authentication and error pages.
+What are the similar HTTP Authorization Headers?
+The similar HTTP Headers to Proxy-Authorization can be found below.
+WWW-Authenticate. This is used to support a variety of authorization headers that are important for controlling access to pages and other resources.
+Proxy-Authorization.  Allows the server to transmit the request from the client.
+Proxy-Authenticate. This configures the method of how internet access is validated for the client machines.
+Which Browsers Support Authorization HTTP Header?
+There are multiple browsers that support Authorization HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible e with the support Authorization HTTP Header
+Edge Browser is compatible e with the support Authorization HTTP Header
+Firefox Browser is compatible e with the support Authorization HTTP Header
+Internet Explorer Browser is compatible e with the support Authorization HTTP Header
+Opera Browser is compatible e with the support Authorization HTTP Header
+Safari Browser is compatible e with the support Authorization HTTP Header
+WebView Android Browser is compatible e with the support Authorization HTTP Header
+Chrome Android Browser is compatible e with the support Authorization HTTP Header
+Firefox for Android Browser is compatible e with the support Authorization HTTP Header
+Opera Android Browser is compatible e with the support Authorization HTTP Header
+Safari on iOS Browser is compatible e with the support Authorization HTTP Header
+Samsung Internet Browser is compatible e with the support Authorization HTTP Header
+You can see an image that shows cross-browsers compatibility of Authorization HTTP Headers below.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Authorization HTTP Header: Syntax, Directive, Examples
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+TechSEO
+Content-Length HTTP Header: Syntax, Directive, Exa…
+TechSEO
+WWW-Authenticate: Syntax, Directive, Examples
+0
+0
+0

@@ -1,0 +1,1590 @@
+{
+  "doc-3e362bd24b5001b94c2e2cdbeeac4ffa": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-3e362bd24b5001b94c2e2cdbeeac4ffa"
+    ],
+    "content_summary": "The Semantic SEO framework consists of several core concepts. Source Context defines how content is connected to the entity. Topical Maps organize content into query networks. Information Responsiveness measures how well answers match query intent. Q...",
+    "content_length": 362,
+    "created_at": "2026-05-26T09:38:01.746296+00:00",
+    "updated_at": "2026-05-26T09:38:30.189208+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043801_b5f4c42f",
+    "metadata": {
+      "processing_start_time": 1779788281,
+      "processing_end_time": 1779788310
+    }
+  },
+  "doc-ff0ed647745d9edad37c4fd1ada604c6": {
+    "status": "processed",
+    "chunks_count": 4,
+    "chunks_list": [
+      "chunk-fff0c8f3047a4e0b6bdc5769790a249b",
+      "chunk-9a2c4e2ae1837755693d47d4e276e0fd",
+      "chunk-5462429d4530067bae7d86c34129c4e9",
+      "chunk-68ed2041fd46abe6fbdba0e9c4958de4"
+    ],
+    "content_summary": "Hello my friend, welcome to the Semantic SEO course Fundamentals.\nIn this course, you will be able to understand that the success in SEO doesn't come from following the crowd.\nIt is coming from carving your own path.\nYou will be able to realize that ...",
+    "content_length": 19907,
+    "created_at": "2026-05-26T09:39:16.637405+00:00",
+    "updated_at": "2026-05-26T09:48:08.931909+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043916_4c4f8b7a",
+    "metadata": {
+      "processing_start_time": 1779788356,
+      "processing_end_time": 1779788888
+    }
+  },
+  "doc-9ef8d4d7eb7ea21f1ff2c75b757bf813": {
+    "status": "processed",
+    "chunks_count": 10,
+    "chunks_list": [
+      "chunk-a9680996a3759fd41170e143645593ed",
+      "chunk-ff65f727135659538eed14f8dcf24d1f",
+      "chunk-b995c5d7fab964c7a148a75f0272e270",
+      "chunk-c0c536a2e121847aadeaa9ffc23a9867",
+      "chunk-ce3b3b0a54222d30ae8e21605e0a3a2e",
+      "chunk-c9ca968c07a96f9bfe4f63b31908aca6",
+      "chunk-87e7258feb16ea29ce55cfb202887445",
+      "chunk-82a99a29e62de16c6682606a21ab6928",
+      "chunk-8d644508ed97034c61c489c322b875f6",
+      "chunk-4ae30204024aedbbcb935da0cdf33ea2"
+    ],
+    "content_summary": "So first of all, thank you for having me here.\nIt's a great happiness to be in Saigon.\nAnd at the same time, I know that there is a party just after that.\nI will also get drunk there.\nSo if you come, I will be happy.\nThank you.\nAnd if you are willing...",
+    "content_length": 49321,
+    "created_at": "2026-05-26T09:39:17.144057+00:00",
+    "updated_at": "2026-05-26T15:36:29.193710+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043917_f4e9d174",
+    "metadata": {
+      "processing_start_time": 1779807794,
+      "processing_end_time": 1779809789
+    }
+  },
+  "doc-a7b97e34936ddd929407816d3867a456": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-a7b97e34936ddd929407816d3867a456",
+      "chunk-afe464fd6b68fa17bc9beb47452ff026"
+    ],
+    "content_summary": "Hello, welcome to the Semantic SEO course. This will be the first lecture and I will\nbe explaining Coray's framework. In my framework, I always create these type of drive folders.\nIn these drive folders, you can find about us page briefs, which will ...",
+    "content_length": 5629,
+    "created_at": "2026-05-26T09:39:17.652565+00:00",
+    "updated_at": "2026-05-26T09:56:24.202833+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043917_8c159d74",
+    "metadata": {
+      "processing_start_time": 1779788888,
+      "processing_end_time": 1779789384
+    }
+  },
+  "doc-1514146d4b6094e7a302c3ca96fcd5d3": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1514146d4b6094e7a302c3ca96fcd5d3"
+    ],
+    "content_summary": "Hello, in this lecture we will talk about the user behaviors and the query semantics.\nFirst query semantics come from user behaviors and user perception.\nThey don't come from dictionaries.\nAnd it means that every word or every search term, they take ...",
+    "content_length": 5225,
+    "created_at": "2026-05-26T09:39:18.156119+00:00",
+    "updated_at": "2026-05-26T10:00:44.865921+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043918_4367de36",
+    "metadata": {
+      "processing_start_time": 1779789384,
+      "processing_end_time": 1779789644
+    }
+  },
+  "doc-4984238e80fca08ac8084d07036b57c5": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-4984238e80fca08ac8084d07036b57c5",
+      "chunk-84a3dc4bb30104adb8620951e865a52d"
+    ],
+    "content_summary": "Hello, on the third lecture we will talk about topical maps and the five concepts that make a topical map a real topical map.\nTo be honest, as I said before too, over the two years, whoever talks about topical maps, nearly all of them are actually wr...",
+    "content_length": 5454,
+    "created_at": "2026-05-26T09:39:18.665461+00:00",
+    "updated_at": "2026-05-26T10:09:32.813521+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043918_0901b234",
+    "metadata": {
+      "processing_start_time": 1779789644,
+      "processing_end_time": 1779790172
+    }
+  },
+  "doc-f8e7da857e573232b8497dce8e12f896": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-f8e7da857e573232b8497dce8e12f896",
+      "chunk-ffde1f5750d3076f6f5f78192e615f37"
+    ],
+    "content_summary": "Hello, on the fourth lecture we will talk about the central search intent.\nSo you remember the source context.\nBasically it is a unification of how you make money and who you are and your brand identity.\nSo we are making money here by providing visa ...",
+    "content_length": 5608,
+    "created_at": "2026-05-26T09:39:19.170173+00:00",
+    "updated_at": "2026-05-26T10:10:25.330961+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043919_2ed3b00d",
+    "metadata": {
+      "processing_start_time": 1779789825,
+      "processing_end_time": 1779790225
+    }
+  },
+  "doc-af889bef5a28b1d36ff3bfa5d0ea5714": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-af889bef5a28b1d36ff3bfa5d0ea5714"
+    ],
+    "content_summary": "Hello, in this lecture we will just repeat the anatomy of the topical maps one more time.\nWe have actually five concepts here and one of them is central entity which will be appearing\nin all of the articles and side-wide.\nThe other one is central sea...",
+    "content_length": 5553,
+    "created_at": "2026-05-26T09:39:19.678893+00:00",
+    "updated_at": "2026-05-26T10:13:17.849869+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043919_f11b5ac8",
+    "metadata": {
+      "processing_start_time": 1779790172,
+      "processing_end_time": 1779790397
+    }
+  },
+  "doc-39990f5d947195d523433912663e75da": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-39990f5d947195d523433912663e75da"
+    ],
+    "content_summary": "Hello, this is the sixth lecture of the Semantic SEO course and we will talk about the title tag.\nThe title tags are the processed version of the raw topical map.\nBasically in the raw topical map we just write entity and attribute or entity attribute...",
+    "content_length": 5281,
+    "created_at": "2026-05-26T09:39:20.182424+00:00",
+    "updated_at": "2026-05-26T10:15:31.418880+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043920_e0c5ce05",
+    "metadata": {
+      "processing_start_time": 1779790225,
+      "processing_end_time": 1779790531
+    }
+  },
+  "doc-f7569d989bc39951a418b611bed4f7ec": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-84be65ef542a67b8c7039f750beecb23",
+      "chunk-e988e4c8d8d4c34d496747edf41f541d"
+    ],
+    "content_summary": "Hello, this is the seventh lecture in the Semantic Astro course and we will talk about the URL\nstructure, how we should be writing our URLs. In my methodology, I don't repeat the words inside\nthe URL. If I tell Germany, I won't tell Germany life or l...",
+    "content_length": 5949,
+    "created_at": "2026-05-26T09:39:20.690470+00:00",
+    "updated_at": "2026-05-26T10:21:13.330159+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043920_2236755a",
+    "metadata": {
+      "processing_start_time": 1779790397,
+      "processing_end_time": 1779790873
+    }
+  },
+  "doc-8d827ad12e77bd39e3b9d93257eb0019": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-8d827ad12e77bd39e3b9d93257eb0019"
+    ],
+    "content_summary": "Hello, in this lecture we'll talk about the descriptions.\nSo meta descriptions, they are not a ranking factor.\nIn my case studies, a few times I have used duplicate descriptions, I have used empty\ndescriptions or missing descriptions, I didn't see an...",
+    "content_length": 4969,
+    "created_at": "2026-05-26T09:39:21.193403+00:00",
+    "updated_at": "2026-05-26T10:20:19.402239+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043921_bf5778de",
+    "metadata": {
+      "processing_start_time": 1779790531,
+      "processing_end_time": 1779790819
+    }
+  },
+  "doc-e6fcf117c831329dacb93b241158f58c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e6fcf117c831329dacb93b241158f58c"
+    ],
+    "content_summary": "Hello, welcome to the 9th lecture in the Semantic SEO course.\nSo the thing that you should understand about the macro context and the micro context is\nthat in every webpage you should be able to draw a line to understand where actually you\nwill be fo...",
+    "content_length": 5226,
+    "created_at": "2026-05-26T09:39:21.701372+00:00",
+    "updated_at": "2026-05-26T10:23:29.592506+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043921_c20350b8",
+    "metadata": {
+      "processing_start_time": 1779790819,
+      "processing_end_time": 1779791009
+    }
+  },
+  "doc-e09e7be3f5d8c5e363cfd7d874e62446": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e09e7be3f5d8c5e363cfd7d874e62446"
+    ],
+    "content_summary": "Hello everyone, in the 10th lecture we will talk about the image alt tags and also the image URLs.\nSo the first thing that you should understand for both of these things, I use these things\nfor reflecting my overall topicality and the contextuality b...",
+    "content_length": 3993,
+    "created_at": "2026-05-26T09:39:22.205155+00:00",
+    "updated_at": "2026-05-26T10:25:53.016510+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043922_13140781",
+    "metadata": {
+      "processing_start_time": 1779790873,
+      "processing_end_time": 1779791153
+    }
+  },
+  "doc-6cb0443852c88f9233a38374df7483b7": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-6cb0443852c88f9233a38374df7483b7"
+    ],
+    "content_summary": "hello this is the 11th lecture in the semantic sr course and we will talk about the momentum\nas you remember in my formula before i talk about vastness depth and also the momentum momentum\nactually comes from the publication frequency and i directly ...",
+    "content_length": 5587,
+    "created_at": "2026-05-26T09:39:22.713541+00:00",
+    "updated_at": "2026-05-26T10:28:17.628946+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043922_9119fc66",
+    "metadata": {
+      "processing_start_time": 1779791009,
+      "processing_end_time": 1779791297
+    }
+  },
+  "doc-faa3a31ed6d949d0ce7054a0833ddb04": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-faa3a31ed6d949d0ce7054a0833ddb04"
+    ],
+    "content_summary": "Hello, this is the 12th lecture of the Semantic Esther course.\nIn my semantic content networks for our article creation and also the publication, I always\nuse these type of colors as you see at the bottom.\nSo the thing is that when you do this thing ...",
+    "content_length": 1787,
+    "created_at": "2026-05-26T09:39:23.217842+00:00",
+    "updated_at": "2026-05-26T10:29:12.035648+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043923_e15e7b49",
+    "metadata": {
+      "processing_start_time": 1779791153,
+      "processing_end_time": 1779791352
+    }
+  },
+  "doc-0dbcb974ac562086c1749ecf22ea07f4": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-0dbcb974ac562086c1749ecf22ea07f4"
+    ],
+    "content_summary": "Hello, this is the 13th lecture in the Semantic Assert course and we will talk about some of the code language that I am actually using.\nThe thing is, I have actually more than 200 algorithmic authorship rules and I usually use these rules inside my ...",
+    "content_length": 4037,
+    "created_at": "2026-05-26T09:39:23.726432+00:00",
+    "updated_at": "2026-05-26T10:31:54.690132+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043923_f1c14e60",
+    "metadata": {
+      "processing_start_time": 1779791297,
+      "processing_end_time": 1779791514
+    }
+  },
+  "doc-043bc92a7015e647914eacacd758a036": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-043bc92a7015e647914eacacd758a036"
+    ],
+    "content_summary": "Hello, welcome to the 14th lecture.\nSo the thing that you see in this screen is basically the most important part of the Quarice\nframework.\nI always use a contextual vector, contextual hierarchy, contextual structure, and contextual\nconnection.\nWhen ...",
+    "content_length": 4602,
+    "created_at": "2026-05-26T09:39:24.229483+00:00",
+    "updated_at": "2026-05-26T10:34:19.037625+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043924_a01a4467",
+    "metadata": {
+      "processing_start_time": 1779791352,
+      "processing_end_time": 1779791659
+    }
+  },
+  "doc-601527952de3e4cb533d4928c1d0ad26": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-601527952de3e4cb533d4928c1d0ad26"
+    ],
+    "content_summary": "Hello, welcome to the 15th lecture.\nSo when you look at all these specific parts, for the good SEOs, I use these concepts.\nAnd for the traditional minds, you can tell that these are headings, these are heading\nlevels, these are just prompts for the a...",
+    "content_length": 5097,
+    "created_at": "2026-05-26T09:39:24.738471+00:00",
+    "updated_at": "2026-05-26T10:39:42.407868+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043924_a583a1a3",
+    "metadata": {
+      "processing_start_time": 1779791514,
+      "processing_end_time": 1779791982
+    }
+  },
+  "doc-beff6e5691c00d2a3ced912957383f87": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-beff6e5691c00d2a3ced912957383f87"
+    ],
+    "content_summary": "Hello, welcome to the 16th lecture. As we said before, we will focus on attribute\nfiltration. To be able to filter the attributes inside the queries, there are three criteria.\nAnd if you want to understand the entity attribute and the value triples, ...",
+    "content_length": 3006,
+    "created_at": "2026-05-26T09:39:25.241665+00:00",
+    "updated_at": "2026-05-26T10:39:44.078239+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043925_d3161b7f",
+    "metadata": {
+      "processing_start_time": 1779791659,
+      "processing_end_time": 1779791984
+    }
+  },
+  "doc-90e8d2e8886f2d086271b65b8c1a3253": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-90e8d2e8886f2d086271b65b8c1a3253"
+    ],
+    "content_summary": "Hello, welcome to the 17th lecture.\nIn this lecture, we will look at the spatial h1, which reflects our macro context for this document.\nBut this document is a little bit spatial, because if you look at here, this is root of entire semantic content n...",
+    "content_length": 3785,
+    "created_at": "2026-05-26T09:39:25.749940+00:00",
+    "updated_at": "2026-05-26T10:45:00.877777+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043925_21e0e3c3",
+    "metadata": {
+      "processing_start_time": 1779791982,
+      "processing_end_time": 1779792300
+    }
+  },
+  "doc-be689231e81146538f7791d2d7dab159": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-7073344309237711f90943ffc429337a",
+      "chunk-067d4f226ffbbfab6cf2dbc297b6289c"
+    ],
+    "content_summary": "Hello, welcome to the 18th lecture.\nWhen I look at our question vector, most of the time you will see that we are using questions.\nThe reason that we use the questions as much as possible is actually helping the search engine to understand the specif...",
+    "content_length": 6044,
+    "created_at": "2026-05-26T09:39:26.253411+00:00",
+    "updated_at": "2026-05-26T10:45:43.957176+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043926_3efb3f5c",
+    "metadata": {
+      "processing_start_time": 1779791984,
+      "processing_end_time": 1779792343
+    }
+  },
+  "doc-d9edf2abec867ee2a44168ee963aa04e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d9edf2abec867ee2a44168ee963aa04e"
+    ],
+    "content_summary": "Hello, welcome to the city. As an instance here, you will realize that city has always a population, always an area.\nAnd usually we have a mayor or governor, and you can actually converge it to do something different, but still it is actually a gover...",
+    "content_length": 2617,
+    "created_at": "2026-05-26T09:39:26.762981+00:00",
+    "updated_at": "2026-05-26T15:11:19.439792+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043926_28cad2ac",
+    "metadata": {
+      "processing_start_time": 1779807794,
+      "processing_end_time": 1779808279
+    }
+  },
+  "doc-1269c381cc69059707aa05dcf60212b2": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-1269c381cc69059707aa05dcf60212b2",
+      "chunk-36f874193314322a58c8ba4d3a25a0d2"
+    ],
+    "content_summary": "Hello, welcome to the 20th lecture.\nIn this lecture, we will generate some questions, and to be able to make it more authentic,\nactually, as I always like, I will just improvise.\nSo this is random word generator.\nI just want actually three words, and...",
+    "content_length": 5727,
+    "created_at": "2026-05-26T09:39:27.266695+00:00",
+    "updated_at": "2026-05-26T10:56:02.905074+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043927_d7d70b23",
+    "metadata": {
+      "processing_start_time": 1779792344,
+      "processing_end_time": 1779792962
+    }
+  },
+  "doc-7ad882cdccd8e0beb9a3d86482839006": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7ad882cdccd8e0beb9a3d86482839006"
+    ],
+    "content_summary": "Hello, welcome to the 21st lecture.\nIn this lecture we will talk about the contextual structure.\nInside the contextual structure, basically we tell authors what they should be writing\nand in what format.\nIf you look at here, the first thing that I wa...",
+    "content_length": 4030,
+    "created_at": "2026-05-26T09:39:27.776160+00:00",
+    "updated_at": "2026-05-26T10:53:06.202072+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043927_d4e046cd",
+    "metadata": {
+      "processing_start_time": 1779792523,
+      "processing_end_time": 1779792786
+    }
+  },
+  "doc-5aecda2c0fc781d1fdb7587d143ab6a8": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-6aa4f955c977e4411acda6af90a1e984",
+      "chunk-bbac222e7b9f4ed501578b6503d7e819"
+    ],
+    "content_summary": "textual flow the other one is the contextual coverage so contextual flow explains where we\nare taking cons context from and where we are leading it to the contextual coverage explains\nwhich part of the article is the heaviest part in other words if w...",
+    "content_length": 6135,
+    "created_at": "2026-05-26T09:39:28.279489+00:00",
+    "updated_at": "2026-05-26T10:56:53.157760+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043928_7222c702",
+    "metadata": {
+      "processing_start_time": 1779792786,
+      "processing_end_time": 1779793013
+    }
+  },
+  "doc-e575a42261e7ed1bc18d072052828622": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-e575a42261e7ed1bc18d072052828622",
+      "chunk-fd49abed9f28df4a53e38b0de4e99c09"
+    ],
+    "content_summary": "Hello, welcome to the 23rd lecture. In this lecture we will talk about the contextual connection.\nThe contextual connections that we have, they provide a kind of bridge and reasoning between\ntwo different articles. If your internal links do not have ...",
+    "content_length": 5387,
+    "created_at": "2026-05-26T09:39:28.787386+00:00",
+    "updated_at": "2026-05-26T11:02:37.682503+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043928_2506b981",
+    "metadata": {
+      "processing_start_time": 1779792963,
+      "processing_end_time": 1779793357
+    }
+  },
+  "doc-66b6eab94f52b9bb0e353a781becd4c7": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-66b6eab94f52b9bb0e353a781becd4c7",
+      "chunk-d2f773e93c35f72e1aabfd919c34ea87"
+    ],
+    "content_summary": "Hello, welcome to the 24th lecture of the Semantic SEO course.\nIn this lecture we will talk about how to structure the answers in a better way.\nTo be able to help the authors, sometimes you can use these type of actual screenshots\nfrom the search eng...",
+    "content_length": 5762,
+    "created_at": "2026-05-26T09:39:29.290497+00:00",
+    "updated_at": "2026-05-26T11:03:23.708455+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043929_49a33143",
+    "metadata": {
+      "processing_start_time": 1779793013,
+      "processing_end_time": 1779793403
+    }
+  },
+  "doc-614cc53625a6f1664a2976653a272666": {
+    "status": "processed",
+    "chunks_count": 3,
+    "chunks_list": [
+      "chunk-052d6944053b5b3df8d3057ea51f965e",
+      "chunk-f9c9ba387025eda6de114e2f950fa53c",
+      "chunk-1634ca92d53f6e9d544f682bc0999dc4"
+    ],
+    "content_summary": "Hello, welcome to the 25th lecture of the Semantic Estrella course.\nIn this lecture, we will just examine some of the language models that actually Google published\nand we will try to understand their angle.\nAnd in the future, you will need to do the...",
+    "content_length": 11865,
+    "created_at": "2026-05-26T09:39:29.799361+00:00",
+    "updated_at": "2026-05-26T11:11:58.855251+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043929_a398e28a",
+    "metadata": {
+      "processing_start_time": 1779793357,
+      "processing_end_time": 1779793918
+    }
+  },
+  "doc-721fd7360c4042bb96070adb318d92eb": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-721fd7360c4042bb96070adb318d92eb",
+      "chunk-2b80de96291d36db9b31e552bbfff1ea"
+    ],
+    "content_summary": "Hello, welcome to the 26th lecture of the Semantic Astro course.\nIn this specific lecture, we will examine how we actually structured the Visam.NetNet\nproject for all of the countries, then we will actually check the results.\nAnd you should understan...",
+    "content_length": 5425,
+    "created_at": "2026-05-26T09:39:30.305526+00:00",
+    "updated_at": "2026-05-26T11:12:00.219365+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043930_6069e7a0",
+    "metadata": {
+      "processing_start_time": 1779793403,
+      "processing_end_time": 1779793920
+    }
+  },
+  "doc-c014d35d8d2fc2d10ceb8a1f6a08dde8": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c014d35d8d2fc2d10ceb8a1f6a08dde8"
+    ],
+    "content_summary": "Hello, this is the 27th lecture of the Semantic SEO course.\nAnd in this lecture, we will examine the same day, then I have ended them in the same day\nas well.\nThis is the first project and we created these big specific, let's say, launch here.\nThree ...",
+    "content_length": 992,
+    "created_at": "2026-05-26T09:39:30.813657+00:00",
+    "updated_at": "2026-05-26T11:13:34.710813+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043930_f9767fb0",
+    "metadata": {
+      "processing_start_time": 1779793919,
+      "processing_end_time": 1779794014
+    }
+  },
+  "doc-8a2d85a4677a5d3970bc9c3a12963a07": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-8a2d85a4677a5d3970bc9c3a12963a07"
+    ],
+    "content_summary": "Hello, this is the 28th lecture of the Semantic SEO course.\nAnd in this lecture, we will look at to do a different project with the same principles and the same methodology.\nAnd in this project, actually, we have came to these results with just 27 ar...",
+    "content_length": 3812,
+    "created_at": "2026-05-26T09:39:31.317086+00:00",
+    "updated_at": "2026-05-26T11:15:29.703950+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043931_2d9ae014",
+    "metadata": {
+      "processing_start_time": 1779793920,
+      "processing_end_time": 1779794129
+    }
+  },
+  "doc-cb0d0818187343a7c01c321335563cd9": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-cb0d0818187343a7c01c321335563cd9"
+    ],
+    "content_summary": "Hello, this is the 29th lecture of the Semantic SEO course.\nIn this lecture, we will dive into this diagram to understand the topical maps a little further.\nMost of the time, I don't suggest you to use these type of visualizations.\nThis is just an ex...",
+    "content_length": 4568,
+    "created_at": "2026-05-26T09:39:31.827073+00:00",
+    "updated_at": "2026-05-26T11:17:19.715541+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043931_dab7a96a",
+    "metadata": {
+      "processing_start_time": 1779794014,
+      "processing_end_time": 1779794239
+    }
+  },
+  "doc-87d902534a86eb64f14e51476fc89c70": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-87d902534a86eb64f14e51476fc89c70"
+    ],
+    "content_summary": "Hello, this is the 13th lecture in the Semantic SEO course.\nIn this lecture, we will focus on the information tree that we actually created in this area.\nSo as I say, this was the first main attribute that we have focused on.\nAnd then we see that ben...",
+    "content_length": 5275,
+    "created_at": "2026-05-26T09:39:32.330063+00:00",
+    "updated_at": "2026-05-26T11:19:31.401536+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043932_969f8d84",
+    "metadata": {
+      "processing_start_time": 1779794129,
+      "processing_end_time": 1779794371
+    }
+  },
+  "doc-8f812c017168e90729b20b23af0336de": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-8f812c017168e90729b20b23af0336de"
+    ],
+    "content_summary": "Hello, this is the 31st lecture of the Semantic SEO course.\nIn this lecture, we will focus on the topical map that we have created and how we can actually process a topical map from raw version.\nThe raw topical maps, they just have entities and the a...",
+    "content_length": 4862,
+    "created_at": "2026-05-26T09:39:32.950756+00:00",
+    "updated_at": "2026-05-26T11:23:28.063217+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043932_eda02112",
+    "metadata": {
+      "processing_start_time": 1779794239,
+      "processing_end_time": 1779794608
+    }
+  },
+  "doc-85c8fedaecf64062d06994b41d0c1017": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-85c8fedaecf64062d06994b41d0c1017"
+    ],
+    "content_summary": "Hello, this is the 32nd lecture of the Semantic SEO course.\nAnd in this lecture, we will look at the image URLs and the image alt tags that we have actually chosen.\nIn this section, you will realize that the image URLs that we are using and the image...",
+    "content_length": 3022,
+    "created_at": "2026-05-26T09:39:33.454315+00:00",
+    "updated_at": "2026-05-26T11:22:47.275560+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043933_63e3ba5e",
+    "metadata": {
+      "processing_start_time": 1779794371,
+      "processing_end_time": 1779794567
+    }
+  },
+  "doc-c1fce491355836fb3f209fcf0e07ba64": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c1fce491355836fb3f209fcf0e07ba64"
+    ],
+    "content_summary": "Hello. In this lecture, we will continue to talk about the publication date a little further.\nSo as you see, we actually have published good amount of articles at Sudden or at Together.\nAnd there is a reason for doing this actually.\nSo there are two ...",
+    "content_length": 4827,
+    "created_at": "2026-05-26T09:39:33.967332+00:00",
+    "updated_at": "2026-05-26T11:26:07.769798+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043933_964720a3",
+    "metadata": {
+      "processing_start_time": 1779794567,
+      "processing_end_time": 1779794767
+    }
+  },
+  "doc-00e811b516255bb7c2cba83ccf69eefc": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-044463b06024487bc6e52187cb1877de",
+      "chunk-846e556c4980b007fcfe36174855327e"
+    ],
+    "content_summary": "Hello, this is the third to fourth lecture of the Semantic SEO course.\nIn this lecture we will focus on the content briefs that we have created,\nwhich is the first step of creating a semantic content network.\nSo as you look at here, you will realize ...",
+    "content_length": 5891,
+    "created_at": "2026-05-26T09:39:34.472367+00:00",
+    "updated_at": "2026-05-26T11:31:39.346346+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043934_ff99f8f6",
+    "metadata": {
+      "processing_start_time": 1779794608,
+      "processing_end_time": 1779795099
+    }
+  },
+  "doc-b7648a81e6d849460add947547f69952": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-b7648a81e6d849460add947547f69952"
+    ],
+    "content_summary": "Hello, this is the 35th lecture of the Semantic SEO course.\nAnd in this lecture, we will try to understand the order in this area or the structure in the contextual vector and its combination or alignment with the queries that we are choosing.\nSo I t...",
+    "content_length": 4854,
+    "created_at": "2026-05-26T09:39:34.982436+00:00",
+    "updated_at": "2026-05-26T11:30:59.747021+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043934_faa5b369",
+    "metadata": {
+      "processing_start_time": 1779794768,
+      "processing_end_time": 1779795059
+    }
+  },
+  "doc-2b14bde2849a06fcec9ac8ab627f6fcc": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-6e01ed3aea772496ae6d36729867a557",
+      "chunk-c2101b749bdada7714a4bb5ee41a942c"
+    ],
+    "content_summary": "Hello, this is the 36th lecture of the Semantic Esther course.\nIn this lecture, we will mainly focus on the contextual vectors and we will look at the list that we created in this area a little bit deeper.\nFirst of all, these are called incremental o...",
+    "content_length": 6234,
+    "created_at": "2026-05-26T09:39:35.486887+00:00",
+    "updated_at": "2026-05-26T11:37:17.563521+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043935_771974af",
+    "metadata": {
+      "processing_start_time": 1779795059,
+      "processing_end_time": 1779795437
+    }
+  },
+  "doc-a388368023eee5caf3dbbc03fcdd278d": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-a388368023eee5caf3dbbc03fcdd278d",
+      "chunk-f1ee2eb6040df1e6c4d380a109521b50"
+    ],
+    "content_summary": "Hello, this is the 37th lecture of the Semantic SEO course.\nIn this specific lecture, we will be talking about the macro and the micro semantics together with the supplementary and the main content.\nAnd slightly, we will talk about the micro semantic...",
+    "content_length": 5731,
+    "created_at": "2026-05-26T09:39:35.995980+00:00",
+    "updated_at": "2026-05-26T11:40:16.541690+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043935_b35056e7",
+    "metadata": {
+      "processing_start_time": 1779795099,
+      "processing_end_time": 1779795616
+    }
+  },
+  "doc-c6ee67e32c07c0182dd83e65b717d89d": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-c6ee67e32c07c0182dd83e65b717d89d",
+      "chunk-78d46335f1ce2597188c7cdb06dd85fc"
+    ],
+    "content_summary": "Hello, this is the third to eighth lecture of the Semantic Astro course.\nIn this lecture, we will mainly focus on the Heading Hierarchy, which is Contextual Hierarchy,\nand the Contextual Connections, which is Anchor Text.\nWhen we look at the Heading ...",
+    "content_length": 5923,
+    "created_at": "2026-05-26T09:39:36.500425+00:00",
+    "updated_at": "2026-05-26T11:40:47.905892+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043936_d372e5f9",
+    "metadata": {
+      "processing_start_time": 1779795437,
+      "processing_end_time": 1779795647
+    }
+  },
+  "doc-4a2bd575df4c8a0d322e5adcf2e78bc6": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4a2bd575df4c8a0d322e5adcf2e78bc6"
+    ],
+    "content_summary": "Hello, this is the 39th lecture of the Semantic SEO course.\nAnd in this lecture, we will talk about this column, the article methodology.\nSo usually I use the names that can be understood by the authors in an easy way.\nThat's why I tell them that we ...",
+    "content_length": 5295,
+    "created_at": "2026-05-26T09:39:37.009788+00:00",
+    "updated_at": "2026-05-26T11:43:12.663833+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043937_b6d1fa6a",
+    "metadata": {
+      "processing_start_time": 1779795616,
+      "processing_end_time": 1779795792
+    }
+  },
+  "doc-b89ba62f2b9f725725fe8219a87ffad3": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-b89ba62f2b9f725725fe8219a87ffad3",
+      "chunk-9819cf025207d885301e2eb37c93e99e"
+    ],
+    "content_summary": "Hello, this is the 14th lecture in the Semantic SEO course. And in this lecture, we will talk about the article methodology. And in the last lecture, we explained the logic behind the article methodology, what it does, and why it is important and for...",
+    "content_length": 5569,
+    "created_at": "2026-05-26T09:39:37.513403+00:00",
+    "updated_at": "2026-05-26T11:48:03.624540+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043937_2226a770",
+    "metadata": {
+      "processing_start_time": 1779795648,
+      "processing_end_time": 1779796083
+    }
+  },
+  "doc-20e7fc05ccbe694a5d9fc5c83961b036": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-0c6c0977e83a555c288951c70d42e339",
+      "chunk-b1ae1f1b49055c6666741019f9fa17ae"
+    ],
+    "content_summary": "Hello, this is the 41st lecture of the Semantic SEO course.\nIn this lecture, we will continue to talk about the article methodology.\nAnd there are a few more concepts that we will need to use in this area to explain the logic in this part and the flo...",
+    "content_length": 7049,
+    "created_at": "2026-05-26T09:39:38.023621+00:00",
+    "updated_at": "2026-05-26T11:48:01.086468+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043938_e7b05a11",
+    "metadata": {
+      "processing_start_time": 1779795792,
+      "processing_end_time": 1779796081
+    }
+  },
+  "doc-9b7299ff5f066dee74796eab27e8c910": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-9b7299ff5f066dee74796eab27e8c910",
+      "chunk-f65bac290ec29c112bd05143541e0673"
+    ],
+    "content_summary": "Hello, this is the 42nd lecture of the Semantic SEO course.\nAnd in this lecture, we will continue to process the article methodology that we have used.\nIn this area, you will see that again we start with a definition and I use the concept of x here, ...",
+    "content_length": 6098,
+    "created_at": "2026-05-26T09:39:38.526844+00:00",
+    "updated_at": "2026-05-26T11:52:44.680479+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043938_6e453aed",
+    "metadata": {
+      "processing_start_time": 1779796081,
+      "processing_end_time": 1779796364
+    }
+  },
+  "doc-b39188a27a68c4df8a21ff349b5a66ad": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-b39188a27a68c4df8a21ff349b5a66ad"
+    ],
+    "content_summary": "Hello, this is the 43rd lecture of the Semantic Estreo course.\nIn this lecture, we will look at our contextual border and the bridge between the macro and the micro context section.\nSo, in this area, inside our contextual structure, we use a rule, ex...",
+    "content_length": 5281,
+    "created_at": "2026-05-26T09:39:39.036300+00:00",
+    "updated_at": "2026-05-26T11:52:03.745810+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043939_2afa71f2",
+    "metadata": {
+      "processing_start_time": 1779796083,
+      "processing_end_time": 1779796323
+    }
+  },
+  "doc-10ec1029317e701d51c5dde9d0e848c1": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-523ebf9e23d3cd025d58126d5ea07ab8",
+      "chunk-9fb0a1394467e12d853495366f2d4b17"
+    ],
+    "content_summary": "Hello, this is the 44th lecture of the Semantic SEO course.\nIn this lecture, we will talk about the micro-semantics together with the supplementary content and the answer formats or the paragraph formats.\nAs you know, on this section, we always use t...",
+    "content_length": 6036,
+    "created_at": "2026-05-26T09:39:39.539710+00:00",
+    "updated_at": "2026-05-26T11:59:36.712491+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043939_ac29f59c",
+    "metadata": {
+      "processing_start_time": 1779796324,
+      "processing_end_time": 1779796776
+    }
+  },
+  "doc-ead1494c17202662c334ce26d68202b6": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-ead1494c17202662c334ce26d68202b6",
+      "chunk-47038fb631de71b9ded57fb5328deec5"
+    ],
+    "content_summary": "Hello, this is the fourth to fifth lecture of the Semantic SEO course.\nIn this lecture, we will look at another content brief, and we will try to understand how we\ncontinue to structure the macro and the micro context for the macro and the micro sema...",
+    "content_length": 5826,
+    "created_at": "2026-05-26T09:39:40.049846+00:00",
+    "updated_at": "2026-05-26T11:59:12.369362+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043940_6ffb4ac9",
+    "metadata": {
+      "processing_start_time": 1779796364,
+      "processing_end_time": 1779796752
+    }
+  },
+  "doc-c79cc963bd9a613b0be410c4b0f997f3": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-795348437104913dfe690ea817a9048a",
+      "chunk-bcaf9e38bb2a570a6edf70e6a9681dfd"
+    ],
+    "content_summary": "Hello, this is the 46th lecture of the Semantic SEO course.\nIn this lecture, we will look at the contextual vector that we have created based on the macro\nand the micro contexts that we see inside these three columns.\nSo when we look at our macro con...",
+    "content_length": 5899,
+    "created_at": "2026-05-26T09:39:40.554369+00:00",
+    "updated_at": "2026-05-26T12:06:13.251622+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043940_a7b51d9f",
+    "metadata": {
+      "processing_start_time": 1779796752,
+      "processing_end_time": 1779797173
+    }
+  },
+  "doc-354d228114e8f19db62806f428d6a5dc": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-234ceb00bf3ffdcca24bd8cea561cfa7",
+      "chunk-d812dd7762edcda121f56954dea1223f"
+    ],
+    "content_summary": "Hello, this is the 47th lecture of the Semantic SEO course.\nIn this lecture, we will continue to examine our contextual vector.\nSo, in the last time we actually talked about that,\nthere are three H2s directly inside this specific article.\nThe reason ...",
+    "content_length": 7864,
+    "created_at": "2026-05-26T09:39:41.063366+00:00",
+    "updated_at": "2026-05-26T15:19:07.478975+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043941_88113267",
+    "metadata": {
+      "processing_start_time": 1779808279,
+      "processing_end_time": 1779808747
+    }
+  },
+  "doc-8122ad3e878784e98cdd0c33cb998553": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-8122ad3e878784e98cdd0c33cb998553"
+    ],
+    "content_summary": "Hello, this is the fourth to eighth lecture of the Semantic SEO course.\nIn this lecture, we will look at the contextual structure that we have created.\nAnd we will try to understand how these two things, how these things are actually aligning togethe...",
+    "content_length": 5286,
+    "created_at": "2026-05-26T09:39:41.567894+00:00",
+    "updated_at": "2026-05-26T12:10:31.146538+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043941_68992398",
+    "metadata": {
+      "processing_start_time": 1779797103,
+      "processing_end_time": 1779797431
+    }
+  },
+  "doc-0b0b3b0bcf458ffb104d6906ee1a4961": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-8480f930946c58ec0b694dd2c71b4ca9",
+      "chunk-dc8869133cffd3a4667b0bce46eca871"
+    ],
+    "content_summary": "Hello, this is the 49th lecture of the Semantic SEO course.\nAnd in this lecture, we will look at how we actually balance the contextual coverage\nand how we actually flow the context according to the queries.\nSo as I said before, there is a reason tha...",
+    "content_length": 6382,
+    "created_at": "2026-05-26T09:39:42.077853+00:00",
+    "updated_at": "2026-05-26T12:14:18.010261+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043942_f52fe018",
+    "metadata": {
+      "processing_start_time": 1779797173,
+      "processing_end_time": 1779797658
+    }
+  },
+  "doc-2c77ed812b87a04f08a3ce700769524d": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-2c77ed812b87a04f08a3ce700769524d"
+    ],
+    "content_summary": "Hello, this is the 15th lecture of the Semantic SEO course.\nIn this lecture, we will continue to examine the specific contextual structure that we created in this area.\nSo, last time we checked this part and once we finish our specific main content,\n...",
+    "content_length": 3751,
+    "created_at": "2026-05-26T09:39:42.581200+00:00",
+    "updated_at": "2026-05-26T12:14:09.436390+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043942_58532806",
+    "metadata": {
+      "processing_start_time": 1779797431,
+      "processing_end_time": 1779797649
+    }
+  },
+  "doc-5630eb292b2067508ab2e5051ecbe6e9": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5630eb292b2067508ab2e5051ecbe6e9"
+    ],
+    "content_summary": "Hello, this is the 51st lecture of the Semantic SEO course.\nIn this lecture, we will look at another content brief and we will try to understand the methodology a little further.\nThis time we have just two columns and one of them is actually from Med...",
+    "content_length": 5032,
+    "created_at": "2026-05-26T09:39:43.092452+00:00",
+    "updated_at": "2026-05-26T12:18:47.713641+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043943_a71828f0",
+    "metadata": {
+      "processing_start_time": 1779797649,
+      "processing_end_time": 1779797927
+    }
+  },
+  "doc-b46a5ce46cdcaba690c43278c43e6956": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-b46a5ce46cdcaba690c43278c43e6956",
+      "chunk-0c81d515ff2039cfed0e125da77069e8"
+    ],
+    "content_summary": "Hello, this is the 52nd lecture of the Semantic SEO course.\nIn this lecture, we will look at our article methodology or the contextual structure.\nOne more time, we start the definition.\nAnd directly the definition comes from the most important concep...",
+    "content_length": 5889,
+    "created_at": "2026-05-26T09:39:43.597445+00:00",
+    "updated_at": "2026-05-26T12:22:54.614055+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043943_c89a26e0",
+    "metadata": {
+      "processing_start_time": 1779797658,
+      "processing_end_time": 1779798174
+    }
+  },
+  "doc-eef1d53ea2fafdb6002975ead6658b03": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-eef1d53ea2fafdb6002975ead6658b03"
+    ],
+    "content_summary": "Hello, this is the 53rd lecture of the Semantic SEO course.\nIn this lecture, we will examine the supplementary content and the micro context that we have here.\nAs you will remember, this was the transition point by using the lexical semantics from hu...",
+    "content_length": 3492,
+    "created_at": "2026-05-26T09:39:44.105838+00:00",
+    "updated_at": "2026-05-26T12:22:31.505460+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043944_03652965",
+    "metadata": {
+      "processing_start_time": 1779797927,
+      "processing_end_time": 1779798151
+    }
+  },
+  "doc-b8f3737ebb9deefae951ea2e92ccc158": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-b8f3737ebb9deefae951ea2e92ccc158"
+    ],
+    "content_summary": "Hello, this is the 54th lecture of the Semantic SEO course.\nIn this lecture, we will try to understand another content brief with the same principles.\nAnd in this time, we will also talk about slightly the quality notes.\nAnd if we look at the structu...",
+    "content_length": 5035,
+    "created_at": "2026-05-26T09:39:44.608920+00:00",
+    "updated_at": "2026-05-26T15:26:08.817949+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043944_7f89e4c7",
+    "metadata": {
+      "processing_start_time": 1779808747,
+      "processing_end_time": 1779809168
+    }
+  },
+  "doc-8a2cd46f30042a6947f23c64282a4759": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-4452390f1f787fe4220d4724aeb5e88e",
+      "chunk-cf93e5703047730943c3dad8b396a640"
+    ],
+    "content_summary": "Hello, this is the 55th lecture in the Semantic SEO course.\nIn this lecture, we will examine the queries a little bit further.\nThen from there, we will look at the contextual vector one more time.\nAnd then we will examine the contextual structure tha...",
+    "content_length": 6325,
+    "created_at": "2026-05-26T09:39:45.119564+00:00",
+    "updated_at": "2026-05-26T12:32:10.857141+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043945_83c2ad5e",
+    "metadata": {
+      "processing_start_time": 1779798174,
+      "processing_end_time": 1779798730
+    }
+  },
+  "doc-c86349823e80f5197f6a9e19f884c908": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-f678064163d41d8196871b5a23c9069c",
+      "chunk-00b04208cc4996300395be0f94b9e104"
+    ],
+    "content_summary": "Hello, this is the 56th lecture of the Semantic SEO course.\nIn this lecture, we will try to understand how we use actually our anchor text here too.\nAs you see, the first anchor text that we are using one more time,\nit is our the root of the Semantic...",
+    "content_length": 6389,
+    "created_at": "2026-05-26T09:39:45.622763+00:00",
+    "updated_at": "2026-05-26T12:34:25.256608+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043945_47381007",
+    "metadata": {
+      "processing_start_time": 1779798351,
+      "processing_end_time": 1779798865
+    }
+  },
+  "doc-5dacc856640e50f4d171e6fe531e33d7": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5dacc856640e50f4d171e6fe531e33d7"
+    ],
+    "content_summary": "Hello, this is the 57th lecture of the Semantic SEO course.\nIn this lecture, we will focus on another content brief.\nAnd one more time here, we have Helpline, the website that we are trying to steal the\nauthority from or the website we are trying to ...",
+    "content_length": 3355,
+    "created_at": "2026-05-26T09:39:46.131996+00:00",
+    "updated_at": "2026-05-26T12:38:49.788003+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043946_f985238a",
+    "metadata": {
+      "processing_start_time": 1779798731,
+      "processing_end_time": 1779799129
+    }
+  },
+  "doc-36336d4dd2cbc5618c402f42b7fdca34": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-81b837e1fc804bb7df2114c65c3758ae",
+      "chunk-4f3c23ae818c0fb16bb3e6e223b4e918"
+    ],
+    "content_summary": "Hello, this is the 58th lecture of the Semantic SEO course.\nIn this lecture, we will examine the contextual vector that we have created in this area a little bit further.\nAnd we will also continue to check some of the anchor text together.\nSo once we...",
+    "content_length": 6124,
+    "created_at": "2026-05-26T09:39:46.635112+00:00",
+    "updated_at": "2026-05-26T12:41:31.997293+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043946_d46ec1c1",
+    "metadata": {
+      "processing_start_time": 1779798865,
+      "processing_end_time": 1779799291
+    }
+  },
+  "doc-f42923e6cfc5092f58caa8d375ac2ef1": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-4ad6b0780f4ae2de415293f3a5c7c523",
+      "chunk-ac0b51fe0e8ae2f09eae48deeb65f256"
+    ],
+    "content_summary": "Hello, this is the 58th lecture of the Semantic SEO course.\nIn this lecture, we will examine the contextual vector that we have created in this area a little bit further.\nAnd we will also continue to check some of the anchor text together.\nSo once we...",
+    "content_length": 6083,
+    "created_at": "2026-05-26T09:39:47.145876+00:00",
+    "updated_at": "2026-05-26T12:44:45.738124+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043947_00bc3caf",
+    "metadata": {
+      "processing_start_time": 1779799130,
+      "processing_end_time": 1779799485
+    }
+  },
+  "doc-c10223fd9ea5d44bdbd29c6221184f67": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c10223fd9ea5d44bdbd29c6221184f67"
+    ],
+    "content_summary": "Hello, this is the 59th lecture of the Semantic SEO course.\nIn this lecture, we will try to understand our supplementary content a little further.\nAfter we create our bridge and also the border between the macro and the micro semantics\nand the contex...",
+    "content_length": 4596,
+    "created_at": "2026-05-26T09:39:47.648853+00:00",
+    "updated_at": "2026-05-26T12:46:20.624922+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043947_2db51db1",
+    "metadata": {
+      "processing_start_time": 1779799292,
+      "processing_end_time": 1779799580
+    }
+  },
+  "doc-c4ca2257d0f2fca3dc12d0bcc3cf057a": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-693450104ff13d2ef5a1111365e8c7e7",
+      "chunk-e416e4151ad065b84215660d6d94148a"
+    ],
+    "content_summary": "Hello, this is the 16th lecture of the Semantic SEO course. And in this lecture, we will try to understand the contextual structure that we have created for the drinking hot water article and the contextual domain.\nOne more time, we directly start wi...",
+    "content_length": 6251,
+    "created_at": "2026-05-26T09:39:48.157696+00:00",
+    "updated_at": "2026-05-26T12:53:09.342848+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043948_656ff64c",
+    "metadata": {
+      "processing_start_time": 1779799486,
+      "processing_end_time": 1779799989
+    }
+  },
+  "doc-01935bc908b390baa1b315fbbb591f43": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-45a2a27d5f61609219a67e6c845917a7",
+      "chunk-de13c628f8d2f506d2b52782fc3a99f1"
+    ],
+    "content_summary": "Hello, this is the 61st lecture of the Semantic SEO course.\nIn this lecture, we will talk about seconds modeling and the large language model optimization in the context of the search engine optimization.\nAt the beginning of this course, most probabl...",
+    "content_length": 6780,
+    "created_at": "2026-05-26T09:39:48.661020+00:00",
+    "updated_at": "2026-05-26T12:53:32.508145+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043948_c4045ab8",
+    "metadata": {
+      "processing_start_time": 1779799580,
+      "processing_end_time": 1779800012
+    }
+  },
+  "doc-cad49d2ec5b75756ff8ac96a9e0a07d5": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-cad49d2ec5b75756ff8ac96a9e0a07d5",
+      "chunk-e1adac99c2781316b94ff37456478c25"
+    ],
+    "content_summary": "Hello, this is the 62nd lecture of the Semantic SEO course.\nIn this lecture we will focus on one of the attributes for the water, which is pH.\nWe focus on the pH attribute of the water because it is one of the root attributes.\nBecause technically any...",
+    "content_length": 5793,
+    "created_at": "2026-05-26T09:39:49.169627+00:00",
+    "updated_at": "2026-05-26T13:00:17.664877+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043949_63e0e330",
+    "metadata": {
+      "processing_start_time": 1779799989,
+      "processing_end_time": 1779800417
+    }
+  },
+  "doc-ce47151a2b89b01b7efea15668a4972c": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-ce47151a2b89b01b7efea15668a4972c",
+      "chunk-d630d015b7c7a1f7febbf34c4f82307f"
+    ],
+    "content_summary": "Hello, this is the sixth and third lecture of the Semantic SEO course.\nIn this lecture, we will dive into the specific contextual vector to understand its contextual connections to the query networks that appears in this area.\nThe first question that...",
+    "content_length": 5621,
+    "created_at": "2026-05-26T09:39:49.672767+00:00",
+    "updated_at": "2026-05-26T13:00:41.997870+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043949_af527ac8",
+    "metadata": {
+      "processing_start_time": 1779800012,
+      "processing_end_time": 1779800441
+    }
+  },
+  "doc-57b9063d83bf77cff862cd2fbaedd5b8": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-8a862d8cd031c8ba43a92cd09c11ae3b",
+      "chunk-237f0369c76d4e73efce226fd0388537"
+    ],
+    "content_summary": "Hello, this is the 64th lecture of the Semantic Esser course.\nIn this lecture, we will dive into our article methodology.\nOnce we ask about how to know about the pH of the drinking water,\nin this area, one more time, we tell that this is actually a g...",
+    "content_length": 8028,
+    "created_at": "2026-05-26T09:39:50.182253+00:00",
+    "updated_at": "2026-05-26T13:09:08.136509+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043950_3c4de886",
+    "metadata": {
+      "processing_start_time": 1779800417,
+      "processing_end_time": 1779800948
+    }
+  },
+  "doc-6728b93f30295b56261c4ae074f91462": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-4ab08862cb455a716bef38bcdb6db556",
+      "chunk-0d85e10b2285c1072884beb02946f33e"
+    ],
+    "content_summary": "Hello, this is the 65th lecture of the Semantic SEO course.\nIn this lecture, we will try to understand the contextual bridges that we are using and its harmony with the contextual vector that we are using at the same time.\nFirst of all, if you realiz...",
+    "content_length": 6638,
+    "created_at": "2026-05-26T09:39:50.685303+00:00",
+    "updated_at": "2026-05-26T13:08:47.021622+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043950_7b6e7ed5",
+    "metadata": {
+      "processing_start_time": 1779800442,
+      "processing_end_time": 1779800927
+    }
+  },
+  "doc-97945f31e4049e90b775123303808731": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-291afa9bbbeab0842d299e3a83bd26b3",
+      "chunk-9d3b62e9a672b017589bbc9685367180"
+    ],
+    "content_summary": "Hello, this is the 66th lecture of the Semantic SEO course.\nAnd in this lecture we will start to examine our content briefs because as you see this was the kitchen side of the things.\nIn normal conditions, before making authors write my content brief...",
+    "content_length": 7328,
+    "created_at": "2026-05-26T09:39:51.193908+00:00",
+    "updated_at": "2026-05-26T13:17:04.630873+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043951_f9794f11",
+    "metadata": {
+      "processing_start_time": 1779800927,
+      "processing_end_time": 1779801424
+    }
+  },
+  "doc-3274b5b11d4b886cb9e0202f9dee7f23": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-3274b5b11d4b886cb9e0202f9dee7f23",
+      "chunk-a7eb75509fd695c636b290fbf2435e8d"
+    ],
+    "content_summary": "Hello, this is the 67th lecture of the Semantic SEO course.\nIn this lecture, we will continue to examine our first article example.\nSo once we complete our macro context creation in the content brief, the first thing that you should be doing is actua...",
+    "content_length": 5636,
+    "created_at": "2026-05-26T09:39:51.696735+00:00",
+    "updated_at": "2026-05-26T13:16:47.976071+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043951_ad69f41c",
+    "metadata": {
+      "processing_start_time": 1779800948,
+      "processing_end_time": 1779801407
+    }
+  },
+  "doc-89a7dd4384f9ed315643d4ecd2acbc27": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-0b005d420a23cdcba2ecafc2a1d59783",
+      "chunk-68b6216c51b8b71b22fb85e4c681c6c2"
+    ],
+    "content_summary": "Hello, this is the 68th lecture of the Semantic SEO course.\nIn this lecture, we will try to understand page-wide characteristics as much as possible.\nFirst thing is that you should understand the distributional semantics and the statistical linguisti...",
+    "content_length": 8001,
+    "created_at": "2026-05-26T09:39:52.207685+00:00",
+    "updated_at": "2026-05-26T13:26:23.328647+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043952_2e016fea",
+    "metadata": {
+      "processing_start_time": 1779801408,
+      "processing_end_time": 1779801983
+    }
+  },
+  "doc-c603a117b780c04785f5057b5d6e7b08": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-3aea7abfa9cae709ad280790ed42d424",
+      "chunk-3c416bcd7aedd056158284b55f461171"
+    ],
+    "content_summary": "Hello, this is 69th lecture of the Semantic Estreak course.\nIn this lecture we will try to understand our sentence structures a bit further\nby looking at our macro context sections further.\nSo here we always tell, give the definition of the noun insi...",
+    "content_length": 9595,
+    "created_at": "2026-05-26T09:39:52.711370+00:00",
+    "updated_at": "2026-05-26T13:26:22.910906+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043952_882e0c5c",
+    "metadata": {
+      "processing_start_time": 1779801424,
+      "processing_end_time": 1779801982
+    }
+  },
+  "doc-eee693439b9b8630237353de9a33282e": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-176ba103322e465c5c762eb258005dd2",
+      "chunk-ec8e7c18c9c9fd7ef5951e6635b00e42"
+    ],
+    "content_summary": "Hello, this is the 17th lecture of the Semantic SEO course.\nIn this lecture, we will try to understand some of the other reflections of our article methodology\ninside this specific article.\nFor instance, as you see here, we use some certain types of ...",
+    "content_length": 7305,
+    "created_at": "2026-05-26T09:39:53.222948+00:00",
+    "updated_at": "2026-05-26T15:35:39.866168+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043953_c07412d1",
+    "metadata": {
+      "processing_start_time": 1779809169,
+      "processing_end_time": 1779809739
+    }
+  },
+  "doc-4d3998f031b7e8a52781909a7faa1829": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4d3998f031b7e8a52781909a7faa1829"
+    ],
+    "content_summary": "Hello, this is the 71st lecture of the Semantic SEO course.\nIn this lecture we will try to understand some of the rules that we are using inside our articles.\nAnd this is about modality.\nSo modality is an important part of the semantics, especially f...",
+    "content_length": 4540,
+    "created_at": "2026-05-26T09:39:53.726445+00:00",
+    "updated_at": "2026-05-26T13:34:15.621733+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043953_0092c0c2",
+    "metadata": {
+      "processing_start_time": 1779801983,
+      "processing_end_time": 1779802455
+    }
+  },
+  "doc-210253b26e54e5756c580b99734126c4": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-b615b5774407c34f6346573e110fff4b",
+      "chunk-48016584c320867d9b591a91df2fb4e3"
+    ],
+    "content_summary": "Hello, this is the 72nd lecture of the Semantic SEO course.\nAnd in this lecture we will try to understand our contextual borders\nand at the same time the structure that we are using in these specific sentences.\nIf you go to the bottom part, here we d...",
+    "content_length": 7870,
+    "created_at": "2026-05-26T09:39:54.235362+00:00",
+    "updated_at": "2026-05-26T13:36:19.011225+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043954_5c0f378b",
+    "metadata": {
+      "processing_start_time": 1779802164,
+      "processing_end_time": 1779802579
+    }
+  },
+  "doc-7bac158301241b2bfaefdbc986fbce57": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-f5d7082c2385428e0799d39afec90f74",
+      "chunk-f31f3aed61e9cf4d37df96dc53760a60"
+    ],
+    "content_summary": "Hello, this is the 73rd lecture of the Semantic SEO course.\nI was about to start, then I actually got a kind of notification and I realized that Microsoft launched their image creator.\nAnd due to the momentary context, I used this specific prompt, ev...",
+    "content_length": 6141,
+    "created_at": "2026-05-26T09:39:54.738555+00:00",
+    "updated_at": "2026-05-26T13:42:08.739364+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043954_f3e0e02a",
+    "metadata": {
+      "processing_start_time": 1779802456,
+      "processing_end_time": 1779802928
+    }
+  },
+  "doc-1c13eef5a52c6ee498e46892234fbffc": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-ff10916568cb871045df7d56437f9ffb",
+      "chunk-fb1177eff05fcacbefb5fcf5b925177e"
+    ],
+    "content_summary": "Hello, this is the 74th lecture in the Semantic SEO course.\nIn this lecture, we will try to understand the connection between our heading, anchor text and the next article's title and also the H1.\nAs you see, the phrases or the question format that w...",
+    "content_length": 6798,
+    "created_at": "2026-05-26T09:39:55.246838+00:00",
+    "updated_at": "2026-05-26T13:43:19.324729+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043955_de6abf15",
+    "metadata": {
+      "processing_start_time": 1779802579,
+      "processing_end_time": 1779802999
+    }
+  },
+  "doc-56cdab63084565b9b40cd1b6dfaa1d57": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-56cdab63084565b9b40cd1b6dfaa1d57"
+    ],
+    "content_summary": "Hello, this is the 75th lecture of the Semantic SEO course.\nIn this lecture, we will continue to examine this specific article that comes from this specific content brief.\nSo you will realize that one more time in our contextual vector,\nwe see that c...",
+    "content_length": 4925,
+    "created_at": "2026-05-26T09:39:55.751271+00:00",
+    "updated_at": "2026-05-26T13:48:07.663113+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043955_740dbfbb",
+    "metadata": {
+      "processing_start_time": 1779802929,
+      "processing_end_time": 1779803287
+    }
+  },
+  "doc-076b314fa138acb2bb1d768ecd53eacb": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-2002fbb248a146a783e2d25d0a26b5e1",
+      "chunk-22c59e2a7169d4f33e0aa485c94cdfc0"
+    ],
+    "content_summary": "Hello, this is the 76th lecture of the Semantic SEO course.\nAnd we examined this content brief before.\nDirectly we will dive into the article this time.\nWe say it definition of the water intoxication will be the first section because it's synonym\nof ...",
+    "content_length": 8667,
+    "created_at": "2026-05-26T09:39:56.259919+00:00",
+    "updated_at": "2026-05-26T13:54:20.154928+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043956_d698000d",
+    "metadata": {
+      "processing_start_time": 1779802999,
+      "processing_end_time": 1779803660
+    }
+  },
+  "doc-becc281b8815a6b460b75147ab96e01e": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-b15cca57f0ab0737789ae9524b989e9a",
+      "chunk-30f6de50b751c0769c7fedc8b9ca736c"
+    ],
+    "content_summary": "Hello, this is the 77th lecture of the Semantic SEO course.\nIn this lecture, we will be examining our specific first\nsentences for all these list items. In every list item\nsentence, we are directly connecting our specific\ncontextual term to the direc...",
+    "content_length": 7679,
+    "created_at": "2026-05-26T09:39:56.763185+00:00",
+    "updated_at": "2026-05-26T13:59:30.194050+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043956_14fd94ac",
+    "metadata": {
+      "processing_start_time": 1779803288,
+      "processing_end_time": 1779803970
+    }
+  },
+  "doc-f422db2db2611b29b00ed033671b2af3": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-4c762de7be0b6a4d90e049c5181bbfa7",
+      "chunk-fcc3b08eaa821f490808f28acdb3427f"
+    ],
+    "content_summary": "Hello, this is the seventh to eighth lecture of the Semantic SEO course.\nIn this lecture, we will come to examine our supplementary content.\nIf we ask a border question in terms of contextual border,\nlike how do scientists define water intoxication?\n...",
+    "content_length": 6007,
+    "created_at": "2026-05-26T09:39:57.271859+00:00",
+    "updated_at": "2026-05-26T14:04:40.067276+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043957_ab48d225",
+    "metadata": {
+      "processing_start_time": 1779803660,
+      "processing_end_time": 1779804280
+    }
+  },
+  "doc-c81548da7fc3e5f001853142c8d92329": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-033e32a702575a62b5b19519f8d10336",
+      "chunk-b63b8039dffe93f2bfc1067016a037be"
+    ],
+    "content_summary": "Hello, this is the seventh and ninth lecture of the Semantic SEO course.\nAnd in this lecture, we will examine one more article and then one more,\nand then we will be ending the fundamental section together.\nSo this is a Boolean question.\nDirectly it ...",
+    "content_length": 10181,
+    "created_at": "2026-05-26T09:39:57.775299+00:00",
+    "updated_at": "2026-05-26T14:07:19.887621+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043957_e4a6ef3d",
+    "metadata": {
+      "processing_start_time": 1779803970,
+      "processing_end_time": 1779804439
+    }
+  },
+  "doc-ffc36b0ef37506d77f34237b8fdd5ffa": {
+    "status": "processed",
+    "chunks_count": 4,
+    "chunks_list": [
+      "chunk-f68382a040b4d2f1aa22aab06b68df03",
+      "chunk-5e745285933563d1ddbb9665a9120ab7",
+      "chunk-75638495745aa3c7df7e7d7c181bc1e1",
+      "chunk-9f0632b547a34e2bc896a85a73634711"
+    ],
+    "content_summary": "Hello, this is the 80th lecture of the Semantic SEO course and this will be the end of the\nfundamentals section.\nIf you click to do this link, we will be going to do this specific content briefs article.\nAnd if you read these sections, you will reali...",
+    "content_length": 17583,
+    "created_at": "2026-05-26T09:39:58.284784+00:00",
+    "updated_at": "2026-05-26T14:23:40.334087+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043958_1c5642a8",
+    "metadata": {
+      "processing_start_time": 1779804280,
+      "processing_end_time": 1779805420
+    }
+  },
+  "doc-c89cbb66c7dd28daa353418545e49554": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-ed6f22b50fbe99a4617979e61375347c",
+      "chunk-75f4a79b4d1aa62fc3fad5f6100e5600"
+    ],
+    "content_summary": "hello everyone this is the eighth first lecture of the semantic SEO course and\nwe are coming to the end in this lecture we will create a topical map together\nand we will examine all of the concepts that we coined together like central\nentity or core ...",
+    "content_length": 10064,
+    "created_at": "2026-05-26T09:39:58.787951+00:00",
+    "updated_at": "2026-05-26T14:19:20.940534+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043958_2164809e",
+    "metadata": {
+      "processing_start_time": 1779804440,
+      "processing_end_time": 1779805160
+    }
+  },
+  "doc-617e49806b5fd6f9ff73c55f679d6d44": {
+    "status": "processed",
+    "chunks_count": 4,
+    "chunks_list": [
+      "chunk-1f19a0364bcd78fdb82d2f10dc2a7f99",
+      "chunk-999f5afed08096e50071764ae40131c6",
+      "chunk-1c9e8c358847490028a28966703e6ef6",
+      "chunk-a46709e42ef223e72db78ae1e1048c87"
+    ],
+    "content_summary": "Hello everyone, this is the 82nd lecture of the Semantic SEO course.\nIn this lecture we will be creating a new topical map especially for the topic of glasses.\nBut the thing is, I didn't choose a specific type of source context here, so I will give t...",
+    "content_length": 17027,
+    "created_at": "2026-05-26T09:39:59.297063+00:00",
+    "updated_at": "2026-05-26T15:52:22.040230+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043959_24077140",
+    "metadata": {
+      "processing_start_time": 1779809740,
+      "processing_end_time": 1779810742
+    }
+  },
+  "doc-cef171c329a755e64f865cc6b366855c": {
+    "status": "processed",
+    "chunks_count": 4,
+    "chunks_list": [
+      "chunk-be9f0b337786fa9ac6737c59cfd3e508",
+      "chunk-f8ec944927f9082f3cfcb8716ec7182a",
+      "chunk-3358154ce1c7d78324888cc7f76f52dd",
+      "chunk-341a42b0e5298ae0043474f2a1664b51"
+    ],
+    "content_summary": "Hello everyone, this is the 83rd lecture of the Semantic SEO course.\nIn this lecture we will create one more topical map and this topical map will be about the electric cars.\nWe have chosen the topic of electric cars because it means we will need to ...",
+    "content_length": 17250,
+    "created_at": "2026-05-26T09:39:59.801031+00:00",
+    "updated_at": "2026-05-26T15:51:59.819711+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_043959_7072c452",
+    "metadata": {
+      "processing_start_time": 1779809789,
+      "processing_end_time": 1779810719
+    }
+  },
+  "doc-859f53c8d3bc99240146f7ca0a381f55": {
+    "status": "processed",
+    "chunks_count": 4,
+    "chunks_list": [
+      "chunk-87e9572871ed7ff6c6c11fdb86ee2c7e",
+      "chunk-0fe31caa4499127b2544ba542bdf635f",
+      "chunk-60923d03c70551cefab5f72ed0dee9ce",
+      "chunk-fb87d5903b8d6780c361469639244f38"
+    ],
+    "content_summary": "Hello, this is the 84th lecture of the Semantic SEO course. In this lecture, we will be creating\na content brief directly to construct our semantic content network. And to be able to do that,\nwe will need to actually examine our topical map. And we h...",
+    "content_length": 18148,
+    "created_at": "2026-05-26T09:40:00.311496+00:00",
+    "updated_at": "2026-05-26T14:52:04.918342+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_044000_e54b2c8c",
+    "metadata": {
+      "processing_start_time": 1779805891,
+      "processing_end_time": 1779807124
+    }
+  },
+  "doc-c2a50b662ee042ffebba7f93c803e324": {
+    "status": "processed",
+    "chunks_count": 4,
+    "chunks_list": [
+      "chunk-0e516c24df7f67e764c86da19d203579",
+      "chunk-bbedcd7bd86eeb3e840ab8d2ece81dfa",
+      "chunk-82c5472b7a8a78c527e88040ad0aef68",
+      "chunk-ecefb676a8e82587c06177b689cf2ed4"
+    ],
+    "content_summary": "Hello everyone, this is the 85th lecture of the Semantic SEO course.\nIn this lecture, we will be creating the last content item brief for now.\nAnd in this content item brief, we will be focusing on the QR code generator topical map that we have creat...",
+    "content_length": 17132,
+    "created_at": "2026-05-26T09:40:00.816023+00:00",
+    "updated_at": "2026-05-26T14:57:44.428834+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260526_044000_15402639",
+    "metadata": {
+      "processing_start_time": 1779806315,
+      "processing_end_time": 1779807464
+    }
+  }
+}

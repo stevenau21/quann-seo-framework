@@ -1,0 +1,121 @@
+HTML <li> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <li> HTML Tag defines an ArrayList in an HTML page that can be found in both an ordered and an unordered list of other items. The <li> HTML Tag necessitates the use of a beginning and ending tag. There is no need to include an end tag when a list element is followed immediately by some other <li> HTML Tag element, or when there is no further data in the parent component of the list item. In an Ordered List <ol> or Unordered List <ul>, it is used to separate items. The <li> HTML Tag is part of the List HTML category in HTML Element Reference. The attributes of the <li> HTML Tag are value, global, and event attributes.
+<li> code block example to learn how it works is given below.
+<ul>
+<li>List of item...</li>
+<li>List of item...</li>
+<li>List of item...</li>
+</ul>
+The second example usage of the “<li>” code block example is given below.
+<ul>
+<li>Love</li>
+<li>Security</li>
+<li>Happiness</li>
+</ul>
+Contents of the Article
+show
+1.
+What is <li> HTML Tag?
+2.
+How to Use <li> HTML Tag?
+2.1.
+Example Usage of <li> HTML Tag?
+3.
+What are the Attributes of <li> HTML Tag?
+4.
+What are the Default CSS Settings for <li> HTML Tag?
+5.
+What are the Related other HTML Tags to <li>?
+What is <li> HTML Tag?
+The <li> HTLM Tag is used to denote the separation of items in an HTML List. Ordinary and ordered lists are represented respectively by the <ul> HTML Tag and <ol> HTML Tag in the HTML markup. The <menu> HTML Tag is responsible for defining the contextual menu. In menus and unordered lists, list items are typically presented using bullet points to distinguish them from one another. They are typically indicated with a figure or letters on the left side of an ordered list.
+How to Use <li> HTML Tag?
+To use the <li> HTML Tag, the web developers should write <li></li> with list item included within an ol> or ul> tag to offer a unique list item within those components. The web developer can define a number for a list item using the value property. Subsequent list items’ values are increased by that increment.
+Example Usage of <li> HTML Tag?
+The following examples of usage of <li> HTML Tag are given below.
+<ul>
+<li>Bamboo Tree</li>
+<li>Water
+<ul>
+<li>Fresh Water</li>
+<li>Faucet Water</li>
+</ul>
+</li>
+<li>Colored Water</li>
+</ul>
+<ul>
+<li>Coffee</li>
+<li>Drink
+<ul>
+<li>Hot Coffee</li>
+<li>Cold Coffee</li>
+</ul>
+</li>
+<li>Tea</li>
+</ul>
+What are the Attributes of <li> HTML Tag?
+There are multiple attributes for the <li> HTML Tag. The following attributes are listed below.
+Value Attribute: The <li> HTML Tag supports the value attribute. This is only applicable to <ol> lists. The beginning value of a list item is specified by this property. The following items on the list will be numbered in increments of that number.
+Global Attributes: The <li> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <li> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <li> HTML Tag?
+The following are the Default CSS Settings for the <li> HTML Tag. The following are some examples.
+p,
+li {
+font: 1rem 'Fira Sans', sans-serif;
+}
+p {
+font-weight: bold;
+}
+What are the Related other HTML Tags to <li>?
+The other related HTML Tags to the <li> HTML Tag are listed below.
+<dd> HTML Tag: The
+<dd>
+HTML Tag and <li> HTML Tag are related because they are both lists HTML Tags. In the <dd> HTML Tag defining a definition of a term or name within a descriptive list.
+<dt> HTML Tag: The
+<dt>
+HTML Tag and <li> HTML Tag are related because they are both lists HTML Tags. In a description list, a term or name is defined
+<dl> HTML Tag: The
+<dl>
+HTML Tag and <li> HTML Tag are related because they are both list HTML Tags.  The <dl> HTML Tag specifies a specifies a list of descriptions
+<ol> HTML Tag: The
+<ol>
+HTML Tag and <li> HTML Tag are related because they are both lists HTML Tags. The <ol> HTML Tag establishes the concept of an arranged list.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <li> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <figcaption> Tag Definition, Usage and …
+TechSEO
+HTML <ol> Tag Definition, Usage and Examples…
+0
+0
+0

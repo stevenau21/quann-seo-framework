@@ -1,0 +1,122 @@
+"link rel=preload": How to Preload Key Requests with Browser Hints - Holistic SEO
+Skip to content
+“Link rel=preload” is a browser hint to provide resource loading prioritization to improve the web page loading performance and speed. Preload is a value for the “rel” attribute of the HTML “link” tag to fetch a web page resource earlier than others. To improve the initial contact with users by improving the user experience, preload can be used for certain types of web page elements such as fonts, images, or CSS and JS files.
+To improve the “preload” command’s efficiency for browsers, preconnect, DNS-prefetch, prerender can be used within a harmony. Using preload more than 4 different resources can cause First Input Delay increase, and Total Blocking Time since preloading everything will block the main thread of the browser for rendering. Thus, the resources for preloading should be chosen with manual web page speed tests, and the field-lab data should be collected for evaluation.
+“rel” is an attribute for the HTML “link” tag that can signal the type of resources that will be fetched and the priority of the resources for downloading. Thus, using the value “preload” for the “rel” attribute of the “link” tag can be useful, but using it with “onClick” events, or different types of methodologies such as the “as” attribute can block some browsers from using the specific preloaded resource. To provide the best possible performance for the users, and clarity for the search engine crawlers, in the “preload browser hint” guideline, the methods, and working principle of “link rel=preload” will be explained.
+Contents of the Article
+show
+1.
+How does Preloading Work?
+1.1.
+What is a Critical Request Chain’s relation to Preloading?
+1.2.
+What types of resources can be preloaded with “link re=preload”?
+2.
+What are the Basics of Preload?
+2.1.
+What is Cache Preloaded?
+2.2.
+Why shouldn’t the onLoad event be used with “link rel=preload”?
+3.
+What is the Relation between Subresource and Preload?
+4.
+What is the relation of Modulepreload and Preload?
+4.1.
+How to use Preload for JavaScript Modules?
+5.
+What are the other Browser Hints besides Preload?
+6.
+Which User-centric Metrics can be improved with Preload?
+6.1.
+Which Core Web Vitals Metrics can be improved with Preload?
+7.
+What are the relevant concepts for browser hints like Preload?
+8.
+Last Thoughts on “link rel=preload” for Key Requests and Holistic SEO
+How does Preloading Work?
+The Preloading works based on the critical request chain by changing the order of fetched and downloaded resources. A key request from the critical request chain can improve the users’ interaction with the web page’s initial phase of the lifecycle. Based on the user-centric web page loading performance metrics such as “Visual Stability”, or “Loading Responsiveness”, preloading can improve the quality of user experience and quality assignment of the specific web page. Preload browser hint and “preload key requests” warning from the lab-data, or page speed test tools (page loading simulators for page speed metrics) are connected to each other. To preload, a key request, the key requests, and the critical request chain should be known.
+What is a Critical Request Chain’s relation to Preloading?
+Preloading and Critical Request Chain’s relation is to provide a correct resource loading order to fasten the initial contact of the user by making the web page responsible. Critical Request Chain contains the web page resources that are significant for making the web page meaningful, usable, and responsive to the user activity. Preloading these specific resources in the correct order can improve the crawl efficiency of a web page by improving the core web vitals. A critical request chain can look as below.
+index.html
+|--style.css
+|--open-sans.woff2
+|--nav-style.css
+The example of the critical request chain above shows that the “index.html” is the “initiator” for the resources “style.css”, “open-sans.woff2”, and “nav-style.css”. Since, the “navigation styles”, and the font styles can be loaded after the “style.css”, preloading the “style.css” can help for a faster web page loading experience by prioritizing also calling the “open-sans.woff2” and “nav-style.css”. To make this critical request chain more efficient for web page loading performance with “preloading”, the “open-sans.woff2” can be used within a “link” element, and the possible FOUT and FOIT problems can be prevented by letting the web page shows its font styles earlier. An example of preloading an element from a critical request chain for the font files is below.
+<link rel="preload" href="example.com/open-sans.woff2" as=woff2/font crossorigin>
+<link rel="woff2/font" href="example.com/open-sans.woff2">
+In this example, the critical request chain has been changed by the “preload” command for the WOFF2 file. And, it can be downloaded and used even before the “style.css”. If loading the font file before the main style CSS file has benefits such as showing the styled text features as soon as possible, this method can be used. Or, the
+above-the-fold section
+of the web page can be used with inlined Critical CSS, and the font file can be requested with a preload command. In this methodology, the critical request chain would be organized better for better first contentful paint, and largest contentful paint. All these examples show the value of “preload”, and understanding the “critical request chain” effect for the web page loading experience of users. To learn more about font file loading improvement methods, you can read the related guideline.
+Note: The “crossorigin” attribute for the preload request is to prevent the two sequential requests for the specific font file. Using the cross-origin attribute for preloaded font files is a must to keep a more healthy request count, and size.
+What types of resources can be preloaded with “link re=preload”?
+The resource types that can be preloaded are listed below.
+JavaScript Files
+CSS Files
+Font Files such as TTF, EOT, WOFF, WOFF2
+Track Files such as WebVTT
+JavaScript Service Worker
+JavaScript Web Worker
+Video Files such as MP4, MP3, WebM
+Images such as AVIF, WebP, JPG, and JPEG, or PNG
+Object Files such as Embedded element within <object> tag
+Embed Files within the <embed> tag
+What are the Basics of Preload?
+The basics of preload involve the syntax of preload and attributes related to using it. The basics of preload and related attributes are listed below.
+“href” attribute for specifying the resource that will be preloaded
+“as” attribute to specify the type of the resource
+The as attribute is to provide the type of the preloaded resource. The type of information will help the browser to prioritize the resource with better precision and cache it within the browser cache. The values that can be used for the “as” attribute are “script”, “font”, “image”, “style”, “object”, “worker” and others. Example usage of the “href” and “as” attributes with the “preload” is below.
+<head>
+<meta charset="utf-8">
+<title>Link Rel Preload Guideline</title>
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css">
+<link rel="preload" href="main.js" as="script">
+</head>
+<body>
+<h1>Link Rel Preload Guideline</h1>
+<p>Preload can be used with different methods such as onload events, or click eventListeners.</p>
+<script src="main.js" defer></script>
+</body>
+In the example above, the preloaded resources which are “style.css”, and “main.js” are called separately with the “script” and “link” tags after the “preload” link elements. Because, the preloaded resource can be fetched and downloaded earlier, but to use it earlier, the browser will need a second declaration by specifying its type within the attribute “as”. At the second call with the related type information of the preloaded resource, the browser won’t download the resource a second time, but it will use it directly with high priority. Thus, preloading and declaring the same resource with the related type are connected to each other for prioritizing the usage of the related resource.
+What is Cache Preloaded?
+Preloaded resources of a web page have a place within the HTTP Cache Hierarchy. A resource that is cached with the “preload” will be kept in the “session-based” cache of the browser. When the session is stopped, the preload cache will be purged. Since the preloaded resources are a high priority, most of the time they are used also for other web pages of the same website. In this context, a preloaded resource can be cached to eliminate extra requests, downloading and compiling for the next web pages. To use the “preload cache”, the “as” attribute should be used with the correct format. If the “as” attribute is omitted, or if the value for the “as” attribute is wrong, browser will handle the preloaded request as an XHR request. And, the browser won’t be able to prioritize the preloaded resource correctly. In the same context, the “crossorigin” attribute should be used with preload browser command for the font files. If the “crossorigin” is not used, the specific font file will be requested two times. To cache the font files in a correct format with preload cache, the “crossorigin” attribute will provide the correct insights for the browser.
+To understand the HTTP Cache Hierarchy along with cache preloaded, the guidelines below are related.
+Last Modified Response Header
+Expires Response Header
+eTag Response Header
+Cache-control Response Header
+Why shouldn’t the onLoad event be used with “link rel=preload”?
+There are two main reasons for not using the JavaScript “onLoad” event with “link rel=preload”.
+Better Performance
+: onLoad event is a JavaScript-based trigger to make a conditional request happen during the early stage of the lifecycle of a web page. Using onLoad event with “link rel=preload” can cause a browser to use JavaScript rendering to give the basic styles of a web page. In other words, without rendering the JavaScript, giving the styles of a web page wouldn’t be possible. In this context, the first thing a browser does to render a web page is to complete the
+Document Object Model
+, and then the Cascaded Style Sheet Object Model. Together, the DOM and the CSSOM create the “Rendering Tree” for the web page. If a browser needs to render JavaScript to complete the Rendering Tree, it will cause extra cost in terms of time since it changes the natural order of the creation of a web page from the point of view of a modern browser.
+Clarity for Search Engines
+: The second possible harm of “onLoad JavaScript event with preload” is to hide the content from Search Engine Crawlers if they do not render the JavaScript during their crawling hits. Since Google and Microsoft Bing Search Engines do not render JavaScript 100% for every time they crawl a web page, hiding the style of a web page behind the JS Rendering can affect the crawlers of search engines’ perception of the specific website, and it can cause continuous processes of re-ranking with high velocity. Since, the search engine is not sure whether the JS-rendered content exists within the web page, or not, they can’t have a high confidence score to provide the styles’ effect for the specififc web page’s evaluation, and association processes for quality assignment.
+Understanding the effects of “onLoad Event” for a web page, and its connection to the Rendering Tree requires knowing the things below.
+What is JavaScript?
+What is HTML?
+What is CSS?
+What is the Relation between Subresource and Preload?
+“link rel=subresource” is an old resource loading hint from Google Chrome that does the same thing with preload. “Subresource” resource loading hint (browser hint) didn’t have the attribute “as”, thus prioritizing was not perfect for the resources. Link prefetching with subresource didn’t have a priority hierarchy, anything that has been put into the link element with “subresource” would be requested and used immediately. On the other hand, the preload can provide build custom resource loading and execution unlike subresource by letting the browser download a resource earlier, and use it when the time comes. Below, you will see the replacement announce from Google Chrome for “subresource”.
+Below, you can see a request from Google Chrome’s Google Group which is “blink-dev”.
+Below, you will see another image that explains the removal of subresource by saying it is problematic and buggy, unlike Preloading API.
+What is the relation of Modulepreload and Preload?
+The “modulepreload” and preload are connected to each other for prioritizing resources as resource loading hints for key requests. The “modulepreload” attribute has been announced in 2017 by Google, while the “preload” value has been announced in 2016. “Modulepreload” value can be used to prioritize the modules of JavaScript files. To load the dependencies of a JavaScript file by chunking them with current timing for user interactivity, “modulepreload” can be used. Example usage of “modulepreload” can be found below.
+<head>
+<link rel="modulepreload" href="module-1.mjs">
+<link rel="modulepreload" href="module-2.mjs">
+<link rel="modulepreload" href="nodule-3.mjs">
+<link rel="modulepreload" href="module-4.mjs">
+</head>
+To learn more about “modulepreload”, you can read the related guideline.
+How to use Preload for JavaScript Modules?
+To use “preloading” for JavaScript Modules, plugins can be used. For instance, to build an application with a bundler such as WebPack, a developer can be used the magic comments and “import()” function for “wepackPreloaded: True” and “CriticalChunk” values. Example usage of preload-webpack-plugin” can be seen below.
+import(_/* webpackPreload: true */_ "CriticalChunk")
+What are the other Browser Hints besides Preload?
+The other browser hints for better page loading performance besides preload are listed below.
+Preconnect: to perform DNS-Resolution, TLS Handshake, and TCP Connection.
+DNS-Prefetch: to perform DNS-Resolution.
+Prerender: To prerender a web page at t
+
+[...truncated...]

@@ -1,0 +1,121 @@
+Skip to content
+The aria-description determines a string value describing the ongoing element. The intention for the aria-description is to create a mechanism that details the current element, providing assistive technologies with a greater context. The developers can use aria-description to generate a descriptive text that can be associated with the object via ID reference only if there is no appropriate descriptive text. The aria-description can be used in all types of elements. The aria-description can be used in ARIA Labels like aria-describedby, aria-label, and aria-details.
+Contents of the Article
+show
+1.
+What is the function of the “aria-description” ARIA Label?
+2.
+What are the uses of the “aria-description” ARIA Label?
+3.
+Example Uses of “aria-description” ARIA Label
+4.
+What are the related ARIA Labels to “aria-description”?
+What is the function of the “aria-description” ARIA Label?
+The aria-description command functions to create a text string to link with another element. It functions like an aria-label that provides brief information. However, the information can be lengthier because its purpose is to give context to its users. The aria-description provides the users with an added descriptive text to the object in which it is set. It has an unconstrained string value type that is meant to be imparted to the assistive technology user.
+What are the uses of the “aria-description” ARIA Label?
+Listed below are the uses of the “aria-description” ARIA Label.
+textbook:
+The textbook role is utilized to recognize an element that allows the input of free-form text. If possible, use an input element with type=”text”, for a single-line input or textarea element for multi-lines.
+table:
+The table value of the ARIA role attribute is to identify the element that contains a role of having a non-interactive table structure that contains data arranged in rows and columns.
+suggestion:
+The suggestion landmark role denotes a single semantic change to an editable document. It should only be used in elements that have an insertion role, and one with a deletion role.
+select:
+The select role is an abstract role that is made to form widgets that allow the users to make selections from a set of choices. It is regarded as a superclass role.
+sectionhead:
+The sectionhead role is another superclass role. It is used for labels or summaries to shorten and summarise its related topics.
+Example Uses of “aria-description” ARIA Label
+Listed below are the example uses of the “aria-description” ARIA Label.
+The aria-description attribute helps users to provide additional descriptive text for an object. In some cases, other developers don’t want to provide visible descriptions of the user experience. Developers may set the accessible description of the element using the aria-description. The purpose of these examples is to showcase the usage and structure of the aria-description attribute.
+The following example is an aria-description with an aria-label=”Event”.
+<div role="application" aria-label="Event"
+aria-description="Christmas in December">
+<h1>Red Sox 2021</h1>
+<div role="grid">
+...
+</div>
+</div>
+Example with aria-label=”Game”
+<div role="application" aria-label="Game"
+aria-description="Game 1 of Dallas Mavericks vs Golden State Warriors">
+<h1>Red Sox 2021</h1>
+<div role="grid">
+...
+</div>
+</div>
+Example with aria-label=”Rockband”
+<div role="application" aria-label="Rockband"
+aria-description="Wembley Stadium Queen Rock Concert">
+<h1>Red Sox 2021</h1>
+<div role="grid">
+...
+</div>
+</div>
+Example with aria-label=”Festival”
+<div role="application" aria-label="Festival"
+aria-description="Tomorrowland Music Fesitval in Munich Germany">
+<h1>Red Sox 2021</h1>
+<div role="grid">
+...
+</div>
+</div>
+Example with aria-label=”Vacation”
+<div role="application" aria-label="Vacation"
+aria-description="7 wonders of the world island">
+<h1>Red Sox 2021</h1>
+<div role="grid">
+...
+</div>
+</div>
+What are the related ARIA Labels to “aria-description”?
+Listed below are the related ARIA Labels to “aria-description”.
+aria-label:
+The aria-label is related to aria-description because they both supply a string value for an interactive element. The aria-description is intended to provide a descriptive text for an element. The
+aria-label
+specifies a string value that is short and concise for an interactive element.
+aria-describedby:
+The aria-describedby is related to aria-description because they both have similar functions in establishing a relationship between two elements through descriptive texts. The
+aria-describedby
+attribute determines an element that identifies another element in which the attribute exists.
+aria-details:
+The aria-details are reminiscent of aria-description because they function to identify and give additional data for a linked element. The
+aria-details
+are utilized for added information or complex descriptions of an element.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-description” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-details” ARIA Label for Accessibility
+TechSEO
+“aria-describedby” ARIA Label for Acce…
+0
+0
+0

@@ -1,0 +1,107 @@
+Via HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Via header is added by proxies, both forward and reverse. The Via Header can appear in the request or response header. The Via HTTP Header is used for tracking message forwards, avoiding request loops, and identifying the protocol capabilities of senders along the request/response chain. The header type of Via HTTP is the General Header. The Via Header has multiple values. The syntax of Via HTTP accepts multiple values such as the protocol name, protocol-version, host and post, and the pseudonym. The following is an example of a Via HTTP for the request header for a client-made HTTP request.
+Via: 1.1 vegur
+Via: HTTP/1.1 GWA
+Via: 1.0 fred, 1.1 p.example.net
+Via HTTP Request Header can be seen above. In this article, the Via HTTP Syntax, Directives, and Uses with examples will be processed.
+Contents of the Article
+show
+1.
+What is Via HTTP Header?
+1.1.
+What is the Syntax of Via HTTP Header?
+1.2.
+What are the Directives of Via HTTP Header?
+2.
+How to use Via HTTP Header?
+2.1.
+Examples of Via HTTP Header Use
+3.
+What is the Specification Document for Via HTTP Header?
+4.
+What is the type of Via HTTP Header?
+4.1.
+What is the similar HTTP Header to the Via HTTP Header?
+5.
+Which Browsers Support Via HTTP Header?
+What is Via HTTP Header?
+The Via HTTP Header is added by proxies, both forward and reverse, and can appear in the request headers and the reply header. It tracks the messages forwarded, avoids request loops, and identifies the sender’s protocol capabilities.
+What is the Syntax of Via HTTP Header?
+The Via HTTP Header contains two parts in its syntax. The syntax for using Via HTTP Header is written below.
+Via: [ <protocol-name> "/" ] <protocol-version> <host> [ ":" <port> ]
+Via: [ <protocol-name> "/" ] <protocol-version> <pseudonym>
+What are the Directives of Via HTTP Header?
+There are multiple directives that can be put in HTTP headers Via. The directives for using Via are given below.
+<protocol-name> : This directive is optional. It is the name of the protocol that is used, like “HTTP”
+<protocol-version>: This directive is the version of the protocol that is used, like “1.1.”
+<host> and <port>: This directive is the URL and port of the public proxy server.
+<pseudonym> : This directive is specified to the internal proxy name or alias.
+Examples of Via HTTP Header directives are shown below.
+Via: 1.1 vegur
+Via: HTTP/1.1 GWA
+Via: 1.0 fred, 1.1 p.example.net
+How to use Via HTTP Header?
+Via HTTP Headers are used to track messages forward, avoid request loops, and identify the protocol capabilities of the sender along the request/response chain. Via HTTP headers can appear in request or response headers.
+Examples of Via HTTP Header Use
+To see some examples of the Via HTTP Header you must go to “Inspect Element” and then find the “Network” section and check the request header for the Via HTTP header. Examples of Via HTTP use are shown below.
+via: 1.1 43bb0inMGybdnBNBmnmFChILK.chbJHSkl.net (CloudFront)
+What is the Specification Document for Via HTTP Header?
+There is only one specification document for the Via HTTP Header which is the RFC 2616. The RFC 2616 article mentions that the Via HTTP Header identifies intermediate protocols and recipients between user agents and servers on requests, and between origin servers and clients on responses. Additionally, this article discusses the Via HTTP Header’s definition and usage.
+What is the type of Via HTTP Header?
+Request Headers – The purpose of this section is to inform the user of the Via HTTP Header to track messages forward, avoid request loops, and identify the protocol capabilities of the sender along the request/response chain.
+What is the similar HTTP Header to the Via HTTP Header?
+There is only one similar HTTP Header to the Via HTTP Header which is the X-Forwarded-For HTTP Header. The
+X-Forwarded-For
+HTTP Header is a header identifying the IP address of a client connecting to a web server via an HTTP proxy or a load server, and a Via HTTP Header is what the proxy adds.
+Which Browsers Support Via HTTP Header?
+There are multiple browsers that support Via HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible e with the Via HTTP Header
+Edge Browser is compatible e with the Via HTTP Header
+Firefox Browser is compatible e with the Via HTTP Header
+Internet Explorer Browser is compatible e with the Via HTTP Header
+Opera Browser is compatible e with the Via HTTP Header
+Safari Browser is compatible e with the Via HTTP Header
+WebView Android Browser is compatible e with the Via HTTP Header
+Chrome Android Browser is compatible e with the Via HTTP Header
+Firefox for Android Browser is compatible e with the Via HTTP Header
+Opera Android Browser is compatible e with the Via HTTP Header
+Safari on iOS Browser is compatible e with the Via HTTP Header
+Samsung Internet Browser is compatible e with the Via HTTP Header
+You can see an image that shows cross-browsers compatibility of Via HTTP Headers below.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Via HTTP Header: Syntax, Directive, Examples
+by Koray Tuğberk GÜBÜR
+time to read: 3 min
+TechSEO
+Forwarded HTTP Header: Syntax, Directive, Examples…
+TechSEO
+ECT HTTP Header: Syntax, Directive, Examples
+0
+0
+0

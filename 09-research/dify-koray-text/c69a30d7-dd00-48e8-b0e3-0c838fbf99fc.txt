@@ -1,0 +1,121 @@
+What is AMP: Definition, History, and Usage - Holistic SEO
+Skip to content
+Accelerated Mobile Pages (AMP) is an open-source technology developed by the AMP Open Source Project and supported by Google. Announced in October 2015 as an internal project at Google, pages supporting this technology have been displayed as such in Google Search results since February 2016. After being criticized for the control given to Google on the pages supporting this technology, the project announced on September 18, 2018, to move towards a more open governance model, where none of its members have more than 30% of the votes. However, criticism remains of the way AMP pages are referenced, arguing that Google is pushing developers to use services that put the company in a strong position.
+Contents of the Article
+show
+1.
+How is the History of AMP Pages?
+2.
+What are the methods for using AMP Pages?
+3.
+What are the critics and reviews about AMP Pages?
+4.
+What is the Purpose of AMP Pages?
+5.
+What are the Limitations of AMP Pages?
+6.
+What is the benefit of AMP Pages for SEO?
+6.1.
+Do AMP pages rank higher?
+6.2.
+Is AMP a must for News SEO?
+6.2.1.
+Why did Google remove AMP Obligation for News Websites?
+7.
+What are the disadvantages of AMP?
+8.
+What are the questions related to AMP?
+8.1.
+Is AMP an obligation for News SEO?
+8.2.
+How to Disable Google AMP Links on Phone?
+8.3.
+Is AMP bad?
+8.4.
+Is Google AMP secure?
+8.5.
+Is AMP faster than other web pages?
+8.6.
+How to Validate AMP Pages?
+8.7.
+How to find a non-AMP version of an AMP Page?
+8.8.
+How to use Canonical Tag with AMP Pages?
+8.9.
+How to use hreflang with AMP Pages?
+8.10.
+How to measure the traffic of AMP Pages?
+8.11.
+How to use Google Search Console AMP Report?
+8.12.
+Is AMP for only mobile pages?
+8.13.
+Does AMP work only on Google?
+8.14.
+Does every AMP page should have a non-AMP version?
+8.15.
+Is AMP entirely a Google Project?
+8.16.
+Can AMP be used for E-commerce?
+8.17.
+Does AMP support interaction with users?
+8.18.
+Is coding an AMP Page harder than a normal HTML Page?
+8.19.
+Do AMP pages convert well?
+8.20.
+What are the statistics and case studies for AMP Pages?
+9.
+Last Thoughts on AMP Pages and Holistic SEO
+How is the History of AMP Pages?
+Google announced the AMP project on October 7, 2015. Discussions were held beforehand with partners of the European Digital News Initiative founded by Google and with other news publishers and technology companies. Initially, more than 30 news publishers and several technology companies (including Twitter, Pinterest, Linked In, and WordPress ) were featured as participants in the AMP project. According to one of the co-founders of the AMP project, Malte Ubl, AMP was originally called PCU and stood for Portable Content Unit. Google first started showing AMP versions of web pages in mobile search results in February 2016. The AMP links in Google search have been marked with an icon. AMP technology began to be unveiled at the end of 2015 and the first integrations were launched on the Google search engine in February 2016. Originally restricted to the “News” section of the results, the AMP pages were placed in the main results section from mid-September 2016. They are now marked with a specific icon. This publication format was created by Google in reaction to Facebook’s “ instant articles ” format in order to improve the user experience by reducing the loading time of web pages viewed via a mobile phone. AMP is currently used by hundreds of American and European sites, including Le Parisien, CNN, ABC, Fox News, and The Washington Post. David Merrell of The Washington Post introduces the AMP framework as follows:
+We are committed to improving the charging speed. If our site is too slow to load, regardless of our journalistic ability, people will leave the page before they see what is available.
+Washington Post
+Third-party plugins are available on several content management systems, including WordPress. AMP is used by several companies or organizations. In addition to Google, this also includes the search engine operators Bing and Baidu, social media such as B. Twitter and Pinterest as well as online trading platforms such as eBay and AliExpress. Various manufacturers of content management systems (CMS) such as WordPress, Joomla, and Drupal support AMP. Several news websites such as Spiegel Online and Washington Post offer content that is edited in AMP. AMP content that is delivered via Google’s AMP cache contains a label stating which provider it came from. Below the address bar of the web browser, which contains Google’s web address, the user can identify the website name of the provider.
+In September 2016, Microsoft announced support for AMP in its Bing apps for iOS and Android.
+In February 2017, a year after AMP was released, Adobe reported that AMP pages account for 7% of all web traffic for top publishers in the United States.
+In June 2017, Twitter began linking to AMP pages through its iOS and Android apps.
+In September 2018, Microsoft began introducing its own Bing AMP viewer and AMP cache.
+As announced by AMP’s technical director Malte Ubl at AMP Conf ’19, AMP no longer stands for Accelerated Mobile Pages and is now just AMP.
+AMP Usage Stats.
+What are the methods for using AMP Pages?
+AMP is a method of creating web pages for static content that enables fast rendering. AMP consists of three parts:
+AMP HTML: HTML with restrictions to ensure reliable performance. Extensions allow you to create rich content that is more sophisticated than basic HTML
+AMP JS: JavaScript library that guarantees fast rendering of AMP HTML pages.
+A cache system: like Google AMP Cache (optional) which provides AMP HTML pages.
+In 2018, Google announced AMP for email. AMP for Email allows you to include AMP components to bring dynamism and interaction to emails. Thanks to the AMP in the email, the content can be refreshed at each opening and on user interaction. It, therefore, paves the way for personalized content. The main strength of AMP email is the implementation of dynamic components, such as forms, animated carousels or videos, and communication between email and server through HTTP requests and formatted responses. JSON. Google, therefore, offers an alternative to JavaScript with AMP, JavaScript n ‘for security reasons. The AMP-compatible messaging services today are Yahoo, Gmail 8, and Gsuite. Outlook also took part in AMP before backing down in October 2020, likely for strategic reasons and to highlight its own technology, Actionable Messages. There are now several tools to facilitate the design of e-mail using AMP, in the form of a “drag and drop” editor, among which is RocketMail.
+What are the critics and reviews about AMP Pages?
+Several media, including The Register, criticized the AMP:
+I think it should be said clearly: Google AMP is a bad thing – a bad thing in the sense that it can potentially destroy the web. Google’s AMP is bad news about how we build the web, it’s bad news for online content publishers, and it’s bad news for consumers of that content. Google’s AMP is good news for only one party: Google. Google, and potentially, the purveyors of fake news. Pinboard. in founder Maciej Cegłowski recreated the Google AMP demo page without using the AMP javascript written by Google and, surprisingly, it is faster than the version of Google. Anyone can cram an illegitimate idea into a web page and – as long as
+Kill Google AMP before it kills the web, Scott Gilbertson
+Chris Coyier, the co-founder of CodePen, wrote that AMP would be better if it wasn’t used as a ranking criterion (or anything that could be interpreted as such) by anyone and if it became a W3C standard. However, AMP is not officially a ranking criterion for Google’s algorithm, although the fact that it speeds up page loading may have a positive effect. Google is also criticized for highlighting AMP pages, putting them at the top of results on Google News. This technique, which Google justifies by promoting faster pages, strongly encourages developers to convert their site to this technology. People clicking on this info can read the content of the article, but without leaving the Google site: Google provides a cached version of the site, which raises questions about the role taken by Google in the distribution of information.
+A section from the Anti-trust laws against Google for AMP technology.
+What is the Purpose of AMP Pages?
+Compared to websites optimized for mobile devices or websites developed by means of responsive design, AMP documents should be loaded significantly faster even via connections with low bandwidth and displayed in common web browsers for mobile devices in a shorter time using HTML rendering. The technical standards “AMP HTML”, “AMP JS” and “Google AMP Cache” serve to streamline the code of the pages. AMP HTML is an HTML that has been expanded to include special AMP tags. AMP-JS is a JavaScript framework that causes all resources to be loaded asynchronously. Visible elements of a page are loaded first and then “invisible” elements. In addition, Google offers the proxy-based content delivery network “AMP Cache”. AMP pages are optionally cached and their performance is optimized to serve them faster. This also enables a short version (snippet) of the AMP page to be displayed on Google search results pages. Images are already scaled to the required size on the server-side. Content that is not immediately visible is requested when you start scrolling. AMP pursues goals similar to Facebook Instant Articles and can be understood as Google’s answer to them.
+However, the claim to merely speed up page impressions is controversial. An antitrust lawsuit by ten US states disclosed on page 80 in paragraph 212 that non-AMP ads were artificially delayed by one second compared to AMP ads. A section from Google’s anti-trust lawsuit related to the AMP can be seen below.
+Google AMP-related critics from the Texas Attorney can be seen above.
+In the section above, Google is being accused by the Texas Attorneys of forcing AMP for the publishers. Another section from Google’s anti-trust lawsuit related to the AMP can be seen below.
+Publisher related AMP Critics from the Google anti-trust lawsuit.
+Google was also accused in antitrust lawsuits that AMP did not speed up web pages. In the section above, AMP-related and web page speed-related sections can be seen.
+AMP Critics can be seen above from the Texas Attorney.
+What are the Limitations of AMP Pages?
+Compared to classic HTML, the developer has to accept various restrictions:
+Numerous common HTML elements are not permitted or have to be replaced by equivalents from the AMP fund.
+Self-developed JavaScript is not allowed. A selection may only be made from a pool of scripts penned by the AMP project. In addition, the counting scripts of some web tracking systems are permitted.
+Only a single central CSS format template is allowed, which must be embedded in the HEAD element of the HTML document. Inline CSS, i.e. using the style attribute of HTML elements, is also allowed. External CSS styles are not allowed with the exception of custom fonts.
+Advertising banners may only be included by marketers who have been expressly approved for AMP. The banner formats are also fixed.
+The websites are temporarily stored in a cache on Google’s servers and sent from there to the users.
+What is the benefit of AMP Pages for SEO?
+The main benefit of AMP Pages for SEO is improving the click-through rate via less data consumption, and improved server response times. AMP Pages work with Signed HTTP Exchanges (SXG). Signed HTTP Exchanges help a search engine to deliver a web page from its own server by retrieving its content from the server of the website. Thus, when a user clicks on a web page, the web page will be served faster with a native page loading experience since there is no request and response need from a third-party server. In this context, the main benefit of AMP Pages is providing a faster page loading time, and helping users to find the information that they seek faster. The benefits of AMP pages for SEO can be found as a list below.
+Higher Click Through-rate: AMP pages can provide a better CTR since the users know that it will provide a better page loading time.
+Lowe Bounce-rate: AMP pages can increase the chance of opening a second page after visiting the landing page, thus the
+bounce rate
+can be improved for websites with AMP.
+Improved Ad views and engagement: AMP web development technology helps for using images and banners better, and naturally placed Ads can improve the Ad engagement with AMP.
+Improved website and web page engagement: AMP Pages can improve the overall event count and engagement with users since it provides a lighter web pages in a mobile-friendly way.
+Lower web page size, and better crawl efficiency: AMP pages can’t use the heavily loaded web page resources, thus the size will be lighter and it will improve its overall performance.
+Improved Conversion Rate: AMP technology can improve the conversion rate via better web page loading perofrmance. But, if the monetization relies on advertisement, since the AMP delays the loading of ads, while scrolling, sometimes users might not see the ads. Thus, performing web page loading and usage tests based on lab and real user metrics (RUM) are important.
+Do AMP pages rank higher?
+No, AMP web pages are not ranked higher just because they use AMP web development technology. A web page doesn’t rank higher just because it uses AMP. In the News SEO industry, AMP pages are not a requirement to have a ranking within the mobile search news carousels after Google’s announcement from 4 May 2020. An AMP web page can rank higher if it is faster than non-AMP web pages. AMP-related ranking factors focus on user experience, thus besides the reliability, trust signals, quality, relevance, and comprehensiveness of the web page for the specific search intent of the user, an AMP page can rank higher if it provides a better user experience. E
+
+[...truncated...]

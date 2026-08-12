@@ -1,0 +1,122 @@
+Skip to content
+The <textarea> HTML Tag specifies a multiline plain text edit control for the raw value of the element. Users can enter content over many lines using the <textarea> HTML Tag. As a result, they may submit longer chunks of text than a conventional< input> HTML tag could. The <textarea> HTML Tag is part of Forms and Input Tags category in HTML Element Reference. The attributes of the <textarea> HTML Tag are autofocus, cols, dirname, disabled, form, maxlength, name, placeholder, readonly, required, rows, wrap, global attributes, and events attributes.
+<textarea> code block example to learn how it works is given below.
+<textarea rows="3" cols="20">
+Enter your text here..
+</textarea>
+The second example usage of the “<textarea>” code block example is below.
+<textarea rows="3" cols="20" minlength="20" maxlength="120">
+Hi, hello...
+</textarea>
+Contents of the Article
+show
+1.
+What is <textarea> HTML Tag?
+2.
+How to Use <textarea> HTML Tag?
+2.1.
+Example Usage of <textarea> HTML Tag?
+3.
+What are the Attributes of <textarea> HTML Tag?
+4.
+What are the Default CSS Settings for <textarea> HTML Tag?
+5.
+What are the Related other HTML Tags to <textarea>?
+What is <textarea> HTML Tag?
+The <textarea> HTML Tag creates a multi-line text input control. The <textarea> HTML Tag is frequently used in forms to collect user inputs such as comments or reviews. A text area can contain an infinite amount of characters, and the text is shown in a fixed-width font (usually Courier). The <cols> and <rows> characteristics define the size of a text area (or with CSS). After the form is submitted, the name property is required to refer to the form data. To associate the text area with a label, the id property is required.
+How to Use <textarea> HTML Tag?
+To use the <textarea> HTML Tag, The site developer should write <textarea></textarea> with anything is placed between the start and end tags. The rows and/or cols attributes can be used to determine how many rows and columns should be shown.
+Example Usage of <textarea> HTML Tag?
+The following example of usage of <textarea> HTML tag is given below.
+<label for="w3review">Review of W3Schools:</label>
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+Sway in the moonlight, dance in the dark
+I know that I caught your eye
+</textarea>
+What are the Attributes of <textarea> HTML Tag?
+There are multiple attributes for the <textarea> HTML Tag. The following attributes are listed below.
+Global Attributes: The <textarea> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <textarea> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+Autofocus Attrubute: The <textarea> HTML Tag supports Autofocus Attribute. The Autofocus Attribute indicates that the drop-down list should be given focus automatically when the page loads.
+Cols Attribute: The <textarea> HTML Tag supports Autofocus Attribute. The visible width of a text area is specified by the Autofocus Attribute.
+Dirname Attribute: The <textarea> HTML Tag supports Dirname Attribute. The Dirname Attribute indicates that the textarea’s text direction will be submitted.
+Disabled Attribute:  The <textarea> HTML Tag supports Disabled Attribute. The Disabled Attribute indicates that a drop-down list is disabled.
+Form Attribute: The <textarea> HTML Tag supports Form Attributes. The Form Attribute specifies the form to which the drop-down list belongs.
+Maxlenght Attribute: The <textarea> HTML Tag supports Maxlengh Attribute. The Maxlengh Attribute determines the maximum amount of characters that may be entered into the text field.
+Name Attribute: The <textarea> HTML Tag supports Name Attribute. The Name Attribute specifies the name of the drop-down menu.
+Placeholder Attribute:  The <textarea> HTML Tag supports Placeholder Attribute. The Placeholder Attribute specifies a brief description of the intended value of a text area.
+Readonly Attribute:  The <textarea> HTML Tag supports Readonly Attribute. The Readonly Attribute indicates whether or not a text area should be read-only.
+Required Attribute: The <textarea> HTML Tag supports Required Attribute. The Required Attribute indicates whether or not a text area should be read-only.
+Rows Attribute: The <textarea> HTML Tag supports Rows Attribute. The Row Attribute determines the number of visible lines in a text area.
+Wrap Attribute: The <textarea> HTML Tag supports Wrap Attribute. When text in a text area is submitted in a form, the Wrap Attribute defines how it should be wrapped.
+What are the Default CSS Settings for <textarea> HTML Tag?
+The following is the Default CSS Setting for the <textarea> HTML Tag.
+label,
+textarea {
+font-size: .8rem;
+letter-spacing: 1px;
+}
+textarea {
+padding: 10px;
+max-width: 100%;
+line-height: 1.5;
+border-radius: 5px;
+border: 1px solid #ccc;
+box-shadow: 1px 1px 1px #999;
+}
+label {
+display: block;
+margin-bottom: 10px;
+}
+What are the Related other HTML Tags to <textarea>?
+The other related HTML Tags to the <textarea> HTML Tag are listed below.
+<form> HTML Tag: The
+<form>
+HTML Tag is related to <textarea> HTML Tag because they are both forms and input tags. Forms are created using the <form> HTML Tag.
+<input> HTML Tag: The
+<input>
+HTML Tag is related to <textarea> HTML Tag because they are both forms and input tags. The <input> HTML Tag is used to specify the Input Element.
+<label> HTML Tag: The
+<label>
+HTML Tag is related to <textarea> HTML Tag because they are both forms and input tags. The <label> HTML Tag is used to specify label for <input> HTML Tag.
+<legend> HTML Tag: The
+<legend>
+HTML Tag is related to <textarea> HTML Tag because they are both forms and input tags. The caption for the fieldset element is defined using the <legend> HTML Tag.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML “textarea” Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <details> Definition, Usage and Example…
+TechSEO
+HTML <form> Definition, Usage and Examples
+0
+0
+0

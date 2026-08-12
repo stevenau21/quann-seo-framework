@@ -1,0 +1,91 @@
+Flywheel Marketing: Definition, Best Examples and Practices - Holistic SEO
+Skip to content
+With the circular model, you use satisfied customers as an impulse to generate recommendations and further sales. In other words, your business is picking up speed. So we’re not just talking about any new marketing trend here. It’s not just about exchanging a term. We’re not just redefining the same process a bit. If you no longer view your business as a funnel but as a cycle, you will inevitably make other decisions and adjust your strategy accordingly. In order to demonstrate what we mean exactly, we first explain in detail how the circulatory model works.
+“Pivot”, “Disruption”, “Minimum Viable Product” – when startup founders, venture capitalists, and marketing makers from the digital scene talk to each other, they usually speak their very own language. On the one hand, terms such as those mentioned should help to explain and understand business processes and their success or failure. On the other hand, they also often serve as code words with which users signal that they have a clear view of their industry. There are certain fashions. If you want to demonstrate that you are up-to-date during such discussions, you should consider adding the term flywheel to your own vocabulary – because apparently this has become fashionable within the past twelve months.
+Contents of the Article
+show
+1.
+How Does Flywheel Model Works?
+2.
+What is the Main Difference Between Funnel and Flywheel Model at a Glance?
+3.
+Anyone Who Wants to Show That Business is Running is Talking About The Flywheel
+4.
+What the Dot.com bubble has to do with the flywheel trend
+5.
+A scribbled sketch on a napkin makes history
+6.
+Various companies even have the term in their name
+7.
+How the Hubspot CEO initiated the renaissance of the term
+8.
+Suitable Even For School Children?
+9.
+Flywheel Method and Its Importance For SEO
+How Does Flywheel Model Works?
+The dynamics of the circulatory model depend on three factors:
+Speed
+Friction
+Size
+The most successful companies consider all three factors in their strategies. The speed increases when you feed energy in the context of a company, for example, additional investments in certain departments, such as the customer service team. If you focus on how you can help your customers succeed, these other potential customers will report on their positive experiences with your company and recommend them to others.
+Of course, every company is different and it depends on your own individual business model how your cycle works. Find out which teams and areas in your company have the greatest impact on growth. Adjust your circulatory system according to this knowledge and especially strengthen these areas.
+Because these reinforcements increase the dynamics of your circulation, you have to eliminate the forces that counteract them, i.e. the friction, as best as possible from your business strategy. You can reduce friction by analyzing how your team structures look, why customers are migrating, and at what points your potential customers’ buying process is stalling. Are all your teams coordinated or do they work in isolation from each other? Is your pricing straightforward or full of confusing fees and extras? Can your potential customers contact you when, how, and where they want, or do they have to adhere to a rigid process?
+The more you increase speed and reduce friction, the more advocates you gain for your company. And these advocates then ensure that your circulation grows quickly.
+You also may want to read our some of the related Marketing Guidelines.
+Return of Investment Definition and Importance
+NeuroMarketing and Principles
+Flywheel Marketing and Its Effects on Revenue
+Eye-tracking and Importance for UX
+Community Management for Better Customer Loyalty
+What is Page Impression?
+What is Conversion Rate Optimization?
+What is the Main Difference Between Funnel and Flywheel Model at a Glance?
+In the well-known Funnel system, the prospective customer goes through the funnel step by step until he finally comes out as a customer. Many marketing experts now consider this method to be outdated. As an alternative, HubSpot introduced the so-called flywheel. There the customer is in the constant, static center of all activities. To ensure that there is no standstill, the sales, marketing, and service departments keep the wheel in constant motion. The biggest advantage of this approach is that even if the customer has officially completed the customer journey, the wheel continues to turn around him. The keyword is dynamics instead of linearity. In this way, existing customers and at best brand ambassadors can be generated much more easily.
+HubSpot CEO Brian Halligan spoke when the Flywheel was announced that the industry had changed too much to continue to rely on the funnel. According to Halligan, this corresponds more to the motivation of companies to have the best possible product. In recent years, however, the goals have changed in such a way that customer satisfaction is now the top priority . For this reason, a model had to be made that also includes the service.
+Anyone Who Wants to Show That Business is Running is Talking About The Flywheel
+Anyone looking for the “flywheel effect” in Google News (in order to exclude search results for companies with the name Flywheel) will come across diverse evidence of this from the past few weeks alone. Ford’s chief technology officer Ken Washington, who is supposed to help beat Tesla, adorns a journalist from the British Telegraph with phrases such as “Thought Leader” and “Flywheel Effect”. The CEO of Super League Gaming, operator of an e-sports community, explains at the presentation of the latest quarterly figures with a view to the company’s growth that the “flywheel effect” is slowly occurring. The Ripple payment network publishes a study, according to which blockchain-based payments meanwhile “get the flywheel in motion”.
+Actually, the term flywheel comes from mechanics. Flywheels are constructs that, once started with little energy, store this energy very efficiently and continue to run for a while. Any further energy then increases the speed of the wheel. Flywheels are used for example in internal combustion engines or in mechanical sewing machines.
+What the Dot.com bubble has to do with the flywheel trend
+The fact that the flywheel has established itself today as a symbol of business and marketing processes can be traced back to the work of two people: Jim Collins and a certain Jeff Bezos. Management expert and interim Stanford professor Collins was working on a book on the management principles of successful companies in 2001 when he was called by his former student Jeff Bezos. At the time, he was going through an extremely difficult time with his company Amazon after the dot.com bubble burst and asked Colins for support.
+At a company meeting, Collins presented the Amazon management with the concept of the “Flywheels” that he later also explained in his very successful book “Good to Great”. Managers should think of their company as a big, heavy bike that can only get started permanently and faster with intelligent and multiple uses of energy.
+You also may want to read our some of the related Marketing Guidelines.
+What is the Return of Investment (ROI)?
+What is NeuroMarketing?
+What is Flywheel Marketing?
+How to use Eye-tracking for better Marketing Campaign Management
+What is Community Management?
+A scribbled sketch on a napkin makes history
+Apparently this picture hit a nerve with Jeff Bezos & Co.: “They took the flywheel and made it their own,” as Collins recently told in the podcast “Recode Decode”. As legend has it, Amazon founder Bezos made a sketch of the Amazon Flywheel on a napkin. The focus is on growth – the big wheel that Amazon wants to turn.
+The Amazon Flywheel based on Jeff Bezos (Source: Amazon.jobs )
+In order to set the growth in motion, Amazon must first offer a positive customer experience, Bezos believes. Then the number of visitors increases, which in turn makes Amazon more interesting for external retailers. As they sell more through Amazon, the range grows, which in turn improves the customer experience. This development triggers another cycle: The growth generated in this way is intended to enable Amazon to lower its own costs and, consequently, the price for customers, which in turn pays off on the customer experience. A video from Amazon’s early days can still be found on Youtube, in which Consumer CEO Jeff Wilke explains the concept to employees.
+Various companies even have the term in their name
+The rest is history. Jeff Bezos has driven Amazon to tremendous growth over the years. For many years, the company has barely made a profit, but it has amassed an enormous sales volume and a gigantic company valuation that has meanwhile exceeded $1 trillion. Even today, Amazon describes the “positive cycle” towards interested applicants as “always present, lively part of the Amazon culture” on its own jobs page.
+The concept of the flywheel has meanwhile got around in the digital and startup scene; Today there are various companies that even carry the term in their name: the Uber-like taxi startup Flywheel, the bicycle spinning company Flywheel Sports, the VC Fond Flywheel Ventures, a WordPress hosting startup and a cloud platform for medical Pictures.
+How the Hubspot CEO initiated the renaissance of the term
+The fact that the term flywheel has seen a renaissance in the past twelve months is probably mainly due to Brian Halligan. The founder and CEO of the marketing software provider Hubspot transferred the concept of the flywheel to marketing in a skillful content marketing and PR move and thus generated a lot of response. In a guest article for Harvard Business Review in November 2018, Halligan declared that the concept of the sales funnel had had its day and had to be replaced by the flywheel by marketers. He and his team explain exactly how this should work on the Hubspot website.
+Why the flywheel has to replace the funnel according to Hubspot (source: Hubspot )
+Anyone looking for “flywheel marketing” on Google today will find various evidence that the founder of Hubspot has found this idea. Not surprisingly, Halligan’s proposal is also a clever reaction to developments in marketing in the age of the platform economy. Even before Halligan’s advance, it was heard from the online marketing industry that the prices for customer acquisition via platforms such as Google and Facebook have increased significantly in recent years. When it has become extremely expensive to buy customers again and again via the platforms, the focus shifts more to earning more with existing customers or letting them act as ambassadors for their own products.
+Suitable Even For School Children?
+The 61-year-old Jim Collins has also recognized the need for flywheel explanations in the market. In February 2019, he launched his latest book “Turning the Flywheel” * as a supplement to “Good to Great”. He even heard of an elementary school in rural Kansas using the flywheel to improve their schoolchildren’s learning outcomes, Collins writes on his website.
+Flywheel Method and Its Importance For SEO
+Today, we see that Sales Funnel resembles the old marketing world of the 1970s. Flywheel Model is more suitable for the periods when communication is experienced continuously through different media sources. Search Engine maintains the reputation of an entity and the user’s overall feelings for that entity among the ranking factors. The main purpose and contribution of the Flywheel Model are that each user appears as a micro-marketing source and keeps them in contact with the company and its products at any time. The Flywheel Understanding implemented with Inbound Marketing Strategies is the abandonment of the “buy and go” understanding in the old times, which really thinks the user and aims to create benefit for the customer.
+The main purpose of the SEO Project is to really benefit the searcher. To create successful Community Management, Reputation Management, Search Demand, and Historical Data, the Flywheel Model is more suitable. Also, Complete, Comprehensive, Guideline content creation in different formats to forge authoritarian expertise in the targeted industry can be acquired via continuous research, feedback, and re-test process. Therefore, a Holistic SEO needs to draw an ecosystem that fits the Flywheel Model for its client and project.
+We will continue to improve our Flywheel Model Guideline as the new practices and theories come fore.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Cas
+
+[...truncated...]

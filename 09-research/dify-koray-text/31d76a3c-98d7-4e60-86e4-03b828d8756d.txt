@@ -1,0 +1,117 @@
+HTML <picture> Tag Definition, Usage and Example - Holistic SEO
+Skip to content
+The <picture> HTML Tag specifies an element that compromises zero or maybe more <source> elements and only one <img> element. The browser will evaluate each child <source> element and select the one that is best match. The <picture> HTML Tag is utilized to provide web developers more options when defining image sources. The <picture> HTMLTag is part of the Images HTML category in HTML Element Reference. The attributes of the <picture> HTML Tag are global and event attributes.
+<picture> code block example to learn how it works is given below.
+<picture>
+<source ...>
+<source ...>
+...
+<img ...>
+</picture>
+The second example usage of the “<picture>” code block example is given below.
+<picture>
+<source srcset="https://ik.imagekit.io/taw2awb5ntf/pix/examples/32m.jpg" media="(min-width: 450px)">
+<img src="/pix/examples/5m.jpg" alt=“Example image">
+</picture>
+Contents of the Article
+show
+1.
+What is <picture> HTML Tag
+2.
+How to Use <picture> HTML Tag?
+2.1.
+Example Usage of <picture> HTML Tag?
+3.
+What are the Attributes of <picture> HTML Tag?
+4.
+What are the Default CSS Settings for <picture> HTML Tag?
+5.
+What are the Related other HTML Tags to <picture>?
+What is <picture> HTML Tag
+The <picture> HTML Tag allows the web developer to have additional control over how images are specified on the sites. The most common application of the <picture> HTML Tag element will be in the context of visual style in responsive design projects. The <picture> HTML Tag has two tags used: more than one
+<source>
+HTML Tags and only one
+<img>
+HTML Tag. The <source> HTML Tags are used to provide information about the image. The <picture> HTML Tag behaves in a similar way to the <video> and <audio> elements. The web developer configures a number of alternative sources, and the first resource that meets the requirements is the one that is used.
+How to Use <picture> HTML Tag?
+To use the <picture> HTML Tag, the web developer should write <picture></picture> with no less than zero or more <source> elements placed in between the start and end tags. The web developer can only include one <image> element, potentially interspersed with script-supporting components.
+Example Usage of <picture> HTML Tag?
+The following examples of usage of <picture> HTML Tag are given below.
+<picture>
+<source srcset="https://ik.imagekit.io/taw2awb5ntf/pix/examples/310.jpg" media="(min-width: 600px)">
+<source srcset="https://ik.imagekit.io/taw2awb5ntf/pix/examples/20m.jpg" media="(min-width: 300px)">
+<img src="/pix/examples/15m_cropped.jpg" alt=“A picture of lovely dog”>
+</picture>
+<picture>
+<source srcset=“example.jpg" media="(min-width: 800px)">
+<source srcset=“example2.jpg" media="(min-width: 400px)">
+<img srcset=“butterfly.jpg" alt="default image" style="width: auto;">
+</picture>
+What are the Attributes of <picture> HTML Tag?
+There are multiple attributes for the <picture> HTML Tag. The following attributes are listed below.
+Global Attributes: The <picture> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <picture> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <picture> HTML Tag?
+The following are the Default CSS Settings for <picture> HTML Tag. Some examples are listed below this document.
+footer {
+font-size: .8rem;
+position: absolute;
+bottom: 10px;
+right: 10px;
+}
+.output {
+background: #eee;
+position: relative;
+}
+What are the Related other HTML Tags to <picture>?
+The other related HTML Tags to the <picture> HTML Tag are listed below.
+<figcaption> HTML Tag: The
+<figcaption>
+HTML Tag and the <picture> HTML Tag are related because they are both images HTML Tags. The <figcaptio> HTML Tag specifies the caption for a <figure> element.
+<area> HTML Tag: The
+<area>
+HTML Tag and <picture> HTML Tag are related because they are both images HTML Tags. The <area> HTML Tag defines the boundaries of an area within an image map.
+<svg> HTML Tag: The
+<svg>
+HTML Tag and <picture> HTML Tag are related because they are both images HTML Tags.  The <svg> HTML Tag defines a framework for SVG visuals.
+<map> HTML Tag: The
+<map>
+HTML Tag and <picture> HTML Tag are related because they are both images HTML Tags. The <map> HTML Tag defines a user graphics map.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <picture> Tag Definition, Usage and Example
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <ins> Tag Definition, Usage and Example…
+TechSEO
+HTML <object> Tag Definition, Usage and Exam…
+0
+0
+0

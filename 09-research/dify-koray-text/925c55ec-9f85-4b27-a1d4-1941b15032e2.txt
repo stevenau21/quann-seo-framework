@@ -1,0 +1,115 @@
+Sec-Fetch-User : Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Sec-Fetch-User fetch metadata request header is only sent when a user is activated. The value of this header will always be “?1.” A “fetch metadata request header” is an HTTP request header that gives more information about where the request came from. The server makes a decision about whether or not to allow the request when it sees where the request came from and what it will be used for. The Sec-Fetch-User Header helps a server figure out if a user made a request to move from a document, iframe, or other thing.  The syntax for the Sec-Fetch-User HTTP Header is “?1.” It is used when a request is made by something other than a user. The spec says that browsers must not include the header at all. The example of the Sec-Fetch-User HTTP Header is written below.
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+The Sec-Fetch-User HTTP Header Request Header can be seen above, In the article, the Sec-Fetch-User HTTP Header Syntax, Directives, and Uses example will be processed.
+Contents of the Article
+show
+1.
+What is Sec-Fetch-User?
+1.1.
+What is the Syntax of Sec-Fetch-User?
+1.2.
+What is the Directive of Sec-Fetch-User?
+2.
+How to use Sec-Fetch-User?
+2.1.
+Examples of Sec-Fetch-User Use
+3.
+What is the Specification Document for Sec-Fetch-User?
+4.
+What is the type of Sec-Fetch-User?
+4.1.
+What are the similar HTTP Headers to the Sec-Fetch-User?
+5.
+Which Browsers Support Sec-Fetch-User HTTP Header?
+What is Sec-Fetch-User?
+The Sec-Fetch-User fetch metadata request header is only delivered when a user is activated. The value of this header will always be “?1.” A “fetch metadata request header” is an HTTP request header that contains additional information about where the request originated. When the server determines where the request came from and what it will be used for, it can decide whether or not to authorize the request. The Sec-Fetch-User HTTP Header assist a server in determining whether a user has requested to move from a document, iframe, or another object.
+What is the Syntax of Sec-Fetch-User?
+The Sec-Fetch-User HTTP Header has only one value for its syntax. The syntax using the Sec-Fetch-User HTTP Header is written below.
+Sec-Fetch-User: ?1
+What is the Directive of Sec-Fetch-User?
+There is only one directive that can be put in the Sec-Fetch-User HTTP Header. “?1” is used when a request is made by something other than a user. The spec says that browsers must not include the header at all. The example directives for using the Sec-Fetch-User HTTP Header are written below.
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+How to use Sec-Fetch-User?
+The Sec-Fetch-User fetch metadata request header is delivered to the application when a user is active. The Sec-Fetch-User header will always have the value “?1” as its value. In the HTTP protocol, a “fetch metadata request header” is a request header that contains additional information about the source of the request. The header determines whether or not to allow the request to proceed when a server determines where a request originated and what it will be used for. The Sec-Fetch-User HTTP Header can assist a server in determining whether or not a user requested to be moved from a document, iframe, or other objects.
+Examples of Sec-Fetch-User Use
+The example given below for the use of the Sec-Fetch-User HTTP Header is that if a user clicks on a page link that leads to another page on the same domain, the resultant request will include the following headers.
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+What is the Specification Document for Sec-Fetch-User?
+There is only one specification document for the Sec-Fetch-User HTTP Header, which is the Fetch Metadata Request Headers. Fetch Metadata Request Headers (Fetch Metadata) Article 2.4 mention the Sec-Fetch-User HTTP Header definition and uses. Additionally, the article discusses the Sec-Fetch-User HTTP Header’s definition and usage.
+What is the type of Sec-Fetch-User?
+The Sec-Fetch-User HTTP Header is a Request Header because it reveals whether a navigation request was initiated by user activation.
+What are the similar HTTP Headers to the Sec-Fetch-User?
+The similar HTTP Headers to the Sec-Fetch-User HTTP Header are listed below.
+Sec-Fetch-Dest HTTP Header:
+The Sec-Fetch-Dest HTTP Header specifies the destination of the request. The
+Sec-Fetch-Dest HTTP Header
+is comparable to the Sec-Fetch-User HTTP Header in that they both have the same HTTP Header Type, which is the Fetch Metadata Request Header.
+Sec-Fetch-Mode HTTP Header:
+The Sec-Fetch-Mode HTTP Header specifies how the request is feeling at the time. Since they both use the Fetch Metadata Request header, the
+Sec-Fetch-Mode HTTP Header
+and the Sec-Fetch-User HTTP Header are quite similar in that they both use the Fetch Metadata Request header as their HTTP Header Type.
+Sec-Fetch-Site HTTP Header:
+The Sec-Fetch-Site Header establishes the connection between the origin of the request initiator and the origin of the requested resource. The
+Sec-Fetch-Site HTTP Header
+is comparable to the Sec-Fetch-User HTTP Header in that they both have the same HTTP Header Type, which is the Fetch Metadata Request Header.
+Which Browsers Support Sec-Fetch-User HTTP Header?
+There are multiple browsers that support Sec-Fetch-User HTTP Headers. The following browsers are listed below.
+Chrome Browser is compatible with the Sec-Fetch-User HTTP Headers
+Edge Browser is compatible with the Sec-Fetch-User HTTP Headers
+Firefox Browser is compatible with the Sec-Fetch-User HTTP Headers
+Opera Browser is compatible with the Sec-Fetch-User HTTP Headers
+WebView Android Browser is compatible with the Sec-Fetch-User HTTP Headers
+Chrome Android Browser is compatible with the Sec-Fetch-User HTTP Headers
+Firefox Android Browser is compatible with the Sec-Fetch-User HTTP Headers
+Opera Android Browser is compatible with the Sec-Fetch-User HTTP Headers
+Samsung Internet Browser is compatible with the Sec-Fetch-User HTTP Headers
+You can see an image that shows the cross-browser compatibility of Sec-Fetch-User HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Sec-Fetch-User : Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+NEL HTTP Header: Syntax, Directive, Examples
+TechSEO
+Sec-CH-UA-Mobile HTTP Header: Syntax, Directive, E…
+0
+0
+0

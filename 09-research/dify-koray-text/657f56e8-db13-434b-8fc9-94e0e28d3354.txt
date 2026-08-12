@@ -1,0 +1,230 @@
+What is Cache-Control HTTP Header (Examples & Guide) - Holistic SEO
+Skip to content
+Cache-control is an HTTP response header to determine browser caching time span for a specific web page resource. Cache-control includes a resource’s caching methodology, where to cache, and its expiration date with maximum age (time to live). Cache-control HTTP Header regulates browser caching policies for clients.
+Cache-control HTTP Header example.
+Contents of the Article
+show
+1.
+Examples for Cache-Control Response Header
+2.
+What is the Syntax of Cache-Control Response Header?
+3.
+What are the Cache-Control Request Headers?
+4.
+What are the Cache-Control Response Headers?
+5.
+What are the Cache-Control Extension Directives?
+6.
+What are the Types of Cache-Control HTTP Headers?
+6.1.
+Cacheability Directives of Cache-Control HTTP Header
+6.1.1.
+1. Public
+6.1.2.
+2. Private
+6.1.3.
+3. No-cache
+6.1.4.
+4. No-store
+6.2.
+Expiration Directives of Cache-Control HTTP Header
+6.2.1.
+1. max-age=<seconds> Definition and Usage
+6.2.2.
+2. s-maxage=<seconds> Definition and Usage
+6.2.3.
+3. max-stale[=<seconds>] Definition and Usage
+6.2.4.
+4. min-fresh=<seconds> Definition and Usage
+6.2.5.
+5. stale-while-revalidate=<seconds> Definition and Usage
+6.2.6.
+6. stale-if-error=<seconds> Definition and Usage
+6.3.
+Revalidation and reloading Directives of Cache-Control HTTP Header
+6.3.1.
+1. must-revalidate Definition and Usage
+6.3.2.
+2. proxy-revalidate Definition and Usage
+6.3.3.
+3. immutable Definition and Usage
+6.4.
+Other Directives of Cache-Control HTTP Header
+6.4.1.
+1. no-transform Definition and Usage
+6.4.2.
+2. Only-if-cached Definition and Usage
+7.
+How to Prevent Caching with Cache-Control HTTP Header?
+8.
+How to Cache Static Assets with Cache-Control HTTP Header?
+9.
+How to Require Revalidation for Cached Assets with Cache-Control HTTP Header?
+10.
+Which RFC Specifications Can be used for understanding Cache-Control HTTP Header?
+11.
+What is the Compatibility of the Cache-Control HTTP Header?
+Examples for Cache-Control Response Header
+Cache-control example values and their descriptions are below.
+Cache-Control
+value
+Description
+max-age=86400
+For up to one day (60 seconds x 60 minutes x 24 hours), the response can be cached by browsers and intermediary caches.
+private, max-age=600
+Browsers can cache responses for 60 seconds (but not intermediary caches) for up to 10 minutes.
+public, max-age=31536000
+Any cache can store the response for 1 year.
+no-store
+The response must be fetched every time the request is made and cannot be cached.
+Cache-control directive and value examples with their explanations.
+What is the Syntax of Cache-Control Response Header?
+A caching directive should have the conditions below to be assumed as a valid cache directive.
+Although not case sensitive, lowercase is recommended.
+Multiple directives are separated by commas.
+The spec defines some directives that take an optional argument, which can be a token or a quoted string.
+What are the Cache-Control Request Headers?
+Cache-Control Request Headers that can be used by a client are listed below.
+Cache-Control: max-age=
+Cache-Control: max-stale[=]
+Cache-Control: min-fresh=
+Cache-Control: no-cache
+Cache-Control: no-store
+Cache-Control: no-transform
+Cache-Control: only-if-cached
+What are the Cache-Control Response Headers?
+Cache-Control Response Headers that can be used by a client are listed below.
+Cache-Control: must-revalidate
+Cache-Control: no-cache
+Cache-Control: no-store
+Cache-Control: no-transform
+Cache-Control: public
+Cache-Control: private
+Cache-Control: proxy-revalidate
+Cache-Control: max-age=
+Cache-Control: s-maxage=
+What are the Cache-Control Extension Directives?
+Extensions for the Cache-Control HTTP headers are listed below.
+Cache-Control: immutable
+Cache-Control: stale-while-revalidate=
+Cache-Control: stale-if-error=
+Extensions of the Cache-Control HTTP header shouldn’t be used before checking the browser compatibility of the Cache-Control since they are not part of the core HTTP Caching requirements.
+What are the Types of Cache-Control HTTP Headers?
+Types of Cache-control HTTP Headers are split up to four which are listed below.
+Cacheability
+Expiration
+Revalidation and reloading
+Other
+Cacheability Directives of Cache-Control HTTP Header
+Cacheability directives of Cache-Control HTTP Header are for specifying whether a resource will be cached or not. Cacheability directives also determine where a resource should be cached and when the cache should be validated.
+1. Public
+No matter whether the response is normally non-cacheable, it can still be stored in any cache. An example of usage Public cacheability directive with cache-control is below.
+Cache-Control: public
+2. Private
+Private directive for Cache-Control HTTP Header means that the resource can be cached only to the browser’s storage. If a user wants to prevent caching, he/she should use “no-store”. Below, there is a usage for the “private” directive of the “cache-control” HTTP Header.
+Cache-Control: private
+3. No-cache
+You may store your response in any cache, even if the response is normally non-cacheable. However, this is not effective in stopping caches from storing your response. If you wish not to store your response in any cache you should use no-store instead.
+Cache-control: no-cache
+4. No-store
+A response may not be cached in a client’s browser. “No-store” directive for HTTP Cache-control header doesn’t prevent using the pre-cached resources. If a user wants to clear the cache, he/she can use “no-store” and “max-age:0” together. So, the browser can revalidate the cached resources and clear the cached files.
+Cache-control: no-store
+Expiration Directives of Cache-Control HTTP Header
+Expiration directives of Cache-Control HTTP Header determine a cached resource’s lifespan within the cache. The expiration directives for “cache-control” is below.
+max-age
+s-maxage
+max-stale
+min-fresh
+stale-while-revalidate
+stale-if-error
+1. max-age=<seconds> Definition and Usage
+A resource is considered fresh for as long as it is accessed. Unlike the Expires directive, this directive is relative to the time of the request. Below, you can see an example usage of the max-age directive for cache-control HTTP.
+cache-control: public, max-age=31536000
+2. s-maxage=<seconds> Definition and Usage
+S-maxes directive can be used only for shared caches, not for private caches. It overrides the cached resources and directives such as “expires” and “max-age”. An example use case of “s-maxage” for cache-control HTTP header is below.
+cache-control: public, s-maxage=31536000
+3. max-stale[=<seconds>] Definition and Usage
+It means that the receiver will accept a stale web page resource. The seconds of the “max-stale” determine the limit of the time for the stale resources in terms of being accepting. An example use-case for “max-stale” is below.
+cache-control: public, max-stale=3153600
+4. min-fresh=<seconds> Definition and Usage
+A client uses “min-fresh” to request a response that won’t expire for at least the specified number of seconds. An example use case of the “min-fresh” directive for the cache-control header is below.
+cache-control: public, min-fresh=3153600
+5. stale-while-revalidate=<seconds> Definition and Usage
+The seconds’ value indicates how long a stale response will be accepted by the client, while simultaneously checking for a fresh response asynchronously. Note that the second’s value does not begin at the time the request is made, but only after the max-age period has elapsed.
+cache-control: public, stale-while-revalidate=3153600
+“stale-while-revalidate” browser compatibility is below.
+Stale-while-revalidate browser compatibility is above.
+6. stale-if-error=<seconds> Definition and Usage
+If there is an error during checking the validity of the cached resource, client will accept the stale web page resource as response from the server.
+cache-control: public, stale-if-error=3153600
+Browser compatibility of the “stale-if” can be found below.
+Stale-if-error browser compatibility.
+Revalidation and reloading Directives of Cache-Control HTTP Header
+Revalidation and reloading directives for “cache-control header” are for auditing the cached resource’s up-to-dateness. The revalidation and reloading directives for “cache-control” can be found below.
+must-revalidate
+proxy-revalidate
+immutable
+1. must-revalidate Definition and Usage
+The cache cannot use a stale copy of a resource without successful validation on the origin server. An example usage is below for “must-revalidate” with “cache-control”.
+cache-control: must-revalidate
+2. proxy-revalidate Definition and Usage
+Proxy-revalidate is the same as must-revalidate, but only applies to shared caches (such as proxy servers) and does not affect private caches. An example of “proxy-revalidate” for “cache-control” is below.
+cache-control: must-revalidate
+3. immutab
+le
+Definition and Usage
+A web page resource with an unexpired life span will use the same response body, so it must not be revalidated in the conditional revalidation process. Immutable usage is for resources that won’t change. A “cache-control” response header example with an “immutable” value is below.
+cache-control: immutable
+Cache-control’s immutable’s cross browser compatibility is below.
+HTTP Cache-control immutable directive browser compatibility is above.
+Other Directives of Cache-Control HTTP Header
+Other types of HTTP Cache Control Header directives are listed below.
+No-transform
+Only-if-cached
+1. no-transform Definition and Usage
+“no-transform” value of the “cache-control” forbids changing the cached web page resources by an intermediary cache or proxy. For instance, Google’s Web Light uses transformed and compressed versions of images, or font files and “no-transform” can prevent these changes. Response body can be changed along with “content-encoding”, “content-range”, “content-type” by proxies for improving the users with slow network conditions, thus while using “no-transform”, a developer should be careful not to harm the user experience. Example usage of “no-transform” for HTTP Cache-control is below.
+cache-control: no-transform
+2. Only-if-cached Definition and Usage
+“Only-if-cached” means that a web page resource should be used only if the web page resource is cached and within the cached storage. “Only-if-cached” shouldn’t be confused with “If-None-Match”. If the response is cached, it will be served with 304 (Not modified), if it is not cached, it will be served via 504 (Gateway Timeout). Example usage of “only-if-cached” can be seen below.
+cache-control: only-if-cached
+How to Prevent Caching with Cache-Control HTTP Header?
+To prevent browsers from caching a web page resource, “no-store”, two different examples are shown below.
+“Cache-control: no-store” is for preventing the caching.
+“Cache-control: no-store, max-age=0” is for clearing the cache.
+A “cache-control” directive should be clear and shouldn’t contradict the others. Thus, “no-cache” and “no-store” shouldn’t be used together.
+How to Cache Static Assets with Cache-Control HTTP Header?
+The response header below should be used to send aggressive caching to the files in the application that won’t change. See also the Expires header, which includes static files served by the application.
+Cache-Control: public, max-age=31536000, immutable
+How to Require Revalidation for Cached Assets with Cache-Control HTTP Header?
+Revalidation of cached resources can be done with the directives below.
+max-age=0,
+must-revalidate,
+no-cache
+Thanks to cache validation with cache-control HTTP header and “max-age=0”, “must-revalidate”, “no-cache” directives, clients has to check the cached web page resource’s validity everytime, if the resource is valid, client can skip downloading the response body, and use the cached version.
+Which RFC Specifications Can be used for understanding Cache-Control HTTP Header?
+RCF Specifications shows how to use HTTP Response and Request Headers along with Server-side concepts and parameters for the communication between the client and the sender. RFC Specifications that are related to the Cache-control HTTP Header are below.
+RFC 8246: HTTP Immutable Responses
+RFC 7234: Hypertext Transfer Protocol (HTTP/1.1): Caching
+RFC 5861: HTTP Cache-Control Extensions for Stale Content
+What is the Compatibility of the Cache-Control HTTP Header?
+Every response and request header has a different level of cross-browser compability. Below, you can see cache-control HTTP Header’s cross-browser compability.
+HTTP Cache-control header browser compatibility can be seen above.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- Fe
+
+[...truncated...]

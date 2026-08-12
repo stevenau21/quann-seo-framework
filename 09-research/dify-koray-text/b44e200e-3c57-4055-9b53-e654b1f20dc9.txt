@@ -1,0 +1,123 @@
+Viewport-Width HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Viewport-Width HTTP Header device client hint request header specifies the width of the client’s layout viewport in CSS pixels in the request header. To use the Viewport-Width HTTP Header, the developer must use similar HTTP Headers to the Viewport-Width HTTP Header, which is the client hint request. A “Client Hint Request” is a set of HTTP request header fields, including the Viewport-Width HTTP Header, that a server proactively requests from a client in order to obtain information about the device, network, user, and user-agent preferences. Based on the information provided by the client, such as viewport width, the server selects which resources to provide. There is only one value for the Viewport-Width HTTP Header, which is a numeric value. The syntax of the HTTP Header Viewport-Width HTTP Header needs a numeric value to specify the CSS Pixel Width of the web page. To receive the Viewport-Width HTTP header, a server must first opt-in by delivering the response header Accept-CH containing the directive Viewport-Width HTTP Header. Accept-CH headers should be saved for all secure requests to guarantee that client hints are reliably supplied. The examples are shown below.
+Accept-CH: Viewport-Width
+Viewport-Width: 720
+The Viewport Width HTTP Header information is depreciated. The reason it is depreciated is that it has been removed from the applicable web standards or it has been retained for compatibility purposes alone. The feature could stop working at any time.
+Contents of the Article
+show
+1.
+What is Viewport-Width HTTP Header?
+1.1.
+What is the Syntax of Viewport-Width HTTP Header?
+1.2.
+What is the Directive on Viewport-Width HTTP Header?
+2.
+How to use Viewport-Width HTTP Header?
+2.1.
+Examples of Viewport-Width Use
+3.
+What are the Specification Documents for Viewport-Width HTTP Header?
+4.
+What are the types of Viewport-Width HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Viewport-Width HTTP Header?
+5.
+Which Browsers Support Viewport-Width HTTP Header?
+What is Viewport-Width HTTP Header?
+The Viewport Width HTTP Header determines the procedure of the client hint request header, which specifies the width of the client’s layout viewport in CSS pixels in the request header. The Viewport Width HTTP Header value is rounded up to the next smallest integer.
+What is the Syntax of Viewport-Width HTTP Header?
+The Viewport-Width HTTP Header contains one part in its syntax. The syntax for using Viewport-Width HTTP Header is as follows.
+Viewport-Width: <number>
+What is the Directive on Viewport-Width HTTP Header?
+The Viewport-Width HTTP Header accepts only one directive which is <number>. Example usage and explanation of <number> directive for Viewport-Width HTTP Header is below.
+<number>: The CSS pixel width of the user's viewport, rounded up to the nearest integer.
+An example of the Viewport-Width HTTP Header directive is given below.
+Accept-CH: Viewport-Width
+Viewport-Width: 250
+How to use Viewport-Width HTTP Header?
+Viewport-Width HTTP Header provides the width of the client’s layout viewport in CSS pixels. The value of Viewport Width HTTP Header is rounded up to the next smallest integer, such as the ceiling value. A server must first opt-in by sending the response header Accept-CH with the directive Viewport-Width HTTP Header. All secure requests should save Accept-CH headers to ensure client hints are reliably given. The hint is used in conjunction with other screen-specific hints to offer pictures optimized for certain screen sizes or to exclude resources that are not required for the specific screen width.
+Examples of Viewport-Width Use
+An example of the Viewport-Width HTTP Header use is given below.
+Accept-CH: Viewport-Width
+Viewport-Width: 360
+What are the Specification Documents for Viewport-Width HTTP Header?
+The specification documents for Viewport-Width HTTP Header are listed below.
+“HTTP Client Hints draft-ietf-httpbis-client-hints-02” mentions that the Viewport-Width HTTP Header request header field is an integer in CSS px. The CSS px value is rounded to the next integer (i.e. ceiling value).
+“HTTP Client Hints draft-ietf-httpbis-client-hints-05” mentions that if Viewport-Width HTTP Header appears more than once in a message, the last value takes precedence. Additionally, this article discusses the Viewpoint Point HTTP Header details such as the header field name, applicable protocol, status, author, specification, and related information about client hints.
+What are the types of Viewport-Width HTTP Header?
+The  Viewport-Width HTTP Header HTTP Types are listed below.
+Request Header is a type of Viewport Width HTTP Header. The purpose of the header is to request a header as a client hint because it obtains information about the device, network, user, and user-agent preferences.
+Response Headers are a type of Viewport-Width HTTP Header that delivers the Accept-CH response header. A server must opt-in to accept the Viewport-Width HTTP header from the client.
+What are the similar HTTP Headers to the Viewport-Width HTTP Header?
+The similar HTTP Headers to the Viewport-Width HTTP Header are listed below.
+Content-DPR HTTP Header:
+Content DPR HTTP Header is similar to the Viewport-Width HTTP Header because they are both screen resolution definitions. The
+Content-DPR HTTP Header
+is used for determining intrinsic image size and scaling the image.
+Device-Memory HTTP Header:
+The Device-Memory Header is similar to the Viewport-Width HTTP Header. The
+Device-Memory HTTP Header
+is connected in “Accept-CH” and enables the use of Client Hint which is the same as the Viewport-Width HTTP Header.
+DPR HTTP Header:
+The DPR HTTP Header is similar to the Viewport Width HTTP Header because the device client hint request header contains the pixel ratio of the client device. The ratio of the
+DPR HTTP Header
+indicates the number of physical device pixels required to represent each CSS pixel, which is the same as the Viewport Width HTTP Header. It is a request header that provides the client’s layout viewport width in CSS pixels.
+Width HTTP Header:
+The Width HTPP Header is similar to the Viewport-Width HTTP Header. The
+Width HTTP Header
+provides a pixel value, which is a number rounded to the smallest following integer, which is similar to the Viewport-Width HTTP Header.
+Accept-CH HTTP Header:
+The Accept-CH HTTP Header is similar to the Viewport-Width HTTP Header. The Viewport-Width HTTP Header sets the
+Accept-CH HTTP Header
+to indicate which client suggestions headers a client should include in subsequent requests.
+Client Hints HTTP Header:
+An HTTP request header field that a Viewport Width HTTP Header asks a client to learn more about their device, network, user, and user-agent preferences. The server decides which resources to provide based on the client’s input.
+Which Browsers Support Viewport-Width HTTP Header?
+There are multiple browsers that support Viewport WIdth HTTP Header. The following browsers are listed below.
+Chrome  Browser is compatible with the Viewport Width HTTP Header
+Edge Browser is compatible with the Viewport Width HTTP Header
+Opera Browser is compatible with the Viewport Width HTTP Header
+WebView Android Browser is compatible with the Viewport Width HTTP Header
+Chrome Android Browser is compatible with the Viewport Width HTTP Header
+Opera Android Browser is compatible with the Viewport Width HTTP Header
+Samsung Internet Browser is compatible with the Viewport Width HTTP Header
+Users will see an image that shows cross-browser compatibility of Viewport-Width HTTP Header below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Viewport-Width HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Early-Data HTTP Header: Syntax, Directive, Example…
+TechSEO
+Transfer-Encoding HTTP Header: Syntax, Directive, …
+0
+0
+0

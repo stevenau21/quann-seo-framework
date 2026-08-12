@@ -1,0 +1,272 @@
+NLTK Lemmatization: How to Lemmatize Words with NLTK? - Holistic SEO
+Skip to content
+NLTK Lemmatization is the process of grouping the inflected forms of a word in order to analyze them as a single word in linguistics. NLTK has different lemmatization algorithms and functions for using different lemma determinations. Lemmatization is more useful to see a word’s context within a document when compared to stemming. Unlike stemming, lemmatization uses the part of speech tags and the meaning of the word in the sentence to see the main context of the document. Thus, NLTK Lemmatization is important for understanding a text and using it for Natural Language Processing, and Natural Language Understanding practices. NLTK Lemmatization is called morphological analysis of the words via NLTK. To perform text analysis, stemming and lemmatization, both can be used within NLTK. The main use cases of the NLTK Lemmatization are below.
+Information Retrieval Systems
+Indexing Documents within Word Lists
+Text Understanding
+Text Clustering
+Word Tokenization and Visualization
+NLTK Lemmatization is useful for dictionary lookup algorithms, and rule-based systems that can perform lemmatization for compound words. A Lemmatization example can be found below.
+from nltk.stem import WordNetLemmatizer
+from nltk.corpus import wordnet
+lemmatizer = WordNetLemmatizer()
+print("love :", lemmatizer.lemmatize("loves", wordnet.VERB))
+print("loving :", lemmatizer.lemmatize("loving", wordnet.VERB))
+print("loved :", lemmatizer.lemmatize("loved", pos=wordnet.VERB))
+OUTPUT >>>
+love : love
+loving : love
+loved : love
+NLTK Lemmatization example above uses the “nltk.corpus.wordnet”, because lemmatization requires the part of speech tag value of the word within the sentence. Without understanding whether the word is used as a verb, noun, or adjective, performing the lemmatization with NLTK won’t be effective. To perform lemmatization with NLTK in an effective way, the “wordnet” and “pos” parameter of the NLTK.WordNetLemmatizer.lemmatize should be used. In the example above, we have specified the part of speech tag value of the lemmatization with NLTK as “wordnet.VERB”. It means that lemmatize the words “love, loving, loved” as a verb. Thus, all of them have the same result.
+Contents of the Article
+show
+1.
+How to Lemmatize Words with NLTK ?
+2.
+What is the relation between Part of Speech Tag and Lemmatization?
+3.
+How to use NLTK Lemmatizaters with Part of Speech Tag?
+4.
+What is the Relation between NLTK Lemmatization and NLTK Stemming?
+5.
+Why is NLTK Lemmatization is related to the NLTK Word Tokenization?
+6.
+Why is NLTK WordNet relevant to the NLTK Lemmatization?
+7.
+What are the other lemmatization Python Libraries besides NLTK?
+8.
+Last Thoughts on NLTK Lemmatization and Holistic SEO
+How to Lemmatize Words with NLTK ?
+To perform Lemmatization with Natural Language Tool Kit (NLTK), “WordNetLemmatizer()” method should be used. “Nltk.stem.WordNetLemmatizer.lemmatize” method will lemmatize a word based on its context and its usage within the sentence. An NLTK Lemmatization example can be found below.
+from nltk.stem import WordNetLemmatizer
+from nltk.tokenize import word_tokenize
+from pprint import pprint
+lemmatizer = WordNetLemmatizer()
+text = "I have gone to the meet someone for the most important meeting of my life. I feel my best feelings right now."
+def lemmetize_print(words):
+a = []
+tokens = word_tokenize(words)
+for token in tokens:
+lemmetized_word = lemmatizer.lemmatize(token)
+a.append(lemmetized_word)
+pprint({a[i] : tokens[i] for i in range(len(a))}, indent = 1, depth=5)
+lemmetize_print("studies studying cries cry")
+OUTPUT >>>
+{'.': '.',
+'I': 'I',
+'best': 'best',
+'feel': 'feel',
+'feeling': 'feelings',
+'for': 'for',
+'gone': 'gone',
+'have': 'have',
+'important': 'important',
+'life': 'life',
+'meet': 'meet',
+'meeting': 'meeting',
+'most': 'most',
+'my': 'my',
+'now': 'now',
+'of': 'of',
+'right': 'right',
+'someone': 'someone',
+'the': 'the',
+'to': 'to'}
+The NLTK Lemmatization example above contains word tokenization, and a specific lemmatization function example that returns the words’ original form within the sentence and their lemma within a dictionary. The NLTK Lemmatization code block example above can be explained as follows.
+Import the WordNetLemmetizer from nltk.stem
+Import word_tokenize from nltk.tokenize
+Create a variable for the WordNetLemmetizer() method representation.
+Define a custom function for NLTK Lemmatization with the argument that will include the text for lemmatization.
+Use a list, and for loop for tokenization and lemmatization.
+Append the tokenized and lemmatized words into a dictionary to compare their lemma and original forms to each other.
+Call the function with an example text for lemmatization.
+The NLTK Lemmatization example output has been created from the text example within the “text” variable from the code block. The NLTK Lemmatization output can be seen below within a data frame.
+Index
+tokens
+lemmatized
+0
+I
+I
+1
+have
+have
+2
+gone
+gone
+3
+to
+to
+4
+the
+the
+5
+meet
+meet
+6
+someone
+someone
+7
+for
+for
+8
+best
+best
+9
+important
+important
+10
+meeting
+meeting
+11
+of
+of
+12
+my
+my
+13
+life
+life
+14
+.
+.
+15
+I
+I
+16
+feel
+feel
+17
+my
+my
+18
+best
+best
+19
+feeling
+feeling
+20
+right
+right
+21
+now
+now
+NLTK Lemmatization result comparison for the lemmatized words and their original form within the example lemmatization text.
+The NLTK Lemmatization used above didn’t use the part of speech tag values, thus it wasn’t able to change all of the values properly. But, even if the POS tag is not specified, “WordNetLemmatizer” can be used for certain types of NLP practices as below.
+lemmetize_print("studies studying cries cry.")
+OUTPUT >>>
+{'.': '.', 'cry': 'cry', 'study': 'studies', 'studying': 'studying'}
+In the example below, the word “studies have been lemmatized as “study”, and “studying” stayed as the “studying” because of the context of the word. Even if we have two different words for the “cry”, since “cry” and “cries” are tokenized together, we have seen only one output for it as “cry”. Thus, to perform NLTK Lemmatization properly, the part of the speech tag should be understood and used. In an effective NLTK lemmatization practice, the POS Tags should be specified for every word.
+What is the relation between Part of Speech Tag and Lemmatization?
+Part-of-speech tagging, words, or tokens are assigned part of speech tags, which are typically morphosyntactic subtypes of fundamental syntactic categories in the language such as a noun, or verb. By lemmatizing lexemes, inflected forms of a word are grouped together under a common root. The tagging and lemmatization of parts of speech are essential to linguistic pre-processing. This website uses morphosyntactic descriptors and part-of-speech tagging as acronyms. In the context of the NLTK Lemmatization, the part of speech tags are pre-defined with shortcuts for the NLTK WordNetLemmatizer as below.
+#{ Part-of-speech constants
+ADJ, ADJ_SAT, ADV, NOUN, VERB = 'a', 's', 'r', 'n', 'v'
+#}
+POS_LIST = [NOUN, VERB, ADJ, ADV]
+The “nltk.corpus.wordnet” values are assigned to the shortcuts such as “a” for ADJ and “s” for ADJ_SAT. All of the parts of speech tags are affecting the understanding of the role of the word within a lemmatized sentence. Thus, NLTK POS Tagging is connected to the NLTK Lemmatization.
+How to use NLTK Lemmatizaters with Part of Speech Tag?
+To use NLTK Lemmatizers with Part of Speech Tag, the NLTK.pos_tag method is used. “NLTK.pos_tag” is a method for understanding the part of speech tags within a sentence.
+The instructions to lemmatize words within a sentence with Python NLTK, and Part of Speech Tag practice are below.
+Import NLTK
+Import WordNetLemmatizer from “nltk.stem”
+Import wordnet from “nltk.corpus”.
+Assign the WordNetLemmatizer() to a variable.
+Create a custom function for classifying the words within the sentence according to the POS Tags
+Use “wordnet” and its sub-properties such as “J”, “V” with “startswith” method.
+Create a custom function that uses the part of the speech tagger as the callback function.
+Create a variable for the “nltk._pos_tag” use with the word_tokenize of NLTK.
+Use lambda function for classifying the tokenized, and tagged with part of speech tag method of NLTK (nltk.pos_tag).
+Use a for loop for lemmatization of the sentences with an if-else statement that uses a boolean check to see whether the word within the sentence is in the tagged words from the sentence for the NLTK Lemmatization.
+An NLTK Lemmatization with “NLTK.pos_tag” can be found below.
+import nltk
+from nltk.stem import WordNetLemmatizer
+from nltk.corpus import wordnet
+lemmatizer = WordNetLemmatizer()
+def nltk_pos_tagger(nltk_tag):
+if nltk_tag.startswith('J'):
+return wordnet.ADJ
+elif nltk_tag.startswith('V'):
+return wordnet.VERB
+elif nltk_tag.startswith('N'):
+return wordnet.NOUN
+elif nltk_tag.startswith('R'):
+return wordnet.ADV
+else:
+return None
+def lemmatize_sentence(sentence):
+nltk_tagged = nltk.pos_tag(nltk.word_tokenize(sentence))
+wordnet_tagged = map(lambda x: (x[0], nltk_pos_tagger(x[1])), nltk_tagged)
+lemmatized_sentence = []
+for word, tag in wordnet_tagged:
+if tag is None:
+lemmatized_sentence.append(word)
+else:
+lemmatized_sentence.append(lemmatizer.lemmatize(word, tag))
+return " ".join(lemmatized_sentence)
+print(lemmatizer.lemmatize("I am voting for that politician in this NLTK Lemmatization example sentence"))
+print(lemmatizer.lemmatize("voting"))
+print(lemmatizer.lemmatize("voting", "v"))
+print(lemmatize_sentence("I am voting for that politician in this NLTK Lemmatization example sentence"))
+OUTPUT >>>
+I am voting for that politician in this NLTK Lemmatization example sentence
+voting
+vote
+I be vote for that politician in this NLTK Lemmatization example sentence
+The NLTK Lemmatization example code block above uses the ” I am voting for that politician in this NLTK Lemmatization example sentence” sentence for performing part of speech tag and lemmatization. The part of the speech tag result of the NLTK Lemmatization sentence example can be seen below.
+text = word_tokenize("I am voting for that politician in this NLTK Lemmatization example sentence")
+nltk.pos_tag(text)
+OUTPUT>>>
+[('I', 'PRP'),
+('am', 'VBP'),
+('voting', 'VBG'),
+('for', 'IN'),
+('that', 'DT'),
+('politician', 'NN'),
+('in', 'IN'),
+('this', 'DT'),
+('NLTK', 'NNP'),
+('Lemmatization', 'NNP'),
+('example', 'NN'),
+('sentence', 'NN')]
+Based on the part of speech tag output of the NLTK Example code block sentence, an NLP developer can understand which words are used for the lemmatization and with what format. To lemmatize words within a sentence with Python and NLTK, the part of the speech tag is prominent.
+What is the Relation between NLTK Lemmatization and NLTK Stemming?
+The relation between the Lemmatization and Stemming in NLTK is a complementary relation. Stemming with NLTK without the Lemmatization can cause to miss the context of the words within the text. To improve the efficiency of the text understanding with Lemmatization, Stemming can be used as a helper step. This complementary relation between NLTK and Stemming is caused by the differences between Stemming and Lemmatization. The main differences between the NLTK Stemming and the Lemmatization can be found below.
+Lemmatization generates linguistically meaningful and valid words from the lemmas while stemming focuses on the stems without the context. For instance, the word “simply” will be stemmed as the “simpli” while its lemmatization output will be “simply”. For stemming, the pronunciation of the word, and its phonetics are more important than its context, and the meaning. For lemmatization, the meaning and the context of the word are more important than its stems. Thus, to understand a text with every angle, the Stemming and Lemmatization with NLTK have the advantage of processing a text with every layer.
+Below, you can see an example of lemmatization and stem with NLTK for comparing the results of both processes to each other.
+def lemme_stem(word:list):
+for w in word:
+from nltk.stem import PorterStemmer
+from nltk.stem import WordNetLemmatizer
+lemmatizer = WordNetLemmatizer()
+stemmer = PorterStemmer()
+print("{}'s NLTK Stemming and Lemmatization Process".format(w.capitalize()))
+print("Stemming of Simply: " + stemmer.stem(w).capitalize() + "\n" + "Lemmatization of Simply: " + lemmatizer.lemmatize(w).capitalize())
+lemme_stem(["simply", "happy"])
+OUTPUT >>>
+Simply's NLTK Stemming and Lemmatization Process
+Stemming of Simply: Simpli
+Lemmatization of Simply: Simply
+Happy's NLTK Stemming and Lemmatization Process
+Stemming of Simply: Happi
+Lemmatization of Simply: Happy
+The example of stemming and lemmatization with NLTK for comparing a word’s lemmas and stems to each other, the words “simply”, and “happy” are used. A custom function has been created for lemmatization and stemming with NLTK which is “lemme_stem”. As an argument, a list of words is used, and for formatting, the output of the NLTK Lemmatization and Stemming, the string format, along with the “capitalize()” method is used. The word “happy” is lemmatized as “happy”, while it is stemmed as “happi”.  To be able to use the NLTK Stemming and NLTK Lemmatization together for text-processing, another example can be found below.
+from nltk.stem import 	WordNetLemmatizer
+from nltk.stem.porter import PorterStemmer
+porter_stemmer  = PorterStemmer()
+text = "students are crying for their sutadies. The teachers are not so different too."
+tokenization = nltk.word_tokenize(text)
+for w in tokenization:
+print("Stemming for {} is {}".format(w,porter_stemmer.stem(w)))
+wordnet_lemmatizer = WordNetLemmatizer()
+text = "students are crying for their sutadies. The teachers are not so different too."
+tokenization = nltk.word_tokenize(text)
+for w in tokenization:
+print("Lemma for {} is {}".format(w, wordnet_lemmatizer.lemmatize(w)))
+OUTPUT >>>
+Stemming for students is student
+Stemming for are is are
+Stemming for crying is cri
+Stemming for for is for
+Stemming for their is their
+Stemming for sutadies i
+
+[...truncated...]

@@ -1,0 +1,200 @@
+Skip to content
+The aria-current is a non-null state on an element that identifies that the particular element constitutes the present item within a section or its related elements. The aria-current sends a signal and informs the assistive technologies of the user input through a method of styling. The aria-current should be set on a link within a set of pagination links that are styled to identify the user is currently on the page. The attribute also helps aware the user of its present page set through a link contained through a sequence of links. The aria-current can be useful for developers in identifying the element it is set on, an example would be setting a value besides the false command. The aria-current can be used in all elements except for the elements with the role of grid cell, row, tab, and option. aria-current can also be used for ARIA Labels such as aria-selected.
+Contents of the Article
+show
+1.
+What is the function of the “aria-current” ARIA Label?
+2.
+What are the uses of the “aria-current” ARIA Label?
+3.
+Example Uses of “aria-current” ARIA Label
+4.
+What are the related ARIA Labels to “aria-current”?
+What is the function of the “aria-current” ARIA Label?
+The aria-current is an enumerated type of attribute. It is commonly used to visually indicate a certain element, that is contained or grouped with other elements, that it is being currently set. It is useful when sending information to assistive technology to highlight that particular element, for example, a link is being indicated by a sighted user. The attribute is limited to elements that are designed in particular to visually indicate the current item being highlighted.
+What are the uses of the “aria-current” ARIA Label?
+Listed below are the uses of the “aria-current” ARIA Label.
+combobox:
+The combobox role identifies an element as an input in controlling other elements such as listbox or grid. The value of that input can dynamically pop up to help the user set the value.
+comment:
+The comment landmark role denotes a semantical comment or reaction to some contents of the page or to previous comments.
+complementary:
+The complementary landmark role can be used to appoint a supporting section that relates to the main content but can stand alone if separated.
+feed:
+A feed is a dynamic scrollable list of articles, which from either end can be added or removed from the list every time the user scrolls.
+link:
+A link widget provides a resource and interactive reference. It can either be an external or local target resource, whether outside or within the current page or application.
+Example Uses of “aria-current” ARIA Label
+Listed below are the example uses of the “aria-current” ARIA Label.
+The aria-current command is primarily used to recognize the current item in a set of items. It allows the developer to change and translate the HTML element into an accessibility tree. The aria-current is able to represent a current item within a section or related elements. It can take multiple values such as page, step, location, date, time, false, and true.
+The following example is sequences of breadcrumb lists for a current page. It should have aria-current=”grade”, aria-current=”profile”, and aria-current=”pictures” set on it.
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li>
+<a href="../../../../../">
+Web technology for developers
+</a>
+</li>
+<li>
+<a href="../../../../">
+Accessibility
+</a>
+</li>
+<li>
+<a href="../../../">
+ARIA
+</a>
+</li>
+<li>
+<a href="../../">
+ARIA States and Properties
+</a>
+</li>
+<li>
+<a href="./" aria-current="grade">
+ARIA: `aria-current` attribute
+</a>
+</li>
+</ol>
+</nav>
+<nav aria-label="breadcrumbs">
+<ol>
+<li>
+<a href="/">
+Home
+</a>
+</li>
+<li>
+<a href="/parent">
+Parent
+</a>
+</li>
+<li>
+<a
+href="/parent/current"
+aria-current="location"
+>
+Current
+</a>
+</li>
+</ol>
+</nav>
+<nav aria-label="breadcrumbs">
+<ol>
+<li>
+<a href="/">
+Home
+</a>
+</li>
+<li>
+<a href="/parent">
+Parent
+</a>
+</li>
+<li>
+<a
+href="/parent/current"
+aria-current="profile"
+>
+Current
+</a>
+</li>
+</ol>
+</nav>
+<nav aria-label="breadcrumbs">
+<ol>
+<li>
+<a href="/">
+Home
+</a>
+</li>
+<li>
+<a href="/parent">
+Parent
+</a>
+</li>
+<li>
+<a
+href="/parent/current"
+aria-current="pictures"
+>
+Current
+</a>
+</li>
+</ol>
+</nav>
+In this example, when using tabs, developers should mark the currently selected tab with aria-selected=”true”. This has the same meaning as aria-current=”page”. But aria-selected=”true” is preferred.
+<div role="tablist" aria-label="Entertainment">
+<button id="tab-1-button" role="tab"
+aria-controls="tab-1" aria-selected="true">
+Tab 1
+</button>
+<button id="tab-2-button" role="tab"
+aria-controls="tab-2"
+>
+Tab 2
+</button>
+</div>
+<div id="tab-1" role="tabpanel"
+tabindex="0" aria-labelledby="tab-1-button"
+>
+...
+</div>
+<div id="tab-2" role="tabpanel"
+tabindex="0" aria-labelledby="tab-2-button"
+hidden
+>
+...
+</div>
+What are the related ARIA Labels to “aria-current”?
+Listed below are the related ARIA Labels to “aria-current”.
+aria-selected:
+The aria-selected are related to aria-current because they both designate specific elements within a section of related elements. The
+aria-selected
+attribute is assigned more on widgets to highlight what is being currently selected.
+aria-label:
+The aria-label is related to aria-current because they both indicate a particular element. The
+aria-label
+attribute helps create an alternate text that is unavailable to the user.
+aria-controls:
+The aria-controls are related to aria-current because they both coexist in a certain division. The
+aria-controls
+property indicates that the contents of an element that is set with an attribute are controlled or represented by another element.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-current” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 4 min
+TechSEO
+“aria-describedby” ARIA Label for Acce…
+TechSEO
+“aria-controls” ARIA Label for Accessibility
+0
+0
+0

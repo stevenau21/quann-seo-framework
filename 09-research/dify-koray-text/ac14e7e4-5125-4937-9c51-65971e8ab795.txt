@@ -1,0 +1,117 @@
+RankBrain: Everything About Google's Rankbrain Algorithm - Holistic SEO
+Skip to content
+RankBrain refers to an algorithm used by Google, which, with the help of machine learning and artificial intelligence, is primarily intended to provide relevant search results for previously unanswered search queries. RankBrain is ranked by Google as the third most important ranking factor. RankBrain was rolled out for the first time in early 2015.
+When RankBrain sees a word or phrase that it is not familiar with, the algorithm can guess which words or phrases might have a similar meaning and filter the result accordingly. This increases the efficiency in handling search queries never seen before. These are sorted into word vectors (Word2Vec) that are close together in terms of linguistic similarity. RankBrain tries to map this query into words (entities) or clusters of words that have the best chance of matching. RankBrain, therefore, tries to guess what the intention of the search request is and saves the results to ensure better user satisfaction.
+Contents of the Article
+show
+1.
+Sense and Purpose of the Algorithm
+2.
+RankBrain As a Ranking Factor
+3.
+What can RankBrain do?
+4.
+Classification of RankBrain for algorithm updates
+5.
+Machine Learning and Artificial Intelligence in SEO
+6.
+RankBrain and Google Search
+7.
+RankBrain vs. Knowledge graph
+8.
+Facts and application
+9.
+Which websites will benefit from RankBrain?
+10.
+Last Thoughts on RankBrain and Holistic Search Engine Optimization
+Sense and Purpose of the Algorithm
+The search engine Google answers several billion search queries worldwide every day. In addition to standard questions about products or general information, around 15 percent of all searches are new every day. These queries are a major challenge for the search engine since they cannot usually be answered with known routines. For this reason, Google has been experimenting with a system for a number of years that is supposed to use artificial intelligence to solve previously unknown search queries. RankBrain was rolled out worldwide in early 2015.
+Google uses the Canonical Search Intent and Representative Query terms to classify newly discovered queries. According to these new queries, the Search Trends and past historical data are extracted to unify new queries under the existing search intents and queries. This methodology also is being used in link graphs, web site representation vectors and user behavior patterns. To understand this better, I recommend you to read our Search Engine Theories Articles.
+RankBrain As a Ranking Factor
+According to Google, RankBrain has been very successful since its rollout in early 2015 and has had a major impact on a large number of search requests. This great importance of the self-learning system has made it the third most important ranking factor for the search engine. RankBrain plays a major role in determining the relevance of search queries. The big difference to the Google updates launched so far is that the system itself learns new and the adjustments to the algorithm are not carried out by human hands. But even if RankBrain takes third place in the ranking of Google ranking factors, it remains only one of several hundred factors that Google uses to determine the relevance and quality of a website determined in relation to a search query and the search results calculated accordingly.
+You may learn more about Related Google Algorithms and Updates via our Guidelines:
+Google Panda Update
+Google Florida Update
+Google Hilltop Algorithm Update
+Google Possum Update
+Google Penguin Update
+Google TrustRank Algorithm
+Google PageRank Algorithm
+Google Caffeine Update
+What is Information Retrieval for Search Engines
+What can RankBrain do?
+Google RankBrain significantly increases the performance of Google search. The system can solve these tasks:
+Processing of ambiguous and complex search queries that go beyond a long-tail search.
+Processing of search queries made for the first time
+Better recognition of colloquial language or new word creations.
+Processing of dialogues.
+Voice input processing.
+To deal with these challenges, RankBrain is based on machine learning and artificial intelligence. It is the first such system that Google uses for the ranking of websites.
+The system compares the search query with already known patterns and creates new patterns and new relationships between results and information that are available in the index. In this way, the system learns with every new search query and becomes “more intelligent”. How exactly RankBrain works in detail was not specified by Google.
+Classification of RankBrain for algorithm updates
+While algorithm updates such as
+Google Panda
+,
+Google Penguin
+, or
+Google Phantom
+are adjustments and updates to Google’s general search algorithm, RankBrain does not exactly fit into this category. So RankBrain is not just an update of the Google algorithm, but an independent system. In addition, this system is not maintained and updated by people, but is self-learning, machine-based, and based on artificial intelligence.
+Some SEOs – such as Danny Sullivan from SearchEngineLand – call RankBrain part of the
+Google Hummingbird
+search algorithm. Sullivan sees RankBrain as well as Penguin, Panda, or Payday as components of Google’s core algorithm, which for him is Hummingbird. In this sense, RankBrain would be the part of Google’s entire search algorithm that is responsible for the previously unknown and unprecedented search queries, while the
+mobile update is active
+, for example, for mobile search queries or Panda takes on quality issues from websites.
+Machine Learning and Artificial Intelligence in SEO
+Machine learning, in its purest form also called “deep learning”, is an automated learning process in which a system can generalize the learning data through pattern recognition, comparisons and examples and apply them to new, unknown situations.
+Google uses the terms of machine learning and artificial intelligence as synonyms. Strictly speaking, machine learning is a complex statistical method that uses existing data to make predictions or extrapolations. Artificial intelligence, on the other hand, would be a system that thinks and decides completely and complex independently and gains its own knowledge about it.
+RankBrain is a development by Google, which marks the beginning of artificial intelligence. Nevertheless, the system represents a new milestone in the further development of the search engine. Because theoretically, people no longer have to intervene so that RankBrain gradually expands its competence based on new data.
+If you take the trouble and compare search results from three years ago with the results today, you will find out how good Google has become in answering search queries.
+RankBrain and Google Search
+Together with the references between the websites on the Internet (backlinks) and semantic signals, such as user behavior, it is the third most important ranking factor.
+RankBrain is part of the Google search, which in turn is based on an algorithm called “Hummingbird”. This takes into account up to 200 different factors, so-called signals, in order to decide which information is suitable to satisfy the search
+intent of the user
+and to be displayed in the search results. This information can take any form, be it websites, apps, videos, and documents.
+Before the RankBrain was implemented, search results were calculated using statistical, man-made evaluation criteria. In the case of unsatisfactory search results, these values ​​were checked and adjusted, sometimes even completely deleted. These assessment criteria can be thought of as filters that relate to selected aspects of the Google algorithm. Some of these filters are known and have borrowed names from the animal world. For example “Panda”, which looks at the content and relevance of websites, “Penguin”, which analyzes the quality of backlinks from websites or “Pidgeon” with effects on local search. (You can find out more in the article “ Google Updates“) Since website operators try to manipulate these filters with specially targeted content or wrong backlinks, they have to be updated frequently. However, only the filter is updated and not the entire Google algorithm. In this way, high-quality search results can be achieved without touching the central Google algorithm
+.
+RankBrain vs. Knowledge graph
+The Google Knowledge Graph was launched in 2012. This is the first time that the search engine group has shown how it knows how to deal with the semantics of words and real-world entities. Google put this ability in a nutshell with the words “things not strings”. Since then, Google has not only been able to search for “strings”, that is, chains of words, but also “things” that recognize the meaning of words.
+However, while the Knowledge Graph is an immense database that Google accesses and the content of which the search engine can display, RankBrain is a significant step further. In this way, the machine-learning system can also answer complex search queries without the corresponding keywords having to be available. An example of this would be a search query such as: Who is Donald Trumps’ husband?
+Facts and application
+The RankBrain system was rolled out for the first time in 2015. However, Google admits that the company cannot explain exactly how RankBrain technology will ultimately work. “We have no idea,” said Gary Illyes, Webmaster Trends Analyst at Google at the SMX Advanced Conference in 2016 (Source: https://searchengineland.com/ama-google-search-keynote-smxadvanced-252465 )
+The following information is known about RankBrain:
+It’s part of the Google algorithm
+It develops dynamically and is in a constant learning process
+It is already applied to all searches
+RankBrain does not necessarily affect search results
+His learning process is based, among other things, on user behavior patterns in combination with contextual information
+It tries not to understand individual words, but rather the phrases and the user intention
+RankBrain is relevant for the following types of search queries:
+Voice search
+Unknown searches
+Long-tail searches
+Search queries with ambiguous words
+Which websites will benefit from RankBrain?
+The use of RankBrain and the switch from purely statistical to semantic-related ranking factors in the Google algorithm leads to the following conclusions:
+Websites with unique content that can satisfy user intentions (even at article level)
+Websites with clear and understandable information architecture
+Websites with the ability to satisfy conversational searches
+Entities (search queries related to personalities, places, and facts) and their semantic connections
+Structured data (Structured Data Markup)
+User-oriented content
+Diversity of content related to all aspects of an entity
+These can be images, videos, graphics, etc. that deserve separate display in Google search results (Knowledge Graph, Universal Search, Featured Snippets)
+RankBrain is still a long way from becoming an independent AI system, as it is not yet learning independently, but is being “trained” by Google engineers. Nevertheless, the implementation of machine learning should make it better for complex search queries in order to be able to answer previously unknown search queries without human help.
+Last Thoughts on RankBrain and Holistic Search Engine Optimization
+Google’s RankBrain is a big step for the search engines in the direction of an assistant who can help us in everyday life. Language-based assistants such as Amazon’s Alexa, Microsoft’s Cortana or Google Home already show in which direction the web search can go. With RankBrain, Google is already able to answer questions. Probably SEOs all over the world have to adjust to the fact that the search engine is actually able to conduct conversations with the users with the help of artificial intelligence. The content on websites will continue to play a central role in the future.
+RankBrain has another importance for HolisticSEO. It is the first step for the decreasing importance of the keywords, queries, backlinks while the importance of the Semantic Structure and Entities’ is increasing in the Search Ecosystem. This also can be interpreted as the singular ranking factors such as backlinks, queries, or anchor texts that can be used in a Semantic Entity Structure to see whether the information and service source is authoritative, expert, and trustworthy enough.
+RankBrain has another importance for HolisticSEO. It is the first step for the decreasing importance of the keywords, queries, backlinks while the importance of the Semantic Structure and Entities’ is increasing in the Search Ecosystem. This also can be interpreted as the singular ranking factors such as backlinks, queries, or anchor texts that can be used in a Semantic Entity Structure thanks to RankBrain. It means that all of the ranking factors can be used to understand the web entities in a better way in a historical journey on the web.
+Also, different queries, quotes, mentions can affect the perception of the web entity in the eyes of the Search Engine. RankBrain is a mysterious and non-open sourced Search Algorithm for Google. But, every Holistic SEO should know and remember that every second, every ranking factor and every ranking factor algorithm can be calculated, ordered, and reinterpreted by the RankBrain. So, thinking like in RankBrain can help a Holistic SEO to see Search Engines’ viewpoint in an SEO Project.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray 
+
+[...truncated...]

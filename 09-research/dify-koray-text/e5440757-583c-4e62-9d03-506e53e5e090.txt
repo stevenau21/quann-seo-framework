@@ -1,0 +1,108 @@
+Googlebot: Crawling, Types of Crawlers and Effects on SEO - Holistic SEO
+Skip to content
+You will inevitably come across the term Googlebot if you are concerned with SEO (Search Engine Optimization) for your website. Google is the most important address with a market share of over 90%. The process of so-called crawling by Googlebots is crucial for indexing your page on Google.
+Related articles for deeper information.
+How to Verify Googlebot with Python
+What is DNS Lookup
+What is User-agent
+Contents of the Article
+show
+1.
+WHAT IS GOOGLEBOT?
+2.
+HOW DOES GOOGLEBOT WORK?
+2.1.
+THREE STEPS OF CRAWLING FOR GOOGLEBOT
+3.
+WHAT DOES THE GOOGLEBOT DO?
+4.
+HOW OFTEN DOES GOOGLEBOT VISIT A SITE?
+5.
+What Should You Know about Googlebot as a Content Publisher?
+6.
+KINDS OF GOOGLEBOTS
+7.
+BLOCK THE GOOGLEBOT
+8.
+CHANGE THE CRAWLING FREQUENCY by GOOGLEBOT
+9.
+ABUSE of GOOGLEBOT
+10.
+MEANING OF ABUSE FOR SEARCH ENGINE OPTIMIZATION
+WHAT IS GOOGLEBOT?
+The Googlebot is a web crawler of the search engine Google; the word component “bot” stands for “robot”. Googlebot automatically searches the Internet for websites and stores its content in the Google index. This indexed content represents the basis for the search queries of users. The search engine compares the search query of the user with the indexed content and then generates a results page that is as relevant as possible. In order to keep the index up to date, Googlebot is constantly looking for new websites and checking websites that have already been visited for new content, changes, and outdated links. This process requires extremely high computing power, which Google guarantees through a huge network of data centers.
+HOW DOES GOOGLEBOT WORK?
+It is usually a few days between downloading a file version and updating the search engine index with the same content of this new version. How often Googlebot visits a page depends, among other things, on how many external links refer to this page and how high its PageRank value is. In most cases, Googlebot only accesses a website once every few seconds on average.
+To keep access to the page to be indexed as low as possible, each crawl process is first stored in a cache used by all Googlebots. If a page is visited by several bots within a certain period of time, the request can thus be served from the cache.
+Googlebot observes the robots.txt file and the robot’s instructions in HTML meta tags. It should be noted that there may be misunderstandings during the crawl process with blocked CSS or JavaScript and the Googlebot may interpret the website incorrectly.
+THREE STEPS OF CRAWLING FOR GOOGLEBOT
+In order to move from website to website, Googlebot follows links. The bot recognizes SRC and HREF links. For a long time, the Googlebot was unable to follow Javascript links; that has changed in the meantime. The Googlebot can control several crawling processes in parallel, that is, move simultaneously through different link structures; this is called multi-threading
+If the bot moves to a new page, it first makes a request to the server, for which it introduces itself with the user agent ID “Googlebot”. The requests from the crawler are logged in the log files of the server and allow webmasters to understand who is making requests to the server.
+According to Google’s own statements, the bot accesses a specific website once every few seconds on average. The frequency is i.a. depending on the number of external links that refer to a page or on the PageRank of the page. Websites that are less strongly linked maybe only visited by the bot every few days or less frequently.
+Note: Googlebot uses the cache of the web site to visit the web site lesser and save the crawl quota. Also, Google doesn’t cache the resources with the POST Method.
+WHAT DOES THE GOOGLEBOT DO?
+Googlebot visits and crawls websites by moving from link to link. All content found by the robot is downloaded and stored in the Google index depending on its relevance. The analysis by Googlebot is a crucial step for placing your page in the search results on Google. In addition to the Googlebot for web searches, there are other special bots. For example Googlebot-News, Googlebot-Video, or Googlebot-Mobile for smartphone pages. If the page was recently crawled by one of the bots, it caches the information for the other crawlers.
+HOW OFTEN DOES GOOGLEBOT VISIT A SITE?
+When the Googlebot comes back depends on various factors. The bot moves using links. Therefore, the PageRank and the number and quality of the existing backlinks are crucial until the Googlebot undertakes a new crawl of the page. The loading times and the structure of a website as well as the frequency of updating the content also play a role. A standard value cannot be determined. A page that has many high-quality backlinks can be read out by Googlebot every 10 seconds. Smaller pages with little backlinks can sometimes take a month or more
+What Should You Know about Googlebot as a Content Publisher?
+In principle, you should ensure that links are built sustainably and that your content is updated regularly.
+This content updates should be necessary, if you change the content just for changing without any added value, it may be seen as spam.
+Keep them relevant and of high quality in order to be visited regularly by the crawler. Ensure a search engine-friendly structure of your website navigation and keep loading times low thanks to professional web design. Attempts to manipulate the evaluation of Googlebot by simple techniques are rather unsuccessful today and can even be punished by lowering the ranking on Google. The programs Google Penguin and Google Panda recognize a mere accumulation of keywords, which should particularly emphasize the content of the website, lower quality, or a generation of backlinks for spam. However, Google offers you further options to improve the frequency of the query by Googlebots. These are presented here by us and can be acquired by yourself with some research.
+KINDS OF GOOGLEBOTS
+In addition to the Googlebot for web searches, there are also other specialized Googlebots. For example, there is a Googlebot only for news, a Googlebot for videos, a Googlebot mobile for smartphone websites, etc. The various Googlebots also exchange information with each other: If a bot crawls a page, it makes it available for other bots in the so-called cache.
+BLOCK THE GOOGLEBOT
+Because the Googlebot follows links, one could assume that websites that are not linked cannot be found. In fact, it is almost impossible to keep websites secret in this way: as soon as a link from the “secret” page points to an external server, the secret server can also identify the secret server using the reference protocol.
+But you can actively deny Googlebot access. One possibility is to add a robots.txt file to the root directory of your own website. This file tells the bot which areas of the website are allowed to be crawled and which are not.
+However, using a robots.txt file does not offer a 100% guarantee that a website will not appear in Google search. It is better to place the robots meta tag for this
+In the head element of a website. It instructs all crawlers not to display the page in question in the search results. If you only want to exclude the Googlebot, you have to replace “robots” with “Googlebot” in the name attribute.
+You can also use the nofollow meta tag; This prevents the bot from tracking any links on its own website. If the bot should not only follow certain links, you only add the attribute rel = “nofollow” to the respective link.
+CHANGE THE CRAWLING FREQUENCY by GOOGLEBOT
+When visiting a website, Googlebot accesses the website at a certain clock rate; e.g. by default, it makes five requests per second to a specific page. You can also tell Googlebot how many requests it should make per second. That makes e.g. meaning for very extensive websites, which are particularly often crawled by the bot. This can result in bandwidth bottlenecks – the website is then more difficult to reach and loads more slowly. In this case, webmasters should instruct the bot in Google’s Search Console to make fewer queries per second. The crawl rate can only be reduced, but not increased beyond the normal level.
+ABUSE of GOOGLEBOT
+In recent years, it has become increasingly common for users or crawlers to pretend to be web servers as Googlebot, e.g. compromise the availability of the server. In order to be able to identify false Googlebots, Google recommends that site operators check queries via DNS if necessary. To do this, webmasters must translate a visitor’s IP address into a domain name using a reverse DNS request. If it is really the bot, the name should end on “googlebot.com”. In the second step, a regular DNS query is then carried out to find out whether the original IP address can be obtained again. If this is the case, you can assume that the visitor is really the Googlebot.
+MEANING OF ABUSE FOR SEARCH ENGINE OPTIMIZATION
+For search engine optimization (SEO) it is important to be familiar with the functionality of Googlebot, e.g. in order to be able to “see” new content as quickly as possible. This means how to put new content in the Google index as quickly as possible in order to make it available to the user.
+One possibility is to store the URL with the new content in the Search Console. This ensures that the new pages are taken into account during the next crawl process. A second option is to set a link from an external page to the new content. As the Googlebot follows links as described, it will come to the new page in the foreseeable future.
+In order to promote the crawling process and achieve correct indexing, it is also recommended to create a sitemap. A sitemap is a hierarchically structured representation of all individual pages of a website. The crawler sees the structure of a website at a glance and knows which links he can follow next. In addition, you can individually prioritize individual pages with a value between 0 – 1 and ensure that the crawler visits these highlighted pages more often. The use of a sitemap makes particular sense when a large page has been newly created. The sitemap can be made available to Googlebot via robots.txt and/or submitted in the Search Console.
+Another important point for search engine optimization: The Googlebot can only handle Flash, Ajax, and dynamic content to a limited extent. Even if the development suggests that this could change in the future, it is still advisable to focus primarily on static website formats when it comes to SEO. Googlebot can interact reliably with these formats.
+In recent years, it has become increasingly common for users or crawlers to pretend to be web servers as Googlebot, e.g. compromise the availability of the server. In order to be able to identify false Googlebots, Google recommends that site operators check queries via DNS if necessary. To do this, webmasters must translate a visitor’s IP address into a domain name using a reverse DNS request. If it is really the bot, the name should end on “googlebot.com”. In the second step, a regular DNS query is then carried out to find out whether the original IP address can be obtained again. If this is the case, you can assume that the visitor is really the Googlebot.
+Googlebot and Crawl Efficiency, Quota and Budget are closely related terms to each other. To learn more about Crawling, Indexing and Rendering Process of Googlebot and what you can do to improve your crawl efficiency. As Holistic SEOs we will continue to research and experiment about Googlebot.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+1 thought on “What is the Googlebot and How Often it Crawls a Page?”
+Great article about Googlebot’s nature and its capabilities. Thank you!
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+What is the Googlebot and How Often it Crawls a Page?
+by Koray Tuğberk GÜBÜR
+time to read: 8 min
+TechSEO
+What is a Proxy Server?
+TechSEO
+What is the Cache? How can you clear the Cache?
+0
+0
+1

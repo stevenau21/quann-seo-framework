@@ -1,0 +1,101 @@
+416 HTTP Response Status Code Definition: Example, Usage, Methods - Holistic SEO
+Skip to content
+The 416 HTTP Status Code which means that range is not satisfiable indicates that the server is unable to provide the requested ranges. Either the page does not include any such ranges, or the Range header value is nonsensical despite its proper syntactic usage. The 416 response message includes a Content-Range indicating an unfulfilled range (a ‘*’) followed by a ‘/’ and the resource’s current length (For Example, Content-Range: bytes */13788). When confronted with this error, browsers typically either abort the operation or display an error message (An obvious example of this would be a download that is not resumable) or request a copy of the entire document once more. The difference between HTTP Status Codes 400 and 416 is that the 400 HTTP Status Codes indicate that the server could not recognize the request due to invalid syntax, whereas the 416 HTTP Status Code signifies that the server could not meet the user’s needs.
+Contents of the Article
+show
+1.
+What does 416 HTTP Status Code Mean?
+1.1.
+How to Use 416 HTTP Status Code for a Website?
+2.
+How to Check 416 HTTP Status Code?
+2.1.
+Which HTTP Method is used with 416 HTTP Status Code?
+3.
+What are the Related HTTP Response Headers with 416 HTTP Status Code?
+4.
+What are the Browsers Compatibility of 416 HTTP Status Code?
+5.
+What are the other Similar Status Codes to 416 HTTP Status Code?
+What does 416 HTTP Status Code Mean?
+The 416 HTTP Status Code means the range is not satisfactory. It is feasible that the requested set of ranges has been rejected because of invalid ranges or an excessive request for small or overlapping ranges in the request’s Range header field. All of the byte range specifications failed to overlap the current extent, which means that the first-byte position of all byte range specifications exceeded the current length. A Content-Range header field containing the current length of the specified representation should be generated when this Status Code is generated in response to a byte-range request.
+How to Use 416 HTTP Status Code for a Website?
+To use the 416 HTTP Status Code is when the request is unable to be fulfilled due to the Range Header’s specified range. Additionally, the range can extend beyond the data contained in the target URI.
+How to Check 416 HTTP Status Code?
+To check the 416 HTTP Status Code use the web browser network tab and developer tools for every resource that the client uses.
+Which HTTP Method is used with 416 HTTP Status Code?
+There is only one HTTP Method used with 416 HTTP Status Code which is the POST Method. An entity can be submitted to the given resource using the POST method and the server’s state can be altered as a result.
+What are the Related HTTP Response Headers with 416 HTTP Status Code?
+The related HTTP Response Headers with 416 HTTP Status Code are listed below.
+Content-Range HTTP Header: The 416 HTTP Status Code is related with the Content-Range HTTP Header which specifies the location of a partial message within a full body message.
+Range HTTP Header: The 416 HTTP Status Code is related to the Range HTTP Header which indicates  what the server should return from a document. A single Range header can be used to request several parts, and the server may respond with a multipart document containing all of the requested parts.
+What are the Browsers Compatibility of 416 HTTP Status Code?
+You can see the table that shows the browser’s compatibility of the 416 HTTP Status Code below.
+Browsers Name
+Browser Compatibility of 416 HTTP Status Code
+Chrome
+YES
+Edge
+YES
+Firefox
+YES
+Internet Explorer
+YES
+Opera
+YES
+Safari
+YES
+WebView Android
+YES
+What are the other Similar Status Codes to 416 HTTP Status Code?
+There are other similar HTTP Status Codes to the 416 HTTP Status Code. The following are listed below.
+412 Precondition Failed HTTP Status Code: The
+412 HTTP Status Code
+is similar to the 415 HTTP Status Code because they are both client error responses. The 412 HTTP Status Code indicates that the server does not meet the preconditions specified in the client’s headers.
+415 Unsupported Media Type HTTP Status Code: The
+415 HTTP Status Code
+is similar to the 416 HTTP Status Code because they are both client error responses. The 415 HTTP Status Code indicates that the server does not support the requested media format, hence it rejects the request.
+417 Expectation Failed HTTP Status Code: The
+417 HTTP Status Code
+is similar to the 416 HTTP Status Code because they are both client error responses. The 417 HTTP Status Code means the server is unable to fulfill the expectation specified in the Expect request header field.
+418 I’m a teapot HTTP Status Code:  The
+418 HTTP Status Code
+is similar to the 416 HTTP Status Code because they are both client error responses. The 418 HTTP Status Code indicates that the server declines to use a teapot to brew coffee.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+416 HTTP Response Status Code Definition: Example, Usage, Methods
+by Holistic SEO
+time to read: 3 min
+TechSEO
+204 HTTP Response Status Code Definition: Example,…
+TechSEO
+415 HTTP Response Status Code Definition: Example,…
+0
+0
+0

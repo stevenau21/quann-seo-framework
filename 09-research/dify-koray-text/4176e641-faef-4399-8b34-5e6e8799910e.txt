@@ -1,0 +1,98 @@
+HTML <q> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <q> HTML Tag indicates that the text enclosed is a brief inline quotation. The majority of modern browsers accomplish this by enclosing the text in quotation marks. This element is for brief quotations that do not require paragraph breaks; for lengthy quotations, use the <blockquote> HTML Tag. The <q> HTML Tag is used to indicate a brief quotation. The <q> HTML Tag is part of the Formatting HTML category in HTML Element Reference. The attributes of the <q> HTML Tag are cite, global, and event attributes.
+<q> code block example to learn how it works is given below.
+<q>Quotation</q>
+The second example usage of the “<q>” code block example is given below.
+<p>Holistic SEO Digital:
+<q>A Mindset for Coder Marketers</q>
+</p>
+Contents of the Article
+show
+1.
+What is <q> HTML Tag?
+2.
+How to Use <q> HTML Tag?
+2.1.
+Example Usage of <q> HTML Tag?
+3.
+What are the Attributes of <q> HTML Tag?
+4.
+What are the Default CSS Settings for <q> HTML Tag?
+5.
+What are the Related other HTML Tags to <q>?
+What is <q> HTML Tag?
+The <q> HTML Tag is a standard quotation mark that is used to indicate a brief quotation. Normally, the browser surrounds the quotation with a quotation mark. It is necessary for web developers because it is used for short quotations. The <blockquote> tag must be used for longer quotations, as it is a block-level element. The <q> HTML Tag requires both a beginning and an ending tag.
+How to Use <q> HTML Tag?
+To use <q> HTML Tag, the web developer should insert a short quotation between the start and end tags. However, if it is a long quotation, then the <blockquote> HTML Tag is used.
+Example Usage of <q> HTML Tag?
+The following example of usage of <q> HTML Tag is given below.
+<p><cite>Benjamin Franklin</cite> said <q> A good example <em> is </em> the best sermon</q>.</p>
+What are the Attributes of <q> HTML Tag?
+There are multiple attributes for the <q> HTML Tag. The following attributes are listed below.
+Global Attributes: The <q> HTML Tag supports global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <q> HTML Tag supports event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+Cite Attribute: The <q> HTML Tag supports cite attribute. The cite attribute indicates the URL of the source of the quote.
+What are the Default CSS Settings for <q> HTML Tag?
+The following are the Default CSS Settings for the <dl> HTML Tag.
+q {
+display: inline;
+}
+q:before {
+content: open-quote;
+}
+q:after {
+content: close-quote;
+}
+What are the Related other HTML Tags to <q>?
+The other related HTML Tags to <q> HTML Tag are listed below.
+<em> HTML Tag: The
+<em>
+HTML Tag is related to <q> HTML Tag because they are both in formatting HTML Tags. The <em> HTML Tag is used to make text stand out.
+<font> HTML Tag: The
+<font>
+HTML Tag is related to <q> HTML Tag because they are both in formatting HTML Tags. The <font> HTML Tag is used to set the font for text.
+<i> HTML Tag: The
+<i>
+HTML Tag is related to <q> HTML Tag because they are both in formatting HTML Tags. The <i> HTML Tag is used in HTML to show what text is more important or different than the rest.
+<ins> HTML Tag: The
+<ins>
+HTML Tag is related to <q> HTML Tag because they are both in formatting HTML Tags. The <ins> HTML Tag is used to describe text that was added.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <q> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <mark> Tag Definition, Usage and Exampl…
+TechSEO
+HTML <rp> Tag Definition, Usage and Examples…
+0
+0
+0

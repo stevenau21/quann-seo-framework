@@ -1,0 +1,105 @@
+HTML <link> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <link> HTML Tag establishes a connection between the current document and a remote resource. The <link> HTML Tag is most frequently used to connect to stylesheets, but it is also used to establish site icons both “favicon”-style icons and icons for the home screen and apps on mobile devices. The <link> HTML Tag is used to establish a connection between a document and an external resource. The <link> HTML Tag is part of the link tags category to imply a connection between two documents. The attributes of the <link> HTML tag are charset, crossorigin, disabled, href, hreflang, media, rel, rev, sizes, target and type. The code block and code sample for the <link> HTML Tag are shown below.
+<link> code block example to learn how it works is given below.
+<head>
+<link rel="stylesheet" href="example.css">
+</head>
+The second example usage of the “<link>” code block example is given below.
+<html>
+<head>
+<title>Title</title>
+<link rel="stylesheet" href="/example.css">
+</head>
+<body>
+<p>Body </p>
+</body>
+</html>
+Contents of the Article
+show
+1.
+What is <link> HTML Tag?
+2.
+How to Use <link> HTML Tag?
+2.1.
+Example Usage of <link> HTML Tag?
+3.
+What are the Attributes of <link> HTML Tag?
+4.
+What are the Default CSS Settings for <link> HTML Tag?
+5.
+What are the Related other HTML Tags to <link>?
+What is <link> HTML Tag?
+The <link> HTML Tag is used to defining a connection between one document and another.  It is necessary for web developers because the <link> HTML Tag is mostly used to create links to external style sheets. This HTML Tag may exist several times in the body of the document, but it should only appear in the head section. The <link> HTML Tag is empty; it just contains attributes. The <link> HTML Tag’s values indicate how the item being linked to and related to the containing document is related.
+How to Use <link> HTML Tag?
+To use <link> HTML Tag, the web developer should insert a link between the start and end tags to establish a link between two documents. The <link> HTML Tag is often used to reference external style sheets.
+Example Usage of <link> HTML Tag?
+The following example of usage of <link> HTML Tag is given below.
+<head>
+<link rel="stylesheet" type="example.css" href="example.css">
+</head>
+What are the Attributes of <link> HTML Tag?
+There are multiple attributes for the <link> HTML Tag. The following attributes are listed below.
+crossorigin attribute: The <link> HTML Tag supports crossorigin indicates whether CORS is required for resource retrieval. CORS-enabled pictures can be reused without getting tainted in the canvas> element. The values that are permitted are anonymous and use-credentials.
+disabled attribute: The <link> HTML Tag supports disabled indicates whether or not to load and apply the specified stylesheet to the document. This is for the rel=”stylesheet” attribute only.
+href attribute: The <link> HTML Tag supports href indicates the hyperlinked resource’s URL. A URL might be either absolute or relative in nature.
+hreflang attribute: The <link> HTML Tag supports the hreflang attribute, which specifies the language of the referenced resource.
+imagesizes attribute: The <link> HTML Tag supports imagesizes indicates to preload the right resource for an img element’s srcset and sizes attributes. This is only applicable to rel=”preload” and as=”image”.
+imagesrcset attribute: The <link> HTML Tag supports imagesrcset indicates that the img element’s srcset and sizes properties should be preloaded with the relevant resource. This is only applicable to rel=”preload” and as=”image”.
+integrity attribute: The <link> HTML Tag supports integrity indicates that this can be used by the browser to ensure that the retrieved resource was delivered without any unexpected alteration.
+media attribute: The <link> HTML Tag supports media indicates the media to which the referenced site pertains. It must contain a media type / media query as its value.
+rel attribute: The <link> HTML Tag supports rel indicates the relationship between the current document and the one to which it is attached.
+rev attribute: The <link> HTML Tag supports rev indicates that the linked document’s reverse relationship is assigned to the current document.
+sizes attribute: The <link> HTML Tag supports sizes indicates the icon’s size for visual media and is only applicable when rel=”icon”.
+title attribute: The <link> HTML Tag supports title indicates that when a link rel=”stylesheet”> is used, a default or alternate stylesheet is defined.
+type attribute: The <link> HTML Tag supports title identifies the sort of information to which the link points.
+target attribute: The <link> HTML Tag supports target identifies the window or frame that contains the referenced document.
+charset attribute: The <link> HTML Tag supports charset specifies the character encoding for the HTML document that is linked.
+Global Attributes: The <link> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <link> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <link> HTML Tag?
+There is no default CSS Settings for <link> HTML Tag.
+What are the Related other HTML Tags to <link>?
+The other related HTML Tags to <link> HTML Tag are listed below.
+<anchor> HTML Tag: The <anchor> HTML Tag is related to <link> HTML Tag because they are both link tags. The web developer can create links on a web page with the usage of the <anchor> HTML Tag.
+<nav> HTML Tag: The
+<nav>
+HTML Tag is related to <link> HTML Tag because they are both link tags. The <nav> HTML Tag defines the web page’s navigation section.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <link> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <iframe> Tag Definition, Usage and Exam…
+TechSEO
+HTML <param> Tag Definition, Usage and Examp…
+0
+0
+0

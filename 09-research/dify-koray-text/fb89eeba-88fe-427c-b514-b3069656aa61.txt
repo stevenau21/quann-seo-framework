@@ -1,0 +1,107 @@
+"aria-setsize" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-setsize is an attribute that defines the size that the browser computes, especially in tables and grids, the set size to determine how the content would fit in the cell. The purpose of the aria-setsize is to set the right size of the space in order to fit in the contents needed to display in the browser. The function of aria-setsize is to define a number of items in the set of list items or tree items if the presence of the list is not yet shown by the DOM. The developer can use the aria-setsize to override wrong information made by the browser to the list items and tree items. The elements that can be used with the aria-setsize are list items, buttons, options, and select elements. The aria-setsize can be used with the aria-posinset ARIA label, they are attributes used to indicate the position of the given item within the set.
+Contents of the Article
+show
+1.
+What is the function of the “aria-setsize” ARIA Label?
+2.
+What are the uses of the “aria-setsize” ARIA Label?
+3.
+Example Uses of “aria-setsize” ARIA Label
+4.
+What is the related ARIA Label to “aria-setsize”?
+What is the function of the “aria-setsize” ARIA Label?
+The function of the aria-setsize is to define the set of items and evaluate the elements that are identified by the attribute and announce the definitive information to the screen readers of the assistive technology. The aria-setsize attribute is set on every, not on the contained element. The value of aria-setsize will be the same for every item even if it is a numeric value, else will be -1 if unknown. If all the items existed in the document object model, the browser can identify the set size and the position of every item, that is why aria-setsize is used together with aria-posinset.
+What are the uses of the “aria-setsize” ARIA Label?
+Listed below are the uses of the “aria-setsize” ARIA Label.
+article role:
+It indicates a section of a page that can be a single page in a form of a document or content of the website.
+comment role:
+It is a note reaction responding to the content or article, it may also note or respond to old comment and other commentary reactions.
+listitem role:
+It is used to identify an item within the list of items, and used with the list role to identify a container.
+menuitem role:
+It indicates the element is the option in the set of choices contained by a menu or menubar.
+option role:
+It is for identifying selectable choices of a list box. The options must have an accessible name to determine the content it identifies.
+Example Uses of “aria-setsize” ARIA Label
+Listed below are the example uses of the “aria-setsize” ARIA Label.
+The aria-setsize job is to provide the screen reader the size information about an element, usually it is presented by the DOM but if not the attribute is the best for the job.
+<h2 id="label_fruit"> Available Fruit </h2>
+<ul role="listbox" aria-labelledby="label_fruit">
+<li role="option" aria-setsize="16" aria-posinset="5">Orange</li>
+<li role="option" aria-setsize="16" aria-posinset="6">Grapes</li>
+<li role="option" aria-setsize="16" aria-posinset="7">Water Mellon</li>
+<li role="option" aria-setsize="16" aria-posinset="8">Pineapple</li>
+</ul>
+<h2 id="label_animals"> These are animals </h2>
+<ul role="listbox" aria-labelledby="label_animals">
+<li role="option" aria-setsize="16" aria-posinset="5"> Monkey </li>
+<li role="option" aria-setsize="16" aria-posinset="6"> Giraffe </li>
+<li role="option" aria-setsize="16" aria-posinset="7"> Snake </li>
+<li role="option" aria-setsize="16" aria-posinset="8"> Goat </li>
+</ul>
+<h2 id="label_fish"> These are types of fish </h2>
+<ul role="listbox" aria-labelledby="label_fish">
+<li role="option" aria-setsize="16" aria-posinset="5"> shark </li>
+<li role="option" aria-setsize="16" aria-posinset="6"> whale </li>
+<li role="option" aria-setsize="16" aria-posinset="7"> tuna </li>
+<li role="option" aria-setsize="16" aria-posinset="8"> grouper </li>
+</ul>
+<h2 id="label_crustaceans"> These are crustaceans </h2>
+<ul role="listbox" aria-labelledby="label_crustaceans">
+<li role="option" aria-setsize="16" aria-posinset="5"> lobster </li>
+<li role="option" aria-setsize="16" aria-posinset="6"> shrimp </li>
+<li role="option" aria-setsize="16" aria-posinset="7"> crab </li>
+<li role="option" aria-setsize="16" aria-posinset="8"> Barnacle </li>
+</ul>
+<h2 id="label_tools"> These are tools </h2>
+<ul role="listbox" aria-labelledby="label_tools">
+<li role="option" aria-setsize="16" aria-posinset="5"> crowbar </li>
+<li role="option" aria-setsize="16" aria-posinset="6"> wrench </li>
+<li role="option" aria-setsize="16" aria-posinset="7"> hammer </li>
+<li role="option" aria-setsize="16" aria-posinset="8"> shovel </li>
+</ul>
+What is the related ARIA Label to “aria-setsize”?
+The aria-posinset is related to aria-setsize because they are both used to define the position of the item in the tree item or list item, thus, this does not require if the DOM already possesses this information. The
+aria-posinset
+can be used to determine the positions of the element, especially in feed and article roles, it enables the section of the page to position the article where it should be. The aria-posinset value is an integer, less than or equal to -1 is considered unknown, else it should be greater or equal to 1.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-setsize” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 4 min
+TechSEO
+“aria-sort” ARIA Label for Accessibili…
+TechSEO
+“aria-rowspan” ARIA Label for Accessib…
+0
+0
+0

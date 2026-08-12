@@ -1,0 +1,100 @@
+HTML <data> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The HTML <data>Tag is a machine-readable representation of its own contents. This can be handy in circumstances when the material has to be supplied in a different format.  The <data> HTML Tag is part of Style and Semantics HTML category in HTML Element Reference. The attributes of the <data> HTML Tag are global, and value attributes.
+<data> code block example to learn how it works is given below.
+<data value="machine-readble-data">
+User friendly content...
+</data>
+The second example usage of the “<data>” code block example is below.
+<h4>Recommended Reading</h4>
+<ul>
+<li><data value="0972506961">My Pretty Sister</data></li>
+<li><data value="0385005619">Journeys Out of the Body</data></li>
+<li><data value="B06GVFNUX8">The Science Delusion</data></li>
+Contents of the Article
+show
+1.
+What is <data> HTML Tag?
+2.
+How to Use <data> HTML Tag?
+2.1.
+Example Usage of <data> HTML Tag?
+3.
+What are the Attributes of <data> HTML Tag?
+4.
+What is the Default CSS Setting for <data>HTML Tag?
+5.
+What are the Related other HTML Tags to <data>?
+What is <data> HTML Tag?
+The <data> HTML Tag provides a machine-readable version of its own contents. It presents the facts in a unique format. It is useful when the data must be in a specific format so it may be handled by a script, but this may not be the format that the users want to view.
+How to Use <data> HTML Tag?
+To use the <data> HTML Tag the web developer should provide the user-friendly contents between the start and end tags in the <data> HTML Tag. The machine-readable value is provided by the value property.
+Example Usage of <data> HTML Tag?
+The following example of usage of <data> HTML tag is given below.
+<ul>
+<li><data value="21053">Cherry Tomato</data></li>
+<li><data value="21054">Pork Tomato</data></li>
+<li><data value="21055">Sweet Tomato</data></li>
+</ul>
+What are the Attributes of <data> HTML Tag?
+There are multiple attributes for the <data> HTML Tag. The following attributes are listed below.
+Global Attributes: The <data> HTML Tag supports global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Value Attribute: The <data> HTML Tag supports the value attribute. The Value Attribute defines the machine-readable translation of the element’s content.
+What is the Default CSS Setting for <data>HTML Tag?
+The following is the Default CSS Setting for the <data> HTML Tag.
+data:hover::after {
+content: ' (ID ' attr(value) ')';
+font-size: .7em;
+}
+What are the Related other HTML Tags to <data>?
+The other related HTML Tags to the <data> HTML Tag are listed below.
+<article> HTML Tag: The
+<article>
+HTML Tag is related to <data> HTML Tag because they are both style and semantic tags. The <article> HTML Tag specifies a self-contained composition in a document, page, application, or site that is meant to be distributable or reusable independently.
+<section> HTML Tag: The
+<section>
+HTML Tag is related to <data> HTML Tag because they are both style and semantic tags. The <section> HTML Tag represents a generic isolated portion of a page that lacks a more specialized semantic element to describe it.
+<footer> HTML Tag: The
+<footer>
+HTML Tag is related to <data> HTML Tag because they are both style and semantic tags. The <footer> HTML Tag specifies a footer for the sectioning content or sectioning root element immediately preceding it.
+<aside> HTML Tag: The
+<aside>
+HTML Tag is related to <data> HTML Tag because they are both style and semantic tags. The <aside> HTML Tag denotes a section of a document whose content is only tangentially related to the page’s primary content.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <data> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <code> Tag Definition, Usage and Exampl…
+TechSEO
+HTML <em> Tag Definition, Usage and Examples…
+0
+0
+0

@@ -1,0 +1,107 @@
+HTML <label> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <label> HTML Tag is used to define a caption for a user interface control, most commonly a form control, although it can contain any phrase material. The <label> HTML Tag enables the user to associate a caption/label with a control, informing the user of the control’s purpose. For instance, an input field that accepts the user’s first name could be labeled “First Name: “. Certain browsers allow users to select a radio button or checkbox option just by clicking on the <label> HTML Tag. The <label> HTML Tag is part of the Forms and Input HTML category in HTML Element Reference. The attributes of the <label> HTML Tag are for, form, global, and event attributes.
+<label> code block example to learn how it works is given below.
+<label>First Name: <input type="text" id="fname"></label>
+or
+<label for="fname">First Name: </label>
+<input type="text" id="fname">
+The second example usage of the “<label>” code block example is given below.
+<p>Which food do you like to eat?</p>
+<form>
+<label><input type="radio" name="food" value="pizza">Pizza</label>
+<label><input type="radio" name="food" value="hamburger">Hamburger</label>
+<label><input type="radio" name="food"
+value="fish and chips">Fish and Chips</label>
+<label><input type="radio" name="food"
+value="none">None of the Above</label>
+</form>
+Contents of the Article
+show
+1.
+What is <label> HTML Tag?
+2.
+How to Use <label> HTML Tag?
+2.1.
+Example Usage of <label> HTML Tag?
+3.
+What are the Attributes of <label> HTML Tag?
+4.
+What is the Default CSS Setting for <label> HTML Tag?
+5.
+What are the Related other HTML Tags to <label>?
+What is <label>  HTML Tag?
+The <label> HTML Tag is used to enhance the usability of mouse users; for example, when a user clicks on the text included within the <label> HTML Tag, the control is toggled. The <label> HTML Tag specifies the label for an element such as <button>, <input>, <meter>, <output>, <progress>, <select>, or <textarea>. The <label> HTML Tag has two possible uses. Firstly, provide the <input> and id attributes in the <label> HTML Tag. An attribute with the same value as the input id is required for the <label> HTML Tag. Alternatively, user may use the <input> tag immediately within the <label> HTML Tag. The for and id properties are not required in this scenario because the association is implicit.
+How to Use <label> HTML Tag?
+To use the <label> HTML Tag, the site developer should use the syntax <label></label>, inserting the label text between the start and end tags. There are two ways to use the <label> HTML Tag. Users can either include the related control within the opening and closing tags of the <label> HTML Tag, or the user can use the for attribute to refer to the associated element by its ID.
+Example Usage of <label>  HTML Tag?
+The following examples of usage of <label> HTML Tag is given below.
+<p>Which place do you prefer to live in?</p>
+<form>
+<label><input type="radio" name="place"
+value="city">Big City</label>
+<label><input type="radio" name="place" value="town">Small Town</label>
+What are the Attributes of <label>  HTML Tag?
+There are multiple attributes for the <label> HTML Tag. The following attributes are listed below.
+For attributes: The <label> HTML Tag supports for attributes. The for attributes specify the id of the form element to which the label should be bound.
+Form attributes: The <label> HTML Tag supports form attributes. The form attributes define the form to which the label belongs.
+Global Attributes: The <label> HTML Tag supports global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <label> HTML Tag supports event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <label> HTML Tag?
+The following is the Default CSS Setting for the <label> HTML Tag.
+.preference {
+display: flex;
+justify-content: space-between;
+width: 60%;
+margin: .5rem;
+}
+What are the Related other HTML Tags to <label>?
+The other related HTML Tags to the <label> HTML Tag are listed below.
+<form> HTML Tag: The <form> HTML Tag is related to <label> HTML Tag because they are both forms and input tags. Forms are created using the <form> HTML Tag.
+<input> HTML Tag: The
+<input>
+HTML Tag is related to <label> HTML Tag because they are both forms and input tags. The <input> HTML Tag is used to specify the Input Element.
+<textarea> HTML Tag: The
+<textarea>
+HTML Tag is related to <label> HTML Tag because they are both forms and input tags. The HTML Tag <textarea> is used to specify a text input element.
+<button> HTML Tag: The
+<button>
+HTML Tag is related to <label> HTML Tag because they are both forms and input tags. The HTML button is created using the <button> HTML Tag.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <label> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <source> Tag Definition, Usage and Exam…
+TechSEO
+HTML <address> Tag Definition, Usage and Exa…
+0
+0
+0

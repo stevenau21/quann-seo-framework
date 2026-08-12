@@ -1,0 +1,149 @@
+WWW-Authenticate: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+WWW-Authenticate header is an HTTP header that is used to determine which HTTP Authentication program will be applied to access a web server.
+WWW-Authenticate HTTP header is used by the server to provide responses to specify the effect of the response after credentials are provided. A status code of 401 (Unauthorized) will be sent as a response to a server using HTTP Authentication. This response will be requiring the WWW-Authenticate and a challenge-response authentication, to determine which HTTP Authentication mechanism will be applied to access the webserver. There can be more than one WWW-Authenticate HTTP Header to be used with one challenge-response authentication, and vice versa. WWW-Authenticate HTTP will be requested together with the credentials to access the secured resources within the webserver. A sample HTTP response for the “401” HTTP status code is shown below in the following form.
+HTTP/1.1 401 Unauthorized
+Date: Fri, 24 Dec 2021 07:00:00 GMT
+WWW-Authenticate: Digest realm="Example Only”
+qop=”auth.auth-int”,
+opaque=”5ccc069c403ebaf9517f40e41”,
+WWW-Authenticate HTTP Header can be seen above within the HTTP 401 Status Code. In this article, the WWW-Authenticate Syntax, Directives, and Uses with examples will be processed.
+Contents of the Article
+show
+1.
+What is WWW-Authenticate?
+1.1.
+What is the Syntax of WWW-Authenticate?
+1.2.
+What are the Directives of WWW-Authenticate?
+2.
+How to use WWW-Authenticate?
+2.1.
+Examples of WWW-Authenticate Use
+3.
+What are the Specification Documents for WWW-Authenticate?
+4.
+What are the type of WWW-Authenticate?
+4.1.
+What are the similar HTTP Authenticate Headers?
+5.
+Which Browsers Support WWW-Authenticate HTTP Header?
+What is WWW-Authenticate?
+WWW-Authenticate is an HTTP header that defines which HTTP Authentication scheme will be implemented to the resource. WWW-Authenticate HTTP header needs one or more challenge-response authentications to provide the required restrictions on the authentication method for the Request-URI. WWW-Authenticate HTTP header is generally used to provide responses after credentials are applied and for further restrictions to secure the webserver.
+What is the Syntax of WWW-Authenticate?
+The syntax WWW-Authenticate HTTP Header consists of three sub-parts. The first part will contain the WWW-Authenticate HTTP Header. The WWW-Authenticate HTTP Header value will be preceded by a “:”. The value of the challenge-response authentication comes next in the syntax of the header. The last part of the syntax is the additional challenge-response authentication required by the method. An example of these is shown below.
+WWW-Authenticate: “WWW-Authenticate” HCOLON challenge
+challenge:                  (“Digest” LWS digest-cln *(COMMA digest-cln))/ other -challenge
+other challenges:     auth-scheme LWS auth-param *(COMMA auth-param)
+What are the Directives of WWW-Authenticate?
+The directives of WWW-Authenticate are the limitations approved by the Authentication scheme. The two types of directives are shown below.
+Basic
+Created based on the specific method.
+Syntax:
+Digest <realm>
+Example:
+WWW-Authenticate: Digest realm="Example”
+Digest <response>
+In response to an HTTP request, the Digest header contains a digest of the requested resource. A web server may have multiple digest values.
+Syntax:
+WWW-Authenticate: <type> realm=<realm>
+Example:
+HTTP/1.1 401 Unauthorized
+WWW-Authenticate: Digest
+realm="
+[email protected]
+",
+qop="auth, auth-int",
+algorithm=RLA-123,
+nonce="5xyz/qrs7YYtfNTCoB2SNkv/lpf52BxDBzFZF4ViTo1b",
+opaque="QTse/qeU824lmnopCqrsciny9TTkSqMAFRtzQOTo5tdN
+Realm: Defines the username and password.
+Domain: Provides specific location for the usage of WWW-Authenticate HTTP header. A list of URLs separated by spaces and enclosed with a quote.
+Nonce: Provides an original type of string that develops a direct response. These are enclosed with a quote and can be initiated more than once.
+Opaque: this is also considered as an Asymmetric Password Authenticated Key Exchange (aPAKE) restriction. Requires password verification without exposing user’s credentials to other web servers.
+Stale: A flag displayed whenever a stale or old nonce is used and disapproved afterwards.
+Algorithm: A group of procedures required to generate a digest.
+QOP: Quality of Protection is used on all HTTP Headers to provide a secured web server.
+Auth: Authentication gives the assurance that all information is sent and received to the correct recipient or sender.
+Auth-int: Authentication with Integrity Protection. Certifies that all information is valid and unrevised.
+How to use WWW-Authenticate?
+On HTTP Response Headers, the WWW-Authenticate is required to define what HTTP Authentication scheme is to be used to access the webserver. Multiple WWW-Authenticate HTTP headers can be used together with the challenge-response authentication. The process of securing the resources within the web server requires the use of the WWW-Authenticate HTTP header. When a WWW-Authenticate HTTP header is generated, the credentials shall be supplied by the user, an Authorization header is used to supply these credentials to the web server, then the resource will be re-requested. The client will be providing the most protected challenge-response authentication required. WWW-Authenticate HTTP header field is e in any 401 (Unauthorized) response and may be optionally present in a 407 (Proxy Authentication Required) response.
+Examples of WWW-Authenticate Use
+Examples of WWW-Authenticate are shown below.
+The initializer for structure:
+WWW-Authenticate: SIP_WWW_AUTHENTICATE_T.
+The tag-taking reference parameter is used to include a tag with a pointer in a tag list.
+WWW-Authenticate: SIPTAG_WWW_AUTHENTICATE ()
+WWW-Authenticate with two challenge-response authentications:
+WWW-Authenticate: Newauth realm="apps", type=1,
+title="Login to \"apps\"", Basic realm="simple"
+What are the Specification Documents for WWW-Authenticate?
+The Specification Document for WWW-Authenticate HTTP Header is:
+RFC 3261: RFC 3261 determines the Digest method.
+RFC 7617: RFC 7617 is used mainly for credential transmission.
+RFC 6750: RFC 6750 is used to determine which WWW Authenticate to be applied on web servers protected by tokens.
+RFC 7616: RFC 7616 is used to define which challenge response authentication method will be applied to challenge and request verifications from the user.
+What are the type of WWW-Authenticate?
+The types of WWW-Authenticate are shown below.
+Basic: Basic WWW-Authenticate HTTP is a method where basic protection to the browser is applied by validating username and password.
+Bearer: Bearer WWW-Authenticate HTTP is a method where the protection used for the web server are bearer tokens.
+Digest: Digest WWW-Authenticate HTTP is a method where the header contains a digest of the required browser.
+Negotiate: Negotiate WWW-Authenticate HTTP is a method used for various representation distribution of a web server.
+AWS4-HMAC-SHA256: This type of WWW Authenticate HTTP refers to the AWS Signature Version 4 and HMAC-SHA256. A series of syntax used to calculate the signature.
+What are the similar HTTP Authenticate Headers?
+The similar HTTP Headers to Proxy-Authenticate can be found below.
+Authorization
+. This HTTP header consists of the user’s credentials.
+Proxy Authenticate.  An HTTP header that allows the server to transmit the request from the client.
+Proxy-Authorization. An HTTP header that configures the method on how internet access is validated for the client machines.
+Which Browsers Support WWW-Authenticate HTTP Header?
+There are multiple browsers that support WWW-Authenticate HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible e with the support WWW-Authenticate HTTP Header
+Edge Browser is compatible e with the support WWW-Authenticate HTTP Header
+Firefox Browser is compatible e with the support WWW-Authenticate HTTP Header
+Internet Explorer Browser is compatible e with the support WWW-Authenticate HTTP Header
+Opera Browser is compatible e with the support WWW-Authenticate HTTP Header
+Safari Browser is compatible e with the support WWW-Authenticate HTTP Header
+WebView Android Browser is compatible e with the support WWW-Authenticate HTTP Header
+Chrome Android Browser is compatible e with the support WWW-Authenticate HTTP Header
+Firefox for Android Browser is compatible e with the support WWW-Authenticate HTTP Header
+Opera Android Browser is compatible e with the support WWW-Authenticate HTTP Header
+Safari on iOS Browser is compatible e with the support WWW-Authenticate HTTP Header
+Samsung Internet Browser is compatible e with the support WWW-Authenticate HTTP Header
+You can see an image that shows cross-browsers compatibility of WWW-Authenticate HTTP Headers below.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+WWW-Authenticate: Syntax, Directive, Examples
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+TechSEO
+Authorization HTTP Header: Syntax, Directive, Exam…
+TechSEO
+X-Content-Type-Options HTTP Header: Syntax, Direct…
+0
+0
+0

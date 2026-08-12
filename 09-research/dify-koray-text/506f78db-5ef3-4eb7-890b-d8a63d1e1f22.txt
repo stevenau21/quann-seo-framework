@@ -1,0 +1,107 @@
+Device-Memory HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Device-Memory HTTP Header device client hint request header field indicates the client device’s approximate amount of available RAM. The Digest HTTP Header is part of the Device Memory API, and it tells web browsers how much memory is in the device. RAM is a big factor in how well a client device can do things. In the past, developers had to use heuristics and either test a device or figure out what a device could do based on other things like the device manufacturer or User-Agent strings. Client Hints can only be found on secure sources (via TLS). This means that a server has to accept the Device-Memory HTTP Header from a client in order to receive it. This is done by sending a response header with the Accept-CH header. Servers that choose to use the Device-Memory client hint will usually also put it in the Vary header, as well. The server may send a different response depending on that value when a request has a certain header value; it tells the cache that it is possible. There is only one value using the Device-Memory HTTP Header. The value using the Device-Memory HTTP Header is the “number”. The example of the Device-Memory HTTP Header is written below.
+Device-Memory: 8
+The Device-Memory HTTP Header Request Header can be seen above. In this article, the Device-Memory HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is the Device-Memory HTTP Header?
+2.
+What is the Syntax of the Device-Memory HTTP Header?
+3.
+What is the Directive on Device-Memory HTTP Header?
+4.
+How to use Device-Memory HTTP Header?
+5.
+Examples of Device-Memory HTTP Header Use
+6.
+What is the Specification Document for Device-Memory HTTP Header?
+7.
+What are the types of Device-Memory HTTP Header?
+8.
+What are the similar HTTP Headers to the Device-Memory HTTP Header?
+9.
+Which Browsers Support Device-Memory HTTP Header?
+What is the Device-Memory HTTP Header?
+The Device-Memory HTTP Header device client hint request-header field specifies the approximate amount of RAM available on the client device. The Digest HTTP Header is part of the Device Memory API and informs web browsers about the device’s memory capacity.
+What is the Syntax of the Device-Memory HTTP Header?
+The Device-Memory HTTP Header has only one value in its syntax. The syntax using the Device-Memory HTTP Header is written below.
+Device-Memory: <number>
+What is the Directive on Device-Memory HTTP Header?
+The Device-Memory HTTP Header can only contain one directive. The number represents the estimated amount of RAM available on the device. The following are possible values: 0.25, 0.5, 1, 2, 4, and 8. Since the amount of device RAM is being used as a fingerprinting variable, the values for the header are purposefully coarse in order to prevent the possibility of it being abused. An example directive for using the Device-Memory HTTP Header is given below.
+Device-Memory: 0.5
+How to use Device-Memory HTTP Header?
+The Device-Memory HTTP Header device client hint request header field is used to specify the approximate amount of RAM available on the client device in the HTTP request header field. The Digest HTTP Header is a component of the Device Memory API, and it provides web browsers with information about the device’s available memory.
+Examples of Device-Memory HTTP Header Use
+The following is an example of how to use the Device-Memory HTTP Header.
+For example, the server must first opt-in to receive the Device-Memory header by sending the Accept-CH containing the Device-Memory response header.
+Accept-CH: Device-Memory
+The client may then return the Device-Memory header on subsequent requests.
+Device-Memory: 1
+What is the Specification Document for Device-Memory HTTP Header?
+There is only one specification for the Device-Memory HTTP Header which is the Device-Memory. The Device Memory Section 2  mentioned the Device-Memory HTTP Header’s definition and applications.
+What are the types of Device-Memory HTTP Header?
+The Device-Memory HTTP Header Types are listed below.
+The Device-Memory HTTP Header is a request header that shows the client device’s approximate RAM capacity.
+The Device-Memory HTTP Header is a response header that contains additional information about the response, such as its location or the server that provided it.
+What are the similar HTTP Headers to the Device-Memory HTTP Header?
+There are other similar HTTP to the Device-Memory HTTP Header. The examples are listed below.
+Device-Memory API: The capabilities of a client device are heavily reliant on the amount of RAM available. Traditionally, developers had to use heuristics to either benchmark a device or infer device capabilities based on other factors such as the device manufacturer or User-Agent strings similar to the Device-Memory HTTP Header, which also indicates the approximate amount of RAM available on the client device.
+Navigator.deviceMemory: The device The Navigator interface’s Memory read-only property returns the approximate amount of device memory in gigabytes, similar to the Device-Memory HTTP Header, which also indicates the approximate amount of available RAM on the client device.
+Content-DPR HTTP Header: The Content-DPR HTTP Header is similar to the Device-Memory HTTP Header. The client device pixel ratio is provided in the DPR device client hint request header. The
+Content-DPR HTTP Header
+Ratio is the number of physical device pixels that correspond to every CSS pixel, similar to the Device-Memory HTTP Header, which uses a number as its value.
+Viewport-Width HTTP Header: The Viewport-Width HTTP Header is similar to the Device-Memory HTTP Header. The
+Viewport-Width HTTP Header
+device client hint request header specifies the width of the client’s layout viewport in CSS pixels. Similar to the Device-Memory HTTP Header, which uses the number as its value, the value is rounded up to the smallest following integer.
+Width HTTP Header: The Width HTTP Header is similar to the Device-Memory HTTP Header. The
+Width HTTP Header
+device client hint request-header field specifies the desired resource width in physical pixels; an image’s intrinsic size. Similar to the Device-Memory HTTP Header, which uses a number as its value, the provided pixel value is a number rounded to the smallest following integer.
+Which Browsers Support Device-Memory HTTP Header?
+There are multiple browsers that support Device-Memory HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Device-Memory HTTP Header.
+Edge Browser is compatible with the Device-Memory HTTP Header.
+Opera Browser is compatible with the Device-Memory HTTP Header.
+WebView Android Browser is compatible with the Device-Memory HTTP Header.
+Chrome Android Browser is compatible with the Device-Memory HTTP Header.
+Samsung Internet Browser is compatible with the Device-Memory HTTP Header.
+You can see an image that shows cross-browser compatibility of Device-Memory HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Device-Memory HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Digest HTTP Header: Syntax, Directive, Examples
+TechSEO
+Sec-CH-UA-Model HTTP Header: Syntax, Directive, Ex…
+0
+0
+0

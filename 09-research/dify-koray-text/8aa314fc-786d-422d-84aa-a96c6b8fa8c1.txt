@@ -1,0 +1,167 @@
+Time to First Byte (TTFB): Server Response Time and Page Speed - Holistic SEO
+Skip to content
+Recent studies have shown that
+search rankings are affected by the loading speed of web pages
+. The logic behind all of this is clear and simple: A website that loads slowly delivers a bad user experience, and websites with a bad user experience don’t deserve to be at the top of search results. This means that if your website doesn’t load quickly (less than 3 seconds according to Google), you will not only scare away your visitors and potential customers, but it will also negatively affect your search engine rankings.
+For those who don’t want to read the entire article and are looking for our test
+results
+,
+here are the results we got
+:
+HOST
+TIME UNTIL THE FIRST BYTE
+PlanetHoster (the World)
+0.22s
+WPX Hosting  (Business plan)
+0.35s
+A2 Hosting (WP Hosting Swift)
+0.36s
+WP Server
+0.6s
+o2 Switch
+0.65s
+Infomaniak (Web Hosting)
+0.8s
+Siteground  (Grow Big)
+1.4s
+Bluehost (Shared Plus)
+1.53s
+Different Hosting Services and their average TTFB Scores.
+You may see that different hosting has different TTFB Scores. Also, these scores can be varied according to the different days, time of day, and location of the requestor. Because of these types of changeable factors, having a solid Hosting and Server for TTFB is vital in terms of SEO and UX purposes. In this article, we will see how to improve Time to First Byte and how TTFB might affect the User Experience along with Search Engine Optimization Performance.
+You may see that Google’s TTFB Timing is shorter than 200 MS over all of the our planet.
+Contents of the Article
+show
+1.
+First Byte Timing and Its Effect on Google Page Rankings
+1.1.
+Three Key Factors of TTFB Improvement
+2.
+What Causes bad TTFB Timing?
+3.
+How to improve your TTFB?
+3.1.
+1.Avoid the Use of Dynamic Content
+3.2.
+2.Provide Static Content through a Content Delivery Network or CDN
+3.3.
+3.Web Server Configuration
+3.4.
+4.Backend Infrastructure Optimization
+4.
+Why do you need to optimize the first byte load time?
+5.
+How to measure the loading time of the first byte?
+6.
+What is the Average Time of the First Byte?
+7.
+Which Page Speed Metrics are Related to the Time to First Byte?
+8.
+Time to First Byte and Holistic SEO
+First Byte Timing and Its Effect on Google Page Rankings
+Google uses a variety of factors to determine the ranking of pages in the search results. There are officially
+over 300 of them, and inbound links and user experience have an important role to play
+. Google took the industry by surprise in 2014 when the company announced that it would now take website performance (page load times) into account when determining page rankings. The problem is, page load time is a general term and there is a multitude of factors that come into play when it comes to optimizing a site’s load speed.
+Note: Google was filming different guidelines related to the web site performance since 2010, but they didn’t actually say that Pagespeed is a ranking factor until 2014. In 2017, with Mobile-first Indexing term and Mobile-friendliness, the page speed terminology has been expanded tremendously.
+One of the most important factors is the
+Time To First Byte (TTFB)
+or time for the first byte. This is the time it takes for the browser to receive the first response byte from a website when a website URL is requested through a browser. In short, it’s a
+combination of network and server speed barriers
+. Slowdowns can occur anywhere between when the web browser makes a request and when it receives a response. These delays add up and the TTFB is the measure used to determine the “severity” of the accumulated delays.
+Three Key Factors of TTFB Improvement
+Network latency is the time that necessary for the server to send the first response to the user-agent. The most significant study in the field that highlighted the
+relationship between Time To First Byte and search
+engine rankings
+were conducted by Moz and Zoompf in 2013. They examined the relationship between TTFB and Google search rankings using
+2,000 different search queries and testing the performance of 100,000 sites
+in search results. The search results revealed a
+clear correlation between the first-byte time and search engine rankings
+. Although the shorter time to the first byte clearly correlates with a higher Google rank, it is however not possible to generalize and say whether a lower TTFB could lead to an increase in rankings.
+However, the results were significant enough to warrant website owners starting to work on their site’s performance as well as other metrics affecting their SEO. The Moz and Zoompf study found that
+websites with faster TTFBs ranked better overall than those with higher TTFBs
+.
+This is the results of TTFB and Search Engine Results’ Correlation from Moz’s Research. This is an output of old research but still, since Search Engines care about User Experience, Holistic SEOs should care about for TTFB in terms of UX and Rankings.
+What Causes bad TTFB Timing?
+As we mentioned earlier, according to research by Moz and Zoompf,
+TTFB is influenced by three key things
+, including:
+The time it takes for the request to cross the network and reach the webserver.
+The time it takes for the server to process the request and generate a response.
+The time it takes for the response to return over the network to the browser.
+A delay in any of the three components would result in an increase in TTFB. To improve the time of the first byte, it is above all necessary to reduce the loading times associated with each of these domains. In general, there could be
+four main reasons that could cause a delay in these areas
+.
+Four reason for a bad TTFB Metric:
+Dynamic content creation
+Network issues
+Web server configuration
+Amount of traffic received
+By optimizing these factors, you can decrease your TTFB and therefore improve your site’s performance. Also, choosing the right web hosting brand for better TTFB is the most important section, if you don’t have enough server configuration information and experience.
+How to improve your TTFB?
+There are a
+variety of factors that affect latency and first byte time
+. Here are some things a Holistic SEO can do to improve this point.
+1.Avoid the Use of Dynamic Content
+Creating dynamic content is one of the main reasons for bad TTFB. When the webserver needs to deliver dynamic content, it must complete several steps before it can resend the requested page, which can cause a delay.
+On the other hand, when a browser requests a static file, the server responds immediately (normally) with the file. As WordPress pages are dynamic, whenever the browser makes a request, the pages are built by obtaining PHP files and interacting with a database.
+This makes TTFB slower
+. If your latency is related to WordPress, you can fix it by providing cached versions of your pages. You can achieve this either by installing a caching plugin or by using WordPress hosting that provides caching solutions.
+Using server-side caching (like Litespeed for example) is a good way to generate dynamic pages quickly, but if your content doesn’t change frequently, you can use a local caching solution through a plugin like WP Rocket. This will dramatically improve the page load time.
+2.Provide Static Content through a Content Delivery Network or CDN
+You can use the content delivery network (CDN) to reduce the virtual distance between your content and visitors. You can move your static content through a CDN, which will automatically deliver the content through data centers located in multiple locations around the world, and geographically bring your server closer to users.
+CDN
+can help reduce TTFB significantly
+, but you need to make sure that the CDN you are using can cache your homepage’s static HTML and not just images, CSS, and JavaScript. CDN is not always the best option, beware!
+Thanks to CDN, a browser can create more connections for pulling the resources.
+3.Web Server Configuration
+Another very important factor that determines your TTFB is
+your choice of web server and how it is configured
+.
+First of all, it is important that you are using the latest version of the webserver, especially if you are using PHP, as the same script generally works better on a newer version than on an older version. You should also check the configuration of your content management system and disable all non-essential operations so that the site can respond quickly to a request. Javascript often poses problems at this level.
+For CMS using a language like Ruby or PHP, you can use the op-code cache to decrease execution time. Thus, the server would convert the interpreted language into a code understandable by the machine only once and not for each request made. Different software is available to perform this task depending on the underlying technology used.
+There are a lot of other background issues that can affect your site’s performance
+, and it is possible to gradually optimize your Time To First Byte.
+For example, one factor that could affect TTFB on an Apache server is the configuration of the .htaccess file.
+Although this is a convenient way to perform configurations on the server, it can cause major performance issues. It is a web file that can be used to give instructions to the server and is used to create mod rewrites, redirects, etc. Unfortunately, sometimes it gets used where it shouldn’t be and this affects the TTFB. This happens because HTTP searches for .htaccess files in every directory, even though you are not actually using them. The file is loaded every time a document is requested, causing delays at the TTFB level.
+4.Backend Infrastructure
+Optimization
+Another factor that can cause a high TTFB is
+the time it takes for the web server to process the request and generate a response
+.
+This processing time is determined by a number of factors that include the computer hardware used, the operating system that is running your website, the application code that is running on that hardware, and the database queries. What the application does to build the page as well as the amount of data returned are important factors. All of these components and their configuration play an essential role here. You might not be in control of all of these issues, and it might not be possible to optimize them all to improve TTFB, but there are some things you can thankfully easily do.
+First of all, make sure you have the necessary infrastructure to operate your website effectively.
+The first thing that can hurt your site’s performance is the type of hosting you are using
+. From a cost perspective,  shared hosting seems like a good idea, but if your goal is to have a site that loads fast, then shared hosting may not be a good option for you. When you share server resources with other websites, it affects the performance of your site, as the processing speed of the server depends on the performance and load of other sites with which you are sharing resources. Unfortunately, not everyone has the same means and fortunately, there are very efficient shared hosting solutions, such as those highlighted on our site via our tests.
+Why do you need to optimize the first byte load time?
+Optimizing Time To First Byte
+benefits both site owners and their visitors. With a better TTFB, users get a better browsing experience because they have to spend less time waiting for the server and site to generate a response. Website owners benefit from increased engagement rates and retention of visitors or customers. Plus, a better TTFB gives you a better chance of ranking higher in Google.
+How to measure the loading time of the first byte?
+Now that we know how important TTFB can be to your search rankings, it makes sense for you to measure your site’s TTFB to see if it is living up to your ambitions. There are a few free tools online that you can use to determine a site’s TTFB. Gtmetrix, Pingdom,
+or Webpagetest.org
+are comprehensive and recognized tools that measure overall site performance, including TTFB. ByteCheck.com is another test site that provides the number of seconds a website takes to reach its first byte.
+Also, Sucuri can be used for TTFB testing in multiple locations. This is a test result for Kinsta.
+What is the Average Time of the First Byte?
+It’s hard to get an average figure for TTFB, but
+research results from Moz and Zoompf certainly give us an idea. Their study found that the websites with the highest search engine rankings had a Time To First Byte of around 350ms and the lowest-ranked websites had a TTFB of up to 650ms
+. This study, therefore, recommends a TTFB of 500ms or less, which includes round trip latency of 100ms or less, and backend processing of 400ms or less. Google recommends that websites have a server response time of less than 200ms. Google.com has a TTFB of less than 100ms. Given these figures, we compared the TTFBs obtained during our tests of the main web hosts presented on our site.
+Which Page Speed Metrics are Related to the Time to First Byte?
+Time to First Byte affects all of the page speed and web page performance metrics. When Time to First Byte improves,
+Largest Contentful Paint
+,
+Speed Index
+,
+First Input Delay
+metrics improve, as the loading speed of all resources on a web page will increase. Thus, the infrastructure of the server and Time to First Byte is related to each other. All of the Related page speed metrics with the TTFB is listed below.
+Largest Contentful Paint
+Speed Index
+First Input Delay
+Time to Interactive
+Total Blocking Time
+First Paint
+First Contentful Paint
+The only web page performance metric that is not related to the Time to First Byte is the
+Cumulative Layout Shift
+.
+Time to First Byte and Holistic SEO
+TTFB is one of the most important metrics for User-experience and Search Engine Optimization. With a bad TTFB, the web entity can suffer from inefficient crawl efficiency along with bad communication with Search Engine Algorithms. Because of this situation, compressing the file sizes, optimizing
+
+[...truncated...]

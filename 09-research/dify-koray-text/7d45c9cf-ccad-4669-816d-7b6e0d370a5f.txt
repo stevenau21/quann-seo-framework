@@ -1,0 +1,492 @@
+NLTK and Python WordNet: Find Synonyms and Antonyms with Python - Holistic SEO
+Skip to content
+NLTK Wordnet can be used to
+find synonyms and antonyms of words
+. NLTK Corpus package is used to read the corpus to understand the lexical semantics of the words within the document. A WordNet involves semantic relations of words and their meanings within a lexical database. The semantic relations within the WordNet are hypernyms, synonyms, holonyms, hyponyms, meronyms. NLTK WordNet includes the usage of synsets for finding the words within the WordNet with their usages, definitions, and examples.
+NLTK WordNet
+is to find the representations between senses. Relation type detection is connected to the WordNet with lexical semantics. A dog can be a mammal, and this can be expressed with an “IS-A” relation type sentence. Thus,
+NLTK
+Wordnet is used to find the relations between words from a document, spam detection, duplication detection, or characteristics of the words within a written text with their POS Tags.
+NLTK Lemmatization, stemming, tokenization, and POS Tagging are related to the NLTK WordNet for Natural Language Processing. To use the Natural Language Tool Kit
+WordNet
+with better efficiency, the
+synonyms
+, and
+antonyms
+, holonyms, hypernyms, and hyponyms, and all of the lexical relations should be used for text processing and text cleaning. In this NLTK WordNet Python tutorial, the synonym and antonym finding, along with word similarity calculation will be used with NLTK Corpus Reader for the English Language.
+A quick example of the synonym and antonym finding with NLTK Python can be found below.
+def synonym_antonym_extractor(phrase):
+from nltk.corpus import wordnet
+synonyms = []
+antonyms = []
+for syn in wordnet.synsets(phrase):
+for l in syn.lemmas():
+synonyms.append(l.name())
+if l.antonyms():
+antonyms.append(l.antonyms()[0].name())
+print(set(synonyms))
+print(set(antonyms))
+synonym_antonym_extractor(phrase="word")
+OUTPUT >>>
+{'tidings', 'password', 'Holy_Writ', 'Good_Book', 'Bible', 'discussion', 'news', 'parole', 'give_voice', 'articulate', 'Son', 'word', 'Holy_Scripture', 'Book', 'give-and-take', 'Christian_Bible', 'intelligence', 'Logos', 'phrase', 'word_of_honor', 'formulate', 'Scripture', 'Word', 'watchword', 'countersign', 'Word_of_God'}
+set()
+The Synonym and Antonym finding example code block with Python NLTK involves a custom function creation, “nltk.corpus”, and “wordnet” with “syn.lemmas”, “syn.antonyms” along with a for a loop. The phrase “word” has been used as an example for the NLTK Synonym and Antonym finding. According to the WordNet within the NLTK.corpus, there is no antonym for “word” phrase, but the synonyms are “password”, “Holy Writ”, “Good Book”, “Bible”, “Discussion”, “News”, “Parole”. NLTK Synonyms and Antonyms involve lexical synonyms and contextual synonyms from WordNet.
+In this Python and NLTK Synonym and Antonym finding guide, the usage of the NLTK WordNet for lexical semantics, word similarities, and synonym, antonym, hypernym, hyponym, verb frames, and more will be processed.
+Contents of the Article
+show
+1.
+How to Find Synonyms of a Word with NLTK WordNet and Python?
+2.
+How to Find Antonyms of a Word with NLTK WordNet and Python?
+3.
+How to use a custom Python Function for Finding Synonyms and Antonyms with NLTK WordNet?
+3.1.
+How to use POS Tagging for Synonym and Antonym Finding with NLTK WordNet?
+3.1.1.
+How to Find the Definition of a Synonym Word with NLTK WordNet?
+3.1.2.
+How to find the sentence examples for words within NLTK WordNet?
+3.1.3.
+How to Extract the Synonyms and their Definitions at the same time with NLTK WordNet?
+3.2.
+How to extract synonyms and antonyms from other languages besides English via NLTK Wordnet?
+4.
+What other Lexical Semantics can be extracted with NLTK WordNet besides Antonyms and Synonyms?
+4.1.
+How to Find Hypernym of a Word with NLTK WordNet and Python?
+4.2.
+How to Find Hyponym of a Word with NLTK WordNet and Python?
+4.3.
+How to Find Verb Frames of a Verb with NLTK WordNet and Python?
+4.4.
+How to Find Similar Words for a targeted Word with NLTK WordNet and Python?
+4.5.
+How to Find Topic Domains of a Word with NLTK WordNet and Python?
+4.6.
+How to Find Region Domains of a Word with NLTK WordNet and Python?
+4.7.
+How to Find Usage Domains of a Word with NLTK WordNet and Python?
+5.
+How to Use WordNet for other languages with Python NLTK?
+6.
+What are the WordNet-related NLP Tasks with NLTK?
+7.
+What are the related terms to the WordNet from NLTK?
+8.
+Last Thoughts on NLTK WordNet and Holistic SEO
+How to Find Synonyms of a Word with NLTK WordNet and Python?
+To find the synonyms of a word with NLTK WordNet, the instructions below should be followed.
+Import NLTK.corpus
+Import WordNet from NLTK.Corpus
+Create a list for assigning the synonym values of the word.
+Use the “synsets” method.
+use the “syn.lemmas” property to assign the synonyms to the list with a for loop.
+Call the synonyms of the word with NLTK WordNet within a set.
+An example of the finding of the synonym of a word via NLTK and Python is below.
+from nltk.corpus import WordNet
+synonyms = []
+for syn in wordnet.synsets("love"):
+for i in syn.lemmas():
+synonyms.append(l.name())
+print(set(synonyms))
+OUTPUT >>>
+{'dearest', 'love_life', 'get_it_on', 'roll_in_the_hay', 'lie_with', 'screw', 'bonk', 'passion', 'honey', 'sleep_together', 'lovemaking', 'making_love', 'make_love', 'have_sex', 'jazz', 'bed', 'erotic_love', 'dear', 'do_it', 'have_it_away', 'be_intimate', 'fuck', 'have_a_go_at_it', 'sleep_with', 'hump', 'enjoy', 'eff', 'have_it_off', 'know', 'have_intercourse', 'make_out', 'bang', 'beloved', 'love', 'get_laid', 'sexual_love'}
+In the example above, the word “love” is used for finding its synonyms for different contexts with the NLTK and Python. The synonyms that are found for the “love” involves “dearest”, “lie with”, “screw”, “bonk”, “passion”, “honey” and some subtypes such as “sexual love”, “erotic love”. A word can be a synonym of another word, and indirectly related and connected words can be included within the synonym list of a word with NLTK WordNet. Thus, to find the different contextual synonyms and sibling phrases for a word, NLTK can be used. The compositional compounds and non-compositional compounds, or synonyms are used by the search engines. For a search engine optimization or search engine creation project, the NLTK WordNet and synonyms are prominent for understanding the context of textual data. Thus, from the Google Patents, the NLTK and WordNet can be found as mentioned methodology for synonym finding.
+How to Find Antonyms of a Word with NLTK WordNet and Python?
+To find the Antonyms of a Word with NLTK WordNet and Python, the following instructions should be followed.
+Import NLTK.corpus
+Import WordNet from NLTK.Corpus
+Create a list for assigning the synonym values of the word.
+Use the “synsets” method.
+use the “syn.lemmas” property to assign the synonyms to the list with a for loop.
+Use the “antonyms()” method with “name” property for calling the antonym of the phrase.
+Call the antonyms of the word with NLTK WordNet within a set.
+from nltk.corpus import wordnet
+antonyms = []
+for syn in wordnet.synsets("love"):
+for i in syn.lemmas():
+if i.antonyms():
+antonyms.append(i.antonyms()[0].name())
+print(set(antonyms))
+OPUTPUT >>>
+{'hate'}
+The antonym of the word “love” has been found as “hate” via the NLTK Antonym finding code example. Finding Synonyms and Antonyms from sentences by tokenizing the words within the sentence is beneficial to see the possible contextual connections to understand the content with NLP. Thus, creating a custom function for synonym finding within the text with Python is useful. The next section of the NLTK Python Synonym and Antonym Finding Tutorial with WordNet will be about a custom function creation.
+How to use a custom Python Function for Finding Synonyms and Antonyms with NLTK WordNet?
+To use a custom Python Function for finding synonyms and antonyms with NLTK, follow the instructions below.
+Create a custom function with the Python built-in “def” command.
+Use the text for synonym and antonym finding as the argument of the custom synonym and antonym finder Python function.
+Import the “word_tokenize” from the “nltk.tokenize”.
+Import the “wordnet” from the “nltk.corpus”.
+Import “defualtdict” from the “collections”.
+Import “pprint” for the pretty print the antonyms and synonyms.
+Tokenize the words within the sentence for synonym and antonym finding with NLTK.
+Create the antonym and synonym lists with “defaultdict(list)”.
+Use a for loop with the tokens of tokenized sentence with NLTK for synonym and antonym finding.
+Use a for a loop with the “synsets” for synonym and antonym finding.
+Use an “if” statement to check whether the antonym of the word exists or not.
+Use “pprint.pformat” and “dict” for making the synonym and antonym list writable to the a txt file.
+Append all of the synonyms and antonyms for every word within the sentence with the created synonym and antonym defaultdict lists.
+Open a new file as txt.
+Print all of the synonyms and antonyms to a txt file.
+Close the opened and created txt file.
+An example of using the WordNet NLTK for finding synonyms and antonyms from an example sentence can be found below.
+def text_parser_synonym_antonym_finder(text:str):
+from nltk.tokenize import word_tokenize
+from nltk.corpus import wordnet
+from collections import defaultdict
+import pprint
+tokens = word_tokenize(text)
+synonyms = defaultdict(list)
+antonyms = defaultdict(list)
+for token in tokens:
+for syn in wordnet.synsets(token):
+for i in syn.lemmas():
+#synonyms.append(i.name())
+#print(f'{token} synonyms are: {i.name()}')
+synonyms[token].append(i.name())
+if i.antonyms():
+#antonyms.append(i.antonyms()[0].name())
+#print(f'{token} antonyms are: {i.antonyms()[0].name()}')
+antonyms[token].append(i.antonyms()[0].name())
+pprint.pprint(dict(synonyms))
+pprint.pprint(dict(synonyms))
+synonym_output = pprint.pformat((dict(synonyms)))
+antonyms_output = pprint.pformat((dict(antonyms)))
+with open(str(text[:5]) + ".txt", "a") as f:
+f.write("Starting of Synonyms of the Words from the Sentences: " + synonym_output + "\n")
+f.write("Starting of Antonyms of the Words from the Sentences: " + antonyms_output + "\n")
+f.close()
+text_parser_synonym_antonym_finder(text="WordNet is a lexical database that has been used by a major search engine. From the WordNet, information about a given word or phrase can be calculated such as")
+OUTPUT >>>
+Starting of Synonyms of the Words from the Sentences: {'WordNet': ['wordnet',
+'WordNet',
+'Princeton_WordNet',
+'wordnet',
+'WordNet',
+'Princeton_WordNet'],
+'a': ['angstrom',
+'angstrom_unit',
+'A',
+'vitamin_A',
+'antiophthalmic_factor',
+'axerophthol',
+'A',
+'deoxyadenosine_monophosphate',
+'A',
+'adenine',
+'A',
+'ampere',
+'amp',
+'A',
+'A',
+'a',
+'A',
+'type_A',
+'group_A',
+'angstrom',
+'angstrom_unit',
+'A',
+'vitamin_A',
+'antiophthalmic_factor',
+'axerophthol',
+'A',
+'deoxyadenosine_monophosphate',
+'A',
+'adenine',
+'A',
+'ampere',
+'amp',
+'A',
+'A',
+'a',
+'A',
+'type_A',
+'group_A',
+'angstrom',
+'angstrom_unit',
+'A',
+'vitamin_A',
+'antiophthalmic_factor',
+'axerophthol',
+'A',
+'deoxyadenosine_monophosphate',
+'A',
+'adenine',
+'A',
+'ampere',
+'amp',
+'A',
+'A',
+'a',
+'A',
+'type_A',
+'group_A'],
+'about': ['about',
+'astir',
+'approximately',
+'about',
+'close_to',
+'just_about',
+'some',
+'roughly',
+'more_or_less',
+'around',
+'or_so',
+'about',
+'around',
+'about',
+'around',
+'about',
+'around',
+'about',
+'around',
+'about',
+'about',
+'almost',
+'most',
+'nearly',
+'near',
+'nigh',
+'virtually',
+'well-nigh'],
+'as': ['arsenic',
+'As',
+'atomic_number_33',
+'American_Samoa',
+'Eastern_Samoa',
+'AS',
+'angstrom',
+'angstrom_unit',
+'A',
+'vitamin_A',
+'antiophthalmic_factor',
+'axerophthol',
+'A',
+'deoxyadenosine_monophosphate',
+'A',
+'adenine',
+'A',
+'ampere',
+'amp',
+'A',
+'A',
+'a',
+'A',
+'type_A',
+'group_A',
+'equally',
+'as',
+'every_bit'],
+'be': ['beryllium',
+'Be',
+'glucinium',
+'atomic_number_4',
+'be',
+'be',
+'be',
+'exist',
+'be',
+'be',
+'equal',
+'be',
+'constitute',
+'represent',
+'make_up',
+'comprise',
+'be',
+'be',
+'follow',
+'embody',
+'be',
+'personify',
+'be',
+'be',
+'live',
+'be',
+'cost',
+'be'],
+'been': ['be',
+'be',
+'be',
+'exist',
+'be',
+'be',
+'equal',
+'be',
+'constitute',
+'represent',
+'make_up',
+'comprise',
+'be',
+'be',
+'follow',
+'embody',
+'be',
+'personify',
+'be',
+'be',
+'live',
+'be',
+'cost',
+'be'],
+'by': ['by', 'past', 'aside', 'by', 'away'],
+'calculated': ['calculate',
+'cipher',
+'cypher',
+'compute',
+'work_out',
+'reckon',
+'figure',
+'calculate',
+'estimate',
+'reckon',
+'count_on',
+'figure',
+'forecast',
+'account',
+'calculate',
+'forecast',
+'calculate',
+'calculate',
+'aim',
+'direct',
+'count',
+'bet',
+'depend',
+'look',
+'calculate',
+'reckon',
+'deliberate',
+'calculated',
+'measured'],
+'can': ['can',
+'tin',
+'tin_can',
+'can',
+'canful',
+'can',
+'can_buoy',
+'buttocks',
+'nates',
+'arse',
+'butt',
+'backside',
+'bum',
+'buns',
+'can',
+'fundament',
+'hindquarters',
+'hind_end',
+'keister',
+'posterior',
+'prat',
+'rear',
+'rear_end',
+'rump',
+'stern',
+'seat',
+'tail',
+'tail_end',
+'tooshie',
+'tush',
+'bottom',
+'behind',
+'derriere',
+'fanny',
+'ass',
+'toilet',
+'can',
+'commode',
+'crapper',
+'pot',
+'potty',
+'stool',
+'throne',
+'toilet',
+'lavatory',
+'lav',
+'can',
+'john',
+'privy',
+'bathroom',
+'can',
+'tin',
+'put_up',
+'displace',
+'fire',
+'give_notice',
+'can',
+'dismiss',
+'give_the_axe',
+'send_away',
+'sack',
+'force_out',
+'give_the_sack',
+'terminate'],
+'database': ['database'],
+'engine': ['engine',
+'engine',
+'locomotive',
+'engine',
+'locomotive_engine',
+'railway_locomotive',
+'engine'],
+'given': ['given',
+'presumption',
+'precondition',
+'give',
+'yield',
+'give',
+'afford',
+'give',
+'give',
+'give',
+'pay',
+'hold',
+'throw',
+'have',
+'make',
+'give',
+'give',
+'throw',
+'give',
+'gift',
+'present',
+'give',
+'yield',
+'give',
+'pay',
+'devote',
+'render',
+'yield',
+'return',
+'give',
+'generate',
+'impart',
+'leave',
+'give',
+'pass_on',
+'establish',
+'give',
+'give',
+'give',
+'sacrifice',
+'give',
+'pass',
+'hand',
+'reach',
+'pass_on',
+'turn_over',
+'give',
+'give',
+'dedicate',
+'consecrate',
+'commit',
+'devote',
+'give',
+'give',
+'apply',
+'give',
+'render
+
+[...truncated...]

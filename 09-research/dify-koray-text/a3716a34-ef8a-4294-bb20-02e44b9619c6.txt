@@ -1,0 +1,106 @@
+Skip to content
+The aria-multiselectable attribute is an identifier that a set of objects or items can be selected in two or more selections. The purpose of aria-multiselectable is to provide a piece of information to the user that a number of items can be multi-select, which means the user can select more than one item in the container. The developer can use the aria-multiselect to indicate a form that has an option that a user can select multiple items at once. The aria-multiselectable can be used in elements such as tables, cells, forms, and grids. The aria-multiselectable can be used with other ARIA labels like aria-selected, they are both points to an element that is selected.
+Contents of the Article
+show
+1.
+What is the function of the “aria-multiselectable” ARIA Label?
+2.
+What are the uses of the “aria-multiselectable” ARIA Label?
+3.
+Example Uses of “aria-multiselectable” ARIA Label
+4.
+What is the related ARIA Label to “aria-multiselectable”?
+What is the function of the “aria-multiselectable” ARIA Label?
+The function of aria-multiselectable is to inform the user that with the container focused, there is a list of items that can be selected in two or more options. The benefit of aria-multiselectable is that the user can also know that there are multi selectable options that are not just one. Especially when there are questions that can have multiple answers and cases that are not just stuck in one option. The aria-multiselectable attribute has more advantages than the select elements in providing information to the user, it provides the multi-select information than the native HTML element.
+What are the uses of the “aria-multiselectable” ARIA Label?
+Listed below are the uses of the “aria-multiselectable” ARIA Label.
+Grid role:
+It is used for a container widget that has 2 or more cells, it can be navigated and focused on using the keyboard.
+List box role:
+It contains a list that is static, unlike HTML elements that may contain images, the list can be selected by the user.
+Tab list role:
+It contains content tab panel elements and other sets of tabs, and it is identified as an element that holds another set of elements via tab list.
+Tree role:
+It is a widget that enables the user to select more than one item at different levels.
+Tree grid role:
+It has an expandable row that can also be collapsed at the same time, the same as the tree.
+Example Uses of “aria-multiselectable” ARIA Label
+Listed below are the example uses of the “aria-multiselectable” ARIA Label.
+One of the advantages of using aria-multiselectable is that it notifies the user that there are multiple options available for selection rather than just one.
+<div role="listbox" tabindex="0" id="listbox1"
+aria-multiselectable="true" aria-labelledby="listbox1label" aria-activedescendant="listbox1-1">
+<div role="option" id="listbox1-1" class="selected"
+aria-selected="true">Melon</div>
+<div role="option" id="listbox1-2">Apple</div>
+<div role="option" id="listbox1-3">Lemon</div<
+</div>
+<div role="listbox" tabindex="0" id="listbox1"
+aria-multiselectable="true" aria-labelledby="listbox1label" aria-activedescendant="listbox1-1">
+<div role="option" id="listbox1-1" class="selected"
+aria-selected="true">Keys</div>
+<div role="option" id="listbox1-2">Coins</div>
+<div role="option" id="listbox1-3">Pen</div<
+</div>
+<div role="listbox" tabindex="0" id="listbox1"
+aria-multiselectable="true" aria-labelledby="listbox1label" aria-activedescendant="listbox1-1">
+<div role="option" id="listbox1-1" class="selected"
+aria-selected="true">Motorcycle</div>
+<div role="option" id="listbox1-2">Bicycle</div>
+<div role="option" id="listbox1-3">Scooter</div<
+</div>
+<div role="listbox" tabindex="0" id="listbox1"
+aria-multiselectable="true" aria-labelledby="listbox1label" aria-activedescendant="listbox1-1">
+<div role="option" id="listbox1-1" class="selected"
+aria-selected="true">Radio</div>
+<div role="option" id="listbox1-2">Television</div>
+<div role="option" id="listbox1-3">News Paper</div<
+</div>
+<div role="listbox" tabindex="0" id="listbox1"
+aria-multiselectable="true" aria-labelledby="listbox1label" aria-activedescendant="listbox1-1">
+<div role="option" id="listbox1-1" class="selected"
+aria-selected="true">Shoes</div>
+<div role="option" id="listbox1-2">Sandals</div>
+<div role="option" id="listbox1-3">Socks</div<
+</div>
+What is the related ARIA Label to “aria-multiselectable”?
+The aria-selected is related to aria-multiselectable because they are both used to identify whether an element item’s select state is true or not. The
+aria-selected
+is an attribute used to indicate what elements within the widget are selected. If more than one element is selectable at the same time, aria-multiselectable should be used especially in the grid, list box, tab list, and other own roles, while aria-seleted focuses on selected cells, options, and tabs.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-multiselectable” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-orientation” ARIA Label for Acce…
+TechSEO
+“aria-multiline” ARIA Label for Access…
+0
+0
+0

@@ -1,0 +1,162 @@
+What is a keyword: Everything You Need to Know - Holistic SEO
+Skip to content
+A keyword, also a search term or query, generally designates an entered term in the search box of a search engine. This keyword is then treated by the search engines using their search algorithms and compared with the respective index. The user then receives a
+Search Engine Results Page (SERP)
+that lists results for this keyword. For search engine optimization and online marketing, keywords play a fundamental role.
+To understand keywords, understanding Search Intent is important. According to Google, there is four main keyword/query intent in a search activity which are “DO”, “VISIT IN PERSON”, “WEBSITE Inquiries”, and “KNOW”. These are important main keyword types for Google. Understanding the main intent and sub-intents for a keyword is vital. In this article, we will give definitive information about keywords, their types, functions, and importance for Search Engine Optimization and its history. To understand this article better, we recommend you to read our “
+What are the Search Intent and User Intent
+” guideline.
+Contents of the Article
+show
+1.
+Classification of keywords – Money, Brand, Compound, Other
+1.1.
+1. Money keywords
+1.2.
+2. Brand keywords
+1.3.
+3. Compound keywords
+1.4.
+4. Other keywords
+2.
+What are the Long-tail and Short-tail Keywords?
+3.
+What is Keyword Research?
+3.1.
+The Most Used Free Keyword Research Tools
+4.
+How to Use Keywords in On-Page Optimization
+5.
+How to Use Keywords in Off-page Optimization in a Natural Way
+6.
+What is the Importance of Keywords in Google Ads?
+7.
+Last Thoughts on Keywords and Holistic SEO
+Classification of keywords – Money, Brand, Compound, Other
+The following classification is based on the classification of link research tools. This division has prevailed in the SEO industry.
+1. Money keywords
+The term “money” implies an intention to buy, but is not limited to this. For a commercial website, the following keywords are examples of money keywords: ”
+buy shoes
+“, ”
+lease BWM
+“, and “
+offers online marketing
+“. For non-commercial sites, the keyword is a money keyword that describes the content and (informational) intent of the site. Examples would be: ”
+Venice 12th century Republic
+“, ”
+Raspberry Pi programming
+“, and
+”
+Franconian hiking trails
+“. This type of non-commercial money keyword is also called research keywords.
+Money Keywords are mostly equivalent to “DO” and “KNOW” search intents in Google’s terminology.
+2. Brand keywords
+Keywords that are specifically tailored to a brand are known as “brand keywords”. For example: ”
+Apple
+“, ”
+Coca Cola
+“, ”
+Adidas
+“, ”
+Schreinerei Meier
+“. Brand keywords have a special meaning for Google AdWords. Brand Keywords are equivalent in Google’s terminology to the “Website Inquiries” queries which mean the queries for specific content from a specific domain.
+3. Compound keywords
+Keywords that are both money and brand keywords are called “compound keywords”. Examples would be: ”
+Windows 7 cheap
+” or ”
+Buy Canyon Bicycles
+“. Compound keywords require complex web pages which means a web page with a commercial product and also information about the product.
+4. Other keywords
+Anything that does not fit into the above classifications is referred to as “other”. Examples would be “
+click her
+e” or “
+great site
+“. Depending on the intentions of a website, terms such as “
+service
+” can also fall under “Other Keywords” if the website is a comparison portal. These types of keywords can’t be categorized but they can be used together with the Money, Brand, or Compound Keywords.
+What are the Long-tail and Short-tail Keywords?
+Money, brand, and compound keywords can be further classified into long-tail and short-tail keywords. Short tail phrases are short keyword phrases such as “
+Coca-Cola Sugar
+” or “
+Buy Pants
+”. Such searches generally have a high monthly search volume. Long-tails are search queries that are more complex, longer, and therefore less common than short-tail keywords. Examples would be: ”
+Make jam from blueberries without sugar yourself
+“, ”
+Red dance shoes for men
+” or ”
+Colorful pencils from Austria
+“.
+Certain short-tail keywords, in this example “Lady Gaga”, have high traffic, but a lot of pages try to optimize for this keyword. The competition is correspondingly high. Long-tail keywords, here “Fastest WordPress Hosting”, have less traffic, but it is relatively easy to rank for this keyword combination. Long-tail keywords are closely related to niche keywords: niche keywords and the content gap terms in online marketing.
+Also, long-tail keywords have a more refined search intent with a search history behind it, which provides a better conversion rate and authority. Having long-tail keywords in a specific niche and historical user data which is created via these queries creates authority in the eyes of the Search Engine. Also, this authority increases crawl efficiency, demand and frequency. Thanks to this authority, targeting short-tail keywords with multiple search intent and high search volume will be easier.
+To learn more about
+On-Page SEO
+, you may read the some of the guidelines below:
+Heading Tags and their Usage
+Anchor Text Optimization
+Alt Tags and Usage for SEO along with UX
+What is Keyword Research?
+Keyword research is of central importance in online marketing. An example: The dealer Paul sells pens. He wants to be found well with his webshop on Google. There are several questions:
+What types of pens does he have in stock?
+What keywords do users enter into Google when they search for pens that dealer Paul has in stock?
+What competition appears when entering these keywords?
+How many combinations do these keywords have with other types of search terms?
+Each of these questions must be answered so that efficient search engine optimization can be carried out.
+Dealer Paul has pencils and pens in stock.
+This is where the first part of the keyword research comes in: Are customers looking for “buy pencils” or “cheap pencils”, “buy pencils cheap” or just “pencils”? How high are the respective search volumes for these keyword phrases? And the Dealer Paul has the same type of pencils for the target market?
+Suppose you enter “Buy pencils” in the search bar on Google: What competition appears there in the first 5 or 10 results?
+Are there other situations in which users combine the keyword “pencil” with other terms? For example: “Pencil broke off”, “Pointing pencils”? This is the so-called long tail.
+The answers to each of these questions determine how Paul’s homepage has to be structured in order to tap as many keywords and keyword combinations as possible, ie to rank in the Top 10 or Top 5 with as many keywords as possible. Using searchers’ neural networks helps to determine the principles for creating a landing page for better and deeper communication with the user. Using the queries as natural in the web pages is important. Without natural and useful content on the web pages, Google may think that there is a keyword stuffing situation and also gibberish content which will increase the Gibberish Score on the web page.
+The Most Used Free Keyword Research Tools
+Keyword research revolves around the following questions:
+Which keywords are actually entered by users in relation to a product?
+How often are these keywords searched each month?
+What competition is there for these keywords?
+Correctly answering these questions is essential for search engine optimization. Below is a selection of tools that can help you find the right keywords:
+Google Ads (Google AdWords) Keyword Planner: AdWords offers a free tool for analyzing various keyword phrases, even without your own AdWords account: Adwords.google.de/keywordplanner.
+Search terms or websites can be entered for analysis. The Keyword Planner provides an approximate monthly search volume and possible click prices. More information: The AdWords Keyword Planner.
+Google Suggestions: Google Suggest is a function of the Google search engine. Frequently searched terms are suggested in the auto-completion of the search bar and there are a “people also search for” section at the bottom of the SERP.
+Ubersuggest: the free tool “Ubersuggest” gathers the information from “Google Suggest” and presents it to the user in a clearly structured manner: ubersuggest.org
+keyword.io: the keyword.io website is a kind of further development of Ubersuggest. The results are often more precise and detailed: keyword.io
+How to Use Keywords in On-Page Optimization
+The OnPage area is about making it clear to the search engine that a certain page is about a certain keyword group and it provides enough function for satisfying the user intent. The goal is to make this particular page rank as well as possible for this keyword group. Positive methods to accomplish this are the labeling of the page using the meta tags or alt tags for images. The keyword and its synonyms can be placed within these tags. Also, using
+TF-IDF Queries
+will help in targeting a wide range of keywords for a specific intent and topic.
+The main content is decisive for the assignment of a web page to a keyword. The keyword and its variants should be present on the web page in a natural way without any kind of manipulation. The content must offer the user added and unique value, which in the ideal case is original, and therefore cannot be found on other domains. Therefore, the thematic environment of the keyword must also be considered. Google can very well decide whether a page “only” offers general information or in-depth, interesting content. Beware of keyword stuffing or
+cloaking
+: these methods are considered blackhat and are punished by Google.
+How to Use Keywords in Off-page Optimization in a Natural Way
+In the OffPage area, the
+anchor text (link text)
+should be mentioned with regard to keywords. To use anchor texts in a natural way for off-page projects, the targeted queries can be used in marketing campaigns and in the content structure. Thus, the backlinks which are created in a natural way can be used with the targeted queries. The link text or anchor text is a strong signal to Google and an important working method for search engine optimization or link algorithms. However, excessive “spammy” use of anchor text can result in penalties. It is therefore important to ensure that you do not only use money keywords for your external links. You can read our “
+Over-optimization Penalty in SEO
+Guideline” to learn more about this terminology.
+What is the Importance of Keywords in Google Ads?
+For AdWords, keywords have special meanings. The cost of AdWords ads is determined using a bidding process. The more providers are willing to pay for a keyword, the more expensive the actual click price is. The monthly search volume of the booked keywords plays a particularly important role here. For search engine advertising in general, the search volume of the keywords is crucial. To learn more about
+Cost Per Click
+Model and AdWords Bidding system, you can read our guidelines.
+Last Thoughts on Keywords and Holistic SEO
+Every Holistic SEO knows that keyword research or the concept of keywords is not of old importance. In particular, Google’s ability to use entities with keywords in detail accelerated this process. In this process, Google has developed algorithms that make it easier to combine different search intents and queries such as
+Hummingbird
+and BERT in the same context. Today, instead of keywords, content publishers come to the fore, focusing on a certain group of queries and the fine details of those queries, the entities related to those queries, that is, an entire subject. At this point, different concepts such as Gibberish Score, Keyword Stuffing, Unique Content,
+Duplicate Content
+, and
+Thin Content
+, and Information Gain Score come into play. Using Topics and topic clusters are more beneficial for SEO than using singular keywords. Keywords should show search engine users’ neural networks and their thinking ways. In this context, keywords are a helper factor for Topic Exploring and Topical Content Structure building.
+In other words, phrases are stuck behind strings or keywords, entities, the amount of information that content has, and the way it is presented. At this point, a Holistic SEO should focus on leveraging every algorithm that Search Engine offers. This does not mean that keyword research or keywords should be ignored. It only shows that within the scope of Holistic SEO, it is necessary to run different metrics and approaches with a holistic approach in the most appropriate semantic structure.
+All of our content, including descriptive data and application guides on keywords, will be developed over time.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B
+
+[...truncated...]

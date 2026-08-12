@@ -1,0 +1,112 @@
+"aria-relevant" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-relevant is a non-obligatory attribute that identifies the changes in the live regions, it is not required by the assistive technology’s screen reader to provide information about the updates. The aria-relevant value is acquired from the closest ascendant that has a definite value. The purpose of aria-relevant is to acquire value that can be stated if any adjustments are made in the live regions, although not required, it is helpful to users if any related information is delivered. The developer can use aria-relevant for instances that are needed to inform the users, like when a user in the chatroom leaves the chat. The aria-relevant can be used for markup elements the aria-relevant can be used with other aria labels such as aria-atomic aria-busy and aria-live.
+Contents of the Article
+show
+1.
+What is the function of the “aria-relevant” ARIA Label?
+2.
+What are the uses of the “aria-relevant” ARIA Label?
+3.
+Example Uses of “aria-relevant” ARIA Label
+4.
+What are the related ARIA Labels to “aria-relevant”?
+What is the function of the “aria-relevant” ARIA Label?
+The function of aria-relevant is to provide information about the changes that are made within the live regions. The aria-relevant benefits the users for some instances that it may need specific information about the changes. However, aria-relevant does not require to be added in all functions as it may confuse the user as to what the information may lead its navigation. The aria-relevant maybe not often used because of its limited beneficial importance, but when there is a need it can be very useful.
+What are the uses of the “aria-relevant” ARIA Label?
+Listed below are the uses of the “aria-relevant” ARIA Label.
+Alert role:
+It is a type of live region role that is time-sensitive and may provide a status that is relying on the atomic region.
+Log role:
+It is used to indicate an element that is created in a live region that provides information in an orderly manner while discarding the old information.
+Marquee role:
+It is a kind of live region keeping insignificant information that changes regularly.
+Status role:
+It defines a live region providing general information for the user that is not as important as alert information.
+Timer role:
+It provides information to the assistive technologies that an element is a timer counter listing the amount of elapsed time from a starting point or a countdown time counter.
+Example Uses of “aria-relevant” ARIA Label
+Listed below are the example uses of the “aria-relevant” ARIA Label.
+The aria-relevant reports to the user of assistive technology via screen reader that there are some changes or modifications within the accessibility tree in live regions. The aria-relevant information still is announced even if the keyboard is not focused on the item that contains the changes.
+<ul aria-live=”polite”
+aria-relevant=”additions”>
+<li>Apple Pie</li>
+<li>Brownie</li>
+<li>Egg Tart</li>
+</ul>
+<ul aria-live=”polite”
+aria-relevant=”additions”>
+<li>Notebook</li>
+<li>Bond Paper</li>
+<li>Envelope</li>
+</ul>
+<ul aria-live=”polite”
+aria-relevant=”additions”>
+<li>Beer</li>
+<li>Soda</li>
+<li>Water</li>
+</ul>
+<ul aria-live=”polite”
+aria-relevant=”additions”>
+<li>T-Shirt</li>
+<li>Pants</li>
+<li>Underwear</li>
+</ul>
+<ul aria-live=”polite”
+aria-relevant=”additions”>
+<li>Gold Necklace</li>
+<li>Silver Bracelet</li>
+<li>Diamond Ring</li>
+</ul>
+What are the related ARIA Labels to “aria-relevant”?
+Listed below are the related ARIA Labels to “aria-relevant”.
+aria-atomic:
+The aria-atomic is related to the aria-relevant because they are both used for live regional roles. The
+aria-atomic
+attribute indicates if the entire display or a portion can only be accessed by the screen reader in connection with the aria-relevant to convey changes in the live region.
+aria-live:
+The aria-live is related to the aria-relevant because they are both used for live regional roles. The
+aria-live
+attribute indicates that an element is to be updated and provides a notification of the level of updates the user can expect within the live region.
+aria-busy:
+The aria-busy is related to the aria-relevant because they are both used for live regional roles. The
+aria-busy
+state indicates that an element is in use and inform the assistive technologies to wait until updates are done before letting the user know.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-relevant” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-required” ARIA Label for Accessi…
+TechSEO
+“aria-pressed” ARIA Label for Accessib…
+0
+0
+0

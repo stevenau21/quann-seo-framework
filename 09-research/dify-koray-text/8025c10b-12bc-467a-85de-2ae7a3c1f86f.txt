@@ -1,0 +1,141 @@
+How to Perform DNS Reverse Lookup for Verifying Googlebot via Python - Holistic SEO
+Skip to content
+Reverse DNS Lookup is to check whether the same IP address will be obtained as a result by making a request to the Domain Name Server obtained in a request made to an IP address. The main purpose of this process is to see if the client’s IP Address is as shown to the server. Thus, a Holistic SEO can perform DNS Reverse Look Up while performing Log Analysis after downloading the Log File, making it possible to distinguish the clients that actually have Google DNS in the log file. Many spammers and various bot software can imitate Googlebot in order not to be blocked by the servers. For this reason, it is important to clean the log file. In this article, we will perform DNS Reverse Lookup with the help of a custom script and some Python libraries.
+If you do not know enough about DNS Lookup and Log Analysis, we recommend you read the articles below.
+What is DNS Lookup?
+What is Log File?
+What is Log File Analysis?
+We will use Python’s Socket Library for performing DNS Reverse Lookup to verify Googlebot.
+Contents of the Article
+show
+1.
+How to Verify Googlebot?
+2.
+What is the Python’s Socket Module?
+3.
+How to Verify Googlebot and Perform DNS Reverse Lookup with Python?
+4.
+Last Thoughts on DNS Reverse Lookup via Python and SEO
+How to Verify Googlebot?
+To verify Googlebot or any kind of requester, we should perform the DNS Reverse Lookup process, but Google has tons of IP Addresses and some different types of Domain Name Servers. How could we verify all of those different IP Addresses and the Domain Name Servers? Since we can’t hard-code all of those varieties, we will try to use the one mutual point of all of those DNS and IPs. It is the name of Google. Every Google DNS Address has the “Google.com” or the “Googlebot.com” address on it. So trying to verify Google’s name in the DNS Address will be our methodology.
+To learn more about Python SEO, you may read the related guidelines:
+How to resize images in  bulk with Python
+How to perform TF-IDF Analysis with Python
+How to crawl and analyze a Website via Python
+How to perform text analysis via Python
+How to test a robots.txt file via Python
+How to Compare and Analyse Robots.txt File via Python
+How to Categorize Queries via Python?
+How to Categorize URL Parameters and Queries via Python?
+What is the Python’s Socket Module?
+Python’s Socket Module’s main purpose is to provide access to the BSD (Berkeley Sockets) for programmers. Berkeley Sockets (BSD) allow programmers to add new features to the APIs by the usage of the internet. The socket is a transliteration for the Server and Client Data Transfer protocols in Python. Also, using the SSL module can provide TLS and SSL Connections via Socket. To create a socket object, we will use the “socket()” method. Socket also has different family groups for creating connections between the server and client, such as “host and port”, “AF_UNIX”, “AF_INET6”. To perform the DNS Reverse Lookup Process via Python’s Socket Module, we won’t need those family groups, we will need some special methods such as “gethostbyaddr()” which means “get host by address.”
+After telling all the methodology necessities and technical information, we may continue to create our script.
+How to Verify Googlebot and Perform DNS Reverse Lookup with Python?
+To perform DNS Reverse Lookup, we will use Python’s CSV module along with the “Socket” Module. The necessity of the CSV Module is opening the list of the IP Addresses for performing the DNS Reverse Lookup. First, we will import the necessary libraries.
+import socket
+import csv
+import glob
+The “glob” module is for using the relative path in our terminal. If you don’t want to use long file paths along with regex parsing, you may want to use it. Thanks to the “glob” module, our log file’s path is shortened as below.
+r'C:\Users\Koray Tuğberk GÜBÜR\Desktop\python_all\Custom_Scripts\DNS Reverse Look Up\ex.csv'
+Instead of the above, we have used the below.
+'ex.csv'
+We will open a CSV file full of random IP Addresses along with Google IPs to perform the DNS Reverse Lookup Process. You may see our CSV File’s view below:
+IP Addresses from the Log File Example, most of them are from Google.
+Our CSV File has lots of IP Addresses from a Log File, we will try to verify Googlebot. Our server says that all of those IP Addresses are from Google Servers but one of them is actually not from Google. We will try to find it and strip it from the others. First, we need to open our CSV file:
+with open('ex.csv', 'r', newline='') as csvfile:
+reader = csv.reader(csvfile)
+We have opened our CSV file with the standard CSV Module’s “reader” method. Before proceeding more, we need to see what our Socket module will do for us.
+a = socket.gethostbyaddr('66.249.66.1')
+print(a[0])
+b = socket.gethostbyaddr('crawl-66-249-66-1.googlebot.com')
+print(str(b[2]).strip("'[]'"))
+In this example, we are using the “Socket” module’s “gethostbyaddr” method. To use it, we need to strip the quotation marks and square brackets from our results. Also, we are choosing the “first” and the “third” elements of the “gethostbyaddr” method. You may see the result below.
+crawl-66-249-66-1.googlebot.com
+66.249.66.1
+Now, let’s use the same method without any stripping and choosing a particular element.
+a = socket.gethostbyaddr('66.249.66.1')
+print(a)
+b = socket.gethostbyaddr('crawl-66-249-66-1.googlebot.com')
+print(b)
+('crawl-66-249-66-1.googlebot.com', [], ['66.249.66.1'])
+('crawl-66-249-66-1.googlebot.com', [], ['66.249.66.1'])
+You may see that we have a tuple with three elements. One is for the hostname, one is for IP Address. And the IP Address is in quotation marks and square brackets. That’s why we are choosing singular elements while stripping them. Now, we may continue to show our script’s rest.
+nongooglebot = []
+googlebot = []
+with open('ex.csv', 'r', newline='') as csvfile:
+reader = csv.reader(csvfile)
+for rows in reader:
+row = str(rows)
+row = row.strip('[]\'')
+We have created a for loop for every row in our CSV File, and we have called every row “rows”.
+We have stringified “rows” and assigned them to the “row” variable.
+We have stripped square brackets and the ‘\’ sign since it exists in CSV rows.
+We have created two empty lists so that we can append our results, one for Googlebot IPs, and one for non-Googlebot IPs.
+Now, we can continue with the rest of our script.
+try:
+reversed_dns = socket.gethostbyaddr(row)
+if str.__contains__(reversed_dns[0], 'googlebot.com') or str.__contains__(reversed_dns[0], 'google.com'):
+temp_ip = socket.gethostbyaddr(str(reversed_dns[2]).strip("'[]'"))
+if reversed_dns == temp_ip:
+googlebot.append(reversed_dns[0])
+else:
+nongooglebot.append(reversed_dns[0])
+else:
+nongooglebot.append(reversed_dns[0])
+except:
+pass
+csvfile.close()
+We are using “try” and “except” blocks, since we don’t want to stop our code from working if it encounters an IP Address that doesn’t have a DNS Reverse Lookup possibility. Usually, the “socket” module gives the “socket.herror: [Errno 11004] host not found” error. In Python, thanks to “try” and “except” blocks, we can prevent this situation.
+We also use the “str.__contains__(“argument to look”, “argument to be found”)” method to search “Google.com” or “Googlebot.com” strings in our responses since Google’s own guidelines tell us that to verify Googlebot, one of both should appear in the request’s response. To perform this purpose, we are using “or” logical operators.
+We are assigning every DNS Reverse Lookup process’ response into the “reversed_dns” variable. We are looking at its first tuple element to search for Google’s tracks. Then, we are performing the same process from a reversed angle via the “temp_ip” variable. We are sending a request to the hostname and trying to catch the IP Address.
+We have created a nested “If Statement” here for checking the response from IP Address and whether the response from the Host address is the same or not. If they are the same, we are appending the result to our “Googlebot” list, if they are not the same we are appending them to the “nongooglebot” list.
+If there is an error, we are “passing” the error so that it doesn’t stop our iteration.
+We are closing the CSV File since our iteration has been completed.
+Now, we can print our lists to see whether our script has worked or not.
+print(' ')
+print(googlebot)
+print(' ')
+print(nongooglebot)
+You may see the result below in text and image.
+['crawl-66-249-66-1.googlebot.com', 'crawl-66-249-66-1.googlebot.com', 'crawl-66-249-66-1.googlebot.com', 'crawl-66-249-66-1.googlebot.com', 'crawl-66-249-66-1.googlebot.com', 'crawl-66-249-66-136.googlebot.com', 'crawl-66-249-66-134.googlebot.com', 'crawl-66-249-66-136.googlebot.com', 'crawl-66-249-66-136.googlebot.com', 'crawl-66-249-66-138.googlebot.com', 'crawl-66-249-66-138.googlebot.com', 'crawl-66-249-66-134.googlebot.com', 'crawl-66-249-66-134.googlebot.com', 'crawl-66-249-66-134.googlebot.com', 'crawl-66-249-66-134.googlebot.com', 'crawl-66-249-66-138.googlebot.com', 'crawl-66-249-66-136.googlebot.com', 'crawl-66-249-66-136.googlebot.com', 'crawl-66-249-66-136.googlebot.com', 'crawl-66-249-66-134.googlebot.com', 'crawl-66-249-66-138.googlebot.com', 'crawl-66-249-66-134.googlebot.com', 'crawl-66-249-66-138.googlebot.com', 'crawl-66-249-66-134.googlebot.com', 'crawl-66-249-66-134.googlebot.com', 'crawl-66-249-66-138.googlebot.com', 'crawl-66-249-66-136.googlebot.com', 'crawl-66-249-66-134.googlebot.com', 'crawl-66-249-66-134.googlebot.com', 'crawl-66-249-66-136.googlebot.com', 'crawl-66-249-66-136.googlebot.com', 'crawl-66-249-66-138.googlebot.com', 'crawl-66-249-66-136.googlebot.com', 'crawl-66-249-66-134.googlebot.com', 'crawl-66-249-66-134.googlebot.com', 'crawl-66-249-66-138.googlebot.com', 'crawl-66-249-66-130.googlebot.com', 'crawl-66-249-66-134.googlebot.com', 'crawl-66-249-66-138.googlebot.com', 'crawl-66-249-66-136.googlebot.com', 'crawl-66-249-66-134.googlebot.com', 'crawl-66-249-66-134.googlebot.com']
+['85.100.69.109.dynamic.ttnet.com.tr']
+You may see the difference between the two lists.
+As you may notice, we have caught the only leaked IP Address as Googlebot, it belongs to the “TTNET” which is one of the largest Internet Service Providers in Turkey. We have performed a DNS Reverse Lookup Process in Bulk to verify Googlebot. Thanks to CSV Module, you can write these lists into the same CSV File as different columns whichever column header you want thanks to for loop and “writerows()” method. Or you may use Pandas and “to_frame()” or “pandas.concat()” along with “pandas.join()” methods. For now, we will leave this part to future updates, such as performing the same process with DNS and Revolver modules from Python.
+Last Thoughts on DNS Reverse Lookup via Python and SEO
+It is important to be able to achieve detailed processes in less time on a large scale. Python gives Holistic SEOs the opportunity to think on a large scale and find many problems in different areas, down to the smallest detail. Some of these include developing custom tools for customers or enabling them to analyze healthier Googlebot behavior by extracting server log files. For now, our DNS Reverse Lookup Guideline with Python has many missing points. In the future, we will bring our guidelines to a better point. Maybe, we will automate this process for every Holistic SEO with a future tool.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Python SEO
+How to Perform DNS Reverse Lookup for Verifying Googlebot via Python
+by Koray Tuğberk GÜBÜR
+time to read: 8 min
+Python SEO
+How to Categorize URL Parameters and Queries via P…
+Python SEO
+How to Check Grammar and Language Errors in Conten…
+0
+0
+0

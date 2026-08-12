@@ -1,0 +1,274 @@
+Skip to content
+SEO Chat is a Twitter Event that is performed over the #SEOChat hashtag to innovate SEO. SEO chat Twitter Event is started by Mordy Oberstein to support the SEO’s communication, friendship, and information share. SEO chat Twitter Events involve questions and answers related to search engine optimization. The digital marketing-related facts and SEO-related practices are mixed within the SEOChat questions and answers. SEO Chat is also a platform name from Twitter that focuses on sharing the SEO Chat events such as #SEOChat hashtag events, or #vcbuzz SEO tweet series. SEO Chat is also the name of the SEO Forum that is not active for a long time. In the Webmasterworld Forum, there is one more SEO Chat sub-forum. In this case, the platforms, types, and profiles of the SEO Chat concept are listed below.
+SEO Chat is a Twitter hashtag-based event that is launched by Mordy Oberstein.
+SEO Chat is the name of the SEO Forum.
+SEO Chat is the name of the Worldwebmaster sub-forum.
+SEO Chat is a sub-platform on Twitter to share all SEO Chat events.
+The #SEOChat hashtag on Twitter is the main profile and meaning of the “SEO Chat” concept. “SEO Chat” is considered as a Twitter event to innovate SEO while improving the information shared between SEOs. SEO Chat means a chat and dialogue for understanding and improving SEO. A discussion of SEO can be an SEO Chat example. In terms of the SEO Chat Event, the next section includes an example #SEOChat event.
+Koray Tugberk GUBUR published an SEO Chat event on YouTube to explain the questions and answers that are involved in SEO Chat.
+Contents of the Article
+show
+1.
+SEO Chat Example from Twitter with Questions and Answers
+2.
+SEO Chat Event Tweets and SEO Chat Tools, Forum Discussion Sample
+3.
+What are the Features of the SEO Chat?
+4.
+What are the Facts about SEO Chat?
+4.1.
+Are SEO Chat Forum and SEO Chat Event connected?
+4.2.
+Are SEO Chat Twitter Account and SEO Chat connected?
+4.3.
+Are SEO Chat Tools Used for SEO Chat?
+4.4.
+SEO Chat Questions and Answers
+5.
+Last Thoughts on SEO Chat and Holistic SEO
+SEO Chat Example from Twitter with Questions and Answers
+On 17 February 2022, Mordy Oberstein invited the Koray Tuğberk GÜBÜR (owner and founder of Holistic SEO) for an #SEOChat (SEO Chat) event on Twitter. Koray Tuğberk GÜBÜR prepared 16 questions and answers related to Search Engine Optimization to share with the audience. Those SEO Questions include concepts and polls for SEO understanding. The 16 Questions and Answers for the example of the SEO Chat event are below.
+What is the difference between Query-dependent and Query-independent Ranking Criteria?
+If the query is “Protein Powder”, which one would have more weight, Query-dependent, or Query-Independent Ranking Factors?
+What is Query Processing? What is Processed Query? Does a Search Engine re-rewrite queries? Does it generate questions from queries?
+For the Query “X Stadium”, which SERP Features would you think to appear more? Local Map Pack, Images, PAA, Team Score Results, News, etc? Can you give me an order?
+How would you rank “Major and Minor search intents” for the Query of “Home Renovation”?
+What is the Semantic Distance between two Queries?
+What is the difference between Query and Lexical Semantics?
+Can an SEO change what a search engine thinks about a concept? Can we register non-existing things into their knowledge base? Can we change a brand’s relevance to a concept with a positive sentiment?
+“Predictive Document Ranking”: How to determine PageRank need per web page? How many declarations are necessary to create enough Information gaps? How many pages should change for a Re-ranking Event?
+Can changing word order affect Information Retrieval Score? Should results change from “Vision Board” to “Board Vision”?
+Which one is more important? Indigenous or Exogenous Ranking Factors?
+Which order is better for external anchor texts?
+Should we restrict the internal link count within the main content?
+Does internal link position matter?
+What is the similarity threshold? Why is it important for SEO?
+Do you think that Search Engine Optimization is harder than Programming or not?
+What would you change in Google’s algorithm? And, what would you like to tell @John Mueller for that? How do you feel about small websites? Or, news publishers? Are you happy with non-given voice search data? Or, should Google try to keep users on SERP? Should we be paid for this by Google?
+SEO Chat Video that Koray Tugberk GUBUR performed for helping SEOs in a chat environment.
+SEO Chat Event Tweets and SEO Chat Tools, Forum Discussion Sample
+SEO Chat Event, Questions, Answers, Facts, and Tools are below.
+70 minutes later, I will host an
+#SEOChat
+event on Twitter. If you have time, stop by. 🙂
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Welcome tweet of SEO Chat.
+Welcome to the
+#SEOChat
+! Let’s talk about “RankLab”. RankLab is a Machine Learning platform for configuring Google’s Ranking Algorithms for resources and sources. Today, we will dive into the “Predictive Ranking”.
+Just a few ground rules before we get
+#SEOChat
+off the ground.
+pic.twitter.com/kyD63bdjY9
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Introduction tweet for SEO Chat.
+Just a few ground rules before we get
+#SEOChat
+off the ground.
+1. I'll ask questions with Q1, Q2, so make sure to respond w/ the corresponding A1, A2, etc.
+2. Don't forget the
+#SEOChat
+hashtag or we won't be able to see your responses/comments.
+3. As always, be nice or else.
+pic.twitter.com/PavuL0GKLo
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Rules of SEO Chat.
+#SEOChat
+! We will have 15 Questions in 60 minutes. Before starting, tell us who you are in one sentence.
+And, what is your favorite TV Series? Mine is Brooklyn99! 🙂
+pic.twitter.com/Zot27Wnd3Y
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+SEO Chat Questions and Answers introduction.
+Q1 What is the difference between Query-dependent and Query-independent Ranking Criteria?
+#SEOChat
+Guesses are okay. Let's dive in RankLab!
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+The first question of SEO Chat.
+A1/2 but query-independent factors can make it eliminated. Information Retrieval Score can be a factor for Query-dependent ranking, and PageRank can be Query-independent factor.
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+First Answer of the SEO Chat.
+Q2 If the query is “Protein Powder”, which one would have more weight, Query-dependent, or Query-Independent Ranking Factors?
+#SEOChat
+pic.twitter.com/FkTZa91YEZ
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Second Question of SEO Chat.
+A/2 For “Protein Powder”, the Query-independent Factors will have more weight. The search intents are ordered as:
+Buy Protein Powder
+Find Protein Powder Reviews
+Find Protein Powder Brand Reviews
+Compare Protein Powders
+How to use Protein Powders
+What are Protein Powders
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Second Answer of the SEO Chat.
+Q3 What is Query Processing? What is Processed Query? Does a Search Engine re-rewrite queries? Does it generate questions from queries?
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Third Question of SEO Chat.
+A3/2 The Search Intents for “Protein Powder” is its processed version.
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Third Answer of the SEO Chat.
+A4 SERP Features are relevant to the Search Intent Distribution. For “X Stadium” Query Template with popularity order:
+– Entity Relation Refinement
+– Knowledge Panel
+– GBP Panel
+– Image Pack
+– PAA
+– Video Pack
+– Web Results
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Fourth Question and Answer of SEO Chat.
+A4 “Home Renovation” is a “service-seeking query” For the “Noun Renovation” Query Template
+Major Search Intents: Find an X Renovation Service Near Me, Review X Renovation Services, How I do Renovate X and Cos
+Minor Search Intents: X Renovation Definition, Difference, Vs
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Fourth Question and Answer of SEO Chat.
+Q5 What is the Semantic Distance between two Queries?
+#SEOChat
+pic.twitter.com/r5qt8RucNy
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Fifth Question of SEO Chat.
+A5/1 Semantic Distinctiveness and Similarity are different. Armour can be semantically relevant but different from the sword. The distance between two queries represents how the documents need to be shaped.
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Fifth Question and Answer of SEO Chat.
+A5/2 Semantic Distance between queries is determined by edges and nodes between concepts in a graph network.
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Fifth Answer for SEO Chat.
+Q6 What is the difference between Query and Lexical Semantics?
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Sixth Question of SEO Chat.
+A6/2 Two words can be irrelevant, but they can appear in queries together with no concrete reason.
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Sixth Answer for SEO Chat.
+Q7 Can an SEO change what a search engine thinks about a concept? Can we register non-existing things into their knowledge base? Can we change a brand’s relevance to a concept with a positive sentiment?
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Seventh Question of SEO Chat.
+A7/2 A brand can make a Knowledge Domain more expanded, and it can affect all other brands’ Topical Authority/Categorical Quality.
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Seventh Answer of SEO Chat.
+Q8 “Predictive Document Ranking”: How to determine PageRank need per web page? How many declarations are necessary to create enough Information gaps? How many pages should change for a Re-ranking Event?
+#SEOChat
+pic.twitter.com/s2352JvqxZ
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Eighth Question of SEO Chat.
+A8/2 For a New SEO Project:
+The PageRank, Relevance, and Comprehensiveness thresholds should be determined. This section is relevant to “Relative Ranking”.
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Eight Answer of SEO Chat.
+A9: Relevant to “Probabilistic Ranking”: Yes, Word Order affects IR Score. Phrase-based Indexing works with Phrase Lists, Co-occurrences, and Proximities. Initial, central, and context words will have more weight. Word Order changes.
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Ninth Question and Answer of SEO Chat.
+A10 It depends. The direction of the Google search engine is from Exogenous Ranking Factors to Indigenous R. Factors. Why? Because, it is more controllable, and manipulation possibility is harder. Quality can be seen from content better, rather than external link flow.
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Tenth Question for SEO Chat.
+A11 Brand Name => X, Branded + Generic Anchor Text => X Brand Y Product
+– If there is a high level of content production, choose B.
+– If there is not enough content, Choose C and consolidate PageRank for higher historical data earlier.
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Eleventh Question and Answer of SEO Chat.
+A12 Yes, every internal link will divide the PageRank while diluting the main purpose of the content. According to the internal link count, the content’s length, or purpose can change from an article to hub-type content.
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Twelve Question and Answer of SEO Chat.
+A13 It depends.
+– For Crawling, No.
+– For PageRank Flow, Yes.
+– For Relevance, Yes.
+#seochat
+pic.twitter.com/jOnTwEPHJO
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Thirteenth Question and Answer of SEO Chat.
+Q14 What is the similarity threshold? Why is it important for SEO?
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Fourteenth Question of SEO Chat.
+A14/2 Search engines can cluster documents and choose one of them cross-domain canonical, as representative content. Being shadowed by another source can be seen during broad core algorithm updates.
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Fourteenth Answer of SEO Chat.
+Q15 Do you think that Search Engine Optimization is harder than Programming or not?
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Fifteenth Question of SEO Chat.
+A15/2 Results come 6 months after. In programming, everything works in 5 seconds with clear documentation. SEO is harder than web development.
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Fifteenth Answer of SEO Chat.
+Q16 What would you change in Google’s algorithm. What would you like to tell
+@John
+Mueller? How do you feel about small websites? Are you happy with non-given voice search data? Or, should Google try to keep users on SERP? Should we be paid for this by Google?
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Sixteenth Question of SEO Chat.
+A16 Thank you to John Mueller, for every question that he answers for all these years. From my point of view, I would like to see voice search data. I know Google sends more traffic to the websites every year, but the percentage gets smaller too.
+#SEOChat
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+Sixteenth Answer of SEO Chat.
+#SEOChat
+with RankLab and Predictive Ranking is ended. Thanks for joining, and sharing your information with us.
+–
+#SEOChat
+continues, Captain Holt, only this one ended.
+– I recommend you to check the answers for further information for Search Engine Understanding.
+pic.twitter.com/9qOWTTOqMF
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+End of the SEO Chat.
+Thanks for inviting me.
+#SEOChat
+https://t.co/pVDum3O5jq
+— Koray Tuğberk GÜBÜR (@KorayGubur)
+February 17, 2022
+A thank you to the SEO Chat Owner, Mordy Oberstein.
+What are the Features of the SEO Chat?
+SEO Chat features are listed below.
+SEO Chat involves innovation and a high level of SEO
+
+[...truncated...]

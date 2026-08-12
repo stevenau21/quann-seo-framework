@@ -1,0 +1,81 @@
+Test Page for Indexing API of Google and Bing - Holistic SEO
+Skip to content
+This is a test (this is a description section test addon) page for the Indexing API of the different search engines such as Bing, Yandex, and Google. Indexing API is an application interface for letting search engines know about the new web pages or updates on the new pages for modifying their indexes. This test page has created with low quality purposely for testing the signal power of the indexing API pings. Is there a different threshold or the de-indexation and indexation process will change based on the indexing methodology?
+This is the result of the Indexing API test after 74 seconds of the first request.
+For the cache serving, Bing doesn’t cache the page immediately.
+The Indexing API Test will continue. The next section of the Indexing API Test for Bing and Google has been written the next day.
+Contents of the Article
+show
+1.
+When does Google Index the web page if it is sent to their Indexing API?
+2.
+Does Bing Prioritize the Sources that use IndexNow?
+3.
+Does Google Remove the “X Hours Before” Stamp after 24 Hours?
+4.
+Why did Google deindex and Index the Web Page?
+5.
+When does Bing add the URL Cache?
+When does Google Index the web page if it is sent to their Indexing API?
+Google Indexing API is only for the job posting and broadcasting events with a video object within the web page. Thus, it is not certain whether the test will work properly for Google’s Indexing API or not. In this context, Google has indexed the web page after 6 hours than Bing. To be able to see the difference of Google’s indexing prioritization from Indexing API to the Google Search Console’s Request Indexing process, I will perform a new indexing request for it.
+Bing still didn’t cache the web page that we have made indexed which is this web page. But, Google has cached the web page with the first version. And, this section is worthed a couple of more words for Indexing API Usage. Google has cached the first version of the web page. Not the updated version. After making a request to the Google Indexing API, I have added one extra paragraph and an image that shows the results on Bing and Google for indexing. It is a signal that Google captured the snapshot from my first request for the first version of the web page. The time stamp on the Google Cache also shows the 21:35:12.
+I have written this post on 21:28 with that version. And, made the request on 21:29. It means that Google has made the snapshot just after my request for its own cache. But, the indexing or serving the web page from the indexed happened later. The reason for this lateness can be evaluated by the web page, or caching and indexing might have different prioritizations and systems that are not intertwined with each other on Google Side.
+I will add some Log File Crawl Hits later for checking this area. And, as a snippet design comparison, you can check below.
+Bing shows the publication date of the content within the date area with a small dot. Google shows the publication date by saying X Hours Before, in this case, it shows 24 Hours with a bigger separator such as “-“. Bing puts more information for the description of the web page, while Google puts less information for the description. Both of them used the title that I have written.
+For measuring their reflexes, I changed the title of the Web Page, didn’t add any description. I want to see that whether they will choose the sentences below or the first sentences for the represented summary of the web page.
+Indexing API of a Search Engine is used to notify the crawling, indexing, and serving algorithms and systems to update the indexes for different queries. Google and Bing have different indexing systems. Bing has IndexNow Protocol while Google still tests the IndexNow protocol, it uses its own Indexing API. The indexing API of Google is not for use for every web page type. But still, from the log files, it can be seen that the Google Indexing API works for making Googlebot crawl the web page. In other words, Google is not able to see the purpose of usage of the Indexing API without seeing the content of the web page. It shows that it didn’t classify the sources to see whether it is a News, Job Advertisement, or Broadcasting website. Because every website can use these content genres. In this context, Google Indexing API will need to be used cautiously, but still, it doesn’t mean that Google will de-promote the website. After a point, it can filter out the source if there is an excessive request. Or, the Google developer team can use these requests as a data source too. The Indexing API test for Google and Bing will continue.
+The “lastmod” of the indexing API test web page shows the changes that is done for the last time. You can see it above. The Structured Data of this web page shows the publication date and modification date as below.
+The dates for the publication, modification, and lastmod attribute of the sitemap, and times from the WordPress CMS Panel’s revision history will be used for comparing the Indexing APIs of both search engines (Google, and Bing).
+11 November 2021, 11:15 GMT+3 is the time of the end of this paragraph.
+The Indexing API Test will continue.
+Does Bing Prioritize the Sources that use IndexNow?
+IndexNow is a protocol that is used by search engines for letting content creators notify themselves for refreshing their content. IndexNow can decrease the cost of indexing, and crawling since instead of crawling websites to find new content, websites can call the crawlers when they have new content. IndexNow is a representative version of the collaboration of the content publisher and content search engines. In this context, a search engine can prioritize the sources that are easy to understand, crawl, or index. And, Bing has a smaller index than Google, which means that their resources are way much more limited than Google. Thus, a search engine can prioritize the sources that collaborate with themself. In this context, the first sentence of this Indexing API Sentence has been ranked within the featured snippet within Bing.
+It can be seen that the “testing addon” for the meta description is not visible there. Because Bing didn’t refresh its index yet. It means that when you use the IndexNow with Bing, they do not check the web page near soon for refreshing their content. This sentence has been written after Bing indexes this web page, 17 hours. When I share the log files it will be more clear.
+Google and Bing use different systems for indexing, but they also use different answer-question pairing methodologies. If you would ask the same question within Google, you will see that they will use Information Extraction, more than Retrieval.
+You see two different angles with Information Extraction. Anyway, this section is a little bit ranking and association. But the topic of this test is different. My purpose here is actually updating the web page with new improvements for checking how they will change their perception. To see that, I will ake the image within the Bing’s Featured Snippet, I will use it as an exact copy. First, I will put it here, then I will put it in another section. Let’s add some context for the search engines.
+Indexing API and IndexNow systems have different statuses and API response times. An API for Indexing can give fast answers to the user, or it can delay the indexing. An Indexing API can use good, moderate, unhealthy, very unhealthy, hazardous statuses with 0-50, 51-100, 101-200, 201-300, and >301 timeline thresholds. Below you can see an image that explains Bing and Google’s possible Indexing API Latency.
+The answer to the “What is Indexing API” question visual.
+It is also interesting to see that the image that Bing uses within the featured snippet is not from a secure website according to Google Chrome, Microsoft Edge, and Internet Explorer.
+This section is added on November 11, 2021, at 19:45 on GMT+3.
+The Indexing API test will continue.
+Does Google Remove the “X Hours Before” Stamp after 24 Hours?
+12 November 2021, after 42 hours, publishing the first version of the content Google has removed the “X Hours Before” stamp from the snippet. It can be a signal that the time decay for showing the freshness of content can lose its prominence after 24 hour days.
+The other thing is that Google has refreshed the cached version of the web page.
+But, Google didn’t include all of the changes I did. For instance, it changed the introduction sentence that I have created as above. It realized the “(this is a description section test addon), but as you can see that it didn’t change the snippet view. Still, the snippet of the web page shows a clear version of the same text. It might be because the snippet server of Google can be different than the cache server. Or, Google thinks that the old sentence is still able to define and summarize the content in a proper way. The other section that is not included within the cache is below.
+I have added this extra section on 11 November 16:46 on GMT +3. And, Google refreshed its cache 5 hours and 30 minutes before my change.
+And, as you can see it is not indexed yet.
+So, 24 hours can be a kind of threshold for the time decay for freshness, and also cache server and the index refresh for Google search engine. For Bing’s Side, still, the website is not cached.
+And, the changes that I did yesterday are not indexed.
+These sections are added at 11:34 GMT +3 on 12 November 2021. The Indexing API test will continue with the URL Removal and Update.
+Why did Google deindex and Index the Web Page?
+Google has deindexed the “Indexing API test web page” after 2 days of indexation. On the 15th of November 2021, Google has indexed this web page. It might be because of three different reasons.
+The November 2021 Broad Core Algorithm Update: When there is a Broad Core Algorithm Update, Google encounters prevention of indexing or even de-indexation. Thus, when there is a kind of indexation bug, they also do not refresh the Google Search Console Coverage Report. From the log files, it is seen that they hit the specific URL for the 15th of November 2021. But, still, they removed it from the index.
+The Indexing API Usage: Indexing API of Google is only for the Job Posting, and the Broadcasting websites. When a website uses it for another purpose, Google can deindex the specific web page even if it indexes at the first phase. Thus, Google might try to reverse the indexation via Indexing API for serving the web page from the correct vertical, or the storage within their Index Serving System.
+Broken Context within the Web Page: The Indexing API Testing Page doesn’t have even a proper featured image. It has been written with a random language. Thus, the search engine might not have a proper confidence score to index the specific web page. The indexaiton, and de-indexation, re-indexation can signal the confidence change of search engine for the content that is in the grey area for the quality assigment.
+Below, you can see that Google deindexed the web page.
+When does Bing add the URL Cache?
+Microsoft Bing started to show the Cached Version of the web page on the 15th of November 2021. But, the date that Microsoft Bing shows for the cached version of the web page is not true. I have published this web page on the 10th of November. And, I have added the last section of this web page on the 15th of November. They say that they show a version from the 10th of November which is the date of the first hit from the Bingbot. But, they show content pieces that are added on the 15th of November. It means that Microsoft Bing shows the “Inception Date” of the Document as their first hit, and they publish the updated version of the content within their cache without a specific information serving related to the updated date.
+Microsoft Bing started to show a proper answer for the question of “What is Indexing API”. And, as a different SERP Feature, they also started to show the Videos Box within the sidebar with extra information. People Also Ask questions that exist within the SERP with the same name as well. Soon, to test it more aggressively, I will try to change more things on the web page.
+And, Bing still continues to keep the web page as indexed by saying it is from Nov 10, 2021. Because the date of the articles mentions it as that.
+This addition has been added in 2021, November 15. The Indexing API test will continue.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+2 thoughts on “Test Page for Indexing API of Google and Bing”
+This is
+
+[...truncated...]

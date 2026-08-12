@@ -1,0 +1,133 @@
+What is TCP Slow Start? - Holistic SEO
+Skip to content
+Transmission Control Protocol (TCP) is a connection balancing algorithm that controls the number and speed of connections a server can open and protects the server.  In order to avoid overloading a network with an unexpectedly large burst of data, TCP slow start probes the network slowly to confirm the available capacity. During the beginning of a transfer or after the retransmission timer has repaired any loss, the slow start algorithm is used. In addition, slow start serves to start an “ACK clock” that is used to release data into the network by the TCP sender when applying the congestion avoidance process and loss recovery algorithm.
+Below, you will see a TCP Slow Start and Congestion Control example with if-else statements.
+If SMSS > 2525 bytes:
+IW = 2 * SMSS bytes and MUST NOT be more than 2 segments
+If (SMSS > 1095 bytes) and (SMSS <= 2525 bytes):
+IW = 3 * SMSS bytes and MUST NOT be more than 3 segments
+if SMSS <= 1095 bytes:
+IW = 4 * SMSS bytes and MUST NOT be more than 4 segments
+To learn what SMSS (Sender Maximum Segment Size), continue to the TCP Slow Start related Technical Terms section.
+Contents of the Article
+show
+1.
+Hot Does TCP Slow Start Work?
+2.
+How to Adjust TCP Slow Start Thresholds?
+3.
+What are the Benefits of TCP Slow Start?
+4.
+What are the Technical Terms related to the TCP Slow Start?
+5.
+How Does TCP Slow Start Affect Segmenting for an HTML Document and its Resources?
+6.
+How to Optimize Transmission Control Protocol?
+7.
+What can be done for Improving TCP Slow Start?
+8.
+Last Thoughts on TCP Slow Start and Holistic SEO
+Hot Does TCP Slow Start Work?
+The congestion control process is the working principle of TCP Slow Start. Congestion window refers to the amount of data the sender can send without exceeding the TCP Slow Start. The receiver window refers to the amount of data the receiver can receive without exceeding the TCP Slow Start.
+Receiver Window and Congestion Window determine the amount of data and data rate that can be transferred from the server to the client and from the client to the server within the scope of TCP Slow Start. In this context, the TCP Slow Start working format as stated below.
+The sender contacts the recipient. The sender’s first communication involves a small amount of data. Related data cannot exceed the Congestion Window.
+The first data between the sender and receiver consists of the Response Header and the Request Header.
+The moment when the first data transfer between sender and receiver takes place is called
+Time To First Byte
+for Web Development.
+The receiver responds to the first data of the sender and responds within the scope of his Receiver Window. If the receiver does not respond with data, the Sender stops the connection.
+When the first data is received by the receiver, the sender increments the next outgoing window size. The data sending threshold is increased gradually. This condition persists until the receiver is unable to accept the next data packet or until both the receiver and transmitter reach TCP Slow Start capability.
+When the data packet size between the receiver and the transmitter is determined at the maximum level, the TCP Slow Start task will be completed.
+Below, you will see a schema that defines how TCP Slow start work between sender and reciever.
+TCP Slow Start working schema.
+How to Adjust TCP Slow Start Thresholds?
+TCP Slow Start is mostly set to improve web page loading performance timing. The Initial Congestion Window parameter is called “initcwnd”, ie “initial congestion window”. The “initcwnd” value affects the speed of a network connection between receiver and transmitter. The higher the “initcwnd”, the faster the data transfer speed will be, but also the fatigue of the server due to high traffic and data transfer.
+Therefore, each CDN Cache uses different “initcwnd” values. Some CDN’s “initcwnd” values are as follows.
+Cachefly uses 70 for initcwnd.
+Microsoft uses 2 for initcwnd.
+MaxCDN uses 30 for initcwnd.
+What are the Benefits of TCP Slow Start?
+Benefits of Transmission Control Protocol (TCP) slow start are listed below.
+Uninterrupted and continuous networks for users.
+Faster downloads and page speed for better user experience
+Protects from DDoS attacks
+Fewer network problems for online businesses
+Better crawl efficiency and crawl timing for Search Engine crawlers
+Internet connection bandwidth is important for page speed but from a 10Mbps connection to a 15Mbps connection, the page load time improves only 5%. Thus, TCP Slow Start technology is important for page loading timing and experience.
+TCP Head-of-line blocking example.
+What are the Technical Terms related to the TCP Slow Start?
+Related technical terms and concepts for TCP Slow Start are listed below with their definitions.
+“initcwnd”, a parameter to determine the initial congestion window value.
+Congestion Control, algorithms for controlling the congestion possibilities and preventing them.
+Sender Maximum Segment Size (SMSS), the largest segment that the sender can send to the receiver.
+Receiver Maximum Segment Size (RMSS), the largest segment that the receiver can take and accept.
+Full-sized Segment, the maximum number of data bytes that can be sent.
+Receiver Window (RW), the data threshold that can be received by the receiver.
+Congestion Window (IW), the data amount that can be sent by the sender.
+Initial Window (IW), the first window the three-way handshake process is completed.
+Loss Window (LW), is the data that can be lost after the congestion window is exceeded.
+Restart Window (RW), if a TCP Restarts the transmission after an empty or idle period, it refers to the size of the restart process.
+Retransmission Timeout (RTO), is the time between packet bursts.
+How Does TCP Slow Start Affect Segmenting for an HTML Document and its Resources?
+TCP Slow Start, Response Headers, Request Headers, and the first 1360 Bytes of an HTML Document are related to each other within the page speed scope. TCP Slow Start determines how much of an HTML Document can be read during the first ACK, ie acknowledgment, since it affects the first byte, ie the amount of data, to be sent when a web page is requested from a server. Therefore, it is important to understand the effect of TCP Slow Start to make a web page load faster.
+Keeping the most important web page resources in the first 1360 bytes of an
+HTML
+Document, prioritizing the related resources with browser hints such as “preload”, “async” will make the relevant document load faster. At the same time, putting SEO-related title tags and meta tags on the first 1360 bytes of the web page will provide Search Engine Crawlers with the most important information they need faster. TCP Slow Start User Experience is therefore an important concept for Page Speed ​​and SEO.
+Congestion Window Size growth per Rount-trip.
+How to Optimize Transmission Control Protocol?
+To optimize transmission control protocol (TCP) slow start, increasing the server bandwidth capacity is the optimum method.  However, any server request can receive a large amount of data as a response, in this case, bandwidth width will not be the definitive solution. Responses that require high data are called congestions and may result in data loss, failure of the server, or freezing of the website. In order to avoid congestion, the data exchange between the sender and the receiver is increased gradually, when the data-carrying capacity is reached, the data transfer amount is kept constant. Thus, network congestion is prevented by TCP Slow Start.
+TCP Slowstart allows users to communicate clearly with the website, as well as understand the difference between normal user requests and DDOS attacks. Because, in DDoS attacks, requests made to the server in a short time will exceed the TCP Slow start threshold, so the server will protect itself against clients.
+Congestion Control and Avoidance relationship.
+What can be done for Improving TCP Slow Start?
+An SEO and Developer can follow the methods and tips below to optimize the TCP Slow Start for better web page loading performance.
+Update the Kernel of the Server and Update your Linux Servers. Linux 3.2+ uses Proportional Rate Reduction (PRR) for decreasing the necessary time to recover the lossy connection. PRR increases response times between 3% and 10%. Linux 3.2+ The Initial Retransmission Timeout (initRTO) time changed from 3s to 1s.
+Use HTTP 2.1 (SPDY) instead of HTTP 1.1
+Investigate Bandwidth Estimate Algorithms such as Veno, Westwood+, Vegas.
+Change your
+CDN (Content Delivery Network)
+according to their TCP Slow Start metrics.
+Every inftastructure and back-end technology has its own optimiztion choices, for instance, TCP Fast Open (TFO).
+Last Thoughts on TCP Slow Start and Holistic SEO
+Most of the SEOs do not focus on TCP Slow Start, Round Trip Time, or other Page Speed-related terms or concepts. Usually, they focus on Core Web Vitals which is a simplified version of complex page loading time-related technical concepts. Holistic SEOs should focus on browsers, servers, the internet, and their core features. TCP Slow Start is an important term for Page Loading Time Performance Optimization. Transmission Control Protocol Slow Start affects Page Speed more than internet bandwidth improvement or JavaScript, CSS Compressing, and Minifying. Even if you optimize your images and JS, CSS files, if TCP Slow Start doesn’t let, the server and the client won’t be able to transmit and receive the necessary data as it should be. Thus, understanding how TCP Slow Start works and how to optimize it or audit it is important.
+Our TCP Slow Start Optimization and Definitive Guideline will continue to be updated and improved over time.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+2 thoughts on “What is TCP Slow Start?”
+TCP Slow Start is a feature of the TCP protocol that allows a sender to send data more slowly than normal in order to avoid congestion.
+Reply
+Thanks for the contribution.
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+PageSpeed
+What is TCP Slow Start?
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+PageSpeed
+What is If None Match HTTP Request Header?
+PageSpeed
+What is HTTP Etag?
+0
+0
+2

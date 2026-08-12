@@ -1,0 +1,200 @@
+What is cURL? How to Use cURL? cURL and libcurl Guide - Holistic SEO
+Skip to content
+cURL is a command-line software to transfer the data through different types of network protocols such as HTTP and HTTPS. The cURL stands for Client URL. cURL is coded in 1996 with the name of “httpget”. The second name of the cURL was “urlget”. Daniel Stenberg is the main developer of cURL. cURL is used for fetching the currency exchange rates for the Internet-relay Channel users.
+Contents of the Article
+show
+1.
+What is cURL?
+1.1.
+What are the advantages of cURL?
+1.2.
+Which HTTP Request Methods can be used with cURL?
+1.3.
+What are the cURL options?
+2.
+Why is cURL good for Web Scraping?
+3.
+What are the cURL Usage Examples?
+3.1.
+1. HTTP Get Request with cURL
+3.2.
+2. Returning only HTTP Headers with cURL
+3.3.
+3. Saving the Result of a cURL Command
+3.4.
+4. Add Additional HTTP Request Header Example with cURL
+3.5.
+5. Use Verbose Mode with cURL Example
+3.6.
+6. Store HTTP Headers Example with cURL
+3.7.
+7. Test Download Time of a Resource with cURL Example
+3.8.
+8. Making cURL Request with Data Example
+3.9.
+9. Using the PUT Method with cURL Example
+3.10.
+10. Use DELETE Method with cURL Example
+3.11.
+11. Use POST Method with cURL Example
+3.12.
+12. Use GET Request Method with cURL Example
+3.13.
+13. Use Help for cURL Methods and Properties Example
+3.14.
+14. Use Byte-Range with cURL Example
+3.15.
+15. Resuming Download with cURL Example
+3.16.
+16. Testing HTTP/2 Support Check with cURL Example
+3.17.
+17. Determining Maximum HTTP Request Transfer Limit and Rate with cURL Example
+4.
+What is libcurl?
+What is cURL?
+The client URL command-line tool is used by developers to transfer data to and from a server. cURL allows you to communicate with a server by specifying the location (in the form of a URL) and the data you want to send. Many protocols are supported by cURL, including HTTP and HTTPS, and it runs on most platforms. Therefore, cURL can be used to test communication from almost any device (so long as it has a command line and network connectivity) from a local server to most edge devices.
+Curl’s most basic command is “curl http://example.com”. Following the curl command is the URL, from which we want to retrieve data. So, the HTML source would be returned for example.com.
+What are the advantages of cURL?
+The advantages of the cURL are below.
+cURL is portable and compatible with every operating system.
+cURL is to test URL Endpoints.
+cURL is useful to verbose, providing high-level details for the communication with the server.
+cURL has an error logging module to help developers to debug the program.
+cURL has a rate-limiting syntax.
+Which HTTP Request Methods can be used with cURL?
+The HTTP Request Methods that can be used with cURL are listed below.
+GET: GET is used with cURL to provide resource retrieval from the web server. The resource can be an image or HTML file.
+POST: POST is used to send data and the information to the web server for changing the web server’s existing data.
+PUT: PUT is an HTTP method that can be used with cURL. cURL with PUT HTTP Method is to update a resource on the web server.
+DELETE: DELETE is an HTTP method that can be used with cURL. DELETE is used with cURL to delete a resource.
+Headers: Headers is a request method within HTTP to take only the HTTP headers, user-agent and more.
+Body: Body is an HTTP method that can be used with cURL only for taking the response body. cURL and Body can be used via PUT and POST methods.
+What are the cURL options?
+The cURL options are listed below.
+cURL command option -I
+cURL command option -v
+cURL command option -o
+cURL command option –help
+cURL command option –manual
+cURL command option -C
+Why is cURL good for Web Scraping?
+cURL is good for Web Scraping because it is used within multiple programming languages with highly configurable, and flexible programming language libraries, and frameworks. For example, cURL is used for web scraping via JavaScript, Command-line, and Python. PycURL is used in Python for leveraging cURL for web scraping, while AJAX and JQuery use cURL in JavaScript. cURL is a Linux Commandline, and a library in PHP. cURL is used to test endpoints, and works for all operating systems, with HTTP, FILE, and FTP protocols for web scraping. cURL helps for understanding the analyzing of the sent requests and taken responses.
+What are the cURL Usage Examples?
+cURL Usage Examples with PycURL, or JavaScript and Command-line involve sending an HTTP Request, or storing HTTP Headers, stopping and continuing the web scraping by testing the download time along with other cURL usage probabilities. The cURL Usage Examples with specific purposes are listed below.
+HTTP Get Request with cURL
+Returning only HTTP Headers with cURL
+Saving the Result of a cURL Command
+Add Additional HTTP Request Header Example with cURL
+Resuming Download
+Use Verbose Mode with cURL Example
+Store HTTP Headers Example with cURL
+Test Download Time of a Resource with cURL Example
+Making cURL Request with Data Example
+Using the PUT Method with cURL Example
+Use DELETE Method with cURL Example
+Use POST Method with cURL Example
+Use GET Request Method with cURL Example
+Use Help for cURL Methods and Properties Example
+Use Byte-Range with cURL Example
+Resuming Download with cURL Example
+To learn and see example uses of “cURL” with different options such as “-D, –limit-rate, -I”, examine use examples of cURL for web scraping.
+1. HTTP Get Request with cURL
+cURL is used to perform a GET Request to see the response of a URL. To send an HTTP Request with the “GET” HTTP method with cURL, use the code block below.
+curl https://www.holisticseo.digital
+2. Returning only HTTP Headers with cURL
+cURL is used to return and analyze only the HTTP Headers. cURL uses the “-I” option to see the response headers of the requested URL without downloading the entire response body. Use the code block below to see the response headers of an HTTP request with cURL and the “-I” option below.
+curl -I https://www.holisticseo.digital
+3. Saving the Result of a cURL Command
+cURL is used to save the resource that is requested with an HTTP request. cURL “-o” and “-O” options are used to download the specific URL. The “cURL -o” and “cURL -O” difference is that the “-O” stores the resource with the URL path while “-o” stores the resources with a pre-defined name. The example use of cURL “-o” and “-O” options are in the code block below.
+curl -o test.jpg https://ik.imagekit.io/taw2awb5ntf/image/example.avif
+curl -O https://ik.imagekit.io/taw2awb5ntf/image/example.avif
+4. Add Additional HTTP Request Header Example with cURL
+cURL lets web scrapers add extra request headers for HTTP requests. To add an extra request header to the HTTP Request with cURL use the “-H” option by stating the request header and its value. An example of cURL usage for adding extra HTTP Requests is below.
+curl -H "X-Header: value" https://www.holisticseo.digital
+5. Use Verbose Mode with cURL Example
+Use verbose mode with the “-v” option with cURL for documenting and displaying all the HTTP request-response during the command of cURL. The cURL uses an example with the “-v” option below.
+curl -H "X-Header: header value" https://www.holisticseo.digital -v
+6. Store HTTP Headers Example with cURL
+Store HTTP headers information for HTTP Requests with cURL to examine and analyze the response headers of the specific website. The HTTP Headers downloading example with cURL is below.
+curl -D - https://www.holisticseo.digital
+7. Test Download Time of a Resource with cURL Example
+To test the download time of a resource of a web page with cURL, use the “-D” option with “-o” to download the resource response time. To not get any output use the “/dev/null” option to block the cURL from downloading the resource download time. To test the resource downloading time with cURL, use the example below.
+curl -C - https://www.holisticseo.digital -o /dev/null
+8. Making cURL Request with Data Example
+To perform an HTTP Post request with data, use the “-d” or “–data” options by stating the POST method and the data that will be sent. To log in or perform authentication for a specific website to scrape it, use the “-d” option with cURL. In the example usage of the POST method with the “–data” option within cURL, use the code block below.
+curl -X POST http://www.holisticseo.digital/sign-in/ -d 'username=username&password=passwordvalue'
+9. Using the PUT Method with cURL Example
+To state an HTTP request method with cURL, use the “–request” option with the specified HTTP method including the “PUT” HTTP method. To use the PUT method with cURL, use the “–request PUT” code together with cURL command line tool for web scraping. Example usage of cURL with PUT Method is below.
+curl --request PUT https://www.holisticseo.digital
+10. Use DELETE Method with cURL Example
+To state an HTTP request method with cURL, use the “–request” option with the specified HTTP method including the “DELETE” HTTP request method. To use the DELETE HTTP method with the cURL web scraping command line tool, use the “–request DELETE” code together with the cURL command. Example usage of cURL with the “DELETE” Method is below.
+curl --request DELETE https://www.holisticseo.digital
+11. Use POST Method with cURL Example
+To state an HTTP request method with cURL, use the “–request” option with the specified HTTP method including the “POST” HTTP request method. To use the “POST HTTP request method” with the cURL web scraping command line tool, use the “–request POST” code together with the cURL command. Example usage of cURL with the “POST” Method is below.
+12. Use GET Request Method with cURL Example
+To state an HTTP request method with cURL, use the “–request” option with the specified HTTP method including the “GET” HTTP request method. To use the “GET HTTP request method” with the cURL web scraping command line tool, use the “–request POST” code together with the cURL command. Example usage of cURL with the “GET” Method is below.
+13. Use Help for cURL Methods and Properties Example
+Use “-h” or “–help” options to see what properties, commands, and methods exist for cURL. To use the help menu for “cURL” use the code block below.
+curl -h
+OUTPUT>>>
+Usage: curl [options...] <url>
+-d, --data <data>          HTTP POST data
+-f, --fail                 Fail fast with no output on HTTP errors
+-h, --help <category>      Get help for commands
+-i, --include              Include protocol response headers in the output
+-o, --output <file>        Write to file instead of stdout
+-O, --remote-name          Write output to a file named as the remote file
+-s, --silent               Silent mode
+-T, --upload-file <file>   Transfer local FILE to destination
+-u, --user <user:password> Server user and password
+-A, --user-agent <name>    Send User-Agent <name> to server
+-v, --verbose              Make the operation more talkative
+-V, --version              Show version number and quit
+This is not the full help, this menu is stripped into categories.
+Use "--help category" to get an overview of all categories.
+For all options use the manual or "--help all".
+14. Use Byte-Range with cURL Example
+Use the “-r” option of cURL for retrieving a specific resource with a specific byte range. To keep internet speed optimum, or optimize the downloading conditions, the “-r” option is used with cURL. To use cURL better for web scraping, learn how to use the “-r” option. The example use of “-r” with cURL is below.
+curl -r 0-30000 -o curl-example.avif https://ik.imagekit.io/taw2awb5ntf/image/curl-example.avif
+15. Resuming Download with cURL Example
+cURL is used to perform partial web scraping. Partial web scraping involves scraping a web resource or website partially. Thus, having a stop and continue possibility with the “resume” option is needed in cURL. To continue a web scraping or downloading command from where it stopped, use the “-C” and “-O” options.
+curl -C - -O https://ik.imagekit.io/taw2awb5ntf/image/example-for-curl-web-scraping.avif
+16. Testing HTTP/2 Support Check with cURL Example
+HTTP/2 is a different protocol than HTTP/1. HTTP/2 is faster for giving responses, thus the web scraping gets faster. Thus, the “HTTP/2” support check with “cURL” is performed via the “curl -I http2” code. To perform an HTTP/2 Support audit with cURL, use the example code block below.
+curl -I --http2 https://www.holisticseo.digital
+17. Determining Maximum HTTP Request Transfer Limit and Rate with cURL Example
+Determining the Maximum HTTP Request Transfer Limit and Rate with cURL is to provide the best request frequency and size per second. To determine an HTTP request transfer limit and rate, use the “–limit-rate” option. The “K” or “M” are used for “kilobytes” and “megabytes” types of output for transfer rate limit. The “G” is used for gigabytes with “–limit rate”. The example use of HTTP request transfer limit with cURL with “–limit-rate” is below.
+curl --limit-rate 3M -O https://ik.imagekit.io/taw2awb5ntf/image/example-curl-use-example-with-limit-rate.avif
+What is libcurl?
+Libcurl is a client-side URL transfer library. The libcurl can be used for the protocols and purposes below.
+DICT
+FTP
+FTPS
+Gopher
+HTTP/1
+HTTP/2
+HTTP/3
+HTTP POST
+HTTP PUT
+HTTP Proxy Tunneling
+HTTPS
+IMAP
+Kerberos
+LDAP
+MQTT
+POP3
+RTSP
+RTMP
+SCP
+SMTP
+SMB
+The libcurl provides usability for the URL Scheme, TFTP, FTP uploading, HTTP from-based-upload, and HTTP Certificates. LDASP, proxies, user-plus-password authentication, and Telnet are the other supported protocols by “libcurl”.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and i
+
+[...truncated...]

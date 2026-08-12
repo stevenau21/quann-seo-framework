@@ -1,0 +1,104 @@
+Age HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Age HTTP Header specifies the amount of time, in seconds, that an object was cached by a proxy. Typically, the Age HTTP Header value is close to zero. It was most likely retrieved from the origin server; if not, it was often calculated as the difference between the proxy’s current date and the Date general-header contained in the HTTP response if Age: 0 is specified. The “Date” general HTTP header contains the message’s origination date and time. There is only one value for using the Age HTTP Header. The value using the Age HTTP Header is the number. An example of the Allow HTTP Header is written below.
+age: 129404
+The Age HTTP Header Response Header is seen above. In the article, the Age HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is Age HTTP Header?
+1.1.
+What is the Syntax of Age HTTP Header?
+1.2.
+What is the Directive of Age HTTP Header?
+2.
+How to use the Age HTTP Header?
+2.1.
+Examples of Age HTTP Header Use
+3.
+What is the Specification Document for the Age HTTP Header?
+4.
+What is the type of Age HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Age HTTP Header?
+5.
+Which Browsers Support Age HTTP Header?
+What is Age HTTP Header?
+The Age HTTP Header specifies the amount of time an object has been in the proxy cache in seconds. Usually, the Age HTTP Header is close to zero. It is simply retrieved from the server and used to determine the current date and time of the proxies. It is the heading for a response.
+What is the Syntax of Age HTTP Header?
+The Age HTTP Header uses only one value in its syntax. The syntax for using the Age HTTP Header is written below.
+Age: <delta-seconds>
+What is the Directive of Age HTTP Header?
+The Age HTTP Header only contains one directive. The “<delta-seconds>” is a non-negative integer that represents the amount of time in seconds that the object was stored in a proxy cache. An example directive for using the RTT HTTP Header is given below.
+Age: 24
+How to use the Age HTTP Header?
+The Age HTTP Header is used to specify the amount of time in seconds that an item has been cached in the proxy server’s cache. The Age HTTP Header is usually close to 0 in value. It is simply summoned from the server and utilized to calculate the current date and the date for the proxies in question. It is a response header, as the name implies.
+Examples of Age HTTP Header Use
+The following is an example of how to use the Age HTTP Header.
+age: 18
+age: 100
+age: 128404
+age: 1859070
+What is the Specification Document for the Age HTTP Header?
+There is only one specification document for the Age HTTP Header, which is RFC 7234. The RFC 7234 Section 5.1 discusses the definition and usage of the Age HTTP Header. The article also includes examples and values for the Age HTTP Header.
+What is the type of Age HTTP Header?
+The Age HTTP Header is a Response Header type because it contains additional information about the response, such as its location or the server that generated it.
+What are the similar HTTP Headers to the Age HTTP Header?
+There are two types of HTTP Headers similar to the Age HTTP Header. Similar HTTP Headers to the Age HTTP Header HTTP Types are listed below.
+Cache-Control HTTP Header:
+The Cache-Control HTTP Header is a directive field in both requests and responses. The Cache-Control HTTP header field contains directives that control caching in browsers and shared caches in a manner similar to the Age HTTP Header, which is included in the response header.
+Expires HTTP Header:
+Similar to the Age HTTP header, which is a response header, the Expires HTTP header includes the date and time after which the response is considered expired.
+Which Browsers Support Age HTTP Header?
+There are multiple browsers that support Age HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Age HTTP Header.
+Edge Browser is compatible with the Age HTTP Header.
+Firefox Browser is compatible with the Age HTTP Header.
+Internet Explorer Browser is compatible with the Age HTTP Header.
+Opera Browser is compatible with the Age HTTP Header.
+Safari Browser is compatible with the Age HTTP Header.
+WebView Android Browser is compatible with the Age HTTP Header.
+Chrome Android Browser is compatible with the Age HTTP Header.
+Firefox Android Browser is compatible with the Age HTTP Header.
+Opera Android Browser is compatible with the Age HTTP Header.
+Safari IOS Browser is compatible with the Age HTTP Header.
+Samsung Internet Browser is compatible with the Age HTTP Header.
+You can see an image that shows cross-browser compatibility of Age HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Age HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+Allow HTTP Header: Syntax, Directive, Examples
+TechSEO
+SourceMap HTTP Header: Syntax, Directive, Examples…
+0
+0
+0

@@ -1,0 +1,112 @@
+HTML <iframe> Tag Definition, Usage and Example - Holistic SEO
+Skip to content
+The <iframe> HTML Tag specifies a rectangular zone inside content wherein the browser can show a distinct document, complete with scrollbars and borders if the browser supports them. The <iframe> or inline frame is a type of HTML page that allows the user to insert another document into the current one. The <iframe> HTML Tag isn’t really tied to the <frameset> HTML Tag in any way, instead, it can exist everywhere on the page without causing confusion. By using the src attribute, the user can give the URL of the page that will be shown within the <iframe> HTML Tag. The <iframe> HTML Tag is part of the Frame HTML category in HTML Element Reference. The attributes of the <iframe> HTML Tag are allow, allowfullscreen, allowpaymentrequest, height, loading, name, referrerpolicy, sandbox, src, srcdoc, width, global, and event attributes.
+<iframe> code block example to learn how it works is given below.
+<iframe src="">
+</iframe>
+The second example usage of the “<iframe>” code block example is given below.
+<iframe width=“360" height=“215" src="https://www.holisticseo.digital/embed/J2mLKabMQYpR” frameborder=“1” allowfullscreen></iframe>
+Contents of the Article
+show
+1.
+What is <iframe> HTML Tag>
+2.
+How to Use <iframe> HTML Tag?
+2.1.
+Example Usage of <iframe> HTML Tag?
+3.
+What are the Attributes of <iframe> HTML Tag?
+4.
+What are the Default CSS Settings for <iframe> HTML Tag?
+5.
+What are the Related other HTML Tags to <iframe>?
+What is <iframe> HTML Tag>
+The <iframe> HTML Tag is means to display a layered browsing setting within an HTML document. When the user use the <iframe> HTML Tag, it can embed any HTML document into the existing HTML document.The srcdoc attribute allows the user to provide a layered browsing framework without having to use another document by simply providing the content of a document to the iframe rather than utilizing another document. The phrase <iframe> HTML Tag is not used in the HTML5 specification; instead, the term “nested browsing context” is used instead.
+How to Use <iframe> HTML Tag?
+To use the <iframe> HTML Tag, the web developer should write< iframe>/iframe> with the appropriate attributes added into the start and end tags. The attributes that can be use in <iframe> HTML Tag are srcdoc, width and height attributes.
+Example Usage of <iframe> HTML Tag?
+The following examples of usage of <iframe> HTML Tag are given below.
+<iframe src=“/http/headers/http_headers_example.com” width=“230" height=“230"></iframe>
+<iframe srcdoc="
+<html>
+<head>
+</head>
+<body>
+<p>The code>srcdoc/code> attribute is used to create a nested browsing context.</p>
+</body>
+</html>
+"
+width=“230" height=“230"></iframe>
+What are the Attributes of <iframe> HTML Tag?
+There are multiple attributes for the <iframe> HTML Tag. The following attributes are listed below.
+Allow Attribute: The <iframe> HTML Tag supports the allow attribute. This element specifies the feature guideline for the <iframe> HTML Tag.
+Allowfullscreen Attribute: The <iframe> HTML Tag supports the allowfullscreen attribute. This attribute determines whether or not an embedded <iframe> HTML Tag can enable fullscreen view by performing an external request method for displaying the full screen.
+Allowpaymentrequest Attribute: The <iframe> HTML Tag supports the allowpaymentrequest attribute. Allow cross-origin <iframe> HTML Tag to use the Payment Request API by setting this option to true.
+Height Attribute: The <iframe> HTML Tag supports the height attribute. Sets the <iframe> HTML Tag’s height in pixels. In most cases, a height of 150 pixels will suffice.
+Loading Attribute: The <iframe> HTML Tag supports the loading attribute. Defines if such an <iframe> HTML Tag must be loaded instantly or whether <iframe> HTML Tag should be loaded when certain requirements have been met.
+Name Attribute: The <iframe> HTML Tag supports the name attribute. This element defines the identity of an <iframe> HTML Tag.
+Referrerpolicy Attribute: The <iframe> HTML Tag supports the referrerpolicy attribute. When fetching the <iframe> HTML Tag, this parameter defines which referral information should be sent.
+Sandbox Attribute: The <iframe> HTML Tag supports the sandbox attribute. This allows for an additional set of constraints to be placed on the content of an <iframe> HTML Tag.
+Src Attribute: The <iframe> HTML Tag supports the src attribute. Indicates the location of the content to be embedded within the <iframe> HTML Tag.
+Srcdoc Attribute: The <iframe> HTML Tag supports the srcdoc attribute. Provides as the HTML content of a page that will be displayed within the <iframe> HTML Tag.
+Width Attribute: The <iframe> HTML Tag supports the width attribute. The width of an <iframe> HTML Tag is specified here. The width is set to 300 pixels by default.
+Global Attributes: The <iframe> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <iframe> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <iframe> HTML Tag?
+The following are the Default CSS Settings for the <iframe> HTML Tag. Some examples are listed below this document.
+iframe {
+border: 1px solid black;
+width: 100%;
+}
+.output {
+background: #eee;
+}
+What are the Related other HTML Tags to <iframe>?
+The other related HTML Tags to the <iframe> HTML Tag are listed below.
+<noframes> HTML Tag: The
+<noframes>
+HTML Tag and the <iframe> HTML Tag are related because they are both frames HTML Tags. The <noframe> HTML Tag provides an additional content option for people who do not have frame support. However, this tag is not support by HTML5.
+<frameset> HTML Tag: The
+<frameset>
+HTML Tag and the <iframe> HTML Tag are related because they are both frames HTML Tags. The <frameset> HTML Tag specifies a collection of frames to be used. However, this tag is not support by HTML5.
+<frame> HTML Tag: The
+<frame>
+HTML Tag and the <iframe> HTML tag are related because they are both frames html Tags. The <frame> HTML Tag specifies a window or a frame within a frameset. However, this tag is not support by HTML5.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <iframe> Tag Definition, Usage and Example
+by Holistic SEO
+time to read: 5 min
+TechSEO
+HTML <bdo> Tag Definition, Usage and Example…
+TechSEO
+HTML <link> Tag Definition, Usage and Exampl…
+0
+0
+0

@@ -1,0 +1,113 @@
+HTML <ul> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <ul> HTML Tag denotes an unordered list of items, which is typically displayed in the form of a bulleted list. In HTML, the <ul> tag is used to define an unordered list item within a document. It contains the <li> HTML Tag for list items. The <ul> HTML Tag is part of the list tags category in HTML Element Reference. The attributes of the <ul> HTML Tag are global attributes and event attributes.
+<ul> code block example to learn how it works is given below.
+<ul>
+<li>Listing</li>
+<li>Listing</li>
+<li>Listing</li>
+</ul>
+The second example usage of the “<ul>” code block example is given below.
+<ul>
+<li>Chrome</li>
+<li>Edge</li>
+<li>Firefox</li>
+</ul>
+Contents of the Article
+show
+1.
+What is <ul> HTML Tag?
+2.
+How to Use <ul> HTML Tag?
+2.1.
+Example Usage of <ul> HTML Tag?
+3.
+What are the Attributes of <ul> HTML Tag?
+4.
+What is the Default CSS Setting for <ul> HTML Tag?
+5.
+What are the Related other HTML Tags to <ul>?
+What is <ul> HTML Tag?
+The <ul> HTML tag is used to define an unordered list item. It includes the <li> HTML Tag for the list of items. The opening and closing tags for the <ul> tag are required. You can quickly create an unordered list using CSS styles.
+How to Use <ul> HTML Tag?
+To use <ul> HTML tag, the web developer should provide an unordered list of items between the <ul> and </ul> HTML Tags. The <ul> HTML Tag is used to group items that lack a numerical order and whose order in the list is meaningless. Usually, items in an unordered list are represented by a bullet, which can take on a variety of shapes, including a dot, a circle, or a square. The bullet-style is defined in the associated CSS file, via the list-style-type property, not in the HTML description of the page.
+Example Usage of <ul> HTML Tag?
+The following example of usage of <ul> HTML Tag is given below.
+<body>
+<h2>Smartphone Apps</h2>
+<ul>
+<li>Facebook</li>
+<li>Instagram</li>
+<li>Youtube</li>
+<li>Whatsapp</li>
+</ul>
+</body>
+What are the Attributes of <ul> HTML Tag?
+There are multiple attributes for the <ul> HTML Tag. The following attributes are listed below.
+Global Attributes: The <ul> HTML Tag supports global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <ul> HTML Tag supports event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+Compact Attribute: The <ul> HTML Tag supports compact attribute.The compact attribute indicates whether or not the list should be rendered compactly. This attribute’s interpretation is determined by the user agent, and it is not supported by all browsers.
+Type Attribute: The <ul> HTML Tag supports type attribute. This attribute specifies the list’s bullet style.
+What is the Default CSS Setting for <ul> HTML Tag?
+The following is the Default CSS Setting for the <ul> HTML Tag.
+ul {
+display: block;
+list-style-type: disc;
+margin-top: .5em;
+margin-bottom: .5em;
+margin-left: 0;
+margin-right: 0;
+padding-left: 35px;
+}
+What are the Related other HTML Tags to <ul>?
+The other related HTML Tags to <ul> HTML Tag are listed below.
+<dir> HTML Tag: The
+<dir>
+HTML Tag is related to <ul> HTML Tag because they are both list tags. A list of directory titles was created using the <dir> HTML Tag.
+<dl> HTML Tag: The
+<dl>
+HTML Tag is related to <ul> HTML Tag because they are both list tags. The <dl> HTML Tag is used to define a description list.
+<dt> HTML Tag: The
+<dt>
+HTML Tag is related to <ul> HTML Tag because they are both list tags. The <dt> HTML Tag is used to define a term in the description list.
+<dd> HTML Tag: The
+<dd>
+HTML Tag is related to <ul> HTML Tag because they are both list tags. The <dd> HTML Tag specifies the term’s description in the description list.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <ul> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <param> Tag Definition, Usage and Examp…
+TechSEO
+HTML <abbr> Tag Definition, Usage and Exampl…
+0
+0
+0

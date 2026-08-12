@@ -1,0 +1,115 @@
+First Contentful Paint: Definition & Optimization - Holistic SEO
+Skip to content
+First Contentful Paint (FCP) measures the time between the user’s navigation and the first paint of content for the web page. Anything related to the DOM of the web page can be included in the First Contentful Paint such as Paragraphs, Navigation Bar, Images, Form Elements, etc. Iframe Elements are not included in the First Contentful Paint since the actual Iframes are the part of another web page. Also, First Contentful Paint is a “perceived load speed” metrics and it is a user-based performance metric.
+Contents of the Article
+show
+1.
+What is a Good First Contentful Paint Score?
+2.
+What is a Bad First Contentful Paint Score?
+3.
+What is the Difference between First Paint and First Contentful Paint?
+4.
+How to Measure First Contentful Paint Correctly?
+5.
+Benefits of an Improved First Contentful Paint
+6.
+How to Improve First Contentful Paint?
+6.1.
+1.Server Response Time and First Contentful Paint Relation
+6.2.
+2. Eliminating Render Blocking Resources and First Contentful Paint Relation
+6.3.
+3.Unused Codes and First Contentful Paint Relation
+6.4.
+4.Client-side Rendering and First Contentful Paint Relation
+6.5.
+5. Lazy-loading of Images and First Contentful Paint Relation
+6.6.
+6. Inline Images and First Contentful Paint Relation
+6.7.
+7. HTML DOM Size and First Contentful Paint Relation
+6.8.
+8. Font Visibility and First Contentful Paint Relation
+7.
+9. Redirect Chains and First Contentful Paint Relation
+7.1.
+10. Resource Load Order and First Contentful Paint Relation
+8.
+Last Thoughts on First Contentful Paint and Holistic SEO
+9.
+What is the Difference Between First Contentful Paint and Interaction to Next Paint?
+10.
+What are the Advantages of First Contentful Paint when Compared with Interaction to Next Paint?
+What is a Good First Contentful Paint Score?
+According to the Google Guidelines, a good FCP is under the 1 second. At least 75% of users need an FCP Score of less than 1 second for a website to be deemed by Google to have a user-friendly UX. Also, in the Google Search Console, most of the poor URLs in terms of Core Web Vitals have a bad score for First Contentful Paint and First Input Delay. Both of these metrics are related to the “loading responsiveness” and “perceived load speed”. Having a good FCP and FID score is crucial for creating a better UX and reliability in the eyes of users.
+Google separates the mobile and desktop users from each other for Page speed metric evaluations of the web sites so that the measurement can be performed more precisely.
+What is a Bad First Contentful Paint Score?
+If a web page can’t perform “first contentful paint” before 3+ seconds, it means a bad First Contentful Paint. According to Google’s Research, more than 50% of the users can’t wait if a web page doesn’t show anything under 3 seconds.
+What is the Difference between First Paint and First Contentful Paint?
+First Paint includes any types of pixel painting in the web page loading process. On the other hand, First Contentful Paint only includes the page elements’ loading such as an image, paragraph, navigation menu, logo, or non-white <canvas>.
+How to Measure First Contentful Paint Correctly?
+First Contentful Paint can be calculated and measured in Lab. and also Field. It means that it can be simulated via page speed tools, and also it can be observed via databases that include user-centric data. To measure the FCP Score, you may check the tools and methods below.
+Lighthouse (Lab. Data)
+Pagespeed Insights (Includes Real User Metrics)
+Chrome DevTools (Simulation of Page Loading)
+WebPage Test (Simulation of Page Loading)
+GT Metrix (Simulation of Page Loading)
+Chrome User Experience Report (Includes Real User Metrics)
+Firebase Performance Monitoring (Google’s Beta Tool, Lived, Real-time Real User Metrics)
+A visual representation of First Contentful and First Paint.
+Benefits of an Improved First Contentful Paint
+A good First Contentful Paint decreases the Bounce Rate. Because of the passive waiting (waiting without seeing anything for loading of a web page), any website users can leave the web page before starting the interacting with it.
+Improved First Contentful Paint can increase the Conversion Rate. A user on a web site can lose his/her focus in only 2 seconds of waiting. This distraction decreases the conversion rate.
+Improved First Contentful Paint can create a better brand impression and it improves the reliability of the web page. No user thinks a positive thing about a brand web site that doesn’t give a response or show the first content of its page after 3 seconds.
+First Contentful Paint is related to the other Page Speed metrics. Without a good FCP, you also can’t have a good Largest Contentful Paint. Because of this situation, improving FCP will create a benefit for other performance metrics.
+How to Improve First Contentful Paint?
+Most of the useful methods for improving the First Contentful Paint are not unique for the First Contentful Paint performance metric. Most of those performance improvement methodologies are related to the general page speed. A method that is useful for First Input Delay is also useful for First Contentful Paint and the one that useful for FCP is useful for Largest Contentful Paint. So, in our Page Speed and Performance Metrics Guidelines, you may see the same methodologies with different angles. We write every page speed improvement method and factor in a directly relevant way to the main topic of the guideline.
+To improve First Contentful Paint, the methods below can be used.
+1.Server Response Time and First Contentful Paint Relation
+Server Response Time or Server Speed is directly related to the Time to First Byte performance metric. Since Time to First Byte is directly related to every web page resource, it is also important for the First Contentful Paint. A faster server will give faster responses to the user-agent so that the browser can download every asset faster and First Contentful Paint can happen earlier.
+To improve TTFB and Server Response Time, important sections are below.
+Avoiding Dynamic Content
+Using CDN
+Configuring Web Server
+Optimizing Backend Infrastructure
+To improve TTFB and learn more about these, you may read our “
+What is Time to First Byte and How to Improve it
+” guideline.
+2. Eliminating Render Blocking Resources and First Contentful Paint Relation
+Render Blocking Resources are the resources that prevent rendering of the web page. Browser downloads and parses all of the HTML Document, then it starts to download the resources in the HTML page, after this step, it starts rendering. Every unnecessary resource blocks the rendering without providing a benefit. Specifically, for the First Contentful Paint, the “menu bar”, “featured image”, “main CTA” in the above the fold section can be rendered faster via the inlined Critical CSS.
+To improve the First Contentful Paint in terms of Render Blocking Resources:
+Inline every critical resource so that they can be parsed faster without any delay.
+Defer every non-critical resources.
+To learn more about Render Blocking Resources and Critical CSS, you may read our guidelines.
+3.Unused Codes and First Contentful Paint Relation
+Every unused or dead code are a burden in terms of page loading time. The browser tries to load those unnecessary codes instead of rendering the content of the above the fold section. Imagine that the “First Contentful Paint” on a web page is a background image with a CTA Button and a Heading Line. Now, assume that the browser still tries to parse the unnecessary and unused dead Javascript or CSS Files and empty HTML nodes instead of showing the necessary section of the above the fold to create the First Contentful Paint event.
+You may read our related “Unused Codes Cleaning and Coverage Report for Performance” guideline to learn more.
+First Contentful Paint explanation via Youtube’s layout and loading process.
+4.Client-side Rendering and First Contentful Paint Relation
+Client-side rendering means that all the Javascript Files are being rendered at the client-side while web pages are being downloaded. This situation creates more burden for the browser and users’ devices to see the actual content. While the rendering phase of the javascript continues, the browser stops parsing HTML and showing other components of the web page. If there are too many Javascript with a client-side rendering for the above the fold section, probably before finishing of these javascript files’ downloading, parsing, and executing process, the browser won’t be able to show the content. This situation will delay the First Contentful Paint.
+To learn more about Javascript Rendering Strategies, Pagespeed and SEO, you may read our related guidelines.
+5. Lazy-loading of Images and First Contentful Paint Relation
+Lazy-load can be performed natively for Chrome, Firefox, and Edge via the “loading” attribute. This type of a lazy-load methodology won’t harm your First-contentful Paint since it is not dependent on a Javascript Code that the web page resources include. But, if a web page uses Lazy-loading via a Javascript Library or a Custom Javascript, this means that to show every image on the web page, the necessary lazy-loading image should be downloaded first. This situation also, delays the First Contentful Paint for the images at the above the fold section.
+Since, the image can’t be shown before the Lazyload Javascript being downloaded, parsed, and executed, even if the image would be downloaded and ready-to-be showed, it won’t be visible on the screen.
+6. Inline Images and First Contentful Paint Relation
+How to use inline images in an HTML Document and what are the inline images? Inline images are the images that don’t require an HTTP Request to be downloaded. They are in the HTML Document with “Data URLs” and they are being drawn by the browser. There are two types and formats for inline images. These are SVG and Base64. Inlining all the images that are important for the First Contentful Paint will increase timing since there is no need for HTTP Requests.
+For the above the fold section, inline images can be logos, background images, banners, ads and icons.
+Base64 format is an encoding algorithm that converts every type of web page asset into text, including images. SVG or Scalable Vector Graphics are the vectors that can be drawn by the browser to create meaningful icons or logos for the users. Both format can be inlined for better First Contentful Paint metric.
+To learn more about Image Formats and Inline Images, you may read our related guidelines.
+Visual Representation of First Contentful Paint for the Google Chrome’s Home Page with other Performance Metrics
+7. HTML DOM Size and First Contentful Paint Relation
+The Document Object Model (DOM) is consists of the web page components in HTML Nodes. It includes every text, image, CSS, Javascript, Font, Document, and other types of information for the creation of the web page. DOM and CSS are related to each other, a better organized DOM can help for creating a smaller and more efficient CSS File for the layout. The browser creates parent and child element hierarchy while reading HTML Nodes in the DOM. If there are too many children for an HTML Parent Element of the children nodes are to depth, this will make the web page slower.
+Every web page with more than 1500 HTML DOM, every HTML Node with deeper than 32 Nodes, and every HTML Node with more than 60+ child notes are being seen as a problem for Google. A smaller DOM Size means that the browser can show the actual content faster. DOM Interactive event is the name of the HTML Parsing Process’ end. Before, DOM Interactive, a browser can’t show the content, so for a better First Contentful Paint, DOM Size Optimization is helpful.
+To learn more about DOM Size and Performance Relation, you may read our guidelines.
+8. Font Visibility and First Contentful Paint Relation
+Browsers don’t show any font before finishing the download of every font file in the web page. This situation creates a delay for the appearance moment of the text on the web page. Browsers also have default font-family for the documents that don’t have any special font-family for themselves. This situation creates Flash of Invisible Text (FOIT). FOIT means that the text on the web page has been showing suddenly after the downloading of font files have been finished. To prevent this situation, “font-display:swap” attribute and value should be used in “@font-face” section of the CSS File.
+Thus, text on the web page will be shown immediately with the default font-family of the browser. After the font files’ downloading process, it will swap the font-family to the web page’s font type. If you use Google CDN for font-files, you may add the “&display=swap” parameter into the end of the font-family URL as below.
+<link href="https://fonts.googleapis.com/css?family=Loboto:500,600&display=swap" rel="stylesheet">
+First Contentful Paint and FOIT are directly related terms to each other. To learn more about FOIT, you may read our related guidelines.
+9. Redirect Chains and First Contentful Paint Relation
+Every redirect chain delays the First Paint, First Contentful Paint, or Largest Contentful Paint. A redirect chain means that there are several web pages that redirected to each other for a web page that will give 200 status code. Because of this situation, both users and Search Engine Crawlers need to travel through every redirected old web page for seeing the First Contentful Paint. This situation happens a lot if there are lots of redirected URLs in the content of the web site. Because of this situation, every internal redirected URL should be cleaned from the content and switched with its destination URL that gives 200 status code.
+To improve First Contentful Paint and Crawlability, Crawl Efficiency, understanding the status codes of internal URLs are important.
+This is one of the explanations of Addy Osmani to show the differen
+
+[...truncated...]

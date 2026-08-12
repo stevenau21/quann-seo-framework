@@ -1,0 +1,117 @@
+HTML <embed> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The HTML Tag <embed> is used to include an external program or interactive content into an HTML document. The <embed> HTML Tag is part of Programming HTML category in HTML Element Reference. The attributes of the <embed> HTML Tag are height, URL, media type, pixels, global attributes and events attributes.
+<embed> code block example to learn how it works is given below.
+<embed type="video/quicktime"
+src="my_movie.mov"
+width="800"
+height="500">
+The second example usage of the “<embed>” code block example is given below.
+<p>Click and drag your mouse to look up:</p>
+<embed type="video/quicktime" src="/web_design/us_vegas.mov" width="100%">
+Contents of the Article
+show
+1.
+What is <embed> HTML Tag?
+2.
+How to Use <embed> HTML Tag?
+2.1.
+Example Usage of <embed> HTML Tag?
+3.
+What are the Attributes of <embed> HTML Tag?
+4.
+What are the Default CSS Settings for <embed> HTML Tag?
+5.
+What are the Related other HTML Tags to <embed>?
+What is <embed> HTML Tag?
+The <embed> HTML Tag is used to embed other programs, often multimedia information such as audio or video, inside an HTML document. It serves as a container for plug-ins such as flash animations. This is a new tag in HTML 5, and it just requires the beginning tag.
+How to Use <embed> HTML Tag?
+To use the <embed> HTML Tag, the <embed type=”” source=””> tag should be created by the web developer, with the object type put between the type property’s double quotes and the URL of the object specified in the source attribute If required, a width and height property can also be given.
+Example Usage of <embed> HTML Tag?
+The following example of usage of <embed> HTML tag is given below.
+<embed type="video/webm"
+src="/media/cc0-videos/tree.mp4"
+width="250"
+height="200">
+What are the Attributes of <embed> HTML Tag?
+There are multiple attributes for the <embed> HTML Tag. The following attributes are listed below.
+Global Attributes: The <embed> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <embed> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+Height Attribute: The <embed> HTML Tag supports Height Attribute. The height of the embedded content is specified by this attribute.
+src Attribute: The <embed> HTML Tag supports src Attribute. The address of the external file to embed is specified by this attribute.
+Type Attribute:  The <embed> HTML Tag supports Type Attribute. The media type of the embedded material is specified by this attribute.
+Width Attribute: The <embed> HTML Tag supports Width Attribute. The width of the embedded content is specified by this attribute.
+What are the Default CSS Settings for <embed> HTML Tag?
+The following is the Default CSS Setting for the <embed> HTML Tag.
+footer {
+font-size: .8rem;
+position: absolute;
+bottom: 10px;
+right: 10px;
+}
+.output {
+background: #eee;
+position: relative;
+What are the Related other HTML Tags to <embed>?
+The other related HTML Tags to the <embed> HTML Tag are listed below.
+<script> HTML Tag: The
+<script>
+HTML Tag is related to <embed> HTML Tag because they are both programming tags. The HTML Tag script> specifies a client-side script.
+<noscript> HTML Tag: The
+<noscript>
+HTML Tag is related to <embed> HTML Tag because they are both programming tags. The <noscript> HTML Tag specifies an alternative content for people who do not support client-side scripting.
+<applet> HTML Tag: The
+<applet>
+HTML Tag is related to <embed> HTML Tag because they are both programming tags. HTML5 does not support the <applet> HTML Tag. Instead, use <embed> or <object>. This class defines an embedded applet.
+<object> HTML Tag: The
+<object>
+HTML Tag is related to <embed> HTML Tag because they are both programming tags. The HTML Tag <object> specifies an embedded object.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+2 thoughts on “HTML <embed> Tag Definition, Usage and Examples”
+How does this compare to iframe content from an SEO standpoint?
+A customer wants to use embed to pull in content from an external source in order to make their pages look less thin and more unique. They previously had iframed content which I advised them Google would not be considered as words on the page. They have since changed to rendering this content using the embed tag.
+Reply
+Hello Scott,
+Thank you for your comment. Google considers the iFrame content as a part of the iFrame content’s original owner, not the iFrame user web page. And, iFrame content might slow down the original content owner’s
+web server
+. Thus, they might use “
+frame-options
+:sameorigin” to prevent it. Another thing is, they might use “noindexifembbedded” type of meta robots tags that might help you to use their content. Using other websites’ content is a sample for giving them PageRank, and authority, while making your website a duplicator. Creating your own tools, visuals, and textual content is always a better option.
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <embed> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <b> Tag Definition, Usage and Examples…
+TechSEO
+HTML <summary> Tag Definition, Usage and Exa…
+0
+0
+2

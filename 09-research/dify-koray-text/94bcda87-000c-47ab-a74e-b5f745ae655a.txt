@@ -1,0 +1,215 @@
+Information Extraction: Creating Entity Relation Diagram with Python - Holistic SEO
+Skip to content
+A knowledge graph is a graph that consists of different types of entities and their connection to each other. Search Engines create a Knowledge Graph while crawling the web so that they can easily detect the relations between entities and understand the purpose of the web page or relevance of the web page for certain topics.
+For
+Semantic SEO
+, Semantic Search, Structured and Semantic Search Engine Entity-based Search Algorithms are important. An entity-based Search Engine can also understand the content, unlike a phrase-based Search Engine. Google is a Hybrid Search Engine that owns multiple features such as Hypertextual, Semantic, Entity-based, Phrase-based Search Engine. Understanding this terminology can help SEOs to understand the natures of Search Engines. Google and Bing give value to a Semantic Web Entity that covers a topic with all of the related entities. To understand Semantic SEO Terms better, you may read our related guidelines.
+In the context of Knowledge Graph and Entity-based SEO along with Semantic SEO, creating a Knowledge Graph from entities in a Web Site or a Web Page is useful. This helps one to understand the missing concepts, terms, angles in an article, or a topical cluster. So, the one can create better coverage for a certain topic in a better organized, structured, and semantic hierarchy for Search Engines’ understanding and Users’ benefit.
+In this guideline, we will create a knowledge graph with Python from entities in an article while extracting the entities within it, creating a relation tree between each other.
+Contents of the Article
+show
+1.
+Information Extraction from an Article with Python
+2.
+What is SpacY and How to Use it for SEO?
+3.
+How to Create a Knowledge Graph and Visualization with Python
+3.1.
+Knowledge Graph Analysis via Python for SEO
+4.
+Last Thoughts on Knowledge Graph Creation, Visualization with Python, and Holistic SEO
+Information Extraction from an Article with Python
+Information Extraction is the extraction of organized information from unstructured, disorganized writing. Information Extraction is the first step of Knowledge Graph Creation from structured data. To perform information extraction, one should take the raw tax and perform an analysis to connect entities in a text with each other in a hierarchy and semantic meaning.
+One may find an example of the information extraction below.
+“Holistic SEO & Digital has been built by the Koray Tuğberk GÜBÜR who believes in Coding and Marketing Harmony.”
+In this example of sentence, we may extract entities with human-eye.
+“Holistic SEO & Digital” is an organization.
+“Koray Tuğberk GÜBÜR” is a person.
+“Coding” is a skill.
+“Marketing” is a skill.
+“Harmony” is a style.
+“Koray Tuğberk Gübür” is founder of the “Holistic SEO & Digital”.
+“Koray Tuğberk GÜBÜR” is a “marketer” and “coder”.
+“Holistic SEO & Digital” gives services in the marketing and coding areas in a ‘harmony'”.
+First, we have extracted entities, then we have created the conclusions and meaning structures from the text. We also can produce questions that we can find answers from this simple raw text. Natural Language Processing is the process of extracting meaning from a raw human-readable text.
+In this entity extraction, we have used “subjective” modifiers to give meaning to the entities’ semantic structure. Machines use a different syntax for understanding the language of humans that is called Natural Language Processing.
+In this context, we will use SpaCy Python Natural Language Processing Library along with Marius Borcan’s Python Knowledge Graph Algorithm that is built on SpaCy.
+Our other guidelines related to the Python and SEO Intersection:
+How to resize Images with Python?
+How to optimize Images with Python?
+How to Crawl a Website with Python?
+How to Perform a Content Audit with Sitemaps and Python?
+What is SpacY and How to Use it for SEO?
+SpaCy is a Natural Language Processing Library. Thanks to SpaCy, extracting entities, word relations, objectives of a word in a sentence, angle of content is easier. In the future, creating knowledge graphs with Python for content will be a traditional Holistic SEO Behavior. Understanding the content’s context, angle, entity relations are important in the same context.
+You may find a simple example of usage for SpaCy.
+import spacy
+nlp = spacy.load("en_core_web_sm")
+text = ("Kemal Atatürk was a Turkish field marshal, revolutionary statesman, author, and the founding father of the Republic of Turkey, serving as its first president from 1923 until his death in 1938. He undertook sweeping progressive reforms, which modernized Turkey into a secular, industrial nation. Ideologically a secularist and nationalist, his policies and theories became known as Kemalism. Due to his military and political accomplishments, Atatürk is regarded as one of the most important political leaders of the 20th century.")
+doc = nlp(text)
+print("Noun phrases:", [chunk.text for chunk in doc.noun_chunks])
+print("Verbs:", [token.lemma_ for token in doc if token.pos_ == "VERB"])
+for entity in doc.ents:
+print(entity.text, entity.label_)
+Import the necessary Library.
+Loaded the necessary SpaCy Language Pack into a variable.
+Created a text example with three sentences.
+We have read the text with Spacy’s NLP Function and assigned the result into another variable.
+We have printed the “nouns” in the sentences with the List Comprehension Method.
+We have printed all of the verbs in the sentences with the List Comprehension Method.
+We have printed all of the entities in the text with a loop.
+You may find the result below.
+Noun phrases: ['Kemal Atatürk', 'a Turkish field marshal', 'revolutionary statesman', 'author', 'the founding father', 'the Republic', 'Turkey', 'its first president', 'his death', '1938.He undertook sweeping progressive reforms', 'Turkey', 'a secular, industrial nation', 'Ideologically a secularist', 'his policies', 'theories', 'Kemalism', 'his military and political accomplishments', 'Atatürk', 'the most important political leaders', 'the 20th century']
+Verbs: ['found', 'serve', 'undertake', 'modernize', 'become', 'know', 'regard']
+Kemal Atatürk PERSON
+Turkish NORP
+the Republic of Turkey GPE
+first ORDINAL
+1923 DATE
+Turkey GPE
+Kemalism PERSON
+Atatürk PERSON
+the 20th century DATE
+There are teeny tiny some errors here because we didn’t train or NLP Model for this specific topic. For instance, “Kemalism” is not a person, it is actually an ideology. The “NORP” is a shortcut that stands for “Nationalities or Religious and Political Groups”. There are more “Named Entity Recognition” terms in the SpaCy. You may find some of them below.
+PERSON
+Person, People, Fictional, or not a human being with the name.
+NORP
+Nations, Religious, and Political Groups.
+FAC
+Buildings or concrete architecture existing.
+ORG
+Companies, organizations, agencies, legal institutions.
+GPE
+Country, city, state, or federation.
+LOC
+Geographic locations that are non-GPE.
+PRODUCT
+Objects that are vehicles, products, foods, clothes.
+EVENT
+Named events in history such as wars, disasters, or celebrations.
+WORK_OF_ART
+Books, songs, movies, and other types of artworks.
+LAW
+Laws or constitutions.
+LANGUAGE
+Languages, dialects, or accents.
+DATE
+Relative or absolute dates in different formats.
+TIME
+Smaller time units than a day.
+PERCENT
+Percentages in every format.
+MONEY
+Every type of money units.
+QUANTITY
+Quantity measurements in every format.
+ORDINAL
+Ranking words such as first, second, third, etc.
+CARDINAL
+Numerals that do not fall under another type.
+SpaCy Named Entity Recognition List.
+Extracting all of those entities in a Semantic Relation can help SEO for Content Strategy and Content Coverage in a better-organized Query and Search Intent Network.
+How to Create a Knowledge Graph and Visualization with Python
+Marius Borcan has created a useful Knowledge Graph Creation methodology with Spacy, Matplotlib, and NetworkX. In this section of Python Knowledge Graph Creation Guideline for SEOs, the source code of the functions is also be used and explained. You also may download the python-knowledge-graph repository from GitHub for use. We will start by importing the necessary libraries.
+import spacy
+from spacy.lang.en import English
+import networkx as nx
+import matplotlib.pyplot as plt
+We have imported SpaCy, English Language Kit, Networkx, and Matplotlib’s Pyplot. Now, we will create our 8 different functions with the help of these packages and libraries.
+def getSentences(text):
+nlp = English()
+nlp.add_pipe(nlp.create_pipe('sentencizer'))
+document = nlp(text)
+return [sent.string.strip() for sent in document.sents]
+First function is “getSentences()”. It simply creates an “nlp” variable that uses SpaCy in English and “sentencizer” pipeline component. Sentencizer detects the word boundaries to create strings. In the return statement, we have used list comprehension for taking every word from a text document.
+def printToken(token):
+print(token.text, "->", token.dep_)
+Second function is the “printToken()”. It simple prints all the tokens in a text for us.
+def appendChunk(original, chunk):
+return original + ' ' + chunk
+Third function is the “appendChunk()”, it simply prints the original statement and its role together.
+def isRelationCandidate(token):
+deps = ["ROOT", "adj", "attr", "agent", "amod"]
+return any(subs in token.dep_ for subs in deps)
+Fourth function uses the ready to go SpaCy tags to create relations between “tokens”. If a word is adjective to another word, the one can use this function to see the relation between the words.
+def isConstructionCandidate(token):
+deps = ["compound", "prep", "conj", "mod"]
+return any(subs in token.dep_ for subs in deps)
+The fifth function is showing the words’ types such as whether they are compound or not.
+def processSubjectObjectPairs(tokens):
+subject = ''
+object = ''
+relation = ''
+subjectConstruction = ''
+objectConstruction = ''
+for token in tokens:
+printToken(token)
+if "punct" in token.dep_:
+continue
+if isRelationCandidate(token):
+relation = appendChunk(relation, token.lemma_)
+if isConstructionCandidate(token):
+if subjectConstruction:
+subjectConstruction = appendChunk(subjectConstruction, token.text)
+if objectConstruction:
+objectConstruction = appendChunk(objectConstruction, token.text)
+if "subj" in token.dep_:
+subject = appendChunk(subject, token.text)
+subject = appendChunk(subjectConstruction, subject)
+subjectConstruction = ''
+if "obj" in token.dep_:
+object = appendChunk(object, token.text)
+object = appendChunk(objectConstruction, object)
+objectConstruction = ''
+print (subject.strip(), ",", relation.strip(), ",", object.strip())
+return (subject.strip(), relation.strip(), object.strip())
+This is the most important function. We are extracting all types of “tokens” such as “subject”, “object”, “relation”, “subjectConstruction”, “objectConstruction” and more. According to the if statements’ result, we are appending every token into the these variables. After the classification is being done, we simply return them.
+def processSentence(sentence):
+tokens = nlp_model(sentence)
+return processSubjectObjectPairs(tokens)
+Seventh function simply uses the sixth function as a callback to create a NLP Model.
+def printGraph(triples):
+G = nx.Graph()
+for triple in triples:
+G.add_node(triple[0])
+G.add_node(triple[1])
+G.add_node(triple[2])
+G.add_edge(triple[0], triple[1])
+G.add_edge(triple[1], triple[2])
+pos = nx.spring_layout(G)
+plt.figure()
+nx.draw(G, pos, edge_color='black', width=1, linewidths=1,
+node_size=500, node_color='seagreen', alpha=0.9,
+labels={node: node for node in G.nodes()})
+plt.axis('off')
+plt.show()
+Eighth and the last function is for creating the graph. Now, at below we can simply create our Knowledge Graph from an example of text. Now, let’s import all of the necessary functions for a real use case.
+from knowledgegraph import getSentences
+from knowledgegraph import printToken
+from knowledgegraph import appendChunk
+from knowledgegraph import isRelationCandidate
+from knowledgegraph import isConstructionCandidate
+from knowledgegraph import processSubjectObjectPairs
+from knowledgegraph import processSentence
+from knowledgegraph import printGraph
+You also may use “from knowledge graph import function 1, function 2, function 3” for a shorter import code block, but I wanted to show every function in a better hierarchy. Below, you will find our example of text.
+text = text = "Ataturk is the founder of Turkish Republic." \
+"Ataturk is one of the Turkish Warfare Geniuses." \
+"Ataturk has given the right to vote for woman." \
+"Ataturk has won Turkish Independence War." \
+"Ataturk performed revolutions in the field of industry and social life." \
+"Ataturk is one of the most inspiring leaders in the 20th Century."
+Now, we are calling our “knowledge graph” creator function chain.
+sentences = getSentences(text)
+nlp_model = spacy.load('en_core_web_sm')
+triples = []
+print(text)
+for sentence in sentences:
+triples.append(processSentence(sentence))
+printGraph(triples)
+Here is the result:
+A simple Knowledge Graph from our small raw text.
+As you may see that all of our sentences have begun with the person entity, Ataturk. Thus, our knowledge graph’s center is Ataturk. We also can see the features, similar sides to other people, actions, and other types of entity recognition easily. This methodology can help SEOs to create knowledge graphs with a deeper perspective for content strategy, quality analysis, and comparative SERP Analysis. Holistic SEOs can use Python and SEO for understanding machines’ capacity better. Understanding how Search Engines’ Algorithms’ may interpret content and how they can see the entities in a connection can easily be seen with Knowledge Graphs and Information Extraction.
+Knowledge Graph Analysis via Python for SEO
+Knowledge Graphs are closely related to Search Engine Optimization. With Python, we can simply generate questions from reading the content. Thus, seeing a 
+
+[...truncated...]

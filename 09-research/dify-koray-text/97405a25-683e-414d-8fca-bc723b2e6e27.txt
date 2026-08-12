@@ -1,0 +1,146 @@
+How to Check Status Codes of URLs in a Sitemap via Python - Holistic SEO
+Skip to content
+Sitemaps are the XML Files that include all URLs website owner wants Search Engines to index. Since all of those URLs are wanted to be indexed, they all need to be crawlable and working URLs with a solid “OK” and “200” HTTP Status Code. Including URLs with Non-200 Status Code is an incorrect practice. It harms the Search Engine’s crawl resources and Trust Value of the web entity in the eyes of Search Engine. A sitemap is a solid signal for crawling, rendering, and indexing. Using sitemaps without a correct practice may bloat the Google Search Console’s Coverage Report with “Submitted URL is redirected” or “Submitted URL not found (404)”, “Submitted URL returns unauthorized request (401)” and more. In this guideline, we will show how to check URLs’ status codes with Python, and we will use the same methodology for checking the URLs in Sitemap.
+We will also perform a complete Sitemap Audit with Python in the future for both of code errors and also URL’s “noindex”, “crawl errors”, “blocked” and “internal link profile” situations. Any URL in the sitemap has to be canonicalized and with a “200”
+HTTP Status Code
+. To learn more about Crawl Budget and Efficiency, you may read our Google’s Search Console’s Index Coverage Report Guideline.
+Also, if you don’t have enough information about Sitemaps, you may read the articles below:
+What is an XML Sitemap?
+What is an HTML Sitemap?
+What is an Image Sitemap?
+What is a News Sitemap?
+How to submit a Sitemap?
+Contents of the Article
+show
+1.
+How to Check a URL’s HTML Status Code with Python?
+2.
+How to Pull all URLs from a Sitemap with Python?
+3.
+Interpreting Sitemaps with Python and Holistic SEO
+How to Check a URL’s HTML Status Code with Python?
+In Python, there are lots of libraries related to the URLs, such as “urllib3”, “requests”, or “scrapy”. Without fetching the URL and its content, we can’t crawl and pull the data from the web. Because of this dependency, reading the URLs is an important basic step for Python Developers. “urllib3” is the basic and the most important Python Library for reading and parsing the URLs. Analyzing a web site’s categorization or only the URL parameters and fragments is possible thanks to “urllib3”. But, for checking the status code of an URL, we will use the “requests” library.
+“Requests” is another Python Library which helps for performing simple HTTP 1.1 Requests from servers. We can also use parameters, authentication, or cookies with requests. But for this guideline, we will only use its a simple method which is called “status_code”. Below, you will see a simple request example with Python for an URL.
+import requests
+url = 'https://www.youtube.com'
+request = requests.get(url)
+print(request.status_code)
+The first line is for importing the necessary Python library which is “requests”.
+The second line is for creating a variable that includes the URL we want to check its status code.
+The third line is for creating a request for the “url” variable’s content and assigning it to a variable which is “request”.
+The fourth line is for printing the status code of the URL.
+Below, you will see the status code of the determined URL for this try.
+We see the status code of our Requests.
+It simply gives the status code of the URL. To crosscheck this, we may use a unvalid URL.
+import requests
+url = 'https://www.youtube.com/non-exist-url'
+request = requests.get(url)
+print(request.status_code)
+We have a 404 response for this time, naturally.
+This time our result is simply 404 which means “error”. Now, simply we may continue for implementing the same methodology for a sitemap. But, how can we pull all the URLs from a sitemap? We will use another Python Library which is called as Advertools and created by Elias Dabbas which I admire his abilities.
+To learn more about Python SEO, you may read the related guidelines:
+How to resize images in  bulk with Python
+How to perform TF-IDF Analysis with Python
+How to crawl and analyze a Website via Python
+How to perform text analysis via Python
+How to test a robots.txt file via Python
+How to Compare and Analyse Robots.txt File via Python
+How to Categorize URL Parameters and Queries via Python?
+How to Perform a Content Structure Analysis via Python and Sitemaps
+How to Check Grammar and Language Errors with Python
+How to check Status Codes of URLs in a Sitemap via Python
+How to Categorize Queries with Apriori Algorithm and Python
+How to Pull all URLs from a Sitemap with Python?
+To pull all URLs from a sitemap, we can also use Scrapy or other Python Libraries, but all of those libraries request a custom script creation process which we will tell later. For creating a quick methodology, we will use Advertools’ “sitemap_to_df()” method.
+import advertools as adv
+import pandas as pd
+import requests
+sigortam = adv.sitemap_to_df('https://www.sigortam.net/sitemap.xml')
+sigortam.to_csv('crawled_sitemap.csv', index = False)
+sigortam = pd.read_csv('crawled_sitemap.csv')
+sigortam.head(5)
+The first line for importing “advertools”.
+The second line is for importing pandas.
+The third line is for importing requests.
+The fourth line is for turning the chosen web site’s sitemap into a data frame and assigning a variable.
+The fifth line is for creating an output file from the created data frame
+The sixth line is for reading the data frame from the created CSV file
+The seventh line is for taking the first 5 lines from the top.
+You may see the result below:
+We have our first 5 rows from selected Sitemap.
+We have all of the necessary sections of sitemap files in a dataframe. To check the status code’s of URLs in Sigortam.net’s sitemap, we need only one column which is the “loc”.
+for url in sigortam['loc']:
+status = requests.get(url)
+sigortam['status] = url.status_code
+print(f'Status code of {url} is {status.reason} and {status.status_code}')
+The first line is for starting a for loop for the data frame’s necessary column.
+The second line is for making the request and assigning it into a variable.
+The third line is for appending the status code of the requested URLs into a new column of the existing data frame.
+The fourth line is for printing the Status Code of the URL.
+You may see the result of the code block which is above.
+You may see the response status from our for loop.
+As you may see that we are checking the status codes of a sitemap in bulk and we are printing them. We have also appended all of them into the data frame.
+sigortam[['loc', 'status']].head(20)
+In this example, we only call the targeted columns and their 20 lines from the top.
+You may check the status codes of URLs.
+As you may see that our URLs and their status code are in the same data frame. Now, we can check that in what percentage of the URLs have 200 Status Code.
+sigortam['status'].value_counts()
+The code above count all the values in determined column. We can see the result below:
+We have 3362 200 Status Codes.
+It simply says that all of our URLs have 200 status code. In some cases, the URLs in a sitemap might have 301, 302 or 404, 410 and etc. status codes. To filter these URLs in an easier methodology, you may want to append all of those URLs into different columns to deal with them easier. Also, may append them in a list with the help of “tolist()” method, and then you may use the “to_frame()” method to show them in a frame. The code below is for appending URLs to the different lists according to their status codes.
+for url in sigortam['loc'].sample(100).tolist():
+url_400 = []
+url_200 = []
+url_300 = []
+url_500 = []
+resp = requests.get((url, resp.status_code))
+if  400 <= resp.status_code < 500:
+url_404.append((url, resp.status_code))
+elif 300 <= resp.status_code < 400:
+url_300.append((url, resp.status_code))
+elif 500 < resp.status_code < 600:
+url_500.append((url, resp.status_code))
+else:
+url_200.append((url, resp.status_code))
+Interpreting Sitemaps with Python and Holistic SEO
+Sitemaps are one of the most essential elements of SEO for more than 15 years. They show a web entity’s URL Structure, Categorization, growing trend in terms of URL amount, URL publishing dateline, and more. Interpreting a sitemap with manual methods or with Python is an advantage for an SEO. If you read our “How to analyze Content Strategy of a web site according to sitemaps via Python” article, you will see this better. Also, sitemaps’ health score can affect the communication between the search engine and the web site. An incorrect sitemap can cause trust and quality score devaluation in the eyes of a search engine for a specific site. Internal link structure, the URLs in the sitemap, and canonical URLs should be consistent. You may read more about sitemaps in HolisticSEO.Digital and learn more about their importance.
+As Holistic SEOs, we will continue to improve our Pythonic SEO Guidelines.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+1 thought on “How to Check Status Codes of URLs in a Sitemap via Python”
+Great article
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Python SEO
+How to Check Status Codes of URLs in a Sitemap via Python
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+Python SEO
+How to Categorize Queries for SEO Analysis via Pyt…
+Python SEO
+How to Scrape PAA Questions on SERP via Python for…
+0
+0
+1

@@ -1,0 +1,116 @@
+HTML <blockquote> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <blockquote> HTML Tag specifies a long quotation, which is a quotation that spans several lines. In HTML5, the <blockquote> HTML Tag is used to specify the section of another source that is being quoted. The content contained within the <blockquote> tag is typically displayed as indented text in the browser. It is necessary to use the <blockquote> HTML Tag in order to display long quotations, such as a section that has been quoted from another source. It alters the alignment in order to distinguish it from other similar items. The <blockquote> HTML Tag is part of the Formatting HTML category in HTML Element Reference. The attributes of the <blockquote> HTML Tag are cite, global, and event attributes.
+<blockquote> code block example to learn how it works is given below.
+<blockquote>In this section, put the quoted text...</blockquote>
+The second example usage of the “<blockquote>” code block example is given below.
+<blockquote>
+The single greatest asset we all possess is the ability to think clearly. If properly trained, it has the potential to generate tremendous wealth in what appears to be an instant.
+</blockquote>
+<cite>goodreads <abbr title="Rich Dad, Poor Dad">RTK</abbr></cite>
+Contents of the Article
+show
+1.
+What is <blockquote> HTML Tag?
+2.
+How to Use <blockquote> HTML Tag?
+2.1.
+Example Usage of <blockquote> HTML Tag?
+3.
+What are the Attributes of <Blockquote> HTML Tag?
+4.
+What are the Default CSS Settings for <Blockquote> HTML Tag?
+5.
+What are the Related other HTML Tags to <Blockquote>?
+What is <blockquote> HTML Tag?
+The <blockquote> HTML Tag element denotes that the text contained within the tag is an edited version from a longer written text. In most cases, this is represented visually through indentation. The cite attribute can be used to provide a link to the source of the quotation, while the cite element can be used to provide a text representation of the source. The <blockquote> tag should be used to insert a long quote, and the <q> tag should be used for a short or inline quote. This is a block-level element that can contain tags for text formatting as well as other elements.
+How to Use <blockquote> HTML Tag?
+To use the <blockquote>, HTML Tag, the web developer should write <blockquote></blockquote> with the quoted content inserted in between the tags. The user can utilize the cite attribute to specify the URL of the source of the quote.
+Example Usage of <blockquote> HTML Tag?
+The following examples of usage of <blockquote> HTML Tag are given below.
+<blockquote>
+Forgiveness is the only way out of the maze of suffering that one can navigate. -
+<cite>bookbub <abbr title=”Looking for Alaska”>JG</abbr></cite>
+</blockquote>
+<blockquote>
+Memories provide a warm feeling on the inside. However, they can also actually break you apart. -
+<cite>bookbub <abbr title=”Kafka on the Shore”>HM<abbr></cite>
+</blockquote>
+What are the Attributes of <Blockquote> HTML Tag?
+There are multiple attributes for the <blockquote> HTML Tag. The following attributes are listed below.
+Cite Attribute: The <blockquote> HTML Tag supports the cite attribute. The cite attribute can be used in this field to clearly define the Web address of the source from which the quote was derived.
+Global Attributes: The <blockquote> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <blockquote> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <Blockquote> HTML Tag?
+The following are the Default CSS Settings for the <blockquote> HTML Tag. Some examples are listed below this document.
+blockquote {
+margin: 0;
+}
+blockquote p {
+padding: 15px;
+background: #eee;
+border-radius: 5px;
+}
+blockquote p::before {
+content: '\201C';
+}
+blockquote p::after {
+content: '\201D';
+}
+What are the Related other HTML Tags to <Blockquote>?
+The other related HTML Tags to the <blockquote> HTML Tag are listed below..
+<u> HTML Tag: The
+<u>
+HTML Tag and <blockquote> HTML Tag are related because they are both formatting HTML Tags. Unarticulated and variably styled text is what this definition refers to.
+<meter> HTML Tag: The
+<meter>
+HTML Tag and <blockquote> HTML Tag are related because they are both formatting HTML Tags. The <meter> HTML Tags is a gauge scalar measurement that occurs within a known range of values.
+<ins> HTML Tag: The
+<ins>
+HTML Tag and <blockquote> HTML Tag are related because they are both formatting HTML Tags. The <ins> HTML Tag This term refers to text that has been placed into a document.
+<dfn> HTML Tag: The
+<dfn>
+HTML Tag and <blockquote> HTML Tag are related because they are both formatting HTML Tags. The <dfn> HTML Tag identifies a term that will be defined later on in the document.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+2 thoughts on “HTML <blockquote> Tag Definition, Usage and Examples”
+Thanks. That was useful
+Reply
+Thanks for the kind comment.
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <blockquote> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <main> Tag Definition, Usage and Exampl…
+TechSEO
+HTML <div> Tag Definition, Usage and Example…
+0
+0
+2

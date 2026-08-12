@@ -1,0 +1,129 @@
+Fix "Specify a Vary: Accept-Encoding Header" by Understanding - Holistic SEO
+Skip to content
+The HTTP Vary Response Header is used to indicate which type and format of content are requested from the web site’s server via the browser. This process performed through HTTP Vary Header is called “Content Negotiation”. In the RFC7232 Document, Hypertext Transfer Protocol (HTTP / 1.1), this case is called “Conditional Requests”. Accordingly, when entering a website, the user can specify that the document is requested in “text/html” or “text/csv” format. Users can tell the server in what format an HTML Document is requested with the response headers “Accept: text/html” or “Accept: text/csv”. This has made the HTTP Vary Header important.
+Since different “accept” response headers want the same URL in a different type, a “Vary” response header is usually added to the servers as follows.
+"vary: Accept"
+This value means for the server, give the variant the user wants. If the user wants “text/html” then “text/html” means if the user wants “text/csv” then “text/csv” means. However, today the HTTP Vary Header is used for a different purpose. Although “Content Negotiation” is an excellent idea, most users did not have enough knowledge to use this type of technology. Therefore, the “Vary: Accept-encoding” Response Header has come to an important point than it normally would be.
+Vary:Accept working style for different Conditional Requests Representation.
+This is why many tools that measure the speed of web page loading time such as Lighthouse, GTMetrix, Webpagetest, Pagespeed Insights, Pingdom give the “Specify a Vary: Accept-Encoding Header” warning. Vary HTTP Header can be used with “Accept”, “Accept-encoding”, “Accept-language” Response Headers. The “Vary” Response Header is important for pagespeed, user security and server efficiency. The “Vary” Header is also important for what the browser and server can cache for the user.
+Contents of the Article
+show
+1.
+Why is “Specify a Vary: Accept-Encoding” Header Important for Pagespeed?
+2.
+How to Fix “Specify a Vary: Accept-Encoding Warning”?
+3.
+How to Fix “Specify a Vary: Accept-Encoding Warning” in Apache Servers?
+4.
+How to Fix “Specify a Vary: Accept-Encoding Warning” in NGinx Servers?
+5.
+What is the Relationship between HTTP Vary Header and Browser Cache?
+6.
+All Cache Kinds for the Browser and HTTP Vary Header
+6.1.
+1. Image Cache of the Browser and HTTP Vary Header
+6.2.
+2. Preload Cache of the Browser and HTTP Vary Header
+6.3.
+3. Service Worker Cache API and HTTP Vary Header
+6.4.
+4. HTTP Cache and Vary Response Header
+6.5.
+5. HTTP/2 Push Cache and HTTP Vary
+7.
+Browser Cache Hierarchy and HTTP Vary Header
+8.
+How to use Vary Response Header as a Validator in Browser Cache System?
+8.1.
+Using Vary Response Header as Validator for Preload Cache
+8.2.
+HTTP Cache and HTTP Vary
+9.
+HTTP / 2 Push Cache and Vary as Validator
+10.
+304 Not Modified HTTP Status Code and Vary HTTP Header Relation
+11.
+Client-hints and Vary as Validator
+12.
+Key Proposals and Differences between Keys and Vary HTTP Header
+13.
+Variant Response Header Proposal for Vary HTTP Header as a Key
+14.
+Last Thoughts on Vary HTTP Header, Browser Cache System, Pagespeed Relations, and Holistic SEO
+Why is “Specify a Vary: Accept-Encoding” Header Important for Pagespeed?
+In the “Vary: Accept” response header example, the server is required to comply with the
+HTML
+document type that the user wants. In the “Vary: Accept-Encoding” response header, it determines which of the pre-compressed derivatives of the HTML Document,
+CSS
+,
+Javascript
+, and Font file resources will be presented to the user according to the “compress” methods that the user’s browser can use.
+Servers currently use compression methods such as “Deflate”, “Brotli” and “Gzip”. Each file compression algorithm enables the server to reduce file size to varying degrees. It is “Brotli” that provides the most compression between “Deflate”, “Brotli” and “Gzip”. Therefore, the Vary: Accept-Encoding Header becomes even more important, because giving a user a “Deflate” compressed document to a user who can use “Brotli” compression will create an unnecessary page speed slow down.
+HTTP Cache System and HTTP Cache Hierarchy Representation.
+In “Request Headers” owned by the
+user-agent
+, “gzip”, “deflate” or “br” is written in the “Accept-encoding” section. At this point, it is stated that all three compression methods are suitable for the user-agent. In this case, the server tries to select the most appropriate compressed file type for the best page speed result and best User Experience result.
+At the same time, if the “Vary: Accept-Encoding” response header is not used, the server can also present any document with an uncompressed variant. If you are using more than one browser type, and one of these browsers is unable to use “br” compression technology, the server may serve the uncompressed file variant or less compressed file variant to the same client based on previous session information.
+Vary: Accept-Encoding Response Header’ı özellikle de
+Content Delivery Network
+(CDN) kullanımında öneme sahiptir. CDN Sunucusunun doğru dosyayı cachelemesi ve kullanıcıya sunması için Vary: Accept-Encoding Header kullanılmalıdır.
+The “Vary: Accept-Encoding” Header is important to prevent such errors, to be able to load each file faster to the Crawlers of Search Engines such as Google, Bing, Yandex, to reduce the server load and to improve the user experience.
+How to Fix “Specify a Vary: Accept-Encoding Warning”?
+“Specify a Vary: Accept-Encoding” error can be fixed only for the servers that the one can control. If it is a third-party server or the file is in the third-party server, there are only two methods that can be implemented.
+Reach out to the third-party server’s owner so that they can add the Vary: Accept-Encoding Response Header into their server.
+Upload every file that comes from the third-party servers into your server to control them.
+For example, even if you need to make these corrections for a third-party script “Hotjar” or “Criterio”, you cannot fix it without accessing the servers of the companies in question. For this reason, it may be a solution to install the scripts used on your own server as you use them, but in this case, problems such as not getting updates automatically will arise. Therefore, it is important to choose third-party servers and services carefully.
+Three key points for Fixing the Specify a Vary: Accept-Encoding Warning for the web sites.
+CDN Servers such as Cloudflare, KeyCDN, CloudFront automatically add the Vary: Accept-Encoding response header to the response header section of the server. If you are using these CDN Servers, on your own server, even if the “Vary: Accept-Encoding” HTTP Header is not used, you can present your files in duly compressed form to the end-user.
+However, CDN Servers may not be able to respond to every user request under all circumstances. At the same time, the Vary: Accept-Encoding header is required for requests from CDN Servers to the server of the website. Therefore, even if the CDN Server uses Vary: Accept-Encoding, it is important that the website’s server also uses it.
+WordPress Sites, on the other hand, can use the Vary: Accept-Encoding header with plugins like “HTTP Headers”.
+Below is how to implement manual solutions for Nginx and Apache Servers.
+How to Fix “Specify a Vary: Accept-Encoding Warning” in Apache Servers?
+To use the Vary: Accept-Encoding response header in the Apache Servers, you should add the code block below into the .htaccess file.
+<IfModule mod_headers.c>
+<FilesMatch ".(js|css|xml|gz|html)$">
+Header append Vary: Accept-Encoding
+</FilesMatch>
+</IfModule>
+The code above simply chooses the “mode_headers” section and adds the “Vary: Accept-Encoding” response header for every Javascript, CSS, XML, GZ, and HTML Document via a regex expression. To edit the .htaccess file in WordPress, you should enter your FTP Server, find the .htaccess file in the root folder and download it. Also, editing the .htaccess file via different types of plugins is possible.
+How to Fix “Specify a Vary: Accept-Encoding Warning” in NGinx Servers?
+To add the Vary: Accept-Encoding response header in the Nginx Servers, you should add the code belock below into the “/etc/nginx/nginx.conf” file.
+gzip_vary on
+The simply says that “compression variations” should be adjusted according to the user agent’s “Vary” response header. Before editing the server files, remember that you should take your files’ backup, also you should be careful so that the web site doesn’t break.
+What is the Relationship between HTTP Vary Header and Browser Cache?
+Today, “Vary: Accept”, “Vary: Accept-language” are not used very often, but “Vary: Accept-Encoding” is used. However, this is not the only use for the Vary Response Header. At the same time, Vary Header has an important place in the browser’s cache system. In the scenarios below, Vary HTTP Header is used.
+If the user changes the screen resolution or browser-size, upload new images so that the images take the size of the screen This process is called “Varying on Client Hints”.
+If the user logs out, nothing cached while logged in is not used.
+If the user’s browser and device support WebP, uploading WebP images, otherwise uploading JPEG images.
+To differentiate the visuals when using a high-density screen and the visuals when using a normal-density screen.
+All Cache Kinds for the Browser and HTTP Vary Header
+Edge Cache and Browser Cache are different from each other. Edge Cache works for each user as a collaborative or server-centric “Intermediary Cache” between server and user. Browser Cache or Client-side Cache has many different types and only applies to specific users.
+Below you will see a visual for Browser Cache Types.
+All Different Types of Caches for the Browser Side
+Most of these systems running in Browser Cache are new and have a complex calculation, so many pagespeed measurement tools cannot be used for such points.
+1. Image Cache of the Browser and HTTP Vary Header
+Image cache only is used for the images that are multiple times is being shown on a web page. Thus, image cache prevents the browser from downloading and decoding the same page more than one time. Image cache is a page-scoped cache which means that it is valid for just one page.
+2. Preload Cache of the Browser and HTTP Vary Header
+Pre-load Cache is also a page-scoped cache. Preloaded any resource is being cached by the browser, if the user moves another web page, the cached resource in the Preload cache of the browser will be terminated.
+3. Service Worker Cache API and HTTP Vary Header
+Service Worker Cache API is more consistent than the Browser’s HTTP Cache system. It is also an “origin-scoped” cache. That is, the Service Worker Cache API caches one source, for the entire site. It is completely under the control of the user. An unspecified resource is not imported into the Service Worker Cache-Store with Javascript.
+Service Worker Cache will not be used unless “fetch” handler is used.
+4. HTTP Cache and Vary Response Header
+HTTP Cache is the most used type of cache in browsers. Mostly, response-header types such as “Cache-control”, “Etag” are related to HTTP Cache.
+Since HTTP Cache is the most common type of browser cache, it is used more by third-party scripts and servers. It is possible for two different websites to pull the same resource from the same cache. Usually, it specifies which resource should be cached for how long.
+5. HTTP/2 Push Cache and HTTP Vary
+HTTP/2 Push Cache herhangi bir belirlenen kaynağı, sunucu tarafından doğruca kullanıcıya daha bağlantı gerçekleşmeden sunar. Böylece, TTFB Performansı, belirlenen kaynak için mümkün olan en aza düşürülür. HTTP/2 Push Cache özellikle, Time to First Byte ve Largest Contentful Paint için önemlidir.
+Of all these Cache Types, only HTTP Cache and HTTP / 2 Push Cache are the best defined and widely used methods. Preload and Image Cache are more commonly referred to as “single memory cache”, because they are valid in a single navigation structure, in certain scenarios.
+Browser Cache Hierarchy and HTTP Vary Header
+Browser Cache Hierarchy determines which resource will be retrieved from which cache system by the browser. For example, a “stylesheet” file can be located in three different Browser Cache systems. It can be presented to the user from the browser cache system both with HTTP/2 Push API from the server-side and with HTTP Cache and “Preload”.
+In such a case, from which cache will the browser retrieve the relevant file? In this case, HTTP Vary Header works as a validator.
+In the Browser Cache structure, the source given with HTTP/2 Push will primarily be included in HTTP/2 Push Cache. When the resource is loaded, when it appears in the “preload” tag, in the browser Cache System, it will take the relevant file from HTTP/2 Push Cache and place it in “Preload Cache”.
+If the “cache-control” header is used for the corresponding “stylesheet” in the HTTP Cache system, it will be put in the HTTP Cache instead of “Preload Cache”.
+If the file is in the “Preload” Cache, it will be deleted from the Browser Cache when the user switches to another HTML Document.
+“Vary Response Header” should be used to prevent the resources from being loaded twice and from passing to undesired points in the Browser Cache System.
+How to use Vary Response Header as a Validator in Browser Cache System?
+Browser Cache systems do not cache a URL such as Edge Cache Systems or CDN Systems with multiple variations. The main reason for this is that a user often uses the same type of request headers. For example, if a browser is used, “Vary: Accept-language” or “Vary: Accept-Encoding”, “Vary: Accept” will not cause a serious change.
+It is not efficient to enclose multiple URLs in the Cache, either in the Browser Cache or in Dynamic Serving, as the user will not change neither request headers nor phone or browser language very frequently.
+Browser Cac
+
+[...truncated...]

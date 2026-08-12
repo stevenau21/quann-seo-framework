@@ -1,0 +1,105 @@
+Breadcrumb Navigation: Importance for SEO and UX - Holistic SEO
+Skip to content
+Breadcrumb (English: bread crumbs, bread crumbs) is secondary navigation within a website. It is also known as breadcrumb or breadcrumb navigation or breadcrumb navigation. Breadcrumbs offer users the ability to find their way back to the home page or quickly reach other levels of the website. With the breadcrumb navigation, you can see which pages have been visited before. This secondary navigation is usually structured hierarchically and shows the logical path from the start page to the current position in the page structure tree. Breadcrumb navigation is often located in the upper part of the page and is usually not too noticeable as a design element. It can be seen as a low hanging fruit since little effort is required for the integration – but it is an advantage for the usability of websites.
+Contents of the Article
+show
+1.
+What is the origin of Breadcrumb Term?
+2.
+Graphical representation of breadcrumbs
+3.
+How many different types are there for Breadcrumb Navigation?
+4.
+Why is using Breadcrumb Navigation so important?
+5.
+What is the Importance of Breadcrumb Navigation for Technical SEO
+6.
+What is the Importance of Breadcrumb Navigation for the User Experience
+7.
+Implementation of breadcrumbs on the website
+What is the origin of Breadcrumb Term?
+The term is derived from the fairy tale “Hansel and Gretel” by the Brothers Grimm. In the fairy tale, the two children used bread crumbs to find their way back home. Transferred to websites, breadcrumbs perform the same task: they make the user’s path traceable and allow him to easily jump to the hierarchical levels he previously visited. The most commonly used variant can look like this:
+Home> Category> Post Name or Home>Category>Product.
+Graphical representation of breadcrumbs
+Sometimes the separators are represented by arrows, other typographic symbols or graphics, and buttons. With one click, the user either gets to the homepage or to the main page of the wiki. However, the last point of the navigation is not clickable. Breadcrumbs are always displayed in the above the fold area of a website; however, they are discreet in terms of font size and coloring so that the main navigation does not move into the background. Consistency is also relevant: If secondary navigation is used, this should be the case on all pages and sub-pages.
+An example design of Breadcrumbs
+How many different types are there for Breadcrumb Navigation?
+Strictly speaking, breadcrumbs can be distinguished from click paths because click paths can be characterized by jumps to different hierarchical levels, may be circular, and are not necessarily logical. But the data for creating breadcrumbs often comes from the click paths that the user has followed. Depending on the breadcrumb variant, the navigation with click paths is identical or it is relative to other elements and levels of the website.
+Breadcrumb navigation can be differentiated according to which relative website levels or click paths they refer to: [1]
+Click path
+:
+This is path-based navigation that traces the actual click path and shows the current position. With extensive paths and websites with a deep structure, this variant is not very practical. Especially since the user can use the forward and back buttons of the browser to implement the same functions. In addition, the implementation depends on the data from the click path analysis, and path-based navigation can be very long.
+Location:
+A location-based breadcrumb refers to the current position of the user in the hierarchy of the website. Websites with more than two sub-levels often use this variant in order to be able to quickly reach the parent elements in the page tree of the website.
+Categories (attributes)
+: Attribute-based breadcrumbs allow the user to see which categories they currently visited page belongs to and which attributes are attributed to this page. Such navigation aids are generally used by e-commerce websites and online shops at the product level and are offered together with search and personalization functions. The implementation is correspondingly more complex because the breadcrumb has to be adapted to the functions of the website and possibly also to the database
+You may read some of the other On-Page SEO Guidelines for further Marketing and SEO Information:
+How to optimize Heading Tags for Users and Search Engines?
+How to optimize Image Alt Tags and Texts for Users and Search Engines?
+How to optimize Anchor Texts for better Relevancy and User Interaction?
+How to Find all of the Duplicate Content for a better SEO Performance?
+Why is using Breadcrumb Navigation so important?
+Breadcrumb navigation is mainly used for very large websites and portals that have a complicated hierarchical structure. These navigation options are also frequently found in online shops since they help the user to find his way through the large selection of categories and products. If a website does not have a logical hierarchy, it is not advisable to use breadcrumb navigation because logic is an advantage for the user.
+A sensible option is to first create a sitemap and then check whether breadcrumb navigation would help the user. If the page structure spans several levels, this can be seen in the sitemap. Then the breadcrumb can be built up like the sitemap because it reflects the page architecture. The following rule is important: The breadcrumb navigation is always a secondary aid that does not replace a menu or navigation. Therefore, primary and secondary navigation should also be separated from each other with regard to the layout and design.
+What is the Importance of Breadcrumb Navigation for Technical SEO
+Breadcrumb Navigation also makes internal site hierarchy and structure more discoverable by Search Engine Crawlers.
+They show the relevancy between different categories and web pages with the anchor text’s context and linking networks.
+They distribute the Page Rank and confidence scores according to the user’s logical paths and search intent.
+They decrease the crawl cost and increase crawl efficiency.
+Breadcrumb Navigation creates a more appropriate internal link distribution to show Search Engine the important section of the web entity.
+If the most linked web pages are the pages that are mostly visited by the users, your internal linking signals will be a healthy factor for the Search Engine. On the contrary situations, Search Engine can ignore your internal link signals.
+Via Breadcrumb, you can change the indexing speed, crawling frequency of some parts of the web site.
+What is the Importance of Breadcrumb Navigation for the User Experience
+They show users the current position – relative to other hierarchical levels of the website. Breadcrumbs are therefore an aid to use and navigation.
+They allow you to navigate upwards in the page hierarchy with one click. When users land in the middle of the information architecture via Google search or any deep links, breadcrumbs are a quick and uncomplicated navigation aid.
+Breadcrumbs take up little space on the website and are relatively easy to implement.
+According to Jakob Nielsen, a well-known usability expert, they never cause problems with user testing. Users know what this secondary navigation is and how to use breadcrumbs.
+Implementation of breadcrumbs on the website
+Breadcrumbs can be integrated in different ways:
+Plug-in:
+Depending on the CMS (e.g. WordPress), different plug-ins for breadcrumbs are possible. The additional program allows settings to be made and secondary navigation to be integrated. Support for structured data or microdata is optional so that breadcrumbs can also be read by search engines and displayed on the SERPs.
+PHP and
+JavaScript
+:
+Alternatively, code parts from different programming and scripting languages ​​can be integrated into the source code. For example, a function in PHP would be defined to be called later in the document. This is done in a similar way with JavaScript – whereby dynamically generated websites can also receive a breadcrumb.
+Content Management System:
+Some CMS and shop systems offer breadcrumbs as an option in the backend. The implementation is usually relatively simple and possible with just a few clicks.
+HTML
+:
+The manual variant is based on links that are combined in a div. Relative paths point to the previously visited pages. The design is done via CSS and should be consistent.
+Breadcrumbs can help a web entity to become more understandable by the users and Search Engines. Via Breadcrumb Navigation, you can change your PageRank Distribution. You can also change the crawl frequency of some categories by the Search Engine Crawlers. You can use Breadcrumb Navigation to make some parts of your web site’s rankings better.
+As Holistic SEOs, we will continue to examine Breadcrumb Navigation and its alternatives.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+On-Page SEO
+What is the Breadcrumb Navigation?
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+On-Page SEO
+What is Anchor Text: How to Optimize Anchor Texts …
+0
+0
+0

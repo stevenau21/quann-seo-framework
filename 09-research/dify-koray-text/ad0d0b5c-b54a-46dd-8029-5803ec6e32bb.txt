@@ -1,0 +1,98 @@
+Skip to content
+The <meter> HTML Tag specifies either a scalar value within a specified range or a fractional value. The <meter> HTML Tag, often known as a gauge, can be used to represent disk use, the relevancy of a query result, the fraction of a voting populace that chose a certain candidate, or the amount raised during fundraising efforts. The <meter> HTML Tag is used to indicate a range. This element should not be used to indicate a single number, such as the number of children someone has, unless there is a defined maximum. The <meter> HTML Tag is part of the formatting tags category in HTML Element Reference. The attributes of the <meter> HTML Tag are form, high, low, max, min, optimum, value, global and event attributes.
+<meter> code block example to learn how it works is given below.
+<meter value="30">30 Km</meter>
+or
+<meter min="0" max="100" value="68"></meter>
+The second example usage of the “<meter>” code block example is below.
+<p>Phone Battery: <meter low="15" max="100" value="11">11%</meter></p>
+Contents of the Article
+show
+1.
+What is a <meter> HTML Tag?
+2.
+How to Use <meter> HTML Tag?
+2.1.
+Example Usage of <meter> HTML Tag?
+3.
+What are the Attributes of <meter> HTML Tag?
+4.
+What are the Default CSS Settings for <meter> HTML Tag?
+5.
+What are the Related other HTML Tags to <meter>?
+What is a <meter> HTML Tag?
+The <meter> HTML Tag is used to specify a measurement scale with a well-defined range and also allows fractional values. It is also referred to as a gauge. The <meter> HTML Tag is used in a variety of places, including disk use, query result relevance, and so on. It should be noted that the <meter> HTML Tag should not be used to indicate progress. The <progress> tag is used to create progress bars.
+How to Use <meter> HTML Tag?
+To use the <meter> HTML Tag, the site developer should write <meter></meter> with any material between the start and end tags in <meter></meter>. Six attributes can be used to specify the gauge’s semantics. These are the following: minimum, maximum, low, high, optimum, and value.
+Example Usage of <meter>  HTML Tag?
+The following examples of usage of <meter> HTML Tag is given below.
+<p>Attendance: <meter low="100" high="450" min="0" max="600" value="240" title="Attendance">240 Attendance</meter></p>
+What are the Attributes of <meter> HTML Tag?
+There are multiple attributes for the <meter> HTML Tag. The following attributes are listed below.
+form attributes: The <meter> HTML Tag supports form attributes. The form attributes of the <meter> HTML Tag specify which form it belongs to.
+high attributes: The <meter> HTML Tag supports high attributes. The high attributes define the range of values that are considered to be high.
+low attributes: The <meter> HTML Tag supports low attributes. The low attributes define the range of values that are considered to be low.
+max attributes: The <meter> HTML Tag supports max attributes. The max attribute is used to provide the range’s maximum value.
+min attributes: The <meter> HTML Tag supports min attributes. The range’s minimum value is specified by the min attribute. 0 is the initial value.
+optimum attributes: The <meter> HTML Tag supports optimum attributes. The optimum attributes specify which value is the gauge’s optimal value.
+value attributes: The <meter> HTML Tag supports value attributes. The gauge’s current value is specified by the value attributes.
+Global Attributes: The <meter> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <meter> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <meter>  HTML Tag?
+The following is the Default CSS Setting for the <meter> HTML Tag.
+label {
+padding-right: 10px;
+font-size: 1rem;
+}
+What are the Related other HTML Tags to <meter>?
+The other related HTML Tags to the <meter> HTML Tag are listed below.
+<acronym> HTML Tag: The
+<acronym>
+HTML Tag is related to <meter> HTML Tag because they are both in formatting HTML Tags. The <acronym> HTML Tag is similar to abbreviation tag. The abbreviation is defined using the <acronym> HTML Tag.
+<abbr> HTML Tag: The
+<abbr>
+HTML Tag is related to <meter> HTML Tag because they are both in formatting HTML Tags. The <abbr> HTML Tag is used to define abbreviations such as HTML, CSS, and so on.
+<big> HTML Tag: The
+<big>
+HTML Tag is related to <meter> HTML Tag because they are both in formatting HTML Tags. The <big> HTML Tag is used to define large text.
+<blockquote> HTML Tag: The
+<blockquote>
+HTML Tag is related to <meter> HTML Tag because they are both in formatting HTML Tags. The <blockquote> HTML Tag is used to include quotations from other sources.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML “meter” Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <optgroup>  Definition, Usage and …
+TechSEO
+HTML “legend” Tag Definition, Usage an…
+0
+0
+0

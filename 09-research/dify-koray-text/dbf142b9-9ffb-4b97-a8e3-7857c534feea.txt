@@ -1,0 +1,173 @@
+How to Perform a Content Analysis based on Sitemaps via Python - Holistic SEO
+Skip to content
+A sitemap is the name of an XML File that collects URLs that must be indexed by the Search Engine on a website. Sitemap Files can contain data on URL Categories, URL publishes date, URL content, content-language, content author, subject, etc. An experienced Holistic SEO can analyze a website even manually through Sitemaps. In this article, using Advertools, a library of Python, we will make a comparison with its rival while examining different elements such as grouping the content of a web entity, content strategy, and content publishing trend.
+Before proceeding further, if you do not know enough about Sitemaps, I recommend reading the following articles.
+What is a Sitemap XML File?
+What is the News Sitemap?
+What is Image Sitemap?
+What is the HTML Sitemap?
+What is Video Sitemap?
+How to submit a Sitemap?
+Hot to check Status Codes of URLs in a Sitemap via Python?
+You may also want to check our related Guidelines for Robots.txt Files and Python based on Holistic SEO.
+How to analyze and compare Robots.txt Files via Python
+How to test and verify Robots.txt Files via Python
+Also, we recommend you to check Elias Dabbas’s official twitter and Linkedin accounts along with Advertools’ official Documentation Addresses for more information.
+Table Of Contents
+How to Turn a Sitemap into a Data Frame via Python for Understanding of Web Site Structure?
+How to Analyze a Web Site’s Content Publishing and Updating Trend via Sitemaps and Python
+How to Categorize URLs via Sitemaps and Python for Analyzing Content Structure
+Last Thoughts on Content Profile and Strategy Analyzing via Python
+Contents of the Article
+show
+1.
+How to Turn a Sitemap into a Data Frame via Python for Understanding of Web Site Structure?
+2.
+How to Analyze a Web Site’s Content Publishing and Updating Trend via Sitemaps and Python
+3.
+How to Categorize URLs via Sitemaps and Python for Analyzing Content Structure
+4.
+Last Thoughts on Content Profile and Strategy Analyzing via Python
+How to Turn a Sitemap into a Data Frame via Python for Understanding of Web Site Structure?
+The most useful part of examining the URLs in Sitemap is that it makes it easy to understand the content and structure of a website, the level of activity, and the strategies they care about on a large scale. In order to convert sitemaps into data frames, we will first use the “sitemap_to_df” function of Advertools. Since it will be necessary to scan and make sense of the entire Sitemap, we will prefer a smaller website for this guideline to shorten this time-consuming process.
+However, we recommend that you prefer large websites whose URLs are properly structured. During this guideline, you will see how much data even the structure of the URLs can offer and how important a proper URL structure can be for Crawl Efficiency and Crawl Budget. You may see our guideline’s beginning code blocks below:
+from advertools import sitemap_to_df
+sigortam = sitemap_to_df('https://www.sigortam.net/sitemap.xml')
+OUTPUT>>>
+INFO:root:Getting https://www.sigortam.net/sitemap.xml
+import pandas as pd
+pd.set_option('display.max_rows',30)
+In the first line, we have imported the necessary function that is “sitemap_to_df” from Advertools.
+In the second line, we have created a variable that is “sigortam” and we have fetched, crawled, and turned into a data frame sitemap of the “Sigortam.net” which is an Insurance Agency Aggregator from Turkey with more than 2 Millions of session.
+We have also imported Pandas as “pd”.
+Also, we changed the Pandas setting, which determines how many rows we can see.
+sigortam.head(35)
+You may see the output below:
+An example of Pandas/Dataframe for Sitemaps.
+We have 6 different columns in total.
+“loc” column is for the “URLs” in the sitemap that we are crawled and turned into the data frame.
+“lastmod” column is for the “content’s publishing date” or the “content’s updated date”.
+“changefreq” is not important for Google Search Engine but still it might reflect the understanding of the web site owner.
+“priority” is also not important for Google Search Engine, but still it might reflect some important points.
+“Sitemap” column is for “sitemap index” files. In some web sites, we may encounter more than one web site which is categorized based on the post type or the post category. This categorization may help us to analyze a web entity easier and with less code. In this guideline, for now, we won’t perform this section.
+“download_date” column is for showing the date that is relevant to our process.
+Now, we will export our data frame into a CSV File and then we will read it via Pandas Library.
+import pandas as pd
+sigortam.to_csv('sigortam_urls.csv', index=False)
+sigortamdf = pd.read_csv('sigortam_urls.csv', index_col='lastmod', mangle_dupe_cols=True)
+sigortamdf
+We have imported the “Pandas” library as “pd”.
+We have exported the data frame as CSV File without the row names (indexes.)
+We have assigned our CSV Files’ values into the “sigortamdf” variable by determining the “lastmod” column as index column and removing the possible duplicate columns.
+We have called our data frame.
+You may see our result below.
+We have 3340 URLs.
+We have our “publishing” or “updating” dates in our index column in our data frame. We also have 3340 Rows that shows all of our URLs. Before proceeding more and deep diving, let’s import “plotly graph objects” module so that we can drive some insights.
+priority = sigortamdf.groupby('priority').count()
+priority
+We have aggregated the data based on “priority” column, you may see the output below.
+Groupby and Count Result with Pandas.
+Only two URLs have “1.0” priority while 3316 of the URLs have “0.7” priority. To be honest, this is not a surprise, even if Google doesn’t care about this metric in the Sitemap.xml Files, they still can be optimized for other Search Engines. You may see the visualization via subplots below.
+from plotly.subplots import make_subplots
+fig = make_subplots(rows=1, cols=2)
+fig.add_trace(
+go.Bar(x=priority.index, y=priority['loc'], name='Loc'),
+row=1,col=1)
+fig.add_trace(
+go.Bar(x=priority.index, y=priority['changefreq'], name='Changefreq'),
+row=1, col=2)
+fig.layout.title = 'Priority and Changefreq Distrubition for Sigortam.net'
+fig.layout.yaxis.title = 'Number of URLs'
+fig.layout.paper_bgcolor = '#E5ECF6'
+fig.show()
+At first line, we have imported “make_subplots” function for creating multiple plots in one figure.
+We have created our columns and rows for plots.
+At the third line of code, we have added our first plot for “loc” column into the first row and first column of the figure.
+At the fourth line of code, we have added our second trace into the first row and second column of the figure.
+We have changed the title of the figure, title of the y axis.
+We have changed the background color of the figure.
+We have called our interactive plot.
+You may see the result as below.
+As you may see, we have two different plots, since the “0.7” Priority has much more URL according to others, there is a disproportion in our graphic. Now, we will perform a content publishing trend analysis via Python and Sitemaps.
+How to Analyze a Web Site’s Content Publishing and Updating Trend via Sitemaps and Python
+To perform a trend analysis for content publishing frequency and timing, we need to use our “lastmod” column which is index at the same time. Before proceeding more, we should check whether our sitemap has a “NaN” value for the “lastmod” column or not.
+sigortamdf[sigortamdf.index.isna()]
+You may see the output below.
+Pandas ‘isna()’ method usage example.
+It doesn’t have any “NaN” values so we may proceed.
+sigortamdf.index = pd.to_datetime(sigortamdf.index)
+ppyear= sigortamdf.resample('A')['loc'].count()
+ppyear.to_frame()
+To use the “lastmod” column as a date-time, we need to convert it into a Date Time Instance via the “pd.to_datetime” method.
+We have created a variable that is “ppmonth” which stands for “Post per Month”. We have used Pandas’ “resample” function on it with the “A” parameter which stands for “Annual”. And we have called the “loc” column based on every month.
+At the second line, we have called it in a frame thanks to the “to_frame()” function.
+You may see the output below.
+We see that they are updating their “lastmod” regularly.
+Isn’t it interesting? It basically says that, all of the content are updated today. So, there is only one explanation for this situation. This web entity always update its Sitemap’s “lastmod” column automatically every day without changing their content actually. Isn’t it spam? If you are trying to manipulate Search Engine based on your “lastmod” date so that Search Engine needs to increase crawl frequency for your web entity, it is called as spam. Also, Google Algorithms will stop to care about “lastmod” data for this web entity and decrease the Trust and Quality scores. We have explored a honest mistake or a spam effort while examining a sitemap via Python. Such a situation can’t be noticed easily via a manual examination.
+Now, since our crawled Sitemap is not fit for our guideline anymore, we will continue our guideline one of their competitors. Koalay.com is another insurance aggregator brand from Turkey with more than 1 Millions of Sessions every month.
+koalay = sitemap_to_df('https://www.koalay.com/sitemap.xml')
+OUTPUT>>>
+INFO:root:Getting https://www.koalay.com/sitemap.xml
+We have crawled and assigned their sitemap into the “koalay” variable.
+koalay.to_csv('koalay_sitemap.csv', index=False)
+We have exported their sitemap as CSV without the index column.
+koalaydf = pd.read_csv('koalay_sitemap.csv')
+We have assigned the CSV output into the “koalaydf” variable.
+koalaydf['lastmod'] = pd.to_datetime(koalay['lastmod'])
+We have changed the “lastmod”  instances into the “Date Time” index instances.
+koalaydf.set_index(koalay['lastmod'], inplace=True)
+We have determined the index column as “lastmod” permanently.
+ppmonth2 = koalaydf.resample('M')['loc'].count()
+ppmonth2.to_frame()
+We have resampled the data frame based on monthly periods and “loc” column’s numeric values and put it into a variable by calling it as a frame.
+You may see the result below.
+Pandas Resample Example
+We have 257 URLs in total. Most of them are from 11 November 2019. They are still updating or publishing new content since 14 of their contents are from June and July. Now, let’s put this into a interactive plot.
+fig = go.Figure()
+fig.add_scatter(x=ppmonth2.index, y=ppmonth2.values, name='Koalay')
+fig.layout.paper_bgcolor='#E5ECF6'
+fig.layout.yaxis.title='Number of Articles per Month'
+fig.layout.title='Koalay Article Publishing and Updating Trends'
+fig.show()
+You may see the result below:
+Content Publishment Trend Analysis for Koalay via Python and Sitemaps.
+You also can unite the Sigortam and Koalay Post Trends even if one of them is completely faulty.
+fig.add_scatter(x=ppmonth2.index, y=ppmonth2.values, name='Koalay')
+fig.add_scatter(x=ppmonth2.index,y=ppmonth.values, name='Sigortam (Wrong Information)')
+We can call two different values from the different variables as long as they have the same “X” axis. In this examples, only the “Y” axis are different.
+Since, one of the sitemaps doesn’t have the correct “lastmod” information, our comparison seems like this.
+Since all of the data from the “Sigortam” has the same date, it has only a single dot on the timeline. Now, for a better comparison for the post trend, we need a similar competitor. Our third competitor will be “Generali.com” which has nearly 1 million sessions per month from the same industry. Before, performing deeper content analysis, creating a standard timeline comparison can be useful.
+generali_sitemap = sitemap_to_df('https://www.generali.com.tr/sitemap.xml')
+OUTPUT>>>
+INFO:root:Getting https://www.generali.com.tr/sitemaps/sitemap-site.xml
+INFO:root:Getting https://www.generali.com.tr/sitemaps/sitemap-site-bireysel.xml
+INFO:root:Getting https://www.generali.com.tr/sitemaps/sitemap-site-kurumsal.xml
+INFO:root:Getting https://www.generali.com.tr/sitemaps/sitemap-site-arac-sigortasi.xml
+INFO:root:Getting https://www.generali.com.tr/sitemaps/sitemap-site-kasko-fiyatlar
+It seems that, we have more than one sitemap.xml files in Generali.com.
+generali_sitemap['sitemap'].unique()
+OUTPUT>>>
+array(['https://www.generali.com.tr/sitemaps/sitemap-site.xml',
+'https://www.generali.com.tr/sitemaps/sitemap-site-bireysel.xml',
+'https://www.generali.com.tr/sitemaps/sitemap-site-kurumsal.xml',
+'https://www.generali.com.tr/sitemaps/sitemap-site-arac-sigortasi.xml',
+'https://www.generali.com.tr/sitemaps/sitemap-site-kasko-fiyatlari.xml'],
+dtype=object)
+And it is correct, we have 5 different sitemaps that are categorized according to the different content areas. Let’s see which sitemap has the most content.
+generali_sitemap['sitemap_name'] = generali_sitemap['sitemap'].str.split('/').str[4]
+generali_sitemap
+We have created a new column with the names of the “sitemap files”. We have splitting them via the “/” sign and choosed the right section of splitting values. You may see the result below.
+You may see the sitemap column at the right.
+Since, our sitemap names are so long such as “sitemap-site-kasko-fiyatlari.xml”, we need to shorten them.
+generali_sitemap['sitemap_name'].replace('sitemap-site-kasko-fiyatlari.xml', 'Kasko', inplace=True)
+generali_sitemap
+You may see the result below.
+At the right bottom corner, you may see that we have changed the name of the Sitemap file.
+We will perform the same shortening process for all of the long sitemap names.
+generali_sitemap['sitemap_name'].replace('Kasko', 'Traffic', inplace=True)
+generali_sitemap['sitemap_name'].replace('sitemap-site-bireysel.xml', 'Personal', inplace=True)
+generali_sitemap['sitemap_name'].replace('sitemap-site-kurumsal.xml', 'Cooperate', inplace=True)
+generali_sitemap['sitemap_name'].replace('sitemap-site-arac-sigortasi.xml', 'Car', inplace=True)
+generali_sitemap['sitemap_name'].replace('si
+
+[...truncated...]

@@ -1,0 +1,105 @@
+Content-Language HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Content-Language HTTP Header representation header is used to describe the language intended for the audience, allowing users to differentiate it based on their preferred language. Instead, use the lang attribute to specify the language in which the document is written. The lang global attribute defines an element’s language, either the language in which non-editable elements are written or the language in which the user should write editable elements. The content is assumed to be intended for audiences of all languages if no Content-Language is specified. It is possible to use multiple language tags, as well as apply the Content-Language header to different media types other than textual documents. There is only one value for using the Content-Language HTTP Header. The value using the Content-Language HTTP Header is the “language-tag”. An example of the Content-Language HTTP Header is written below.
+Content-Language: en
+The Content-Language HTTP Header Representation Header is seen above. In the article, the Content-Language HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is the Content-Language HTTP Header?
+1.1.
+What is the Syntax of Content-Language HTTP Header?
+1.2.
+What is the Directive of Content-Language HTTP Header?
+2.
+How to use Content-Language HTTP Header?
+2.1.
+Examples of Content-Language HTTP Header Use
+3.
+What is the Specification Document for Content-Language HTTP Header?
+4.
+What is the type of Content-Language HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Content-Language HTTP Header?
+5.
+Which Browsers Support Content-Language HTTP Header?
+What is the Content-Language HTTP Header?
+The Content-Language HTTP Header is used to specify which language the document is intended to be read by its intended audience. It does not specify what language will be used in the document. If the header is not specified, it is assumed that the document is intended for people who speak any of the languages in question.
+What is the Syntax of Content-Language HTTP Header?
+The Content-Language HTTP Header uses only one value in its syntax. The syntax for using the Content-Language HTTP Header is written below.
+Content-Language: de-DE
+Content-Language: en-US
+Content-Language: de-DE, en-CA
+What is the Directive of Content-Language HTTP Header?
+There is only one directive that should be put in the Content-Language HTTP Header. The “language-tag” is the case-insensitive directive that defines the language. In general, it is divided into two parts. The first part defines the primary language, which defines a large family of related languages (for example, “en” = English), and the optional second part, which is separated by “-” and used to narrow the language range. The directive for using the Content-Language HTTP Header is given below.
+Content-Language: en
+Content-Language: de, en
+How to use Content-Language HTTP Header?
+The Content-Language HTTP Header is used to define, which language the speaker document is intended to be in. It doesn’t define the language of the document. In the event that the Content-Language HTTP Header is not specified, it is assumed that the document is intended for all language speakers. If “Content-Language: de-DE” is set, it indicates that the document is intended for German language speakers (but does not indicate that the document is written in German). For instance, it could be written in English as part of a German language course. If user wish to specify the language in which the document was written, the user should use the lang attribute instead).
+Examples of Content-Language HTTP Header Use
+The following is an example of how to use the Content-Language HTTP Header
+The page’s intended audience is stated to be English speakers.
+Content-Language: en
+The page’s intended audience is stated to be German and English speakers.
+Content-Language: de, en
+What is the Specification Document for Content-Language HTTP Header?
+There is only one specification document for the Content-Language HTTP Header, which is RFC 7231. The RFC 7231 Section 3.1.3.2. It discusses the Content-Language HTTP Header and its applications. Additionally, the article discusses the Content-Language HTTP Header’s definition and usage.
+What is the type of Content-Language HTTP Header?
+The Content-Language HTTP Header is a representation header type because it contains information about the resource’s body, such as its MIME type or the encoding/compression used.
+What are the similar HTTP Headers to the Content-Language HTTP Header?
+There are other similar HTTP to the Content-Language HTTP Header. The examples are listed below.
+Accept-Language HTTP Header: The Accept-Language HTTP Header is similar to the Content-Language HTTP Header. The Accept-Language HTTP Header specifies the client’s preferred natural language and locale. The server uses content negotiation to choose one of the proposals and notifies the client with the Content-Language HTTP Header response header.
+“lang” global HTTP Header: The lang global HTTP Header attribute defines an element’s language, either the language in which non-editable elements are written or the language in which the user should write editable elements. The Content-Language HTTP Header, which also defines the language of an element, is similar.
+Which Browsers Support Content-Language HTTP Header?
+There are multiple browsers that support Content-Language HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Content-Language HTTP Header.
+Edge Browser is compatible with the Content-Language HTTP Header.
+Firefox Browser is compatible with the Content-Language HTTP Header.
+Internet Explorer Browser is compatible with the Content-Language HTTP Header.
+Opera Browser is compatible with the Content-Language HTTP Header.
+Safari Browser is compatible with the Content-Language HTTP Header.
+WebView Android Browser is compatible with the Content-Language HTTP Header.
+Chrome Android Browser is compatible with the Content-Language HTTP Header.
+Firefox Android Browser is compatible with the Content-Language HTTP Header.
+Opera Android Browser is compatible with the Content-Language HTTP Header.
+Safari on iOS Browser is compatible with the Content-Language HTTP Header.
+Samsung Internet Browser is compatible with the Content-Language HTTP Header.
+You can see an image that shows cross-browser compatibility of Content-Language HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Content-Language HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Retry-After HTTP Header: Syntax, Directive, Exampl…
+TechSEO
+If-Match HTTP Header: Syntax, Directive, Examples…
+0
+0
+0

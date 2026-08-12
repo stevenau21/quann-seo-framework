@@ -1,0 +1,119 @@
+Skip to content
+The <header> HTML Tag indicates introductory information, which is often a collection of introductory or navigational assistance. It may have certain heading elements, as well as a logo, a search form, and the author’s name. To use the <header> HTML Tag, the developer should specify the header of a document or section, which contains information about the document’s or section’s title and heading. The <header> HTML Tag is part of the style and semantic tags category in HTML Element Reference. The attributes of the <header> HTML tag are global attributes and event attributes.
+<header> code block example to learn how it works is given below.
+<header>
+<h1>Header<h1>
+</header>
+The second examples usage of the “<header>” code block example is given below.
+Example for the page header.
+<header>
+<h1>Main Page Title</h1>
+<img src="mdn-logo-sm.png" alt="MDN logo">
+</header>
+Example for the article header.
+<article>
+<header>
+<h2>The Real Human Body</h2>
+<p>Posted on Thursday, <time datetime="2022-02-17">4 February 2022</time> by Mark Daniel</p>
+</header>
+<p>Every day, the human body accomplishes incredible feats.</p>
+<p><a href="https://example.com/the-human-body/">Continue reading..</a></p>
+</article>
+Contents of the Article
+show
+1.
+What is <header> HTML Tag?
+2.
+How to Use <header> HTML Tag?
+2.1.
+Example Usage of <header> HTML Tag?
+3.
+What are the Attributes of <header> HTML Tag?
+4.
+What are the Default CSS Settings for <header> HTML Tag?
+5.
+What are the Related other HTML Tags to <header>?
+What is <header> HTML Tag?
+The <header> HTML Tag is used to define a document or section’s header since it contains information about the document’s or section’s title and heading. Typically, the <header> HTML Tag will include the section’s heading (an h1-h6 HTML Tag or a <hgroup> HTML Tag), but this is not needed. It is necessary for web developers because it can be used to enclose a section’s table of contents, a search form, or any other pertinent logos. The <header> HTML Tag is a new addition to HTML5 and serves as a container tag, containing a beginning tag, content, and an end tag. A document may include several <header> HTML Tag. This tag cannot be used in conjunction with a
+<footer>
+, an
+<address>
+, or another <header> HTML Tag.
+How to Use <header> HTML Tag?
+To use <header> HTML Tag, the web developer should use the format <header></header>, inserting the header content between the start and end tags then this tag will specify a document or section’s header, which provides information about the document’s or section’s title and heading.
+Example Usage of <header> HTML Tag?
+The following example of usage of <header> HTML Tag is given below.
+<header>
+<h1>Main page heading </h1>
+<p>Posted by Mark Daniel</p>
+</header>
+What are the Attributes of <header> HTML Tag?
+There are multiple attributes for the <header> HTML Tag. The following attributes are listed below.
+Global Attributes: The <header> HTML tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <header> HTML tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <header> HTML Tag?
+The following is the Default CSS Setting for the <header> HTML Tag.
+header.page-header {
+background: no-repeat left/cover url(/media/examples/header-logo.jpg);
+display: flex;
+height: 120px;
+min-width: 120px;
+align-items: center;
+text-shadow: #000 0 0 .2em;
+}
+header.page-header > h1 {
+font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+fantasy;
+margin: 2%;
+What are the Related other HTML Tags to <header>?
+The other related HTML Tags to <header> HTML Tag are listed below.
+<article> HTML Tag: The
+<article>
+HTML Tag is related to <header> HTML Tag because they are both semantic and style tags. The <article> HTML Tag specifies a self-contained composition in a document, page, application, or site that is meant to be distributable or reusable independently.
+<section> HTML Tag: The
+<section>
+HTML Tag is related to <header> HTML Tag because they are both semantic and style tags. The <section> HTML Tag represents a generic isolated portion of a page that lacks a more specialized semantic element to describe it.
+<footer> HTML Tag: The
+<footer>
+HTML Tag is related to <header> HTML Tag because they are both flow content. The <footer> HTML Tag specifies a footer for the sectioning content or sectioning root element immediately preceding it.
+<aside> HTML Tag: The
+<aside>
+HTML Tag is related to <header> HTML Tag because they are both style and semantic tags. The <aside> HTML Tag denotes a section of a document whose content is only tangentially related to the page’s primary content.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <header> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <nav> Tag Definition, Usage and Example…
+TechSEO
+HTML <body> Tag Definition, Usage and Exampl…
+0
+0
+0

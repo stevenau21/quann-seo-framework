@@ -1,0 +1,71 @@
+JPEG: Definition and Difference between JPG & Examples - Holistic SEO
+Skip to content
+JPG is the abbreviation of JPEG; reduced to three letters, as is common for filename extensions. JPEG (Joint Photographic Experts Group) is an association of companies and research institutes that set this standard for storing digital images in 1992.
+Related Articles for the subject:
+What are GIFs and why are they important?
+What is the difference between JPEG and PNG
+How to optimize images in scale with Python
+Contents of the Article
+show
+1.
+File size of TIF, BMP, PNG, and JPG format
+1.1.
+Images with a color gamut of 16.7 million colors (each of 256 levels for red, green, and blue)
+2.
+What is the Difference Between JPG and JPEG
+3.
+What is the Difference Between PNG and JPEG
+File size of TIF, BMP, PNG, and JPG format
+The decisive advantage of the JPG format is its small space requirement due to compression of the image data, i.e., mathematical methods reduce the amount of data when creating an image file and have to be applied the other way around when opening a file to restore the picture.
+Without compression, each point of a color image would require three bytes for the three color components red, green, and blue, and an image of e.g., 10 megapixels occupy around 30 megabytes, as you get it in the so-called “bitmap” file format (.bmp). JPG files manage with a fraction of the amount of data.
+The strength of the JPG format is that the logic for compression is adapted to the peculiarities of digital photos, i.e. it is suitable for
+Images with a color gamut of 16.7 million colors (each of 256 levels for red, green, and blue)
+Images with rather continuous color and brightness transitions between neighboring pixels, as is typical for photos.
+The compression works differently depending on the subject; detailed images are more difficult to compress than those with large, weakly contoured areas.
+However, the compression entails visible or invisible quality losses. This means that after opening (= decompressing) a JPG file, you get an image that is not exactly the same as the original image.
+What is the Difference Between JPG and JPEG
+JPEG stands for “Joint Photographic Experts Group” and, like PNG, is a standard that defines how an image is compressed. However, there are several subspecies of the format, such as JPG, JPEG, JPE, and JFIF. These define further values that are not determined by the standard, such as the respective color space.
+In earlier versions of Windows, JPG was mainly used as an abbreviation for JPEG. Windows often had problems opening images with the JPEG extension because the system was originally only able to process three-letter file extensions.
+For the same reason, the identical formats TIF and TIFF, MPG and MPEG, as well as HTM and HTML still exist today
+Conclusion: JPG is both the short file extension of JPEG and thus a leftover from the old DOS times, as well as a sub-format of JPEG.
+Which one is better
+What is the Difference Between PNG and JPEG
+The file compression for a PNG file is lossless. All information is retained even if the file is compressed. Lossless compression is necessary if you have not yet finished editing the images. The PNG format is often used when the file size doesn’t matter and the image is relatively complex. A PNG file can store more information than a JPG file. PNG is also ideal for graphics like the icon below.
+The biggest advantage of the PNG is that it doesn’t have a background, so it creates a saving in terms of size, and also it helps with modern designs.
+The JPG file format has established itself worldwide, every digital camera can produce images in JPG format and it is also the standard for the exchange of photos on the Internet.
+You can read What is the PNG for more information.
+Images are one of the most important parts of websites. This also makes them significant for the Holistic SEOs. We will continue to examine every asset kind of the web page such as text, images, HTML, CSS, and JavaScript.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+What is JPEG and the Difference Between JPG and JPEG?
+by Koray Tuğberk GÜBÜR
+time to read: 3 min
+TechSEO
+What is the Difference between JPG and PNG?
+0
+0
+0

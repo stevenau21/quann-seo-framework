@@ -1,0 +1,102 @@
+Skip to content
+The <pre> HTML element specifies the preformatted text that should be displayed exactly as it is written in the HTML file. Typically, non-proportional or monospaced fonts are used to render the text. The <pre> HTML Tag is used to define a block of preformatted text that retains text spaces, line breaks, tabs, and other formatting characters that web browsers ignore. The <pre> HTML Tag is part of the formatting Tags category in HTML Element Reference. The attributes of the <pre> HTML Tag are global attributes and event attributes.
+<pre> code block example to learn how it works is given below.
+<pre>
+Text
+</pre>
+The second example usage of the “<pre>” code block example is given below.
+<pre>Google is a
+search engine
+that organizes
+the world's
+information
+</pre>
+Contents of the Article
+show
+1.
+What is <pre> HTML Tag?
+2.
+How to Use <pre> HTML Tag?
+2.1.
+Example Usage of <pre> HTML Tag?
+3.
+What are the Attributes of <pre> HTML Tag?
+4.
+What is the Default CSS Setting for <pre> HTML Tag?
+5.
+What are the Related other HTML Tags to <pre>?
+What is <pre> HTML Tag?
+The <pre> HTML Tag is often used to define a block of preformatted text that retains text spaces, line breaks, tabs, and other formatting characters that web browsers ignore. The <pre> HTML Tag’s text is displayed in a fixed-width font by default, but it can be customized using CSS. A beginning and an end tag are required for the <pre> HTML Tag.
+How to Use <pre> HTML Tag?
+To use the <pre HTML Tag, the web developer should provide preformatted text between the <pre> and </pre> HTML Tags. The text in the HTML source code will be displayed exactly as written.
+Example Usage of <pre> HTML Tag?
+The following example of usage of <p> HTML Tag is given below.
+<pre>
+Holistic SEO
+A MINDSET FOR CODER MARKETERS
+</pre>
+What are the Attributes of <pre> HTML Tag?
+There are multiple attributes for the <pre> HTML Tag. The following attributes are listed below.
+Global Attributes: The <pre> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <pre> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <pre> HTML Tag?
+The following is the Default CSS Setting for the <pre> HTML Tag.
+pre {
+font-size: .5rem;
+margin: 0;
+}
+What are the Related other HTML Tags to <pre>?
+The other related HTML Tags to <pre> HTML Tag are listed below.
+<acronym> HTML Tag: The
+<acronym>
+HTML Tag is related to <pre> HTML Tag because they are both in formatting HTML Tags. The <acronym> HTML Tag is similar to abbreviation tag. The abbreviation is defined using the <acronym> HTML Tag.
+<abbr> HTML Tag: The
+<abbr>
+HTML Tag is related to <pre> HTML Tag because they are both in formatting HTML Tags. The <abbr> HTML Tag is used to define abbreviations such as HTML, CSS, and so on.
+<big> HTML Tag: The
+<big>
+HTML Tag is related to <pre> HTML Tag because they are both in formatting HTML Tags. The <big> HTML Tag is used to define large text.
+<blockquote> HTML Tag: The
+<blockquote>
+HTML Tag is related to <pre> HTML Tag because they are both in formatting HTML Tags. The <blockquote> HTML Tag is used to include quotations from other sources.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+1 thought on “HTML <pre> Tag Definition, Usage and Examples”
+Does “Preformatted” block in WP hurt SEO ranking on search engines?
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <pre> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <bdi> Tag Definition, Usage and Example…
+TechSEO
+HTML <nav> Tag Definition, Usage and Example…
+0
+0
+1

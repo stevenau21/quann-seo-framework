@@ -1,0 +1,129 @@
+Skip to content
+The Content-Encoding HTTP Header specifies which encoding was used to encode the representation and in what order. The Content-Encoding HTTP Header instructs the recipient on how to decode the representation and acquire the payload’s original format to reduce the size of a message. The Content-encoding HTTP Header is most commonly used to encode it. The Content-Type header specifies the original media/content type, whereas the Content-Encoding specifies the data’s “coded form.” Users won’t see it in the Content-Encoding HTTP Header if the original media is encoded in some way (e.g., a zip file). The resource’s original media type is specified in the Content-Type representation header (before any content encoding is applied for sending). As much as possible, servers should compress their data and employ Content-Encoding HTTP Headers where necessary. As a result, compressing a compressed media type like “zip” or JPEG may not be the best option. There are multiple values for using the Content-Encoding HTTP Header. The values for using the Content-Encoding HTTP Header are “gzip,” “compress,” “deflate,” and “br.” An example of the Content-Encoding HTTP Header is shown below.
+Content-Encoding: gzip
+Content-Encoding: compress
+Content-Encoding: gzip, compress
+The Content-Encoding HTTP Header Representation Header is seen above. In the article, the Content-Encoding HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is Content-Encoding HTTP Header?
+1.1.
+What is the Syntax Content-Encoding of X HTTP Header?
+1.2.
+What are the Directives of Content-Encoding HTTP Header?
+1.3.
+How to use Content-Encoding HTTP Header?
+1.4.
+Examples of Content-Encoding HTTP Header Use
+2.
+What is the Specification Document for Content-Encoding HTTP Header?
+3.
+What is the type of Content-Encoding HTTP Header?
+3.1.
+What are the similar HTTP Headers to the Content-Encoding HTTP Header?
+4.
+Which Browsers Support Content-Encoding HTTP Header?
+What is Content-Encoding HTTP Header?
+The Content-Encoding HTTP Header is used to compress the media type. It tells the server what encoding the user prefers. It passes the information to the Accept-encoding function. The server then takes one of the recommendations and notifies the client via the Content-Encoding response header.
+What is the Syntax Content-Encoding of X HTTP Header?
+The Content-Encoding HTTP Header uses multiple values in its syntax. The syntax for using the Content-Encoding HTTP Header is written below.
+Content-Encoding: gzip
+Content-Encoding: compress
+Content-Encoding: deflate
+Content-Encoding: br
+// Multiple, in the order in which they were applied
+Content-Encoding: deflate, gzip
+What are the Directives of Content-Encoding HTTP Header?
+There are multiple directives that should be put in Content-Encoding HTTP Header. The directives for using Content-Encoding HTTP-Header are given below.
+“gzip”
+With a CRC of 32 bits, it employs Lempel-Ziv coding (LZ77). It is the UNIX gzip program’s original format.
+“compress”
+It is implemented using the Lempel-Ziv-Welch (LZW) algorithm. Many current browsers do not support the form of document encoding due to a patent issue.
+“Deflate”
+The format makes use of the zlib structure in conjunction with the deflate compression algorithm.
+“Br”
+It’s a Brotli algorithm-based compression format.
+“identity”
+It is used to show that there is no compression in its case.
+An example directive of the Content-Encoding HTTP Header is given below.
+Accept-Encoding: gzip, deflate
+How to use Content-Encoding HTTP Header?
+The Content-Encoding HTTP Header is used to reduce the size of the media type. It provides information to the server about which encoding the user will be able to use. It then transmits the information to the Accept-encoding function. Any one of the proposals is selected by the server, which then utilizes it and notifies the client of its selection through the Content-Encoding response header.
+Examples of Content-Encoding HTTP Header Use
+The following is an example of how to use the Content-Encoding HTTP Header.
+In the case of the Single Compression example.
+Content-Encoding: gzip
+Content-Encoding: compress
+In the case of the Multiple Compression example.
+Content-Encoding: gzip, deflate
+What is the Specification Document for Content-Encoding HTTP Header?
+There is only one specification document for the Content-Encoding HTTP Header, which is RFC 7231. RFC 7231 Article 3.1.2.2 discusses the Content-Encoding HTTP Header and its applications. Additionally, this article discusses the Content-Encoding HTTP Header’s definition and usage.
+What is the type of Content-Encoding HTTP Header?
+The Content-Encoding HTTP Header type is a representation header because the information regarding the body of the resource, such as its MIME type or the encoding/compression used, is contained within the header.
+What are the similar HTTP Headers to the Content-Encoding HTTP Header?
+There are multiple similar HTTP to the Content-Encoding HTTP Header. The examples are listed below.
+Accept-Encoding HTTP Header:
+The Accept-Encoding HTTP Header is similar to the Content-Encoding HTTP Header. The
+Accept-Encoding HTTP Header
+specifies the type of content encoding (often a compression algorithm) that the client can understand. The server selects one of the proposals via content negotiation and notifies the client via the Content-Encoding response header.
+Transfer-Encoding HTTP Header:
+The Transfer-Encoding HTTP Header is similar to the Content-Encoding HTTP Header. The
+Transfer-Encoding HTTP Header
+indicates the type of encoding that will be used to transmit the payload body to the user securely.
+Which Browsers Support Content-Encoding HTTP Header?
+There are multiple browsers that support Content-Encoding HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Content-Encoding HTTP Header.
+Edge Browser is compatible with the Content-Encoding HTTP Header.
+Firefox Browser is compatible with the Content-Encoding HTTP Header.
+Opera Browser is compatible with the Content-Encoding HTTP Header.
+Safari Browser is compatible with the Content-Encoding HTTP Header.
+WebView Android Browser is compatible with the Content-Encoding HTTP Header.
+Chrome Android Browser is compatible with the Content-Encoding HTTP Header.
+Firefox Android Browser is compatible with the Content-Encoding HTTP Header.
+Safari on IOS Browser is compatible with the Content-Encoding HTTP Header.
+Samsung Internet Browser is compatible with the Content-Encoding HTTP Header.
+You can see an image that shows cross-browser compatibility of Content-Encoding HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+1 thought on “Content-Encoding HTTP Header: Syntax, Directive, Examples”
+Interesting but I’m still wondering…
+Do you have an example for the syntax to be used in the ?
+Would it be just the ‘name’ or the ‘property’?
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Content-Encoding HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Content-Disposition HTTP Header: Syntax, Directive…
+TechSEO
+Retry-After HTTP Header: Syntax, Directive, Exampl…
+0
+0
+1

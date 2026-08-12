@@ -1,0 +1,146 @@
+How to Translate a Website with Python - Holistic SEO
+Skip to content
+Translating a data frame is the process of changing a data frame values’ language to another language without changing the context, meaning, or content. Translating a Pandas Data Frame with Python can be done with Google’s “googletrans” library.
+In this article, I will crawl a website by taking its semantic content into a data frame to translate the content to another language. Translating a website for exploring the new topic and content ideas can be useful for especially the content publishers that don’t know a specific content language of a website. In this example, I will translate MyFitnessPal’s content into Turkish while using a Pandas Data Frame. I know both Turkish and English, but imagine that there is a Spanish website with more than 500000 creative food recipes. Wouldn’t you want to understand its content for finding new contexts and topic ideas?
+In this example, MyFitnessPal has more than 320000 food nutrition information and also recipes. It has more than 4000 URLs for only the food recipes with egg. I will crawl only the URLs for egg recipes and translate them. You can use the same methodology for helping your clients who don’t know a specific language.
+Since this article is a little bit longer, if you just want to see the data frame translation to another language section, you can check the necessary code blocks and sub-sections as below.
+Contents of the Article
+show
+1.
+Translate a Sentence to Another Language with Python
+2.
+Translate a Pandas Data Frame Column to Another Language
+2.1.
+Translate a Pandas Data Frame Column without a For Loop
+3.
+Translate All Pandas Data Frame to Another Language with Python
+4.
+How to Make a Website’s Content into Data Frame for Translation with Python?
+4.1.
+Importing Necessary Python Modules and Libraries for Data Frame Translation via a Web Site
+5.
+How to Take and Crawl URLs a Website for Extracting its Content into a Data Frame?
+6.
+Analyzing the MyFitnessPal’s Semantic Content Network for Translation Purposes
+6.1.
+How to Visualize a Website’s Content Structure with URL Breakdowns via Python (Plotly) for Translation Purposes
+7.
+Filtering a Website’s URLs for Crawling and Translation Purposes
+8.
+Crawling a Website’s URLs for Extracting its Content for Translation within a DataFrame
+9.
+Auditing the Content of the Website for a Quality Dataframe Translation with Python
+10.
+Translating A Website’s Content within a Data Frame via Python
+11.
+Last Thoughts on Translating Dataframes with Python and Holistic SEO
+Translate a Sentence to Another Language with Python
+Translating a sentence to another language with Python, you can use “google_trans_new” Python package.
+from google_trans_new import google_translator
+import google_trans_new
+translator = google_translator()
+translate_text = translator.translate('Hola mundo!', lang_src='es', lang_tgt='en')
+OUTPUT>>>
+Hello World
+To translate a sentence with Python, you should follow the steps below:
+Import “google_translater” function from “google_trans_new” package.
+Create a variable, assign “google_translator()” to it.
+Use “translate()” method with the text to be translated.
+Use “lang_src” for specifying the text language.
+Use the “lang_tgt” parameter for specifying the language that text to be translated into.
+Translate a Pandas Data Frame Column to Another Language
+You can see the Python methodology for translating a column of a dataframe to another language.
+for i in dataframe["column"][:row_number]:
+translator = google_translator()
+i = translator.translate(i, lang_src="auto", lang_tgt="tr")
+dataframe["column"][i] = i
+If you want to translate a data frame’s a column, you can use the Python function above. The explanation of the function is below.
+Start a Python for loop for the count of a number of rows to be translated.
+Use “google_translator()” method.
+Use the “translate()” method for every row in the selected column.
+Change the actual content of the data frame column with the translated column.
+Translate a Pandas Data Frame Column without a For Loop
+dataframe["column"][:row_number] = dataframe["column"][:row_number].apply(lambda x: translator.translate(x, lang_tgt="tr"))
+If you want to do the same thing without a for loop, you can use the “lambda” function with the “apply” method of Pandas Python Module as above.
+Translate All Pandas Data Frame to Another Language with Python
+If you want to translate all of the data frames, you can use the function block below.
+dataframe = dataframe.apply(lambda x: translator.translate(x, lang_tgt="tr"))
+If you don’t specify a “lang_src” to a “translator.translate()” method, it will be figured out automatically. If you want to know which languages can be used for the “google_trans_new” package of Python for translation, you can use the methodology below.
+print(google_trans_new.LANGUAGES)
+OUTPUT>>>
+{'af': 'afrikaans', 'sq': 'albanian', 'am': 'amharic', 'ar': 'arabic', 'hy': 'armenian', 'az': 'azerbaijani', 'eu': 'basque', 'be': 'belarusian', 'bn': 'bengali', 'bs': 'bosnian', 'bg': 'bulgarian', 'ca': 'catalan', 'ceb': 'cebuano', 'ny': 'chichewa', 'zh-cn': 'chinese (simplified)', 'zh-tw': 'chinese (traditional)', 'co': 'corsican', 'hr': 'croatian', 'cs': 'czech', 'da': 'danish', 'nl': 'dutch', 'en': 'english', 'eo': 'esperanto', 'et': 'estonian', 'tl': 'filipino', 'fi': 'finnish', 'fr': 'french', 'fy': 'frisian', 'gl': 'galician', 'ka': 'georgian', 'de': 'german', 'el': 'greek', 'gu': 'gujarati', 'ht': 'haitian creole', 'ha': 'hausa', 'haw': 'hawaiian', 'iw': 'hebrew', 'he': 'hebrew', 'hi': 'hindi', 'hmn': 'hmong', 'hu': 'hungarian', 'is': 'icelandic', 'ig': 'igbo', 'id': 'indonesian', 'ga': 'irish', 'it': 'italian', 'ja': 'japanese', 'jw': 'javanese', 'kn': 'kannada', 'kk': 'kazakh', 'km': 'khmer', 'ko': 'korean', 'ku': 'kurdish (kurmanji)', 'ky': 'kyrgyz', 'lo': 'lao', 'la': 'latin', 'lv': 'latvian', 'lt': 'lithuanian', 'lb': 'luxembourgish', 'mk': 'macedonian', 'mg': 'malagasy', 'ms': 'malay', 'ml': 'malayalam', 'mt': 'maltese', 'mi': 'maori', 'mr': 'marathi', 'mn': 'mongolian', 'my': 'myanmar (burmese)', 'ne': 'nepali', 'no': 'norwegian', 'or': 'odia', 'ps': 'pashto', 'fa': 'persian', 'pl': 'polish', 'pt': 'portuguese', 'pa': 'punjabi', 'ro': 'romanian', 'ru': 'russian', 'sm': 'samoan', 'gd': 'scots gaelic', 'sr': 'serbian', 'st': 'sesotho', 'sn': 'shona', 'sd': 'sindhi', 'si': 'sinhala', 'sk': 'slovak', 'sl': 'slovenian', 'so': 'somali', 'es': 'spanish', 'su': 'sundanese', 'sw': 'swahili', 'sv': 'swedish', 'tg': 'tajik', 'ta': 'tamil', 'te': 'telugu', 'th': 'thai', 'tr': 'turkish', 'tk': 'turkmen', 'uk': 'ukrainian', 'ur': 'urdu', 'ug': 'uyghur', 'uz': 'uzbek', 'vi': 'vietnamese', 'cy': 'welsh', 'xh': 'xhosa', 'yi': 'yiddish', 'yo': 'yoruba', 'zu': 'zulu'}
+In the next sections, you will see a practical example of pandas data frame translation with methods that include Python. In the future sections, you will see the processes below.
+How to crawl a website for translation purposes.
+Why a translated content shouldn’t be used for SEO purposes.
+How to find new topic ideas from a translated content of a similar and foreign site.
+How to perform content structure analysis from URLs for filtering the URLs for crawling purposes.
+How to visualize the content structure of a website for translation purposes within a data frame.
+How to translate a website’s content by making it into a data frame.
+How to Make a Website’s Content into Data Frame for Translation with Python?
+To take a website’s content into a data frame, you will need an SEO Crawler. You can use OnCrawl, JetOctopus, Ahrefs, Screaming Frog, or SEMRush for crawling a website but none of these crawlers won’t take the content of the web page. They will take the On-page SEO tags, title tags, canonical tags, or more, but they won’t take all of the content for every page into a data frame column. To take a website’s content entirely, you need to use Advertools’ “crawl()” function.
+To learn how to crawl a website and perform an SEO Analysis, you can read the related guideline.
+For translation of a data frame, you will need a semantic website. In other words, the website’s content should be of the same type so that translation can have a better purpose. In this pandas data frame translation with python tutorial, MyFitnessPal will be used. Below, you will see how to crawl MyFitnessPal.
+Importing Necessary Python Modules and Libraries for Data Frame Translation via a Web Site
+To crawl and take content of a website into a data frame for translating it, you will need to Python libraries below.
+Advertools, for taking and Crawling URLs
+Requests, for taking the sitemap URLs
+Pandas, for using the data frames
+Plotly, for visualizing the output
+Googletrans, for translating the data frame
+Google_trans_new, to overcome the bugs of Googletrans
+import advertools as adv
+import requests
+import pandas as pd
+import plotly.express as px
+from google_trans_new import google_translator
+import google_trans_new
+adv.__version__
+OUTPUT>>>
+0.10.7
+Above, you will see the Python modules and libraries for taking a website’s content into a dataframe for the translation purposes through Python.
+How to Take and Crawl URLs a Website for Extracting its Content into a Data Frame?
+To crawl a website in an effective way, instead of crawling all sites, crawling only the URLs in the sitemap is more efficient since the quality URLs will be in the sitemap. But, MyFitnessPal doesn’t have a single sitemap or sitemap index file. In this case, we will need to find all of the necessary sitemap files and unite them. All of the sitemap files of the MyFitnessPal have the same URL pattern, it is “domain name, sitemap, sitemap number, sitemap extension”. Thus, we can use a simple Python for loop with range function as below.
+list = []
+for i in range(99):
+r = requests.get(f"https://www.myfitnesspal.com/sitemap-{i}.xml")
+if r.status_code == 200:
+df = adv.sitemap_to_df(f"https://www.myfitnesspal.com/sitemap-{i}.xml")
+list.append(df)
+OUTPUT >>>
+2021-03-14 14:09:56,703 | INFO | sitemaps.py:361 | sitemap_to_df | Getting https://www.myfitnesspal.com/sitemap-0.xml
+2021-03-14 14:10:00,173 | INFO | sitemaps.py:361 | sitemap_to_df | Getting https://www.myfitnesspal.com/sitemap-1.xml
+2021-03-14 14:10:03,754 | INFO | sitemaps.py:361 | sitemap_to_df | Getting https://www.myfitnesspal.com/sitemap-2.xml
+2021-03-14 14:10:07,474 | INFO | sitemaps.py:361 | sitemap_to_df | Getting https://www.myfitnesspal.com/sitemap-3.xml
+2021-03-14 14:10:10,062 | INFO | sitemaps.py:361 | sitemap_to_df | Getting https://www.myfitnesspal.com/sitemap-4.xml
+2021-03-14 14:10:12,615 | INFO | sitemaps.py:361 | sitemap_to_df | Getting https://www.myfitnesspal.com/sitemap-5.xml
+2021-03-14 14:10:15,681 | INFO | sitemaps.py:361 | sitemap_to_df | Getting https://www.myfitnesspal.com/sitemap-6.xml
+The explanation of the sitemap uniting for loop is below.
+Create an empty list.
+Start a for loop with the “range” function.
+Use the “requests.get” method for taking the first sitemap.
+Use the “f string” method for looping all sitemap URLs.
+Use an if-else statement.
+If the response code of the sitemap URL is 200, use “adv.sitemap_to_df” method.
+Append the output file to the list.
+You will need to unite all of the created output files in one data frame so that all of the URLs to be crawled can be taken from single data frame.
+united_df = pd.concat(list)
+united_df.to_csv("myfitnesspal_sitemap.csv", index=False)
+Using “pd.concat()” for every element of the “list” variable will unite every file. After uniting every file, you will need to use the “to_csv” method for taking a permanent CSV output file that includes all URLs to be crawled.
+united_df
+You can see the result below.
+URLs to be crawled and translated to another language.
+Analyzing the MyFitnessPal’s Semantic Content Network for Translation Purposes
+MyFitnessPal is a website that includes all the ingredients, calories, nutrition of all types of food with a brief content structure. MyFitnessPal has a short introduction section for their content, and a simple HTML Table for the nutrition of food, and a couple of brief information for the specific food’s ingredients. In other words, MyFitnessPal’s site is semantic, and it makes it perfect for translation purposes. Since, the content is brief, short and mostly it is an HTML table, the translation will be used for only simple words and short sentences. This will increase the quality of the translation process with Python.
+For SEO, using translated content is not useful. And, this script and Pandas Data Frame Language Translation with Python guideline are not for using another site’s content. It is for finding new topics, themes, and content ideas for conjugate sites from another language. Thus, analyzing MyFitnessPal’s content is important, because most of their content is about “restaurants’ food recipes” or “food brands’ specific products”. But also, their content is super specific for food types, they have more than 4000 recipes just for foods with eggs. And, this type of semantic content network can help you to create a better and firm topical map and content structure for your site.
+We have 328772 URLs from MyFitnessPal, only from its sitemaps. Crawling all of these URLs would require more resources, thus via URLs, you can analyze their content structure and crawl only the necessary section for your own purposes. Below, you will see another Advertools method for doing this, “url_to_df”.
+paths = adv.url_to_df(united_df["loc"])
+paths["dir_3"].str.split("-").explode().value_counts().to_frame().head(50)
+You can see the result below.
+The most used words within URLs. Most of them are foods.
+We have 33981 URLs that include the word “chicken” within it.
+We have 22342 URLs for only salad recipes.
+We have 10378 URLs for only beef recipes.
+Now, you can understand what I mean with “new content ideas” for conjugate sites. We can visualize a website’s content structure via its URLs and Plotly as below.
+How to Vi
+
+[...truncated...]

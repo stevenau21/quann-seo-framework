@@ -1,0 +1,237 @@
+Skip to content
+The aria-rowindex is a property that sets an element to provide a row position that is relevant to the user experience and ease of navigation to tables, grids, or treegrid. The purpose of aria-rowindex is to give location or position from the focused element, the position value may vary through the user’s keyboard navigation. The developer can use the aria-rowindex to indicate a position, especially when the DOM is unable to recognize the property or if the table or entire element container displayed only a portion of it. The aria-rowindex can be used in table structure elements like table, grid, cell, and gridcell. The aria-rowindex can be used with other ARIA labels such as aria-rowindextext, aria-rowcount, and aria-rowspan.
+Contents of the Article
+show
+1.
+What is the function of the “aria-rowindex” ARIA Label?
+2.
+What are the uses of the “aria-rowindex” ARIA Label?
+3.
+Example Uses of “aria-rowindex” ARIA Label
+4.
+What are the related ARIA Labels to “aria-rowindex”?
+What is the function of the “aria-rowindex” ARIA Label?
+The function of the aria-rowindex is to provide a cell position, especially for a table that has too many rows. The aria-rowindex lets the user know where exactly it is located in the table, grid, or treegrid. The importance or aria-rowindex can be useful if not all or if only a portion of the table property is identified by the user agent or DOM, it needs ARIA label properties that will define its position to the user. The aria-rowindex value is an integer, positions declared or set should not overlap with other cells, current row value should be greater than the previous value else less than or equal to the entire row of the table.
+What are the uses of the “aria-rowindex” ARIA Label?
+Listed below are the uses of the “aria-rowindex” ARIA Label.
+Cell role:
+It is a value that is defined by an attribute to identify an element as being a cell in a table that does not have a column and row or header.
+Columnheader role:
+It is a value that is defined by an attribute to determine an element as a cell in a row that has header information for a column the same as the native table Header.
+Rowheader role:
+It is a cell that contains header information of a row beneath the composition of a grid table or treegrid.
+Gridcell role:
+The gridcell role is used to build a cell in the grid or treegrid its intention is to shadow the native HTML table data as grouping information.
+Row role:
+It is a row that contains a cell or more than one cell or grid cell or a column header and row header that belongs to the row group.
+Example Uses of “aria-rowindex” ARIA Label
+Listed below are the example uses of the “aria-rowindex” ARIA Label.
+The importance or aria-rowindex can be useful if not all or if only a portion of the table property is identified by the user agent or DOM, it needs an ARIA label property that will define its position to the user.
+<div role="grid" aria-rowcount="2000">
+<div role="rowgroup">
+<div role="row" aria-rowindex="1">
+<span role="columnheader">First Name</span>
+<span role="columnheader">Last Name</span>
+<span role="columnheader">Home Address</span>
+<span role="columnheader">Phone</span>
+</div>
+</div>
+<div role="rowgroup">
+<div role="row" aria-rowindex="100">
+<span role="gridcell">Freddie</span>
+<span role="gridcell">Aguilar</span>
+<span role="gridcell">Mandaluyong</span>
+<span role="gridcell">301-3434</span>
+</div>
+<div role="row" aria-rowindex="101">
+<span role="gridcell">Sarah</span>
+<span role="gridcell">Duterte</span>
+<span role="gridcell">Davao City</span>
+<span role="gridcell">302-0202</span>
+</div>
+<div role="row" aria-rowindex="102">
+<span role="gridcell">Isko</span>
+<span role="gridcell">Moreno</span>
+<span role="gridcell">Manila</span>
+<span role="gridcell">303-2222</span>
+</div>
+</div>
+</div>
+<div role="grid" aria-rowcount="2000">
+<div role="rowgroup">
+<div role="row" aria-rowindex="1">
+<span role="columnheader">First Name</span>
+<span role="columnheader">Last Name</span>
+<span role="columnheader">Department</span>
+<span role="columnheader">Email</span>
+</div>
+</div>
+<div role="rowgroup">
+<div role="row" aria-rowindex="100">
+<span role="gridcell">Freddie</span>
+<span role="gridcell">Aguilar</span>
+<span role="gridcell">Music Dept</span>
+<span role="gridcell">
+[email protected]
+</span>
+</div>
+<div role="row" aria-rowindex="101">
+<span role="gridcell">Sarah</span>
+<span role="gridcell">Duterte</span>
+<span role="gridcell">Security</span>
+<span role="gridcell">
+[email protected]
+</span>
+</div>
+<div role="row" aria-rowindex="102">
+<span role="gridcell">Isko</span>
+<span role="gridcell">Moreno</span>
+<span role="gridcell">Green Dept</span>
+<span role="gridcell">
+[email protected]
+</span>
+</div>
+</div>
+</div>
+<div role="grid" aria-rowcount="2000">
+<div role="rowgroup">
+<div role="row" aria-rowindex="1">
+<span role="columnheader">First Name</span>
+<span role="columnheader">Last Name</span>
+<span role="columnheader">Course</span>
+<span role="columnheader">Subject</span>
+</div>
+</div>
+<div role="rowgroup">
+<div role="row" aria-rowindex="100">
+<span role="gridcell">Freddie</span>
+<span role="gridcell">Aguilar</span>
+<span role="gridcell">Mechanical Engineering</span>
+<span role="gridcell">Aerodynamics</span>
+</div>
+<div role="row" aria-rowindex="101">
+<span role="gridcell">Sarah</span>
+<span role="gridcell">Duterte</span>
+<span role="gridcell">Education</span>
+<span role="gridcell">English</span>
+</div>
+<div role="row" aria-rowindex="102">
+<span role="gridcell">Isko</span>
+<span role="gridcell">Moreno</span>
+<span role="gridcell">Chemical Engineering</span>
+<span role="gridcell">Chemistry</span>
+</div>
+</div>
+</div>
+<div role="grid" aria-rowcount="2000">
+<div role="rowgroup">
+<div role="row" aria-rowindex="1">
+<span role="columnheader">First Name</span>
+<span role="columnheader">Last Name</span>
+<span role="columnheader">Item Bought</span>
+<span role="columnheader">Amount</span>
+</div>
+</div>
+<div role="rowgroup">
+<div role="row" aria-rowindex="100">
+<span role="gridcell">Freddie</span>
+<span role="gridcell">Aguilar</span>
+<span role="gridcell">Guitar</span>
+<span role="gridcell">50,000</span>
+</div>
+<div role="row" aria-rowindex="101">
+<span role="gridcell">Sarah</span>
+<span role="gridcell">Duterte</span>
+<span role="gridcell">Book</span>
+<span role="gridcell">5,000</span>
+</div>
+<div role="row" aria-rowindex="102">
+<span role="gridcell">Isko</span>
+<span role="gridcell">Moreno</span>
+<span role="gridcell">Plant</span>
+<span role="gridcell">1,000</span>
+</div>
+</div>
+</div>
+<div role="grid" aria-rowcount="2000">
+<div role="rowgroup">
+<div role="row" aria-rowindex="1">
+<span role="columnheader">Full Name</span>
+<span role="columnheader">Date of Birth</span>
+<span role="columnheader">Age</span>
+<span role="columnheader">Gender/span>
+</div>
+</div>
+<div role="rowgroup">
+<div role="row" aria-rowindex="100">
+<span role="gridcell">Fred Durst</span>
+<span role="gridcell">November 27, 1999</span>
+<span role="gridcell">23</span>
+<span role="gridcell">Male</span>
+</div>
+<div role="row" aria-rowindex="101">
+<span role="gridcell">Sarang Hae</span>
+<span role="gridcell">February 14, 2001</span>
+<span role="gridcell">21</span>
+<span role="gridcell">Female</span>
+</div>
+<div role="row" aria-rowindex="102">
+<span role="gridcell">Isko L. Bukol</span>
+<span role="gridcell">June 3, 2000</span>
+<span role="gridcell">21</span>
+<span role="gridcell">Male</span>
+</div>
+</div>
+</div>
+What are the related ARIA Labels to “aria-rowindex”?
+Listed below are the related ARIA Labels to “aria-rowindex”.
+aria-rowindextext
+: The aria-rowindextext is related to aria-rowindex because they are both identifying the row data and position of a cell. The
+aria-rowindextext
+is a piece of alternate text information that is based on the aria-rowindex, it provides readable text information for the position of the user in the row.
+aria-rowcount:
+The aria-rowcount is related to the aria-rowindex because they are both using an integer value to define the row element. The aria-rowcount is an attribute that is set to define the number of rows that are in the table. The purpose of the
+aria-rowcount
+is to provide the full information regarding the actual number of rows that are within the table.
+aria-rowspan:
+The aria-rowspan is related to the aria-rowindex because they are both used together to describe the row property. The aria-rowspan is an attribute that defines particularly the row spanned by a cell or a gridcell, treegrid, or table. The purpose of
+aria-rowspan
+is to let the assistive technology understand the size and span of the row information that will be relayed to the user.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-rowindex” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 7 min
+TechSEO
+“aria-rowindextext” ARIA Label for Acc…
+TechSEO
+“aria-rowcount” ARIA Label for Accessi…
+0
+0
+0

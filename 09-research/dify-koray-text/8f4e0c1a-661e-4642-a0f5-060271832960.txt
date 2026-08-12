@@ -1,0 +1,117 @@
+Log File Analysis: Examples and Best Practices - Holistic SEO
+Skip to content
+With the help of a log file analysis, statistics about page access or key figures about the use of a website or a web server can be collected. The so-called log files, which are read out, serve as the basis for the log file analysis. Today, page tagging used by analysis tools has replaced traditional log file analysis in many cases. This is not to be confused with social tagging.
+Before proceeding further, we recommend you to read “
+What is a Log File and what does it contain?
+” article.
+Contents of the Article
+show
+1.
+Evaluation of Log Files
+2.
+Components of the log file analysis
+3.
+Advantages of log file analysis
+4.
+Disadvantages of log file analysis
+5.
+Practical benefits for SEO
+Evaluation of Log Files
+When webmasters read log files from access to a website, they usually have to process large amounts of data. In the case of very small projects with few page accesses, the files could be read out and the individual areas assigned. However, as soon as the number of hits increases and longer data periods are also to be recorded, special programs are required in which the log files can be entered and then output according to individual aspects.
+Important steps and sides of Log File Analysis Practice:
+The log file analysis is usually not possible manually unless the number of server accesses is so small that they can be read out manually by the webmaster. Therefore there are special tools for the evaluation of the log files. Logfile analysis has several advantages over other analysis methods.
+For example, the log files are saved locally and can also be analyzed locally. Anyone who uses a tool such as Google Analytics transmits their statistics to Google. This is not necessary for a log file analysis. Since the tracking is not done with a script, it cannot be prevented as easily as, for example, tracking by Google Analytics. Server access is always time-stamped by the server and entered in the log file.
+With regard to downloads, the log file analysis is also very precise, since the server also records whether and how far a download has been completed. In contrast, there are a number of disadvantages of this analysis method, which ultimately have led to the fact that log file analysis is no longer used frequently. For example, calls to a page from the
+cache
+are not counted, which has an adverse effect on data collection with regard to returning visitors.
+With regard to returning visitors, tracking the IPs is also a problem: other analysis tools recognize it when a visitor with a dynamic and therefore different IP returns to the website. This is not possible with the log file analysis. Actions within the page cannot be recorded correctly. User behavior within the website can therefore only be analyzed to a limited extent or not at all. The effort is also a problem: The log files must be analyzed using additional software, but for this, they must first be made accessible to this software. The manual transfer of the log files into such software is extremely labor-intensive.
+If you want to learn more about Log Analysis and Verifying Googlebot, you may want to read “
+Verify Googlebot via Python
+” article.
+Components of the log file analysis
+The log file analysis can break down basic key figures about the users of a website:
+IP address
+and hostname
+Country of origin, region
+The browser and operating system used
+Direct access by the user or reference from another website or advertising campaign
+Type of search engine and search word entered
+Length of stay
+and number of pages that the user has access
+Page on which the user left the website
+Advantages of log file analysis
+An analysis of the log files offers the following advantages:
+Reorganization of historical data
+: web servers continuously record log files. If the files are saved, again and again, these files can be evaluated flexibly.
+Access numbers remain within your own network: If you perform log file analyzes and do not transfer the task to an external service provider, you retain control over your access data.
+Measurement of canceled downloads
+: when logging the web server, all files that were stored there and that a user can download are recorded in a log file. The timestamp of individual hits is used to log exactly how long and how much a user has downloaded in log files. Problems with download files can, therefore, be determined more precisely with the log file analysis.
+Firewalls do not interfere with the protocol
+: when a website is accessed from a server, the firewall does not intervene. The log file can, therefore, log the access exactly.
+Automatic logging of crawlers
+: log files automatically record every visit to the webserver. This also includes searches by search engine bots.
+No
+JavaScript
+or cookies required
+: In contrast to web analysis tools, neither JavaScript codes nor cookies are required for log file analysis. This makes the analysis less susceptible to technical problems. In addition, log files can also be recorded if users block web analysis tools.
+Simple preparation
+: If the log file is not too extensive, the data can be read out and segmented using conventional data processing programs such as Excel. This means that no complex program solutions are required.
+Disadvantages of log file analysis
+The disadvantages of log file analysis:
+Caching
+and
+proxies
+: since a log file can only record data that result from direct server access, the log does not include any access that is made via the browser’s cache memory or via proxy servers. The traffic of a page is therefore only inaccurately determined with the log file analysis.
+Regular updates necessary
+: ​​To ensure that log files always deliver correct numbers, the software for data collection must be updated again and again by the webmaster. This creates additional maintenance.
+Additional storage effort
+: since log files are logged automatically, the amount of data for the log files can quickly become very large with high visitor numbers, since every server access is registered. Anyone who carries out log file analyzes of large websites, therefore, needs additional storage resources.
+Time-consuming data processing for large amounts of data
+: for a log file analysis, the individual log files must first be entered into a program for data processing. This means an additional workload, especially with many data records.
+No tracking of widgets or AJAX
+: a log file can only save data that is generated by server requests. If, for example, actions are carried out within a page with the help of AJAX, they will not be found in the log file, since these are not real server queries.
+Inaccurate assignment of visits
+: if a user uses dynamic IP allocation while surfing and accesses a website several times, several accesses appear in the log file, even though it was only one user at a time. This makes the traffic count inaccurate. The same applies if several users with the same IP access a website. These are then only counted as one visitor.
+Less data
+: Compared to web analysis tools, the log file analysis offers far fewer data. For example, it can not display important KPIs such as
+bounce rates
+.
+Practical benefits for SEO
+With the help of the log file analysis, SEOs have the opportunity to evaluate and prepare relevant visitor data themselves. At the same time, no data is passed on to external service providers, which can avoid data protection problems. However, the possibilities for analysis are limited, which is why the log file analysis should not be used as the sole method for visitor analysis, but rather as a supplement or as a test instrument to common analysis tools such as Google Analytics. With larger websites, the analysis of log files is also associated with the processing of very large amounts of data, which in the long term requires a powerful IT infrastructure.
+As Holistic SEOs, we will continue to improve our Log Analysis Guideline so that the signals between the web servers and Search Engine Crawlers can guide the SEO Projects with their important insights.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+What is the Log File Analysis: Best Practices and Examples
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+TechSEO
+What are Crawl Budget and Efficiency: Definition a…
+TechSEO
+What is a Log File? How to Open a Log File?
+0
+0
+0

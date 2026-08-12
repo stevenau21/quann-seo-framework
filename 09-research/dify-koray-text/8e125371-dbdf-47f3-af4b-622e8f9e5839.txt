@@ -1,0 +1,129 @@
+Skip to content
+Semantic search is a search behavior that relies on the meanings of concepts, words, and sentences. Semantic search is a mutual feature between semantic search engines and semantic searches. Semantic search sessions involve understanding the meaning of every word, and sentence in web documents and queries based on human language and neural nets. Semantic web and Semantic SEO derive from semantic search.
+Semantic search behaviors are different from lexical search behaviors. Lexical search behaviors try to use more robotic queries, and explicit contextual-related terms, while semantic search uses more patterned behaviors based on natural language. Google stated that every year, queries have more and more natural language queries. Natural language queries are queries that use daily-life normal, and routine language. Tim-Barnes Lee stated that the semantic web is the web that uses semantic behavior patterns. And, these semantic behavior patterns come from human nature. Semantic search uses natural language queries with these behavior patterns. The Association of things in knowledge representation comes in different methods like “frames”, “semantic networks”, “production rules”, “E-A-V”, or “knowledge bases”. These association networks in knowledge representation help search engine optimization. And, most of the association networks are derived from the “predicates”, or the “things that we do in daily life” as stated in Semantic Search and semantic behavior patterns. “To behave”, you need a “verb from human perception”.
+The semantic Search for Semantic SEO guide involves an SEO Case Study from a Semantic Content Networks article. This article involves two different websites. Since the topic is heavily advanced and exhausting, I decided to create two more helpful articles to expand these topics. In this context, the second website sample from the “Semantic Content Networks” SEO Case Study which is “Istanbulbogazicienstitu.com” will be explained from a different perspective, but more practically.
+To understand the Semantic Content Networks further, read the previous, “Semantic Content Networks” article that explains the first website sample.
+The specific case study is written on 26 May 2022. But, it is updated with the new projects and examples at the bottom.
+Why do the Semantic Search Algorithms of Google require Military Discipline? Military discipline doesn’t lose its routines and reflexes after achieving success. Some of the SEO Projects that I published with a high level of success by acquiring topical authority lose their discipline, and start to distort the topical map that I created. This happens because usually, for monetization, they open new pages for small queries, or they break the website information tree, by replacing the specific entities, and by deforming the distances and associations between entities, and contexts. They decrease the publication quality by removing the search engine trust that comes from the previously published content. To prevent these types of problems, I would suggest you learn from the SEO Case Studies in this specific map.
+Contents of the Article
+show
+1.
+The Initial Results and the Updated Version of the Sample Case Study Website
+2.
+Semantically Connected Predicates from the Life of a Human, or Collection of Humans
+3.
+Verbs, and Connected Semantic Behaviors
+4.
+Sculpting the Context for Deepening and Sharpening it
+5.
+Query-focused Semantic Vocabulary Configuration
+6.
+An Example Process for the Connections of Verbs for the Creation of Semantic Content Networks
+7.
+What is the prominence of Semantic Role Labels for Query Semantics?
+7.1.
+An Example of Verb Connections in Neurons
+8.
+What are the themes of words?
+9.
+Understanding the FrameNet for Semantic Search
+10.
+Differentiation of the Lexical Units for Better Verb and Noun Themes
+11.
+SEO Case Study Examples for Semantic Search and Web
+11.1.
+TheCoolist SEO Case Study from Use of Predicates Point of View.
+11.2.
+The Snuffstore.de SEO Case Study from Use of Predicates Point of View.
+11.3.
+27 Articles Website SEO Case Study from Use of Predicates Point of View.
+11.4.
+Sunnyvalley.io SEO Case Study from Use of Predicates Point of View.
+12.
+5. NASDAQ SEO Case Study
+12.1.
+6. EB5Brics.com SEO Case Study from Use of Predicates Point of View.
+12.2.
+7. From 0 to 1,200,000 Organic Clicks SEO Case Study from Use of Predicates Point of View.
+13.
+What is Frame Semantics?
+13.1.
+Why is Frame Semantics relevant to Semantic Web?
+13.2.
+What is Semantic Web?
+13.3.
+What is Semantic Search?
+13.4.
+What is FrameNet?
+13.5.
+How does Frame Semantics help for Semantic SEO?
+13.6.
+Why are Semantic Content Networks relevant to Frame Semantics?
+13.7.
+What is a Context Term in NLP for Frame Semantics?
+13.7.1.
+What is Word Sense Disambiguation for Frame Semantics?
+13.8.
+What is an Answer Term in NLP?
+13.8.1.
+What is an Answer Term in Frame Semantics?
+13.8.2.
+What is a knowledge domain term in NLP?
+13.8.3.
+What is a knowledge domain term in Frame Semantics?
+13.8.4.
+Why is frame semantics relevant to semantic role labels?
+13.9.
+What is Discourse Integration for Frame Semantics?
+14.
+Last Thoughts on Semantic Search for Semantic SEO
+The Initial Results and the Updated Version of the Sample Case Study Website
+The Semantic Content Networks SEO Case Study has been deepened by examining the ranking algorithms of the search engine. “How Google Ranks” research helps to understand how Google reacts to the changes on its websites. Below, you will find the initial results of the SEO Case Study.
+This first jump happened during a “seasonal SEO event” which was measured and used for increasing a specific website’s relevance and authority for certain topics.
+The first and second screenshots have only 15–20 days of a break between them. The increase has continued with new queries, rankings, and organic search performance.
+The SEMrush showed the specific website’s organic ranking as above. Below, you can see the updated version after 2 months.
+The query gains changed as below.
+Below, you can see the updated version of the current situation from Ahrefs.
+I have said that the only things I have put on this website are “two different semantic content networks.” And, it was highly painful with the team of authors of the client. Thus, I didn’t publish the third one, but in May, probably, I will start publishing the third one.
+This article focuses on finding the “predicate-connected” associations between different patterns and semantic behaviors.
+Semantically Connected Predicates from the Life of a Human, or Collection of Humans
+Semantic SEO requires two main features for a consultant or expert.
+Understanding search engines.
+Understanding the philosophy of knowledge
+This article focuses more on the second section to explain how to shape semantic content networks.
+Let’s write a few verbs below to understand the different types of connections between them.
+Work
+Study
+Master
+Investigate
+Learn
+Improve
+Increase
+The verbs above are connected to each other, in fact, you can even use certain types of “nouns” mutually for nearly all of them.
+Such as “working on X”, “studying X”, “examining X”, “investigating X reasons” “learning X types, “Improving X efficiency”, and “Increasing X effects”. X can exist for all these verbs. Furthermore, all the outcomes of the X and X-related verbs can be linked to some other related concepts and verbs. Some of these connected verbs with different nouns and their phrasification versions are below.
+Earn
+Deserve
+Make
+Have
+Collect
+Gain
+Acquire
+Secure
+For all of these verbs, we can write some different “nouns”, or nouns that are nearly the same. For example, “earn money”, “deserve raise”, “make money”, “have more money”, “collect money”, “gain money”, “acquire profit”, “secure profit”, “deserve financial freedom”, “deserve raise” and more.
+These two different verb groups have many common things between them. And, if you think that the language algorithm BERT has been trained over 3.5 billion words, and word connections, it is more and more possible. The BERT Language Algorithm works based on word sequence. For example, if you change the previous predicate to “function”, the object will be “with word sequences”. These verbs and their mutual contexts, or central words with centralized connections, help in shaping the semantic content networks based on the semantic search.
+Certain predicates have certain types of semantic context signifiers such as “examine” signals the “reason”, and “increase” signals the amount, or intensity. Thus, the “objects” and their “attributes” are signaled by the predicates, as in triples and Entity-Attribute-Value Models. The E-A-V Models and SEO connection have been explained further in the “Choosing the Right Attributes with Accurate Values from Text” SEO Case Study. Especially, for this specific project, the “Creating Semantic Content Networks SEO Case Study”, it is stated that due to the author’s issues, the third semantic content network is not published, and it can affect the website negatively in the future. Since the website couldn’t complete the Frames of Predicates with possible attribute and object connections by processing every contextual domain, it can be replaced by being labeled as a half-authority source. Thus, it shows the importance of discipline and consistency for the Holistic SEO approach. The possible problems for semantic content network creation are explained in the Expanding Topical Maps SEO Case Study.
+The related sections and warnings for the third semantic content network are below.
+Verbs, and Connected Semantic Behaviors
+Even if I had written all these verbs and their possible nouns without stopping, and randomly, the connection between them would have naturally emerged. Because I am a semantic creature/biological existence. In other words, another chance wouldn’t be possible. If you do not let your brain forget the previous word, it will find a relevant word for you. That’s why Neural Networks and Deep Learning are related to your brain. The human brain works with connections, association, and denotation. Your words follow each other based on your latest memory sample for that word. If you focus on meaning, it changes. For example, the word “horse” might make you remember a specific thing, but if you use the same concept in Spanish, the word might make you remember the Spanish teacher from your university. In this context, when 999 million people have searched for “X” with 999 million different backgrounds, a semantic search engine needs to understand it. Do they mean “horse in Spanish”, “horse speed”, “horse anatomy”, or something else… These semantic content networks cover every possibility of word connections based on the search engine’s understanding, and all these words’ contexts come from semantic search behaviors and their patterns.
+The verb and noun connections like “improve a skill”, “increase the profit”, or “earn money” and “learn a skill” are connected to each other through the same semantic search patterns. You can generate, 99,999,999 different combinations of verbs and nouns that have the same meaning.
+Sculpting the Context for Deepening and Sharpening it
+Context deepening and sharpening are stated and processed before in the Contextual Search Engine article that I have written. When you have multiple different verb and noun connections, and combinations of connections, you need to refine them further only for a certain area.
+Earning money, or improving the efficiency of a process, are too vast contexts. There might be millions of queries, or possible search intents and behaviors semantically, for all these word sequences. Thus, for a semantic content network, a Source Context is a must. What is the purpose of the brand? Whom should the brand reach out to with its own content network? From these answers, the context might be sharpened and deepened.
+If the context is for restaurants, “make money from the best sauces,”  “increase profit with the best customer relationships”, “learn new food trends in the US”, “deserve more positive food service reviews from clients”, or other types of verbs and noun chains can be used.
+If the context is for students, “make money online”, “make money while studying”, “learn new skills”, “improve your reading speed to study faster,”  or any other connected things can be found. But, always “learn” and “earn” will be the main central predicates for creating all these semantically relevant content networks.
+Another important step here is “canonicalization”. Even if the context is deepened or shaped, still the specific examples are still too vast, and not “query-focused”. Search engines always compare a query to a document, thus, vocabulary coverage between the document and the query is a must.
+Query-focused Semantic Vocabulary Configuration
+The vocabulary of the query and the web documents should align with each other. Query-focused semantic vocabulary configuration involves including the query terms while canonicalizing the verbs and nouns based on the specific query characteristics. If the query contains a certain pattern, the verbs that are included in the queries can be replaced by each other, because the search engine will index all these related web documents based on the triples, of object, predicate, and subject. In the Cost of Retrieval SEO Case Study, all these word connections, and the entity-indexation process are explained further. A verb, a noun, and a query pattern can create a document template. Thus, the semantic content networks SEO case study focuses on “query templates”. A semantic search engine can focus on the query templates rather than the individual query perception, it helps a search engine to connect the search behaviors better. And, every “behavior” comes from a verb. Thus, understanding the verb forms of life is a must to create probable probabilities and their connections.
+The query-focused semantic vocabulary configuration is a must to create a prope
+
+[...truncated...]

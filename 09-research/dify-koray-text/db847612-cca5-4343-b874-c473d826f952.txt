@@ -1,0 +1,144 @@
+Content Negotiation: Principles, Types, Working Examples - Holistic SEO
+Skip to content
+Content Negotiation is the method used by a client to request a specific Representation that fits the user requirements. The most suitable Representation for the user agent is selected from various presentations from the REST (Representational State Transfer) resources. The advantage of Content Negotiation is that it allows the technology to be released from the restriction of being fixed to a specific data transfer format. The necessity of Content negotiation is the concept that allows the same URL to provide several representations for specific content. Content negotiation gives you the advantage to select from preferred media type. The importance of Content negotiation is its capability to provide different versions of representations of a resource and return the selected presentation to the client. An example of a Content negotiation is its application to representations of a resource in different languages and how these are provided based on the reader’s preferences. All responses that have a component-body are subject to negotiation, which also includes error responses. All responses that have a component-body are subject to negotiation, which also includes error responses. The two types of Content negotiation in HTTP are Server-driven and Agent-driven negotiation. The two types of negotiation are orthogonal and can be used together or disconnectedly. The components of Content negotiation are below.
+Client: The client requests the specific representation via URL
+Server: The web server uses the URL to select from available presentations and returns the best-suited presentation to the client.
+User-Agent: The user agent determines the requirements
+Contents of the Article
+show
+1.
+What are the principles of Content Negotiation?
+1.1.
+What is Server-driven Content Negotiation?
+1.2.
+What is Agent-driven Content Negotiation?
+2.
+What are the Content Negotiation related HTTP Headers?
+2.1.
+1. Accept HTTP Header
+2.2.
+2. Accept-CH HTTP Headers
+2.3.
+3. Accept-CH-Lifetime
+2.4.
+4. Accept-Encoding
+2.5.
+5. Accept-Language
+2.6.
+6. User-Agent
+2.7.
+7. Vary
+3.
+What is the relation between content negotiation and compress algorithms?
+4.
+Which Browsers Support Content Negotiation HTTP Header?
+What are the principles of Content Negotiation?
+The principles of Content negotiation are shown below.
+A client requests a resource via URL.
+The web server makes use of the URL to choose from various presentations and returns the most appropriate representation to the client. There are two possible methods to identify the most appropriate representation. First, the Server-driven content negotiation or proactive negotiation: Server-driven content negotiation is the standard method to negotiate a particular resource, also called Specific HTTP headers by the client. Second is the Agent-driven content negotiation or reactive negotiation: Agent-driven content negotiation is used as a reserved method. The status codes 300 (Multiple Choices), 406 (Not Acceptable), and 415 (Unsupported Media Type) are error messages shown as an HTTP response code by the server.
+What is Server-driven Content Negotiation?
+Server-driven content negotiation or proactive negotiation is the most common method of content negotiation. In Server-driven content negotiation, the search engine provides various HTTP headers together with the URL. The HTTP header will define the approved representation selected by the user agent. The web server will use the selected representation as an idea for the internal algorithm to select the most appropriate content to deliver to the client. If there’s no compatible resource, the web server will respond with either “406 (Not Acceptable)” or “415 (Unsupported Media Type) error codes and will rearrange the headers for the supported media types. The necessity of Server-driven content negotiation is the ability to offer several representations and return a page based on client or server preferences.
+What is Agent-driven Content Negotiation?
+Agent-driven content negotiation or reactive negotiation is a method that is created when there are no compatible resources. The user agent will be required to perform another selection of the best available representations. In Agent-driven content negotiation, the webserver returns a page that consists of links to the alternative resources when encountering a questionable request. The user makes the decision on which resources will be used among the list of representations. Agent-driven content negotiation is beneficial when the webserver returns a page that contains the links to the best alternative resources after receiving an initial response from the origin server (406 Not Acceptable or 415 Unsupported Media Type). The user agent will be allowed to perform another selection of the best available representations. The necessity of Agent-driven content negotiation is the capability of this method to provide alternative representations based on the user agent’s preference if previously selected representations are not compatible. The difference between Server-driven content negotiation and Agent-driven content negotiation is that the Agent-driven content negotiation only provides the alternative representations if the Server-driven content negotiation provides an error message as an initial response (such as 406 Not Acceptable or 415 Unsupported Media Type).
+What are the Content Negotiation related HTTP Headers?
+The Content Negotiation related HTTP Headers are the Accept HTTP Header, Accept-CH HTTP Headers, Accept HTTP Lifetime, Accept-Encoding, Accept-Language, User-Agent, and Vary Response Header.
+1. Accept HTTP Header
+The Accept header is determined by the search engine, or other user agents, and can vary to the context it corresponds to. The Accept header arranges the MIME (Multipurpose Internet Mail Extensions) types of resources that will be processed. The usage of Accept header is to specify which media types are acceptable in the HTTP response and will be logical to the client. The media types on the response messages are expressed in a form of MIME types. The client will receive the status code “406 Not Acceptable” HTTP response message whenever the server is not capable of responding based on the requested media type. The directives, syntax and examples are shown below. The directives of
+Accept HTTP Header
+shown below indicate the behavior intended to avoid caches from interfering with the request.
+<MIME_type>/<MIME_subtype> A single and exact MIME_type, like text/html.
+<MIME_type>/* A MIME type without a subtype. image/* corresponds to image/png, image/svg, image/gif, and other image types.
+*/* Refers to any MIME type
+;q= (q-factor weighting) A value used is placed in an order of preference expressed using a relative quality value called the weight.
+The syntax of Accept HTTP header is shown below.
+Accept: <MIME_type>/<MIME_subtype>
+Accept: <MIME_type>/*
+Accept: */*
+// Multiple types, weighted with the quality value syntax:
+Accept: text/html, application/xhtml+xml, application/xml;q=0.9, image/webp, */*;q=0.8
+For multiple types, weighted with the quality value syntax is below.
+Accept: text/html, application/xhtml+xml, application/xml;q=0.9, image/webp, */*;q=0.8
+The syntax for default navigation requests is below.
+Accept: text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8
+An example of Accept HTTP header is shown below.
+Accept: text/html
+Accept: image/*
+// General default
+Accept: */*
+// Default for navigation requests
+Accept: text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8
+2. Accept-CH HTTP Headers
+The Accept-CH HTTP request HTTP header gives the configuration data to provide the valid response selected by the server. The usage of the
+Accept-CH Header
+is that it allows the web servers to request client hint headers they’re interested in from clients. The syntax and examples are shown below.
+The syntax of the Accept-CH request HTTP header is shown below.
+Accept-CH: <list of client hints>
+An example of an Accept-CH request HTTP header is shown below.
+Accept-CH: Viewport-Width, Width
+Vary: Viewport-Width, Width
+3. Accept-CH-Lifetime
+The Accept-CH-Lifetime response HTTP header specifies the amount of time the device is allowed to share its memory with the webserver.
+Accept-CH-Lifetime header
+is used together with the Accept-CH header’s Device-Memory value for all secured requests to assure Client Hints are delivered reliably. Device-Memory pertains to the estimated RAM availability from the client’s device while Client-Hints refers to the list of available headers. Accept-CH-Lifetime header is only available on selected browsers with secured contexts. This feature is no longer recommended due to various compatibility issues. The syntax and examples are shown below.
+The syntax of the Accept-CH Lifetime response HTTP header is shown below.
+Accept-CH-Lifetime: <age>
+An example of Accept- CH Lifetime response HTTP header is shown below.
+Accept-CH: Viewport-Width
+Accept-CH-Lifetime: 87500
+4. Accept-Encoding
+The Accept-Encoding Request HTTP header is also known as the request header’s comparison algorithm. The client will select which Content-Encoding it supports. The web server will then respond in any of the supported content encoding formats, which is frequently a compression algorithm. The web server will use a Content negotiation to choose among the representations and return them to the client with the Content-Encoding response header. The web server may prefer not to compress the response if the Identity value is acceptable. Identity value pertains to the identity function that is default with no modification or compression required. Identity value is always accepted. Identity value “*” matches any content encoding with no preference is required. The directives, syntax, and examples are shown below. The directives of an
+Accept-Encoding request HTTP header
+shown below indicates the behavior intended to avoid caches from interfering with the request.
+<gzip> A compression algorithm based on Lempel-Ziv coding (LZ77) with a 32-bit CRC.
+<compress> A compression algorithm based on Lempel-Ziv-Welch (LZW).
+<deflate> A compression algorithm based on Zlib structure and deflate compression algorithm.
+<br> A compression algorithm based on the Brotli algorithm.
+<identity>Indicates the identity function (that is, without modification or compression). This value is always considered as acceptable, even if omitted.
+<*> Matches any Content-Encoding not already listed in the header. This is the default value if the header is not present. This directive does not suggest that any algorithm is supported but indicates that no preference is expressed.
+<;q= (qvalues weighting)> Any value is placed in an order of preference expressed using a relative quality value called weight.
+The syntax of the Accept-Encoding request HTTP header is shown below.
+Accept-Encoding: gzip
+Accept-Encoding: compress
+Accept-Encoding: deflate
+Accept-Encoding: br
+Accept-Encoding: identity
+Accept-Encoding: *
+For multiple algorithms, weighted with the quality value syntax is below.
+Accept-Encoding: deflate, gzip;q=1.0, *;q=0.5
+An example of an Accept-Encoding request HTTP header is shown below.
+Accept-Encoding: gzip
+Accept-Encoding: gzip, compress, br
+Accept-Encoding: br;q=1.0, gzip;q=0.8, *;q=0.1
+5. Accept-Language
+The Accept-Language request HTTP header determines which languages are best suitable based on the client’s preferences. The Accept-Language request HTTP header is used to determine the client-preferred natural language and locale. The web server will use a Content negotiation to choose among the representations and return them to the client with the appropriate Content-Language response header. Browsers provide the necessary values for the Content-Language response header based on the user interface language.
+Accept-Language request HTTP header
+is beneficial for user convenience purposes. The relevant status code for the Accept-Language request HTTP header is “406 (Not Acceptable)”, an error code that appears when the webserver cannot provide the requested content in the corresponding language. The directives and syntax of the Accept-Language are within a pre-determined structure. Accept-Language directive involves human language value, while directives indicate the behavior intended to avoid caches from interfering with the request.
+The directives of the Accept-Language request HTTP header are shown below.
+<*> Matches any language with no preference is required. Considered as a wildcard.
+<language> Language tag (local identifier).
+<;q= (q-factor weighting)> Any value arranged in an order of preference, expressed using a relative quality value called weight.
+The syntax of the Accept-Language request HTTP header is shown below.
+Accept-Language: <language>
+Accept-Language: *
+// Multiple types, weighted with the quality value syntax:
+Accept-Language: fr-CH, fr;q=0.9, en;q=0.8, de;q=0.7, *;q=0.5
+For multiple types, weighted with the quality value syntax is below
+Accept-Language: fr-CH, fr;q=0.9, en;q=0.8, de;q=0.7, *;q=0.5
+An example of the Accept-Language request HTTP header is shown below.
+Accept-Language: de
+Accept-Language: de-CH
+Accept-Language: en-US,en;q=0.5
+6. User-Agent
+The User-Agent request header is a string that allows the servers and network to define the OS, vendor, application, and version of the
+user agent
+. The directives, syntax, and examples are shown below. The directives of the User-Agent HTTP Header shown below indicate the behavior intended to avoid caches from interfering with the request.
+<product> Product identifier.
+<product-version> Product’s version number.
+<comment> Comments containing more details.
+The syntax of the User-Agent request HTTP header is shown below.
+User-Agent: <product> / <product-version> <comment>
+An example of a User-Agent request HTTP header is shown below.
+Example:
+Mozilla/3.0 (Windows NT 6.2
+
+[...truncated...]

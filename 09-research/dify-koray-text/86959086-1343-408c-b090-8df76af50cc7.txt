@@ -1,0 +1,92 @@
+"aria-orientation" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-orientation is a property that determines whether the element’s position is horizontal or vertical. One of the functions of aria-orientation is to specify whether the element’s orientation is unknown. The responses of the arrows to the right, left, up, and down are affected by the orientation of the widget. The primary role of the aria-orientation is to inform the user on how to use a specific widget. A horizontal, a vertical, or an indeterminate orientation for the element can be indicated to the users through the use of the aria-orientation attribute, which can be used by the developer. Elements like sliders, tab lists, toolbars, menubars, scrollbars, list boxes, trees, and menus are all examples of places where the aria-orientation attribute might be utilized. The aria-orientation can be used in the aria-separator.
+Contents of the Article
+show
+1.
+What is the function of the “aria-orientation” ARIA Label?
+2.
+What are the uses of the “aria-orientation” ARIA Label?
+3.
+Example Uses of “aria-orientation” ARIA Label
+4.
+What are the related ARIA Labels to “aria-orientation”?
+What is the function of the “aria-orientation” ARIA Label?
+The purpose of the aria-orientation attribute is to make it possible to warn users whenever a widget lacks the default, expected orientation as well as the navigation that is connected with it. There are two different possible settings for the aria-orientation: horizontal and vertical. The word “horizontal” in the aria orientation specifies that the pieces are aligned horizontally. While the “vertical” in the aria orientation specifies that the pieces are aligned vertically. If the orientation is unclear, the element cannot be defined and is instead considered uncertain. On a web page, the horizontal or vertical orientation of the elements can be deduced from the value of the aria-orientation property. There are a few widgets that have orientations by default. By default, the scrollbar, tree, list box, and menu all have a vertical orientation, but the slider, tab list, toolbar, and menubar all have a horizontal orientation.
+What are the uses of the “aria-orientation” ARIA Label?
+Listed below are the uses of the “aria-orientation” ARIA Label.
+Scrollbar role:
+A scrollbar role is a set of visual representations that manage the scrolling of information that is currently visible inside a viewing area. These graphical elements make up a scrollbar role.
+Select role:
+The form widget that enables the user to make selections from a given set of options is referred to as the Select role, and the Select role is a superclass role for the form widget.
+Separator role:
+A divider that serves the purpose of separating and distinguishing various selections of contents or groupings of menuitems is known as a separator role.
+Slider role:
+The function of the slider is to provide a range of input widgets in which the user chooses a value from a predetermined range between a minimum and a maximum value.
+Tablist role:
+The tablist role is a role that specifies the element that will serve as the container for a group of tabs.
+Toolbar role:
+The function of the toolbar is to identify the contained element as a collection of frequently used function buttons or controls that are displayed in a condensed visual form.
+Example Uses of “aria-orientation” ARIA Label
+Listed below are the example uses of the “aria-orientation” ARIA Label.
+The use of aria-orientation is to indicate to assistive technology users the widget’s orientation to navigate correctly, whether it is horizontal, vertical, or undefined.
+<div role="listbox" aria-orientation="vertical" id="test">
+<button value="b1"> <button value="b2">
+</div>
+then the element with role="listbox" and id="test" exposes aria-orientation="vertical"
+<div role="listbox" aria-orientation="horizontal" id="test">
+<button value="b1"> <button value="b2">
+</div>
+then the element with role="listbox" and id="test" exposes aria-orientation="horizontal"
+<div role="slider" aria-orientation="vertical" id="test">
+<button value="b1"> <button value="b2">
+</div>
+then the element with role="slider" and id="test" exposes aria-orientation="vertical"
+<div role="menubar" aria-orientation="horizontal" id="test">
+<button value="b1"> <button value="b2">
+</div>
+then the element with role="menubar" and id="test" exposes aria-orientation="horizontal"
+<div role="menubar" id="test">
+<button value="b1"> <button value="b2">
+</div>
+then the element with role="menubar" and id="test" exposes aria-orientation="horizontal"
+What are the related ARIA Labels to “aria-orientation”?
+There are no related ARIA Labels to aria-orientation.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-orientation” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-owns” ARIA Label for Accessibili…
+TechSEO
+“aria-multiselectable” ARIA Label for …
+0
+0
+0

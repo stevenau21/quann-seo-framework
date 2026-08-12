@@ -1,0 +1,92 @@
+"aria-labelledby" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-labelledby is an attribute that provides an accessible name for the elements that are identified.  When the native elements do not contain enough properties to describe or label them, aria-labelledby is supposed to be used to set a name that is available to everyone. The aria-labelledby attribute provides a description of the element that it is identifying and can be used by the developer to provide the required information for the user agent and screen reader, The aria-labelledby attribute can be utilized for any and all elements, including buttons, text areas, tables, table data, and other widgets. Other aria labels, such as aria-label and aria-describedby, can be combined with the aria-labelledby tag to create a more complex expression.
+Contents of the Article
+show
+1.
+What is the function of the “aria-labelledby” ARIA Label?
+2.
+What are the uses of the “aria-labelledby” ARIA Label?
+3.
+Example Uses of “aria-labelledby” ARIA Label
+4.
+What are the related ARIA Labels to “aria-labelledby”?
+What is the function of the “aria-labelledby” ARIA Label?
+The purpose of aria-labelledby is important for user agents and screen readers since it offers the data or information regarding the element that it recognizes and also provides a name that is accessible. The aria-labelledby attribute plays a significant part as an essential factor attribute in every syntax that is utilized, and it is used in the majority of aria-label statements. Since it supplies the identification of every element that is used, the aria-labelledby is an essential component of other aria-labels. This is because other aria-labels need to be able to specify the attributes that are being used. As a result of the attribute’s ability to supply an accessible name, assistive technologies are dependent on the aria-labelledby attribute. This provides a benefit to the remainder of the ARIA labels that are employed.
+What are the uses of the “aria-labelledby” ARIA Label?
+Listed below are the uses of the “aria-labelledby” ARIA Label.
+Button role:
+It is for clickable elements that will provide a response if triggered when activated by the user. It tells the screen reader that the element is a button, but does not function as a button.
+Document role:
+It enables a composite widget to be able to be identified as readable content, it is a focusable element that is intended for the screen reader to read it as a document.
+Form role:
+It is an identity that describes a group of elements that plays the same role as the HTML form.
+Heading role:
+It set the element as a heading to a page or section, with the aria-level attribute providing hierarchical levels to the structure.
+List role:
+Is used to identify a list of items or list items contained in an element that is identified as a list.
+Example Uses of “aria-labelledby” ARIA Label
+Listed below are the example uses of the “aria-labelledby” ARIA Label.
+In order for other aria-labels to accurately characterize the attributes that are being used, it is necessary for the aria-labelledby to disclose the identity of every element that is being utilized.
+<button aria-label="Blue" aria-labelledby="color">Pink</button>
+<span id="color">Green</span>
+<span role="checkbox" aria-checked="false" tabindex="0" aria-labelledby="tac"></span>
+<span id="tac">Agreed to the Terms and Conditions</span>
+<h2 id="attr" class="article-title">5 Things to know when buying a car</h2>
+<p>Planning to buy a car is easy, but buying the right car needs more study.
+<a href="13.html" id="rm13" aria-labelledby="rm13 attr">Learn More</a>
+</p>
+<button aria-label="Blue" aria-labelledby="color">Nardo Gray</button>
+<span id="color">Midas Yellow</span>
+<h2 id="attr" class="article-title">How to be rich in just 6 months</h2>
+<p>This strategy is too easy for everyone, follow how I did it.
+<a href="13.html" id="rm13" aria-labelledby="rm13 attr">Get Rich Now…</a>
+</p>
+What are the related ARIA Labels to “aria-labelledby”?
+Listed below are the related ARIA Labels to “aria-labelledby”.
+aria-label:
+The aria-label is related to aria-labelledby because they both identify an element by utilizing a string value. A string value that associates the aria-label attribute with the label of the interactive element is provided by the
+aria-label
+attribute.
+aria-describedby:
+The aria-describedby is related to aria-labelledby because they identify an element based on a string value. This makes it a related property. The
+aria-describeby
+element supplies the user with information that they may require, in contrast to the aria-labelledby element, which merely provides an accessible name for the user’s assistive technology to interpret.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-labelledby” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-level” ARIA Label for Accessibil…
+TechSEO
+“aria-label” ARIA Label for Accessibil…
+0
+0
+0

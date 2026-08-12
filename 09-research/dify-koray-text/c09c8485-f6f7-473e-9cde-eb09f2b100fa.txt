@@ -1,0 +1,89 @@
+Skip to content
+The aria-required is an attribute that is determining if a form is ready to be submitted or required more inputs. The aria-required purpose is to give conditions or requirements in order for the process to continue to the next level. The developer can use the aria-required to notify or give a warning to the user that there is missing information that is needed to be filled out in order to proceed with submitting. The aria-required is a helpful attribute or property that can assist the user by informing that there is blank information to fill up. The aria-required can be used with elements such as input, select, and textarea. The aria-required can be used with other aria labels such as aria-labelledby, aria-describedby, aria-checked, and aria-autocomplete.
+Contents of the Article
+show
+1.
+What is the function of the “aria-required” ARIA Label?
+2.
+What are the uses of the “aria-required” ARIA Label?
+3.
+Example Uses of “aria-required” ARIA Label
+4.
+What is the related ARIA Label to “aria-required”?
+What is the function of the “aria-required” ARIA Label?
+The function of aria-required requires the user to provide the necessary information that is needed before submitting a form. It is beneficial for the user not to be able to miss out on needed information, aria-required enables the screen reader to inform the user that a field is needed to be filled with information. The developer can require a checkbox to be toggled as a requirement of the form before submission. The elements function is not affected by the aria roles that are implemented, thus, the aria-required only informs the user that a number of fields should not be blanked.
+What are the uses of the “aria-required” ARIA Label?
+Listed below are the uses of the “aria-required” ARIA Label.
+Checkbox role:
+It is used for interactive controls like checkbox, for elements that contain a checkbox role should also include an aria-checked attribute to expose the checkbox’s current state to assistive technology.
+Combobox role:
+It identifies that the element is an input control that is controlling other elements, that can dynamically provide necessary information for the user.
+Gridcell role:
+It is used to build a cell in a grid or treegrid, it imitates the purpose of the table data element to provide a group of information.
+Listbox role:
+It is used for providing static information for the user to select a number of items in a list form.
+Textbox role:
+It is an element role that allows users to input text, the assistive technology will be notified that the element accepts text.
+Example Uses of “aria-required” ARIA Label
+Listed below are the example uses of the “aria-required” ARIA Label.
+The aria-required works together with elements that required field inputs to have a value before proceeding to a Submit instance to go to another page.
+<input type="checkbox" id="conditions" aria-required="true" />
+<label for="conditions">Address is required</label>
+<div class="text">
+<label id="tp1-label" for="first"> Name:</label>
+<input type="text" id="first" name="first" size="20"
+aria-labelledby="tp1-label"
+aria-describedby="tp1"
+aria-required="true" />
+<div id="tp1" class="tooltip"
+role="tooltip"
+aria-hidden="true">Your name is required</div>
+</div>
+<div id="tbLabel">Your email is (required)</>
+<div role="textbox" contenteditable aria-labelledby="tblabel" aria-required="true" id="email1"></div>
+<div id="tbLabel">Input your First name (required)</>
+<div role="textbox" contenteditable aria-labelledby="tblabel" aria-required="true" id="email1"></div>
+<div id="tbLabel">Please enter Last Name (required)</>
+<div role="textbox" contenteditable aria-labelledby="tblabel" aria-required="true" id="email1"></div>
+What is the related ARIA Label to “aria-required”?
+The aria-invalid is related to the aria-required because they are both providing a conditional statement or loop that, a specified requirement is needed in order for the data imputed will be accepted. The aria-invalid is more specific to the requirement that is needed, unlike the aria-required that is pointing to the blank fields. The
+aria-invalid
+condition is more of the format requirement, it is beneficial for the database that a  required format of data is imputed correctly.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-required” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-roledescription” ARIA Label for …
+TechSEO
+“aria-relevant” ARIA Label for Accessi…
+0
+0
+0

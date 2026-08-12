@@ -1,0 +1,122 @@
+Alt Tag and Text for SEO: Definition and Best Practices - Holistic SEO
+Skip to content
+The alt tag (alt attribute or alternative tag) can be used to mark images and graphics within an HTML document. If the image display is selected in a browser, the alt tag is displayed instead of the image. In the context of Search Engine Optimization (SEO), it is an important parameter in on-page optimization, since Google can understand better what can be seen on the images thanks to alt tags. The stored alternative text is a short description of the unloaded image.
+The code for the alt tag is stored as an
+HTML
+element in the source text for an image file. It is crucial to use double coding characters instead of single quotes:
+<img src = ”image.jpg” alt = ”images’ contribution to the search intent and web page”>
+Most CMS offers automatic implementation of the alt tag. When labeling, make sure to name the main keyword and choose a description that is as short and meaningful as possible. Also, using the same keywords over and over again for a specific query in alt tags can cause
+Over-optimization
+and
+Keyword Stuffing
+penalty, alt tags on images should be useful for web accessibility and natural.
+In 2020, Google’s Visual Understanding and Visual Query Classification capacity increased tremendously thanks to AI technologies. Texts, faces, objects, places, landmarks, animals, landscapes on the images along with the images’ extension, color palette, IPTC Metadata, and more can be used to understand images’ context contribution for the web page. Alt tags, image URLs, Image Titles, Image Captions, links on the images, wrapper text of the images are the other but older image ranking, and understanding factors for the Search Engine Optimization. Also, to see how Google perceives an image on the web, The Vision AI of Google which is a new visual AI perception technology can be used.
+Contents of the Article
+show
+1.
+What is the ALT attribute needed for?
+2.
+ALT attributes as content for search engines
+3.
+Where is the ALT attribute inserted?
+4.
+What content should the ALT tags have?
+4.1.
+ALT tag vs. Title tag in Images: What is the difference?
+4.2.
+More Information: Longdesc
+5.
+Last Thoughts on The ALT Attribute and SEO
+What is the ALT attribute needed for?
+The term alt attribute consists of two words. “alt” is the abbreviation for “alternative”. The term “attribute” is also used in grammar. Here the attribute is an addition to a noun, which is described even more precisely. The term “Alt-Tag”, which is now also used, is synonymous – the English “tag” means marking or award. In HTML code, an attribute is an addition to command. In addition to the alt tag, there are other tags such as H tags for headings or titles as tags for images. To learn more about those
+HTML Tags
+, you can read Semantic HTML Usage and Its Importance for SEO Guideline.
+For image graphics, the alt text describes the image. It serves primarily this purpose and not for search engine optimization. The information stored in the alt text can then be displayed as an alternative to the graphic. This happens, for example, whenever a user agent does not offer support for images or a user does not have image graphics automatically loaded by a browser or a mail program. The image attributes can also be used if there are server problems and the graphics cannot be loaded. Also, sometimes developers move the image folder in the server, as a result of this the images on the web site could not be seen by the users and search engine crawlers. Even then, the alt tag takes effect and is displayed instead of the picture.
+The alt tag plays an important role in the design of barrier-free websites. In this case, too, the alternative text for pictures has a practical use: For example, blind users can have web content read out using so-called “screen readers”. Since these readers cannot interpret images, they read out the corresponding alt tags. In this way, handicapped users have the opportunity to understand not only texts but also graphic elements of a website. To learn more about ımportance of Barrier-free Website Design,
+Website Usability
+, and User Experience, reading our guidelines is gonna help.
+ALT attributes as content for search engines
+Search engine robots are very sophisticated data collectors, even if they have a strong visual understanding and perception capacity, helping Search Engine Crawlers to understand an images’ existing purpose in a web page can help to improve crawl efficiency and strength of the content. For this reason, search engines index image data based on additional information that crawlers find on a website. An important component for the recognition of image content is the alt attribute. It helps search engines determine the relevance of graphic content for image searches and organic searches.
+Google itself recommends using alternative texts for graphics. In the following video, Matt Cutts (former top spam fighter and solicitor from Google) explains how suitable ALT texts can be created:
+Where is the ALT attribute inserted?
+Alt attributes are stored as HTML elements in the source text, directly at the corresponding image link. The following example shows an excerpt from the source text where an alt tag was stored for a graphic:
+<img src = “/img/dog-image-1.jpg“ alt = “A dog eating its X Brand Food“>
+The “Alt text” is in quotation marks after “alt”. “Img src” indicates the graphic URL.
+What content should the ALT tags have?
+In principle, there is no restriction when filling in the alt attribute. However, it is recommended to describe the picture as concisely and precisely as possible. As a guideline, you should recognize the content of the picture solely by the text. In many cases, two words are sufficient. If an image has no content function because a web designer only wanted to insert a white area, the attribute can also remain empty. In order to avoid confusion when reading the source code through the browser, the alt attribute should be set in any case.
+An empty ALT tag would then look like this: alt = ““. Also, the images for design purpose can be used with different alt tags which can show the images’ decoration purpose, leaving them empty can harm the web-accessibility.
+It is important that webmasters, writers, or SEOs use the alt tag to include the central keyword of the landing page. As a rule, when describing images, there is automatically an optimization in that an important keyword of the corresponding website appears in it. Also, using alt tags as natural and useful are important principles, the alt tag should define the images’ content along with its function on the web page and create relevance with the search intent of the user.
+What features does a good alt text have?
+Words should be used naturally in alt tags.
+Alt text shouldn’t include any kind of keyword stuffing.
+Alt text should describe the images’ content and visual objects.
+Alt text should describe the images’ purpose on the web page.
+Alt text should increase the relevance of the web page for the
+user-intent and search intent
+.
+Alt text should create benefits for the web-accessibility.
+Alt tags for images should be created according to the visual search on the Search Engines so that they could include
+search terms or keywords
+.
+ALT tag vs. Title tag in Images: What is the difference?
+The title tag is displayed when a user moves the cursor over an image. The title attribute can also describe links in more detail and provide the user with more information about the link target.
+Basically, the title tag and alt tag differ in that the title tag shows information to the user when the mouse is over, while the alt attribute is usually not visible to the visitor and is only displayed as an alternative to the image. Because, as already mentioned, the “alt attribute” is used as an alternative to the image description. However, if the title tag of an image is not used, the alt text usually appears when the mouse is passed over the image.
+Title tags also creates more relevance for the purpose of the image and its importance on the web page.
+More Information: Longdesc
+Some browsers, such as Firefox, previously supported an additional attribute that goes beyond the information content of ALT attributes: longdesc. Internet Explorer must be specially configured to read the long description. However, longdesc is no longer supported in the course of implementing websites with HTML5 and can be neglected in search engine optimization.
+Longdesc is a longer description that can be added to images. This can look like this:
+<img src = “image-logo.png“ alt = “Logo of the company″ title =“Best Information Provider of X Continent“ longdesc =“image-logo-longdesc.html“>
+The long description is not written directly into the source text like the alt text but is stored as an HTML document via a link. If you want to ensure that longdesc can also be read by user agents who do not support the attribute, you can also store the link to the detailed description separately in the source text.
+In our example it would look like this:
+<img src = “image-logo.png“ alt = “Logo of the company″″ title =“Best Information Provider of X Continent“ longdesc =“image-logo-longdesc.html“>
+<a href=”image-logo-longdesc.html” title= “Description of the Logo of the Company”> [D] </a>
+The attached [D] again indicates that this is the description.
+Last Thoughts on The ALT Attribute and SEO
+Even if at first glance there are only a few characters that the Alt attribute contains, its importance when optimizing websites should not be underestimated. Alt tags can help with image optimization and improve rankings, for example in image searches on Google and other search engines. In addition to the file name and title, the alt tag has a high impact on the search results in this vertical search.
+In addition, meaningfully placed alt tags in combination with title tags in the sense of holistic, i.e. holistic search engine optimization, help to strengthen the relevance of a website to a specific keyword. However, webmasters and SEOs should limit itself to the image description and not use the attribute for keyword stuffing, which Google could quickly interpret as spamming. In addition, the image attribute is only one of many parameters for on-page optimization and, as a meta element, is not comparable with the title relevant to the ranking.
+By Holistic SEOs, our guideline will be improved with time.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+4 thoughts on “Alt Tag and Text for SEO: Definition and Best Practices”
+Why is k9webs traffic tanking so severely?
+Reply
+I can explain this after 6 months, but let’s say the owner of the project has greed. And, this article is about alt tag optimization.
+Reply
+Thank you for sharing the exact steps to implement and the reasons to do so!!!
+Reply
+how to write a alt tag for the feature image that with blue background and center text “best ai video creators”? we simply write alt tags like “best ai video creators” or like “feature image with blue background and in the center text written best ai video creators in black color with blah blah font ” this is correct?
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+On-Page SEO
+Alt Tag and Text for SEO: Definition and Best Practices
+by Koray Tuğberk GÜBÜR
+time to read: 7 min
+On-Page SEO
+On-Page SEO: Definition and Ranking Factors
+On-Page SEO
+What are Heading Tags: How to Use Heading Tags, Be…
+0
+0
+4

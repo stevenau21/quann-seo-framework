@@ -1,0 +1,109 @@
+Location HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Location HTTP Header interface represents the URL of the object to which it is linked. Changes made to it are reflected in the object to which it is related. The Document and Window interfaces both have such a linked Location, which is accessed via Document.location and Window.location, respectively. The Document interface represents any web page that has been loaded into the browser and serves as an entry point into the web page’s content, which is represented by the DOM tree. The Window interface represents a window that contains a DOM document; the document property refers to the DOM document that is currently loaded in that window. The Document.location read-only property returns a Location object that contains information about the document’s URL as well as methods for altering it and loading another URL. The Window.location read-only property produces a Position object that contains information about the document’s current location. There is only one value for using the Location HTTP Header. The value for using the Location HTTP Header is the URL. An example of a Location HTTP Header is given below.
+// location: https://developer.mozilla.org:8080/en-US/search?q=URL#search-results-close-container
+var loc = document.location;
+The Location HTTP Header Response Header is seen above. In the article, the Location HTTP Header Syntax, Directives, and Uses example will be processed.
+Contents of the Article
+show
+1.
+What is a Location HTTP Header?
+1.1.
+What is the Syntax of Location HTTP Header?
+1.2.
+What is the Directive of Location HTTP Header?
+2.
+How to use Location HTTP Header?
+2.1.
+Examples of Location HTTP Header Use
+3.
+What is the Specification Document for Location HTTP Header?
+4.
+What is the type of Location HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Location HTTP Header?
+5.
+Which Browsers Support Location HTTP Header?
+What is a Location HTTP Header?
+In the Location HTTP Header interface, the object’s location is represented by its Uniform Resource Locator (URL). When it is altered, the item it is linked to is also affected. To get to this place, use the Document.location and Window. location functions, which are accessible through the relevant interfaces
+What is the Syntax of Location HTTP Header?
+The Location HTTP Header uses only one value in its syntax. The syntax for using the Location HTTP Header is written below.
+Location: <url>
+What is the Directive of Location HTTP Header?
+The Location HTTP Header only contains one directive. The URL contains the URL that enables access to a resource, either relative or absolute. An example directive for using the Location HTTP Header is given below.
+Location: https://www.twitter.com/index.php
+How to use Location HTTP Header?
+The HTTP Location header is used in two situations: to ask a browser to redirect a URL (status code 3xx) and to offer information about the location of a newly created resource (status code 201). The HTTP 201 Created success status code indicates that the request was successful and that a resource was created. Its use is frequently mixed up with that of another HTTP header, the HTTP Content-Location header. The primary distinction is that Location specifies the URL of the resource where the page is redirected, whereas HTTP Content-Location specifies the URL of a transferred resource.
+Examples of Location HTTP Header Use
+An example of Location HTTP Header use is written below.
+An Absolute URL is one that includes a scheme/host and adheres to the syntax and semantics of that scheme.
+Location: https://www.geeksforgeeks.org/index.php
+There is no scheme or host included in these URLs. A Relative URL should only be used if it is paired with URLs from the original request.
+Location: /blogs/
+What is the Specification Document for Location HTTP Header?
+There is only one specification document for the Location HTTP Header which is the HTML Standa. HTML Standard (HTML) Article 7.10.5 mentions the Location HTTP Header for step-by-step instructions on how to create a location object. This article also covers the definition, uses, and examples of the Location HTTP Header.
+What is the type of Location HTTP Header?
+The Location HTTP Header is a type of response header that is used in two situations: to request that a browser redirect a URL (status code 3xx) or to provide information about the location of a newly created resource (status code 201).
+What are the similar HTTP Headers to the Location HTTP Header?
+There are other similar HTTP to the Location HTTP Header that are listed below.
+Window.location:
+Using the Window.location mutable read-only property, you can get information about the current location of the document in the form of a Location object.
+Document.location:
+Unlike the Location HTTP Header, which represents the URL, the Document.location read-only property returns a Location object, which contains information about the document’s URL and provides methods for changing that URL and loading another URL.
+URL:
+URLs are parsed, constructed, normalized, and encoded using the URL interface. It works by providing properties that allow you to easily read and modify the URL’s components. The Location HTTP Header specifies the location (URL) of the object to which it is linked.
+URLSearchParams:
+The URLSearchParams interface defines utility methods for working with a URL’s query string. The Location HTTP Header specifies the location (URL) of the linked object.
+Which Browsers Support Location HTTP Header?
+There are multiple browsers that support Location HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Location HTTP Header.
+Edge Browser is compatible with the Location HTTP Header.
+Firefox Browser is compatible with the Location HTTP Header.
+Internet Explorer Browser is compatible with the Location HTTP Header.
+Opera Browser is compatible with the Location HTTP Header.
+Safari Browser is compatible with the Location HTTP Header.
+WebView Android Browser is compatible with the Location HTTP Header.
+Chrome Android Browser is compatible with the Location HTTP Header.
+Firefox for Android Browser is compatible with the Location HTTP Header.
+Opera Android Browser is compatible with the Location HTTP Header.
+Safari on iOS Browser is compatible with the Location HTTP Header.
+Samsung Internet Browser is compatible with the Location HTTP Header.
+You can see an image that shows cross-browser compatibility of Location HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Location HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Downlink HTTP Header: Syntax, Directive, Examples…
+TechSEO
+Cookie2 HTTP Header: Syntax, Directive, Examples
+0
+0
+0

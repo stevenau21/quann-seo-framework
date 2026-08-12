@@ -1,0 +1,116 @@
+Google Author Rank: How Google Knows which Content Belongs to Which Author? - Holistic SEO
+Skip to content
+Google Author Rank involves the Google search engine’s methodologies to understand, define and rank an author for a topic for the author’s expertise, authority, and validity. Google can understand the author’s vectors, language, and even accent from the audio recordings. Facial recognition, voice recognition, or even action recognition help search engines to differentiate a person from another. Thus, a search engine can use only specific users’ search sessions to understand the click satisfaction models, like using only specific authors to understand the expertise threshold for a topic. Especially, in the News of SEO, the authors increase their SEO Value as Google search engine continues to add more Search Engine Result Pages just for author named entities along with specific features.
+Google Author Rank, Google Agent, Google Author Digital Signature, Google Answers, Google Plus, and many more other search engine improvements from the past touch the Google Author Rank definition, prominence, and functionality.
+In this article, the questions below will be answered.
+What is Google Author Rank?
+What is Google Agent?
+What are Author Tags?
+How does Google track Authors?
+Do Google Rank Authors based on their expertise?
+How does Google recognize Author-Named Entities?
+What are the patents for Author Recognition?
+How to use Author Rank in SEO?
+How to Use Ahrefs-like tools for Author Finding?
+This research for Google Author Rank explains how Google knows authors, understands which content belongs to which author, and how Google ranks authors for certain topics with their authorship. Google’s methods for authority understanding, author reconciliation, and author SERP features, or structured data representations, Google authorship patents, and designs for understanding who is the real author behind the article and main content are explained with scientific and practical proofs.
+Contents of the Article
+show
+1.
+What is Google Author Rank?
+1.1.
+Is Google Author Rank and Google Agent the same?
+2.
+What are the old Google Products related to the Google Author Rank?
+2.1.
+What are Google Answers? Why is Relevant to Google Author Rank?
+2.2.
+What is Google Talk? Why is Relevant to Google Author Rank?
+2.3.
+What is Google Plus? Why is Google Plus Relevant to the Author Rank?
+2.4.
+What is Google Knol? Why is Google Knol Relevant to the Google Author Rank?
+2.5.
+What is Google Sidewiki? Why is Google Sidewiki Relevant to the Google Author Rank?
+2.6.
+What is Google Groups? Why is Google Groups Relevant to the Google Author Rank?
+3.
+What are the Google Patent Designs for the Google Authorship Algorithms?
+3.1.
+1. The System and Method for Confirming Authorship Documents
+3.2.
+2. The reputation of an author of online content
+3.3.
+3. Agent Rank
+3.4.
+4. Content Author Badges
+3.5.
+5. Ranking authors and their content in the same framework
+3.6.
+6. Generating Author Vectors
+3.7.
+7. Website Representations Vectors
+4.
+Google’s Quality Rater Guide for Author Reputation and Expertise
+5.
+Google and Corroboration of Answers from Open Web with Author Identities
+6.
+Google Authorship Markup and Google Author Rank Relation
+7.
+Google Authorship Markup and Google News, Social Media Comments
+8.
+Authorship Markup and Google’s Knowledge Graph
+9.
+How to Use Ahrefs Author Finding Tool?
+9.1.
+Ahrefs’ Author Filter with Data Manipulation
+9.2.
+Google’s Site Definition and Author Connection
+9.3.
+Some Example Effects of Website Boundaries with Authorship
+9.4.
+Expression Identity and AI Content Writers
+10.
+Last Thoughts on Google, SEO, and Authorship
+What is Google Author Rank?
+Google Author Rank is a term to describe Google’s understanding of the authorship of the documents. Google Author Rank is planned to be used for ranking the documents based on the reputation of an author. Google Author Rank contains a new ranking argument besides the PageRank or Information Retrieval Score. Author Rank is an important concept to describe the prominence of the Expertise of an Author for Search Engine Optimization, and the Search Engine User Satisfaction. Google Author Rank is announced within the Google Agent Patent and implemented in Google Plus. Google Talk and Google Answers were different projects that focused on the authorship, and recognition of the search engine users with their social behaviors. Google has patented many designs to index the author information, and serve them within the search engine result pages. Google Author Rank concept affects the understanding of authorship perspective of Google search engine while creating different focuses to interpret the quality of a web page document.
+Google Author Rank Questionnaire is performed on the Koray Tuğberk GÜBÜR’s followers on Twitter. 35.4% think that Google recognizes and stores the information about the authors. 26.5% of the voters think that Google doesn’t have the concept of an Author-rank. 38.1% of the voters do not have a certain opinion of Google’s talents for author rank.
+Is Google Author Rank and Google Agent the same?
+No, Google Author Rank is a generalized concept for describing Google’s author recognition from web page documents and comments, while Google Agent is a concept from the Google Patents. Google Agent Patent has been invented by David Minogue and Paul A. Tucker. The Agent Rank patent was filed on 8 August 2005. Since the Agent Rank patent is relatively old, it shows that it touches a fundamental thought and design of Google.
+Google’s fundamental designs and understanding don’t change over time. Thus, Google Agent is perceived as a first design and raw mindset for understanding the authorship on the open web.
+Koray Tuğberk GÜBÜR performed multiple Google Author Rank questionnaires during the research of Google Author Rank. The second questionnaire is performed on LinkedIn with the Koray Tugberk GUBUR’s followers. On LinkedIn, 82% of the voters think that Google can recognize the authors, and 18% of voters think that Google can’t recognize the authors.
+What are the old Google Products related to the Google Author Rank?
+The Google Author Rank-related old Google Products are listed below.
+Google Answers
+Google Talk
+Google Plus
+Google Knol
+Google Sidewiki
+Google Groups
+What are Google Answers? Why is Relevant to Google Author Rank?
+Google Answers is a search engine project that focuses on social activity on the open web. Google is a hybrid search engine that focuses on different verticals on the open web. Google Answers is the first social forum that a search engine has ever created. Google Answers is created to provide a profile for the people who want to give answers to certain questions on certain topics.
+Another prominent aspect of Google Answers is that a user was able to tell his or her opinion about any web page document on the open web via Google Answers. Thus, Google was able to gather user perspectives for a specific topic and also web page document quality directly. If a user answers many questions on a certain topic, it means that the person is an expert or a kind of hobbyist in the knowledge domain.
+The third questionnaire for the Author Rank to see what the SEO Community thinks of Google’s perception and talents for the Author Rank.
+Google Answers had a subdomain within the Google main domain. Today, it still lives. Since there is a chance that Google might remove the entire domain one day, entire Google Answers have been crawled and scraped by Holistic SEO & Digital for further search engine research.
+Google Answers is relevant to the Google Author, due to the reasons below.
+Google Answers provide an authorship profile for the question and answer owners.
+Google Answers let users tell their opinion about a web page from a topic by stating the author’s success.
+Google Answers give direct feedback from the authors for an answer quality, which affects the expertise level of the specific author.
+Google Answers was providing a web-wide commenting and discussion platform while giving the search engine a chance to aggregate data for quality answers from certain authors.
+A screenshot from the Google Answers, and how the answers are categorized for different main topics, can be seen below.
+Below, a specific search activity from Google Answers can be seen.
+It brings us to the Google Answers restricted search results from the Google search engine. Below, an answer for the Google Answers can be seen.
+The categorization of the questions and the users’ information is as follows.
+Google Answers is abolished by Google due to the high level of web spamming, and the usage statistics. But, Google didn’t give up on its social search engine purposes.Thus, Google Answers and Google Talk are connected to each other with Google Author Rank.
+What is Google Talk? Why is Relevant to Google Author Rank?
+Google Talk was a service for providing instant messaging and text communication between Google search engine users. Gchat, Gtalk or Gmessage were some other names of Google Talk. Google Talk had a mobile app to provide mobile-friendly social networking. Google Talk became Google Hangouts, later. And, at the moment, Google Hangout is being transferred to Google Meet. Google is a hybrid search engine that focuses on ambiance optimization. Google Meet is vastly used for educational and business purposes by different types of users and organizations. Thus, Google Meet is a social search engine feature that provides social networking for businesses and search engine users. Google Talk is relevant to the Google Author because Google Talk has used the Gmail Accounts for the creation of the profile. Google Plus at the same time provided a possibility to create an account with the Gmail accounts. Thus, ambient optimization has played a major role in uniting the users’ messaging, searching, and social networking needs under Google Products. Google Talk was also a prominent product to take the users from other messaging platforms such as EarthLink, Gizmo5, Tiscali, NetEase, or Orkut. Google Talk provided a vast amount of data for the dialogues, and the conversations between humans to understand the human language with Natural Language Processing further. It also provided a vast amount of advertisement possibilities.
+Google Author Rank and Google Talk are relevant to each other in terms of uniting the user profiles under a search engine platform and helping users to comment, communicate, and talk further around a certain topic. Google Talk helped Google users network around the world for certain information transfers.
+What is Google Plus? Why is Google Plus Relevant to the Author Rank?
+Google Plus was a service for helping search engine users to define themselves with their hobbies, thoughts, personalities, and interests within a social network. Google Plus is a product that shows Google cares about Social Networking. Google Plus is sometimes called Google+, or G+. Google Plus was launched on 2011, June 28 to compete against other social media platforms. In the context of ambiance optimization, Google connected the Google Plus profiles to Gmail, Google Drive, Blogger, YouTube, and some others. Google Plus was abolished by Google later due to security and privacy issues. Other developers were able to reach out to the information from Google Plus related to the users’ private data. Google+ is transferred into Google Currents, and later it became Google Chat with its users.
+Google Plus is relevant to the Google Author Rank because Google Plus provided an authorship profile for all users. Google Plus is used within the Author Markup, and the “author” attribute within the HTML documents for Google. Google tried to perform its Agent Rank design with Google Plus. Due to the low level of engagement, and web spamming, Google Plus has been removed from the Google environment.
+After Google Plus, Google started to collect the author’s information with entity-oriented search. Instead of registering every author, or the blogger into a networking platform, they organized the web pages and the documents around the named entities as persons with authorship. Today, Google is able to show author knowledge panels, and books, articles, or publications for different authors from different sources. Google ranks news results based on many relevances and authority signals, including authorship. In some patent designs, Google defines the authors as a website section or website section definition.
+Google Authorship is understood as electronic system registration, but it is developed as an open web information extraction system for authors’ identity and artwork collection.
+What is Google Knol? Why is Google Knol Relevant to the Google Author Rank?
+Google Knol is an old encyclopedia product to compete with Wikipedia. Google Knol is relevant to Google Author Rank because users were using their own real names and Googlemail (gmail) during registration and writing their articles. Google Knol provided an opportunity for the users to show their expertise on a topic. The main difference between Wikipedia and Google Knol was that on Wikipedia, every user writes the same article, together with authoritative editors, while on Google Knol users write different articles for the same topic. A side difference of Google Knol from Wikipedia was that it let users use Adsense on their own articles. The ads revenue, links, copied content, and lack of editorship cause bloat on the Google Knol. Since the overall content quality was lower, it caused users to not be able to find the valuable and real authoritative information that they need.
+On some other media channels, Google Knol was criticized as a counter-attack for the digital democracy or the news media enemy. The reason for these criticisms was that Google Knol was seen as a repetitive content production point while causing bloat of the web. Collecting all the users in the Google Knol didn’t provide better answers, and there was spec
+
+[...truncated...]

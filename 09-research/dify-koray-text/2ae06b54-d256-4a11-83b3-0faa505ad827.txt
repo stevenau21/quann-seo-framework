@@ -1,0 +1,160 @@
+Crawl Budget, Crawl Quota and Crawl Efficiency: Explained - Holistic SEO
+Skip to content
+The term crawl budget describes the resources that the search engine Google invests in order to record and index the content of a specific website. The collection and indexing of websites are known as crawling. Thus, the crawl budget is the maximum number of pages that can be searched by a particular website. The fact that Google cannot search all URLs of a website is because even the world’s largest search engine does not have unlimited resources.
+Contents of the Article
+show
+1.
+Crawl budget information
+2.
+What is the Crawl Rate and Limit?
+3.
+What is the Crawl Need (Crawl Demand)?
+4.
+Factors affecting the crawl budget
+5.
+Influencing the crawl budget
+5.1.
+How do website speed and errors affect?
+5.2.
+Is crawling a ranking factor?
+5.3.
+Do alternative URLs and embedded content affect the crawl budget?
+5.4.
+Can the “crawl-delay” directive be used in the robots.txt?
+5.5.
+Does the “nofollow” attribute affect the crawl budget?
+6.
+How to Optimize Crawl Budget?
+6.1.
+1. Optimize internal links
+6.2.
+2. Use robots.txt correctly
+6.3.
+3. Use nofollow links
+6.4.
+4. Don’t forget the Google sitemap
+6.5.
+5. Avoid unnecessary crawl paths
+6.6.
+6. Update your content
+6.7.
+7. Delete duplicate content
+6.8.
+8. Repair broken links
+6.9.
+9. A fast server
+6.10.
+10. Reorganize the structure of the website
+7.
+Last Thoughts on Crawl Budget and Efficiency
+Crawl budget information
+If you want to find out more about the crawl budget with regard to your own website, you can do this via the Google Search Console. Information on crawling activity on your own website for the past 90 days is displayed under the “Crawl statistics” item. In detail, the statistics contain information about which pages of the website have been crawled and how often the Google search bot visits the website.
+With regard to the crawling statistics, it should be noted that this information is only available to confirmed websites. According to Google, there is no particularly “good” crawl frequency. Nevertheless, it is advantageous if the diagram that shows the crawl frequencies is relatively constant and increases with increasing page size.
+A
+declining frequency
+can be due to the fact that the page has not been updated for a long time or a robots.txt file is available.
+What is the Crawl Rate and Limit?
+An important term in connection with the discussion about the crawl budget is the limit of the crawl rate. This is made up of two factors: the number of parallel connections that Googlebot uses to crawl a website and the time between requests. The crawl rate may increase or decrease depending on the following circumstances:
+Website performance (Crawl health):
+If a website responds quickly, the limit for the crawl rate increases. However, slower reactions and server errors reduce the rate.
+Limit from Google Search Console:
+Webmasters can specify a limit for the crawl rate themselves.
+What is the Crawl Need (Crawl Demand)?
+The crawl rate limit (crawl quota) does not necessarily have to be exhausted. As soon as there is no longer a need to index additional content or to update existing content, Googlebot will reduce its crawl activities. Two factors have a significant influence on the crawl requirement:
+The popularity:
+Popular URLs tend to be visited more often by the crawler in order to keep them up to date in the index.
+Loss of topicality:
+Google tries to remove outdated and obsolete content from the index.
+In addition, certain events such as moving a website can lead to an increased crawl requirement, for example, if the domain is changed or the URLs of a website change.
+The crawl rate and crawl requirement together result in the crawl budget: The number of URLs that Google can crawl and wants to crawl .
+Factors affecting the crawl budget
+Above all, URLs with little added value can have a negative impact on the crawling and indexing of a website. The following categories describe such URLs:
+Faceted navigation and session IDs:
+Faceted navigation is the ability to further subdivide or filter results based on certain criteria. A good example is online shops, where you can choose products by color, size, or cut. The differences between the individual variants are so small that they do not add any value to the Google index. Session IDs lead to different URLs for the same content and thus to duplicate content.
+Soft errors:
+These are pages or URLs that can basically be called up without the desired content. The server returns the status 200 for “ok” instead of the 404 error actually applied.
+Hacked pages:
+Manipulated websites are of course a problem for Google and therefore lead to a reduction in crawling activities
+Duplicate content
+: Content
+that occurs several times on a website can lead to it being included in the Google index several times. When Googlebot detects such duplicate content, it responds by reducing crawl activity.
+Inferior content and spam:
+see hacked pages. Google is of course not interested in poor quality content in the index and will reduce or even stop crawling in corresponding cases.
+Infinite Spaces:
+Larger clusters of URLs with little added value also lead to a reduction in crawling activities.
+Age of the domain
+: The older a domain is, the more domain trust is assigned by Google or other search engines. The crawl depth increases with increasing trust.
+Link Juice
+: Strong incoming backlinks are an important indicator that can have a positive impact on the budget. In this context, links that have a high trust are rewarded above all. These can be backlinks from universities or newspapers, for example. Such links are classified as particularly trustworthy and therefore contribute to the crawl budget.
+Content
+: Scope and freshness of digital content. This means both the total number of documents that can be indexed and the interval at which new content is imported on the website.
+Redirect Chains:
+If there is a redirection chain between pages, it will consume more crawl quota since it is harder to open the destination URL because of the redirected URLs. Internal Links shouldn’t have redirected URLs, they always include a URL with 200 Status Code.
+404 Resources:
+If there is a 404 URL in sitemap or a JPG, CSS, or HTML Document as 404 in the source code, the crawl quota will be consumed by those assets even more. 404 Means missing and Googlebot will try to catch those resources as if it can fetch them later.
+410 Status Code Usage:
+404 Resources should be cleaned and also changed their status code to the 410. Every
+HTTP Status Code
+has a special meaning for the crawlers. 410 Status Code means “Gone” instead of missing. In any Log Analyse, a Holistic SEO can see that Googlebot tries to catch the deleted assets. This also consumes crawl quota. Telling Googlebot that those assets are not necessary anymore will stop Googlebot from crawling those assets. Saved crawl quota will be used for the existing assets. This change can be analyzed during the
+Log Analysis
+.
+Prioritization of content
+: Important content should receive the most links both internally and externally. This helps the crawler to quickly recognize and process important documents.
+Control indexing
+: Not all pages must and should be in the index of a search engine. By specifically excluding subpages or entire subdomains, it is possible to direct the crawler to relevant content.
+Speed
+: Google likes fast websites. Therefore, it should be a duty for every webmaster to deliver their own website as quickly as possible. With the tool “ Page Speed Insight” from Google https://developers.google.com/speed/pagespeed/insights/ your own website can be tested. However, the Pagespeed value should only play a secondary role, primarily the real loading time of the website should be optimized.
+Influencing the crawl budget
+There are a number of factors that can influence the crawl budget. So
+URLs
+should be chosen that already give hints to the content. In this way, the search engine receives more precise information about the website.
+The crawl budget can also be influenced by means of the
+website content
+itself, and since the
+Google Panda Update
+, it has been true that these have to be of high quality. A clear and logical page architecture and URL structure is also an advantage. Since the URLs should be as short as possible, the depth of the directory structure must be carefully considered. Unclear and gibberish content without any visual and information structure may harm the crawl budget since Google may not understand and classify this type of non-quality content very easily. This creates a longer evaluation and calculation on the side of the Search Engine.
+In addition, it is advantageous if the
+images
+used on the page load as quickly as possible. It is now assumed that the height of the PageRank is also an influencing factor with regard to the crawl budget. As a result, pages with numerous incoming links are crawled particularly often.
+How do website speed and errors affect?
+Better loading times have a positive impact on the user experience and also on the crawl rate. A high speed is a sign of an intact server. On the other hand, an accumulation of 500 errors is an indication that something is technically wrong. This can lower the crawl rate.
+Is crawling a ranking factor?
+A higher crawl rate does not necessarily lead to better rankings. Google uses hundreds of ranking factors. While crawling is necessary for a page to appear in the results, it is not a ranking signal.
+Do alternative URLs and embedded content affect the crawl budget?
+Googlebot tries to crawl every URL it finds, which means that every URL affects the crawl budget. Alternative URLs such as for AMP and embedded content such as CSS and JavaScript can trigger additional crawl activities and thus influence the crawl budget.
+Can the “crawl-delay” directive be used in the robots.txt?
+Googlebot ignores the “crawl-delay” directive in robots.txt
+Does the “nofollow” attribute affect the crawl budget?
+It depends on it. If a link is marked as “nofollow”, but another link on the page without the “nofollow” attribute points to this URL, it is crawled, which in turn affects the crawl budget.
+How to Optimize Crawl Budget?
+Of course, every webmaster wants all websites to be crawled so that they are listed in the search results. Even if this is much faster today thanks to the
+Caffein update
+, the problem remains – this is the point at which crawl optimization comes into play. With appropriate measures, the crawl budget is used as efficiently as possible.
+If you have noticed that your crawl budget is not very high, you do not need to panic. There are some simple tricks you can use to get Googlebot to consider scanning your page more.
+Create high-quality content regularly.
+Update your new and old content regularly.
+Your content should be diverse, which means that you shouldn’t just focus on producing text. Images, videos, or PDFs are also important content ideas that you should consider.
+Make sure the organization of your sitemap is clear and readable by Google, especially if you have a large website. Also, don’t forget to sync your sitemap in the Google Search Console.
+It is also important that you have internal links on all of your pages. The Googlebot could otherwise end in a “dead end” if you have pages that do not contain any internal links.
+Also, think about backlinks. The more you have, the more likely Google is to consider scanning your pages. They are also important to increase the awareness of your site.
+Awareness of your website is very important. According to Google, “the most popular URLs on the Internet are usually scanned more frequently in order to keep them up to date in our index”. Using a logical and natural internal link structure
+1. Optimize internal links
+Internal links are one way to make the crawler’s search easier. These are links that serve the bot the most important pages and elements on the silver platter. Of course, these should primarily be pages that illustrate the character and the most important content of the domain.
+Internal links that serve to deepen a topic should refer to the pages that the web crawler should take into account in the context.
+If you point to your favorite pages, you have a better chance that the crawler will scan them at the end. Google focuses more on pages that contain a lot of links (both internal and external).
+2. Use robots.txt correctly
+With the
+robots.txt
+it is possible to control the crawler a little. Corresponding entries (Disallow, NoIndex) in the robots.txt file distract the bot from the areas of the website that are not important for the ranking – this leaves more time for the really important pages.
+Robots.txt is a file that helps to block uninteresting pages. In addition, the file offers a kind of guide for the content of each file and tells Google how to scan it.
+The robots.txt file is very important if you want to avoid the crawler wasting time on the pages that do not need to be scanned. These can be private or administrative pages. What is also very helpful in that you can specify which pages should be scanned.
+3. Use nofollow links
+Nofollow links tell Googlebot not to waste time scanning certain pages. These pages can either be the ones you consider less important or they are already linked within another topic. Nofollow links can’t be used for internal links. In the context of the Crawl Budget, they can prevent Googlebot leaving from the web page being scanned. You can read more about Link Sculpting and why the nofollow tag can’t be used in internal links.
+4. Don’t forget the Google sitemap
+Actually an SEO basic, but neglected again and again: The
+sitemap
+shows the complete structure of the website. Unimportant for human visitors – but for the Google Crawler like a map that makes navigation easier.
+5. Avoid unnecessary crawl paths
+The focus of crawl optimization is the crawler’s limited budget, which is additionally relieved by avoiding 
+
+[...truncated...]

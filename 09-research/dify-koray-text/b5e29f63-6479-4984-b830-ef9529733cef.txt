@@ -1,0 +1,163 @@
+"aria-level" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-level attribute focuses on the hierarchical level of the elements that are under the same structure, it is defined. The purpose of aria-level is to define the levels if the parents’ child relationships are too simple. The developer can use the aria-level attribute if the DOM is unable to represent the level of an element within the tree or the structure. The aria-level can be used with elements such as treegrid. The aria-level can be used with other ARIA labels such as aria-setsize and aria-posinset to be able to identify the position if the DOM is unavailable to present the elements in focus. The same rule applies to the aria-level like any other ARIA label, if the semantic elements can already provide the information to the screen reader, then there is no need to use ARIA.
+Contents of the Article
+show
+1.
+What is the function of the “aria-level” ARIA Label?
+2.
+What are the uses of the “aria-level” ARIA Label?
+3.
+Example Uses of “aria-level” ARIA Label
+4.
+What are the related ARIA Labels to “aria-level”?
+What is the function of the “aria-level” ARIA Label?
+The function of the aria-level is to identify which element is under the other elements, it can be a node listing items under another list of items under the tree element. The benefit of using aria-level is to let the user know what are the relations of the set of elements and who is controlling them. To prevent misinformation the aria-level should not be used if the DOM or Document Object Model already provides the level accuracy of the elements to the screen reader. The need for the aria-level in a structured element would be relevant if the DOM was unable to present the elements and their structure. The aria-level attribute is a required attribute of the heading role which provides information to assistive technologies that the element should be known as a heading.
+What are the uses of the “aria-level” ARIA Label?
+Listed below are the uses of the “aria-level” ARIA Label.
+Treeitem role:
+It represents being a child element of a Tree element, the tree element can node another tree element but a treeitem can not node a tree.
+Listitem role:
+It is used, together with the list role, to identify an item contained in a list group.
+Cell role:
+It represents being a child element of a row or column, it belongs to a table container or grid, and it is nested in the parent element called row.
+Tabpanel role:
+It is associated with the tab role that indicates the element is a container.
+Treegrid role:
+Is identified as being a grid element, that rows can be expanded and collapsed with similarity to the tree element.
+Example Uses of “aria-level” ARIA Label
+Listed below are the example uses of the “aria-level” ARIA Label.
+The purpose of aria-level is to define the levels if the parents’ child relationships are not specified by the DOM.
+<p>
+<div role="list>
+<div role="listitem" aria-level="1">Dessert</div>
+<div role="list">
+<div role="listitem" aria-level="2">ice cream</div>
+<div role="listitem" aria-level="2">pudding</div>
+<div role="listitem" aria-level="2">fruit salad</div>
+<div role="listitem" aria-level="2">jelly</div>
+</div>
+<div role="listitem" aria-level="1">Beverage</div>
+<div role="list">
+<div role="listitem" aria-level="2">soda</div>
+<div role="listitem" aria-level="2">vodka</div>
+<div role="listitem" aria-level="2">lemon Juice</div>
+</div>
+</div>
+</p>
+<p>
+<div role="list>
+<div role="listitem" aria-level="1">Ball Games</div>
+<div role="list">
+<div role="listitem" aria-level="2">basketball</div>
+<div role="listitem" aria-level="2">baseball</div>
+<div role="listitem" aria-level="2">volleyball</div>
+<div role="listitem" aria-level="2">soccer</div>
+</div>
+<div role="listitem" aria-level="1">Fighting Sports</div>
+<div role="list">
+<div role="listitem" aria-level="2">boxing</div>
+<div role="listitem" aria-level="2">wrestling</div>
+<div role="listitem" aria-level="2">taekwando</div>
+</div>
+</div>
+</p>
+<p>
+<div role="list>
+<div role="listitem" aria-level="1">PEN</div>
+<div role="list">
+<div role="listitem" aria-level="2">ballpen</div>
+<div role="listitem" aria-level="2">pencil</div>
+<div role="listitem" aria-level="2">technical pen</div>
+<div role="listitem" aria-level="2">sign pen</div>
+</div>
+<div role="listitem" aria-level="1">ENVELOP</div>
+<div role="list">
+<div role="listitem" aria-level="2">legal</div>
+<div role="listitem" aria-level="2">mail</div>
+<div role="listitem" aria-level="2">short</div>
+</div>
+</div>
+</p>
+<p>
+<div role="list>
+<div role="listitem" aria-level="1">Flying Vehicle</div>
+<div role="list">
+<div role="listitem" aria-level="2">helicopter</div>
+<div role="listitem" aria-level="2">airplane</div>
+<div role="listitem" aria-level="2">jetplane</div>
+<div role="listitem" aria-level="2">airballon</div>
+</div>
+<div role="listitem" aria-level="1">Car</div>
+<div role="list">
+<div role="listitem" aria-level="2">sedan</div>
+<div role="listitem" aria-level="2">suv</div>
+<div role="listitem" aria-level="2">pickup</div>
+</div>
+</div>
+</p>
+<p>
+<div role="list>
+<div role="listitem" aria-level="1">Bad Weather</div>
+<div role="list">
+<div role="listitem" aria-level="2">hurricane</div>
+<div role="listitem" aria-level="2">typhoon</div>
+<div role="listitem" aria-level="2">tornado</div>
+<div role="listitem" aria-level="2">blizzard</div>
+</div>
+<div role="listitem" aria-level="1">Calamiy</div>
+<div role="list">
+<div role="listitem" aria-level="2">earthquake</div>
+<div role="listitem" aria-level="2">tsunami</div>
+<div role="listitem" aria-level="2">typhoon</div>
+</div>
+</div>
+</p>
+What are the related ARIA Labels to “aria-level”?
+Listed below are the related ARIA Labels to “aria-level”.
+aria-setsize:
+The aria-setsize is related to aria-level because they are both focused on a container that has elements in levels. The
+aria-setsize
+attribute specifies the number of items within the container if the DOM was unable to present the elements.
+aria-posinset:
+The aria-posinset is related to the aria-level because they both define the cell elements contained by an element. The
+aria-posinset
+is an attribute that is set to the elements that are not present in the DOM, it provides the position in a table or treegrid.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-level” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 5 min
+TechSEO
+“aria-live” ARIA Label for Accessibili…
+TechSEO
+“aria-labelledby” ARIA Label for Acces…
+0
+0
+0

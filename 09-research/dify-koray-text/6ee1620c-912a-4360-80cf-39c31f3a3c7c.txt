@@ -1,0 +1,171 @@
+Google Knowledge Graph: How to Use it Via Python?
+Skip to content
+Google Knowledge Graph produces Knowledge Panels for entities that are reliable and have enough “Search Demand”. Knowledge Panels that appear in SERP show the relationships of related entities and how Google interprets the character of queries and search intent. More information is available on Knowledge Graph and Knowledge Panel features that are of great value to SEO. However, this article will mainly focus on the Google Knowledge Graph API. You can see the difference between a “string” and a “thing” with the Google Knowledge Graph API.
+Google is a
+Hybrid Search Engine
+. In other words, it is a Search Engine that offers a
+Personalized Search Experience
+with
+Phrase-based
+,
+Entity-based
+, and Hypertextual features and integrates Artificial Intelligence Systems into its algorithms. Amit Singhal said a nice word in 2012 when the Knowledge Graph was announced.
+“Not strings, things”.
+Amit Singhal, Google Fellow
+If you do not know what an entity is for a Search Engine and how can it help a Search Engine to understand a “content” better, you may check Google’s AI Blog to learn more about related terms such as Contextual Information Retriever or you may read our related Guidelines such as “
+Information Extraction with Python
+“. You can also read our “
+PyTrend Guideline
+” article to see how related entities are registered in Google Trends and how they are associated with which query.
+“Wouldn’t it be amazing that Google actually understand the words when you are doing search?” is the summative question asked by Jack Menzel, Product Management Director of Google.
+In this article, we will connect to the
+Google Knowledge Graph API
+with Python and Advertools, converting the most relevant Entities in specific queries into a data frame. We will examine entities’ IDs, their URLs in the
+Knowledge Base
+, how relevant they appear to be with which query, and how they are perceived in what language. We will also talk about the importance of perceiving a company as a real-world entity for SEO along with
+Semantic Search Engine Features
+and the Importance of Entities in the Ranking Algorithms.
+Before going any further, I must say what Advertools is. Advertools is a Python Package developed by Elias Dabbas. Advertools is a technology that combines Coding and Marketing concepts with a Data Science perspective and facilitates many processes for Holistic SEOs.
+I thank Elias Dabbas that he developed the Advertools and he created this function by being inspired by an SEO Case Study that I have written in Serpstat for the Unibaby with the question of “Is your brand is a string or a thing?”.
+After the update has been launched, I have started to write this guideline.
+Contents of the Article
+show
+1.
+Using Google Knowledge Graph API with Advertools to Analyze Entity Profiles
+1.1.
+1.Is Google Knowledge Graph API Suitable for Using in a Production-Critical Service?
+1.2.
+2. Installing or Updating the Advertools
+1.3.
+3. Opening a Google Developer Console Account and Creating Credentials
+1.4.
+4. Using Advertools for Querying in Knowledge Graph API
+1.4.1.
+How to Interpret Entities in the Google Knowledge Graph for Given Query with Advertools
+1.4.2.
+Is Your Brand a String or A Thing? Entity Association Process for Targeted Industries and Search Terms
+1.4.3.
+Importance of Sub-sides and Sub-profiles of Entities in a Knowledge Base Hierarchy
+1.4.4.
+How is Google Knowledge Graph Entities Registered and By What Score?
+1.4.5.
+Which Columns and Details Do Exist for an Entity in Knowledge Graph?
+1.4.6.
+How to Show Knowledge Panels for Entities in Google with URL Parameters and Queries?
+1.4.7.
+What is a Structured and Semantic Search Engine?
+1.4.8.
+How Does Google Realize and Record Different Entities and Different Profiles of Entities?
+1.4.9.
+Question and Answer Patterns for Different Entity Types in the Knowledge Base of Google
+1.4.10.
+How to Use Python and NLP for Understanding Semantic Structure of Entity Definitions in terms of Content Marketing?
+1.4.11.
+What are the Relevance and Confidence Scores in Google Knowledge Graph API Search Results?
+2.
+How Does Google Use the Entity Relations for Understanding the Authority of the Web Sites for Given Context?
+2.1.
+An Example of Entity-based Search: How Does Google Use Entities to Understand the Web-entities’ Authority and Expertise?
+2.2.
+Difference Between Spotify and Netflix: It is not Just About Putting Entities into Content
+3.
+Advertools’ Knowledge Graph Function for Understanding Google’s Perception of Reality
+3.1.
+Entities, Languages, and Language Parameter in the Advertools’ “Knowledge_Graph()” Function
+4.
+Last Thoughts on Knowledge Graph, Entities, and Holistic Search Engine Optimization
+Using Google Knowledge Graph API with Advertools to Analyze Entity Profiles
+After telling the importance of the Google Knowledge Graph, Knowledge Base, and Entities for the SEO, we may start to use Advertools for our analysis. If you haven’t downloaded Advertools before, you can download it by typing the following command in terminal.
+pip install advertools
+#or
+pip3 install advertools
+To use the Google Knowledge Graph API with Python and see which query comes up with which meaning for Google in which confidence and relevance scores, we will follow the steps below.
+Reading the Warning of the Google Knowledge Graph API
+Installing or Updating the Advertools
+Opening a Google Developer Console Account and Creating the Credentials
+Running our Function with Different Parameter Variations to Analyse Google’s Perception of Real-World Entities
+1.Is Google Knowledge Graph API Suitable for Using in a Production-Critical Service?
+Google Knowledge Graph API has the following warning in its official document, as well as in its own official document, Advertools.
+This API is not suitable for use as a production-critical service. Your product should not form a critical dependence on this API.
+Google Knowledge Graph API Documentation
+In other words, while using the Google Knowledge Graph API, you may notice some changes in the Google Knowledge Graph API’s responses. Also, Google KG API doesn’t have an internal team to support it or there is no one for contacting in the context of the Knowledge Graph (KG) API of Google. When I ask this warning to the lovely Martin Splitt, he didn’t say that the results are not reliable, he said that approached the results carefully. Also, a warning might be relevant for the Google Knowledge Graph API’s future, according to Martin Splitt, API is experimental, it can change anytime.
+Freebase is an old service that is being bought by Google which stores real-world entities. The entity IDs from the Google Knowledge Graph start with “g” or “m”. The ones that start with an “m” are from “Freebase while the ones that start with “g” are from Wikidata.
+In this context, the reliability of the results or the technical issues with the Google KG API is not clear, but in any case, we should be careful while interpreting the information that we acquired via Google KG API.
+From Google’s Search on 2020 Summary, my favorite section was for the Google Knowledge Graph and Natural Language Processing. The Semantic Dots and their representations of the places, peoples, and things are clear representative definitions of the logic of knowledge graphs.
+2. Installing or Updating the Advertools
+pip install advertools #for downloading it
+pip install --upgrade advertools #for updating it
+"""--user option can be used if you want to download the Advertools only for the specific user and its permission priviliages."""
+If you have downloaded the Advertools before, be sure that it is version 0.10.7 or further. To be sure, you can use the command below for checking the version of the Advertools.
+pip show advertools
+OUTPUT>>>
+Name: advertools
+Version: 0.10.7
+Summary: Productivity and analysis tools for online marketing
+Home-page: https://github.com/eliasdabbas/advertools
+Author: Elias Dabbas
+Author-email:
+[email protected]
+License: MIT license
+Location: c:\python38\lib\site-packages
+Requires: scrapy, pandas, twython, pyasn1
+Required-by:
+As we can see, the version of the Advertools is 0.10.7.
+3. Opening a Google Developer Console Account and Creating Credentials
+In order to preserve the integrity of the Guideline, I will only talk about this section shortly. Below are the steps to follow in order to open a Google Developer Console Account, Create a Project, and Credentials.
+Open a Google Developer Console Account (Requires a Gmail Account)
+Create a new project under the same Google Developer Console Account
+Include the Google Knowledge Graph API in the project.
+Create and Copy the Credentials (Read the Security and Billing Warnings)
+After creating the Google Knowledge Graph Project, do not share the created Credentials with anyone, and giving your project a name according to your purpose can prevent future confusion.
+You may see how to find the related API after opening the related Project. You also may check my Project Name as it is marked with red rectangle at the left upper corner.
+After creating the project (Advertools Knowledge Graph API in my case as in the image) and selecting the related API from the search bar, you will see the screen below for activation of the Google Knowledge Graph API.
+You should activate the Knowledge Graph Search API with the Enable Button.
+The best section in the image above is the sentence of that “Searches the Google Knowledge Graph for Entities”. Isn’t it beautiful? To continue, you should enable (activate) the Knowledge Graph Search API for the created project. After you have activated the API, you will see the screen below to create and copy the credentials.
+Click the “Create Credentials” button for finishing the process.
+After clicking the Create Credentials, you will see the screen below for determining the last conditions for your API Usage.
+Choose the API that you need to create credentials for, in which case it is Knowledge Graph Search API. After choosing the right API, click the “What Credentials do I need?” button.
+After clicking the “What Credentials do I need?” button, you will see your API Key as below.
+You may see the API Key that is necessary for us to use our Advertools Function for Google Knowledge Graph API Usage.
+After creating the Credentials, you may see your API Key with a name and a restriction warning as below.
+In this image, the API Key 1 has a “thick sign” at its left because, I have restricted the key, if you do not restrict the key, you shouldn’t share it with other persons.
+You also should pay attention to the “Remember to configure the OAuth Consent Screen with information about your application.” warning. It is about restricting the usage of the API Key we have generated. If you share the key with others without any restriction, it can consume your quota and also can create a costly bill for you along with some data breaches. I have restricted my key and also, and before publishing this Guideline, I also will shut down this project so that the key can’t be used by others in the name of me.
+Also, I recommend you to use the Other Google Developer Console APIs, there are lots of useful APIs for Holistic SEOs, Marketers, and Coders there like VisionAI API, Google Sheets API or Search Console API. Since we have our Credentials now, we can start with the most important and fun section, Usage of the Knowledge Graph API with Python.
+4. Using Advertools for Querying in Knowledge Graph API
+Advertools’ designed and developed function for the Google Knowledge Graph API is the “knowledge_graph()”. Elias Dabbas always pay attention to making Advertools easier to understand and use with a better speed. So, that’s why the “name” is so clear. You will see a basic use case of “knowledge_graph()” with VSCode in an “ipynb” file.
+from advertools import knowledge_graph
+key = 'AIzaSyDkKmQjnSZ3md0qMKZBspsuMOs-pSZ9H5U'
+knowledge_graph(key=key, query='Apple')
+OUTPUT>>>
+2020-09-19 19:23:56,971 | INFO | knowledge_graph.py:190 | single_request | Requesting: key=AIzaSyDkKmQjnSZ3md0qMKZBspsuMOs-pSZ9H5U, query=Apple
+In the first line, we have imported the necessary function from the Advertools.
+In the second line, we have assigned our API Key from the before section to a variable.
+We have used the “knowledge_graph()” function with “key” and “query” parameters. The Key is equal to our API Key, while “query” is equal to “Apple” in our first example.
+Below, you will see the output of our “knowledge_graph()” function call.
+In a DataFrame, we have our output with different columns that describes the Apple Entity.
+kg_df = knowledge_graph(key=key, query='Apple')
+#We have assigned the function into a variable to use its output in the future.
+kg_df[['result.name','result.description', 'resultScore']]
+We have different Entity Results for the string of “Apple”. You may see the entity results with their “resultScore” for the “Apple” string.
+You may see the result’s Names, Kinds, and their Result Scores for the given String.
+For small screen devices, if you might not see the result scores in the given image, you may check the results from the table below.
+Result Description
+Result Score
+Technology Company
+40384.667969
+Fruit
+7963.320801
+American Singer-songwriter
+4755.046875
+Watch
+3123.259766
+Mobile Phone
+2930.400635
+Plants
+2366.545410
+Result Scores and Result Descriptions
+To understand these scores and words in terms of Entity-relations, we should open a new sub-section so that Advertools’ “knowledge_graph()” function’s importance can be understood deeply.
+How to Interpret Entities in the Google Knowledge Graph for Given Query with Advertools
+We actually have 14 more results, but for making a quick analysis, these are enough for now. “resultScore” is actually the score of the “relevance” and “confidence” of the Entity for the given string. In this example, we see that the “Apple” string has different Entity Profiles that are entirely different from each other and also in a deepe
+
+[...truncated...]

@@ -1,0 +1,100 @@
+HTML <frame> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <frame> HTML Tag specifies each frame contained within a frameset. For instance, the developer may use a left frame for navigation and a right frame for the primary content. The developer specifies the frame with the frame tag for each frame. Because of the usability issues that frames have caused, they are not supported in HTML 5. Despite this, the <iframe> tag is still supported in HTML 5. The <frame> HTML Tag is part of the frame tags category in HTML Element Reference. The attributes of the <frame> HTML Tag are name, longdesc, src, noresize, scrolling, frameborder, marginwidth, marginheight, global and event attributes.
+<frame> code block example to learn how it works is given below.
+<frame src="url">
+The second example usage of the “<frame>” code block example is below.
+<frameset cols="25%,50%,25%">
+<frame src="https://www.facebook.com/login">
+<frame src="https://www.facebook.com/logout">
+</frameset>
+Contents of the Article
+show
+1.
+What is <frame> HTML Tag?
+2.
+How to Use <frame> HTML Tag?
+2.1.
+Example Usage of <frame> HTML Tag?
+3.
+What are the Attributes of <frame> HTML Tag?
+4.
+What are the Default CSS Settings for <frame> HTML Tag?
+5.
+What are the Related other HTML Tags to <frame>?
+What is <frame> HTML Tag?
+The <frame> HTML Tag is used to segment the web browser window into multiple pieces, each of which can be independently loaded. A frameset tag is a group of frames within the browser window. Creating Frames: Rather than using the body tag, use the frameset tag in HTML to enable the web browser to display frames. Instead of utilizing the body tag when generating frames, use the frameset tag in HTML to use frames in a web browser. However, HTML 5 deprecated this Tag. The frameset tag is used to specify how the browser should be divided. Each frame is identified by a frame tag, which essentially indicates which HTML document should be displayed within the frame. In an HTML document, the row attribute of the frame tag is used to define horizontal frames, and the col attribute of the frame tag is used to define vertical frames.
+How to Use <frame> HTML Tag?
+To use the <frame> HTML Tag, the site developer should create <frame src=”url”> to specify a specific region of the web page within the main web page. A page may include multiple such sections. Within the frameset tag, an HTML frame tag was used. Each frameset tag may contain several frame tags, each of which displayed a single piece of a web page. A frame element is a block-level element in HTML. Given that it has been deprecated, it is prudent to avoid its use. Instead, the iframe tag should be used.
+Example Usage of <frame> HTML Tag?
+The following examples of usage of <frame> HTML Tag is given below.
+<frameset cols="25%,50%,25%">
+<frame src="https://www.holisticseo.digital/python-seo/">
+<frame src="https://www.holisticseo.digital/techseo/">
+<frame src="https://www.holisticseo.digital/python-seo/">
+<frame src="https://www.holisticseo.digital/theoretical-seo/">
+<frame src="https://www.holisticseo.digital/on-page-seo/">
+</frameset>
+What are the Attributes of <frame> HTML Tag?
+There are multiple attributes for the <frame> HTML Tag. The following attributes are listed below.
+name attributes: The <frame> HTML Tag supports name attributes. This attribute is used to provide the frame’s name. It establishes a visual distinction between frames. Additionally, it is used to specify the frame into which a document should be loaded.
+longdesc attributes: The <frame> HTML Tag supports name attributes. A long description can expand on a shorter one given through the title attribute.
+src attributes: The <frame> HTML Tag supports name attributes. The src attribute in the frame tag is used to specify the source file that should be loaded into the frame. Any url can be used as the value of src.
+noresize attributes: The <frame> HTML Tag supports name attributes. The noresize attribute indicates whether or not the frame is resizable; whether the user has the ability to resize the frame
+scrolling attributes: The <frame> HTML Tag supports name attributes. The scrolling attribute specifies whether or not the frame is scrollable.
+frameborder attributes: The <frame> HTML Tag supports name attributes. The frameborder attribute specifies whether or not the frame should include a border.
+marginwidth attributes: The <frame> HTML Tag supports name attributes. The marginwidth attribute of the frame tag specifies the width in pixels of the intervals between the border and the contents of the left and right frames.
+marginheight attributes: The <frame> HTML Tag supports name attributes. The marginheight attribute of the frame element specifies the height in pixels of the intervals between the top and bottom frame borders and their contents.
+Global Attributes: The <frame> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <font> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <frame> HTML Tag?
+There is no Default CSS Setting for the <frame> HTML Tag
+What are the Related other HTML Tags to <frame>?
+The other related HTML Tags to the <frame> HTML Tag are listed below.
+<frameset> HTML Tag: The
+<frameset>
+HTML Tag is related to <frame> HTML Tag because they are both frame tags. The <frameset> HTML Tag specifies a number of frames that are used to embed web pages within the main web page using the frame tag.
+<iframe> HTML Tag: The
+<iframe>
+HTML Tag is related to <frame> HTML Tag because they are both frame tags. The <iframe> HTML Tag denotes an inline frame. It is used to incorporate other HTML documents or third-party content into the current web page, such as media files or applets.
+<noframes> HTML Tag: The
+<noframes>
+HTML Tag is related to <frame> HTML Tag because they are both frame tags. The <noframe> HTML Tag was created as a fallback option for browsers that do not support the frame tag. Use of the HTML noframes Tag is no longer recommended because it has been deprecated.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <frame> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <frameset> Tag Definition, Usage and Ex…
+TechSEO
+HTML <acronym> Tag Definition, Usage and Exa…
+0
+0
+0

@@ -1,0 +1,100 @@
+HTML <param> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <param> HTML Tag is used to send parameters to an embedded object. The <param> HTML Tag represents nothing on its own. It is used in conjunction with the <object> HTML tag to give parameters. The <param> HTML Tag is part of Programming HTML category in HTML Element Reference. The attributes of the <param> HTML Tag are name, value, global attributes and events attributes.
+<param> code block example to learn how it works is given below.
+<object data="/music/lostmojo.wav">
+<param name="controller" value="true">
+<param name="autoplay" value="false">
+</object
+The second example usage of the “<param>” code block example is given below.
+<object data="/music/lostmojo.wav">
+<param name="controller" value="true">
+<param name="repeat" value="false">
+</object>
+Contents of the Article
+show
+1.
+What is <param> HTML Tag?
+2.
+How to Use <param> HTML Tag?
+2.1.
+Example Usage of <param> HTML Tag?
+3.
+What are the Attributes of <param> HTML Tag?
+4.
+What are the Default CSS Settings for <param> HTML Tag?
+5.
+What are the Related other HTML Tags to <param>?
+What is <param> HTML Tag?
+The <param> HTML Tag is used to provide parameters for an <object> HTML Tag. The <param>HTML Tag does not indicate anything on its own.
+How to Use <param> HTML Tag?
+To use the <param> HTML Tag, the <param name=”” value=””> tag should be created by the web developer, The name and value attributes offer a name/value pair for usage by the <object> HTML Tag. Before any “flow content,” the <param> HTML Tag must be nested inside an <object> HTML Tag.
+Example Usage of <param> HTML Tag?
+The following example of usage of <param> HTML tag is given below.
+Set the "repeat" parameter to "true" to have the sound play as soon as the page loads.
+<object data="taylorswift.wav">
+<param name=replay" value="true">
+</object>
+What are the Attributes of <param> HTML Tag?
+There are multiple attributes for the <param> HTML Tag. The following attributes are listed below.
+Global Attributes: The <param> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <param> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+Name Attribute: The <param> HTML Tag supports Name Attribute. The attribute of name Provides a name for the item. The name attribute provides a name for the item.
+Value Attribute: The <param> HTML Tag supports Value Attribute. The Value Attribute defines the parameter’s value.
+What are the Default CSS Settings for <param> HTML Tag?
+The following is the Default CSS Setting for the <param> HTML Tag.
+param {
+display: none;
+}
+What are the Related other HTML Tags to <param>?
+The other related HTML Tags to the <param> HTML Tag are listed below.
+<noscript> HTML Tag: The
+<noscript>
+HTML Tag is related to <param> HTML Tag because they are both programming tags. The <noscript> HTML Tag specifies an alternative content for people who do not support client-side scripting.
+<applet> HTML Tag: The
+<applet>
+HTML Tag is related to <param> HTML Tag because they are both programming tags. HTML5 does not support the <applet> HTML Tag. Instead, use <embed> or <object>. This class defines an embedded applet.
+<embed> HTML Tag: The
+<embed>
+HTML Tag is related to <param> HTML Tag because they are both programming tags. The HTML <embed>Tag specifies a container for an external (non-HTML) program.
+<object> HTML Tag: The
+<object>
+HTML Tag is related to <param> HTML Tag because they are both programming tags. The HTML Tag <object> specifies an embedded object.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <param> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <link> Tag Definition, Usage and Exampl…
+TechSEO
+HTML <ul> Tag Definition, Usage and Examples…
+0
+0
+0

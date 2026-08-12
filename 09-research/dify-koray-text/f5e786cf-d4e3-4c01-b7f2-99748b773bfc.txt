@@ -1,0 +1,95 @@
+Skip to content
+The <svg> HTML Tag acts as a container for a new coordinate system and viewport definition. It is typically used as the document’s outermost element, but it can also be used to embed an SVG fragment within another SVG or HTML document. The <svg> HTML Tag is part of the images tags category HTML Element Reference. The attributes of the <svg> HTML Tag are Global and Event attributes.
+<svg> code block example to learn how it works is given below.
+<svg width="0" height="0">
+<shape width="0" height="0" style="fill:rgb(0,0,0);stroke-width:0;stroke:rgb(0,0,0)" />
+</svg>
+The second example usage of the “<svg>” code block example is given below.
+<svg height="210" width="500">
+<polygon points="200,10 250,190 160,210"
+style="fill:rgb(0,255,0);stroke-width:10;stroke:rgb(255,0,0)" />
+</svg>
+Contents of the Article
+show
+1.
+What is <svg> HTML Tag?
+2.
+How to Use <svg> HTML Tag?
+2.1.
+Example Usage of <svg> HTML Tag?
+3.
+What are the Attributes of <svg> HTML Tag?
+4.
+What are the Default CSS Settings for <svg> HTML Tag?
+5.
+What are the Related other HTML Tags to <svg>?
+What is <svg> HTML Tag?
+The <svg> HTML Tag denotes an SVG container. SVG supports a variety of drawing techniques for paths, boxes, circles, text, and graphic images.
+How to Use <svg> HTML Tag?
+To use <source> HTML Tag, the web developer should write <svg></svg> tag, which will generate a graphic with drawing paths, boxes, circles, text, and graphic images. Although the tag lacks local attributes, it can be used with any of the global or event content attributes.
+Example Usage of <svg> HTML Tag?
+The following example of usage of <svg> HTML Tag is given below.
+<svg width="400" height="110">
+<rect width="250" height="80" style="fill:rgb(0,255,0);stroke-width:3;stroke:rgb(255,0,0)" />
+</svg>
+What are the Attributes of <svg> HTML Tag?
+There are multiple attributes for the <svg> HTML Tag. The following attributes are listed below.
+Global Attributes: The <svg> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <svg> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <svg> HTML Tag?
+There is no default CSS Setting for <svg> HTML Tag.
+What are the Related other HTML Tags to <svg>?
+The other related HTML Tags to <svg> HTML Tag are listed below.
+<img> HTML Tag: The
+<img>
+HTML Tag is related to <svg> HTML Tag because they are both images tags. The <img> HTML Tag is used to specify the content of an image.
+<map> HTML Tag: The
+<map>
+HTML Tag is related to <svg> HTML Tag because they are both images tags. The <map> HTML Tag is used to define an image map.
+<canvas> HTML Tag: The
+<canvas>
+HTML Tag is related to <svg> HTML Tag because they are both images tags. The <canvas> HTML Tag is used to create JavaScript-based graphics elements.
+<figure> HTML Tag: The
+<figure>
+HTML Tag is related to <svg> HTML Tag because they are both images tags. The <figure> HTML Tag denotes self-contained content.
+<picture> HTML Tag: The
+<picture>
+HTML Tag is related to <svg> HTML Tag because they are both images tags. The <picture> HTML Tag is used to specify a container for multiple image resources.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <svg> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <noscript> Tag Definition, Usage and Ex…
+TechSEO
+HTML <track> Tag Definition, Usage and Examp…
+0
+0
+0

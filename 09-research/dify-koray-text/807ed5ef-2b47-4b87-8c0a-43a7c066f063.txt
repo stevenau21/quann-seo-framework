@@ -1,0 +1,124 @@
+Skip to content
+The Origin HTTP Header is a response HTTP header that tells the user about the security contexts that start an HTTP request without giving them the path information. The Origin HTTP Header is added by the browser and will not be changed by the person who is using it. There are multiple values for using the Origin HTTP Header. The values for using the Origin HTTP Header are null, scheme, hostname, and port. An example of the Origin HTTP Header is written below.
+Origin: https://developer.mozilla.org
+Origin: http://developer.mozilla.org:80
+The Origin HTTP Header Response Header is seen above. In the article, the Origin HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is Origin HTTP Header?
+1.1.
+What is the Syntax of the Origin HTTP Header?
+1.2.
+What is the Directive of Origin HTTP Header?
+2.
+How to use Origin HTTP Header?
+2.1.
+Examples of Origin HTTP Header Use
+3.
+What are the Specification Documents for Origin HTTP Header?
+4.
+What is the type of Origin HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Origin HTTP Header?
+5.
+Which Browsers Support Origin HTTP Header?
+What is Origin HTTP Header?
+The Origin HTTP Header Request header specifies the origin of the request (scheme, hostname, and port). For example, if a user agent needs to request resources contained within a page or retrieved by scripts that it executes, the origin of the page may be included in the request.
+What is the Syntax of the Origin HTTP Header?
+The Origin HTTP Header uses multiple values in its syntax. The syntax for using the Origin HTTP Header is written below.
+Origin: null
+Origin: <scheme>://<hostname>
+Origin: <scheme>://<hostname>:<port>
+What is the Directive of Origin HTTP Header?
+The Origin HTTP Header has multiple directives. The directives used for the Origin HTTP Header are listed below.
+Null: The origin is either “privacy-sensitive” or “opaque,” as defined by the HTML specification (specific cases are listed in the description section).
+<scheme>: The <scheme> is the protocol that is being utilized. HTTP, or its secure counterpart, HTTPS, is the protocol of choice in most cases.
+<hostname>: The <hostname> is the origin server’s domain name or IP address.
+<port> (Optional): The <port> (Optional) is the server’s listening port number. A service’s default port (e.g. “80” for an HTTP URL) is implied if no port is specified.
+An example directive for using the Origin HTTP Header is written below.
+Origin: null
+Origin: https://www.facebook.com
+How to use Origin HTTP Header?
+The Origin HTTP Header is similar to the Referer header except that it does not reveal the path and is null. Except in circumstances where the original information is sensitive or superfluous, it is utilized to give the “security context” for the origin request. User agents, in general, add the Origin request header to the following.
+Cross-origin requests.
+Same-origin requests except for GET or HEAD requests (i.e. they are added to same-origin POST, OPTIONS, PUT, PATCH, and DELETE requests).
+There are several exceptions to the above rules; for example, the Origin HTTP Header will not be added to a cross-origin GET or HEAD request done in no-cors mode. The Origin HTTP Header value may be null in a variety of situations, including the following.
+Origins that do not use http, https, ftp, ws, wss, or gopher as their scheme (including blob, file, and data).
+Images and media data from several origins, including those contained in the img>, video>, and audio> elements.
+Documents created programmatically with createDocument(), from a data: url, or without a creator browsing context.
+Redirects from several origins.
+iframes that lack the allow-same-origin value in their sandbox property.
+Errors in the network response.
+Examples of Origin HTTP Header Use
+It indicates that the requested service has no origin.
+Origin: null
+It indicates that the origin exists if the service requested is available and has the scheme HTTPS and the hostname www.twitter.com.
+Origin: https://www.twitter.com
+What are the Specification Documents for Origin HTTP Header?
+The following is the specification document of the Origin HTTP Header.
+RFC 6454 section 7 mentions the Origin HTTP Header definition and uses.
+RFC 6454 section 7.1. mentions the Origin HTTP Header syntax and examples
+RFC 6454 section 7.2. mentions the Origin HTTP Header semantics.
+RFC 6454 section 7.3. mentions the Origin HTTP Header to be included in the User-Agent Requirements.
+What is the type of Origin HTTP Header?
+The Origin HTTP Header is a Request header that specifies the request’s origin (scheme, hostname, and port).
+What are the similar HTTP Headers to the Origin HTTP Header?
+There are other similar HTTP to the Origin HTTP Header. An example is listed below.
+Host HTTP Header: The HOST HTTP Header is similar to the Origin HTTP Header. Using the
+Host HTTP Header
+request header, you may identify the server to which the request is being sent by its host and port number. Like the Origin HTTP Header, which is a request header type.
+Referer HTTP Header: The Referer HTTP Header request header contains the URL of the page that is making the request, in either its whole or partial form. The Referer header tells a server where a user is coming from when they access a page. Using this data for analytics, logging, caching optimization, and more is possible. Like the Origin HTTP Header, which is a request header type.
+Same-origin policy HTTP Header: The same-origin policy is an important security mechanism that limits how a document or script loaded from one origin can interact with a resource from another origin. The Origin HTTP Header, which also indicates the security contexts, is analogous.
+Which Browsers Support Origin HTTP Header?
+There are multiple browsers that support Origin HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Origin HTTP Header.
+Edge Browser is compatible with the Origin HTTP Header.
+Firefox Browser is compatible with the Origin HTTP Header.
+Internet Explorer Browser is compatible with the Origin HTTP Header.
+Opera Browser is compatible with the Origin HTTP Header.
+Safari Browser is compatible with the Origin HTTP Header.
+WebView Android Browser is compatible with the Origin HTTP Header.
+Chrome Android Browser is compatible with the Origin HTTP Header.
+Opera Android Browser is compatible with the Origin HTTP Header.
+Safari on iOS Browser is compatible with the Origin HTTP Header.
+Samsung Internet Browser is compatible with the Origin HTTP Header.
+You can see an image that shows the cross-browser compatibility of Origin HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Origin HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Sec-CH-UA HTTP Header: Syntax, Directive, Examples…
+TechSEO
+Sec-Fetch-Site HTTP Header: Syntax, Directive, Exa…
+0
+0
+0

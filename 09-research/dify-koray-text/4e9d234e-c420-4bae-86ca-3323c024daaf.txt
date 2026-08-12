@@ -1,0 +1,86 @@
+402 HTTP Response Status Code Definition: Example, Usage, Methods - Holistic SEO
+Skip to content
+The 402 HTTP Status Code means that the request is payment required that can be used in the future to indicate a nonstandard response. Digital cash or (micro)payment systems can be enabled with this Status Code, and it indicates that the requested content will not be available until the customer makes a payment. There are situations when the request cannot be processed until the client pays. However, there is no universally accepted usage convention, and different entities employ it in a variety of contexts. There is no available method stated on how to use the 402 HTTP Status Code. The 400 HTTP Status Codes indicate that the server was unable to interpret the request due to invalid syntax, while the 402 HTTP Status Code indicates that the response code is being held in reserve for further use.
+Contents of the Article
+show
+1.
+What does 402 HTTP Status Code Mean?
+1.1.
+How to Use 402 HTTP Status Code for a Website?
+2.
+How to Check 402 HTTP Status Code?
+2.1.
+Which HTTP Method is used with 402 HTTP Status Code?
+3.
+What is the Related HTTP Response Header with 402 HTTP Status Code?
+4.
+What are the Browsers Compatibility of 402 HTTP Status Code?
+5.
+What are the other Similar Status Codes to 402 HTTP Status Code?
+What does 402 HTTP Status Code Mean?
+The 402 HTTP Status Code which means payment required is a reserved non-standard response Status Code for future use. The purpose of developing this response code is to facilitate the use of the digital payment system.
+How to Use 402 HTTP Status Code for a Website?
+The 402 Status Code is not in use at the moment; it is marked as “reserved for future use.”
+How to Check 402 HTTP Status Code?
+To check the 402 HTTP Status Code, use the web browser network tab and developer tools for every resource that the client uses.
+Which HTTP Method is used with 402 HTTP Status Code?
+There is only one method used with the 402 HTTP Status Code which is the HEAD method. The HEAD method requests a response identical to that of the GET method, but without the content of the answer.
+What is the Related HTTP Response Header with 402 HTTP Status Code?
+There is only one related HTTP response header with the 402 HTTP Status Code which is HTTP Authentication that establishes a foundation for controlling and authenticating access.
+What are the Browsers Compatibility of 402 HTTP Status Code?
+The 402 HTTP Status Code is compatible with all browsers including Chrome, Edge, Firefox, Internet Explorer, Opera, Safari, and Webview Android.
+What are the other Similar Status Codes to 402 HTTP Status Code?
+There are other similar HTTP Status Codes to the 402 HTTP Status Code. The following are listed below.
+403 Forbidden HTTP Status Code: The
+403 HTTP Status Code
+is similar to 402 HTTP Status Code because they are both client error responses. The 403 HTTP Status Code indicates that the client lacks access permissions to the material; in other words, it is unauthorized, and so the server will not provide the requested resource.
+404 Not Found HTTP Status Code: The
+404 HTTP Status Code
+is similar to the 402 HTTP Status Code because they are both client error responses. The 404 HTTP Status Code indicates that the server has been unable to locate the requested resource. This indicates that the URL is not recognized by the browser. This can also signify that the endpoint is correct but the resource does not exist in the API. Additionally, servers may use this response rather than 403 Forbidden to conceal the existence of a resource from an unauthorized client. Due to its frequent presence on the web, this response code is likely the most well-known.
+405 Method Not Allowed HTTP Status Code: The
+405 HTTP Status Code
+is similar to the 402 HTTP Status Code because they are both client error responses. The 405 HTTP Status Code indicates that the server is aware of the request method but the target resource does not support it. For instance, an API may not permit the use of DELETE to delete a resource.
+406 Not Acceptable HTTP Status Code: The
+406 HTTP Status Code
+is similar to the 402 HTTP Status Code because they are both client error responses. The 406 HTTP Status Codes indicates that the response is delivered when the web server does not locate any content that meets the user agent’s criteria after completing server-driven content negotiation.
+407 Proxy-Authentication Required HTTP Status Code: The 407 HTTP Status Code is similar to 402 HTTP Status Code because they are both client error responses. The
+407 HTTP Status Code
+indicates that authentication must be performed through a proxy.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+402 HTTP Response Status Code Definition: Example, Usage, Methods
+by Holistic SEO
+time to read: 3 min
+TechSEO
+403 HTTP Response Status Code Definition: Example,…
+TechSEO
+400 HTTP Response Status Codes: Meaning, Methods &…
+0
+0
+0

@@ -1,0 +1,112 @@
+From HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The From HTTP Header request header specifies an Internet email address for a human user who is the owner of the requesting user agent. If the user is using a robotic user agent (e.g., a crawler), the From HTTP Header must be given so that users are able to be contacted if any server difficulties occur. These include if the robot makes excessive, undesired, or invalid requests. There is only one value using the From HTTP Header. The value using the From HTTP Header is the email. An example of the From HTTP Header is written below.
+From:
+[email protected]
+From:
+[email protected]
+The From HTTP Header Request Header is seen above. In the article, the From HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is From HTTP Header?
+1.1.
+What is the Syntax of From HTTP Header?
+1.2.
+What is the Directive of From HTTP Header?
+2.
+How to use From HTTP Header?
+2.1.
+Examples of From HTTP Header Use
+3.
+What is the Specification Document for From HTTP Header?
+4.
+What are the types of From HTTP Header?
+4.1.
+What is the similar HTTP Header to the From HTTP Header?
+5.
+Which Browsers Support From HTTP Header?
+What is From HTTP Header?
+The From HTTP Header is a request type header that specifies an e-mail address that is sent to the client via a robotic agent. The agent will be either a crawler or a user robotic agent controlled by the primary user. The header field contains an e-mail address on the Internet for a user or client requesting a user agent. The primary benefit is that if the robotic agent makes an inappropriate request to the client, the primary user is able to be contacted. The From HTTP Header field is used for a variety of purposes, including recording and assisting an investigator in determining the source of excessive requests. Due to security concerns, the From HTTP Header should be distinct from the Host header.
+What is the Syntax of From HTTP Header?
+The From HTTP Header uses only one value in its syntax. The syntax for using the From HTTP Header is written below.
+From: <email>
+What is the Directive of From HTTP Header?
+The From HTTP Header only contains one directive. The email represents an email address that is machine-readable. An example directive for using the From HTTP Header is given below.
+From:
+[email protected]
+How to use From HTTP Header?
+In order to send a robot-generated email to a client, the From HTTP Header specifies an email address. In either case, the agent will be a crawler or a user-controlled robotic agent. Users or clients who want a user agent are able to request one via the Internet by including their email addresses in the header field. The key advantage is that the primary user is able to be contacted if the robot makes an incorrect request to the client. Users are able to record and aid an investigator by using the From HTTP Header header to identify the source of excessive requests. For security reasons, the From HTTP Header should be separate from the Host header.
+Examples of From HTTP Header Use
+The following is an example of how to use the From HTTP Header.
+From:
+[email protected]
+From:
+[email protected]
+From:
+[email protected]
+From:
+[email protected]
+What is the Specification Document for From HTTP Header?
+There is only one specification document for the From HTTP Header, which is RFC 7231. The RFC 7231 Article 5.5.1 mentions the From HTTP Header’s definition and uses. It says that the From HTTP Header contains an internet email address for a human user who controls the requesting user agent. It gives some examples of how to use the From HTTP Header.
+What are the types of From HTTP Header?
+The From HTTP Header Types are listed below.
+The From HTTP Header is a type of request header that includes an Internet email address for the human user who controls the requesting user agent.
+The From HTTP Header is a type of Representation Header that contains information about the resource’s body, such as its email address.
+What is the similar HTTP Header to the From HTTP Header?
+There is only one HTTP Header that is similar to the From HTTP Header. A similar HTTP Header to the From HTTP Header is the Host HTTP Header. Similar to the From HTTP Header, which is also a request header type, the
+Host HTTP Header
+specifies the host and port number of the server to which the request is being sent.
+Which Browsers Support From HTTP Header?
+There are multiple browsers that support From HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the From HTTP Header.
+Edge Browser is compatible with the From HTTP Header.
+Firefox Browser is compatible with the From HTTP Header.
+Internet Explorer Browser is compatible with the From HTTP Header.
+Opera Browser is compatible with the From HTTP Header.
+Safari Browser is compatible with the From HTTP Header.
+WebView Android Browser is compatible with the From HTTP Header.
+Chrome Android Browser is compatible with the From HTTP Header.
+Firefox for Android Browser is compatible with the From HTTP Header.
+Opera Android Browser is compatible with the From HTTP Header.
+Safari on iOS Browser is compatible with the From HTTP Header.
+Samsung Internet Browser is compatible with the From HTTP Header.
+You can see an image that shows cross-browser compatibility of From HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+From HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+Host HTTP Header: Syntax, Directive, Examples
+TechSEO
+Link HTTP Header: Syntax, Directive, Examples
+0
+0
+0

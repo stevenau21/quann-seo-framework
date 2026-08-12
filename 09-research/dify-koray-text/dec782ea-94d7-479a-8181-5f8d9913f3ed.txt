@@ -1,0 +1,132 @@
+Above the Fold and Below the Fold: Differences and Definitions - Holistic SEO
+Skip to content
+Below the Fold (or “Under the Fold”) and Above the Fold is elements on a website. As advertising banners, ads or links, they are often part of above the fold or below the fold on a web page. The decisive factor for the definition is the immediate visibility of the area. Depending on whether the user has to scroll to see the content, these parts of the page are considered Above the Fold or Below the Fold.
+A Search Engine and users can understand which part of the wep pabe is more important and what is the web page’s primary focus and purpose from the distinction between above the fold and below the fold.
+Contents of the Article
+show
+1.
+Where do the terms Above the Fold and Below the Fold come from?
+2.
+What is the meaning of Below the Fold?
+3.
+Why is Above the Fold important?
+4.
+Which Content should be in the Above the Fold?
+5.
+How can user behavior be controlled in the above the fold area?
+6.
+How can websites be designed in a modern way?
+7.
+How does Above the Fold affect SEO?
+8.
+What are the parts of Above the Fold in the CSS?
+9.
+Does the call-to-action belong in the above the fold area?
+9.1.
+If visitors come to your site via a referral campaign:
+9.2.
+Are the users of the site unsure and know the product?
+9.3.
+Are visitors unsure and is the product very complex?
+10.
+Why are Above the Fold and Below the Fold Sections so important for SEO and UX?
+Where do the terms Above the Fold and Below the Fold come from?
+In web design, the term Above the Fold refers to the area of a page that the user sees during his visit without scrolling down. Anything below this imaginary line is considered below the fold. This means content that the user can only view by scrolling.
+The term “fold” originally comes from the printing industry and symbolizes the fold line that is created when a newspaper is folded. Metaphorically applied to websites and their design, Above the Fold takes on a not-insignificant relevance for the design of a website and its content as a symbolic fold line.
+What is the meaning of Below the Fold?
+Below the Fold is interesting for various reasons: E-commerce websites can display additional products, posts or social proofs here. The same applies to editorial pages. Below the Fold, you can link to similar articles or further information. The area is ideal for positively influencing user behavior on the website. The following effects are possible:
+Longer stay
+Higher clickthrough rate
+Better customer loyalty
+Conversion Rate Optimization
+with better Product Recommendation Systems
+Informational Content within a Commercial Web Page can help users to see the entity’s authority on the topic.
+If you put too much content on an e-commerce web page’s below the fold section, Search Engines’ Algorithm can confuse in terms of the primary focus of the web page.
+Why is Above the Fold important?
+New technologies sparked the revolution in behavior that affects the location and patterns of Internet use. Users are increasingly accessing the Internet from their smartphone or tablet. Mobile use is changing the way users act on the Internet.
+Smaller screens require more intensive scrolling on websites. In addition, mobile use is also noticeable in a constantly changing screen view. The user starts changing screens by “swiping” on the screen.
+These changed behaviors of Internet users in the course of mobile technologies are changing the design and conception of websites.
+A page and its elements are principally viewed on displays in various sizes. This goes hand in hand with the folds appearing in very different positions on the website. The visibility of the Above the Fold varies. The decisive factors, such as screen resolution or page enlargement, differ among users. These variations must be taken into account when designing the Above the Folds.
+Critical Rendering Path and Initial Page Loading terms are also related to the Above the Fold term. A web page with a better CSS and HTML structure can engage with user faster to perform its primary purpose.
+Which Content should be in the Above the Fold?
+There are no hard and fast rules when it comes to the ideal placement of elements on a page. At best, you can work with best practices for the design of the Above the Fold area. Against the background of differentiated user behavior, varying smartphone dimensions, screen resolutions and screen sizes, these recommendations are not set in stone.
+In general, the most important content appears at the beginning of the website. However, the immediately visible part of a page must not be overloaded with elements with too much information.
+With Puppeteer, several screenshots from the different devices and browsers can be taken to check how above the fold section of the web page is being seen to understand its performance. Also, A/B Testing for the above the fold part design is crucial.
+How can user behavior be controlled in the above the fold area?
+It is advisable to specifically attract the visitor’s attention in Above the Fold. There are hints and incentives that animate the user to scroll and take notice of the rest of the page, i.e. the below the fold.
+To enable clear navigation and presentation, columns in Above the Fold are ideal. Offset columns signal to the user that there is further information. The text section is deliberately interrupted by the fold. The simplified navigation can also be achieved via pre-drawn paths that are divided by the fold line.
+According to the web page’s purpose and users’ primary search intent, above the fold area can be designed. If the purpose of the user is that searching for a jogging bike, you may give the best-selling products’ images and prices along with the “add to cart” button.
+If the query is “credit interest calculation”, you need to give a calculator in the above the fold section with a smooth text for guiding the user, also some of the users may wonder “how credit interest is being calculated”. You may also need to contain some informational content on the web page with easy navigational components.
+How can websites be designed in a modern way?
+Various tools support the development of a tangible layout. Visual tests of the website are essential in any case. An appealing design that gives value to the different dimensions of use is important for good user experience on the site.
+Minimalist and elegant designs optimize the user experience – also in the area of mobile Internet use, the importance of which is growing. With the help of the effective design of the Above the Fold area, the user is empowered to discover the content and elements of a website himself. This freedom of choice hits the nerve of modern usage behavior: Because content is increasingly accessed on demand.
+How does Above the Fold affect SEO?
+With the Page Layout Algorithm Update (Ads Above The Fold) from January 19, 2012, Google is penalizing websites that massively use advertising in the Above the Fold area. From the perspective of the user, such websites offer a low user experience. Because the user must first struggle through ads to be able to view the content.
+In the course of this update, it is advisable for a good ranking to balance the relationship between content and advertising banners. The content of the page must not suffer from excessive advertising targeting. In this case, on-page optimization affects not only the technical aspect of a website but also the design factor and user-friendliness.
+Experience has shown that the upper part of a website receives the first and strongest attention from a user. Therefore, this area is a popular place for advertising banners. Excessive advertising will result in poorer ranking and traffic.
+Websites with massive advertising Above the Fold are also problematic for mobile devices. Because without the use of solutions, for example, a responsive design, the content of the page is difficult to recognize for the user.
+What are the parts of Above the Fold in the CSS?
+The
+CSS (Cascading Style Sheets)
+are tiered style sheets in the form of a design and formatting language. This language determines the look of
+HTML
+documents and not their content.
+The CSS regulates, among other things, the design that is loaded in Above the Fold. Possible components are, for example, the header and the logo, the primary navigation, the layout structure, the body specification in CSS, the H1 heading, and the navigation via the content.
+These areas of the pages each have CSS information, which is essential for loading the page. Critical CSS can be identified and optimized using tools.
+The design of a website affects its loading speed. The speed of loading is also one of the ranking factors of Google. Therefore, the design of the page must not disadvantage the loading speed.
+Also, for the Above the Fold section of the web page, using internal or inline CSS is being recommended for faster initial contact with the user.
+Does the call-to-action belong in the above the fold area?
+The optimal placement of the
+Call-to-Action
+(CTA) is controversial. The myth has established that the CTA must be immediately visible on the website.
+The CTA should appear in principle when the user is convinced of the product and wants to interact.
+Relevant are specific factors that affect the advertised product and the attitude of the user to this product:
+If visitors come to your site via a referral campaign:
+Visitors who come to the site with an existing conviction for an offer are likely to react to the CTA. You made your decision before visiting the website. The placement is therefore not decisive. But if the Conversion Rate is important for you on this campaign, you may need to make sure that users can easily see your CTA and they can be redirected to your
+Conversion Funnel
+.
+Since, every user group has a different persona, designing different landing pages for different traffic sources can also help.
+The important part here is that you need to show the Search Engine only the canonical version of the same web page if the alternative web pages are different.
+You can read our A/B Testing and Landing Page articles to understand this topic better.
+Are the users of the site unsure and know the product?
+If insecure users have previous knowledge of the product, it makes sense to place the CTA Above the Fold.
+Are visitors unsure and is the product very complex?
+If a service or a product is obviously not advantageous for users who are already undecided, it takes more than a targeted placement of the CTA to achieve a conviction. What is needed is a deeper explanation of why the user should follow the CTA.
+To increase your Conversion Rate, you need to differentiate every user persona from each other via Google Analytics and Market Analysis.
+Why are Above the Fold and Below the Fold Sections so important for SEO and UX?
+Above the fold can easily change your ranking. It is directly related to the User Experience and Conversion Rate. It is also being affected by Page Speed and Technical SEO. Above the Fold and Page Layout gives the web page’s identity easily.
+If a web page’s layout is designed according to only informational queries, it can’t satisfy the users who are coming via “transactional queries”. Satisfying more than one need in a single web page can create more authoritative historical data on the eyes of the Search Engine since it has more capacity.
+It also helps the Search Engines to crawl lesser pages with lesser cost. That’s why they also create SERP Features such as Fraggles or Jumping Links to redirect the user to the relevant part of the web page according to their queries.
+The last example of this SERP improvements is being made for Featured Snippets which can make a user redirect to the related section of the text after clicking the result.
+Another importance of properly designing Page Layout and Above the Fold sections is that it is more difficult to create authoritative and full-scale pages. Thus, only authoritative and talented publishers can create sufficient trust in SERP.
+Therefore, web pages designed for different user profiles are important, which both increase the user experience and lower the cost for Search Engine, satisfying multiple search intentions.
+As Holistic SEOs, we will continue to do research on Above the Fold and Conversion Rate.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+UX
+What are Below the Fold and Above 
+
+[...truncated...]

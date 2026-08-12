@@ -1,0 +1,4 @@
+Daniel Heredia Mejias - Holistic SEO
+Skip to content
+Some months ago I wrote an article on my blog and I had the pleasure to give a webinar with Hamlet Batista about how you can categorize websites based on the topic with Python by using Google NLP API, google trans, and cloudscraper. I approach this article like a second part of that post to …
+Read more

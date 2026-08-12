@@ -1,0 +1,214 @@
+200 HTTP Response Status Codes: Meaning, Methods - Successful Responses - Holistic SEO
+Skip to content
+The HTTP 200 OK success status response code represents a successful HTTP request. The 200 responses are cacheable by default. The GET, HEAD, PUT, POST, and TRACE request method determines the meaning of success 200 Status Code. An origin server generates a payload body of zero length. Aside from CONNECT responses, a 200 response always includes a payload. An origin server sends 204 (No Content) HTTP Status Code if no payload is desired. There is no payload allowed for the CONNECT HTTP Request Method because the successful result is a tunnel that begins immediately after the 200 HTTP Status Code response header section. A 200 response is cacheable by default by a web browser unless the method definition or explicit cache controls indicate otherwise.
+Contents of the Article
+show
+1.
+What are the 200 (OK) Status Codes?
+1.1.
+List of 200 HTTP Response Status Codes and Meaning
+2.
+What are the HTTP Methods for HTTP 200 Status Codes?
+2.1.
+1. HTTP Get Method and 200 Status Code Meaning
+2.2.
+2. HTTP HEAD Method and 200 Status Code Meaning
+2.3.
+3. HTTP PUT Method and 200 Status Code Meaning
+2.4.
+4. HTTP POST Method and 200 Status Code Meaning
+2.5.
+5. HTTP TRACE Method and 200 Status Code Meaning
+What are the 200 (OK) Status Codes?
+There are multiple status codes using the 200 OK Success Status Response Code. The status codes using the 200 OK Success Status Response Code are listed below.
+The main 200 HTTP Status Codes are listed below.
+201 HTTP Status Code:
+201 HTTP Status Code
+is one of the main 200 HTTP Status Codes, which means the request was successful, and a new resource was created as a result. This is typically the response sent in response to POST or PUT requests.
+204 HTTP Status Code:
+204 HTTP Status Code
+is one of the main 200 HTTP Status Codes, which means there is no content to send for this request, but the headers may be useful. The user agent may replace the resource’s cached headers with the new ones.
+207 HTTP Status Code:
+207 HTTP Status Code
+is one of the main 200 HTTP Status Codes, which means that for instances status codes may be appropriate, they convey information about multiple resources.
+List of 200 HTTP Response Status Codes and Meaning
+The 200 HTTP Response Status Codes are listed below.
+201 Created: As a result of the request’s success, a new resource was created. This is typically the response sent in response to POST or PUT requests.
+202 Accepted
+: The request was received but not yet processed. It is noncommittal because HTTP does not allow you to send an asynchronous response indicating the outcome of the request later. It is intended for cases where the request is handled by another process or server, or for batch processing.
+203 Non-Authoritative Information
+: This response code indicates that the returned metadata is not the same as what is available from the origin server, but was obtained from a local or third-party copy. This is typically used for mirroring or backing up another resource. Except in that case, the 200 OK response is preferable to this status.
+204 No Content: This request has no content to send, but the headers may be useful. The user agent may replace the resource’s cached headers with the new ones.
+205 Reset Content
+: This command instructs the user agent to reset the document that sent this request.
+2
+06 Partial Content
+: This response code is used when the client sends the Range header to request only a portion of a resource.
+207 Multi-Status: For situations where multiple status codes are appropriate, this tool provides information about multiple resources.
+208 Already Reported
+: In order to avoid having to re-enumerate the internal members of multiple bindings to the same collection, the <dav:propstat> response element is used.
+226 IM Used
+: The response is an instance-manipulation result that was applied to this instance after it was served a GET request for the resource.
+What are the HTTP Methods for HTTP 200 Status Codes?
+The HTTP Methods for HTTP 200 Status Codes are listed below.
+GET: The resource has been retrieved and is being sent in the message body.
+HEAD: The representation headers are included in the response, but no message body is included.
+POST: The resource describing the action’s outcome is transmitted in the message body.
+PUT: Replaces the uploaded content with all current representations of the target resource.
+TRACE: The message body contains the server’s response to the request message.
+1. HTTP Get Method and 200 Status Code Meaning
+The GET method is used to retrieve data from a server using a given URI (Uniform Resource Identifier). GET requests should only retrieve data from the webserver after HTTP Requests. The HTTP Get Method has no other effect on the data from the web server response. The GET method sends the encoded user information appended to the page request which is the response body.
+Example usage of HTTP Get Method for HTTP 200 Status Code is below.
+GET /example.htm HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+Host: www.holisticseo.digital
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate, br
+Connection: Keep-Alive
+The server response to the preceding HEAD request will be as follows.
+HTTP/1.1 200 OK
+Date: Thursday, 02 Dec 2021 12:30:53 GMT
+Server: Apache/2.2.14 (Win32)
+Last-Modified: Wed, 22 Jul 2009 19:15:56 GMT
+ETag: "34aa387-d-1568eb00"
+Vary: Authorization,Accept
+Accept-Ranges: bytes
+Content-Length: 88
+Content-Type: text/html
+Connection: Closed
+<html>
+<body>
+<h1>HTTP 200 Status Code Sample with HTTP Request Methods</h1>
+</body>
+</html>
+2. HTTP HEAD Method and 200 Status Code Meaning
+The HEAD method is similar to GET in functionality, except that the server responds with a response line and headers but no entity-body. This is useful for retrieving meta-data from response headers without having to transport the entire content.
+Example usage if HTTP HEAD Method for HTTP 200 Status Code is below.
+HEAD /examples.htm HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+Host: www.holisticseo.digital
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+The server response to the preceding HEAD request will be as follows.
+HTTP/1.1 200 OK
+Date: Thursday, 02 Dec 2021 08:28:58 GMT
+Server: Apache/2.2.14 (Win32)
+Last-Modified: Wed, 22 Jul 2009 19:15:56 GMT
+ETag: "34aa387-d-1568eb00"
+Vary: Authorization,Accept
+Accept-Ranges: bytes
+Content-Length: 88
+Content-Type: text/html
+Connection: Closed
+You can see that the server does not send any data after the header in this case.
+3. HTTP PUT Method and 200 Status Code Meaning
+The PUT method instructs the server to save the included entity-body at the location specified by the URL. The PUT method replaces the uploaded content with all current representations of the target resource.
+Example usage of HTTP PUT Method for HTTP 200 Status Code is below.
+PUT /example.htm HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+Host: www.holisticseo.digital
+Accept-Language: en-us
+Connection: Keep-Alive
+Content-type: text/html
+Content-Length: 182
+<html>
+<body>
+<h1>HTTP 200 Status Code Sample with HTTP Request Methods </h1>
+</body>
+</html>
+The server will save the given entity-body in the hello.htm file and respond to the client with the following response.
+HTTP/1.1 201 Created
+Date: Thu, 02 Dec 2021 10:36:23 GMT
+Server: Apache/2.2.14 (Win32)
+Content-type: text/html
+Content-length: 30
+Connection: Closed
+<html>
+<body>
+<h1> HTTP 200 Status Code Sample with HTTP Request Methods </h1>
+</body>
+</html>
+4. HTTP POST Method and 200 Status Code Meaning
+HTTP Post Method with 200 HTTP Status Code response means when you want to send data to the server, such as a file update or form data, you use the POST method. The PUT method requests that the enclosed entity be saved at the URI specified. If the URI refers to an already existing resource, it is modified; otherwise, if the URI does not point to an existing resource, the server can create one with that URI.
+Example usage of HTTP POST method for HTTP 200 Status Code is below.
+POST /cgi-bin/process.cgi HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+Host: www.holisticseo.digital
+Content-Type: text/xml; charset=utf-8
+Content-Length: 88
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://clearforest.com/">string</string>
+The server-side scripting procedure. The passed data is processed by cgi, and the following response is sent.
+HTTP/1.1 200 OK
+Date: Thu, 02 Dec 2021 11:28:23 GMT
+Server: Apache/2.2.14 (Win32)
+Last-Modified: Wed, 22 Jul 2009 19:15:56 GMT
+ETag: "34aa387-d-1568eb00"
+Vary: Authorization,Accept
+Accept-Ranges: bytes
+Content-Length: 88
+Content-Type: text/html
+Connection: Closed
+<html>
+<body>
+<h1>HTTP 200 Status Code Sample with HTTP Request Methods </h1>
+</body>
+</html>
+5. HTTP TRACE Method and 200 Status Code Meaning
+The TRACE method is used to return the contents of an HTTP Request to the requester for debugging purposes during development.
+Example usage of HTTP TRACE Method for HTTP 200 Status Code is below.
+TRACE / HTTP/1.1
+Host: www.holisticseo.digital
+User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+The server will send the following message in response to the above request.
+HTTP/1.1 200 OK
+Date: Thu, 02 Dec 2021 07:36:44 GMT
+Server: Apache/2.2.14 (Win32)
+Connection: close
+Content-Type: message/http
+Content-Length: 39
+TRACE / HTTP/1.1
+Host: www.holisticseo.digital
+User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+200 HTTP Response Status Codes: Meaning, Methods – Successful Responses
+by Holistic SEO
+time to read: 6 min
+TechSEO
+300 HTTP Response Status Codes: Meaning, Methods &…
+TechSEO
+306 HTTP Response Status Code Definition: Example,…
+0
+0
+0

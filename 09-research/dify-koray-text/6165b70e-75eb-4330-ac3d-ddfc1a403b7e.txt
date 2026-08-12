@@ -1,0 +1,118 @@
+Skip to content
+The Forwarded HTTP Header request header contains information that reverse proxy servers may add that would otherwise be altered or lost during the request’s path through proxy servers. While accessing the Internet’s many networks, proxy servers and HTTP tunnels facilitate access to World Wide Web information. A proxy server should be located on the user’s local computer or anywhere between the user’s computer and an Internet destination server. The Forwarded HTTP Header page discusses the fundamentals of proxies and introduces various configuration choices. The X-Forwarded-For, X-Forwarded-Host, and X-Forwarded-Proto headers are alternate and de facto standard variants of this header. The X-Forwarded-For header is a de facto standard for identifying the client’s originating IP address when connecting to a web server via an HTTP proxy or load balancer. The X-Forwarded-Host (XFH) header is a de facto industry standard for identifying the client’s original host in the Host HTTP request header. The X-Forwarded-Proto (XFP) header is the de facto industry standard for identifying the protocol (HTTP or HTTPS) used by a client to connect to your proxy or load balancer. The Forwarded HTTP Header uses multiple values. The values for using the Forwarded HTTP Header are by, for, host, and proto. An example of a Forwarded HTTP Header is written below.
+Forwarded : by=203.0.111.42;for="192.0.3.61";proto=https;
+The Forwarded HTTP Header Request Header is seen above. In the article, the Forwarded HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is a Forwarded HTTP Header?
+1.1.
+What is the Syntax of Forwarded HTTP Header?
+1.2.
+What are the Directives of Forwarded HTTP Header?
+2.
+How to use Forwarded HTTP Header?
+2.1.
+Examples of Forwarded HTTP Header Use
+3.
+What is the Specification Documents for Forwarded HTTP Header?
+4.
+What are the types of Forwarded HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Forwarded HTTP Header?
+5.
+Which Browsers Support Forwarded HTTP Header?
+What is a Forwarded HTTP Header?
+The Forwarded HTTP Header request header provides information that reverse proxy servers (load balancers, CDNs, and so on) may add that would otherwise be altered or lost during the request’s journey through proxy servers. For example, if a client connects to a web server using an HTTP proxy (or load balancer), the server logs will only contain the proxy’s IP address, host address, and protocol; the header should be used to determine the original request’s IP address, host, and protocol. The header is optional and may be updated or omitted at any point along the path to the server by any of the proxy servers on the path. The Forwarded HTTP Header is used for debugging, statistics, and content generation that is location-dependent. By design, it exposes personally identifiable information, such as the client’s IP address. As a result, when introducing this header, consideration must be given to the user’s privacy.
+What is the Syntax of Forwarded HTTP Header?
+The Forwarded HTTP Header uses multiple values in its syntax. The syntax using the Forwarded HTTP Header is written below.
+Forwarded: by=<identifier>;for=<identifier>;host=<host>;proto=<http|https>
+What are the Directives of Forwarded HTTP Header?
+The Forwarded HTTP Header has multiple values in its directives. An example directive for using the Forwarded HTTP Header is given below.
+<identifier>: An identifier reveals information about every change or loss that occurs while using a proxy. They may be an IP address (IPV4 or IPV6), a cryptic identification (such as “_hidden” or “_secret”), or an unknown when the preceding entity is unknown.
+by=<identifier>: It is the point at which the request enters the proxy server.
+for=<identifier>: The client initiated the request and all the subsequent proxies.
+host=<host>: The “host” field of the request header obtained via proxy is displayed.
+proto=<http | https>: It indicates which protocol was used to submit a request (whether HTTP or HTTPS)
+Below is an example of how to utilize the Forwarded HTTP Header directives.
+An example of a Forwarded HTTP Header that is separated by a semi-colon is shown below.
+Forwarded : by=203.0.111.42;for="192.0.3.61";proto=https;
+An example of a Forwarded HTTP Header that is not case sensitive is shown below.
+FORWARDED: FOR="[2003:db4:cafs::17]:4731"
+An example of a Forwarded HTTP Header with multiple values that can be attached using a comma is provided in the following example.
+Forwarded: for=192.0.3.41, for=198.53.103.08
+How to use Forwarded HTTP Header?
+The Forwarded HTTP Header is used to reveal an authenticated user’s information when he or she connects to the web over an HTTP proxy. The Forwarded HTTP Header is used to reveal an authenticated user’s information when that user connects to the web using an HTTP proxy. It is classified as a Request header. The alternative versions of the Forwarded HTTP Header field are X-forwarded-Proto, X-forwarded-For, X-forwarded-Host headers. By design, this header provides sensitive client information, such as the client’s IP address. As a result, caution must be exercised when implementing this header. It is used to create location-specific content, as well as for debugging and statistics.
+Examples of Forwarded HTTP Header Use
+The following is an example of how to use the Forwarded HTTP Header.
+Forwarded: for="_mdn"
+# case insensitive
+Forwarded: For="[2001:db8:cafe::17]:4711"
+# separated by a semicolon
+Forwarded: for=192.0.2.60;proto=http;by=293.0.853.43
+# Values from multiple proxy servers can be appended using a comma
+Forwarded: for=192.0.2.43, for=185.51.100.17
+What is the Specification Documents for Forwarded HTTP Header?
+There is only one specification document for the Forwarded HTTP Header, which is RFC 7329. The RFC 7239 section 4 mentions the Forwarded HTTP Header as a Forwarded HTTP extension. In the article, the definition and uses of the Forwarded HTTP Header are also mentioned. The examples and values are also mentioned in the article.
+What are the types of Forwarded HTTP Header?
+The Forwarded HTTP Header Types are listed below.
+The Forwarded HTTP Header is a request header that holds information that reverses proxy servers (load balancers, CDNs, and so on) may add to the request that would otherwise be altered or lost when proxy servers are involved in the request’s path.
+The Forwarded HTTP Header is a payload header that contains representation-independent information about the payload data, such as the content length and transport encoding.
+What are the similar HTTP Headers to the Forwarded HTTP Header?
+There are other similar HTTP to the X-Forwarded HTTP Header. The examples are listed below.
+X-Forwarded-For HTTP Header:
+The X-Forwarded-For HTTP Header is similar to the Forwarded HTTP Header. The
+X-Forwarded-For HTTP Header
+is a de facto standard for identifying the client’s originating IP address when connecting to a web server via an HTTP proxy or load balancer. It is another request header type similar to the Forwarded HTTP Header.
+X-Forwarded-Host HTTP Header:
+The X-Forwarded-Host HTTP Header is similar to the Forwarded HTTP Header. Similar to the Forwarded HTTP Header, the
+X-Forwarded-Host HTTP Header
+is a de facto standard for identifying the original host requested by the client in the Host HTTP request header.
+X-Forwarded-Proto HTTP Header:
+The X-Forwarded-Proto HTTP Header is similar to the Forwarded HTTP Header. The
+X-Forwarded-Proto HTTP Header
+is the de facto industry standard for identifying the protocol (HTTP or HTTPS) used by a client to connect to your proxy or load balancer. Similar to the Forwarded HTTP Header, another request header type.
+Via HTTP Header:
+In both forward and reverse directions, proxies add the Via general-header to requests and responses, which might appear in either the request or response headers. The
+Via HTTP Header
+is used similarly to the Forwarded HTTP Header, which is also included by proxies, to track message forwarding, eliminate request loops, and identify the protocol capabilities of senders throughout the request/response chain.
+Which Browsers Support Forwarded HTTP Header?
+The compatibility of browsers for the Forwarded HTTP Header is unknown.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Forwarded HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 5 min
+TechSEO
+Link HTTP Header: Syntax, Directive, Examples
+TechSEO
+Via HTTP Header: Syntax, Directive, Examples
+0
+0
+0

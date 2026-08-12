@@ -1,0 +1,112 @@
+Skip to content
+Information retrieval means the recovery of information. According to the definition, information retrieval refers to a process in which, based on a request for information from a large unstructured database, the information that matches the request for information is selected.
+Information retrieval is, therefore, one of the central tasks of a search engine: search engines are information and data collectors. The collected data is evaluated, processed, saved, and recovered.
+Note: Page Rank Algorithm was a revolution for Search Engine Technologies. Until the Page Rank and Google, all of the Search Engines used Information Retrieval Methodology to classify and structure the web. With PageRank, Google could create way much better SERP for users and also, they could refresh their index database way much faster. That’s why Google is also a Hypertextual Search Engine.
+Contents of the Article
+show
+1.
+Meaning of Information Retrieval
+2.
+Origin of the Information Retrieval Term
+3.
+Information Retrieval Models
+3.1.
+Boolean Model
+3.2.
+Ontological Model
+3.3.
+Text Statistics
+3.4.
+Cluster model
+4.
+How Do Search Engines Use Information Retrieval?
+5.
+An Example of Information Retrieval System Process
+Meaning of Information Retrieval
+The ever-increasing amount of digitally available documents also brings with it the demand for a quick, targeted search. In the classical sense, this refers to the search for text documents. However, information must always be recovered for all multimedia documents.
+In addition to the main application of search engines, the information retrieval process is also relevant for digital libraries, image databases, or multimedia archives.
+The type of search influences the requirements or methods of information retrieval. This influence manifests itself e.g. as follows:
+Database in which the search is made: big differences between self-managed database and database on the Internet
+Request for information: concrete vs. rather vague idea when searching
+Document type: Texts in various formats (e.g. doc, pdf, html file), videos, images, audio files
+Another problem with selecting the appropriate information is the uncertain knowledge of the information retrieval system, i.e. it does not know the document contents. The retrieval system can only use certain methods, e.g., Text statistics or term weighting, but has problems with certain word uses, e.g., with synonyms or homonyms.
+To be able to fulfill better the information request, to be able to deliver a better result, there are various ways in Information Retrieval to classify the search request more precisely, e.g. by taking the context of the search into account – that’s what search engines like Google do. The search engine includes previous inquiries, for example.
+Google Algorithm Updates and Terms for Analyzing the Search Engine’s working principles:
+Florida Update Effects for SEO
+Hilltop Update Effects for SEO
+Possum Update Effects for SEO
+Penguin Update Effects for SEO
+TrustRank Algorithm Effects on SEO
+RankBrain Algorithm and Working Principles
+Google Caffeine and Faster Indexing
+Google Humminbird Update and Better Search Intent Analysis
+Google Phantom Updates and Their Effects
+Google Dance Definition and Examples
+Origin of the Information Retrieval Term
+“Information retrieval” was first used in 1950 by Calvin N. Mooers. Vannevar Bush described in the essay As We May Think in Atlantic Monthly in 1945 how the use of existing knowledge could be revolutionized through knowledge stores. His vision was called Memex. This system should store all knowledge carriers and enable targeted searches and browsing for documents using links. Bush was already thinking about using search engines and retrieval tools.
+Information science received a decisive boost from the Sputnik shocks. On the one hand, the Russian satellite kept the Americans aware of their backwardness in space research, which was successfully eliminated by the Apollo program. On the other hand – and that was the crucial point for information science – it took half a year to crack the signal code of the Sputnik. And this even though the decryption code had long been read in a Russian magazine that was already in the American libraries. That’s why information retrieval is a crucial term in history.
+Information Retrieval Models
+There are different retrieval models, some of which build on one another. The most important information retrieval models include:
+Boolean Model
+Oldest information retrieval model based on Boolean logic from 1854
+Contents can only be found using the operators “and,” “or,” “not”
+The content is not sorted – there is no ranking of the results.
+Ontological Model
+It is not based on the evaluation of the document content but on the evaluation of the link structure between documents – this results in a ranking of the documents
+The structure allows a statement on the authority of documents
+This includes, for example, the PageRank from Google, developed by Larry Page and Sergey Brin
+Text Statistics
+Examining terms within a document:
+Weighting is done via WDF and IDF
+WDF: Within Document Frequency – relative frequency of a term within a document
+IDF: Inverse Document Frequency – Frequency with which a document occurs in a database with a specific term
+The vector model is also part of the text statistics model: each text corresponds to a point in space, and the angles of the vectors indicate the similarity of the words to each other.
+Cluster model
+Summary of documents by Similarity can speed up the search process since only access to a document pool is required
+Problems can arise if the clusters are incomplete or very large
+How Do Search Engines Use Information Retrieval?
+Every internet search engine uses information retrieval to process search queries. With search engines, it is important to evaluate the “determined” information and sort it according to importance/relevance – this results in the ranking. When you enter a search term in the search field, the search engine returns relevant information about your search term from the stored data (SERP).
+Accordingly, SEO tries to improve the recovery of information from the optimized page – one of the measures is, for example, the WDF * IDF optimization of websites.
+An Example of Information Retrieval System Process
+To be able to formulate a search query as precisely as possible, you would have to know what you don’t know. Basic knowledge must, therefore, be available to write an adequate search query. In addition, the natural language search query must be converted into a variant that the retrieval system can read. Here are some examples of search query formulations in various databases. We are seeking information about the actor “Johnny Depp” in the movie “Chocolat”.
+LexisNexis: HEADLINE : ( “Johnny Depp” w / 5 “Chocolat”)
+DIALOGUE: (Johnny ADJ Depp AND Chocolat) ti
+Google: “Chocolat” “Johnny Depp”
+The user specifies how the retrieval process works, specifically by how the search query is formulated in the system used. A distinction must be made between word-based and concept-based systems. Concept-oriented systems can recognize the ambiguity of words (e.g., Java = the island, Java = the coffee, or Java = the programming language). The documentation unit (DE) is addressed via the search query. The DE represents the informational added value of the documents. This means that the DE, information on the author, year of birth, etc., is given in a condensed form. Depending on the database, either the entire document or only parts of it are recorded.
+Understanding the Information Retrieval Systems, Models and Natural Language Processing techniques can make easier for a Holistic SEO to create better content engineering strategies for his/her Content Marketing Projects.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Theoretical SEO
+What is Information Retrieval?
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+Theoretical SEO
+What is Google Dance?
+Theoretical SEO
+What is the Stemming for Search Engines?
+0
+0
+0

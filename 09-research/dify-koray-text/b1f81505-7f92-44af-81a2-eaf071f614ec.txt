@@ -1,0 +1,114 @@
+Skip to content
+The Server-Timing HTTP Header expresses one or more metrics and descriptions for a specific request-response cycle. It is used to display any backend server timing metrics (for example, database read/write, CPU time, file system access, and so on) in the developer tools in the user’s browser or in the PerformanceServerTiming interface. The PerformanceServerTiming interface displays server metrics that are included in the Server-Timing HTTP header and sent with the response. The Server-Timing HTTP Header assists in communicating with metrics in various ways, such as metric name, metric with value, metric with description, metric with value, and description. There are no directive values using the Server-Time HTTP Header. An example of a Server-Time HTTP Header is written below.
+// Single metric without value
+Server-Timing: missedCache
+// Single metric with value
+Server-Timing: cpu;dur=2.4
+// Single metric with description and value
+Server-Timing: cache;desc="Cache Read";dur=23.2
+// Two metrics with value
+Server-Timing: db;dur=53, app;dur=47.2
+// Server-Timing as trailer
+Trailer: Server-Timing
+--- response body ---
+Server-Timing: total;dur=123.4
+The Server-Timing HTTP Header Request Header is seen above. In the article, the Server-Time HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is Server-Timing HTTP Header?
+1.1.
+What is the Syntax of the Server-Timing HTTP Header?
+1.2.
+What is the Directive of Server-Timing HTTP Header?
+2.
+How to use Server-Timing HTTP Header?
+2.1.
+Examples of Server-Timing HTTP Header Use
+3.
+What is the Specification Document for Server-Timing HTTP Header?
+4.
+What is the type of Server-Timing HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Server-Timing HTTP Header?
+5.
+Which Browsers Support Server-Timing HTTP Header?
+What is Server-Timing HTTP Header?
+The Server-Timing HTTP Header is a response-type header that is used by the HTTP protocol. It is used to communicate between two or more metrics and descriptions for a given request-response cycle from the user agent through the use of this header. With the Server-Timing HTTP Header, any back-end server timing metrics such as read or write in any databases or accessing files, among other things, are tracked. Using the developer tools, users are able to keep track of the server’s performance by using the PerformanceServerTiming interface.
+What is the Syntax of the Server-Timing HTTP Header?
+The Server-Timing HTTP Header’s syntax allows users to express metrics in a variety of ways, including the server metric name simply, the server metric with value, the server metric with value and description, and the server metric with description. The syntax using the Server-Timing HTTP Header is written below.
+Server-Timing: metricsname| metricsvalue | metricsdescription
+What is the Directive of Server-Timing HTTP Header?
+There are no directives in the Server-Timing HTTP Header; all that is required is the declaration of the metrics name together with all of the relevant information.
+How to use Server-Timing HTTP Header?
+The Server-Timing HTTP Header is a response-type header that is used to communicate between two or more metrics and descriptions associated with a particular request-response cycle from the user agent. The Server-Timing HTTP Header is important for tracking any back-end server’s timing metrics, such as read or write operations in any databases or file access. It should be used in developer tools to monitor the server’s performance using the PerformanceServerTiming interface. The HTTP Server-Timing HTTP Header enables many methods of communicating with metrics, which are given below:
+metrics name
+metric with value
+metric with description
+metric with value and description
+Examples of Server-Timing HTTP Header Use
+The following is an example of how to use the Server-Timing HTTP Header.
+The single metrics are illustrated in the example below.
+Server-Timing: cdn-cache
+The example below illustrates a single measure and its associated value.
+Server-Timing: edge; dur=33
+The example below illustrates a single metric together with its associated value.
+Server-Timing: cdn-cache; desc=HIT
+Double metrics with a description and a value are demonstrated in the following example.
+Server-Timing: cdn-cache; desc=HIT, edge; dur=1
+What is the Specification Document for Server-Timing HTTP Header?
+There is only one specification document for Server-Timing HTTP Header which is the Serving Timing. Serving Timing Article The definition and use of the Server-Timing HTTP Header were discussed. The Server HTTP Header’s syntax and example values were also discussed.
+What is the type of Server-Timing HTTP Header?
+The Server-Timing HTTP Header is a Response Header because it contains additional information about the response, such as its location or the server that provided it.
+What are the similar HTTP Headers to the Server-Timing HTTP Header?
+There is only one similar HTTP to the Server-Timing HTTP Header, which is the PerformanceServerTiming HTTP Header. The PerformanceServerTiming HTTP Header interface displays server metrics that are sent in the Server-Timing HTTP header with the response. Like the Server-Timing HTTP Header, which also communicates with metrics.
+Which Browsers Support Server-Timing HTTP Header?
+There are multiple browsers that support Server-Timing HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Server-Timing HTTP Header.
+Edge Browser is compatible with the Server-Timing HTTP Header.
+Firefox Browser is compatible with the Server-Timing HTTP Header.
+Opera Browser is compatible with the Server-Timing HTTP Header.
+WebView Android Browser is compatible with the Server-Timing HTTP Header.
+Chrome Android Browser is compatible with the Server-Timing HTTP Header.
+Firefox Android Browser is compatible with the Server-Timing HTTP Header.
+Opera Android Browser is compatible with the Server-Timing HTTP Header.
+Samsung Internet Browser is compatible with the Server-Timing HTTP Header.
+You can see an image that shows cross-browser compatibility of Server-Timing HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Server-Timing HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+Keep-Alive HTTP Header: Syntax, Directive, Example…
+TechSEO
+Server HTTP Header: Syntax, Directive, Examples
+0
+0
+0

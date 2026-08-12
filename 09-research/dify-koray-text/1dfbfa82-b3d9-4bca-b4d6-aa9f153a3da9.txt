@@ -1,0 +1,159 @@
+Content Farming and Content Farm: How to Detect and Avoid Them? - Holistic SEO
+Skip to content
+Content Farming is to rapidly produce very high and low-quality content in different domains. Used for content farming, online advertising, and visibility. Content Farm is often optimized to gain visibility in Search Engines. The purpose of Content Farmers is to get as many organic visitors as possible, to create more Return of Investment (ROI) through placed ads. Content Farm contents are mostly in the form of FAQ, How To, Tutorial.
+The majority of Content Farmers are excluded from Search Engine Optimization because they contain low quality and unnecessary content. Search engines such as Bing, Google, Yandex perceive it as spam with content farm algorithms. Because most of the content farms contain duplicate, similar or repetitive content, they cannot satisfy the search purpose. Nowadays, with the development of artificial intelligence, it is possible to create higher quality content farms with the facilitation of bulk content production in the future.
+Contents of the Article
+show
+1.
+How Do You Identify a Content Farm?
+2.
+How Content Farms are Generated?
+3.
+How Does Content Farms Work?
+4.
+What are the Negative Sides of Content Farms for SEO
+5.
+What are the Negative Sides of Content Farms for UX
+6.
+How does Google Panda Update Affected Content Farms
+7.
+Can Artificial Intelligence Create Quality Content Farms?
+8.
+What is a YouTube Content Farm?
+8.1.
+What are the Features of YouTube Content Farms?
+8.2.
+Who Creates Content Farm on YouTube?
+8.3.
+Are YouTube Content Farms are Useful?
+8.3.1.
+Why do 5-Minute Crafts have so many subscribers?
+8.4.
+How to Create YouTube Content Farms?
+8.5.
+Are YouTube Content Farms are Harmful to Children?
+8.6.
+Does YouTube Against Content Farms?
+9.
+What are the Blackhat Content Farms?
+9.1.
+How to Detect and Avoid Blackhat Content Farms?
+10.
+What Are the Similarities Between Content Farms and Link Farms?
+11.
+Last Thoughts on Content Farms and Holistic SEO
+How Do You Identify a Content Farm?
+In order to distinguish content farms, attention is paid to the common features of content farms. The common features of content farms are below.
+Short articles without comprehensive information and unique authority
+Too many advertisements on the web pages
+Bad web page layout and design
+Links to other websites without any relevancy or logical reason
+Duplicated and copied content from other websites
+Low-quality images
+Unfounded and baseless information
+Non-specialist gibberish articles
+Google has a patent to detect non-useful and unnecessarily long articles that don’t contain real information, it is also related to the Gibberish Score. To understand how Search Engines are sensitive to these content farms that include non-quality, non-informative content, you can read it.
+How Content Farms are Generated?
+There are multiple methods to generate content farms, some of them include automated ways while others rely on real human writers. The methods below can be used for generating content farms.
+Scraping content from other sites
+Hiring big numbers of human writers
+Using Artificial Intelligence for mass content production
+Spinning articles that already exist on the web
+Content Aggregation from other websites
+To generate a content farm, there are ethical and non-ethical ways. The non-ethical ways end with non-effective outcomes thanks to Search Engines’ spam detection algorithms and systems along with DMCA Complaints. But, having human writers create unique content in a content farm or using artificial intelligence can help to increase the content farms’ quality.
+A thematic example of content farm generation.
+In the past, there were successful content farms that are generated with shallow content like “Suite101.com”, “eHow.com” and “Ask.com” or “Mahalo.com”, but after the Google Panda Update, these content farms lost their organic search visibility due to their excessive amount of shallow and non-quality content. Thus, in generating a content farm, quality and usefulness are the keys.
+How Does Content Farms Work?
+Content farms work with keyword research, search behavior trends, topics on the web, interests of users, and ads revenue. Content farms focus on search terms that has search volume and potential advertising revenue. To take all the search queries that have potential value for the content farms, a keyword research tool, sorting algorithm or an API can be used.
+Content farms don’t just focus on queries that have monetary value, but they also focus on long-tail, low search volume queries. For content farms, On-Page SEO optimization, internal links, and title tag optimization are a must. To perform keyword research for content farms, Google Autocomplete Data, Google Related Searches, Google Trends, AdWords Keyword Planner, Ahrefs Keyword Research, SEMRush Keyword Magic tools can be used.
+Content farms usually focus on trend topics, they use “newsjacking” to create interactive search visibility, they share their content on social media with automation. Most of the content farms also use click-baiting to attract users. Thus, content farms are usually against Search Engines’ quality guidelines because misleading title tags are harmful to users.
+A representational draw for showing how content farms work.
+Content farms can focus on snackable content. It means that they create easy-to-read and easy-to-digest content so that people can share these in a viral way and create a buzz factor for the content farm.
+What are the Negative Sides of Content Farms for SEO
+The negative sides of most content farms for SEO are listed below.
+Most content farms are not useful or beneficial to search engine users.
+Content farms don’t have unique content.
+Content farms’ content is shallow.
+Content farms don’t have expertise in their niche.
+Content farms have only anonymous content, which means that their authors are unknown.
+Content farms don’t use any kind of reference or source for their information.
+Content farms have lots of duplicated and copied content.
+Content farms have misleading titles.
+Content farms focus on advertisement revenue, thus they can have an excessive amount of ads on their pages.
+Content farms are not optimized for page speed.
+Content farms don’t have detailed, quality images to satisfy the search intent.
+Content farms usually don’t have the relevant content for the searched query.
+What are the Negative Sides of Content Farms for UX
+The negative sites of the content farms for the user experience (UX) is below.
+Content farms usually don’t include correct information.
+Content farms don’t have a proper page layout.
+Content farms have an excessive amount of advertisement.
+Content farms are usually not optimized for page speed.
+The negative sides of content farms are valid for the non-quality content farms. Some content farms can have a proper information with real-world expertise if they have true expert writers and correct information on their site.
+How does Google Panda Update Affected Content Farms
+Google’s Panda Algorithm Update has impacted negatively the search visibility of the content farms on the Search Engine Results Page. Panda Update is a content quality and spam detection and evaluation update. It targets the directory sites, pages with copied, duplicated, thin content, and unnecessarily bloated websites.
+Google Panda Update
+and its effect for Content Farms.
+Panda Update also affected the content aggregators and syndicated content publishers. Since they don’t add true value to content on their website, Google has targeted also content aggregators. Content aggregators and syndicated content publishers usually take all of the content from another source without changing anything. This actually bloats the web with repetitive content without any true added value for the users. Thus, Panda Update has impacted content aggregators, syndicated content publishers, and content farms.
+Can Artificial Intelligence Create Quality Content Farms?
+Artificial Intelligence can be used for the mass production of content. With Natural Language Processing and Understanding, artificial intelligence (AI) can create quality content. GPT 3, GPT 2, TensorFlow, PyTorch, NLTK, Spacy and, etc. NLP algorithms and libraries can be used to generate quality content with AI. With Natural Language Processing, AI can create content with trained language models such as BERT.
+The methods below can be used to generate content farms with Artificial Intelligence.
+Creating new content with configured options from the best performing contents on the SERP.
+Creating new content from the existing content by changing the sentence structure.
+Creating new content by summarizing the existing content with the important facts.
+With AI, in the future creating content farms can be possible, but for now and near future, it seems that it is too costly and a human supervisor should audit the AI.
+What is a YouTube Content Farm?
+YouTube Content Farms are the content farms that include DIY (Do it yourself) videos that are 10 minutes long, without important information or real-world value. DIY Videos on YouTube Content Farms are usually copied from other YouTube content creators. Thus, YouTube Content Farms are also a risk for Independent and Creative Content Creators of YouTube.
+Most of the content farms in YouTube are being designed for satisfying the YouTube algorithm.
+What are the Features of YouTube Content Farms?
+Features of YouTube Content Farms are below.
+They usually are long between 5 and 10 minutes.
+They put watch time before clicks.
+They publish 3-4 videos per day.
+They share mini Facebook/Instagram tutorials and some non-important life hacks.
+They include misleading titles and click-bait titles.
+They use vibrant and shiny thumbnails.
+Most of them are copied from another YouTube Content Creator with the same information and concept.
+Who Creates Content Farm on YouTube?
+Some of the YouTube Content and Video Farms examples are below.
+5-Minute Crafts (71.2 Million Subscribers)
+Troom Troom (21.9 Million Subscribers)
+Blossom (12.3 Million Subscribers)
+So Yummy (9.1 Million Subscribers)
+Subscriber count for these YouTube Content Farms belongs to the 28 February 2021.
+Are YouTube Content Farms are Useful?
+YouTube Content Farms are not useful for the users in terms of improving their lives or teaching them new things. But, they can be entertaining for a short amount of time. Most of the YouTube Content Farms have only copied concepts and video formats, thus being subscribed to more than one content farm won’t provide any actual value to a user on YouTube.
+Why do 5-Minute Crafts have so many subscribers?
+5-Minute Crafts have so many subscribers because they are one of the most productive content farms on YouTube. They are watched between 7 million and 8 million per day. And, they publish 15-30 videos per month.
+They also lure the users with vibrant titles and shining thumbnails.
+How to Create YouTube Content Farms?
+To create a YouTube Content Farm (Video Farm), the methods below can be used.
+The main principle to create a YouTube Content farm is satisfying the watch time and engagement threshold of the YouTube Recommendation Algorithm.
+Making users stay on YouTube while making them watching the advertisement on YouTube.
+Ad Revenue and Watch Time are the keys. Content Farms are useful for ad revenue and this is a valid situation for content publishers and also YouTube.
+Are YouTube Content Farms are Harmful to Children?
+Most of the YouTube Content Farms include harmful information for children such as boiling milk in the microwave and mixing it with harmful chemicals to see how the milk will change its color. Because of these types of criticism, YouTube created YouTube Kids. And, YouTube kids are a similar product to Google Family. The main focus of YouTube Kids is protecting the children from harmful incentives.
+An example of content farm from YouTube.
+Does YouTube Against Content Farms?
+YouTube was about broadcasting yourself, your own opinions, and life. Today, mainly it is about ad revenue and being an influencer. Since content farms are generating revenue, YouTube is not against them as long as they don’t neglect the community guidelines of YouTube.
+What are the Blackhat Content Farms?
+Blackhat Content Farms are used for harming the competitor’s organic search visibility. It can be created by scraping content, spinning articles, and trying to change the canonicalization perspective of the Search Engine. This is also called content hijacking.
+Today, Search Engines can detect blackhat content farms easily and neutralize them. And, also a webmaster can contact Google, Bing, or Yandex via their social media accounts or webmaster (search central) hangout hours to show these types of practices or ask questions about them.
+How to Detect and Avoid Blackhat Content Farms?
+Blackhat Content Farms can be detected via their common features listed below.
+Blackhat content farms usually have the same IP.
+Blackhat content farms usually have the same page design.
+Blackhat content farms have copied duplicated content.
+Blackhat content farms are linking each other.
+Blackhat content farms use “hotlinking”, in other words, they use their competitor’s server for drawing their content.
+Blackhat content farms have the same URL structure.
+Blackhat content farms have the same logos.
+Blackhat content farms have the same Google Adsense, Analytics, or AdWords IP.
+Blackhat content farms have tons of subdomains.
+Blackhat content farms might not have any kind of historical data, update frequency, or even a Google Analytics, Search Console, or any types of helping program.
+In the Chrome Extension store, there are some content farm blocker extensions to notice and avoid content farms.
+Most of the blackaht content farms have most of the features from above, at the same time.
+What Are the Similarities Between Content Farms and Link Farms?
+The main difference between content farms and link farms is that content farms
+
+[...truncated...]

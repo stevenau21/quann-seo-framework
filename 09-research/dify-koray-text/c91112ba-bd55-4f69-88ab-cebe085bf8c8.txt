@@ -1,0 +1,128 @@
+DNT HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The DNT HTTP Header request header indicates the user’s preference for tracking. It allows users to choose whether they prefer privacy or personalized content. The DNT HTTP Header has been deprecated because it is no longer recommended. Though some browsers may still support it, it may have already been removed from the relevant web standards, be in the process of being dropped, or be kept only for compatibility. There are multiple values using the DNT HTTP Header. The values using the DNT HTTP Header are “0”, “1”, and “null”. An example of a DNT HTTP Header is written below.
+GET /something/here HTTP/1.1
+Host: www.ygentertainment.com
+DNT: 1
+The DNT HTTP Header Request Header is seen above. In the article, the DNT HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is DNT HTTP Header?
+1.1.
+What are the Syntax of DNT HTTP Header?
+1.2.
+What are the Directives of the DNT HTTP Header?
+2.
+How to use DNT HTTP Header?
+2.1.
+Examples of DNT HTTP Header Use
+3.
+What is the Specification Document for DNT HTTP Header?
+4.
+What are the types of DNT HTTP Header?
+4.1.
+What are the similar HTTP Headers to the DNT HTTP Header?
+5.
+Which Browsers Support DNT HTTP Header?
+What is DNT HTTP Header?
+The DNT HTTP Header is a request header that allows users to specify whether their HTTP activity should be tracked by each server and web application with which they communicate. The generated header field serves as a mechanism for the user to opt-in or out of tracking. Tracking enables users to access personalized web content. The option to opt-out of tracking was developed With growing privacy concerns among users.
+What are the Syntax of DNT HTTP Header?
+The DNT HTTP Header has multiple values in its syntax. The syntax using the DNT HTTP Header is written below.
+DNT: 0
+DNT: 1
+DNT: null
+What are the Directives of the DNT HTTP Header?
+The DNT HTTP Header has multiple directives. The directives used for the DNT HTTP Header are listed below.
+"0"
+The user prefers that tracking be permitted on the target site.
+"1"
+On the target site, the user prefers not to be tracked.
+"null"
+The user has not indicated a tracking preference.
+An example directive for using the DNT HTTP Header is written below.
+GET /something/here HTTP/1.1
+Host: www.facebook.com
+DNT: 1
+GET /something/here HTTP/1.1
+Host: www.twitter.com
+DNT: 0
+GET /something/here HTTP/1.1
+Host: www.instagram.com
+DNT: null
+How to use DNT HTTP Header?
+Using the DNT HTTP Header, users are able to tell each server and web application that they don’t want to keep track of what users do. The generated header field is a way for the user to choose whether or not they want to be tracked. Tracking enables users to view personalized content on the web. With growing privacy concerns among users, the option to opt-out of tracking was developed. Only after a user has enabled tracks should be changed. A user agent is not permitted to display a tracking preference expression if the user has not enabled tracking preference.
+Examples of DNT HTTP Header Use
+The following is an example of how to use the DNT HTTP Header.
+This is a W3C (World Wide Web Consortium) example of a DNT header with field value – 1.
+GET /something/here HTTP/1.1
+Host: example.com
+DNT: 1
+The JavaScript navigator can be used to check the value of the DNT header field. doNotTrack is a property.
+console.log(navigator.doNotTrack);
+// prints "1" if DNT is enabled; "0"
+// if the user opted-in for tracking;
+// prints "null" if unspecified
+What is the Specification Document for DNT HTTP Header?
+There are no available specification documents for the DNT HTTP Header. There are no available documents on any websites regarding the Specification Documents of the DNT HTTP Header.
+What are the types of DNT HTTP Header?
+The DNT HTTP Header Types are listed below.
+The DNT HTTP Header is a request header that indicates the user’s preference for tracking. It allows users to choose whether they prefer privacy or personalized content.
+The DNT HTTP Header is a Payload header that contains representation-independent information about payload data, such as content length and transport encoding.
+What are the similar HTTP Headers to the DNT HTTP Header?
+There are other similar HTTP to the DNT HTTP Header. The examples are listed below.
+Navigator.doNotTrack:
+The Navigator.doNotTrack property returns the user’s Do Not Track preference, which signals whether the user wants websites and advertising to stop tracking them. The DNT HTTP Header, which likewise shows the user’s tracking option, is similar.
+TK HTTP Header:
+The tracking status applied to the associated request is indicated in the TK response header. The DNT HTTP Header, which likewise shows the user’s tracking option, is similar.
+Which Browsers Support DNT HTTP Header?
+There are multiple browsers that support DNT HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the DNT HTTP Header.
+Edge is compatible with the DNT HTTP Header.
+Firefox is compatible with the DNT HTTP Header.
+Internet Explorer is compatible with the DNT HTTP Header.
+Opera is compatible with the DNT HTTP Header.
+WebView Android is compatible with the DNT HTTP Header.
+Chrome Android is compatible with the DNT HTTP Header.
+Firefox Android is compatible with the DNT HTTP Header.
+Opera Android is compatible with the DNT HTTP Header.
+Samsung Internet is compatible with the DNT HTTP Header.
+You can see an image that shows cross-browser compatibility of DNT HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+DNT HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+417 HTTP Response Status Code Definition: Example,…
+TechSEO
+Date HTTP Header: Syntax, Directives, Examples
+0
+0
+0

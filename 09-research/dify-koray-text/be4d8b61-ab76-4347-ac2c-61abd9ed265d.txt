@@ -1,0 +1,140 @@
+Content-Disposition HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Content-Disposition HTTP Header response header is a header that indicates whether the content will be displayed inline in the browser. It is a web page or as part of a web page, or as an attachment that will be downloaded and saved locally. The HTTP Content-Disposition HTTP Header is a header that must be used on each subpart of a multipart body to provide information about the field to which it applies in a multipart/form-data body. The boundary defined in the Content-Type header delimits the subpart. Content-Disposition has no effect when used on the body. The Content-Type representation header is used to indicate the resource’s original media type prior to any content encoding used for sending. Although the Content-Disposition header is defined in the context of MIME messages for e-mail, only a subset of the possible parameters apply to HTTP forms and POST requests. The HTTP POST method is used to send data to the server. In the HTTP context, only the value form-data, as well as the optional directive name and filename, should be used. There are multiple values using the Content-Disposition HTTP Header. The values for using the Content-Disposition HTTP Header are name, filename, and filename*. An example of the Content-Disposition HTTP Header is written below.
+200 OK
+Content-Type: text/html; charset=utf-8
+Content-Disposition: attachment; filename="cool.html"
+Content-Length: 21
+<HTML>Save me!</HTML>
+The Content-Disposition HTTP Header Response Header is seen above. In the article, the Content-Disposition HTTP Header Syntax, Directives, and Uses example will be processed.
+Contents of the Article
+show
+1.
+What is Content-Disposition HTTP Header?
+1.1.
+What are the Syntax of the Content-Disposition HTTP Header?
+1.2.
+What are the Directives on Content-Disposition HTTP Header?
+2.
+How to use Content-Disposition HTTP Header?
+2.1.
+Examples of Content-Disposition HTTP Header Use
+3.
+What are the Specification Documents for Content-Disposition HTTP Header?
+4.
+What are the types of Content-Disposition HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Content-Disposition HTTP Header?
+5.
+Which Browsers Support Content-Disposition HTTP Header?
+What is Content-Disposition HTTP Header?
+The Content-Disposition HTTP Header is a response-type header field that contains instructions on how to process the response payload as well as additional information such as the filename when the user saves it locally. In the context of MIME, the response header field contains a number of values and parameters. Under HTTP forms and POST requests, however, it is reduced to a fixed set of parameters and values. The Content-Disposition HTTP Header field takes various values while acting as a response header for data contained in the main body, forms, or multiple parts of the content. It has the option of storing the data locally or displaying it in the browser while treating content in the main body as persistent. It provides information about the specified field of data, which is stored as sub-parts in the database.
+What are the Syntax of the Content-Disposition HTTP Header?
+The Content-Disposition HTTP Header uses multiple values in its syntax. The syntax for using the Content-Disposition HTTP Header is written below.
+The syntax for treating data in the main body.
+Content Disposition : inline
+Content Disposition : attachment
+Content Disposition : attachment ; filename = "file_name.html"
+The syntax for treating Multipart/Form Data.
+Content-Disposition : form-data
+Content-Disposition : form-data; name="field_value"
+Content-Disposition : form-data; name="field_value"; filename="file_name.html"
+What are the Directives on Content-Disposition HTTP Header?
+There are multiple directives that should be put in the Content-Disposition HTTP header. The directives for using the Content-Disposition HTTP Header are given below.
+“name”
+It is followed by a string holding the name of the HTML field to which the subpart’s content relates. Numerous subparts with the same name exist when dealing with numerous files in a single field (for example, the multiple properties of an input type=”file”> element).
+A name that contains the value ‘_charset_’ indicates that the part is not an HTML field, but rather the default charset to use for parts that lack explicit charset information.
+“Filename”
+It is followed by a string giving the file’s original name. The filename is always optional and should not be used blindly by the application: path information should be removed, and the file system rules converted to those of the server file system. The parameter primarily contains indicative data. It serves as the default filename for any subsequent “Save As” window that the user sees when combined with Content-Disposition: attachment.
+“filename*”
+The filename and filename* arguments are identical except that filename* utilizes the encoding given in RFC 5987. And both filename and filename* are present in a single header field value, when both are understood, filename* is favored over the filename.
+An example directive of the Content-Disposition HTTP Header is given below.
+POST /test.html HTTP/1.1
+Host: example.org
+Content-Type: multipart/form-data;boundary="boundary"
+--boundary
+Content-Disposition: form-data; name="field1"
+value1
+--boundary
+Content-Disposition: form-data; name="field2"; filename="example.txt"
+value2
+--boundary--
+How to use Content-Disposition HTTP Header?
+The Content-Disposition HTTP Header response header in a standard HTTP response indicates whether the content is anticipated to be displayed inline in the browser. It is on a web page, as part of a web page, or as a downloaded and saved attachment. The Content-Disposition HTTP Header must be used on each component of a multipart body to provide information about the field to which it pertains. The subpart is determined by the Content-Type header’s boundaries. The Content-Disposition HTTP Header has no effect when applied to the body. Although the Content-Disposition HTTP Header is defined in the context of MIME email communications, only a subset of the allowed parameters apply to HTTP forms and POST requests. In the HTTP context, only the value form-data, as well as the optional directive name and filename, can be used.
+Examples of Content-Disposition HTTP Header Use
+The following examples of the Content-Disposition HTTP Header have been taken from RFC 6266 and RFC 7578.
+content-disposition: form-data; name="field1"
+content-disposition: form-data; name="_charset_"
+Content-Disposition: attachment;
+filename="EURO rates";
+filename*=utf-8''%e2%82%ac%20rates
+Content-Disposition: inline ; filename=example.html
+What are the Specification Documents for Content-Disposition HTTP Header?
+The following are the specification documents of the Content-Disposition HTTP Header.
+RFC 7578 Article 4.2. discusses the Content-Disposition HTTP Header and its applications. Additionally, this article discusses the Content-Disposition HTTP Header’s definition and usage.
+RFC 6266 Article 4. mentioned the Content-Disposition HTTP Header in a Header Field Definition section article. Additionally, this article discusses the Content-Disposition HTTP Header’s examples.
+What are the types of Content-Disposition HTTP Header?
+The Content-Disposition HTTP Header Type is listed below.
+The Content-Disposition HTTP Header is a Response Type Header because it holds extra information about the response, such as its location or the server from which it originated.
+The Content-Disposition HTTP Header is a Request Type Header because it contains additional information about the resource being fetched or the client making the request.
+What are the similar HTTP Headers to the Content-Disposition HTTP Header?
+There are other similar HTTP to the Content-Disposition HTTP Header. The examples are listed below.
+Content-Type HTTP Header:
+The Content-Type HTTP Header is similar to the Content-Disposition HTTP Header. Similar to the Content-Disposition HTTP Header, the
+Content-Type HTTP Header
+representation header is used to indicate the resource’s original media type prior to any content encoding applied during transmission.
+FormData HTTP Header:
+The FormData HTTP Header interface enables the easy creation of a set of key/value pairs representing form fields and their values, which can subsequently be delivered via the XMLHttpRequest.send() method. It conforms to the same format as a form would if the encoding type is set to “multipart/form-data.” Similar to the HTTP Header for Content-Disposition, which is likewise a response header type.
+Which Browsers Support Content-Disposition HTTP Header?
+There are multiple browsers that support Content-Disposition HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Content-Disposition HTTP Header.
+Edge Browser is compatible with the Content-Disposition HTTP Header.
+Firefox Browser is compatible with the Content-Disposition HTTP Header.
+Internet Explorer Browser is compatible with the Content-Disposition HTTP Header.
+Opera Browser is compatible with the Content-Disposition HTTP Header.
+Safari Browser is compatible with the Content-Disposition HTTP Header.
+WebView Android Browser is compatible with the Content-Disposition HTTP Header.
+Chrome Android Browser is compatible with the Content-Disposition HTTP Header.
+Firefox Android Browser is compatible with the Content-Disposition HTTP Header.
+Opera Android Browser is compatible with the Content-Disposition HTTP Header.
+Safari IOS Browser is compatible with the Content-Disposition HTTP Header.
+Samsung Internet Browser is compatible with the Content-Disposition HTTP Header.
+You can see an image that shows cross-browser compatibility of Content-Disposition HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Content-Disposition HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 5 min
+TechSEO
+Content-Type HTTP Header: Syntax, Directive, Examp…
+TechSEO
+Content-Encoding HTTP Header: Syntax, Directive, E…
+0
+0
+0

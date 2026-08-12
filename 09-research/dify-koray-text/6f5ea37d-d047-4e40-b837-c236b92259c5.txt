@@ -1,0 +1,161 @@
+A/B Testing: Definition, Best Examples and Practices - Holistic SEO
+Skip to content
+A/B tests (sometimes called split tests) compare two versions of a website to determine which version is more suitable for achieving a defined goal. Such a goal can be, for example, increasing the conversion rate or improving other performance indicators (KPIs). An A / B test compares two website versions by randomly directing visitors to one of the two variants and recording user behavior. This allows webmasters and companies to test how much visitor behavior is affected by changing a particular variable.
+With targeted tests, you put an end to the guesswork in optimizing your website and instead make data-based decisions. “We believe …” is a thing of the past, in the future, it will be “We know …”. Measure the impact that changes have on your metrics, such as registrations, downloads, purchases, or your custom goals, to ensure that every change delivers positive results.
+Quantitative data speaks for itself. So far, you and your employees can only guess how visitors to the website react to certain design elements. However, A / B testing offers you the option of showing visitors two versions of the same page. You can then use the results to determine which variant works better. Continuous testing and optimization of your website can increase sales, donations, leads, registrations, downloads, and the number of user-generated content and at the same time provide teams with valuable insights into visitor behavior.
+Contents of the Article
+show
+1.
+The Origins of AB testing
+2.
+What is the Goal of A/B Tests
+3.
+Which Pages Can You Test on with A/B Testing Methodologies?
+3.1.
+Lead Generation Pages
+3.2.
+Media, News, and Editorial Pages
+3.3.
+E-commerce and Sales Pages
+4.
+How is an AB test carried out?
+4.1.
+1. Form a project team
+4.2.
+2. Order the tests by priority
+4.3.
+3. Run the tests
+4.4.
+4. Evaluate the results of the tests
+4.5.
+5. Document the tests performed
+4.6.
+6. Introduce the best versions
+4.7.
+7. Announce the results of the tests
+4.8.
+8. Test continuously
+5.
+Application examples for A / B tests
+6.
+Which AB test should I use?
+7.
+AB testing and Conversion Optimization
+8.
+How to Find Better A/B Test Ideas and Methods?
+9.
+Which elements on your own website should you test?
+10.
+Advantages and disadvantages of A / B tests
+11.
+A/B Test Tools
+11.1.
+Google Analytics Experiments
+11.2.
+KISSmetrics
+11.3.
+Unbounce
+11.4.
+Optimizely
+12.
+AB testing tips and best practices
+12.1.
+1. Ensure the reliability of the data for the testing solution.
+12.2.
+2. Perform a test test before starting.
+12.3.
+3. Test only one variable.
+12.4.
+4. Run only one test at a time.
+12.5.
+5. Adjust the number of variants to the traffic volume.
+12.6.
+6. Wait for a 95% confidence rate before trading.
+12.7.
+7. Run a test long enough.
+12.8.
+8. If the test takes too long, stop it.
+12.9.
+9. Measure multiple indicators.
+12.10.
+10. Consider promotions during a test.
+12.11.
+11. Segment the target audience of the test.
+13.
+A / B testing with regard to Search Engine Optimization
+The Origins of AB testing
+A / B testing is basically a method of comparing two versions of a thing to determine which is more efficient. This process, therefore, existed long before the Internet.
+Ronald Fisher, a British biologist, and statistician brought up this idea using math in the 1920s. This process made it possible to scientifically examine two different experiences. Fisher’s work advanced science enormously. A few years later, medicine began to apply the AB test principle to clinical studies.
+It wasn’t until 1960 that the concept was taken up in marketing. AB testing as we know it today has only existed since the 1990s. It soon became a method appreciated by direct marketing experts. In this, a sample of consumers is presented with several versions of a message, which differ in a single criterion. Then it is measured which version has achieved better results.
+Digital development has opened up new perspectives: it has brought new opportunities for testing and measuring performance. For a website, this means that A / B testing can test an almost unlimited number of versions of a page. Each version’s performance can be accurately measured using indicators such as user actions or buying behavior. Thanks to technological development, there are now also special A / B testing tools for easier execution and evaluation of such tests.
+What is the Goal of A/B Tests
+The aim of A / B tests is to find the best possible website version to achieve a specific goal and to learn which changes can be used to move more visitors to a website to the desired action.
+Compared to the cost of paid traffic, the cost of increasing the conversion rate using A / B testing is minimal. The return on investment from A / B tests can be very high since even small changes to a website can lead to significant increases in the leads and sales generated.
+Which Pages Can You Test on with A/B Testing Methodologies?
+All websites can benefit from the AB test because all pages have at least one measurable goal. Whether you have an online shop, a news website, or a lead generation page – your goal is to increase your conversion rate, no matter what type of conversion it is.
+Lead Generation Pages
+“Leads” means qualified prospects, that is, potential new customers. Here tests can be applied, for example, to emails that are sent with the aim of increasing sales. In these cases, the A / B test includes information about the people contacted, for example, their gender or age group. AB Testing ideas for lead generation can be found here.
+You can read our “
+Lead Generation Marketing
+” article to learn more.
+Media, News, and Editorial Pages
+With media sites, one can speak of editorial A / B tests. For example, you test the success of a content category and make sure that the content reaches the right target groups. In this area close to the press, the focus is not directly on the sales figures, but first of all on editorial success. Suitable AB Test ideas for media sites can be found here.
+E-commerce and Sales Pages
+A / B tests of e-commerce sites naturally deal with the sales efficiency of a site or app on which you can shop. An A / B test can be used to check which version is performing best based on the sales made. For example, the start page, individual elements of the product pages, or the ordering process (buttons, call-to-action, etc.) can be analyzed. View AB Testing ideas for e-commerce here.
+How is an AB test carried out?
+It is important to follow a strict testing methodology in order to achieve results with an AB test. Here are the steps to take your AB test:
+1. Form a project team
+The success of your tests depends not only on the AB Test Tool but also on the experience of those who are responsible for conversion optimization. Assemble your team according to the following skills: good knowledge of data analysis, skill in identifying conversion problems, and the ability to put yourself in the position of the end-user. Here you will find a checklist that you can use to put your conversion team through its paces.
+Two profiles are also useful: those of the project manager and the sponsor. The project manager coordinates the teams and takes care of the road map of the tests. The sponsor supports the optimization initiatives and is responsible for the ROI. If these resources are not available, at least one contact person should be appointed to carry out the tests and evaluate the results.
+2. Order the tests by priority
+If conversion problems have been identified using various methods and various test hypotheses have been formulated, these must now be sorted according to priority. For this purpose, the A / B testing program and the schedule are recorded in a roadmap. The following criteria can be useful for arranging the hypotheses to be used:
+Estimated benefits
+: To do this, you need to analyze the potential of your solutions. What is the estimated benefit? What are the chances that you will increase your conversion rate? By evaluating your data, you can quickly identify the pages that have a high conversion potential (high bounce rate, short connection time …)
+Traffic volume on the page
+: It is also important to highlight the pages with the most traffic. If your number of visitors is limited, it will be difficult to determine the impact of your AB tests. It is also better to only make one change at a time, rather than plunge into tests with too many changes.
+Easy application
+: In order to prioritize your tests, you can also check whether the proposed hypotheses are easy to use or not. The simpler a solution (simple graphical changes, low technical requirements …), the fewer resources are required.
+After arranging the hypotheses, the roadmap has to be given a shape. For this purpose, it should be put on paper and contain a maximum of information. It should also be passed on to everyone involved and the work of the latter coordinated. The roadmap also serves to control the AB tests.
+3. Run the tests
+The execution of a test varies depending on the selected AB testing solution and how it works.
+Some AB Test Tools are complex to implement and require the assistance of technical experts to change the source code of the pages to be tested, while tests with other tools can be performed without technical knowledge. In the latter case, the user himself changes the pages of his website with a WYSIWYG editor  (What You See Is What You Get). With such tools, implementation can begin faster and the user can quickly work independently.
+As far as the functionality is concerned, the creation of the tests is either carried out entirely by the company or delegated to an external service provider who, in addition to his advisory function, takes care of determining the design of the variants, develops graphic and editorial elements if necessary, and finally uses the tests one of the tools available on the market.
+Which AB testing solution and which mode of operation is chosen depends on the level of development and the resources of the respective company. Every company is different, so a solution must be chosen that adapts to the needs and limits of the company. A complex tool is not useful if the user wants to work independently but ultimately depends on a service provider to use it. The other way around, a tool that is too simple could only offer limited possibilities if the requirements of the company increased.
+4. Evaluate the results of the tests
+To evaluate the A/B Test Results, data visualization, and timing is important. Sometimes the data to be necessary to create a conclusion can be gathered from 1 million visits without a seasonal trend. Data can have different characters according to the timing and conditions of the market. To perform an A/B test and evaluate the data, the right methodology and angle have to be chosen by the company.
+5. Document the tests performed
+It is imperative that you document and archive your tests in order to efficiently pass on the information to all those responsible for conversion optimization. For the documentation, you should write down the following information at the end of each test:
+the name of the test
+the period of the test
+the hypothesis tested
+a description of the variants used (screenshots as help)
+the results and conclusions of the test
+the potential financial gain for one year
+6. Introduce the best versions
+As soon as one of the versions definitely performs better than the original version, it should be put into operation. Depending on the company, the deadline for updates can be important. In order not to miss out on any profits, most AB Test Tools suggest showing all users (100%) the best version until the changed page is online.
+Then it must be checked whether the benefit found during the test is retained in the long term. There are many external factors that can explain that optimization during the test led to better performance. For example, just before Christmas, when the urgency grows, conversion rates can of course be higher. If a test then shows that the variant of a page achieves a 10% higher performance than the original page, the additional sales outside the holidays could be lower.
+7. Announce the results of the tests
+It is important to communicate the conclusions obtained from the tests to the managers in particular. Some results are also relevant for activities in other departments (sales, marketing, communication, etc.) – be sure to let them know. Some AB Testing Tools can evaluate and report the financial gain from testing (the difference between the revenue from the original page and the revenue from the variants). This can be used to calculate the ROI of the testing program. The investments in the program can be easily justified.
+8. Test continuously
+A / B testing is a continuous optimization process. Conclusions are drawn after each test, which in turn lead to new test hypotheses for the roadmap. Incidentally, the fruits of the efforts only show up after some time: The first tests certainly do not deliver the results that were initially hoped for, because it takes time to develop an expertise.
+Application examples for A / B tests
+Application examples for A / B testing are the optimization of landing pages, emails, or e-commerce pages with regard to conversion rate, leads, registrations, etc. The following elements can be changed and examined, among other things:
+CTA
+buttons: size, shape, text, color, and placement
+CTA texts: length, content, and formatting
+Headings
+: content, length, font size, typography
+Texts: length and content
+Images: static or carousel, size, and placement
+Some of the other Marketing Terms and Guidelines you may be interested in:
+What is the ROI?
+What is NeuroMarketing?
+What is Flywheel Marketing?
+Eye-tracking and Conversions
+Community Management and Functions
+Page Impressions for Analyzing Marketing Performance
+Conversion Rate Optimization and Funnels
+Which AB test should I use?
+There are diffe
+
+[...truncated...]

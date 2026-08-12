@@ -1,0 +1,111 @@
+Skip to content
+Duplicate content (“double content”, “DC” for short) is content that is identical on several pages on the Internet. These are not just copied texts, but above all completely identical individual pages. A distinction is made between internal and external duplicate content: Internal means that the same content is on one domain – for example, on HolisticSeo.Digital. External means that the content occurs in several domains.
+Duplicate content causes problems for search engines like Google. Therefore, the content of the affected page is found there less well or even filtered out. In order for a website to have no ranking problems due to duplicate content, each indexed page must have enough “unique content”. “Unique content” is content that was only created for one page and only appears on this page.
+If an identical or very similar text is used several times on the same website or on different websites, this text is
+double content (Duplicate Content)
+. Search engines rely on positive user experience and therefore also on unique content, which is why the same or similar content is only indexed once. If the search engine recognizes the content of a page as duplicate content and as an attempt to deceive, the page is devalued or removed from the index.
+Some of the On-Page SEO and User Experience Related Guidelines are below in the context of Duplicate Content:
+Heading Tag Optimization
+Image Alt Tag Optimization
+Anchor Text Optimization
+What is the Thin Content
+What is the Bounce Rate?
+What is the Above the Fold Section?
+Contents of the Article
+show
+1.
+Why is duplicate content a problem?
+1.1.
+When is duplicate content a problem?
+2.
+What is the Repetitive Content? What is the Difference Between Repetitive and Duplicate Content?
+3.
+What are typical examples of duplicate content?
+4.
+How can you find duplicate content?
+5.
+How can you avoid duplicate content?
+6.
+Special Cases of Duplicate Content
+6.1.
+Recurring text modules
+6.2.
+External duplicate content
+6.3.
+International duplicate content
+7.
+What is Ranking Signal Division (Melting)
+8.
+Last Thoughts on Duplicate Content
+Why is duplicate content a problem?
+Duplicate content is a big issue for Google. For one thing, it is difficult to find out algorithmically which side of a domain is most suitable for a search query. In addition, Google wants to save crawling resources and not crawl 100 versions of the same page because that’s really a huge amount of money wasted on hardware performance by Google standards. The basics on the subject are available directly from Google: “Duplicated content”.
+Google tries hard to index and show pages with distinct information. This filtering means, for instance, that if your site has a “regular” and “printer” version of each article, and neither of these is blocked with a noindex meta tag, we’ll choose one of them to list. In the rare cases in which Google perceives that duplicate content may be shown with intent to manipulate our rankings and deceive our users, we’ll also make appropriate adjustments in the indexing and ranking of the sites involved. As a result, the ranking of the site may suffer, or the site might be removed entirely from the Google index, in which case it will no longer appear in search results.
+Google Webmaster Quality Guideline, Avoid Duplicate Content Section
+Also, content without any unique information with lots of gibberish sentences can cause duplicate content penalties even if the content is not identical to others. Usually, Google creates content clusters with the same or very similar content versions to choose one of these contents as representative. Representative content is the content that represents all of the content clusters as the canonical one. The canonical content is usually being chosen from the most authoritative domain or from the best useful information owner web page from the specific knowledge domain. Also, when the content cluster gets bigger with the future duplicate and web pages with non-unique value, the representative content and the URL which owns it gets more authority. This is called as Link Inversion, most of the traditional SEOs don’t know. Also, this is a topic for content hijacking which is a blackhat technique. To learn more about Link Inversion you may read our Guidelines.
+Note: Holistic SEOs may know blackhat techniques since they are also experts in Search Engine Theories but a Holistic SEO can use that information only for protecting his/her clients, not for manipulating the Search Engines Algorithms. Manipulation and
+Blackhat
+will only cause time-wasting along with non-ethical situations.
+Content Clusters and Representative Content Terms are taken from directly Google’s Patents. Rewarding unique information with unique content is also an encouragement for creating more unique content. This way, average SERP quality is increasing while the duplicated non-quality web pages are being cleaned from the SERP.
+When is duplicate content a problem?
+If a website has multiple web pages with the same content, this will create a keyword cannibalization problem. Google or other Search Engines want to see only one page for a specific query group so that they can show the unique web page for this topic in their index to the searcher. Unless they will try to choose one of them as a canonical URL in this process, the crawl quota for the specific website will be consumed. Also, even if there is a canonical tag on those pages since the canonical tag is only a hint for the Googlebot, Google will try to choose the canonical version by itself. This process will cost an extra cost for the Search Engines since they will try to calculate which page is more relevant for the specific targeted query group.
+If a website has more duplicate content than unique content, it can be called a duplicate content problem easily. Also, wrong pagination, canonical tag usage, and excessive boilerplate content can cause internal duplicate content situations.
+What is the Repetitive Content? What is the Difference Between Repetitive and Duplicate Content?
+The biggest difference between duplicate content and Repetitive content is that repetitive content was not created to create a copy state. Generally, the footer can be called as content repetitive in the site-wide form in header fields. The logo and motto of a company can be found in more than one medium at the same time. The citation from one source can also be found in more than one source. Such content repeats are called repetitive instead of duplicate. Repetitive Content does not create Duplicate Content problems as long as it is innocent.
+At the same time, the introduction section of an article is also an excerpt in the same category as the top category, another repetitive, ie harmless duplicate content example.
+What are typical examples of duplicate content?
+Duplicate content has many faces. A few of the classics are these:
+Websites that use https: // example.com, http: // example.com, http: // www. example.com and https: // www. example.com can be reached (and not forwarded)
+Uppercase and lowercase URLs such as example.com/example and example.com/eXample
+Own URLs for print versions
+Additional PDFs with product information such as technical details, should (also) be given on the product landing page
+Numerous product detail pages for specific sizes, colors, and shapes
+Are there affiliate URL parameters such as? Partnerid=2858
+Parameter URLs for sorting and displaying product overviews
+/index.htm, / en /, and similar things that content management systems produce
+Automatically generated tag pages
+And in a way, also pagination pages
+The list can probably go on forever. And there is something like that on every domain – guaranteed.
+How can you find duplicate content?
+The easiest way to find duplicate content on your site is to google text blocks. Just put the text module in quotation marks and off you go:
+How to find duplicate content via Search Operators?
+You can also use search operators such as “site:newssiteexample.com ‘news'”. This will show every web page which includes the ‘news’ string on it. You can also see which pages are more relevant for this query in an entire domain:
+Duplicate Content Finding Example.
+In order to really find the duplicate content, you must then click on this link to display the filtered duplicate pages:
+To see this, you need to come to the end of all SERPs pages.
+You may also use “intitle or inurl” search operators:
+Intitle, Inanchor, and Inurl are the other search operators of the same type.
+This time, we have 387 duplicate content for this type of query:
+Omitted Duplicate Search Results
+The examples from above are just general applications. To find more close and useful examples, you should use intitle, inurl, inanchor search operators in an efficient way. Since it would be a bit cumbersome to search for all text modules, there are also helpful tools. Google’s new Search Console has an “Index Coverage” report. To do this, click on the “Excluded” in the diagram:
+The excluded section on the GSC Section can affect your Organic Search Performance.
+Then you can also see some types below, where Google itself tells you that they have classified a page as a duplicate of another URL:
+How to find duplicate content via Google Search Console?
+Clicking on the URL concerned opens a menu in which you can jump directly to the URL check tool. There you can even see which is the double URL.
+How to use URL Inspection Tool for Duplicate Content Examination
+You may also use Oncrawl, Serpstat, Ryte, Ahrefs, SemRush, and other 3rd party tools for finding duplicate content. But I recommend you find your own duplicate content my own.
+You can also use Python’s Advertools Library or Python’s URLLib Library along with custom Scrapy Scripts to find duplicate content in a befitting way to a Holistic SEO.
+How can you avoid duplicate content?
+There are various solutions to avoid duplicate content. The most basic: Don’t let Duplicate Content arise in the first place. It starts with clean crawl control. This means that you should not create duplicate content and also you shouldn’t link duplicate content so that search engines don’t have to deal with it.
+If the double page is already there, then you should ideally forward it directly to the desired original URL via 301
+redirects
+. Then your side stays slim and healthy.
+Now there is also duplicate content that is useful for your visitors. For example, URLs with sorting, affiliate URLs, or product variants. You can keep these pages, but they must refer to the original URL via the canonical link. In an affiliate URL, you may use a canonical tag like below:
+<link rel = “canonical” href = “https://www.holisticseo.digital/original-content” />
+This link in the <head> of your page, which is not visible to users, tells search engines which page should appear in the search results. Search engines then understand the double URL and the original URL as content and can handle it.
+If you have duplicate content that should not appear in any version in the index – such as very similar distribution pages that are only used for navigation – then you should set this to “noindex, follow” using the robots meta tag to exclude them from search engines. It is even better if you question the entire existence of these pages.
+If your navigation components can be seen after only the Javascript is rendered, you should use noindex carefully. Because, web pages with noindex tag won’t be rendered by Google for saving crawl resources. So, showing the internal navigation on those pages without JavaScript can be useful.
+If you have duplicate content, both of which should be searchable, then only one thing helps: You have to individualize this
+content
+. Even if all of your services are identical, regardless of whether you are repairing a laptop or desktop PC, for example: If you want the services to be found separately, you have to formulate your own content for them. Of course, this also applies to product descriptions in online shops.
+Special Cases of Duplicate Content
+Like the Repetitive content we have talked about before, there are other types of special duplicate content types and situations as told below.
+Recurring text modules
+Even single paragraphs that appear on several of your pages are a form of duplicate content. Google calls these “recurring text modules”:
+“Minimize recurring text modules: Instead of inserting extensive copyright notices at the end of each page, you can only provide a short summary with a link to detailed information.”
+Google Webmaster Guidelines
+This is not insignificant information. Try to put as little text as possible in Footer & Co. Shipping information and other things are also duplicate content! Google is very sensitive, especially if you put 300 words of extensive information about your great shop at the end of each individual website. There is no harm from these kinds of content for the users, but still, these types of content don’t spark the attention of the user. Also, they create relevance for the same query for every web page in a domain, this also creates a cost for the Search Engine along with confusion.
+External duplicate content
+If content appears on multiple domains, Google has to choose an original. As a rule, this is the page on which the Googlebot first found the content. But other signals such as links to the source are also an indication for Google.
+So if you publish a press release and your page is to be found for it, you should make sure that you publish first. It is crucial that Google crawls your page first. You can accelerate this by clicking on the “URL Inspection Tool” in the Google Search Console via User Interface. After inspecting the necessary URL, you may click the request indexing button. Also, you should provide links that are pointing to your original content, using the first-index logic may not be enough for public releases since the news sites have enormous authority in a wide range of topics.
+
+[...truncated...]

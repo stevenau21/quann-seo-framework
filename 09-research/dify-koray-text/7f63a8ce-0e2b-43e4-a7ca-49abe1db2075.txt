@@ -1,0 +1,94 @@
+Accept-Encoding HTTP Header: Principles, Types, Working Examples - Holistic SEO
+Skip to content
+The Accept-Encoding HTTP request header determines the content compression algorithm that will be accepted. Accept-Encoding HTTP Header is related to Content-Encoding. When data are compressed in Content-Encoding, the Accept HTTP header will inform the browser whether a client can manage the compressed algorithm of the website. Content-Encoding is used for data compression, where representation’s data are compressed without losing the information about the origin media type. Accept-Encoding HTTP request header informs the search engine crawlers and the web browser users if a client can manage the compressed algorithm of the website or not. The advantage of having an Accept-Encoding HTTP header on the webserver is the capability of the header to ensure that the appropriate version of the content is delivered to the web browser. Otherwise, an uncompressed version will be provided to the web browser which may affect the web server’s performance and user experience. Accept-encoding HTTP Header is a part of the content negotiation that affects the response time of the webserver
+Contents of the Article
+show
+1.
+What are the principles of the Accept-Encoding HTTP Header?
+1.1.
+What is the Syntax of Accept-Encoding HTTP Header?
+1.2.
+What are the directives of the Accept-Encoding HTTP Header?
+2.
+What are the Accept-Encoding Language related HTTP Headers?
+2.1.
+Examples of Accept-Encoding HTTP Header Use.
+3.
+What is the relation between the Accept-Encoding HTTP Header and the Content-Encoding HTTP Header?
+What are the principles of the Accept-Encoding HTTP Header?
+Principles of the Accept-Encoding HTTP Header are the usage of the header to indicate response content-codings are acceptable. Accept-Encoding contributes to a faster loading speed of the webpage by determining the Content-encoding, which is used to compress the data before it is sent to the web browser. When a client wants to access a resource, the client will request it by using a URL. There are 4 different working steps of Accept-Encoding HTTP Header. At the first step, the web server will use the URL and Content negotiation mechanism to choose from the representations. Representations are different forms of a specific resource. At the second step, the web server will then notify the client of the selected representation through a Content-encoding HTTP response header. In the third step, In Content encoding, representation’s data are compressed data without any information loss for the origin media type. Lastly, the Accept-Encoding HTTP request header will inform the browser whether a client can manage the compressed algorithm of the website. A request with no Accept-Encoding HTTP header field indicates no user preferences. Any content coding will be accepted by the user agent unless it is accompanied by a qvalue of 0 (“0” means “not acceptable”).
+What is the Syntax of Accept-Encoding HTTP Header?
+The syntax shown below demonstrates the appropriate structure and syntax of an Accept-Encoding HTTP request header.
+Accept-Encoding: gzip
+Accept-Encoding: compress
+Accept-Encoding: deflate
+Accept-Encoding: brAccept-Encoding: identity
+Accept-Encoding: *
+For Accept-Encoding HTTP request header with multiple algorithms, weighted with the quality value syntax is below.
+Accept-Encoding: deflate, gzip;q=1.0, *;q=0.5
+Example usage of Accept-Encoding HTTP request header is below.
+Accept-Encoding: gzip
+Accept-Encoding: gzip, compress, br
+Accept-Encoding: br;q=1.0, gzip;q=0.8, *;q=0.1
+What are the directives of the Accept-Encoding HTTP Header?
+The directives of the Accept-Encoding HTTP header shown below are compression format that provides individual functions.
+<gzip> gzip uses the LZ77(Lempel-Ziv coding) with a 32-bit CRC.
+<compress> compress uses the LZW (Lempel-Ziv-Welch) algorithm.
+<deflate> deflate uses the zlib structure with the deflate compression algorithm.
+<br> uses the Brotli algorithm.
+<identity> identity, even omitted, is a default value for “acceptable”. The value indicates the identity function which does not require any modification or compression.
+<*> asterisk is a symbol that refers to any value or any content-encoding will be accepted by the user agent.
+<;q=> (qvalues weighting) Any value is placed in an order of preference expressed using a relative quality value called weight.
+What are the Accept-Encoding Language related HTTP Headers?
+The Accept-Encoding-related HTTP request headers are
+Content-Encoding HTTP
+response header and
+Content negotiation
+. The relation of these headers is used for client and server communication. Where the server uses the Content negotiation on selecting the appropriate representation. Content-Encoding will then compress the representation’s data and Accept HTTP header will inform the web browser users if a client can manage the compressed algorithm of the website or not.
+Examples of Accept-Encoding HTTP Header Use.
+An example of usage for an Accept-Encoding HTTP request header is when the header will need to transfer the appropriate compressed data to the web browser. The format is shown below.
+Accept-Encoding: compress, gzip
+Accept-Encoding: *
+Accept-Encoding: compress;q=0.5, gzip;q=1.0
+Accept-Encoding: gzip;q=1.0, identity; q=0.5, *;q=0
+Another example for Accept-Encoding HTTP request header is used for “identity token”, where no encoding is required. The format is shown below.
+Accept-Encoding  = #( codings [ weight ] )
+codings          = content-coding / "identity" / "*"
+What is the relation between the Accept-Encoding HTTP Header and the Content-Encoding HTTP Header?
+The relation between Accept-Encoding HTTP header and Content-Encoding HTTP header is their functions in delivering the appropriate data to the webserver. While Content-Encoding HTTP header provides the compression of data, Accept-Encoding HTTP header will ensure that the appropriate data will be transmitted to the web browser.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Accept-Encoding HTTP Header: Principles, Types, Working Examples
+by Koray Tuğberk GÜBÜR
+time to read: 3 min
+TechSEO
+Access-Control-Allow-Origin HTTP Header: Syntax, D…
+TechSEO
+Accept-CH HTTP Header: Principles, Types, Working …
+0
+0
+0

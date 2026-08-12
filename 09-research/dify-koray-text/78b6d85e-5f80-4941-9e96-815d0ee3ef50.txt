@@ -1,0 +1,111 @@
+"aria-expanded" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-expanded is an attribute that sets on an element to indicate if control is expanded or collapsed, and whether list elements are displayed or not. The purpose of the aria-expanded attribute is to focus on the interactive control that toggles the visibility of the object. The developer can use the aria-expanded attribute to indicate the assistive technology whether the controlled element is expanded or if it collapsed. The aria-expanded can be used in elements such as list box, checkbox, menu item, textbox, and other hidden elements. The aria-expanded can be used in other aria labels like aria-controls, aria-owns, and aria-hidden.
+Contents of the Article
+show
+1.
+What is the function of the “aria-expanded” ARIA Label?
+2.
+What are the uses of the “aria-expanded” ARIA Label?
+3.
+Example Uses of “aria-expanded” ARIA Label
+4.
+What are the related ARIA Labels to “aria-expanded”?
+What is the function of the “aria-expanded” ARIA Label?
+The purpose of the attribute aria-expanded is to expose whether an area is expanded or collapsed and to reveal whether it contains any concealed objects or text. This attribute can also be used to indicate whether a region contains expanded content. It is possible to make the element’s control visible or show invisible material by using the aria-expanded attributes; this also helps screen readers to declare the information that is concealed within the content.
+What are the uses of the “aria-expanded” ARIA Label?
+Listed below are the uses of the “aria-expanded” ARIA Label.
+menuitem role:
+The menuitem role is to indicate the element that is a selection in the set of choices contained by a menu or menubar.
+listbox role:
+The listbox role is used for lists that the user may select one or more unlike in an HTML element which may contain images.
+combobox role:
+The combobox role identifies an element that controls another element, such as a listbox or grid, that can be dynamically visible when the user sets the trigger value.
+button role:
+The button role is a clickable element that triggers an instance when toggled by the user.
+tab role:
+The tab role displays an interactive element within the tab list that, when toggled, displays its related tab window.
+Example Uses of “aria-expanded” ARIA Label
+Listed below are the example uses of the “aria-expanded” ARIA Label.
+The aria-expanded attribute can be applied to an element in order to signal whether a control switch is expanded or collapsed, as well as whether its child elements are displayed or hidden.
+<button aria-expanded="false" aria-controls="widget1">Show hidden content</button>
+<label for="username">Enter Your Name</label>
+<input id="username" name="username" aria-describedby="username-desc">
+<button aria-expanded="false" aria-controls="username-desc" aria-label="Help about username" type="button">
+<span aria-hidden="true">?</span>
+</button>
+<p id="username-desc" hidden>
+You have a cool name
+</p>
+<a aria-expanded="true" id="TLink1" href="#" onclick="toggle('navbar', 'TLink1')">Toggle Navigation Bar 1</a>
+<ul style="" id="navbar">
+<li><a href="http://example.com/target1.html">Link 1</a></li>
+<li><a href="http://example.com/target2.html">Link 2</a></li>
+<li><a href="http://example.com/target3.html">Link 3</a></li>
+<li><a href="http://example.com/target4.html">Link 4</a></li>
+</ul>
+<p>Here is some content below the collapsible section.</p>
+<li class="active">
+<a href="#3a" class="btn btn-default btn-lg" data-toggle="tab" aria-expanded="true">
+<span class="network-name">My Awesome Network</span>
+</a>
+</li>
+<input type=”text” aria-label=”Tag” role=”combobox” aria-expanded=”true”
+aria-autocomplete=”list” aria-owns=”owned_listbox” aria-activedescendant=”selected_option”
+>
+<ul role=”listbox” id=”owned_listbox”>
+<li role=”option”>The Lion</li>
+<li role=”option” id=”selected_option”>Zoom</li>
+</ul>
+What are the related ARIA Labels to “aria-expanded”?
+Listed below are the related ARIA Labels to “aria-expanded”.
+aria-controls:
+The aria-controls are related to aria-expanded because they both identify hidden and controlled elements. The
+aria-controls
+property identifies the element with content that is controlled by the element as the attribute is set.
+aria-owns:
+The aria-owns are related to aria-expanded because they both control the visibility of the object, it shows the relationship between the controlling element and the controlled element. The
+aria-owns
+attribute identifies an element that indicates a visual, functional, or contextual relationship to both parent and child elements when the DOM level cannot be used to represent the relationship.
+aria-hidden
+: The aria-hidden is related to aria-expanded because they both indicated whether the element is exposed or hidden. The
+aria-hidden
+attribute can be used to hide content that is not interactive from the accessibility API.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-expanded” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-flowto” ARIA Label for Accessibi…
+TechSEO
+“aria-dropeffect” ARIA Label for Accessibility…
+0
+0
+0

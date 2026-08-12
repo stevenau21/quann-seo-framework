@@ -1,0 +1,124 @@
+User Interface (UI): Definition, Types and Design - Holistic SEO
+Skip to content
+A user interface is an interface through which a person can control software or hardware. Ideally, it is user-friendly so that the interaction can be done in a natural and intuitive way. Computer software is called a graphical user interface. Literally translated,
+user interface means
+“user interface”. The definition of user interface refers to a generic term to the
+interface between man and machine,
+in relation to software applications to the
+interface between man and computer
+.
+The aim is to design the user interface in such a way that the user can control the machine effectively without constantly being “put in the way”. An optimally designed user interface is therefore
+efficient, intuitive, and easy to use for the user
+.
+Contents of the Article
+show
+1.
+Why do we need User Interface?
+2.
+User interface design
+2.1.
+User Interface for Software
+3.
+Difference between UX Design and UI Design
+3.1.
+User interface design
+3.2.
+User experience design
+4.
+Improve human-computer interaction
+5.
+Development of the user interface
+5.1.
+CLI – Command Line Interface
+5.2.
+TUI – Text User Interface
+5.3.
+TUI – Tangible User Interface
+5.4.
+GUI – Graphical User Interface
+5.5.
+VUI – Voice User Interface
+5.6.
+NUI – Natural User Interface
+5.7.
+PUI – Perceptual User Interface
+5.8.
+BCI – Brain Computer Interface
+5.9.
+Role model real world
+6.
+User interface and SEO
+Why do we need User Interface?
+Man and machine do not speak the same language, the user interface serves as an intermediary. Because we think in rather abstract concepts, whereas a machine can only start something with specific instructions.
+Natural language and machine language are very different from each other. That’s why we need something to mediate between man and machine: a user interface, also known as a user interface or UI. It can be something very simple like a light switch. Or something complex like voice input from smart home devices that switch the light on and off using a voice command.
+User interface design
+In connection with the user interface, one inevitably encounters
+user interface design
+or UI design for short. This design area focuses on the
+user interface
+that a user is confronted with. Like the PC, this can be an interactive system, but it also includes systems without interaction, e.g. pure information systems such as an OVPN route map. After all, the user also has to find his way here, i.e. the information must be conveyed in an easily understandable and comprehensible manner.
+When developing a UI design, the conditions, goals, and obstacles in user interaction or reaction play a role. The optimization should adopt the system as much as possible to the requirements and expectations of the user.
+User Interface for Software
+In software, the user interface often means the graphical user interface of an application, including the graphical user interface or GUI. The functions and results of a program are displayed graphically so that users can work with them as easily as possible.
+Certain functions of the software can be carried out at the click of a button or by pressing a button without the user knowing what is actually happening in the background or what information the program uses for a calculation from databases and inputs. The machine returns the result, graphically processed.
+The aim is to make the use of the software as straightforward as possible and not to overload the user with unnecessary information. Today’s graphical user interface is a further development of the so-called input mask, in which navigation and the issuing of commands were implemented using individual keys. The command line itself counts as a separate type of user interface.
+Difference between UX Design and UI Design
+The terms UI Design and UX Design (User Experience Design) are sometimes used synonymously. Although they are very closely linked in that they are crucial for the perception of a website or an online product, they actually refer to different approaches to the user experience:
+User interface design
+This refers to the graphical user interface and therefore only to the interface design.
+Goal: To enable a pleasant interaction for the user, which ensures seamless interaction between user and product.
+User experience design
+Refers to the level of user experience.
+It is less about whether something works smoothly and more about how the website feels.
+Important questions include: Where does the user expect something? How could you shorten certain distances? What options are there to make processes on the website more fluid?
+An appropriately designed user interface has a positive effect on user experience.
+So if the basics already fit with the UI and all interactions work smoothly, this is a good starting point for positive user experience.
+Improve human-computer interaction
+The user interface is not about simply offering the user a beautiful, attractive interface, but about making it as easy as possible to use the system. Even if this leads to very different design developments depending on the application scenario, there are some general rules regarding “good interface design” that every designer should observe. Ben Shneiderman, an American computer scientist, has summarized them in “8 golden rules”.
+These include:
+Consistency:
+The entire surface should be structured consistently, for example, the colors, geometric elements, and typography of a website. If these key points remain constant, it will be much easier for the user to find his way. In practical terms, this means, for example, arranging the navigation on every page in the same way.
+Simple error handling:
+In the ideal case, the system is designed so that the user does not make any mistakes, which is, however, almost impossible. Therefore, troubleshooting should be made very easy for the user.
+Relieve the short-term memory of the user:
+Control elements should be presented in a way that is easy to understand, clear, and concise so that the user does not have to remember too much information.
+Development of the user interface
+The further development of PC systems always entails further developments of user interfaces. While only text-based input was possible at the beginning of PC development, today there is even the possibility to control software by thought.
+An overview of different user interface types :
+CLI – Command Line Interface
+In the beginning, user interfaces were only text-based because the computing capacity for graphic elements was insufficient. The input was made via text input or key combination commands. The users either knew what was necessary by heart or had to take them from the command tables. An example of CLI is the DOS system.
+The user sees a command line and a prompt that shows the current position. The only way to interact is to enter commands. The computer processes this and then again shows a line with a prompt as a prompt. Operating systems with this type of user interface are out of date, the CLIs have largely been replaced by GUIs.
+TUI – Text User Interface
+The TUI is also a text-based system, however, as a rule, no command entries are required as with the CLI. The user operates with a menu that he operates using the keyboard or the mouse. In-text mode, only the 256 character set elements are available. The file manager Norton Commander and Turbo Pascal are examples of TUI.
+A text user interface is character-oriented. The execution takes place in the text mode of the hardware, but the screen is used extensively. The programmer can only use the 256 characters of a character set. Navigation is usually via the keyboard and not via the mouse. Examples are the Norton Commander or Turbo Pascal from version 5.0. Furthermore, this interface is used with bootloaders and with all BIOS setup programs. Operating systems are also installed via this type of interface.
+The term TUI is also used for the Tangible User Interface:
+TUI – Tangible User Interface
+With this interface, the user interacts with the machine via a physical object, i.e. a tangible interface. This interface can be used as input as well as for output. TUI can hardly be found in “normal PC work”. Areas of application are more in the exhibition area. For example, objects can be offered in a museum with which visitors can control or interact with a program themselves.
+In contrast to operation via touchscreen or mouse, this is a more lively, memorable experience. For this reason, the user interfaces are often used in the educational field or in areas in which visitors should be able to understand an abstract phenomenon in an understandable manner.
+GUI – Graphical User Interface
+The graphical user interface is familiar from most software programs and is now the standard user interface for computers. Here the user no longer has to enter any commands manually but simply clicks on menus or symbols to carry out a function. It can be controlled using the mouse, function keys, or key combinations. Basically, this makes it impossible to execute nonsensical commands because they are not available for selection. Put simply, the user only acts on the GUI according to the principle:
+See, point to it (with the mouse, with the finger) and click.
+The success of the GUI goes back not only to the simple operation via the buttons but also to the design in the form of desk metaphors, which was introduced in 1984 with the Apple Macintosh. In 1990, this design became the industry standard for PCs. To this day, the floppy disk has been used as a storage symbol (even if the floppy disk hardly plays a role today) or the folder symbol for the logical digital order of documents.
+VUI – Voice User Interface
+This is a voice-controlled user interface with which both voice input and voice output are possible. The possible uses are very diverse:
+Connection to a phone number: It is possible via VUI, for example, to establish a connection to a phone number using voice dialing. Either the user speaks the number in the end device or he only says the name of the person who is to be called (the prerequisite in the latter case, of course, is that the name is saved and linked to a number).
+Conversion of speech into text (speech-to-text) as an app, part of operating systems or application programs
+Voice output as an operating aid, for example when navigating or as voice output of text documents for the blind
+NUI – Natural User Interface
+With the Natural User Interface, the user should be able to interact as naturally and intuitively as possible. The actual interface is hardly visible anymore, which is clear from the example of the touchscreen. A NUI is controlled via gestures and taps, i.e. via movement and touch. It is also possible to integrate the VUI, i.e. the language. The direct feedback from the device makes the control look more natural than input using the mouse and keyboard. In addition to the touchscreen, the NUI is also used for video games.
+The Nintendo Wii, for example, allows you to perform actions on the screen by moving a controller in your hand. By expanding an Xbox with Kinect, it is possible to control a character on the screen by moving your own body. In both, the game responds to natural movements, making the interaction natural.
+PUI – Perceptual User Interface
+A perceptual user interface is a perception-controlled user interface. The approach is still being researched. Among other things, it should combine the concept of GUI and VUI and, in combination with electronic gesture recognition, facilitate interaction with the computer. Through the participation of the senses hearing and seeing and at the same time combination with gestures, this interface aims at a lot of perception.
+In the Brain Computer Interface, the interaction is supposed to take place with the help of thoughts. There have been many successes in this area and research is promising. The most diverse areas of application form the basis of research. Electrodes measure brain waves, which are converted by algorithms. This can be used, for example, to control a robot arm to eat something. This possibility of interaction offers handicapped people relief in everyday life. An implementation with the same goal is the control of a vehicle with the help of thoughts. A system developed for wheelchairs is being tested on cars.
+BCI – Brain Computer Interface
+With a BCI, the computer should react directly to thoughts without the detour of an input device such as a mouse, keyboard, or gesture. Research in this area relates to very different applications, for example:
+Assistance systems in the car
+Prosthesis control
+Game applications
+The interface between the brain and the computer consists of an EEG device, a computer, and a device/application that executes the “commands”. The EEG device picks up the electrical signals from the brain, the computer translates them into a specific command and forwards them to the application. A computer program can be controlled by thought, a wheelchair, or an artificial arm.
+Research into the Brain-Computer Interface could make life easier for many people with disabilities in the future, as it enables them to perform activities that would otherwise only be possible with the help of other people.
+Role model real world
+When developing the first graphical user interfaces, parts of the real world were used as a model to make operation easier to understand. This can be recognized primarily by the symbols: a wastebasket, a folder, a diskette symbol for saving. From today’s perspective, many of these images are out of date, but they are still used. Essentially the study metaphor was used. The “desktop” is the work surface, ie the surface of the desk. The folders are usually in the closet, but the use and logic of the folder structure has been adopted.
+Even with new images that are to be used, a connection to the known is always made, because this makes the interaction easier for the user. The GUI is based on the fact that 
+
+[...truncated...]

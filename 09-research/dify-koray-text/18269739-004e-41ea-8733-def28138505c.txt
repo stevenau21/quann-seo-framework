@@ -1,0 +1,151 @@
+Sec-Fetch-Dest HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Sec-Fetch-Dest HTTP Header fetch metadata request header specifies the destination of the request. This is where and how the fetched data was requested in the first place, and it’s the one who made the original fetch request. Using this method, servers can determine whether a request is appropriate for the intended purpose for which it is being made. As an example, a request with a destination for audio should ask for audio data, not for some other type of resource, like a file (for example, a document that includes sensitive user information). There are multiple values for using the Sec-Fetch-Dest HTTP Header. The directives for using the Sec-Fetch-Dest HTTP Header are audio, audioworklet, document, embed, empty, font, frame, iframe, image, manifest, object, paintworklet, report, script, serviceworker, sharedworker, style, track, video, worker, and xslt. An example of the Sec-Fetch-Dest HTTP Header is given below.
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+The Sec-Fetch-Dest HTTP Header Request Header can be seen above, In this article, the Sec-Fetch-Dest HTTP Header Syntax, Directives, and Uses example will be processed.
+Contents of the Article
+show
+1.
+What is Sec-Fetch-Dest HTTP Header?
+1.1.
+What is the Syntax of Sec-Fetch-Dest HTTP Header?
+1.2.
+What is the Directive of Sec-Fetch-Dest HTTP Header?
+2.
+How to use Sec-Fetch-Dest HTTP Header?
+2.1.
+Examples of Sec-Fetch-Dest HTTP Header Use
+3.
+What is the Specification Document for Sec-Fetch-Dest HTTP Header?
+4.
+What is the type of Sec-Fetch-Dest HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Sec-Fetch-Dest HTTP Header?
+5.
+Which Browsers Support Sec-Fetch-Dest HTTP Header?
+What is Sec-Fetch-Dest HTTP Header?
+The Sec-Fetch-Dest HTTP Header indicates the request’s destination. This is where and how the original fetch request was made, and who made it. Servers can use this mechanism to determine if a request is appropriate for the intended purpose.
+What is the Syntax of Sec-Fetch-Dest HTTP Header?
+The Sec-Fetch-Dest HTTP Header contains multiple values. The syntax for using the Sec-Fetch-Dest HTTP Header is written below.
+Sec-Fetch-Dest: audio
+Sec-Fetch-Dest: audioworklet
+Sec-Fetch-Dest: document
+Sec-Fetch-Dest: embed
+Sec-Fetch-Dest: empty
+Sec-Fetch-Dest: font
+Sec-Fetch-Dest: frame
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Dest: image
+Sec-Fetch-Dest: manifest
+Sec-Fetch-Dest: object
+Sec-Fetch-Dest: paintworklet
+Sec-Fetch-Dest: report
+Sec-Fetch-Dest: script
+Sec-Fetch-Dest: serviceworker
+Sec-Fetch-Dest: sharedworker
+Sec-Fetch-Dest: style
+Sec-Fetch-Dest: track
+Sec-Fetch-Dest: video
+Sec-Fetch-Dest: worker
+Sec-Fetch-Dest: xslt
+What is the Directive of Sec-Fetch-Dest HTTP Header?
+There are multiple directives that can be put in the Sec-Fetch-Dest HTTP Header. The directives for using the Sec-Fetch-Dest HTTP Header are listed below.
+audio: The intended recipient is audio data. This could be a result of an HTML <audio> tag.
+audioworklet: The destination is data that is being fetched for an audio worklet to use. This could be the result of a call to audioWorklet. addModule().
+document: The request is for a document (HTML or XML), and the destination is the result of a top-level navigation request initiated by the user (e.g. resulting from a user clicking a link).
+embed: The destination is content that has been embedded. This could be the result of an HTML <embed> tag.
+empty: The empty string is the destination. The destination does not have its own value, hence this is the method utilized. Take, for instance, the functions fetch(), navigator.sendBeacon(), EventSource, XMLHttpRequest, and WebSocket, for example.
+font: The destination is a font. This could be a result of the CSS @font-face property.
+frame: The destination is shown by a frame. This could be the result of an HTML <frame> tag being used.
+iframe: The destination is an iframe. This could be the result of an HTML <iframe> tag being used.
+image: The destination is an image. This could be the result of an HTML <image>, SVG <image>, CSS background-image, CSS cursor, CSS list-style-image, etc.
+manifest: The destination is a manifest. This could be the result of an HTML <link rel=manifest>).
+object: A destination is an object. This could be the result of an HTML  <object> tag.
+paintworklet: The destination is a paintworklet. This could be a result of a call to CSS.PaintWorklet.addModule().
+report: The report is the destination (for example, a content security policy report).
+script: The destination is a script. This could be the result of an HTML <script> tag or a call to WorkerGlobalScope.importScripts().
+serviceworker: The destination is a service worker. This could be the result of a call to navigator.serviceWorker.register().
+sharedworker: The destination is a shared worker. This could be the result of a SharedWorker.
+style: The destination is a style. This could be the result of an HTML <link rel=stylesheet> or a CSS @import.
+track: The destination is an HTML text track.This could be the result of an HTML <track> tag.
+video: The destination is video data. This could be the result of an HTML <video> tag.
+worker: The Worker is the destination.
+xslt: The XLST transform is the destination.
+The example directives for using the Sec-Fetch-Dest HTTP Header are written below.
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+How to use Sec-Fetch-Dest HTTP Header?
+The Sec-Fetch-Dest HTTP Header fetch metadata request header tells you where to send the request. You can see where and how the data was first requested, and it’s the person who requested it. Servers can use this method to see if a request is appropriate for the purpose for which it is being made. When someone makes a request for audio data, they should not ask for something else, like a file or something else.
+Examples of Sec-Fetch-Dest HTTP Header Use
+An example of the Sec-Fetch-Dest HTTP Header use is given below.
+For example, if an <img> element makes a cross-site request, the request would have the following HTTP request headers (note that the destination is the image).
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+What is the Specification Document for Sec-Fetch-Dest HTTP Header?
+There is only one specification document for the Sec-Fetch-Dest HTTP Header which is the Fetch Metadata Request Headers. The Fetch Metadata Request Headers (Fetch Metadata) Article 2.1. mention the Sec-Fetch-Dest HTTP Header on how to set the Sec-Fetch-Dest HTTP Header as a header for a request. Additionally, this article discusses the Sec-Fetch-Dest HTTP Header’s definition, examples, and usage.
+What is the type of Sec-Fetch-Dest HTTP Header?
+The Sec-Fetch-User HTTP Header Request Header because it specifies the destination of the request and it also contains more information about the resource to be fetched, or about the client requesting the resource.
+What are the similar HTTP Headers to the Sec-Fetch-Dest HTTP Header?
+The similar HTTP Headers to the Sec-Fetch-Dest HTTP Header are listed below.
+Sec-Fetch-Mode HTTP Header : The
+Sec-Fetch-Mode
+specifies how the request is feeling at the time. Because they both use the Fetch Metadata Request header, this HTTP header and the Sec-Fetch-Dest HTTP Header are quite similar in that they both use the Fetch Metadata Request header as their HTTP Header Type.
+Sec-Fetch-Site HTTP Header : The
+Sec-Fetch-Site
+establishes the connection between the origin of the request initiator and the origin of the requested resource. This HTTP Header is comparable to the Sec-Fetch-Dest HTTP Header in that they both have the same HTTP Header Type, which is the Fetch Metadata Request Header.
+Sec-Fetch-User HTTP Header: The
+Sec-Fetch-User
+is only sent when a user is activated. Its value will always be?1. This HTTP Header is similar to the Sec-Fetch-Dest HTTP Header in that they both have the same HTTP Header Type, which is the Fetch Metadata Request Header.
+Which Browsers Support Sec-Fetch-Dest HTTP Header?
+There are multiple browsers that support Sec-Fetch-Dest HTTP Headers. The following browsers are listed below.
+Chrome Browser is compatible e with the Sec-Fetch-Dest HTTP Headers
+Edge Browser is compatible e with the Sec-Fetch-Dest HTTP Headers
+Firefox Browser is compatible e with the Sec-Fetch-Dest HTTP Headers
+Opera Browser is compatible e with the Sec-Fetch-Dest HTTP Headers
+WebView Android Browser is compatible e with the Sec-Fetch-Dest HTTP Headers
+Chrome Android Browser is compatible e with the Sec-Fetch-Dest HTTP Headers
+Firefox Android Browser is compatible e with the Sec-Fetch-Dest HTTP Headers
+Samsung Internet Browser is compatible e with the Sec-Fetch-Dest HTTP Headers
+You can see an image that shows cross-browsers compatibility of Sec-Fetch-Dest HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Sec-Fetch-Dest HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 5 min
+TechSEO
+Sec-CH-UA-Full-Version-List HTTP Header: Syntax, D…
+TechSEO
+Sec-Fetch-Mode HTTP Header: Syntax, Directive, Exa…
+0
+0
+0

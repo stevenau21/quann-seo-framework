@@ -1,0 +1,176 @@
+Hreflang Tags SEO: Definition, Usage, Examples - Holistic SEO
+Skip to content
+Hreflang is an HTML meta element from RFC 8288 which works for differentiation of the same content for different languages and geography in a symmetric way. Hreflang is being used by webmasters and Search Engines for determining the target of content in terms of geography and language. Hreflang has a canonicalization effect for the URL. Using the “Hreflang” and “Canonical” tags not in a harmony can give Search Engine mixed signals for indexation of the content. Hreflang shares a content’s authority, PageRank, historical success, or quality score among its different versions from other languages. Hreflang makes an easier understanding of a website’s information tree, structure, and URL distribution for different geographies and languages for Search Engines. Thus, hreflang is a closely related term for crawling, indexing, and ranking in Search Engine Optimization. A hreflang tag can’t be used for targeting the URLs themselves. It only can be used for pointing the “alternate” versions of the same content. If a hreflang tag is not being used in a symmetric way, the Search Engine will assume that the hreflang is being used in the wrong way. If page A targets page B with a hreflang tag, then Page B should do the same for Page A. Also, the hreflang tag shouldn’t be used with relative URLs, it only can be used with absolute URLs.
+In this article, hreflang’s history, definition, benefits, use cases, usage styles, importance will be given to the reader in a comprehensive way.
+Contents of the Article
+show
+1.
+When the Hreflang Tag Should be Used?
+2.
+How to Use Hreflang Tags on a Website?
+3.
+How to Use Hreflang Tags with HTML Tags
+3.1.
+X-Default Hreflang Tag in HTML Tags
+4.
+How to Use Hreflang Tags in the Response Headers
+5.
+How to Use Hreflang Tags with Sitemaps
+6.
+What Are the Important Points for Using Hreflang Tags?
+7.
+Which Language and Region Codes Are Supported by Hreflang Protocol?
+8.
+Importance of X Default Usage for Hreflang Attributes
+9.
+What are the Common Mistakes While Implementing Hreflang Tags
+9.1.
+1. Missing Returning Hreflang Links
+9.2.
+2. Using Wrong Language Codes
+9.3.
+3. Using Wrong Region Codes
+9.4.
+4. Self Referencing Hreflang Links in HTML
+10.
+How to Debug and Check Hreflang Tags in a Web Site
+10.1.
+Hreflang and Google Search Console International Targeting Report
+11.
+What are the Hreflang Validators?
+12.
+What are the Hreflang Validator Extensions for the Browsers?
+13.
+Last Thoughts on Hreflang Tags and Holistic SEO
+When the Hreflang Tag Should be Used?
+Hreflang tag should be used when a page has multiple versions for different regions and languages including accents. A Search Engine can find a web page’s alternate versions for different languages even if the web page doesn’t have a hreflang tag. But, using the hreflang tag helps Search Engines to understand the web pages’ versions and their targeted language and geography so that the Search Engine can index the web page for the right audience for the right query types. Also, hreflang usage can share the authority between pages for the same search intent and query group, this helps the web pages’ rankings on the Search Engine Results Page.
+Some example situations and cases for using the hreflang tag are below:
+If the main content of the web page is dependent on the users’ preference while the boilerplate of the content (template content of the header and footer or sidebar) will change according to the geography and language, the hreflang tag should be used. Usually, forums and user-generated content websites use this method.
+If the content of the web page should be changed with minor differences for different regions, accents, and cultures such as British English (en-UK), United States English (en-US) or Turkey Turkish (tr-TR) and Azerbaijan Turkish (az-AZ), hreflang tag has to be used so that only the right version should get indexed for the right audience.
+If the website has multiple language versions like English, German and French, all web pages from the website should point each other in a symmetric way with a hreflang tag.
+If a website doesn’t translate its main content while using hreflang, the main content of the web pages will be considered as duplicated and repetitive content which will harm the web pages’ performance on the SERP.
+How to Use Hreflang Tags on a Website?
+To use hreflang tags on a web page, there are three different methods, HTML Tags, HTTP Headers, and Sitemap. These methods have different benefits and rules for hreflang usage for specifying the different versions of the web page.
+How to Use Hreflang Tags with HTML Tags
+Hreflang tags can be used with HTML Tags as in “<link rel=”alternate” hreflang=”lang_code” href=”content-in-lang_code”/>” example. Hreflang code in the HTML link tag should be found in the header section of the web page. HTML Link Tags with hreflang tag in the header section of the web page will tell the different language and region versions of the same web page. Every different language and region version of the web page should be specified in a different <link> element in the <head> section of the web page document’s source code. Below, you will see an example of hreflang usage for a multi-language web page.
+<link rel="alternate" hreflang="tr-TR" href="example.com/example-content-tr"/>
+<link rel="alternate" hreflang="en-US" href="example.com/example-content-en"/>
+The code below can be added to the non-Turkish and non-English web pages. In the Turkish version of the web page, the hreflang tags below should be used.
+<link rel="alternate" hreflang="de-DE" href="example.com/example-content-tr"/>
+<link rel="alternate" hreflang="en-US" href="example.com/example-content-en"/>
+Thus, we have specified the all different and alternative versions of the same URL according to its regional and language differences. Language code in the hreflang should be formatted according to the
+ISO 639-1 format
+and the region code in the hreflang should be formatted according to the
+ISO 3166-1 Alpha 2
+format. “href” section of the hreflang tag should be consistent with the language and the region code of the hreflang and the hreflang section and its language and the region code should be consistent with the URL in the “href” section.
+X-Default Hreflang Tag in HTML Tags
+If a web page has a default version in terms of region and language, it can use the “x-default” code in the hreflang tag. For instance, if we have a default version for English, German and Turkish variations of the same web page, we also can use “x-default” for the default language. With the “x-default” code, we need to use specify the default version of the page. If we have the “English” version as the default, we can use the code block below in the <head> section of the web page.
+<link rel="alternate" hreflang="tr-TR" href="example.com/example-content-tr"/>
+<link rel="alternate" hreflang="x-default" href="example.com/example-content-en"/>
+<link rel="alternate" hreflang="de-DE" href="example.com/example-content-de"/>
+How to Use Hreflang Tags in the Response Headers
+Hreflang tags can be used in response headers of the web page. Using the hreflang tag in the response header can decrease the size of the HTML Document, increase the page speed and let the Search Engine see the hreflang code earlier since the response headers are being read before the web page is downloaded. To use the hreflang tag in the response header, you may check the example below.
+Link: <url1>; rel="alternate"; hreflang="lang_code_1", <url2>; rel="alternate"; hreflang="lang_code_2", ...
+The <url_x> section here is the alternate version of the same web page document while the “lang_code_x” is the language and region of the alternate version of the web page. In the URL section, the “<>” signs must be used. While using the hreflang tag with the HTTP Header, the requested web page version and the alternate versions must be used together. You may see a real-world example of hreflang usage with the HTTP Header below.
+Link: <https://example.com/example-content-tr>; rel="alternate"; hreflang="tr-TR_1", <https://example.com/example-content-en>; rel="alternate"; hreflang="en-US", <https://example.com/example-content-de>; rel="alternate" hreflang="de-DE"
+How to Use Hreflang Tags with Sitemaps
+Hreflang tags can be used within sitemaps to match the alternative versions in different languages and regions for the web pages. In sitemap, while using hreflang tags, every version of the web page including itself, its language, and region codes should be used together for every variation of the web page. To use hreflang tags in sitemaps, the guide below should be followed:
+Xhtml name space should be speficied as “xlmns:xhtml=”http://www.w3.org/1999/xhtml”.
+For each URL, a tag containing the tag must be opened.
+Every tag must have a URL.
+Every <url> tag should have a <xhtml:link rel=”alternate” hreflang=”language-code” href=”example.com/example-content-in-other-language”/> tag for every version of the web page. The order of these alternate URL specification is not important.
+An example of usage of hreflang tags with sitemaps is below.
+If there are four versions of the same content as “German, Swiss-German, US English, and Turkey Turkish”, then the sitemap example below should be to implement hreflang tags in sitemaps followed.
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>http://www.example.com/german/example-category</loc>
+<xhtml:link
+rel="alternate"
+hreflang="de-DE"
+href="http://www.example.com/german/example-category"/>
+<xhtml:link
+rel="alternate"
+hreflang="de-CH"
+href="http://www.example.com/schweiz-deutsch/example-category"/>
+<xhtml:link
+rel="alternate"
+hreflang="en-US"
+href="http://www.example.com/english/example-category"/>
+<xhtml:link
+rel="alternate"
+hreflang="tr-TR"
+href="http://www.example.com/turkish/example-category"/>
+</url>
+<url>
+<loc>http://www.example.com/english/example-category/</loc>
+<xhtml:link
+rel="alternate"
+hreflang="de"
+href="http://www.example.com/german/example-category"/>
+<xhtml:link
+rel="alternate"
+hreflang="de-CH"
+href="http://www.example.com/schweiz-deutsch/example-category"/>
+<xhtml:link
+rel="alternate"
+hreflang="en"
+href="http://www.example.com/english/example-category"/>
+<xhtml:link
+rel="alternate"
+hreflang="tr-TR"
+href="http://www.example.com/turkish/example-category"/>
+</url>
+<url>
+<loc>http://www.example.com/schweiz-deutsch/example-category</loc>
+<xhtml:link
+rel="alternate"
+hreflang="de"
+href="http://www.example.com/german/example-category"/>
+<xhtml:link
+rel="alternate"
+hreflang="de-ch"
+href="http://www.example.com/schweiz-deutsch/example-category"/>
+<xhtml:link
+rel="alternate"
+hreflang="en"
+href="http://www.example.com/english/example-category"/>
+<xhtml:link
+rel="alternate"
+hreflang="tr-TR"
+href="http://www.example.com/turkish/example-category"/>
+</url>
+<url>
+<loc>http://www.example.com/turkish/example-category</loc>
+<xhtml:link
+rel="alternate"
+hreflang="de-DE"
+href="http://www.example.com/german/example-category"/>
+<xhtml:link
+rel="alternate"
+hreflang="de-CH"
+href="http://www.example.com/schweiz-deutsch/example-category"/>
+<xhtml:link
+rel="alternate"
+hreflang="en-US"
+href="http://www.example.com/english/example-category"/>
+<xhtml:link
+rel="alternate"
+hreflang="tr-TR"
+href="http://www.example.com/turkish/example-category"/>
+</url>
+</urlset>
+What Are the Important Points for Using Hreflang Tags?
+There is ten important rule for implementing the hreflang tag correctly.
+Canonical Tags and Hreflang tags should be consistent.
+Hreflang Tags should be fully qualified, including the “HTTP” and “HTTPS” versions, relative URL paths were not be paid attention to.
+Alternative URLs do not have to be at the same domain, from subdomain to subdomain, hreflang can be used.
+If there are multiple regional versions of a web page for the same language, a version should be specified as the default version without any regional code. For instance, if there are 5 pages for different English Speaking Countries such as “The United States” as “en-US”, “United Kingdom” as “en-GB”, “New Zealand” as “en-NZ”, “India” as “en-IN”, “South Africa” as “en-ZA”, there should be a web page just with the “en” code within the hreflang tag without any regional specification.
+If the different versions of the web pages don’t point to each other consistency, the hreflang tags will be ignored by the Search Engine algorithms.
+If there are multiple languages for a website and maintaining this bidirectional hreflang implementation is hard, a webmaster should focus on maintaining the hreflang tags for the dominant language. Thus, Google may still process the content from other languages with its own predictions and perceptions along with hinting hreflang tags while focusing on the important section of the web page. For instance, if a web site has Spanish, English, French, Turkish, German, and Hungarian versions and the English version is the default and dominant version, hreflang tags that point to the English version from other versions will be more important than the hreflang tags that point other language versions of the same web pages from other language version web pages.
+For auto-redirecting homepages or unmatched language pages, using a default version is useful with the “x-default” hreflang code like “<link rel=”alternate” hreflang=”x-default” href=”http://www.example.com”>
+Which Language and Region Codes Are Supported by Hreflang Protocol?
+Hreflang attribute (tag) can be used with ISO-639-1 Format Language Codes and region codes with ISO-3166-1 Alpha 2 formats. To use this different language, accent, and region codes together, first the language code and then the region code should be written. The language code and the region code should be split with a “-” character. The region code should be in capitalized letters, unlike the language code. A region code can’t be
+
+[...truncated...]

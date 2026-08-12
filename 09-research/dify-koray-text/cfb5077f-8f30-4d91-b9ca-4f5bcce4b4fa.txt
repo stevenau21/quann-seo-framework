@@ -1,0 +1,103 @@
+TK HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The TK is an HTTP response header that determines the tracking status of the equivalent request. The Tk-HTTP response header is defined to communicate the web server’s tracking performance. Tracking is the compilation of data concerning a specific user’s activity across multiple distinct contexts, or the sharing of information obtained from the user’s activity outside the context in which it took place. A context is a group of resources that are managed by the same party or controlled together by a group of parties. A party is a human, or legal entity, or a set of legal entities that share a general owner(s) or group identity that is quickly visible by a user agent. User activity is any set of such user actions. A user action is a methodical action by the user, via selection, configuration, or invocation, to initiate network communication. Examples of user actions include choosing a link, form submission, and page reloading. Network communication is a single HTTP request and one or more correlative HTTP responses. A web server needs to send a Tk-HTTP response header field when its site-wide tracking status value is “?” (dynamic) or “G” (gateway), or when revisions are made to the tracking status, which is represented by “U” (updated). A site-wide tracking status resource gives information concerning the potential tracking performance of resources found on a web server. Although this feature is no longer recommended, some web browsers are still supporting the TK HTTP response header. It may have now been discarded from the related web standards, but is still being used and retained for compatibility usage.
+Contents of the Article
+show
+1.
+What is TK?
+1.1.
+What is the Syntax of TK?
+1.2.
+What is the Directive of TK?
+2.
+How to use TK?
+2.1.
+Examples of TK Use
+3.
+What are the Specification Documents for TK?
+3.1.
+What are the similar HTTP Headers to the TK?
+What is TK?
+The TK HTTP response header is also called the Tracking status header. The TK HTTP response header’s main usage is for confirming tracking status. The value in the TK HTTP response header is being sent in response to a DNT(do-not-track). The DNT (Do Not Track) HTTP request header indicates the user’s tracking preference. The DNT (Do Not Track) HTTP request header field is defined to communicate the user’s tracking preference for the target resource. A well-known URI (Uniform Resource Identifier) for a tracking status resource and the TK HTTP response header field is defined to communicate the server’s tracking behavior. When a user agent enables a tracking preference, that preference must be displayed to all methods that will initiate the tracking. When a tracking preference is enabled, a tracking preference is expressed as either “1” (User-agent does not allow to be tracked on the specific request) or “0” (User-agent allows to be tracked on the specific request). The TK-HTTP response header starts with a tracking status value, followed by a semicolon and a status-id. A tracking status value (TSV) is a response, in a single character form, to the user agent’s tracking preference regarding the data collected by using the selected resource that pertains to a request-specific tracking status resource. The status-id part of a TK-HTTP response header specifies which certain tracking status resource is used for the existing request. A tracking status refers to the state of being tracked.
+What is the Syntax of TK?
+The syntax for the TK HTTP response header is below.
+Tk: !  (under construction)
+Tk: ?  (dynamic)
+Tk: G  (gateway or multiple parties)
+Tk: N  (not tracking)
+Tk: T  (tracking)
+Tk: C  (tracking with consent)
+Tk: P  (potential consent)
+Tk: D  (disregarding DNT)
+Tk: U  (updated)
+An example of the TK-HTTP response header is below.
+Tk: !  (under construction)
+What is the Directive of TK?
+The directives for the TK HTTP response header are below.
+<!> Signifies Under construction. The web server is presently examining its communication of tracking status.
+<?> Signifies Dynamic. The web server requires more data to define tracking status. A status-id in the field-value is required from a web server if the TK field-value has a tracking status value of “?” (dynamic).
+<G> Signifies Gateway or multiple parties. The web server acts as a gateway to exchanges concerning multiple parties. The gateway needs to send a Tk-HTTP header field in response to a request on the specific resource and include within that fields value a status-id particular to the chosen party, such that the data concerning the chosen party can be collected via the request-specific tracking status resource.
+<N> Signifies Not tracking.
+<T> Signifies Tracking.
+<C> Signifies Tracking with consent. The web server believes it has received prior consent for tracking this user, user agent, or device.
+<P> Signifies Potential consent. The web server does not specifically know, in real-time, if it has obtained prior consent for tracking this user agent, or device, but agrees not to use or share any DNT:1 data until such consent has been defined, and additional commitments to permanently de-identify within a specific time any DNT:1 data received for which such consent has not been obtained.
+<D>  Signifies Disregarding DNT. The web server is unable or unwilling to respect a tracking preference collected from the requesting user agent.
+<U>  Signifies Updated. The request resulted in a potential change to the tracking status suitable to the user agent, or device.
+How to use TK?
+To use the TK-HTTP response header, it basically starts with a tracking status value. A semicolon is optional and followed by a status-id that refers to a request-specific tracking status resource. The status-id portion of the TK field value determines which particular tracking status resource applies to the current request. The status-id part of the TTKfield-value specifies which specific tracking status resource applies to the existing request and is case-sensitive. An example of a Tk-HTTP response header field for a resource that requires not to be tracked is below.
+Tk: N
+A tracking status resource space is determined by the URI (Uniform Resource Identifiers) Template shown below.
+/.well-known/dnt/{+status-id}: represents the value of status-id, as a string of URI-safe characters, given by a Tk field-value in response to a prior request.
+Examples of TK Use
+An example of the Tk HTTP response header field that can include a status-id to indicate which specific tracking status resource applies to the current request is below.
+If a web server provides an HTTP method for creating or modifying out-of-band tracking preferences, the webserver needs to specify within the mechanism’s response when a state-changing request has resulted in a change to the tracking status for that web server. This indication of an interactive status change is achieved by sending a TK HTTP header field in the response with a tracking status value of “U” (updated). Out-of-band pertains to communications that happen outside the main protocol. An example is shown below.
+Tk: U
+A tracking status representation can be acquired by performing a retrieval request on the URI below.
+/.well-known/dnt/fZx81
+When a web server is having more than one request-specific tracking method, the webserver will give an additional subtree of well-known resources correlated to each tracking status. The status-id part of the TK HTTP response header specifies which particular tracking status resource is used for the request. An example below shows that information gathered using the target resource can be used for tracking status.
+Tk: T;fZx81
+An example below is a prior response that indicates the particular tracking status resource URI “/.well-known/dnt/sample”
+Tk: ?;sample
+What are the Specification Documents for TK?
+The specification document for the TK HTTP response header is below.
+RFC5785: The RFC5785 or Defining Well-Known Uniform Resource Identifiers (URIs). A tracking status representation can be acquired by doing a retrieval request on the URI. Relative to the origin server’s URI (Uniform Resource Identifiers).
+RFC7231: The RFC7231 or Registration Procedures for Message Header Fields. The RFC7231 specification extends Hypertext Transfer Protocol (HTTP) semantics to communicate a user agent’s tracking preference and a web server’s tracking performance.
+What are the similar HTTP Headers to the TK?
+A similar TK HTTP Response header is below.
+DNT HTTP Request header: DNT HTTP Request header refers to “Do Not Track”, a Tracking Protection Expression. The DNT (Do Not Track) request header specifies the user agent’s tracking preference.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+TK HTTP Header: Syntax, Directive, Examples
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+TechSEO
+Access-Control-Allow-Credentials HTTP Header: Synt…
+TechSEO
+Content-Location HTTP Header: Syntax, Directive, E…
+0
+0
+0

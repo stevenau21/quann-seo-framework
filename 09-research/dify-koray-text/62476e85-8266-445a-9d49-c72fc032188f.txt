@@ -1,0 +1,108 @@
+Skip to content
+The <nav> HTML Tag defines a section of a page that contains links to other documents or to other documents within the current document. Menus, tables of contents, and indexes are all examples of navigation sections. The developer should include navigation links within the current document or to other documents when using the <nav> HTML Tag. The <nav> HTML Tag is part of the link tags category in HTML Element Reference. The attributes of the <nav> HTML tag are global attributes and event attributes.
+<nav> code block example to learn how it works is given below.
+<nav>
+<a>Navigation</a>
+</nav>
+The second example usage of the “<nav>” code block example is given below.
+<nav>
+<a href="/PythonSEO/">Python SEO</a> |
+<a href="/TechSEO/">TechSEO</a> |
+<a href="/TheoreticalSEO/">Theoretical SEO</a> |
+<a href="/On-PageSEO/">On-Page SEO</a>
+</nav>
+Contents of the Article
+show
+1.
+What is <nav> HTML Tag?
+2.
+How to Use <nav> HTML Tag?
+2.1.
+Example Usage of <nav> HTML Tag?
+3.
+What are the Attributes of <nav> HTML Tag?
+4.
+What are the Default CSS Settings for <nav> HTML Tag?
+5.
+What are the Related other HTML Tags to <nav>?
+What is <nav> HTML Tag?
+The <nav> HTML Tag is used in documents to define the navigational section. Typically, websites include sections dedicated to navigational links that assist users in navigating the site. The <nav> HTML Tag can be used to include these links. A section of a page designated for providing connections to other pages, such as those in the current document, is designated as a <nav> HTML Tag. Links in the <nav> HTML Tag may refer to other websites or to various sections of the same website. Menus, tables, contents, and indexes are common examples of navigation features. The <nav> HTML Tag is intended for important navigation places such as the main menu at the top of a page or section. The <nav> HTML Tag simplifies the process of creating a navigation menu, generates a clean horizontal menu of text links, and aids screen reading tools in correctly identifying the document’s major navigation sections.
+How to Use <nav> HTML Tag?
+To use <nav> HTML Tag, the web developer should write navigation links between the <nav> and </nav> tags. It is necessary for web developers because the <nav> HTML Tag is intended to contain only the most significant blocks of navigation links.
+Example Usage of <nav> HTML Tag?
+The following example of usage of <nav> HTML Tag is given below.
+<nav class="Holistic SEO & Digital">
+<ul>
+<a href="Marketing">Marketing</a>
+<a href="techSEO">Tech SEO</a>
+<a href="OnpageSEO">On-Page SEO</a>
+</ul>
+</nav>
+What are the Attributes of <nav> HTML Tag?
+There are multiple attributes for the <nav> HTML Tag. The following attributes are listed below.
+Global Attributes: The <nav> HTML tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <nav> HTML tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <nav> HTML Tag?
+The following is the Default CSS Setting for the <nav> HTML Tag.
+nav {
+border-bottom: 1px solid black;
+}
+.crumbs ol {
+list-style-type: none;
+padding-left: 0;
+}
+.crumb {
+display: inline-block;
+}
+.crumb a::after {
+display: inline-block;
+color: #000;
+content: '>';
+font-size: 80%;
+font-weight: bold;
+padding: 0 3px;
+}
+What are the Related other HTML Tags to <nav>?
+The other related HTML Tags to <nav> HTML Tag are listed below.
+<anchor> HTML Tag: The <anchor> HTML Tag is related to <nav> HTML Tag because they are both link tags. The web developer can create links on a web page with the usage of the <anchor> HTML Tag.
+<link> HTML Tag: The
+<link>
+HTML Tag is related to <nav> HTML Tag because they are both link tags. The <link> HTML Tag specifies links between the current document and external resources.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <nav> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <pre> Tag Definition, Usage and Example…
+TechSEO
+HTML <header> Tag Definition, Usage and Exam…
+0
+0
+0

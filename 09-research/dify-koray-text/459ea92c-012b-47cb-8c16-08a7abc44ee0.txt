@@ -1,0 +1,140 @@
+Skip to content
+Entity-oriented Search Understanding is an important part of Search Engine Understanding or Search Engine Communication. These terms might be new to the traditional understanding of SEO, but the process of understanding a search engine is a daily routine for any SEO to analyze the search engines’ decision trees that create their result pages. Entity-oriented Search Understanding is the understanding of a SERP Instance based on entities, their types, attributes, and connections to each other. A search engine might choose only certain types of pages that include a type of entity along with particular attributes and phrase variations for these attributes with the most related facts. Or, a search engine might filter the results according to the sources’ N-Grams for certain entities. If they don’t have enough numbers, or if they don’t have the relevant facts and external references for these entities, they might be outranked.
+With entity-oriented search understanding, an SEO can have a better and deeper vision for the search engines. Knowing an entity from a topic, its contextual layers, and relation types with other entities are crucial to help a source (website) rank higher on the query results of a web search engine. In this article, entity-oriented search engine optimization, and its effect on a Broad Core Algorithm Update’s results, will be explained with a real-world SEO Case Study which is BKMKitap.com.
+A section from the Entity-oriented Search of Krisztian Balog.
+Before continuing, you can find the related information for the author of this SEO Case Study and examination.
+Koray Tuğberk GÜBÜR
+publishes SEO Case Studies, research and experiments, A/B Tests, and guides regularly. From Technical, Semantic, or Local SEO to Data Science, and Web Development, he focuses on a variety of verticals. He is the owner of
+Holistic SEO
+.
+“By implementing an entity-focused SEO perspective with innovation, and following the new SEO Concepts, we were able to regain the lost organic traffic due to the latest Google Broad Core Algorithm Updates. By focusing on Core Algorithm Updates to improve the authority of BKMKitap.com with Koray’s guidance, we have created more granular and detailed content for e-commerce and informative web pages.”
+Haluk Bolaban
+,
+BKMKitap.com Marketing Director
+Contents of the Article
+show
+1.
+Background of the Entity-oriented Search Understanding Case Study BKMkitap
+2.
+What is Topical Authority for Entity-Oriented Search?
+2.1.
+How to Improve Topical Authority with Entity-oriented Search Understanding?
+2.2.
+How to Use Topical Authority for E-commerce Sites with Entity-oriented Search Understanding?
+2.3.
+How to Understand Which Entity Attributes are More Important for a Context?
+2.4.
+How do we Connect Entities to Each Other to Strengthen the Contextual Signals and Relevance?
+2.5.
+How to Define Entities by Specifying the Context?
+2.6.
+How I Used Entity-Oriented Search Understanding for BKMKitap.com SEO Case Study?
+2.7.
+How I Improved the Contextual Relevance and Topical Authority with Informational Content for Commercial Intents?
+3.
+The Effects of the November 2021 Google Broad Core Algorithm Update
+4.
+The Effects of the May 2022 and September 2022 Broad Core Algorithm Updates
+4.1.
+What is Topical Consolidation for Search Engines?
+4.2.
+What is Broad Index Refresh?
+4.3.
+How do Different Broad Core Algorithm Updates focus on Different Tasks?
+4.4.
+Why did May 2022 BCAU Affect the website Negatively?
+4.5.
+What did Entity-oriented Search Project Change?
+4.6.
+Why did September 2022 BCAU Affect the website Positively?
+5.
+Last Thoughts on the Importance of Entity-oriented Search Understanding for SEO
+Background of the Entity-oriented Search Understanding Case Study BKMkitap
+The last 5 broad core algorithm updates of Google were mostly negative until July 3, 2021, Broad Core Algorithm Update.
+July 3, 2021, Broad Core Algorithm Update (Strongly Positive)
+June 2, 2021, Broad Core Algorithm Update (Neutral)
+December 3, 2020, Broad Core Algorithm Update (Harshly Negative)
+May 4, 2020, Broad Core Algorithm Update (Neutral)
+January 13, 2020, Broad Core Algorithm Update (Negative)
+June 2, 2019, Broad Core Algorithm Update (Negative)
+BKMkitap.com is one of the biggest bookstores in Turkey, and it is one of the rare situations where a website has a strong search demand, and lots of navigational queries but still loses all the broad core algorithm updates despite there being no trustworthiness or non-expertise signals on the open web.
+An All-Time Graphic of BKMKitap.com from Ahrefs.
+However, BKMKitap.com has a tremendous amount of Technical SEO and Web Page Loading Performance Optimization problems. Below, you can see a general overview of the Google Search Mobile Pagespeed report for BKMKitap.com.
+A summary of the web page loading performance time of BKMKitap.com.
+I try to keep only the “valid” section high in the Google Search Console Coverage Report. This is so search engines can focus on only indexing and ranking rather than understanding which URL is necessary on the SERP with which version; this includes how to parse, digest HTML, or understand the content, etc. Below, you can see the heavy canonicalization errors along with the other mixed indexing signals.
+Technical SEO Problems are not an obstacle to Semantic SEO success, despite they might make a site’s usability for the web harder.
+Below, you can see the good URLs of BKMKitap.com in the Page Experience Report of the GSC, if you are lucky enough to see them one day.
+From millions of URLs, even a single URL doesn’t have success for the Page Experience Algorithm.
+To demonstrate the Technical SEO and pagespeed-related problems of the BKMKitap.com SEO Case Project, you can check the list below.
+Half of the website URLs don’t exist in the sitemaps
+There are millions of cannibalized URLs.
+There are thousands of duplicate product URLs.
+More than 30000 internal 404 pages. (From full data)
+Blocked URLs within the Sitemap.
+Hundreds of 5XX errors daily
+Submitted URLs with Noindex
+Redirection Errors
+Submitted but 404 URLs
+Indexed but blocked URLs (Tens of thousands)
+Indexed content without actual content
+More than half a million robots.txt excluded pages.
+Nearly 100,000 URLs are crawled and not indexed.
+Nearly 53.224 pages are currently discovered and not crawled.
+Over 600,000 duplicate with canonical and submitted URL is not selected as canonical.
+The site has millions of URLs, but even a single URL doesn’t pass the
+Core Web Vitals
+.
+Most of the website has poor scores on the PSI.
+Thousands of AMP Related issues such as referenced AMP URL is not an AMP, or custom javascript, etc.
+Thousands of structured data errors, and missing information for the related products.
+Hundreds of thousands of products without stock information, or stock existence. These last two subjects also affect the search engine’s confidence to rank the specified e-commerce page, since the stock information, brand, reviews, and prices are not clear enough for the evaluation algorithms.
+A colorful Technical SEO look for BKMKitap.com SEO Case Study.
+During the BKMKitap.com SEO Case Study, I also optimized lots of technical SEO and pagespeed-related tasks. However, most of the problems are caused by BKMKitap’s external developer company TSoft as they don’t have enough expertise, experience, or understanding of the SEO to finish these tasks. When the company grows, the problems and technical necessities, and task-handling obstacles grow too. That’s why having a Holistic SEO perspective is important. Since the technical SEO wasn’t an option to change the status, I had to use the Entity-oriented Search approach.
+General graphic of the BKMKitpa.com on SEMRush.
+What is Topical Authority for Entity-Oriented Search?
+Topical Authority is the relevance of a source to a topic by proposing link value to the Search Engines by satisfying the users via the queries that seek answers for certain entities with a certain context.
+Topical Authority
+is a fundamental term for
+Semantic SEO
+to describe the value of the Natural Language Understanding of search engines.
+General Change Graphics of the BKMkitap.com from Ahrefs.
+How to Improve Topical Authority with Entity-oriented Search Understanding?
+To improve the topical Authority, a source should cover all the related details to a topic with a certain context, query, and intent template by satisfying the related and possible search intents. To improve the topical authority, the “keyword gap” is not as important as the “information gap”. The facts which exist within a source for a topic, their accuracy, and clarity, position are influential to increase the contextual signals of a web page.
+To improve the topical authority of an SEO Project, in the context of entity-oriented search, the methods below can be used.
+Compare the entities within different web pages.
+Compare the context and content angle for these entities.
+Compare the facts, prepositions, and semantic role labels for these entities.
+Compare the questions on the competing web pages.
+Compare the Site-wide and Page-level N-Grams of the web pages.
+Compare the web page layout of the web pages (web page design can affect the meaning and context of the entities within the web page)
+Compare the anchor texts from outgoing, and incoming links for these web pages.
+Take all the attributes of the specific entity, and give them an order based on the relatedness of the attribute for the source, and the popularity of the attribute to generate better questions.
+Use a clear sentence structure for all the prepositions.
+Do not dilute the context of the web page with irrelevant opinions, or analogies, and other types of entities.
+Process the same entity or same entities from the same type with the same context from start to end.
+Change the graphic only for the biography of the authors with “who” questions.
+If you want to learn more about
+contextual search
+, you can read an SEO Case Study that uses question-and-answer generation for certain topics. Besides these methods, there are many more things that can be used to improve topical authority, contextual relevance, and click satisfaction possibility. I will be creating a course to teach Semantic SEO and Semantic Search Engine nature to detail all possible steps together.
+How to Use Topical Authority for E-commerce Sites with Entity-oriented Search Understanding?
+To use the topical authority for e-commerce sites, a source should cover products, brands, services, and dimensions, and attributes of these with related information. This information includes price, color, size, availability, shipping, or refund policy, usage guideline, and product-related questions, reviews, or comparisons. Definitional, informational, comparison-based, opinion-based, review-based, factual, and commercial content should exist at the same time within an e-commerce site to make a source topically authoritative for certain types of entities with different contextual layers.
+InLinks can help to understand the main topic and entity within a content.
+Informational content and commercial content support each other to satisfy every possible, and relevant search activity from the same source. A source should process the related attributes by answering the questions that can be generated from these attributes. If an e-commerce site is about “electronic bikes”, the source should cover “mountain electronic bikes”, “fat-tire electronic bikes”, their parts, invention, and maintenance along with similar “bike types”, or their “alternatives”, and “electronic bike brands, products, facts, tips, usage, obstacles, advantages” and more. All these knowledge domains will include different questions with different word distribution possibilities. Moreover, the possible search intents, correlated queries, sequential queries, entity-seeking queries, and query themes should be used to cover these knowledge domains with the best possible contextual vector.
+The last three months change the graphic of the BKMKitap.com
+If you don’t know what a “query theme” and “query template” are, you should read the “Indexing SEO Case Study” that I have written to conceptualize the cost of the document indexing along with the cost of not indexing the document. With simple steps, the usage methods of topical authority for e-commerce sites are described in the list below.
+Understand the dimensions of the product that you sell.
+Find all the relevant entities for the product, including its brand, material, inventor, alternatives, and similar.
+Generate the best proper questions for these dimensions of the product, brands, related entities, and their attributes.
+Give the questions a proper order based on the web page layout, and web page purpose.
+Match the query and answer format with NLP convenient sentence structures.
+Use information redundancy, and unique value opportunities for the products.
+Connect all the entities based on their ontology for commercial purposes.
+Understand the popularity of entity attributes and the relatedness of entity attributes.
+Try to use entity relations, relation types, semantic role labeling, and entity resolution from the eyes of the search engines.
+Use phrase templates, and phrase pattern taxonomies, and create a prominence hierarchy without diluting the context.
+Search Engines’ perspectives on a topic and the central context of the topical map should align with each other to make search engines understand the website easier, and faster.
+Performing a NER for a webpage, and using them for potential internal and contextual links is possible.
+How to Understand Which Entity Attributes are More Important for a Context?
+The prominence of the attribute, relatedness of an attribute, and popularity of an attribute have different importance levels. An entity attribute can be popular, but it might not be prominent. It can be related to the specific contextual domain, but it might not be prominent enough. And, entity attribute popularity can be seen 
+
+[...truncated...]

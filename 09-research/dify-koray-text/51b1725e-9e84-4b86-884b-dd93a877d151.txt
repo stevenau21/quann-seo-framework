@@ -1,0 +1,113 @@
+Sec-CH-UA HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The user-branding agent’s and significant version information are included in the Sec-CH-UA HTTP Header user agent client hint request header. The Sec-CH-UA header indicates the brand and significant version for each of the browser’s linked brands in a comma-separated list. Sec-CH-UA is a suggestion with low entropy. It is delivered by default without the server having to explicitly accept it by sending Accept-CH in most cases. There is two value for the Sec-CH-UA HTTP Header. The <brand> and <significant version>.  An example of Sec-CH-UA HTTP Header is written below.
+Sec-CH-UA: "(Not(A:Brand";v="8", "Chromium";v="98"
+The Sec-CH-UA HTTP Header Request Header is seen above. The Sec-CH-UA HTTP Header Syntax, Directives, and Uses example will be processed in the article.
+Contents of the Article
+show
+1.
+What is Sec-CH-UA HTTP Header?
+1.1.
+What is the Syntax of Sec-CH-UA HTTP Header?
+1.2.
+What are the Directives of Sec-CH-UA HTTP Header?
+2.
+How to use Sec-CH-UA HTTP Header?
+2.1.
+Examples of Sec-CH-UA HTTP Header Use
+3.
+What is the Specification Documents for Sec-CH-UA HTTP Header?
+4.
+What is the type of Sec-CH-UA HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Sec-CH-UA HTTP Header?
+5.
+Which Browsers Support Sec-CH-UA HTTP Header?
+What is Sec-CH-UA HTTP Header?
+The Sec-CH-UA HTTP header specifies the brand and significant version for each of the browser’s associated brands in a comma-separated list. The user-branding agent and important version information are included in the Sec-CH-UA user agent client hint request header. Sec-CH-UA is a low-entropy proposal. It is usually given by default, without the server needing to accept it explicitly by sending Accept-CH.
+What is the Syntax of Sec-CH-UA HTTP Header?
+The Sec-CH-UA HTTP Header contains two values in its syntax. The syntax for using the Sec-CH-UA HTTP Header is written below.
+Sec-CH-UA: "<brand>";v="<significant version>", ...
+What are the Directives of Sec-CH-UA HTTP Header?
+There are two directives that can be put in the Sec-CH-UA HTTP Header. The directives for using the Sec-CH-UA HTTP Header are given below.
+<brand>
+A brand that is connected with the user agent, such as “Chromium” or “Google Chrome,” or a brand that is purposefully inaccurate, such as “Not A; Brand.”
+<significant version>
+The version number for the “marketing” version corresponds to identifiable web-exposed features.
+The example directives for using the Sec-CH-UA HTTP Header are written below.
+Sec-CH-UA: "(Not(A:Brand";v="8", "Chromium";v="98"
+Copy to Clipboard
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+How to use Sec-CH-UA HTTP Header?
+The Sec-CH-UA HTTP Header user agent client hint request header contains branding and significant version information for the user agent. The Sec-CH-UA HTTP Header contains the brand and significant version for each brand linked with the browser in a comma-separated list. A brand is a brand name given to a user agent, such as Chromium, Opera, Google Chrome, Microsoft Edge, Firefox, or Safari. A user agent may be connected to multiple brands. Opera, Chrome, and Edge, for example, are all built on Chromium and will include both brands in the Sec-CH-UA HTTP Header. The important version is the “marketing” version identification used to differentiate between the brand’s main releases. A Chromium build with the complete version number “96.0.4664.45”, for example, has a significant version number of “96.” Thus, the header enables the server to tailor its answer depending on both shared branding and specific customizations in each version. A hint with a low entropy value is Sec-CH-UA HTTP Header. It is delivered by default, without the server explicitly opting in via Accept-CH unless a user agent permission policy prohibits it. The header may include “fake” brands in any place and with any name. This is a feature that prevents servers from outright rejecting unknown user agents, forcing them to fabricate their brand identity.
+Examples of Sec-CH-UA HTTP Header Use
+The Sec-CH-UA HTTP Header is a hint with a low entropy value. It will be sent in all requests (without the server having to opt-in by sending Accept-CH) Uunless a user agent policy expressly prohibits it.
+Below are strings from the Chromium, Chrome, Edge, and Opera desktop browsers. Notably, they all bear the “Chromium” brand but also bear a label indicating their origin. Additionally, they have an intentionally erroneous brand string that may appear in any position and contain varying text.
+Sec-CH-UA: "(Not(A:Brand";v="8", "Chromium";v="98"
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Microsoft Edge";v="96"
+Sec-CH-UA: "Opera";v="81", " Not;A Brand";v="99", "Chromium";v="95"
+What is the Specification Documents for Sec-CH-UA HTTP Header?
+There is only one specification document for the Sec-CH-UA HTTP Header which is the User-Agent Client Hint. The User-Agent Client Hint Article 3.1. mention the Sec-CH-UA HTTP Header as a header field and give information about the definition and uses of the Sec-CH-UA HTTP Header. Additionally, this article discusses the Sec-CH-UA HTTP Header’s examples and usage.
+What is the type of Sec-CH-UA HTTP Header?
+Request Headers is a type of Sec-CH-UA HTTP Header because it has the user-name agents and important version information. There is no other HTTP type for the Sec-CH-UA HTTP Header.
+What are the similar HTTP Headers to the Sec-CH-UA HTTP Header?
+The similar HTTP Headers to the Sec-CH-UA HTTP Header are listed below.
+HTTP Client hints:
+As with Sec-CH-UA HTTP Header, Client Hints are HTTP header fields that a server can ask a client for in order to get more information about their device, network, users, and user agent preferences. They both give information.
+User-Agent Client Hints API:
+A JavaScript API called User-Agent Client Hints adds to the Client Hints API and lets you show browser and platform information through User-Agent response and request headers as well as through a JavaScript API. This is very similar to the Sec-CH-UA HTTP Header, which also gives you information.
+Accept-CH HTTP Header:
+It’s possible for a server to set the Accept-CH HTTP Header so that it can tell a client which client hint headers it should include in future requests. The
+Accept-CH HTTP Header
+is similar to the Sec-CH-UA HTTP Header, which shows the user-branding agents and important version information.
+HTTP caching:
+The speed of websites and apps can be significantly increased by reusing resources that have already been downloaded. Similar to the Sec-CH-UA HTTP Header, which gives essential information.
+Which Browsers Support Sec-CH-UA HTTP Header?
+There are multiple browsers that support Sec-CH-UA HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Sec-CH-UA HTTP Header
+Edge Browser is compatible with the Sec-CH-UA HTTP Header
+Opera Browser is compatible with the Sec-CH-UA HTTP Header
+WebView Android Browser is compatible with the Sec-CH-UA HTTP Header
+Chrome Android Browser is compatible with the Sec-CH-UA HTTP Header
+Opera Android Browser is compatible with the Sec-CH-UA HTTP Header
+Samsung Internet Browser is compatible with the Sec-CH-UA HTTP Header
+You can see an image that shows the cross-browser compatibility of Sec-CH-UA HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Sec-CH-UA HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Pragma HTTP Header: Syntax, Directive, Examples
+TechSEO
+Origin HTTP Header: Syntax, Directive, Examples
+0
+0
+0

@@ -1,0 +1,93 @@
+TF-IDF Analysis: Definition, Examples & Usage on SEO - Holistic SEO
+Skip to content
+TF * IDF is a formula according to which the optimal distribution of subject-related terms or keywords in a text can be determined. However, the procedure for determining this distribution is much more complex than working with keyword density, the simple frequency distribution of keywords. TF * IDF-optimized texts should present a topic in a, particularly comprehensive manner. Unlike conventional keyword counters, TF * IDF tools also evaluate the semantic context in which keywords are used and suggest thematically relevant terms.
+Related Articles to the TF-IDF Analysis:
+How to Perform TF-IDF Analysis via Python?
+How to Perform Text Analysis via Python?
+How to Analyse Content Profile and Strategy of a Web Site with Python?
+What is Evergreen Content?
+What is Duplicate Content?
+Contents of the Article
+show
+1.
+What is the Origin of TF-IDF Terminology in SEO
+2.
+How to Calculate TF-IDF in a Document
+3.
+How to Use TF-IDF for SEO
+4.
+Disadvantages of TF-IDF
+5.
+How Does Online Shops Use TF-IDF?
+What is the Origin of TF-IDF Terminology in SEO
+The TF * IDF formula has been an important topic in OnPage search engine optimization since 2012. Originally, the formula that describes the optimal distribution of topic-related terms in a text comes from information retrieval. Information scientist Donna Harman already mentioned this formula in 1992. The formula was increasingly established in the SEO scene by the online marketers and SEO experts. The formula combines two factors to analyze the texts, TF and IDF:
+TF stands for “Term Frequency” and describes the term weighting or frequency of a word within a document. IDF is the abbreviation for “inverse document frequency” and in return indicates the inverse document frequency. This means that the IDF stands for the weighting or term weighting of a term within a group of documents.
+Instead of keyword density, TF * IDF optimized texts speak of term weighting. The reason: Strictly speaking, keywords are no longer called keywords when using the TF * IDF formula, but terms.
+The topic of TF * IDF became particularly explosive because SEOs aggressively propagates this model as a replacement for the keyword density. Together with the mathematician Jana Engelmann, he derived from a few vector calculations that the keyword density “is actually completely worthless for information retrieval or for search engine optimization.”
+How to Calculate TF-IDF in a Document
+For the formula TF* IDF, the frequency of a word (i) in a text (j) is multiplied by the frequency of the same word in a relevant body of documents. This gives the weighting w of this term (i) in the document (j):
+wi, j = TFi, j * IDFi
+The factor TF is the abbreviation for “Term Frequency”. This determines how often a term (i.e. a word or a combination) occurs within a document. It is calculated as follows:
+TFi = log2 (Freqi, j + 1) / log2 (L)
+The logarithm prevents an enormous increase in the main keyword from leading to better value in the calculation. While the keyword density only calculates the percentage distribution of a single word in relation to the total number of words in a text, the within-document frequency also includes the ratio of all words used in the text.
+The multiplier IDF calculates the “inverse document frequency”, the document frequency. For this purpose, the term frequency (t) is set in relation to the relative occurrence of all other words in a text or document (D) or a website. The IDF is used to determine how relevant a text is with regard to a certain keyword. The calculation is as follows:
+IDFt = log (1 + ND / ft)
+With the “Inverse Document Frequency” a correction is added to the factor TF. The calculation of the inverse document frequency is important to include the frequency of documents on a certain date. IDF sets the number of all known documents in relation to the number of texts that contain the term. Here, too, the logarithm serves to “compress” the results.
+In some countries, TF-IDF also can be called as WDF-IDF which stands for “Within Document Frequency” and “Inverse Document Frequency.”
+Multiplying both formulas together gives the relative term weighting of a document in relation to all potentially possible documents that contain the same keyword. In order to get a useful result, this formula must be carried out for each meaningful word within a text document.
+The larger the database that is used to calculate TF * IDF, the more precise the results.
+How to Use TF-IDF for SEO
+When talking about TF * IDF in search engine optimization, when using the tools of this analysis, the user aims to make his specific website texts as unique as possible. Because of their uniqueness, search engines should then place these texts with their specific keywords far ahead in the SERPs (Search Engine Result Pages). For a long time, especially keyword density was used as a benchmark for search engine optimized texts, the formula TF * IDF now represents a far more precise way of optimizing content.
+As the search engine tries more and more to interpret the semantic context of the terms, it can be advantageous to optimize the content of a website semantically. This is known as latent semantic optimization.
+The goal of the TF * IDF analysis is not only to optimize the keyword of a URL, but it also provides information during text creation on which other terms a document should contain in order to be as unique as possible.
+Disadvantages of TF-IDF
+The TF* IDF formula is not a panacea for content optimization. Basically, it is a mathematical-based option for keyword optimization, on the basis of which content can be created as uniquely as possible. Many factors for actual content optimization are excluded from the TF-IDF value. These include, among other things, significant neighboring terms or signal words that indicate the user’s search intention. The pure orientation towards TF * IDF values ​​could also rate nonsense content as optimized. The tools lack the ability to represent ambiguities, for example.
+In addition, the formula TF * IDF alone does not take into account the fact that search terms can also appear more frequently in a paragraph, that stemming rules may apply, or that a text works increasingly with synonyms. If texts are to be optimized based on term weighting, the user must be aware that all elements of his website are included in the analysis.
+You can learn more about
+Stemming
+and its importance for Search Engine Optimization related to the TF-IDF Topic.
+Text agencies, copywriters, or webmasters should not use the TF * IDF curve as a guide. Ultimately, the results of the tools are only calculations based on logarithms. Other aspects play no role in term weighting. But tonality, CTAs, structure, stylistic devices, jargon, and reading flow play an important role in the user-friendliness and readability of a text.
+The continuous improvement of the search engine algorithms, the advancing development of artificial intelligence (machine learning) as well as the increasing customer orientation in content optimization put these weak points of the TF * IDF formula, which has long been considered a secret weapon in SEO, increasingly in the foreground.
+With the formula TF * IDF, however, no new rule was created to optimize web texts. Rather, term weighting was rediscovered, which had already been developed and analyzed by computer scientist Hans Peter Luhn from IBM in 1957 as part of information retrieval. Before the term weighting for search engine optimization was rediscovered, it was also used in linguistics and later in computer linguistics when evaluating text material.
+Interaction rates (shares, comments, etc.), bounce rates, and length of stay have become significantly more important than the mere term calculation for Google and its search algorithms. To ensure that content is accepted by users and text is really good, these aspects should receive more attention when creating text.
+Last but not least, the optimization of texts is only one of many aspects in the context of OnPage optimization. Even the best text written according to TF * IDF will not outweigh the ranking disadvantages, for example, that result from inferior content and poor backlinks or a page that is not optimized for mobile use.
+How Does Online Shops Use TF-IDF?
+Category headings and product descriptions are also included in the calculation of the weighting, especially for online shop optimization. Especially if only one product is described on a page, the formula TF * IDF is rather not a suitable way to improve content. As a rule, product descriptions contain too little text. This is due to the fact that the formula goes much further and calculates the value of each term within the document.
+TF-IDF Analyse can also make difference in 2020. Performing TF-IDF for all documents on the SERP for a specific topic can help to understand the difference between the contents. Some of the web pages may use different and more authoritative, relevant and helpful terms for the topic. Exploring those opportunities can be useful. But still, writing an article for only the TF-IDF Optimization is forgetting the real purpose of the SEO and the content publishing.
+As Holistic SEOs, we will continue to research on Term Frequency and Inverse Document Frequency methodologies to improve our experience and information.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Theoretical SEO
+What is TF-IDF and How to Analyze TF-IDF for SEO
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+Theoretical SEO
+What are the User-intent and Search-intent?
+Theoretical SEO
+What is Google Dance?
+0
+0
+0

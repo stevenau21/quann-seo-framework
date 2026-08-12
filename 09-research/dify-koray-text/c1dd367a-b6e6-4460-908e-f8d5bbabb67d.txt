@@ -1,0 +1,124 @@
+HTML <hr> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <hr> HTML Tag defines the horizontal standard, and it is used to introduce a horizontal rule or a thematic break inside an HTML document in order to split or distinguish document portions, as well as to separate or divide sections of a document. In HTML, the <hr> HTML Tag is referred to as the Horizontal Rule. The <hr> HTML Tag is part of the Basic HTML category in HTML Element Reference. The attributes of the <hr> HTML Tag are global and event attributes.
+<hr> code example to learn how it works is given below.
+<p>First Paragraph of the Topic...</p>
+<hr>
+<p>Second Paragraph of the Topic...</p>
+The second example usage of the “<hr>” code block example is given below.
+<h1>Operating System</h1>
+<h2>Mac Operating System</h2>
+<p>Apple Inc. is the developer and marketer of the Mac OS personal computer operating system.</p>
+<hr>
+<h2>Windows Operating System</h2>
+<p>Microsoft Windows is a personal computer program system that was created, produced, and sold by the company Microsoft.</p>
+Contents of the Article
+show
+1.
+What is <hr> HTML Tag?
+2.
+How to Use <hr> HTML Tag?
+2.1.
+Example Usage of <hr> HTML Tag?
+3.
+What are the Attributes of <hr> HTML Tag?
+4.
+What are the Default CSS Settings for <hr> HTML Tag?
+5.
+What are the Related other HTML Tags to <hr>?
+What is <hr> HTML Tag?
+The <hr> HTML Tag element is most commonly presented as a horizontal rule in HTML pages, and it is used to split material or specify a modification in a document. It is used to indicate a thematic break inside an HTML document between lines of text content, such as a bit of a change in a narrative or the transition from one topic to the next within the same section.
+How to Use <hr> HTML Tag?
+To use the <hr> HTML Tag, the web developers should write two <hr> with no ending tags and a new topic is placed followed by the old topic preceding it. Although the tag lacks local attributes, it can be used with any of the global or event content attributes.
+Example Usage of <hr> HTML Tag?
+The following examples of usage of <hr> HTML Tag are given below.
+<section>
+<h1>Web-based tools for the development of websites</h1>
+<p>In order to build a website, a variety of technologies must be used. Here are some of the most significant:</p>
+<hr>
+<p>HTML (HyperText Markup Language) is the most widely used markup language on the internet. Getting started with HTML is a good place to start if you want to know how to develop a site.</p>
+<hr>
+<p>CSS (Cascading Style Sheets) are employed in the application of styles to the HTML document that you produce. Attributed to the reason that CSS is developed separately from the HTML document and so can be developed later if necessary, anyone can design the HTML document all without thinking about its aesthetics.</p>
+<hr>
+<p>HolisticseoScript is a programming language that enables you to improve the performance of current HTML documents by writing scripts in their own language. HTML does have some limits, and it is in these situations where HolisticseoScript can truly shine.</p>
+</section>
+<section>
+<p>When it came to his buddies, John really can not help but be envious. After all, they were already enjoying themselves on a beach someplace in the Caribbean, while he was toiling away for a manager who he despised and who despised John even more than he despised himself.</p>
+<hr>
+<p>"There's <em>has</em> to be a greater approach to do things" The notion crossed John's mind.</p>
+<hr>
+<p>Meanwhile, John's companions were also being imprisoned at gunpoint in the Caribbean, where they were unable to escape. Imagine what they'd do if they were in John's position exactly now!</p>
+</section>
+What are the Attributes of <hr> HTML Tag?
+There are multiple attributes for the <hr> HTML Tag. The following attributes are listed below.
+Global Attributes: The <hr> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <hr> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <hr> HTML Tag?
+The following are the Default CSS Settings for the <hr> HTML Tag. Some examples are listed below this document.
+hr {
+border: none;
+border-top: 3px double #333;
+color: #333;
+overflow: visible;
+text-align: center;
+height: 5px;
+}
+hr:after {
+background: #fff;
+content: '§';
+padding: 0 4px;
+position: relative;
+top: -13px;
+}
+What are the Related other HTML Tags to <hr>?
+The other related HTML Tags to the <hr> HTML Tag are listed below.
+<title> HTML Tag: The
+<title>
+HTML Tag and <hr> HTML Tag are related because they are both basic HTML Tags. In the <title> HTML Tag the document’s title is defined in this section.
+<head> HTML Tag: The
+<head>
+HTML Tag and <hr> HTML Tag are related because they are both basic HTML Tags. It is necessary to specify the head portion of the page, which contains information that is relevant to the document, with an HTML Tag called “head.” The <head> HTML Tag contains other head components such as the <title>, <meta>, <style>, and <link> Tags, amongst other things.
+<p> HTML Tag: The
+<p>
+HTML Tag and <hr> HTML Tag are related because they are both basic HTML Tags.  The <p> HTML Tag specifies a paragraph’s content.
+<br> HTML Tag: The
+<br>
+HTML Tag and <hr> HTML Tag are related because they are both basic HTML Tags. The <br> HTML Tag function adds a single line break.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <hr> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 5 min
+TechSEO
+HTML <section> Tag Definition, Usage and Exa…
+TechSEO
+HTML <aside> Tag Definition, Usage and Examp…
+0
+0
+0

@@ -1,0 +1,134 @@
+HTML <figcaption> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <figcaption> HTML Tag specifies the optional tag that appears either when the first content contained within the <figure> HTML Tag. Despite the fact that the <figure> HTML Tag on its own may comprise numerous other elements such as <img> or <code>, only one <figcaption> component can be contained within the tag. The <figcaption> HTML Tag is used in conjunction with the <figure> HTML Tag, and it can be positioned on the first or last child of the <figure> HTML Tag part, depending on preference. It is necessary to include a caption for an image using the <figcaption> HTML Tag element. The <figcaption> HTML Tag is part of the category of Images HTML category in HTML Element Reference. The attributes of the <figcaption> HTML Tag are global and event attributes.
+<figcaption> code block example to learn how it works is given below.
+<figure>
+<figcaption>
+Insert a caption here...
+</figcaption>
+Figure content...
+<figure>
+or
+<figure>
+Figure content...
+<figcaption>
+Insert a caption here...
+</figcaption>
+<figure>
+The second example usage of the “<figcaption>” code block example is given below.
+<figure>
+<img src="/pix/examples/Canada-ca-map.gif" alt="Map of Canada.">
+<figcaption>Canada &amp; CA</figcaption>
+</figure>
+Contents of the Article
+show
+1.
+What is <figcaption> HTML Tag?
+2.
+How to Use <figcaption> HTML Tag?
+2.1.
+Example Usage of <figcaption> HTML Tag?
+3.
+What are the Attributes of <figcaption> HTML Tag?
+4.
+What are the Default CSS Settings for <figcaption> HTML Tag?
+5.
+What are the Related other HTML Tags to <figcaption>?
+What is <figcaption> HTML Tag?
+The <figcaption> HTML Tag contains a description or story that describes the body of the contents from its parent <figure> HTML Tag element. It’s being used to apply a description or justifications to the data of the <figure> HTML Tag. The <figcaption> HTML Tag element is contained within the <figure> HTML Tag and is either the first or last child component. If the <figcaption> HTML Tag element is the first attached element, the material of the image will be placed at the top of the frame.
+How to Use <figcaption> HTML Tag?
+To use the <figcaption> HTML Tag, web, developer should write the <figcaption</figcaption> with the caption placed between the start and ending tags. Although the tag lacks local attributes, it can be used with any of the global or event content attributes.
+Example Usage of <figcaption> HTML Tag?
+The following examples of usage of <figcaption> HTML Tag are given below.
+<figure>
+<img src="/img/html/monalisa-lg.jpg">
+<figcaption style="color:darkslaygreen;font-weight:normal;">
+Fig.1 - Monalisa, Self Portrait
+</figcaption>
+</figure>
+<figure>
+<p>It will be the catalyst for war and other catastrophic events,<br>
+And caused a rift between the son and the father;<br>
+All dissatisfactions are subjected to and served,<br>
+As the dry combustible matter is about to catch fire:</p>
+In his prime, Sith, Death does not kill my love,<br>
+Those who are most devoted to their loved ones will not be rewarded</p>
+<figcaption><cite>William Shakespeare</cite></figcaption>
+</figure>
+What are the Attributes of <figcaption> HTML Tag?
+There are multiple attributes for the <figcaption> HTML Tag. The following attributes are listed below.
+Global Attributes: The <figcaption> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <figcaption> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <figcaption> HTML Tag?
+The following are the Default CSS Settings for the <figcaption> HTML Tag. The following are some examples.
+figure {
+border: thin #c0c0c0 solid;
+display: flex;
+flex-flow: column;
+padding: 5px;
+max-width: 220px;
+margin: auto;
+}
+img {
+max-width: 220px;
+max-height: 150px;
+}
+figcaption {
+background-color: #222;
+color: #fff;
+font: italic smaller sans-serif;
+padding: 3px;
+text-align: center;
+}
+What are the Related other HTML Tags to <figcaption>?
+The other related HTML Tags to the <figcaption> HTML Tag are listed below.
+<picture> HTML Tag: The
+<picture>
+HTML Tag and <figcaption> HTML Tag are related because they are both images HTML Tags. The <picture> HTML Tag is a class that defines a framework for a collection of picture resources.
+<area> HTML Tag: The
+<area>
+HTML Tag and <figcaption> HTML Tag are related because they are both images HTML Tags. The <area> HTML Tag defines the boundaries of an area within an image map.
+<svg> HTML Tag: The <
+svg>
+HTML Tag and <figcaption> HTML Tag are related because they are both images HTML Tags.  The <svg> HTML Tag defines a framework for SVG visuals.
+<map> HTML Tag: The
+<map>
+HTML Tag and <figcaption> HTML Tag are related because they are both images HTML Tags. The <map> HTML Tag defines an user graphics map.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <figcaption> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <dl> Tag Definition, Usage and Examples…
+TechSEO
+HTML <li> Tag Definition, Usage and Examples…
+0
+0
+0

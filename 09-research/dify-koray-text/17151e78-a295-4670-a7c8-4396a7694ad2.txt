@@ -1,0 +1,147 @@
+HTML <col> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <col> HTML Tag is used to provide column characteristics for each column within a <colgroups> element. If developers need to provide styles across one or more columns, the <col> HTML tag might come in helpful. Rather from applying styles to individual < td> HTML Tag, you may apply them to the <col> HTML Tag. Then all <td> (and <th>) components within that <col> will be styled appropriately. The <col> HTML Tag is part of Tables Tags category in HTML Element Reference. The attributes of the <col> HTML Tag are span, global attributes and events attributes.
+<col> code block example to learn how it works is given below.
+<table>
+<colgroup>
+<col class="col-1">
+<col span="2" class="normal">
+</colgroup>
+<tr>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+</tr>
+</table>
+The second example usage of the “<col>” code block example is below.
+<style>
+table, td, th {
+border: 1px solid black;
+}
+</style>
+<table>
+<colgroup>
+<col style="background:#AEF542;">
+<col span="3" style="background:#F4CBEA;">
+<col style="background:orange;">
+</colgroup>
+<tr>
+<th>Header 1</th>
+<th>Header 2</th>
+<th>Header 3</th>
+<th>Header 4</th>
+<th>Header 5</th>
+</tr>
+<tr>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+</tr>
+<tr>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+</tr>
+</table>
+Contents of the Article
+show
+1.
+What is <col> HTML Tag?
+2.
+How to Use <col> HTML Tag?
+2.1.
+Example Usage of <col> HTML Tag?
+3.
+What are the Attributes of <col> HTML Tag?
+4.
+What are the Default CSS Settings for <col> HTML Tag?
+5.
+What are the Related other HTML Tags to <col>?
+What is <col> HTML Tag?
+The <col> HTML Tag is used to describe the column attributes for each column included inside a <colgroup> HTML Tag. This tag is used to specify the style property for the column. This tag contains no closing tags.
+How to Use <col> HTML Tag?
+To use the <col> HTML Tag, The site developer should write <col> (no end tag). The span attribute may be used to define the number of columns to span. The tag should be used within an <colgroup> HTML tag that lacks a span property.
+Example Usage of <col> HTML Tag?
+The following example of usage of <col> HTML tag is given below.
+<table>
+<colgroup>
+<col span="2" style="background-color:red">
+<col style="background-color:pink">
+</colgroup>
+<tr>
+<th>ISBN</th>
+<th>Title</th>
+<th>Price</th>
+</tr>
+<tr>
+<td>3476896</td>
+<td>My first HTML</td>
+<td>$55</td>
+</tr>
+</table>
+What are the Attributes of <col> HTML Tag?
+There are multiple attributes for the <col> HTML Tag. The following attributes are listed below.
+Global Attributes: The <col> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <col> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+Span Attributes: The <col> HTML Tag supports Span Attributes. The Span Attribute determines how many columns a column group should span.
+What are the Default CSS Settings for <col> HTML Tag?
+The following is the Default CSS Setting for the <col> HTML Tag.
+col {
+display: table-column;
+}
+What are the Related other HTML Tags to <col>?
+The other related HTML Tags to the <col> HTML Tag are listed below.
+<caption> HTML Tag: The
+<caption>
+HTML Tag is related to <col> HTML Tag because they are both tables tags. The <caption> HTML Tag specifies the caption for a table.
+<th> HTML Tag: The
+<th>
+HTML Tag is related to <col> HTML Tag because they are both tables tags. The <th> HTML Tag specifies a table header cell.
+<tr> HTML Tag: The
+<tr>
+HTML Tag is related to <col> HTML Tag because they are both tables tags. The <tr> HTML Tag specifies a table row.
+<td> HTML Tag: The
+<td>
+HTML Tag is related to <col> HTML Tag because they are both tables tags. The td> HTML Tag specifies a table cell.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <col> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <colgroup> Definition, Usage and Exampl…
+TechSEO
+HTML <caption> Tag Definition, Usage and Exa…
+0
+0
+0

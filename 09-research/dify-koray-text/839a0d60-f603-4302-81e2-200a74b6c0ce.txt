@@ -1,0 +1,112 @@
+Skip to content
+The aria-valuetext attribute value is string together with the aria-valuenow attribute as an indicator for a range widget element, the value may only contain a string that is set by the developer. The purpose of the aria-valuetext is to contain a text value based on the range or the widget that has a representing number for each value. The function of the aria-valuetext is to hold a readable text or relevant information that will be transmitted to the assistive technology and to the user. The developer can use the aria-valuetext to provide a range of information on the widget that can be useful for the users. The aria-valuetext can be used in the range widget element, to be used for the slider, meter, or scrollbar. The aria-valuetext can be used with other aria labels such as aria-valuenow, aria-valuemin, and aria-valuemax.
+Contents of the Article
+show
+1.
+What is the function of the “aria-valuetext” ARIA Label?
+2.
+What are the uses of the “aria-valuetext” ARIA Label?
+3.
+Example Uses of “aria-valuetext” ARIA Label
+4.
+What are the related ARIA Labels to “aria-valuetext”?
+What is the function of the “aria-valuetext” ARIA Label?
+The function of the aria-valuetext is to hold a readable text or string value information that will be communicated to the assistive technology and will be interpreted by the user. The aria-valuetext can only contain a string value where, it is defined by range through an identifier ARIA Label like aria-value now as to what value the aria-text presently contains, it is dependent on each other. The assistive technology depends on the value the aria-valuetext provides and not the aria-valuenow. The aria-valuetext defines a text value that is equivalent to the corresponding number that points to the string value of the aria-valuenow, the string value is the only acceptable information that the assistive technology uses.
+What are the uses of the “aria-valuetext” ARIA Label?
+Listed below are the uses of the “aria-valuetext” ARIA Label.
+Rangle role:
+It is a type of structure role that is a superclass, it accepts range values from a meter, progressbar, and slider elements.
+Spinbutton role:
+Is an input widget that defines a range that contains a range that is restricted to a set of discrete values.
+Scrollbar role:
+It is a graphical interface that can be interacted by a keyboard or mouse pointer to scroll a view either up or down. Content can only be scrollable if the content exceeds the size of the screen and will only be viewed by scrolling down to see more information or content.
+Meter role:
+It defines a range that possesses a numeric value through a graphical display, examples are battery load percentage and engine temperature gauge.
+Slider role:
+It has a minimum and maximum value that is imputed through the widget, it can be interacted with by the user and selected within the given value.
+Example Uses of “aria-valuetext” ARIA Label
+Listed below are the example uses of the “aria-valuetext” ARIA Label.
+The aria-valuetext attribute is used to represent text information equivalent to the integer value, it possesses a string value that can be used along with other ARIA labels aria-valuemin, aria-valuemax, and aria-valuenow.
+<div role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuetext="Step Number 2" aria-valuemax="100">
+Step Number 2
+</div>
+<div
+role="slider"
+aria-valuenow="1"
+aria-valuemin="1"
+aria-valuemax="12"
+aria-valuetext="January">
+</div>
+<div role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuetext="Progress Level 2" aria-valuemax="100">
+Progress Level 2
+</div>
+<div id=”content1″>This is a scrollbar</div>
+<div
+role=”scrollbar”
+aria-controls=”content1″
+aria-orientation=”vertical”
+aria-valuemax=”100″
+aria-valuemin=”0″
+aria-valuenow=”25″
+aria–valuetext=”Quarter of the control”>
+<div class=”scrollhandle”></div>
+</div>
+<div
+role="slider"
+aria-valuenow="1"
+aria-valuemin="1"
+aria-valuemax="5"
+aria-valuetext="Level 1">
+</div>
+What are the related ARIA Labels to “aria-valuetext”?
+Listed below are the related ARIA Labels to “aria-valuetext”.
+aria-valuenow:
+The aria-valuenow is related to aria-valuetext because they are both defining the range of the widget. The
+aria-valuenow
+may contain identified values between the range that is set from the range widget, it can hold string values as well.
+aria-valuemin:
+The aria-valuemin is related to aria-valuetext because they are both defining the range of the range widget. The
+aria-valuemin
+contains the minimum or the lowest value set from the range, it holds integer or decimal values that can be equal to or greater than the minimum value set.
+aria-valuemax:
+The aria-valuemax is related to aria-valuetext because they are both setting the range widget value. The
+aria-valuemax
+contains the maximum or last value in a form of a numeric value that is set from the element, the maximum value can equal or less than the maximum value set.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-valuetext” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-readonly” ARIA Label for Accessi…
+TechSEO
+“aria-valuenow” ARIA Label for Accessi…
+0
+0
+0

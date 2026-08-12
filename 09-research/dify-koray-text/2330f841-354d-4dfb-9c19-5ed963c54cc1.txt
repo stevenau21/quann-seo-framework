@@ -1,0 +1,100 @@
+Skip to content
+The <ruby> HTML Tag denotes small annotations that are rendered above, below, or next to the base text, and are typically used to demonstrate how to pronounce East Asian characters. It can also be used to annotate other types of text, though this is a less common application. The term ruby was created by typesetters to refer to the smallest size of the text that can be printed on newsprint while remaining legible. The <ruby> HTML Tag is part of the Formatting HTML category in HTML Element Reference. The attributes of the <ruby> HTML Tag are global and event attributes.
+<ruby> code block example to learn how it works is given below.
+<p lang="zh-CN">
+<ruby>
+瀻 <rt> h&agrave;n </rt>
+彀 <rt> z&kgrave;&nbsp; </rt>
+</ruby>
+</p>
+The second example usage of the “<ruby>” code block example is given below.
+<ruby>
+君<rp>(</rp><rt>Kimi</rt><rp>)</rp>
+</ruby>
+Contents of the Article
+show
+1.
+What is <ruby> HTML Tag?
+2.
+How to Use <ruby> HTML Tag?
+2.1.
+Example Usage of <ruby> HTML Tag?
+3.
+What are the Attributes of <ruby> HTML Tag?
+4.
+What is the Default CSS Setting for <ruby> HTML Tag?
+5.
+What are the Related other HTML Tags to <ruby>?
+What is <ruby> HTML Tag?
+The <ruby> tag indicates the presence of a ruby annotation. Ruby annotation is a brief addition to the main text that describes the pronunciation or definition of the related characters. This style of annotation is frequently used in Japanese publications. It is necessary for web developers because it is used in conjunction with <rt> HTML Tag and <rp> HTML Tag. The <ruby> HTML Tag contains one or more characters that require explanation/pronunciation, a <rt> HTML Tag that provides that information, and an optional <rp> HTML Tag that specifies what to display in browsers that do not support ruby annotations.
+How to Use <ruby> HTML Tag?
+To use <ruby> HTML Tag, the web developer should define the ruby annotation, which is a small text that is appended to the main text to explain its meaning. In Japanese publications, this style of annotation is used.
+Example Usage of <ruby> HTML Tag?
+The following example of usage of <ruby> HTML Tag is given below.
+<ruby>
+你好 <rp>(</rp><rt>Nihao</rt><rp>)</rp>
+</ruby>
+What are the Attributes of <ruby> HTML Tag?
+There are multiple attributes for the <ruby> HTML Tag. The following attributes are listed below.
+Global Attributes: The <ruby> HTML Tag supports global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <ruby> HTML Tag supports event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <ruby> HTML Tag?
+The following is the Default CSS Setting for the <ruby> HTML Tag.
+ruby {
+font-size: 2em;
+}
+What are the Related other HTML Tags to <ruby>?
+The other related HTML Tags to <ruby> HTML Tag are listed below.
+<rt> HTML Tag: The
+<rt>
+HTML Tag is related to <ruby> HTML Tag because they are both in formatting HTML Tags. The <rt> HTML Tag is used to define character explanations.
+<rp> HTML Tag: The
+<rp>
+HTML Tag is related to <ruby> HTML Tag because they are both in formatting HTML Tags. When ruby annotations are not supported, the <rp> HTML Tag is used to define the content to display.
+<pre> HTML Tag: The
+<pre>
+HTML Tag is related to <ruby> HTML Tag because they are both in formatting HTML Tags. The <pre>HTML Tag is used to define text that has been pre-formatted.
+<progress> HTML Tag: The
+<progress>
+HTML Tag is related to <ruby> HTML Tag because they are both in formatting HTML Tags. The <progress> HTML tag is used to indicate the status of a particular task.
+<q> HTML Tag: The
+<q>
+HTML Tag is related to <ruby> HTML Tag because they are both in formatting HTML Tags. The <q> HTML Tag is used to specify a brief quotation.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <ruby> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <rt> Tag Definition, Usage and Examples…
+TechSEO
+HTML <samp> Tag Definition, Usage and Exampl…
+0
+0
+0

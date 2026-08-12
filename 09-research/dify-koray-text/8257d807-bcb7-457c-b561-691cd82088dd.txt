@@ -1,0 +1,133 @@
+Binary Categorization of Websites with Tensorflow and Python - Holistic SEO
+Skip to content
+Some months ago I wrote an article on my blog and I had the pleasure to give a webinar with Hamlet Batista about how you can
+categorize websites based on the topic with Python
+by using
+Google NLP API
+,
+google trans, and cloudscraper.
+I approach this article like a second part of that post to show how thanks to supervised learning techniques, some Python skills and Tensorflow we can make the usually tedious categorization processes much faster. I would like to write this article in memory of Hamlet and I would really wish that he were still with us to share his passion about Python and his kindness.
+In this post, we are going to take a different approach and I am going to show you how you can create and train your own machine learning model with Tensorflow to perform a binary categorization of websites.  This activity can be very interesting to differentiate websites’ intents, and in fact, I am going to make use of a practical example to explain how this categorization can be done.
+So let’s imagine that you are the SEO manager or affiliation manager from a hotel chain and you are constantly checking on the SERPs in different locations with the purpose of:
+Finding new affiliation opportunities
+: in this practical case, these websites will mostly be meta searchers that are ranking for valuable keywords where you would like to turn up and with which you would need to close an affiliation agreement.
+Getting to know which are your real competitors
+: once the affiliation websites are distinguished, then we can have a clearer picture about which are the hotels which are based and ranking in that location.
+With this model, you will be able to differentiate these websites at first glance without having to check them manually one by one.  Does this sound interesting? Let’s get it started!
+Contents of the Article
+show
+1.
+1. Preparing the dataset
+2.
+2. Importing the dataset and training the model
+3.
+3. Creating the predictor function
+4.
+4.- Testing it with hotels in Valencia!
+1. Preparing the dataset
+Initially, what we will need to do is preparing our own dataset that will be used to train the model as we are using supervised learning. To prepare this dataset, I have downloaded the first 100 results appearing for the keyword “hotel in Barcelona” and I have put together their meta titles and meta descriptions.
+After that, I needed to categorize these results manually and assign a 0 if the website belongs to a hotel and a 1 if the website belongs to a meta searcher or an affiliation website. The final document that I have created looks like this:
+Training a machine learning model with supervised learning.
+The more categorized records we have in our dataset, the more reliable the model will be. Nevertheless, 100 records can be a good number for this proof of concept.
+2. Importing the dataset and training the model
+Now that the dataset is ready we first need to import it into our notebook. As I exported the file as a CSV, we can use this piece of code to import it:
+import csv
+with open ("Hoteles Barcelona - TensorFlow - Hoja 1.csv", newline = "") as r:
+reader = csv.reader(r)
+listcsv = list(reader)
+After this, we will need to separate in different lists the meta titles and meta descriptions and the 0 and 1 labels. We will also create a list with the meta titles and meta descriptions lengths that we will use later on once we train our model:
+data = []
+label = []
+for x in listcsv:
+data.append(x[0])
+label.append(x[1])
+data.pop(0)
+label.pop(0)
+length = []
+for x in data:
+length.append(len(x))
+The next step is just transforming our label list into an array. We can use numpy for that:
+import numpy as np
+label_array = np.array(label)
+Now we can get started with the entertaining part, we will train our model with TensorFlow. First we need to encode the words with integers:
+import tensorflow as tf
+one_hot_x = [tf.keras.preprocessing.text.one_hot(d, 1000) for d in data]
+Now we need to make all the arrays have the same length. We use the maximum length that we got from the list with all the lengths:
+padded_x = tf.keras.preprocessing.sequence.pad_sequences(one_hot_x, maxlen=max(length), padding = 'post')
+We turn the integers into dense vectors of fixed size:
+model = tf.keras.models.Sequential()
+model.add(tf.keras.layers.Embedding(1000, len(data), input_length=max(length)))
+We flatten the input  and we create the variables of the layer:
+model.add(tf.keras.layers.Flatten())
+model.add(tf.keras.layers.Dense(1, activation='sigmoid'))
+We finally compile the model and we can display a graph which shows a summary:
+model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+model.summary()
+Machine learning model’s summary.
+After compiling the model, we can finally train it and with Matlplotlib we can draw plots to represent the loss and the accuracy over the epochs:
+import matplotlib.pyplot as plt
+history = model.fit(padded_x, label_array, epochs=1000, batch_size=2, verbose=0)
+plt.plot(history.history['loss'])
+plt.plot(history.history['acc'])
+Model’s output within a line plot.
+The model is ready!
+3. Creating the predictor function
+After the model being trained, we will use a predict function which will be the one that will enable us to categorize the websites that we will input:
+def predict(word):
+one_hot_word = [tf.keras.preprocessing.text.one_hot(word, 1000)]
+pad_word = tf.keras.preprocessing.sequence.pad_sequences(one_hot_word, maxlen=max(length),  padding='post')
+result = model.predict(pad_word)
+#print(result)
+if result[0][0]>0.1:
+#print("Metasearcher')
+return "Metasearcher"
+else:
+#print('Hotel')
+return "Hotel"
+4.- Testing it with hotels in Valencia!
+I have created another spreadsheet with the results that are showing up for the keywords “hotel in valencia”. In the first column I have added the website and in the second column the meta title and meta description. We will use their meta titles and meta descriptions with our model that is trained to differentiate meta searchers and hotels from the meta titles and meta descriptions and we will test how accurate it is!
+Testing dataset.
+So again, after creating the file what we will need to do is importing the CSV file into our notebook:
+with open ("Valencia Hotels - TensorFlow - Hoja 1.csv", newline = "") as r:
+reader = csv.reader(r)
+listcsv = list(reader)
+And we will iterate over the rows and use the predictor function to categorize these websites:
+for x in range (len(listcsv)):
+prediction = predict(listcsv[x][1])
+listcsv[x].append(prediction)
+Finally, we can export the results as an Excel file with Pandas:
+import pandas as pd
+dataframe = pd.DataFrame(listcsv, columns=["Page","Title + Description","Categorization"])
+dataframe.to_excel("Valenciadoc2.xlsx", index=False, header=True)
+The final file will contain in the first column the page, in the second one the meta title and meta description, and in the third one the category which has been assigned.
+Output of test.
+I have checked manually most of the results which have been returned by the model and almost the 95% of the results are accurate!  That is all folks, this was only a proof of concept as we have not used a very big sample of websites, but imagine if we had fed the model with a larger dataset. I hope that you like this article and you find it useful!
+Author
+Recent Posts
+Daniel Heredia Mejias
+In love with SEO, automation and Python, I am learning little by little more about this world. You can check on my website some of the pieces of information that I am learning on my way.
+Latest posts by Daniel Heredia Mejias
+(
+see all
+)
+Binary Categorization of Websites with Tensorflow and Python
+- February 17, 2021
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Python SEO
+Binary Categorization of Websites with Tensorflow and Python
+by Daniel Heredia Mejias
+time to read: 5 min
+Python SEO
+Data Science SEO and Visualization: Retrieving SER…
+Python SEO
+Create Word Clouds in Python with Maskable Images…
+0
+0
+0

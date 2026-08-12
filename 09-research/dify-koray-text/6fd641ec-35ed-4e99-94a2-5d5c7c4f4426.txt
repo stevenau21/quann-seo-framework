@@ -1,0 +1,150 @@
+"aria-rowspan" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-rowspan is an attribute that defines particularly the row spanned by a cell or a gridcell, treegrid, or table. The purpose of aria-rowspan is to let the assistive technology understand the size and span of the row information that will be relayed to the user. The developer can use aria-rowspan to enable the screen reader or user to learn the foundation of the table clearly how many rows are spanned and other useful information. The aria-rowspan can be used with the elements such as grid, gridcell, treegrid, and cell, but it will not be used or contained in a native HTML table like table headers and table data. The aria-rowspan can be used with other aria labels such as aria-rowindex and aria-colspan as they are used to define the table or grid.
+Contents of the Article
+show
+1.
+What is the function of the “aria-rowspan” ARIA Label?
+2.
+What are the uses of the “aria-rowspan” ARIA Label?
+3.
+Example Uses of “aria-rowspan” ARIA Label
+4.
+What are the related ARIA Labels to “aria-rowspan”?
+What is the function of the “aria-rowspan” ARIA Label?
+The function of aria-rowspan is to deliver precise information to the user about the span of the row and the structure of the table, with the help of assistive technology. Developers must define the value of the aria-rowspan’ cell can be more than 1 or equal, then if define more than one row the value should be less than 1 or equal to the number of rows. The aria-rowspan can be more useful than a native table element, the attribute is flexible in providing the exact span of rows that is providing the assistive technology an edge to relay the right information to the user. Though aria-rowspan is not part of the native HTML table, it can use the grid and cell to define the row span, the whole layout is not affected as it only defines the accessibility tree.
+What are the uses of the “aria-rowspan” ARIA Label?
+Listed below are the uses of the “aria-rowspan” ARIA Label.
+Cell role:
+It is a value that is defined by an attribute to identify an element as being a cell in a table that does not have a column and row or header.
+Columnheader role:
+It is a value that is defined by an attribute to identify an element as a cell in a row that has a header content for a column, the same as the native table header.
+Rowheader role: It is a cell that contains header information of a row beneath the structure of a grid, table, or treegrid.
+Grid role:
+It is for the element widget that has more than one row of cells, the position of the cell can be navigated using the keyboard cursor.
+Treegrid role:
+It identifies a grid element that expanded rows and collapsible columns, the same characteristics as the tree.
+Example Uses of “aria-rowspan” ARIA Label
+Listed below are the example uses of the “aria-rowspan” ARIA Label.
+Though aria-rowspan is not part of the native HTML table, it can use the grid and cell to define the row span, the whole layout is not affected as it only defines the accessibility tree.
+<table>
+<tr>
+<th>Holiday</th>
+<th>Monthly Savings</th>
+<th>Monthly savings for holiday!</th>
+</tr>
+<tr>
+<td>May</td>
+<td>£80</td>
+<td rowspan="1">£40</td>
+</tr>
+<tr>
+<td>June</td>
+<td>£80</td>
+<td rowspan="1">£20</td>
+</tr>
+</table>
+<div role=”table”>
+<div role=”row”>
+<div id=”sd” role=”cell” aria-rowspan=”2″>This is an example of row span</div>
+</div>
+</div>
+<table>
+<tr>
+<th>Month of</th>
+<th>Monthly Salary</th>
+<th>Monthly expenses</th>
+</tr>
+<tr>
+<td>May</td>
+<td>£80</td>
+<td rowspan="1">£40</td>
+</tr>
+<tr>
+<td>June</td>
+<td>£80</td>
+<td rowspan="1">£50</td>
+</tr>
+</table>
+<table>
+<tr>
+<th>Name</th>
+<th>Number of apples</th>
+<th>Apples ate</th>
+</tr>
+<tr>
+<td>Mary</td>
+<td>6</td>
+<td rowspan="1">2</td>
+</tr>
+<tr>
+<td>Dora</td>
+<td>8</td>
+<td rowspan="1">3</td>
+</tr>
+</table>
+<table>
+<tr>
+<th>Product</th>
+<th>Product price</th>
+<th>Discount</th>
+</tr>
+<tr>
+<td>Lemon Juice</td>
+<td>£2.30</td>
+<td rowspan="1">£0.30</td>
+</tr>
+<tr>
+<td>Egg Sandwich</td>
+<td>£3.50</td>
+<td rowspan="1">£1.10</td>
+</tr>
+</table>
+What are the related ARIA Labels to “aria-rowspan”?
+Listed below are the related ARIA Labels to “aria-rowspan”.
+aria-colspan:
+The aria-colspan is related to the aria-rowspan because they are both used in grid and tree grid roles. The
+aria-colspan
+is used to define the number of column-span within the table element that is not related to the native HTML element.
+aria-rowindex:
+The aria-rowindex is related to aria-rowspan because they are both used in row and cell roles. The
+aria-rowindex
+is an attribute used in defining the cell or row position or its index in accordance with the total quantity of rows on a table, grid, or treegrid.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-rowspan” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 4 min
+TechSEO
+“aria-setsize” ARIA Label for Accessib…
+TechSEO
+“aria-selected” ARIA Label for Accessi…
+0
+0
+0

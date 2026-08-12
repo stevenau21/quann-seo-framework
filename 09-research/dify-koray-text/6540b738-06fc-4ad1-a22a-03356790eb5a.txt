@@ -1,0 +1,109 @@
+HTML <base> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <base> HTML Tag defines the following code or location for all relative URLs throughout a document. There must be either a href or a target attribute included in the <base> HTML Tag, or both of these attributes. There can only be one <base> HTML Tag element in content, and it has to be contained within the <head> HTML Tag element of the document. In web design, the <base> HTML Tag element is used to specify a base URL from which any other relative links that appear on a webpage are built. Aside from that, when the <base> HTML Tag element contains a target element, the aim attribute will be utilized as the preferred attribute for any hyperlinks that appear throughout the text. For example, if the user-agent puts the base link once at the top of the page in the header area, then the following related links will utilize that URL as a reference point instead of the original URL The <base. The <base> HTML Tag is part of the Meta HTML category in HTML Element Reference. The attributes of the <base> HTML Tag are href, target, global, and event attributes.
+<base> code block example to learn how it works is given below.
+<head>
+<base href="target"_blank">
+</head>
+The second example usage of the “<base>” code block example is given below.
+<html>
+<head>
+<title>Title of the page</title>
+<base href="https://www.holisticseo.digital/holisticseo/" target="_blank">
+</head>
+<body>
+<p>Find out more about <a href="holisticseo_digital.cfm">Holisticseo Digital</a></p>
+</body>
+</html>
+Contents of the Article
+show
+1.
+What is <base> HTML Tag?
+2.
+How to Use <base> HTML Tag?
+2.1.
+Example Usage of <base> HTML Tag?
+3.
+What are the Attributes of <base> HTML Tag?
+4.
+What are the Default CSS Settings for <base> HTML Tag?
+5.
+What are the Related other HTML Tags to <base>?
+What is <base> HTML Tag?
+The <base> HTML Tag is a base URI or URL that will be utilized for all related URLs included inside of an HTML document. The <base> HTML Tag elements can only be supplied once per document, and they must be contained within the <head> element. By specifying the target attribute, the user agent can also define whether further URLs should load in the same browser or in a different window.
+How to Use <base> HTML Tag?
+To use the <base> HTML Tag, the web developer should only use one instance of the base tag <base> HTML Tag in the HTML file. It has to be placed in the <head> HTML Tag section. It is not recommended for web developers to include content within the HTML <base> HTML Tag. Furthermore, a closing tag should not be included by a web developer.
+Example Usage of <base> HTML Tag?
+Listed below are the following examples of usage of <base> HTML Tag.
+<head>
+<base href="https://www.holisticseo.digital/course/">
+</head>
+<body>
+<img src="images/girl.jpg" width="24" height="39" alt="A young lady in a jacket">
+<a href="tags/tag_base.asp">HTML base Tag</a>
+</body>
+<head>
+<base href="https://www.holisticseo.digital/" target="_blank">
+</head>
+<body>
+<img src="images/chania.jpg" width="28" height="49" alt="flowers in the city of Chania">
+<a href="tags/tag_base.asp">HTML base Tag</a>
+</body>
+What are the Attributes of <base> HTML Tag?
+There are multiple attributes for the <base> HTML Tag. The following attributes are listed below.
+Href Attribute: The <base> HTML Tag supports the href attribute. This property is used to set the base URL for all relative URLs on the page to be displayed.
+Target Attribute: The <base> HTML Tag supports the target attribute. It specifies where all hyperlinks and forms on the website will default to when they are clicked.
+Global Attributes: The <base> HTML Tag supports the Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <base> HTML Tag supports the Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <base> HTML Tag?
+There are no available default CSS Settings for <base> HTML Tag.
+What are the Related other HTML Tags to <base>?
+The other related HTML Tags to the <base> HTML Tag are listed below.
+<meta> HTML Tag: The <meta> HTML Tag and <base> HTML Tag are related because they are both Meta Info HTML Tags. The
+<meta> HTML Tag
+specifies the Metadata about the HTML document.
+<head> HTML Tag: The
+<head> HTML
+Tag and <base> HTML Tag are related because they are both Meta Info HTML Tags. It is necessary to specify the head portion of the page, which contains information that is relevant to the document, with an HTML Tag called “head.” The <head> HTML Tag
+contains other head components such as the <title>, <meta>, <link>, <style>, and <link> Tags, amongst other things.
+<basefont> HTML Tag: The <basefont> HTML Tag and <base> HTML Tag are related because they are Meta Info HTML Tags.  The
+<basefont> HTML Tag
+Sets the defaults for a document’s text’s color, size, and font.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <base> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <body> Tag Definition, Usage and Exampl…
+TechSEO
+HTML <audio> Tag Definition, Usage and Examp…
+0
+0
+0

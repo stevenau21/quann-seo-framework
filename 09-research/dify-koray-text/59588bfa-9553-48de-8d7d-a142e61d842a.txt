@@ -1,0 +1,88 @@
+Public-Key-Pins-Report-Only: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Public-Key-Pins-Report-Only is an HTTP Response Header created for pinning violations. The HTTP Public-Key-Pins-Report-Only response header sends a report to the report-URI (Uniform Resource Identifier) for pinning violations. Pinning is a method that permits you to define a cryptographic identity. Pinning provides security improvement for a website that depends on SSL Certificates. SSL (Secure Sockets Layer) certificate is a digital-authenticated certificate that validates the identity of a web browser and allows the connection with the encrypted web server. URI(Uniform Resource Identifier) identifies the device, but unlike URL (Uniform Resource Locator), it does not recognize or indicate where to locate the device. A cryptographic identity, also known as Identity-based cryptography is a type of public-key cryptography, where a public key is used to represent a group, team, organization, or individual. The cryptographic identity will be accepted by user agents before visiting a website. The Public key is a public string that can be represented by an IP address, domain, or email address. The disadvantage of the HTTP Public-Key-Pins-Report-Only response header is not like the HTTP Public-Key-Pins response header, even if pinning is violated, it still allows search engine crawlers and web browsers to connect to the web server. The support for HPKP (HTTP Public Key Pinning) is not available with the HTTP Public-Key-Pins-Report-Only response header. Due to limited restrictions, the HTTP Public-Key-Pins-Report-Only response header no longer works on modern browsers (such as Chrome and Edge). HTTP Public-Key-Pins is a response header used to link a specific cryptographic public key with a web server to reduce the risk of MITM (man in the middle) attacks with forged certificates. MITM (man in the middle) attacks refer to cyberattacks, wherein a hacker prevents communication between the client and the webserver.
+Contents of the Article
+show
+1.
+What is Public-Key-Pins-Report-Only?
+1.1.
+What is the Syntax of Public-Key-Pins-Report-Only?
+1.2.
+What is the Directive of Public-Key-Pins-Report-Only?
+2.
+How to use Public-Key-Pins-Report-Only?
+2.1.
+Examples of Public-Key-Pins-Report-Only Use
+3.
+What are the Specification Documents for Public-Key-Pins-Report-Only?
+3.1.
+What are the similar HTTP Headers to the Public-Key-Pins-Report-Only?
+What is Public-Key-Pins-Report-Only?
+The HTTP Public-Key-Pins-Report-Only response header fields, also known as the HTTP PKP-RO header fields, are used by a web server to specify that the User-Agent is required for a Pin Validation before visiting a website. When a pinning violation occurs, the HTTP Public-Key-Pins-Report-Only response header sends a report to report-URI. Although this still allows search engine crawlers and web browsers to access the web server, this feature is no longer recommended. The Public-Key-Pinning method was devalued, and the capabilities were overshadowed by the Certificate Transparency and Expect-CT header. The Expect-CT Header
+Public-Key-Pins-Report-Only allows the websites to choose the enforcement of Certificate Transparency requirements, to reduce the undetected use of wrongly issued certificates. Certificate Transparency is an open framework created to provide security and monitor wrongly issued certificates. Certificate Transparency requires all new certificates to be publicly logged, which maintains a cryptographic record of issued TLS(Transport Layer Security) certificates. A Transport Layer Security certificate is a public key certificate issued by the Certificate Authority.
+What is the Syntax of Public-Key-Pins-Report-Only?
+The syntax for the HTTP Public-Key-Pins-Report-Only response header is below.
+Public-Key-Pins-Report-Only: pin-sha256="<pin-value>";
+max-age=<expire-time>;
+includeSubDomains;
+report-uri="<uri>"
+What is the Directive of Public-Key-Pins-Report-Only?
+The directives for the HTTP Public-Key-Pins-Report-Only response header are described below.
+pin-sha256=”<pin-value>”: The quoted string is the Base64 encoded Subject Public Key Information (SPKI) fingerprint. We can have multiple pins for various public keys.
+max-age=<expire-time>: This directive will be insignificant for the HTTP Public-Key-Pins-Report-Only response header. The header will not be cached.
+includeSubDomains Optional: This optional parameter is identified, and applies to all subdomains on the site.
+report-uri=”<uri>”: Failed pin validation is reported and this directive should be used with this header; otherwise, this header will be a no-op.
+How to use Public-Key-Pins-Report-Only?
+The syntax for the HTTP Public-Key-Pins-Report-Only response header is used by a web server to specify that the User-Agent is required for a Pin Validation before visiting a website. The HTTP Public-Key-Pins-Report-Only response header sends a report to the report-URI (Uniform Resource Identifier) for pinning violations. Even if there is a failure on pin violation, the web browsers will still be allowed to connect to the web server.
+Examples of Public-Key-Pins-Report-Only Use
+An example of the HTTP Public-Key-Pins-Report-Only response header is below.
+In this example, “pin-sha256=”dOFcREXWKaEVoYWhhneDttWpY3oDEkE5g6+soQD7xXz=” pins the server’s public key used in verification. The second pin validation “pin-sha256=”N7SgtCzM3elUxkcjR2S5P4hhyBNf6lHkmjAHKhpGPXO=” also pins the backup key. Moreover, the key pinning will also be valid for all subdomains, which is told by the includeSubDomains declaration. Finally, report-uri=”https://www.sample.org/hpkp-report” explains where to report failed pin validation.
+Public-Key-Pins-Report-Only:
+pin-sha256 = "dOFcREXWKaEVoYWhhneDttWpY3oDEkE5g6+soQD7xXz=";
+pin-sha256 = "N7SgtCzM3elUxkcjR2S5P4hhyBNf6lHkmjAHKhpGPXO="; includeSubDomains;
+report-uri = ”https://www.sample.org/hpkp-report”
+What are the Specification Documents for Public-Key-Pins-Report-Only?
+The specification documents for the HTTP Public-Key-Pins-Report-Only response header are below.
+RFC5234: The RFC5234 is an Augmented BNF(Backus-Naur Form) for syntax specifications. RFC5234 is a chained string of values in a compact form, that uses a period (“.”) to separate the characters within that value.
+RFC7230: The RFC7230 is HTTP/1.1 Message Syntax and Routing for request and response protocols.
+What are the similar HTTP Headers to the Public-Key-Pins-Report-Only?
+A similar header for the HTTP Public-Key-Pins-Report-Only response header is below.
+HTTP Public-Key-Pins response header:
+The HTTP Public-Key-Pins
+response header and HTTP Public-Key-Pins-Report-Only response header fields are recognized as the PKP and PKP-RO header fields. The PKP and PKP-RO header fields are applied by a server to require a pin validation from the User-Agent.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Public-Key-Pins-Report-Only: Syntax, Directive, Examples
+by Koray Tuğberk GÜBÜR
+time to read: 4 min
+TechSEO
+Accept-Post HTTP Header: Syntax, Directive, Exampl…
+TechSEO
+Allow HTTP Header: Syntax, Directive, Examples
+0
+0
+0

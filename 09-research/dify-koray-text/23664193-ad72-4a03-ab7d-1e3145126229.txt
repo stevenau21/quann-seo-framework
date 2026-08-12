@@ -1,0 +1,92 @@
+HTML <dfn> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <dfn> HTML Tag defines a term that will be specified inside the content. The <dfn> HTML Tag is utilized in an HTML document to indicate that a keyword is being defined within the text. The text contained within the <dfn> HTML Tag has generally been formatted in italics by browsers. CSS has the ability to change this approach. The <dfn> HTML Tag is part of the Formatting HTML category in HTML Element Reference. The attributes of the <dfn> HTML Tag are title, global and event atributes.
+<dfn> code block example to learn how it works is given below.
+<body>
+<p><dfn>text</dfn> text</p>
+</body>
+The second example usage of the “<dfn>” code block example is given below.
+A <dfn>United States</dfn> It is widely considered as being the most powerful nation once more and it possesses the world's greatest economy as well as the greatest military budget.
+Contents of the Article
+show
+1.
+What is <dfn> HTML Tag?
+2.
+How to Use <dfn> HTML Tag?
+2.1.
+Example Usage of <dfn> HTML Tag?
+3.
+What are the Attributes of <dfn> HTML Tag?
+4.
+What is the Default CSS Setting for <dfn> HTML Tag?
+5.
+What are the Related other HTML Tags to <dfn>?
+What is <dfn> HTML Tag?
+The <dfn> HTML Tag denotes a definition element and is utilized to indicate a defining instance. If the <dfn> HTML Tag contains a term, the browser interprets the adjacent text as the word’s definition. If the <dfn> HTML Tag contains a title attribute, the value of the title attribute is taken as the definition term. Although the element must contain text, that text may be an abbreviation, such as <abbr> HTML Tag or another version of the term. As long as the <dfn> HTML Tag includes only a single child element and does not contain any text content of its own, and the child element is an <abbr> HTML Tag element with a title attribute of its own, that child element is considered to be the term being defined.
+How to Use <dfn> HTML Tag?
+To use the <dfn> HTML Tag, the web developer should write the <dfn></dfn> with the term that is placed between the start and the end tags. The web developer can also include the title attribute as it has distinct significance when used with the dfn> HTML Tag.
+Example Usage of <dfn> HTML Tag?
+The following examples of usage of <dfn> HTML Tag are given below.
+<p><dfn>Description</dfn>: A statement that provides information about something or someone.</p>
+<p>Have you ever heard that <dfn><abbr title="HyperText Transfer Protocol">HTTP</abbr></dfn> is used to load web pages through hypertext links?</p>
+What are the Attributes of <dfn> HTML Tag?
+There are multiple attributes for the <dfn> HTML Tag. The following attributes are listed below.
+Title Attribute: The <dfn> HTML Tag supports the title attribute. This attribute defines the meaning of the term and appears when the mouse hovers over it.
+Global Attributes: The <dfn> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <dfn> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <dfn> HTML Tag?
+The following is the Default CSS Setting for the <dfn> HTML Tag.
+dfn {
+}
+What are the Related other HTML Tags to <dfn>?
+The other related HTML Tags to the <dfn> HTML Tag are listed below.
+<bdi> HTML Tag: The
+<bdi>
+HTML Tag and <dfn> HTML Tag are related because they are both formatting HTML Tags.The <bdi> HTML Tag separates a section of text from the rest so that it can be formatted differently.
+<u> HTML Tag: The
+<u>
+HTML Tag and <dfn> HTML Tag are related because they are both formatting HTML Tag. The <u> HTML Tags specifies that some text is not articulated and is formatted differently from typical text.
+<template> HTML Tag: The
+<template>
+HTML Tag and <dfn> HTML Tag are related because they are both formatting HTML Tags. The <template> HTML Tag specifies that when the page loads, the container defines what content should be hidden.
+<samp> HTML Tag: The
+<samp>
+HTML Tag and <dfn> HTML Tag are related because they are both formatting HTML Tags. The <samp> HTML Tag defines  a computer program’s sample output.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <dfn> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <em> Tag Definition, Usage and Examples…
+TechSEO
+HTML <kbd> Tag Definition, Usage and Example…
+0
+0
+0

@@ -1,0 +1,130 @@
+What is Interaction to Next Paint (INP), and How to Optimize It - Holistic SEO
+Skip to content
+Interaction to Next Paint (INP) is a Core Web Vitals (CWV) metric to measure the web page’s interactivity for user experience quality. INP is a user-centric page speed metric that affects search engine optimization performance, conversion rate, and user satisfaction. Interaction to Next Paint replaced First Input Delay (FID) in March 2024 in Core Web Vitals. A high INP score means the web page fails to respond to user interactions. Chrome User Experience (CrUX) reports that 90% of a user’s time is spent on the web page after loading and rendering. Thus, INP focuses on the quality of the user experience at 90%, which is the majority.
+The importance of Interaction to Next Paint is measuring the visual feedback delays rather than every type of interaction delay. For example, network fetches, or asynchronous requests from the web servers are not considered in INP calculation. INP is calculated when the next paint event is blocked or delayed.
+Interaction to Next Paint (INP) has three main components these are Input Delay, Processing Delay and Presentation Delay.
+Input Delay is the time between user interaction triggers, such as a click and a request to the server.
+Processing Delay is the time between the triggered request and its completion from the web server.
+Presentation Delay is the time required to complete the visual feedback and change caused by the user interaction.
+To decrease and have a low INP score, the input, processing and presentation delays should be optimized. Use PageSpeed Insights, Real User Monitoring, and Web-Vitals library to optimize, measure and track the INP.
+Contents of the Article
+show
+1.
+What is a Good Interaction to Next Paint (INP) Score?
+1.1.
+How to Measure Interaction to Next Paint in the Field?
+1.2.
+How to Test Interaction to Next Paint in the Lab?
+1.2.1.
+When does a web page have an INP Score?
+1.3.
+How to Measure INP with Web-Vitals JavaScript Library?
+2.
+How to Optimize Interaction to Next Paint (INP)?
+2.1.
+How to Avoid Layout Trashing to Improve Interaction to Next Paint (INP)?
+2.1.1.
+How to Optimize INP with CSS Optimization?
+2.2.
+How to Optimize INP by using Content-visibilty in CSS
+2.3.
+How does DOM Size affect INP?
+2.3.1.
+How to Use Server-side Rendering for Optimizing INP?
+3.
+What is the Difference between Interction to Paint (INP) and First Input Delay (FID)?
+4.
+What is the Weight of Interaction to Next Paint (INP) for Lighthouse Scoring?
+What is a Good Interaction to Next Paint (INP) Score?
+Measurement of Interaction to Next Paint involves three main score ranges: below 200 miliseconds, between 200 and 500 milliseconds, and above the 500 milliseconds. Below 200 milliseconds of INP means good performance, between 200 and 500 milliseconds of INP score means improvement, and above 500 miliseconds of INP means poor performance on web page interactivity.
+A good INP Score means good responsiveness. Good responsiveness means below 200 milliseconds of Interaction to the Next Paint timing.
+INP timing between 200 milliseconds and 500 milliseconds represents a medium INP score. A medium INP score means mediocre responsiveness and needs optimization.
+An INP timing above 500 milliseconds means poor web page responsiveness and user experience on web page interactions.
+How to Measure Interaction to Next Paint in the Field?
+To measure the responsiveness via Interaction to Next Paint (INP), Chrome User Experience Report (Crux) data is used. Chrome User Experience Report involves Real User Monitoring (RUM) which explains what percentage of the users interacted with a good or bad INP score. Chrome User Experience Report is created via CRuX pipeline on Google. CrUX data includes information about click, tap, touch, mouse up, and keypress. Measuring INP for website (origin-level) and individual URL-level is possible. To measure the field data for INP requires having a notable website with enough traffic. A website without popularity and enough search engine traffic is not included in the CrUX, thus it is not possible to see the INP data.
+Alternative method of INP measurement in the field is using a customized javascript for tracking and recording the user metrics. Creating customized events from Google Tag Manager and reflecting the event data on the Google Analytics 4 for INP, Page Load, DomContentLoaded helps a webmaster and UX expert to track the INP.
+There are two methods of measurement for Interaction to Next Paint (INP), the first one is using Real User Monitoring (RUM) and the second one is using the Lab Data which comes from page loading performance simulators such as Lighthouse of Google.
+How to Test Interaction to Next Paint in the Lab?
+To test interaction to next paint in the lab, use Lighthouse, web page loading timing simulator. Lighthouse is a web page loading performance tester, and designed by Google Web Developer team. Lighthouse results for INP reflects a simulated user experience based on the page loading and interaction flow. To get the best results for INP measurement, use Lab and Field measurement and data together.
+When does a web page have an INP Score?
+A web page has an INP score if there is an interaction between the user and the web page. If there is no interaction between the user and the web page, the INP score can’t be measured or calculated. The Chrome tracks the first 50 interactions between the user and the web page. The worst interaction delay is counted as the INP score. If there is no interaction, INP score won’t be included in the measurement data.
+How to Measure INP with Web-Vitals JavaScript Library?
+To measure the INP score with Web-Vitals JavaScript library, follow the steps below.
+Install the web-vitals Library: Make sure you have the web-vitals library installed in your project. If it’s not installed, you can add it using a package manager like npm with the command npm install web-vitals.
+Import the onINP Function: At the beginning of your JavaScript file, import the onINP function from the web-vitals/attribution module. This is necessary to access the enhanced interaction tracking capabilities.
+Define the sendToGoogleAnalytics Function: Copy the sendToGoogleAnalytics function into your script. This function is responsible for handling the data captured by onINP and formatting it for Google Analytics.
+Understand the sendToGoogleAnalytics Function: Familiarize yourself with the structure of the sendToGoogleAnalytics function. It deconstructs the attribution object to extract detailed interaction data and then prepares this data for transmission to Google Analytics.
+Set Up Google Analytics: Ensure that Google Analytics is correctly set up on your website. You should have the Global Site Tag (gtag.js) installed on your pages where you intend to track interactions.
+Configure the Event Parameters: In the sendToGoogleAnalytics function, review and, if necessary, modify the event parameters to align with your specific tracking requirements for Google Analytics.
+Initiate the INP Listener: Call the onINP function at the end of your script, passing the sendToGoogleAnalytics function as an argument. This step sets up the listener to capture INP events and send the data to the sendToGoogleAnalytics function.
+Test the Implementation: After integrating the script, test your web page to ensure that INP events are being captured and sent to Google Analytics. You can use tools like the browser’s developer console or Google Analytics’ real-time reporting feature to verify the data flow.
+Analyze the Data in Google Analytics: Once you’ve confirmed that data is being sent, use Google Analytics to analyze the INP metrics. These insights can help you understand user interactions and webpage responsiveness, guiding improvements for a better user experience.
+Keep Your Implementation Updated: Stay informed about updates to the web-vitals library or changes in Google Analytics to ensure your implementation remains effective and accurate over time.
+An example code snippet for measurement of INP is below.
+import {onINP} from 'web-vitals/attribution';
+function sendToGoogleAnalytics ({name, value, id, attribution}) {
+const {eventEntry, eventTarget, eventType, loadState} = attribution;
+const {startTime, processingStart, processingEnd, duration, interactionId} = eventEntry;
+const eventParams = {
+metric_inp_value: value,
+metric_id: id,
+metric_inp_event_target: eventTarget,
+metric_inp_event_type: eventType,
+metric_inp_load_state: loadState,
+metric_inp_start_time: startTime,
+metric_inp_processing_start: processingStart,
+metric_inp_processing_end: processingEnd,
+metric_inp_duration: duration,
+metric_inp_interaction_id: interactionId
+};
+gtag('event', name, eventParams);
+}
+onINP(sendToGoogleAnalytics);
+This code snippet is designed to collect and send Interaction to Next Paint (INP) metrics to Google Analytics. INP is a performance metric that measures the responsiveness of a webpage. The code uses the web-vitals library, specifically the attribution build, which provides more detailed information about each interaction. Here’s a breakdown of the key components of this script:
+Importing the onINP function: The script begins by importing onINP from the web-vitals/attribution module. This function is used to set up a listener that reports INP metrics.
+The sendToGoogleAnalytics function: This function is defined to handle the data sent from the onINP listener. It receives an object with several properties related to the INP event.
+Destructuring the attribution object: The attribution object provides detailed context about the interaction, including the event that triggered it, the target element, and timing information.
+Timing Information: The script extracts various timing details like when the interaction started (startTime), when processing began (processingStart), and when it ended (processingEnd).
+Interaction Metrics: It captures several metrics, such as the INP value (value), a unique ID for the interaction (id), and the type of event (eventType).
+Event Parameters Object: The script constructs an eventParams object that consolidates all the relevant data points. This includes the INP value, the event type, the target element, and various timing metrics.
+Sending Data to Google Analytics: The data is then sent to Google Analytics using the gtag function. The event name is passed along with the eventParams object, allowing Google Analytics to record and analyze these interaction metrics.
+Setting up the INP Listener: Finally, the onINP function is called with sendToGoogleAnalytics as an argument. This sets up the listener to report INP metrics, which are then processed and sent to Google Analytics.
+The INP measurement code snippet uses the EventTiming API, and its outputs’ interactionID property.
+How to Optimize Interaction to Next Paint (INP)?
+To optimize the Interaction to Next Paint (INP), follow the steps below.
+Start with Field Data from Real User Monitoring (RUM)
+Analyze Interaction Types: Determine if clicks, keypresses, or taps are causing delays, affecting INP.
+Monitor Timing Relative to Page Load: Observe if interactions are slower during or after the page load, impacting INP.
+Leverage RUM Tools: Use tools like New Relic or Dynatrace to gather detailed RUM data, crucial for INP analysis.
+Perform Comparative Analysis: Compare INP across user segments and browsers to identify specific optimization areas.
+Utilize Chrome User Experience Report (CrUX) if RUM is Unavailable
+Interpret Core Web Vitals Data: Use CrUX to gain an overview of INP and other vital metrics.
+Access Data via PageSpeed Insights: Retrieve CrUX data for your site through PageSpeed Insights for a basic INP assessment.
+Benchmark Against Industry Standards: Use CrUX for comparing your site’s INP with industry benchmarks.
+Understand CrUX Limitations: Acknowledge CrUX’s lack of detailed interaction data compared to RUM.
+Diagnose Slow Interactions in the Lab
+Create Controlled Test Environments: Simulate user behavior in a lab setting to identify INP issues.
+Simulate Common User Flows: Test typical user pathways on your site to uncover INP bottlenecks.
+Conduct Stress Tests: Evaluate how page interactions perform under various load conditions.
+Utilize Diagnostic Tools: Employ tools like Lighthouse and Chrome DevTools for detailed INP analysis.
+Optimize Each Phase of Interaction
+Minimize Input Delay: Reduce the time from user action to event processing start, crucial for INP.
+Accelerate Processing Time: Optimize the duration of event callbacks to improve INP.
+Reduce Presentation Delay: Shorten the time from event completion to the visual update.
+Aim for Holistic Optimization: Focus on enhancing all interaction phases to improve overall INP.
+Understand the Impact of Multiple Main Threads
+Recognize Separate Browsing Contexts: Understand how iframes and pop-ups with their threads affect INP.
+Analyze Page-Level INP: INP considers all frames within a page, influencing overall performance.
+Balance Thread Workloads: Manage tasks across multiple threads to avoid performance issues.
+Consider Resource Constraints: Be aware of how limited device resources can influence thread performance and INP.
+Reduce Input Delay
+Manage Main Thread Activities: Address activities like script execution that impact INP.
+Handle Overlapping Interactions: Efficiently manage simultaneous user actions to reduce input delays.
+Implement Continuous Monitoring: Regularly track interaction delays for ongoing INP optimization.
+Optimize Script Loading and Execution: Improve script handling to reduce initial input delay, a critical component of INP.
+Manage Script Evaluation During Startup
+Understand Script Impact on INP: Recognize how script processing during startup can extend input delay.
+Optimize Script Parsing and Execution: Reduce time taken in script evaluation to improve INP during page load.
+Prevent Long Tasks During Load: Avoid extensive script tasks at startup to maintain a responsive
+
+[...truncated...]

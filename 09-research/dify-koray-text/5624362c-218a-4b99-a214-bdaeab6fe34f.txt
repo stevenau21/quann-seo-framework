@@ -1,0 +1,186 @@
+Skip to content
+Lexical Semantics (lexicosemantics) is the relationship of words to each other. Lexical Semantics include different types of word relations such as meronyms, holonyms, antonyms, synonyms, hypernyms, and hyponyms. Semantic Similarity means the closeness and relevance between two words. Semantic relations between words (lexical semantics) and distance between words’ meanings (semantic closeness) are used by semantic search engines with Natural Language Processing and Natural Language Understanding.
+Lexical Semantics and Semantic Similarity (Closeness) are used to understand the Main Context and Micro-contexts within a document. Search Intent Coverage, Related Search Activity Prediction, Query Anchor, and Query Completion Predictions are affected by the word’s association with another word within semantics.
+In this Lexical Semantics and Semantic Closeness Guide and SEO Case Study, the definitions of the related concepts, their usage methodologies, and some concrete-early SEO effects will be demonstrated.
+Before continuing further, let me introduce you to myself. I am
+Koray Tuğberk GÜBÜR
+, the Owner and Founder of Holistic SEO and Digital. In this article, I will try to fill some gaps between my previous SEO Case Studies with the Lexical Semantics and Semantic Relevance. From my Semantic SEO Course, and the other guides and tutorials, you can learn more about my SEO Case Studies.
+The Importance of Lexical Relations for SEO Case Study with 30 different Websites have been written one year ago. It is not published to protect some websites.
+The active start and end dates of the projects are given transparently.
+The organic search performance after the active working end date comes from the search engines’ historical data, trust that is caused by the quality increase of the SEO campaign.
+Every project had at least 80 content briefs before the active project management’s end date.
+All the projects below are accepted by Holistic SEO & Digital for solely SEO Case Study creation and publication to prepare the SEO Culture and Industry for the incoming Semantic SEO Course. An NDA is signed with only Kanbanize.com, thus there is no GSC Data.
+To join the Semantic SEO Course, click the image below, and subscribe to the
+Holistic SEO Newsletter
+.
+Some of the Topical Maps, Semantic Content Network Designs, and Content Briefs for these websites and projects are shared in the incoming
+Semantic SEO Course lectures for educational purposes.
+The safety of the projects on the website is guaranteed by waiting 1 year for the publication of the case study.
+Some of the case study subject websites are processed in incoming other case studies, and books with different angles in holistic SEO with different contexts, and SEO practices.
+Importance of Information Responsiveness (Book)
+Importance of Cost-of-Retrieval (Book)
+B2B SEO Case Study
+SaaS SEO Case Study
+Expanding a Topical Map SEO Case Study
+These SEO Case Studies and Books will be published in 2022, and early 2023. The lexical semantics video explains the lexicosemantics for SEO, and linguistics with 26 projects.
+Contents of the Article
+show
+1.
+Background of the Semantic Relevance, Similarity, and Lexical Semantics SEO Case Study
+1.1.
+First Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.2.
+Second Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.3.
+Third Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.4.
+Fourth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.5.
+Fifth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.6.
+Sixth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.7.
+Seventh Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.8.
+Eighth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.9.
+Ninth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.10.
+Tenth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.11.
+Eleventh Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.12.
+Twelfth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.13.
+Thirteenth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.14.
+Fourteenth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.15.
+Fifteenth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.16.
+Sixteenth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.17.
+Seventeenth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.18.
+Eighteenth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.19.
+Nineteenth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.20.
+Twentieth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.21.
+Twenty-first Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.22.
+Twenty-second Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.23.
+Twenty-third Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.24.
+Twenty-fourth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.25.
+Twenty-fifth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.26.
+Twenty-sixth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.27.
+Twenty-seventh Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.28.
+Twenty-eight Websites with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.29.
+Twenty-ninth Websites with Lexical Relations and Semantic Relevance and Similarity for SEO
+1.30.
+Thirteenth Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+2.
+What are the Lexical Relations between Words?
+3.
+How can Lexical Semantics Help with Semantic Role Labeling?
+3.1.
+Why Does Word Proximity Matter for Lexical Semantics?
+4.
+What is the Semantic Similarity (Closeness)?
+5.
+What is Semantic Relevance?
+6.
+What is the Difference between Semantic Similarity and Relevance?
+6.1.
+How does Semantic Distance affect Semantic Similarity and Semantic Relevance?
+6.2.
+What is the relationship between Semantic Closeness and Lexical Semantics?
+6.3.
+How to use Lexical Semantics and Semantic Closeness for SEO?
+7.
+What are the main Google Designs that mention Lexical Relations?
+7.1.
+Search queries improved based on query semantic information
+7.2.
+Using geographic data to identify correlated geographic synonyms
+7.3.
+Identifying common co-occurring elements in lists
+7.4.
+Information extraction from a database
+7.5.
+Identifying a synonym with N-gram agreement for a query phrase
+7.6.
+Meaning-based advertising and document relevance determination
+7.7.
+Sub-lexical language models with word-level pronunciation lexicons
+7.8.
+Touch keyboard using language and spatial models
+7.9.
+Contextual dynamic advertising based upon captured rendered text
+8.
+What is the History of the Lexical Semantics?
+9.
+What are the Reference and Sense for Lexical Semantics?
+10.
+What are the Areas of Application of Lexical Semantics?
+11.
+What are the Related Terms for Lexical Semantics?
+12.
+What is the Relation Between Lexical Semantics and Semantic Role Labeling?
+13.
+Last Thoughts on Lexical Relations and Holistic SEO
+Background of the Semantic Relevance, Similarity, and Lexical Semantics SEO Case Study
+In this Lexical Semantics and Semantic Relevance-focused SEO Case Study, I will demonstrate 6 different websites. To protect the clients, I won’t be able to give the name of all websites. But you will be able to see the effectiveness of understanding the Lexical Relations, Semantic Similarity, and Relevance between words for SEO.
+Some of these SEO Projects are newly launched, and some of them are still active. I will demonstrate the changes and methods and concepts behind these changes.
+The Methodology Summary can be found below.
+Understanding the Distance between Words as Vectors.
+Creating the sentence structures for the questions and the answers.
+Matching the answers and the questions to sharpen the context.
+Using accurate information with different forms and connections.
+First Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+TeamColorCodes is the first website that will be explained over Lexical Semantics and Semantic Similarity SEO Case Study. Lexical relations of words and semantic relevance, and distinctiveness, become more prominent if a website contains too many entities of the same type. Since all the attributes are the same, and to decrease the content production cost, since most SEOs use Programmatic SEO, it requires using a “Structured Language Model” with lists, tables, and of course, ads. In TeamColorCodes, to increase the Information Retrieval Score, and Information Extraction Responsiveness, the Lexical Relations, Semantic Relevance, and Distinctiveness between the words, concepts, and entities are used.
+“Working with Koray on Teamcolorcodes has been a great experience so far. It’s a lot of work to get everything right and do it ‘the Koray way’, but the results are there, so it’s all worth it. The focus of this project has been completed on semantic content, and we’ve edited many pages.
+We monetize Teamcolorcodes.com with ads and one very nice side effect we’ve seen is that the RPM of the pages we applied Koray’s strategies to, increased by a lot because of all the extra content that was added to the pages (more content = of course, more room for ads).”
+Paul Jensen
+We hope to continue working with Koray and improve the site even more.”
+Below, you can find the graphic of the Google Search Console for the last 6 months’ performance change.
+To achieve this specific increase, the most relevant attributes for the entities are chosen, proper questions are generated, and answers. Multiple content formats and language models are placed and integrated. The query count, and the impressions, along with the clicks are increased properly. The
+Contextual Search
+SEO Case Study is an A/B Test of the specific results.
+The last 3 months’ comparison can be seen above. Below, there is a screenshot from the client. The pages that are adjusted and optimized with Semantics had a lower exit rate with longer session durations and conversions.
+A quick 3 months of jumps can be seen below from the Ahrefs.
+The screenshot below was taken 3 months later than the previous screenshots. The increase continued, and big impression jumps started with re-ranking events. The last 7 months’ comparison can be seen below.
+TeamColorCodes.com has benefited from the Query-Document-Intent templates that have been processed in the
+Semantic Content Networks SEO
+Case Study.
+This is an SEO A/B Test sample from TeamColorCodes.com with Semantic SEO. You can also create new web page samples with new content templates to see how a search engine perceives your new content template.
+The lines above were written 9 months ago. The updated version of Teamcolorcodes.com’s organic traffic change is below.
+A further 18% organic click increase, and a 98% organic query count increase happened. Despite the lost queries in 4-10 and 1-3, the total traffic and topical coverage increased. Most of the lost clicks or queries are from company-related information, rather than the company’s color-related attributes. Thus, Google consolidated the relevance by constructing new indexes, and related query networks with lexical semantics in
+entity-oriented search
+.
+vinjected e-commerce web pages by a security breach. This is a note to show the prominence of solid semantically optimized relevance and responsiveness for content networks.
+Second Website with Lexical Relations and Semantic Relevance and Similarity for SEO
+The second website is a project that has been started based on recipes for the same theme and context. To keep SEO growth fast and economical, publication frequency has been increased with the root and prominent attributes of the recipe objects. The internal links and main questions are determined based on the popularity of entities. Taxonomy and ontology are used before creating the first articles.
+Below, you can see the first 3 months’ graphic of the second lexical relations website sample.
+This screenshot is from 6 months ago.
+The second website has produced more content items, and the first and last three months’ comparison difference can be seen for the growth.
+The jump in traffic can be seen below the second website.
+From the SEMrush, you can see the jump.
+The second website has benefited from the momentum of publication with a high update rate, and proper-clear sentence structures along with Recipe Schema Markup for initial ranking. During this time, most of the “Bar-related” equipment, recipes, and facts are processed. Later, the project owner leveraged the same process with semantically relevant questions and answer pairs with higher publication frequency.
+The Project Owner is one of the best operators that I have ever met. Thus, they are able to consolidate a high level of understanding into a low level ofa  cost but high level of efficiency with proper implementation. ‌ Semantic SEO with Question and Answer Pairs can help a website to be a quick authority source as below.
+You can see the latest results below.
+The screenshot has been taken 6 months later than the previous ones. Below, you can see the last 28 days of the difference.
+Below, you can see the last 6 months of comparison.
+Below, you can see the Ahrefs results.
+Below, you can see the SEMrush results.
+“As an entrepreneur who innovates the SEO, Koray Tuğberk GÜBÜR is one of the rare people that I can connect with and trust, truly. Talking about Search Engines, and their decision trees, and creatin
+
+[...truncated...]

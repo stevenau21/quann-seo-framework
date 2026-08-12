@@ -1,0 +1,89 @@
+HTML <bgsound>  Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <bgsound> HTML Tag has been deprecated. It creates a sound file to play in the background while the page is being used; instead, use <audio> HTML Tag. The attributes of the <bgsound> HTML Tag are balance, loop, src, and volume attributes.
+<bgsound> code block example to learn how it works is given below.
+<bgsound src="">
+The second example usage of the “<bgsound>” code block example is below.
+<body>
+<center>
+<h1>Holistic SEO & Digital</h1>
+<bgsound src="holisticseodigital.mp3" />
+<p>Please plug in a speaker/headphones to hear the sound.</p>
+</center>
+</body>
+Contents of the Article
+show
+1.
+What is <bgsound> HTML Tag?
+2.
+How to Use <bgsound> HTML Tag?
+2.1.
+Example Usage of <bgsound> HTML Tag?
+3.
+What are the Attributes of <bgsound> HTML Tag?
+4.
+What are the Default CSS Settings for <bgsound> HTML Tag?
+5.
+What are the Related other HTML Tags to <bgsound>?
+What is <bgsound>  HTML Tag?
+The <bgsound> HTML Tag is used to play the soundtrack in the background; when you leave the page and open a new tab, the track will continue to play in the background.
+Except for Internet Explorer, the <bgsound> HTML Tag is not applicable to other browsers. It doesn’t show any graphical interface and simply plays the track in the background.
+How to Use <bgsound>  HTML Tag?
+To use the <bgsound> HTML Tag, the web developer should write the <bgsound src=””> and insert the background sound. The soundtrack will be played in the background.
+Example Usage of <bgsound>  HTML Tag?
+The following example of usage of <bgsound> HTML tag is given below.
+<body>
+<center>
+<h1>Travel blog</h1>
+<bgsound src="travelsound.au" />
+<p>Please plug in a speaker/headphones to hear the sound.</p>
+</center>
+</body>
+What are the Attributes of <bgsound>  HTML Tag?
+There are multiple attributes for the <bgsound> HTML Tag. The following attributes are listed below.
+balance attribute: The <bgsound> HTML Tag supports balance attribute. The balance  attribute defines a number between -10,000 and +10,000 that determines how the volume will be divided between the speakers.
+loop attribute: The <bgsound> HTML Tag supports loop attribute. The loop attribute specifies the number of times a sound will be played and can be either numeric or the keyword infinite.
+src attribute: The <bgsound> HTML Tag supports src attribute. The src attribute indicates the URL of the sound file to be played, which must be of the following formats: .wav, .au, or .mid.
+volume attribute: The <bgsound> HTML Tag supports volume attribute. The volume attribute specifies a number between -10,000 and 0 that determines the volume of the background sound on a page.
+What are the Default CSS Settings for <bgsound>  HTML Tag?
+There are no Default CSS Settings for <bgsound> HTML Tag.
+What are the Related other HTML Tags to <bgsound>?
+There is only one related HTML Tag to <bgsound> HTML Tag which is the <audio> HTML Tag. The <audio> HTML Tag is used to specify the audio content.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <bgsound>  Definition, Usage and Examples
+by Holistic SEO
+time to read: 2 min
+TechSEO
+HTML “select”  Definition, Usage and E…
+TechSEO
+What is cURL? How to Use cURL? cURL and libcurl Gu…
+0
+0
+0

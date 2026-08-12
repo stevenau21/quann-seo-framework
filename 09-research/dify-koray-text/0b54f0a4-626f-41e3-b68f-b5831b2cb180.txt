@@ -1,0 +1,86 @@
+Google Hilltop Algorithm: Importance and Effects on SEO - Holistic SEO
+Skip to content
+The Hilltop algorithm evaluates whether your website belongs to an expert organization or person or it has authoritative content and history and calculates its relevance and trustworthiness for certain keywords. If you start a search query on Google for a specific term, the search engine first determines the expert and authority pages that are relevant for this search term.
+Contents of the Article
+show
+1.
+General information on the topic
+2.
+What is the Difference between Hilltop and Pagerank Algorithms?
+3.
+SEO and the Hilltop algorithm
+4.
+Importance of Online Marketing
+5.
+Three Important Points of Hilltop Algorithm
+General information on the topic
+Note: Hilltop Algorithm is an old Google Patent which tries to calculate the expertise of an entity on a topic. You need to understand the Hilltop Algorithm is a basic methodology for Google to check a web site’s authority in the past. Reading the Hilltop Algorithm may help you to understand how far Google has developed its algorithm in a complex and comprehensive way.
+In 1999 the Bharat and Mihaila Hilltop algorithm was developed at the University of Toronto. Google acquired the patent for this algorithm in 2003. The background of this algorithm is that trying to calculate the authoritativeness of the web page according to its quality links and citations. According to the Bharat and Mihalia Hilltop Algorithm, 5 citations from the authoritative people from a certain topic will show your trustworthiness and expertise on that specific topic. While Google is buying the algorithm, it decreased this number to the two.
+These independent sites are also carefully checked. So they must not belong to the same so-called Class C network. This means that the first three blocks of the IP address must not match and must not have the same domain name (conceivable variations are, for example, the same URLs with different endings such as “com” or “tr”). Direct or indirect connections from the independent sites are also not permitted. According to the algorithm, there is a dependency if the checked side A is in contact with side B, which in turn is in contact with side C. This also assumes that sides A and C are in contact with each other. The more incoming links can be found on a website, the better they are ranked because they are considered expert pages.
+You may learn more about Related Google Algorithms and Updates via our Guidelines:
+Google Florida Update
+Google Possum Update
+Google Penguin Update
+Google TrustRank Algorithm
+Google PageRank Algorithm
+Google Caffeine Update
+Google Hummingbird Update
+What is Information Retrieval for Search Engines
+What is the Difference between Hilltop and Pagerank Algorithms?
+The PageRank algorithm specified the number and strength of incoming links on a website. It was one of the most important tools for checking websites for relevance. However, the PageRank algorithm gave an incomplete picture because it made statements about the strength and number of integrated websites, but says nothing about their quality and authority on a specific topic. But exactly this quality is important if you want to assess the relevance of a website.
+For this reason, the Hilltop algorithm is a useful addition to the PageRank algorithm. It examines certain search terms from websites and determines whether they can be counted among the authority pages. If the status of the expert page has been determined, the user recognizes this by the fact that it can be found in the search results at the top and contains additional information in addition to the general page description. For example, this could be linked to relevant subpages.
+The Hub and Authorities procedure and the TrustRank are two other algorithms that serve to check websites. In the case of hubs and authorities (short: HITS), the value of a page is examined using authority properties and hubs. While the stroke property evaluates the number and quality of the outgoing links on a page, the authority of a website is determined by its external links.
+The main task of the trust potion is to detect spam pages. The TrustRank first defines some authority pages (e.g. Wikipedia) and then tracks all outgoing links. Because spam sites are generally not linked at all, they can be located and assigned relatively easily using the trust potion.
+SEO and the Hilltop algorithm
+The Hilltop algorithm is also important for Search Engine Optimization (SEO). To rank better, collect as many links from expert sites as possible. For this, it is necessary to be entered in as many directories as possible with your own website. In order to look specifically for expert pages, it makes sense to look for websites that in turn refer to numerous well-ranked pages. But you can also actively influence the ranking yourself. To this end, it is recommended to create your own directories on certain topics, which are then incorporated into the website to be optimized.
+For being an authority in a Knowledge Domain, you shouldn’t try to manipulate PageRank Algorithm. While we are saying that “acquire as many links from expert sites” we mean that you should serve quality products, services and contents to be approved by those sites in a natural process.
+Due to inaccuracies in the calculation (not all expert or authority pages are always recorded), the Hilltop Algorithm is only of limited use to achieve a better ranking. In cooperation with the other algorithms already mentioned, the computing effort that arises at the beginning of the search via the search index can be reduced. In addition, the hilltop algorithm has become a valuable tool for detecting spam. Due to the quality criteria defined by the algorithm, websites that are classified as spam actually have no chance of attaining the status of an authority page.
+Importance of Online Marketing
+The hilltop algorithm alone does not bring website operators forward. It is part of a larger group of algorithms that should be used in combination with one another if possible. However, the importance of the Hilltop algorithm should not be underestimated, because Google has obviously been pursuing the plan to reward high-quality websites since 2003. This may also be due to the fact that back then websites that were worthless per se could move forward with high keyword density and borderline link collections in the search engine. A development that had to be stopped. In order to rank well with your own website, dealing with the different algorithms is essential.
+Three Important Points of Hilltop Algorithm
+Your website belongs to the authority pages if at least two and as many independent expert pages refer to it as possible. Expert sites that meet the following criteria are defined as independent:
+The first three blocks of the IP address are not identical
+There is no relationship between the referring expert pages
+The generic part of the domain name differs
+Remember that the Hilltop Algorithm is an old algorithm of Google. Thus, you shouldn’t pay attention to those conditions. We have written this article to show Holistic SEO Vision. You need to know how a Search Engine performs its evaluation and what they thought in the past and what they have achieved in the near future. Thus, you can guess the future of the algorithms and you can make better decisions for your SEO Projects.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+2 thoughts on “What is Google’s Hilltop Algorithm?”
+Great article 🙂
+Reply
+Thank you, Ben.
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Theoretical SEO
+What is Google’s Hilltop Algorithm?
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+Theoretical SEO
+What is the Penguin Update? How does the Penguin A…
+Theoretical SEO
+What is the Mobile-First Index?
+0
+0
+2

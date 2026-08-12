@@ -1,0 +1,97 @@
+HTML <sup> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <sup> HTML Tag defines as the superscript text. The <sup> HTML Tag or superscripts text appears half a character just above the regular line and is often displayed in a relatively small font size than the normal line. The <sup> HTML Tag is utilized to insert text into an HTML document that is superscripted. The <sup> HTML Tag is utilized to ensure that text adheres to stylistic specifications or norms. The <sup> HTML Tag is usually utilized to stipulate algebraic expressions such as m2 and countable numbers such as the first, second, and third positions in a list. The <sup> HTML Tag or superscript text can be used for footnotes, like WWW. The <sup> HTML Tag is part of the Formatting HTML category in HTML Element Reference.The attributes of the <sup> HTML Tag are global and event attributes.
+<sup> code block example to learn how it works is given below.
+<body>
+<p>Text here<sup>superscript text here</sup>.</p>
+</body>
+The second example usage of the “<sup>” code block example is given below.
+<body>
+<h1>Heading 1</h1>
+<p>Holisticseo.digital was the 1<sup>st</sup> website to provide articles that were simple to understand.</p>
+</body>
+Contents of the Article
+show
+1.
+What is <sup> HTML Tag?
+2.
+How to Use <sup> HTML Tag?
+2.1.
+Example Usage of <sup> HTML Tag?
+3.
+What are the Attributes of <sup> HTML Tag?
+4.
+What is the Default CSS Setting for <sup> HTML Tag?
+5.
+What are the Related other HTML Tags to <sup>?
+What is <sup> HTML Tag?
+The <sup> HTML Tag is an abbreviation for the superscript element, which defines the content that will be superscripted. The <sup> HTML Tag element explicitly states inline text that is to be featured as superscript solely for the purpose of typographic presentation. The <sup> HTML Tag is typically conveyed with a raised standard and smaller text to distinguish them from other text. The <sup> HTML Tag is utilized to insert superscripts text into an HTML document using the markup language. Superscript content appears half a character just above the regular line and is often displayed in a relatively small font size than the rest of the text. Footnotes can be created by using superscript text.
+How to Use <sup> HTML Tag?
+To use the <sup> HTML Tag, the web developer should write <sup></sup> with super text content inside the start and ending of the <sup> HTML Tag to create a superscript context. Although the tag lacks local attributes, it can be used with any of the global or event content attributes.
+Example Usage of <sup> HTML Tag?
+The following examples of usage of <sup> HTML Tag are given below.
+<p>One of the most frequently encountered algebraic formulas is
+<var>a</var><sup>2</sup><var>-</var><var>b</var><sup>2</sup><var>=<var>(</var><var>a</var>-<var>b</var><var>)</var>(</var><var>a</var><var+</var><var>b</var><sup>2</sup><var>=</var><var>a</var><sup>2</sup><var>+</var><var>2</var><var>+</var><var>b</var><var>(</var><var>a</var><var>-</var><var>b</var><sup>2</sup><var>=</var><var>a</var><sup>2</sup><var>2</var><var>a</var><var>b</var><var>+</var><var>b</var>.</p>
+a2 - b2 =(a-b)(a+b) (a+b)2 =a2 + 2ab + b. (a-b)2=a2 - 2ab+b.
+<p>Johnny's son placed as 1<sup>st</sup> in swimming competition.</p>
+What are the Attributes of <sup> HTML Tag?
+There are multiple attributes for the <sup> HTML Tag. The following attributes are listed below.
+Global Attributes: The <sup> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <sup> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <sup> HTML Tag?
+The following is the Default CSS Setting for the <sup> HTML Tag.
+p {
+font: 1rem 'Fira Sans', sans-serif;
+}
+What are the Related other HTML Tags to <sup>?
+The other related HTML Tags to the <sup> HTML Tag are listed below.
+<bdi> HTML Tag: The
+<bdi>
+HTML Tag and <sup> HTML Tag are related because they are both formatting HTML Tags.The <bdi> HTML Tag separates a section of text from the rest so that it can be formatted differently.
+<u> HTML Tag: The
+<u>
+HTML Tag and <sup> HTML Tag are related because they are both formatting HTML Tag. The <u> HTML Tags specifies that some text is not articulated and is formatted differently from typical text.
+<template> HTML Tag: The
+<template>
+HTML Tag and <sup> HTML Tag are related because they are both formatting HTML Tags. The <template> HTML Tag specifies that when the page loads, the container defines what content should be hidden.
+<samp> HTML Tag: The
+<samp>
+HTML Tag and <sup> HTML Tag are related because they are both formatting HTML Tags. The <samp> HTML Tag defines  a computer program’s sample output.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <sup> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <basefont>  Definition, Usage and …
+TechSEO
+HTML <bdi> Tag Definition, Usage and Example…
+0
+0
+0

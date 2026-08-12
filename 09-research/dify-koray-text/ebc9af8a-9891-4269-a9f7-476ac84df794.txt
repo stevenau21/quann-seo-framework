@@ -1,0 +1,125 @@
+Named Entity Recognition: Definition, Examples, and Guide - Holistic SEO
+Skip to content
+Named Entity Recognition (NER)
+is a procedure with which clearly identifiable elements (e.g. names of people or places) can be automatically marked in a text. Named Entity Recognition was developed as part of the computer linguistic method of Natural Language Processing (NLP), which is about
+processing
+natural language laws in a machine-readable manner.
+Contents of the Article
+show
+1.
+What is the Working Principle of Named Entity Recognition?
+2.
+Where is Named Entity Reconigiton Used?
+2.1.
+What are the Application Examples for Named Entity Recognition?
+2.1.1.
+1. Named Entity Recognition Example for Automative Industry
+2.1.2.
+2. Named Entity Recognition Example for Customer Relationship Management
+3.
+What are the Technical Basics of Named Entity Recognition?
+4.
+What are the Labeling Standards for Named Entity Recognition?
+5.
+Which Python Libraries Can be Used for Named Entity Recognition in Python?
+6.
+What is the Difference Between Named Entity Recognition and Entity Extraction?
+7.
+What is the Relation Between Named Entity Recognition and Named Entity Resolution?
+8.
+What is the Relation Between Named Entity Recognition and Lexical Semantics?
+9.
+What is the Relation Between Named Entity Recognition and Semantic Role Labeling?
+10.
+What is the Relation Between Named Entity Recognition and Semantic Annotations?
+11.
+What is the Relation Between Named Entity Recognition and Relation Detection?
+12.
+What is the Relation Between Taxonomy and Named Entity Recognition?
+13.
+What is the Relation Between Ontology and Named Entity Recognition?
+14.
+What is the Relation Between Onomastics and Named Entity Recognition?
+15.
+What is the Importance of Named Entity Recognition for Semantic SEO?
+16.
+Last Thoughts on Named Entity Recognition and Holistic SEO
+What is the Working Principle of Named Entity Recognition?
+The working principle of the named entity recognition is to define the entity name and type within the document to solve the relevance of these entities in the context of the document. As an example of the working principle of the named entity recognition, the following text is labeled by a named entity recognition system used during the MUC evaluation campaign.
+“Henri bought 300 shares of the company AMD in 2006” sentence is processed by Named Entity Recognition working principle as below.
+<ENAMEX TYPE = "PERSON"> Henri </ENAMEX> bought <NUMEX TYPE = "QUANTITY"> 300 </NUMEX> shares of the company <ENAMEX TYPE = "ORGANIZATION"> AMD </ENAMEX> in <TIMEX TYPE = "DATE"> 2006 </TIMEX> .
+The text in this example is tagged with XML tags, following the ENAMEX tagging standard. Most labeling systems use formal grammars associated with statistical models, possibly supplemented by databases (lists of first names, names of cities, or countries for example). In large evaluation campaigns, systems based on handwritten grammars obtain the best results. The drawback is that such systems sometimes require drafting months working.
+Current statistical systems, on the other hand, use a large amount of pre-annotated data to learn the possible shapes of named entities. It is no longer necessary here to write many rules by hand but to label a corpus which will serve as a learning tool. These systems are therefore also very costly in human time. To solve this problem, recently, initiatives such as DBpedia or Yago seek to provide semantic corpora that can help design labeling tools. In the same vein, some semantic ontologies such as NLGbAse are largely oriented towards labeling. Since 1998, the annotation of named entities in texts has been of growing interest. Many applications make use of it, for information retrieval or more generally for understanding textual documents. In France, research programs have been dedicated to this, such as ESTER and more recently ETAPE. The extension of named entities to various linguistic expressions (excluding proper names) makes them an active field of research.
+Andrew Hogue’s example for creating a browsable fact repository.
+Where is Named Entity Reconigiton Used?
+Named entity recognition is used wherever large amounts of content are processed. News media and publishers, for example, generate large amounts of online content every day. To optimize the user experience on the one hand and monetize content on the other, it is essential to structure the information from these articles.
+An entity extraction algorithm can automatically scan entire articles and define which important people, organizations, products, places, or general keywords appear in them. Once this information has been extracted, it helps with the automatic categorization of the articles in defined hierarchies. On the basis of this information, search results can be compiled more precisely, content can be curated into thematic clusters, content-related posts can be displayed to the user or targeted advertising can be played out. In addition to being used on news portals, the recommendation features of media services are also based on named entity recognition. Another field of application apart from the media industry would be the Google service Google AdSense or the sorting of support inquiries by e-mail or chat using entity extraction.
+A named entity recognition example.
+What are the Application Examples for Named Entity Recognition?
+For example, if you want to investigate how often female characters appear in northern German crime novels of the 20th century, you can start your investigation with Named Entity Recognition. In a text collection of 100 crime novels, all characters are automatically marked with a
+NER
+tool and then manually differentiated into female and male characters. It becomes apparent that female figures in your entire text corpus only make up 15% of all figures cited.
+With this finding, you go further and divide your corpus into time units. You will now notice that at the beginning of the 20th century, female characters only accounted for 5% of the names given in North German crime novels, compared to 40% at the end of the 20th century. You now split your corpus according to authors and find that authors mention female characters much more often than female authors. Finally, you also investigate whether the named characters are investigators, suspects, victims, hackers, etc.
+Andrew Hogue’s presentation for Semantic Search Engine, and Named Entity Recognition, Information Extraction example.
+1. Named Entity Recognition Example for Automative Industry
+Surveys, reviews, and test reports can recognize type designations learned by means of Named Entity Recognition, such as “Z-Class” or “17er CNX” and share the existing data accordingly. More complex Named Entity Recognition Systems, such as those used by Deep Data Analytics, enables a more detailed segmentation of the types of texts into different attributes, e.g. texts that deal with the steering wheel or other control elements.
+“The steering wheel [product element] of the new Z class [product] is easy to grip, although I find the control elements [product elements] of the new 17 series [product] to be more ergonomic. My wife [person] prefers the entertainment system [product element] in the Z-class [product].”
+2. Named Entity Recognition Example for Customer Relationship Management
+A large number of support inquiries often flow into an organization. Chat, email, Twitter, and messenger services are being used with increasing enthusiasm by users. In large companies, in particular, the individual channels are looked after by different teams, making it difficult to identify a trend in customer inquiries. Named Entity Recognition can classify the entirety of incoming customer communication and make important aspects visible. Does a specific product (attribute) trigger inquiries or complaints or are there geographical anomalies? NER makes it possible to analyze the incoming inquiries across channels and to classify them according to different aspects.
+“The ticket machine [product] at Marienplatz [location] is regularly defective and I have to discuss with the inspector [person] why I don’t have a ticket [product].”
+In this way, large unstructured amounts of data can be structured and enriched with meta information. The texts classified by means of NER are then segmented and ready for further analysis. Deep Data Analytics uses industry-specific word embeddings, which we have trained domain-specifically, in a bidirectional LSTM network in order to better model relationships in the data.
+What are the Technical Basics of Named Entity Recognition?
+The first step in
+Named Entity Recognition
+is to teach the computer how to recognize the words that are to be identified as a
+named entity
+. For this purpose, a number of features are defined, which are statistically evaluated by the tool (technical: specification of the
+features
+) and thus should enable the most precise detection possible. For example, word lists can be taken into account that includes all character names, locations, and organizations that might appear. In addition, parts of speech can be included not only for the named entity itself but also for the preceding and following words. Further
+features
+can be:
+frequently previously mentioned words (as well as the word “in” for places)
+Presentation format (for dates something like number month year)
+Upper and lower case
+Position in the sentence
+With the help of these features predefined in the tool, a process known as machine learning can be carried out. The learning process of the NER tool (also called “training”) consists of comparing these features with a manually annotated text; the so-called training corpus. The result of this comparison is the NER model. The number of features that a tool takes into account can vary. Only the combination of different features leads to good results with the automatic detection since named entities
+can have different meanings in different contexts. For example, “Paris” preceded by “in” would probably be a reference to the city, and followed by a verb would probably be a person. Exceptions can also be included by comparing them with the manually annotated text. If, in the training corpus, for example, in sentences like “Paris has beautiful museums”, Paris was marked as a place, although there is a verb behind it, the tool can recognize that the word “has” directly after a named entity can indicate that it acts a place. Ultimately, the tool uses the
+feature
+combinations and the training data to calculate which meaning is more likely in which context.
+NER
+can for example be carried out with the help of the Stanford Named Entity Recognizer or the virtual work environment WebLicht via a graphical user interface, which can also be operated with little technical knowledge. These tools use
+NER
+models that were mostly trained using corpora of factual texts. In order to retrain the tool with sample data from another domain, such as literature, or to add the predefined features, it is necessary to use the command line to enter a series of commands on the computer in the programming language of the respective tool. The required commands can often be found in the documentation of the tools, are explained there, and can be inserted using copy/paste. Profound knowledge of one or more programming language (s) is not necessary for this either. However, it is definitely helpful to at least be able to read and understand the language of the code.
+An example from Google for checking the factual accuracy from content based on knowledge graph and named entity recognition.
+What are the Labeling Standards for Named Entity Recognition?
+Strictly speaking, there are no labeling standards. The labels are largely oriented according to the application need: we will generally find the root label classes of
+Person
+,
+Organization
+, Product, Places, to which are added the duration and quantity labels (
+time
+and
+amount
+). A second hierarchical level is then added to these root entities:
+Organization.
+Commercial and Organization. Non-profit for example, allow refining the description of the entities. In recent campaigns (Ester 2 and Automatic Content Extraction (ACE) there are 5-6 root classes, and a total of 40-50 classes with labeling subsections. Some question-answer engine systems (which use named entities) can use several hundred classes.
+Google or any other search engine, and machine that can use NLP and Information Extraction can use templates documents for named entity recognition, or structure the text.
+Which Python Libraries Can be Used for Named Entity Recognition in Python?
+The Python Libraries that can be used for Named Entity Recognition are below.
+Natural Language Toolkit (NLTK)
+Gensim
+polyglot
+TextBlob
+CoreNLP
+spaCy
+Pattern
+Vocabulary
+PyNLPl
+Quepy
+Besides Python Libraries for Named Entity Recognition, there are companies that focus on NLP for SEO that performs Named Entity Recognition such as WordLift. To perform Named Entity Recognition with Python, read the related guide.
+What is the Difference Between Named Entity Recognition and Entity Extraction?
+Named Entity Recognition is the process of recognizing the entity via its name and other related entities, while named entity extraction is the process of extracting more information related to the attributes of the recognized entities. Named Entity Recognition and Named Entity Extraction are complementary processes for each other to understand the context of the document and entities’ relationship for each other. An example of Named Entity Recognition and Named Entity Extraction for clarifying the difference between them is given below.
+In the sentence “United States of America has 52 states, and the U.S is the abbreviation of the United States of America”, the Named Entity Recognition and Named Entity Extraction do the things below separately.
+Named Entity Recognition (NER) realizes the names of entities within the sentence such as “The United States of 
+
+[...truncated...]

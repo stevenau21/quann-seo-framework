@@ -1,0 +1,283 @@
+Skip to content
+This article has been prepared as a tutorial to show how to Retrieve Google SERP with regular periods, animate the differences to see Google Search Engine’s preference and experiment algorithms. In this article, we will use Semantic Search Queries to understand the topical coverage and topical authority of certain domains. We will retrieve all of the related Search Engine Result Pages (SERP) for these queries, crawl landing pages, blend the crawl data with also Google Search Engine’s SERP dimensions and third-party page information to find different correlations and insights for the SEO via Data Science.
+You can watch the related RankSense Webinar that has been performed with Dear Elias Dabbas (a.k.a, Professor) and Koray Tuğberk GÜBÜR. And, all of this Jupyter notebook normally was prepared in December for a planned and canceled webinar with Genius and Dear Hamlet Batista.
+The webinar recording is below.
+In the Memory of Hamlet Batista. If you wonder, who is Hamlet Batista.
+This Data Science and Visualization tutorial includes a comprehensive, complete guideline for analyzing algorithms, Search Engines’ decision trees, on-page, off-page, technical, non-technical features of landing pages along with text-analysis, SERP data insights, and topical search engine features. This mini Python and Data Science for SEO book have been written in the memory of Dear Hamlet Batista. At the end of the educational SEO Data Science article, you will see a complete tribute to him.
+If you want to support his family, you can join Lily Ray’s campaign:
+https://www.gofundme.com/f/in-memory-of-hamlet-batista
+SEO Data Science Webinar with Koray Tuğberk Gübür and Elias Dabbas
+The webinar for the Data Science, Visualization for SEO has been published with Koray Tuğberk GÜBÜR and Elias Dabbas. You can find the related webinar video below.
+The Webinar for the Data Science, Visualization and SEO Webinar with Elias Dabbas and Koray Tuğberk GÜBÜR has been published.
+By examining the Data Science, Visualization for SEO Twittorial with RankSense, you can see some summative instructions and visualizations for this tutorial.
+If you want to read and examine the related RankSense Twittorial for Data Science and SEO, you can use this link:
+https://twitter.com/RankSense/status/1372265449610747906
+After Elias Dabbas and Koray Tuğberk Gübür performs the Data Science for SEO Webinar with RankSense and OnCrawl, the video of the webinar will be added here. If you want to wonder what RankSense is you can click the image below to support it.
+RankSense is a part of Hamlet’s Legacy.
+I am a Star Author in OnCrawl for the last 2 years, and I thank you to OnCrawl for all their support during my SEO Journey. I also recommend you to check OnCrawl’s SEO and Data Science vision which is supported by Dear Vincent Terrasi.
+OnCrawl is a Data Science based SEO Crawler and Audit Technology.
+You can see the content of tables for the Data Science, Visualization and SEO tutorial/guideline below.
+Contents of the Article
+show
+1.
+Connecting to the Google Custom Search API (Programmable Search Engine API)
+2.
+Using Google Custom Search API via Advertools to Retrieve the SERP Data
+3.
+Retrieving the Search Engine Results Pages with Regular Periods with Python
+4.
+How to Unite All of the Outputs of SERP Retrieving Python Script?
+5.
+How to Animate Search Result Differences based on Periodic Search Engine Result Pages Records
+6.
+Retrieving and Animating the Search Engine Results Page Ranking Changes to See the General Situation
+7.
+Extracting Semantic Entities from Wikipedia and Creating Related Search Queries based on Semantic Search Intents
+8.
+Calculating the Topical Coverage and Authority of Different Sources with Pandas
+9.
+How to Extract Best 10 Domain from SERP Data for Thousands of Queries?
+9.1.
+Visualization of the Top 10 Domains’ Organic Search Performance on the SERP with Matplotlib and Plotly
+9.2.
+Visualizing the Top Domains’ SEO Performance with Plotly Express
+10.
+Taking Relevant Total Result Count per Top 10 Domains and Queries
+10.1.
+Taking Related Result Examples for Only One Domain
+11.
+How to Visualize Total Result Count per Domain for a Semantic Search Query Network?
+11.1.
+Filtering the SEO Performance Data for Visualization of Total Result Count Per Domain
+11.2.
+Visualization of Total Result Count Per Domain with Plotly
+12.
+Visualization of the Relevant Result Count for per Queries and Top 10 Domains with Plotly
+13.
+Visualization of Total Relevant Ranked Page Count per Domain
+14.
+Checking and Visualizing First Three Results for a Specific Domain with Pandas and Plotly
+15.
+Checking and Visualizing 4-10 Results for a Specific Domain with Pandas and Plotly
+16.
+Checking and Visualizing Rankings for Only One Domain
+17.
+Visualizing All Ranking Performance for Top 10 Domains with Colors and Bars
+18.
+Using Density Map for Organic Search Performance Comparison between Different Domains
+19.
+Visualization for All Domains via Treemap
+20.
+Visualization of Ranked Query Count for the Queries Per Domain as a Treemap
+21.
+Visualization of Total Results and Domain Coverage Side by Side
+22.
+Analysing the SERP Dimensions with Data Science in a Deeper Level
+22.1.
+Analyzing Title Tags on the SERP for Understanding Word and Ranking Correlations
+22.2.
+Extracting the Most Used Words in Titles with Counts and Rankings for the Top 10 Results
+22.2.1.
+Visualization of the Most Used Words in the Titles for the first 10 Results
+22.2.2.
+First 4 Words in the Title Tags according to Their Rankings
+22.2.3.
+Taking Frequencies of the Most Used Words in Titles with Their Rankings
+22.2.4.
+Visualization of the First Four Words in the Titles with their Rankings
+22.3.
+Extracting the Last Four Words in Titles and Their Rankings
+22.3.1.
+Visualization of Last Four Words in Titles and Ranking Correlations
+23.
+Used Words within Snippets without Stop Words and Ranking Relation
+24.
+Taking Word Counts and Rankings from Snippets
+25.
+Word Counts and Rankings Without Stop Words
+26.
+Extracting Numbers, Questions, Dates and Patterns from SERP
+27.
+Taking Dates from the Documents
+27.1.
+Document Age Visualization with SeaBorn Heatmap
+27.2.
+Changing the Document Age’s Format with Pandas
+28.
+Aggregating the Results’ Date and Checking Their Freshness Performance Correlation
+28.1.
+Uniting the Document Count and Average Ranking based on Dates
+28.2.
+Visualization of Snippet Count based on Dates on the Search Engine Results Page
+28.3.
+Visualization of Document Ages as Bar Chart with Plotly
+29.
+Visualization of the Dates of only First Three Results on the SERP
+29.1.
+Visualization of the Last Three Results as Bar Chart
+30.
+Comparing Freshness of Content for Competitors on the SERP with Data Aggregation (Healthline & WebMD)
+30.1.
+Visualization of the Competitors’ Content Count Based on Date with Plotly (Healthline & WebMD)
+31.
+Does the Snippet Have the Exact and Clear Answer?
+31.1.
+Comparing Rankings of the Results with Exact Answer in the Snippet and Answers without Exact Answer
+32.
+Extracting Questions on the SERP and Visualizing Their Rankings
+32.1.
+Visualization of the Questions on the Snippets with Heatmap
+32.2.
+Checking the Document Extensions in the SERP
+32.3.
+Comparing the Rankings of Documents Based on Extensions
+32.3.1.
+Visualization of the Document Extension Count in the SERP
+32.4.
+Checking the Sources, Queries and Rankings for Only PDF Files
+33.
+Crawling the Landing Pages on the SERP
+33.1.
+How to Unify SERP Data and Landing Page Data After Crawling the Pages on the SERP
+34.
+Examining the On-page Elements with SERP Data via Data Science for SEO
+34.1.
+Word Count for All Landing Pages on the SERP
+34.2.
+Comparing Words on the Documents based on Competitors (Healthline & WebMD)
+34.3.
+Removing Stop Words for Calculating the Count of Words and Frequencies of Words based on Competitors on the SERP
+34.3.1.
+Some Notes for Optional Text Analysing Methodologies
+35.
+Beyond Word Count or Word Frequency: Taking Entity Count, Entity Type, and Entity Profiles on the Content of Competitors on the SERP
+35.1.
+How to Take All Entities, Entity Type, Entity Count and Word Count for a Website from SERP?
+35.2.
+How to Print Entities of a Web Site’s Content
+35.3.
+How to Compare Entity Types and Counts of SEO Competitors with Data Science
+35.3.1.
+Extracting Entities of SEO Competitors for Organic Search Performance Comparison
+35.4.
+Taking the First Words of Landing Pages to Understand Competitors’ Content Strategy
+36.
+Internal Link Comparison of Competitors (Healthline & MyFitnessPal)
+36.1.
+Most Used Anchor Texts of Competitors on the SERP within Their Content
+37.
+Taking the Word Count per Result as “Total_Words” for Data Maniuplation
+37.1.
+Visualization of Total Word Count and Rankings per Domain, URL and Query
+37.2.
+Filtering Top 10 Domains and Their Rankings with Word Counts per Query
+38.
+Comparing Competitors’ Total Word Count from SERP based on Their Rankings (Healthline & MyFitnessPal)
+38.1.
+Healthline Ranking URLs and Total Word Count Based on Their Rankings
+39.
+Extracting Content Gap Between Competitors and Taking the Mutual Queries for Comparison
+40.
+Mutual Queries and Performance Comparison Between Healthline & MyFitnessPal
+41.
+Checking the Average Rank for the Two Domains for Mutual Queries
+42.
+A Quick Check for Organic Query Count for these URLs based on Total Word Count
+42.1.
+Extracting the Domain Names for Aggregating the Query (Keyword) Count
+42.2.
+Query Count and Average Total Words per URL Comparison for Healthline and MyFitnessPal
+42.3.
+Query Count and Total Average Total Words Count Per URL Comparison for All Sources
+43.
+Merging the Query Count DF and Crawl DF and SERP DF for a Better Comprehensive Look
+44.
+Visual Comparison of Total Query Count for Mutual Queries based on Healthline, MyFitnessPal by Including Other Competitors
+45.
+Which Schema Type is being Used by which Source at which Rank on the SERP?
+46.
+Top 10 Domain’s Schema Usage Comparison based on Ranks and Schema Type
+47.
+Examining the Response Latency and Ranking Relation on the SERP
+48.
+Averaging the Response Latency Based on Top 10 Sources on the SERP
+49.
+Visualization of Response Latency and SERP Situation for Top 10 Sources
+50.
+Visualization of Response Latency and SERP Situation for Top All Sources
+51.
+Examining the Response Size and Ranking Relation on the SERP
+51.1.
+Examining the Response Size and Ranking Relation for Top 10 Sources on the SERP
+51.2.
+Visualization of HTML Size and SERP Situation for All Sources
+52.
+Visualization of HTML Size and SERP Situation for Top 10 Sources
+53.
+Aggregating the Link-related Data for Top 10 Domain with SERP Information
+54.
+Referring Domain Count and Ranking Relation on the SERP for All Sources
+55.
+Total Backlink Count and Ranking Relation on the SERP For All Sources
+56.
+Domain Rating and Ranking Relation on the SERP for All Sources
+57.
+Total Backlink and Average Backlink Count Per URL and Source in a Data Frame
+57.1.
+Total Dofollow Domain Count and Dofollow Referring Domain Average Count Per Source in a Data Frame
+58.
+Taking Search Results According to Whether They Link a Domain or Not to See the Topical Authority and Domains’ Relevancy to Each Other
+59.
+Visual Comparison of Linking Sites for Healthline and MyFitnessPal on the SERP for the Target Queries
+60.
+Aggregating the Link Count on the Pages and Ranking Relation on the SERP for All Sources
+61.
+Aggregating the Link Count Based on Rank with “Between” Method and “Pivot Table”
+62.
+Average Link Count per Web Page from all Sources on the SERP
+63.
+Top 10 Domain’s Average Link Count Per Web Page on the SERP
+64.
+Average Link Count Based on Ranks on the SERP
+65.
+Best Top 10 Sources’ Average Link Count Per Web Page on Every Ranking in a Data Frame
+66.
+Visualization of Link Count and Ranking Relation for All Domains on the SERP
+66.1.
+Visualization of the Total Link Count per URL and Source for the Top 10 Domains
+67.
+Introduction to the Topical Search Engine: Restricting Entities for Certain “Relevancy” and “Source Categorization” on the SERP
+67.1.
+Restricting Results for Only a Schema Type
+68.
+Performing N-Gram Analysis for the Content and Phrase Patterns on the SERP based on Sources and Rankings
+68.1.
+Using Groupby for Aggregating the N-Grams based on Domain Names
+69.
+Count of Biagrams for SEO Competitors with Data Science
+69.1.
+Visualization of Biagrams per Source
+70.
+Last Thoughts on Data Science, Visualization and SEO with Python
+70.1.
+A Tribute to the Hamlet Batista for SEO, Data Science, Visualization and Python Intersection
+Connecting to the Google Custom Search API (Programmable Search Engine API)
+To connect the Google Custom Search API and retrieve Google Search Results with Python, you need two things.
+Google Developer Console Account
+Custom Search API Key
+Custom Search Engine ID.
+Below, you will see the section where you can create and copy a Custom Search API Key from Google Developer Console.
+Custom Search API Key.
+Below, you will see how you can create and find custom Search Engine ID.
+Note: I recommend you to not change any kind of settings in your Custom Search Engine, it might affect the results that we will get via Python’s Advertools Package from Google.
+Using Google Custom Search API via Advertools to Retrieve the SERP Data
+To use Google’s Custom Search API via Advertools, you will need to write three lines of code as below.
+import advertools as adv
+api_key, cse_id = "YOUR API KEY", "YOUR CSE ID"
+adv.serp_goog(key=api_key, cx=cse_id, q="Example Query", gl=["example country code"])
+With these three lines of code, you can connect to Google Custom Search API, use a custom search engine, and retrieve search engine results page data from Google.  Below, you will see a live example:
+Retrieving Google Search Results Example
+Retrieving the Search Engine Results Pages with Regular Periods with Python
+To take the Google Search Engine’s Result Pages with regular periods, you will need a timer. In Python, there are different methodologies for timing a function call. Below, you wil
+
+[...truncated...]

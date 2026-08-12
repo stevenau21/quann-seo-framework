@@ -1,0 +1,151 @@
+How to Add HTTP Expires Headers to the .htacess File - Holistic SEO
+Skip to content
+To add the Expires HTTP Headers to .htaccess file and WordPress sites, a code line can be used such as “ExpiresByType image/jpg “access plus 1 month””. Expires HTTP Headers are directives to determine the lifetime of a cached file within browsers’ storage. HTTP Cache is an important factor for page speed optimization, thus using Expires HTTP Header is helping clients to request fewer files from the servers by keeping files at the browser cache. Expires HTTP header will specify how long a cached resource should stay within the browsers’ cache. In this instructing tutorial, using and adding Expires HTTP Header to the “.htacess files” and WordPress sites will be shown.
+Contents of the Article
+show
+1.
+How to Add Expires Headers to “.htaccess” Files?
+2.
+How to Add Expires HTTP Header to WordPress Sites with Plugin?
+3.
+Definition of HTTP Expires Headers and Their Functionality
+4.
+Last Thoughts on Adding HTTP Expires Headers to the .htacess Files and Holistic SEO
+How to Add Expires Headers to “.htaccess” Files?
+To add Expires Headers to the .htacess file, the .htacess file should be edited. “<IfModule mod_expires.c>” command and “ExpiresActive On” directive can be used for different file types to add expires headers.
+A code block example and instructions can be found below to add Expires HTTP Header for every type of resource via the .htacess files manually.
+Use your preferred FTP client to connect to your server
+The .htaccess file is located in the root directory.
+Then, save a copy of the .htaccess file on your computer so that you can reupload it in case something goes wrong.
+The code snippet below should be added at the top of the file.
+# Expires headers
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresDefault "access plus 1 month"
+# Remy introducing HTML5 at Introducing HTML5 suggested caching.appcache needs re-requests in FF 3.6.
+ExpiresByType text/cache-manifest "access plus 0 seconds"
+# Your document HTML
+ExpiresByType text/html "access plus 0 seconds"
+# Data
+ExpiresByType text/xml "access plus 0 seconds"
+ExpiresByType application/xml "access plus 0 seconds"
+ExpiresByType application/json "access plus 0 seconds"
+# Feed
+ExpiresByType application/rss+xml "access plus 1 hour"
+ExpiresByType application/atom+xml "access plus 1 hour"
+# Favicon (cannot be renamed)
+ExpiresByType image/x-icon "access plus 1 week"
+# Media: images, video, audio
+ExpiresByType image/gif "access plus 4 months"
+ExpiresByType image/png "access plus 4 months"
+ExpiresByType image/jpeg "access plus 4 months"
+ExpiresByType image/webp "access plus 4 months"
+ExpiresByType video/ogg "access plus 4 months"
+ExpiresByType audio/ogg "access plus 4 months"
+ExpiresByType video/mp4 "access plus 4 months"
+ExpiresByType video/webm "access plus 4 months"
+# HTC files (css3pie)
+ExpiresByType text/x-component "access plus 1 month"
+# Webfonts
+ExpiresByType font/ttf "access plus 4 months"
+ExpiresByType font/otf "access plus 4 months"
+ExpiresByType font/woff "access plus 4 months"
+ExpiresByType font/woff2 "access plus 4 months"
+ExpiresByType image/svg+xml "access plus 1 month"
+ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+# CSS and JavaScript
+ExpiresByType text/css "access plus 1 year"
+ExpiresByType application/javascript "access plus 1 year"
+</IfModule>
+The code block above is adding Expires HTTP Headers for the file types for the specified timeline as below.
+Added Expires HTTP Header for HTML File as 0 Seconds
+Added Expires HTTP Header for Application/XML as 0 Seconds
+Added Expires HTTP Header for Application/JSON as 0 Seconds
+Added Expires HTTP Header for RSS+XML as 0 Seconds
+Added Expires HTTP Header for Atom+XML as 1 hour
+Added Expires HTTP Header for Image/gif as 4 months
+Added Expires HTTP Header for Image/png as 4 months
+Added Expires HTTP Header for Image/jpeg as 4 months
+Added Expires HTTP Header for Image/webp as 4 months
+Added Expires HTTP Header for Video/ogg as 4 months
+Added Expires HTTP Header for Audio/ogg as 4 months
+Added Expires HTTP Header for Video/mp4 as 4 months
+Added Expires HTTP Header for Video/webm as 4 months
+Added Expires HTTP Header for text/x-component as 1 month
+Added Expires HTTP Header for font/ttf as 4 months
+Added Expires HTTP Header for font/otf as 4 months
+Added Expires HTTP Header for font/woff as 4 months
+Added Expires HTTP Header for font/woff2 as 4 months
+Added Expires HTTP Header for image/svg+xml as 1 month
+Added Expires HTTP Header for text/css as 1 year
+Added Expires HTTP Header for application/javascript as 1 year
+Note: To add the expires headers to the .htacess file, you must look at the server’s root folder where the main .htacess file is located. Thus, you can add Expires HTTP Header for any resource type that you want with the method above. If you change any other .htacess file from a plugin’s folder or a WordPress theme, the changes you perform won’t make a difference.
+To learn what is the .htacess file, you can read the related guideline.
+How to Add Expires HTTP Header to WordPress Sites with Plugin?
+To add Expires HTTP Headers to WordPress sites via a plugin, you can use the plugins below.
+WP-Rocket
+Leverage Browser Caching
+WP Super Cache
+W3 Total Cache
+WP Fastest Cache
+Add Expires Headers
+HTTP Headers
+Leverage Browser Caching WordPress Plugin works directly, it doesn’t have settings. Add Expires Headers WordPress Plugin is more detailed and lets a user add different Expires HTTP Headers for every different file type. You can see the user interface of the Add Expires Headers WordPress Plugin below.
+A screenshot from Add Expires Headers WordPress plugin’s user-interface. You can chose expiring date for every different resource type such as image, text, video or audio.
+To download and configure the Add Expires Headers WordPress Plugin, you can follow the instructions below.
+Open the WordPress dashboard
+To add a plugin, go to Plugins > Add New.
+Find ‘Add Expires Headers‘
+Click Install now. Then click Activate.
+Navigate to Settings > AddExpiresHeaders
+Choose the types and expiration times as you wish
+Save by clicking on Save.
+WP Rocket, W3 Total Cache and WP Fastest Cache WordPress plugins also work for adding expires HTTP Header to the WordPress sites without editing the .htacess file manually, but they also have broader functionality. Also, the HTTP Headers plugin can be used to set HTTP Expires headers for every resource. Below, you can see the user interface of the HTTP Headers Plugins of WordPress for adding expires headers.
+HTTP Headers WordPress Plugin for Expires Header.
+Definition of HTTP Expires Headers and Their Functionality
+HTTP Expires Header specifies how long a web page resource will be kept in the browser cache. HTTP Expires Header is specified in the direction of adding to response headers in many speed test tools (GTMetrix, Google Chrome Lighthouse, WebPageTest). This is because HTTP Expires Header is directly related to HTTP Cache. In HTTP Cache System, Cache-Control HTTP Header takes precedence over Expires Header. In other words, if a website uses HTTP Cache-Control Header, the client will consider Cache-Control, not Expires. Most of the time, HTTP Cache-Control is preferred. However, if Expires and Cache-Control are used together, it is important that they specify the same date for the resource to be cached.
+If you want to learn more about
+HTTP Expires
+Syntax, Directives and its definition, read the related article.
+If you want to learn about
+HTTP Cache-Control Header
+, read the related article.
+Last Thoughts on Adding HTTP Expires Headers to the .htacess Files and Holistic SEO
+This simple tutorial is for showing how to add Expires HTTP Headers to WordPress Sites by whether editing the .htacess file manually or via a WordPress plugin. A Holistic SEO should know how to work with popular CMS systems such as WordPress or Wix so that if working hands-on is necessary, the SEO can handle the situation. Adding expires headers to the WordPress sites is important to make a more user-friendly and faster working website, thus a Holistic SEO should know how to add and check expires HTTP Headers for these popular CMS Panels. In this context, Wix doesn’t use “.htacess files”, it uses WixCode, so that’s why we didn’t focus on that in this expires HTTP header and .htacess tutorial.
+Besides adding HTTP Expires Headers to the .htacess files for WordPress sites, if you want to learn what is Expires HTTP Headers, you can read the related guideline.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+PageSpeed
+Add HTTP Expires Headers to the .htacess Files
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+PageSpeed
+How to Optimize Web Font Loading Performance with …
+PageSpeed
+What is the Expires HTTP Header?
+0
+0
+0

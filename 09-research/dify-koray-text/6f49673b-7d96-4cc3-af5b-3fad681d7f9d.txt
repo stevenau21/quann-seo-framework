@@ -1,0 +1,194 @@
+Download Images from Website with Python in Scale - Holistic SEO
+Skip to content
+Downloading all images from a website can be done by downloading all of the websites, or crawling all of the websites and extracting all of the “<img>” HTML Elements’ “src” attributes’ values. Usually, scraping and downloading images from websites is important and necessary for image optimization, compression, or writing alt tags with AI or the classification of images. Sometimes, downloading images in scale from online sources is necessary for using watermarks on images or modifying their color palette. In this article, we will focus on downloading all images from a website in the best possible time-efficient way.
+To download images in bulk from a website, we will use the Python Modules and Libraries below.
+requests
+pandas
+concurrent
+os
+advertools
+openpyxl
+PIL
+Advertools and Openpyxl are necessary because sometimes, you might have all of the targeted image URLs to download the images from a different type of file. In those cases “openpyxl” is useful, and we will use it to turn a Screaming Frog CSV output into a usable data frame in Python. On the other hand, Advertools is already a multi-layered SEO Crawler, which means that it is more than an SEO Crawler, but we will use it for extracting the image URLs from an example website.
+Contents of the Article
+show
+1.
+How to Extract all Image URLs from a Website?
+2.
+How to Extract all Image URLs with Screaming Frog SEO Crawler
+2.1.
+How to Turn Screaming Frog Image URL Export File in a Readable Version with Python?
+2.2.
+How to Extract all Image URLs with Advertools
+2.3.
+How to Check Image URLs Path and Categorize Them Before Downloading?
+3.
+How to Download All Images from a Website with Python?
+3.1.
+How to Determine Image Download Folder?
+3.1.1.
+How to Create a Targeted Folder for Image Downloading?
+4.
+How to Create a New Folder for Every Image Folder of a Website while Downloading Images with Python?
+4.1.
+How to Use Concurrent Futures while Downloading Images with Python?
+4.2.
+How to Download All Images According to Their Extensions?
+4.3.
+How to Compress, Optimize and Resize All Images from a Website with Python?
+5.
+Last Thoughts on Downloading Images in Scale with Python and Holistic SEO
+How to Extract all Image URLs from a Website?
+To download all of the related image URLs from a website, we need to extract all images from it. To extract image URLs from a website, two methods can be used.
+Using SEO Crawler Software such as Screaming Frog, JetOctopus, OnCrawl
+Using Python Modules and Libraries such as Scrapy, Requests, BeatifulSoup, and Advertools.
+On this guideline, we will use both of these methods to extract all the image URLs from a website.
+Image download and optimization result example with Python.
+How to Extract all Image URLs with Screaming Frog SEO Crawler
+To extract all the image URLs from a website, an SEO Crawler can be used. In this example, with a basic SEO crawl, I will show how to do it with Screaming Frog.
+Extracting Image URLs with Screaming Frog
+To extract images with Screaming Frog:
+Complete a crawl with Screaming Frog.
+Choose the Images Section from the Crawl Data menu at the right.
+Click the export button.
+Determine the output file name and destination path.
+Image URL Extraction with Screaming Frog
+Since Screaming Frog is one of the popular SEO Crawlers, I am extracting images with it. But, also Google Sheets, JetOctopus, OnCrawl, Greenflare can be used for the same purpose.
+How to Turn Screaming Frog Image URL Export File in a Readable Version with Python?
+If you try to read a Screaming Frog output with Python’s Pandas library directly, you won’t be able to do that. You can see an example below.
+import pandas as pd
+df = pd.read_excel("ımages_all.xlsx")
+df
+OUTPUT>>>
+Address
+You can see the output below.
+Reading Screaming Frog output with Python.
+“Openpyxl” is a Python library that can be used for reading “xlsx” files. And, To turn a Screaming Frog output into a readable version, we will need to use “openpyxl” as below.
+import openpyxl
+wb = openpyxl.load_workbook('ımages_all.xlsx')
+sheet = wb.worksheets[0]
+df = pd.DataFrame(sheet.values)
+df
+You can see the explanation of the code block above, below.
+We have created a variable as “wb”.
+We have used “openpyxl.load_workbook()” method for loading our xlsx file into the “wb” variable.
+We have chosen the first worksheet which includes our image URLs.
+We have created a data frame from the selected worksheet’s values with the “pd.DataFrame()” method.
+We have called our data frame.
+You can see the output below.
+Screaming Frog Image URL Extraction and turning it into a readable way with Python.
+We have 13552 image URLs in our data frame with the information of their size, indexability, and type.
+How to Extract all Image URLs with Advertools
+To extract all the image URLs from a website with Python, web scraping libraries and modules can be used. In this example, we will use the Advertools’ “crawl()” function to get all the related image URLs that we need. Below, you can see the methodology to extract all the images from a website with Python Package Advertools.
+import advertools as adv
+adv.crawl("https://www.diyetkolik.com/, "diyetkolik.jl", follow_links=True")
+The code above is necessary to crawl the our example site which is “diyetkolik.com” with Advertools. We basically says that crawl every webpage, follow all of the internal links and take the output to the “diyetkolik.jl” file. To read a file with “jl” extension with Python, you need to use “pd.read_json()” method with the “lines=True” attribute and value pair.
+df = pd.read_json("diyetkolik.jl", lines=True)
+df.info()
+You can see the output below.
+Python (Advertools) Site Crawl Output.
+We have a data frame that is bigger than 4.5 MB, and we have 45 columns with different data types. Below, you can see how to check how many image URLs we extracted with Python. First, you need to filter the columns that have the “img” string within their name.
+for i in df.columns.values:
+if i.__contains__("img") == True:
+print(i)
+OUTPUT>>>
+img_src
+img_alt
+The explanation of the code block is below.
+We have created a for loop with the “crawl output data frame’s columns”.
+We have checked every column to see whether they include “img” string within their names or not.
+You can see the output below.
+Filtering columns with “__contains__” magic function. You also can use “str.filter(regex, axis)” method.
+We have two columns with the “img” string, one is “img_src” for the image URLs, and one for the “img_alt” which is for the image alt tags of the images. You need to expand the maximum column width with Pandas’ “set_option()” method as below.
+pd.set_option("display.max_colwidth",255)
+We have expanded the maximum column length because we wanted to see all of the row’s values which are the image URLs that we extracted with Advertools. Below, you will see the all unique image URLs that we extracted.
+df["img_src"].str.split("@@").explode()
+Explanation of the code block is below.
+Chose the “img_src” column.
+Use the “str” method to use the split method on every row.
+Split every row’s values with “@@” which is a convention for separating similar values.
+Use “explode()” method to create list-like values within every row with the separated values.
+You can see the output below.
+Getting all Image URLs with Python.
+We see that we have 13239 image URLs. It is close to the 13552 which is the count of the image URLs that we extracted with Screaming Frog. The difference is because I have performed these two crawls at different times. And, another important thing is getting only the “unique” image URLs.
+len(df["img_src"].str.split("@@").explode().unique())
+OUTPUT>>>
+9419
+With the “len()” and “unique()” method, we haev taken all the unique image URLs and length of the new array which is 9419. It means that we have 9419 unique relative image URLs.
+There is another issue here, Advertools extracted the relative URLs, but for image URL extraction and bulk image downloading, you will need absolute URLs. Thus, you will need to use “urlparse.urljoin” as below.
+from urlparse import urljoin
+image_urls = df["img_src"].str.split("@@").explode().unique()
+c = []
+for i in image_urls:
+b = urljoin("https://www.diyetkolik.com",i )
+c.append(b)
+url_df = pd.DataFrame(c, columns=["image_urls"]).rename_axis("url_number")
+url_df
+You can see the explanation of the code block above, below.
+In the first line, we have imported the “urljoin” from “urlparse”.
+In the second line, we have created a new list which is “image_urls”. We have assigned our unique image URLs to this variable.
+In the third line, we have created an empty list.
+In the fourth line, we have started a for loop with our “image_urls” variable.
+In the fifth line, we have created our absolute URLs with the “urljoin” method and appended them to the “image_urls”.
+In the sixth line, we have created the “url_df” variable and assigned a new data frame to it which is created by the list of “c”.
+In the seventh line, we have called our new data frame which consists of the absolute image URLs.
+You can see the output that includes all absolute image URLs.
+Absolute Image URLs in a dataframe.
+As you can see, all of the URLs have absolute path.
+How to Check Image URLs Path and Categorize Them Before Downloading?
+While downloading all of the images from a website to optimize them, not changing the image URLs is important so that the developer can use the same image files and URL paths. Thus, if you download and optimize all of the images in the same folder, they will be mixed and again it will hard to filter them. Because of this situation, you should categorize the image files according to their file structure, and then you should download them.
+To check the image files’ URL structure, we will use the Advertools’ “url_to_df()” function as below.
+URL Parsing Example with Python and Advertools.
+In our “url_to_df()” output, we have “scheme”, “netloc”, “path” and “dir_1”, “dir_2”, etc. columns which contains relevant sections of the URLs. To see which categories have the most of the URLs, we will need to use “value_counts()” on the “dir_1” column as below.
+adv.url_to_df(url_df["image_urls"])["dir_1"].value_counts()
+You may see the output below.
+Image URL Paths.
+We see that most of the images are in the “site_medie” folder. But, also it can have sub-directories. We need to categorize every folder and subfolder before downloading the images.
+url_df = adv.url_to_df(url_df["image_urls"])
+url_df[url_df["dir_1"].str.contains("site_media") == True]
+We have assigned our “url_to_df” method’s output to a variable which is “url_df”.
+We have used “str.contains()” method with the boolean value “True”, to filter the necessary rows.
+You can see the output below.
+A data frame from parsed image URLs.
+Note: To check whether a row contains a specific string or not, you also can use the method below.
+url_df["image_urls"].apply(lambda x: x.__contains__("static"))
+#You can use the "value_counts()" to calculate the "True" and "False" values' counts.
+If you look at the “dir_1” section, it has only the “site_media” value. And, below, we will check our “dir_2” columns’ value for the “site_media” folder.
+url_df[url_df["dir_1"].str.contains("site_media") == True]["dir_2"].value_counts()
+OUTPUT>>>
+media    9071
+Name: dir_2, dtype: int64
+This time, we don’t have a second folder. It means that we can download the 9071 images of the total 9419 images from our “media” subfolder and group them in another output path.
+Opinion: I also questionize the necessity of the “media” subfolder, since we don’t have a second subfolder, why this content publisher tries to create longer image URLs? As we already know that shorter URLs are better for SEO and also for pagespeed, server overhead, crawl time, etc.
+How to Check Which Folder Has How Many Images in a Website?
+To see which folder has how many image URLs within it, we can use “pd.DataFrame” with “keys()” and “values()” methods as below.
+image_folder_structure = pd.DataFrame({"values":url_df["dir_1"].value_counts().values, "keys": url_df["dir_1"].value_counts().keys()})
+image_folder_structure.index.rename("Order", inplace=True)
+image_folder_structure.style.background_gradient(cmap="viridis")
+In this code block, we have created a new variable which is “image_folder_structure”, we have assigned a new variable to it while calling the “value_counts()” method for the “dir_1” columns values with “keys” and “values” methods. You can see the result below.
+Image URL Paths within a dataframe.
+With a “background gradient” coloring, we can see which folder has how many images within a data frame, easily. You can use the same methodology for also “subfolders”, if you want.
+How to Download All Images from a Website with Python?
+To download all images from a website in the most time-effective way, you should use “requests” with “concurrent.futures”. Below,  you will see the necessary Python script.
+def download_image(image_url):
+file_name = image_url.split("/")[-1]
+r = requests.get(image_url, stream=True)
+with open(file_name, "wb") as f:
+for chunk in r:
+f.write(chunk)
+Explanation of the code block is below.
+Create a function with the “def” command.
+Split the image URL to create the image file name.
+Use requests for the image URL with the “stream=True” parameter and value pair.
+Open the downloaded image as “write binary” and write every chunk of the image response to the file.
+Below, you will see an example of downloading the image file from an article’s featured image.
+download_image("https://ik.imagekit.io/taw2awb5ntf/wp-content/uploads/2021/02/pagination.jpg")
+Below you will see a video that show how to download an image file with Python.
+Downloading an image file with Python.
+How to Determine Image Download Folder?
+To download every image to a specific folder, we need to add a small block to our “download_image” function as below.
+def download_images(image_url, destination):
+path = os.getcwd()
+destination_image = os.pat
+
+[...truncated...]

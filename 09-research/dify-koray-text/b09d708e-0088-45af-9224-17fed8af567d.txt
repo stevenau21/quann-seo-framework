@@ -1,0 +1,113 @@
+HTML <details> Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <details> HTML Tag provides additional information that the user can see or conceal at any time. It is used in conjunction with the summary> element to offer a legend that may be clicked to expand or collapse the details as needed. If no <summary> HTML tag is present, the browser should provide its own summary/legend. The <details> HTML Tag allows “flow content,” which means it accepts most HTML components that can occur in an HTML document’s body. The <details> HTML Tag is part of Styles and Semantics Tags category in HTML Element Reference. The attributes of the <details> HTML Tag are open, global attributes, and event attributes.
+<details> code block example to learn how it works is given below.
+<details>
+<summary>Click to open</summary>
+<p>Collapsible content...</p>
+</details>
+The second example usage of the “<details>” code block example is below.
+<details>
+<summary>Click to Expand</summary>
+<p>Scroll down to the bottom of the list and select Expandable/collapsable content. </p>
+</details>
+Contents of the Article
+show
+1.
+What is <details> HTML Tag?
+2.
+How to Use <details> HTML Tag?
+2.1.
+Example Usage of <details> HTML Tag?
+3.
+What are the Attributes of <details> HTML Tag?
+4.
+What are the Default CSS Settings for <details> HTML Tag?
+5.
+What are the Related other HTML Tags to <details>?
+What is <details> HTML Tag?
+The <details> HTML Tag produces a disclosure widget with information viewable only when the widget is toggled to “open”. The <summary> element must include a summary or label. Onscreen, a disclosure widget is often represented by a little triangle that spins (or twists) to show an open/closed state, with a label next to the triangle. The <summary> element’s contents are utilized as the label for the disclosure widget.
+How to Use <details> HTML Tag?
+To use the <details> HTML Tag, The site developer should write <details></details> between the start and end tags, with a <summary> HTML tag placed The expandable/collapsible content is located after the <summary> HTML tag but also between the start and end tags of the <details> HTML Tag.
+Example Usage of <details> HTML Tag?
+The following example of usage of <details> HTML tag is given below.
+<details>
+<summary>Universal Studio</summary>
+<p>Universal Parks & Resorts, also known as Universal Studios Theme Parks or solely Universal Theme Parks, is the theme park unit of NBCUniversal, a subsidiary of Comcast. </p>
+</details>
+What are the Attributes of <details> HTML Tag?
+There are multiple attributes for the <details> HTML Tag. The following attributes are listed below.
+Global Attributes: The <details> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <details> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+Open Attribute: The <details> HTML Tag supports Open Attribute. The Open Attribute says that the user should be able to see the information.
+What are the Default CSS Settings for <details> HTML Tag?
+The following is the Default CSS Setting for the <details> HTML Tag.
+details {
+border: 1px solid #aaa;
+border-radius: 4px;
+padding: .5em .5em 0;
+}
+summary {
+font-weight: bold;
+margin: -.5em -.5em 0;
+padding: .5em;
+}
+details[open] {
+padding: .5em;
+}
+details[open] summary {
+border-bottom: 1px solid #aaa;
+margin-bottom: .5em;
+}
+What are the Related other HTML Tags to <details>?
+The other related HTML Tags to the <details> HTML Tag are listed below.
+<footer> HTML Tag: The
+<footer>
+HTML Tag is related to <details> HTML Tag because they are both style and semantic tags. The <footer> HTML Tag specifies a footer for the sectioning content or sectioning root element immediately preceding it.
+<aside> HTML Tag: The
+<aside>
+HTML Tag is related to <details> HTML Tag because they are both style and semantic tags. The <aside> HTML Tag denotes a section of a document whose content is only tangentially related to the page’s primary content.
+<div> HTML Tag: The
+<div>
+HTML Tag is related to <details> HTML Tag because they are both style and semantic tags. The <div> HTML Tag acts as a container for flow content. It has no influence on the text or layout unless and until it is styled with CSS.
+<summary> HTML Tag: The
+<summary>
+HTML Tag is related to <details> HTML Tag because they are both style and semantic tags. The <summary> HTML Tag specifies a summary, caption, or legend for the disclosure box of a <details> HTML Tag.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <details> Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <acronym> Tag Definition, Usage and Exa…
+TechSEO
+HTML “textarea” Definition, Usage and …
+0
+0
+0

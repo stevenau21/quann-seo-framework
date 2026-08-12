@@ -1,0 +1,118 @@
+HTML <address> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <address> HTML Tag specifies contact information for an individual or a group of people. The <address> HTML Tag is used to direct readers to the report’s contact information if it is placed within its <body> HTML Tag, and it is used to increase the contact details for the writer or creator of the file if it is placed within its <article> HTML Tag. The content included within the <address> HTML Tag label will be displayed in italics by default. When the address component is used, a line break is added by a few programs. The <address> HTML Tag is part of the Formatting HTML category in HTML Element Reference. The attributes of the <address> HTML Tag are global and event attributes.
+<address> code block example to learn how it works is given below.
+<address>
+<a href="Contact information">Name</a>
+</address>
+The second example usage of the “<address>” code block example is given below.
+<address>
+Written by <a href="mailto:
+[email protected]
+">Jane Doe</a>.<br>
+Visit us at:<br>
+Example.com<br>
+1301 E 81ST, LOS ANGELES CA<br>
+USA
+</address>
+Contents of the Article
+show
+1.
+What is <address> HTML Tag?
+2.
+How to Use <address> HTML Tag?
+2.1.
+Example Usage of <address> HTML Tag?
+3.
+What are the Attributes of <address> HTML Tag?
+4.
+What are the Default CSS Settings for <address> HTML Tag?
+5.
+What are the Related other HTML Tags to <address>?
+What is <address> HTML Tag?
+The <address> HTML tag defines the contact information for the appropriate <article> or <body> parent. Stressed text is typically shown in the <address> HTML Tag by programs. The <address> element is another common name for this tag. Links to the URL, or other pertinent contact information, may be included. The <address> HTML Tag should not be used to address inconsistencies such as postal addresses unless the segment’s contact data is contained in those locations.
+How to Use <address> HTML Tag?
+To use the <address> HTML Tag, the developer should write the <address></address> with contact information placed within the start and end of the <address> HTML Tag. Although the tag lacks local attributes, it can be used with any of the global or event content attributes.
+Example Usage of <address> HTML Tag?
+The following examples of usage of <address> HTML Tag are given below.
+<address>
+You can contact us at:<br>
+holisticseo.digital<br>
+123 Love St.<br>
+City, Turkey
+</address>
+<address>
+John Cena<br>
+<a href="mailto:
+[email protected]
+">
+[email protected]
+</a><br>
+107 Artiaga Boulevard<br>
+Jack's Ridge View, CA<br>
++256 8144-123456
+</address>
+What are the Attributes of <address> HTML Tag?
+There are multiple attributes for the <address> HTML Tag. The following attributes are listed below.
+Global Attributes: The <address> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <address> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <address> HTML Tag?
+The following are the Default CSS Settings for the <address> HTML Tag. Some examples are listed below this document.
+a[href^="mailto"]::before {
+content: "📧 ";
+}
+a[href^="tel"]::before {
+content: "📞 ";
+}
+What are the Related other HTML Tags to <address>?
+The other related HTML Tags to the <address> HTML Tag are listed below.
+<bdi> HTML Tag: The
+<bdi>
+HTML Tag and <address> HTML Tag are related because they are both  formatting HTML Tags. The <bdi> HTML Tag separates a section of text from the rest so that it can be formatted differently.
+<u> HTML Tag: The
+<u>
+HTML Tag and <address> HTML Tag are related because they are both formatting HTML Tag. The <u> HTML Tags specifies that some text is not articulated and is formatted differently from typical text.
+<template> HTML Tag: The
+<template>
+HTML Tag and <address> HTML Tag are related because they are both formatting HTML Tags. The <template> HTML Tag specifies that when the page loads, the container defines what content should be hidden.
+<samp> HTML Tag: The
+<samp>
+HTML Tag and <address> HTML Tag are related because they are both formatting HTML Tags. The <samp> HTML Tag defines  a computer program’s sample output.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <address> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <label> Tag Definition, Usage and Examp…
+TechSEO
+HTML <tt>  Definition, Usage and Exampl…
+0
+0
+0

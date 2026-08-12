@@ -1,0 +1,152 @@
+"aria-selected" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-selected is a type of attribute that sets an element item’s property to be selected or not. The purpose of aria-selected is to let the user know that an element is selected on the process, whether the user may select another or use the currently selected item in the gridcell, row, or tab. The developer or authors can use the aria-selected to let the user know that an item is selected if more than one item is selected on a table element. Developers can use another ARIA label that has the ability to let the user select multiple items. The aria-selected can be used in widget elements such as gridcell, option, row, and tab. The aria-selected can be used with other ARIA labels such as aria-pressed, aria-checked, and aria-multiselectable.
+Contents of the Article
+show
+1.
+What is the function of the “aria-selected” ARIA Label?
+2.
+What are the uses of the “aria-selected” ARIA Label?
+3.
+Example Uses of “aria-selected” ARIA Label
+4.
+What are the related ARIA Labels to “aria-selected”?
+What is the function of the “aria-selected” ARIA Label?
+The aria-selected function identifies an element’s state that is selected or currently selected. The benefit of using aria-selected is to let the user know what is the current state of an element in focus. The importance of the aria-selected is that selectable items in a grid cell can be identified by the user via the screen reader that the currently focused item is selected. If one or more items can be selected, aria-multiselectable should be declared along with aria-selected. In the tablist where aria-selected can be used, a currently selected tab will enable a selected tab panel to be displayed. For the row, using aria-selected=”true” will enable the row to be selected but not as a column, the cell would be selected as a column if the grid cell supports column structure.
+What are the uses of the “aria-selected” ARIA Label?
+Listed below are the uses of the “aria-selected” ARIA Label.
+Treegrid role:
+It sets a grid element that expanded rows and collapsible columns, the same characteristics as the tree.
+Columnheader role:
+It is a value that is defined by an attribute to identify an element as a cell in a row that has a header information for a column, the same as the native table header.
+Rowheader role:
+It is a cell that contains header information of a row beneath the structure of a grid, table, or treegrid.
+Gridcell role:
+The gridcell role is used to build a cell in the grid or treegrid, its intention is to shadow the native HTML table data as grouping information.
+Row role:
+It is a row that contains a cell or more than one cell, or grid cells or a column header, and row header that is within the row group.
+Example Uses of “aria-selected” ARIA Label
+Listed below are the example uses of the “aria-selected” ARIA Label.
+The aria-selected can be used to convey details to the user about an item that is under a select state or items that can be selected.
+<nav role="navigation" aria-label="Pagination Navigation">
+<ul>
+<li>
+<a href="/page-1" aria-label="Go to Page 1">See Page 1</a>
+</li>
+<li>
+<a href="/page-2" aria-label="Current Page, Page 2"
+aria-selected="true">You are currently on page 2</a>
+</li>
+<li>
+<a href="/page-3" aria-label="Go to Page 3">Go to page 3</a>
+</li>
+</ul>
+</nav>
+<nav role="navigation" aria-label="Pagination Navigation">
+<ul>
+<li>
+<a href="/page-1" aria-label="How to cook spaghetti article">How to cook spaghetti</a>
+</li>
+<li>
+<a href="/page-2" aria-label="How to cook ramen noodles article"
+aria-selected="true">How to cook ramen noodles</a>
+</li>
+<li>
+<a href="/page-3" aria-label="How to cook fried rice article">How to cook fried rice</a>
+</li>
+</ul>
+</nav>
+<nav role="navigation" aria-label="Pagination Navigation">
+<ul>
+<li>
+<a href="/page-1" aria-label="Home">HOME</a>
+</li>
+<li>
+<a href="/page-2" aria-label="Gallery"
+aria-selected="true">Gallery</a>
+</li>
+<li>
+<a href="/page-3" aria-label="Contact Page">Contact</a>
+</li>
+</ul>
+</nav>
+<nav role="navigation" aria-label="Pagination Navigation">
+<ul>
+<li>
+<a href="/page-1" aria-label="Chapter 1">Chapter 1</a>
+</li>
+<li>
+<a href="/page-2" aria-label="Chapter 2"
+aria-selected="true">Chapter 2</a>
+</li>
+<li>
+<a href="/page-3" aria-label="Chapter 3">Chapter 3</a>
+</li>
+</ul>
+</nav>
+<nav role="navigation" aria-label="Pagination Navigation">
+<ul>
+<li>
+<a href="/page-1" aria-label="Episode 1">Episode 1</a>
+</li>
+<li>
+<a href="/page-2" aria-label="Episode 2"
+aria-selected="true">Episode 2</a>
+</li>
+<li>
+<a href="/page-3" aria-label="Episode 3">Episode 3</a>
+</li>
+</ul>
+</nav>
+What are the related ARIA Labels to “aria-selected”?
+Listed below are the related ARIA Labels to “aria-selected”.
+aria-pressed:
+The aria-pressed is related to aria-selected because they are both identifying the current state of the element. The aria-pressed is a property that is used to set a toggle element that has 3 values. The purpose of the
+aria-pressed
+is to let the user know that they are toggling a button or an element that have toggle features.
+aria-checked:
+The aria-checked is related to aria-selected because they are both used to select options. The
+aria-checked
+attribute represents the actual “checked ” state of checkboxes, radio buttons, and other widgets.
+aria-multiselectable:
+The aria-multiselectable is related to aria-selected because both are used to define a selected item within an element. The
+aria-multiselectable
+attribute is an identifier that a set of objects or items can be selected in two or more selections.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-selected” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 4 min
+TechSEO
+“aria-rowspan” ARIA Label for Accessib…
+TechSEO
+“aria-rowindextext” ARIA Label for Acc…
+0
+0
+0

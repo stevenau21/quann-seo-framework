@@ -1,0 +1,153 @@
+Skip to content
+The website’s page ranking was popularized by Google to make a website be noticed through the Google search engine’s recommendation. A new website needs connections to be found by the searcher. Newly established sites require publicity or a recommendation from a known personality, just like a newly opened business in town, to be able to leave a mark on what kind of business it is and what it does. Page Rank by Google, or PR, is the most complex patent that the company has made. It is the most common practice among SEOs to establish good page traffic and links from other popularly ranked pages. Page ranking depends on feedback and search, internal links, social media posts, content creation, and ads to affect the page score.
+The search engine uses it to recommend as per ranking who has the best to offer for the searcher. Google invented and popularized how search results are and how web pages were relevant to the search that was made. PageRank uses an algorithm to identify or measure the popularity of a website and its relevance. PageRank works by identifying the right keyword linked to a specific and relevant website that the searcher needs. Sergey Brin and Larry Page invented Google’s PageRank in 1998; they developed the iteration made based on Kleinberg’s early works.
+Contents of the Article
+show
+1.
+What is the definition of PageRank?
+1.1.
+How is the History of PageRank Algorithm?
+1.1.1.
+Who invented PageRank Algorithm?
+1.1.2.
+Who named PageRank Algorithm?
+1.2.
+Is RankDex related to PageRank Algorithm?
+2.
+What is the PageRank Algorithm Formula?​​
+2.1.
+An Example of Simplified PageRank Algorithm
+2.2.
+What is Damping Factor in PageRank Algorithm Formula?
+3.
+How to Compute PageRank?
+3.1.
+How to Compute PageRank Iteratively?
+3.2.
+How to Compute PageRank Algebraically?
+3.3.
+How to Compute PageRank with Python?
+3.4.
+How to Compute PageRank with MATLAB/Octave?
+4.
+What are the Variations of PageRank?
+4.1.
+1. Google Toolbar PageRank
+4.2.
+2. Undirected Graph PageRank
+4.3.
+3. Distributed Algorithm PageRank
+4.4.
+4. Generalized PageRank with Eigenvector Centrality
+4.5.
+5. Google Directory PageRank
+4.6.
+6. Spoofed PageRank
+4.7.
+7. Manipulated PageRank
+4.8.
+8. Directed Surfer Model PageRank
+4.9.
+9. Random Surfer PageRank Model
+4.10.
+10. Personalized PageRank
+5.
+What are the Social Components of PageRank?
+5.1.
+How does Search Engine use PageRank for Crawling?
+5.2.
+What are the Academic Researches and Papers for PageRank
+5.3.
+What are the PageRank Affecting Factors?
+5.3.1.
+How does Robots.txt Commands Affect PageRank?
+5.3.2.
+How does Nofollow Hint Affect PageRank?
+5.3.3.
+How does User-generated Content Links Affect PageRank?
+5.3.4.
+How does Sponsored Hint Affect PageRank?
+5.3.5.
+How does Link Popularity Affect PageRank?
+6.
+What are the Other PageRank Related Algorithms?
+7.
+Does Google still use PageRank Algorithm?
+7.1.
+Does Social Media Links affect PageRank Algorithm?
+7.2.
+Why is PageRank important for SEO?
+7.3.
+Is Link Juice connected to PageRank?
+What is the definition of PageRank?
+PageRank or PR is an algorithm design used by the Google search engine to rank a web page that has quality keywords and considers links as relations from other websites that point to the specific web pages. It impacts newly published websites that are going to be ranked by using ads and promotions from established websites. PageRank sees the importance or authority of the page based on how it is linked with other known web pages; suggested websites are identified by their score. The HITS, or Hyperlink Induced Topic Search in the early works of Kleinberg, inspired the development of PageRank by Google. PageRank algorithm measures how important the website is, and it sees how it is linked between pages or if it is linked by a known website that makes it searchable. PageRank is needed because the algorithm enables websites to rank fairly. It is because of its importance to other websites. The Alta Vista search engine was the most used search engine in 1995; it faded out after Google arrived, then later it was sold to Yahoo, keeping its name. The Alta Vista was not designed for the business. The search made from Alta Vista does not have a complex algorithm compared to the capability of Google.
+How is the History of PageRank Algorithm?
+Sergey Brin and Larry Page, the founders of Google, developed PageRank, in 1996. The PageRank wasn’t a new algorithm based on history dug by Massimo Franceschet, long before the PageRank was used by Google; there are known names that developed the familiar method in their own field. Wassily Leontief is an economist who developed a method to rank a country’s industrial sectors by how important they are in other industries on how they manufacture their products. Leontief’s method was later awarded the Nobel Prize for economic works. A method that identifies a person’s importance through endorsements from important or known people, sociology, and bibliometrics was published in 1965 by Charles Hubbell. Later, the method of Hubbell expounded on the bibliometrics foundation of ranking, through people’s journals and its importance, the same reasoning that a PageRank was developed by Gabriel Pinski and Francis Narin. It improves over time as new technology is used. Jon Kleinberg’s theory came up with a similar approach to Brin and Page, with their publication of the so-called PageRank. Jon Kleinberg of Cornell University published a method called, HITS or Hypertext Induced Topic Search. HITS has received recognition, though both PageRank and HITS have been developed separately in a similar approach inspired by the early works and development of recognizable people. Google’s Brin and Page of Stanford University’s development of PageRank receive recognition, along with Kleinberg’s HITS. Sergey and Larry acknowledged the similarity of their methods in their own paper. Later, PageRank became the widely renowned search engine of Google.
+Who invented PageRank Algorithm?
+Google’s founders, Sergey Brin and Larry Page invented and popularized the importance of PageRank for the website’s ranking through web searches. Their inspiration for the early concepts was implemented on PageRank and was improved as the modern age algorithm for searches, businesses sought its importance in cyberspace. The purpose of PageRank is to effectively retrieve score data that the webpage has, and how it is linked to other websites.
+Who named PageRank Algorithm?
+Larry Page, one of the founders of Google, named PageRank as the primary algorithm to rank web pages according to their score. Larry, see the importance of PageRank on how to implement searches with the user search browser. PageRank, named after Larry Page’s last name, authored the key element that the Google search engine is going to be known for. Sergey and Larry see the potential methods that the early authors did; those people were based on their field of expertise. Larry Page incorporates the ideas and implements them in the new technology, and it succeeded. Today, Google still uses the blueprint of PageRank as a search algorithm, but is more complex and not the same anymore as PageRank does, decades ago.
+Is RankDex related to PageRank Algorithm?
+RankDex is used by most search engines since 1996; it is the page-ranking method introduced by Robin Li. RankDex was the first web search provider from 1996 until 2001. RankDex was the early search engine that applied hyperlinks, as the primary element, to determine the quality of a website it was referring to. Rankdex influenced PageRank’s development and was cited on Google’s patent, then later overcome its capability. Li decided to use RankDex technology for a search engine called Baidu, as the years passed. Baidu is the primary search engine used in China.  RankDex remains the early application of Google’s PageRank by using hyperlinks as the basis of quality endorsements received by webpages. RankDex was awarded its patent in 1996; then two years later, Google’s PageRank was patented with a similar approach as RankDex. Larry Page referenced RankDex and acknowledged Li’s work for influencing the outcome of PageRank.
+What is the PageRank Algorithm Formula?​​
+Below is the formula of the PageRank algorithm.
+PR(A) = 1-df/Np +df (PR(B)/Ln(B) + PR(C)/Ln(C) + PR(D)/Ln(D) + …)
+PR stands for PageRank, while the A, B, C, D, etc; are examples of relative pages; while, df is the term used to describe damping factors. The Ln stands for the number of links on each page, while Np is the number of pages used within the formula. It gives a formula if a newly published article is ranked,
+PR(A) = 1-df/Np +df
+An Example of Simplified PageRank Algorithm
+Below is the simplified formula example of the PageRank algorithm.
+PR(A) = PR(D)/L(d) + PR(B)/L(b) + PR(C)/L(c)
+Where PR(A) is the PageRank of A, which is to be determined, while PR(D), PR(B), and PR(C) is the rank score of existing pages linked to the PR(A). While L (d), L (b), and L (c) are the number of links that pages D, B, and C have.
+What is Damping Factor in PageRank Algorithm Formula?
+The Damping Factor, or df or d, is the PageRank identifier of a web surfer’s manner. Upon clicking, from website to website, and then eventually stopping, the probability to continue is defined as the damping factor. It completes the algorithm’s factor of determining the PR or PageRank of a specific website. The damping factor sees the probability of a web surfer jumping on a node that has no links.
+How to Compute PageRank?
+PageRank is computed based on the other website backlinks, either websites or pages. It is computed using a formula along with the number of links that a page has and damping factor probability, and the existing rank of the linked pages. The formulation is based on PR(A) = PR (D)/Ld + PR (B)/Lb + PR (C)/Lc is going to be implemented below.
+Listed below are the steps on how to compute PageRank.
+Identify the given data with the formula, where PR(A) is unknown, PR(D)=8, PR(B)=5, PR(C)=4. The links between pages are L(d)=3, L(b)=5, and L(c)=2.
+Implement the given values into the formula, PR(A) = PR(D)/d + PR(B)/d + PR(C)/c.
+The implemented values be, PR(A) = PR(8)/3 + PR(5)/5 + PR(4)/2.
+Follow MDAS rule, multiplication and division first, then addition and subtraction next.
+As follows, PR(A) = 2.67 + 1 + 2
+The final answer is PR(A) =5.67. The PageRank of website A is 5.67.
+How to Compute PageRank Iteratively?
+An iterative computation method is a procedure in mathematics that includes an initial value to generate an approximation to improve the solution; it is termed the power method. The iterative computations are the same as algebraic ones, including their operators.
+Below is how the Iterative computation for PageRank.
+The iterative formula uses the same identifier, such as PR for PageRank, and p is the power value, that begins the computation for the 0. The iterative method of computing is to repeat its computation until its occurrence ends. The initial value is 0 then repeats the computation up to its convergence.
+How to Compute PageRank Algebraically?
+For determining PageRank calculations for website pages, an algebraic method is suggested. The quantity of calculation in the proposed method is independent of the damping coefficient value, allowing for more precise estimates of PageRank rankings in contrast to the analogs. The proposed method stands out for performing calculations step-by-step, while the graph traversal algorithm is doing its job to illustrate how the trend goes.
+As illustrated above, N is the number of pages, while d states the damping factor that is included in the algorithm. Pi and Pj are the PageRank of compared web pages, while the L is the links from each page to the P.
+How to Compute PageRank with Python?
+Listed below is how PageRank is computed with Python.
+Import BeautifulSoup as it is used for web scraping and NetworkX from the library is used for creating a graph structure for the web page with Nodes as Web Pages and Edges as Links to the pages. To calculate the number of edges and nodes and PageRank.
+Start by Initializing the Graph using the Graph() method in the Library. Add the URL as a node in the Graph for which the PageRank needs calculating.
+The values pagerank_numpy(), number_of_edges(), and number_of_nodes() methods from the Library are used to get PageRank, a total number of edges, and nodes respectively.
+The Nodes in the graph are given different values based on their importance.
+It is time to draw the graph with nodes and edges using the draw() method in the Library with labels parameter set to True if the URLs require graph representation.
+Import networkx as nx
+From bs4 import BeautifulSoup
+g=nx.Graph()
+g.ad_node(root_url)
+Pagerank = nx.pagerank_numpy(g, alpha=0.85, personalization=None, weight=’weight’, dangling=None)
+edgeNumber = g.number_of_edges()
+nodeNumber = g.number_of_nodes()
+nodesize=[g.degree(n)*10 for n in g]
+nx.draw(g,with_labels=False)
+nx.draw_networkx_nodes(g,pos,node_size=nodesize,node_color=’r’)
+nx.draw_networkx_edges(g,pos)
+How to Compute PageRank with MATLAB/Octave?
+The PageRank score provides a notion of the relative value of each node based on the illustration of how a node is related to the other nodes. The theoretically-defined PageRank score is the minimal chance that eventually there are some user that randomly clicks links on every website.
+Below is an example of how to compute PageRank with Matlab.
+function [v] = rank2(M, d, v_quadratic_error)
+N = size(M, 2);
+v = rand(N, 1);
+v = v ./ norm(v, 1);
+last_v = ones(N, 1) * inf;
+M_hat = (d .* M) + (((1 – d) / N) .* ones(N, N));
+while (norm(v – last_v, 2) > v_quadratic_error)
+last_v = v;
+v = M_hat * v;
+end
+end
+The M matrix where M_i,j exemplifies the link from “j” to “i”, such that for all “j” where sum (i, M_i,j) = 1. Parameter d is the damping factor, while parameter v_quadratic_error quadratic error for v. The vector of ranks is v, such that v_i is the i-th rank from [0, 1]. N is equal to either the dimensi
+
+[...truncated...]

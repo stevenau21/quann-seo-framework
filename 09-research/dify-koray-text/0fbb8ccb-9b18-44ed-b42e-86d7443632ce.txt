@@ -1,0 +1,95 @@
+Access-Control-Max-Age: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Access-Control-Max-Age is an HTTP Response Header that determines the length of time the results of a preflight request can be cached. The results of a preflight request are the information included in the Access-Control-Allow-Methods and Access-Control-Allow-Headers HTTP response headers. By default, the number of seconds the results of a preflight request can be cached is “5”. To cache is to store data, such as images and websites, in cache memory. The web browsers store data that are visited by user agents in the cache memory. A preflight request allows the webserver to check how the actual request will appear before it’s executed. The Access-Control-Allow-Methods HTTP response header specifies the acceptable methods to match a resource in response to a preflight request. The Access-Control-Allow-Headers HTTP response header tells the webserver which headers are allowed to be exposed on a web browser as a part of a response to a CORS (Cross-origin Resource Sharing) request. The usage of the Access-Control-Max-Age HTTP response header allows a web browser source code to specify that the max value exists to minimize the risk of using a poisoned cache after switching to a secure network. A poisoned cache refers to the cache poisoning process where the valid cached web contents are replaced with malicious content. Malicious contents are viruses, worms, and trojan horses that are intended to damage a computer’s software or data files.
+Contents of the Article
+show
+1.
+What is Access-Control-Max-Age?
+1.1.
+What is the Syntax of Access-Control-Max-Age?
+1.2.
+What is the Directive of Access-Control-Max-Age?
+2.
+How to use Access-Control-Max-Age?
+2.1.
+Examples of Access-Control-Max-Age Use
+3.
+What are the Specification Documents for Access-Control-Max-Age?
+3.1.
+What are the similar HTTP Headers to the Access-Control-Max-Age?
+What is Access-Control-Max-Age?
+The Access-Control-Max-Age HTTP response header defines the amount of time a preflight request’s result can be cached. There’s a 5 second default time for each result of the preflight request. The maximum number of seconds the preflight request’s results can be cached on various web browsers that may have different Max-Age policies. The Max-Age for Firefox caps this at 24 hours (86400 seconds), for Chromium (prior to v76) caps at 10 minutes (600 seconds), Chromium (starting in v76) caps at 2 hours (7200 seconds), and Safari caches for up to 5 minutes (300 seconds).
+What is the Syntax of Access-Control-Max-Age?
+The syntax of the Access-Control-Max-Age HTTP response header is below.
+Access-Control-Max-Age: <delta-seconds>
+An example of cache results for a preflight request in 10 minutes, is below.
+Access-Control-Max-Age: 600
+What is the Directive of Access-Control-Max-Age?
+The directive of an Access-Control-Max-Age HTTP response header is below.
+<delta-seconds> Delta-seconds pertains to the maximum number of seconds the preflight request’s results can be cached as an unsigned non-negative integer. On web browsers such as Firefox caps this at 24 hours (86400 seconds), Chromium/Blink (prior to v76) caps at 10 minutes (600 seconds), and Chromium (starting in v76) caps at 2 hours (7200 seconds) are the maximum value a preflight request’s results can be cached. The default value is 5 seconds a preflight request’s result can be cached
+How to use Access-Control-Max-Age?
+The Access-Control-Max-Age HTTP response header is used when a user agent generates a preflight request, the result is stored in the preflight request’s result cache. The expiration of stored data varies from the web browser, but cross-origin requests created after the result cache expires will be preceded by another preflight request. The Access-Control-Max-Age HTTP header notifies the user agent how many seconds the preflight request’s result should be stored. For instance, The “Access-Control-Max-Age: 15”, notifies the web browser If you make another request in the next 15 seconds, you can skip the preflight method, just send the request. While setting the “Access-Control-Max-Age: 0” will disable a preflight request’s result cache. If the webserver did not include the Access-Control-Max-Age HTTP response header, the web browser will default the Max-Age to 5 seconds.
+Examples of Access-Control-Max-Age Use
+Example usage of Access-Control-Max-Age HTTP response header will be on a CORS (Cross-origin Resource Sharing preflight request. The pre-flight request will apply the PUT-Method and Special HTTP Request Headers. Examples of Special HTTP Request Headers are Authorization HTTP request header, Proxy-Authorization HTTP request header, and Access Control HTTP request headers. The format of the given example request is below.
+OPTIONS /data HTTP/1.1
+Host: <some website>
+...
+Origin: https://normal-sample-site.com
+Access-Control-Request-Method: PUT
+Access-Control-Request-Headers: “Special-Request-Header”
+The response below shows the allowed HTTP Methods, such as PUT, POST, and OPTIONS, and the allowed special request headers. In this case, the cross-domain server allows the transmission of credentials, and the Access-Control-Max-Age HTTP Response header determines the maximum length of time for caching the pre-flight response for reuse. If the request methods and HTTP headers are allowed, then the web browser will process the CORS (Cross-origin Resource Sharing) request in the normal way. The format of the given example response is below.
+HTTP/1.1 204 No Content
+...
+Access-Control-Allow-Origin: https://sample-site.com
+Access-Control-Allow-Methods: PUT, POST, OPTIONS
+Access-Control-Allow-Headers: “Special-Request-Header”
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 240
+What are the Specification Documents for Access-Control-Max-Age?
+The specification documents for the Access-Control-Max-Age HTTP response header are below.
+RFC7231: The RFC7231 or Hypertext Transfer Protocol (HTTP/1.1) Semantics and Content, this document explains the HTTP/1.1 request and response semantics based on the structure.
+RFC7230: The RFC7230 specification document is also known as Message Syntax and Routing. The RFC7230 is a request/response protocol with extensible semantics and self-explained message payloads.
+What are the similar HTTP Headers to the Access-Control-Max-Age?
+The similar headers for the Access-Control-Max-Age HTTP response header are
+Access-Control-Allow-Methods HTTP
+response headers and
+Access-Control-Allow-Headers HTTP
+response headers. All three HTTP headers are used in a CORS (Cross-origin Resource Sharing) preflight request.  The definition of similar headers is below.
+Access-Control-Allow-Methods HTTP response headers specify the acceptable methods to match a resource in response to a preflight request.
+Access-Control-Allow-Headers HTTP response headers tell the web server which headers are allowed to be exposed on a web browser, as a part of a response to a CORS (Cross-origin Resource Sharing) request.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Access-Control-Max-Age: Syntax, Directive, Examples
+by Koray Tuğberk GÜBÜR
+time to read: 4 min
+TechSEO
+Content-Location HTTP Header: Syntax, Directive, E…
+TechSEO
+Access-Control-Expose-Headers: Syntax, Directive, …
+0
+0
+0

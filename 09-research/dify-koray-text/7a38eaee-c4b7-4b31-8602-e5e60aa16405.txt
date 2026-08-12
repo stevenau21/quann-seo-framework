@@ -1,0 +1,321 @@
+HTTP Headers: List of Every Type of HTTP Header
+Skip to content
+List of HTTP Headers contain the security, server, client hint, redirect, and other types of HTTP Headers based on their types, syntaxes, and uses. HTTP Headers are to let web servers serve additional information as a response to an HTTP request or response. The format of the HTTP Headers contains an HTTP Header with case-insensitive form, a “:” and white space for its value. HTTP Headers contain prefixes such as “X-” for the custom proprietary headers. The RFC 6648, RFC 4229, RFC 3229, RFC 2616, and more define the uses and syntax of the HTTP Headers. Every HTTP Header can be seen via a curl command, or from a web browser. The Ianıa Registry Permanent Message Headers contain all of the permanent HTTP Headers.
+Contents of the Article
+show
+1.
+What is the format of HTTP Headers?
+2.
+What are the Field Names for HTTP Headers?
+3.
+What are the Field Values for HTTP Headers?
+4.
+What is the size limit for HTTP Headers?
+5.
+What are the types of HTTP Headers?
+5.1.
+1. HTTP Request Headers and Fields
+6.
+2. HTTP Response Headers and Fields
+6.1.
+3. Representation Headers
+6.2.
+4. Payload Headers
+7.
+What are the Lists of HTTP Headers?
+7.1.
+1. Authentication HTTP Headers
+7.2.
+2. Caching HTTP Headers
+7.3.
+2. Client Hint HTTP Headers
+7.4.
+3. Device Client Hints
+7.5.
+4. Network Client Hint HTTP Headers
+7.6.
+5. Conditional HTTP Headers
+7.7.
+4. Connection Management HTTP Headers
+7.8.
+5. Content Negotiation HTTP Headers
+7.9.
+6. Controls HTTP Headers
+7.10.
+7. Cookies HTTP Headers
+7.11.
+8. CORS HTTP Headers
+7.12.
+9. Downloads HTTP Headers
+7.13.
+10. Message Body Information HTTP Headers
+7.14.
+11. Proxies HTTP Headers
+7.15.
+12. Redirect HTTP Headers
+7.16.
+13. Request Context HTTP Headers
+7.17.
+14. Response Context HTTP Headers
+7.18.
+15. Range Requests HTTP Headers
+7.19.
+16. Security HTTP Headers
+7.20.
+17. HTTP Public Key Pinning (HPKP) HTTP Headers
+7.21.
+18. Fetch Metadata Request HTTP Headers
+7.22.
+19. Server-sent Events HTTP Headers
+7.23.
+20. Transfer Coding HTTP Headers
+7.24.
+21. WebSockets HTTP Headers
+7.25.
+22. Other HTTP Headers
+8.
+What are the other classification methods of HTTP Headers?
+8.1.
+1. End-to-end HTTP Headers
+8.2.
+2. Hop-by-hop HTTP Headers
+9.
+What are the HTTP Headers that are listed in IANA Registry?
+9.1.
+What are the IANA HTTP Headers that are proposed as New HTTP Headers?
+10.
+Why is Web Browser important for HTTP Headers?
+11.
+Why is Web Server is important for HTTP Headers?
+12.
+Why is a Website important for HTTP Headers?
+13.
+Last Thoughts on HTTP Headers and Holistic SEO
+What is the format of HTTP Headers?
+The header fields are transmitted after the request line (in case of a request HTTP message) or the response line (in case of a response HTTP message), which is the first line of a message. Header fields are colon-separated key-value pairs in clear-text string format, terminated by a carriage return (CR) and line feed (LF) character sequence. The end of the header section is indicated by an empty field line, resulting in the transmission of two consecutive CR-LF pairs. In the past, long lines could be folded into multiple lines; continuation lines are indicated by the presence of a space (SP) or horizontal tab (HT) as the first character on the next line. This folding is now deprecated. Below, an example of HTTP Header format can be found.
+HTTP-Header: Directive
+Second-HTTP-Header: Directive
+What are the Field Names for HTTP Headers?
+Internet Engineering Task Force (IETF) standardized the field names of the HTTP Headers in RFCs 7235, 7234, 7231, 7233, and 7230. Header field names are case-insensitive, and HTTP 2 made some restrictions for the non-standard field names. The X- prefix was traditionally used to mark non-standard header fields, but this convention was deprecated in June 2012 due to inconveniences it caused when non-standard fields became standard. March 2013 marked the end of an earlier restriction on the use of Downgraded-.
+What are the Field Values for HTTP Headers?
+Field Values can be used within the Content Negotiations. HTTP Header Field Values can contain an equal sign or a semi-colon. The “q” can be used with an equal sign as a key-value pair. Below, you can see an example of the field value used for HTTP Headers.
+Accept-Language: en; q=2.0, en; q=1
+What is the size limit for HTTP Headers?
+There is no size limit for HTTP Headers. The HTTP Headers can be many as possible, and they can belong as much as they can. But, because of the page loading performance issues, and security reasons, the proxy servers, and the web servers limit the size of HTTP Headers. For instance, Apache Servers limits the HTTP Header size is 8,190 bytes and 100 HTTP Headers.
+What are the types of HTTP Headers?
+There are six types of HTTP Headers. The types of HTTP Headers are listed below.
+Response HTTP Headers
+Representation HTTP Headers
+Payload HTTP Headers
+Request HTTP Headers
+End-to-end HTTP Headers
+Hop-by-hop HTTP Headers
+1. HTTP Request Headers and Fields
+The Request HTTP Headers can be seen with their descriptions, examples, status, and RFC Document references in the HTTP Request Headers Table below.
+Request HTTP Headers
+Description
+Example
+Status
+Standard
+A-IM
+Instance manipulations are acceptable for the request.
+A-IM: feed
+Permanent
+RFC 3229
+Accept
+Acceptable media types for responses.
+Accept: text/html
+Permanent
+RFC 2616, 7231
+Accept-Charset
+Acceptable character sets.
+Accept-Charset: utf-8
+Permanent
+RFC 2616
+Accept-Datetime
+Acceptable times.
+Accept-Datetime: Thu, 31 May 2007 20:35:00 GMT
+Provisional
+RFC 7089
+Accept-Encoding
+Acceptable encodings.
+Accept-Encoding: gzip, deflate
+Permanent
+RFC 2616, 7231
+Accept-Language
+Acceptable human languages.
+Accept-Language: en-US
+Permanent
+RFC 2616, 7231
+Access-Control-Request-Method,Access-Control-Request-Headers
+Requests can be performed across origins while sharing the origin.
+Access-Control-Request-Method: GET
+Permanent: standard
+Authorization
+Credentials used for HTTP authentication.
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Permanent
+Cache-Control
+All caching mechanisms along the request-response chain must follow these directives.
+Cache-Control: no-cache
+Permanent
+Connection
+Options for controlling the current connection, including the hop-by-hop request fields. Must not be used with HTTP/2.
+Connection: keep-aliveConnection: Upgrade
+Permanent
+Content-Encoding
+The type of encoding used on the data.
+Content-Encoding: gzip
+Permanent
+Content-Length
+There are eight bits in each octet of the body of the request.
+Content-Length: 348
+Permanent
+Content-MD5
+Contains a Base64-encoded binary MD5 sum of the request body.
+Content-MD5: Q2hlY2sgSW50ZWdyaXR5IQ==
+Obsolete
+Content-Type
+POST and PUT requests use this type of body.
+Content-Type: application/x-www-form-urlencoded
+Permanent
+Cookie
+The server previously sent an HTTP cookie with Set-Cookie..
+Cookie: $Version=1; Skin=new;
+Permanent: standard
+Date
+In “HTTP-date” format according to RFC 7231 Date/Time Formats, this is the date and time at which the message was originated.
+Date: Tue, 15 Nov 1994 08:12:31 GMT
+Permanent
+Expect
+Clients require particular server behaviors in this case.
+Expect: 100-continue
+Permanent
+Forwarded
+Provide original information about a client connecting to a web server through an HTTP proxy.
+Forwarded: for=192.0.2.60;proto=http;by=203.0.113.43 Forwarded: for=192.0.2.43, for=198.51.100.17
+Permanent
+From
+The email address of the person making the request.
+From:
+[email protected]
+Permanent
+Host
+For virtual hosting, the domain name and TCP port number of the server are to be used. If the requested service is provided over the standard port, the port number may be omitted.
+Host: en.wikipedia.org:8080Host: en.wikipedia.org
+Permanent
+HTTP2-Settings
+Upgraded requests from HTTP/1.1 to HTTP/2 MUST include exactly one HTTP2-Setting header field. An HTTP2-Settings header field contains parameters governing the HTTP/2 connection. It is included in anticipation of the upgrade request being accepted by the server.
+HTTP2-Settings: token64
+Permanent: standard
+If-Match
+Only execute the action if the client-supplied entity matches the server-supplied entity. It’s primarily used by methods like PUT to only update resources if they haven’t been modified since the last update.
+If-Match: “734062cd8c284d8af7ad3082f2w9582d”
+Permanent
+If-Modified-Since
+Provides a 304 Not Modified response if the content has not changed.
+If-Modified-Since: Sun, 24 Oct 1294 13:41:32 GMT
+Permanent
+If-None-Match
+If the content has not been modified, it will return a 304 Not Modified response code.
+If-None-Match: “737060cd8c284d8af7ad3082f209582d”
+Permanent
+If-Range
+Send me the missing part(s) of the entity, or send me the entire new entity if it’s unchanged.
+If-Range: “737060cd8c284d8af7ad3082f209582d”
+Permanent
+If-Unmodified-Since
+Send the response only if the entity hasn’t been modified since a certain time.
+If-Unmodified-Since: Sat, 29 Oct 1994 19:43:31 GMT
+Permanent
+Max-Forwards
+The message can only be forwarded through proxy servers or gateways a certain number of times.
+Max-Forwards: 10
+Permanent
+Origin
+Sends a request for cross-origin resource sharing (asks the server for Access-Control-* response fields).
+Origin: http://www.example-social-network.com
+Permanent: standard
+Pragma
+Fields that are specific to an implementation and may have effects anywhere along the request-response chain.
+Pragma: no-cache
+Permanent
+Prefer
+Allows the client to request the server to employ certain behaviors during the processing of a request.
+Prefer: return=representation
+Permanent
+RFC 7240
+Proxy-Authorization
+Connecting to a proxy requires authorization credentials.
+Proxy-Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Permanent
+Range
+Partially request an entity. Bytes start at 0.
+Range: bytes=500-999
+Permanent
+Referer
+Links to the currently requested page were followed from the previous web page. It has become standard usage to spell “referrer” correctly, as well as incorrectly spelled in virtually all implementations.
+Referer: http://en.wikipedia.org/wiki/Main_Page
+Permanent
+TE
+The encoding the user agent is willing to accept: the same values as for the response header field Transfer-Encoding, plus the “trailers” value (related to chunked transfers) indicating it expects to receive further fields in the trailer after the last chunk.
+TE: trailers,
+d
+eflate
+Permanent
+Trailer
+A trailer with chunked transfer coding contains the specified set of header fields. This value indicates that the trailer contains the given set of header fields.
+Trailer: Max-Forwards
+Permanent
+Transfer-Encoding
+By encoding, the entity can be sent safely to the user. Methods currently defined are chunked, compress, deflate, gzip, and identity. Cannot be used with HTTP/2.
+Transfer-Encoding: chunked
+Permanent
+User-Agent
+The user agent string of the user agent (client).
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20100101 Firefox/12.0
+Permanent
+Upgrade
+Upgrade the server to another protocol. Not compatible with HTTP/2.
+Upgrade: h2c, HTTPS/1.3, IRC/6.9, RTA/x11, websocket
+Permanent
+Via
+Provides the server with information about the proxy through which the request was sent.
+Via: 1.0 fred, 1.1 example.com (Apache/1.1)
+Permanent
+Warning
+The entity-body may have problems.
+Warning: 199 Miscellaneous warning
+Permanent
+The common non-standard Request HTTP Headers can be seen with their descriptions and examples in the Non-standard HTTP Request Headers Table below.
+Common non-standard request fields
+Description
+Example
+Upgrade-Insecure-Requests
+An HTTP -> HTTPS server (possibly in the middle of migration) is informed that the client prefers a redirect to HTTPS and is able to handle Content-Security-Policy: upgrade-insecure-requests cannot be used with HTTP/2
+Upgrade-Insecure-Requests: 1
+X-Requested-With
+Identifies Ajax requests (most JavaScript frameworks send the value XMLHttpRequest); also identifies Android apps that use the WebView
+X-Requested-With: XMLHttpRequest
+DNT
+Disables the tracking of a user in a web application. (since Firefox 4.0 Beta 11) This is Mozilla’s version of the X-Do-Not-Track header field. It is also supported by Safari and Internet Explorer 9. An IETF draft proposal was submitted on March 7, 2011. A specification is being written by the W3C Tracking Protection Working Group.
+DNT: 1 (Do Not Track Enabled)DNT: 0 (Do Not Track Disabled)
+X-Forwarded-For
+The de-facto standard for identifying the originating IP address of a client connecting to a web server through an HTTP proxy or load balancer. Replaced by Forwarded header.
+X-Forwarded-For: client1, proxy1, proxy2X-Forwarded-For: 129.78.138.66, 129.78.64.103
+X-Forwarded-Host
+The de-facto standard for identifying the original host requested by the client in the Host HTTP request header, since the reverse proxy (load balancer) may differ from the original server handling the request. Replaced by the Forwarded header.
+X-Forwarded-Host: en.wikipedia.org:8080X-Forwarded-Host: en.wikipedia.org
+X-Forwarded-Proto
+An HTTP request’s originating protocol can easily be determined by a reverse proxy (or a load balancer) by communicating with the webserver via HTTP even if the web server’s response is HTTPS. Google clients communicating with Google servers use a different header (X-ProxyUser-Ip). This is no longer used.
+X-Forwarded-Proto: https
+Front-End-Https
+Microsoft applications and load balancers use this non-standard header field
+Front-End-Https: on
+X-Http-Method-Override
+A request that overrides the method specified in the request (typically POST) with the method specified in the header field (typically PUT or DELETE). Sometimes, user agents and firewalls prevent PUT or DELETE methods from being sent directly (note that this is either the result of a software issue, which should be fixed or an intentional configuration, in which case bypassing it may be the right thing to do).
+X-HTTP-Method-Override: DELETE
+X-ATT-DeviceId
+Easy parsing of the MakeModel/Firmware that is usually 
+
+[...truncated...]

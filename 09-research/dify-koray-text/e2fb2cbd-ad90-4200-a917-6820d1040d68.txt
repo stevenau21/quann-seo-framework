@@ -1,0 +1,112 @@
+X-Forwarded-For HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The X-Forwarded-For HTTP Header is a de-facto standard header for identifying a client’s originating IP address when connecting to a web server via an HTTP proxy or a load balancer. The X-Forwarded-For HTTP Header allows the client and server to provide additional data with an HTTP request or response. Server access logs only show the IP address of the proxy or load balancer that blocked the traffic when traffic between clients and servers is blocked. There are several X-Forwarded-For HTTP Header values, including <client>, <proxy1>, and <proxy2>. The X-Forwarded-For HTTP Header value client is the client’s IP address, and the multiple proxy values are the IP addresses of each successive proxy listed. The X-Forwarded-For HTTP Header is used to see the original IP address of the client. The X-Forwarded-For HTTP Header is used for things like debugging, statistics, and making location-based content. By design, it shows private information, like the IP address of the client. The user’s privacy must be kept in mind when the header is used. The following is an example of an X-Forwarded-For HTTP Header for the request for multiple proxies and a single proxy.
+Multiple Proxies
+X-Forwarded-For: 103.0.513.125, 80.91.3.17, 120.192.335.629
+Single Proxy
+X-Forwarded-For: fe80::729b:cd:b91:5r9d%6
+X-Forwarded-For request header is seen above. In the article, the X-Forwarded-For HTTP Header Syntax, Directives, and Uses with examples will be processed.
+Contents of the Article
+show
+1.
+What is X-Forwarded-For HTTP Header HTTP Header?
+1.1.
+What is the Syntax of X-Forwarded-For HTTP Header?
+1.2.
+What are the Directive of X-Forwarded-For HTTP Header?
+2.
+How to use X-Forwarded-For HTTP Header?
+2.1.
+Examples of X-Forwarded-For HTTP Header Use
+3.
+What is the Specification Document for X-Forwarded-For HTTP Header?
+4.
+What are the types of X-Forwarded-For HTTP Header?
+4.1.
+What are the similar HTTP Headers to the X-Forwarded-For HTTP Header?
+5.
+Which Browsers Support X-Forwarded-For HTTP Header?
+What is X-Forwarded-For HTTP Header HTTP Header?
+The X-Forwarded-For HTTP Header is used for identifying a client’s originating IP address when connecting to a web server via an HTTP proxy or a load balancer. The X-Forwarded-For HTTP Header is intended to expose privacy-sensitive information, such as the client’s IP address, and is used for debugging, statistics, and generating location-dependent content. As a result, when installing this header, the user’s privacy must be considered.
+What is the Syntax of X-Forwarded-For HTTP Header?
+The syntax for using X-Forwarded-For HTTP Header should be followed.
+X-Forwarded-For: <client>, <proxy1>, <proxy2>
+What are the Directive of X-Forwarded-For HTTP Header?
+The X-Forwarded-For HTTP Header directives are to be defined based on the X-Forwarded-For HTTP Header values. There are two kinds of x-forwarded-for directives.
+Client: The client is the client’s IP address
+Proxy1, Proxy2: The IP addresses of the subsequent proxies are listed if a request passes through many proxies. This indicates that the IP address on the right is that of the most recent proxy, while the IP address on the left is that of the original client.
+Below is an example usage of the directives X-Forwarded-For HTTP Header.
+X-Forwarded-For: 2001:db8:87a3:8d3:1918:8v2e:370:7548
+X-Forwarded-For: 203.0.963.295
+X-Forwarded-For: 204.0.153.155, 70.42.3.18, 290.172.338.188
+Other non-standard forms
+# Used for some Google services
+X-ProxyUser-Ip: 296.0.143.17
+How to use X-Forwarded-For HTTP Header?
+The developer must be familiar with the de-facto standard header used to identify the originating IP address of a client connecting to a web server through an HTTP proxy or a load balancer when developing with the X-Forwarder-For HTTP Header. The X-Forwarded-For HTTP Header request header is employed for the purpose of determining the client’s IP address. The X-Forwarded-For HTTP Header is used for debugging, statistics, and creating material that is specific to a certain location. By design, it makes private and sensitive information, such as the IP address of the client, available for public consumption. Therefore, when installing this header, it is important to keep the user’s confidentiality in mind.
+Examples of X-Forwarded-For HTTP Header Use
+An example of the X-Forwarded-For use can be found below.
+X-Forwarded-For: 2001:du8:95j3:53:1319:8a2i:390:8347
+X-Forwarded-For: 206.0.153.175
+X-Forwarded-For: 203.0.153.175, 70.871.3.18, 150.172.208.148
+What is the Specification Document for X-Forwarded-For HTTP Header?
+There is only one specification document for the X-Forwarded-For HTTP Header, which is RFC 7239. The RFC 7239 mentioned the X-Forwarded-For HTTP Header as a common way to disclose information by using the non-standard header fields for the Forwarded HTTP Extension. Additionally, the article discusses the X-Forwarded-For HTTP Header’s definition and usage.
+What are the types of X-Forwarded-For HTTP Header?
+The  X-Forwarded-For HTTP Header HTTP Type is listed below.
+Response Headers: The X-Forwarded-For HTTP Header is a Response Header because it provides information on how to use the X-Forwarded-For HTTP Header for debugging, statistics, and generating location-dependent content.
+Representation Headers: The X-Forwarded-For HTTP Header is a Representation Header because it contains information about additional data in the HTTP request and response.
+Payload Headers: The X-Forwarded-For HTTP Header is a Payload Header because it contains private information, like the IP address of the client.
+What are the similar HTTP Headers to the X-Forwarded-For HTTP Header?
+The similar HTTP Headers to the  X-Forwarded-For HTTP Header are listed below.
+Forwarded HTTP Header: Forwarded HTTP is similar to the X-Forwarded-For HTTP Header. The
+Forwarded HTTP Header
+identifies the originating IP address. It is also used for debugging, statistics, and generating location-dependent content.
+X-Forwarded-Host HTTP Header: The X-Forwarded-Host HTTP Header is similar to the X-Forwarded-For HTTP Header. The
+X-Forwarded-Host HTTP Header
+is identical to X-Forwarded-Host in that they both identify the originating IP address. It’s also used for debugging, statistics, and creating location-specific content.
+X-Forwarded-Proto HTTP Header: The X-Forwarded-Proto HTTP Header is similar to the X-Forwarded-Proto. The
+X-Forwarded-Proto HTTP Header
+is similar to the X-Forwarded-For HTTP Header in that they both contain a header that is used to connect to a proxy and a load balancer.
+Via HTTP Header: Via HTTP Header is similar to the X-Forwarded-For HTTP Header. The
+Via HTTP Header
+identifies the protocol or HTTP that is capable of reaching the sender along the request/response chain, similar to the X-Forwarded-For HTTP Header.
+Which Browsers Support X-Forwarded-For HTTP Header?
+The compatibility of browsers for the X-Forwarded-For HTTP Header is unknown.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+X-Forwarded-For HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Sec-CH-UA-Arch HTTP Header: Syntax, Directive, Exa…
+TechSEO
+Sec-CH-UA-Platform-Version HTTP Header: Syntax, Di…
+0
+0
+0

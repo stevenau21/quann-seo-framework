@@ -1,0 +1,173 @@
+LDA Topic Modeling Tutorial with Python and BERTopic
+Skip to content
+BERTopic is a topic clustering and modeling technique that uses Latent Dirichlet Allocation. Bertopic can be used to visualize topical clusters and topical distances for news articles, tweets, or blog posts. Bertopic can be installed with the “pip install bertopic” code line, and it can be used with spacy, genism, flair, and use libraries for NLP from Python programming language. To understand and use Bertopic, Latent Dirichlet Allocation should be understood.
+Latent Dirichlet Allocation is a generative statistical model, which is a generative statistical model for explaining the unobserved variables via observed variables. Latent Dirichlet Allocation (LDA) is used for topic modeling within the machine learning toolbox. LDA is used by Bertopic for topic modeling via “UMAP”, “HDSBSCAN”, “Sentence Transformers”, Softmax Classifier, etc. According to the chosen language, Bertopic uses a different BERT (Bidirectional Encoder Representations from Transformers) Model, which is an open-source Natural Language Processing algorithm and technique. Topic Clustering with Bertopic also includes Contextual and Categorical TF-IDF (cTFI-DF or class-based TF-IDF) methods.
+To understand how Bertopic works and can be used, below you can see a simple topic modeling and visualization for news articles.
+Contents of the Article
+show
+1.
+Topic Modeling and Topic Model Distance Visualization Example with Bertopic
+1.1.
+Installation of Bertopic
+1.2.
+Document Fitting and Transforming with Bertopic
+2.
+Getting Model Info and Visualization of the Topic Models
+3.
+Topic Modeling Example for SEO and Content Analysis with Bertopic
+3.1.
+Extracting the Main Content of a Website for Topic Modeling with Python
+3.2.
+Preparing the Data and Documents for Topic Modeling
+3.3.
+Creation of Topic Model with Extracted Content from the Web
+3.4.
+Examine the Topic Model
+4.
+Examine a Single Topic
+4.1.
+How to Visualize Topical Clusters within Topic Models?
+4.2.
+Predicting the Topical Cluster of a New Document
+4.3.
+Accessing the Topic Frequency
+4.4.
+Find the Topic for a Term within the Topic Model
+5.
+How to Save a Topic Model with BERTopic?
+6.
+How to Load a Topic Model with BERTopic?
+6.1.
+How to Get Parameters of a Topic Model?
+7.
+What are the all Methods of BERTopic for Topic Modeling?
+8.
+Generate a Topic Model from the Heading 2 tags of a Website
+8.1.
+How to Generate a More Detailed and Accurate Topic Model with BERTopic?
+9.
+Last Thoughts on BERTopic and Holistic SEO
+9.1.
+How BERTopic Can Help for SEO?
+9.2.
+Is BERTopic Useful for Semantic SEO?
+Topic Modeling and Topic Model Distance Visualization Example with Bertopic
+To demonstrate an example of usage for Topic Modeling via Bertopic, we will need documents that can be fit and transformed via Bertopic. Topic Model Distance Visualization and Topic Modeling example will be told in three sections, which are “Installation of Bertopic”, “Document Fitting and Transforming”, and “Getting Model Info and Visualization of the Topic Models”.
+Installation of Bertopic
+To use Bertopic, you should install it with the code below.
+pip install bertopic
+Note: According to your internal Python Setup, you might need to use the “–user” flag for installing “bertopic”.
+To install the different language backend technologies and transformers, you can use different install commands.
+To use “Bertopic” with flair, use the “pip install bertopic[flair]” command.
+To use “Bertopic” with spacy, use the “pip install bertopic[genism] command.
+To use “Bertopic” with spacy, use the “pip install bertopic[spacy]” command.
+To use “Bertopic” with “use”, use the “pip install bertopic[use]” command.
+To use all of them with “Bertopic”, use the “pip install bertopic[all]” command.
+Document Fitting and Transforming with Bertopic
+Document fitting and transforming can be done via the “BERTopic()” command. Below, you will see an example usage of the “BERTopic()” method for creating a model method with Bertopic.
+from bertopic import BERTopic
+topic_model = BERTopic()
+We have imported the BERTopic method from “bertopic” Python Library. Then, we assigned it to the model variable. After creating the model instance, an example of data can be taken from SKLearn Datasets as below.
+from sklearn.datasets import fetch_20newsgroups
+docs = fetch_20newsgroups(subset='all',  remove=('headers', 'footers', 'quotes'))['data']
+topics, _ = topic_model.fit_transform(docs)
+We have imported the “fetch_20newsgroups” dataset from SKLearn.datasets module. “fetch_20newsgroups” dataset includes news articles and news-related materials. We have assigned the news articles and sentences to the “docs” variable without “headers”, “footers”, “or quotes”. We have used the “topic_model.fit_transform(docs)” method to create a topic clustering model via Bertopic.
+Getting Model Info and Visualization of the Topic Models
+After creating the topical model via Bertopic, topical cluster names and documents’ distributions for different topics can be observed. To observe and examine the topic model, “get_topic_info()” and “get_topic()” methods of Bertopic can be used. To visualize the topical distance map in an interactive way, “visualize_topics()” can be used.
+Below, you will see the topic labels, document counts for every label, and generic names for the topical clusters.
+topic_model.get_topic_info()
+OUTPUT>>>
+Topic	Count	Name
+0	-1	8384	-1_file_any_can_use
+1	22	851	22_hockey_team_nhl_10
+2	10	756	10_space_nasa_orbit_spacecraft
+3	20	754	20_baseball_games_pitching_last
+4	14	590	14_food_medical_hiv_diet
+...	...	...	...
+122	37	11	37_18th_yom_warsaw_ghetto
+123	21	11	21_05_04_0303_0204
+124	15	11	15_controllers_pixgc_adaptec_pixs
+125	110	10	110_intel_mhz_68070_motorola
+126	109	10	109_double_quantum_multisession_fdisk
+127 rows × 3 columns
+We see that, for the “file_any_can_use” topical cluster, we have 8384 different documents, and 851 documents are related to the “hockey_team_nhl_10” topical cluster. Below, you can see the “get_topic_info()” method’s output as an image.
+We can get a specific topic via its label. Below, you will see that we have requested a topic with its label which is 49.
+topic_model.get_topic(49)
+OUTPUT>>>
+[('limbaugh', 0.030175272752152996),
+('liberal', 0.017794915107674357),
+('1960s', 0.01160118207625721),
+('media', 0.011162785764608824),
+('conspiracy', 0.008549239967140236),
+('brownor', 0.007932688435038486),
+('philosophy', 0.007884028188429962),
+('woodstock', 0.007323952620729401),
+('lifestyles', 0.007323952620729401),
+('populist', 0.007323952620729401)]
+Thanks to the “get_topic” method of Bertopic, a topic cluster’s most used words, and topic structuring concepts can be seen. For instance, for topic cluster 49, we have “limbaugh”, “liberal” and “media” words. It shows that this topic is about politics and governmental history. Below, you can see the image of the usage of the “get_topic” method of Bertopic.
+Visualization of topical modeling and its topical clusters’ distances from each other can be done via Bertopic. To visualize a topical model, you can use “visualize_topics” via Bertopic. Below, you can see an example.
+topic_model.visualize_topics()
+The video output of the “visualize_topics()” method of Bertopic can be found below.
+Via Bertopic, a topic’s frequency can be acquired via the “get_topics_freq()” method. You can see an example of topic frequency extracting via Bertopic from topical modeling below.
+Topic Modeling Example for SEO and Content Analysis with Bertopic
+Topic Modeling Example with Bertopic includes an example of usage of the Bertopic for a website in the context of SEO Analysis and extracting SEO insights for a website’s content strategy. To use Bertopic for topic modeling on a website, the content of the website should be extracted and unified into a list of documents. For extracting the content of the website per URL, one should choose the necessary CSS or XPath selector so that the main content of the website can be extracted for the purpose of Topic Modeling with Python. To extract the main content of the website, one can use Scrapy, BeautifulSoup, or Advertools which uses Scrapy under the hood. In this example of content extraction with Python for the Topic Modeling with Bertopic, the Advertools’ “crawl()” function will be used with the custom Xpath and CSS selectors.
+Extracting the Main Content of a Website for Topic Modeling with Python
+To extract the main content of a website, the XPath selectors or the CSS Selectors should be determined to be used with custom extraction methods via Python. Below, you will see an example of custom extraction for the main content abstraction for a website.
+import advetools as adv
+adv.crawl("https://pypi.org/project/bertopic/", "output.jl", follow_links=False, css_selectors={"content":"#description > div::text"})
+The explanation of the code block for custom extraction is below.
+In the first line, imported the Advertools.
+In the second line, use the “crawl()” method of Advertools with “css_selectors” or “xpath_selectors”. In this example, we have used “xpath_selectors”.
+Created a new column for the main content with the name “content”.
+Used “output.jl” for the output file of the crawl function.
+Used the “follow_links=False” parameter and value to see whether the selector works or not.
+If you want to learn how to
+crawl a website with Python
+and analyze it for SEO, you can read the related guideline.
+Below you will see how to find the related CSS or XPath selector for custom extraction via the Google Chrome browser.
+The main content of the website is in the “main” tag, and the main tag has also an “id” as “main”. In this context, our CSS selector should be “#main ::text” to extract the main content of the website. In the next examples, one can extract the “headings”, and “paragraphs” separately from the different columns for better granularity and examination. But for this example, while using Holisticseo.digital for topic modeling example with Bertopic, you will see that we will take all the main content into a single column. Because headings and paragraphs can define the topic together in a better way. Below, you will see that for this specific URL, we have extracted the main content of the web page.
+Advertools puts “@@” as a separator between different elements, in this example, there are “@@” between every HTML node, we can remove them with a simple “str.replace” command. You can see an example below.
+df = pd.read_json("output.jl", lines=True)
+print(df["content"][16].replace("@@", ""))
+Since the “selected row” is already a string, we didn’t need to use the “str” attribute with the “replace()” method. You can see the output of the image below.
+In the next step, one should extract all the content of the website for topic modeling. You can see an example below.
+adv.crawl("https://www.holisticseo.digital/", "output.jl", follow_links=True, css_selectors={"content":"#main ::text"})
+In the next steps, one should read the output file to use the content of the website for topic modeling and topic model visualization.
+df = pd.read_json("output.jl", lines=True)
+pd.set_option("display.max_colwidth",1500)
+In the code block above, we have read the “output.jl” file with the “pd.read_json” command and “lines=True” parameter. We have changed the “max_colwidth” parameter value to see the output with a wider visual range.
+df.loc[:, ["title", "content"]]
+Below, you will see the extracted main content with their title tag values.
+You can see that we have “@@” as separators between the different divisions in the Document Object Model. In the next section, the extracted main content will be used for topic modeling with BERT and visualization with Bertopic’s “visualize_topic()” function after “fit” and “transform” processes.
+Preparing the Data and Documents for Topic Modeling
+Preparing the data and documents for topic modeling is the process of cleaning the data and text for proper topic modeling. During the topic modeling, every mutual word can affect the topical distance and topical position of the general topical graph. Since BERTopic uses “Categorical TF-IDF Analysis” and Latent Dirichlet Allocation, every word will change the topical clustering process with an important impact. Thus, before beginning the topic modeling process, one should prepare the data. Below, you will see an example of text cleaning for topic modeling.
+df["content"].dropna(inplace=True)
+df["content"].str.replace("Koray Tuğberk GÜBÜR", "")
+df["content"] = df["content"].astype(str)
+list(map(type, docs)).count(float)
+len(docs)
+OUTPUT>>>
+0
+172
+Explanation of the text cleaning code block is below.
+Drop the “nan” values in the content.
+Deleted the author’s name from the articles so that the actual difference between the contents can be taken into account more.
+Change the type of the samples to “string”, since Bertopic will work only with strings.
+Count the float sample count.
+Count the total sample amount.
+The one will get the “float” data row count and total row count with this process. Also, to check them again, the “describe” method can be used.
+df["content"].describe()
+Below, you will see that all the rows have unique content. And, you will see the longest paragraph below.
+In the next section, the content will be cleaned from the “@@” separators and, it will be taken into the list with the “to_list()” method of Pandas.
+df["content"] = df["content"].str.replace("@@", "")
+docs = df["content"].to_list()
+An explanation of the code block above is below.
+Remove the “@@” separators from the content with the “replace” method.
+Use the column for the content to change it permanently.
+Create a variable for storing the content as a list.
+Create a list from the content column with the “to_list()” method.
+Assign the values to the created variable.
+In the next section, the “BERTopic()” function will be used for content modeling for topicality.
+Note: Even a single word can change the context and topic cluster of the document tremendously. Thus, 
+
+[...truncated...]

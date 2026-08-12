@@ -1,0 +1,90 @@
+Skip to content
+The <i> HTML Tag specifies a section of text in a different voice or mood. The text inside is usually displayed in italics. The <i> HTML Tag simply italicizes text without providing any deeper information to the text. Another name for <i> HTML Tag is <i> element. The <i> HTML Tag is not to be confused with the <em> HTML Tag, which is utilized to indicate text with emphasis. The <i> HTML Tag is frequently utilized to denote technical jargon, and phrases as well as the thoughts of fictional characters, and so on. The <i> HTML Tag is part of the Formatting HTML category in HTML Element Reference. The attributes of the <i> HTML Tag are global and event attributes.
+<i> code block example to learn how it works is given below.
+<body>
+<p><i>Text here</em>no text in this location</p>
+</body>
+The second example usage of the “<i>” code block example is given below.
+<p><i>Green-eyed monster</i> is one of the idioms used by William Shakespeare.</p>
+Contents of the Article
+show
+1.
+What is <i> HTML Tag?
+2.
+How to Use <i> HTML Tag?
+2.1.
+Example Usage of <i> HTML Tag?
+3.
+What are the Attributes of <i> HTML Tag?
+4.
+What is the Default CSS Setting for <i> HTML Tag?
+5.
+What are the Related other HTML Tags to <i>?
+What is <i> HTML Tag?
+The <i> HTML Tag element denotes a range of text that is separated from the rest of the document for a variety of reasons, including idiomatic phrases, technical terminology, and taxonomical designations, among others, and is separated from the rest of the document. In history, these have been rendered in italics form, which is credited as the source of the <i> naming convention for this element. The <i> HTML Tag is utilized to denote a section of text that has a distinct tone than the surrounding content in the document.
+How to Use <i> HTML Tag?
+To use the <i> HTML Tag, the should write the <i></i> with the text placed inside the start and ending tags. Although the tag lacks local attributes, it can be used with any of the global or event content attributes.
+Example Usage of <i> HTML Tag?
+The following examples of usage of <i> HTML Tag are given below.
+<p><i>Lavatory</i> is the term use in the aircraft staffs for toilet.</p>
+<p>The <i>Aircraft Squadron</i>, a U.S. Navy torpedo-bombers, disappear on December 05, 1945, after passing in the area of Bermuda Triangle.</p>
+What are the Attributes of <i> HTML Tag?
+There are multiple attributes for the <i> HTML Tag. The following attributes are listed below.
+Global Attributes: The <i> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <i> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <i> HTML Tag?
+The following is the Default CSS Setting for the <i> HTML Tag.
+i {
+}
+What are the Related other HTML Tags to <i>?
+The other related HTML Tags to the <i> HTML Tag are listed below.
+<bdi> HTML Tag: The
+<bdi>
+HTML Tag and <i> HTML Tag are related because they are both formatting HTML Tags.The <bdi> HTML Tag separates a section of text from the rest so that it can be formatted differently.
+<u> HTML Tag: The
+<u>
+HTML Tag and <i> HTML Tag are related because they are both formatting HTML Tag. The <u> HTML Tags specifies that some text is not articulated and is formatted differently from typical text.
+<template> HTML Tag: The
+<template>
+HTML Tag and <i> HTML Tag are related because they are both formatting HTML Tags. The <template> HTML Tag specifies that when the page loads, the container defines what content should be hidden.
+<samp> HTML Tag: The
+<samp>
+HTML Tag and <i> HTML Tag are related because they are both formatting HTML Tags. The <samp> HTML Tag defines  a computer program’s sample output.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <i> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <kbd> Tag Definition, Usage and Example…
+TechSEO
+HTML <mark> Tag Definition, Usage and Exampl…
+0
+0
+0

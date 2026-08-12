@@ -1,0 +1,113 @@
+The Protocol-relative URL (Link) for SEO and Web Security - Holistic SEO
+Skip to content
+The Protocol-relative URL involves a URL that is opened via HTTP and HTTPS protocols at the same time. A CSS, JS, Image, Font file, or Web Document (HTML Document) can be opened via SSL and without SSL according to the webserver configuration and requestor request HTTP headers. Protocol-relative URL is opened by the web browser according to the actively opened URL’s protocol. For example, if the web page is opened via HTTPS, the HTTPS version of the URL is used, otherwise, HTTP is used.
+Internet Explorer gives the “Non-Secure Items” error for the protocol-relative URLs. Google Chrome sends web browser console messages to state the protocol-relative URL on a web page. The protocol-relative links are avoided by the web developers, web users, and website publishers after SSL is encouraged by web search engines such as Google, and web security and privacy experts. An example of a protocol-relative URL is below.
+<img src="//holisticseo.digital/img/example.jpeg">
+The protocol-relative URL example above demonstrates that the “http//:holisticseo.digital/img/example.jpeg” and “https:////holisticseo.digital/img/example.jpeg” can be opened at the same time according to the chosen URL. Protocol-relative URLs are a signal for quality and web security since they signal whether the website works via only HTTPS or both HTTPS and HTTP.
+Hypertext Transfer Protocol is to arrange the communication between a web browser user and a web server that serves the website. The protocol-relative URLs were useful to prevent connection errors and unnecessary redirects when the SSL Certificates are not popular. Google, Microsoft Bing, Yandex, DuckDuckGo, and many other web search engines started to promote the SSL as a ranking factor and quality signal for the web users. Thus, protocol-relative URLs started to lose their popularity while causing privacy and web security issues.
+Contents of the Article
+show
+1.
+Why are Protocol-relative URLs prominent for SEO?
+1.1.
+Why are Protocol-relative URLs prominent for Web Security?
+2.
+How to Detect Protocol-relative URLs in a Website?
+2.1.
+How to Remove Protocol Relative URLs from a Website?
+3.
+What are other Web Security Problems for SEO rather than Protocol-relative URLs?
+4.
+What is the difference between Protocol-relative and Root-relative URLs?
+5.
+Last Thoughts on Holistic SEO and Protocol-relative URLs
+Why are Protocol-relative URLs prominent for SEO?
+Protocol-relative URLs are significant for Search Engine Optimization because it provides security, privacy, and certainty for search engine users and crawlers. A protocol-relative URL causes internal and external redirections, and “HTTP” or non-SSL URLs for web browser navigation during internet browsing. Thus, protocol-relative URLs are seen as dangerous for the web browser user privacy, and security. Protocol-relative URLs are negative factors for page loading performance, which is prominent for search engine optimization. A protocol-relative URL causes a longer new web page opening time due to possible redirections, and URL resolutions that are performed by the web browser. Thus, protocol-relative URLs are prominent and negative practices for web browser users, their experience, and search engine optimization.
+Key points for protocol-relative URLs and SEO intersection are listed below.
+Protocol-relative URLs are not good for web user privacy.
+Protocol-relative URLs are not good for web user security.
+Protocol-relative URLs are not good for web page loading performance.
+Protocol-relative URLs are not good for crawling efficiency due to internal possible redirects.
+Protocol-relative URLs cause longer URL resolution timing.
+Protocol-relative URLs are negative for SEO, especially after the SSL becomes a ranking factor for Google in 2014.
+Why are Protocol-relative URLs prominent for Web Security?
+Protocol-relative URLs are prominent for web security because protocol-relative URLs are resolved as HTTP or HTTPS depending on the used URL, or the
+web server
+that serves the URL. HTTP is not a secure protocol for URL resolution and web page loading along with web browsing. Thus, protocol-relative URLs cause web security issues for web users. Using HTTP URLs is harmful to the possible improved future web browser features. HTTP is not improved anymore, and many
+web browser
+features are applicable for HTTPS. Thus, using protocol-relative URLs cause users to be exposed to the old web browsing features.
+How to Detect Protocol-relative URLs in a Website?
+The Protocol-relative URLs in a website are detected by the SEO Crawlers. An SEO Crawler is a website crawler to detect the website’s search engine optimization friendliness problems. To detect the protocol-relative URLs in a website, the Screaming Frog,
+OnCrawl
+, JetOctopus, Advertools, and many other site crawlers are used. Using a web browser such as Firefox Mozilla or Google Chrome is an option to find a protocol-relative URL from a web page’s source code.
+The rendered
+DOM
+contains many URLs from a web page. To detect and find a protocol-relative URL from a website, one should check the rendered DOM. An example of a Protocol-relative URL finding from Google Chrome is below.
+Open the Google Chrome DevTools.
+Use the Regex for finding the “HTML Tags” that contain a “href” value that starts with “//”.
+Take the Protocol Relative URLs into an array and export
+To find the Protocol-Relative URLs via Screaming Frog SEO Crawler, use the SEO Crawler with the Security Section.
+John Mueller’s Statement for Protocol-relative URLs.
+How to Remove Protocol Relative URLs from a Website?
+To remove Protocol-Relative URLs from a website, the website’s back-end and front-end infrastructures are prominent. Protocol-relative URLs are removed via programmatic methods, such as replacing the “
+a href
+” values with a simple MySQL command or replacing all the protocol-relative URLs with a NodeJS plugin. If the website is WordPress, protocol-relative URLs can be removed via plugins or the htaccess file modifications. To replace the Protocol-relative URLs with the “root-relative URLs”, the WP-Config.php is used.
+Protocol Relative URL Example.
+What are other Web Security Problems for SEO rather than Protocol-relative URLs?
+There are similar but different web security vulnerabilities for SEO rather than Protocol-Relative URLs. Protocol-relative URL similar problems for SEO and Web security are listed below.
+Mixed Content: Mixed content is similar to the Protocol-relative URLs because it represents the “HTTP” URLs within the “HTTPS” used URLs.
+Unsafe Cross-Origin URL: Unsafe Cross-origin URLs are problematic for SEO and Web Security, like Protocol-relative URLs because they allow websites to track the users for their navigation history.
+Missing X Frame Options: X Frame Options allow users to track the data from the “iframes”, thus it is a similar problem to Protocol Relative URLs.
+Missing HSTS Header: HSTS Header is prominent because it prevents HTTP URLs to be used by forcing the web browser. It is a highly similar problem to the Protocol Relative URLs.
+Bad Content-Type: Bad Content-Type means that the actual content type is different from the state one in the response headers. Protocol-relative URLs and Bad Content-Type are from the same group of problems for SEO.
+Missing Content Security Policy: Missing content security policy represents that the website doesn’t have a proper website security policy.
+The Protocol Relative URL is one of the most important web security issues for SEO. And, all other similar web security issues are connected to it at fundamental levels.
+What is the difference between Protocol-relative and Root-relative URLs?
+Protocol-relative and Root-relative URLs are different from each other. Protocol-relative URLs are prominent for web security, while root-relative URLs are prominent for Technical SEO. Root relative and Protocol relative URL differences are given below.
+<a href="/example-path/"> # root-relative URL
+<a href="//example.com/example-path"> # protocol-relative URL
+The protocol-relative URL starts from the “//” and includes the domain name, while the “root-relative URL” doesn’t contain the protocol or the domain name. Root-relative URLs are not dangerous for technical SEO, but they shouldn’t be used in the canonical tags and the hreflang values. Google stated that using the absolute URLs is better for
+hreflang
+and
+canonical
+values. The same is valid for Protocol-relative URLs too.
+To understand the difference between absolute URL and relative URL paths, read the relative guide.
+Last Thoughts on Holistic SEO and Protocol-relative URLs
+The Holistic SEO and Protocol Relative URLs are related to each other because Holistic SEO focuses on every vertical of SEO, including web security. A search engine might demote a website because of the Protocol-relative URLs, and it can affect the authority and trustworthiness of the website. If a website has a security vulnerability, the search engine might not trust the website anymore for better rankings. Protocol-relative URLs are a prominent problem for SEO since 2014 after Google declares HTTPS as a ranking factor. Thus,  using always the HTTPS rather than HTTP or protocol Relative URLs is prominent. Protocol-relative URLs are detected by the SEO Crawlers and removed by the web development methods. According to the website infrastructure, different methods such as htaccess modification, or the NodeJS plugins are used. Protocol-relative URLs are prominent for web security, privacy, and technical SEO in terms of canonical and hreflang usage.
+The Protocol-relative URL guide will be continued to be updated in the light of new information for web security and SEO.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+The Protocol-relative URL (Link) for SEO and Web Security
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+TechSEO
+Absolute and Relative URL Differences and Definiti…
+TechSEO
+Proxy-Authenticate HTTP RequestHeader: Syntax, Dir…
+0
+0
+0

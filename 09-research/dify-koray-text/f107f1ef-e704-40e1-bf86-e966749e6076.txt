@@ -1,0 +1,192 @@
+HTML <thead> Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <thead> HTML Tag defines the header of a table. The <thead> HTML Tag is often used to group a collection of table rows that determine the column headers within the table. The <thead> HTML Tag element must be a child of the <table> element, following any <caption> element and <colgroup> element but it should be preceding to any <tbody>, <tfoot>, and <tr> elements.At least one row must be contained within the <thead> HTML Tag, as required by the <tr> element. The <thead> HTML Tag is part of the Tables HTML category in HTML Element Reference. The attributes of the <thead> HTML Tag are global and event attributes.
+<thead> code block example to learn how it works is given below.
+<thead>
+<tr>
+</tr>
+lt;/thead>
+The second example usage of the “<thead>” code block example is given below.
+</style>
+</head>
+<body>
+<h2>thead tag example</h2>
+<table border="2">
+<caption>President of United States of America</caption>
+<thead>
+<tr>
+<th>Name</th>
+<th>Year</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>George Washington</td>
+<td>1789-1797</td>
+</tr>
+<tr>
+<td>John Adams</td>
+<td>1797-1801</td>
+</tr>
+<tr>
+<td>Thomas Jefferson</td>
+<td>1801-1805</td>
+</tr>
+<tr>
+<td>	James Madison</td>
+<td>1809-1813</td>
+</tr>
+</tbody>
+</table>
+</body>
+Contents of the Article
+show
+1.
+What is <thead> HTML Tag?
+2.
+How to Use <thead> HTML Tag?
+2.1.
+Example Usage of <thead> HTML Tag?
+3.
+What are the Attributes of <thead> HTML Tag?
+4.
+What are the Default CSS Settings for <thead> HTML Tag?
+5.
+What are the Related other HTML Tags to <thead>?
+What is <thead> HTML Tag?
+The <thead> HTML Tag  specify the heads of an HTML table. The parent table> element’s column labels can be found here in a row-by-row format. The <thead> HTML Tag, along with the <tbody> and <tfoot> tags, can be used to determine the header, footer, and body of the table. This information can be used by browsers to allow the table body to be scrolled separately from the header and footer, which is particularly helpful for large tables. Additionally, when producing a huge table that covers numerous pages, this information can be used to display the table’s header and the footer at the top and bottom of every page.
+How to Use <thead> HTML Tag?
+To use the <thead> HTML Tag, the web developer should write the <thead></thead> with content text inserted between the tags. Additionally, the web developer can include the <tr> and script supporting elements such as <scirpt> and <template>.
+Example Usage of <thead> HTML Tag?
+The following examples of usage of <thead> HTML Tag are given below.
+<table>
+<thead>
+<tr>
+<th>Laptop</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Macbook Air</td>
+<td>$1,299</td>
+</tr>
+<tr>
+<td>Asus ROG Zephyrus G15</td>
+<td>$2,364.98</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td>Samsung Galaxy Book Pro</td>
+<td>$1,299.99</td>
+</tr>
+</tfoot>
+</table>
+<table>
+<thead>
+<tr>
+<th>iPhone</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>iPhone 13 Pro</td>
+<td>$999.00</td>
+</tr>
+<tr>
+<td>iPhone 11</td>
+<td>$549.00</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td>iPhone XR</td>
+<td>$309.00</td>
+</tr>
+</tfoot>
+</table>
+What are the Attributes of <thead> HTML Tag?
+There are multiple attributes for the <thead> HTML Tag. The following attributes are listed below.
+Global Attributes: The <thead> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <thead> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <thead> HTML Tag?
+The following are the Default CSS Settings for the <thead> HTML Tag.
+thead,
+tfoot {
+background-color: #3f87a6;
+color: #fff;
+}
+tbody {
+background-color: #e4f0f5;
+}
+caption {
+padding: 10px;
+caption-side: bottom;
+}
+table {
+border-collapse: collapse;
+border: 2px solid rgb(200, 200, 200);
+letter-spacing: 1px;
+font-family: sans-serif;
+font-size: .8rem;
+}
+td,
+th {
+border: 1px solid rgb(190, 190, 190);
+padding: 5px 10px;
+}
+td {
+text-align: center;
+}
+What are the Related other HTML Tags to <thead>?
+The other related HTML Tags to the <thead> HTML Tag are listed below.
+<col> HTML Tag: The
+<col>
+HTML Tag and <thead> HTML Tag are related because they are both tables HTML Tags. The <col> HTML Tag specifies the columns settings for each column contained within a <colgroup> element.
+<colgroup> HTML Tag: The
+<colgroup>
+HTML Tag and <thead> HTML Tag are related because they are both tables HTML Tags. The <colgroup> HTML Tag Specifies a group of one or more columns in a table for formatting
+<tbody> HTML Tag: The <tbody> HTML Tag and <thead> HTML Tag are related because they are both tables HTML Tags.  The <tbody> HTML Tag groups the body content in a table
+<tr> HTML Tag: The
+<tr>
+HTML Tag and <thead> HTML Tag are related because they are both tables HTML Tags. The <tfoot> HTML Tag specifies a table row.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <thead> Definition, Usage and Examples
+by Holistic SEO
+time to read: 5 min
+TechSEO
+HTML <tr> Definition, Usage and Examples
+TechSEO
+HTML <tfoot> Tag Definition, Usage and Examp…
+0
+0
+0

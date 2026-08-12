@@ -1,0 +1,106 @@
+Keyword Stuffing: Definition, Examples, and Effects for SEO - Holistic SEO
+Skip to content
+Keyword stuffing
+generally refers to the excessive and manipulative use of keywords on a page with the aim of improving the page’s ranking for that keyword without creating any benefit for the user. This technique worked until around the beginning of 2000. It was also common for this tactic to include keywords as “
+hidden text
+”  on the page: keywords in white color were implemented on a white background. These were not visible to the user, but they were visible to a crawler. Nowadays, thankfully, keyword stuffing is a method in black hat SEO that is no longer promising.
+The massive insertion of keywords in a body text is also known as keyword stuffing. However, because keyword stuffing often means that a website can no longer make a meaningful statement, the content used is obsolete and the added value of the page is zero,  search engines recognize that keyword stuffing is punished. Because, Search Engine Algorithms are always designed to find the best and the most relevant content, function, information, and layout for the users’ queries and search activities.
+Contents of the Article
+show
+1.
+Where do Spammers Use Keyword Stuffing?
+2.
+What do Search Engines Define as Keyword Stuffing on a Web Page?
+3.
+What does Google Say About Keyword Stuffing?
+4.
+What does keyword stuffing mean for SEO? Why is keyword stuffing harmful to ranking?
+5.
+What measures help against keyword stuffing?
+6.
+Last Thoughts on Keyword Stuffing and Holistic SEO
+Where do Spammers Use Keyword Stuffing?
+Keyword stuffing assumes that the relevance of a website for a corresponding keyword or combination of keywords increases due to the fact that precisely this key term or combination is used particularly frequently on a web page. The implementation of this method can be very versatile. So it is “stuffed” wherever possible:
+Meta Title
+: Here the keyword is repeated several times in the page title during stuffing.
+Meta Description
+: Here, too, the keyword appears many times. At least, since the meta description is no longer a ranking factor, keyword stuffing no longer plays a role here.
+Meta Keyword
+: Keyword stuffing was also very popular in this meta tag.
+Keywords and many long-tail terms
+were then stored in the source code in combination with the main keyword. In some cases, the meta keywords in the source code spanned multiple lines. Since 2009 at the latest, heaped keywords have no longer been meaningful, because at that time Google officially announced that this day was no longer important.
+Content
+: In the texts on the website, the keyword is used in every sentence if possible. The result is text that looks unnatural and, depending on the keyword, also sometimes promotes meaningless combinations.
+Source text
+: At this point, Black Hat SEOs also worked and filled the part with the website that was not visible to the user with appropriate keywords to give search engine robots the necessary feed. Font size “zero” for text or white text on a white background is also part of keyword stuffing but is now reliably exposed by search engine robots.
+ALT Attributes
+: Many keywords have been placed in the alt attribute of images for a long time. Since the ALT attribute is used when a browser cannot display images or when blind users want to “read” a website, keyword stuffing is not only bad for SEO reasons.
+Title Tag
+: Keywords can also be stored in the title tag of links or images. When stuffing, these are then inserted in large numbers, similar to the meta tags.
+For more information about
+On-Page SEO Elements and Ranking Factors
+, read our guidelines.
+What do Search Engines Define as Keyword Stuffing on a Web Page?
+The Search Engine calculates the frequency of used keywords in the content in proportions. It also depends on the scope of the entire content. The total amount of content is viewed in relation to the frequency of the keyword. The so-called keyword density is assessed here. For a long time, the so-called
+TF/IDF factor
+is much more important than this assessment. This is not only considering,  how often that keyword is present in this one content, but also in what proportion of this value is to other keywords that deal with the same subject.
+In addition, comparing within this formula, how typically this keyword appears within potential other pages. The same applies here too: If the keyword appears too typically, Google can implement an algorithmic devaluation or manual action for the ranking of the website or just the specific web pages.
+What does Google Say About Keyword Stuffing?
+Google’s webmaster guidelines include several criteria to make the quality of pages more measurable. In Google’s Webmaster Quality Guidelines, any SEO and Website Owner can find Google’s Spam Guidelines and spam definitions from Google’s perspective. Keyword stuffing is also being defined. The use of the term to is frequently strongly discouraged, especially if the added value of the web page is being harmed by this repetitive keyword usage practice.
+From Google’s point of view, you should avoid filling your own pages with keywords indiscriminately, as it can extremely damage the ranking of the page. The user experience can also deteriorate significantly since a text is no longer readable when the same keyword is used frequently and is therefore irrelevant to the users. Google recommends creating valuable content for website users and not focusing on tricks such as hidden text or other illegal techniques. Since the
+Penguin update
+, Google has also actively taken action against this methodology and has tried to recognize and punish pages that have been noticed by the spam detection algorithms.
+What does keyword stuffing mean for SEO? Why is keyword stuffing harmful to ranking?
+Keyword stuffing expresses an obsolete and backward understanding of SEO. It is no longer possible to raise rankings without actually benefiting the user. Even worse, although certain queries are not required, using them in headings, introduction paragraphs, and visual subtags with different combinations of them for ranking purposes also means keyword stuffing.
+Nowadays, many SEOs can implement such practices under the name of optimization without being particularly aware. For this reason, you should not use a query in any part of the
+web page
+if it really does not contribute to the user’s experience and the content’s information structure.
+What measures help against keyword stuffing?
+Without any kind of tool, a person can understand whether a keyword stuffing situation is valid or not for content. If the content doesn’t spark a sense for the reader, and it always repeats the same terms with unnatural sentences, if it doesn’t give any information, simply saying keyword stuffing applied here is possible.
+Also, there are lots of writing editors to help users divide big content blocks into pieces for eye-tracking, fixing grammar errors, and changing the tune of the article. Along with this, using a
+TF-IDF
+Checker can be useful. Also, checking the SERP for specifically targeted queries and the content of the best-ranked pages can help. Checking their keyword density for specific terms, TF-IDF Results and eye-tracking, content tune, sentiment analysis, and used entities in the content may help. The key here is being natural and creating value for the visitor. Using synonyms of a query also can create a better context relevance for certain topics without any kind of stuffing implementation.
+Last Thoughts on Keyword Stuffing and Holistic SEO
+Keyword stuffing does not have a positive SEO effect. In order to optimize on-page today, webmasters and SEOs should focus more on the semantic context of content on the website and therefore less on the keywords. Due to the constantly improving search functions, e.g., Google search, just think of the
+Hummingbird Update
+, since comparisons can also be made via the search bar, techniques such as keyword stuffing are comparable to athletes who dope for best performance right before the competition wonder if they are discovered.
+The fact that keyword stuffing no longer works has a positive effect on the SEO industry. Because it gets them out of the “dirty corner” and once again makes it clear that search engine optimization is not about dirty tricks and scams, but about real craftsmanship, experience, and knowledge.
+Google can distinguish better and better-copied content, thin content, and web spam. The company is helped by the Gibberish Score, for which Google even applied for a patent in 2009. In addition, Google now uses artificial intelligence with Rank Brain to evaluate search queries that have never been made. It is therefore also conceivable that search engine designers also use technical solutions for the analysis of websites and thus expose bad content with excessive use of keywords more quickly.
+If you want to avoid keyword stuffing as a copywriter or SEO, you can resort to helpers such as TF-IDF tools or article editors such as Hemingway Editor. You determine the relevance of a text based on term weighting. It is not the frequency of a certain key term that plays a central role, but the frequency of relevant terms that are used for a specific search query from the 10 or 15 best-placed URLs on Google.
+As Holistic SEOs, we will continue to improve our Keyword Stuffing Guideline.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Theoretical SEO
+Keyword Stuffing: Definition, Examples, and Effects for SEO
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+Theoretical SEO
+RankBrain: Everything About Google’s Rankbra…
+Theoretical SEO
+What is Hidden Content? How to Detect and Avoid It…
+0
+0
+0

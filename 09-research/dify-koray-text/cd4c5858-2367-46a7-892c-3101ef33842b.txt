@@ -1,0 +1,92 @@
+TrustRank: Definition, PageRank Relation and Effects on SEO - Holistic SEO
+Skip to content
+The TrustRank algorithm is a procedure for evaluating the quality of websites. It was developed by Zoltán Gyöngyi, Héctor García-Molina, and Jan Pedersen and filed for a patent by Yahoo. It is used for the semi-automatic classification of the quality of a page or for finding spam pages and is intended to help search engines evaluate websites.
+Besides the TrustRank algorithm, the term is also being used for a general-purpose. TrustRank usually means the trust level of the Search Engine towards the web entity and web page today. Also, some 3rd Party SEO Softwares also use this terminology.
+Contents of the Article
+show
+1.
+Development of the TrustRank
+2.
+How does the TrustRank work?
+3.
+How Does Google use TrustRank Algorithm in a Different Angle
+4.
+What are the Confidence Index and Confidence Note in TrustRank Patents
+5.
+TrustRank Algorithm and Iterations over Trusted Web Site Selections
+Development of the TrustRank
+The TrustRank was developed in 2004 by Zoltán Gyöngyi, Hector Garcia-Molina, and Jan Pederson. Until then, there was only one factor to assess the quality of websites, namely the PageRank. TrustRank also is major reason for that the web sites with .edu and .gov extensions have a better link power than others. TrustRank also affects the PageRank value of a single link.
+You may learn more about Related Google Algorithms and Updates via our Guidelines:
+Google Florida Update Effects
+Google Hilltop Algorithm Update Effects
+Google Possum Update Effects
+Google Penguin Update Effects
+Google PageRank Algorithm Effects
+Google Caffeine Update Effects
+Google Hummingbird Update Effects
+Google Phantom Update Effects
+Information Retrieval Definition
+How does the TrustRank work?
+The TrustRank algorithm enables search engines to better identify spam websites. In principle, it works in a similar way to the PageRank, because here too, the focus is on recommendations, i.e. links. However, these are not simply measured in numbers as with the PageRank, but based on the link origin.
+Google determines the TrustRank by manually checking particularly trustworthy sites. These should serve as the basis for the trust assessment, based on the assumption that it is very unlikely that these pages will link directly to spam pages. In this context, a selection of around 200 pages is given in the works of Gyöngyi, Garcia-Molina and Pederson. These sites have the highest trust rank because they have no spam and Google trusts the content 100 percent. It can be assumed that among other things University sites, open source projects and pages from public institutions are located.
+Furthermore, all outgoing links from these pages are automatically recorded. Pages that receive a direct link from this trustworthy origin are therefore one “hierarchy level” below and are also rated as trustworthy by Google, but with a slightly lower trust value. With each “level” and thus every further removal of a page from the trustworthy source pages, the TrustRank decreases, whereby the distance is measured here in the form of a link.
+How Does Google use TrustRank Algorithm in a Different Angle
+The TrustRank can be inherited from side to side. If, for example, a website with high TrustRank links to your website, this increases the TrustRank of your page. Conversely, if a website with a poor TrustRank refers to your site or you refer to a website with a poor TrustRank, it reduces your site’s TrustRank. This quality assessment of websites, therefore, plays a major role in link marketing. Because of this situation, Google also improved its algorithms to determine spammy link attacks so that despite Google’s Link Disavow Tool, the webmaster doesn’t have to worry about spammy link spikes.
+Google also used the TrustRank algorithm without links based on similarity with vectorial representatives. If a new page for a targeted query is similar to the quality web pages in terms of quality and function, it also gives that web page trust credit. Google always calculates those similarities to understand the web pages’ quality scores even without links.
+You can learn more about Web Site Representatives with Vectors by reading our article.
+TrustRank is a concept that attributed to Google as a new relevance criterion, which it would use to better rank the results of its engine during a user request. If PageRank is used to “rate” the popularity of a page by analyzing backlinks in a quantitative and qualitative way, TrustRank could be defined as a “confidence index” given to a website, allowing to filter the sources of reference information in a given field.
+What are the Confidence Index and Confidence Note in TrustRank Patents
+Confidence Index is a term from the patent. Also, the Confidence Note and Confidence Index can be given to a web page and content publisher for their reputation and their value in the eyes of Search Engines. Below, you can see some of the TrustRank factors:
+Human intervention on the part of publishers who list a number of essential sites in certain fields;
+Information provided by the domain name: seniority, renewal period, etc. ;
+Number of pages on the site;
+Audience (some figures could be provided by Analytics and/or Chrome);
+Other criteria for the moment little or little known.
+That said, none of these notions has been officially confirmed by Google. In short, the TrustRank remains today an absconded concept on which there are more assumptions than certainties.
+You can watch the Matt Cutts explanation related to the “trust” term in Google’s understanding.
+TrustRank Algorithm and Iterations over Trusted Web Site Selections
+The process here is that the algorithm selects some of these trustworthy websites, which in turn link to similar pages. The greater the distance between a page and the original source, the worse your TrustRank.
+In general, this procedure aims to eliminate a large part of spam on the Internet. This is achieved through the following concept:
+First, sites with 0% spam. These are selected manually and form the start of the algorithm and therefore have the highest possible value in TrustRank. Links are now automatically created from these pages.
+There are landing pages are in second place after the original page and therefore also belong to trusted pages.
+The following linked pages are in third place and are therefore already less reliable. Spam levels of up to 10% can often be recorded here.
+From that moment, the amount of spam on a page increases considerably. The result is that these pages are classified by Google and other search engines as less reliable and at the same time receive a poor ranking and do not appear on the first pages of the search results.
+Note: Since the TrustRank algorithm has a basic methodology and most of the SEOs know those steps, TrustRank Algorithm also started to need to be improved to prevent spam. This is an infinite loop. If a Search Engine Algorithm can be understandable and resolvable, the algorithm will be in the “Gaming the System” term’s outcome. So, sometimes taking links from a web page with lesser TrustRank can be more natural and valuable for Search Engine Algorithm than a link from the New York Times. So, while thinking about Search Engine Concepts and Theories, always a Holistic SEO should remember that Google and other Search Engines are smart and have millions of Algorithms with work in harmony.
+About the iteration, Google always chooses qualitative web page group as examples and then iterate through the external links to create a hierarchy in the model. This iteration methodology is a mutual feature for all of those patents and Search Engine concepts.
+As Holistic SEOs, we will continue to improve our articles and guidelines about TrustRank.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Theoretical SEO
+What is TrustRank? How to Improve it?
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+Theoretical SEO
+What is the Link Juice (Link Equity)? How to Use L…
+Theoretical SEO
+What is the Google sandbox?
+0
+0
+0

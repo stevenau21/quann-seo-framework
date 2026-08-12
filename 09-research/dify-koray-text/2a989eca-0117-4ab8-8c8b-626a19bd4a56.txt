@@ -1,0 +1,200 @@
+DNS: Domain Name System Definition and Explanation - Holistic SEO
+Skip to content
+The Domain Name System, or DNS for short, is also known as the “Internet phone book”. Similar to how you look for a name in a telephone directory to get the phone number, you look in the DNS for a computer name to get the associated IP address. The IP address is required to be able to establish a connection to a server through which only the computer name is known.
+The Domain Name System is a system for resolving computer names into IP addresses and vice versa. DNS does not have a central database. The information is distributed on many thousands of name servers (DNS servers). For example, if you want to visit the website www.elektronik-kompendium.de, the browser asks a DNS server that is stored in the IP configuration. This is usually the Internet access router. Depending on whether the DNS query can be answered or not, a chain of other DNS servers is queried until the query is answered positively and an IP address can be returned to the browser.
+If a computer name or domain name cannot be resolved, then no connection to the host concerned can be established. Unless the user has the knowledge of the IP address. That means communication in the network and on the internet is practically impossible without DNS. That is why there are many thousands of DNS servers all over the world, which are also arranged hierarchically and inform each other about changes.
+When you ask that “where is the X domain”, computer starts resolution process of the domain via Name Resolution Service.
+Contents of the Article
+show
+1.
+How was the Name Resolution before DNS?
+2.
+Domain or Domain name and Domain Name System Relation
+2.1.
+Organizational top-level domains (Excerpt)
+2.2.
+Geographic Top-level Domains (Excerpt)
+2.3.
+Division of tasks in the DNS
+3.
+DNS Zones
+4.
+What is the DNS Server (Name Server)?
+4.1.
+What is Resolver (DNS client)?
+4.2.
+What are Primary and secondary DNS servers?
+4.3.
+How is the Name Resolution Process with DNS?
+4.3.1.
+What is Recursion during DNS Resolution?
+4.3.2.
+What is Iteration during DNS Resolution?
+4.4.
+What is DNS protocol?
+4.5.
+What is OpenDNS?
+4.6.
+What is DNSSEC?
+5.
+Last Thoughts on Domain Name System and Holistic SEO
+How was the Name Resolution before DNS?
+DNS goes back to the “hosts” file, the content of which was used for name resolution in the ARPANET (ancestor of the Internet) and was maintained manually. With the increasing number of hosts in the ARPANET, the need for a distributed and hierarchical system for resolving computer names into IP addresses and vice versa grew.
+Another disadvantage of the host’s file is its lack of uniqueness. What is meant is that everything can be in the file, whatever the administrator thinks is right. The content could be manipulated. In order to avoid this, the DNS provides authoritative name servers and DNSSEC, a procedure with the possibility of checking whether a DNS response originates from a trustworthy DNS server and whether the transport has taken place properly.
+Domain or Domain name and Domain Name System Relation
+A
+domain name
+, or domain for short, is used to give computers that are addressed with hardly memorable IP addresses correct names and at the same time to divide them into a hierarchical structure. Domain names are also often part of a Uniform Resource Locator (URL). The URL (not the) is a “uniform form of specification for resources” in networks. A URL begins with a prefixed abbreviation that identifies the service used (e.g. HTTP: // or FTP: //). This is optional information that is only important for application programs and is not part of the domain name.
+The structure used for domain names consists of three or more parts. The individual parts or levels are separated from one another by points.
+It should be noted that a domain name begins with a period on the far right. This point is the root. As a rule, the point is simply left out because it is only symbolic.
+Computer name (host or service)
+Second level domain (SLD)
+Top-level domain (TLD)
+www.
+ftp.
+holisticseo.
+holisticseo.
+digital
+digital
+An example of Domain Structure.
+Sometimes there is a sub-level domain (subdomain) between the second-level domain (SLD) and the computer name.
+Computer name (host or service)
+Sub-level domain (subdomain)
+Second level domain (SLD)
+Top-level domain (TLD)
+www.
+mailserver
+holisticseo.
+digital
+An example of Subdomain Structure.
+A domain name is always read from back to front. There the address begins with the top-level domain (TLD). There are two types of top-level domains. Geographic top-level domains, the country codes defined according to ISO 3166-1 and referred to as country code top-level domains (ccTLD). Then there are the organizational or generic top-level domains (generic top-level domains, gTLD).
+The second-level domain can be applied for and used by a person or organization. The second-level domain forms a domain namespace under the top-level domain, which enables the organization to operate a server with the name “www”, which can then be found on the Internet under, for example, “www.elektronik-kompendium.de “can be achieved. There is also a third-level domain for further subdivisions, which is also referred to as a sub-level domain or subdomain. At the very end of the chain (at the beginning of the domain name) the optional hostname of the computer is used.
+Name Resolution Diagram for visual definition of the Name Resolution Process.
+An address composed in this way, for example, “www.holisticseo.digital.” is a so-called fully qualified domain name (FQDN).
+To learn more about “
+What is Domain Name and How do Domains work?
+“, you may read our related guideline.
+Organizational top-level domains (Excerpt)
+Some of the Organizational Top-level Domains are below.
+Domain (gTLD)
+Organizational form
+.aero
+Air transportation industry
+.arpa
+Old Arpanet domain
+.biz
+Business, for large and small companies
+.com
+Commercial domain
+.coop
+Cooperations, cooperatives
+.edu
+Schools, universities, educational institutions
+.gov
+United States Government Agencies
+.info
+Information services
+.int
+Internationally active institutions
+.mil
+United States Military
+.museum
+Museums
+.Surname
+Private individuals
+.net
+Network-specific services and offers
+.org
+Non-commercial ventures and projects
+.Per
+Professionals, special professional groups
+Some examples of the Generic Top Level Domains.
+Geographic Top-level Domains (Excerpt)
+Some of the Country-code Top Level Domains are below.
+Domain (ccTLD)
+country
+.at
+Austria
+.au
+Australia
+.cc
+Coconut Islands
+.ch
+Switzerland
+.de
+Germany
+.fr
+France
+.gb
+Great Britain
+.ie
+Ireland
+.it
+Italy
+.li
+Lichtenstein
+.nl
+Netherlands
+.no
+Norway
+.ru
+Russia
+.to
+Tonga
+.uk
+United Kingdom
+Some of the Country Code Top Level Domains.
+The top-level domain (TLD) is followed by the second-level domain (SLD), which can have any name that is unique to the top-level domain. The respective NIC responsible for the top-level domain manages the second-level domains. For “.de” (Germany) this is DENIC. In some countries, such as Great Britain, there are defined second-level domains, for example, “.co.uk”., “.ac.uk”. or “.gov.uk” for better differentiation. Below the second-level domain, there may be further sub-level domains (subdomains) for which the owner of the second-level domain is responsible.
+If you want to learn more about “
+What is Country Code Top Level Domains along with c
+cTLD List
+“, you may read our related guideline.
+Division of tasks in the DNS
+One task in the Domain Name System is name resolution. Another task is the administration of the DNS zones. At the top are the so-called root servers, which store information on the top-level domains (TLD). On the levels below, there are other name servers that are responsible for domains or subdomains and authorized to provide information. And then there are DNS servers that only deal with name resolution and forward requests and cache the responses to successful requests. Or to put it another way, not all DNS servers are the same. Everyone has a different role and responsibility in the DNS.
+A Virtual Example of DNS Zones and their working principles.
+DNS Zones
+A DNS zone is an area of ​​responsibility or an administrative unit that is usually tied to a part of a domain name. An authoritative DNS server is responsible for one or more of these DNS zones. This means that he is the one from whom a DNS request can be answered clearly and correctly for his zone.
+The data of a zone are in a local zone file that must be maintained by the responsible administrator.
+Every entry made to the DNS Zone is known as “resource records”. Each resource record is associated with a different record type and contains different information. For example, IP Address, mail server address, or domain name or region.
+Below are some of the DNS Zone Record Types and Entries.
+A / IPv4 address
+AAAA / IPv6 address
+CNAME / referral, forwarding, or alias (Canonical Name)
+MX / responsible mail server for the zone (Mail Exchange)
+NS / responsible name server for the zone
+SRV / Server for service in Windows AD
+TXT / returns a text
+SOA / contact person and parameters for the requested zone (Start of Authority)
+A more clear example of DNS Zones.
+What is the DNS Server (Name Server)?
+DNS Server and Name Server have the same name. The name server is the general name of a server and refers to the server responsible for the name resolution process. The name server is responsible for storing the DNS Records. DNS Server refers to the relevant server in the Domain Name System. For instance, A, CNAME, AAA are the DNS Records that have different IP Addresses for different functions in the same Domain Name System, all of them are stored by the Name Server.
+There are multiple DNS Servers responsible for different tasks. These are listed below:
+DNS root server
+Authoritative name server (for a DNS zone)
+Non-authoritative name server
+Cache
+Forwarder
+Resolver
+DNS root server: DNS root server, a root name server or even just root server is authoritative name servers for the root zone. They answer queries about the root zone (“.”) Or return a list of authoritative name servers for a specific top-level domain (TLD) (“.de”, “.com”, “.org”, etc.) . To prevent manipulation of the root zone, there are over a hundred root name servers worldwide that are subordinate to the DNS Root Server System Advisory Committee of ICANN.
+Authoritative name server
+: An authoritative name server is responsible for one (or more) zones and only answers queries for these zones. Authoritative means that the information on this name server is binding.
+Non-authoritative name server
+: A non-authoritative name server is not responsible for a DNS zone itself and must therefore obtain the information about a zone from second or third hand with a recursive or iterative DNS query. This name server and its DNS information are therefore non-authoritative.
+A website’s name server is the real storage for a website.
+In practice, a rough distinction is made between authoritative and recursive DNS servers. A recursive DNS server is only a proxy server. It collects the requested information and makes the result available to the hosts. It keeps the information available for a while so that it does not have to be sent back to the network when a new request is made. From a recursive DNS server, you always get “non-authoritative”, i.e. unauthorized answers. This means that the content of the answer does not have to be correct. Because in principle he only parrots what he has determined from elsewhere.
+Further properties of name servers are caching (saving) and forwarding (forwarding).
+Caching server
+: A caching server receives information from another name server and stores the information for a while. This server does not have to obtain the information again until it is no longer available. The service life (Time-To-Live, TTL) is determined by the authoritative name server.
+Forwarding server
+: A forwarding server forwards all DNS queries to another name server without exception.
+Resolver
+: Most DNS servers are not authoritative DNS servers, but only DNS resolvers with caching and/or forwarding functions. Typically, DNS resolvers in a local network are responsible for the name resolution of the clients. A DNS server acting as a resolver is located locally on a computer or as a server function in a router in the local network. The DNS server entered in the IP configuration is, therefore, such a DNS resolver. The local DNS client is also referred to as a resolver.
+What is Resolver (DNS client)?
+A resolver (“to resolve”) is a program that gets information from the Domain Name System. The program is a kind of intermediary between an application and the DNS.
+The resolver is directly integrated into TCP / IP and is available there as a software library for name resolution. The resolver is addressed with the functions “gethostbyname” and “gethostbyaddr”. It returns the IP address of a domain name or the main domain name of an IP address.
+In order for the resolver to work, it needs the IP address of one, better two, DNS servers, which must be entered in the IP configuration.
+What are Primary and secondary DNS servers?
+So that a DNS server does not have to carry the entire load of the DNS request alone, there are so-called primary and secondary name servers. They are designed independently and redundantly so that at least one server is always available. The secondary name server compares its data with the primary name server at regular intervals and thus serves as a backup server. A second name server makes sense because a failure of the primary name server means that Internet connections without name resolution are no longer possible. In order to still be able to establish connections, the user would have to know the IP addresses of the servers contacted. But that is not the rule.
+Between different name servers of a website can be a certain hierarchy. This called as Name 
+
+[...truncated...]

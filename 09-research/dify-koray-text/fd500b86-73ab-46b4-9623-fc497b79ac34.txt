@@ -1,0 +1,102 @@
+What are Heading Tags: How to Use Heading Tags, Best Practices - Holistic SEO
+Skip to content
+The heading tag defines and classifies headings in HTML documents. For example, a first-order heading is defined or opened with </H1>. The heading is then closed again with </H1>. The headings are graded by the number behind the “H”. HTML documents can contain headings from H1 to H6. The heading tag provides an HTML Document with a structure or a hierarchy. A first-order heading should only appear once on a page. The other classes can be used several times, but their arrangement should make sense. If you display an HTML document as a tree structure or tree diagram, the heading tags correspond to the nodes. Since there is basically only one starting point at the top of a tree diagram, there should only be one H1 heading.
+Also, Heading Tags are part of Semantic HTML Usage. Using Semantic
+HTML Elements
+in a correct harmony, help Search Engines to increase crawl efficiency and understand the web site’s structure faster. Using a correct Semantic HTML Structure can create positive ranking effects, if Search Engine can’t see or understand the Semantic HTML Elements on a web site, the algorithms for this term won’t be used to interpret the web pages from that site.
+Contents of the Article
+show
+1.
+Example of document structuring using heading tags:
+2.
+Advantages of using heading tags
+3.
+The relevance of heading tags for search engine optimization
+4.
+What is the Heading Tags Hierarchic Order?
+5.
+Structured Content Has Advantages for Users and Search Engines
+6.
+Heading Tags are not a Direct Ranking Factor
+7.
+6 Tips for Using Heading Tags Better in SEO
+7.1.
+1. Use heading tags for structuring
+7.2.
+2. Improve the usability of your content
+7.3.
+3. Make your content scannable
+7.4.
+4. Make your headlines interesting
+7.5.
+5. Optimize on featured snippets
+7.6.
+6. Use heading tags consistently
+8.
+Last Thoughts on Heading Tags and Holistic SEO
+Example of document structuring using heading tags:
+<H1> Total content of the document </H1>
+<H2> Summary of the first section </H2>
+<H3> Subdivision of the first section </H3>
+<H3> Subdivision of the first section </H3>
+<H2> Summary of the second section> / H2>
+Advantages of using heading tags
+Even if the style sheet of the document is from the browser can not be read out, the use of heading tags ensures that the content is structured and the headings are displayed hierarchically. This also gives the user an overview of which sections of the content are relevant to them – they can get an overview much faster. In addition, heading tags are also recognized by screen readers that are used by visually impaired people to surf the Internet. The heading tag is therefore also important for accessibility. There are also advantages for formatting: The definition of formatting is uniform. If the formatting for H1 is changed in the stylesheet, all H1 headings are adjusted at once. An individual adjustment is not necessary.
+The relevance of heading tags for search engine optimization
+The headlines of a text play an outstanding role not only for authors but also for SEOs. In the markup language HTML, there are separate tags with which they are identified and hierarchized. Heading tags have a less direct effect on rankings but it can show the relevance of the topic for the specific queries and questions for Search Engines. HolisticSEO.Digital explains why they should not be neglected in the context of search engine optimization.
+The headline decides whether a reader looks more closely at content or not. This applies to newspapers and magazines as well as the World Wide Web. The latter consists of HTML documents that are displayed by web browsers. HTML tags – always written in angle brackets – are instructions used to structure the documents. They tell the browser how to display the content (text, images, etc.).
+What is the Heading Tags Hierarchic Order?
+There is a
+heading tag
+for every heading from a different importance level. Strictly speaking, there are six different tags: H1 to H6. The main heading, which indicates what the page is about, is noted as H1. H2 to H6 are used to organize the article. As the number increases, their meaning decreases. That is, the H2 headings are the most important after the H1, followed by H3 and so on. In practice, H1 to H3 are usually sufficient. In theory, an HTML document does not have to contain a single heading tag. The design is done regardless of the day using the CSS statement. Rather, the use of heading tags serves the architecture of the content. With them, it is structured structurally.
+Note: In some cases, Google can use H1 Tags instead of the Meta Title. This happens because sometimes Google may think that the H1 Tag on the web page can define the purpose of the web page better than the CTR-Optimized Commercial Title Tag.
+Note: Heading tags are used for structuring and not for design
+A common mistake made by webmasters is not to use the heading tags appropriately. The reason: The hierarchy of the different headings is also visually visible through design instructions. For example, the H1 heading is usually more concise (larger, bold, etc.) than a subordinate H2 heading using predefined standard instructions. This often leads to laypersons choosing the heading tag from a visual point of view (“H1 is too big for me, H2 looks better”). The appearance of the correctly marked headings can be individually controlled via cascading style sheets (CSS). Whether an H1 is displayed larger or smaller than an H2 is irrelevant for search engine optimization.
+Structured Content Has Advantages for Users and Search Engines
+Well-structured content is beneficial for both consumers and search engines. The subheadings serve as an anchor for the readers in a text wall, which makes the
+text much more readable
+. While the H1 must deliberately describe the topic and attract as much attention as possible, the subheadings should give the reader a precise idea of ​​what to expect in the following paragraphs.
+Not only the users can grasp well-structured content easier and faster, but also the search engines. While human readers recognize the headings by their formatting, Google identifies them by the tag. Heading tags enable the crawler to easily enter the headings and to understand the topic of the page in the next step.
+In some cases, Heading Tags’ position, color, size, and importance in the page layout can be taken more seriously than the definition in the HTML. If a H2 Tag and its text component take more interaction from the user and if it is more permanent at the page layout, Google may think that the visually dominant heading can define the web page in a better way. Using HTML Structure and Design Structure in a harmony creates a crawl efficiency and makes Search Engines understand easier in both ways.
+Heading Tags are not a Direct Ranking Factor
+The heading tags play an indirect and direct role in the ranking in the search results at the same time. Especially in recent years, Google has relativized their importance for search engine optimization. Heading tags are still often referred to as a ranking factor in the context of on-page optimization. Google’s semantic search algorithms improved themselves according to the past but still heading tags can give hints about the content’s relevance and content sections’ purposes for the searcher.
+Since headlines are used for Search Engine Manipulation in old times and they are easy to change, Google started to decrease its direct effect value on ranking. This has made people ask questions on Webmaster Hangouts, two examples for those questions and their answer is below:
+“I think in general, headings are a bit overrated in the sense that it’s very easy to […] get pulled into lots of theoretical discussions on what the optimal headings should be.”
+John Müller
+Iin the webmaster hangout from December 27th, 2019
+Which doesn’t mean Google ignores headlines. But on the contrary. They help the search engine to understand what the page is about:
+“We do use headings when it comes to search. But we use them to better understand the content on the pages. “
+John Müller
+In the webmaster hangout from December 27th, 2019
+Using keywords in the heading tags – especially in the H1 – has become a common SEO practice and is therefore still mandatory for many webmasters and SEOs. However, today a Holistic SEO should use heading tags in a harmony with the content and context of the web page. That’s why John Mueller advises focusing on conveying the context in order to make it easier for the algorithm to determine the relevance of the web page’s content sections for certain search queries:
+But rather, what we use these headings for is well we have this big chunk of text or we have this big image and there’s a heading above that, therefore maybe this heading applies to this chunk of text or to this image.
+So it’s not so much like there are five keywords in these headings, therefore this page will rank for these keywords but more here’s some more information about that piece of text or about that image on that page.
+And that helps us to better understand how to kind of frame that piece of text, how to frame the images that you have within those blocks. And with that, it’s a lot easier to find […] the right queries that lead us to these pages.
+John Müller
+In the webmaster hangout from December 27th, 2019
+You may read our “
+What is On-Page SEO
+” guideline to learn other On-Page SEO Elements.
+6 Tips for Using Heading Tags Better in SEO
+The following six tips summarize how you can skillfully use a heading tag and why it still makes sense in search engine optimization.
+1. Use heading tags for structuring
+If your website were a book, the title would be in the H1 tag. The H2 tags would be the individual book chapters. The tags from H3 to H6 serve as subtitles for subtopics as they appear in every non-fiction book. If you list these headings among each other, you get the table of contents of the book and thus a perfect overview of its content. The headings on your website serve exactly the same purpose!
+Incidentally, this is exactly the procedure that most table of contents plugins for WordPress follow. You create a hierarchical table of contents from the headings marked with tags on a page, with which readers can jump directly to the point that is relevant to them.
+2. Improve the usability of your content
+Separate yourself from the outdated notion that a few keywords in the heading have a positive impact on the ranking. Heading tags are used today to structure content. Together with paragraphs, they ensure relaxed articles that are popular to read. A text without headings is a lead desert that scares its viewers.
+If you work with heading tags, you improve the readability of your content for humans and machines. You improve the usability of your website, which almost inevitably leads to better user signals. As a rule, the length of stay and the scroll depth increase. In addition, clear articles are shared and linked more often. Heading tags are at least indirect ranking factors because they favor other factors.
+3. Make your content scannable
+It is one of the bitter pills you have to swallow as a webmaster: Your painstakingly created content is read by very few visitors:
+79 percent of Internet users do not read, they skim and only scan the text. Only 16 percent actually read word for word. (Source: https://www.nngroup.com/articles/how-users-read-on-the-web/)
+8 out of 10 users only read the headlines. Only 2 out of 10 read the rest of the text. (Source: https://copyblogger.com/writing-headlines-that-get-results/)
+55 percent of visitors spend less than 15 seconds on a website. (Source: https://time.com/12933/what-you-think-you-know-about-the-web-is-wrong/)
+The reasons for this are diverse. It starts with the fact that we read 25 percent slower on screens than on paper. (Source: https://www.nngroup.com/articles/be-succinct-writing-for-the-web/) There is also a lot more distraction on a website than in a book or newspaper. In addition, there is a wide range of information. If the reader does not find what he is looking for within seconds, he is more willing to return to the search results (high bounce rate) than to deal intensively with the article. True to the motto: Somebody does it better.
+You cannot change anything in this setting. But you can prepare your content with heading tags scannable (Scannable Content). In a well-structured article, your visitors will quickly find the place where their question is answered or their problem is solved.
+4. Make your headlines interesting
+Your heading tags allow your content to be scanned. But ideally, the reader does not scan the entire text, but gets stuck somewhere because the heading has aroused his interest. During the day, therefore, try not only to describe the topic of the following section in a matter-of-fact and matter-of-fact manner, but at the same time to awaken readers’ attention.
+The wording of the H1 is particularly important because it decides whether a user deals with the rest of the content or not. If you succeed in keeping the visitors on the page for the first 30 seconds with interesting headings, the chance increases significantly that they will spend even more time there. The more they deal with your content, the higher the chance of a conversion. (Source: https://www.nngroup.com/articles/how-long-do-users-stay-on-web-pages/)
+5. Optimize on featured snippets
+Featured snippets are highlighted search results that are often presented at the top of the search results and are visually striking. There are different types, for example text, list and table snippets. They provide concise answers to relatively easy-to-answer questions directly in the search results.
+Google wants to keep its users on their own portal longer instead of passing them on to the website. Many users no longer access the site because the information they need is short. At th
+
+[...truncated...]

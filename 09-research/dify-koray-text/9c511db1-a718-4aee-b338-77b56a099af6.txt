@@ -1,0 +1,94 @@
+Skip to content
+The <var> HTML Tag defines to represent the value of a variable in a mathematical formula or a programming context. The <var> HTML Tag is often rendered using an italicized variant of the current typeface, though the behavior varies from browser to browser and is not guaranteed.The <var> HTML Tag is not considered to be deprecated. With CSS, it is possible to generate a more complex and varied appearance. The <var> HTML Tag is part of the Formatting HTML category in HTML Element Reference. The attributes of the <var> HTML Tag are global and event attributes.
+<var> code block example to learn how it works is given below.
+<var>.....</var>
+The second example usage of the “<var>”code block example is given below.
+<p>A basic geometry formula:
+<var>S</var>=<var>2</var><var>l</var><var>h</var>+<var>2</var><var>w</var><var>h</var>+<var>2</var><var>w</var><var>l</var> </p>
+S = 2lh + 2wh + 2wl
+Contents of the Article
+show
+1.
+What is <var> HTML Tag?
+2.
+How to Use <var> HTML Tag?
+2.1.
+Example Usage of <var> HTML Tag?
+3.
+What are the Attributes of <var> HTML Tag?
+4.
+What are the Default CSS Settings for <var> HTML Tag?
+5.
+What are the Related other HTML Tags to <var>?
+What is <var> HTML Tag?
+The <var> HTML Tag is a text tag that is being utilized to specify a factor in a mathematical formula or in a coding setting. The content contained within the <var> HTMLTag is rendered in italic type in most browsers, however, this can be modified by using the appropriate CSS stylesheet.
+How to Use <var> HTML Tag?
+To use the <var> HTML Tag, the web developer should write <var></var> with the text may it be in mathematical formulary or coding style to interpret the message being delivered between the start and end tags. Although the tag lacks local attributes, it can be used with any of the global or event content attributes.
+Example Usage of <var> HTML Tag?
+The following examples of usage of <var> HTML Tag are given below.
+<p>A simple physics formula:
+<var>F</var><var>c</var> = <var>m</var><var>v</var><var>2</var><var>r</var>.</p>
+Fc=mv2r
+<p>Do <var>heavier</var> things fall at a slower rate than <var>lighter</var> ones?.</p>
+Do heavier things fall at a slower rate than lighter ones?
+What are the Attributes of <var> HTML Tag?
+There are multiple attributes for the <var> HTML Tag. The following attributes are listed below.
+Global Attributes: The <var> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <var> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <var> HTML Tag?
+The following are the Default CSS Settings for the <var> HTML Tag.
+var {
+font-weight: bold;
+}
+What are the Related other HTML Tags to <var>?
+The other related HTML Tags to the <var> HTML Tag are listed below.
+<bdi> HTML Tag: The
+<bdi>
+HTML Tag and <var> HTML Tag are related because they are both formatting HTML Tags.The <bdi> HTML Tag separates a section of text from the rest so that it can be formatted differently.
+<s> HTML Tag: The
+<s>
+HTML Tag and <var> HTML Tag are related because they are both formatting HTML Tag. The <s> HTML Tags specifies erroneous or outdated information
+<template> HTML Tag: The
+<template>
+HTML Tag and <var> HTML Tag are related because they are both formatting HTML Tags. The <template> HTML Tag specifies that when the page loads, the container defines what content should be hidden.
+<samp> HTML Tag: The
+<samp>
+HTML Tag and <var> HTML Tag are related because they are both formatting HTML Tags. The <samp> HTML Tag defines  a computer program’s sample output.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <var> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <u> Tag Definition, Usage and Examples…
+TechSEO
+HTML <wbr> Tag Definition, Usage and Example…
+0
+0
+0

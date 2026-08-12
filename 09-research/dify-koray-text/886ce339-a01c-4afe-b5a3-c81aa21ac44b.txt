@@ -1,0 +1,130 @@
+Skip to content
+News Sitemap is an XML file prepared to convey the news that is up to date to Search Engines with news-specific features. The main ranking factors in News Search Results are the timeliness of the news, the degree of originality and richness of the content in terms of text and media, and the publisher’s popularity.
+Different factors such as internal and external links, user experience, crawl efficiency, and an efficient site hierarchy are also effective in news ranking algorithms. News Sitemap is a special XML file that allows current news to be conveyed to search engines through different elements such as subject, author, and image within a particular site hierarchy.
+If you do not have enough information about
+XML Sitemaps
+or
+HTML Sitemaps
+or
+Sitemap Submit
+, you can read our guidelines.
+Contents of the Article
+show
+1.
+What is a Google News Sitemap?
+2.
+Which Websites can use a Google News Sitemap?
+3.
+Guideline for Creating a Google News Sitemap
+4.
+What tags are being used in Google News Sitemaps?
+4.1.
+How is the Example of a News Sitemap XML File?
+5.
+What are the Benefits of Google News Sitemap?
+6.
+Last Thoughts on News Sitemap and Its Importance in SEO
+What is a Google News Sitemap?
+Google News Sitemap is the XML Sitemap type that transmits the latest news content of a news publisher to Google Search Engine with metadata specific to news materials. Thus, by finding the latest news, Google can reach users without decreasing the importance and validity of the news.
+Note The most important News Algorithm in Google Patents The ranking factor often appears to be “freshness”. This is called “
+Breaking News Score
+“.
+With Google News Sitemap, Google can access the publication date, title, description, content-language, image, and new author.
+Which Websites can use a Google News Sitemap?
+You should have a Google News Record to use a Google News Sitemap. This way, your content can be more often accessible in Google News Feed and Google Discovery. Without a new record, your news sitemap won’t be processed.
+Guideline for Creating a Google News Sitemap
+Google News Sitemaps differ from regular XML Sitemaps. Because of these differences, more guidelines exist for creating a news sitemap.
+Things should be known about creating news sitemaps:
+A Google News Sitemap can only contain the URLs from the last two days. Any URLs older than two days are considered non-news for the Google Algorithm. The older URLs will be automatically dropped out from the News Sitemap, but they can be seen in News Sitemaps’ coverage report in Google Search Console for 30 days.
+A news publisher must publish new content frequently. If a news sitemap isn’t updated with fresh content at a necessary frequency, Google may stop crawling it, and the website of the sitemap’s owner can be devalued in the news rankings.
+A news sitemap can only have 1,000 URLs. If more URLs have news value from the last 2 days, news content publishers should create more sitemaps. These multiple news sitemaps can be unified in a single sitemap index file.  A sitemap index file can only have 50.000 sitemaps inside of it. The purpose of those kinds of limits is to try not to overload the news publisher’s server. Google crawls news sites more frequently since they always publish the latest events; because of this, not overloading the server is a more important priority, according to the other kinds of content publishers.
+Some news publishers create a new news sitemap for every new post. This is a mistake; every new news publication can be included in a valid news sitemap.
+General sitemap generators can’t be used to generate a news sitemap because those general sitemap generators will include all URLs, whether they have news content or not. A news sitemap generator should be used to create a news sitemap.
+After creating the news sitemap, it should be uploaded to the web site’s root directory.
+What tags are being used in Google News Sitemaps?
+Tags in News Sitemap are different than the general XML Sitemaps. In a normal XML Sitemap, <urlset>, <url>,<loc>, <lastmod>, <changefreq>, <priority> and more tags have a usage purpose. For a News Sitemap, these tags are a little bit different.
+Tags in a News Sitemap:
+<publication>
+tag defines the location of the news. It specifies where the news appears.
+<name>
+tag shows the publication’s name. It has to be the same as the name appearing on the news.google.com address while ignoring any name changes and differences between them. <name> tag is a sub-tag of the <publication>.
+<language>
+is the language of the news content. It also shows the news published in the country and geography. It is necessary to serve more relevant content for the users’ personalized features such as language, country, or accent. The language code should be used as an ISO 639 Language Code. <language> tag is also a sub-tag of the <publication>.
+<genre>
+is a type specification for the news content. It has to be used in a comma-separated form. Since it affects the experience of the newsreader, it has to be used as honest by the news publisher. Some of the genres are “Blog, OpEd, Opinion, PressRelease, Satire, UserGenerated.”
+<publication_date>
+is for specifying the publication date of the news article. It has to be in W3C format which uses the “entire data” format. Publication tag can contain the minutes, hours, or seconds in “YYYY-MM-DDThh:mm:ss: TZD” format. Also, a news website has to show the news article’s publication date on the web page. And the date on the web page, structure data, and the news sitemap should be consistent. Also, entering decimal points into the news sitemap’s <publication> tag is possible.
+<title>
+tag is a vital element in the news sitemap. This shows the title of the news content. A title tag in the News Sitemap shouldn’t include the author names, publication name or news date, they can have an unnecessary estate in the Google News. A shorter title can have better CTR in Google Newsfeed.
+<keywords>
+the keyword tag is not obligatory for Google. These keywords are meant to show the context of the article. A comma should separate every keyword. Google has its own keyword list for the News Sitemaps. These are “business, legal, lifestyle, politics, nation, science, sports, technology and etc.” Also, there are sub-keywords for every one of them. For instance, under the “entertainment” keyword, “books, movies, TV or songs” can also be found.
+<stock_tickers>
+is another vital tag in the News Sitemap. A comma should separate every stock ticker. Stock tickers can be any kind of financial entity, such as currencies, financial institutions, companies, holdings, mutual funds or joint economic ventures, and international economic organizations. Every stock ticker must match Google Finance’s terminology and every financial entity in the news article should be included in the <stock_tickers> tag.
+How is the Example of a News Sitemap XML File?
+A coded News Sitemap example is demonstrated below.
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+<url>
+<loc>[URL of the news article]</loc>
+<news:news>
+<news:publication>
+<news:name>[Publication Name]</news:name>
+<news:language>[Language]</news:language>
+</news:publication>
+<news:publication_date>[Publication Date]</news:publication_date>
+<news:title>[Article Title]</news:title>
+<!-- Optional Tags -->
+<news:keywords>[Keywords]</news:keywords>
+<news:genres>[Genres]</news:genres>
+</news:news>
+</url>
+<!-- Additional URLs -->
+</urlset>
+What are the Benefits of Google News Sitemap?
+Every section in the News Sitemap affects the news content’s ranking. So, using every possible metadata in the news sitemap benefits ranking purposes. If a news publisher doesn’t use the news sitemap honestly, Google may decrease the importance of the news sitemap’s reference value for ranking and the content value of the news inside of the news sitemap.
+Googlebot-news is the crawler for news websites and news sitemaps. Every tag in the news sitemap helps Google understand the news content’s category, purpose, and benefits for users. For instance, in election news in the United States, “election, politics, democracy” words can be used in <keyword> tag while your publication name has a short political information about the content. Also, your description and the entities in the article help Google classify the content in the newsfeed.
+Keywords order in the keyword tag is not an essential element for Google, also every keyword and stock ticker should be separated by a comma. The comma is the only separator allowed in the News Sitemap. A News Sitemap can show the relevance and purpose of the news article with its genre to Google faster. This increases the crawl efficiency and saves the crawl budget, also it supports Google to classify news according to their language, name, title, category, kind and related entities.
+Last Thoughts on News Sitemap and Its Importance in SEO
+News Sitemaps is one of the most essential elements in the News SEO industry. Showing the articles’ publication date, title, and description, along with the relevant entities and context, to Googlebot in the fastest way possible is the true nature of news SEO. Most SEOs in the news industry don’t even have time to sleep. They are Journalist-SEOs. For a successful news SEO project, organizing a news sitemap that correlates to the logical internal link structure and site hierarchy and taking advantage of social media management is essential. Using social media posting, internal links from the homepage, important categories, and non-important and old but relevant articles can increase the indexing speed and the contextual relevance of the article for a given time and topical area.
+Most news content on news websites today is not indexed because of low crawl efficiency and incorrect code structure. Using Semantic HTML and normal XML Sitemaps in harmony with the News Sitemap and Content Structure also helps Google understand and choose the news source as a reliable breaking news source.
+Showing the Entity Reputation with prizes and news media events is another topic. To learn more about News SEO, you may read our guidelines. News SEO is a vast area to examine Google algorithms while experimenting.
+Caffeine Update
+is another topic that can be researched to accelerate the indexing speed and its effects on the online news publishing industry.
+As Holistic SEOs, we will improve our News Sitemap Guideline with concrete examples.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+How to Create a Google News Sitemap XML for SEO
+by Koray Tuğberk GÜBÜR
+time to read: 7 min
+TechSEO
+What is an image sitemap?
+TechSEO
+What is an HTML Sitemap? Difference Between XML an…
+0
+0
+0

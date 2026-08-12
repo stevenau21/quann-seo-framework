@@ -1,0 +1,125 @@
+Skip to content
+The Warning HTTP Header offers information about potential issues with the message’s status. A response may have multiple Warning headers. The Warning HTTP Header contains information about potential problems with the message’s status that will not be reflected in the message. The Warning HTTP Header has multiple values. The warn-code includes a warn-agent, a warn-text, and an optional warn-date. The “warn-code” is a three-digit caution number that should be written in natural language. The “warn-agent” indicates that the server has added or inserted the header field. The “warn-text” is the enclosed quote. Lastly is the “warn-date,” which is optional if the event has more than one warning header. Examples of the Warning HTTP Header are shown below.
+Warning: 110 anderson/1.3.67 "Response is stale"
+Date: Wed, 26 NOV 2021 07:38:00 GMT
+Warning: 112 - "cache down" "Wed, 26 Nov 2021:07:38 GMT"
+Warning HTTP Header Request Header is seen above. In the article, the Warning HTTP Header Syntax, Directives, and Uses with examples will be processed.
+Contents of the Article
+show
+1.
+What is a Warning HTTP Header?
+1.1.
+What is the Syntax of Warning HTTP Header?
+1.2.
+What are the Directives of Warning HTTP Header?
+2.
+How to use a Warning HTTP Header?
+2.1.
+Examples of Warning HTTP Header Use
+3.
+What is the Specification Documents for Warning HTTP Header?
+4.
+What are the type of Warning HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Warning HTTP Header?
+5.
+Which Browsers Support Warning HTTP Header?
+What is a Warning HTTP Header?
+The Warning HTTP Header tells the user about possible problems with the status of the message that might not be shown in the message itself. The field itself has a warn-code, a warn-agent, a warn-text, and a possible warn-date. It might show up with a lot of Warning headers. Warn header fields should be added to any message, but only transformation messages should have them. They are used to warn about a possible lack of semantic transparency from cache operations and should only be added to transformation messages.
+What is the Syntax of Warning HTTP Header?
+To use the Warning HTTP Header the syntax below should be followed.
+Warning: <warn-code> <warn-agent> <warn-text> [<warn-date>]
+What are the Directives of Warning HTTP Header?
+The Warning HTTP Header accepts four directives mentioned above and described below.
+<warn-code>: The <warn-code> has a three-digit number. The first number describes the Warning HTTP Header that needs to be removed from a stored response after it has been validated.  An example of Warning HTTP Header warn-code is given below.
+1xx warn-codes: The 1xx war-codes describe the response’s freshness or validity status and are removed by a cache after deletion.
+2xx warn-codes: the 2xx warn-codes specify an aspect of the representation that is not corrected by validation and will not be erased by a cache after validation unless a complete response is received.
+<warn-agent>: The <warn-agent> is a server’s or software name that is used to add the Warning HTTP Header. It might be “-” if the agent is unknown.
+<warn-text>: The <warn-text> is described if the error is in a cautionary text.
+<warn-date>: The <warn-date> is an optional step. It includes the date that matches the date header if more than one Warning HTTP Header is sent. The date and time were stored in the Data Generic HTTP Header if the message was sent.
+The Warning HTTP Header uses a warning code to define the namespace. A list of examples is listed below.
+Code 110 Response is Stale – When a sent response becomes stale, it must be included.
+Code 111 Revalidation Failed – Due to an inability to reach the server, an attempt to validate the stale response failed.
+Code 112 Disconnected Operation – The cache is purposely cut off from the rest of the network.
+Code 113 Heuristic Expiration – A cache chose a freshness lifetime greater than 24 hours and a response age greater than 24 hours based on heuristics.
+Code 199  Miscellaneous Warning – Information that should be displayed to or logged to a user.
+Code 214 Transformation Applied – A proxy adds this if it transforms the representation in any way, such as modifying the content-coding, media type, or something similar.
+Code 299 Miscellaneous Persistent Warning – Information that should be displayed to or logged to a user. This warning code is similar to warning code 199, but it also indicates that a persistent warning is present.
+The following is a Warning HTTP Header example for writing a warning code.
+Warning: 110 anderson/1.3.37 "Response is stale"
+Date: Wed, 21 Oct 2015 07:28:00 GMT
+Warning: 112 - "cache down" "Wed, 21 Oct 2015 07:28:00 GMT"
+How to use a Warning HTTP Header?
+To use the Warning HTTP Header the client might create a message that will entertain by the Warning HTTP Header to give information about the status of the potential problem of the message. The Warning HTTP Header consists of warn-code, warn-agent, warn-text, and warn-date. The Warning HTTP header can be applied to any message, However, this is used to warn that there may be problems with semantic transparency when caches are used. It can only be used for messages that are changed.
+Examples of Warning HTTP Header Use
+An example of the Warning HTTP Header use is given below.
+Warning: 110 parkson/1.3.37 "Response is stale"
+Date: Wed, 19 SEP 2018 07:16:00 GMT
+Warning: 112 - "cache down" "Wed, 19 Sep 2018 16:00:00 GMT"
+What is the Specification Documents for Warning HTTP Header?
+There is only one specification document for the Warning HTTP Header, which is RFC 2616. The RFC 2616 mentions that the Warning HTTP Header is used to carry additional information about the status of the transfer of a message which might not be reflected in the message. Additionally, the article discusses the Warning HTTP Header’s definition and usage.
+What are the type of Warning HTTP Header?
+The  Warning HTTP Header HTTP Type is listed below.
+Representation Header. The Warning HTTP Header contains information about the time and date of the data.
+Payload Headers. The Warning HTTP Header gives information about potential issues with the message’s status. It consists of multiple warning headers.
+What are the similar HTTP Headers to the Warning HTTP Header?
+The similar HTTP Headers to the Warning HTTP Header are listed below.
+Date HTTP Header:
+The Date HTTP Header is similar to the Warning HTTP Header. In the same way that the Warning HTTP Header specifies the time and date at which the message was first sent, the
+Date HTTP Header
+also carries this information.
+HTTP Response Status Code:
+The HTTP Response Status and Warning HTTP Headers contain a variety of distinct codes that correspond to the data.
+Which Browsers Support Warning HTTP Header?
+There are multiple browsers that support Warning HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Warning HTTP Header.
+Edge is compatible with the Warning HTTP Header.
+Firefox is compatible with the Warning HTTP Header.
+Internet Explorer is compatible with the Warning HTTP Header.
+Opera is compatible with the Warning HTTP Header.
+Safari is compatible with the Warning HTTP Header.
+WebViiew Android is compatible with the Warning HTTP Header.
+Chrome Android is compatible with the Warning HTTP Header.
+Firefox Android is compatible with the Warning HTTP Header.
+Opera Android is compatible with the Warning HTTP Header.
+Safari on IOS is compatible with the Warning HTTP Header.
+Samsung Internet is compatible with the Warning HTTP Header.
+You can see an image that shows cross-browser compatibility of Warning HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Warning HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 5 min
+TechSEO
+RTT HTTP Header: Syntax, Directive, Examples
+TechSEO
+Want-Digest HTTP Header: Syntax, Directive, Exampl…
+0
+0
+0

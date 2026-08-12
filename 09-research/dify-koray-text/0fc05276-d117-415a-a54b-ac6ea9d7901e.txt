@@ -1,0 +1,149 @@
+What is ETag HTTP Response Header? - HolisticSEO
+Skip to content
+The ETag HTTP response header is a qualifier for determining version of a web page resource from a website’s server that requested by the requestor which is a web browser user. ETag is used for efficient browser cache in order to decrease bandwidth consumption. If a website uses ETag for its web page resources, the server won’t need to send a full response for every request if the resources don’t change. Lastly, Etags prevents “mid-air collisions” or “simultaneous updates of resources”.
+If a web page resource changes, a new Etag has been created by the server for the same web page resource. If the old Etag and the new Etag are not matched each other, the client (browser) will request the same resource from the server for updating the outdated content in the cache. Thus, ETags can be called fingerprints for web page resources from the browser cache.
+Contents of the Article
+show
+1.
+What is the Syntax of Etag?
+2.
+What are the Directives of Etag Response Header?
+2.1.
+What are the Strong and Weak ETags?
+3.
+How to Check a Resource Etag with Browser?
+3.1.
+Check Etag from Chrome
+4.
+What does ETag stand for?
+5.
+How do ETag headers work?
+5.1.
+Etag Working Style in Steps
+6.
+How to Generate ETags?
+7.
+What are the Programs for ETag Generation?
+8.
+Last Thoughts for ETag HTTP 1.1 Response Headers and Holistic SEO
+What is the Syntax of Etag?
+To use Etag within the response headers the syntax below should be followed.
+ETag: W/"<etag_value>"
+ETag: "<etag_value>"
+ETag Value represents the value that is created by the server for the resource.
+What are the Directives of Etag Response Header?
+The “W/”  is an indicator for the “weak validator”. Weak Etags can be generated easier, but they are less useful for the old and new Etag matching. Strong Etags are better for comparisons but they are harder to be generated. Weak Etag can be equivalent in terms of semantics but they are not identical in terms of bytes, thus if a server and a website using “byte-range” the weak Etags can’t be used for caching.
+Another Directive of the Etag HTTP Response Header is “ETag value” which consists of ASCII Characters within double quotation marks such as “54e94c0ac2e56d1e0a8e36b4”.
+An example for HTTP Etag Usage.
+What are the Strong and Weak ETags?
+In RFC2616 for the Strong and Weak Validation section for the browser-cache system, tells that a server can change the ETag for only response body, not for the response header. In other words, Weak Validation for Weak ETags can be changed for only the response body, but strong validation for strong ETags can check also the response header along with the response body. Below, you will see an example of strong and weak ETag.
+"543b39c23a8d34c232b457297d38ad99"    // Strong ETag
+W/"543b39c23a8d34c232b457297d38ad99"  // Weak ETag
+How to Check a Resource Etag with Browser?
+From every web browser, a user can check the Etags for every web page resource. Below, you will see the Etag auditing methods for Chrome and Firefox.
+Check Etag from Chrome
+To check Etag from Google Chrome Browser, a user can follow the steps below.
+Open DevTools by presssing F12
+Select the Network Panel from DevTools.
+Select any resource that is shown in the Network Panel of DevTools.
+Select the Headers section.
+In the Response Headers section, you will see Etag for the selected resource.
+Below, you will see an Etag Response Header example from Chrome DevTools.
+ETag Response Header within Chrome DevTools’ Network’s Response Headers section. It can be seen that this is a “Weak ETag” with the prefix “W/”.
+To check Etag from Firefox Browser, a user can follow the steps below.
+Open Firefox Developer from Firefox Browser.
+Open the network tab from the Firefox Developer.
+Chose a website resource from the network panel.
+Chose the Headers section.
+Find the Etag response header from the Headers section.
+Below, you will see an Etag Response Header example from Firefox Developer.
+A Different resource and different ETag example from Firefox’s Developer Tool’s Network Tab’s Response Headers Section. Firefox also states the total byte of the response headers, and this example shows also another Weak Etag.
+What does ETag stand for?
+ETag is the abbreviation of the Entity Tag. An Entity Tag represents the tag of a web page resource which is called an entity. Entity tags are used for conditional server requests, it prevents double loading of the same resource in the case of overwriting problems.
+How do ETag headers work?
+ETag (Entity Tag) works comparable to the “last-modified” HTTP response header. The main difference between “last-modified” and “Etag” response headers is that ETag works with content hashing such as MD5 Hash generator. This allows the requestor the check whether the last response is the same as the before.
+The Etag is used with “Cache-Control HTTP Response Header”. Cache-Control response header is used for determining the cache lifespan for a resource. Cache-control is used with “max-age” and “public” or “private” values.
+If the Cache-control response header value is not clear for the requestor (client), the client can check the Etag value for comparing the resources so that the updated version of the web page can be seen in the browser with refreshed resources.
+Below, you will see an ETag HTTP header usage example with Cache Control response header.
+Cache-Control:public, max-age=31536000
+ETag: "15f0fff99eh5aae4edffdd6396d7131f"
+“If-Modified-Since” and “If-None-Match” Request Headers can help using Etag Response Header. “If-None-Match” request header can be sent for matching the ETag value as below.
+If-None-Match: "16f0fff89ed5aaA4edffdd6496d7131f"
+“If-Modified-Since” response header can be used to help ETag response header’s usage purpose which is an efficient browser side caching. “If-Modified-Since” is used for determining the
+status code
+between 200 and 304. If the resource has not been modified since the determined date, the browser will send a 304 response, if it is changed, it will request the resource again and the response will be 200. The syntax of the “If-Modified-Since” can be found below.
+If-Modified-Since: <day-name>, <day> <month> <year> <hour>:<minute>:<second> GMT
+ETag is one of the browsers’ cache system parameters and columns. It can be more efficient to use with “If-Modified-Since” and “If-None-Match” response headers.
+An example of ETag Working Principle with a HTTP Etag Schema.
+Etag Working Style in Steps
+You can see a list of steps to explain Etag working style.
+Requestor request a resource from the server.
+The server generates an Etag value as a response header value.
+Requestor takes a 200 (Ok) status code for the resource and uses the Etag value for the If-None-Match request header.
+A requestor requests the same resource after a time.
+The server checks the If-None-Match request header value and the current Etag response header value.
+If these two values are matching, then it sends a 304 (Not modified) response status code with an empty response body.
+If these two values are not matching, it sends a 200 (Ok) status code with an updated response body.
+How HTTP Entity Tag Works.
+How to Generate ETags?
+In the HTTP Specification, methods to generate ETags are not mentioned. And, using ETags are not mantdatory for HTTP 1.1 headers.
+To generate ETags collision-resistant hash function can be used. A key definition of collision resistance in cryptography is the difficulty of finding two inputs that have the same output; in other words, two inputs a and b with the same hash value H(a) = H(b). RFC 7232 tells that an ETag generation method should be aware of the content-encoding HTTP/1.1 response header and its value. In other words, ETags should be generated differently according to the content encoding types. An example can be found below.
+ETag: "456-x" – for no Content-Encoding
+ETag: "456-y" – for Content-Encoding: br
+Every ETag generation should give a unique input, if the Entity Tag is not unique, it can’t be used for caching. Thus, some earlier hash functions were waker than CRC32 and CRC64, it created some collision problems in the past.
+ETags can be generated with the methods below.
+Hashing the content
+Hashing the last modification timestamp
+Hashing the revision number.
+What are the Programs for ETag Generation?
+For generationg ETags, there are some different possibilities for different web development infrastuctures.
+ETag Plug from Hexdocs
+Etag Generator from JSHTTP
+ETag Generator from Fastify
+To use these github repositories and plugins, a developer should check the official documentations and installiation guidelines.
+Last Thoughts for ETag HTTP 1.1 Response Headers and Holistic SEO
+ETags are important for Page Speed and User Experience. It can decrease the server overhead, page loading time. ETags also can be used by Search Engine Crawlers to crawl a website in a faster way. Some Search Engines use their own aggressive caching system but still, the ETag response header can help Search Engine Crawlers for crawl efficiency and budget. ETag Response headers and other related response headers for entity tags such as “If-None-Match” or “If-Modified-Since”, “Content-Type”, “Byte-Range”, “
+Vary: Accept-encoding
+” are important for page speed and Technical SEO. Thus, a Holistic SEO should know the difference between weak and strong ETags, Etag benefits, their generation methods and cryptography, hash functions, and other related concepts for browser cache systems.
+Our ETag Guideline will continue to be updated with the new information over time.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+2 thoughts on “What is HTTP Etag?”
+good article
+Reply
+Thank you, Sarkari!
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+PageSpeed
+What is HTTP Etag?
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+PageSpeed
+What is TCP Slow Start?
+PageSpeed
+What is Speed Index? How to Improve Speed Index?
+0
+0
+2

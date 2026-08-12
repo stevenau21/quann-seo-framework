@@ -1,0 +1,101 @@
+HTML <script> Tag Definition, Usage and Example - Holistic SEO
+Skip to content
+The <script> HTML Tag defines a script that runs on the client-side. An external file can be referenced by using the <script> HTML Tag, which contains the scripting statements. In the HTML document, the <script> HTML Tag permits the user to access a script. JavaScript is primarily utilized in a form of validation, picture manipulation, and dynamic content updates. Additionally, the <script> HTML Tag can also be utilized with different applications such as WebGL’s GLSL shader programming language and JSON. The <script> HTML Tag is part of the Programming HTML category in HTML Element Reference. The attributes of the <script> HTML Tag are async, crossorigin, defer, integrity, nomodule, referrerpolicy, src, type, and global attributes.
+<script> code block example to learn how it works is given below.
+<script>
+…Content script...
+</script>
+The second example usage of the “<script>” code block example is given below.
+<script type="text/javascript">
+document.write('HTTPS is a protocol that allows encrypted HTTP data to be sent via a secure network connection (such as a VPN)');
+</script>
+Contents of the Article
+show
+1.
+What is <script> HTML Tag?
+2.
+How to Use <script> HTML Tag?
+2.1.
+Example Usage of <script> HTML Tag?
+3.
+What are the Attributes of <script> HTML Tag?
+4.
+What is the Default CSS Setting for <script> HTML Tag?
+5.
+What are the Related other HTML Tags to <script>?
+What is <script> HTML Tag?
+The <script> HTML Tag element means the script is running on the client-side and it includes scripting statements or, if the src attribute is used, and it connects to an external script file on the server. It is possible to insert executable code or data using the <script> HTML Tag element; for example, JavaScript code can be embedded or referenced using this element.
+How to Use <script> HTML Tag?
+To use the <script>, HTML Tag, the web developer should write <script></script> with content script placed in the middle of the tag. HTML elements can have attributes added to them to provide the web developer additional control over how they appear and act.
+Example Usage of <script> HTML Tag?
+The following examples of usage of <script> HTML Tag are given below.
+<script src="myfirstScript.js"></script>
+<script src="https://www.holisticeo.digital/js/myfirstScript.js"></script>
+What are the Attributes of <script> HTML Tag?
+There are multiple attributes for the <script> HTML Tag. The following attributes are listed below.
+Async Attribute: The <script> HTML Tag supports the async attribute. Prior to completing page parsing, this specifies that a script is downloaded and executed immediately before parsing has finished.
+Crossorigin Attribute: The <script> HTML Tag supports the crossorigin attribute. This method changes the request type to an HTTP CORS Request.
+Defer Attribute: The <script> HTML Tag supports the defer attribute. This attribute indicates that the script is downloaded in parallel with the page parsing process and that it will be performed once the page has completed parsing the script.
+Integrity Attribute: The <script> HTML Tag supports the integrity attribute. The integrity attributes guarantee that the script is never downloaded if the resource has been tampered with, the browser must be able to inspect the script that has been retrieved.
+Nomodule Attribute: The <script> HTML Tag supports the nomodule attribute. This denotes that the script must not be performed on browsers that do not support ES2015 modules.
+Referrerpolicy Attribute: The <script> HTML Tag supports the referrerpolicy. Referrer policy specifies the referrer policy should be used when a request is made for a page at the URL specified by the src property.
+Src Attribute: The <script> HTML Tag supports the src attribute. The src is the address of the page that will be embedded.
+Type Attribute: The <script> HTML Tag supports the type attribute. This attribute defines the script’s media type.
+Global Attributes: The <script> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+What is the Default CSS Setting for <script> HTML Tag?
+The following is the Default CSS Setting for the <script> HTML Tag.
+script {
+display: none;
+}
+What are the Related other HTML Tags to <script>?
+The other related HTML Tags to the <script> HTML Tag are listed below.
+<noscript> HTML Tag: The
+<noscript>
+HTML Tag and <script> HTML Tag are related because they are both programming HTML Tags. The <noscript> HTML Tag specifies an alternative content for users who do not have the ability to run client-side scripting.
+<embed> HTML Tag: The
+<embed>
+HTML Tag and <script> HTML Tag are related because they are both programming HTML Tags. The <embed> HTML Tag is a class that specifies a container for an external non-HTML program.
+<object> HTML Tag: The
+<object>
+HTML Tag and <script> HTML Tag are related because they are both programming HTML Tags.  The <object> HTML Tag refers to an embedded object.
+<param> HTML Tag: The
+<param>
+HTML Tag and <script> HTML Tag are related because they are both programming HTML Tags. The <param> HTML Tag creates a parameter for use with an object.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <script> Tag Definition, Usage and Example
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <del> Tag Definition, Usage and Example…
+TechSEO
+HTML <canvas> Tag Definition, Usage and Exam…
+0
+0
+0

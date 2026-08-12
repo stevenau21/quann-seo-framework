@@ -1,0 +1,101 @@
+HTML <rp> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <rp> HTML Tag is used to make fallback parentheses for browsers that don’t show ruby annotations with the <ruby> HTML Tag. One <rp> HTML Tag should cover both of the parentheses that surround the <rt> HTML Tag that holds the text of the annotation. The <rp> HTML Tag is part of the Formatting HTML tags category in HTML Element Reference. The attributes of the <rp> HTML Tag are global and event attributes.
+<rp> code block example to learn how it works is given below.
+<ruby>
+base
+<rp>text</rp>
+<rt>annotation</rt>
+<rp>text</rp>
+</ruby>
+The second example usage of the “<rp>” code block example is given below.
+<ruby>
+사 <rp>(</rp><rt>sa</rt><rp>)</rp>
+랑 <rp>(</rp><rt>rang</rt><rp>)</rp>
+해 <rp>(</rp><rt>hae</rt><rp>)</rp>
+</ruby>
+Contents of the Article
+show
+1.
+What is <rp> HTML Tag?
+2.
+How to Use <rp> HTML Tag?
+2.1.
+Example Usage of <rp> HTML Tag?
+3.
+What are the Attributes of <rp> HTML Tag?
+4.
+What is the Default CSS Setting for <rp> HTML Tag?
+5.
+What are the Related other HTML Tags to <rp>?
+What is <rp> HTML Tag?
+The <rp> HTML Tag is used to surround a ruby main text that defines the information with parentheses. It is necessary for web developers because it is used when a browser does not support ruby annotations. In Japanese publications, this style of annotation is used. This is a non-required attribute. This tag is used in conjunction with the ruby> tag. This is a new tag in HTML5.
+How to Use <rp> HTML Tag?
+To use <rp> HTML Tag, the web developer should write fallback text inserted between the <rp> and </rp> tags and provide a ruby text in parentheses to make it visible to browsers that do not support ruby annotations. Ruby annotations are used to demonstrate how to pronounce East Asian characters, such as Japanese furigana or Taiwanese bopomofo. When the <ruby> HTML tag is not supported, the <rp> HTML Tag is used. The <rp> HTML Tag specifies what should be displayed to indicate the presence of a ruby annotation, which is typically parentheses.
+Example Usage of <rp> HTML Tag?
+The following example of usage of <q> HTML Tag is given below.
+<ruby>
+爱 <rp>(</rp><rt>Ai</rt><rp>)</rp>
+你<rp>(</rp><rt>Ni</rt><rp>)</rp>
+</ruby>
+What are the Attributes of <rp> HTML Tag?
+There are multiple attributes for the <rp> HTML Tag. The following attributes are listed below.
+Global Attributes: The <rp> HTML Tag supports global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <rp> HTML Tag supports event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <rp> HTML Tag?
+The following is the Default CSS Setting for the <rp> HTML Tag.
+ruby {
+font-size: 2em;
+}
+What are the Related other HTML Tags to <rp>?
+The other related HTML Tags to <rp> HTML Tag are listed below.
+<abbr> HTML Tag: The
+<abbr>
+HTML Tag is related to <rp> HTML Tag because they are both in formatting HTML Tags. The <abbr> HTML Tag is used to define abbreviations such as HTML, CSS, and so on.
+<blockquote> HTML Tag: The
+<blockquote>
+HTML Tag is related to <rp> HTML Tag because they are both in formatting HTML Tags. The <blockquote> HTML Tag is used to include quotations from other sources.
+<rt> HTML Tag: The
+<rt>
+HTML Tag is related to <rp> HTML Tag because they are both in formatting HTML Tags. The <rt> HTML Tag is used to define character explanations.
+<ruby> HTML Tag: The
+<ruby>
+HTML Tag is related to <rp> HTML Tag because they are both in formatting HTML Tags. Ruby annotations are defined using the <ruby> HTML Tag.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <rp> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <q> Tag Definition, Usage and Examples…
+TechSEO
+HTML <rt> Tag Definition, Usage and Examples…
+0
+0
+0

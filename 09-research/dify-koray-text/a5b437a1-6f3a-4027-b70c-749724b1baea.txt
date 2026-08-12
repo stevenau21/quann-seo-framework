@@ -1,0 +1,120 @@
+Sec-CH-UA-Arch HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Sec-CH-UA-Arch HTTP Header user agent client hint request header specifies the underlying CPU architecture of the user agent, for example, ARM or x86. It could be used by a server to determine and offer the appropriate binary format for a user to download. There is only one value using the Sec-CH-UA-Arch HTTP Header. The value using the Sec-CH-UA-Arch HTTP Header is the arch. An example of the Sec-CH-UA-Model HTTP Header is written below.
+GET /GET /my/page HTTP/1.1
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Platform: "Windows"
+Sec-CH-UA-Arch: "x86"
+The Sec-CH-UA-Arch HTTP Header Request Header is seen above. In the article, the Sec-CH-UA-Arch HTTP Header Syntax, Directives, and Uses example will be processed.
+Contents of the Article
+show
+1.
+What is Sec-CH-UA-Arch HTTP Header?
+1.1.
+What is the Syntax of Sec-CH-UA-Arch HTTP Header?
+1.2.
+What is the Directive of Sec-CH-UA-Arch HTTP Header?
+2.
+How to use Sec-CH-UA-Arch HTTP Header?
+2.1.
+Examples of Sec-CH-UA-Arch HTTP Header Use
+3.
+What is the Specification Document for Sec-CH-UA-Arch HTTP Header?
+4.
+What is the type of Sec-CH-UA-Arch HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Sec-CH-UA-Arch HTTP Header?
+5.
+Which Browsers Support Sec-CH-UA-Arch HTTP Header?
+What is Sec-CH-UA-Arch HTTP Header?
+In the Sec-CH-UA-Arch HTTP Header user agent client hint, it tells you what kind of CPU the user agent is using, like ARM or x86. Using this information, a server could determine and offer the appropriate binary format for a user to download.
+What is the Syntax of Sec-CH-UA-Arch HTTP Header?
+The Sec-CH-UA-Arch HTTP Header uses only one value. The syntax for using the Sec-CH-UA-Arch HTTP Header is written below.
+Sec-CH-UA-Arch: <arch>
+What is the Directive of Sec-CH-UA-Arch HTTP Header?
+Sec-CH-UA-Arch HTTP header only contains one directive. “Arch” is a string that specifies the underlying platform architecture, for example, “x86”, “ARM”. An example directive for using the Sec-CH-UA-Arch HTTP Header is given below.
+GET /GET /my/page HTTP/1.1
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Platform: "Windows"
+Sec-CH-UA-Arch: "x86"
+How to use Sec-CH-UA-Arch HTTP Header?
+Users are able to specify the underlying CPU architecture of their web browsers using the Sec-CH-UA-Arch HTTP Header user agent client hint request header. Examples of such CPU architectures are ARM and x86. In order for a server to determine and offer the proper binary format for a user to download, it must first determine and offer the suitable binary format for a user to download.
+Examples of Sec-CH-UA-Arch HTTP Header Use
+Accept-CH is an example of a token that can be used in response to a client request for a specific header, such as Sec-CH-UA-Arch. An example is written below.
+HTTP/1.1 200 OK
+Accept-CH: Sec-CH-UA-Arch
+If the client so desires, subsequent requests can include the Sec-CH-UA-Arch header. A Windows X86 PC, for example, will have the header added.
+GET /GET /my/page HTTP/1.1
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Platform: "Windows"
+Sec-CH-UA-Arch: "x86"
+What is the Specification Document for Sec-CH-UA-Arch HTTP Header?
+There is only one specification document for the Sec-CH-UA-Arch HTTP Header, which is the User-Agent Client. User-Agent Client Hints article 3.2 mentions the Sec-CH-UA-Arch HTTP Header’s definition and uses. Additionally, the article discusses the Sec-CH-UA-Arch HTTP Header’s values and examples.
+What is the type of Sec-CH-UA-Arch HTTP Header?
+The Sec-CH-UA-Arch HTTP Header user agent client hint is a request header type that specifies the underlying CPU architecture of the user agent, such as ARM or x86.
+What are the similar HTTP Headers to the Sec-CH-UA-Arch HTTP Header?
+The similar HTTP Headers to the Sec-CH-UA-Arch HTTP Header are listed below.
+HTTP Client Hints:
+Client Hints are a set of HTTP request header fields that a server can proactively request from a client in order to obtain information about the device, network, user, and user-agent preferences. The HTTP Client Hints are a request header, just like the Sec-CH-UA-Arch HTTP Header.
+User-Agent Client Hints API:
+The User-Agent Client Hints API extends Client Hints to expose browser and platform information via User-Agent response and request headers as well as a JavaScript API. The User-Agent Client Hints API provides information and employs a user agent client hint similar to the Sec-CH-UA-Arch HTTP Header.
+Accept-CH HTTP Header:
+The Accept-CH HTTP Header is similar to the Sec-CH-UA-Arch HTTP Header. Using the
+Accept-CH HTTP Header
+, a server indicates which client hint headers should be included in subsequent requests. Servers utilize the same HTTP header as the Sec-CH-UA-Arch HTTP Header.
+Vary HTTP Header:
+The Vary HTTP response header tells the server how to match future request headers to see if a cached response can be used or if a new one must be requested from the source server. When you send a request, you put in a request header like the Sec-CH-UA-Arch HTTP Header.
+Which Browsers Support Sec-CH-UA-Arch HTTP Header?
+There are multiple browsers that support Sec-CH-UA-Arch HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Sec-CH-UA-Arch HTTP Header.
+Edge Browser is compatible with the Sec-CH-UA-Arch HTTP Header.
+Opera Browser is compatible with the Sec-CH-UA-Arch HTTP Header.
+WebView Android Browser is compatible with the Sec-CH-UA-Arch HTTP Header.
+Chrome Android Browser is compatible with the Sec-CH-UA-Arch HTTP Header.
+Opera Android Browser is compatible with the Sec-CH-UA-Arch HTTP Header.
+Samsung Internet Browser is compatible with the Sec-CH-UA-Arch HTTP Header.
+You can see an image that shows the cross-browser compatibility of Sec-CH-UA-Arch HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Sec-CH-UA-Arch HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+X-Forwarded-Host HTTP Header: Syntax, Directive, E…
+TechSEO
+X-Forwarded-For HTTP Header: Syntax, Directive, Ex…
+0
+0
+0

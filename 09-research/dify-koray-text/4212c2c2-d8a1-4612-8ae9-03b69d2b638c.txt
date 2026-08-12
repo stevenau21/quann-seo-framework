@@ -1,0 +1,157 @@
+Archive Web Pages and Web Sites as Bulk with Python - Holistic SEO
+Skip to content
+To save a web page and website into an internet archive in bulk, Python can be used. There are multiple methods to save a link to an internet archive, such as using email with a URL list or submitting a URL to the internet archive’s Wayback Machine manually. To save a website completely to the internet archive, using the email method or manually archiving links method is not useful, unlike Python. For archiving all URLs from a website regularly with Python, “waybackpy” library can be used.
+To see the necessary Python code example for saving a URL to the internet archive, you can check below.
+import waybackpy # imported the waybackpy.
+url = "https://www.holisticseo.digital" #determined the URL to be saved.
+user_agent = "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Mobile Safari/537.36" #determined the user-agent.
+wayback = waybackpy.Url(url, user_agent) # created the waybackpy instance.
+archive = wayback.save() # saved the link to the internet archive
+print(archive.archive_url) #printed the URL.
+>>> OUTPUT
+https://web.archive.org/web/20210430044118/https://www.holisticseo.digital/
+To save a web page to internet archive’s wayback amchine via Python, use the instruction sbelow.
+Import the “waybackpy” Python module.
+Determine a user agent.
+Use the “waybackpy.Url()” method to create a Wayback Machine object instance for a URL.
+Use the “save()” method of “waybackpy” to save the URL to the Wayback Machine.
+Print the saved URL for checking whether it is saved or not.
+To save URLs in bulk to internet archive, using a Pandas Dataframe with the apply method is useful. A necessary code example for bulk URL archiving to the Wayback Machine can be found below.
+dataframe["url"].apply(lambda x: wayback.Url(x, user_agent=user_agent))
+To save multiple webpages to the internet archive (Wayback Machine) at the same time via Python, use the “apply()” and “lambda” function with the “waybackpy.Url()” method. It will iterate over every URL within the Pandas Series, and save every URL one by one.
+In this article, the benefits of saving URLs to internet archives in terms of data protection and SEO, along with filtering necessary URLs for internet archives and saving URLs in bulk to the internet archive by saving time with Python will be processed through practical examples.
+Contents of the Article
+show
+1.
+Which Conditions a URL should satisfy to be registered to the Internet Archive?
+2.
+What is the Benefit of Saving URLs to the Internet Archive?
+3.
+How to Find Necessary URLs for Archiving in Internet Archive?
+4.
+How to Save Web Pages (URLs) in Bulk to Internet Archive?
+4.1.
+How to Archive Multiple Sites to the Internet Archive in Bulk with Python?
+4.2.
+How to Save Web Pages to Internet Archive in Bulk Regularly?
+4.2.1.
+Save URLs to Internet Archive with Regular Time Periods via Python’s Time Module
+4.2.2.
+Save URLs to Internet Archive with Schedule Library of Python with Regular Time Periods
+5.
+How to Check Newest Archived Version of Saved URLs to the Internet Archive?
+6.
+How to Check Oldest Archived Version of Saved URLs to the Internet Archive?
+7.
+How to Check a Specific Version of Saved URLs to the Internet Archive?
+8.
+Last Thoughts on Saving URLs in Bulk with Python to Internet Archive
+Which Conditions a URL should satisfy to be registered to the Internet Archive?
+To save a URL to Wayback Machine with Internet Archive, a URL should have features below.
+The URL should respond with a 200 HTTP Status Code (OK).
+The URL Should have actual content on it.
+The URL should have importance to be archived.
+What is the Benefit of Saving URLs to the Internet Archive?
+Benefits of saving a website and webpages to internet archive with Python, and other methods are below.
+Saving a link to the internet archive with Python, email, or manual methods will prevent the data from being lost. Especially for academic writings, saving URLs into the internet archive is important so that scientific work can protect its results’ validity and auditability.
+The second benefit of saving URLs into an internet archive is showing that the content of the URL is recorded at a specific date. So, changes within a URL in terms of content can be tracked. Thus, solving Digital Millennium Copyright Act (DMCA) complaints in a more fair way is easier since it is possible to see who has published the specific piece of content before.
+The third benefit of saving links to the internet archive prevents losing the content, even if a website loses its server and activity level. Thus, republishing a website with the same content by the same owner is useful.
+The fourth benefit of the internet archive is that it gives an opportunity to examine a website’s history before buying it, thus by checking a website’s history, an SEO can understand a website’s historical data and feedback that Search Engine has for it.
+The fifth benefit of the Internet Archive is that it can be used to map old and new URLs during a site migration, and it can save hours of work for SEOs.
+The sixth benefit of the Internet Archive is that it gives the opportunity to make a website work offline with the information saved into it. In some CDN Servers, such as CloudFlare, this feature is called “Always Online”.
+To be benefited from saving URLs to the internet archive, using Python is important because it lets a website owner save all of the URLs from related websites regularly to the internet archive. Thus, by spending less time, a webmaster can save every necessary URL to the Wayback Machine of the Internet Archive.
+How to Find Necessary URLs for Archiving in Internet Archive?
+Saving the necessary URLs to the internet archive is important because the internet archive is not endless. Saving unnecessary and unimportant URLs to the internet archive will create a cost for the internet archive, and also some of these URLs might be deleted from the internet archive over time. Thus, a website and source should record its necessary URLs to the internet archive. To filter the URLs that are necessary for the internet archive from a website, the methods below can be used.
+Saving URLs with only actual traffic.
+Saving URLs with at least one impression.
+Saving URLs with at least one click.
+Saving URLs with at least one external link.
+Saving URLs with at least a certain amount of queries from Search Engines.
+Saving URLs with a certain topic.
+In other words, an SEO or website owner can use traffic, impression, click, external link, keyword count, or topicality for filtering the webpages in the context of saving websites to the internet archive in bulk. To filter necessary URLs for an internet archive from a source, sitemaps can be used. Most of the URLs from a sitemap of a website will be indexable, self-canonicalized, and have actual traffic along with click, impression, and queries from SERP.
+To save URLs from a website into a dataframe, Advertools’ “sitemap_to_df” function can be used as below.
+import advertools as adv
+df = adv.sitemap_to_df("https://www.holisticseo.digital/sitemap.xml")
+df
+Explanation of the code block that includes extracting URLs from a sitemap can be found below.
+Import advertools.
+Use “sitemap_to_df” method for a sitema URL.
+Call the output to check whether it includes the URLs and related data or not.
+You can see the result below.
+To learn how to use sitemaps for SEO and Content Audit with Python, you can read the related guideline from Holistic SEO.
+How to Save Web Pages (URLs) in Bulk to Internet Archive?
+To save web pages to internet archive in bulk via Python, you need to iterate over a series of URLs. Thus, using a Pandas Data frame and choosing the URL column for iteration is necessary. Below, you will see an example of registering webpages to the internet archive in bulk with Python.
+from tqdm._tqdm_notebook import tqdm_notebook
+tqdm_notebook.pandas()
+pd.set_option("display.max_colwidth", 300)
+df['loc'].progress_apply(lambda x: waybackpy.Url(x, user_agent=user_agent))
+The explanation of the code block for saving webpages to wayback amchine is below.
+Import “tqdm_notebook” to check the progress situation for the iteration for saving URLs to archive.
+Activate the “tqdm_notebook.pandas()”
+Change the col width for the Pandas data frame output so that the saved URLs to the internet archive can be seen fully.
+Use a “progress_apply” and “lambda” function with “waybackpy.Url()” method for the URL column.
+You can see the result below.
+We have used URLs from the “Holisticseo.digital” sitemap that we have extracted via the “Advertools’ sitemap_to_df” function. We see that we have registered all the web pages to web.archive.org successfully. Below, you can see a registered URL’s view from Wayback Machine.
+You can see the registered URL example to the wayback machine via Python as bulk.
+How to Archive Multiple Sites to the Internet Archive in Bulk with Python?
+To archive multiple websites at the same time to the internet archive, multiple website’s sitemap files should be downloaded and united. Below, you will see a simple example of saving multiple sites to the internet archive at the same time.
+df = adv.sitemap_to_df("https://www.holisticseo.digital/sitemap.xml")
+df_2 = adv.sitemap_to_df("https://brodieclark.com/sitemap.xml")
+united_df = df.append(df_2)
+united_df
+We have united the Holisticseo.digital’s sitemap file and Brodieclark.com’s sitemap files. You can see the result below.
+You can see that we have two different domains within the same data frame. To save multiple sites to the internet archive at the same time, you can use the code block below.
+united_df["loc"].progress_apply(lambda x: waybackpy.Url(x, user_agent=user_agent))
+You can read the related Python SEO Guidelines for archiving web pages in bulk with Python as below.
+Crawl a Website with Python
+Sitemap and Content Analysis with Python
+Check Status Codes of URLs in Sitemaps with Python
+How to Save Web Pages to Internet Archive in Bulk Regularly?
+To save a web page or multiple web pages to the internet archive regularly in bulk, Python’s time module and schedule library can be used. Time module of Python can be used for timing the function calls or giving break between function calls, while schedule library can be used for determining certain function call times with Python. To save web pages to the internet archive within regular time periods, you can use the code block sections below.
+Save URLs to Internet Archive with Regular Time Periods via Python’s Time Module
+To save URLs to internet archive with a custom Python function with regular time spaces via time module of Python can be used as below.
+import time
+def archive_pages(urls:pd.Series, repeat:int, sleep:int):
+for i in range(repeat):
+urls.progress_apply(lambda x:waybackpy.Url(x,user_agent=user_agent))
+time.sleep(sleep)
+archive_pages(df["loc"], 2, 500)
+To save a URL or multiple URLs to internet archive with regular time periods, use the instructions below.
+Import time “module” of Python.
+Create a custom function with the Pandas Series, repeating time and breaking time for saving URLs to archive as parameters for the Python function.
+Use a simple for loop within the function.
+Use “time.sleep()” method.
+Use “waybackpy.Url()” method within the function for the Pandas Series which includes URLs to be saved within internet archive.
+Call the custom Python Function.
+You can see the result below.
+In this example, we will save all of the URLs from the URL list two times with 500 seconds breaks. And, we have saved 172 URLs as we can see from the progress bar.
+Save URLs to Internet Archive with Schedule Library of Python with Regular Time Periods
+Schedule library is for scheduling any python function call for different time periods. In this instance, the schedule library of python has been used for scheduling the saving URLs to the internet archive process. Below, you will see a code example that includes a schedule library with saving web pages to the internet archive.
+import schedule
+def archive_pages(urls:pd.Series):
+urls.progress_apply(lambda x:waybackpy.Url(x,user_agent=user_agent))
+schedule.every(5).minutes.do(archive_pages, df["loc"])
+The explanation and instructions for saving URLs to the internet archive with Python’s schedule library is below.
+Import schedule library of Python.
+Create a custom function that includes the repeating time for saving URLs and break time for function calls.
+Use “progress_apply” and “waybackpy” for a pandas series that includes all URLs.
+Use the “schedule” library of Python for scheduling the function call.
+In this example, we have scheduled our function call for every 5 minutes for archiving our URLs.
+How to Check Newest Archived Version of Saved URLs to the Internet Archive?
+After saving all of the URLs to the internet archive, checking the saved URLs’ most fresh version can be performed. Checking the newest version is important to see whether the web pages are actually saved to internet archive and refreshed the before versions.
+for i in df["loc"]:
+wayback = waybackpy.Url(i, user_agent=user_agent)
+print(wayback.newest())
+OUTPUT>>>
+https://web.archive.org/web/20210425220830/https://www.holisticseo.digital/marketing/
+https://web.archive.org/web/20210425221451/https://www.holisticseo.digital/python-seo/
+https://web.archive.org/web/20210425214347/https://www.holisticseo.digital/technical-seo/
+https://web.archive.org/web/20210425230833/https://www.holisticseo.digital/user-experience/
+https://web.archive.org/web/20210425222553/https://www.holisticseo.digital/on-page-seo/
+https://web.archive.org/web/20210425212833/https://www.holisticseo.digital/theoretical-seo/
+https://web.archive.org/web/20210425215014/https://www.holisticseo.digital/pagespeed/
+https://web.archive.org/web/20210425214210/https://www.holisticseo.digital/review/
+https://web.archive.org/web/20210430044118/https://www.holisticseo.digital/
+https://web.archive.org/web/2021042
+
+[...truncated...]

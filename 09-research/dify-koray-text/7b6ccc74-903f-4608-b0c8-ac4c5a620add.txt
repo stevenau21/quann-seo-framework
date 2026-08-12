@@ -1,0 +1,126 @@
+HTML <style> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <style> HTML Tag defines the characteristics and changes of the appearance, style rules at the page level, and position of various components on a page. The <style> HTML Tag rules contained within the <style> HTML Tag component that direct a program on how to display the document. A document can contain an unlimited number of style elements, but they must appear within the head area, for example, as an <head> element. The main reason for this is that the <style> HTML Tag is used when writing in HTML. It is set in the <head> of the record and executed as a class, or it is used to apply inline CSS to a single component. The <style> HTML Tag is part of the Style and Semantic Tags category. The attributes of the <style> HTML Tag are type, media, title, nonce, scoped, Global Attributes, and Event Attributes. HTML documents contain the <style> HTML Tag. The code block and code sample for the <style> HTML Tag are shown below.
+<style> code block example to learn how it works is given below.
+<style>
+Insert styles here
+</style>
+The second example usage of the “style” code block example is below.
+<html>
+<head>
+<style>
+h1 {color:black;}
+p {color:brown;}
+</style>
+<style>
+h1 {color:red;}
+p {color:green;}
+</style>
+</head>
+<body>
+<h1>Heading</h1>
+<p>Paragraph.</p>
+</body>
+</html>
+Contents of the Article
+show
+1.
+What is <style> HTML Tag?
+2.
+How to Use <style> HTML Tag?
+2.1.
+Example Usage of <style> HTML Tag?
+3.
+What are the Attributes of <style> HTML Tag?
+4.
+What is the Default CSS Setting for <style> HTML Tag?
+5.
+What are the Related other HTML Tags to <style>?
+What is <style> HTML Tag?
+The <style> HTML Tag allows customizing the text that appears on the page. This includes changing the text size, typeface, font color, and so on. Not only can we change the text, but we can also change the style of a page’s body or a section of it. The <style> HTML Tag is used to specify style information (CSS) for a document, which is then applied to the contents of the document that contains the <style> HTML Tag element. The <style> HTML Tag element specifies how HTML elements should appear in a browser. The <style> HTML Tag element does not represent actual user content. It is instead used to style the content.
+How to Use <style> HTML Tag?
+To use the <style> HTML Tag, the web developer should write the style tag with the style sheet <style> and </style> placed in between the start and the end tags. Web developers can as well use external CSS, internal CSS, and inline CSS to better give style to the context.
+Example Usage of <style> HTML Tag?
+The following examples of usage of <style> HTML Tag are given below.
+<DOCTYPE html>
+<html lang=”en”
+<head>
+<style>
+.heading1{
+color: red
+background-color: darkorchid
+font-size: medium
+}
+</style>
+</head>
+</body>
+<h1 class=”heading1” welcome to holisticseo advance course </h1>
+<script src=” ./script.hs”></script>
+</body>
+</html>
+What are the Attributes of <style> HTML Tag?
+There are multiple attributes for the <style> HTML Tag. The following attributes are listed below.
+Type Attribute: The <style> HTML Tag supports the type attribute.The MIME type of resource has been included. A value of text/CSS will be used as a fallback if no type is supplied in the type> element.
+Media Attribute: The <style> HTML Tag supports the media attribute.There is a set of media to which the provided resource is relevant. This attribute has the value of a media query. The default value for the media attribute is “all” if no media is included in the request.
+Title Attribute: The <style> HTML Tag supports the title attribute.This field contains the name of an alternative option stylesheet set.
+Nonce Attribute: The <style> HTML Tag supports the nonce attribute.In a style-src Content-Security-Policy, this is used to whitelist inline styles. The nonce (once-used number) should be a special value that changes each time the policy is modified.
+Scoped Attribute: The <style> HTML Tag supports the scoped attribute.This specifies that the style is only applied to the components in its parent and children groups. However, this attribute is no longer needed.
+Global Attributes: The <style> HTML Tag supports the Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <style> HTML Tag supports the Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <style> HTML Tag?
+The following is the Default CSS Setting for the <style> HTML Tag.
+p {
+color: #A52A2A;
+}
+What are the Related other HTML Tags to <style>?
+The other related HTML Tags to the <style> HTML Tag are listed below..
+<main> HTML Tag: The
+<main>
+HTML Tag and <style> HTML Tag are related because they are both  Style and Semantics HTML Tags. It specifies the document’s primary content using the <main> HTML Tag.
+<header> HTML Tag: The
+<header>
+HTML Tag and <style> HTML Tag are related because they are both Style and Semantics HTML Tag. The <header> HTML Tags specifies a header for a page or portion of content.
+<details> HTML Tag: The
+<details>
+HTML Tag and <style> HTML Tag are related because they are both Style and Semantics HTML Tags. The <details> HTML Tag specifies additional information that the user can either display or hide.
+<data> HTML Tag: The
+<data>
+HTML Tag and <style> HTML Tag are related because they are both Style and Semantics HTML Tags. Content can be translated into machine-readable form using an HTML Tag that is known as the <data> HTML Tag.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <style> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <dialog> Tag Definition, Usage and Exam…
+TechSEO
+HTML <title> Tag Definition, Usage and Examp…
+0
+0
+0

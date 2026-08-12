@@ -1,0 +1,92 @@
+HTML <cite> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The HTML <cite> tag defines the title of creative work. The HTML Tag <cite> is used to describe a reference to a cited creative work and must include the title of that work. The reference may be in an abbreviated form according to context-appropriate conventions related to citation metadata. The usual purpose of the <cite> element is to provide or identify the source of a quote or other piece of material. The <cite> HTML Tag is part of Formatting HTML category in HTML Element Reference. The attributes of the <cite> HTML Tag are global attributes and event attributes.
+<cite> code block example to learn how it works is given below.
+<cite>Citation here...</cite>
+The second example usage of the “<cite>” code block example is below.
+<blockquote>
+The smaller your reality, the more convinced you are that you know everything.
+</blockquote>
+<cite>My Big <abbr title="Theory Of Everything">TOE</abbr></cite>
+Contents of the Article
+show
+1.
+What is <cite> HTML Tag?
+2.
+How to Use <cite> HTML Tag?
+2.1.
+Example Usage of <cite> HTML Tag?
+3.
+What are the Attributes of <cite> HTML Tag?
+4.
+What is the Default CSS Setting for <cite> HTML Tag?
+5.
+What are the Related other HTML Tags to <cite>?
+What is <cite> HTML Tag?
+To use the <cite> HTML Tag the web developer should have included content wrapped in <cite> tags that represents the title of work such as a book, a paper, an essay, a poem, a score, a song, a script, a film, a television show, a game, a sculpture, a painting, a theatre production, a play, an opera, a musical, or an exhibition.
+How to Use <cite> HTML Tag?
+To use the <cite> HTML Tag the web developer must describe a citation to a cited creative work and give the work’s title. The reference may be abbreviated in accordance with context-appropriate citation metadata formats.
+Example Usage of <cite> HTML Tag?
+The following example of usage of <cite> HTML tag is given below.
+<p><cite>Mona Lisa</cite> by Leonardo da Vinci. Painted in 1503.</p>
+What are the Attributes of <cite> HTML Tag?
+There are multiple attributes for the <cite> HTML Tag. The following attributes are listed below.
+Global Attributes: The <cite> HTML Tag supports global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <cite> HTML Tag supports event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <cite> HTML Tag?
+The following is the Default CSS Setting for the <cite> HTML Tag.
+cite {
+font-style: italic;
+}
+What are the Related other HTML Tags to <cite>?
+The other related HTML Tags to the <cite> HTML Tag are listed below.
+<blockquote> HTML Tag: The
+<blockquote>
+HTML Tag is related to <cite> HTML Tag because they are both in formatting HTML Tags. The <blockquote> HTML Tag is used to include quotations from other sources.
+<b> HTML Tag: The
+<b>
+HTML Tag is related to <cite> HTML Tag because they are both in formatting HTML Tags. The <b> HTML Tag is used to indicate that the text is bold.
+<address> HTML Tag: The
+<address>
+HTML Tag is related to <cite> HTML Tag because they are both in formatting HTML Tags. The <address> HTML Tag is used to specify the author of a website or document’s contact information.
+<bdi> HTML Tag: The
+<bdi>
+HTML Tag is related to <cite> HTML Tag because they are both in formatting HTML Tags. The <bdi> HTML Tag is used to create text that is written in a different direction than the rest of the text.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <cite> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <br> Tag Definition, Usage and Examples…
+TechSEO
+HTML <code> Tag Definition, Usage and Exampl…
+0
+0
+0

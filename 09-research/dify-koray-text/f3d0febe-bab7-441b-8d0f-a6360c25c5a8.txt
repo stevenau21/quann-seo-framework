@@ -1,0 +1,139 @@
+What are Pop-up Blockers? How to Use Pop-up Blockers? - Holistic SEO
+Skip to content
+Pop-up blockers that prevent advertising windows from being displayed in the browser are usually referred to as blockers. One could therefore also speak of ad blockers. Sometimes the so-called robots.txt is also referred to as a blocker. Pop-up blockers usually exist in the form of a browser plug-in or browser extensions for Firefox, Internet Explorer or Google Chrome. Mozilla has already set up a pop-up blocker by default, which blocks the majority of advertising banners. Alternatively, so-called toolbars, which are installed in the browser, also offer a blocker for popups. A very well-known ad blocker is AdBlock Plus. With additional updatable filters, a large number of current advertising windows can be blocked using so-called “blacklists”. Exceptions can be added via the whitelist.
+In addition to browsers, virus protection programs can also work with blockers that prevent advertising banners or display advertising from being displayed. If you are still using an older operating system such as Windows XP, you have to install and set up the Popup Blocker for Internet Explorer later.
+Contents of the Article
+show
+1.
+What is a Pop-up Blocker?
+2.
+How to Use Pop-up Blockers from Various Popular Browsers?
+2.1.
+Which Browsers Do Have a Default Pop-up Blocker?
+2.2.
+How to Use Pop-up Blockers via Google Chrome as default?
+2.3.
+How to Use Pop-up Blockers via Firefox as default?
+2.4.
+How to Use Pop-up Blockers via Internet Explorer as default?
+2.5.
+How to Use Pop-up Blockers via Safari as default?
+2.6.
+How to Use Pop-up Blockers via Microsoft Edge?
+2.7.
+How to use Pop-up Blockers with Opera as Default?
+3.
+Does Pop-up Blockers Increase the Page Speed?
+4.
+Does Pop-up Blockers is Helpful for User Experience?
+5.
+What are the Advantages and Disadvantages of a Popup Blocker for the Internaut?
+6.
+How Does a Popup Blocker Work?
+7.
+Which types of Pop-ups should be blocked?
+8.
+How to Whitelist Some Web Pages or Sites from Pop-up Blockers?
+9.
+Last Thoughts on Pop Up Blockers And Holistic SEO
+9.1.
+What is the Relation Between Google’s Monetization Policies and Pop-up Blockers?
+What is a Pop-up Blocker?
+A pop-up blocker is a function or a program that prevents additional browser windows, known as pop-ups, from being opened. The function is included in many modern web browsers and, with older models, can also be installed subsequently as a plug-in extension or directly on a proxy server. By analyzing the JavaScript code, which is necessary for opening new browser windows, those code blocks are determined that open a pop-up regardless of user input (mouse click). This code will then not be executed or (if you are using a proxy server) will be removed before it is forwarded to the browser.
+The latter also reduces the amount of data to be transferred and can thus speed up the opening of the website. The disadvantage for webmasters is declining advertising revenue, as pop-ups are mainly used to display advertisements. In spite of sophisticated filtering techniques, the user sometimes has to intervene if actually desired popups are blocked that actually did not contain any advertising. Such programs are usually equipped with more or less extensive filter rules that allow pop-ups to be blocked only from certain pages (blacklist) or, conversely, only from certain pages (whitelist).
+How to Use Pop-up Blockers from Various Popular Browsers?
+Due to increased demand for the pop-up blockers, popular web browsers such as Chrome, Firefox, Safari, Internet Explorer started to include built-in pop-up blockers for the users. By using default pop-up blockers, a user can block the pop-ups without the need for an external browser add-on.
+Which Browsers Do Have a Default Pop-up Blocker?
+The browsers which have a built-in and default pop-up blocker is listed below.
+Firefox
+Chrome
+Safari
+Internet Explorer
+Microsoft Edge
+Opera
+Brave
+How to Use Pop-up Blockers via Google Chrome as default?
+To use pop-up blockers with Google Chrome Browser, the steps below should be followed.
+Open Chrome on your computer.
+At the top right, click the
+Settings
+three-dot menu.
+Click on Advanced at the bottom.
+Under Privacy and Security on content settings.
+Click on Pop-ups and Redirects.
+Activate the Allowed setting at the top.
+Chrome Pop-up blocking process can be done via Pop-ups and redirects section of Chrome Settings.
+How to Use Pop-up Blockers via Firefox as default?
+To use pop-up blockers with Firefox, the steps below should be followed.
+Open Firefox on your computer.
+Click the menu button and select Settings.
+Select the Content – Privacy & Security section .
+From there, go to the Pop-ups Permissions section and uncheck the box next to Block pop-up windows.
+How to Use Pop-up Blockers via Internet Explorer as default?
+To use pop-up blockers with Internet Explorer, the steps below should be followed.
+Open Internet Explorer on your computer.
+Select the button  Tools and then  Internet Options.
+On the Privacy tab, under Pop-up blockers, clear the Turn on the pop-up blockers check box.
+Then select OK.
+How to Use Pop-up Blockers via Safari as default?
+To use pop-up blockers with Safari, the steps below should be followed.
+Open the Safari browser.
+Click Safari in the menu bar at the top. (Outside the browser).
+Click Settings -> Websites -> Pop-up Windows .
+First, select the in the column on the right Website and then select the option you want.
+How to Use Pop-up Blockers via Microsoft Edge?
+To use pop-up blockers with Microsoft Edge, the steps below should be followed.
+Click the “More Actions” button in the upper right corner
+Select “Settings”.
+Scroll down the list and select AdvancedShow settings”.
+Set Block Popups to Off.
+Pop-up Blocking process with Microsoft Edge.
+How to use Pop-up Blockers with Opera as Default?
+To use pop-up blockers with Opera, the steps below should be followed.
+Select “Settings” in the Opera main menu
+In the sidebar click on “Websites”
+Under Pop-ups, select the option Allow all pop-ups
+Does Pop-up Blockers Increase the Page Speed?
+Yes, pop-up blockers improve, and increase the page speed of a web page. A pop-up blocker improves page speed by disabling the Javascript codes that open a new window during the web page loading process so that the disabled codes can’t slow down a web page. Pop-up blockers improve page speed by decreasing the unnecessary code amount and prioritize the main content of the web page.
+Does Pop-up Blockers is Helpful for User Experience?
+Yes, pop-up blockers are helpful for the user experience. Pop-up blockers help for user experience by disabling the interstitials that prevent users from interacting with the main content of the web page. Pop-ups prevent users from performing their purpose. A user with a specific search intent might be distracted by a pop-up. For this reason, a pop-up blocker helps users to keep their focus, and perform their visit intent for the landing page without interruption by the interstitials. Interstitials, or interrupting pop-up usage is also against the Core Web Vitals assessments of Google in the context of the Page Experience Algorithm.
+What are the Advantages and Disadvantages of a Popup Blocker for the Internaut?
+If you use a popup blocker, you can use the Internet almost free of annoying advertising banners. Since, above all, many information pages on the Internet are monetized with display advertising in the form of banners, more than one banner can often be displayed when a page is viewed, which can limit the user experience. If the loading of banners and popups is prevented, the loading time can also be reduced, which in turn leads to a better user experience.
+An ad blocker can be disadvantageous if it blocks important pop-ups that are used for security reasons to log into a website or for payment transactions. In this case, the user must save the relevant page in the filter as not to be blocked. Then all functions can be used without any problems. Affiliates, publishers, and advertisers who generate their income through clicks on pop-ups, among other things, have in some cases declining income due to the increasing use of pop-up blockers. They work and then mostly use new methods for advertising that blockers cannot yet detect and prevent. An example of this is tooltips in the form of advertising banners that open when you mouse over certain key terms or banners that are not stored as JavaScript in the source code.
+How Does a Popup Blocker Work?
+A popup blocker analyzes JavaScript code that is responsible for opening new windows in the web browser. The blocker detects entire code blocks that open new windows when the page is accessed without the user have given a command by clicking on a button or a link. If the blocker has found the JavaScript files in question, their execution is prevented. If the popup blocker uses a proxy server, the request to open the JavaScript is not even forwarded. A list of elements to be blocked also serves as a basis for the reliable operation of the pop-up blocker.
+Which types of Pop-ups should be blocked?
+The pop-ups that should be blocked are the interstitial, irrelevant and fake pop-ups that hinder the user’s experience and prevent user from any kind of process. The pop-up types that should be blocked are listed below.
+Ransomware Pop-up
+Fake Pop-up
+Irrelevant Pop-up
+Interstitial Pop-up
+Repetitive Pop-up
+Layout Shift Creator Pop-up
+A pop-up that slows down the Page Speed
+How to Whitelist Some Web Pages or Sites from Pop-up Blockers?
+To whitelist a web page or website from being blocked for the pop-ups by the pop-up blocker, a user should use the whitelist module of the browser for the pop-up blocker. In Google Chrome, a user can see the “allow pop-up” option if the web page tries to show a pop-up. To enable the web page to show the pop-up, these warnings can be used. Below, you will see a “allow the pop-up” button example for Google Chrome.
+An example of Pop-up Blocking Consent Screen from Google Chrome Browser.
+Last Thoughts on Pop Up Blockers And Holistic SEO
+For SEOs, activated popup blockers are usually a hindrance when analyzing a landing page. Because then they can neither discover the excessive use of banner advertising or layer ads nor recognize what a website is advertising like Search Engines like Google or Bing tend to rate websites with excessive advertising negatively. Anyone who receives a link from a purely advertising page affects their reputation on the one hand and the trust of their web project on the other. For SEAs, popup blockers are also a hindrance to targeting. Because you can then neither see where the booked advertising space will be nor do you know which other competitors may have already booked on the existing advertising space.
+Pop-up usage should be optimized for a better user experience. A pop-up shouldn’t block the user from reading, watching, or buying, and it shouldn’t interrupt the user while the user is using the web page. A good pop-up implementation should show the pop-up to the users if only it makes sense, and it is relevant and without interrupting the user.
+What is the Relation Between Google’s Monetization Policies and Pop-up Blockers?
+Google Monetization Policies are the policies about Google’s ad placement, ad frequency, and ad content for the content publishers. Google aims to inform content publishers to implement better monetization practices to create a better user experience. Page Layout Algorithm of Google and
+Mobile-First Indexing
+algorithm of Google are related to the ad placement, and monetization implementations of the web pages. Pop-ups, interstitials, and any other ad, or banner,
+CTA Element
+is related to Google’s monetization policies. Thus, an SEO should consider Google’s monetization policies while using pop-ups. If a website is being blocked by the pop-up blockers frequently, it means that the website is using too many interstitials and pop-ups. A search engine can use these types of user feedback to evaluate a source.
+Google Monetization Policy is related to the Pop-up blockers in the context of protecting users.
+Pop-ups also can shade the main content, dilute the context if they are not related. An interstitial pop-up can take the
+Largest Contentful Element
+of a web page, thus a search engine can think that the pop-up is the main purpose of the web page. To prevent these types of situations, pop-up blockers and proper pop-up implementations are helping the web users, and web search engines. In this context, ad blockers and pop-up blockers should be evaluated together. Because, ad blockers and pop-up blockers aim to prevent user experience, and web page quality for the users.
+Our pop-up blocker guide and article will be updated by time with the new information.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorit
+
+[...truncated...]

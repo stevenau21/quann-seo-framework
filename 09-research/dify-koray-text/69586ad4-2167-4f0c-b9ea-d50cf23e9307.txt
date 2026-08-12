@@ -1,0 +1,121 @@
+“aria-controls” ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-controls is one of the ARIA Label Accessibility attributes that specifies the details of its element/s and its presence. They are controlled by the element on which their corresponding attribute is coordinated. The aria-controls purposefully command and specifically identifies the elements it controls from the widget interface. This can be a useful attribute to point out the elements it is set to control under, regardless of the interaction and its resulting behavior. Elements such as the combobox and tabpanel, utilize the aria-controls command. The aria-controls are useful for ARIA Labels such as aria-label, aria-selected, and aria-labelledby.
+Contents of the Article
+show
+1.
+What is the function of the “aria-controls” ARIA Label?
+2.
+What are the uses of the “aria-controls” ARIA Label?
+3.
+Example Uses of “aria-controls” ARIA Label
+4.
+What are the related ARIA Labels to “aria-controls”?
+What is the function of the “aria-controls” ARIA Label?
+The aria-controls is designed like a cause and effect relationship. It recognizes a specific element that is controlled by another set of elements. This happens when the relationship does not appear in the DOM. The aria-control attribute allows web developers to remove the focus on a certain element to its corresponding element it is in control of.
+What are the uses of the “aria-controls” ARIA Label?
+Listed below are the uses of the “aria-controls” ARIA Label.
+Log:
+The Log role primarily identifies a certain element that generates a live region. This is where the update of information occurs, and outdated information is being scrapped.
+Main:
+The ARIA’s main role identifies the main content in a document. The main content region expands from the main topic of the document containing relevant information, particularly on its role in the application.
+Math:
+The math role signifies that the content corresponds to a mathematical language.
+Menubar:
+The menubar role is seen in a horizontal position that is usually seen as the menu bar.
+Command:
+The command role is able to create a widget but does not necessarily collect data for input.
+Example Uses of “aria-controls” ARIA Label
+Listed below are the example uses of the “aria-controls” ARIA Label.
+The aria-controls defines and identifies a specific element’s contents. A particular element controls the corresponding attribute it is assigned. The following example depicts the appropriate usage and function of an aria-control command. This example is represented by a section wherein buttons are able to control the type of information that can be displayed.
+<ul role="tablist">
+<li role="presentation"><a href="#" onclick="displayTab(1);" role="tab" aria-controls="panel1" aria-selected="true">Tab 1</a></li>
+<li role="presentation"><a href="#" onclick="displayTab(2);" role="tab" aria-selected="false">Tab 2</a></li>
+...
+</ul>
+<div role="tabpanel" id="panel1">...</div>
+<div role="tabpanel" id="panel2">…</div>
+In this example, a button controls the display of information, about, and profile contained within a division.
+<button onclick="showInfo();" aria-controls="I">Show info</button>
+…
+<div id="I">Information.</div>
+<button onclick="showInfo();" aria-controls="I">Show info</button>
+…
+<div id="I">About.</div>
+<button onclick="showInfo();" aria-controls="I">Show info</button>
+…
+<div id="I">Profile.</div>
+The following is an example that each tab controls one tabpanel.
+<div class="tab-interface">
+<div role="tablist" aria-label="Sample Tabs">
+<span role="tab" aria-selected="true" aria-controls="panel-1"
+id="tab-1" tabindex="0">
+First Tab
+</span>
+<span role="tab" aria-selected="false" aria-controls="panel-2"
+id="tab-2" tabindex="-1">
+Second Tab
+</span>
+<span role="tab" aria-selected="false" aria-controls="panel-3"
+id="tab-3" tabindex="-1">
+Third Tab
+</span>
+</div>
+<div id="panel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1">
+<p>Content for the first panel</p>
+</div>
+<div id="panel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2" hidden>
+<p>Content for the second panel</p>
+</div>
+<div id="panel-3" role="tabpanel" tabindex="0" aria-labelledby="tab-3" hidden>
+<p>Content for the third panel</p>
+</div>
+</div>
+What are the related ARIA Labels to “aria-controls”?
+Listed below are the related ARIA Labels to “aria-controls”.
+aria-label:
+The aria-controls are related to the aria-label because they both define the element’s function. The aria-controls property associates an element or elements which is controlled by the element on which the attribute is set. The
+aria-label
+identifies a string value that labels an interactive element.
+aria-selected:
+The aria-controls attribute is related to aria-controls because they both identify the element’s function into which element it is attributed. The
+aria-selected
+attribute indicates the actual selected state of widgets.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-controls” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-current” ARIA Label for Accessib…
+TechSEO
+“aria-colspan” ARIA Label for Accessib…
+0
+0
+0

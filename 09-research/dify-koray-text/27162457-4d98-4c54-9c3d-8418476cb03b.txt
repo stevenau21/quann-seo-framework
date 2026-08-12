@@ -1,0 +1,131 @@
+HTML <basefont>  Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <basefont> HTML Tag has been deprecated. It specifies the default font face, size, and color for all HTML Tags descended from its parent element. The font’s size can then be varied relative to the base size using the <font> HTML Tag with this set. To change the font configuration for an element and its contents, use the <basefont> HTML Tag instead of CSS properties such as font, font-family, font-size, and color. The <basefont> HTML Tag is part of the Meta HTML category in HTML Element Reference. The attributes of the <basefont> HTML Tag are color, face, and size attributes.
+<basefont> code block example to learn how it works is given below.
+<basefont attributes>
+The second example usage of the “<basefont>” code block example is below.
+<head>
+<title>HTML <basefont> Tag</title>
+<style>
+body {
+text-align: center;
+}
+.hsd {
+color: blue;
+font-size: 50px;
+font-family: sans-serif;
+}
+.digital {
+font-family: arial;
+}
+</style>
+</head>
+<body>
+<div class="hsd">HolisticSEO&Digital</div>
+<div class="digital">
+A Mindset for Coder Marketers
+</div>
+</body>
+Contents of the Article
+show
+1.
+What is <basefont> HTML Tag?
+2.
+How to Use <basefont> HTML Tag?
+2.1.
+Example Usage of <basefont> HTML Tag?
+3.
+What are the Attributes of <basefont> HTML Tag?
+4.
+What is the Default CSS Setting for <basefont> HTML Tag?
+5.
+What are the Related other HTML Tags to <basefont>?
+What is <basefont>  HTML Tag?
+The <basefont> HTML Tag is used to specify the default text-color, font-size, and font-family for all text in the browser. HTML5 does not support it any longer. As an alternative, CSS is used in the code example.
+How to Use <basefont>  HTML Tag?
+To use <basefont> HTML Tag, The web developer should use the basefont attributes, which are the color, size, and face for the document to use.
+Example Usage of <basefont>  HTML Tag?
+The following example of usage of <basefont> HTML Tag is given below.
+<head>
+<title>Japan Tourist Spots and Culture </title>
+<style>
+body {
+text-align: center;
+}
+.tsc {
+color: red;
+font-size: 45px;
+font-family: open sans-serif;
+}
+.japan {
+font-family: arial;
+}
+</style>
+</head>
+<body>
+<div class="tsc">Recommendation for Travellers</div>
+<div class="reco">
+Know the Countries' Tourist Spots and Culture
+</div>
+</body>
+What are the Attributes of <basefont>  HTML Tag?
+There are multiple attributes for the <basefont> HTML Tag. The following attributes are listed below.
+Color Attribute: The <basefont> HTML Tag supports color attribute. The color attribute is used to specify the document’s default text color.
+Size Attribute: The <basefont> HTML Tag supports size attribute. The size attribute specifies the document’s default font size.
+Face Attribute: The <basefont> HTML Tag supports face attribute. The face attribute specifies the document’s default font-style.
+What is the Default CSS Setting for <basefont>  HTML Tag?
+The following is the Default CSS Setting for the <basefont> HTML Tag.
+body {
+color: red;
+font-family: courier, serif;
+font-size: 50px
+}
+What are the Related other HTML Tags to <basefont>?
+The other related HTML Tags to <basefont> HTML Tag are listed below.
+<head> HTML Tag: The <head> HTML Tag is related to <basefont> HTML Tag because they are both in meta tags category. The
+<head> HTML Tag
+contains information about the web page’s meta data.
+<base> HTML Tag: The <base> HTML Tag is related to <basefont> HTML Tag because they are both in meta tags category. The
+<base> HTML Tag
+specifies the base URL for all URLs contained within an HTML Document.
+<meta> HTML Tag: The <meta> HTML Tag is related to <basefont> HTML Tag because they are both in meta tags category. The
+<meta> HTML Tag
+are used to define meta data for HTML documents.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <basefont>  Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <applet> Tag Definition, Usage and Exam…
+TechSEO
+HTML <sup> Tag Definition, Usage and Example…
+0
+0
+0

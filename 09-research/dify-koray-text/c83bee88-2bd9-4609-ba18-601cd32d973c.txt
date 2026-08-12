@@ -1,0 +1,92 @@
+Mobile-First Meaning: Best Examples & Practices - Holistic SEO
+Skip to content
+Mobile First is a concept for mobile-optimized web design. This is where the mobile website is created first and later the adaptation for the desktop browser takes place. The “Mobile First” strategy is based on the trend that more and more users are surfing the Internet with their smartphones or tablet.
+What Google announced in November 2016 has now become a reality. On March 26, 2018, Google officially announced that all search results will be determined based on the mobile version of a website in the future. This means that soon no longer the usual desktop version, but the mobile version will decide on which placement, the site appears on Google. This change is also called “Mobile First” in specialist circles. Mobile-first focuses on mobile-first design, and mobile-first usability to satisfy the main portion of the population that the web uses.  To satisfy the users who use mobile devices to surf on the web, a mobile-first perspective should be adopted. In the same context, search engines started to give more weight to the mobile versions of the websites with mobile-first and mobile-only indexing.
+Contents of the Article
+show
+1.
+SUMMARY: THE POSSIBILITIES OF WEB DEVELOPMENT
+2.
+The Reason behind Mobile First Web Design
+3.
+Mobile websites and Responsive Design
+4.
+IMPLEMENTATION AND APPLICATION OF MOBILE FIRST
+5.
+Mobile-first and SEO
+SUMMARY: THE POSSIBILITIES OF WEB DEVELOPMENT
+Mobile First is no longer just a hollow phrase but is used for all kinds of websites – B2B and B2C. Other designs are available as additional options for the programming.
+Mobile First: Websites are first designed for mobile devices and adapted from the smallest to the largest screen size. The content can also be designed variably. However, desktop users see clearly slimmed-down websites and may miss relevant content.
+Desktop First: With the help of responsive web design, the websites are first programmed for desktop use. Then they are developed for smartphones and tablets. However, problems may arise in the display if the content is designed to be particularly comprehensive.
+User first: The cross-over method includes both design approaches. Mobile users are looking for quick information, desktop users are surfing much longer. Both needs have to be reconciled. With the help of analysis tools, the behavior can be determined and selected functions made available or hidden for users of certain device types.
+Some of the other UX and Analytics Related Articles:
+Breadcrumb Navigation
+Conversion Funnel Designing
+Mobile-first Indexing
+Click Path Optimization
+Eye-tracking for Readability
+Heading Optimization for Scannable Content
+The Reason behind Mobile First Web Design
+Basically, websites are first designed for desktops, which is why all functions and graphics are aimed at large screens and fast data connections. The mobile version of a shop or website is not the focus at first. Since users surf the Internet primarily on their smartphones these days, the websites also had to be optimized in terms of design, functionality, and SEO criteria.
+Due to the different designs and display sizes of smartphones, however, the usability deteriorated. This is a major disadvantage, especially for online shops. Because as soon as the layout of the website does not match the display of the smartphone or the operation of the navigation elements is not optimal, users leave the website again. In this way, they often cancel the purchase process due to a lack of usability. A lack of mobile optimization, therefore, leads to poorer conversion rates. Statistics show that mobile charging time in particular is a decisive factor. The chance of canceling is extremely high once the loading time of the website is more than three seconds.
+In 2014, Google also implemented an update that increasingly focused on the Mobile First approach. Due to an algorithm change, the bot first crawls through mobile websites and pulls all the relevant information for indexing. The dynamic design was no longer sufficient because it displayed the website in an almost endless length. In the first step, developers now decided to detoxify the mobile website, shorten the content, and sometimes do without graphic elements. Google did not like this approach at all, and the user was also dissatisfied with the user experience. So the structure and approach to programmers had to be fundamentally changed. Mobile First was born. A website was created for mobile devices, the content was adapted to smaller screens. The slimmest structure is easier to expand.
+Mobile websites and Responsive Design
+Since a uniform presentation of mobile websites was not yet possible, a responsive design was created. This ensures that users no longer have to zoom on the smartphone or that elements of the website are accidentally cut off. A disadvantage is the “endless mode” shown on some websites, which means that the user has to scroll endlessly. That is why texts have been shortened and pictures and graphics have been hidden. However, these measures lead to poor usability. The solution here is the “Mobile First” principle. With this strategy, the user-friendly display of the website on the smartphone comes first. The mobile website is first developed and optimized, and only then is the desktop version adapted. However, desktop users see a reduced website, which is why relevant content may be missing.
+Googlebot
+always pays attention to your internal links via mobile design
+.
+If your desktop version doesn’t have the same links as mobile version, then those links will be assumed as non-exist. Also, your web site’s mobile version is the canonical version for the Googlebot. Most of the web sites will be started to crawl with mobile-first indexing soon.
+In addition to a responsive design and technical requirements, the content is also an important criterion for an optimal mobile website. Although the content must be shortened for the mobile version, text, images, graphics, and other content elements are still important for the relevance of a website. That is why defining the key aspects is crucial before implementing a mobile-first strategy.
+In summary, the following measures are important:
+Short charging time
+Good readability and short content
+Adaptation of the design to the smartphone display
+No large pictures and unnecessary functions
+Implementing Mobile First has many advantages for both users and companies:
+Greater reachability of users, since they are increasingly surfing the Internet on their smartphones
+Content loads much faster due to mobile optimization
+Reduced content makes for a more user-friendly and clearer website
+IMPLEMENTATION AND APPLICATION OF MOBILE FIRST
+The programming of websites with the Mobile First approach is of course reserved for developers. However, all those who work with it should deal with the topic. First, the websites for mobile devices are created using a responsive grid. The so-called grids are valid for smartphones and can be subsequently optimized for larger screens. CSS techniques help with the correct scaling. You scale the content afterward to the larger displays, at best you can do this without loss of quality and technical problems. So regardless of whether the user uses a 7 “smartphone or surfs the Internet with a 21“ tablet, the desired website adapts without any action on his part.
+In the first development for small displays, there is relatively little space for detailed content. Texts and pictures should, therefore, be used briefly and sparingly. Although they are not cut off, in the worst case the user has to scroll long to get his information. This is not an optimal state for the user experience.
+Mobile-first and SEO
+With Google, the importance of Mobile-First has also come into focus. Because Google made Mobile Friendliness 2016 the ranking factor and later the mobile index the primary index. This means that the mobile website version is now crawled instead of the desktop version. If a mobile website is available, only this is decisive for the ranking.
+What is Mobile-first Indexing?
+You can learn more about it after Mobile-first Design.
+Several ranking factors play a major role here. Google has anchored in its algorithms that content should be as high-quality as possible, that usability must create an experience, and at the same time, the bot primarily crawls the mobile website. In order to get everything under one roof and make as few cuts as possible, the developers have to show a lot of tact. Mobile First became an important ranking factor in 2016 and optimization is therefore indispensable. However, other indicators also play a role at Mobile First: the demand for voice search and fast loading speeds are becoming increasingly important. However, in order to program and optimize mobile pages according to SEO criteria, it is important to publish stripped-down content with the most relevant information. The entire page architecture and metadata must be available for both the mobile website and the desktop version. Mobile-First will continue to set trends and produce new achievements in the coming years – so it is impossible to ignore them.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+UX
+What does Mobile First Mean?
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+UX
+What is the Conversion Funnel?
+UX
+What is Click Path? How to Use it to Analyze User …
+0
+0
+0

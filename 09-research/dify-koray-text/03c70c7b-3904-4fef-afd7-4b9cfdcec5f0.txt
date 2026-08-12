@@ -1,0 +1,145 @@
+Save-Data HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Save-Data HTTP Header network client hint request header field is a boolean that shows whether the client wants to use fewer data. It could be because of things like high transfer costs, slow connection speeds, or other things like that. Clients can send Save-Data even if they didn’t ask for it from the server in an Accept-CH response header. It’s low entropy, so it can be sent even though the server didn’t ask for it. Additionally, it should be utilized to minimize the amount of data supplied to the client regardless of the values of other client hints indicating network capacities, such as Downlink and RTT. The Downlink Client Hint request header field contains the approximate bandwidth of the client’s connection to the server, expressed in megabits per second (Mbps). The RTT Client hint request-header field contains the application layer’s approximate round trip time in milliseconds. Unlike transmission layer RTT, the RTT hint includes server processing time. There is only one value for using the Save-Data HTTP Header. The value using the Save-Data HTTP Header is the SD-token. An example of the Save-Data HTTP Header is written below.
+GET /image.jpg HTTP/1.0
+Host: example.com
+Save-Data: on
+HTTP/1.0 200 OK
+Content-Length: 102832
+Cache-Control: public, max-age=31536000
+Content-Type: image/jpeg
+[...]
+The Save-Data HTTP Header Request Header is seen above. In the article, the Save-Data HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is Save-Data HTTP Header?
+1.1.
+What is the Syntax of the Save-Data HTTP Header?
+1.2.
+What is the Directive of the Save-Data HTTP Header?
+2.
+How to use Save-Data HTTP Header?
+2.1.
+Examples of Save-Data HTTP Header Use
+3.
+What is the Specification Document for Save-Data HTTP Header?
+4.
+What is the type of Save-Data HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Save-Data HTTP Header?
+5.
+Which Browsers Support Save-Data HTTP Header?
+What is Save-Data HTTP Header?
+Save-Data HTTP Header is a type of HTTP request header. It is used to indicate whether the client wishes to enable data-saving mode. Data usage is quantified in terms of cost and performance in this case. Any browser’s role is to optimize the user experience by delivering the highest possible level of performance at the lowest possible cost.
+What is the Syntax of the Save-Data HTTP Header?
+The Save-Data HTTP Header uses only one value. The syntax for using the Save-Data HTTP Header is written below.
+Save-Data: <sd-token>
+What is the Directive of the Save-Data HTTP Header?
+The Save-Data HTTP Header can only contain one directive. The SD-Token is a value that indicates whether the client wishes to participate in a data usage reduction mode. It indicates that something is true, while off (the default) indicates that something is false. An example directive for using the Save-Data HTTP Header is given below.
+Request:
+GET /image.jpg HTTP/1.0
+Host: example.com
+Save-Data: on
+Response
+HTTP/1.0 200 OK
+Content-Length: 102982
+Vary: Accept-Encoding, Save-Data
+Cache-Control: public, max-age=315852000
+Content-Type: image/jpeg
+[...]
+How to use Save-Data HTTP Header?
+The Save-Data header is a type of HTTP request header. It is used to indicate whether the client wishes to enable data-saving mode. Data usage is quantified in terms of cost and performance in this case. Any browser’s role is to optimize the user experience by delivering the highest possible level of performance at the lowest possible cost. Browsers that support this feature allow users to toggle between data-saving and normal modes. The browser is able to perform optimization techniques such as text or image compression, thereby reducing the amount of data that the page will consume when the data-saving mode is enabled.
+Examples of Save-Data HTTP Header Use
+An example of a Save-Data HTTP Header that uses save data to validate both the Request and Response header types.
+GET /googlelogo.png HTTP/1.0
+Host: www.google.com
+Save-Data: on
+HTTP/1.0 200 OK
+accept-ranges: bytes
+cache-control: private, max-age=31536000
+content-length: 5969
+content-type: image/png
+date: Thu, 14 May 2020 04:18:11 GMT
+expires: Thu, 14 May 2020 04:18:11 GMT
+last-modified: Tue, 22 Oct 2019 18:30:00 GMT
+server: sffe
+status: 200
+x-content-type-options: nosniff
+x-xss-protection: 0
+An example of a Save-Data HTTP Header without saving data to verify both the Request and Response header types.
+GET /googlelogo.png HTTP/1.0
+Host: www.google.com
+HTTP/1.0 200 OK
+accept-ranges: bytes
+cache-control: private, max-age=31536000
+content-length: 1018
+content-type: image/png
+date: Thu, 14 May 2020 04:18:11 GMT
+expires: Thu, 14 May 2020 04:18:11 GMT
+last-modified: Tue, 22 Oct 2019 18:30:00 GMT
+server: sffe
+status: 200
+x-content-type-options: nosniff
+x-xss-protection: 0
+The only difference in the output is that when the save-data mode is enabled, the content length is significantly reduced compared to when it is disabled.
+What is the Specification Document for Save-Data HTTP Header?
+There is only one specification document for the Save-Data HTTP Header, which is the Save Data API. The Save Data API article mentions the Save-Data HTTP Header’s definition and uses. Additionally, the article discusses the Save-Data HTTP Header’s values and examples.
+What is the type of Save-Data HTTP Header?
+Save-Data HTTP Header network client hint is a request header type that indicates the client’s preference for data reduction. It could be due to high transfer costs, slow connection speeds, or other factors.
+What are the similar HTTP Headers to the Save-Data HTTP Header?
+The similar HTTP Headers to the Save-Data HTTP Header are listed below.
+Vary HTTP Header:
+A header called Vary describes what parts of the request message other than the method and URL changed the content of a response. The
+Vary HTTP header
+is called a response header. Most people use this to make a new one first when making a cache key when content negotiation is used. Similar to the Save-Data HTTP Header, which requests information and gets a response, the Save-Data HTTP Header also does this.
+NetworkInformation.saveData:
+The network information.saveData read-only property of the NetworkInformation interface is true if the user has set the user agent to use fewer data. It is similar to the Save-Data HTTP Header, which is also a way to use fewer resources.
+Which Browsers Support Save-Data HTTP Header?
+There are multiple browsers that support Save-Data HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Save-Data HTTP Header.
+Edge Browser is compatible with the Save-Data HTTP Header.
+Opera Browser is compatible with the Save-Data HTTP Header.
+WebView Android Browser is compatible with the Save-Data HTTP Header.
+Chrome Android Browser is compatible with the Save-Data HTTP Header.
+Opera Android Browser is compatible with the Save-Data HTTP Header.
+Samsung Internet Browser is compatible with the Save-Data HTTP Header.
+You can see an image that shows cross-browser compatibility of Save-Data HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Save-Data HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+X-Forwarded-Proto HTTP Header: Syntax, Directive, …
+TechSEO
+RTT HTTP Header: Syntax, Directive, Examples
+0
+0
+0

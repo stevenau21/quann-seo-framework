@@ -1,0 +1,196 @@
+XML Sitemap: Ultimate Guideline for SEOs - Holistic SEO
+Skip to content
+A sitemap contains all the sub-pages of your website that are to be indexed by Google. Since it is written in a standardized XML format, it is also called an XML sitemap. With a sitemap, you help Google crawl your website. It is usually located in the main directory of a domain and can be called up there. If a sitemap is located on a subdirectory, It can only be used for that subdirectory, the same rule is also valid for the subdomains.
+Sitemaps cannot list more than 50,000 URLs and cannot be larger than 50 MB. If your sitemap exceeds one or more of these numbers, you will need to create more than one.
+Some of the related guidelines for SEO and Sitemaps:
+What is an Image Sitemap?
+What is a News Sitemap?
+What is an HTML Sitemap?
+How to Submit a Sitemap to the Search Engine?
+Contents of the Article
+show
+1.
+Origins of the Sitemaps
+2.
+Which elements are considered by Google?
+2.1.
+1. XML Declaration
+2.2.
+2. URL set
+2.3.
+3. URL
+2.4.
+XML, RSS, text: which formats are still available for Sitemaps?
+2.5.
+A Sitemap is Good for Ranking, Right?
+3.
+Do I also need an HTML Sitemap?
+4.
+Why Do I Need an XML Sitemap?
+5.
+What if I Don’t Have a Sitemap?
+5.1.
+How Big Can a Sitemap Be?
+6.
+What is the XML sitemap index?
+6.1.
+XML Header
+6.2.
+Definition of Sitemapindex
+6.3.
+Definitions of Sitemaps
+6.4.
+What Criteria does a Sitemap Have to Meet to be Convenient to Google Guidelines?
+6.5.
+How to create an XML sitemap in the content management system
+6.6.
+How to manually create an XML sitemap for your website
+7.
+What should be not in your Sitemap?
+8.
+How do you submit your sitemap to Google?
+8.1.
+Reference your sitemap in the robots.txt
+8.2.
+How to submit your sitemap to Google
+8.3.
+Is your sitemap wrong?
+9.
+Do you have to update your sitemap?
+10.
+How to handle multiple language versions in the XML sitemap
+11.
+What other types of sitemaps are there?
+11.1.
+Video sitemaps
+11.2.
+Images sitemaps
+11.3.
+Google News sitemaps
+12.
+Last Thoughts on Sitemaps as Holistic SEO
+Origins of the Sitemaps
+Google introduced sitemaps in 2005 for webmasters and web developers so that they can contain all the necessary and important URLs in one location for the Search Engine. The first valid Sitemap Version for Google was 0.84. In November 2006, Yahoo, Microsoft, and Google has established the Common Mechanism for Website Submission. In April 2007, IBM and also Ask.com joined the Common Mechanism for Website Submission. Google and Yahoo have started the auto-discovery process for the sitemap files via robots.txt files. You may see Google’s first announcement related to the Sitemaps below:
+Origins of Sitemap from 2005.
+Also, you may see the Declaration of the Common Mechanism of Website Submission by Google, Yahoo, and Microsoft below:
+Search Engines and Common Mechanism for Website Submission.
+Which elements are considered by Google?
+The first two lines define the XML schema for our sitemap and specify that UTF-8 encoding is used.
+Loc
+denotes the URL that is listed in the sitemap.
+lastmod
+shows when the URL was last changed. In our example, it was on January 1st, 2005. With this entry, the search engine recognizes when the post was updated – and above all, whether it is worth crawling the page again. The notation is in the W3C DateTime format. The year is at the front and the day is at the back. The lastmod element is taken into account by Google when crawling.
+Changefreq
+is optional and describes the frequency of changes, i.e., how often the URL is likely to be changed. The following values ​​are accepted here: always, hourly, daily, weekly, monthly, yearly, and never. With always, the URL is changed with every call. Never is only used for archived URLs. In our example, the URL (most likely) will be updated every month. Changefreq is only a recommendation to Google and not an order. A URL with a changefreq of hourly can be crawled less typically, and a URL with yearly can be crawled more frequently than once a year. Even with URLs with never, the crawler comes in from time to time. If you are not sure what to enter here, you can leave this element blank.
+Priority
+means how important the URL is within the entire domain. The values ​​range from 0.0 to 1.0. The default is 0.5. This value is ignored by Google, so it can also be omitted.
+1. XML Declaration
+<? xml version = "1.0" encoding = "UTF-8"?>
+This simply tells that our sitemap is in XML format, and it is encoded with the UTF-8 character set. It also specifies the XML version.
+2. URL set
+<urlset xmlns = "http://www.sitemaps.org/schemas/sitemap/0.9">
+It is the container of all URLs in the sitemap. It also specifies the Sitemap Version which is used. In this case, our sitemap version is 0.9, it is being supported by Microsoft, Google, and Yahoo.
+3. URL
+<url>
+<loc> https://www.holisticseo.digital/ </loc>
+<lastmod> 2020-07-21T16: 12: 20 + 03: 00 </lastmod>
+</url>
+Every sitemap starts with the most inclusive URL. But still, Google doesn’t care about the URL Order in the Sitemaps for crawling orders. They are collecting the URLs and queuing them for crawling according to their internal crawl algorithms. Every URL should be used as an absolute, not a relative URL. Also, every URL should be original, any canonical URL, duplicate page URL, or page without a 200 status code shouldn’t be in the sitemap. Every URL in the Sitemap has to be the URL that is necessary to be indexed.
+<loc> also means location, it says the location of the URL.
+<lastmod> saying the last modified date of the URL in W3Schoold Date Format. If we would update the content on December 29, 2020, it would turn into 2020-12-29.
+An answer from Garry Illyes related to Lastmod’s necessity for SEO.
+<priority> says the importance of URL for crawling. In the old times, Google cared about this property in a sitemap, but most of the SEOs used it for manipulating the Search Engine, as always. Because of this, Google has created new metrics such as internal link popularity, PageRank, traffic, or historical data to understand the importance of a URL on a website.
+Garry also states this on Twitter. “Priority setting is a bag of noise.”
+“<changefreq>” is for specifying the change frequency of the URL so that the Search Engine can determine a crawl frequency. In the old times, Google was able to refresh its index only once a month. After a while, it started to update all indexes in 3-4 days. After Google Caffeine Update, it started to refresh the index for every web page separately. <changefreq> is an old property in Sitemap for those days in which Search Engines are slow to crawl and index. Also, SEOs started to use this metric to manipulate the Search Engine, so Google created its own metrics.
+You may find John Mueller’s quote below related to the <changefreq>:
+Priority and change frequency doesn’t really play that much of a role with Sitemaps anymore.
+This is something where we’ve tried various things but essentially, if you have a sitemap file and you are using it to tell us about the pages that were changed or updated, it is much better to just specify the time stamp directly so that we can look into our internal systems and say we haven’t crawled since this date, therefore, we should crawl again.
+And just crawling daily doesn’t make much sense if your content doesn’t change. So that is something where we see a lot of sites they give us this information in the sitemap, they said it changes daily or weekly, and we look in our database and it hasn’t changed in a month or years…
+So what I’d really recommend is using the timestamp.
+John Mueller
+XML, RSS, text: which formats are still available for Sitemaps?
+Google accepts various sitemap formats. The most common is the XML format described above. In addition, Google can also read other formats.
+RSS:
+If you have a blog with an RSS feed, you can also submit the URL of your feed. RSS 2.0 and Atom 1.0 feeds are accepted. With a media RSS feed, you can still provide Google with information about videos on your website. Remember that the RSS feed only contains current URLs.
+Text file:
+If your sitemap should only contain website URLs and no other information, you can also create a text file. There is only one URL in each line and the whole thing is saved in .txt format.
+Google Sites:
+If you have created your website with Google Sites, the sitemap will be generated automatically. However, this is not automatically submitted to Google, you can do it yourself. How to submit a sitemap is explained below in the article.
+XML: In
+my opinion the best solution for your sitemap. The standardized format ensures that Google receives all the information it needs.
+HTML Sitemap: HTML Sitemaps for showing all URLs to the Users rather than Search Engines. Since it is not directly related to the SEO, I recommend you to read our HTML Sitemap Guideline.
+A Sitemap is Good for Ranking, Right?
+A sitemap is not a direct ranking factor, but it helps Google to find your content more easily and to recognize changes quickly. Especially with new websites, it is worth notifying Google as soon as possible that there are new URLs. This way your pages will be indexed faster and you can directly control which pages should be included in the index.
+Do I also need an HTML Sitemap?
+In contrast to the XML sitemap, the HTML sitemap helps your users to find their way around the page, like a kind of table of contents. The HTML sitemap does not replace the XML sitemap but can be seen as a supplement to it.
+The HTML sitemap from Samsung shows the user which categories there are. It serves as a guide for the user.
+As you can see, the HTML sitemap shown above provides information about the categories and structure for the user. Unlike the XML sitemap, the HTML sitemap is a separate subpage that is usually linked in the footer and is therefore visible to your users.
+Why Do I Need an XML Sitemap?
+As you already read above, a sitemap is not relevant for the ranking and there are also some pages that don’t have any. Nevertheless, there are some advantages that a sitemap brings:
+Google detects changes faster:
+If new URLs are added, you can tell Google with a sitemap. This will help Google crawl.
+New websites are indexed faster:
+Your website is still fresh and Google must first know that it exists. Through your sitemap, you can actively tell Google that there is something new.
+Your pages are not linked to each other:
+If your content
+pages are not linked to
+each other, you use a sitemap to ensure that Google finds them anyway. This way they are not overlooked when crawling. Of course, a sitemap does not replace a well-thought-out internal link!
+Your page is extensive:
+If you have a lot of URLs on your page, a sitemap reduces the likelihood that something will not be crawled.
+Even if you have
+rich media content
+or would like to be displayed on
+Google News
+, Google may also consider additional information in the sitemap. For Google News, you also need a separate sitemap.
+So you see, there are good reasons for a sitemap. Google itself says that a sitemap does not guarantee that everything will be crawled, but there are no disadvantages.
+What if I Don’t Have a Sitemap?
+Then create one! You can either easily create them in your content management system (CMS) or create them manually. But I recommend the first variant.
+How Big Can a Sitemap Be?
+A sitemap can have a maximum of 50,000 URLs, and it can be a maximum of 50 megabytes. If you have a larger website, then your sitemap must be split up. Depending on which CMS you are using, this can happen automatically. The individual sitemaps are linked in the sitemap index file. The whole thing looks like this:
+You can see this sitemap when you go to www.seokratie.de/sitemap.xml.
+What is the XML sitemap index?
+If you exceed the limits for the sitemap, you need to divide it into several smaller maps and index these maps. It is an individual file that includes all the maps on your website.
+An example:
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemap>
+<loc>http://www.example.com/sitemap1.xml.gz</loc>
+<lastmod>2004-10-01T18:23:17+00:00</lastmod>
+</sitemap>
+<sitemap>
+<loc>http://www.example.com/sitemap2.xml.gz</loc>
+<lastmod>2005-01-01</lastmod>
+</sitemap>
+</sitemapindex>
+This index includes two maps of the XML site:
+sitemap1.xml.gz
+and
+sitemap2.xml.gz
+. Now we will explain this file in parts.
+XML Header
+<?xml version="1.0" encoding="UTF-8"?>
+It’s nothing new, the index header (just like the XML sitemap header) defines the XML standard version and character encoding.
+Definition of Sitemapindex
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+Instead of defining
+urlset
+be defined here as sitemap index. The definition encompasses all the sitemaps and tells which version of the XML standard was used. Just like the
+urlset
+definition closes at the bottom of the document:
+</sitemapindex>
+Definitions of Sitemaps
+<sitemap>
+<loc>http://www.example.com/sitemap1.xml.gz</loc>
+<lastmod>2004-10-01T18:23:17+00:00</lastmod>
+</sitemap>
+Most important sections of the sitemap are the <loc> and the <lastmod> tags. <loc> tag shows the URL’s location in the sitemap for the Search Engine Crawlers while the <lastmod> tag shows the latest modification date of the content in the <loc> tag.
+Apart from this, it is also possible to define lastmod as the date of the last modification of the XML sitemap in the “W3C” format.
+What Criteria does a Sitemap Have to Meet to be Convenient to Google Guidelines?
+In order for your sitemap to be error-free and accepted by Google, some requirements must be met. I’ll tell you what those are.
+General Guidelines
+:
+Your sitemap file must be encoded in UTF-8 format and the corresponding escape codes are stored if some characters cannot be displayed correctly.
+Make sure your sitemap only contains URLs from the same domain. If you have multiple domains, each domain gets its own sitemap.
+Your sitemap may only
+
+[...truncated...]

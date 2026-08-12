@@ -1,0 +1,127 @@
+Skip to content
+The Keep-Alive HTTP Header general-header allows the sender to specify how the connection should be used, such as setting a timeout and a maximum number of requests. The user must set the Connection HTTP Header to Keep-Alive HTTP Header if the user wants the keep-alive header to have any effect. The Connection general header determines whether or not the network connection will be kept open after the current transaction has been successfully completed. The connection is permanent and is not closed, allowing for additional requests to the same server if the Keep-Alive HTTP Header is used. There is only one value for using the Keep-Alive HTTP Header. The value for using the Keep-Alive HTTP Header is the parameters. An example of the Keep-Alive HTTP Header is given below.
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Thu, 11 Sep 2016 15:27:13 GMT
+Keep-Alive: timeout=5, max=1000
+Last-Modified: Mon, 14 Jul 2016 04:32:39 GMT
+Server: Apache
+(body)
+In this article, the Keep-Alive HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is Keep-Alive HTTP Header?
+1.1.
+What is the Syntax of Keep-Alive HTTP Header?
+1.2.
+What are the Directive of Keep-Alive HTTP Header?
+2.
+How to use Keep-Alive HTTP Header?
+2.1.
+Examples of Keep-Alive HTTP Header Use
+3.
+What is the Specification Document for Keep-Alive HTTP Header?
+4.
+What is the type of Keep-Alive HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Keep-Alive HTTP Header?
+5.
+Which Browsers Support Keep-Alive HTTP Header?
+What is Keep-Alive HTTP Header?
+Keep-Alive is a general type of header. The keep-alive header indicates the possibility of using the connection to define a timeout and a maximum number of requests. Additionally, it will be used to maintain an open TCP connection for numerous HTTP requests and responses using a single TCP connection (the default HTTP connection is closed after each request). It is sometimes referred to as a persistent connection. Enabling keep-alive is entirely dependent on the server and the level of access you have.
+What is the Syntax of Keep-Alive HTTP Header?
+The Keep-Alive HTTP Header uses only one value in its syntax. The syntax for using the Keep-Alive HTTP Header is written below.
+Keep-Alive: parameters
+What are the Directive of Keep-Alive HTTP Header?
+The Keep-Alive HTTP Header only contains one directive. The parameter specifies a comma-separated list of parameters, each of which contains an identifier and a value separated by the equal sign (=). The following are examples of potential identifiers.
+timeout: An integer that indicates how long the host allows an idle connection to remain open before closing it. The connection is considered idle if a host does not send or receive data. While a host may leave an idle connection open for longer than the timeout period, the host should make an attempt to retain the connection for at least the timeout period.
+max: The maximum number of requests that can be sent over this connection before it is closed. Unless set to 0, this value is disregarded for non-pipelined connections, as the following response will contain another request. It will be used to restrict the pipelining in an HTTP pipeline.
+An example directive for using the Keep-Alive HTTP Header is given below.
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Thu, 14 Mar 2022 18:33:13 GMT
+Keep-Alive: timeout=5, max=1000
+Last-Modified: Mon, 17 Sep 2020 04:42:39 GMT
+Server: Apache
+How to use Keep-Alive HTTP Header?
+The Keep-Alive HTTP Header is a general-type header that is used for anything. The keep-alive header indicates how the connection is used to provide a timeout and a maximum number of requests. It’s possible to utilize it to keep a single TCP connection active for many HTTP requests and responses (the default HTTP connection is closed after each request). A persistent connection is another name for it. Whether or not users should enable keep-alive is entirely dependent on the server the users are using and the level of access the users have.
+Examples of Keep-Alive HTTP Header Use
+The following is an example of how to use the Keep-Alive HTTP Header. The connection header must be configured as a Keep-Alive HTTP Header.
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Wed, 22 Jun 2020 15:23:33 GMT
+Keep-Alive: timeout=5, max=1000
+Last-Modified: Fri, 13 Mar 2020 06:32:25 GMT
+Server: Apache
+What is the Specification Document for Keep-Alive HTTP Header?
+There is only one specification document for the Keep-Alive HTTP Header, which is RFC 7230. The RFC 7230 section A.1.2 mentions the Keep-Alive HTTP Header connections. It describes the definition and uses of the Keep-Alive HTTP Header.
+What is the type of Keep-Alive HTTP Header?
+The Keep-Alive HTTP Header is a Request Header type because it indicates how the connection is used to specify a timeout and a maximum number of requests.
+What are the similar HTTP Headers to the Keep-Alive HTTP Header?
+There are other similar HTTP headers to the Keep-Alive HTTP Header. Listed below are example of similar HTTP headers to the Keep-Alive Header.
+Connection HTTP Header:
+The Connection HTTP Header specifies whether or not the network connection should be kept open after the current transaction has been completed. The connection is permanent and is not closed, allowing for additional requests to the same server if keep-alive is used. The
+Connection HTTP Header
+is comparable to the Keep-Alive HTTP Header, which is likewise a sort of general header.
+Connection management in HTTP/1.x:
+Connection management is a critical aspect of HTTP; it has a significant impact on the performance of Web pages and Web applications. There are many models in HTTP/1.x: temporary connections, persistent connections, and HTTP pipelining, which is similar to the Keep-Alive HTTP Header.
+Which Browsers Support Keep-Alive HTTP Header?
+There are multiple browsers that support Keep-Alive HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Keep-Alive HTTP Header.
+Edge Browser is compatible with the Keep-Alive HTTP Header.
+Firefox Browser is compatible with the Keep-Alive HTTP Header.
+Internet Explorer Browser is compatible with the Keep-Alive HTTP Header.
+Opera Browser is compatible with the Keep-Alive HTTP Header.
+Safari Browser is compatible with the Keep-Alive HTTP Header.
+WebView Android Browser is compatible with the Keep-Alive HTTP Header.
+Chrome Android Browser is compatible with the Keep-Alive HTTP Header.
+Firefox for Android Browser is compatible with the Keep-Alive HTTP Header.
+Opera Android Browser is compatible with the Keep-Alive HTTP Header.
+Safari on iOS Browser is compatible with the Keep-Alive HTTP Header.
+Samsung Internet Browser is compatible with the Keep-Alive HTTP Header.
+You can see an image that shows cross-browser compatibility of Keep-Alive HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Keep-Alive HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+ECT HTTP Header: Syntax, Directive, Examples
+TechSEO
+Server-Timing HTTP Header: Syntax, Directive, Exam…
+0
+0
+0

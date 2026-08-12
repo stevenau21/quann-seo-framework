@@ -1,0 +1,83 @@
+Cloaking: Definition and Effects on SEO via Examples - Holistic SEO
+Skip to content
+By definition, cloaking can be described as an HTML technique in the area of search engine optimization. When optimizing using cloaking, the focus is on improving the ranking of a website within the results list of search engines such as Google. For this purpose, the web crawlers of the search engine are presented with different content than the normal page visitor at the same URL. The goal is to present the website visitor with content that is attractively designed and does not focus on SEO criteria such as Keywords. In contrast, the crawler is usually presented with text-based page content that implements SEO methods as best as possible but loses design attributes.
+While designing your web site, sometimes you have to serve different content for
+different user-agents
+in small portions. This is different than cloaking. Google calls the different content for different devices as “Mismatching”. For now, Google Algorithms tolerate the “Mismatch” errors in small portions, but still, you need to serve the same content from the same URL to every user-agent.
+In the area of search engine optimization (SEO) whenever a server serves a different version of the website for a search engine crawler than the human visitors under the same URL, the cloaking conditions occur. The black hat method is used as a deliberate deception to improve the ranking of a website. Google and other search engine providers, therefore, regard this type of search engine optimization as a rule violation.
+Contents of the Article
+show
+1.
+Origin of the cloaking method
+2.
+Cloaking as a deception
+3.
+Cloaking techniques
+4.
+User Agent Cloaking (Agent Name Delivery)
+5.
+IP cloaking (IP delivery)
+6.
+Cloaking in 2020, What is its Effects and How does Google Punish it?
+Origin of the cloaking method
+Websites whose content consists primarily of graphics, videos, or flash animations generally do poorly in the search results. Multimedia content, which may be well received by many users, can only be read out in general by text-based search engines. This deficit can be compensated for by cloaking: Instead of the original page, the search engine crawler is shown a description of the image and video content and thus an HTML website in pure text form. Search engines can easily process such content and index the website accordingly. But the selective output of different website versions holds a high potential for abuse.
+Since, in the old times, Googlebot can’t render the
+Javascript
+,
+the web pages with heavy multimedia and design have suffered in rankings. Also, Google has improved its ability to perceive images and visual content in last years for both indexings and evaluating for the search intent. So, Cloaking is born because of those old-time conditions and it pushed the Search Engines to implement manual actions against cloaking while improving their crawlers.
+Cloaking as a deception
+Website operators repeatedly use cloaking methods to present content to the search engine that is not available to site visitors. Such an attempt at manipulation can be illustrated using the example of a fictitious casino website:
+In order to increase visibility on the World Wide Web, the provider of an online casino delivers a search engine crawler targeted content for board games. This is despite the fact that only paid games of chance are available to visitors to the website. As a result, the search engine lists the online offer due to the incorrect information in the index for board games and incorrectly outputs the website as a search result for the relevant keywords. This annoys misdirected visitors and reduces the
+user-friendliness
+of the search engine.
+To prevent such tricks, search engine operators are strict on cloaking. Market leader Google maintains a specialized webspam team, especially for such cases. Website operators who use the appropriate methods can expect their project to be completely removed from the search index (Google Penalty). In the guidelines for webmasters (Google Webmaster Guidelines), Google lists cloaking under concrete recommendations as to which methods should be avoided.
+Cloaking techniques
+Since cloaking is based on server systematics, the server can use the IP or the identifier to identify whether a user or browser or a robot wants to access the data and thus represent the optimized or reduced website.
+Website operators who use the black hat method usually use two different techniques to deceive search engines.
+User Agent Cloaking (Agent Name Delivery)
+A website is usually accessed via a so-called user agent. Examples of user agents are client applications such as web browsers or automated programs such as crawlers. These can be identified using a specific identifier, the agent name. This enables a web server to tailor requested content to the respective browser using optimized style sheets, thereby increasing the usability of a website. Agent Name Delivery thus forms the basis for a device-optimized display. However, such a procedure becomes cloaking when website operators integrate certain mechanisms that react specifically to agent names of well-known web crawlers such as the Googlebot and provide them with separate content. In order to avoid agent name delivery, search engines sometimes disguise their web crawlers as ordinary browsers.
+IP cloaking (IP delivery)
+In addition to the agent name, the IP address also offers a way to categorize website visitors and to provide them with special content. The method is used, among other things, in the context of geotargeting in order to display different language versions or regional offers to website visitors. IP delivery becomes cloaking when a website operator delivers tailor-made content to a crawler’s standard
+IP address
+. Such a black hat SEO is only successful if the bot in question always uses the same IP address. In order to prevent this manipulation, most search engines now rely on changing IP addresses.
+In an official video article on the subject, Matt Cutts, the former head of the Google webspam team, emphasized, however, that IP-based geotargeting and the adaptation of website content to mobile user agents definitely do not represent cloaking, but rather desired measures in the sense of Are user-friendliness. Accordingly, it does not matter to Google whether a website visitor from France is shown different content than a German visitor due to special language versions, provided that the content matches what a web crawler finds on the website.
+Note: Serving the different content from the same URL is not recommended by Search Engines. You should always serve the same content from the same URL to the all user-agents. Matt Cutts is talking about language-based differences, you need to use “hreflang” attribute for clarifying that which section of the web page is for which geography and language.
+Cloaking in 2020, What is its Effects and How does Google Punish it?
+Google and other Search Engines are even stricter against the webspam in 2020. They also decrease the Trust Score of some web entities if they violate the guidelines. And winning this trust score back is not easy. Along with this, some hacker methodologies such as Japanese Keyword Hack is based on cloaking. On this technique, hacker accesses the system of the web site’s server and changes the content of the web pages for only the Search Engine Crawlers. But, the hacker doesn’t change the content for the users. So while the Search Engine sees Japanese Content on the web site, users see the old web site as it is. So, the web site owner doesn’t realize that his or her site has been hacked. But Search Engines change the rankings of the web site and the queries of the web site take impressions and clicks. Also, this technique is being replicated for PageRank flows.
+To learn more about hackers methodologies and how you can protect your site against them, you can continue to follow Holistic SEO Guidelines.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Theoretical SEO
+What is Cloaking for Search Engine?
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+Theoretical SEO
+What is the Google Florida update?
+Theoretical SEO
+What is Google Possum Update?
+0
+0
+0

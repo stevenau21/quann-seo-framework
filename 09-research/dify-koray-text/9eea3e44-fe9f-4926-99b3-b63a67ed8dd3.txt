@@ -1,0 +1,89 @@
+Skip to content
+SEO Statistics involve how people search for and optimize their websites for search engines. Search Engine Optimization statistics are related to
+Marketing Statistics
+. SEO Statistics are part of digital marketing statistics. 2023 SEO Statistics can be found below.
+64% of Digital Marketers spend their time on Search Engine Optimization. Source: HubSpot
+SEO generates ten times more organic traffic than Social Media. Source: BrightEdge
+49% of web users use a search engine to find a new product. Source: HubSpot
+50.33% of search sessions on Google end without a click. Source: Jumpshot, Sparktoro
+94% of search activities happen on Google properties. Source: Sparktoro
+The average CTR on the image search results is 0.21%. Source: seoClarity
+There are 810 unique Google SERP Features. Source: seoClarity
+161 of the Google SERP Features exist on 0.2% of the queries. Source: seoClarity
+“Where to buy” and “Near me” query volumes increased more than 300% in the last three years. Source: Holistic SEO & Digital
+Mobile search activity has grown more than 600% from 2015, until 2023. Source: Holistic SEO & Digital
+Organic search and shopping end with a sale of 70% more if there is a local shopping possibility. Source: Think with Google
+46% of the shoppers say they audit the local store before going to the physical store. Source: Think with Google
+35% of blog post owners check their analytics to see the user data on their blog posts. Source: Statista
+On WordPress, 70 million new posts and 77 million new comments will be created every month during 2023. Source: WordPress
+89% of digital marketers believe in content marketing and blogging. Source: Content Marketing Institute
+18% of digital marketers chose WordPress for content publishing.
+In 2023, digital marketing blogs will generate their traffic from desktop users. Source: SEMRush
+The best digital marketing articles have more than 5,700 sources, according to SEMRush.
+Listicles and list blog posts have 200% more shares on social media. Source: SEMRush
+51% of businesses and corporations update their old blog posts to attract more traffic. Source: SEMRush
+67% of traffic from the web goes to businesses and companies. Source: Holistic SEO & Digital
+75% of blog posts do not get any links from other domains. Source: MOZ
+61% of digital marketers consider SEO to be their priority, the first step towards Inbound marketing. Source: HubSpot
+The first ranking result on Google has an average of 1890 words. Source: Backlinko
+Of 1200 SEOs, 48% say On-Page SEO is the best SEO method.
+Google says that internal links are one of the three most important ranking factors. Source: Andrey Lipattsev
+65% of Digital Marketers say link building is the best SEO technique. Source: Backlinko
+SEO Leads result in 14.6% of sales, while Outbound Marketing results in 1.7%. Source: Hubspot
+72% of digital marketers say posting relevant content sequentially is the best SEO technique. Source: MarketingProfs
+30% of search queries necessarily include a location. Source: Google
+88% of local searches are for a local business. Source: Engage121
+18% of local searches result in sales from small businesses if they include mobile searches. Source: Business2Community
+A website should load completely in 0.5-2 seconds. Source: Google
+90% of searches are made without having any idea about a company. Source: Stand Labs
+If users cannot see the marketing message on the homepage within 15 seconds, they leave the website. Source: Microsoft Research
+The search volume for infographics has increased by 800%. Source: Unbounce
+More than 90% of users, if they are reading your title, will review the description and CTA Element. Source: Aberdeen Group
+B2B Customers perform 12 searches before visiting a final destination website. Source: Kapost
+While 30% of marketers think voice search is the future, 60% do not have a strategy for voice search.
+80% of decision-makers make their decisions after reading more than one article. Source: CMO
+The most popular activities on the Internet are sending messages (79%), researching, and purchasing services and products (75%). Source: UK National Statistics
+Contents of the Article
+show
+1.
+What percentage of digital marketers spend their time focusing on SEO, according to HubSpot?
+2.
+How much more organic traffic does SEO generate compared to social media, based on BrightEdge data?
+3.
+What fraction of Google search sessions end without a user clicking on any result, as reported by Jumpshot and Sparktoro?
+4.
+What has been the growth rate of mobile search activity from 2015 to 2023, according to Holistic SEO & Digital?
+5.
+What is the average click-through rate (CTR) for image search results, as per seoClarity?
+6.
+How many unique Google Search Engine Results Page (SERP) features exist, based on data from seoClarity?
+7.
+What percentage of businesses update their old blog posts to attract more traffic, as indicated by SEMRush?
+8.
+What is the average word count for the first ranking result on Google, according to Backlinko?
+9.
+What percentage of local searches result in sales for small businesses when mobile searches are included, based on Business2Community statistics?
+10.
+How many searches do B2B customers typically perform before visiting a final destination website, as stated by Kapost?
+What percentage of digital marketers spend their time focusing on SEO, according to HubSpot?
+According to HubSpot’s data, 64% of digital marketers allocate a significant portion of their time to Search Engine Optimization (SEO). This high percentage underscores the importance of SEO in the modern digital marketing landscape. SEO strategies can include various activities such as keyword research, content creation, on-page optimization, and link building. The statistic suggests that for a majority of digital marketing professionals, SEO is not merely an add-on but a core component of their overall marketing strategy. This focus on SEO is likely driven by its proven effectiveness in increasing organic traffic, improving brand visibility, and achieving higher search engine rankings.
+How much more organic traffic does SEO generate compared to social media, based on BrightEdge data?
+According to data from BrightEdge, SEO generates ten times more organic traffic compared to social media. This statistic highlights the significant role that SEO plays in driving organic traffic to websites. While social media platforms can be effective for brand awareness and engagement, SEO appears to be far more potent in attracting a larger volume of organic visitors. The emphasis on SEO for organic traffic is likely due to the intent-driven nature of search queries, which often results in higher conversion rates. People using search engines are generally looking for specific information, products, or services, making them more likely to engage with the content that meets their needs. Therefore, businesses aiming to maximize their organic reach may find it beneficial to invest more heavily in SEO strategies.
+What fraction of Google search sessions end without a user clicking on any result, as reported by Jumpshot and Sparktoro?
+According to data from Jumpshot and Sparktoro, 50.33% of search sessions on Google end without a user clicking on any result. This phenomenon is often referred to as “zero-click searches.” These are instances where users find the information they are looking for directly within the search engine results page (SERP), without needing to click through to a website. This can happen through featured snippets, knowledge graphs, or other SERP features that Google provides. The high percentage of zero-click searches could have implications for businesses and digital marketers, as it suggests that traditional click-through rates may not be the only metric of success. It also emphasizes the importance of optimizing for SERP features to ensure visibility and engagement, even when users don’t click through to a website.
+What has been the growth rate of mobile search activity from 2015 to 2023, according to Holistic SEO & Digital?
+According to Holistic SEO & Digital, mobile search activity has experienced a growth rate of more than 600% from 2015 to 2023. Such a substantial increase demonstrates the rapidly evolving role of mobile devices in the realm of search and digital interaction. The surge in mobile search activity can be attributed to several factors, including the widespread adoption of smartphones, improvements in mobile internet speed, and enhanced user experience on mobile-friendly websites. For businesses and digital marketers, this statistic underscores the necessity of optimizing websites for mobile use, both in terms of design and speed. Furthermore, given the high rate of local queries conducted on mobile devices, local SEO becomes increasingly crucial. The data suggests that mobile search is not merely a growing trend but a fundamental shift in how users access and consume online content.
+What is the average click-through rate (CTR) for image search results, as per seoClarity?
+According to seoClarity, the average click-through rate (CTR) for image search results is 0.21%. This relatively low CTR may indicate that users often find the visual information they are looking for directly within the image search results, without the need to click through to the originating website. It could also suggest that image searches serve different user intents compared to text-based searches, such as quick visual references rather than in-depth information seeking. For businesses and digital marketers, optimizing images for search engines might not yield the same level of direct website traffic as optimizing text-based content. However, image SEO still holds value for brand visibility and could be a part of a comprehensive SEO strategy, especially for businesses in visually driven industries like fashion, design, or travel.
+How many unique Google Search Engine Results Page (SERP) features exist, based on data from seoClarity?
+Based on data from seoClarity, there are 810 unique Google Search Engine Results Page (SERP) features. These features include various elements like featured snippets, knowledge graphs, local packs, and more, designed to enhance user experience by providing quick and relevant information. The large number of unique SERP features highlights the complexity and dynamic nature of Google’s search algorithm. For digital marketers and businesses, understanding and optimizing for these features becomes crucial, especially given that a significant percentage of searches end without a click. The presence of numerous SERP features offers multiple avenues for gaining visibility on Google’s first page, even if not in the traditional organic listings. Therefore, a comprehensive SEO strategy in today’s landscape would likely involve optimization for these various SERP features to maximize visibility and engagement.
+What percentage of businesses update their old blog posts to attract more traffic, as indicated by SEMRush?
+According to SEMRush, 51% of businesses update their old blog posts to attract more traffic. This practice suggests that a significant portion of businesses recognize the value of maintaining up-to-date content. Updating old blog posts can involve revising outdated information, improving readability, or incorporating new keywords for SEO purposes. The fact that more than half of businesses engage in this practice highlights the importance of content refreshment in a long-term digital marketing strategy. It’s not just about creating new content; it’s equally important to optimize existing assets for sustained online visibility and engagement. This approach can help businesses maintain or improve their search rankings, thereby attracting a steady stream of organic traffic over time.
+What is the average word count for the first ranking result on Google, according to Backlinko?
+According to Backlinko, the average word count for the first ranking result on Google is approximately 1890 words. This statistic indicates that longer, more comprehensive content tends to perform better in search rankings. The high average word count for top-ranking pages suggests that these pages likely offer in-depth information, covering a topic thoroughly, which search engines like Google seem to favor. For digital marketers and content creators, focusing on creating high-quality, detailed content could be a key strategy for improving search engine rankings. However, it’s essential to note that length alone isn’t a guarantee of high rankings; the content must also be relevant, well-structured, and valuable to the reader. But, as a general guideline, aiming for comprehensive coverage of a topic could be beneficial for SEO efforts.
+What percentage of local searches result in sales for small businesses when mobile searches are included, based on Business2Community statistics?
+Based on statistics from Business2Community, 18% of local searches result in sales for small businesses when mobile searches are included. This data point underscores the significant commercial potential of local and mobile search optimization for small businesses. It suggests that nearly one in five local searches leads to a sale, highlighting the high-intent nature of users who perform these types of searches. For small businesses, this statistic serves as a compelling reason to invest in local SEO strategies, which could include optimizing for local keywords, improving Google My Business listings, and encouraging customer reviews. Given the increasing use of mobile devices for search, ensuring that a business’s online presence is mobile-friendly can also be crucial for capitalizing on this high conversion rate from local searches.
+How many searches do B2B customers typically perform before visiting a final destination website, as stated by Kapost?
+According to Kapost, B2B customers typically perform 12 searches before visiting a final destination website. This statistic reveals 
+
+[...truncated...]

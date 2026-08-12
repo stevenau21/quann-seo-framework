@@ -1,0 +1,100 @@
+HTML <meta> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <meta> HTML Tag is used to describe the metadata associated with an HTML content. Metadata is a term that refers to data that contains information about the data. The <meta> HTML Tags are always contained within the <head> HTML Tag and are often used to indicate the document’s character set, page description, keywords, author, and viewport settings. Although the metadata will not be shown on the website, it is machine-parsable. Browsers, search engines, and other web services use metadata to determine how to display content or reload a page. Through the <meta> HTML Tag, site designers can exert control over the viewport, or the user’s visible area of a web page. The <meta> HTML Tag is part of the Meta HTML category in HTML Element Reference. The attributes of the <meta> HTML Tag are charset, content, http-equiv, name and global attributes.
+<meta> code block example to learn how it works is given below.
+<meta name="" content="">
+<meta http-equiv="" content="">
+The second example usage of the “<meta>” code block example is given below.
+<html>
+<head>
+<title>Title</title>
+<meta name="" content="">
+</head>
+<body>
+</body>
+</html>
+Contents of the Article
+show
+1.
+What is <meta> HTML Tag?
+2.
+How to Use <meta> HTML Tag?
+2.1.
+Example Usage of <meta> HTML Tag?
+3.
+What are the Attributes of <meta> HTML Tag?
+4.
+What are the Default CSS Settings for <meta> HTML Tag?
+5.
+What are the Related other HTML Tags to <meta>?
+What is <meta> HTML Tag?
+Metadata is a term that refers to information about data. The <meta> HTML Tag contains information about the HTML document, or in simpler terms, it contains critical information about a page. Including the meta tag when creating the webpage or website is a good practice because of search engines. Additionally, if the user searches for a certain website, the search engine result page will provide snippets of information about that website in the search results. This tag is an empty element, as it contains only an opening and no closing tags, however, it contains data within its attributes. A web page may have one or more meta tags, depending on the information contained, however, this generally has no effect on the document’s physical appearance.
+How to Use <meta> HTML Tag?
+To use <meta> HTML Tag, the developer should add name or value pairs to HTML documents that describe document features between the start and end HTML tags such as expiration date, author name, keyword list, and document author. It is used to specify the character set, page description, keywords, document author, and viewport settings for the document.
+Example Usage of <meta> HTML Tag?
+The following example of usage of <meta> HTML Tag is given below.
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="HTML Tags, Meaning and Usage">
+<meta name="keywords" content="List, Example, Attributes">
+<meta name="author" content="Mark Daniel">
+<meta name="viewport" content="width=device-width, initial-scale=0">
+</head>
+What are the Attributes of <meta> HTML Tag?
+There are multiple attributes for the <link> HTML Tag. The following attributes are listed below.
+Global Attributes: The <meta> HTML Tag supports global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Name Attribute: The <meta> HTML Tag supports the name attribute that is used to define the property’s name.
+Http-equiv attribute: The meta> HTML Tag supports the http-equiv attribute, which is used to obtain the HTTP response message header.
+Content Attribute: The <meta> HTML Tag supports content that is used to define the value of properties.
+Charset Attribute: The <meta> HTML Tag supports charset, which is used to specify the character encoding for an HTML document.
+What are the Default CSS Settings for <meta> HTML Tag?
+There are no available Default CSS Settings for <meta> HTML Tag.
+What are the Related other HTML Tags to <meta>?
+The other related HTML Tags to <meta> HTML Tag are listed below.
+<head> HTML Tag: The <head> HTML Tag is related to <meta> HTML Tag because they are both in the meta tags category. The
+<head> HTML Tag
+contains information about the web page’s meta data.
+<base> HTML Tag: The <base> HTML Tag is related to <meta> HTML Tag because they are both in the meta tags category. The
+<base> HTML Tag
+specifies the base URL for all URLs contained within an HTML Document.
+<basefont> HTML Tag: The <basefont> HTML Tag is related to <meta> HTML Tag because they are both in the meta tags category. The
+<basefont> HTML Tag
+specifies the font size, color, and style for all text in the document.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <meta> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <head> Tag Definition, Usage and Exampl…
+TechSEO
+HTML <article> Tag Definition, Usage and Exa…
+0
+0
+0

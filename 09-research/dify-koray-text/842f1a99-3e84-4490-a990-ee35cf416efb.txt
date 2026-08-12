@@ -1,0 +1,209 @@
+How to Categorize URL Parameters and Queries via Python for Analyzing SEO - Holistic SEO
+Skip to content
+URL Parameters are important for SEO and Search Engine Crawlers. Different parameters can have different functions and meanings for both users and Search Engines. Complex URL Parameters can confuse the Search Engine’s Algorithms and create Ranking Signal Dilution in terms of SEO. Also, using and creating unnecessary repetitive and duplicate content with looping products, services and articles will consume your Crawl Budget along with Quality Score in the eyes of Search Engine.
+Below, you will find a quote from the Google Guideline related to this topic:
+Overly complex URLs, especially those containing multiple parameters, can cause a problems for crawlers by creating unnecessarily high numbers of URLs that point to identical or similar content on your site. As a result, Googlebot may consume much more bandwidth than necessary, or may be unable to completely index all the content on your site.
+Google Guidelines
+To learn more about Crawl Budget, Crawl Efficiency, and its relevance to the URL Parameters, you can read our related articles on these topics.
+In this article, we will learn how to check URL Parameters with pure Python Scripts and Libraries.
+We will use Pandas, URLLib, Advertools, Numpy, and Plotly Libraries, in Jupyter Notebook. I especially recommend you check Advertools for better SEO and Python-related topics.
+Checking URL Parameters with a heavy CSV File can be really boring and frustrating, let’s begin to do the same thing with Python in a very easier methodology.
+To learn more about Python SEO, you may read the related guidelines:
+How to resize images in  bulk with Python
+How to perform TF-IDF Analysis with Python
+How to crawl and analyze a Website via Python
+How to perform text analysis via Python
+How to test a robots.txt file via Python
+How to Compare and Analyze Robots.txt File via Python
+Contents of the Article
+show
+1.
+Setting Up The Environment: Acquiring the Necessary URLs and Their Parameters
+2.
+How to Parse a Web Site’s URLs with Python and URLLib
+3.
+What is the Difference Between A Query and A Parameter in URLs?
+4.
+How to Visualize URL Queries and Parameters’ Amount via Python
+5.
+Last Thoughts on URL Parameter and Query Categorization via Python
+Setting Up The Environment: Acquiring the Necessary URLs and Their Parameters
+I will use Advertools’ Crawl Function to crawl a web entity and take its URLs into a Data Frame. Advertools use Scrapy to scrape all URLs and their On-page element along with response headers and JSON-LD information. You also can create your own scraper. To learn more about crawling a web entity with Python, you can read my “How to Crawl and Analyse a Web Site with only Python” article.
+First, we will import the necessary libraries:
+import advertools as adv
+import pandas as pd
+import plotly.graph_objects as go
+from plotly.offline import iplot
+from urllib.parse import urlparse
+from urllib.parse import parse_qs
+Now, we will crawl a web site with Advertools in a single line of code.
+crawl(‘https://www.sigortam.net’, ‘sigortam_crawl.csv’, follow_links=True )
+The first parameter is for the targeted domain to crawl, the second is for the name of the output file and its extension. The “Follow_links=True” part is the determination of whether the crawler continues to crawl internal links or not.
+You may see the crawling process of a Web site via Python.
+When the crawl process is over, you will see a screen that includes the crawl report. This report shows the GET and POST Request Counts, Status Code Sums, and the sum of requests in terms of bytes and more.
+Crawl Output can be examined for more detail such as “offsie/domains”.
+Since our output file’s name is “sigortam_crawl.csv”, we can simply turn it into a data frame thanks to Pandas’ “read_csv” function.
+sigortam = pd.read_csv(‘sigortam_crawl.csv’)
+sigortam
+Now, we can simply see our data frame’s shape.
+sigortam.shape
+Pandas Shape Method usage.
+sigortam.info()
+Now, with “sigortam.info()” we can check the names of the columns.
+Pandas Info Method gives us all the aspects of a Dataframe.
+Now, we can check the graphical vision of our data frame.
+sigortam.head(5)
+This is our Crawl Output.
+We are calling only the first 5 rows from our data frame.
+The difference between URL and Redirected URL Columns is that the URL Section is showing the URLs that are explored by the crawler, redirected URL column is showing the URLs that are destinations. So, we should only use our Redirected URL Column here to make our URL Parameter analysis with Python for SEO.
+Before proceeding, first, we need to check are there are any duplicated rows in the column we need.
+urls = sigortam[‘url_redirected_to’]
+urls.to_frame()
+urls.duplicated().value_counts(normalize=True)
+First, we have assigned our targeted column and turned it into a Data Series from a Data Frame.
+We have put it into a frame to check its row count in sum.
+We have used the “duplicated()” method with the normalized attribute to check whether there is a duplicated row or not.
+We have 0 duplicated URLs.
+Here, False 1.0 means that our data series don’t have any duplicated rows. Because, our Advertools’ Crawl function clean duplicated rows, but we still wanted to show this to you, because usually, other crawlers don’t do this step and you might need to do it in a CSV file or with a “unique()” method of Numpy.
+Since we have our URLs in a variable, now we can start to use URLLib Library for parsing the parameters.
+How to Parse a Web Site’s URLs with Python and URLLib
+URLlib is a Python Module that is solely focused on URLs and their structure. Since it is a special library for analyzing URLs, we won’t have difficulties for our SEO purposes here.
+URLLib will analyze the URLs according to the arguments as below:
+scheme of the URL: Protocol of the URL, HTTP, or HTTPs.
+netloc of the URL: Domain name of the URL.
+path: The URL’s subfolders.
+query: The parameters of the URL which are created by the CMS, User, or other factors.
+Here, we will focus on the query part. I have chosen a shallow website to test. I have decided on an e-commerce site to extract some SEO insights from URL Parameters. But in this example, I have decided on an insurance aggregator company’s site., I especially want to see whether the parameters are necessary or not rather than their character.
+As you remember, we have already imported the necessary functions and methods from URLLib at the beginning of the article. They are below:
+from urllib.parse import urlparse
+from urllib.parse import parse_qs
+Let’s perform an example here so that you can understand better how URLLib works.
+urls.iloc[3257]
+parsed_url = urlparse(urls.iloc[3257])
+parsed_url
+You may see the results below:
+URL Parsing example via URLLIB Package.
+We have called a URL from our “urls” variable with the help of “iloc” (integer location). As we can see, it has parameters on it.
+We have assigned the outcome of the “urlparse” functions’ result.
+We have called the result through the variable we have created in the one before the line.
+As you may see at the result, it has “https”, “netloc”, “path”, “params”, “query” and “fragment” sections. You can see the meaning of those below:
+Attribute
+Index
+Value
+Value if not present
+scheme
+0
+URL scheme specifier
+scheme
+parameter
+netloc
+1
+Network location part
+empty string
+path
+2
+Hierarchical path
+empty string
+params
+3
+Parameters for the last path element
+empty string
+query
+4
+Query component
+empty string
+fragment
+5
+Fragment identifier
+empty string
+username
+User name
+None
+password
+Password
+None
+hostname
+Host name (lowercase)
+None
+port
+Port number as an integer, if present
+None
+Source: URLLib Python Documentary
+Now, we may start to perform the same process along with all URLs for collecting the parameters.
+query = {}
+for url in urls:
+parsed_url = urlparse(url)
+for param in parse_qs(parsed_url.query):
+query[param] = query.get(param, 0) + 1
+We have used the “parse_qs” function from the “urllib” module. We also have a similar function to “parse_qsl”. The difference between these two methods is their output format. “parse_qs” returns a Python dictionary, while the “parse_qsl” returns a list. We are turning all the URLs parameters into a dictionary and storing them in the “query” variable. To see the purpose of the “query” method from the fourth line, you may check the below.
+query_string = parsed_url
+print(query_string)
+OUTPUT>>>
+ParseResult(scheme='https', netloc='www.sigortam.net', path='/uye-giris', params='', query='mode=k&target=/groupama-sigorta', fragment='')
+First, we have parsed a random URL from our list, you may see that we have a query section in our “ParseResult”. Now, let’s see the function of the “query” method. The path “uye-giris” means “member-login” while the “groupama-sigorta” in the query means the “Groupama Insurance Company”.
+query_string = parsed_url.query
+print(query_string)
+OUTPUT>>>
+mode=k&target=/groupama-sigorta
+We are pulling the query section of the URL thanks to the “query” method. Now you may see the function of the “parse_qs” method below.
+print(parse_qs(query_string))
+OUTPUT>>>
+{'mode': ['k'], 'target': ['/groupama-sigorta']}
+We are parsing the query of the URL in a dictionary. We have two items here, one is “mode” and the other one is “target”. So, we may assume that according to the path of the URL we have chosen, it is a “branded login page”. So for a singular example, we have learned how to learn a query.
+In our example, we have another part for explaining, and it is Python’s “Dictionary.get(key, value)” method. “get()” method in Python is being used for taking particular data from a dictionary. In our loop, we are using the “get()” method for creating key and value pairs in our dictionary by incrementing the keys one by one. So, now we can see our output in a dictionary.
+query
+OUTPUT>>>
+{'mode': 54,
+'target': 56,
+'utm_source': 3,
+'utm_medium': 3,
+'utm_content': 3,
+'utm_campaign': 3,
+'SENDER': 4,
+'aspxerrorpath': 6,
+'gclid': 1,
+'pi': 52,
+'subject': 3,
+'s': 28,
+'source': 4,
+'page': 108,
+'init': 56,
+'slider': 1}
+We have 16 different queries in our entire web entity, some of them are related to the “UTM Codes”, some of them are “modes” and some of them are for pagination. Now, we should create a data frame from our example.
+print(f"{len(query)} unique URL parameters found.")
+OUTPUT>>>
+16 unique URL parameters found.
+We will sort our dictionary according to its keys’ values via a simple list comprehension.
+parameters = [(key, value) for key, value in sorted(parameters.items(),
+key=lambda item: item[1], reverse=True)]
+The “sorted()” function gets three arguments, the first is determining the object which will be sorted, the second is for determining the metric to which they will be sorting, and the last one is for determining the sorting process’ direction. In our example, we have sorted our dictionary according to the “item[1] which is the value of the dictionary elements in descending order.
+Now, we can use our “pd.DataFrame()” method to turn our data into a data frame.
+pd.DataFrame(query, columns=["Query","Count"]).style.set_properties(**{
+'background-color': 'black',
+'font-size': '15pt',
+})
+#We also changed the background color and font-size in this example.
+#set_properties(**dict) can be use for changing the style of the dataframe.
+You may see the output below:
+We have changed our font size and also the background color for a clear sight thanks to the “style.set_properties()” method.
+We have performed a correct categorization and sorting while creating our Data Frame. Before going further, I need to explain one important thing for making some points clear. What is the difference between a URL Parameter and a URL Query? And why we only pulled and ordered our queries?
+What is the Difference Between A Query and A Parameter in URLs?
+Queries and Parameters in the URLs are different from each other in terms of functions, despite most of the time developers and marketers or users don’t perceive them as different from each other. Actually, all the URL Parts and snippets are defined by RFC 3986. You may see a beginning section from the official document below.
+RFC 3986 definition for URL Parameters.
+Until now, this document has been updated 1735 times since 2005. Its main purpose is keeping the internet clean and organizing the URL structure to make the internet more understandable for developers. According to the Uniform Resource Identifier Generic Syntax, a URL is not for letting people reach the resource, it is just for identification of the resource. To reach out to the resource, you should use parameters or queries such as URL Resolution. Every section in the URL has an identifier feature. Parameters have a hierarchic meaning and order in the URL, while the queries don’t have a hierarchic order or meaning.
+Parameters should be separated by “;”, “,” or “=” signs, while the queries should start with the “?” sign and end with the “#” sign. There are some other older practices from the past years also. In some examples, queries are being used as “?query=value” also. Python’s URLLib Module tries to retrieve the URL Sections according to the RFC 3986 Convention. That’s why we don’t have nearly any URL Parameters in our data frame because the developers didn’t care so much about this convention.
+If we would parameters, we could see them as below:
+query_string = parsed_url.path
+print(query_string)
+OUTPUT>>>
+/uye-giris
+You may use the same with the “params” method. Since we don’t have so many examples for parameters, we will show one more example with another URL Section.
+query_string = parsed_url.scheme
+print(query_string)
+OUTPUT>>>
+https
+Now, we can visualize our parameters’ data.
+How to Visualize URL Queries and Parameters’ Amount via Python
+To visualize our parameters, we will use the “iplot” function along with the “plotly.graph_objects”. We prefer to use a barplot for performing the visualization, but you may choose a different one.
+
+[...truncated...]

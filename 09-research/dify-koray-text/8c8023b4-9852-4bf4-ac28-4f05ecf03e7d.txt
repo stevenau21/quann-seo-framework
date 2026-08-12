@@ -1,0 +1,110 @@
+HTML <track> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <track> HTML Tag denotes text tracks for <audio> and <video> HTML Tags, respectively. The <track> HTML Tag is used to specify whether or not subtitles, caption files, or other text-based files should be visible while the media is playing. Tracks are formatted using the WebVTT standard (.vtt files). The <track> HTML Tag is part of the audio/video tags category in HTML Element Reference. The attributes of the <track> HTML Tag are default, kind, label, src, srclang, global attributes and event attributes.
+<track> code block example to learn how it works is given below.
+<video src="video.ogg" controls>
+<track src="text-track.vtt" kind="subtitles" srclang="en" label="English">
+</video>
+The second example usage of the “<track>” code block example is given below.
+<video controls
+src="/media/cc0-videos/avengers-clip.mp4">
+<track default
+kind="subtitles"
+srclang="en"
+src="/media/examples/avengers-clip.vtt" />
+your browser doesn't support this video.
+</video>
+Contents of the Article
+show
+1.
+What is <track> HTML Tag?
+2.
+How to Use <track> HTML Tag?
+2.1.
+Example Usage of <track> HTML Tag?
+3.
+What are the Attributes of <track> HTML Tag?
+4.
+What are the Default CSS Settings for <track> HTML Tag?
+5.
+What are the Related other HTML Tags to <track>?
+What is <track> HTML Tag?
+The <track> HTML Tag defines text tracks for audio and video components. This section is used to specify subtitles, caption files, or other text-containing files that should be visible while the media is playing.
+How to Use <track> HTML Tag?
+To use <track> HTML Tag, The web developer should create a <track src=””> and no end tag. The src attribute is a mandatory attribute that specifies the text track’s URL. The developer can specify the type of text track using the optional type attribute. If the kind attribute is in the subtitles state, the srclang attribute must be present. Note that if you omit the type attribute, it defaults to subtitles; in this case, you must provide a srclang attribute. Additionally, the developer can include the optional label attribute to display a label to the user. The <track> HTML Tag must be contained within a media attribute.
+Example Usage of <track> HTML Tag?
+The following example of usage of <track> HTML Tag is given below.
+<video controls
+src="/media/cc0-videos/spider-man-2021-clip.mp4">
+<track default
+kind="subtitles"
+srclang="en"
+src="/media/examples/spider-man-2021-clip.vtt" />
+your browser doesn't support this video.
+</video>
+What are the Attributes of <track> HTML Tag?
+There are multiple attributes for the <track> HTML Tag. The following attributes are listed below.
+Global Attributes: The <track> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <track> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+srclang attribute: The <track> HTML Tag supports srclang attribute. The srclang attribute indicates the language in which the track text data is written.
+src attribute: The <track> HTML Tag supports src attribute. The src attribute specifies the track file’s URL.
+label attribute: The <track> HTML Tag supports label attribute. The label attribute defines the text track’s title.
+default attribute: The <track> HTML Tag supports default attribute.The default attribute indicates that the track should be enabled unless the user’s preferences indicate that another track is more appropriate.
+kind attribute: The <track> HTML Tag supports kind attribute. The kind attribute identifies the text track’s type.
+What are the Default CSS Settings for <track> HTML Tag?
+The following is the Default CSS Setting for the <s> HTML Tag.
+video {
+width: 250px;
+}
+video::cue {
+font-size: 1rem;
+}
+What are the Related other HTML Tags to <track>?
+The other related HTML Tags to <track> HTML Tag are listed below.
+<audio> HTML Tag: The
+<audio>
+HTML Tag is related to <track> HTML Tag because they are both audio/video tags. The <audio> HTML Tag is used to specify the audio content.
+<video> HTML Tag: The
+<video>
+HTML Tag is related to <track> HTML Tag because they are both audio/video tags. The <video> HTML Tag is used to specify video content.
+<source> HTML Tag: The
+<source>
+HTML Tag is related to <track> HTML Tag because they are both audio/video tags. The <source> HTML Tag is used to specify the media resources that will be used by media elements.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <track> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <svg> Tag Definition, Usage and Example…
+TechSEO
+HTML <template> Tag Definition, Usage and Ex…
+0
+0
+0

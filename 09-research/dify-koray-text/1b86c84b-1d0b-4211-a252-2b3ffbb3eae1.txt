@@ -1,0 +1,128 @@
+Skip to content
+The Sec-Fetch-Mode HTTP Header fetches metadata request header specifies the request mode. In general, the Sec-Fetch-Mode HTTP Header enables a server to differentiate between requests originating from a user moving between HTML pages and requests to load graphics and other resources. For example, navigate is used for top-level navigation requests while no-cors is used to load an image. There are multiple values for the Sec-Fetch-Mode HTTP Header. The syntax values for the Sec-Fetch-Mode HTTP Header are cors, navigate, no-cors, same-origin, and WebSocket. An example of a Sec-Fetch-Mode HTTP Header is given below.
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+The Sec-Fetch-Mode HTTP Header Request Header is seen above. In the article, the Sec-Fetch-Mode HTTP Header Syntax, Directives, and Uses example will be processed.
+Contents of the Article
+show
+1.
+What is Sec-Fetch-Mode HTTP Header?
+1.1.
+What is the Syntax of Sec-Fetch-Mode HTTP Header?
+1.2.
+What are the Directives of Sec-Fetch-Mode HTTP Header?
+2.
+How to use Sec-Fetch-Mode HTTP Header?
+2.1.
+Examples of Sec-Fetch-Mode HTTP Header Use
+3.
+What is the Specification Document for Sec-Fetch-Mode HTTP Header?
+4.
+What is the type of Sec-Fetch-Mode HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Sec-Fetch-Mode HTTP Header?
+5.
+Which Browsers Support Sec-Fetch-Mode HTTP Header?
+What is Sec-Fetch-Mode HTTP Header?
+The Sec-Fetch-Mode is a special mode of retrieval. The Sec-Fetch-Mode HTTP Header is used to specify the type of request being made. As a rule, it allows a server to distinguish between requests originating from a user who is switching between HTML pages and requests to load graphics and other resources.
+What is the Syntax of Sec-Fetch-Mode HTTP Header?
+The Sec-Fetch-Mode HTTP Header contains five values in its syntax. The syntax for using Sec-Fetch-Mode HTTP Header is written below.
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+What are the Directives of Sec-Fetch-Mode HTTP Header?
+There are multiple directives that should be put in the Sec-Fetch-Mode HTTP Header. The directives for using the Sec-Fetch-Mode HTTP Header are given below.
+cors: The request is made over the CORS protocol.
+navigate: The request is triggered by navigating across HTML documents on the same page.
+no-cors: No-cors requests are those that do not require a response.
+same-origin: The request is made from the same origin as the resource that is being sought, which ensures that the request is successful.
+websocket: A WebSocket connection request is being made.
+An example of a directive for the Sec-Fetch-Mode HTTP Header is written below.
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+How to use Sec-Fetch-Mode HTTP Header?
+The Sec-Fetch-Mode is a special mode of retrieval. The HTTP header is used to describe what sort of request is being made when making a request. A server will be able to distinguish between requests coming from users who are switching between HTML pages and requests to load graphics and other resources, as a rule, as a result of using the technique.
+Examples of Sec-Fetch-Mode HTTP Header Use
+The examples of the Sec-Fetch-Mode HTTP Header used are listed below.
+If a user clicks on a page link to another page of the same origin, the succeeding request will include the headers shown below. Take note that the mode is navigating.
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+A cross-site request made by an <img> element would make a request with these HTTP request headers. The mode is no-cors.
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+What is the Specification Document for Sec-Fetch-Mode HTTP Header?
+There is only one specification document for the Sec-Fetch-Mode HTTP Header, which is the Fetch Metadata Request Headers. The Fetch Metadata Request Headers (Fetch Metadata) Article 1.1 mentions the Sec-Fetch-Mode HTTP Header example of users using multiple directive values. Additionally, the article discusses the Sec-Fetch-Mode HTTP Header’s definition and usage.
+What is the type of Sec-Fetch-Mode HTTP Header?
+The Sec-Fetch-Mode HTTP Header Type is Request Header only which indicates the mode of the request. It also contains more information about the resource to be fetched, or about the client requesting the resource.
+What are the similar HTTP Headers to the Sec-Fetch-Mode HTTP Header?
+The similar HTTP Headers to the Sec-Fetch-Mode HTTP Header are listed below.
+Sec-Fetch-Dest HTTP Header:
+The Sec-Fetch-Dest HTTP Header is similar to the Sec-Fetch-Mode HTTP Header. The Sec-Fetch-Dest HTTP Header specifies the destination of the request. The
+Sec-Fetch-Dest HTTP Header
+is comparable to the Sec-Fetch-Mode HTTP Header in that they both have the same HTTP Header Type, which is the Fetch Metadata Request Header.
+Sec-Fetch-User HTTP Header:
+The Sec-Fetch-User HTTP Header is similar to the Sec-Fetch-Mode HTTP Header. The Sec-Fetch-User HTTP Header Type is similar to the Sec-Fetch-Mode HTTP Header Type in that it is a fetch metadata request header. User-activated requests are the only ones for which the
+Sec-Fetch-User HTTP Header
+is sent, and the value it contains is always the same.
+Sec-Fetch-Site HTTP Header:
+The Sec-Fetch-Site HTTP Header is similar to the Sec-Fetch-Mode HTTP Header. The Sec-The Sec-Fetch-Site HTTP Header establishes the connection between the origin of the request initiator and the origin of the requested resource. The
+Sec-Fetch-Site HTTP Header
+is comparable to the Sec-Fetch-Mode HTTP Header in that they both have the same HTTP Header Type, which is the Fetch Metadata Request Header.
+Which Browsers Support Sec-Fetch-Mode HTTP Header?
+There are multiple browsers that support Sec-Fetch-Mode HTTP Headers. The following browsers are listed below.
+Chrome Browser is compatible e with the Sec-Fetch-Mode HTTP Headers
+Edge Browser is compatible e with the Sec-Fetch-Mode HTTP Headers
+Firefox Browser is compatible e with the Sec-Fetch-Mode HTTP Headers
+Opera Browser is compatible e with the Sec-Fetch-Mode HTTP Headers
+WebView Android Browser is compatible e with the Sec-Fetch-Mode HTTP Headers
+Chrome Android Browser is compatible e with the Sec-Fetch-Mode HTTP Headers
+Firefox Android Browser is compatible e with the Sec-Fetch-Mode HTTP Headers
+Opera Android Browser is compatible e with the Sec-Fetch-Mode HTTP Headers
+Samsung Internet Browser is compatible e with the Sec-Fetch-Mode HTTP Headers
+You can see an image that shows the cross-browser compatibility of Sec-Fetch-Mode HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Sec-Fetch-Mode HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Sec-Fetch-Dest HTTP Header: Syntax, Directive, Exa…
+TechSEO
+Sec-CH-UA-Bitness HTTP Header: Syntax, Directive, …
+0
+0
+0

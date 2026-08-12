@@ -1,0 +1,76 @@
+"aria-haspopup" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-haspopup is an attribute that is set to point out the availability and the type of functional popup element that triggers the element. The purpose of the aria-haspopup is to assist the user with the assistive technology that there’s a message or dialogue that could have necessary information it may need response or interactions. The developer can use aria-haspopup to utilize keystroke and pointer focus to execute or trigger the element to popup helpful information for the users and user agents. The aria-haspopup can be utilized for elements menu list box tree grid and dialogue the availability and type of the popup interactive element will trigger popup identified element with the aria-haspopup state the aria-haspopup can be used with other aria labels such as aria-control aria-description aria-labelledby and aria-describedby
+Contents of the Article
+show
+1.
+What is the function of the “aria-haspopup” ARIA Label?
+2.
+What are the uses of the “aria-haspopup” ARIA Label?
+3.
+Example Uses of “aria-haspopup” ARIA Label
+4.
+What are the related ARIA Labels to “aria-haspopup”
+What is the function of the “aria-haspopup” ARIA Label?
+The purpose of the aria-haspopup attribute is to cause some form of dialogue or content to appear whenever the attribute is set on elements. The aria-haspopup state notifies users of assistive technology and user interfaces that there is a popup and that the information they are viewing contains the popup; however, it does not provide interactivity. An element must be focusable and able to trigger a popup in order for it to be possible to use a keyboard to access the popup. Additionally, the popup itself and all of its descendants must provide keyboard accessibility. The attribute aria-haspopup is added to components like menus, listboxes, tree grids, and dialogues to indicate whether they are capable of displaying a popup and what kind of popup they will show if they do. The value true in the aria-haspopup property corresponds to the value shown on the menu; any other value, such as an empty string or another role, is interpreted as being false.
+What are the uses of the “aria-haspopup” ARIA Label?
+Listed below are the aria-haspopup ARIA Label uses.
+application role:
+It indicates to assistive technologies that an element and all of its children should be treated the same as the desktop application, and no traditional HTML representation techniques should be used.
+button role:
+It is for the clickable elements that can be triggered when activated by the user, adding role=”button” informs the screen reader that the element is a button, but provides no button functionality.
+combobox role:
+It identifies an element as an input content that controls another element, such as a listbox or grid, that can vary pop up information to help the user set the value of that needed input.
+gridcell role:
+It is used to create a cell or treegrid, it mimics the functionality of the HTML <td> element as a table-style grouping of information.
+menuitem role:
+It shows the element has an option in the identification of choice contained by a menu or menu bar.
+Example Uses of “aria-haspopup” ARIA Label
+Listed below are the examples and uses of aria-haspopup.
+The aria-haspopup attribute indicates the existence of a certain type of interacting popup elements, such as a menu or a dialogue box; this attribute is triggered when an element is loaded.
+What are the related ARIA Labels to “aria-haspopup”
+The ARIA Labels related to aria-haspopup are listed below.
+aria-control
+:
+aria-control is related to aria-haspopup because they both identify a controller element. The aria-control can be used to determine which element or set of elements have their presence or values controlled by an element whose attribute has been configured to have this particular value.
+aria-owns
+:
+The aria-owns is related to aria-haspopup because they both define the relationship of parent and child in contextual content. The aria-owns attribute is being used in order to describe a connection between a parent element and the child elements that it owns. This relationship can be visible, functional, or contextual.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-haspopup” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-errormessage” ARIA Label for Acc…
+TechSEO
+Aria Labels for Accessibility: Examples, Types, Us…
+0
+0
+0

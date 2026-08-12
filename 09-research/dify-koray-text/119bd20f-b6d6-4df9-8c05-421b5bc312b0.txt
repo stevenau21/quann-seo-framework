@@ -1,0 +1,114 @@
+Google Panda Update: Importance and Effects on SEO - Holistic SEO
+Skip to content
+Specifically, the Panda update is a filter that is regularly applied to the entire Google index and significantly reduces the visibility of poor-quality websites, i.e. significantly shifts their rankings in the search results pages. The algorithm change was first introduced on February 23, 2011, in the US search market and then launched on April 11, 2011, worldwide for all search queries in English. On August 12, 2011, the change to the ranking algorithm was adopted worldwide for all available languages, except Chinese, Japanese and Korean. In this context, one speaks of the worldwide publication of the Google Panda update.
+The namesake of the algorithm change is not, as is often assumed, the Panda Bear but the Google engineer Navneet Panda, whose contribution was largely responsible for the completion of this filter
+Contents of the Article
+show
+1.
+What makes the algorithm change so special?
+2.
+What is the goal of the Panda update?
+3.
+What is the Impact of Google Panda Update?
+4.
+Panda 4.0
+5.
+Panda 4.1
+6.
+Factors that the Panda Update punishes:
+7.
+What should an SEO Know about Google Panda Update in 2020
+What makes the algorithm change so special?
+Compared to previous algorithm changes, the Panda update affects the rankings of an entire website or its sub-areas, whereas past updates only affected individual (sub) pages.
+According to Google, the influence of the algorithm change on search queries is approx. 12% for all English-language queries and approx. 6 – 9% for all other languages. The Panda update thus had a clearly noticeable effect on an enormous number of websites.
+You may learn more about Related Google Algorithms and Updates via our Guidelines:
+Google Florida Update
+Google Florida Update
+Google Hilltop Algorithm Update
+Google Possum Update
+Google TrustRank Algorithm
+Google PageRank Algorithm
+Google Caffeine Update
+Google Hummingbird Update
+What is Information Retrieval for Search Engines
+What is the goal of the Panda update?
+With the Panda Update, Google is trying to design its algorithm so that websites are rewarded that offer high-quality content and added value for the user. Pages with inferior or useless content will be penalized. In this way, users of the search engine should be shown more informative and suitable search results.
+What is the Impact of Google Panda Update?
+Pages that did not represent any added value for the user were hit by the Panda Update. These included predominantly so-called content farms, in which the quantitative content was in the foreground and pages with empty content, which were used, without exception, to establish internal links.
+Portals were also affected that created many subpages for a keyword and used keyword variants of the same topic. Google usually classifies such texts with a similarity that is too high and therefore as duplicate content.
+The new algorithm identifies pages with a high ratio of advertising to content through the Panda Update. Pages that Google positively analyzed for a high proportion of advertising were punished by the search engine with a deterioration in the SERPs or, in particularly severe cases, even with an exclusion from the SERPs.
+Google Panda Update didn’t take its name from the animal Panda. But, because of the quick connotation, animal panda has became the symbol for the update.
+Online tools, which try to understand Google’s evaluation, presented the biggest losers directly one day after the update was imported with their own visibility index, thereby showing that some websites had to accept a change of up to 86%. The Panda Update mainly benefited media and news sites. Especially with the profiteers of the Panda Update, it is not proven whether they directly benefit from the update or from the deterioration of the competitors who were affected by the innovations.
+According to Google, the Panda update affected 12% of all English-language search results. A similar value is usually achieved for the German-speaking world.
+Panda 4.0
+At the end of May 2014, Google rolled out the fourth version of the Panda update. While the updates and the first launch of the Pandas took place individually, in 2014 it was a premiere that the Payday Loan Update was played out very promptly. For webmasters and SEOs, this often raised the question of which of the two algorithm adjustments could have caused a ranking change. But while the Payday Loan Update mainly related to very spam-prone search queries and spam techniques, the Panda Update 4.0 was probably a consistent further development of the previous one: the improvement of the quality of the search results.
+After rolling out the update, the following effects were found:
+Websites that were previously heavily affected by the Panda update were able to increase their visibility again, but could not reach the level before the Panda 2011
+Websites with a lot of editorial content increased their rankings massively
+Online shops were hardly affected by the changes
+It was suspected that Panda 4.0 punished many press release websites, but contradicted in other places
+In general, it can be assumed that the partially moderate ranking changes are due on the one hand to the fact that Google already properly cleaned up the SERP with the first Panda update and that the company from Mountain View finally set the course for further significant algorithm changes with the fourth version.
+Panda 4.1
+The update christened by searchengineland.com Panda 4.1 was rolled out in the week before September 26, 2014, according to the announcement by Google employee Pierre Far. The entire rollout had spanned almost two weeks and should affect between 3 and 5% of all searches worldwide. In his posting on Google+, Far also explained that the new Google Panda update is even better able to recognize low-quality content. Far attributes this improvement to feedback from webmasters and users. The statement may allude to the possibility that Google users can provide feedback on the search results directly with a screenshot of the search snippets.
+An important innovation in Panda 4.1 relates to small and medium-sized pages that deliver high-quality content. Because according to Far, these should benefit from the latest Panda update.
+By rolling out Panda 4.1, those pages that were affected by Panda 4.0 and have since fixed bugs such as thin content should also have been released from a penalty.
+Put indirectly, this can mean that all websites urgently need to optimize their content, to which all Panda updates have had negative effects such as loss of visibility and ranking, and which have not recovered after Panda 4.1.
+Factors that the Panda Update punishes:
+To determine which pages are rated positively and which are rated negatively, the search engine provider uses various factors. Google lists some of the reasons for the punishment but avoids going into detail about the factors. The investigations of many SEO experts showed that the following errors in large numbers can lead to a penalty:
+Not enough
+unique content:
+Google does not like the use of duplicate content, so-called duplicate content. Pages that contain too little unique content lose value due to the Panda Update. This includes, for example, pages that take over large parts or complete content from other (own) websites – especially if they were only generated to cover different variations of a keyword.
+The bad ratio of content to Boilerplate Content:
+Google considers the pages to be inferior in terms of the scope of the actual content compared to the website template (footer, navigation, etc.), further links, advertising, and the like.
+Blank pages:
+Even pages with no meaningful content will be punished by the Panda Update, e.g. B. Websites that only have links to other sites (Directory Sites).
+Too many ads:
+Pages with too many ads in relation to the content lose value.
+Automatically generated content:
+Websites that offer automatically generated content, often in connection with affiliate links, are considered negative pages.
+Poor legibility and poor quality of the text:
+To what extent Google can actually evaluate the readability and quality of a text and this is incorporated into the update is controversial. However, there are many indications that factors such as structure and formatting, but also easy readability and clarity are taken into account by Panda.
+Negative user data:
+Some research suggests that Google signals can be incorporated into the Panda update. For example, the click-through rate, the bounce rate, the length of stay, and some other values ​​are among the factors that are evaluated in the Panda Update.
+Bad backlinks:
+Since the latest Panda update of the algorithm (Panda 4.1) at the latest, there have been indications that backlinks or link texts also play a role in the Panda update.
+Many updates to the update brought about significant changes in the ranking. It is difficult to determine what the Panda Update specifically reacted to. As a rule, entire domains were punished in the past if they contained too many inferior subpages. At the same time, this improved the ranking of sites with good content. Especially after the Panda 4.0, many pages that were affected by an earlier Panda update have recovered and have risen again in the ranking. Some tool operators also found that, for example, content aggregators who provide little content of their own were punished.
+What should an SEO Know about Google Panda Update in 2020
+Google Panda Update’s latest version 4.1 has been launched in May 2014. Since then, SEO and Search Engine World has been experienced lots of new updates. And all of those updates had the same impact on the Search Engine Results Page. The quality has been improved in terms of content and authoritative brands, the spammy web sites lost the rankings. All of those Google Updates have the same principles. Great Content, Great User Experience, Trustworthy Brand creates better results for rankings and more conversions. As Holistic SEOs, we always try to understand Google and other Search Engine’s nature better. We know that Google’s every update will have the same purpose with the same principles but with different methodologies.
+Exploring these methodologies may help an SEO to give better signals to Google via its code structure or brand mentions. Knowing Panda Update’s effects and its principles helps an SEO to see today’s SERP situation in a better and solid understanding thanks to these experiences. We recommend you to Matt Cutts’ explanation related to the Panda Updates’ effects on the web sites so that today, we may understand even the stronger algorithms to detect the non-quality content.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Theoretical SEO
+Google Panda Update: What did it change?
+by Koray Tuğberk GÜBÜR
+time to read: 7 min
+Theoretical SEO
+What is Over-optimize Penalty in SEO?
+Theoretical SEO
+What is the Link Juice (Link Equity)? How to Use L…
+0
+0
+0

@@ -1,0 +1,110 @@
+HTML <font> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <font> HTML Tag is essential for creating an appealing and readable web page. The font tag is used to modify the text’s color, size, and style. To make all the text the same size, color, and face, you use the base font tag. Due to the fact that the <font> HTML Tag is discontinued in HTML 4.01 and outdated in HTML 5, it is suggested that you avoid using it. Instead, use the CSS font property. The <font> HTML Tag is part of the Formatting HTML category in HTML Element Reference. The attributes of the <font> HTML Tag are size, color, face, global, and event attributes.
+<font> code block example to learn how it works is given below.
+<font size="number">
+<font face="font_family">
+<font color="color_name|hex_number|rgb_number">
+The second example usage of the “<font>” code block example is given below.
+<html>
+<body>
+<h2>HolisticSEODigital</h2>
+<!--Normal paragraph tag-->
+<p>Hello Coder Marketers!.</p>
+<!--font tag-->
+<font size="7"> Welcome to HolisticSEODigital </font>
+</body>
+</html>
+Contents of the Article
+show
+1.
+What is <font> HTML Tag?
+2.
+How to Use <font> HTML Tag?
+2.1.
+Example Usage of <font> HTML Tag?
+3.
+What are the Attributes of <font> HTML Tag?
+4.
+What is the Default CSS Setting for <font> HTML Tag?
+5.
+What are the Related other HTML Tags to <font>?
+What is <font> HTML Tag?
+The <font> HTML Tag was used to specify the text’s font size, color, and face. HTML4 makes use of it. HTML 5 does not support it, Instead, make use of the CSS font property to set font properties. Because HTML5 is now supported by the majority of modern browsers, the information on this page is based on HTML version 4.01.
+How to Use <font> HTML Tag?
+To use the <font> HTML Tag, the site developer should write <font attribute = ” “> Content </font> to specify the font to use. HTML font tag has three main attributes: color, size, and face. Color is used to define the font color, the size attribute defines the size, while the face attribute defines the font face of text. Given that it is now deprecated it is better to avoid using it. Users should instead use the CSS font property.
+Example Usage of <font> HTML Tag?
+The following example of usage of <font> HTML Tag is given below.
+<html>
+<body>
+<h2>HappyValleyAcademy</h2>
+<!--Normal paragraph tag-->
+<p>Hello First Year Students!.</p>
+<!--font tag-->
+<font size="7"> Welcome to HappyValleyAcademy </font>
+</body>
+</html>
+What are the Attributes of <font> HTML Tag?
+There are multiple attributes for the <font> HTML Tag. The following attributes are listed below.
+Font Size attribute: The <font> HTML Tag supports font size attribute. font size attribute is used to change the font size in an HTML document that contains a font tag with the size attribute. In HTML, the font size can range between 1 and 7, with 3 being the default.
+Face/Type attribute: The <font> HTML Tag supports face/type attribute. The font type can be specified in an HTML document by including the face property with the font tag. However, the user’s typefaces must be installed first.
+Color attribute: The <font> HTML Tag supports color attribute. Font color is used to specify the color of text in an HTML page by including a font tag with the color attribute. A color can be specified using either its name or its hexadecimal code.
+Global Attributes: The <font> HTML Tag supports global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <font> HTML Tag supports event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <font> HTML Tag?
+The following is the Default CSS Setting for the <> HTML Tag.
+style="color:red"
+style="font-family:verdana"
+style="font-size:30px"
+What are the Related other HTML Tags to <font>?
+The other related HTML Tags to the <font> HTML Tag are listed below.
+<cite> HTML Tag: The
+<cite>
+HTML Tag is related to <font> HTML Tag because they are both in formatting HTML Tags. The <cite> HTML Tag is used to specify the work’s title.
+<code> HTML Tag: The
+<code>
+HTML Tag is related to <font> HTML Tag because they are both in formatting HTML Tags. The <code> HTML Tag is used to define the document’s code.
+<del> HTML Tag: The
+<del>
+HTML Tag is related to <font> HTML Tag because they are both in formatting HTML Tags. The <del> HTML Tag specifies the text that has been deleted from the document.
+<dfn> HTML Tag: The
+<dfn>
+HTML Tag is related to <font> HTML Tag because they are both in formatting HTML Tags. The <dfn> HTML Tag is used to define a term’s defining instance.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <font> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML “progress” Tag Definition, Usage …
+TechSEO
+HTML <th> Definition, Usage and Examples
+0
+0
+0

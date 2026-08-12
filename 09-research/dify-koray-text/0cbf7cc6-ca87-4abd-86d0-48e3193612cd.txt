@@ -1,0 +1,90 @@
+Width Response Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Width is an HTTP device client hint request header field that defines the width of the requested resource. The requested resource “width” is specified in physical pixels. The device client hints is a type of Client hints. The device client hints enable a web server to select which data is to be sent based on the device features, this includes defining the available memory and screen properties. Physical pixels is also called Physical picture element. The physical refers to the actual light beyond your computer, while the pixels are the individual point of color on a digital image. The pictures you see on screens usually have hundreds of thousands or even millions of pixels. When enough numbers of these colored squares are combined and shown at a small full size, you will see continuous images or pictures rather than single unattached pixels. Unless you zoom out the picture to see the pixels, where they can be seen as colored squares. The Physical pixels are the intrinsic size of an image. The Intrinsic size is the actual dimensions of image resources. The Width hint is shown on a request for media resource thrown by <img> or <source> tags, using the “sizes” attribute. The “sizes” attributes inform the web browser what the extrinsic size of the resource will be. The Width hint uses that extrinsic size to request an image with an intrinsic size that fits the layout. The Width HTTP device client hint request header field can be omitted when the requested resource width is unknown at the time of the request or the resource have no display width. If the Width HTTP device client hint request header is displayed more than once in a message, the last occurrence is applied. The value of a Physical pixel must be a number rounded off to the smallest integer.
+Contents of the Article
+show
+1.
+What is Width Response Header?
+1.1.
+What is the Syntax of Width Response Header?
+2.
+What is the Directive of Width Response Header?
+2.1.
+How to use Width Response Header?
+2.2.
+Example of Width Response Header Use
+3.
+What are the Specification Documents for Width Response Header?
+3.1.
+What are the similar HTTP Headers to the Width Response Header?
+What is Width Response Header?
+The Width HTTP device client hint request header field that determines the requested resource “width” in physical pixels. Although this feature is no longer recommended, some web browsers are still supporting the Width HTTP device client hint request header. It may have now been removed from the related web standards, but is still being applied and kept for compatibility usage. This Width HTTP device client hint request header is only available in secure contexts-HyperText Transfer Protocol of some supporting browsers, such as Google Chrome, Microsoft Edge, and Opera. Client Hints are accessible only on secure origins (via TLS). A web server has to agree to receive the Width header from the client, by sending the Accept-CH response header. Web servers that support the Width HTTP device client hint request header field will typically also specify it in the Vary header. This notifies caches that the web server may send various responses based on the header value in a request. The width HTTP device client hint request header field was removed from the HTTP Client Hints specification document in draft-ietf-httpbis-client-hints-07. The proposed replacement is Sec-CH-Width (Responsive Image Client Hints).
+What is the Syntax of Width Response Header?
+The syntax for the Width HTTP request header field is below.
+Width: <number>
+What is the Directive of Width Response Header?
+The directive for the Width HTTP request header field is listed below.
+<number> Represents the width of the resource in physical pixels, rounded up to the nearest integer.
+How to use Width Response Header?
+The usage of the Width HTTP request header field is to identify the requested resource width in physical pixel. The Width hint shows on requests for image resources initiated by <img> or <source> tags using the “sizes” attribute. The “sizes” will tell the web browser what the extrinsic size of the resource should be. The Width HTTP header uses that extrinsic size to request an image with intrinsic sizes that are best fit for the existing layout.
+Example of Width Response Header Use
+An example of the Width HTTP request header field is when a user agent requests a web page with a 320 CSS (Cascading Style Sheet) pixel wide screen with a DPR (Device Pixel Ratio) of 2. The device generates a document with an <img> element including <sizes> attribute value of 85vw or 85% of the viewport width for all screen sizes. If the Width hint has been selected, the client will send this Width hint to the web server with the request for the <img>’s src, shown below.
+Width: 544
+The client will then hint to the web server that a perfect intrinsic width for the requested image would be 85% of the viewport width (272 pixels) multiplied by the screen’s DPR (2), which equals 544 pixels. The hint is important because it not only takes into account the density-corrected width of the screen but also connects this data with the image’s extrinsic size within the layout. This provides web servers the chance to negotiate image responses that are best fit for both the screen and the layout.
+What are the Specification Documents for Width Response Header?
+The specification document for the Width HTTP request header field is RFC8942. The description of the specification document is below.
+RFC8942: The RFC8942 specification document defines Client Hints, a structure that allows web servers to choose a particular proactive content negotiation mechanism, readjusting their content accordingly, as well as guidelines for content negotiation mechanisms that apply the structure. The RFC8942 also defines the
+Accept-CH HTTP
+response header, which supports a web server to explicitly require that user agents give these headers in requests.
+What are the similar HTTP Headers to the Width Response Header?
+A similar Width HTTP request header field is the Accept-CH HTTP response header, Vary HTTP response header, Content-DPR HTTP response header, and the Viewport-Width HTTP request header. The Accept-CH HTTP response header and Vary HTTP response header include the Width HTTP request header field to specify the width of the requested resource. The Width HTTP request header field and the Viewport-Width HTTP request header are used by the web server together to make resource selection for an image asset, it must establish its selection via the Content-DPR HTTP response header to enable the client to determine the suitable intrinsic size of the image response. The description of each similar header is below.
+The
+Accept-CH HTTP
+response header is used by the web server to request additional information from web browsers about the client’s device and user agent preferences.
+The
+Vary HTTP
+response header notifies the web browser that the web content of the response varies depending on the user agent that requests the web page.
+The
+Viewport-Width HTTP
+device client hint request header is a number that specifies the layout viewport width in CSS px. The given CSS px value is a number rounded to the smallest integer.
+The
+Content-DPR HTTP
+response header is applied to confirm the image asset to pixel ratio in requests where the screen DPRclient hint is applied to choose an image resource.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Width Response Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 5 min
+TechSEO
+SaaS SEO Strategies, Guideline, and Case Study: 40…
+TechSEO
+Content-DPR: Syntax, Directive, Examples
+0
+0
+0

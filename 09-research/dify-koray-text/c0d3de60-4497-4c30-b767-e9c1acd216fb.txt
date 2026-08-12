@@ -1,0 +1,151 @@
+HTML <dialog> Tag Definition, Usage and Example - Holistic SEO
+Skip to content
+The <dialog> HTML Tag defines a dialog box or other active components, such as an alert that can be dismissed, an inspector, or a subwindow. In order to generate popup and modal windows on a web page, the <dialog> HTML Tag is used. The open boolean attribute of the <dialog> HTML Tag activates the element and makes it easier for the user to interact with. The <dialog> HTML Tag is a new tag that was added in HTML5. The <dialog> HTML Tag is part of the Styles and Semantics HTML category in HTML Element Reference. The attributes of the <dialog> HTML Tag are open, global, and event attributes.
+<dialog> code block example to learn how it works is given below.
+<dialog open> Contents here... </dialog
+The second example usage of the “<dialog>” code block example is given below.
+<dialog open>
+<p><q>The quality of life isn't determined by how many breaths we take, but rather by the moments that leave us gasping for air.</q> - <cite>Maya Angelou</cite></p>
+</dialog>
+Contents of the Article
+show
+1.
+What is <dialog> HTML Tag
+2.
+How to Use <dialog> HTML Tag?
+2.1.
+Example Usage of <dialog> HTML Tag?
+3.
+What are the Attributes of <dialog> HTML Tag?
+4.
+What is the Default CSS Setting for <dialog> HTML Tag?
+5.
+What are the Related other HTML Tags to <dialog>?
+What is <dialog> HTML Tag
+The <dialog> HTML Tag denotes a component of an application with which the user can interact to complete a task. A dialog box, an inspector, or a window are all examples of this. The <dialog> HTML Tag can be used to generate modal or pop-up windows on a website page in order to display a message or a component of the webpage. The <dialog> element contains the boolean attribute open, which makes the element “active” and enables user interaction. If this attribute is ignored, a script such as JavaScript will be essential to facilitate the dialog to open and close as necessary.
+How to Use <dialog> HTML Tag?
+To use the <dialog> HTML Tag, the web developer should write the <dialog></dialog> with the dialog content placed in between the start and end tags. A script can also be associated with the <dialog> HTML Tag using the id attribute, which the web developer can use.
+Example Usage of <dialog> HTML Tag?
+The following examples of usage of <dialog> HTML Tag are given below.
+<dialog open>
+<p>Everyone, welcome!</p>
+</dialog>
+<dialog open>
+<p><q>Life is what occurs while you are preoccupied with other goals.</q> - <cite>John Lennon</cite></p>
+</dialog>
+What are the Attributes of <dialog> HTML Tag?
+There are multiple attributes for the <dialog> HTML Tag. The following attributes are listed below.
+Open Attribute: The <dialog> HTML Tag supports the open attribute. This attribute indicates that the active dialog is capable of being interacted with by the user.
+Global Attributes: The <dialog> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <dialog> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <dialog> HTML Tag?
+The following is the Default CSS Setting for the <dialog> HTML Tag.
+:root {
+--blue: #2452E5;
+--dark-blue: #113092;
+}
+dialog {
+padding: 50px;
+border-radius: 5px;
+border: 0;
+&::backdrop {
+background: rgba(0, 0, 0, 0.4);
+}
+&[open],
+&::backdrop {
+animation: show 500ms ease;
+}
+}
+body {
+width: 100%;
+height: 100vh;
+text-align: center;
+background-color: var(--blue);
+}
+button {
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+padding: 20px 45px;
+cursor: pointer;
+border-radius: 30px;
+background: #fff;
+font-size: 20px;
+border: 0;
+color: #000;
+letter-spacing: 1px;
+line-height: 1;
+transition:
+background 300ms ease,
+color 300ms ease;
+&:hover {
+background: var(--dark-blue);
+color: #fff;
+}
+}
+h1 {
+text-align: left;
+font-size: 30px;
+font-weight: 500;
+margin-top: 0;
+}
+p {
+margin-bottom: 0;
+}
+@keyframes show {
+0% {
+opacity: 0;
+}
+}
+What are the Related other HTML Tags to <dialog>?
+The other related HTML Tags to the <dialog> HTML Tag are listed below.
+<main> HTML Tag: The
+<main>
+HTML Tag and <dialog> HTML Tag are related because they are both style and semantics HTML Tags. It specifies the document’s primary content using the <main> HTML Tag.
+<header> HTML Tag: The
+<header>
+HTML Tag and <dialog> HTML Tag are related because they are both style and semantics HTML Tag. The <header> HTML Tags specifies a header for a page or portion of content.
+<details> HTML Tag: The
+<details>
+HTML Tag and <dialog> HTML Tag are related because they are both style and semantics HTML Tags. The <details> HTML Tag specifies additional information that the user can either display or hide.
+<data> HTML Tag: The
+<data>
+HTML Tag and <dialog> HTML Tag are related because they are both style and semantics HTML Tags. Content can be translated into machine-readable form using an HTML Tag that is known as the <data> HTML Tag.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <dialog> Tag Definition, Usage and Example
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <template> Tag Definition, Usage and Ex…
+TechSEO
+HTML <style> Tag Definition, Usage and Examp…
+0
+0
+0

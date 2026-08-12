@@ -1,0 +1,131 @@
+Skip to content
+The aria-colindextext attribute indicates a human-readable text alternative to the numeric aria-colindex. The purpose of the aria-colindextext is to provide or calculate an alternative of aria-colindex which is readable by a human. The developer can use aria-colindextext if the provided or calculated value of the aria-colindex is not relevant or does not indicate the displayed index, as it does with spreadsheets and chess boards. The aria-colindextext can be used in elements like <table>, <th>, and <tr>. The <table> element represents the tabular data; the <th> element presents a cell as a header of a group of table cells, and <tr> specifies a cell of a table that contains data. The aria-colindextext can be used for ARIA Labels like aria-colindex, aria-rowindextext, and aria-colcount.
+Contents of the Article
+show
+1.
+What is the function of the “aria-colindextext” ARIA Label?
+2.
+What are the uses of the “aria-colindextext” ARIA Label?
+3.
+Example Uses of “aria-colindextext” ARIA Label
+4.
+What are the related ARIA Labels to “aria-colindextext”?
+What is the function of the “aria-colindextext” ARIA Label?
+aria-colindextext provides a human-readable text alternative to the numeric aria-colindex. Developers must only use aria-colindextext if the provided or calculated value of the aria-colindex is irrelevant and does not support the displayed index. The aria-colindextext should not be used as a replacement for aria-colindex as most other assistive technologies depend on aria-colindex for reasons related to tracking a user’s position or providing alternative table navigation.
+What are the uses of the “aria-colindextext” ARIA Label?
+Listed below are the uses of the “aria-colindextext” ARIA Label.
+Cell:
+The cell value designates an element as being a cell in a tabular container that doesn’t have column or row header information.
+Columnheader:
+The columnheader value of the ARIA role command identifies an element within a cell from a row that has header information for a column, the same as the native <th> element with column scope.
+Example Uses of “aria-colindextext” ARIA Label
+Listed below are the example uses of the “aria-colindextext” ARIA Label.
+The aria-colindextext should at most be used when the provided or calculated value of the aria-colindex is irrelevant or doesn’t show the displayed index. In using the aria-colindextext, retain the aria-colindex because some assistive technologies rely on numeric column index. This is to ensure that the user’s position is tracked and be able to provide alternative table navigation.
+In the example below, the table has 128 columns, of which only 4 columns are displayed. The aria-colindextext is used in three columns to indicate a human-readable text alternative.
+<table aria-colcount="128">
+<thead>
+<tr>
+<th aria-colindex="1" aria-colindextext="NYSE stock symbol" scope="col">NYSE</th>
+<th aria-colindex="110" aria-colindextext="Value at start of 2021" scope="col">01/21</th>
+<th aria-colindex="122" aria-colindextext="Value at start of 2022" scope="col">01/22</th>
+<th aria-colindex="124" scope="col">Recommendation</th>
+</tr>
+</thead>
+...
+</table>
+In the example below, the table has 240 columns, of which only 4 columns are displayed.
+<table aria-colcount="240">
+<thead>
+<tr>
+<th aria-colindex="56" aria-colindextext="Greenday" scope="col">NYSE</th>
+<th aria-colindex="156" aria-colindextext="MCR" scope="col">01/21</th>
+<th aria-colindex="193" aria-colindextext="Blink182" scope="col">01/22</th>
+<th aria-colindex="239" scope="col">Recommendation</th>
+</tr>
+</thead>
+...
+</table>
+In the example below, the table has 450 columns, of which only 4 columns are displayed.
+<table aria-colcount="450">
+<thead>
+<tr>
+<th aria-colindex="167" aria-colindextext="Fast and furious" scope="col">NYSE</th>
+<th aria-colindex="215" aria-colindextext="Marvel" scope="col">01/21</th>
+<th aria-colindex="389" aria-colindextext="DC comics" scope="col">01/22</th>
+<th aria-colindex="420" scope="col">Recommendation</th>
+</tr>
+</thead>
+...
+</table>
+The sample below has 8 columns, of which 4 are displayed.
+<table aria-colcount="8">
+<thead>
+<tr>
+<th aria-colindex="1" scope="col">First name</th>
+<th aria-colindex="2" scope="col">Last name</th>
+<th aria-colindex="5" scope="col">City</th>
+<th aria-colindex="7" scope="col">Zip</th>
+</tr>
+</thead>
+...
+</table>
+The sample below has 8 columns, of which 4 are displayed.
+<table aria-colcount="70">
+<thead>
+<tr>
+<th aria-colindex="23" scope="col">Bacardi</th>
+<th aria-colindex="35" scope="col">Jack Daniels</th>
+<th aria-colindex="47" scope="col">Jim Beam</th>
+<th aria-colindex="68" scope="col">Captain Morgan</th>
+</tr>
+</thead>
+...
+</table>
+What are the related ARIA Labels to “aria-colindextext”?
+Listed below are the related ARIA Labels to “aria-colindextext”.
+aria-colindex:
+The aria-colindex is related to the aria-colindextext command as they both designate variations of the human-readable substitute of the numeric value of the aria-colindex. The
+aria-colindex
+is an element’s column index in regard to the overall number of columns.
+aria-colcount:
+The aria-colcount is linked to aria-colindextext as they both identify the number of columns on the table or grid and are then directed to aria-colindex and translated into an alternative by aria-colindextext. The
+aria-colcount
+command is the one that recognizes the overall number of columns in a table or treegrid.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-colindextext” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-colspan” ARIA Label for Accessib…
+TechSEO
+“aria-colindex” ARIA Label for Accessi…
+0
+0
+0

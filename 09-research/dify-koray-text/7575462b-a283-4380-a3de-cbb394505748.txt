@@ -1,0 +1,102 @@
+"aria-roledescription" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-roledescription is to render a descriptive, readable text for the user through the non-interactive element that is currently focused by the user. The aria-roledescription purpose is to let the user know what is the role description of a container, it is a part of a user experience that is a specified function of a screen reader. The developer can use the aria-roledescription to let the user know more about the details of the non-interactive container and what is its role. The aria-roledescription can be used with all non-interactive elements such as slide, table, and list. The aria-roledescription can be used with other ARIA labels such as aria-brailleroledescription, aria-labelledby, and aria-describedby.
+Contents of the Article
+show
+1.
+What is the function of the “aria-roledescription” ARIA Label?
+2.
+What are the uses of the “aria-roledescription” ARIA Label?
+3.
+Example Uses of “aria-roledescription” ARIA Label
+4.
+What are the related ARIA Labels to “aria-roledescription”?
+What is the function of the “aria-roledescription” ARIA Label?
+The aria-roledescription function is to provide a definitive role description of an element. The benefit of using the aria-roledesription is to provide a user experience that allows the assistive technology’s screen reader to give a meaningful description of an element. The aria-roledescription should not be used when describing an element’s role that has similar functions to other elements, if aria-roledescription is needed it should be unique to avoid misinformation to the user. When using aria-roledescription to present a new role name to the user, localizing the page and its values should be considered, especially when customizing the assistive technology.
+What are the uses of the “aria-roledescription” ARIA Label?
+Listed below are the uses of the “aria-roledesription” ARIA Label.
+Presentation role:
+The semantic elements’ role with certain functions is disabled during the presentation and be reverted to its function once the presentation is over.
+Note role:
+It is considered as a child element that is belonged to the main article or a Parent element that has content.
+Article role:
+It is identified as the section of a page, whether it is a document or a website, it can stand on its own.
+Document role:
+It can be switched to the reading mode for content that is contained in focusable composite widgets or applications.
+List role:
+It is applied to set a list item included in a list in connection with the list item role.
+Example Uses of “aria-roledescription” ARIA Label
+Listed below are the example uses of the “aria-roledesription” ARIA Label.
+The benefit of using the aria-roledesription is to provide a user experience that allows the assistive technology’s screen reader to give a meaningful description of an element.
+<div role="article" aria-roledescription="slide" id="slide" aria-labelledby="slideheading">
+<h1 id="slideheading">Progress Report</h1>
+<!-- remaining slide contents -->
+</div>
+<div role="article" aria-roledescription="slide" id="slide" aria-labelledby="slideheading">
+<h1 id="slideheading">Monthly Expense Report</h1>
+<!-- remaining slide contents -->
+</div>
+<div role="article" aria-roledescription="slide" id="slide" aria-labelledby="slideheading">
+<h1 id="slideheading">The Recipe for Burrito</h1>
+<!-- remaining slide contents -->
+</div>
+<div role="article" aria-roledescription="slide" id="slide" aria-labelledby="slideheading">
+<h1 id="slideheading">Best Hotel Services</h1>
+<!-- remaining slide contents -->
+</div>
+<div role="article" aria-roledescription="slide" id="slide" aria-labelledby="slideheading">
+<h1 id="slideheading">Contact Information</h1>
+<!-- remaining slide contents -->
+</div>
+What are the related ARIA Labels to “aria-roledescription”?
+Listed below are the related ARIA Labels to “aria-roledescription”.
+aria-brailleroledescription:
+The aria-brailleroledescription is related to aria-roledescription because they are both describing or providing a role description for elements. The element used that is being translated to Braille technology is provided by a role description that is declared to the
+aria-brailleroledescription
+.
+aria-describedby:
+The aria-describedby is related to aria-roledescription because they are both providing descriptive information for the user via assistive technologies. The
+aria-describedby
+is used to describe or define an element and other elements with ARIA roles, it provides an ID description that is used when declaring a widget role and other roles elements.
+aria-labelledby:
+The aria-labelledby is related to aria-roledescription because they are both used to provide meaningful descriptions or text that the user can understand. The aria-labelledby is an attribute that provides an accessible name for the elements that are identified. The purpose of
+aria-labelledby
+is to set an accessible name when the native elements do not have enough features to describe to provide a label on it.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-roledescription” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-rowcount” ARIA Label for Accessi…
+TechSEO
+“aria-required” ARIA Label for Accessi…
+0
+0
+0

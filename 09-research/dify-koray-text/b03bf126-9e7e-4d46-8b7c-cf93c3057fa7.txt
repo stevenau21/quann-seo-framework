@@ -1,0 +1,104 @@
+HTML <footer> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <footer> HTML Tag indicates a footer for the sectioning content or sectioning root element immediately prior to it. Typically, a footer> section comprises information about the section’s author, copyright information, or links to related publications. To use the <footer> HTML Tag, the developer must define a footer in HTML that includes information about the author, copyright, and carriers. The <footer> HTML Tag is part of the style and semantic tags category in HTML Element Reference. The attributes of the <footer> HTML tag are global attributes and event attributes.
+<footer> code block example to learn how it works is given below.
+<footer>
+<p>Copyright info or the author<p>
+</footer>
+The second example usage of the “<footer>” code block example is below.
+<footer>
+<p>(c) 2022 Mark Daniel<p>
+</footer>
+Contents of the Article
+show
+1.
+What is <footer> HTML Tag?
+2.
+How to Use <footer> HTML Tag?
+2.1.
+Example Usage of <footer> HTML Tag?
+3.
+What are the Attributes of <footer> HTML Tag?
+4.
+What is the Default CSS Setting for <footer> HTML Tag?
+5.
+What are the Related other HTML Tags to <footer>?
+What is <footer> HTML Tag?
+The <footer> HTML Tag is used to set up a footer for an HTML document. This section has the information in the footer (author information, copyright information, carriers, etc). Within the body tag, the footer tag is used. The <footer> tag is new in HTML5. The footer elements require both a start and an end tag. It is necessary for web developers because <footer> HTML Tag often provides authorship, copyright, contact information, a sitemap, back-to-top links, linked documents, and so on.
+How to Use <footer> HTML Tag?
+To use <footer> HTML Tag, the developer should insert a footer content including the information such as author information, copyright information, carriers and so on between <footer> and </footer> tag.
+Example Usage of <footer> HTML Tag?
+The following example of usage of <footer> HTML Tag is given below.
+<footer>
+<p>Author: Mark Daniel<br>
+<a href="
+[email protected]
+">
+[email protected]
+</a></p>
+</footer>
+What are the Attributes of <footer> HTML Tag?
+There are multiple attributes for the <footer> HTML Tag. The following attributes are listed below.
+Global Attributes: The <footer> HTML tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <footer> HTML tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <footer> HTML Tag?
+The following is the Default CSS Setting for the <footer> HTML Tag.
+footer {
+display: flex;
+justify-content: center;
+padding: 4px;
+background-color: #F0FFFF;
+color: #0000;
+}
+What are the Related other HTML Tags to <footer>?
+The other related HTML Tags to the <footer> HTML Tag are listed below.
+<div> HTML Tag: The
+<div>
+HTML Tag is related to <footer> HTML Tag because they are both style and semantic tags. The <div> HTML Tag acts as a container for flow content. It has no influence on the text or layout unless and until it is styled with CSS.
+<article> HTML Tag: The <article> HTML Tag is related to <footer> HTML Tag because they are both style and semantic tags. The <article> HTML Tag. The
+<article>
+HTML Tag specifies a self-contained composition in a document, page, application, or site that is meant to be distributable or reusable independently.
+<header> HTML Tag: The
+<header>
+HTML Tag is related to <footer> HTML Tag because they are both flow content. The <header> HTML Tag represents introductory material, which is often a series of introductory or navigational aids.
+<section> HTML Tag: The
+<section>
+HTML Tag is related to <footer> HTML Tag because they are both flow content. The <section> HTML Tag represents a generic isolated portion of a page that lacks a more specialized semantic element to describe it.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <footer> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <dd> Tag Definition, Usage and Examples…
+TechSEO
+HTML <br> Tag Definition, Usage and Examples…
+0
+0
+0

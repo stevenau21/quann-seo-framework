@@ -1,0 +1,106 @@
+Downlink HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Downlink HTTP Header Client hint request-header field contains the approximate bandwidth of the client’s connection to the server, expressed in megabits per second. To avoid fingerprinting, the Downlink HTTP Header value is specified in Mbps and rounded to the nearest 25 kilobits per second. Numerous more techniques exist for an attacker to gain similar information. The Downlink HTTP Header enables a server to selectively provide data based on available network bandwidth. For instance, a server may elect to provide compressed photos and other resources across low-bandwidth networks. In answers, the Vary header is used to signal that a unique resource is supplied for each value of the header. Even if the Downlink HTTP Header is used to specify which resources are transmitted, consider eliminating it from the Vary header if the resource is expected to change frequently, effectively rendering it unreachable. There is only one value using the Downlink HTTP Header. The value using the Downlink HTTP Header is the “number”. The example of the Downlink HTTP Header is written below.
+Downlink: 1.7
+The Downlink HTTP Header Request Header is seen above. In the article, the Downlink HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is Downlink HTTP Header?
+1.1.
+What is the Syntax of Downlink HTTP Header?
+1.2.
+What is the Directive of Downlink HTTP Header?
+2.
+How to use Downlink HTTP Header?
+2.1.
+Examples of Downlink HTTP Header Use
+3.
+What is the Specification Document for Downlink HTTP Header?
+4.
+What are the types of Downlink HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Downlink HTTP Header?
+5.
+Which Browsers Support Downlink HTTP Header?
+What is Downlink HTTP Header?
+The Downlink HTTP Header Client hint request-header field contains an indication of the estimated bandwidth of the client’s connection to the server, which is represented in megabits per second. In order to prevent fingerprinting, the Downlink HTTP Header value is supplied in megabits per second (Mbps) and rounded to the nearest 25 kilobits per second (kbps). There is a myriad of other approaches that an attacker might use to obtain similar information. The Downlink HTTP Header allows a server to provide data selectively based on the amount of network bandwidth that is available. For example, a server may choose to distribute compressed photos and other resources over low-bandwidth networks.
+What is the Syntax of Downlink HTTP Header?
+The Downlink HTTP Header has only one value in its syntax. The syntax using the Downlink HTTP Header is written below.
+Downlink: <number>
+What is the Directive of Downlink HTTP Header?
+The Downlink HTTP Header only contains one directive. The number is the downlink rate in megabits per second (Mbps), rounded to the nearest 25 kilobits. An example directive for using the Downlink HTTP Header is given below.
+Downlink: 1.8
+How to use Downlink HTTP Header?
+It is used to communicate the approximate capacity of a client’s connection to a server, expressed in megabits per second (Mbps), in the Downlink HTTP Header. In order to prevent fingerprinting, the Downlink HTTP Header value is supplied in megabits per second (Mbps) and rounded to the nearest 25 kilobits per second (kbps). There are a number of other approaches that an attacker might use to obtain similar information. The Downlink HTTP Header allows a server to provide data selectively based on the amount of network bandwidth that is available. For example, a server may choose to distribute compressed photos and other resources over low-bandwidth networks.
+Examples of Downlink HTTP Header Use
+The following is an example of how to use the Downlink HTTP Header.
+For example, suppose a server must first opt-in to receive the Downlink HTTP Header by sending the
+Accept-CH HTTP Header
+response containing the Downlink HTTP Header.
+Accept-CH: Downlink
+Then on subsequent requests, the client might send a Downlink header back.
+Downlink: 1.7
+What is the Specification Document for Downlink HTTP Header?
+There is only one specification for the Downlink HTTP Header which is the Network Information API.  Network Information API Article discusses the Downlink HTTP Header and its applications. Additionally, this article discusses the Downlink HTTP Header’s definition and usage.
+What are the types of Downlink HTTP Header?
+The Downlink HTTP Header Types are listed below.
+The Downlink HTTP Header is a type of Request Header that specifies the approximate bandwidth of the client’s connection to the server in megabits per second (Mbps).
+The Downlink HTTP Header is a type of representation header that contains information about the body of the resource, such as its MIME type or the encoding/compression used.
+What are the similar HTTP Headers to the Downlink HTTP Header?
+There are other similar HTTP to the Downlink HTTP Header. The examples are listed below.
+RTT HTTP Header:
+The RTT HTTP Header request-header field provides the application layer’s approximate round trip time in milliseconds. Unlike transport layer RTT, the RTT hint includes server processing time, much like the Downlink HTTP Header, which is a request header type.
+ECT HTTP Header: Similar to the Downlink HTTP Header, which is also a request header type, the ECT Client Hint request header field indicates the effective connection type: slow-2g, 2g, 3g, 4g.
+Save-Data HTTP Header:
+The Save-Data network client hint request header field is a boolean indicating the client’s preference for fewer data usage. The Save-Data HTTP Header could be due to factors such as high transfer costs, slow connection speeds, and so on. The Downlink HTTP Header is a request header type that is similar to the
+Save-Data HTTP Header
+.
+Which Browsers Support Downlink HTTP Header?
+There are multiple browsers that support Downlink HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Downlink HTTP Header.
+Edge is compatible with the Downlink HTTP Header.
+Opera is compatible with the Downlink HTTP Header.
+WebView Android is compatible with the Downlink HTTP Header.
+Chrome Android is compatible with the Downlink HTTP Header.
+Opera Android is compatible with the Downlink HTTP Header.
+Samsung Internet is compatible with the Downlink HTTP Header.
+You can see an image that shows cross-browser compatibility of Downlink HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Downlink HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Sec-CH-UA-Model HTTP Header: Syntax, Directive, Ex…
+TechSEO
+Location HTTP Header: Syntax, Directive, Examples…
+0
+0
+0

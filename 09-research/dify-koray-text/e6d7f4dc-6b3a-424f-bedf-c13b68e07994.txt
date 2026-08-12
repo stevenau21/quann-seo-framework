@@ -1,0 +1,110 @@
+Skip to content
+The Connection HTTP Header general header specifies whether or not the network connection should be maintained after the current transaction is complete. The connection is persistent and is not closed, allowing for subsequent requests to the same server.HTTP/2 prohibits the use of connection-specific header fields such as Connection and Keep-Alive if the keep-alive is specified. While Chrome and Firefox ignore them in HTTP/2 responses, Safari complies with the HTTP/2 specification’s requirements and does not load any response that includes them. The Keep-Alive general header specifies how the sender uses the connection to specify a timeout and a maximum number of requests. Any hop-by-hop headers used by the message must be listed in the Connection header so that the first proxy is aware that they must be consumed and not forwarded further; except for the standard hop-by-hop headers (Keep-Alive, Transfer-Encoding, TE, Connection, Trailer, Upgrade, Proxy-Authorization, and Proxy-Authenticate). Additionally, standard hop-by-hop headers must be listed. The Transfer-Encoding header specifies the type of encoding that will be used to transmit the payload body to the user securely. The Transfer-Encoding header specifies the type of encoding that will be used to transmit the payload body to the user securely. The Trailer response header enables the sender to include additional fields at the end of chunked messages in order to supply metadata that may be generated dynamically during the message body’s transmission. These include a message integrity check, digital signature, or post-processing status. The HTTP 1.1 Upgrade header can be used to convert an existing client/server connection to another protocol. The HTTP Proxy-Authorization request header contains the credentials necessary to authenticate a user agent with a proxy server, which is typically done after the server responds with a 407 Proxy Authentication Required status code and the Proxy-Authenticate header. The HTTP Proxy-Authenticate response header specifies the authentication method to use when accessing a resource that is protected by a proxy server. The Connection HTTP Header uses multiple values. The values for using the Connection HTTP Header are keep-alive and close. An example of a Connection HTTP Header is given below.
+Keep-Alive 100
+Connection: keep-alive, Keep-Alive
+The Connection HTTP Header Request Header is seen above. The Connection HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is a Connection HTTP Header?
+1.1.
+What are the Syntax of Connection HTTP Header?
+1.2.
+What are the Directives of the Connection HTTP Header?
+2.
+How to use Connection HTTP Header?
+2.1.
+Examples of Connection HTTP Header Use
+3.
+What is the Specification Document for Connection HTTP Header?
+4.
+What are the types of Connection HTTP Header?
+4.1.
+What is the similar HTTP Header to the Connection HTTP Header?
+5.
+Which Browsers Support Connection HTTP Header?
+What is a Connection HTTP Header?
+The Connection HTTP Header is a generic type of header that enables the sender or client to specify connection-specific options rather than creating a new connection for each request or response. The Connection HTTP Header helps in sending or receiving multiple HTTP requests and responses using a single TCP connection. Additionally, it determines whether the network remains open or closed after the current transaction completes.
+What are the Syntax of Connection HTTP Header?
+The Connection HTTP Header uses multiple values in its syntax. The syntax using the Connection HTTP Header is written below.
+Connection: keep-alive
+Connection: close
+What are the Directives of the Connection HTTP Header?
+The Connection HTTP Header has multiple values in its directives. An example directive for using the Connection HTTP Header is given below.
+Keep-Alive HTTP Header: The Keep-Alive HTTP Header directive indicates that the client wishes to maintain the connection open or active following the response message’s transmission. By default, HTTP 1.1 uses a persistent connection that does not automatically close after a transaction. However, HTTP 1.0 does not consider connections to be persistent and thus requires the inclusion of a Keep-Alive HTTP Header connection.
+Close: The close connection directive indicates that the client wishes to terminate the connection immediately following the transmission of the response message. By default, HTTP 1.0 terminates the connection. However, in HTTP 1.1, you must include it in the header if you wish to close the connection.
+Below is an example of how to utilize the Connection HTTP Header directives.
+Keep-Alive: 110
+Connection: keep-alive
+How to use Connection HTTP Header?
+The Connection HTTP Header is used to indicate whether or not the network connection should be kept open after the current transaction is complete. The Connection HTTP Header enables the transmission and reception of multiple HTTP requests or responses over a single TCP connection.
+Examples of Connection HTTP Header Use
+The following is an example of how to use the Connection HTTP Header.
+The connection is keep-alive in the example (i.e. the client wishes to keep it open), and the value is 100. Almost always, the value of 100 is sufficient. However, users are able to increase it based on the number of files required by the server to deliver the web page.
+Keep-Alive: 100
+Connection: keep-alive
+The following is an example of a request message sent by a client requesting that the connection be closed immediately upon receipt of the response message.
+Connection: close
+What is the Specification Document for Connection HTTP Header?
+There is only one specification for the Connection HTTP Header which is RFC 7230. The RFC 7230 Article 6.1 discusses the definition and usage of the Connection HTTP Header. The article includes examples and values for the Connection HTTP Header.
+What are the types of Connection HTTP Header?
+The Connection HTTP Header HTTP Types are listed below.
+The Connection HTTP Header is a request header type because it provides additional information about the resource to be obtained or the client making the request.
+The Connection HTTP Header is a Response Header type because it contains additional information about the response, such as its location or the server that generated it.
+What is the similar HTTP Header to the Connection HTTP Header?
+There is another similar HTTP to the Connection HTTP Header, which is the Keep-Alive HTTP Header. There are a number of ways in which the
+Keep-Alive HTTP Header
+is utilized, including setting a timeout or a maximum number of requests, just like the HTTP Header, which is another general header.
+Which Browsers Support Connection HTTP Header?
+There are multiple browsers that support Connection HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Connection HTTP Header.
+Edge Browser is compatible with the Connection HTTP Header.
+Firefox Browser is compatible with the Connection HTTP Header.
+Internet Explorer Browser is compatible with the Connection HTTP Header.
+Opera Browser is compatible with the Connection HTTP Header.
+Safari Browser is compatible with the Connection HTTP Header.
+WebView Android Browser is compatible with the Connection HTTP Header.
+Chrome Android Browser is compatible with the Connection HTTP Header.
+Firefox Android Browser is compatible with the Connection HTTP Header.
+Opera Android Browser is compatible with the Connection HTTP Header.
+Safari IOS Browser is compatible with the Connection HTTP Header.
+Samsung Internet Browser is compatible with the Connection HTTP Header.
+You can see an image that shows cross-browsers compatibility of Connection HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Connection HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Content Negotiation: Principles, Types, Working Ex…
+TechSEO
+Clear-Site-Data HTTP Header: Syntax, Directive, Ex…
+0
+0
+0

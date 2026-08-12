@@ -1,0 +1,89 @@
+Skip to content
+The Content-DPR is an HTTP Response Header used to verify the image-device to pixel ratio in requests where the screen DPR (Device Pixel Ratio) client hint is applied to choose an image resource. The DPR device client hint request HTTP header gives the client device pixel ratio (DPR). the client device pixel ratio (DPR) is the number of physical device pixels corresponding to every CSS (Cascading Style Sheet) pixel. Cascading Style Sheets (CSS) is a stylesheet language used to define the presentation of a document written in HTML or XML. CSS (Cascading Style Sheet) explains how elements will be rendered on screen. HTML (Hypertext Markup Language) and XML (eXtensible Markup Language) are programming languages used in HyperText Transfer Protocol. If the DPR (device pixel ratio) client hints are used to pick an image, the web server needs to define Content-DPR HTTP Response Header in the response. If the value in Content-DPR is distinctive from the DPR value in the request, then the client needs to use the Content-DPR for defining intrinsic image size and scaling the image. If the Content-DPR HTTP header shows up more than once in a specific message, then the last occurrence will be applied. Although this feature is no longer recommended, some web browsers are still supporting the Width HTTP device client hint request header. It may have now been removed from the related web standards, but is still being applied and kept for compatibility usage.
+Contents of the Article
+show
+1.
+What is Content-DPR?
+1.1.
+What is the Syntax of Content-DPR?
+1.2.
+What is the Directive of Content-DPR?
+2.
+How to use Content-DPR?
+2.1.
+Example of Content-DPR Use
+3.
+What are the Specification Documents for Content-DPR?
+3.1.
+What are the similar HTTP Headers to the Content-DPR?
+What is Content-DPR?
+The Content-DPR HTTP Response Header confirms the image-device to pixel ratio, however, unlike other client hints, it is not a request header to be used by web servers, but rather a response header that web servers need to send every time the DPR(Device Pixel Ratio) and Width hints are applied to choose a particular resource. If screens have a device pixel ratio(DPR), resources also have their own pixel ratios. In common resource selection, the pixel ratios between devices and resources can be the same. In cases where both the DPR and Width HTTP device client hint headers are functioning, the extrinsic size of a resource can produce situations where the two differ, this is when the Content-DPR hint comes to work.
+What is the Syntax of Content-DPR?
+The syntax for Content-DPR HTTP Response Header is below.
+Content-DPR: <number>
+An example of the Content-DPR HTTP Response Header is below.
+Content-DPR: 2.0
+What is the Directive of Content-DPR?
+The directive for Content-DPR HTTP Response Header is below.
+<number> The image device pixel ratio, measured according to the formula ( Content-DPR = Selected image resource size / (Width / DPR))
+How to use Content-DPR?
+The usage of Content-DPR HTTP Response Header is to allow the web browser to determine how the presented image is scaled for the screen’s device pixel ratio and layout. The DPR or device pixel ratio, reports the ratio of physical pixels to CSS(Cascading Style Sheet) pixels of the user agent’s screen. The DPR client hint is beneficial when choosing an image resource that corresponds to a screen’s pixel density. Whenever a Content-DPR HTTP response header is sent, the web browser will determine how to scale the presented image for the screen’s device pixel ratio and layout. Otherwise, images may not be accurately scaled. When both the DPR and Width HTTP headers are together, the extrinsic size of a resource can produce scenarios where the two differ. This is where the Content-DPR hint comes to determine the functions of the two.
+Example of Content-DPR Use
+An example of a Content-DPR HTTP Response Header is used when a web server sends an image with a size of 400×300.jpg that will command the user agent to give the image an intrinsic density of 0.5x. Therefore, the image will have a density-corrected intrinsic size of 800×600 CSS px(pixel), no matter what markup or CSS delivers it. The syntax format of the given example is below.
+Content-DPR: 0.5
+What are the Specification Documents for Content-DPR?
+The specification document for the Content-DPR HTTP request header field is RFC8942. The description of the specification document is below.
+RFC8942: The RFC8942 specification document defines Client Hints, a structure that enables web servers to select a specific proactive content negotiation method, adjusting their content accordingly, as well as guidelines for content negotiation methods that apply the structure. The RFC8942 also defines the
+Accept-CH HTTP
+response header, which supports a web server to explicitly challenge that user agents provide these headers.
+What are the similar HTTP Headers to the Content-DPR?
+The similar HTTP headers for Content-DPR HTTP Response Header are DPR device client hint request header, Accept-CH HTTP Response Header, Width HTTP Response Header, DPR HTTP device client hint request header, and Content-DPR HTTP request header field on responses and Viewport-Width HTTP Response Header. The Accept-CH HTTP response header includes the Viewport-Width HTTP device client hint request header, Width HTTP device client hint request header, DPR HTTP device client hint request header, and Content-DPR HTTP request header field on responses.
+The description of the similar headers of the Content-DPR HTTP Response Header is below.
+The
+Accept-CH HTTP
+response header is used by the web server to request additional information from web browsers about the client’s device and user agent preferences.
+The
+Viewport-Width HTTP
+device client hint request header is a number that determines the layout viewport width in CSS px.
+The
+DPR HTTP
+device client hint request header provides the client device pixel ratio.
+The Width HTTP device client hint request header field determines the width of the requested resource.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Content-DPR: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Width Response Header: Syntax, Directive, Examples…
+TechSEO
+“aria-errormessage” ARIA Label for Acc…
+0
+0
+0

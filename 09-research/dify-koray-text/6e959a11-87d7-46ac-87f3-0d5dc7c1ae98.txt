@@ -1,0 +1,127 @@
+HTML <figure> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <figure> HTML Tag defines as self-contained material such as graphics, diagrams, pictures, code listings, and other types of visual representations that are relevant to the flow path. The <figure> HTML Tag placement is independent of the main flow, and it shall not have an impact on the process of the content if it is removed from the document. The <figure> HTML Tag is used to managing a group of diagrams, pictures, code listings, and other similar content that contains some associated content. With the use of the <figcaption> HTML Tag, the user can also include a description for the photo in the document. The <figure> HTML Tag is part of the category of Images HTML category in HTML Element Reference. The attributes of the <figure> HTML Tag are global and event attributes.
+<figure> code block example to learn how it works is given below.
+<html>
+<body>
+<figure>
+-----A few display codes, such as images, clips, and graphics, may be included.-----
+</figure>
+</body>
+</html>
+The second example usage of the “<figure>” code block example is given below.
+<!-- Picture with a descriptive caption -->
+<figure>
+<img
+src="favicon-32x32.png"
+alt="HSD's aesthetically pleasing logo.">
+figcaption>HSD Logo</figcaption>
+</figure>
+Contents of the Article
+show
+1.
+What is <figure> HTML Tag?
+2.
+How to Use <figure> HTML Tag?
+2.1.
+Example Usage of <figure> HTML Tag?
+3.
+What are the Attributes of <figure> HTML Tag?
+4.
+What are the Default CSS Settings for <figure> HTML Tag?
+5.
+What are the Related other HTML Tags to <figure>?
+What is <figure> HTML Tag?
+The <figure> HTML Tag element signifies a component of data, alternatively with a description, that is contained on its own, and is commonly referred to as a single unit from its main flow, and it can be drifted away from its main flow with no effect on the significance of the document. In this context, the term “self-contained” does not necessarily imply independence. The <figure> HTML Tag is utilized to denote content that is self-contained in its own section. graphs, pictures, visual representations, code illustrations, and other types of content can be included in the tag.
+How to Use <figure> HTML Tag?
+To use the <figure> HTML Tag, the web developers should write <figure></figure> with caption placed in between the start and ending tags. Web developers can use the <figcaption> HTML Tag element to include a description for the contents of a <figure> HTML Tag element, which can be used in conjunction with other elements.
+Example Usage of <figure> HTML Tag?
+The following examples of usage of <figure> HTML Tag are given below.
+<figure>
+<img src="uncovering.jpg" alt="Launching Rocket Vehicle">
+<figcaption>NASA - Launching Rocket Vehicle Uncovering</figcaption>
+</figure>
+<figure>
+<img src="https://ik.imagekit.io/taw2awb5ntf/wp-content/uploads/Flower.jpg" alt="flower">
+<figcaption><i>fig. 1</i> A red flower.</figcaption>
+</figure>
+What are the Attributes of <figure> HTML Tag?
+There are multiple attributes for the <figure> HTML Tag. The following attributes are listed below.
+Global Attributes: The <figure> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <figure> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <figure> HTML Tag?
+The following are the Default CSS Settings for the <figure> HTML Tag. The following are some examples.
+figure {
+border: thin #c0c0c0 solid;
+display: flex;
+flex-flow: column;
+padding: 5px;
+max-width: 220px;
+margin: auto;
+}
+img {
+max-width: 220px;
+max-height: 150px;
+}
+figcaption {
+background-color: #222;
+color: #fff;
+font: italic smaller sans-serif;
+padding: 3px;
+text-align: center;
+}
+What are the Related other HTML Tags to <figure>?
+The other related HTML Tags to the <figure> HTML Tag are listed below.
+<picture> HTML Tag: The
+<picture>
+HTML Tag and <figure> HTML Tag are related because they are both images HTML Tags. The <picture> HTML Tag is a class that defines a framework for a collection of picture resources.
+<area> HTML Tag: The
+<area>
+HTML Tag and <figure> HTML Tag are related because they are both images HTML Tags. The <area> HTML Tag defines the boundaries of an area within an image map.
+<svg> HTML Tag: The
+<svg>
+HTML Tag and <figure> HTML Tag are related because they are both images HTML Tags.  The <svg> HTML Tag defines a framework for SVG visuals.
+<map> HTML Tag: The
+<map>
+HTML Tag and <figure> HTML Tag are related because they are both images HTML Tags. The <map> HTML Tag defines as user graphics map.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+1 thought on “HTML <figure> Tag Definition, Usage and Examples”
+Most Developers are still using  tags without  tag
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <figure> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <ol> Tag Definition, Usage and Examples…
+TechSEO
+HTML <p> Tag Definition, Usage and Examples…
+0
+0
+1

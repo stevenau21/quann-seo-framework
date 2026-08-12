@@ -1,0 +1,92 @@
+Skip to content
+The <time> HTML Tag defines a particular timeframe or DateTime in a document. The <time> HTML Tag is a mandatory tag that is used to declare the date or time inside an Html file. For example, by using the DateTime attribute of this component, the web browser could provide and add date notifications through the user’s schedule, and search browsers can generate intelligent search results by parsing the period into a machine-readable format. The <time> HTML Tag is part of the Formatting HTML category in HTML Element Reference. The attributes of the <time> HTML Tag are datetime, global, and event attributes.
+<time> code block example to learn how it works is given below.
+<body>
+<time>Input Date and Time here</time>
+</body>
+The second example usage of the “<time>” code block example is given below.
+<p>On Saturdays, we open at <time>09:00</time>.</p>
+Contents of the Article
+show
+1.
+What is <time> HTML Tag?
+2.
+How to Use <time> HTML Tag?
+2.1.
+Example Usage of <time> HTML Tag?
+3.
+What are the Attributes of <time> HTML Tag?
+4.
+What is the Default CSS Setting for <time> HTML Tag?
+5.
+What are the Related other HTML Tags to <time>?
+What is <time> HTML Tag?
+The <time> HTML Tag is an HTML5 element in the Html file that indicates either a timestamp on a 24-hour clock or a date in the calendar. Additionally, this tag is frequently referred to as the <time> element. HTML 5 introduced the <time> HTML Tag. Furthermore, one or more attributes may be contained within <time> HTML Tag. Attributes are applied to a tag to notify the browser how should the tag appear and behave. Attributes are made up of a label and a quantity divided by an equals sign (=), with the value enclosed in double-quotes. Consider the following example: style=”color:black;”.
+How to Use <time> HTML Tag?
+To use the <time> HTML Tag, the web developer should write <time></time> with date and time of the context inside the start and end of the <time> HTML Tag. The appearance and behavior of an HTML element can be customized by adding attributes to it.
+Example Usage of <time> HTML Tag?
+The following examples of usage of <time> HTML Tag are given below.
+<p>The birthday of John is on <time datetime="2022-02-28">next Sunday</time>.</p>
+<p>I've finally uploaded my first ever vlog <time datetime="2022-02-17T06:00-08:00">6am last Tuesday</time>.</p>
+What are the Attributes of <time> HTML Tag?
+There are multiple attributes for the <time> HTML Tag. The following attributes are listed below.
+Datetime Attribute: The <time> HTML Tag supports the datetime attribute. Display the time element in a machine-readable format by representing it with the <time> HTML Tag element.
+Global Attributes: The <time> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <time> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <time> HTML Tag?
+The following is the Default CSS Setting for the <time> HTML Tag.
+time {
+font-weight: bold;
+}
+What are the Related other HTML Tags to <time>?
+The other related HTML Tags to the <time> HTML Tag are listed below.
+<bdi> HTML Tag: The
+<bdi>
+HTML Tag and <time> HTML Tag are related because they are both formatting HTML Tags.The <bdi> HTML Tag separates a section of text from the rest so that it can be formatted differently.
+<u> HTML Tag: The
+<u>
+HTML Tag and <time> HTML Tag are related because they are both formatting HTML Tag. The <u> HTML Tags specifies that some text is not articulated and is formatted differently from typical text.
+<template> HTML Tag: The
+<template>
+HTML Tag and <time> HTML Tag are related because they are both formatting HTML Tags. The <template> HTML Tag specifies that when the page loads, the container defines what content should be hidden.
+<samp> HTML Tag: The
+<samp>
+HTML Tag and <time> HTML Tag are related because they are both formatting HTML Tags. The <samp> HTML Tag defines  a computer program’s sample output.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <time> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <wbr> Tag Definition, Usage and Example…
+TechSEO
+HTML <applet> Tag Definition, Usage and Exam…
+0
+0
+0

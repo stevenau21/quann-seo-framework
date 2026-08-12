@@ -1,0 +1,93 @@
+SEO Career Path: How to start a Successful SEO Career - Holistic SEO
+Skip to content
+The SEO Career Path includes different SEO verticals that an SEO can specialize in throughout their career. The choice of the SEO Career Path and the position in which company and with whom the SEO will work are interrelated. SEO Career Opportunities are determined by algorithm updates performed by Search Engines, and changes made by the SEO industry. In 2021, the demand for SEOs is increasing. SEO, on the other hand, is stuck between coding and marketing such as Data Science, Machine Learning, Natural Language Processing on the one hand, and Client Management, Project Management, Front-end Development on the other. For this reason, the slogan “Think like an SEO, Code like a Developer” was chosen while establishing Holistic SEO & Digital.
+This article is intended as an SEO Career Guide for people who want to pursue a career in SEO and decide which direction to take by gaining SEO Experience.
+Contents of the Article
+show
+1.
+What Should an SEO Know?
+1.1.
+Can an SEO Be an Expert in Every SEO Vertical?
+1.2.
+What are the biggest obstacles for people who want to specialize in SEO?
+2.
+What are the traditions and habits that an SEO should have?
+2.1.
+Should an SEO Know User Experience?
+2.2.
+Should an SEO Know Front-end Development?
+2.3.
+Should an SEO know Data Science?
+2.4.
+Should an SEO know Back-end Development?
+3.
+What are the Possible SEO Career Paths?
+4.
+What tools and technologies an SEO Candidate should know?
+5.
+Where to find SEO Jobs?
+6.
+Last Thoughts on SEO Career Paths and Holistic SEO
+What Should an SEO Know?
+What an SEO needs to know includes all the subunits that fall under Search Engine Optimization. These can be classified as Technical SEO, Semantic SEO, Off-page SEO, On-Page SEO, Local SEO, Barnacle SEO YouTube SEO, Image SEO, GIF SEO. SEO can be classified according to fields as well as mentalities, in this context Blackhat SEO, Whitehat SEO, Bluehat SEO, Greyhat SEO are some of them. When asked what to know about SEO, a Holistic SEO will answer all according to the domains and mindsets of SEO.
+Can an SEO Be an Expert in Every SEO Vertical?
+Yes, an SEO can be an expert in every vertical of SEO. However, being an authoritative expert in everything from Local SEO to Technical SEO requires an average of over 5 years of SEO experience. In order for SEO to specialize in every SEO area, they need to manage a project in all these areas. Managing an SEO project in the field of Local SEO, or managing a PBN in Blackhat SEO does not always appear as an opportunity for an SEO working in an agency. Therefore, even if an SEO works on more than 100 projects, they may have shortcomings in many areas of SEO. Even if an SEO specializes in all aspects of SEO, it may not be possible to perform Local SEO like Joyanne Hawkins or perform Harmful Backlink Disavow as Marie Haynes do. Therefore, in order to specialize in each SEO field, it is important to know and follow the best of each subject in order to gain SEO Experience and always have up-to-date information.
+What are the biggest obstacles for people who want to specialize in SEO?
+Listed below are the biggest hurdles for people who want to master SEO.
+80% of SEOs do not follow the “unconfirmed updates” performed by Google today. Therefore, a general industry culture that does not keep up with updates from Google and other Search Engines can make it difficult for an SEO to make a difference.
+80% of SEOs do not know any coding. For this reason, it is difficult for an SEO who has just entered the sector to learn the software and find the necessary conditions to prove himself by specializing in this field.
+95% of SEOs do not watch, read or record the patents, research papers, blog posts, and webinars of Google and other search engines. Therefore, while the chance of making inferences decreases, the chance of an SEO to understand the Search Engine decreases.
+Half of the SEO Agencies focus more on prestige and monetization than success. Therefore, for someone who wants to specialize in the field of SEO, it is difficult to get real SEO knowledge.
+An important part of SEO Agencies, when they work with poor quality customers, they do not stop working with these customers. This situation causes people who want to specialize in the field of SEO to be under great stress and not be able to love a job they would like under normal conditions.
+The SEO Industry may not always be as courteous as it should be during information sharing and analysis. For this reason, many people who want to specialize in the industry have to be afraid to express their opinions.
+A significant portion of the SEO Industry spends a day without finishing 5 SEO Articles. Someone new to the SEO Industry should read a lot more to become an expert.
+According to SEO Agencies, SEO Traditions vary greatly. The person who wants to become an SEO Specialist may not necessarily have enough data to choose the right agency.
+What are the traditions and habits that an SEO should have?
+The traditions and habits that an SEO should have are listed below.
+At least 5 SEO Articles should be read in a day.
+In an SEO Vertical, it should be determined in advance which SEO experts to follow.
+To distinguish between SEO Myths and SEO Facts, SEO A/B Testing culture should be acquired.
+SEOs should know when to trust and not to trust Official Statements of Search Engines.
+Checking the Search Engine Algorithm Updates daily from different sensors such as SEMRush Sensor, or Grump.
+Analyzing the SERP, performing analysis for a website, testing and validating inferences.
+Learning to think like a Search Engine.
+Following Search Engine Patents, research papers, and official statements.
+Regularly studying code and programming for front-end, back-end, and data science, machine learning, Natural Language Processing.
+Working on communication skills to specialize in client management.
+Following important SEO Newsletters like SEOFOMO.
+Should an SEO Know User Experience?
+Yes, an SEO should specialize in User Experience. An SEO who cannot recognize a web page that cannot fulfill its own purpose will not be able to ensure that the relevant web page satisfies the search intent. SEO and User Experience are interrelated. At the point of SEO and User experience, an SEO should specialize in the point of opening speed, design, and layout of the web page, along with the user experience.
+Should an SEO Know Front-end Development?
+Yes, an SEO should know front-end development, because knowing front-end will help SEO to optimize the website faster by improving communication with the development teams. To choose the optimum SEO Career Path, an SEO candidate can try to understand whether the front-end development fits with their personality, or not.
+Should an SEO know Data Science?
+Yes, an SEO should know data science because data is the key for decision making, and understanding what search engine ranks or what it doesn’t rank anymore. In this context, learning Python, or any kind of related programming language such as R will help a person to have a better SEO Career. To choose a correct SEO Career Path, a person should decide whether they want to focus on technical and data-related sides of SEO or not.
+Should an SEO know Back-end Development?
+Yes, an SEO should know back-end development. Back-end development is a vast area, and knowing everything about it is an entirely different expertise. In this context, an SEO should know how the back-end works, and how it affects the pagespeed, UX, and crawl efficiency. Knowing NodeJS, PHP, or Django can help an SEO to understand the server infrastructure, and improve the communication with development teams. An SEO will need to deal with lots of different types of website platforms such as WordPress, Shopify, or GatsbyJS. All these platforms will have a different server query language such as SQL, or GraphiQL, in this context to have a better SEO Career Path, and use every SEO Career Opportunity, and SEO should work to improve himself/herself more than other people from other industries.
+What are the Possible SEO Career Paths?
+There are 8 different possible SEO Career Paths.
+SEO Agency: An SEO Candidate can start his/her career from an SEO Agency to build SEO Skills. An SEO Agency can teach a person skills to have as an SEO, but also it can make the person slower. If the SEO Agency is competent, the SEO Candidate will improve himself over time, consolidating his expertise in many areas.
+SEO Freelance: An SEO Candidate can build SEO skills by having a couple of freelance SEO Project tasks. Even if having or managing an SEO Project won’t be easy or possible, an SEO Candidate can have small tasks such as SEO-related HTML Tag (title tag, meta description, canonical rel value) optimization, or SEO Content writing.
+In-house SEO: Being an in-house SEO Expert has many advantageous. The first advantage over SEO Career Path in SEO Agency is that it gives you the chance to work with a team of experts in their field, down to the last detail, on a project. When looking at multiple projects in SEO Agencies, it is more difficult for a person to obtain the necessary expertise, or to understand the Search Engine’s feedback, than in-house SEOs. A possible disadvantage of in-house SEO is the possibility that the SEO Candidate will not be able to develop himself sufficiently if the relevant company is overly corporate, cumbersome and incompetent in the field of digital marketing.
+SEO Consultancy: When an SEO reaches a certain level of expertise, he can provide consultancy to websites in a certain area or to each website in a specific SEO area. For those who want to reflect their own SEO style in their projects, SEO Consultuncy will provide the necessary freedom, but being an SEO Consultunt requires idealism.
+SEO Agency Ownership: An SEO can have an SEO Agency after a couple of years. In the SEO Agency Ownership career path, a person will need to be able to manage a team, he/she will need to have expertise in accounting, human resources as much as SEO. SEO as a business and SEO as Job and Art are two different things.
+SEO Product Ownership: SEO, UX, and Product Ownership are related to each other. Thus, in many companies, the Product Owners, Managers, and SEOs might have some conflicts. It happens because the definition of SEO, and job description of SEO change by touching the authority of Product Owners and Managers. In this context, having SEO Product Ownership will help an SEO to show their vision better and faster.
+SEO Directorship: Being an SEO Director can happen within an Agency, or within an Organization. But, it has many parts from SEO Agency Ownership, and also SEO Consultancy. Being an SEO Director for an Agency or Company has some obstacles such as being the middle person between the agency’s owner, CEO, and the SEO team. Both sides’ problems will be your agenda, and most of the time no one will think from the point of view of SEO Directors. Thus, SEO Directors should be patient, and experts in solving management problems.
+Having Own SEO Projects: A person can have his / her own SEO Projects for management. A person doesn’t have to be part of an agency or company. A person doesn’t have to have clients as a consultant. In the SEO Career Path Options, a person can have their own SEO Projects without any client work.
+SEO Career Paths are the main options to have a successful SEO career. A person can choose different SEO Career paths during their career, and they can have multiple paths at the same time.
+What tools and technologies an SEO Candidate should know?
+An SEO Candidate should know the SEO Tools and technologies below.
+SEO A/B Test Technologies: Google Sheets, SEOTesting
+SEO Keyword Analysis and Research Tools: SEMRush, Ahrefs, Moz, Nozzle
+Search Engine Tools: Google Search Console, Bing Webmaster Tool, Google Question Hub, Google My Business, Google Trends, Google Keywords Planner, Google Merchant Center, Google Shopping Center, Google Publisher Center, Yandex Webmaster Tools, Apple Maps, Yandex Business
+SEO Crawlers: OnCrawl, JetOctopus, ScreamingFrog, Serpstat
+The tools and technologies above are the representatives for the specific SEO verticals, an SEO should know more technologies to follow at the same time. To have a better SEO Career, an SEO Candidate should be familiar with the rules above.
+Where to find SEO Jobs?
+Depending on the SEO Career Path selection, the available SEO Jobs will vary. A Freelance SEO can find a job for SEO from Facebook Groups created for SEO or SEO Reddit subcommunities. However, in order to gain career experience with a more specific and solid start in SEO, it is necessary to seek employment in areas with higher SEO-related expertise requirements.
+At this point, Upwork, Indeed, Glassdoors, and Jooble can be used. Especially the
+Jooble SEO Jobs
+section can help an SEO to have a better option since they have hundreds of thousands of job openings from the biggest companies and agencies around the planet.
+Last Thoughts on SEO Career Paths and Holistic SEO
+In the coming months, the SEO Career Paths article will be refreshed with some extra sections. As a Holistic SEO, I was lucky enough to manage a PBN, use blackhat tools, and work with the biggest companies of their own industries for whitehat SEO. I was lucky enough to know Hamlet Batista so that I can learn Python for SEO, and I am patient enough to learn front-end, or back-end infrastructures to help a website thrive in the SERP. I didn’t include Holistic SEO as a Career Path of SEO within the article. Because for me being a Holistic SEO is more than a career option. Imagine that you suffer if you do not read Bill Slawski, or listen to Marie Haynes. Imagine that you feel bad because you do not know Machine Learning, or designing a featured image. It is about passion for SEO. If you have the same feelings, please apply to our career department.
+The last section of the SEO Career Path and 
+
+[...truncated...]

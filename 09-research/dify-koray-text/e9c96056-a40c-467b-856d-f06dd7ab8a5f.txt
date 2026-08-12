@@ -1,0 +1,114 @@
+Absolute and Relative URL Differences and Definitions - Holistic SEO
+Skip to content
+Absolute URL and Relative URL Differences involve the URL Structure differences. An absolute URL is a URL with full protocol, domain name, domain extension, path, query parameter, query string, and fragment. A relative URL uses only a certain section of the URL to make the web browser resolve the address of the resource or the web document. A relative URL can be “root-relative”, or “protocol-relative”. Using absolute URLs and relative URLs provides different advantages for different situations. For example, in the Technical SEO needs, using the “absolute URL” is better, and for web security, the “protocol-relative URLs” are disadvantageous. But, for certain situations, using relative URLs is helpful for providing a faster URL Resolution Speed while decreasing the HTML Document size.
+Absolute and Relative URL Differences article explains the advantages and disadvantages, and definitions of them while focusing on their differences by explaining the SEO, Search Engine perspectives, and URL Structures.
+Contents of the Article
+show
+1.
+What is Absolute URL?
+1.1.
+An Example of Absolute URL
+2.
+What is a Relative URL?
+2.1.
+An Example of Relative URL
+3.
+What are the Differences between Absolute and Relative URLs?
+3.1.
+What are the Advantages of Absolute URLs compared to Relative URLs?
+3.2.
+What are the Advantages of Relative URLs compared to Absolute URLs?
+3.3.
+Which one is better for SEO, Absolute, or Relative URLs?
+4.
+Last Thoughts on Absolute and Relative URLs
+What is Absolute URL?
+Absolute URL is the URL type that contains all the URL parts including the protocol, domain name, domain extension, subdomain information, path, query string, URL fragment, and port information. Absolute URLs are longer than the relative URLs and include more information. An Absolute URL provides “HTTP” or “HTTPS”, “WWW” or without “WWW” information while explaining the protocol, or the subdomain of the specific website. Absolute URLs should be used within the “hreflang” and “canonical” values for better Technical SEO implementation. Using Absolute URLs is easier to maintain the internal link consistency compared to Relative URLs.
+An Example of Absolute URL
+An example of an Absolute URL with URL Resolution is given below.
+<a href="https://www.holisticseo.digital"> <!-- absolute URL example. --->
+What is a Relative URL?
+Relative URLs contain only the relatively related part of the URL. Relative URLs are divided into two types, “protocol-relative URLs”, and “root-relative URLs”. Protocol relative URLs do not include the information of the HTTP Protocol type. Root-relative URLs do not include the domain name, subdomain name, or extension. Relative URLs take their relativity from the current, and open URL in the web browser. An HTTPS URL that is open in the web browser provides an HTTPS navigation for the protocol-relative URLs. A root-relative URL with a subdomain provides navigation from that sub-domain if the opened URL is from that specific sub-domain. Thus, root-relative URLs should be used only for the actively opened website’s and domain’s name. Relative URLs are harder to maintain internal link format consistency when compared to Absolute URLs.
+An Example of Relative URL
+An example of root-relative and protocol-relative URLs is given below.
+<a href="/example-path.html"/>
+The example above is a relative URL with a “root-relative” URL. Below, you can see the example of the “protocol-relative” URL.
+<a href="//example.com/example-path.html"/>
+The protocol-relative URLs provide flexibility for the usage of the different HTTP protocols. To learn more about Protocol-relative URLs, read the related guide.
+What are the Differences between Absolute and Relative URLs?
+There are 6 main differences between Absolute and Relative URLs for SEO, Web Security, Web Page Loading Performance, and User Privacy. The main differences between Absolute and Relative URLs are listed below.
+URL Length
+: Absolute URLs are longer than the relative URLs.
+Informativeness
+: Absolute URLs provide more information than relative URLs.
+Technical SEO
+: Absolute URLs are used for all Technical SEO tags. Relative URLs can be used only for some of them.
+URL Resolution Speed
+: Absolute and Relative URLs are resolved at different speeds. Absolute URLs are resolved in a long time since they are longer.
+HTML Size
+: Every character is equal to 8 KB. Relative URLs are shorter and lighter for HTML Size than Absolute URLs.
+Web Security
+: Protocol-relative URLs are not good for web security and user privacy, thus using absolute URLs, or not using protocol-relative URLs is better.
+What are the Advantages of Absolute URLs compared to Relative URLs?
+The advantages of Absolute URLs compared to Relative URLs are listed below.
+Absolute URLs provide more information than relative URLs.
+Absolute URLs are easier to maintain for internal link consistency.
+Absolute URLs are more secure than protocol-relative URLs.
+Absolute URLs are used for
+hreflang
+and
+canonical
+values, unlike relative URLs.
+What are the Advantages of Relative URLs compared to Absolute URLs?
+The advantages of Relative URLs compared to Absolute URLs are given below.
+Relative URLs are shorter than Absolute URLs.
+Relative URLs have less size than HTML Documents.
+Relative URLs are easier to resolve, thus better for the page speed.
+Relative URLs are easier to read while coding and during the web development
+Which one is better for SEO, Absolute, or Relative URLs?
+Absolute and Relative URLs have different benefits for SEO, thus balancing their usage is better. Relative URLs are better for pagespeed, and HTML Document size along with URL resolution timing, but they are not good for hreflang and canonical values. And, protocol-relative URLs are not secure. Thus, for SEO, both Absolute and Relative URLs should be used together.
+Use absolute URLs for hreflang and canonical values.
+Use relative URLs for internal navigation.
+Do not use protocol-relative URLs
+Last Thoughts on Absolute and Relative URLs
+Absolute and Relative URLs are different URL structures that relate to holistic SEO practices. Holistic SEO includes every vertical of Search Engine optimization. Thus, using relative or absolute URLs have different weights for the quality of a website. Using a protocol-relative URL might affect the trustworthiness of the website, and using root-relative URLs might cause unwanted
+404 URLs
+or
+301 URLs
+while using absolute URLs all the time is not the best practice. In this context, a search engine optimization expert has to think about which URL structure is better for what type of situation. Absolute URLs and Relative URLs differences matter for SEO. From a UX point of view, absolute and relative URLs do not affect the design, but they differ in the web page size and loading performance. Holistic SEOs should follow the best URL Structure practices for SEO by considering the differences between the absolute and relative URLs.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Absolute and Relative URL Differences and Definitions
+by Koray Tuğberk GÜBÜR
+time to read: 4 min
+TechSEO
+“HSTS MISSING FROM HTTPS SERVER” Error…
+TechSEO
+The Protocol-relative URL (Link) for SEO and Web S…
+0
+0
+0

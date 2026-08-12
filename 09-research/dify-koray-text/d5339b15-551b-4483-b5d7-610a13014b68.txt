@@ -1,0 +1,86 @@
+Skip to content
+The HTML sitemap is an HTML page that lists all the subpages of a website. It is usually linked in the footer of the website and is therefore visible to all visitors to the website. In contrast to the XML sitemap, HTML sitemaps are mainly created for the user, so that he gets an overview of the structure of the website and can quickly find his way around. From a visual point of view, the HTML sitemap resembles a fully opened side menu, where you can click on a link to go to the corresponding subpage.
+Contents of the Article
+show
+1.
+What is the Difference Between XML and HTML Sitemaps?
+2.
+Sitemap – Origin, Purpose, and Meaning of Sitemas
+3.
+How to Install an HTML Sitemap to the WebSite?
+4.
+Sitemap HTML and the Robots.txt
+5.
+Last Thoughts on HTML Sitemap
+What is the Difference Between XML and HTML Sitemaps?
+There are two different kinds of sitemaps, these are HTML (Hypertext Markup Language) Sitemap and
+XML(Extensible Markup Language) Sitemap. The  XML sitemap has a structured format that neither the visitor nor the operator of a website can see.
+Simply put,
+t
+his version of the sitemap communicates with search engine web crawlers (robots or spiders) and not with people. The intelligent bots from Google and other search engines recognize from the sitemap XML how important a certain subpage is. You can see how often it is updated and how many visitors click on the page. The XML document uses a special coding and structure. The code used helps the crawlers to find and analyze sitemaps.
+Other related guidelines for SEO and Sitemaps:
+What is an Image Sitemap?
+What is a News Sitemap?
+How to Submit a Sitemap to the Search Engine?
+The sitemap HTML is the second version and is used for the visitors of the website. The page overview is intended to help users find the content on a website more quickly. For this reason, in contrast to the Sitemap XML, this version is publicly accessible. It is accessed, for example, via a link on the main page or via an entry in the website’s side menu. In a direct comparison to the Sitemap XML, the HTML version shows the design of the respective website. An XML page is white and, in comparison to the sitemap HTML, has neither HTML codes nor CSS content.
+Sitemap – Origin, Purpose, and Meaning of Sitemas
+The sitemaps were introduced by Google over 10 years ago. This gives web developers an opportunity to publish lists of links from their websites. The basic idea behind the implementation was that some websites have
+many dynamic subpages
+. These mainly exist through visitor content, such as forums. The sitemap file contains all the addresses for the pages, and this list enables web crawlers to find the URLs. All major search engines, such as Google, Bing, and Yahoo, use a common sitemap protocol. This makes it a lot easier for website operators to stick to the existing plans.
+Of course, the sitemaps cannot guarantee 100% that the search engines crawl every single link. Furthermore, the sitemaps do not guarantee to index. Nevertheless, a sitemap is the most effective way to tell search engines that a particular website exists and has new content. For this reason, many web developers have used this option in the past and integrated the sitemap into their websites.
+How to Install an HTML Sitemap to the WebSite?
+Website operators who already have experience with coding can create a sitemap in HTML using a simple code snippet. The developers then simply upload the code to the server on which the webspace is located. Without prior knowledge, the easiest way to install the Sitemap HTML is by using a modern
+content management system
+(CMS). This is even suitable for laypeople. With a so-called plug-in, the sitemap can be easily installed with a click of the mouse. There is no coding required and the installation of a sitemap HTML takes only a few minutes. Suitable content management systems include WordPress, Drupal, and Joomla.
+If a sitemap HTML is integrated into the website via a plug-in, there is an automatic limit to a maximum of 50,000 addresses. This number should easily suffice for most websites. In addition to the maximum number of pages, there is another size limitation. The sitemap HTML can not be larger than 10 megabytes. If a compressed website is used, the maximum size must be observed.
+Both of these limitations can be easily circumvented by using multiple-page maps. In such a case, the first sitemap simply refers to all other overviews. Theoretically, this method can include up to 2.5 billion addresses in the sitemap protocol.
+Sitemap HTML and the Robots.txt
+Most website operators use a so-called
+Robots.txt
+file. In detail, it is a simple text file that acts as an important commander for the crawlers. This contains commands in which files and times are searched and registered by the search engine bots. Using Robots.txt, the operators of a website have a direct influence on the indexing of their pages. Among other things, this file can be used to determine that the bots may not implement previously defined images in the existing image search engines. Furthermore, it is possible to have publicly accessible web content, which is particularly valuable, excluded from the indexing of search engines without any effort. This means that this content can no longer be inspected daily from all over the world.
+In some cases, HTML Sitemaps can be disallowed via robots.txt by the Holistic SEOs. The reason for this is preventing the PageRank Flow. Most of the HTML Sitemaps are positioned on the homepage. Giving a link to the HTML Sitemap via Homepage, since the HTML Sitemap has more hundreds and maybe thousands of links, can affect the PageRank Distribution. Also, making crawl lots of subpages from the Homepage may decrease the crawl rate of really important pages. Using an HTML Sitemap can be useful for the users, but also it is not a popular UX Elements in 2020.
+Last Thoughts on HTML Sitemap
+The main benefit of the HTML Sitemap is that it is increasing the internal link count and creates links for the orphaned pages. The second benefit is that it shows the Page Structure and Navigation to the users. Also, Search Engines can understand the page structure better thanks to HTML Sitemaps in some cases. But in 2020, HTML Sitemaps are not really popular tools. But, if you have millions of web pages that can’t be crawled so long, you can use an HTML Sitemap to bring those web pages closer to the Homepage so that the Search Engine can explore these uncrawled pages easier. Also, users can navigate to some parts of websites easier. But still, using an HTML Sitemap also consumes the crawl quota for the web pages with little importance and flows the PageRank into those pages.
+One of the principles of Holistic SEO is that not having strict rules. Using an HTML Sitemap for some cases in a period of time can be useful. It can also be disallowed via robots.txt and left to the users for navigation at the same time, or it can also be used for search engines and users at the same time. It depends on the case, needs, and purpose. So, according to the website’s URL count, crawl budget and efficiency, users’ behaviors, orphaned page amount, Holistic SEOs decision can vary.
+As Holistic SEOs, we will continue to improve our HTML Sitemap Guideline.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+2 thoughts on “What is an HTML Sitemap? Difference Between XML and HTML Sitemap”
+An HTML site map is, in fact, a very complicated thing, and you cannot just understand it courtesy of this page. With its technicalities, you need a much more detailed view of it all.
+Reply
+Thanks for the input, Greg!
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+What is an HTML Sitemap? Difference Between XML and HTML Sitemap
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+TechSEO
+How to Create a Google News Sitemap XML for SEO
+TechSEO
+How to Submit a Sitemap to Google and Other Search…
+0
+0
+2

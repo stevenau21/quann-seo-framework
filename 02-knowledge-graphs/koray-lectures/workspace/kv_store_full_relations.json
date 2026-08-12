@@ -1,0 +1,9334 @@
+{
+  "doc-3e362bd24b5001b94c2e2cdbeeac4ffa": {
+    "relation_pairs": [
+      [
+        "Micro-semantics",
+        "Semantic SEO Framework"
+      ],
+      [
+        "Information Responsiveness",
+        "Semantic SEO Framework"
+      ],
+      [
+        "Query-on-Trial",
+        "Semantic SEO Framework"
+      ],
+      [
+        "Semantic SEO Framework",
+        "Source Context"
+      ],
+      [
+        "Semantic SEO Framework",
+        "Topical Maps"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1779788310,
+    "update_time": 1779788310,
+    "_id": "doc-3e362bd24b5001b94c2e2cdbeeac4ffa"
+  },
+  "doc-ff0ed647745d9edad37c4fd1ada604c6": {
+    "relation_pairs": [
+      [
+        "Private Community",
+        "The Course"
+      ],
+      [
+        "Semantic Content Networks",
+        "Semantic SEO Course Fundamentals"
+      ],
+      [
+        "Information Responsiveness",
+        "Timeliness"
+      ],
+      [
+        "Hard Work",
+        "The Instructor"
+      ],
+      [
+        "Definitions",
+        "Mirror Map"
+      ],
+      [
+        "Private Community",
+        "Private Support Groups"
+      ],
+      [
+        "Completeness",
+        "Information Responsiveness"
+      ],
+      [
+        "Practical Methodology",
+        "The Student"
+      ],
+      [
+        "Semantic SEO Course Fundamentals",
+        "Statistical Linguistics"
+      ],
+      [
+        "Rules",
+        "The Student"
+      ],
+      [
+        "Free Trainings",
+        "Videos"
+      ],
+      [
+        "Private Community",
+        "The Student"
+      ],
+      [
+        "Core Section",
+        "Page Rank"
+      ],
+      [
+        "Author Section",
+        "Topical Map"
+      ],
+      [
+        "Ranking Algorithms",
+        "Semantic SEO Course Fundamentals"
+      ],
+      [
+        "Qualitative Ranking Algorithms",
+        "Semantic SEO Course Fundamentals"
+      ],
+      [
+        "Micro Context",
+        "Predicates"
+      ],
+      [
+        "Google",
+        "Remove, Raise, Reduce, Reward"
+      ],
+      [
+        "Reason Logic",
+        "The Student"
+      ],
+      [
+        "Information Responsiveness",
+        "Repetition"
+      ],
+      [
+        "Output",
+        "The Instructor"
+      ],
+      [
+        "Output",
+        "The Student"
+      ],
+      [
+        "Motto",
+        "The Instructor"
+      ],
+      [
+        "Connections",
+        "Mirror Map"
+      ],
+      [
+        "Motto",
+        "The Student"
+      ],
+      [
+        "Macro Context",
+        "Main Content"
+      ],
+      [
+        "Mindset Of Abundance",
+        "The Instructor"
+      ],
+      [
+        "Information Responsiveness",
+        "Relevance"
+      ],
+      [
+        "Quality Notes",
+        "Topical Map"
+      ],
+      [
+        "Ranking Algorithms",
+        "Statistical Linguistics"
+      ],
+      [
+        "Mindset Of Scarcity",
+        "The Instructor"
+      ],
+      [
+        "Quality",
+        "Semantic SEO Course Fundamentals"
+      ],
+      [
+        "Quantitative Ranking Algorithms",
+        "Semantic SEO Course Fundamentals"
+      ],
+      [
+        "Information Responsiveness",
+        "Lecture 60"
+      ],
+      [
+        "Information Responsiveness",
+        "Search Engine"
+      ],
+      [
+        "Advanced Techniques",
+        "The Instructor"
+      ],
+      [
+        "Advanced Techniques",
+        "The Student"
+      ],
+      [
+        "Content Configuration",
+        "Semantic SEO Course Fundamentals"
+      ],
+      [
+        "Information Responsiveness",
+        "Objectivity"
+      ],
+      [
+        "Accuracy",
+        "Information Responsiveness"
+      ],
+      [
+        "Laziness",
+        "The Instructor"
+      ],
+      [
+        "Average Lecture Length",
+        "Semantic SEO Course Fundamentals"
+      ],
+      [
+        "Course Lecture Count",
+        "Semantic SEO Course Fundamentals"
+      ],
+      [
+        "Drive Folder",
+        "The Student"
+      ],
+      [
+        "Research Papers",
+        "The Instructor"
+      ],
+      [
+        "Query Networks",
+        "Supplementary Content"
+      ],
+      [
+        "Search Engines",
+        "The Instructor"
+      ],
+      [
+        "The Instructor",
+        "Websites"
+      ],
+      [
+        "Email",
+        "The Student"
+      ],
+      [
+        "Semantic SEO Course Fundamentals",
+        "The Instructor"
+      ],
+      [
+        "Relevance",
+        "Semantic SEO Course Fundamentals"
+      ],
+      [
+        "Core Section",
+        "Topical Map"
+      ],
+      [
+        "The Instructor",
+        "The Student"
+      ],
+      [
+        "Free Trainings",
+        "Interviews"
+      ],
+      [
+        "Finger Memory",
+        "Syntax"
+      ],
+      [
+        "Finger Memory",
+        "Semantics"
+      ],
+      [
+        "Coaching Groups",
+        "Private Community"
+      ],
+      [
+        "Content Briefs",
+        "Semantic Content Networks"
+      ],
+      [
+        "Information Responsiveness",
+        "Unique Value"
+      ],
+      [
+        "Fundamentals Section",
+        "Information Responsiveness"
+      ],
+      [
+        "Semantic SEO Course Fundamentals",
+        "Topical Maps"
+      ],
+      [
+        "Search Engine",
+        "Semantic SEO Course Fundamentals"
+      ],
+      [
+        "Patents",
+        "The Instructor"
+      ],
+      [
+        "Information Extraction",
+        "Semantic SEO Course Fundamentals"
+      ],
+      [
+        "Fifth Lecture",
+        "The Student"
+      ],
+      [
+        "Core Algorithm Update",
+        "Website"
+      ],
+      [
+        "E-commerce",
+        "Predictive Information Retrieval"
+      ],
+      [
+        "Coding",
+        "Finger Memory"
+      ],
+      [
+        "Information Retrieval",
+        "Semantic SEO Course Fundamentals"
+      ],
+      [
+        "Responsiveness",
+        "Semantic SEO Course Fundamentals"
+      ],
+      [
+        "Content Brief",
+        "Content Brief Creation"
+      ],
+      [
+        "Central Entity",
+        "Central Search Intent"
+      ],
+      [
+        "Semantic Content Networks",
+        "Topical Maps"
+      ],
+      [
+        "Source Context",
+        "Topic"
+      ],
+      [
+        "Author Section",
+        "Historical Data"
+      ],
+      [
+        "Labels",
+        "The Student"
+      ],
+      [
+        "Quantitative Ranking Algorithms",
+        "Ranking Algorithms"
+      ],
+      [
+        "Columns",
+        "The Student"
+      ],
+      [
+        "Anchor Text",
+        "Main Content"
+      ],
+      [
+        "Core Section",
+        "Internal Links"
+      ],
+      [
+        "Content Configuration",
+        "Responsiveness"
+      ],
+      [
+        "Macro Context",
+        "Supplementary Content"
+      ],
+      [
+        "Content Configuration",
+        "Relevance"
+      ],
+      [
+        "Coding",
+        "The Student"
+      ],
+      [
+        "Information Extraction",
+        "Information Retrieval"
+      ],
+      [
+        "Content Briefs",
+        "Semantic SEO Course Fundamentals"
+      ],
+      [
+        "Content Brief",
+        "Semantic Content Network"
+      ],
+      [
+        "Brand",
+        "Source Context"
+      ],
+      [
+        "Qualitative Ranking Algorithms",
+        "Ranking Algorithms"
+      ],
+      [
+        "Private Community",
+        "Weekly And Bi-Weekly Meetings"
+      ],
+      [
+        "Accessibility",
+        "Information Responsiveness"
+      ],
+      [
+        "Ranking Algorithms",
+        "Search Engine"
+      ]
+    ],
+    "count": 92,
+    "create_time": 1779788888,
+    "update_time": 1779788888,
+    "_id": "doc-ff0ed647745d9edad37c4fd1ada604c6"
+  },
+  "doc-a7b97e34936ddd929407816d3867a456": {
+    "relation_pairs": [
+      [
+        "Next Lecture",
+        "Search Query Sessions"
+      ],
+      [
+        "Next Lecture",
+        "Queries"
+      ],
+      [
+        "Queries",
+        "Search Query Sessions"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1779789384,
+    "update_time": 1779789384,
+    "_id": "doc-a7b97e34936ddd929407816d3867a456"
+  },
+  "doc-4984238e80fca08ac8084d07036b57c5": {
+    "relation_pairs": [
+      [
+        "Central Search Intent",
+        "Next Lecture"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1779790172,
+    "update_time": 1779790172,
+    "_id": "doc-4984238e80fca08ac8084d07036b57c5"
+  },
+  "doc-f8e7da857e573232b8497dce8e12f896": {
+    "relation_pairs": [
+      [
+        "Outdoor Section",
+        "Sessions"
+      ],
+      [
+        "Flag",
+        "Germany"
+      ],
+      [
+        "Central Entity",
+        "Core Section"
+      ],
+      [
+        "Core Section",
+        "Source Context"
+      ],
+      [
+        "Search Engine",
+        "Visa"
+      ],
+      [
+        "Central Entity",
+        "Outdoor Section"
+      ],
+      [
+        "Europe",
+        "Semantic Content Network"
+      ],
+      [
+        "Next Lecture",
+        "Process Title Tags"
+      ],
+      [
+        "Central Search Intent",
+        "Content Briefs"
+      ],
+      [
+        "Central Entity",
+        "Germany"
+      ],
+      [
+        "Central Search Intent",
+        "Fourth Lecture"
+      ],
+      [
+        "Next Lecture",
+        "This Area"
+      ],
+      [
+        "Central Search Intent",
+        "Second Lecture"
+      ],
+      [
+        "Source Context",
+        "Visa Consultancy"
+      ],
+      [
+        "Germany",
+        "Search Engine"
+      ],
+      [
+        "Process Version Of The Topical Map",
+        "Topical Map"
+      ],
+      [
+        "Central Search Intent",
+        "Internal Link"
+      ],
+      [
+        "Central Search Intent",
+        "Predicates"
+      ],
+      [
+        "Germany",
+        "Outdoor Section"
+      ],
+      [
+        "Germany",
+        "Politics"
+      ],
+      [
+        "Outdoor Section",
+        "Predicates"
+      ],
+      [
+        "Continents",
+        "Semantic Content Network"
+      ],
+      [
+        "Central Search Intent",
+        "Source Context"
+      ],
+      [
+        "Historical Data",
+        "Outdoor Section"
+      ],
+      [
+        "Germany",
+        "Religion"
+      ],
+      [
+        "Central Entity",
+        "Central Search Intent"
+      ],
+      [
+        "Predicates",
+        "Query Search Language"
+      ],
+      [
+        "Predicate Case Study",
+        "Predicates"
+      ],
+      [
+        "Core Section",
+        "Outdoor Section"
+      ],
+      [
+        "Central Search Intent",
+        "Web Pages"
+      ],
+      [
+        "Next Lecture",
+        "Process Version Of The Topical Map"
+      ],
+      [
+        "Outdoor Section",
+        "Queries"
+      ]
+    ],
+    "count": 32,
+    "create_time": 1779790225,
+    "update_time": 1779790225,
+    "_id": "doc-f8e7da857e573232b8497dce8e12f896"
+  },
+  "doc-af889bef5a28b1d36ff3bfa5d0ea5714": {
+    "relation_pairs": [
+      [
+        "Central Entity",
+        "Side-wide Engrams"
+      ],
+      [
+        "Crawling",
+        "Quality Notes"
+      ],
+      [
+        "Central Search Entity Unification",
+        "Core Section"
+      ],
+      [
+        "Central Entity",
+        "Topical Map"
+      ],
+      [
+        "Core Section",
+        "Source Context"
+      ],
+      [
+        "Quality Notes",
+        "Search Engine"
+      ],
+      [
+        "Central Search Intent",
+        "Outer Section"
+      ],
+      [
+        "Homepage",
+        "Quality Notes"
+      ],
+      [
+        "Central Entity",
+        "Outer Section"
+      ],
+      [
+        "Central Search Intent",
+        "Side-wide Engrams"
+      ],
+      [
+        "Search Engine",
+        "Side-wide Engrams"
+      ],
+      [
+        "Central Search Intent",
+        "Topical Map"
+      ],
+      [
+        "Central Search Intent",
+        "Side-wide Phrases"
+      ],
+      [
+        "Search Engine",
+        "Side-wide Phrases"
+      ],
+      [
+        "Central Entity",
+        "Side-wide Phrases"
+      ],
+      [
+        "Core Section",
+        "Monetization"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1779790397,
+    "update_time": 1779790397,
+    "_id": "doc-af889bef5a28b1d36ff3bfa5d0ea5714"
+  },
+  "doc-f7569d989bc39951a418b611bed4f7ec": {
+    "relation_pairs": [
+      [
+        "Methodology",
+        "Semantic Content Networks"
+      ],
+      [
+        "Instructor",
+        "Methodology"
+      ],
+      [
+        "Life",
+        "Religion"
+      ],
+      [
+        "Culture",
+        "Life"
+      ],
+      [
+        "Political Website",
+        "Religion"
+      ],
+      [
+        "Internal Link",
+        "Methodology"
+      ],
+      [
+        "Search Engine Crawlers",
+        "URL Structure"
+      ],
+      [
+        "Politics",
+        "Religion"
+      ],
+      [
+        "Methodology",
+        "Topical Map"
+      ],
+      [
+        "Exceptions",
+        "Next Lecture"
+      ],
+      [
+        "Instructor",
+        "Semantic Astro Course"
+      ],
+      [
+        "Title Tag",
+        "Url Structure"
+      ],
+      [
+        "Germany",
+        "URL Structure"
+      ],
+      [
+        "Culture",
+        "Internal Link"
+      ],
+      [
+        "Elections In Germany",
+        "Germany"
+      ],
+      [
+        "Instructor",
+        "URL Structure"
+      ],
+      [
+        "Culture",
+        "Visa"
+      ],
+      [
+        "Germany",
+        "Religious Political Parties"
+      ],
+      [
+        "Germany",
+        "Life"
+      ],
+      [
+        "Religion",
+        "Title Tag"
+      ],
+      [
+        "Macro Context",
+        "Title Tag"
+      ]
+    ],
+    "count": 21,
+    "create_time": 1779790873,
+    "update_time": 1779790873,
+    "_id": "doc-f7569d989bc39951a418b611bed4f7ec"
+  },
+  "doc-e6fcf117c831329dacb93b241158f58c": {
+    "relation_pairs": [
+      [
+        "Dangerous Cities In Germany",
+        "Internal Link"
+      ],
+      [
+        "Authority",
+        "The Lecturer"
+      ],
+      [
+        "Micro Context",
+        "Supplementary Content"
+      ],
+      [
+        "Headings",
+        "The Lecturer"
+      ],
+      [
+        "Authority",
+        "Index Construction"
+      ],
+      [
+        "Image Alt Text",
+        "The Lecturer"
+      ],
+      [
+        "Content Briefs",
+        "The Lecturer"
+      ],
+      [
+        "The Lecturer",
+        "Topical Map"
+      ],
+      [
+        "Dangerous Cities In Germany",
+        "Micro Context"
+      ],
+      [
+        "Dangerous Cities In Germany",
+        "Safest Cities In Germany"
+      ],
+      [
+        "Antonym",
+        "Lexical Relations"
+      ],
+      [
+        "Index Construction",
+        "Search Demand"
+      ],
+      [
+        "Anchor Text",
+        "Internal Link"
+      ],
+      [
+        "Publication Frequency",
+        "The Lecturer"
+      ],
+      [
+        "Lexical Relations",
+        "Supplementary Content"
+      ],
+      [
+        "9th Lecture",
+        "Semantic SEO Course"
+      ],
+      [
+        "Index Construction",
+        "The Lecturer"
+      ],
+      [
+        "Image URLs",
+        "The Lecturer"
+      ],
+      [
+        "Ads",
+        "The Lecturer"
+      ],
+      [
+        "Internal Link",
+        "Supplementary Content"
+      ],
+      [
+        "Micro Context",
+        "The Lecturer"
+      ],
+      [
+        "Labels",
+        "The Lecturer"
+      ],
+      [
+        "Listicle",
+        "The Lecturer"
+      ],
+      [
+        "Germany",
+        "The Lecturer"
+      ],
+      [
+        "Tables Comparisons",
+        "The Lecturer"
+      ],
+      [
+        "Description",
+        "The Lecturer"
+      ],
+      [
+        "Macro Context",
+        "Main Content"
+      ],
+      [
+        "Contextual Vector",
+        "Topical Map"
+      ],
+      [
+        "Macro Context",
+        "Topical Map"
+      ],
+      [
+        "Dangerous Cities In Germany",
+        "Supplementary Content"
+      ],
+      [
+        "Candidate Documents",
+        "The Lecturer"
+      ],
+      [
+        "9th Lecture",
+        "The Lecturer"
+      ],
+      [
+        "Search Demand",
+        "The Lecturer"
+      ],
+      [
+        "Rules",
+        "The Lecturer"
+      ],
+      [
+        "Contextual Vector",
+        "The Lecturer"
+      ],
+      [
+        "Macro Context",
+        "The Lecturer"
+      ],
+      [
+        "Most Crowded Cities In Germany",
+        "The Lecturer"
+      ],
+      [
+        "Internal Link",
+        "The Lecturer"
+      ],
+      [
+        "Macro Context",
+        "Safest Cities In Germany"
+      ],
+      [
+        "Macro Context",
+        "Title Tag"
+      ]
+    ],
+    "count": 40,
+    "create_time": 1779791009,
+    "update_time": 1779791009,
+    "_id": "doc-e6fcf117c831329dacb93b241158f58c"
+  },
+  "doc-6cb0443852c88f9233a38374df7483b7": {
+    "relation_pairs": [
+      [
+        "Akunos",
+        "Publication Frequency"
+      ],
+      [
+        "Always Go Cheaper",
+        "Cost Of Ranking"
+      ],
+      [
+        "Core Algorithm Updates",
+        "Historical Data"
+      ],
+      [
+        "Crawling Cost",
+        "Search Engine Crawlers"
+      ],
+      [
+        "Clarity",
+        "Quality Thresholds"
+      ],
+      [
+        "Crawl Rate",
+        "Search Engine Crawlers"
+      ],
+      [
+        "Cost Of Ranking",
+        "Topical Authority"
+      ],
+      [
+        "SEO Masters Summit",
+        "Saigon"
+      ],
+      [
+        "Momentum",
+        "Publication Frequency"
+      ],
+      [
+        "Momentum",
+        "Semantic SR Course"
+      ],
+      [
+        "Crawl Rate",
+        "Search Engine Attention"
+      ],
+      [
+        "Cost Of Retrieval",
+        "Topical Authority"
+      ],
+      [
+        "Core Algorithm Updates",
+        "Rank Ability"
+      ],
+      [
+        "Crawl Rate",
+        "Rankings"
+      ],
+      [
+        "Crawling Cost",
+        "Rankings"
+      ],
+      [
+        "Comprehensiveness",
+        "Quality Thresholds"
+      ],
+      [
+        "Quality Thresholds",
+        "Rankings"
+      ],
+      [
+        "Patternless",
+        "Search Engine Crawlers"
+      ],
+      [
+        "Search Engine Crawlers",
+        "Website"
+      ],
+      [
+        "Accuracy",
+        "Quality Thresholds"
+      ],
+      [
+        "Cost Of Ranking",
+        "SEO Masters Summit"
+      ],
+      [
+        "Publication Frequency",
+        "Search Engine Attention"
+      ],
+      [
+        "Akunos",
+        "Search Engine Attention"
+      ],
+      [
+        "Coverage",
+        "Quality Thresholds"
+      ],
+      [
+        "Core Algorithm Updates",
+        "Flat Algorithmic Season"
+      ],
+      [
+        "Patternless",
+        "Publication Frequency"
+      ],
+      [
+        "Publication Diet",
+        "Publication Frequency"
+      ]
+    ],
+    "count": 27,
+    "create_time": 1779791297,
+    "update_time": 1779791297,
+    "_id": "doc-6cb0443852c88f9233a38374df7483b7"
+  },
+  "doc-faa3a31ed6d949d0ce7054a0833ddb04": {
+    "relation_pairs": [
+      [
+        "Content Brief",
+        "Semantic Content Network"
+      ],
+      [
+        "CRYAS Framework",
+        "Yellow"
+      ],
+      [
+        "Lean Management Methodology",
+        "Time"
+      ],
+      [
+        "Semantic Content Network",
+        "Topical Map Node"
+      ],
+      [
+        "CRYAS Framework",
+        "Green"
+      ],
+      [
+        "Author",
+        "Yellow"
+      ],
+      [
+        "CRYAS Framework",
+        "Lean Management Methodology"
+      ],
+      [
+        "Blue",
+        "CRYAS Framework"
+      ],
+      [
+        "CRYAS Framework",
+        "Orange"
+      ],
+      [
+        "Blue",
+        "Publication Date"
+      ],
+      [
+        "Lecture 12",
+        "Semantic Esther Course"
+      ],
+      [
+        "Green",
+        "Publication Date"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1779791352,
+    "update_time": 1779791352,
+    "_id": "doc-faa3a31ed6d949d0ce7054a0833ddb04"
+  },
+  "doc-0dbcb974ac562086c1749ecf22ea07f4": {
+    "relation_pairs": [
+      [
+        "Include Term By Protecting Context",
+        "Semantic Assert Course Instructor"
+      ],
+      [
+        "Large Language Models",
+        "Open Source Models"
+      ],
+      [
+        "Long Form Mentioning Answer",
+        "Qualifiers"
+      ],
+      [
+        "Large Language Models",
+        "Seconds Modeling"
+      ],
+      [
+        "Anchor Text",
+        "Semantic Assert Course Instructor"
+      ],
+      [
+        "Listing",
+        "Semantic Assert Course Instructor"
+      ],
+      [
+        "Algorithmic Authorship Rules",
+        "Human Authors"
+      ],
+      [
+        "Algorithmic Authorship Rules",
+        "Content Briefs"
+      ],
+      [
+        "Chat Gbt",
+        "Seconds Modeling"
+      ],
+      [
+        "Algorithmic Authorship Rules",
+        "Semantic Assert Course Instructor"
+      ],
+      [
+        "People Also Ask",
+        "Search Engine Result Page"
+      ],
+      [
+        "Long Form Mentioning Answer",
+        "Signifiers"
+      ],
+      [
+        "Html List",
+        "Listing"
+      ],
+      [
+        "Human Authors",
+        "Semantic Assert Course Instructor"
+      ],
+      [
+        "Source Context",
+        "Title Tag"
+      ],
+      [
+        "Language Model",
+        "Semantic Assert Course Instructor"
+      ],
+      [
+        "Anchor Text",
+        "Hash Identifier"
+      ],
+      [
+        "Content Briefs",
+        "Human Authors"
+      ],
+      [
+        "Character Limit",
+        "Fs (Featured Synepad)"
+      ],
+      [
+        "Definitive Answer",
+        "Long Form Mentioning Answer"
+      ],
+      [
+        "Definitive Answer",
+        "Semantic Assert Course Instructor"
+      ],
+      [
+        "Hash Identifier",
+        "Jump Links"
+      ],
+      [
+        "Fs (Featured Synepad)",
+        "Word Count"
+      ],
+      [
+        "Fs (Featured Synepad)",
+        "People Also Ask"
+      ],
+      [
+        "Fs (Featured Synepad)",
+        "Semantic Assert Course Instructor"
+      ],
+      [
+        "Include Term By Protecting Context",
+        "Seconds Modeling"
+      ],
+      [
+        "Semantic Assert Course",
+        "Semantic Assert Course Instructor"
+      ]
+    ],
+    "count": 27,
+    "create_time": 1779791514,
+    "update_time": 1779791514,
+    "_id": "doc-0dbcb974ac562086c1749ecf22ea07f4"
+  },
+  "doc-601527952de3e4cb533d4928c1d0ad26": {
+    "relation_pairs": [
+      [
+        "Query Parsing",
+        "Slutshare"
+      ],
+      [
+        "Semantic SEO",
+        "Topical Map"
+      ],
+      [
+        "15th Lecture",
+        "Semantic SEO"
+      ],
+      [
+        "Query",
+        "User Inquiry Intent"
+      ],
+      [
+        "Source Context",
+        "Visa Consultancy Company"
+      ],
+      [
+        "Book",
+        "Search Engines"
+      ],
+      [
+        "Query Parsing",
+        "Topical Map"
+      ],
+      [
+        "Context Scoring",
+        "Scoring Methodologies"
+      ],
+      [
+        "Query",
+        "Source Context"
+      ],
+      [
+        "Book",
+        "Subject Areas"
+      ],
+      [
+        "Contextual Vector",
+        "Knowledge Domain"
+      ],
+      [
+        "Attribute",
+        "Germany"
+      ],
+      [
+        "David C. Tyler",
+        "Google"
+      ],
+      [
+        "Google",
+        "Vishnu Nachu"
+      ],
+      [
+        "German Football League",
+        "Visa Consultancy Company"
+      ],
+      [
+        "Functional Word",
+        "Query"
+      ],
+      [
+        "Concrete Word",
+        "Query"
+      ],
+      [
+        "Google",
+        "Tristan Upsil"
+      ],
+      [
+        "Contextual Domain",
+        "Knowledge Domain"
+      ],
+      [
+        "Semantic Distance",
+        "Topical Map"
+      ],
+      [
+        "Search Behavior Model",
+        "Search Engines"
+      ],
+      [
+        "Google",
+        "Search Engines"
+      ],
+      [
+        "German Basketball League",
+        "Visa Consultancy Company"
+      ],
+      [
+        "Attribute Criterias",
+        "Content Brief Creation"
+      ],
+      [
+        "Book",
+        "Features"
+      ],
+      [
+        "Query Parsing",
+        "Search Engines"
+      ],
+      [
+        "Best Answer",
+        "Book"
+      ]
+    ],
+    "count": 27,
+    "create_time": 1779791982,
+    "update_time": 1779791982,
+    "_id": "doc-601527952de3e4cb533d4928c1d0ad26"
+  },
+  "doc-beff6e5691c00d2a3ced912957383f87": {
+    "relation_pairs": [
+      [
+        "Germany",
+        "Population"
+      ],
+      [
+        "Article",
+        "Entity Attribute"
+      ],
+      [
+        "Attribute Relevance",
+        "Source Context"
+      ],
+      [
+        "Life",
+        "Visas"
+      ],
+      [
+        "16th Lecture",
+        "Attribute Filtration"
+      ],
+      [
+        "Value Triples",
+        "Video"
+      ],
+      [
+        "Culture",
+        "Life"
+      ],
+      [
+        "Population",
+        "Topical Map"
+      ],
+      [
+        "H1",
+        "Root Article"
+      ],
+      [
+        "Population",
+        "Root Article"
+      ],
+      [
+        "Attribute Filtration",
+        "Attribute Popularity"
+      ],
+      [
+        "Article",
+        "Lecturer"
+      ],
+      [
+        "Basketball League",
+        "Germany"
+      ],
+      [
+        "Article",
+        "Value Triples"
+      ],
+      [
+        "Life",
+        "Population"
+      ],
+      [
+        "Population",
+        "Source Context"
+      ],
+      [
+        "Attribute Filtration",
+        "Attribute Prominence"
+      ],
+      [
+        "Football League",
+        "Germany"
+      ],
+      [
+        "Attribute Popularity",
+        "Search Demand"
+      ],
+      [
+        "Attribute Filtration",
+        "Attribute Relevance"
+      ],
+      [
+        "16th Lecture",
+        "Contextual Vector"
+      ],
+      [
+        "Attribute Prominence",
+        "Entity Definition"
+      ],
+      [
+        "Entity Attribute",
+        "Video"
+      ],
+      [
+        "16th Lecture",
+        "Lecturer"
+      ],
+      [
+        "Lecturer",
+        "Video"
+      ]
+    ],
+    "count": 25,
+    "create_time": 1779791984,
+    "update_time": 1779791984,
+    "_id": "doc-beff6e5691c00d2a3ced912957383f87"
+  },
+  "doc-90e8d2e8886f2d086271b65b8c1a3253": {
+    "relation_pairs": [
+      [
+        "Lecture 17",
+        "Spatial H1"
+      ],
+      [
+        "Language Visa",
+        "Visit Context"
+      ],
+      [
+        "Lecture 17",
+        "Question Generation"
+      ],
+      [
+        "Attribute-Related Document",
+        "Micro Context Section"
+      ],
+      [
+        "Attribute",
+        "Root Document"
+      ],
+      [
+        "Important Attributes",
+        "Language Schools"
+      ],
+      [
+        "Central Search Intent",
+        "First Heading"
+      ],
+      [
+        "Central Entity",
+        "Germany"
+      ],
+      [
+        "Lecture 17",
+        "Question Ordering"
+      ],
+      [
+        "Germany",
+        "Information Tree"
+      ],
+      [
+        "Central Search Intent",
+        "Know"
+      ],
+      [
+        "Germany",
+        "Root Document"
+      ],
+      [
+        "Important Attributes",
+        "Structure"
+      ],
+      [
+        "Root Document",
+        "Search Engine"
+      ],
+      [
+        "Central Search Intent",
+        "Root Document"
+      ],
+      [
+        "Economy",
+        "Working In Germany"
+      ],
+      [
+        "First Heading",
+        "Going"
+      ],
+      [
+        "Attribute",
+        "Attribute-Related Document"
+      ],
+      [
+        "Homepage",
+        "Root Document"
+      ],
+      [
+        "Economy",
+        "Immigration"
+      ],
+      [
+        "Content Brief Creation",
+        "Semantic Content Network"
+      ],
+      [
+        "Flag",
+        "Important Attributes"
+      ],
+      [
+        "Contextual Vector",
+        "Root Document"
+      ],
+      [
+        "Important Attributes",
+        "Transportation"
+      ],
+      [
+        "Attribute-Related Document",
+        "First Heading"
+      ],
+      [
+        "Culture",
+        "Important Attributes"
+      ],
+      [
+        "Central Search Intent",
+        "Macro Context And Main Content Part"
+      ],
+      [
+        "Authors",
+        "Contextual Hint Direction"
+      ],
+      [
+        "Contextual Hint Direction",
+        "Heading Vectors"
+      ],
+      [
+        "Attribute-Related Document",
+        "Root Document"
+      ],
+      [
+        "Central Search Intent",
+        "Going"
+      ],
+      [
+        "Important Attributes",
+        "Social Culture"
+      ],
+      [
+        "First Heading",
+        "Heading Vectors"
+      ],
+      [
+        "Important Attributes",
+        "Language Visa"
+      ],
+      [
+        "Economy",
+        "Visit Context"
+      ],
+      [
+        "Language Schools",
+        "Visit Context"
+      ],
+      [
+        "Root Document",
+        "Semantic Content Network"
+      ],
+      [
+        "Important Attributes",
+        "Politics"
+      ],
+      [
+        "Important Attributes",
+        "Micro Context Section"
+      ],
+      [
+        "First Heading",
+        "Know"
+      ],
+      [
+        "First Heading",
+        "Root Document"
+      ]
+    ],
+    "count": 41,
+    "create_time": 1779792300,
+    "update_time": 1779792300,
+    "_id": "doc-90e8d2e8886f2d086271b65b8c1a3253"
+  },
+  "doc-be689231e81146538f7791d2d7dab159": {
+    "relation_pairs": [
+      [
+        "Area of Germany",
+        "Context"
+      ],
+      [
+        "Area of Germany",
+        "Germany"
+      ],
+      [
+        "Context",
+        "Smallest Country"
+      ],
+      [
+        "Area of Germany",
+        "Kilometer Squares"
+      ],
+      [
+        "Next Lecture",
+        "Question Generation"
+      ],
+      [
+        "Biggest Country",
+        "Context"
+      ],
+      [
+        "Area of Germany",
+        "Next Lecture"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1779792343,
+    "update_time": 1779792343,
+    "_id": "doc-be689231e81146538f7791d2d7dab159"
+  },
+  "doc-7ad882cdccd8e0beb9a3d86482839006": {
+    "relation_pairs": [
+      [
+        "Contextual Structure",
+        "List Definition"
+      ],
+      [
+        "Contextual Structure",
+        "Contextual Vector"
+      ],
+      [
+        "Contextual Structure",
+        "Internet Extension"
+      ],
+      [
+        "Content Brief",
+        "Rules Section"
+      ],
+      [
+        "Contextual Structure",
+        "Location"
+      ],
+      [
+        "Inclusive Semantics",
+        "Representative Question"
+      ],
+      [
+        "Contextual Structure",
+        "Inclusive Semantics"
+      ],
+      [
+        "Contextual Structure",
+        "Units"
+      ],
+      [
+        "Authors",
+        "Competitors"
+      ],
+      [
+        "Content Brief",
+        "Contextual Structure"
+      ],
+      [
+        "Document",
+        "H1"
+      ],
+      [
+        "Contextual Connection",
+        "Next Lecture"
+      ],
+      [
+        "Contextual Domain",
+        "Section"
+      ],
+      [
+        "Contextual Structure",
+        "Math"
+      ],
+      [
+        "Contextual Structure",
+        "Dates"
+      ],
+      [
+        "Contextual Structure",
+        "Population"
+      ],
+      [
+        "Authors",
+        "Contextual Structure"
+      ],
+      [
+        "Inclusive Semantics",
+        "Preceding Question"
+      ],
+      [
+        "Contextual Structure",
+        "Entities"
+      ],
+      [
+        "Body",
+        "Document"
+      ],
+      [
+        "21st Lecture",
+        "Contextual Structure"
+      ]
+    ],
+    "count": 21,
+    "create_time": 1779792786,
+    "update_time": 1779792786,
+    "_id": "doc-7ad882cdccd8e0beb9a3d86482839006"
+  },
+  "doc-1269c381cc69059707aa05dcf60212b2": {
+    "relation_pairs": [
+      [
+        "Contextual Hierarchy",
+        "Next Lecture"
+      ],
+      [
+        "First Fundamental Lectures",
+        "Real World Case Study Examples"
+      ],
+      [
+        "Contextual Structure",
+        "Next Lecture"
+      ],
+      [
+        "Contextual Vector",
+        "Next Lecture"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1779792962,
+    "update_time": 1779792962,
+    "_id": "doc-1269c381cc69059707aa05dcf60212b2"
+  },
+  "doc-5aecda2c0fc781d1fdb7587d143ab6a8": {
+    "relation_pairs": [
+      [
+        "Contextual Flow",
+        "Obstructive Summary"
+      ],
+      [
+        "Artificial General Intelligence",
+        "Information Retrieval"
+      ],
+      [
+        "Bing Search",
+        "Microsoft"
+      ],
+      [
+        "Link",
+        "Prominence"
+      ],
+      [
+        "Ai Summarizer",
+        "Contextual Coverage"
+      ],
+      [
+        "Article",
+        "Extractive Summary"
+      ],
+      [
+        "Google",
+        "Google Bard"
+      ],
+      [
+        "Contextual Coverage",
+        "Knowledge Base"
+      ],
+      [
+        "Contextual Flow",
+        "Extractive Summary"
+      ],
+      [
+        "Artificial Generative Intelligence",
+        "Website"
+      ],
+      [
+        "General Summary",
+        "Macro Context"
+      ],
+      [
+        "Cygon",
+        "Knowledge Base"
+      ],
+      [
+        "Abstractive Summary",
+        "Broken Points"
+      ],
+      [
+        "Micro Optimizations",
+        "Seo"
+      ],
+      [
+        "Contextual Coverage",
+        "Contextual Flow"
+      ],
+      [
+        "Heading",
+        "Macro Context"
+      ],
+      [
+        "Contextual Connection",
+        "Next Lecture"
+      ],
+      [
+        "Contextual Coverage",
+        "Disease Area"
+      ],
+      [
+        "Direction",
+        "Macro Context"
+      ],
+      [
+        "Link",
+        "Relevance"
+      ],
+      [
+        "Chat Generator",
+        "Document"
+      ],
+      [
+        "Contextual Flow",
+        "Knowledge Base"
+      ],
+      [
+        "Macro Context",
+        "Subsections"
+      ],
+      [
+        "Chat Generator",
+        "Contextual Flow"
+      ],
+      [
+        "Anchor Text",
+        "Contextual Flow"
+      ],
+      [
+        "Contextual Coverage",
+        "Query Network"
+      ],
+      [
+        "Concepts",
+        "Links"
+      ]
+    ],
+    "count": 27,
+    "create_time": 1779793013,
+    "update_time": 1779793013,
+    "_id": "doc-5aecda2c0fc781d1fdb7587d143ab6a8"
+  },
+  "doc-e575a42261e7ed1bc18d072052828622": {
+    "relation_pairs": [
+      [
+        "Next Lecture",
+        "Screenshots"
+      ],
+      [
+        "Area",
+        "Internal Links"
+      ],
+      [
+        "Colorizations",
+        "Next Lecture"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1779793357,
+    "update_time": 1779793357,
+    "_id": "doc-e575a42261e7ed1bc18d072052828622"
+  },
+  "doc-66b6eab94f52b9bb0e353a781becd4c7": {
+    "relation_pairs": [
+      [
+        "Audience",
+        "Semantic Content Network"
+      ],
+      [
+        "Semantic Content Network",
+        "Speaker"
+      ],
+      [
+        "Audience",
+        "Speaker"
+      ],
+      [
+        "Other Projects",
+        "Semantic Content Network"
+      ],
+      [
+        "Future Lectures",
+        "Other Projects"
+      ],
+      [
+        "Other Projects",
+        "Speaker"
+      ],
+      [
+        "Future Lectures",
+        "Speaker"
+      ],
+      [
+        "Future Lectures",
+        "Language Model Trainings"
+      ],
+      [
+        "Google's Ai Posts",
+        "Language Model Trainings"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1779793403,
+    "update_time": 1779793403,
+    "_id": "doc-66b6eab94f52b9bb0e353a781becd4c7"
+  },
+  "doc-614cc53625a6f1664a2976653a272666": {
+    "relation_pairs": [
+      [
+        "Glue Benchmark",
+        "Palm"
+      ],
+      [
+        "Central Entity",
+        "Topical Map"
+      ],
+      [
+        "Conversational Search Experience",
+        "Query Path"
+      ],
+      [
+        "Bill Slavsky",
+        "Topical Authority"
+      ],
+      [
+        "Next Lecture",
+        "Repository"
+      ],
+      [
+        "Google",
+        "Google Bar"
+      ],
+      [
+        "Next Lecture",
+        "Topical Maps"
+      ],
+      [
+        "Column",
+        "Google Bard"
+      ],
+      [
+        "Google",
+        "Patent Retrieval Augmented Language Model Pre-training and Fine Tuning"
+      ],
+      [
+        "BERT",
+        "Word Sense Understanding"
+      ],
+      [
+        "Lambda",
+        "Query Path"
+      ],
+      [
+        "Next Lecture",
+        "This Lecture"
+      ],
+      [
+        "Palm",
+        "Prompts"
+      ],
+      [
+        "Column",
+        "Exit Layer"
+      ],
+      [
+        "Google",
+        "Latest Launch"
+      ],
+      [
+        "Pound Sterling",
+        "Search Engine"
+      ],
+      [
+        "Source Context",
+        "Topical Map"
+      ],
+      [
+        "Real-World Case Studies",
+        "Repository"
+      ],
+      [
+        "Content Briefs",
+        "Topical Maps"
+      ],
+      [
+        "Mountain Fuji",
+        "Topical Map"
+      ],
+      [
+        "Chat Window",
+        "Search Engine"
+      ],
+      [
+        "BERT",
+        "Discourse Integration"
+      ],
+      [
+        "Fine-tuning",
+        "Large Language Models"
+      ],
+      [
+        "Pegasus",
+        "Semantic Estrella Course"
+      ],
+      [
+        "Google Documents",
+        "Summarization"
+      ],
+      [
+        "Buckingham Palace",
+        "United Kingdom"
+      ],
+      [
+        "Google Bard",
+        "Knowledge Base"
+      ],
+      [
+        "Google Bard",
+        "Response Generation"
+      ],
+      [
+        "Calm",
+        "Knowledge Base"
+      ],
+      [
+        "Bill Slavsky",
+        "SEO"
+      ],
+      [
+        "PaLM",
+        "Visuals"
+      ],
+      [
+        "Semantic Content Network",
+        "Source Context"
+      ],
+      [
+        "Carving",
+        "Turkey Recipe"
+      ],
+      [
+        "Next Lecture",
+        "Real-World Case Studies"
+      ],
+      [
+        "GPT-4",
+        "Visuals"
+      ],
+      [
+        "Christmas Story",
+        "Polar Express"
+      ],
+      [
+        "Content Briefs",
+        "Next Lecture"
+      ],
+      [
+        "Central Entity",
+        "Semantic Content Network"
+      ],
+      [
+        "Google",
+        "PaLM"
+      ],
+      [
+        "Query Path",
+        "The Polar Express"
+      ],
+      [
+        "Large Language Models",
+        "Semantic Estrella Course"
+      ],
+      [
+        "Feature Snippets",
+        "Search Engine"
+      ],
+      [
+        "ChatGPT",
+        "Conversational Search Experience"
+      ],
+      [
+        "GPT-4",
+        "Images"
+      ],
+      [
+        "Pegasus",
+        "Summarization"
+      ],
+      [
+        "Google",
+        "Pegasus"
+      ],
+      [
+        "Blue Title Links",
+        "Search Engine"
+      ],
+      [
+        "Column",
+        "Google Bar"
+      ],
+      [
+        "Multi Model Version",
+        "Palm"
+      ],
+      [
+        "Topical Map",
+        "Trekking Shoes"
+      ],
+      [
+        "Bill Slavsky",
+        "Patent Retrieval Augmented Language Model Pre-training and Fine Tuning"
+      ],
+      [
+        "Latest Launch",
+        "Multi-Model Version"
+      ],
+      [
+        "GPT-4",
+        "Google"
+      ],
+      [
+        "Column",
+        "Overall Cost"
+      ],
+      [
+        "Content Briefs",
+        "Topical Map"
+      ],
+      [
+        "Topical Map",
+        "Trekking Route Consultancy Company"
+      ]
+    ],
+    "count": 56,
+    "create_time": 1779793918,
+    "update_time": 1779793918,
+    "_id": "doc-614cc53625a6f1664a2976653a272666"
+  },
+  "doc-721fd7360c4042bb96070adb318d92eb": {
+    "relation_pairs": [
+      [
+        "Germany",
+        "Semantic Content Network"
+      ],
+      [
+        "Topical Map",
+        "Visam.NetNet Project"
+      ],
+      [
+        "Europe",
+        "Semantic Content Network"
+      ],
+      [
+        "Anchor Text",
+        "Unique Attributes"
+      ],
+      [
+        "Anchor Text",
+        "Content Item Brief Template"
+      ],
+      [
+        "France",
+        "Semantic Content Network"
+      ],
+      [
+        "Poland",
+        "Semantic Content Network"
+      ],
+      [
+        "E-Commerce Seo",
+        "Visam.NetNet Project"
+      ],
+      [
+        "Hierarchy Structure",
+        "Topical Map"
+      ],
+      [
+        "26th Lecture",
+        "Semantic Astro Course"
+      ],
+      [
+        "26th Lecture",
+        "Visam.NetNet Project"
+      ],
+      [
+        "Coverage Weight",
+        "Semantic Content Network"
+      ],
+      [
+        "Central Search Intent",
+        "Content Item Brief Template"
+      ],
+      [
+        "Bulk Changes",
+        "Semantic Content Network"
+      ],
+      [
+        "Asia",
+        "Semantic Content Network"
+      ],
+      [
+        "Semantic Content Network",
+        "Visam.NetNet Project"
+      ],
+      [
+        "Attribute Filtration Methodologies",
+        "Visam.NetNet Project"
+      ],
+      [
+        "Search Engine",
+        "Semantic Content Network"
+      ],
+      [
+        "Contextual Vector",
+        "Topical Map"
+      ],
+      [
+        "North America",
+        "Semantic Content Network"
+      ],
+      [
+        "Content Configuration Section",
+        "Topical Map"
+      ],
+      [
+        "Attribute Types Question Generation Methodologies",
+        "Visam.NetNet Project"
+      ],
+      [
+        "Anchor Text",
+        "Rare Attributes"
+      ],
+      [
+        "Processing Query Terms",
+        "Visam.NetNet Project"
+      ],
+      [
+        "France",
+        "Germany"
+      ],
+      [
+        "Phrase Taxonomy",
+        "Query"
+      ]
+    ],
+    "count": 26,
+    "create_time": 1779793920,
+    "update_time": 1779793920,
+    "_id": "doc-721fd7360c4042bb96070adb318d92eb"
+  },
+  "doc-c014d35d8d2fc2d10ceb8a1f6a08dde8": {
+    "relation_pairs": [
+      [
+        "First Project",
+        "Launch"
+      ],
+      [
+        "27th Lecture",
+        "First Project"
+      ],
+      [
+        "Svalbard",
+        "WebMD"
+      ],
+      [
+        "27th Lecture",
+        "Contextual Domains"
+      ],
+      [
+        "First Project",
+        "YouTube Channel"
+      ],
+      [
+        "Healthline",
+        "Svalbard"
+      ],
+      [
+        "27 Articles",
+        "Svalbard"
+      ],
+      [
+        "First Project",
+        "Svalbard"
+      ],
+      [
+        "Knowledge Domains",
+        "Question Examples"
+      ],
+      [
+        "Knowledge Domains",
+        "Macro Context"
+      ],
+      [
+        "27th Lecture",
+        "Knowledge Basis"
+      ],
+      [
+        "27th Lecture",
+        "Semantic SEO Course"
+      ],
+      [
+        "27th Lecture",
+        "Svalbard"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1779794014,
+    "update_time": 1779794014,
+    "_id": "doc-c014d35d8d2fc2d10ceb8a1f6a08dde8"
+  },
+  "doc-8a2d85a4677a5d3970bc9c3a12963a07": {
+    "relation_pairs": [
+      [
+        "Health Niche Website Project",
+        "Medical News Today"
+      ],
+      [
+        "Health Niche Website Project",
+        "Healthline"
+      ],
+      [
+        "Health Niche Website Project",
+        "Topical Map"
+      ],
+      [
+        "Health Niche Website Project",
+        "Semantic SEO Course"
+      ],
+      [
+        "Everyday Health",
+        "Health Niche Website Project"
+      ],
+      [
+        "Semantic SEO Course",
+        "Topical Map"
+      ],
+      [
+        "Health Niche Website Project",
+        "YMYL Niches"
+      ],
+      [
+        "Health Niche Website Project",
+        "WebMD"
+      ],
+      [
+        "Health Niche Website Project",
+        "SEO Mastery Summit Saigon"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1779794129,
+    "update_time": 1779794129,
+    "_id": "doc-8a2d85a4677a5d3970bc9c3a12963a07"
+  },
+  "doc-cb0d0818187343a7c01c321335563cd9": {
+    "relation_pairs": [
+      [
+        "Internal Links",
+        "Topical Map"
+      ],
+      [
+        "Homepage",
+        "Quality Pages"
+      ],
+      [
+        "Medical News Today",
+        "Svalbard"
+      ],
+      [
+        "Semantic SEO",
+        "Topical Authority"
+      ],
+      [
+        "29th Lecture",
+        "Semantic SEO Course"
+      ],
+      [
+        "Benefits",
+        "Water"
+      ],
+      [
+        "Quality",
+        "Water"
+      ],
+      [
+        "Root Attributes",
+        "Topical Map"
+      ],
+      [
+        "Healthline",
+        "Svalbard"
+      ],
+      [
+        "Topical Authority",
+        "Ym, Yl Niche Topics"
+      ],
+      [
+        "29th Lecture",
+        "Topical Map"
+      ],
+      [
+        "Index Pages",
+        "Quality Pages"
+      ],
+      [
+        "Cost Of Retrieval",
+        "Quality Pages"
+      ],
+      [
+        "Svalbard",
+        "Topical Authority"
+      ],
+      [
+        "Svalbard",
+        "WebMD"
+      ],
+      [
+        "Benefits",
+        "Health Industry"
+      ],
+      [
+        "Quality",
+        "Root Attributes"
+      ],
+      [
+        "Benefits",
+        "Derived Attribute"
+      ],
+      [
+        "Everyday Health",
+        "Svalbard"
+      ],
+      [
+        "Topical Map",
+        "Water"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1779794239,
+    "update_time": 1779794239,
+    "_id": "doc-cb0d0818187343a7c01c321335563cd9"
+  },
+  "doc-8f812c017168e90729b20b23af0336de": {
+    "relation_pairs": [
+      [
+        "Entity",
+        "Topical Map"
+      ],
+      [
+        "Entity",
+        "Query Network"
+      ],
+      [
+        "Attribute",
+        "Entity"
+      ],
+      [
+        "Empty Stomach",
+        "Water"
+      ],
+      [
+        "31st Lecture",
+        "Semantic Seo Course"
+      ],
+      [
+        "Predicate",
+        "Topical Map"
+      ],
+      [
+        "Attribute",
+        "Topical Map"
+      ],
+      [
+        "Water",
+        "Water Quality"
+      ],
+      [
+        "Distilled Water",
+        "Water"
+      ],
+      [
+        "Fluid Retention",
+        "Water Retention"
+      ],
+      [
+        "Attribute",
+        "Query Network"
+      ],
+      [
+        "Water",
+        "Water Retention"
+      ],
+      [
+        "Benefit",
+        "Water"
+      ],
+      [
+        "Water",
+        "Water Weight"
+      ],
+      [
+        "Svalbard",
+        "Topical Map"
+      ],
+      [
+        "Sparkling Water",
+        "Water"
+      ],
+      [
+        "Query Network",
+        "Topical Map"
+      ],
+      [
+        "H1",
+        "Macro Context"
+      ],
+      [
+        "Water",
+        "Water Fasting"
+      ],
+      [
+        "Hot Water",
+        "Water"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1779794608,
+    "update_time": 1779794608,
+    "_id": "doc-8f812c017168e90729b20b23af0336de"
+  },
+  "doc-c1fce491355836fb3f209fcf0e07ba64": {
+    "relation_pairs": [
+      [
+        "20-Article Batch",
+        "Url Count"
+      ],
+      [
+        "Historical Data",
+        "Initial Rankings"
+      ],
+      [
+        "Mass Publishing",
+        "Red Flag"
+      ],
+      [
+        "20-Article Batch",
+        "Red Flag"
+      ],
+      [
+        "Quality Thresholds",
+        "Search Engines"
+      ],
+      [
+        "Query Search Sessions",
+        "Scroll Rate"
+      ],
+      [
+        "21-Article Batch",
+        "Budget"
+      ],
+      [
+        "60-Article Batch",
+        "Team"
+      ],
+      [
+        "Internal Links",
+        "One-By-One Publishing"
+      ],
+      [
+        "Importance Of Quality Thresholds Article",
+        "Keyword Difficulty"
+      ],
+      [
+        "Microsoft Bing",
+        "Red Flag"
+      ],
+      [
+        "Importance Of Quality Thresholds Article",
+        "Quality Thresholds"
+      ],
+      [
+        "Chat Gbt",
+        "Quality Thresholds"
+      ],
+      [
+        "20-Article Batch",
+        "Crawl Rate"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1779794767,
+    "update_time": 1779794767,
+    "_id": "doc-c1fce491355836fb3f209fcf0e07ba64"
+  },
+  "doc-00e811b516255bb7c2cba83ccf69eefc": {
+    "relation_pairs": [
+      [
+        "Macro Context",
+        "Root Context"
+      ],
+      [
+        "Combinations",
+        "Internal Link Creations"
+      ],
+      [
+        "Combinations",
+        "Target Area"
+      ],
+      [
+        "Arrows",
+        "Logic"
+      ],
+      [
+        "Hot Water",
+        "Root Context"
+      ],
+      [
+        "Context Vectors",
+        "Next Lecture"
+      ],
+      [
+        "Arrows",
+        "Queries"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1779795099,
+    "update_time": 1779795099,
+    "_id": "doc-00e811b516255bb7c2cba83ccf69eefc"
+  },
+  "doc-2b14bde2849a06fcec9ac8ab627f6fcc": {
+    "relation_pairs": [
+      [
+        "Alternatives To Water",
+        "Methodology Section"
+      ],
+      [
+        "Macro And Micro Context Terms",
+        "Next Lecture"
+      ],
+      [
+        "Benefits",
+        "Methodology Section"
+      ],
+      [
+        "Specific Sections",
+        "Supplementary Content"
+      ],
+      [
+        "Alternatives To Water",
+        "Benefits"
+      ],
+      [
+        "Context",
+        "Specific Sections"
+      ],
+      [
+        "Alternatives To Water",
+        "Supplementary Content"
+      ],
+      [
+        "H1",
+        "Water"
+      ],
+      [
+        "Alternatives To Water",
+        "Context"
+      ],
+      [
+        "Benefits",
+        "Supplementary Content"
+      ],
+      [
+        "Alternatives To Water",
+        "Drinking"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1779795437,
+    "update_time": 1779795437,
+    "_id": "doc-2b14bde2849a06fcec9ac8ab627f6fcc"
+  },
+  "doc-a388368023eee5caf3dbbc03fcdd278d": {
+    "relation_pairs": [
+      [
+        "Anchor Text",
+        "Future Lectures"
+      ],
+      [
+        "Drawings From The Paint",
+        "Internal Link"
+      ],
+      [
+        "Hierarchy",
+        "Internal Link"
+      ],
+      [
+        "Future Lectures",
+        "Heating Hierarchy"
+      ],
+      [
+        "Drawings From The Paint",
+        "Hierarchy"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1779795616,
+    "update_time": 1779795616,
+    "_id": "doc-a388368023eee5caf3dbbc03fcdd278d"
+  },
+  "doc-c6ee67e32c07c0182dd83e65b717d89d": {
+    "relation_pairs": [
+      [
+        "Candidate Answer Passage Scoring",
+        "Stephen The Baker"
+      ],
+      [
+        "Luxury Drinking Water",
+        "Semantic Content Network"
+      ],
+      [
+        "Anchor Text Distribution",
+        "Speaker"
+      ],
+      [
+        "Macro Context",
+        "Semantic Content Network"
+      ],
+      [
+        "Boolean Questions",
+        "Voice Search"
+      ],
+      [
+        "Luxury Drinking Water",
+        "Signs Of Drinking Too Much Water"
+      ],
+      [
+        "Contextual Vector",
+        "Semantic Content Network"
+      ],
+      [
+        "Heading Hierarchy",
+        "Semantic Content Network Brief Templates"
+      ],
+      [
+        "Heading Hierarchy",
+        "Incrementally Ordered Heading List"
+      ],
+      [
+        "Next Lectures",
+        "Speaker"
+      ],
+      [
+        "Internal Links",
+        "Query Networks"
+      ],
+      [
+        "Middle Area",
+        "Sections"
+      ],
+      [
+        "Page Rank",
+        "Supplementary Content"
+      ],
+      [
+        "Internal Links",
+        "Luxury Drinking Water"
+      ],
+      [
+        "Contextual Hierarchy",
+        "Heading Hierarchy"
+      ],
+      [
+        "Anchor Text",
+        "Search Engine Processors"
+      ],
+      [
+        "Effects Of Dehydration",
+        "Luxury Drinking Water"
+      ],
+      [
+        "Anitin Gupta",
+        "Candidate Answer Passage Scoring"
+      ],
+      [
+        "Voice Search",
+        "Web Search Sessions"
+      ],
+      [
+        "Feature Snippet",
+        "Page Rank"
+      ],
+      [
+        "Candidate Answer Passage Scoring",
+        "Feature Snippet"
+      ],
+      [
+        "Anchor Text",
+        "Contextual Connections"
+      ],
+      [
+        "Middle Area",
+        "Speaker"
+      ],
+      [
+        "Future",
+        "Speaker"
+      ],
+      [
+        "Extra Columns",
+        "Middle Area"
+      ],
+      [
+        "Internal Links",
+        "Main Content"
+      ]
+    ],
+    "count": 26,
+    "create_time": 1779795647,
+    "update_time": 1779795647,
+    "_id": "doc-c6ee67e32c07c0182dd83e65b717d89d"
+  },
+  "doc-4a2bd575df4c8a0d322e5adcf2e78bc6": {
+    "relation_pairs": [
+      [
+        "39th Lecture",
+        "Contextual Structure"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1779795792,
+    "update_time": 1779795792,
+    "_id": "doc-4a2bd575df4c8a0d322e5adcf2e78bc6"
+  },
+  "doc-20e7fc05ccbe694a5d9fc5c83961b036": {
+    "relation_pairs": [
+      [
+        "Article",
+        "Drinking Water"
+      ],
+      [
+        "Article",
+        "Authors"
+      ],
+      [
+        "General Summary",
+        "Macro Context Introduction"
+      ],
+      [
+        "Drinking Water",
+        "Life"
+      ],
+      [
+        "Contextual Bridge",
+        "Phrase Sequences"
+      ],
+      [
+        "Drinking Water",
+        "Main Benefit Of Water"
+      ],
+      [
+        "Author",
+        "Instructor"
+      ],
+      [
+        "Anchor Text",
+        "Contextual Vector"
+      ],
+      [
+        "Context Hints",
+        "Macro Context Introduction"
+      ],
+      [
+        "Macro Context Introduction",
+        "Methodology"
+      ],
+      [
+        "Internal Link Justification",
+        "Phrase Sequences"
+      ],
+      [
+        "Phrase Sequences",
+        "Unique Information"
+      ],
+      [
+        "Article",
+        "Contextual Vector"
+      ],
+      [
+        "Contextual Vector",
+        "Methodology"
+      ],
+      [
+        "Authors",
+        "Expert Authors"
+      ],
+      [
+        "Context Hints",
+        "Instructor"
+      ],
+      [
+        "Extractive Summary",
+        "General Summary Section"
+      ],
+      [
+        "Authors",
+        "Phrase Sequences"
+      ],
+      [
+        "Article",
+        "Conclusion Part"
+      ],
+      [
+        "Author",
+        "Context Hints"
+      ],
+      [
+        "Context Hints",
+        "Generative Ai"
+      ],
+      [
+        "Macro Context",
+        "Micro Context"
+      ],
+      [
+        "Abstractive Summary",
+        "Article Methodology"
+      ],
+      [
+        "Article",
+        "Introduction Part"
+      ],
+      [
+        "Context Hints",
+        "Phrase Sequences"
+      ],
+      [
+        "Contextual Vector",
+        "Macro Context Introduction"
+      ],
+      [
+        "Drinking Water",
+        "Macro Context Introduction"
+      ],
+      [
+        "Drinking Water",
+        "Organics"
+      ],
+      [
+        "Grammar Structure",
+        "Phrase Sequences"
+      ],
+      [
+        "Internal Links",
+        "Methodology"
+      ],
+      [
+        "Generative AI",
+        "Phrase Sequences"
+      ],
+      [
+        "Article Methodology",
+        "Semantic SEO Course"
+      ],
+      [
+        "General Summary Section",
+        "Key Points"
+      ],
+      [
+        "Introduction Part",
+        "Macro Context"
+      ],
+      [
+        "Definitional Sentence",
+        "Drinking Water"
+      ],
+      [
+        "Authors",
+        "Copywriters"
+      ],
+      [
+        "Article Methodology",
+        "Extractive Summary"
+      ],
+      [
+        "Main Benefit Of Water",
+        "Predicate Provide"
+      ],
+      [
+        "General Summary",
+        "Methodology"
+      ],
+      [
+        "Gallon Of Water",
+        "Internal Link Justification"
+      ],
+      [
+        "Abstractive Summary",
+        "General Summary Section"
+      ]
+    ],
+    "count": 41,
+    "create_time": 1779796081,
+    "update_time": 1779796081,
+    "_id": "doc-20e7fc05ccbe694a5d9fc5c83961b036"
+  },
+  "doc-b89ba62f2b9f725725fe8219a87ffad3": {
+    "relation_pairs": [
+      [
+        "Article Methodology",
+        "Human Body"
+      ],
+      [
+        "Macro Context",
+        "Semantic Content Networks"
+      ],
+      [
+        "Battery Range",
+        "Electric Scooters"
+      ],
+      [
+        "Article Methodology",
+        "Semantic Content Networks"
+      ],
+      [
+        "Phd Expert Level Author",
+        "Scientific Terms"
+      ],
+      [
+        "Electric Scooters",
+        "Speed"
+      ],
+      [
+        "Main Benefit",
+        "Psychological Benefit"
+      ],
+      [
+        "Saigon",
+        "Saigon'S Speech"
+      ],
+      [
+        "Article Methodology",
+        "Water Percentage In Human Body"
+      ],
+      [
+        "Article Methodology",
+        "Nutritional Value"
+      ],
+      [
+        "Main Benefit",
+        "Physical Benefit"
+      ],
+      [
+        "Attribute Definitions",
+        "Electric Scooters"
+      ],
+      [
+        "Future Lectures",
+        "Methodology"
+      ],
+      [
+        "Article Methodology",
+        "Nutritional Function"
+      ],
+      [
+        "Article Methodology",
+        "Semantic Seo Course"
+      ],
+      [
+        "Central Entity",
+        "Drinking Water"
+      ],
+      [
+        "Article Methodology",
+        "Main Benefit"
+      ],
+      [
+        "Article Methodology",
+        "Topical Authoritative Source"
+      ],
+      [
+        "Article Methodology",
+        "Scientific Terms"
+      ],
+      [
+        "Search Engine",
+        "Topical Authoritative Source"
+      ],
+      [
+        "Article Methodology",
+        "Central Entity"
+      ],
+      [
+        "Saigon'S Speech",
+        "Semantic Content Networks"
+      ],
+      [
+        "Article",
+        "Methodology"
+      ]
+    ],
+    "count": 23,
+    "create_time": 1779796083,
+    "update_time": 1779796083,
+    "_id": "doc-b89ba62f2b9f725725fe8219a87ffad3"
+  },
+  "doc-9b7299ff5f066dee74796eab27e8c910": {
+    "relation_pairs": [
+      [
+        "Gibberish",
+        "Semantic Content Network"
+      ],
+      [
+        "Functional Word",
+        "Sentence Structures"
+      ],
+      [
+        "Content",
+        "Term"
+      ],
+      [
+        "Antonym",
+        "Constipation"
+      ],
+      [
+        "Internal Links",
+        "Justification For Relevance"
+      ],
+      [
+        "Article Methodology",
+        "Variable X"
+      ],
+      [
+        "Content",
+        "Internal Links"
+      ],
+      [
+        "Context Terms",
+        "Hyponemes"
+      ],
+      [
+        "Physical Performance",
+        "Predicates"
+      ],
+      [
+        "Context Terms",
+        "Predicates"
+      ],
+      [
+        "Justification",
+        "Safety"
+      ],
+      [
+        "Article Methodology",
+        "R Specific Context Term"
+      ],
+      [
+        "Contextual Domains",
+        "Physical Performance"
+      ],
+      [
+        "Contextual Structure",
+        "Order Hints"
+      ],
+      [
+        "Real Experts",
+        "YL Niche"
+      ],
+      [
+        "Contextual Domains",
+        "Drinking Water"
+      ],
+      [
+        "Drinking Water",
+        "Physical Performance"
+      ],
+      [
+        "Article Methodology",
+        "Sentence Structures"
+      ],
+      [
+        "Internal Links",
+        "Justification"
+      ],
+      [
+        "Internal Links",
+        "Term"
+      ],
+      [
+        "Brain Function",
+        "Drinking Water"
+      ],
+      [
+        "Article Methodology",
+        "Contextual Structure"
+      ],
+      [
+        "Article Methodology",
+        "Semantic Content Network"
+      ],
+      [
+        "Constipation",
+        "Dehydration"
+      ],
+      [
+        "Drinking Water",
+        "Energy"
+      ],
+      [
+        "Article Methodology",
+        "Question Examples"
+      ],
+      [
+        "Phrase Taxonomy",
+        "Physical Performance"
+      ],
+      [
+        "Brain Function",
+        "XYZ"
+      ],
+      [
+        "Article Methodology",
+        "Semantic SEO Course"
+      ],
+      [
+        "Article Methodology",
+        "Possible Effects"
+      ],
+      [
+        "Biological Entity Names",
+        "Drinking Water"
+      ],
+      [
+        "Drinking Water",
+        "X Percentage"
+      ],
+      [
+        "Context Hints",
+        "Contextual Structure"
+      ],
+      [
+        "Drinking Water",
+        "X Amount Of Drinking Water"
+      ],
+      [
+        "Internal Links",
+        "Safety"
+      ],
+      [
+        "Content",
+        "Gibberish"
+      ],
+      [
+        "Article Methodology",
+        "Predicates"
+      ]
+    ],
+    "count": 37,
+    "create_time": 1779796364,
+    "update_time": 1779796364,
+    "_id": "doc-9b7299ff5f066dee74796eab27e8c910"
+  },
+  "doc-ead1494c17202662c334ce26d68202b6": {
+    "relation_pairs": [
+      [
+        "Authority",
+        "Government Websites"
+      ],
+      [
+        "Content Brief",
+        "Query Columns"
+      ],
+      [
+        "Micro Context",
+        "Symptoms"
+      ],
+      [
+        "Content Brief",
+        "Macro Context"
+      ],
+      [
+        "Incremental Order T-Link List",
+        "Micro Semantics"
+      ],
+      [
+        "Incremental Order T-Link List",
+        "Previous Example"
+      ],
+      [
+        "Content Brief",
+        "Micro Context"
+      ],
+      [
+        "Authoritiveness",
+        "Government Websites"
+      ],
+      [
+        "Drinking Too Much Water",
+        "Water Intoxication"
+      ],
+      [
+        "Help Line Column",
+        "Query Columns"
+      ],
+      [
+        "Misinformation",
+        "News Websites"
+      ],
+      [
+        "Classification",
+        "Help Line Column"
+      ],
+      [
+        "Contextual Bridge",
+        "Micro Semantics"
+      ],
+      [
+        "Dehydration",
+        "Drinking Too Much Water"
+      ],
+      [
+        "Content Brief",
+        "Incremental Order T-Link List"
+      ],
+      [
+        "Fourth To Fifth Lecture",
+        "Semantic Seo Course"
+      ],
+      [
+        "Government Website Column",
+        "Query Columns"
+      ],
+      [
+        "Incremental Order T-Link List",
+        "Supplementary Content"
+      ],
+      [
+        "Covid-19 Pandemic",
+        "Search Engine Promotion"
+      ],
+      [
+        "Drinking Too Much Water",
+        "Drinking Water"
+      ],
+      [
+        "Drinking Too Much Water",
+        "Symptoms"
+      ],
+      [
+        "Drinking Too Much Water",
+        "Drinking Water Benefits"
+      ],
+      [
+        "Definitional Part",
+        "Incremental Order T-Link List"
+      ],
+      [
+        "Government Websites",
+        "Search Engine Promotion"
+      ],
+      [
+        "Drinking Water",
+        "Drinking Water Benefits"
+      ],
+      [
+        "Incremental Order T-Link List",
+        "Symptoms Hidden List"
+      ],
+      [
+        "Incremental Order T-Link List",
+        "Question"
+      ],
+      [
+        "Government Website Column",
+        "Outranking"
+      ],
+      [
+        "Covid-19 Pandemic",
+        "Misinformation"
+      ],
+      [
+        "Content Brief",
+        "Passage Ranking Algorithms"
+      ],
+      [
+        "Dehydration",
+        "Drinking Water"
+      ],
+      [
+        "Content Brief",
+        "Fourth To Fifth Lecture"
+      ],
+      [
+        "News Websites",
+        "Slideshare Account"
+      ],
+      [
+        "Bridge",
+        "Incremental Order T-Link List"
+      ],
+      [
+        "Contextual Vector",
+        "Query Columns"
+      ],
+      [
+        "News Websites",
+        "Vaccinations"
+      ],
+      [
+        "Drinking Too Much Water",
+        "Macro Context"
+      ],
+      [
+        "Anchor Tags",
+        "Content Brief"
+      ]
+    ],
+    "count": 38,
+    "create_time": 1779796752,
+    "update_time": 1779796752,
+    "_id": "doc-ead1494c17202662c334ce26d68202b6"
+  },
+  "doc-10ec1029317e701d51c5dde9d0e848c1": {
+    "relation_pairs": [
+      [
+        "Paragraphs",
+        "Ranking Web Pages"
+      ],
+      [
+        "Prose Type Language Score",
+        "Search Engines"
+      ],
+      [
+        "44th Lecture",
+        "Paragraph Formats"
+      ],
+      [
+        "Prose Type Language Score",
+        "Types of Score"
+      ],
+      [
+        "Correct Webpage",
+        "Prose Type Language Score"
+      ],
+      [
+        "Correct Webpage",
+        "Structured Language Score"
+      ],
+      [
+        "Ranking",
+        "Structured Language Score"
+      ],
+      [
+        "Answer Formats",
+        "Insurance Websites"
+      ],
+      [
+        "Answer Formats",
+        "Finance Websites"
+      ],
+      [
+        "Google",
+        "Google Patents"
+      ],
+      [
+        "Google Patents",
+        "Structured Language Score"
+      ],
+      [
+        "Google Patents",
+        "Prose Type Language Score"
+      ],
+      [
+        "Query Network",
+        "Representative Question"
+      ],
+      [
+        "Context Sharpening",
+        "Contextual Search"
+      ],
+      [
+        "Content Briefs",
+        "Prose Type Language Content"
+      ],
+      [
+        "Answer Formats",
+        "Webpage"
+      ],
+      [
+        "Answer Formats",
+        "Featured Snippet"
+      ],
+      [
+        "44th Lecture",
+        "Supplementary Content"
+      ],
+      [
+        "Answer Formats",
+        "Calculation Websites"
+      ],
+      [
+        "Macro Context",
+        "Supplementary Content"
+      ],
+      [
+        "Macro Context",
+        "Mortgage Statistics"
+      ],
+      [
+        "Answer Formats",
+        "List"
+      ],
+      [
+        "Macro Context Specification Section",
+        "Webpage"
+      ],
+      [
+        "44th Lecture",
+        "Semantic SEO Course"
+      ],
+      [
+        "Answer Formats",
+        "Comparison Paragraph"
+      ],
+      [
+        "44th Lecture",
+        "Passage Indexing"
+      ],
+      [
+        "Answer Formats",
+        "Table"
+      ],
+      [
+        "Macro Context",
+        "Mortgage Types"
+      ],
+      [
+        "Articles",
+        "Ranking Web Pages"
+      ],
+      [
+        "44th Lecture",
+        "Answer Formats"
+      ],
+      [
+        "Macro Context",
+        "Main Content"
+      ],
+      [
+        "Candidate Answer Passage",
+        "Candidate Answer Passage Scoring"
+      ],
+      [
+        "Contextual Search",
+        "Contextual Search Case Study"
+      ],
+      [
+        "Content Briefs",
+        "Ranking Web Pages"
+      ],
+      [
+        "Corai'S Framework",
+        "Fluff"
+      ],
+      [
+        "Passage Indexing",
+        "Search Engines"
+      ],
+      [
+        "Answer Formats",
+        "Micro-Semantics"
+      ],
+      [
+        "Articles",
+        "Content Briefs"
+      ],
+      [
+        "Search Engines",
+        "Structured Language Score"
+      ],
+      [
+        "Micro-Semantics",
+        "Supplementary Content"
+      ],
+      [
+        "Articles",
+        "Future Lecture"
+      ],
+      [
+        "Prose Type Language Score",
+        "Ranking"
+      ],
+      [
+        "Structured Language Score",
+        "Types of Score"
+      ],
+      [
+        "44th Lecture",
+        "Micro-Semantics"
+      ],
+      [
+        "Content Briefs",
+        "Future Lecture"
+      ],
+      [
+        "Relevance",
+        "Search Engines"
+      ],
+      [
+        "Content Briefs",
+        "Structured Language Content"
+      ],
+      [
+        "44th Lecture",
+        "Candidate Answer Passage Scoring"
+      ],
+      [
+        "44th Lecture",
+        "Macro Context"
+      ],
+      [
+        "Context Deepening",
+        "Contextual Search"
+      ],
+      [
+        "Context Specifying",
+        "Contextual Search"
+      ],
+      [
+        "Candidate Answer Passage Scoring",
+        "Search Engines"
+      ],
+      [
+        "Answer Formats",
+        "Exact Definitive Answer"
+      ],
+      [
+        "Answer Formats",
+        "Paragraph Formats"
+      ],
+      [
+        "Corai",
+        "Corai'S Framework"
+      ],
+      [
+        "Query Network",
+        "Variations"
+      ]
+    ],
+    "count": 56,
+    "create_time": 1779796776,
+    "update_time": 1779796776,
+    "_id": "doc-10ec1029317e701d51c5dde9d0e848c1"
+  },
+  "doc-c79cc963bd9a613b0be410c4b0f997f3": {
+    "relation_pairs": [
+      [
+        "Contextual Vector",
+        "Next Lecture"
+      ],
+      [
+        "Context Of Disease",
+        "Signifier"
+      ],
+      [
+        "Entity Type",
+        "Neural Matching"
+      ],
+      [
+        "Contextual Bridge",
+        "Supplementary Content"
+      ],
+      [
+        "Incrementally Ordered Heating List",
+        "Symptoms"
+      ],
+      [
+        "Disease",
+        "Water Intoxication"
+      ],
+      [
+        "Drinking Too Much Water",
+        "Water Intoxication"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1779797173,
+    "update_time": 1779797173,
+    "_id": "doc-c79cc963bd9a613b0be410c4b0f997f3"
+  },
+  "doc-8122ad3e878784e98cdd0c33cb998553": {
+    "relation_pairs": [
+      [
+        "Obstructive Summary",
+        "Web Page Site Contextual Consolidation"
+      ],
+      [
+        "Sports Events",
+        "Water Intoxication"
+      ],
+      [
+        "Military Training",
+        "Water Intoxication"
+      ],
+      [
+        "Information Density",
+        "Relevance Calculation"
+      ],
+      [
+        "Document",
+        "Paragraphs"
+      ],
+      [
+        "Benefits Of Drinking Water",
+        "Daily Water Intake"
+      ],
+      [
+        "Macro Context Introduction",
+        "Supplementary Content"
+      ],
+      [
+        "Document",
+        "Lists"
+      ],
+      [
+        "Contextual Vector",
+        "H1"
+      ],
+      [
+        "Document",
+        "Relevance Score"
+      ],
+      [
+        "Daily Water Intake",
+        "Water Intake Calculation Method"
+      ],
+      [
+        "Article Methodology",
+        "Contextual Structure"
+      ],
+      [
+        "Introduction Part",
+        "Subcontext Sections"
+      ],
+      [
+        "H1",
+        "Macro Context"
+      ],
+      [
+        "Information Retrieval",
+        "Length Normalization"
+      ],
+      [
+        "Contextual Vector",
+        "H2s"
+      ],
+      [
+        "General Summary",
+        "Web Page Site Contextual Consolidation"
+      ],
+      [
+        "Document",
+        "Tables"
+      ],
+      [
+        "Contextual Structure",
+        "Semantic SEO Course"
+      ],
+      [
+        "Daily Water Intake",
+        "Water Intoxication"
+      ],
+      [
+        "Information Retrieval",
+        "Term Saturation"
+      ],
+      [
+        "Extractive Summary",
+        "Web Page Site Contextual Consolidation"
+      ]
+    ],
+    "count": 22,
+    "create_time": 1779797431,
+    "update_time": 1779797431,
+    "_id": "doc-8122ad3e878784e98cdd0c33cb998553"
+  },
+  "doc-0b0b3b0bcf458ffb104d6906ee1a4961": {
+    "relation_pairs": [
+      [
+        "Google Bard",
+        "Higher Ranking"
+      ],
+      [
+        "H4",
+        "Sub Article"
+      ],
+      [
+        "Section",
+        "Sub Parts"
+      ],
+      [
+        "Higher Ranking",
+        "Visibility"
+      ],
+      [
+        "Higher Ranking",
+        "Microsoft Bing"
+      ],
+      [
+        "Chat System",
+        "Higher Ranking"
+      ],
+      [
+        "Massive Web Pages",
+        "Quality Passages"
+      ],
+      [
+        "Section",
+        "Summary"
+      ],
+      [
+        "Clicks",
+        "Higher Ranking"
+      ],
+      [
+        "H3",
+        "Sub Article"
+      ],
+      [
+        "Section",
+        "Sub Roots"
+      ],
+      [
+        "Passage Ranking",
+        "Search Engines"
+      ],
+      [
+        "Context",
+        "Higher Ranking"
+      ],
+      [
+        "H2",
+        "Sub Article"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1779797658,
+    "update_time": 1779797658,
+    "_id": "doc-0b0b3b0bcf458ffb104d6906ee1a4961"
+  },
+  "doc-5630eb292b2067508ab2e5051ecbe6e9": {
+    "relation_pairs": [
+      [
+        "Content Brief",
+        "The Lecturer"
+      ],
+      [
+        "Anchor Text",
+        "H4"
+      ],
+      [
+        "Query Profiles",
+        "The Lecturer"
+      ],
+      [
+        "Body Functions",
+        "Water Percentage In Body"
+      ],
+      [
+        "Measurement Unit",
+        "Neural Matching"
+      ],
+      [
+        "Lexical Semantics",
+        "The Lecturer"
+      ],
+      [
+        "Entity Type Matching",
+        "Measurement Unit"
+      ],
+      [
+        "Lecture 51",
+        "Semantic Seo Course"
+      ],
+      [
+        "Human Body",
+        "Organs"
+      ],
+      [
+        "Lexical Semantics",
+        "Water Percentage In Body"
+      ],
+      [
+        "Animal Body",
+        "Human Body"
+      ],
+      [
+        "Content Brief",
+        "Medical News Today"
+      ],
+      [
+        "Anchor Text",
+        "Boolean Question"
+      ],
+      [
+        "Benefits Of Drinking Water",
+        "Selen Anticontant Network"
+      ],
+      [
+        "The Lecturer",
+        "Water Percentage In Body"
+      ],
+      [
+        "Context Network",
+        "Query Profiles"
+      ],
+      [
+        "Macro Context",
+        "Micro Context"
+      ],
+      [
+        "Selen Anticontant Network",
+        "The Lecturer"
+      ],
+      [
+        "Benefits Of Drinking Water",
+        "Weight Loss"
+      ],
+      [
+        "Benefits Of Drinking Water",
+        "Water Intake"
+      ],
+      [
+        "Lecture 51",
+        "The Lecturer"
+      ],
+      [
+        "Contextual Vector",
+        "The Lecturer"
+      ],
+      [
+        "Benefits Of Drinking Water",
+        "The Lecturer"
+      ],
+      [
+        "Optimum Water Percentage",
+        "Water Intake"
+      ],
+      [
+        "Contextual Vector",
+        "Macro Context"
+      ],
+      [
+        "Human Body",
+        "Water Percentage In Body"
+      ],
+      [
+        "Content Brief",
+        "Healthline"
+      ]
+    ],
+    "count": 27,
+    "create_time": 1779797927,
+    "update_time": 1779797927,
+    "_id": "doc-5630eb292b2067508ab2e5051ecbe6e9"
+  },
+  "doc-eef1d53ea2fafdb6002975ead6658b03": {
+    "relation_pairs": [
+      [
+        "Annotation Text",
+        "Columns"
+      ],
+      [
+        "Cell Names",
+        "Supplementary Content"
+      ],
+      [
+        "Columns",
+        "Unique Information Gain Score"
+      ],
+      [
+        "Benefits",
+        "Body Functions"
+      ],
+      [
+        "Root Of The Semantic Content Network",
+        "Semantic Content Network"
+      ],
+      [
+        "Benefits",
+        "Weight Loss"
+      ],
+      [
+        "Body Functions",
+        "Root Of The Semantic Content Network"
+      ],
+      [
+        "Answer Terms",
+        "CoriS Framework"
+      ],
+      [
+        "Body Functions",
+        "Web Pages"
+      ],
+      [
+        "53rd Lecture",
+        "Supplementary Content"
+      ],
+      [
+        "Boolean Question",
+        "Unique Question"
+      ],
+      [
+        "53rd Lecture",
+        "Semantic SEO Course"
+      ],
+      [
+        "Answer Terms",
+        "Content Briefs"
+      ],
+      [
+        "Columns",
+        "Preceding Questions"
+      ],
+      [
+        "Content Briefs",
+        "CoriS Framework"
+      ],
+      [
+        "Content Briefs",
+        "Sections"
+      ],
+      [
+        "Columns",
+        "Training"
+      ],
+      [
+        "Anchor Text",
+        "Headings"
+      ],
+      [
+        "Content",
+        "Grouper Question"
+      ],
+      [
+        "Answer Terms",
+        "Body Functions"
+      ],
+      [
+        "Articles",
+        "Content Briefs"
+      ],
+      [
+        "Body Functions",
+        "Drinking Water"
+      ],
+      [
+        "Drinking Water",
+        "Predicate"
+      ],
+      [
+        "Drinking Water",
+        "Weight Loss"
+      ],
+      [
+        "Anchor Text",
+        "Internal Links"
+      ],
+      [
+        "Human Body",
+        "Lexical Semantics"
+      ],
+      [
+        "Anchor Text",
+        "Annotation Text"
+      ],
+      [
+        "Answer Terms",
+        "Questions"
+      ],
+      [
+        "Animal Bodies",
+        "Lexical Semantics"
+      ],
+      [
+        "53rd Lecture",
+        "Micro Context"
+      ]
+    ],
+    "count": 30,
+    "create_time": 1779798151,
+    "update_time": 1779798151,
+    "_id": "doc-eef1d53ea2fafdb6002975ead6658b03"
+  },
+  "doc-b46a5ce46cdcaba690c43278c43e6956": {
+    "relation_pairs": [
+      [
+        "Article Methodology",
+        "General Water Percentage"
+      ],
+      [
+        "Click Satisfaction",
+        "Search Engine"
+      ],
+      [
+        "Comparison",
+        "Female Body"
+      ],
+      [
+        "Click Satisfaction",
+        "Numeric Values"
+      ],
+      [
+        "Cell Names",
+        "Nine"
+      ],
+      [
+        "Article Methodology",
+        "Water Percentage In Body"
+      ],
+      [
+        "52nd Lecture",
+        "Article Methodology"
+      ],
+      [
+        "Article Methodology",
+        "Supplementary Section"
+      ],
+      [
+        "Article Methodology",
+        "Reasons And Effects"
+      ],
+      [
+        "Drinking Water",
+        "Water Types"
+      ],
+      [
+        "A 10",
+        "Cell Names"
+      ],
+      [
+        "Numeric Values",
+        "Supplementary Section"
+      ],
+      [
+        "Diet",
+        "Water Percentage In Body"
+      ],
+      [
+        "Age",
+        "Water Percentage In Body"
+      ],
+      [
+        "Anatomy Of Water",
+        "Properties Of Water"
+      ],
+      [
+        "Next Lecture",
+        "Range"
+      ],
+      [
+        "Range And Its Effects",
+        "Supplementary Section"
+      ],
+      [
+        "Scientific Resources",
+        "Specific Doctor"
+      ],
+      [
+        "Body Function Types",
+        "Nine"
+      ],
+      [
+        "Body Function Types",
+        "Supplementary Section"
+      ],
+      [
+        "Comparison",
+        "Information Density"
+      ],
+      [
+        "Body Function Types",
+        "Water Percentage"
+      ],
+      [
+        "Article Methodology",
+        "Comparison"
+      ],
+      [
+        "52nd Lecture",
+        "Semantic SEO Course"
+      ],
+      [
+        "Gender",
+        "Water Percentage In Body"
+      ],
+      [
+        "Article Methodology",
+        "Sentence Example"
+      ],
+      [
+        "Animal Bodies",
+        "Bridge"
+      ],
+      [
+        "Expansion Of Evidence",
+        "Quotes"
+      ],
+      [
+        "Content Briefs",
+        "Next Lecture"
+      ],
+      [
+        "Bridge",
+        "Water Percentage In Body"
+      ],
+      [
+        "Cell Names",
+        "Supplementary Section"
+      ],
+      [
+        "Paragraph Design",
+        "Preceding Question"
+      ],
+      [
+        "Effects For The Body",
+        "Next Lecture"
+      ],
+      [
+        "Properties Of Water",
+        "Water Types"
+      ],
+      [
+        "A 10",
+        "Range"
+      ],
+      [
+        "Definitive Answer",
+        "Macro Context Expansion"
+      ],
+      [
+        "Article Methodology",
+        "Bridge"
+      ],
+      [
+        "A 10",
+        "Effects For The Body"
+      ],
+      [
+        "Expansion Of Evidence",
+        "Macro Context Expansion"
+      ],
+      [
+        "Article Methodology",
+        "Macro Context Expansion"
+      ],
+      [
+        "Human Body",
+        "Water Percentage In Body"
+      ],
+      [
+        "Comparison",
+        "Male Body"
+      ],
+      [
+        "Geography",
+        "Water Percentage In Body"
+      ],
+      [
+        "Feature Snippets",
+        "Preceding Question"
+      ],
+      [
+        "Organisms",
+        "Sentence Example"
+      ],
+      [
+        "Article Methodology",
+        "Properties Of Water"
+      ],
+      [
+        "Article Methodology",
+        "Main Water Percentage"
+      ]
+    ],
+    "count": 47,
+    "create_time": 1779798174,
+    "update_time": 1779798174,
+    "_id": "doc-b46a5ce46cdcaba690c43278c43e6956"
+  },
+  "doc-8a2cd46f30042a6947f23c64282a4759": {
+    "relation_pairs": [
+      [
+        "Article Methodology",
+        "Numeric Values"
+      ],
+      [
+        "Burning Calories",
+        "Lose Weight"
+      ],
+      [
+        "Authority State",
+        "Strategy"
+      ],
+      [
+        "Burning Calories",
+        "Drinking Cold Water"
+      ],
+      [
+        "Article Methodology",
+        "Topical Map"
+      ],
+      [
+        "Burning Calories",
+        "Context Term"
+      ],
+      [
+        "Article Methodology",
+        "Statistics"
+      ],
+      [
+        "Strategy",
+        "Topical Map"
+      ],
+      [
+        "Article Methodology",
+        "Macro Context"
+      ],
+      [
+        "Article Methodology",
+        "Strategy"
+      ],
+      [
+        "Authority State",
+        "Competitors"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1779798730,
+    "update_time": 1779798730,
+    "_id": "doc-8a2cd46f30042a6947f23c64282a4759"
+  },
+  "doc-c86349823e80f5197f6a9e19f884c908": {
+    "relation_pairs": [
+      [
+        "Comparison",
+        "Differences"
+      ],
+      [
+        "H3",
+        "Weight Loss"
+      ],
+      [
+        "Differences",
+        "Similarities"
+      ],
+      [
+        "Relativity In Answers",
+        "Which One Is Best For The Body: Cold Water Or Warm Water?"
+      ],
+      [
+        "Content Briefs",
+        "Macro"
+      ],
+      [
+        "Metabolism Rate",
+        "Weight Loss"
+      ],
+      [
+        "Benefits",
+        "Most Used Words"
+      ],
+      [
+        "Most Used Words",
+        "Titles"
+      ],
+      [
+        "Effects",
+        "Similarities"
+      ],
+      [
+        "Cold Water Vs Warm Water",
+        "Comparison"
+      ],
+      [
+        "Anchor Segments",
+        "Contextual Flow"
+      ],
+      [
+        "Content Structuring Method",
+        "Search Engine"
+      ],
+      [
+        "Consensus",
+        "Topical Authority"
+      ],
+      [
+        "Cold Water",
+        "Metabolism Rate"
+      ],
+      [
+        "Amount Of Cold Water",
+        "Hydration"
+      ],
+      [
+        "Effects",
+        "Section"
+      ],
+      [
+        "Anchor Text",
+        "Risks And Benefits"
+      ],
+      [
+        "H2s",
+        "Macro Context"
+      ],
+      [
+        "Benefits",
+        "Bridge Question"
+      ],
+      [
+        "H2s",
+        "Micro Context"
+      ],
+      [
+        "Benefits",
+        "Content Structuring Method"
+      ],
+      [
+        "Content Structuring Method",
+        "Reflexes"
+      ],
+      [
+        "Consensus",
+        "Truth Ranges"
+      ],
+      [
+        "H2s",
+        "Queries"
+      ],
+      [
+        "Most Used Words In Titles",
+        "Topical Authority"
+      ],
+      [
+        "Boolean Question",
+        "Who Should Drink Cold Water"
+      ],
+      [
+        "Anchor Text",
+        "Should Pets Drink Cold Water"
+      ],
+      [
+        "Bridge Question",
+        "H2s"
+      ],
+      [
+        "Blood Pressure",
+        "Metabolism Rate"
+      ],
+      [
+        "Context Sensitive Question Answering",
+        "Contextual Flow"
+      ],
+      [
+        "Pets",
+        "Who Should Drink Cold Water"
+      ],
+      [
+        "Content Briefs",
+        "Lean Management Method"
+      ],
+      [
+        "Anchor Text",
+        "Semantic Content Network"
+      ],
+      [
+        "Discourse Integration",
+        "Nlp"
+      ],
+      [
+        "Optimum Percentage",
+        "Range Factors"
+      ],
+      [
+        "Anchor Text",
+        "Benefits Of Drinking Water"
+      ]
+    ],
+    "count": 36,
+    "create_time": 1779798865,
+    "update_time": 1779798865,
+    "_id": "doc-c86349823e80f5197f6a9e19f884c908"
+  },
+  "doc-5dacc856640e50f4d171e6fe531e33d7": {
+    "relation_pairs": [
+      [
+        "Macro Context",
+        "Risks"
+      ],
+      [
+        "Cold Water Article",
+        "Hot Water Article"
+      ],
+      [
+        "Contextual Structure",
+        "Contextual Vector"
+      ],
+      [
+        "Content Brief",
+        "Hot Water Article"
+      ],
+      [
+        "Contextual Vector",
+        "Internal Links"
+      ],
+      [
+        "Macro Context",
+        "Phrase"
+      ],
+      [
+        "Hierarchy",
+        "Hot Water Article"
+      ],
+      [
+        "Drinking Hot Water",
+        "Macro Context"
+      ],
+      [
+        "Health Benefits",
+        "Macro Context"
+      ],
+      [
+        "Contextual Structure",
+        "Hot Water Article"
+      ],
+      [
+        "Macro Context",
+        "Seconds Creation"
+      ],
+      [
+        "Content Brief",
+        "Medical News Today"
+      ],
+      [
+        "57th Lecture",
+        "Content Brief"
+      ],
+      [
+        "Hot Water Article",
+        "Quality Node"
+      ],
+      [
+        "57th Lecture",
+        "Semantic SEO Course"
+      ],
+      [
+        "Hot Water Article",
+        "Internal Links"
+      ],
+      [
+        "Boolean Questions",
+        "Query Network"
+      ],
+      [
+        "Macro Context",
+        "Query Network"
+      ],
+      [
+        "Contextual Vector",
+        "Hierarchy"
+      ],
+      [
+        "Content Brief",
+        "Helpline"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1779799129,
+    "update_time": 1779799129,
+    "_id": "doc-5dacc856640e50f4d171e6fe531e33d7"
+  },
+  "doc-36336d4dd2cbc5618c402f42b7fdca34": {
+    "relation_pairs": [
+      [
+        "Cold Lemon Water",
+        "Rankings"
+      ],
+      [
+        "Micro Context",
+        "Supplementary Content"
+      ],
+      [
+        "Hot Water",
+        "Macro Context"
+      ],
+      [
+        "Heating Vector",
+        "Hot Water"
+      ],
+      [
+        "Contextual Vector",
+        "Relevance Calculation"
+      ],
+      [
+        "Blood Circulation",
+        "Heating Vector"
+      ],
+      [
+        "Body Detoxification",
+        "Heating Vector"
+      ],
+      [
+        "Healthline",
+        "Rankings"
+      ],
+      [
+        "Garlic Water",
+        "What Can You Mix With Hot Water To Make It More Beneficial"
+      ],
+      [
+        "Anchor Text",
+        "Lecture 58"
+      ],
+      [
+        "Blood Circulation",
+        "Hot Water"
+      ],
+      [
+        "Ideal Temperature",
+        "What Is The Temperature Of Hot Drinking Water"
+      ],
+      [
+        "Body Detoxification",
+        "Hot Water"
+      ],
+      [
+        "Supplementary Content",
+        "What Can You Mix With Hot Water To Make It More Beneficial"
+      ],
+      [
+        "Drinking Hot Water",
+        "Heating Vector"
+      ],
+      [
+        "How Much Water Should I Drink During A Day",
+        "Pregnancy"
+      ],
+      [
+        "Lemon Water",
+        "What Can You Mix With Hot Water To Make It More Beneficial"
+      ],
+      [
+        "Drinking Hot Water",
+        "Lemon Water"
+      ],
+      [
+        "Honey Water",
+        "Rankings"
+      ],
+      [
+        "Heating Vector",
+        "Weight Loss"
+      ],
+      [
+        "How Much Water Should I Drink During A Day",
+        "Miscarriage"
+      ],
+      [
+        "Methodological Definitional Question",
+        "What Is The Temperature Of Hot Drinking Water"
+      ],
+      [
+        "Next Lecture",
+        "Supplementary Content"
+      ],
+      [
+        "Drinking Hot Water",
+        "Honey Water"
+      ],
+      [
+        "Hot Water",
+        "Rankings"
+      ],
+      [
+        "Drinking Hot Water",
+        "Hot Water"
+      ],
+      [
+        "Miscarriage",
+        "Pregnancy"
+      ],
+      [
+        "Contextual Border",
+        "Macro Context"
+      ],
+      [
+        "Health Line",
+        "Hot Water"
+      ],
+      [
+        "Contextual Vector",
+        "Lecture 58"
+      ],
+      [
+        "Contextual Border",
+        "Micro Context"
+      ],
+      [
+        "Garlic Water",
+        "Rankings"
+      ],
+      [
+        "Hot Water",
+        "Weight Loss"
+      ],
+      [
+        "Lecture 58",
+        "Semantic Seo Course"
+      ],
+      [
+        "Honey Water",
+        "What Can You Mix With Hot Water To Make It More Beneficial"
+      ],
+      [
+        "Benefits",
+        "Hot Water"
+      ],
+      [
+        "Health Risks",
+        "Hot Water"
+      ],
+      [
+        "Benefits of Drinking Water",
+        "Rankings"
+      ],
+      [
+        "Drinking Hot Water",
+        "Garlic Water"
+      ],
+      [
+        "Lemon Water",
+        "Rankings"
+      ],
+      [
+        "Hot Lemon Water",
+        "Rankings"
+      ],
+      [
+        "Hot Water",
+        "Misunderstandings"
+      ]
+    ],
+    "count": 42,
+    "create_time": 1779799291,
+    "update_time": 1779799291,
+    "_id": "doc-36336d4dd2cbc5618c402f42b7fdca34"
+  },
+  "doc-f42923e6cfc5092f58caa8d375ac2ef1": {
+    "relation_pairs": [
+      [
+        "Demography",
+        "Relative Scale"
+      ],
+      [
+        "Hot Water",
+        "Misunderstandings About Hot Water"
+      ],
+      [
+        "Micro Context",
+        "Supplementary Content"
+      ],
+      [
+        "Benefits Of Drinking Water",
+        "Lemon Water"
+      ],
+      [
+        "Competitor",
+        "Heating Vector"
+      ],
+      [
+        "Miscarriage",
+        "Risks"
+      ],
+      [
+        "Hot Water",
+        "Risks"
+      ],
+      [
+        "Authority",
+        "Benefits"
+      ],
+      [
+        "Benefits Of Drinking Water",
+        "Honey Water"
+      ],
+      [
+        "Benefits Of Drinking Water",
+        "Hot Water"
+      ],
+      [
+        "How Much Water Should I Drink During A Day",
+        "Pregnancy"
+      ],
+      [
+        "Methodological Definitional Question",
+        "Relative Scale"
+      ],
+      [
+        "Query Network",
+        "Subquery Network"
+      ],
+      [
+        "Honey",
+        "Supplementary Content"
+      ],
+      [
+        "Benefits",
+        "Misunderstandings About Hot Water"
+      ],
+      [
+        "Nouns",
+        "Weight Loss"
+      ],
+      [
+        "How Much Water Should I Drink During A Day",
+        "Miscarriage"
+      ],
+      [
+        "Benefits Of Drinking Water",
+        "Rankings"
+      ],
+      [
+        "Contextual Vector",
+        "Semantic SEO Course"
+      ],
+      [
+        "Next Lecture",
+        "Supplementary Content"
+      ],
+      [
+        "Benefits Of Drinking Water",
+        "Garlic Water"
+      ],
+      [
+        "Lemon",
+        "Lemon Water"
+      ],
+      [
+        "Methodological Definitional Question",
+        "Temperature Of Hot Drinking Water"
+      ],
+      [
+        "Blood Circulation",
+        "Nouns"
+      ],
+      [
+        "Miscarriage",
+        "Pregnancy"
+      ],
+      [
+        "Contextual Vector",
+        "Topical Map"
+      ],
+      [
+        "Content Briefs",
+        "Supplementary Content"
+      ],
+      [
+        "Body Detoxification",
+        "Nouns"
+      ],
+      [
+        "Hot Water",
+        "Nouns"
+      ],
+      [
+        "Benefits Of Drinking Water",
+        "Cold Lemon Water"
+      ],
+      [
+        "Garlic",
+        "Supplementary Content"
+      ],
+      [
+        "Methodological Plural Question",
+        "Nouns"
+      ],
+      [
+        "Misunderstandings About Hot Water",
+        "Risks"
+      ],
+      [
+        "Benefits Of Drinking Water",
+        "Healthline"
+      ],
+      [
+        "Contextual Vector",
+        "Query Network"
+      ],
+      [
+        "Hot Water",
+        "Ideal Temperature To Drink Water"
+      ],
+      [
+        "Benefits",
+        "Hot Water"
+      ],
+      [
+        "Heating Vector",
+        "Relevance Calculation"
+      ],
+      [
+        "Contextual Vector",
+        "Macro Context"
+      ],
+      [
+        "Benefits Of Lemon Water",
+        "Lemon Water"
+      ],
+      [
+        "Benefits Of Drinking Water",
+        "Hot Lemon Water"
+      ],
+      [
+        "Methodological Plural Question",
+        "Predicates"
+      ],
+      [
+        "Benefits",
+        "Benefits Of Lemon Water"
+      ],
+      [
+        "Competitor",
+        "Healthline"
+      ],
+      [
+        "Lemon",
+        "Supplementary Content"
+      ],
+      [
+        "Macro Context",
+        "Micro Context"
+      ],
+      [
+        "Contextual Vector",
+        "Micro Context"
+      ],
+      [
+        "Ideal Temperature To Drink Water",
+        "Temperature Of Hot Drinking Water"
+      ]
+    ],
+    "count": 48,
+    "create_time": 1779799485,
+    "update_time": 1779799485,
+    "_id": "doc-f42923e6cfc5092f58caa8d375ac2ef1"
+  },
+  "doc-c10223fd9ea5d44bdbd29c6221184f67": {
+    "relation_pairs": [
+      [
+        "Health Section",
+        "Hot Water"
+      ],
+      [
+        "Generated Questions",
+        "Search Engine"
+      ],
+      [
+        "Hot Water",
+        "Luxury Water"
+      ],
+      [
+        "Honey Water Benefits",
+        "Root"
+      ],
+      [
+        "Contextual Vector",
+        "Query Networks"
+      ],
+      [
+        "Boolean Question",
+        "Hot Water"
+      ],
+      [
+        "Lemon Water Benefits",
+        "Root"
+      ],
+      [
+        "Boiled Water",
+        "Hot Water"
+      ],
+      [
+        "Clickability",
+        "Multiple Links"
+      ],
+      [
+        "Lecture 59",
+        "Semantic Seo Course"
+      ],
+      [
+        "Contextual Vector",
+        "Hot Water"
+      ],
+      [
+        "Project Owner",
+        "Tap Water"
+      ],
+      [
+        "Asians",
+        "Demography Section"
+      ],
+      [
+        "Crawl Request",
+        "Multiple Links"
+      ],
+      [
+        "Hot Water",
+        "Tap Water"
+      ],
+      [
+        "Hot Water",
+        "What Question"
+      ],
+      [
+        "Garlic Water Benefits",
+        "Root"
+      ],
+      [
+        "Anchor Text",
+        "Page Rank"
+      ],
+      [
+        "Distilled Water",
+        "Hot Water"
+      ],
+      [
+        "Benefit",
+        "Hot Water"
+      ],
+      [
+        "Arctic Water",
+        "Hot Water"
+      ],
+      [
+        "Demography Section",
+        "Hot Water"
+      ],
+      [
+        "Hot Water",
+        "Mineral Water"
+      ],
+      [
+        "Anchor Text",
+        "Relevance"
+      ]
+    ],
+    "count": 24,
+    "create_time": 1779799580,
+    "update_time": 1779799580,
+    "_id": "doc-c10223fd9ea5d44bdbd29c6221184f67"
+  },
+  "doc-c4ca2257d0f2fca3dc12d0bcc3cf057a": {
+    "relation_pairs": [
+      [
+        "Hot",
+        "Ideal Temperature"
+      ],
+      [
+        "Area",
+        "Situation"
+      ],
+      [
+        "Area",
+        "Next Lecture"
+      ],
+      [
+        "Boolean Question Section",
+        "Risks Of Drinking Hot Water"
+      ],
+      [
+        "Connections",
+        "Relevance Distribution"
+      ],
+      [
+        "Border",
+        "Situation"
+      ],
+      [
+        "Other Sections",
+        "Transition"
+      ],
+      [
+        "Feature Snippet",
+        "Grouper Question"
+      ],
+      [
+        "Drinking Hot Water Article",
+        "Risks Of Drinking Hot Water"
+      ],
+      [
+        "Popularity",
+        "Relevance Distribution"
+      ],
+      [
+        "Abstractive Summary",
+        "Selective Summary"
+      ],
+      [
+        "Contextual Structure",
+        "Transition"
+      ],
+      [
+        "Contextual Structure",
+        "Previous Briefs"
+      ],
+      [
+        "H2 Headings",
+        "H3 Headings"
+      ],
+      [
+        "Drinking Hot Water Article",
+        "Semantic Content Network"
+      ],
+      [
+        "Briefs",
+        "Next Lecture"
+      ],
+      [
+        "Beliefs Section",
+        "Studies"
+      ],
+      [
+        "Contextual Structure",
+        "Drinking Hot Water Article"
+      ],
+      [
+        "Acid Reflux",
+        "Digestion"
+      ],
+      [
+        "Drinking Hot Water Article",
+        "Misunderstandings About Drinking Hot Water"
+      ],
+      [
+        "Situation",
+        "Studies"
+      ],
+      [
+        "Prominence",
+        "Relevance Distribution"
+      ],
+      [
+        "Feature Snippet",
+        "H2 Headings"
+      ],
+      [
+        "Digestion",
+        "Health Benefits Of Drinking Hot Water"
+      ],
+      [
+        "Contextual Structure",
+        "Semantic Seo Course"
+      ],
+      [
+        "Health Benefits Of Drinking Hot Water",
+        "Misunderstandings About Drinking Hot Water"
+      ],
+      [
+        "Proofs",
+        "Situation"
+      ],
+      [
+        "Constipation",
+        "Digestion"
+      ],
+      [
+        "Blood Pressure",
+        "Drinking Hot Water Article"
+      ],
+      [
+        "Drinking Hot Water Article",
+        "Health Benefits Of Drinking Hot Water"
+      ],
+      [
+        "Bridge",
+        "Situation"
+      ]
+    ],
+    "count": 31,
+    "create_time": 1779799989,
+    "update_time": 1779799989,
+    "_id": "doc-c4ca2257d0f2fca3dc12d0bcc3cf057a"
+  },
+  "doc-01935bc908b390baa1b315fbbb591f43": {
+    "relation_pairs": [
+      [
+        "Seo Case Studies",
+        "Unique Enneagrams"
+      ],
+      [
+        "Lecturer",
+        "Saigon Speech"
+      ],
+      [
+        "Nouns",
+        "Supplementary Content"
+      ],
+      [
+        "Text Optimizer",
+        "Word Sequences"
+      ],
+      [
+        "Connected Question",
+        "Connection"
+      ],
+      [
+        "Recurring Neural Networks",
+        "Sequence Modeling"
+      ],
+      [
+        "Macro Context",
+        "Micro Context"
+      ],
+      [
+        "Seconds Modeling",
+        "Sequence Modeling"
+      ],
+      [
+        "Natural Language Processing",
+        "Search Engine Optimization"
+      ],
+      [
+        "Lecturer",
+        "Seo Case Studies"
+      ],
+      [
+        "Connected Question",
+        "Supplementary Content"
+      ],
+      [
+        "Lecturer",
+        "Semantic Seo Course"
+      ],
+      [
+        "Anchor Tags",
+        "Connection"
+      ],
+      [
+        "Sequence Modeling",
+        "Word Sequences"
+      ],
+      [
+        "Drinking Hot Water",
+        "Supplementary Content"
+      ],
+      [
+        "Large Language Model Optimization",
+        "Search Engine Optimization"
+      ],
+      [
+        "61st Lecture",
+        "Seconds Modeling"
+      ],
+      [
+        "Brain",
+        "Word Sequences"
+      ],
+      [
+        "61st Lecture",
+        "Large Language Model Optimization"
+      ],
+      [
+        "Content Briefs",
+        "Seconds Modeling"
+      ],
+      [
+        "Search Engine Optimization",
+        "Seconds Modeling"
+      ],
+      [
+        "Contextual Vector",
+        "Macro Context"
+      ],
+      [
+        "Drinking Hot Water",
+        "Seconds Modeling"
+      ],
+      [
+        "Large Language Models",
+        "Sequence Modeling"
+      ],
+      [
+        "Chrome Extensions",
+        "Word Sequences"
+      ],
+      [
+        "Contextual Vector",
+        "Micro Context"
+      ],
+      [
+        "Adjectives",
+        "Supplementary Content"
+      ],
+      [
+        "Large Language Models",
+        "Word Sequences"
+      ]
+    ],
+    "count": 28,
+    "create_time": 1779800012,
+    "update_time": 1779800012,
+    "_id": "doc-01935bc908b390baa1b315fbbb591f43"
+  },
+  "doc-cad49d2ec5b75756ff8ac96a9e0a07d5": {
+    "relation_pairs": [
+      [
+        "Definition of pH",
+        "Macro Context"
+      ],
+      [
+        "Contextual Vector",
+        "Healthline pH of Water Web Page"
+      ],
+      [
+        "Content Brief",
+        "Image Designing"
+      ],
+      [
+        "62nd Lecture of the Semantic SEO Course",
+        "Sequence Modeling"
+      ],
+      [
+        "Contextual Vector",
+        "pH of Luxury Water"
+      ],
+      [
+        "Contextual Vector",
+        "pH of Arctic Water"
+      ],
+      [
+        "Hierarchy",
+        "Lecturer"
+      ],
+      [
+        "Article Examination",
+        "Sequence Modeling"
+      ],
+      [
+        "Contextual Vector",
+        "Medium pH"
+      ],
+      [
+        "Anchor Text",
+        "Contextual Vector"
+      ],
+      [
+        "62nd Lecture of the Semantic SEO Course",
+        "Supplementary Content"
+      ],
+      [
+        "Contextual Vector",
+        "Structure"
+      ],
+      [
+        "Article Examination",
+        "Next Lecture"
+      ],
+      [
+        "62nd Lecture of the Semantic SEO Course",
+        "Contextual Borders"
+      ],
+      [
+        "Contextual Vector",
+        "Price Effect of pH"
+      ],
+      [
+        "Contextual Vector",
+        "Next Lecture"
+      ],
+      [
+        "62nd Lecture of the Semantic SEO Course",
+        "Anchor Text"
+      ],
+      [
+        "Next Lecture",
+        "Sequence Modeling"
+      ],
+      [
+        "62nd Lecture of the Semantic SEO Course",
+        "Semantic SEO Course"
+      ],
+      [
+        "Geyser",
+        "Water Source"
+      ],
+      [
+        "Crystal Geyser",
+        "Water Source"
+      ],
+      [
+        "Brief",
+        "Red Marking"
+      ],
+      [
+        "Anchor Text",
+        "Lecturer"
+      ],
+      [
+        "Contextual Vector",
+        "Water Quality"
+      ],
+      [
+        "Lecturer",
+        "Main And Supplementary Content Distinction"
+      ],
+      [
+        "Contextual Vector",
+        "pH of Alkaline Water"
+      ],
+      [
+        "Lecturer",
+        "Sequence Modeling"
+      ],
+      [
+        "Next Lecture",
+        "Structure"
+      ],
+      [
+        "Water",
+        "pH"
+      ],
+      [
+        "62nd Lecture of the Semantic SEO Course",
+        "pH"
+      ],
+      [
+        "Anchor Text",
+        "Hierarchy"
+      ],
+      [
+        "62nd Lecture of the Semantic SEO Course",
+        "Contextual Vector"
+      ],
+      [
+        "62nd Lecture of the Semantic SEO Course",
+        "Main Content"
+      ],
+      [
+        "Lecturer",
+        "Next Lecture"
+      ],
+      [
+        "Contextual Vector",
+        "pH Measurement"
+      ],
+      [
+        "Contextual Vector",
+        "High pH"
+      ],
+      [
+        "Lecturer",
+        "Structure"
+      ],
+      [
+        "Contextual Borders",
+        "Main And Supplementary Content Distinction"
+      ],
+      [
+        "Contextual Vector",
+        "Water Brands"
+      ],
+      [
+        "Hierarchy",
+        "Structure"
+      ],
+      [
+        "Fissure Water",
+        "Fissure Water pH Level"
+      ],
+      [
+        "Contextual Borders",
+        "Next Lecture"
+      ],
+      [
+        "Hierarchy",
+        "Next Lecture"
+      ],
+      [
+        "Lexical Semantics",
+        "Sequence Modeling"
+      ],
+      [
+        "Pure Water",
+        "Pure Water pH Level"
+      ],
+      [
+        "Contextual Vector",
+        "pH Meter for Water"
+      ],
+      [
+        "Healthline",
+        "Healthline pH of Water Web Page"
+      ],
+      [
+        "Main And Supplementary Content Distinction",
+        "Next Lecture"
+      ],
+      [
+        "Acidic Water",
+        "Contextual Vector"
+      ],
+      [
+        "Color Red",
+        "Topical Map"
+      ],
+      [
+        "Contextual Vector",
+        "Health Effects of pH"
+      ],
+      [
+        "Contextual Vector",
+        "Low pH"
+      ],
+      [
+        "Article Examination",
+        "Lecturer"
+      ],
+      [
+        "Contextual Vector",
+        "Lecturer"
+      ],
+      [
+        "Anchor Text",
+        "Next Lecture"
+      ],
+      [
+        "Contextual Vector",
+        "Hierarchy"
+      ],
+      [
+        "Anchor Text",
+        "Structure"
+      ],
+      [
+        "Importance of pH for Drinking Water",
+        "Macro Context"
+      ],
+      [
+        "Represented Queries",
+        "Sequence Modeling"
+      ]
+    ],
+    "count": 59,
+    "create_time": 1779800417,
+    "update_time": 1779800417,
+    "_id": "doc-cad49d2ec5b75756ff8ac96a9e0a07d5"
+  },
+  "doc-ce47151a2b89b01b7efea15668a4972c": {
+    "relation_pairs": [
+      [
+        "pH",
+        "pH Level Chart"
+      ],
+      [
+        "Contextual Vector",
+        "Query Networks"
+      ],
+      [
+        "Sparkling Water",
+        "pH"
+      ],
+      [
+        "Contextual Vector",
+        "Next Lecture"
+      ],
+      [
+        "Query Networks",
+        "Testing pH Level"
+      ],
+      [
+        "Contextual Vector",
+        "Semantic SEO Course"
+      ],
+      [
+        "Contextual Vector",
+        "Health Line"
+      ],
+      [
+        "Article Methodology",
+        "Next Lecture"
+      ],
+      [
+        "Distilled Water",
+        "First Section"
+      ],
+      [
+        "Query Networks",
+        "Semantic SEO Course"
+      ],
+      [
+        "Distilled Water",
+        "Queries"
+      ],
+      [
+        "Drinking Water",
+        "H3"
+      ],
+      [
+        "H2",
+        "Macro Context"
+      ],
+      [
+        "Drinking Water",
+        "pH"
+      ],
+      [
+        "Generative AI",
+        "Image Annotation"
+      ],
+      [
+        "Luxury Water",
+        "pH"
+      ],
+      [
+        "Article Methodology",
+        "Contextual Vector"
+      ],
+      [
+        "Drinking Water",
+        "pH Level Chart"
+      ],
+      [
+        "Distilled Water",
+        "Tap Water"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1779800441,
+    "update_time": 1779800441,
+    "_id": "doc-ce47151a2b89b01b7efea15668a4972c"
+  },
+  "doc-6728b93f30295b56261c4ae074f91462": {
+    "relation_pairs": [
+      [
+        "Pages",
+        "Specific Content"
+      ],
+      [
+        "Content Briefs",
+        "pH Levels"
+      ],
+      [
+        "Acidic Water",
+        "Low pH Drinking Water"
+      ],
+      [
+        "Articles",
+        "Web"
+      ],
+      [
+        "Instructor",
+        "Lecture 65"
+      ],
+      [
+        "Anchor Texts",
+        "Annotation Text"
+      ],
+      [
+        "Kitchen Side",
+        "Lecture"
+      ],
+      [
+        "Alkaline Water",
+        "High pH Drinking Water"
+      ],
+      [
+        "Lexical Semantics",
+        "Query Semantics"
+      ],
+      [
+        "Context Vectors",
+        "Contextual Domains"
+      ],
+      [
+        "Nouns",
+        "Query Network"
+      ],
+      [
+        "Articles",
+        "Quality Updates"
+      ],
+      [
+        "Lecture 65",
+        "Semantic SEO Course"
+      ],
+      [
+        "Data To Website",
+        "Information Graph"
+      ],
+      [
+        "Articles",
+        "Content Briefs"
+      ],
+      [
+        "Context Connections",
+        "Relevance"
+      ],
+      [
+        "Nouns",
+        "Specific Content"
+      ],
+      [
+        "Generative AI",
+        "Text Context"
+      ],
+      [
+        "Information Graph",
+        "Website"
+      ],
+      [
+        "Links",
+        "Query Semantics"
+      ],
+      [
+        "Contextual Bridges",
+        "Contextual Vector"
+      ],
+      [
+        "Anchor Texts",
+        "Query Networks"
+      ]
+    ],
+    "count": 22,
+    "create_time": 1779800927,
+    "update_time": 1779800927,
+    "_id": "doc-6728b93f30295b56261c4ae074f91462"
+  },
+  "doc-57b9063d83bf77cff862cd2fbaedd5b8": {
+    "relation_pairs": [
+      [
+        "Bottled Rain Water",
+        "Bottled Water"
+      ],
+      [
+        "Contextual Border",
+        "Supplementary Content"
+      ],
+      [
+        "Bottled Glacial Water",
+        "Bottled Water"
+      ],
+      [
+        "Articles",
+        "Contextual Bridges"
+      ],
+      [
+        "Bottled Mineral Water",
+        "Bottled Water"
+      ],
+      [
+        "Bottled Water",
+        "Distilled Water"
+      ],
+      [
+        "Representative Queries",
+        "Target Page"
+      ],
+      [
+        "Bottled Alkaline Water",
+        "Bottled Water"
+      ],
+      [
+        "Contextual Border",
+        "Main Content"
+      ],
+      [
+        "Anchor Tags",
+        "Ways To Test Ph Of The Water"
+      ],
+      [
+        "Health Effects",
+        "Ph Level"
+      ],
+      [
+        "Bottled Water",
+        "Sparkling Water"
+      ],
+      [
+        "Bottled Water Brand",
+        "Sparkling Water"
+      ],
+      [
+        "Alkaline Water",
+        "Content Briefs"
+      ],
+      [
+        "Acidic Water",
+        "Content Briefs"
+      ],
+      [
+        "Bottled Water",
+        "Word Sequences"
+      ],
+      [
+        "Contextual Border",
+        "Contextual Bridges"
+      ],
+      [
+        "Bottled Spring Water",
+        "Bottled Water"
+      ],
+      [
+        "Bottled Artesian Water",
+        "Bottled Water"
+      ],
+      [
+        "Common Drinking Water Ph Levels",
+        "Representative Queries"
+      ],
+      [
+        "Ph Level",
+        "Water Types"
+      ],
+      [
+        "Content Briefs",
+        "Time"
+      ],
+      [
+        "Budget",
+        "Content Briefs"
+      ],
+      [
+        "Common Drinking Water Ph Levels",
+        "Representative Image"
+      ],
+      [
+        "Macro Context",
+        "Micro Context"
+      ]
+    ],
+    "count": 25,
+    "create_time": 1779800948,
+    "update_time": 1779800948,
+    "_id": "doc-57b9063d83bf77cff862cd2fbaedd5b8"
+  },
+  "doc-3274b5b11d4b886cb9e0202f9dee7f23": {
+    "relation_pairs": [
+      [
+        "Next Lecture",
+        "Restriction Rounds"
+      ],
+      [
+        "Choices",
+        "Rules"
+      ],
+      [
+        "AIo",
+        "Commitments"
+      ],
+      [
+        "AIo",
+        "Next Lecture"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1779801407,
+    "update_time": 1779801407,
+    "_id": "doc-3274b5b11d4b886cb9e0202f9dee7f23"
+  },
+  "doc-97945f31e4049e90b775123303808731": {
+    "relation_pairs": [
+      [
+        "Lecture",
+        "Supplementary Content"
+      ],
+      [
+        "Articles",
+        "Water"
+      ],
+      [
+        "Context Vectors",
+        "Search"
+      ],
+      [
+        "Definition Of Magnesium Rich Mineral Water",
+        "Search"
+      ],
+      [
+        "Functions Of Water",
+        "Phosphate"
+      ],
+      [
+        "Google",
+        "Search"
+      ],
+      [
+        "Articles",
+        "Magnesium Enzymatic Reactions"
+      ],
+      [
+        "Benefits Of Water",
+        "Calcium"
+      ],
+      [
+        "Indices",
+        "Word Proximities"
+      ],
+      [
+        "Functions Of Water",
+        "Magnesium"
+      ],
+      [
+        "Benefits Of Water",
+        "Potassium"
+      ],
+      [
+        "Magnesium Water",
+        "Search"
+      ],
+      [
+        "Magnesium",
+        "Signals"
+      ],
+      [
+        "Functions Of Water",
+        "Sodium"
+      ],
+      [
+        "Search",
+        "Title Water"
+      ],
+      [
+        "Lecture",
+        "Specific Articles"
+      ],
+      [
+        "Mineral",
+        "Mineral Water"
+      ],
+      [
+        "Benefits Of Water",
+        "Phosphate"
+      ],
+      [
+        "Lecture",
+        "Macro Context Area"
+      ],
+      [
+        "Search",
+        "Signals"
+      ],
+      [
+        "Calorie",
+        "Water"
+      ],
+      [
+        "Instructional Parts",
+        "Lecture"
+      ],
+      [
+        "Context Vectors",
+        "Magnesium"
+      ],
+      [
+        "Magnesium Enzymatic Reactions",
+        "Water"
+      ],
+      [
+        "Magnesium Sulfide In Water",
+        "Search"
+      ],
+      [
+        "Functions Of Water",
+        "Potassium"
+      ],
+      [
+        "Benefits Of Water",
+        "Magnesium"
+      ],
+      [
+        "Calcium",
+        "Functions Of Water"
+      ],
+      [
+        "Benefits Of Water",
+        "Sodium"
+      ]
+    ],
+    "count": 29,
+    "create_time": 1779801424,
+    "update_time": 1779801424,
+    "_id": "doc-97945f31e4049e90b775123303808731"
+  },
+  "doc-c603a117b780c04785f5057b5d6e7b08": {
+    "relation_pairs": [
+      [
+        "Generative Ai",
+        "Medical Point Of View"
+      ],
+      [
+        "Human Health Effect",
+        "Medical Point Of View"
+      ],
+      [
+        "Dehydration",
+        "Water"
+      ],
+      [
+        "Constipation",
+        "Water"
+      ],
+      [
+        "69th Lecture Of The Semantic Estreak Course",
+        "Sentence Structures"
+      ],
+      [
+        "Kidney Stones",
+        "Urinary System"
+      ],
+      [
+        "Mineral Water",
+        "Objectivity"
+      ],
+      [
+        "Water",
+        "Weight Loss"
+      ],
+      [
+        "Medical Point Of View",
+        "Physical Performance"
+      ],
+      [
+        "Mineral Water",
+        "Sodium Content"
+      ],
+      [
+        "Core Algorithm Updates",
+        "Quality Assessment"
+      ],
+      [
+        "Content Briefs",
+        "Relevance"
+      ],
+      [
+        "Magnesium Content",
+        "Mineral Water"
+      ],
+      [
+        "69th Lecture Of The Semantic Estreak Course",
+        "Macro Context Sections"
+      ],
+      [
+        "Brain Function",
+        "Water"
+      ],
+      [
+        "Language Model",
+        "Search Engine"
+      ],
+      [
+        "Relevance",
+        "Semantic Content Network"
+      ],
+      [
+        "69th Lecture Of The Semantic Estreak Course",
+        "Semantic Estreak Course"
+      ],
+      [
+        "Relevance",
+        "Target Pages"
+      ],
+      [
+        "Constipation",
+        "Insufficient Fluid Intake"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1779801982,
+    "update_time": 1779801982,
+    "_id": "doc-c603a117b780c04785f5057b5d6e7b08"
+  },
+  "doc-89a7dd4384f9ed315643d4ecd2acbc27": {
+    "relation_pairs": [
+      [
+        "Example Nouns",
+        "Relevance Calculation"
+      ],
+      [
+        "Stone",
+        "Subsections"
+      ],
+      [
+        "Generative Ai",
+        "Natural Language Inferring"
+      ],
+      [
+        "Macro Context",
+        "Water"
+      ],
+      [
+        "Histine",
+        "Mineral Crystals"
+      ],
+      [
+        "Co-Occurrence Matrices",
+        "Initial Rankings"
+      ],
+      [
+        "Immune System",
+        "Subsections"
+      ],
+      [
+        "Chain Of Reasoning",
+        "Generative Ai"
+      ],
+      [
+        "Distribution Semantics",
+        "Quantitative Algorithms Of Search Engines"
+      ],
+      [
+        "Distribution Semantics",
+        "Statistical Linguistics"
+      ],
+      [
+        "Example Nouns",
+        "Mineral Crystals"
+      ],
+      [
+        "Macro Context",
+        "Subsections"
+      ],
+      [
+        "Mineral Crystals",
+        "Uric Acid"
+      ],
+      [
+        "Mineral Crystals",
+        "Strobite"
+      ],
+      [
+        "Initial Rankings",
+        "Ranking Iterations"
+      ],
+      [
+        "Initial Ranking Scores",
+        "Quantitative Algorithms Of Search Engines"
+      ],
+      [
+        "Calcium",
+        "Mineral Crystals"
+      ],
+      [
+        "Contextual Domain",
+        "Natural Language Inferring"
+      ]
+    ],
+    "count": 18,
+    "create_time": 1779801983,
+    "update_time": 1779801983,
+    "_id": "doc-89a7dd4384f9ed315643d4ecd2acbc27"
+  },
+  "doc-4d3998f031b7e8a52781909a7faa1829": {
+    "relation_pairs": [
+      [
+        "Cup",
+        "Measurement Units"
+      ],
+      [
+        "Measurement Units",
+        "Relevance"
+      ],
+      [
+        "Measurement Units",
+        "Milliliter"
+      ],
+      [
+        "Contextual Vector",
+        "Should"
+      ],
+      [
+        "Boolean Questions",
+        "Should"
+      ],
+      [
+        "71st Lecture",
+        "Semantic SEO Course"
+      ],
+      [
+        "Measurement Units",
+        "Pound"
+      ],
+      [
+        "Human Effort",
+        "Measurement Units"
+      ],
+      [
+        "Paragraph Answers",
+        "Supplementary Content"
+      ],
+      [
+        "Fact",
+        "Present Tense Fact Sentence"
+      ],
+      [
+        "Gallon",
+        "Measurement Units"
+      ],
+      [
+        "71st Lecture",
+        "Modality"
+      ],
+      [
+        "Modality",
+        "Question Format"
+      ],
+      [
+        "Measurement Units",
+        "Ounce"
+      ],
+      [
+        "Health Related Articles",
+        "Should"
+      ],
+      [
+        "Health Related Articles",
+        "Measurement Units"
+      ],
+      [
+        "Personal Suggestion",
+        "Should"
+      ],
+      [
+        "Modality",
+        "Research"
+      ],
+      [
+        "Personal Experience",
+        "Should"
+      ],
+      [
+        "Detailed Numeric Values",
+        "Relevance"
+      ],
+      [
+        "Semantic SEO Course",
+        "Supplementary Content"
+      ],
+      [
+        "71st Lecture",
+        "Measurement Units"
+      ],
+      [
+        "Liter",
+        "Measurement Units"
+      ],
+      [
+        "Authenticity",
+        "Measurement Units"
+      ],
+      [
+        "Formal Semantics",
+        "Modality"
+      ],
+      [
+        "Images",
+        "Measurement Units"
+      ]
+    ],
+    "count": 26,
+    "create_time": 1779802455,
+    "update_time": 1779802455,
+    "_id": "doc-4d3998f031b7e8a52781909a7faa1829"
+  },
+  "doc-210253b26e54e5756c580b99734126c4": {
+    "relation_pairs": [
+      [
+        "Anchor Text",
+        "Semantic Seo Course"
+      ],
+      [
+        "Us National Academies Of Sciences, Engineering And Medicine",
+        "Water Intake Recommendation For Women"
+      ],
+      [
+        "Calorie Intake",
+        "Feeling More Full"
+      ],
+      [
+        "Citation",
+        "Semantic Seo Course"
+      ],
+      [
+        "Authority",
+        "Numeric Value"
+      ],
+      [
+        "Night Time Awakening",
+        "Sleep Cycle"
+      ],
+      [
+        "If Sentences",
+        "Question Format"
+      ],
+      [
+        "Us National Academies Of Sciences, Engineering And Medicine",
+        "Water Intake Recommendation For Men"
+      ],
+      [
+        "How Much Water Should You Drink A Day",
+        "Water Intake Recommendation For Women"
+      ],
+      [
+        "Generative AI",
+        "Vector"
+      ],
+      [
+        "Formula For Water Intake Based On Body Weight And Exercise",
+        "Jennifer Stone"
+      ],
+      [
+        "Benefits Of Drinking Water In The Morning",
+        "Listing"
+      ],
+      [
+        "Incisitive Semantics",
+        "Should You Drink Water Before Sleep"
+      ],
+      [
+        "Should You Drink Water Before Sleep",
+        "Suggestion With Caution"
+      ],
+      [
+        "Authority",
+        "Measurement Units"
+      ],
+      [
+        "Decreased Productivity",
+        "Night Time Awakening"
+      ],
+      [
+        "Semantic Seo Course",
+        "Sentence Structure"
+      ],
+      [
+        "How Much Water Should You Drink A Day",
+        "Water Intake Recommendation For Men"
+      ],
+      [
+        "Authority",
+        "Scientific Researches"
+      ],
+      [
+        "Benefits Of Drinking Water In The Morning",
+        "List Definition"
+      ],
+      [
+        "Benefits Of Drinking Water In The Morning",
+        "Incisitive Semantics"
+      ],
+      [
+        "Positive Predicate",
+        "Should You Drink Water Before Sleep"
+      ],
+      [
+        "Drinking Water Before Sleep",
+        "Night Time Awakening"
+      ],
+      [
+        "Core Body Temperature Drop",
+        "Drinking Water Before Sleep"
+      ],
+      [
+        "Depression",
+        "Night Time Awakening"
+      ],
+      [
+        "Drinking Water Before Dinner",
+        "Feeling More Full"
+      ],
+      [
+        "Contextual Borders",
+        "Semantic Seo Course"
+      ],
+      [
+        "Drinking Water Before Sleep",
+        "Hangover Effects"
+      ],
+      [
+        "Contextual Hierarchy",
+        "Generative AI"
+      ],
+      [
+        "Drinking Water Before Sleep",
+        "Overnight Dehydration"
+      ],
+      [
+        "Chain Of Reason",
+        "Night Time Awakening"
+      ],
+      [
+        "Chain Of Reason",
+        "Drinking Water Before Sleep"
+      ],
+      [
+        "Hot Temperatures",
+        "Overnight Dehydration"
+      ],
+      [
+        "Anchor Text",
+        "Quotation Marks"
+      ],
+      [
+        "Drinking Water Before Sleep",
+        "Urination"
+      ],
+      [
+        "Injuries",
+        "Night Time Awakening"
+      ]
+    ],
+    "count": 36,
+    "create_time": 1779802579,
+    "update_time": 1779802579,
+    "_id": "doc-210253b26e54e5756c580b99734126c4"
+  },
+  "doc-7bac158301241b2bfaefdbc986fbce57": {
+    "relation_pairs": [
+      [
+        "Articles",
+        "Instructor"
+      ],
+      [
+        "First Article Check",
+        "Reasons, Causes Or Suggestions"
+      ],
+      [
+        "Future Lectures",
+        "Videos"
+      ],
+      [
+        "Instructor",
+        "Notes"
+      ],
+      [
+        "First Article Check",
+        "Instructor"
+      ],
+      [
+        "Notes",
+        "Videos"
+      ],
+      [
+        "Articles",
+        "Videos"
+      ],
+      [
+        "Articles",
+        "New Concepts"
+      ],
+      [
+        "Instructor",
+        "Videos"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1779802928,
+    "update_time": 1779802928,
+    "_id": "doc-7bac158301241b2bfaefdbc986fbce57"
+  },
+  "doc-1c13eef5a52c6ee498e46892234fbffc": {
+    "relation_pairs": [
+      [
+        "Numeric Value Presentation",
+        "Predictive Information Retrieval Thresholds"
+      ],
+      [
+        "Numeric Value Presentation",
+        "Specific Article"
+      ],
+      [
+        "List Format",
+        "Unique Images"
+      ],
+      [
+        "H2 Heading",
+        "Unique Images"
+      ],
+      [
+        "Logo Background",
+        "Unique Images"
+      ],
+      [
+        "Lecture",
+        "Specific Article"
+      ],
+      [
+        "H2 Heading",
+        "List Format"
+      ],
+      [
+        "Unique Images",
+        "Visual Communication"
+      ],
+      [
+        "Search Engine",
+        "Unique Images"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1779802999,
+    "update_time": 1779802999,
+    "_id": "doc-1c13eef5a52c6ee498e46892234fbffc"
+  },
+  "doc-56cdab63084565b9b40cd1b6dfaa1d57": {
+    "relation_pairs": [
+      [
+        "Content Brief",
+        "Query Network"
+      ],
+      [
+        "Anchor Text",
+        "Content Brief"
+      ],
+      [
+        "Content Brief",
+        "Water Percentage In Body"
+      ],
+      [
+        "Demographic Terms",
+        "Girls"
+      ],
+      [
+        "Demographic Terms",
+        "Older Adults"
+      ],
+      [
+        "Adult",
+        "Demographic Terms"
+      ],
+      [
+        "Content Brief",
+        "Dr. Courtney Moore"
+      ],
+      [
+        "Cleveland Clinic",
+        "Content Brief"
+      ],
+      [
+        "Content Brief",
+        "Dr. Jenny Ritty"
+      ],
+      [
+        "Content Brief",
+        "Macro Context Area"
+      ],
+      [
+        "Demographic Terms",
+        "Models"
+      ],
+      [
+        "Content Brief",
+        "Demographic Terms"
+      ],
+      [
+        "Content Brief",
+        "U.S. Food and Drug Administration"
+      ],
+      [
+        "Boys",
+        "Demographic Terms"
+      ],
+      [
+        "Dr. Jenny Ritty",
+        "MedStar Georgetown University Hospital"
+      ],
+      [
+        "Athletes",
+        "Demographic Terms"
+      ],
+      [
+        "American Academy of Pediatrics",
+        "Content Brief"
+      ],
+      [
+        "Content Brief",
+        "Kim Chin"
+      ],
+      [
+        "Content Brief",
+        "Representative Visual Answer"
+      ],
+      [
+        "Content Brief",
+        "Contextual Vector"
+      ],
+      [
+        "75th Lecture",
+        "Content Brief"
+      ],
+      [
+        "Content Brief",
+        "World Health Organization"
+      ],
+      [
+        "Factors For Water Percentage",
+        "Water Percentage In Body"
+      ],
+      [
+        "75th Lecture",
+        "Semantic Seo Course"
+      ],
+      [
+        "Functions Of Water In Body",
+        "Water Percentage In Body"
+      ],
+      [
+        "Demographic Terms",
+        "Teens"
+      ]
+    ],
+    "count": 26,
+    "create_time": 1779803287,
+    "update_time": 1779803287,
+    "_id": "doc-56cdab63084565b9b40cd1b6dfaa1d57"
+  },
+  "doc-076b314fa138acb2bb1d768ecd53eacb": {
+    "relation_pairs": [
+      [
+        "Drinking Too Much Water",
+        "Organ Failure"
+      ],
+      [
+        "Overhydration",
+        "Water Intoxication"
+      ],
+      [
+        "Kidneys",
+        "Water Intoxication"
+      ],
+      [
+        "Cramps",
+        "Drinking Too Much Water"
+      ],
+      [
+        "Drinking Too Much Water",
+        "Overhydration"
+      ],
+      [
+        "Drinking Too Much Water",
+        "Water Intoxication"
+      ],
+      [
+        "Hyponatremia",
+        "Water Intoxication"
+      ],
+      [
+        "Drinking Too Much Water",
+        "Vomiting"
+      ],
+      [
+        "Angus Whithield",
+        "British Journal of General Practice"
+      ],
+      [
+        "Angus Whithield",
+        "Water Intoxication"
+      ],
+      [
+        "Drinking Too Much Water",
+        "Long-Term Effects"
+      ],
+      [
+        "Brain Damage",
+        "Drinking Too Much Water"
+      ],
+      [
+        "Dehydration",
+        "Overhydration"
+      ],
+      [
+        "Drinking Too Much Water",
+        "Excessive Urination"
+      ],
+      [
+        "Color Of Urine",
+        "Water Intoxication"
+      ],
+      [
+        "Comas",
+        "Drinking Too Much Water"
+      ],
+      [
+        "Seizures",
+        "Water Intoxication"
+      ],
+      [
+        "Salt",
+        "Water Intoxication"
+      ],
+      [
+        "Hyperhydration",
+        "Water Intoxication"
+      ],
+      [
+        "Drinking Too Much Water",
+        "Short-Term Effects"
+      ],
+      [
+        "Brain Damage",
+        "Water Intoxication"
+      ],
+      [
+        "Electrolytes",
+        "Water Intoxication"
+      ],
+      [
+        "Drinking Too Much Water",
+        "Seizures"
+      ],
+      [
+        "Organ Failure",
+        "Water Intoxication"
+      ],
+      [
+        "Homeostatic Disruption",
+        "Water Intoxication"
+      ],
+      [
+        "Comas",
+        "Water Intoxication"
+      ],
+      [
+        "Dr. Brenda Davy",
+        "Overhydration"
+      ]
+    ],
+    "count": 27,
+    "create_time": 1779803660,
+    "update_time": 1779803660,
+    "_id": "doc-076b314fa138acb2bb1d768ecd53eacb"
+  },
+  "doc-becc281b8815a6b460b75147ab96e01e": {
+    "relation_pairs": [
+      [
+        "Drowsiness",
+        "Water Intoxication"
+      ],
+      [
+        "Brain Functions",
+        "Mental Processing"
+      ],
+      [
+        "Calculation Formula",
+        "Daily Water Intake Calculation"
+      ],
+      [
+        "Mocktails",
+        "Topical Map"
+      ],
+      [
+        "Overhydration",
+        "Water Intoxication"
+      ],
+      [
+        "Contextual Flow",
+        "Semantic Seo Course"
+      ],
+      [
+        "Mental Processing",
+        "Water Intoxication"
+      ],
+      [
+        "Drinking Too Much Water",
+        "Water Intoxication"
+      ],
+      [
+        "Rare Symptoms",
+        "Water Intoxication"
+      ],
+      [
+        "Bathroom Trip Frequency",
+        "Early Symptom"
+      ],
+      [
+        "Bathroom Trip Frequency",
+        "Normal Bathroom Trip Frequency"
+      ],
+      [
+        "Non-Alcoholic Drinks",
+        "Topical Map"
+      ],
+      [
+        "Daily Water Intake Calculation",
+        "Drinking Too Much Water"
+      ],
+      [
+        "Mild Water Intoxication",
+        "Water Intoxication"
+      ],
+      [
+        "Bathroom Trip Frequency",
+        "Numeric Values"
+      ],
+      [
+        "Measurement Units",
+        "Numeric Values"
+      ],
+      [
+        "Bathroom Trip Frequency",
+        "Representative Answers"
+      ],
+      [
+        "Next Lecture",
+        "Supplementary Content"
+      ],
+      [
+        "Bathroom Trip Frequency",
+        "Macro Context"
+      ],
+      [
+        "Colorless Hands, Feet, and Lips",
+        "Water Intoxication"
+      ],
+      [
+        "Severe Water Intoxication",
+        "Water Intoxication"
+      ],
+      [
+        "Internally Aligned Information",
+        "Semantic Content Network"
+      ],
+      [
+        "Macro Context",
+        "Semantic Role Labels"
+      ],
+      [
+        "Internal Links",
+        "Semantic Content Network"
+      ],
+      [
+        "Diuretics",
+        "Hydration Levels"
+      ],
+      [
+        "Bathroom Trip Frequency",
+        "Excessive Bathroom Trip Frequency"
+      ],
+      [
+        "Dr. Ananya Mandel",
+        "Drinking Too Much Water"
+      ],
+      [
+        "Confusion",
+        "Water Intoxication"
+      ],
+      [
+        "Colorless Hands And Feet And Lips",
+        "Water Intoxication"
+      ],
+      [
+        "Sequence Modeling",
+        "Water Intoxication"
+      ],
+      [
+        "Bathroom Trip Frequency",
+        "Hydration Levels"
+      ],
+      [
+        "Double Vision",
+        "Water Intoxication"
+      ],
+      [
+        "77th Lecture",
+        "Semantic Seo Course"
+      ],
+      [
+        "Knowledge Based Construction",
+        "Semantic Content Network"
+      ],
+      [
+        "Alcohol Intoxication",
+        "Water Intoxication"
+      ],
+      [
+        "Alcohol Intoxication",
+        "Double Vision"
+      ],
+      [
+        "Alcohol Intoxication",
+        "Mental Processing"
+      ],
+      [
+        "Conversions",
+        "Measurement Units"
+      ],
+      [
+        "Dr. Ananya Mandel",
+        "West Bengal, India"
+      ],
+      [
+        "Brain Functions",
+        "Macro Context Area"
+      ],
+      [
+        "Alcohol Intoxication",
+        "Brain Functions"
+      ],
+      [
+        "Muscle Cramps",
+        "Water Intoxication"
+      ],
+      [
+        "Bathroom Trip Frequency",
+        "Water Intoxication"
+      ],
+      [
+        "Bathroom Trip Frequency",
+        "Dr. Ananya Mandel"
+      ],
+      [
+        "Brain Functions",
+        "Water Intoxication"
+      ],
+      [
+        "Over-Hydration",
+        "Water Intoxication"
+      ],
+      [
+        "Predicate Section",
+        "Synonyms"
+      ],
+      [
+        "Distributional Semantics",
+        "Semantic Seo Course"
+      ]
+    ],
+    "count": 48,
+    "create_time": 1779803970,
+    "update_time": 1779803970,
+    "_id": "doc-becc281b8815a6b460b75147ab96e01e"
+  },
+  "doc-f422db2db2611b29b00ed033671b2af3": {
+    "relation_pairs": [
+      [
+        "3% Saline",
+        "Serum Sodium Concentration"
+      ],
+      [
+        "Sports Events",
+        "Water Intoxication"
+      ],
+      [
+        "Measurement Units",
+        "Supplementary Content"
+      ],
+      [
+        "Military Training",
+        "Water Intoxication"
+      ],
+      [
+        "Cleveland Clinic Foundation",
+        "Water Intoxication"
+      ],
+      [
+        "Article",
+        "Article Revision Videos"
+      ],
+      [
+        "Cleveland Clinic Foundation",
+        "Quotation Marks"
+      ],
+      [
+        "Marathon Race",
+        "Water Intoxication"
+      ],
+      [
+        "Article",
+        "Brief"
+      ],
+      [
+        "3% Saline",
+        "Water Intoxication"
+      ],
+      [
+        "Babies",
+        "Berkeley Scientific Journal"
+      ],
+      [
+        "Measurement Units",
+        "Neural Matching"
+      ],
+      [
+        "Marine Course",
+        "Water Intoxication"
+      ],
+      [
+        "Instructions",
+        "Treatment Of Water Intoxication"
+      ],
+      [
+        "Animals",
+        "Water Intoxication"
+      ],
+      [
+        "Article Revision Videos",
+        "Supplementary Content"
+      ],
+      [
+        "Brief",
+        "Instructions"
+      ],
+      [
+        "Electrolyte Loss",
+        "Image"
+      ],
+      [
+        "Semantic Seo Course",
+        "Seventh To Eighth Lecture"
+      ],
+      [
+        "Article",
+        "Lecturer"
+      ],
+      [
+        "Lecture",
+        "Lecturer"
+      ],
+      [
+        "Babies",
+        "John Hopkins Pediatric Center"
+      ],
+      [
+        "Electrolyte Loss",
+        "Water Intoxication"
+      ],
+      [
+        "Lifestyle Exercise",
+        "Water Intake Calculator"
+      ],
+      [
+        "Instructions",
+        "Lecturer"
+      ],
+      [
+        "Dehydration",
+        "Water Intoxication"
+      ],
+      [
+        "Content Brief",
+        "Supplementary Content"
+      ],
+      [
+        "Water Intoxication",
+        "Water Intoxication Common Question"
+      ],
+      [
+        "Animals",
+        "Cats"
+      ],
+      [
+        "Electrolyte Loss",
+        "Salts"
+      ],
+      [
+        "Treatment Of Water Intoxication",
+        "Water Intoxication"
+      ],
+      [
+        "Water Intake Calculator",
+        "Water Intoxication"
+      ],
+      [
+        "Seventh To Eighth Lecture",
+        "Supplementary Content"
+      ],
+      [
+        "Bbc",
+        "Water Intoxication"
+      ],
+      [
+        "Article",
+        "Examination"
+      ],
+      [
+        "Article Revision Videos",
+        "Lecturer"
+      ],
+      [
+        "Animals",
+        "Dogs"
+      ],
+      [
+        "Babies",
+        "Water Intoxication"
+      ],
+      [
+        "Anchor Text",
+        "Water Intake Calculator"
+      ],
+      [
+        "Electrolyte Loss",
+        "Sports Drinks"
+      ],
+      [
+        "Babies",
+        "Summer"
+      ],
+      [
+        "Electrolyte Loss",
+        "High Tds Mineral Waters"
+      ]
+    ],
+    "count": 42,
+    "create_time": 1779804280,
+    "update_time": 1779804280,
+    "_id": "doc-f422db2db2611b29b00ed033671b2af3"
+  },
+  "doc-c81548da7fc3e5f001853142c8d92329": {
+    "relation_pairs": [
+      [
+        "Article on Cold Water",
+        "Risks and Disadvantages of Drinking Cold Water"
+      ],
+      [
+        "Article on Cold Water",
+        "Query Vocabulary"
+      ],
+      [
+        "Belgium",
+        "KU Leuven"
+      ],
+      [
+        "Article on Cold Water",
+        "Boolean Question"
+      ],
+      [
+        "Article on Cold Water",
+        "Seventh and Ninth Lecture"
+      ],
+      [
+        "Cold Water",
+        "Low Blood Pressure Boost"
+      ],
+      [
+        "Cold Water",
+        "Cultural Values"
+      ],
+      [
+        "Article on Cold Water",
+        "Macro Context"
+      ],
+      [
+        "Cold Water",
+        "Metabolism Boost"
+      ],
+      [
+        "College of Health",
+        "University of Utah"
+      ],
+      [
+        "College of Health",
+        "Julia Matos"
+      ],
+      [
+        "Brain and Nervous System",
+        "Cold Water"
+      ],
+      [
+        "Cold Citrus",
+        "Cold Water"
+      ],
+      [
+        "Cold Water",
+        "Weight Loss Assistance"
+      ],
+      [
+        "Semantic SEO Course",
+        "Seventh and Ninth Lecture"
+      ],
+      [
+        "Article on Cold Water",
+        "Popularity Section"
+      ],
+      [
+        "Cold Stress",
+        "Core Body Temperature"
+      ],
+      [
+        "Cold Water",
+        "Nasal Mucus Thickening"
+      ],
+      [
+        "Article on Cold Water",
+        "Fahrenheit"
+      ],
+      [
+        "Article on Cold Water",
+        "Benefits of Water Article"
+      ],
+      [
+        "Cold Water",
+        "Societal Values"
+      ],
+      [
+        "Article on Cold Water",
+        "Document Vocabulary"
+      ],
+      [
+        "Cold Water",
+        "Weaker Immune System"
+      ],
+      [
+        "Article on Cold Water",
+        "Cold Water"
+      ],
+      [
+        "Arctic Water Brand",
+        "Article on Cold Water"
+      ],
+      [
+        "Article on Cold Water",
+        "Reasons Section"
+      ],
+      [
+        "Article on Cold Water",
+        "Body Parts Affected by Cold Water"
+      ],
+      [
+        "Cold Water",
+        "Julia Matos"
+      ],
+      [
+        "Popularity Section",
+        "Survey on Cold Water Preference"
+      ],
+      [
+        "Carol Telweir",
+        "Cold Temperature Masking Bad Taste"
+      ],
+      [
+        "Article Methodology",
+        "Article on Cold Water"
+      ],
+      [
+        "Cold Stress",
+        "Weaker Immune System"
+      ],
+      [
+        "Article on Cold Water",
+        "Celsius"
+      ],
+      [
+        "Carol Telweir",
+        "KU Leuven"
+      ],
+      [
+        "Cold Water",
+        "Personal Preferences"
+      ]
+    ],
+    "count": 35,
+    "create_time": 1779804439,
+    "update_time": 1779804439,
+    "_id": "doc-c81548da7fc3e5f001853142c8d92329"
+  },
+  "doc-c89cbb66c7dd28daa353418545e49554": {
+    "relation_pairs": [
+      [
+        "Qr Code For Bank Account",
+        "Qr Code Fraud"
+      ],
+      [
+        "Authenticator",
+        "Email"
+      ],
+      [
+        "Creator",
+        "Generator"
+      ],
+      [
+        "Museums",
+        "Restaurant"
+      ],
+      [
+        "Exhibits",
+        "Museums"
+      ],
+      [
+        "Qr Code Algorithm",
+        "Qr Code Scanner"
+      ],
+      [
+        "Flyers",
+        "Marketing"
+      ],
+      [
+        "Marketing",
+        "Social Media Platforms"
+      ],
+      [
+        "Qr Code For Bank Account",
+        "Qr Code Payment"
+      ],
+      [
+        "Location",
+        "Ways"
+      ],
+      [
+        "Scan",
+        "Wi-Fi Connection Sharing"
+      ],
+      [
+        "Author Section",
+        "Topical Map"
+      ],
+      [
+        "Multi-Link Share",
+        "Urls"
+      ],
+      [
+        "Author Section",
+        "Qr Code Alternatives"
+      ],
+      [
+        "Research",
+        "Youtube Channel"
+      ],
+      [
+        "Core Section",
+        "Qr Code Types"
+      ],
+      [
+        "Instagram",
+        "Social Media Platforms"
+      ],
+      [
+        "Scan",
+        "Whatsapp"
+      ],
+      [
+        "Bitcoin Qr Code Generator",
+        "Qr Code Payment"
+      ],
+      [
+        "Business Card",
+        "Qr Code Fraud"
+      ],
+      [
+        "Exact Mesh Domain",
+        "Qr Code Generator"
+      ],
+      [
+        "Qr Code Generator",
+        "Topical Map"
+      ],
+      [
+        "Brochures",
+        "Marketing"
+      ],
+      [
+        "Core Section",
+        "Topical Map"
+      ],
+      [
+        "Facebook",
+        "Social Media Platforms"
+      ],
+      [
+        "Google Form",
+        "Google Review"
+      ],
+      [
+        "Qr Code Algorithm",
+        "Qr Code Reader"
+      ],
+      [
+        "Research",
+        "Website"
+      ],
+      [
+        "Snapchat",
+        "Social Media Platforms"
+      ]
+    ],
+    "count": 29,
+    "create_time": 1779805160,
+    "update_time": 1779805160,
+    "_id": "doc-c89cbb66c7dd28daa353418545e49554"
+  },
+  "doc-ffc36b0ef37506d77f34237b8fdd5ffa": {
+    "relation_pairs": [
+      [
+        "Articles",
+        "Macro Context Area (H1 Area)"
+      ],
+      [
+        "English Language",
+        "Ymyl Niche Websites"
+      ],
+      [
+        "Potable Water",
+        "Reverse Osmosis Water"
+      ],
+      [
+        "Reasons For Drinking Hot Water",
+        "The Speaker"
+      ],
+      [
+        "Japan",
+        "Reasons People Prefer Drinking Hot Water"
+      ],
+      [
+        "Articles",
+        "Mayo Clinic"
+      ],
+      [
+        "Articles",
+        "Reasons People Prefer Drinking Hot Water"
+      ],
+      [
+        "Content Brief Creation",
+        "The Speaker"
+      ],
+      [
+        "Potable Water",
+        "Tap Water"
+      ],
+      [
+        "Citation",
+        "Medicine"
+      ],
+      [
+        "Ideal Water Temperature For Health",
+        "Study"
+      ],
+      [
+        "Articles",
+        "The Speaker"
+      ],
+      [
+        "The Thermal Effect Of Water",
+        "Women's University Of Korea"
+      ],
+      [
+        "Artificial Intelligence",
+        "Semantics"
+      ],
+      [
+        "Honey",
+        "Lemon Water"
+      ],
+      [
+        "Content Briefs",
+        "Semantics"
+      ],
+      [
+        "Blood Circulation",
+        "The Thermal Effect Of Water"
+      ],
+      [
+        "Ideal Water Temperature For Hot Drinks",
+        "Study"
+      ],
+      [
+        "Linguistics",
+        "Natural Language Processing"
+      ],
+      [
+        "Chinese Medicine",
+        "Reasons People Prefer Drinking Hot Water"
+      ],
+      [
+        "Chinese And Asian Countries",
+        "The Speaker"
+      ],
+      [
+        "Linguistics",
+        "Semantics"
+      ],
+      [
+        "Articles",
+        "Best Time To Drink Hot Water"
+      ],
+      [
+        "Best Time To Drink Hot Water",
+        "Water Drinking Schedule"
+      ],
+      [
+        "Articles",
+        "Health Risks Of Drinking Hot Water"
+      ],
+      [
+        "Health Risks Of Drinking Hot Water",
+        "Macro Context Area (H1 Area)"
+      ],
+      [
+        "Attribute Filtration",
+        "The Speaker"
+      ],
+      [
+        "Drinking 500 Ml Water Before Meal",
+        "Metabolism Increase By 30%"
+      ],
+      [
+        "Chinese Medicine",
+        "The Speaker"
+      ],
+      [
+        "Blood Circulation",
+        "Hot Water"
+      ],
+      [
+        "Humboldt University",
+        "Michael Michal"
+      ],
+      [
+        "Asian Countries",
+        "Reasons People Prefer Drinking Hot Water"
+      ],
+      [
+        "Healthline",
+        "Ymyl Niche Websites"
+      ],
+      [
+        "Best Time To Drink Hot Water",
+        "Experts"
+      ],
+      [
+        "Logic",
+        "Natural Language Processing"
+      ],
+      [
+        "Garlic",
+        "Lemon Water"
+      ],
+      [
+        "The Speaker",
+        "Topical Maps"
+      ],
+      [
+        "Alternative Medicine Methodologies",
+        "Chinese Medicine"
+      ],
+      [
+        "Mayo Clinic",
+        "Ymyl Niche Websites"
+      ],
+      [
+        "Future Lectures",
+        "Projects"
+      ],
+      [
+        "Cold Water",
+        "Hot Water"
+      ],
+      [
+        "Articles",
+        "The Audience"
+      ],
+      [
+        "Drinking 500 Ml Water Before Meal",
+        "Water Included Thermogenesis"
+      ],
+      [
+        "Medicine",
+        "Optimal Drinking Temperature For Hot Fluids"
+      ],
+      [
+        "Ideal Water Temperature For Rapid Hydration",
+        "Study"
+      ],
+      [
+        "Health Risks Of Drinking Hot Water",
+        "Tissue Damage"
+      ],
+      [
+        "Best Time To Drink Hot Water",
+        "Morning"
+      ],
+      [
+        "Lemon",
+        "Lemon Water"
+      ],
+      [
+        "Ideal Water Temperature For Tasting Flavors",
+        "Study"
+      ],
+      [
+        "The Lecture",
+        "The Speaker"
+      ],
+      [
+        "Ideal Water Temperature For Weight Loss",
+        "Study"
+      ],
+      [
+        "Michael Michal",
+        "Water Included Thermogenesis"
+      ],
+      [
+        "Ideal Water Temperature For Feeling Refreshed",
+        "Study"
+      ],
+      [
+        "Optimal Drinking Temperature For Hot Fluids",
+        "Study"
+      ],
+      [
+        "Germany",
+        "Humboldt University"
+      ],
+      [
+        "The Audience",
+        "The Speaker"
+      ],
+      [
+        "Alternative Medicine Methodologies",
+        "Reasons People Prefer Drinking Hot Water"
+      ],
+      [
+        "Fundamental Section",
+        "The Lecture"
+      ],
+      [
+        "Articles",
+        "Optimal Drinking Temperature For Hot Fluids"
+      ],
+      [
+        "Content Briefs",
+        "Contextual Border"
+      ],
+      [
+        "Should Modality",
+        "Suggestive Question"
+      ],
+      [
+        "Generative Ai",
+        "Openai"
+      ],
+      [
+        "Artificial Intelligence",
+        "Linguistics"
+      ],
+      [
+        "Potable Water",
+        "Spring Water"
+      ],
+      [
+        "Mineral Water",
+        "Potable Water"
+      ],
+      [
+        "Hot Water",
+        "Water Included Thermogenesis"
+      ],
+      [
+        "Content Brief Creation",
+        "Creative Content Briefs"
+      ],
+      [
+        "China",
+        "Reasons People Prefer Drinking Hot Water"
+      ],
+      [
+        "Articles",
+        "Healthline"
+      ],
+      [
+        "Drinking Hot Water Cannot Cause Miscarriage",
+        "Study"
+      ],
+      [
+        "Ideal Water Temperature For Thirst Quenching",
+        "Study"
+      ],
+      [
+        "Webmd",
+        "Ymyl Niche Websites"
+      ],
+      [
+        "Future Lectures",
+        "The Speaker"
+      ],
+      [
+        "Articles",
+        "Webmd"
+      ]
+    ],
+    "count": 74,
+    "create_time": 1779805420,
+    "update_time": 1779805420,
+    "_id": "doc-ffc36b0ef37506d77f34237b8fdd5ffa"
+  },
+  "doc-859f53c8d3bc99240146f7ca0a381f55": {
+    "relation_pairs": [
+      [
+        "Blue Light",
+        "Sunglasses"
+      ],
+      [
+        "Glasses Types",
+        "List Definition"
+      ],
+      [
+        "Lenses",
+        "Optic Signs"
+      ],
+      [
+        "Lenses",
+        "Progressive Lenses"
+      ],
+      [
+        "Glasses Types",
+        "Lenses"
+      ],
+      [
+        "Contextual Vector",
+        "Subsegments"
+      ],
+      [
+        "Sunglasses",
+        "Sunlight"
+      ],
+      [
+        "Eye Health",
+        "Research"
+      ],
+      [
+        "Lenses",
+        "Single Vision Lenses"
+      ],
+      [
+        "Product Carousel",
+        "Product Count"
+      ],
+      [
+        "Gender",
+        "Product Count"
+      ],
+      [
+        "Lenses",
+        "Price Factors"
+      ],
+      [
+        "Optometrist Prescription",
+        "Sunglasses"
+      ],
+      [
+        "Optometrist",
+        "Optometrist Prescription"
+      ],
+      [
+        "Glasses Types",
+        "Product Carousel"
+      ],
+      [
+        "Gender",
+        "Health Statistics"
+      ],
+      [
+        "10 Frequency",
+        "Glasses Types"
+      ],
+      [
+        "Gender",
+        "Inclusive Language"
+      ],
+      [
+        "Blue Light",
+        "Sunlight"
+      ],
+      [
+        "Italic Format",
+        "Subsegments"
+      ],
+      [
+        "3D Try On Glasses",
+        "Anchor Text"
+      ],
+      [
+        "Manufacturers",
+        "Price Factors"
+      ],
+      [
+        "Brands",
+        "Lenses"
+      ],
+      [
+        "Lenses",
+        "Manufacturers"
+      ],
+      [
+        "Gender",
+        "Glasses Types"
+      ],
+      [
+        "Classification",
+        "List Definition"
+      ],
+      [
+        "Anchor Text",
+        "Eye Health"
+      ]
+    ],
+    "count": 27,
+    "create_time": 1779807124,
+    "update_time": 1779807124,
+    "_id": "doc-859f53c8d3bc99240146f7ca0a381f55"
+  },
+  "doc-c2a50b662ee042ffebba7f93c803e324": {
+    "relation_pairs": [
+      [
+        "Contextual Vector",
+        "Introduction Report"
+      ],
+      [
+        "Content Item Brief",
+        "Contextual Vector"
+      ],
+      [
+        "Qr Code File Types",
+        "Qr Code Generator Topical Map"
+      ],
+      [
+        "Community Member",
+        "Source Context"
+      ],
+      [
+        "Museums",
+        "Qr Code Generator Topical Map"
+      ],
+      [
+        "Qr Code Styles",
+        "Rounded Qr Codes"
+      ],
+      [
+        "Scan Context",
+        "Testing"
+      ],
+      [
+        "Content Item Brief",
+        "Predicates"
+      ],
+      [
+        "QR Code",
+        "QR Code Generator Tool"
+      ],
+      [
+        "Coaching Sessions",
+        "Group Coaching"
+      ],
+      [
+        "Italic Font Styling",
+        "Macro Context"
+      ],
+      [
+        "Community Member",
+        "Outro Video"
+      ],
+      [
+        "Bridges",
+        "Content Item Brief"
+      ],
+      [
+        "Community Member",
+        "Pages"
+      ],
+      [
+        "Community Member",
+        "Level"
+      ],
+      [
+        "85Th Lecture",
+        "The Lecturer"
+      ],
+      [
+        "Content Item Brief",
+        "Hierarchy"
+      ],
+      [
+        "Contextual Vector",
+        "Heading Vectors"
+      ],
+      [
+        "Free Online Qr Code Generator",
+        "Macro Context"
+      ],
+      [
+        "Events",
+        "Qr Code Generator Topical Map"
+      ],
+      [
+        "Contextual Vector",
+        "Supplementary Content"
+      ],
+      [
+        "Business Cards",
+        "Qr Code Generator Topical Map"
+      ],
+      [
+        "Phone",
+        "Qr Code Generator Topical Map"
+      ],
+      [
+        "Commercial Uses",
+        "Qr Code Generator Topical Map"
+      ],
+      [
+        "Contextual Vector",
+        "Order Of Anchor Text"
+      ],
+      [
+        "Classic Qr Codes",
+        "Qr Code Styles"
+      ],
+      [
+        "Design",
+        "Qr Code Styles"
+      ],
+      [
+        "Flyers",
+        "Qr Code Generator Topical Map"
+      ],
+      [
+        "Coaching Sessions",
+        "One-on-One Coaching"
+      ],
+      [
+        "Contextual Vector",
+        "Last Set Hearings"
+      ],
+      [
+        "Community Member",
+        "Order Of Anchor Text"
+      ],
+      [
+        "Anchor Text",
+        "Query Networks"
+      ],
+      [
+        "Marketing Brochures",
+        "Qr Code Generator Topical Map"
+      ],
+      [
+        "Content Item Brief",
+        "Qr Code Generator Topical Map"
+      ],
+      [
+        "Content Item Brief",
+        "Structure"
+      ],
+      [
+        "Qr Code Styles",
+        "Smooth Qr Codes"
+      ],
+      [
+        "Above The Fold Area",
+        "Interactive Tab Structure"
+      ],
+      [
+        "85Th Lecture",
+        "Content Item Brief"
+      ],
+      [
+        "Qr Code Generator Topical Map",
+        "Social Media Platforms"
+      ],
+      [
+        "Qr Code Generator Topical Map",
+        "Urls"
+      ],
+      [
+        "Design",
+        "Testing"
+      ],
+      [
+        "Community Member",
+        "Last Set Hearings"
+      ],
+      [
+        "Coaching Sessions",
+        "Private Community"
+      ],
+      [
+        "Community Member",
+        "Private Community"
+      ],
+      [
+        "Eps",
+        "Qr Code File Types"
+      ],
+      [
+        "Contact",
+        "Qr Code Generator Topical Map"
+      ],
+      [
+        "Multilinks",
+        "Qr Code Generator Topical Map"
+      ],
+      [
+        "Download Buttons",
+        "Qr Code File Types"
+      ],
+      [
+        "Qr Code Generator Topical Map",
+        "Wi-Fi"
+      ],
+      [
+        "Content Item Brief",
+        "Contextual Border"
+      ],
+      [
+        "Qr Code File Types",
+        "Svg"
+      ],
+      [
+        "Qr Code Generator Topical Map",
+        "Sms"
+      ],
+      [
+        "Pdf",
+        "Qr Code File Types"
+      ],
+      [
+        "Bitcoin",
+        "Cryptocurrency"
+      ],
+      [
+        "Article Methodology Section",
+        "Cryptocurrency"
+      ],
+      [
+        "85Th Lecture",
+        "Semantic Seo Course"
+      ]
+    ],
+    "count": 56,
+    "create_time": 1779807464,
+    "update_time": 1779807464,
+    "_id": "doc-c2a50b662ee042ffebba7f93c803e324"
+  },
+  "doc-d9edf2abec867ee2a44168ee963aa04e": {
+    "relation_pairs": [
+      [
+        "Hagosofya",
+        "Istanbul"
+      ],
+      [
+        "City",
+        "Forests"
+      ],
+      [
+        "Content Briefs",
+        "Root Attributes"
+      ],
+      [
+        "City",
+        "Mayor/Governor"
+      ],
+      [
+        "Content Briefs",
+        "Germany"
+      ],
+      [
+        "City",
+        "Nuclear Plant"
+      ],
+      [
+        "Area",
+        "City"
+      ],
+      [
+        "City",
+        "Root Attributes"
+      ],
+      [
+        "Comparative Question",
+        "Content Briefs"
+      ],
+      [
+        "City",
+        "Historical Size"
+      ],
+      [
+        "H2",
+        "Query Terms"
+      ],
+      [
+        "Content Briefs",
+        "Rare Attributes"
+      ],
+      [
+        "H1",
+        "H2"
+      ],
+      [
+        "City",
+        "Rivers"
+      ],
+      [
+        "Content Briefs",
+        "Grouping Question"
+      ],
+      [
+        "City",
+        "Rare Attributes"
+      ],
+      [
+        "Content Briefs",
+        "Unique Attributes"
+      ],
+      [
+        "Lecture",
+        "Question Hierarchy"
+      ],
+      [
+        "H3",
+        "Term Proximity"
+      ],
+      [
+        "Lecture",
+        "Question Writing"
+      ],
+      [
+        "Content Briefs",
+        "Definition Question"
+      ],
+      [
+        "Beaches",
+        "City"
+      ],
+      [
+        "Eiffel Tower",
+        "Paris"
+      ],
+      [
+        "City",
+        "Unique Attributes"
+      ],
+      [
+        "Boolean Question",
+        "Content Briefs"
+      ],
+      [
+        "City",
+        "Population"
+      ]
+    ],
+    "count": 26,
+    "create_time": 1779808279,
+    "update_time": 1779808279,
+    "_id": "doc-d9edf2abec867ee2a44168ee963aa04e"
+  },
+  "doc-354d228114e8f19db62806f428d6a5dc": {
+    "relation_pairs": [
+      [
+        "Water Dehydration",
+        "Water Intoxication"
+      ],
+      [
+        "Dogs",
+        "Infants"
+      ],
+      [
+        "Opposites",
+        "Supplementary Content"
+      ],
+      [
+        "Infants",
+        "Newborns"
+      ],
+      [
+        "Boolean Questions",
+        "Opposites"
+      ],
+      [
+        "Instruction List",
+        "Treatment Section"
+      ],
+      [
+        "Antonyms",
+        "Supplementary Content"
+      ],
+      [
+        "Query Template",
+        "Too Much Water Concept"
+      ],
+      [
+        "Water Intake Calculator",
+        "Water Intoxication"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1779808747,
+    "update_time": 1779808747,
+    "_id": "doc-354d228114e8f19db62806f428d6a5dc"
+  },
+  "doc-b8f3737ebb9deefae951ea2e92ccc158": {
+    "relation_pairs": [
+      [
+        "Boolean Question",
+        "Contextual Vector"
+      ],
+      [
+        "54th Lecture",
+        "Content Brief"
+      ],
+      [
+        "Article",
+        "Subsections"
+      ],
+      [
+        "Benefits",
+        "Macro Context"
+      ],
+      [
+        "Article",
+        "H3"
+      ],
+      [
+        "Contextual Vector",
+        "Explicit Question Query"
+      ],
+      [
+        "Content Brief",
+        "Contextual Vector"
+      ],
+      [
+        "Contextual Vector",
+        "Predicate"
+      ],
+      [
+        "Arctic Water Brand",
+        "Ice Water"
+      ],
+      [
+        "Drinking Cold Water",
+        "Teeth"
+      ],
+      [
+        "54th Lecture",
+        "Quality Notes"
+      ],
+      [
+        "Boolean Question",
+        "Drinking Cold Water"
+      ],
+      [
+        "Comparative Articles",
+        "Versus"
+      ],
+      [
+        "Drinking Cold Water",
+        "Scars"
+      ],
+      [
+        "Body Parts",
+        "Drinking Cold Water"
+      ],
+      [
+        "Drinking Cold Water",
+        "Risks"
+      ],
+      [
+        "Drinking Cold Water",
+        "Hot Water"
+      ],
+      [
+        "Anchor Tags",
+        "Semantic Seo Course"
+      ],
+      [
+        "54th Lecture",
+        "Semantic Seo Course"
+      ],
+      [
+        "Drinking Cold Water",
+        "Pets"
+      ],
+      [
+        "Drinking Cold Water",
+        "Macro Context"
+      ],
+      [
+        "Article",
+        "H4"
+      ],
+      [
+        "Benefits",
+        "Drinking Cold Water"
+      ],
+      [
+        "Drinking Cold Water",
+        "Ice Water"
+      ],
+      [
+        "Content Brief",
+        "Medical News Today"
+      ],
+      [
+        "Macro Context",
+        "Risks"
+      ],
+      [
+        "Article Methodology",
+        "Semantic Seo Course"
+      ],
+      [
+        "Conjunctive Word",
+        "Risks"
+      ],
+      [
+        "Comparative Articles",
+        "Or"
+      ],
+      [
+        "Comparative Articles",
+        "Indices"
+      ],
+      [
+        "Content Brief",
+        "Health Line"
+      ]
+    ],
+    "count": 31,
+    "create_time": 1779809168,
+    "update_time": 1779809168,
+    "_id": "doc-b8f3737ebb9deefae951ea2e92ccc158"
+  },
+  "doc-eee693439b9b8630237353de9a33282e": {
+    "relation_pairs": [
+      [
+        "Delayed Gastric Emptying",
+        "Healthy Digestion"
+      ],
+      [
+        "Jump Links",
+        "Semantic Seo Course"
+      ],
+      [
+        "Healthy Digestion",
+        "Recommended Liquid Intake"
+      ],
+      [
+        "Drinking Water",
+        "Search Operators"
+      ],
+      [
+        "British Journal Of Nutrition",
+        "Semantic Seo Course"
+      ],
+      [
+        "Multi-Search Extension",
+        "Physical Activity"
+      ],
+      [
+        "Google Scholar",
+        "Semantic Seo Course"
+      ],
+      [
+        "Reference Section",
+        "Semantic Seo Course"
+      ],
+      [
+        "Peking University",
+        "Semantic Seo Course"
+      ],
+      [
+        "Semantic Seo Course",
+        "University Of East London School Of Psychology"
+      ],
+      [
+        "Citations",
+        "Research"
+      ],
+      [
+        "Multi-Search Extension",
+        "Physical Performance"
+      ],
+      [
+        "File PDF",
+        "Search Operators"
+      ],
+      [
+        "Research",
+        "Search Engine"
+      ],
+      [
+        "Page Rank",
+        "Semantic Seo Course"
+      ],
+      [
+        "Multi-Search Extension",
+        "Semantic Seo Course"
+      ],
+      [
+        "Importance Of Water",
+        "Search Operators"
+      ],
+      [
+        "Search Operators",
+        "Title"
+      ],
+      [
+        "European Journal Of Nutrition",
+        "Semantic Seo Course"
+      ],
+      [
+        "PDF Files From University Or Educational Websites",
+        "University Of Hawaii"
+      ],
+      [
+        "Highly Authoritative Sources",
+        "Research"
+      ],
+      [
+        "PDF Files From University Or Educational Websites",
+        "Search Operators"
+      ],
+      [
+        "Research",
+        "Researchers"
+      ],
+      [
+        "Fundamentals Of Water Treatment",
+        "Search Operators"
+      ],
+      [
+        "Recommended Liquid Intake",
+        "Research"
+      ],
+      [
+        "Consensus App",
+        "Semantic Seo Course"
+      ],
+      [
+        "Search Engine",
+        "Search Location"
+      ],
+      [
+        "Search Location",
+        "UK"
+      ],
+      [
+        "Named Entity",
+        "Semantic Seo Course"
+      ],
+      [
+        "Search Location",
+        "USA"
+      ],
+      [
+        "Delayed Gastric Emptying",
+        "Research"
+      ],
+      [
+        "American College Of The Sport Medicine",
+        "Semantic Seo Course"
+      ],
+      [
+        "Search Operators",
+        "Water"
+      ],
+      [
+        "Authority",
+        "Semantic Seo Course"
+      ],
+      [
+        "Delayed Gastric Emptying",
+        "Recommended Liquid Intake"
+      ],
+      [
+        "Canadian Journal Of Infectious Diseases And Medical Macrobiology",
+        "Semantic Seo Course"
+      ],
+      [
+        "ADU",
+        "Search Operators"
+      ],
+      [
+        "17th Lecture",
+        "Semantic Seo Course"
+      ]
+    ],
+    "count": 38,
+    "create_time": 1779809739,
+    "update_time": 1779809739,
+    "_id": "doc-eee693439b9b8630237353de9a33282e"
+  },
+  "doc-9ef8d4d7eb7ea21f1ff2c75b757bf813": {
+    "relation_pairs": [
+      [
+        "Be Cheaper",
+        "Cost Of Ranking"
+      ],
+      [
+        "Quartz",
+        "Ultrasonic"
+      ],
+      [
+        "Groundedness",
+        "Topical Authority"
+      ],
+      [
+        "Bolding The Answer",
+        "Flightless Seabird"
+      ],
+      [
+        "3 Million Clicks",
+        "The Coolest And English Website"
+      ],
+      [
+        "Query Responsiveness",
+        "Search Engine"
+      ],
+      [
+        "Semantic Seo",
+        "The Speaker"
+      ],
+      [
+        "How To Questions",
+        "Part Of Speech Tag"
+      ],
+      [
+        "Lambda Research Paper",
+        "Specificity"
+      ],
+      [
+        "Information Extraction",
+        "Speaker"
+      ],
+      [
+        "Cost Of Ranking",
+        "Search Engine Ranking"
+      ],
+      [
+        "SEO",
+        "Text Graph"
+      ],
+      [
+        "Retrieval Cost",
+        "Topical Authority"
+      ],
+      [
+        "Human Approach",
+        "Seven-Step SEO Methodology"
+      ],
+      [
+        "Comparative Ranking",
+        "Micro Semantics"
+      ],
+      [
+        "Cross-lingual Information Retrieval",
+        "Google Patent"
+      ],
+      [
+        "SEO Case Studies",
+        "The Speaker"
+      ],
+      [
+        "Page Rank",
+        "Rank Merge"
+      ],
+      [
+        "Groundedness",
+        "Lambda Research Paper"
+      ],
+      [
+        "Google Author Vectors",
+        "SEO"
+      ],
+      [
+        "Cross-lingual Information Retrieval",
+        "Word Embedding Visualization Tool"
+      ],
+      [
+        "Course",
+        "The Speaker"
+      ],
+      [
+        "Healthline",
+        "The Health Website"
+      ],
+      [
+        "Rank Merge",
+        "Traffic"
+      ],
+      [
+        "The Health Website",
+        "Webmd"
+      ],
+      [
+        "Key Vs. Questions",
+        "Unique Questions"
+      ],
+      [
+        "Content Briefs",
+        "The Author'S German Website"
+      ],
+      [
+        "Lean Management",
+        "The Author"
+      ],
+      [
+        "Hexagon",
+        "Ultrasonic"
+      ],
+      [
+        "AI Systems",
+        "Content"
+      ],
+      [
+        "Data To Text",
+        "Knowledge Base"
+      ],
+      [
+        "The Speaker",
+        "Topical Map"
+      ],
+      [
+        "Large Language Models",
+        "Micro Semantics"
+      ],
+      [
+        "The Coolest And English Website",
+        "Topical Map"
+      ],
+      [
+        "The Author",
+        "Topical Map"
+      ],
+      [
+        "Cleaners",
+        "Ultrasonic"
+      ],
+      [
+        "The Health Website",
+        "Topical Map"
+      ],
+      [
+        "Quality Notes",
+        "The Author"
+      ],
+      [
+        "The Author'S Health Website",
+        "Webmd"
+      ],
+      [
+        "SEO",
+        "Seven-Step SEO Methodology"
+      ],
+      [
+        "Seven-Step SEO Methodology",
+        "Topical Map"
+      ],
+      [
+        "Key Vs. Questions",
+        "Speaker"
+      ],
+      [
+        "Language",
+        "Word Embeddings"
+      ],
+      [
+        "Large Language Model",
+        "Statistical Signature"
+      ],
+      [
+        "Black Hat",
+        "Whatever Works, Hat"
+      ],
+      [
+        "27 Articles",
+        "The Health Website"
+      ],
+      [
+        "Blind Librarian",
+        "Information Retrieval"
+      ],
+      [
+        "Bolding The Answer",
+        "Search Engine"
+      ],
+      [
+        "Core Algorithm Update",
+        "Google"
+      ],
+      [
+        "Interestingness",
+        "Lambda Research Paper"
+      ],
+      [
+        "Quality Notes",
+        "Web Crawlers"
+      ],
+      [
+        "Cross-lingual Information Retrieval",
+        "Word Embeddings"
+      ],
+      [
+        "Semantic Seo",
+        "The Coolest And English Website"
+      ],
+      [
+        "Cost Of Retrieval",
+        "Topical Authority"
+      ],
+      [
+        "Lambda Research Paper",
+        "Safety"
+      ],
+      [
+        "SEO",
+        "Topical Map"
+      ],
+      [
+        "If Statements",
+        "Subordinate Text"
+      ],
+      [
+        "Knowledge Base",
+        "Seven-Step SEO Methodology"
+      ],
+      [
+        "59 Accuracy",
+        "Website A"
+      ],
+      [
+        "The Coolest And English Website",
+        "The Speaker"
+      ],
+      [
+        "Ai",
+        "Human Approach"
+      ],
+      [
+        "Ai",
+        "Micro Semantics"
+      ],
+      [
+        "Original File",
+        "USB Flashback"
+      ],
+      [
+        "Artificial Intelligence",
+        "Ultra AI Search"
+      ],
+      [
+        "Google Quality Rater Guidelines",
+        "Human Approach"
+      ],
+      [
+        "Anchor Text",
+        "Targeted Web Page Title"
+      ],
+      [
+        "9 Million Search Queries",
+        "Search Engine"
+      ],
+      [
+        "Cosmetic Dentist",
+        "Emek Killer"
+      ],
+      [
+        "SEO",
+        "SEO Case Studies"
+      ],
+      [
+        "Semantic Content Network",
+        "Seven-Step SEO Methodology"
+      ],
+      [
+        "Buckingham Palace",
+        "Natural Language Inference"
+      ],
+      [
+        "Whatever Works, Hat",
+        "White Hat"
+      ],
+      [
+        "Entrepreneurs",
+        "Vision Boards"
+      ],
+      [
+        "Natural Language Inference",
+        "United Kingdom"
+      ],
+      [
+        "Aromatherapy Design",
+        "Crystal"
+      ],
+      [
+        "Ahrefs",
+        "Alcoholic Drinks Website"
+      ],
+      [
+        "Identity Creation",
+        "Key Vs. Questions"
+      ],
+      [
+        "Text Graph",
+        "Top Ranking Web Pages"
+      ],
+      [
+        "Topical Map",
+        "Word Embeddings"
+      ],
+      [
+        "Course",
+        "SEO"
+      ],
+      [
+        "Data To Text",
+        "Google"
+      ],
+      [
+        "Dean",
+        "Speaker"
+      ],
+      [
+        "20,000 Queries",
+        "Search Engine"
+      ],
+      [
+        "Lambda Research Paper",
+        "Sensibleness"
+      ],
+      [
+        "Responsiveness",
+        "Search Engine Processing Systems"
+      ],
+      [
+        "Anchor Text",
+        "Source Page Heading"
+      ],
+      [
+        "800,000 Clicks",
+        "The Coolest And English Website"
+      ],
+      [
+        "Google",
+        "Paul Hart"
+      ],
+      [
+        "Semantic Content Network",
+        "Topical Map"
+      ],
+      [
+        "55 Billion Facts Database",
+        "Language Model"
+      ],
+      [
+        "Large Language Model Optimization",
+        "Seven-Step SEO Methodology"
+      ],
+      [
+        "Emek Killer",
+        "Ex-Husband"
+      ],
+      [
+        "Historical Data",
+        "Topical Authority"
+      ],
+      [
+        "Publication Frequency",
+        "The Coolest And English Website"
+      ],
+      [
+        "Core Algorithm Update",
+        "Traffic"
+      ],
+      [
+        "Google",
+        "Google's Language Model Optimization Tool"
+      ],
+      [
+        "Alcoholic Drinks Website",
+        "Manual Penalty"
+      ],
+      [
+        "Generative Ai Search",
+        "Quality Threshold"
+      ],
+      [
+        "The Author",
+        "The Author'S Health Website"
+      ],
+      [
+        "Frequency And Momentum",
+        "Search Engine"
+      ],
+      [
+        "Topical Map",
+        "Unnamed Nasdaq Company"
+      ],
+      [
+        "The Health Website",
+        "The Speaker"
+      ],
+      [
+        "Google",
+        "The Speaker"
+      ],
+      [
+        "Ex-Husband",
+        "Media Ownership"
+      ],
+      [
+        "Google's Language Model Optimization Tool",
+        "Language Model"
+      ],
+      [
+        "Six Months",
+        "The Coolest And English Website"
+      ],
+      [
+        "Cleaners",
+        "Quartz"
+      ],
+      [
+        "Php People",
+        "The Health Website"
+      ],
+      [
+        "Matt",
+        "USB Flashback"
+      ],
+      [
+        "Content Briefs",
+        "The Author"
+      ],
+      [
+        "Anchor Text",
+        "Sleep Efficiency"
+      ],
+      [
+        "Everyday Health",
+        "The Author'S Health Website"
+      ],
+      [
+        "The Speaker",
+        "Word Embedding Visualization Tool"
+      ],
+      [
+        "Content Brief",
+        "The Speaker"
+      ],
+      [
+        "Google",
+        "Google Patent"
+      ],
+      [
+        "600 Content Items",
+        "Website A"
+      ],
+      [
+        "Search Engine Processing Systems",
+        "Subordinate Text"
+      ],
+      [
+        "SEO",
+        "The Speaker"
+      ],
+      [
+        "Emek Killer",
+        "Propaganda War"
+      ],
+      [
+        "900 Triples",
+        "Website A"
+      ],
+      [
+        "Google",
+        "John Miller"
+      ],
+      [
+        "Alcoholic Drinks Website",
+        "Speaker"
+      ],
+      [
+        "Artificial Intelligence",
+        "Human Approach"
+      ],
+      [
+        "Healthline",
+        "The Author'S Health Website"
+      ],
+      [
+        "Medical Newsday",
+        "The Author'S Health Website"
+      ],
+      [
+        "Large Language Model",
+        "Watermark Technologies"
+      ],
+      [
+        "Expertise",
+        "Numeric Values"
+      ],
+      [
+        "News Sources",
+        "Page Rank"
+      ],
+      [
+        "Google",
+        "Speaker"
+      ]
+    ],
+    "count": 129,
+    "create_time": 1779809789,
+    "update_time": 1779809789,
+    "_id": "doc-9ef8d4d7eb7ea21f1ff2c75b757bf813"
+  },
+  "doc-cef171c329a755e64f865cc6b366855c": {
+    "relation_pairs": [
+      [
+        "Environmental Effect",
+        "Topical Map"
+      ],
+      [
+        "Click Satisfaction",
+        "Ranking"
+      ],
+      [
+        "Electric Cars for Kids",
+        "Topical Map"
+      ],
+      [
+        "Charge Map",
+        "Charging Stations"
+      ],
+      [
+        "Founders",
+        "Topical Map"
+      ],
+      [
+        "Electric Car Charging",
+        "Topical Map"
+      ],
+      [
+        "Scientists",
+        "Topical Map"
+      ],
+      [
+        "Brake Systems",
+        "Topical Map"
+      ],
+      [
+        "Electric Cars",
+        "Hybrid Cars"
+      ],
+      [
+        "History Of Electric",
+        "Topical Map"
+      ],
+      [
+        "Electric Car Risks",
+        "Topical Map"
+      ],
+      [
+        "Click Satisfaction",
+        "Historical Data"
+      ],
+      [
+        "83rd Lecture of Semantic SEO Course",
+        "Query Count Increase"
+      ],
+      [
+        "83rd Lecture of Semantic SEO Course",
+        "Impression Increase"
+      ],
+      [
+        "Engines",
+        "Topical Map"
+      ],
+      [
+        "Electric Cars for Women",
+        "Topical Map"
+      ],
+      [
+        "Electric Car Battery Types",
+        "Lithium-Ion Batteries"
+      ],
+      [
+        "Car Manufacturers",
+        "Topical Map"
+      ],
+      [
+        "83rd Lecture of Semantic SEO Course",
+        "Topical Map"
+      ],
+      [
+        "Electric Cars",
+        "Topical Map"
+      ],
+      [
+        "Electric Car Advantages",
+        "Topical Map"
+      ],
+      [
+        "83rd Lecture of Semantic SEO Course",
+        "Product Indexing"
+      ],
+      [
+        "Definitions",
+        "Topical Map"
+      ],
+      [
+        "Fuel Cars",
+        "Hybrid Cars"
+      ],
+      [
+        "Ranking",
+        "Search Engine"
+      ],
+      [
+        "Product Reviews",
+        "Topical Map"
+      ],
+      [
+        "Electric Scooters",
+        "Topical Map"
+      ],
+      [
+        "Asset",
+        "Historical Data"
+      ],
+      [
+        "Motors",
+        "Topical Map"
+      ],
+      [
+        "Definitions",
+        "Historical Data"
+      ],
+      [
+        "Historical Data",
+        "Product Reviews"
+      ],
+      [
+        "Electric Car Battery Types",
+        "Topical Map"
+      ],
+      [
+        "Charging Stations",
+        "Electric Car Charging"
+      ],
+      [
+        "83rd Lecture of Semantic SEO Course",
+        "Semantic SEO Course"
+      ],
+      [
+        "Electric Car Charging",
+        "Home Charging"
+      ],
+      [
+        "Electric Car Fuel Cost Calculator",
+        "Topical Map"
+      ],
+      [
+        "Range Calculations",
+        "Topical Map"
+      ],
+      [
+        "Battery Life",
+        "Topical Map"
+      ],
+      [
+        "83rd Lecture of Semantic SEO Course",
+        "Information Retrieval"
+      ],
+      [
+        "Electric Car Insurance",
+        "Topical Map"
+      ],
+      [
+        "Connectors",
+        "Topical Map"
+      ],
+      [
+        "83rd Lecture of Semantic SEO Course",
+        "Taxonomy"
+      ],
+      [
+        "Electric Car Advantages",
+        "Electric Car Risks"
+      ],
+      [
+        "Hybrid Cars",
+        "Topical Map"
+      ],
+      [
+        "Electric Tractors",
+        "Topical Map"
+      ],
+      [
+        "Battery Connectors",
+        "Electric Car Charging"
+      ],
+      [
+        "Electric Buses",
+        "Topical Map"
+      ],
+      [
+        "History Of Brands",
+        "Topical Map"
+      ],
+      [
+        "Electric Car Battery Replacement Cost",
+        "Topical Map"
+      ],
+      [
+        "Electric Motorbikes",
+        "Topical Map"
+      ],
+      [
+        "Electric Bikes",
+        "Topical Map"
+      ],
+      [
+        "Electric Car Fuel Cost Calculator",
+        "Fuel Car Cost Calculator"
+      ],
+      [
+        "Electric Cars for Teenagers",
+        "Topical Map"
+      ],
+      [
+        "Renewable Energies",
+        "Topical Map"
+      ],
+      [
+        "Semantic SEO",
+        "Semantic SEO Course"
+      ],
+      [
+        "Electric Cars",
+        "Vehicles"
+      ],
+      [
+        "Car Manufacturers",
+        "Volvo"
+      ],
+      [
+        "Charging Methodologies",
+        "Topical Map"
+      ],
+      [
+        "Battery Maintenance",
+        "Topical Map"
+      ],
+      [
+        "Every Brand",
+        "Topical Map"
+      ],
+      [
+        "83rd Lecture of Semantic SEO Course",
+        "CTR Increase"
+      ],
+      [
+        "Every Model",
+        "Topical Map"
+      ]
+    ],
+    "count": 62,
+    "create_time": 1779810719,
+    "update_time": 1779810719,
+    "_id": "doc-cef171c329a755e64f865cc6b366855c"
+  },
+  "doc-617e49806b5fd6f9ff73c55f679d6d44": {
+    "relation_pairs": [
+      [
+        "Macro Context",
+        "Topical Map"
+      ],
+      [
+        "Instructor",
+        "Learners"
+      ],
+      [
+        "Contextual Search Case Study",
+        "Domains"
+      ],
+      [
+        "Instructor",
+        "Topical Map"
+      ],
+      [
+        "Contextual Search Case Study",
+        "Contextual Vectors"
+      ],
+      [
+        "Domains",
+        "Topical Map"
+      ],
+      [
+        "Source Context",
+        "Topical Map"
+      ],
+      [
+        "Macro Context",
+        "Title Tags"
+      ],
+      [
+        "Contextual Vectors",
+        "Topical Map"
+      ],
+      [
+        "Instructor",
+        "Route Content Brief"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1779810742,
+    "update_time": 1779810742,
+    "_id": "doc-617e49806b5fd6f9ff73c55f679d6d44"
+  }
+}

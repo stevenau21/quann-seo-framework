@@ -1,0 +1,125 @@
+How to Check Grammar and Language Errors in Content via Python? - Holistic SEO
+Skip to content
+When it comes to SEO, spelling errors, word errors, inverted sentences are factors that affect the user experience and damage the publisher’s expertise. Google Algorithm has been competing since the era of Panda and RankBrain Algorithms to spot both “stemming” and spelling errors, correct them, and rewrite queries. Google has also released a style guideline for Developers. This guideline states how dates, phone numbers, or quote phrases should be written, and that Google will reduce its Quality Score at the point of misspellings. In this guideline, you will see how you can discover and correct spelling errors in large texts through Python for an SEO or publisher.
+In addition, it is possible to obtain the automatic features of ScreamingFrog such as discovering new Content Scanning and Grammar Errors with scripts you will write yourself.
+Contents of the Article
+show
+1.
+How to Check Grammar Errors with Python?
+2.
+Last Thoughts on Grammatical Error Exploring via Python and SEO
+How to Check Grammar Errors with Python?
+In reality, there is not so much option for correcting or exploring the Grammar Errors in Python as a specific library. As a beginning, we will start with the TextBlob Library. TextBlob is a text processing library that has Natural Language Processing’s all possibilities such as tokenization, lemmatization, or part-of-speech tagging and sentiment analysis. TextBlob’s one of the side hustles is correcting the grammar errors, it may not show the grammar errors for the user but correct them automatically. Let’s perform a simple example.
+b = TextBlob("I havv goood speling! My namee is Koray Tuğberk Gübür")
+print(b.correct())
+OUTPUT>>>
+I have good spelling! My name is Forty Tuğberk Gübür
+As you may see, TextBlob is correcting the words according to the sentence’s meaning and word variations closeness to each other. But still, since TextBlob is not created for finding and correcting grammar errors, you may get some errors in more complex usage. To create a strong enough grammar error corrector via TextBlob requires a training model with an enormously large data. TextBlob mainly should be used for Natural Language Processing in a brief project. Without trained data set, you may encounter errors such as below:
+b = TextBlob("Hell Brother, how are yu since las yer?")
+print(b.correct())
+OUTPUT>>>
+Well Brother, how are you since las yer?
+As you may see, it couldn’t fix the “las” typo along with a long interpretation related to the “hell” typo, it should be turned into “hello”. To prevent these kinds of errors, you may need to train enormously big data.
+To learn more about Python SEO, you may read the related guidelines:
+How to resize images in  bulk with Python
+How to perform TF-IDF Analysis with Python
+How to crawl and analyze a Website via Python
+How to perform text analysis via Python
+How to test a robots.txt file via Python
+How to Compare and Analyse Robots.txt File via Python
+How to Categorize URL Parameters and Queries via Python?
+How to Perform a Content Structure Analysis via Python and Sitemaps
+So, in short, we need to try grammar errors exploring and correcting with another methodology.
+Our second try will be the “gingerit” library. Gingerit works based on the grammar error correcting software “gingeritsoftware.com’s API”. Since, the company’s software solely focus on grammar error checking and correcting, it will serve the purpose of this guideline better than the TextBlob.
+Let’s create a simple example with Gingerit.
+To install Gingerit, write the command below:
+pip install gingerit
+Now, we may import the library and create our first example of use.
+from gingerit.gingerit import GingerIt
+text = "I hve a bd memary and I want to fx ths situetian. Als, I con't wroote carractli in Englash."
+parser = GingerIt()
+parser.parse(text)
+OUTPUT>>>
+{'text': 'The smelt of fliwers bring back memories.',
+'result': 'The smell of flowers brings back memories.',
+'corrections': [{'start': 21,
+'text': 'bring',
+'correct': 'brings',
+'definition': None},
+{'start': 13,
+'text': 'fliwers',
+'correct': 'flowers',
+'definition': 'a plant cultivated for its blooms or blossoms'},
+{'start': 4, 'text': 'smelt', 'correct': 'smell', 'definition': None}]}
+In this example, we have a nested dictionary that has the text with a typo, corrected version, and corrections as a dictionary in a list. We also have the definitions of the corrected words if they exist in the Gingerit Library such as “bring” and “smell” definitions are missing but we have a definition of the “flower” word. Since it is software specializing in spelling errors, it is difficult to experience any kind of error. We may try the same technique in a longer text.
+text = "The son of a salsman who lter operatd an electrchemial factory, Einstein ws born in the German Epire but mved to Switzerland in 1895 and renouncd his German citizenhip in 1896. Specializing in physics and matheatics, he rceived his academic teaching diploma from the Swiss Fderal Polytechnic Schol (German: eidgenössische polytechnische Schule, later ETH) in Zürich in 1900."
+parser = GingerIt()
+parser.parse(text)
+OUTPUT>>>
+For a longer example, I have chosen a paragraph from the life of one of the greatest science person in the history of human-kind. You may see the typo errors’ correction below in a screenshot.
+We have fixed our grammar errors and also we have definition of the some words.
+Since our output is actually a dictionary in a format of JSON File. We may turn it into a data frame to see the corrections in a wider angle.
+import pandas as pd
+pd.set_option('max_colwidth', 520)
+corrected_df = parser.parse(text)
+corrected_df = pd.DataFrame(corrected_df)
+corrected_df
+OUTPUT>>>
+The first line imports the Pandas Library.
+The second line of code sets the column with of a data frame as 520 character.
+The third line of code assigns the corrections into a variable.
+The fourth line of the code turns the corrections into a data frame.
+The fifth line of the code calls the output.
+You may see the result below:
+You may see our correction via Python in a Data Frame.
+This is actually not all of the data frames. You may see that I have marked the type of “Schol”. At the correction column, the first result is related to this typo. It corrects it and then the corrected result is being put into the result column.  The last row of the data frame contains the completely corrected result as grammatically.
+Last Thoughts on Grammatical Error Exploring via Python and SEO
+You may perform the same process via Python for a set of “word documents” in a file with a loop. The custom script can fix all of the grammatical errors and output the result to the same folder with a different name. Fixing all grammar errors in a glimpse is a huge advantage for a Holistic SEO in terms of time and also creates an advantage against competitors. Without a typo error in terms of sentence structure, meaning structure, grammatical error, or punctuation error creating content is not so often seen in the world of content publishing. Because of this situation, this guideline also becomes more important.
+We may perform this part in this guideline in the future. Grammatical and spelling errors are important prestige abrasive factors for Trustworthiness, Expertise, and Authority. Google Algorithms and also users’ perception care about correct grammar usage and sentence structure along with punctuation. Thanks to Gingerit Library, we may perform most of those processes. But still, our Grammatical Error Exploring via Python Guideline has tons of missing points. In the future, we will be improving our guidelines.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+3 thoughts on “How to Check Grammar and Language Errors in Content via Python?”
+Koray hocam merhaba bunu Türkçe için yapabilirmiyiz.
+Reply
+In EN: Hello Murat, Yes, it can be done for Turkish too. BERT Language Model has great models for every language, and it can be used for Turkish grammar fixations too.
+In TR: Merhaba Murat, evet Türkçe için de yapılabilir. BERT Dil Modeli her dil için harika modellere sahip ve Türkçe dilbilgisi hatalarının düzeltimi için de kullanılabilir.
+Reply
+Hi,
+i guess this library is removed. Can you give a alternative option to Check Grammar and Language Errors in Content via Python.
+Regards,
+Zain A
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Python SEO
+How to Check Grammar and Language Errors in Content via Python?
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+Python SEO
+How to Perform DNS Reverse Lookup for Verifying Go…
+Python SEO
+How to Perform Text Analysis via Python and Advert…
+0
+0
+3

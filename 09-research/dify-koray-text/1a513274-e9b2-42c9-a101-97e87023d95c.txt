@@ -1,0 +1,119 @@
+Skip to content
+The <head> HTML Tag defines to hold metadata and can be contained within the <head> element. Using the <head> HTML Tag element, the user-agent can save information about the website data to data. Metadata is information about a document that includes elements such as a title, description, keywords, and so on. It is common for an HTML document to contain a <title> HTML Tag as well as one or more meta tags, a <script> HTLM Tag, and a <style> HTML Tag, all of which are contained within the <head> HTML Tag element. The majority of information is not visible in the window although the title is normally visible in the window’s title bar, but it is important for the performance of the page and can be found in the source code. The <head> HTML Tag is part of the Meta HTML category in HTML Element Reference. The attribute of the <head> HTML Tag is global attributes.
+<head> code block example to learn how it works is given below.
+<html>
+<head>
+<title>Title of the page</title>
+</head>
+<body>
+Body of the page
+</body>
+</html>
+<head>
+The second example usage of the “<head>” code block example is given below.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Holisticseo </title>
+</head>
+<body>
+<p>Holisticseo is a portal for web developers.</p>
+<hr>
+</body>
+</html>
+Contents of the Article
+show
+1.
+What is <head> HTML Tag?
+2.
+How to Use <head> HTML Tag?
+2.1.
+Example Usage of <head> HTML Tag?
+3.
+What is the Attribute of <head> HTML Tag?
+4.
+What is the Default CSS Setting for <head> HTML Tag?
+5.
+What are the Related other HTML Tags to <head>?
+What is <head> HTML Tag?
+The <head> HTML Tag means that when an HTML page is created, the <head> HTML Tag element provides information about the content that is utilized by devices and bots but is not visible to visitors to the website. It is a section of an HTML document whose information is not shown in the client when it is first loaded into the browser. Only metadata about the HTML document is contained within it, and this metadata describes details about the HTML document. According to the requirements, the <head> HTML Tag may contain extensive info, or it can contain very little or no records. However, while developing a website, the <head> HTML Tag section of an HTML document is quite important.  The <base> HTML Tag is essential for web developers, because the <head> HTML Tag’s content in this file is primarily intended for computer processing, not for human reading. The <head> HTML Tag is related to SEO, UX, and PageSPeed because the <head > HTML Tag is an unnoticeable tag that provides information about the page to search engines and visitors to your website.
+How to Use <head> HTML Tag?
+To use the <head> HTML Tag, the web developer should include a <meta> HTML Tag as well as the <title> HTML Tag within the <head> HTML Tag.  A title> tag should always be present within the <head> HTML Tag, according to web standards.
+Example Usage of <head> HTML Tag?
+Listed below are the following examples of usage of <head> HTML Tag.
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<p>This document is written in the English language<span style="color: red"> This is the name of a friend of mine....</span></p>
+<p>This is Chinese language <span style="color: green">Wǒ de péngyǒu jiào</span></p>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="refresh" content="5; url=https://www.holisticseo.digital/html-head">
+</head>
+<body>
+<h2>Example of Metadata element</h2>
+<p style="color: blue;">Allow 5 seconds, after which it will automatically redirect to the URL indicated in the meta tag. Please wait.</p>
+</body>
+</html>
+What is the Attribute of <head> HTML Tag?
+There is only one attribute for the <head> HTML Tag. The <head> HTML Tag supports the  Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+What  is the Default CSS Setting for <head> HTML Tag?
+The following is the Default CSS Setting available for the <head> HTML Tag.
+head {
+display: none;
+}
+What are the Related other HTML Tags to <head>?
+The other related HTML Tags to the <head> HTML Tag are listed below.
+<meta> HTML Tag: The <meta> HTML Tag and <head> HTML Tag are related because they are both Meta Info HTML Tags. The
+<meta> HTML Tag
+specifies the Metadata about the HTML document.
+<base> HTML Tag: The
+<base> HTML Tag
+and <head> HTML Tag are related because they are both basic HTML Tags. Provides the core link target for all related URLs in a document by specifying the base link
+<basefont> HTML Tag: The <basefont> HTML Tag and <head> HTML Tag are related because they are Meta Info HTML Tags.  The
+<basefont> HTML Tag
+Sets the defaults for a document’s text’s color, size, and font.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <head> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <html> Tag Definition, Usage and Exampl…
+TechSEO
+HTML <meta> Tag Definition, Usage and Exampl…
+0
+0
+0

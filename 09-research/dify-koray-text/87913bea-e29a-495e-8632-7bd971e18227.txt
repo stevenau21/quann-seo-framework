@@ -1,0 +1,93 @@
+Skip to content
+The aria-pressed is an attribute that is used to set a toggle element that can have 3 values. The purpose of the aria-pressed is to let the user know that they are toggling a button or an element that have toggle features. The developer can use the aria-pressed attribute to let the user know that a toggle is activated, engaged, or pressed via the screed reader of the assistive technology. The aria-pressed can be used for the button element, as it defines the button’s state if its value is true, false, or undefined. The aria-pressed can be used with other aria labels, such as, aria-selected and aria-checked.
+Contents of the Article
+show
+1.
+What is the function of the “aria-pressed” ARIA Label?
+2.
+What are the uses of the “aria-pressed” ARIA Label?
+3.
+Example Uses of “aria-pressed” ARIA Label
+4.
+What are the related ARIA Labels to “aria-pressed”?
+What is the function of the “aria-pressed” ARIA Label?
+The function of the attribute aria-pressed is to define an element or a widget that represents a button role. It enables the assistive technology to provide the user with enough information about the widget, as the aria-pressed completes the cycle of information. The aria-pressed can only be used for the button role, its design is made to define the button element for the user of the assistive technologies. The aria-pressed property has 3 state values, false, true, and undefined. When the button or widget is not toggled the value or aria-pressed is equal to false, else if the button is clicked then it becomes true. The undefined value of the aria-pressed will become handy when the value of the property is more than one item that is held by the button that is not true or false. There is no need to change the label of the button once the state changes or aria-pressed=true, the user might get confused if the screen reader announces what the label of the button is.
+What are the uses of the “aria-pressed” ARIA Label?
+The use of aria-pressed to the assistive technology like screen readers is for the button role, it defines an element as a button. The aria-pressed value will trigger the action of the button widget that can submit a form, display a dialogue, play audio, or execute a command like inserting a new record on a table. The role=”button” attribute that is used with the aria-pressed informs assistive technology that the element is a button that can be toggled.
+Example Uses of “aria-pressed” ARIA Label
+Listed below are the example uses of the “aria-pressed” ARIA Label.
+The aria-pressed holds a boolean value to indicate a state means the value can only be either true or false, its primary state is false and can only be changed to true once the button widget is pressed.
+<p>
+Please click the button.
+</p>
+<button aria-pressed="false">Button</button>
+<audio id="audio" src="buttonsound.mp3">button pressed</audio>
+<h1>This is aria-pressed</h1>
+<label for="toggle1">Sort By Price</label><br>
+<div class="toggle-button" id="toggle">
+<button id="toggle1" aria-pressed="false"></button>
+</div>
+<p>
+Please click play
+</p>
+<button aria-pressed="false">Play</button>
+<audio id="audio" src="play.mp3">playing….</audio>
+<button aria-pressed="false">PLAY</button>
+<p>
+The button is false
+</p>
+<button aria-pressed="false">Button</button>
+<audio id="audio" src="buttonsound.mp3">The button is true</audio>
+<p>
+Press to play
+</p>
+<button aria-pressed="false">PLAY AUDIO</button>
+<audio id="audio" src="play.mp3">playing….</audio>
+What are the related ARIA Labels to “aria-pressed”?
+Listed below are the related ARIA Labels to “aria-pressed”.
+aria-checked:
+The aria-checked is related to the aria-pressed because they are both indicating the current state of an element and both have a boolean value. The
+aria-checked
+is an attribute that defines a checkbox value if it is true or false.
+aria-selected:
+The aria-selected is related to the aria-pressed because they are both indicating the current state or value of the attribute. The
+aria-selected
+is an attribute that defines the current state or the value that is currently used or contained by the widget.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-pressed” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-relevant” ARIA Label for Accessi…
+TechSEO
+“aria-posinset” ARIA Label for Accessibility
+0
+0
+0

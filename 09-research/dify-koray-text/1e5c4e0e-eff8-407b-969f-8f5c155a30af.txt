@@ -1,0 +1,124 @@
+Sec-CH-UA-Model HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Sec-CH-UA-Model HTTP Header user agent client hint request header identifies the browser’s operating system and device model. There is only one value for using the Sec-CH-UA-Model HTTP Header. The value for using the Sec-CH-UA-Model HTTP Header is the device-version. The device-version is a string with the device’s model number. “Pixel 3” is a good example which is a pair of Android smartphones that are part of Google’s Pixel brand and were designed, produced, and marketed by Google. An example of the Sec-CH-UA-Model HTTP Header is written below.
+GET /GET /my/page HTTP/1.1
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?1
+Sec-CH-UA-Platform: "Android"
+Sec-CH-UA-Bitness: "64"
+Sec-CH-UA-Model: "Pixel 3 XL"
+The Sec-CH-UA-Model HTTP Header Request Header is seen above. In the article, the Sec-CH-UA-Model HTTP Header Syntax, Directives, and Uses example will be processed.
+Contents of the Article
+show
+1.
+What is the Sec-CH-UA-Model HTTP Header?
+1.1.
+What is the Syntax of the Sec-CH-UA-Model HTTP Header?
+1.2.
+What is the Directive of Sec-CH-UA-Model HTTP Header?
+2.
+How to use the Sec-CH-UA-Model HTTP Header?
+2.1.
+Examples of Sec-CH-UA-Model HTTP Header Use
+3.
+What is the Specification Document for Sec-CH-UA-Model HTTP Header?
+4.
+What is the type of Sec-CH-UA-Model HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Sec-CH-UA-Model HTTP Header?
+5.
+Which Browsers Support Sec-CH-UA-Model HTTP Header?
+What is the Sec-CH-UA-Model HTTP Header?
+The Sec-CH-UA-Model HTTP Header user agent client hint request header identifies the operating system and device model of the browser.
+What is the Syntax of the Sec-CH-UA-Model HTTP Header?
+The Sec-CH-UA-Model HTTP Header uses only one value. The syntax for using the Sec-CH-UA-Model HTTP Header is written below.
+HTTP/1.1 200 OK
+Accept-CH: Sec-CH-UA-Model
+What is the Directive of Sec-CH-UA-Model HTTP Header?
+Sec-CH-UA-Model HTTP headers only contains one directive. Device-version is a string that contains the device’s version number. An example directive for using the Sec-CH-UA-Model HTTP Header is given below.
+GET /GET /my/page HTTP/1.1
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?1
+Sec-CH-UA-Platform: "Android"
+Sec-CH-UA-Bitness: "64"
+Sec-CH-UA-Model: "Pixel 3 XL"
+How to use the Sec-CH-UA-Model HTTP Header?
+To make use of the Sec-CH-UA-Model HTTP Header, user must first identify the operating system and device model of the browser. For instance, the server requests the Sec-CH-UA-Model header by including the Accept-CH header in a response to any client request, using the desired header’s name as a token.
+Examples of Sec-CH-UA-Model HTTP Header Use
+For example, the server requests the Sec-CH-UA-Model header by including the Accept-CH header in a response to any client request and utilizing the name of the requested header as a token in the Accept-CH header in the response to any client request. An example is given below.
+HTTP/1.1 200 OK
+Accept-CH: Sec-CH-UA-Model
+The client opts to provide the clue and include the Sec-CH-UA-Model header in subsequent requests, or they are able to choose to not supply the hint. For example, on a mobile phone, the client decides to include the following header.
+GET /GET /my/page HTTP/1.1
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?1
+Sec-CH-UA-Platform: "Android"
+Sec-CH-UA-Bitness: "64"
+Sec-CH-UA-Model: "Pixel 3 XL"
+What is the Specification Document for Sec-CH-UA-Model HTTP Header?
+There is only one specification document for the Sec-CH-UA-Model HTTP Header, which is the User-Agent Client Hints. The User-Agent Client Hints article 3.6 mentions the Sec-CH-UA-Model HTTP Header definition and uses. Additionally, the article discusses the Sec-CH-UA-Model HTTP Header’s values and examples.
+What is the type of Sec-CH-UA-Model HTTP Header?
+The type of HTTP Header of the Sec-CH-UA-Model HTTP Header is the Request Header. The request header specifies the browser’s operating system and device model by including the Sec-CH-UA-Model HTTP Header user agent client hint.
+What are the similar HTTP Headers to the Sec-CH-UA-Model HTTP Header?
+The similar HTTP Headers to the Sec-CH-UA-Model HTTP Header are listed below.
+HTTP Client Hints:
+The HTTP Client Hints is similar to the Sec-CH-UA-Model HTTP Header. The HTTP Client Hints select which resources to send based on the client’s input. It determines the browser’s device model.
+User-Agent Client Hints API:
+The User-Agent Client Hints API is similar to the Sec-CH-UA-Model HTTP Header. It allows the user to publish browser and platform information via the User-Agent response and request header.
+Accept-CH HTTP Header:
+The Accept-CH HTTP Header is similar to the Sec-CH-UA-Model HTTP Header. A server sets the
+Accept-CH HTTP Header
+to tell a client which client suggestions to include in subsequent requests. It specifies the device model.
+Vary HTTP Header:
+The Vary HTTP Header is similar to the Sec-CH-UA-Model HTTP Header. The Vary HTTP response header is employed to decide whether to utilize a cached answer or a new one from the origin server. It determines the browser’s device model.
+Which Browsers Support Sec-CH-UA-Model HTTP Header?
+There are multiple browsers that support Sec-CH-UA-Model HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible e with the Sec-CH-UA-Model HTTP Header
+Edge Browser is compatible e with the Sec-CH-UA-Model HTTP Header
+Opera Browser is compatible e with the Sec-CH-UA-Model HTTP Header
+WebView Android Browser is compatible e with the Sec-CH-UA-Model HTTP Header
+Chrome Android Browser is compatible e with the Sec-CH-UA-Model HTTP Header
+Opera Android Browser is compatible e with the Sec-CH-UA-Model HTTP Header
+Samsung Internet Browser is compatible e with the Sec-CH-UA-Model HTTP Header
+You can see an image that shows the cross-browser compatibility of Sec-CH-UA-Model HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Sec-CH-UA-Model HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+Device-Memory HTTP Header: Syntax, Directive, Exam…
+TechSEO
+Downlink HTTP Header: Syntax, Directive, Examples…
+0
+0
+0

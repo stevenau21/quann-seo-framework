@@ -1,0 +1,123 @@
+What is Keyword Difficulty for SEO? Uses and Measurement
+Skip to content
+Keyword Difficulty involves the difficulty of ranking for a certain query term that is used by web search engine users to perform a search query. Keyword difficulty is used by search engine optimization technologies and experts to define the possibility and need of work to be ranked for a certain query. Keyword difficulty is invented by SEO Technologies such as Ahrefs, SEMrush, and Moz. SEO Concept Keyword Difficulty is not used by Google Search Engine to adjust its own algorithm. Information Retrieval Score Calculation, Query, and Document Clustering, along with the candidate document count, affect the quality thresholds. The concept of quality thresholds is used by search engines, instead of keyword difficulty. Keyword difficulty is an old concept for SEO to help SEO projects help to focus on certain queries more. But high keyword difficulty scores intimidate SEO experts from focusing on the most important, central concepts on their website. In the age of Semantic SEO,  Topical Authority, and Semantic Content Networks, keyword difficulty creates “incomplete” sources with missing information, and instead of providing expertise, websites focus on quick ranking possibilities with long-tail keywords.
+Keyword Difficulty article explains what keyword difficulty is, how search engines approach them, and how to check or use keyword difficulty for SEO, along with what else we should use for keyword difficulty.
+What are the key facts about keyword difficulty? Keyword difficulty is an SEO Concept to predict the ranking difficulty for a certain search term phrase.
+Keyword difficulty is not used by the search engines, it is a concept that comes from SEO tools such as Ahrefs, SEMrush, or Moz.
+Keyword Difficulty is not useful for Semantic SEO, and it prevents websites to show their expertise.
+Keyword Difficulty is not used within the Information Retrieval.
+Keyword Difficulty should be replaced with the Quality Threshold Concept for SEO.
+Keyword Difficulty is criticized by Semantic SEOs such as Koray Tuğberk GÜBÜR.
+Contents of the Article
+show
+1.
+What is Keyword Difficulty?
+1.1.
+What is the formula for Keyword Difficulty Measurement?
+2.
+Why is Keyword Difficulty Important?
+3.
+What are the tools to check Keyword Difficulty?
+3.1.
+1. SEMrush Keyword Difficulty Checker
+3.2.
+2. Ahrefs Keyword Difficulty Checker
+3.3.
+3. MOZ Keyword Difficulty Checker
+4.
+What is the validity of the Keyword Difficulty Concept for SEO?
+4.1.
+What are the critics related to Keyword Difficulty?
+4.1.1.
+Is Keyword Difficulty Related to Information Retrieval?
+4.1.1.1.
+How does Term Weight Calculating work with Keyword Difficulty?
+4.2.
+Does Google Use Keyword Difficulty Concept?
+4.3.
+What are the best concepts for SEO that can replace Keyword Difficulty?
+4.4.
+How to Use Keyword Difficulty for SEO?
+4.4.1.
+How to Use Quality and Relevance Thresholds instead of Keyword Difficulty?
+4.4.1.1.
+Is Keyword Difficulty Related to Domain Authority?
+5.
+Last Thoughts on Keyword Difficulty and Holistic SEO
+What is Keyword Difficulty?
+Keyword Difficulty is a conceptualization for Search Engine Optimization to show the ranking difficulty of a keyword. Keyword Difficulty is used by SEO technologies to help the SEOs to target certain types of queries as prioritized according to their domain authority. Keyword difficulty is used by Ahrefs, SEMrush, SERanking, and Moz. The formula of keyword difficulty, and ranges, change from technology to technology. Different SEO SaaS Companies use different keyword difficulty formulas to measure the keyword difficulty. Generally, Ahrefs, SECockpit, KWFinder and LongtailPro have lower Keyword Difficulty scores than the SEMrush, KeywordTool.io, Sistrix, and Moz Pro.
+What is the formula for Keyword Difficulty Measurement?
+Keyword Difficulty Formula parameters are listed below.
+Candidate Document Count to be ranked for.
+Occurrence of phase in the titles.
+Occurrence of phrase in the search queries
+Occurrence of keywords in the URLs.
+Occurrence of keywords in the anchor texts.
+The Average Domain Authority for the ranking websites (sources).
+The Average URL Rating for the ranking web pages.
+The Average Click Per Cost for the specific keyword.
+The formula of keyword difficulty changes from one SEO to another. But, to measure the keyword difficulty without an SEO Technology, SEO can use the metrics above to guess the possible range, of low and high keyword difficulty scores.
+Why is Keyword Difficulty Important?
+Keyword difficulty is important to use the SEO Tools in an understanding way, but it is not important for SEO. Semantic SEO works with different related concepts’ relevance and meaning propagation to others. Thus, the difficulty of ranking comes from the completeness of the information of the web page collection, not from the individual phrases. Keyword difficulty was important for SEO when search engines focused on only Information Retrieval and PageRank. But for an understanding search engine, keyword difficulty is an old metric that can’t be used. Instead of Keyword Difficulty, using the concept of Quality Thresholds is better. Quality Thresholds involve the quality range for being ranked for a search term. The cornerstone scores for the quality threshold come from the most quality and lowest quality sources and their web pages for a topic, and collection of queries. Phrase gaps between web pages and information gaps between articles might cause quality thresholds to change, and rankings based on predictive ranking. The predictive ranking works for adjusting the rankings to give the best possible search engine result page (SERP). Thus, quality thresholds and predictive ranking are connected to each other. Below, Koray Tuğberk GÜBÜR has published a video explaining an SEO Case Study that uses Quality Thresholds, and Predictive Ranking instead of keyword difficulty.
+Koray Tugberk GUBUR (Koray Tuğberk GÜBÜR) publication to explain the Quality Thresholds to replace the concept of Keyword Difficulty.
+The publication shows the prominence of the new SEO concepts and understandings to leverage the latest updates of the search engine.
+What are the tools to check Keyword Difficulty?
+The tools to check keyword difficulty are listed below.
+SEMrush Keyword Difficulty Checker
+Ahrefs Keyword Difficulty Checker
+Moz Keyword Difficulty Checker
+KeywordTool.io, LongtailPro, MozPro, Sistrix, SECockpit, and SERanking are used for keyword difficulty values as well. But main, keyword difficulty checkers are SEMruısh, Ahrefs, and Moz for the SEO industry.
+1. SEMrush Keyword Difficulty Checker
+To audit keyword difficulty with SEMrush use the steps below.
+Open a SEMrush account.
+Use the SEMrush Keyword Magic Tool for a search term.
+Check the SEMrush Keyword Difficulty column.
+Read the “KD %” column, which involves the “Keyword Difficulty as Percentage”.
+Below, you can see an example of Keyword Difficulty examination with SEMrush for the query “holistic SEO”.
+An example of Keyword Difficulty Calculation with SEMrush.
+The keyword difficulty starts from “42”, and other variations of the search term; it is usually lower keyword difficulty.
+2. Ahrefs Keyword Difficulty Checker
+To audit keyword difficulty with Ahrefs, follow the instructions below.
+Open an Ahrefs Account.
+Use the “Keyword Explorer” tool for a search term to check the keyword difficulty.
+Take the “KD” column, which represents the Keyword Difficulty.
+Audit the values to understand the keyword difficulty for the seed query, and its variations.
+Below, there is an example audit of keyword difficulty for the query of “holistic SEO” with Ahrefs.
+Example of Keyword Difficulty Measurement with Ahrefs.
+It is seen that for the same query, Ahrefs shows 700 search volumes in total and 25 keyword difficulty. Variations of the “holistic SEO” query don’t have a proper keyword difficulty. Ahrefs shows a lower keyword difficulty than SEMrush, which signals they use different keyword difficulty formulas.
+3. MOZ Keyword Difficulty Checker
+To audit, the keyword difficulty with MOZ, use the instructions below.
+Open an account for MOZ SEO SaaS technology.
+Use the “Keyword Research” section of MOZ for keyword difficulty checking.
+Type a search query into the keyword input area.
+Check the Keyword Difficulty value from the MOZ for the query.
+Below, there is an example of keyword difficulty checking with MOZ for the query of “holistic SEO”.
+An example of Keyword Difficulty Examination with MOZ.
+MOZ gives higher keyword difficulty for the same query as Ahrefs, but lower than SEMrush.
+What is the validity of the Keyword Difficulty Concept for SEO?
+Keyword Difficulty is not a valid concept to be used in practical SEO, especially in the semantic SEO vertical because it focuses on strings, not to the meaning. Keyword difficulty is not a valid concept for SEO for three main reasons. First, keyword difficulty doesn’t reflect the meaning of the query. Second, keyword difficulty does not provide a quality threshold or ranking prediction for certain groups of concepts. The third main reason for the invalidity of the keyword difficulty concept is that it focuses on PageRank, rather than the propagation of authority and relevance from one concept to another, or a web page to another, as in semantic SEO.
+Keyword Difficulty is a concept that is discussed by SEOs like Koray Tugberk GUBUR to criticize its validity in the semantic search engine era. According to the Koray Tugberk GUBUR, keyword difficulty is not a valid concept to be used in SEO anymore, because it prevents SEO projects to focus on the most important queries, concepts, and information to benefit the web search engine users. And, search engine’s purpose is to benefit search engine users with the most critically important and accurate information. Thus, keyword difficulty is a contradictory concept to the purpose of SEO which is ranking the authoritative, expert, and trustworthy sources. If a website only focuses on the long-tail queries, it means that they do not aim to give information, but only cares about the rankings. A true expert would explain the most central concepts first, by doing the hardest thing first.
+What are the critics related to Keyword Difficulty?
+Critics are related to the Keyword Difficulty focus on the scientific and academic Keyword Difficulty. The keyword difficulty concept doesn’t explain why ranking for a specific document is harder, and how it affects the next one. For example, even if a single letter changes in the search term, the keyword difficulty decreases by more than 60%, but in real search engine optimization, it doesn’t work in this way. The keyword Difficulty-related critical questions are listed and answered in the next headings.
+Is Keyword Difficulty Related to Information Retrieval?
+No, keyword difficulty is not related to Information Retrieval, or term weight calculation. Keyword difficulty is related to the SEO technologies rather than the search engine optimization and search systems. Thus, any concept that is distant from the search engines shouldn’t be used by SEOs. Quality Thresholds and Predictive ranking concepts are better to provide a better conceptual understanding for search engine optimization.
+How does Term Weight Calculating work with Keyword Difficulty?
+Term Weight Calculation is a concept for search engine optimization and building. Every term in a query and the document titles have a different weight. The heaviest terms are used as the relevance points to be connected to each other. Having the same relevance point with a richer combination of possible phrases is better to have a better term weight to have a higher relevance. Term weight calculation is to understand the relevance and overall topicality of the document and the query. The keyword difficulty is not used for term weight calculation, but the heaviest term appearance in multiple other queries helps SEO tools to locate the “seed queries”. Seed queries are queries that create other variations of the same query. Thus, seed queries usually have higher keyword difficulty than other concepts.
+Does Google Use Keyword Difficulty Concept?
+No, Google doesn’t use the Keyword Difficulty concept. Google uses Quality Trehsholds, Relevance Thresholds, and Precative Ranking to explain the possible ranking, and ranking modifications for the candidate documents to be ranked. Google doesn’t use the concepts from SEO tools such as Domain Authority, URL Rating, or the Keyword Difficulty.  Search engines use the term “query” instead of the keyword. Thus, the Keyword Difficulty Concept is not a search engine-originated concept. It is a concept from SEO technologies.
+What are the best concepts for SEO that can replace Keyword Difficulty?
+The best concepts to replace the Keyword Difficulty are listed below.
+Quality Threshold is a concept to replace keyword difficulty with understanding the quality that needs to be ranked for certain types of queries. It is related to
+Semantic SEO
+and E-A-T.
+The Relevance Threshold is related to Information Retrieval. A document might be quality, but if not relevant, it won’t be ranked. Keyword difficulty doesn’t explain relevance, need, or calculation.
+Predictive Ranking is helpful to understand how a document might be ranked predictively with what concepts. It is helpful to use it instead of keyword difficulty. To understand predictive ranking,
+How Does Google Rank
+research is valuable.
+Propagation of Relevance involves the reflection of the relevance of a web page to another. Connected concept processing helps a search engine to relate a source overall for a topic. Topical relevance is related to
+Topical Authority
+. Propagation of Relevance replaces the keyword difficulty with certain relevant understanding perspectives.
+Propagation of Quality is another concept to replace certain aspects of keyword difficulty. It helps to propagate the quality of a web page to another one with connected concepts.
+The b
+
+[...truncated...]

@@ -1,0 +1,121 @@
+Load CSS Asynchronously & Remove Render-blocking CSS - Holistic SEO
+Skip to content
+How can we load CSS Asynchronously? To load javascript with the async feature, only the “async” attribute is sufficient, but what about CSS? While the render-blocker resources are loaded by the browser, it prevents the browser from performing the rendering, painting, and placing actions on the page. For this reason, the users cannot perform the operations they want during the loading of the web page or they can see the important content of the page later than it should be. Loading CSS with the async feature is important in solving this problem and obtaining the “responsive loading” feature with user-centric performance metrics.
+Contents of the Article
+show
+1.
+Why is Loading Asynchronously important?
+2.
+Which Web Page Performance Metrics and Core Web Vitals Metrics Can Be Improved by Loading CSS Async?
+3.
+How to Load a CSS File in an HTML Document?
+4.
+How to Load CSS Files Asynchronously with Media Attribute?
+5.
+A Live Example of Async Loading of CSS Files
+6.
+How to Audit and Determine Which CSS Files Should be Loaded as Async?
+7.
+What Does “Print” in “Media” Attribute Mean?
+8.
+Why you shouldn’t use faux media types for Loading CSS as Async?
+9.
+Can “preload” Browser Hint Help for CSS Loading as Asynchronously?
+10.
+How to Load CSS Asynchronously in Chrome and Firefox in the Best Possible Way?
+11.
+How to Load CSS Files without Render Blocking Resources Effects with Javascript?
+12.
+Why Loading CSS Files Asynchronously via Javascript can have side-effects for Web Performance?
+13.
+What is LoadCSS.js Library and How to Use it for Asynchronous CSS?
+14.
+Why you should use the NoScript tag while loading CSS async?
+15.
+Last Thoughts on Asynchronous CSS Loading and Holistic SEO
+Why is Loading Asynchronously important?
+Asynchronously, the loading of web resources by the browser during the creation of the web page allows the user to see the finished web page elements on the web page earlier. However, loading every resource asynchronously can create a bottleneck in the browser’s main thread. For this reason, it is important to determine which web page elements will be loaded in what order and whether asynchronously or synchronously. Asynchronously loading CSS Resources is important for speeding up the web page and developing web performance metrics to improve the user experience.
+Which Web Page Performance Metrics and Core Web Vitals Metrics Can Be Improved by Loading CSS Async?
+In the relationship between loading CSS Files as Async and opening web pages earlier for the user, some Pagespeed Metrics are more positively affected than others. Faster loading of CSS Files especially improves First Paint,
+First Contentful Paint
+,
+Largest Contentful Paint
+, and
+Speed Index
+metrics.
+Largest Contentful Paint is the moment the main content of a web page is loaded in the section above the fold.
+First Contentful Paint is the moment during the loading of a web page, a web page component is fully loaded.
+First Paint refers to the moment when the first pixel is painted during the loading of a web page.
+Also, all of these metrics are being calculated in the
+above the fold
+section that is being visible to the user during the web page loading.
+How to Load a CSS File in an HTML Document?
+There are three different ways to upload CSS Files in an HTML Document.
+Inline CSS, loading CSS Codes in the “style” attribute within the HTML nodes.
+Internal CSS, loading CSS files in tags within the HTML Document.
+External CSS, loading CSS Files within the elements with external CSS file links.
+To load CSS Files asynchronously, we need to use the external CSS files. To learn more about how to
+use CSS in HTML
+Documents, you can read our related guideline. And, if you don’t have enough information for “
+What is HTML
+“, you can read our related guideline.
+How to Load CSS Files Asynchronously with Media Attribute?
+The “media” attribute is used to upload CSS files asynchronously within the HTML Document. The media attribute specifies which media types the CSS file is valid for. When the “print” value is selected for the media attribute, the browser loads the relevant CSS file asynchronously. This is because we specify that the corresponding CSS file is for “printable” web page elements only. Therefore, the browser allows loading asynchronously, considering that the relevant CSS file is not of great importance. However, the “media = ‘print'” attribute and value pair prevents it from being used after the corresponding CSS file is loaded. For this reason, the CSS file related to the “onload event” of Javascript is loaded asynchronously. With “onload = ‘this.media =’ all ‘”, the CSS file is loaded asynchronous and it can be used without a render-blocker effect.
+To load CSS Files async, you can check the code block below.
+<link rel="stylesheet" href="style.css" media="print" onload="this.media='all'"
+A Live Example of Async Loading of CSS Files
+In Holisticseo.digital, we are planning to use GatsbyJS for better page speed, crawl efficiency and page experience via its virtual DOM. But before using GatsbyJS, in our wordpress version, we didn’t perform a page speed improvement yet. Thus, you can see how to load CSS files as async with a live example through Holisticseo.digital and its efficiency. Below, you will see an example
+Holisticseo.digital’s CSS Files that can be loaded as async.
+Below, you will see that how we used “media=’print” feature with onload event for our CSS files that are being meant in the Lighthouse report.
+In Visual Studio Code, we have marked all CSS files with “media=’print’ onload=”this.media=’all'”.
+We have checked all the CSS files for loading as asynchronously. But also, only loading the most important CSS files asynchronously can create more page speed improvement since it won’t create a CPU Bottleneck for the Browser’s Main Thread and also it will prioritize the most important CSS resource. Here, we have chosen to load all CSS files async because all of them touch to the above the fold section with style effects. You will see the result below.
+We have decreased the syncrhonously loaded CSS file amount by 5.
+The last CSS file is still being loaded as synchronously, because it couldn’t be finished during the loading of 6 different CSS file’s asynchronously loading phase. Thus, prioritizing the which CSS files should be loaded as asynchronously is important.
+How to Audit and Determine Which CSS Files Should be Loaded as Async?
+To audit and check which CSS files can be loaded asynchronously or which of them are being synchronously at the moment, you can use the methods below.
+Check which CSS Files are affecting which segment of the web page.
+Check the HTML Source Code to see how CSS Files are being loaded.
+Perform a Lighthouse Audit or use GTMetrix, Pingdom, Speedcurve.
+Perform experiments to see web pages’ changes in terms of performance while loading CSS files asynchronously.
+CSS Files of Holisticseo.digital.
+I recommend you to perform a manual check and then use the Lighthouse or other page speed test tools to see how CSS Files are being loaded.
+What Does “Print” in “Media” Attribute Mean?
+Print value for the media attribute means that the related source is only for the print-based media. Thus, a source file for the print-based media can only be used for the printable web page element. If you declare that a CSS file is only related to the printable media, browser can’t use it for the rest of the web page thus using the “print” value in the media attribute would be unnecessary unless you use onload event to turn its media value into the “all”. “All” value within the “media” attribute means that the related CSS file is a valid file for the all of the media types in the web page, thence it can be used for all of the web page after it is being loaded asyncrohonously.
+Why you shouldn’t use faux media types for Loading CSS as Async?
+To load CSS files asynchronously, some developers try to use “faux” media types. It means that they try to use “non-existing” or “non-valid” media types for making the files’ loading process faster.
+Some browsers refuse to upload files containing faux media type or leave them to end. The reason for using media attributes to upload important CSS Files asynchronously is to allow the user to see the web page regarding the required style effects earlier. CSS files used with faux media type have the risk of not loading at all and may slow down the loading speed as they can be perceived as code errors by the browser. Also, resources with a faux media type may not be used by Search Engine Crawlers, such as
+Googlebot
+.
+Can “preload” Browser Hint Help for CSS Loading as Asynchronously?
+The browser hint feature called Preload tells the browser which resources to load first to create a web page. Thus, more important resources are loaded earlier, enabling the user to benefit from the web page earlier. However, as of Firefox 59, the preload feature is not supported for Firefox. Therefore, it is currently not possible to use the preload feature for Firefox to load CSS asynchronize. The preload feature supported by Chrome, Opera and Safari can be used to upload CSS files asynchronize as follows.
+<link rel="preload" href="style.css" as="style" onload="this.rel='stylesheet'">
+We have used preload browser hint to fetch the “style.css” file with the highest possible priority, after loading it asynchronously. We have turned its “rel” attribute’s value to the “stylesheet” again via the “onload” event so that browser can use it as a source for the web page’s styles.
+How to Load CSS Asynchronously in Chrome and Firefox in the Best Possible Way?
+To load CSS Files asynchronously in both Chrome and Firefox, we can use “preload” browser hint and “media=’print'” attribute along with onload event feature in a ordered way. you may use the codes below to load CSS Files without render-blocking resources features in Firefox and Chrome.
+<link rel="preload" href="style.css" as="style" onload="this.rel='stylesheet'">
+<link rel="stylesheet" href="style.css" media="print" onload="this.media='all'"
+In this example above, we have used the preload feature first for the browsers that support it, later we have used the “media” attribute for asynchronous loading of CSS Files. Thence, if the browser supports the preload feature, it will use the first line of code only, if it doesn’t support the “preload” browser hint, then it will fetch the CSS file with the “print” media attribute and load it asynchronously.
+How to Load CSS Files without Render Blocking Resources Effects with Javascript?
+It is possible to upload CSS Files asynchronously with Javascript. For this, the relevant CSS file is added to a variable and inserted at the end of the head section with the help of Javascript. Since Javascript can be run as “async”, it is possible to load CSS Files with Javascript asynchronously. To load CSS files asynchronously without any kind of render-blocking resources effect, you can use the code example below.
+var styleCSS= document.createElement("link");
+styleCSS.rel = "stylesheet";
+styleCSS.href = "style.css";
+document.head.insertBefore(styleCSS, document.head.childNodes[document.head.childNodes.length - 1].nextSibling);
+You may see the explanation of the code block above line by line.
+In the code block above, we have created a variable that stores the link element that we have created via the “document.createElement()” method.
+We have used “rel” method to specify the stylesheet as our “rel” value.
+We have used “href” method for specifying our CSS file’s URL and extension.
+We have inserted our CSS File that is being stored in “styleCSS” variable with its “stylesheet” and “style.css” values for “rel” and “href” attributes via “document.head.insertBefore()” method.
+We have inserted our CSS link element to the end of the head section of the HTML Document.
+To load CSS files asynchronously by Javascript the code block above can be used.
+Why Loading CSS Files Asynchronously via Javascript can have side-effects for Web Performance?
+Thanks to Javascript, we can load CSS files asynchronously but since this Javascript code block will work in the “client-side rendering” principles, it will decrease its efficiency. The browsers will stop the rendering of the web page when they encounter these internal script tags, then they will render the javascript code to load the CSS asynchronously. Thus, the total rendering time of the web page can be longer than necessary.
+Also changing a web page’s styles and final situation via Javascript is not recommended for the SEO. Client-side rendering of the web pages can make Googlebot and other Search Engine’s crawlers to have difficulties to see the final version of the web page while consuming the crawling and rendering resources. Googlebot and Bingbot are able to render the javascript but they don’t use rendering for every crawling process, thus sometimes they might miss the CSS files’ effects that are being loaded via Client-side rendering for the web pages and this can affect the quality score of the web pages in the perspective of Search Engine Algorithms.
+Loading important CSS files via Javascript also can create a non-optimized resource load order since the related CSS file can be read at the end of the head section, probably some other resources will be already downloaded. That’s why using “preload” or “media=’print'” methodologies can be better for web performance and also
+crawl efficiency and budget
+.
+What is LoadCSS.js Library and How to Use it for Asynchronous CSS?
+The LoadCSS.JS library is a Javascript library created for CSS Files to be loaded asynchronously. In order for the relevant CSS Files to be loaded asynchronously, the “LoadCSS.js” file must first be uploaded on the web page. It can be loaded externally or internally in the head section. It is possible to manually insert a CSS into HTML Node asynchronously with the “loadCSS ()” function. Below is an example.
+loadCS
+
+[...truncated...]

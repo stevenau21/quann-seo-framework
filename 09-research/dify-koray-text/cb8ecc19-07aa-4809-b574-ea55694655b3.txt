@@ -1,0 +1,122 @@
+Skip to content
+The <dd> HTML Tag specifies a definition in the description list. The <dd> HTML Tag represents a detailed definition, concept, or value that is a member of a terminology group in a description listing, and is represented by the value of attribute. The <dd> HTML Tag is used in HTML documents to establish a definition or explanation for the keyword contained in the following <dt> HTML Tag, and it is contained inside a description list within the HTML text. The <dd> HTML Tag is part of the List tags category in HTML Element Reference. The attributes of the <dd> HTML Tag are the global and event attributes.
+<dd> code block example to learn how it works is given below.
+<dl>
+<dt>Phrase...</dt>
+<dd>Definition...</dd>
+<dt>Phrase...</dt>
+<dd>Definition...</dd>
+</dl>
+The second example usage of the “<dd>” code block example is given below.
+<dl>
+<dt>Singer</dt>
+<dd>Maroon 5</dd>
+<dt>Guitar</dt>
+<dd>James Valentine</dd>
+<dt>Drums</dt>
+<dd>Matt Flynn</dd>
+</dl>
+Contents of the Article
+show
+1.
+What is <dd> HTML Tag?
+2.
+How to Use <dd> HTML Tag?
+2.1.
+Example Usage of <dd> HTML Tag?
+3.
+What are the Attributes of <dd> HTML Tag?
+4.
+What are the Default CSS Settings for <dd> HTML Tag?
+5.
+What are the Related other HTML Tags to <dd>?
+What is <dd> HTML Tag?
+The <dd> HTML Tag contains a definition, description, or value for the previous term <dt> element, which is contained within a description list <dl> element. It is possible to combine a term definition with one or more related definition terms that are encased in <dt> HTML Tags inside a primary description list by using the <dd> HTML Tag. A minimum of one <dt> HTML Tag should be used for each group, that should be preceded by a minimum of one <dd> Html Tag. The <dd> HTML Tag is a block-level element, which means it can contain other elements like as paragraphs and lists. It can also include images and links, among other things.
+How to Use <dd> HTML Tag?
+To use the <dd>, HTML Tag, the web developer should write the <dd>, <dt>, and <dl> with the definition description placed between the start and end tags.. Web developers can use these tags to build and/or insert links, graphics, phrases, listings, and other types of elements into their pages.
+Example Usage of <dd> HTML Tag?
+The following examples of usage of <dd> HTML Tag are given below.
+<dl>
+<dt>Dog</dt>
+<dd>The most ideal pet to have</dd>
+<dt>Snake</dt>
+<dd>Definitely not the finest choice for a companion animal</dd>
+</dl>
+<dl>
+<dt>Caffè macchiato</dt>
+<dd>A steaming mug of rich, dark-brown espresso bean</dd>
+<dt>A refreshing beverage made with chocolate milk</dt>
+<dd></dd>
+</dl>
+What are the Attributes of <dd> HTML Tag?
+There are multiple attributes for the <dd> HTML Tag. The following attributes are listed below.
+Global Attributes: The <dd> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <dd> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <dd> HTML Tag?
+The following are the Default CSS Settings for the <dd> HTML Tag. Some examples are listed below this document.
+output {
+font: 1rem 'Fira Sans', sans-serif;
+}
+p,
+dt {
+font-weight: bold;
+}
+dl,
+dd {
+font-size: .9rem;
+}
+What are the Related other HTML Tags to <dd>?
+The other related HTML Tags to the <dd> HTML Tag are listed below..
+<ul> HTML Tag: The
+<ul>
+HTML Tag and <dd> HTML Tag are related because they are both lists HTML Tags. The <ul> HTML Tag is a list that is not organized by the user’s selections.
+<ol> HTML Tag: The <ol> HTML Tag and <dd> HTML Tag are related because they are both lists HTML Tag. The
+<ol>
+HTML Tags describes an orderly arrangement list.
+<dl> HTML Tag: The <dl> HTML Tag and <dd> HTML Tag are related because they are both lists HTML Tags. The
+<dl>
+HTML Tag This term refers to a description list is defined by this function
+<dt> HTML Tag: The
+<dt>
+HTML Tag and <dd> HTML Tag are related because they are both lists HTML Tags. The <dt> HTML Tag is a term that identifies the lists of the definition of a phrase or name.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+1 thought on “HTML <dd> Tag Definition, Usage and Examples”
+Hello, thanks for describing the dd, dt and dl list tags. Could you please tell me if there is any potential SEO effect of using these? I mean, rather than improving the semantics of the HTML, obviously. For example, you mentioned the ol and ul tags with which usage, you can appear as a featured snippet in the SERP if used properly.
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <dd> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <title> Tag Definition, Usage and Examp…
+TechSEO
+HTML <footer> Tag Definition, Usage and Exam…
+0
+0
+1

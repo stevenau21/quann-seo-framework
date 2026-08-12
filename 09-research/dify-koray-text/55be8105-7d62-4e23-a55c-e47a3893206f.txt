@@ -1,0 +1,132 @@
+Subscription Economy Model Explanined With Examples
+Skip to content
+Netflix does it, Swapfiets does it, Adobe does it: the subscription economy has been the cross-industry growth trend in recent years. The concept is simple: a subscription system that leverages the technical advantages of digital transformation and helps companies grow. What is so attractive about it, especially in the 21st century?
+Contents of the Article
+show
+1.
+The “As a Service” Revolution: Flexibility as to the Key to Success for Subscription Economy
+2.
+“To subscribe or to not subscribe” That is the Question” for Subscription Economy
+3.
+What are the differences Between Financing, Leasing, and Subscription?
+4.
+Not all Subscriptions are the Same
+5.
+Some Statistics for Subscription Economy Model
+6.
+Who are the Main Players for Subscription Economy?
+7.
+9 Subscription Business Model Example
+7.1.
+1. Subscription to a Website or Media
+7.2.
+2. Subscription to a Network
+7.3.
+3. The Private Club Model
+7.4.
+4. Access to a Library of Unlimited Content
+7.5.
+5. The Premium Subscription
+7.6.
+6. Subscription for Consumable Products
+7.7.
+7. Subscription to Boxes
+7.8.
+8. The Simplifying Subscription
+7.9.
+9. Insurance Subscription
+8.
+How will Subscription Economy Model’s Future be?
+9.
+Last Thoughts on Subscription Economy and Holistic SEO and Digital Marketing
+The “As a Service” Revolution: Flexibility as to the Key to Success for Subscription Economy
+The expectations we place on companies, their products, and services are no longer the same as they were 30 years ago. Our society is changing and our individual usage behavior as consumers is also changing. Flexibility and individuality are the two factors that form the basis of the rise of the subscription economy. Traditional business models are being replaced by innovative subscription models and physical products are being remodeled into practical, flexible services.
+Netflix is ​​a flagship of the subscription economy: a company that has grown incredibly quickly with a modern subscription model. At Netflix, however, the focus is not only on the film or series but on the individual experience. Instead of a DVD, there is access to a variety of options including tailored recommendations for maximum entertainment. Services instead of products, access instead of ownership, and a new age of customer relationships apply to subscription models. Because here the customer experience is in the foreground and technical possibilities allow companies to learn more about their customers and their wishes than ever before. In this way, products and services can be optimally tailored and brand-customer relationships can be personalized.
+In view of the social trends, the subscription economy represents a contemporary and profitable business model for scaling up. Subscriptions are not only available to purchase products and services online, but also outside of e-commerce. The best-known “as-a-service” product is, for example, software as a service, a form of cloud computing. But companies in other industries are also showing the way: at Hello Fresh, you can subscribe to cooking boxes, Swapfiets offers bicycles by subscription, and Unicorn Workspaces offers flexible offices by subscription.
+The Subscription Economy Model can be defined as “from product to service”.
+Subscription business models are an attractive financial option for companies because they generate a constant stream of revenue. They are flexible monetization models and offer the opportunity to flexibly design your own pricing model. The success of a subscription business ultimately depends on whether the business income covers the expenses. The principle is that the costs of acquiring new customers must be lower than the customer lifetime value. The following 5 key figures are relevant when measuring the success of a subscription model:
+Acquisition
+costs of
+the female subscribers:
+all aggregated costs for the acquisition of new female subscribers, e.g. marketing expenses, sales commissions
+Monthly recurring income:
+the monthly amount of fixed income (net user fee/month)
+Churn rate:
+Subscriptions are quickly concluded and quickly canceled, this rate must be kept in mind
+Monthly recurring costs:
+Expenses are necessary to generate income, but should also be controlled
+Customer lifecycle:
+The lifetime value describes the total turnover that is achieved per subscription.
+“To subscribe or to not subscribe” That is the Question” for Subscription Economy
+Flexible, individual, uncomplicated: Subscriptions meet the spirit of the times. Modern consumers don’t want to have to forego anything and choose access through ownership. This is why the subscription economy is a response to consumer behavior in the 21st century and profitable for companies. With more insight into the consumer behavior of customers, the product can easily be improved, users can be kept simpler and thus predictable sales flows can be generated. This creates optimal conditions for company growth. At the same time, however, customer expectations have also risen: Products not only have to be attractive, but they also have to be extraordinary and personal experiences. Added value must be created. The actual implementation of a subscription model with a view of the IT effort and the requirements for financial accounting is also challenging. “To subscribe or not to” is the ultimate question. The question for consumers, but also for companies, before deciding whether subscriptions are the right way for them to scale.
+According to the McKinsey Analysis, Social Media Subscriptions and Product Sales are correlated each other.
+What are the differences Between Financing, Leasing, and Subscription?
+But how do these subscription models work in contrast to classic leasing or financing? This is explained below using the car as an example, but it can of course be applied to various products or services that are available by subscription.
+If you cannot put the money for the car purchase directly on the table in cash, you can finance your car. In the case of financing, basically, a loan is taken out from a bank in order to be able to pay the vehicle price directly to the dealer. The money is then paid back to the lender in monthly installments. The advantage here: At the end of the term, you actually own the car. Disadvantages are high-interest rates and hardly any flexibility.
+Leasing is a kind of long-term car rental; here, too, monthly installments are paid, but to the dealership itself – usually over a period of two or three years. At the end of the leasing period, you can decide whether the car should be returned and a new car leased if necessary, or whether you want to keep the car – the contributions already paid will then be credited to you.
+Since owning a car is becoming less and less important for many – especially young – people, there are currently more car subscription models on the market. They are sometimes referred to as all-inclusive leasing and are characterized by an extremely high level of flexibility and comprehensive service. The user pays a usually quite high monthly fee, but does not have to worry about anything – everything is already covered by the subscription, both financially and organizationally. If the car needs to be repaired, for example, all you need to do is call the provider. All insurance and taxes are already included in the monthly fee. The customer actually only has to refuel himself – and can choose a different model daily, weekly, or monthly, depending on the tariff.
+From “buy” to “subscribe”.
+Not all Subscriptions are the Same
+But there are not only differences between subscriptions and leases. Since almost every good can now be subscribed to, different subscription models have of course also developed. From rental subscriptions like for the car to beauty or grocery boxes to club memberships like Netflix or software providers. Incidentally, SaaS (Software-as-a-Service) is also a hot topic of our day. Since the triumphant advance of the cloud, more and more software providers have been selling their products remotely and as a subscription (well-known examples are Microsoft Office 365 and Adobe Creative Cloud).
+Companies benefit particularly from the possibility of subscribing to SaaS offers as required and being able to install them on their own devices instead of having to provide expensive software licenses and the necessary hardware.
+So it turns out that the subscription model is not new, but has developed rapidly in recent years.
+The subscription economy is admittedly a bit of “old wine in new bottles”, but “awesome shit” still applies
+, with countless advantages for customers and companies.
+Some Statistics for Subscription Economy Model
+Below, you will see statistical facts for Subscription Economy Model.
+64%
+– The percentage of 18 to 24 years old who consume at least one product or service by subscription (source:
+Leslivresblanc
+, 2018)
+9%
+– The percentage of French people who are attached to the fact of owning or not a good that they consume (source:
+Leslivresblanc
+, 2018)
+45%
+– The percentage of French people who have at least one streaming or box subscription. (source:
+Leslivresblanc
+, 2018)
+38%
+– The percentage of consumers with more than 6 subscriptions (source:
+Simply
+)
+3
+– The average number of subscriptions per French (source:
+Webloyalty
+)
+52%
+– The percentage of French people who spend more than 50 € / month on subscriptions, excluding electricity and gas (source:
+Webloyalty
+)
+100 billion dollars
+– The weight of the software market dedicated to the subscription economy (source:
+Ziqy
+)
+Who are the Main Players for Subscription Economy?
+Below, you will see the main actors for subscription economy model.
+Netflix
+– No need to introduce this streaming industry behemoth to you, almost all of us know him today. One of the industry’s pioneers, Netflix was created in 1997 as an online video rental and shopping site.
+OCS
+– Netflix’s main rival in France, OCS offers its own streaming service with many programs.
+My Little Box
+– A benchmark for French box subscriptions that offer low-cost boxes containing various samples related to the beauty and fashion industry.
+Le Petit Ballon
+– A box that could only be French: a subscription to receive wine each month at home.
+Common features of Subscription Economy Model and some brand example for subscription economy.
+9 Subscription Business Model Example
+Two main types of subscriptions exist on the market: the classic subscription where the user pays a fixed rate to benefit from a service or regular service and the on-demand subscription where the user pays only for what it consumes. Each of them has several variations with their own specificities, allowing entrepreneurs to find the right system adapted to each of their projects. 1min30 tells you more about the
+9 business models of subscription sales
+, the most popular today.
+1. Subscription to a Website or Media
+It is the most classic model, used by most e-commerce sites and the media. But it requires good analysis and effective and efficient tools if we want to achieve our objectives. In fact, an in-depth analysis will better understand the effectiveness of this economic model. You have to understand the advantages and better understand the disadvantages. As for subscription management tools, they are essential, especially when it comes to payments.
+We must also think about the “means” used to encourage Internet users to subscribe. A strategy that should not frustrate users too much. Among other things, we can, for example, give them access to 1 or 2 articles before blocking access, display only part of the content, set up a model where each article is paid independently, offer articles accessible only to subscribers, or promise subscribers pages displayed without advertising.
+2. Subscription to a Network
+Traditionally, it is the Business Model of the telephony sector, but it is an economic model that has adapted to other sectors, in particular that of the Web. The creation of a network or a social platform depends above all on the number of users. The first objective is therefore to accumulate as many customers as possible, before even thinking about monetization, for example via advertising. Subscription to a network is then based on the viral engine.
+As a rule, subscribers of a social network or platform, use and benefit from free services. The “paying” side is then found in the connection between the customer and the user. This link is often made through classic advertising and sponsored or sponsored messages. Some large companies that have opted for this economic model have even started selling personal data. But it is still a controversial and very delicate subject with its risks and problems.
+Several start-ups and small businesses in this sector, including messaging and other “small” social networks, have managed to accumulate a significant number of subscribers, to the point of being bought by the giants of the Web.
+Subscription Economy Model Cycle
+3. The Private Club Model
+As in other sectors, everything will depend on the economic model adopted for the private club. But generally, a private club offers a range of services based on the principle of exclusion. Offers aimed at a certain type of customers who share common interests. The targeted clientele, therefore the members, is handpicked because they are often people who want to obtain something more, specific, rare, offered in a setting that stands out.
+Thus, when a company wants to create its private club, the important thing is to clearly define the target, then to offer products or services whose value must be equal or even greater than the expectations of the “privileged”. Having an original idea of ​​the offers when establishing the economic model is essential to attract more customers. They, for example, want 24-hour access to services or the platform and more products than an average customer, personalized assistance with professionals 
+
+[...truncated...]

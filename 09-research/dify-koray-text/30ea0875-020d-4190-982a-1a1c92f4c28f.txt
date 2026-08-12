@@ -1,0 +1,228 @@
+Skip to content
+Digital PR and Local SEO worked together to improve the authority of the site and bring a significant increase in relevant traffic to Encazip.com within 3 to 6 months.
+The general precept of this SEO project was:
+“Every pixel, millisecond, byte, letter, and user matters for SEO”
+Koray Tuğberk GÜBÜR
+The project was led by
+Koray Tuğberk GÜBÜR
+of
+Holistic Digital
+who is the author of this case study.
+Last 3 Months Comparison of Encazip.com, taken on 6th February 2021.
+This case study will demonstrate how clear lines of communication between software development and marketing teams can positively impact SEO results. The Encazip SEO Project achieved:
+155% Organic Traffic increase in 6 months
+110% Organic Traffic Increase in YoY Comparison for the same three months ( November to January)
+To achieve this increase in Organic Traffic, the only targeted keywords were “Relevant and Possible Search Activities” with Semantic SEO Conception.
+Comparison between August and January 2021 for Encazip.com
+Organic Search View from Google Analytics with Average Session Duration.
+The last state of the Holistic SEO Case Study.
+Contents of the Article
+show
+1.
+Holistic SEO Tutorial and Case Study Step by Step
+1.1.
+Background of the Holistic SEO Case Study and Research for Search Engines
+2.
+3.0 Page Speed Improvements: Every Millisecond Matters
+2.1.
+3.1 HTML Minification for Gaining 15 Kilobytes per Web Page
+2.2.
+3.2 CSS and JavaScript Refactoring
+2.2.1.
+3.2.1 Why Have Two Different CSS Files?
+2.2.2.
+3.2.2 How does a Search Engine crawler know what to cache?
+2.3.
+Text Compression on the Server-side and Advantage of Brotli
+2.3.1.
+3.3.1 Why is Server-side Compression Important?
+2.4.
+3.4 HTTP 2.1 Usage Instead of HTTP 1.1
+2.4.1.
+3.4.1 HTTP 2.1 Server Push
+2.5.
+3.5 Resource Loading Order and Prioritization
+2.5.1.
+3.5.1 Cross-Browser Compatibility for Preload Usage
+2.5.2.
+3.5.2 What You Should Know About Preload
+2.5.3.
+3.5.3 Beyond Preload: Preconnect for Third-Party Trackers
+2.5.4.
+3.5.4 Loading CSS Files as Async
+2.5.5.
+3.5.5 Deferring All the Third Party non-Content Related Trackers
+2.5.6.
+3.5.6 Using Async for Only the Necessary JavaScript File
+2.5.7.
+3.5.7 Loading the Polyfill JS Only for Legacy Browsers
+2.6.
+3.6 Aggressive Image Optimization with SRCSet and AVIF Extension
+2.6.1.
+3.6.1 Intersection Observer for Image Lazy Loading
+2.7.
+3.6.2 Image Placeholder for Better Speed Index and Largest Contentful Paint
+2.7.1.
+3.6.3 Using Image Height and Width Attributes for Cumulative Layout Shift
+2.8.
+3.7 Web App Manifest Usage for Progressive Web Apps
+2.9.
+3.8 Using Service Workers for Better HTML Payloads
+2.10.
+3.9 Cleaning Unused Code from Third-party Trackers by Localizing
+2.11.
+3.10 Conflicting Document Type with Response Headers and HTML Files
+2.12.
+3.11 HTML Digestion and HTML-Based Improvements
+2.12.1.
+3.12 Semantic HTML Usage
+2.12.2.
+3.13 Decreasing the HTML DOM Size
+2.12.3.
+3.14 Font File Count and Size Decreasing
+2.12.4.
+3.15 Using Font Variables
+2.12.5.
+3.16 FOUT and FOIT
+2.13.
+3.17 Using Browser-Side Caching for Static Resources
+3.
+Structured Data Usage for Holistic SEO
+4.
+5.0 Website Accessibility: Every User Matters
+4.1.
+5.1 Using Accessible Rich Internet Applications for being a Better Brand and Holistic SEO
+5.
+Website Redesign Process for Holistic SEO: Every Pixel Matters
+5.1.
+6.1 Website Representation Vectors for SEO
+5.2.
+6.3 Visual Segmentation of Web Pages based on Gaps and Text Blocks
+5.3.
+6.4 VIPS: a Vision-based Page Segmentation Algorithm:
+6.
+7.0 Kibana and ElasticSearch Usage for Log Analysis
+7.
+8.0 Branding, Digital PR, and Entitization of Encazip.com: Every Mention Matters
+7.1.
+8.1 Social Media’s Effect on Becoming an Entity and Entity-based SEO
+7.2.
+8.2 Local Search and GMB Listing’s Effect on Entities in the SERPs
+8.
+9.0 Protecting the Site Migration Route
+9.
+10.0 Authoritative, Semantic SEO for Content Marketing: Every Letter Matters
+9.1.
+10.1 Different Contexts within Semantic Topical Graphs
+9.2.
+10.2 Image Search and Visual Content Creation
+9.3.
+10.3 Image Sitemap, Image Structured Data and Representative Images for Landing Pages
+10.
+11.0 Importance of Clear Communication & Passion for SEO on the Customer-side
+10.1.
+11.1 Importance of Educating the Customer in Advanced SEO Concepts
+11.
+12.0 Importance of Broad Core Algorithm Update Strategy for SEO
+12.
+12.1 Effects of December Broad Core Algorithm Update of Google on Encazip.com and its Competitors
+13.
+12.2 Effects of June 2021 Broad Core Algorithm Update of Google on Encazip.com and Competitors
+14.
+12.3 Effects of July 2021 Broad Core Algorithm Update of Google on Encazip.com and Competitors
+15.
+Effects of November 2021 Broad Core Algorithm Update, Content Spam Update, and Competitors
+15.1.
+Website Migration to ReactJS and NextJS
+15.2.
+Website Migration to the WWW URL Property from without WWW Version
+15.3.
+New Content Sprints and URL Count Restrictions
+16.
+Effects of May 25, 2022, Broad Core Algorithm Update
+17.
+Conclusions for the 2022 May BCAU of Google for Holistic SEO Case Study
+17.1.
+Effects of Expanding the Brand Identity and Service Area – Connectedness of Topics, and Propagation of Expertise from a Topic to Another
+18.
+Effects of September 2022 Broad Core Algorithm Update, Helpful Content Update, and Fifth Product Review Update
+18.1.
+Topical Consolidation for the New Sectors, and Initial Ranking
+18.2.
+Summary of Conclusions for 2022 September BCAU Effects of Google
+18.3.
+Notes for Helpful Content Update and Product Review Update
+19.
+13.0 Last Thoughts on Holistic SEO and Case Studies
+Holistic SEO Tutorial and Case Study Step by Step
+Encazip.com
+is an energy consumption tariff comparison, modification, savings brokerage, an affiliate company. Encazip.com is a Turkish-based company, founded by localizing the know-how of the founders of uSwitch.com.
+This is a YoY Comparison for the Encazip.com SEO Project’s GSC Data using DataBox
+The idea of “Encazip.com” has been realized by a consortium under the leadership of Çağada KIRIM and backed by British investors, including Henry Mountbatten, The Earl of Medina. Electricity pricing and industrial or personal energy consumption is the primary target of the company. At the beginning of the SEO Project, the design, web page loading performance, branding, and content structure along with the education of the customer were looked at with a fresh perspective.
+The
+“Everything matters in SEO”
+perspective was adopted by the customer.
+“We acknowledge the importance of SEO with no doubt, however, we would rather approach this subject to be one of the foundations of our corporate culture. I believe we have achieved the establishment of SEO culture in
+encazip.com
+thanks to Koray, and I am looking forward to being a part of more case studies on this very important subject.”
+Çağada Kırım, CEO, Encazip.com
+Background of the Holistic SEO Case Study and Research for Search Engines
+If Encazip.com’s team were not passionate about SEO, then it would not be possible to perform this case study at such a detailed level. Thanks and acknowledgments go to the whole team, especially Miss Yağmur Akyar, Mr. Erman Aydınlık, Mr. Nedim Taş, Mr. Oktay Kılınç, and Mr. Can Sayan. CEO Mr. Çağada Kırım, who brought the entire team together and organized it for SEO, was also a major factor in the success of the project.
+Some parts of this SEO Case Study have been written by the Customer’s Team and will cover Technical SEO, Branding, Entitization, Content Marketing, Digital PR, and Web Page Loading Performance.
+This screenshot has been taken on 9 June 2021 which is 7 days after the 2021 June Broad Core Algorithm Update of Google.
+3.0 Page Speed Improvements: Every Millisecond Matters
+According to Google’s RAIL model “Response”, “Animate”, “Idle”, “Load”, a developer-only has 10 milliseconds to move a pixel. To acquire “60 Frames per seconds”, we have 16 Milliseconds, but also the browser needs 6 milliseconds to move one frame over another, which leaves us only 10 Milliseconds.
+And, Pagespeed is actually a “health” and “trust” issue. If a frame doesn’t move or change itself in 16 milliseconds, users will notice some “motion bugs”. If it stays static for more than 100 milliseconds, it means that something is wrong. If it takes more than 100 milliseconds, users will start to “stress”. According to Google, a slow web page can create more stress than a fight for human beings, and it affects daily life negatively.
+This is the “core of my statements” for any first meeting with my clients’ development teams.
+Response, animation, idle, and load (RAIL).
+Below, you will see a quote from Nedim Taş who is the responsible developer for the front end of Encazip.com
+“The more important a brand’s image, the more important SEO and Code Performance are. SEO and Front-end Development can work together to create a better brand image by taking users to the most usable and accessible website for their intents.”
+Nedim Taş
+There is another “core lesson” here. I have many clients that have more than 15 members for their IT team, but yet, these crowded IT and Developer teams can’t create the same productivity and effectiveness as just a 2 personal team. If you ask me what the difference is, I would say “SEO Passion and culture of the Company” and “growth hacking instinct”.
+Now, we can look at what we have done for improving the web page loading performance of Encazip.com during the SEO Case Study and Project.
+3.1 HTML Minification for Gaining 15 Kilobytes per Web Page
+HTML Minification means deleting the HTML Inline Comments and Whitespaces of the HTML Document. This is one of the most essential page speed improvements but there are more benefits such as:
+Helps Search Engine crawlers explore the “link path” faster.
+Helps HTML digestion for Search Engine Crawlers and their Indexing Systems.
+It Lets users’ devices build the Document Object Model faster.
+It lessens the burden on the website’s server and lets users’ devices consume less bandwidth.
+A complex and big HTML document might prevent Search Engine Crawlers from loading the document or evaluating it for ranking purposes.
+For this last point, we can look at the old warning message from the previous version of Google Search Console”:
+“HTML Size is too large”
+. This warning was valid only for news sites. Google didn’t move this warning to the new Google Search Console, because I guess it didn’t want to share “weak points” or “deficits” of its indexing system. But, we still have the same warning from “Bing Webmaster Tools”.
+“HTML is too Large Warning”
+from Old Google Search Console’s News Website Section:
+In the old Google Search Console, the “extraction failed” error happened if the HTML was larger than 450 KB.
+“HTML is too Large”
+warning from Microsoft Bing’s Webmaster Tools
+As a note, Microsoft Bing appears to be more open with information sharing about its algorithms and “desires” from webmasters than Google’s “BlackBox” attitude.
+HTML Minification for Encazip.com was done in the first month of the project.  But further down the line, we had to can this work as we had some “server incapabilities” during the migration from .NET to .NET Core.
+So, even the simplest Pagespeed Improvement has lots of aspects and value for SEO, also bear in mind that it might not be as simple as you may think!
+3.2 CSS and JavaScript Refactoring
+All Developers know that “refactoring a CSS File” is actually harder than writing a CSS File from scratch. Some developers call this situation “Code Spaghetti”. If you experience this, you should create a clean and efficient new CSS and JavaScript file for the same layout and functionality.
+A screenshot from “CSS specificity calculation”.
+In this example, the “CSS and JavaScript Minification” took place at the same time as “CSS and JavaScript Refactoring” as there was already a plan for the website redesign.
+(Editor’s Note: For more on this, see Koray’s article on “
+Advanced Page Speed Metrics
+”.  He covers what to know and what to do to achieve an efficient Rendering Tree).
+Before the JavaScript and CSS Refactoring process, there were more than 8 JS and CSS Files for only “page layout and functionality”. And, most of this code was not used during the web page loading process.
+Test-driven development Methodology (TDD)
+The total size of these web page assets was more than 550 KB.
+At the end of this process, the development team decreased the total number of CSS and JS files to 3.
+Two of these 3 files were CSS and their total size was 14 KB.
+The JavaScript file that is being used for functionality was only 7 KB.
+3.2.1 Why Have Two Different CSS Files?
+Having the two different CSS Files lets Google cache and use just the necessary web page resources for its crawling routine. Googlebot and other Search Engine crawlers use “aggressive caching”, which means that even if you don’t cache something, Googlebot stores the necessary resources.
+YoY Comparison for November, December, and January.
+3.2.2 How does a Search Engine crawler know what to cache?
+Thanks to aggressive caching of web page resources, a search engine uses less bandwidth from the website’s server and makes fewer requests, thus the Search Engine Crawler can crawl a website more quickly.
+To determine how to crawl a site, search engines use Artificial Intelligence. If a website uses all its “CSS and JavaScript files” site-wide, it means that the Search Engine will have to cache all of these resources.
+But, in this case, only the necessary CSS File for the necessary web pages was needed, thus we can facilitate “fewer requests” for the search engine crawler and also help it use only the essential files.
+In our example, only three different types of a web pages were used according to their functionality and importance:
+Home Page
+Product and Service Pages
+Blog Pages
+Thanks to the “intelligence website design”, the code necessities had been united for the “product, service, and blog pages”. Thus, fewer CSS files and code were used for managing the site.
+Encazip.c
+
+[...truncated...]

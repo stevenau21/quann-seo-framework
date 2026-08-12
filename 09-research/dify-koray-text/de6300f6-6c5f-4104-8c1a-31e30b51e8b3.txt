@@ -1,0 +1,116 @@
+HTML <ol> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <ol> HTML Tag defines an orderly arrangement in an HTML document. According to the convention, lists are typically arranged in numerical order, alphabetically, or by the use of Roman numerals.  Modifying the order of a list’s elements would alter the list’s significance, making an ordered list the best choice for the document. The <ol> HTML Tag is used with the <i> element. The <ol> HTML Tag specifies the order of the list, while the <li> HTML Tag specifies each item in the list. The <ol> HTML Tag is part of the List HTML category in HTML Element Reference. The attributes of the <ol> HTML Tag are reversed, start, type, global, and event attributes.
+<ol> code block example to learn how it works is given below.
+<ol>
+<li>List of item...</li>
+<li>List of item...</li>
+<li>List of item...</li>
+</ol>
+The second example usage of the “<ol>” code block example is given below.
+<ol>
+<li>Shape the eyebrows</li>
+<li>Put brow soap gel</li>
+<li>Do the same with the other brow</li>
+</ol>
+Contents of the Article
+show
+1.
+What is <ol> HTML Tag?
+2.
+How to Use <ol> HTML Tag?
+2.1.
+Example Usage of <ol> HTML Tag?
+3.
+What are the Attributes of <ol> HTML Tag?
+4.
+What is the Default CSS Setting for <ol> HTML Tag?
+5.
+What are the Related other HTML Tags to <ol>?
+What is <ol> HTML Tag?
+The <ol> HTML Tag define an ordered list. The <ol> HTML Tag is used to create an ordered list. The <li> HTML Tag appears at the beginning of each list item. For an ordered list, use the <ol> HTML Tag element. In a contrast to an unordered list, ul> HTML Tag, which has a listing followed by bullet points, this list has each object prefixed with a numerical or alphabetical prefix. This is a smart practice when the steps in the list must be done out sequentially.
+How to Use <ol> HTML Tag?
+To use the <ol> HTML Tag, the web developers should write <ol></ol> with any of the number <li> tag or script supporting elements placed between the start and ending tags. HTML elements can have attributes added to them by the web developer to specify more details about how they should look and act.
+Example Usage of <ol> HTML Tag?
+The following examples of usage of <ol> HTML Tag are given below.
+<ol>
+<li>English cocker spaniel</li>
+<li>Portuguese water dog</li>
+<li>Switzerland St. Bernard</li>
+<li>Japan Akita</li>
+<li>Scotland West Highland white Terrier</li>
+<li>Spain Bichon Frise</li>
+</ol>
+<ol>
+<li>Russia Siberian Cat</li>
+<li>American Ragdoll Cat</li>
+<li>Northern Europe Norwegian Forest Cat</li>
+<li>Burmese Bombay Cat</li>
+<li>Egyptian Mau Bengal Cat</li>
+<li>Great Britain British Longhair Cat</li>
+</ol>
+What are the Attributes of <ol> HTML Tag?
+There are multiple attributes for the <ol> HTML Tag. The following attributes are listed below.
+Reversed Attribute: The <ol> HTML Tag supports the reversed attribute. This attribute emphasizes the order of the items in the list must be reversed
+Start Attribute: The <ol> HTML Tag supports the start attribute. This attribute specifies the beginning importance of an ordered list.
+Type Attribute: The <ol> HTML Tag supports the type attribute. This attribute specifies the type of measure to be used in the list.
+Global Attributes: The <ol> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <ol> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <ol> HTML Tag?
+The following is the Default CSS Setting for the <ol> HTML Tag.
+li {
+font: 1rem 'Fira Sans', sans-serif;
+margin-bottom: .5rem;
+}
+What are the Related other HTML Tags to <ol>?
+The other related HTML Tags to the <ol> HTML Tag are listed below.
+<dd> HTML Tag: The
+<dd>
+HTML Tag and <ol> HTML Tag are related because they are both lists HTML Tags. In the <dd> HTML Tag defining a definition of a term or name within a descriptive list.
+<dt> HTML Tag: The
+<dt>
+HTML Tag and <ol> HTML Tag are related because they are both lists HTML Tags. In a description list, a term or name is defined
+<dl> HTML Tag: The
+<dl>
+HTML Tag and <ol> HTML Tag are related because they are both list HTML Tags.  The <dl> HTML Tag specifies a specifies a list of descriptions
+<li> HTML Tag: The
+<li>
+HTML Tag and <ol> HTML Tag are related because they are both lists HTML Tags. The <ol> HTML Tag defines the contents of a list item.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <ol> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <li> Tag Definition, Usage and Examples…
+TechSEO
+HTML <figure> Tag Definition, Usage and Exam…
+0
+0
+0

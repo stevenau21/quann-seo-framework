@@ -1,0 +1,166 @@
+List All Files in A Directory with Python Guideline - Holistic SEO
+Skip to content
+Listing files in a directory with Python means that taking names of the files in a folder via Python modules and scripts. During any kind of Python and Coding Project, taking the names of the files in a folder can be useful. Taking only a certain type of file, certain types of files that are under or over a certain size in KB, or taking files from after a certain date can be useful for analyzing, copying, moving, uniting different types of files and their content.
+In this article, we will focus on listing files with Python with different Python Modules and custom scripts.
+Contents of the Article
+show
+1.
+Listing Files in a Folder with OS Module of Python
+2.
+How to List Certain Types of Files in a Directory Python?
+3.
+How to Filter and List Files According to Their Names in Python?
+4.
+How to Use Python Generators for Listing Files in a Directory with Python
+4.1.
+Listing Files in a Directory with “os.scandir()” Function in OS Python Module
+5.
+How to List Files in a Directory with the Pathlib Python Module
+5.1.
+How to Filter and List Files According to Their Names via Pathlib Python Module
+6.
+Last Thoughts on Listing Files in a Folder with Python and Use Cases for SEOs and Developers
+Listing Files in a Folder with OS Module of Python
+OS Module is a Python Module that related to the operating system and it has lots of different functions and methods for managing the computer’s operating system. To list files in a folder, first, we will use “OS” module from Python. The necessary function to list files is “os.walk()”. “os.walk()” function returns the name of the directory, names of the subdirectories, and the names of the files in the current folder. Below, you will see a for loop example for listing the file names in a folder.
+import os
+for root, dirs, files in os.walk("."):
+for filename in files:
+print(filename)
+In this example, we have nested for loop.
+In the first line of the code, we have imported the “os” python module.
+In the second line, we have started our for loop, we have created a variable for the root folder, subdirectories, and the files that are located in them.
+We have entered all of the subdirectories in the root folder and take all of the files.
+We have listed all of the files’ names with the print function.
+You may see the file names in the current working directory as output of the file.
+You can see the files within the directory.
+If you want to list only the subdircetories in a directory, you should use the code below.
+import os
+dirnames = set(dirname)
+for root, dirs, files in os.walk("."):
+for dirname in dirs:
+dirnames.add(dirname)
+print(dirnames)
+In this example, we have used “set” features in Python. Since, we are using a for loop to collect all the root, directory, and file names, if we want only the directory names, it would create “duplicated” values such as “__pycache__” or “.ipynb_checkpoints” for our current example since I am using my own personal Python documentation folder. In Python, “set” objects don’t have index numbers or duplicated values, so only the unique values are being appended to our “dirnames” variable via the “add()” method.
+You will see the sub-directory names for the current example below.
+You may see the all files’ names within a set via OS Module of Python.
+If you want a clearer view, you may use another for loop for listing all the directory names in a file via Python.
+for i in a:
+print(i)
+You may see the result below.
+Names of the files in the directory.
+If you want all of the directory names including the duplicated ones, you may use the code below.
+import os
+for root, dirs, files in os.walk("."):
+for dirname in dirs:
+print(dirname)
+You may see the result below and also I recommend you to pay attention to the duplicated values.
+Directory names in the root file.
+With listing files within a directory, you can use “Image” related bulk processes with the methods and guidelines below.
+How to optimize images as bulk with Python
+How to resize images as bulk with Python
+How to List Certain Types of Files in a Directory Python?
+To list only the files with certain extensions (certain types of files), “fnmatch” Python Module should be used with “os” Python Module. “fnmatch” Python module can be used for specifying patterns in strings, the determined string pattern is used for the filtering the files according to their types. Also, “os.listdir()” can be used to create a list that contains the file names in the current directory. To create You may see an example for listing all of the files with “fnmatch.fnmatch()” and “os.listdir()” functions.
+import os, fnmatch
+filesOfDirectory = os.listdir('.')
+pattern = "*.*"
+for file in filesOfDirectory:
+if fnmatch.fnmatch(file, pattern):
+print(file)
+We have imported the “os” and “fnmatch” modules.
+We have created a variable that is “filesOfDirectory” that contains all of the file names of the current directory with “os.listdir()”. Also, we are using “.”  for specifying the current path.
+We have determined a “regex pattern” which is “*.*”. It means that the pattern includes every letter before and after the “.”.
+We have created a for loop for every element of our “filesOfDirectory” variable.
+We have created an “if statement” with the help of “fnmatch.fnmatch()” function. It takes two arguments, one is the pattern that we have created and the other one is the files in our list that are created by the “os.listdir()” function.
+We are printing the files.
+You may see the result below.
+You may see the result of our directory listing for loop.
+Now, with the same methodology, let’s call only the files with the “.jl” extension.
+import os, fnmatch
+fileOfDirectory = os.listdir('.')
+pattern = "*.jl*"
+for filename in fileOfDirectory:
+if fnmatch.fnmatch(filename, pattern):
+print(filename)
+We have changed our pattern as “*.jl*”. It means that bring only the files that have the extension as “.jl”. Also, the last “*” sign is not an obstacle here, I am leaving it there for just showing the logic of “pattern and match in regex”. It means that “fnmatch.fnmatch()” function will only return the file names that end with the “.jl” extension. You may see the result below.
+Listing Files in a directory with conditions.
+If we want to list only the “.ipynb” type of files, we may use the pattern below.
+import os, fnmatch
+fileOfDirectory = os.listdir('.')
+pattern = "*.ipynb"
+for filename in fileOfDirectory:
+if fnmatch.fnmatch(filename, pattern):
+print(filename)
+You may see the result below.
+Listing Files within a directory with a certain condition and a regex pattern.
+We have four files that ends with “.ipynb”.
+How to Filter and List Files According to Their Names in Python?
+To filter and list the files according to their names, we need to use “fnmatch.fnmatch()” and “os.listdir()” functions with name filtering regex patterns. You may find an example of filtering and listing files according to their names in Python.
+import os, fnmatch
+fileOfDirectory = os.listdir('.')
+pattern = "*seo*.*"
+for filename in fileOfDirectory:
+if fnmatch.fnmatch(filename, pattern):
+print(filename)
+In this example, we call any file that has “seo” word in it with a “.”. It means that bring any file that includes “seo” in the name from any type of extension. You may see the result below.
+Listing and filtering files in a directory according to their names.
+How to Use Python Generators for Listing Files in a Directory with Python
+Generators are iterators in Python, instead of returning an output, we can yield the result with a custom function and then, iterate over the result elements one by one. We also need to use “os.path.isfile()” to filter the files from the folders or directories. You may see an example below.
+def list_files(path):
+for file in os.listdir(path):
+if os.path.isfile(os.path.join(path, file)):
+yield file
+for file in list_files("."):
+print(file)
+We have started to define a function with the argument as “path”.
+We have used for loop for creating a list for the specified path via “os.listdir()”.
+We have checked whether the elements in the specified path is a file or not via the “os.path.isfile()” function.
+“os.path.join” is being used for the joining the file name and the path string as an argument to the “os.path.isfile()”.
+We have yielded all of the file names.
+For the current path, we have printed all of the file names.
+You may see the result below.
+Using Python Generators for Listing Files.
+Listing Files in a Directory with “os.scandir()” Function in OS Python Module
+Lastly, we can use the “os.scandir()” function that makes things a little bit easier after the Python 3.6 release. “os.scandir()” scans all the files and elements in a folder including subdirectories and collects them in the memory for the developer. We will use “os.getwcd()” for determining the path as “current working directory” and we will filter the files with the “is_file()” method of “os python module”. You may see the code block below.
+import os
+path = os.getcwd()
+with os.scandir(path) as fileNames:
+for file in fileNames:
+if file.is_file():
+print(file.name)
+You may see the result of the code above, below.
+Listing file names with “os.scandir” is easier. “If “os.scandir(path)” means an if condition such as the if the path that is given correct.
+How to List Files in a Directory with the Pathlib Python Module
+Pathlib is a Python Module that is being used for file system management. Pathlib Python Module has concrete and pure paths for manipulating the paths of files. To list all of the files in a directory via Pathlib, we can use the “pathlib.Path()” function and “iterdir()” function together. You can see an example of usage for the file listing with pathlib python module.
+import pathlib
+currentDirectory = pathlib.Path('.')
+for currentFile in currentDirectory.iterdir():
+print(currentFile)
+We have imported the pathlib.
+We have created a variable with the name of “currentDirectory”. We have assigned it to the “pathlib.Path(‘.’)” function. “.” means the current directory again.
+In the example of “os.listdir()”, we were creating a list that contains all of the files, in this example, we need to use the “iterdir()” function for the “pathlib.Path” instance.
+We have started a loop for every file in the “currentDirectory” variable’s path by iterating over its elements.
+We have printed every iterated element.
+You may see the list of files in the current directory.
+Listing Files in a Directory with “Pathlib” Python Module.
+How to Filter and List Files According to Their Names via Pathlib Python Module
+To filter and list files according to their names with Pathlib Python Module, we need to use the “glob()” function. “glob()” function is being used for determining patterns to filter the files according to their names or extension. You may see an example below.
+import pathlib
+currentDirectory = pathlib.Path('.')
+currentPattern = "*.ipynb"
+for currentFile in currentDirectory.glob(currentPattern):
+print(currentFile)
+We have determined a pattern as “*.ipynb” so that we can call only those files. We have used “pathlib.glob()” method for filtering the files in the current directory. You may see the result below.
+Listing files with a condition via Pathlib Python Module.
+To filter and list files according to their names, you may change the “currentPattern” variable and its regex content as it has been done in this file listing with python guidelines before.
+Last Thoughts on Listing Files in a Folder with Python and Use Cases for SEOs and Developers
+Listing files in a directory with Python is an important skill. During a project, whether it be an SEO Project or Developer project, listing files in a folder can help to person to see the different types of files, filter those files according to their extensions or names so that only the necessary files can be used for a certain type of process. For instance, to optimize images from a web site without changing any of the image URLs can be possible thanks to listing and filtering files according to their names within a root directory. Thus, without changing the URLs of the images, they can be optimized and the developer team can just change the file in the server. Optimizing images in bulk with Python is another topic but without listing the files according to their extensions, it wouldn’t create such an efficient result. Listing files according to their names and extensions in a directory with Python also can be useful for data science and web scraping projects, uniting, moving, copying these files can be possible by listing them.
+In the future, we also will focus on moving, copying, and uniting or dividing files with Python. Also, filtering files according to their dates and sizes will be added in the future of our listing files within a directory with Python guidelines in the future.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites.
+
+[...truncated...]

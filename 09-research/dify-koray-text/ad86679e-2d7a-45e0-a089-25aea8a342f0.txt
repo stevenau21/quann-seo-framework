@@ -1,0 +1,255 @@
+HTTP Status Codes - Holistic SEO
+Skip to content
+The response or status codes of HTTP directly determine the meaning of the response to an HTTP request. They are always transmitted in the form of the first line of the response (= server response), which consists of a three-digit number and a brief description. The status codes are divided into groups of different meanings after their first digit.
+The following list is not exhaustive since every application of HTTP can define its own status codes, as WebDAV does for example(Web-based Distributed Authoring and Versioning).
+In the following, the requesting program, eg a browser, is always called “Client”; “Server” always denotes the responding program, eg the server of a website.
+There is hardly an Internet user who does not know this message: “Error 404 – this page does not exist” or with a shorter version: “404 – not found.” This is exactly an HTTP status code. Status stands for the reaction of the server to a request. The request is usually to display a specific document—almost always an
+HTML page
+. And code stands for a three-digit number. The principle is therefore very simple:
+The client (i.e. the browser) sends a request (HTTP request).
+The server processes the request and sends a response (HTTP response).
+The answer is in the HTTP status code.
+After a correct request, the server sends the client a class 2 message, for example, the status code 200 for “OK”. As an Internet user, you will not notice this message – apart from the fact that the requested page is displayed correctly in the browser.
+Contents of the Article
+show
+1.
+What are the HTTP Status Codes?
+2.
+Two Known Bugs for HTTP Status Codes: 404 and 403
+3.
+HTTP Status Codes and Google’s Guidelines for Indexing
+4.
+Importance of a Customized 404 Page
+5.
+1xx: Informative HTTP Status Codes
+6.
+2xx: Success HTTP Status Codes
+7.
+3xx: Redirect HTTP Status Codes
+8.
+4xx: Client Error HTTP Status Codes
+9.
+5xx: Server HTTP Status Codes
+10.
+Last Thoughts on HTTP Status Codes and SEO
+What are the HTTP Status Codes?
+HTTP is short for Hypertext Transfer Protocol. This is the technical standard used for sending and receiving multimedia documents on the Internet. An HTTP status code is sent as a response to the request. The header of the protocol provides a code that contains important parameters that affect, for example, the language or the character set of the document. In addition, there is often information about the client. There is also the Hypertext Transfer Protocol Secure (HTTPS), which creates a bug-proof connection between the user’s browser and the website. FTP stands for File Transfer Protocol. This procedure is used for uploading and downloading files.
+The status codes of HTTP messages in the header are divided into five groups. The first digit in a request code denotes the status class.
+Status 1: Processing of the request continues. Example: 100 (Continue). With this answer, the user can continue with his extensive request.
+Status 2: The processing was successful. Example: 204 (No Content). This status means that the request was successful, but deliberately no document is displayed or content is delivered. However, there is no error.
+Status 3:
+The request is redirected
+. Example: 305 (Use Proxy). In this case, the requested document (requested resource) can only be reached via a proxy. This proxy is shown in the header as a location.
+Status 4: There is an error for which the client is responsible. Example: 413 (Request Entity Too Large). The server cannot process the request because the request is too extensive.
+Status 5: It is an error that is the responsibility of the server. Example: 500 (Internal Server Error). An unexpected server error.
+The status classes with the numbers 1 to 5 are documented in RFC. RFC is short for Request for Comments. These are documents that describe the basics of network technology and are published by a group in the Internet Society ISOC.
+Two Known Bugs for HTTP Status Codes: 404 and 403
+Not found. This is probably the best-known status code. The simple reason for this is that a specific HTML page or other resource is not found under the URL entered. Possible reasons for this are:
+The user made a typing mistake and asked for a page that does not exist.
+The link that the user clicked on is incorrect.
+The resource was available but has since been deleted because, for example, it was only used for temporary purposes. The URI is simply out of date.
+Every now and then a surfer comes across the message “forbidden” (forbidden). This message appears with error 403, which is one of the better-known codes alongside 404. In this case, the user has requested a page for which special authorizations are required. However, it is usually due to the browser settings of the client or a firewall that the page cannot be called up.
+Note: The Google Webmaster Tools provide Internet operators with various options for analyzing crawl errors on their own site. You can check the Googlebots’ Response’s through URL Inspection Tool.
+HTTP Status Codes and Google’s Guidelines for Indexing
+Website operators often ask themselves what impact HTTP status codes have on SEO (Search Engine Optimization). Google Robots are known to crawl websites on a regular basis. This is also done, for example, to delete content that cannot be accessed from the Google directory. It is therefore important to regularly check HTTP status codes, for example, to check the functioning of the server.
+For your own website, it is also negative under SEO aspects if it contains a lot of dead links. The status code “Error 404” on the content requested via a link often speaks for the fact that your own website is also out of date—and this is also seen by Google algorithms.
+Importance of a Customized 404 Page
+It is especially important for SEO to create your own error pages. Because a poor machine response to the request does not exactly invite a visitor to continue searching on the targeted domain. In order not to lose any traffic, it is advisable to create a separate page for error messages. It should be designed in the design of your own website and, for example, prompt the user to visit the homepage in order to continue searching there. Many error message pages also offer the visitor a search field. Technically, the redirection works (for example to a page with the name fault message.html) with only one line of code:
+ErrorDocument 404 / errormessage.html.
+This text is written in the .htaccess file, which is stored in the root directory of the server. This is also possible for other error messages.
+1xx: Informative HTTP Status Codes
+You can see the meaning, definition, and function of 100 Status Codes, in the table below.
+Code for HTTP Status Codes
+Designation of HTTP Status Code
+HTTP version
+Description of HTTP Status Code
+100 Continue
+Continue
+HTTP 1.1
+The client should continue the request. This response is used to inform the client that the request has been accepted and that he can proceed with further data. As a rule, this code is only sent if the client has also sent an Expect: 100-continue header in the request.
+101 Switching Protocols
+Exchange log
+HTTP 1.1
+If the request
+Upgrade
+contains a header that is acceptable to the server, this confirms that the protocol has been changed. Immediately after this status code and an empty line, the server begins transmission in the new protocol. An example is a change from HTTP to HTTP over TLS according to RFC 2817.
+102 Processing
+in processing
+HTTP 1.1
+Used to avoid a timeout while the server is processing a time-consuming request (RFC 2518)
+HTTP 100 Status Codes
+2xx: Success HTTP Status Codes
+You can see the meaning, definition, and function of 200 Status Codes, in the table below.
+Code for HTTP Status Codes
+Designation of HTTP Status Code
+HTTP version
+Description of HTTP Status Code
+200 OK
+OK
+HTTP 1.1
+The request was successful. Depending on the request method, the response contains the requested data.
+201 Created
+Generated
+HTTP 1.1
+The request resulted in a new resource being successfully created. Their URI can be
+Location
+communicated in the response header.
+202 Accepted
+Accepted
+HTTP 1.1
+The request has been accepted but is not yet being processed. It is not possible to receive status information when the processing is actually taking place, for example, to determine success.
+203 Non-Authoritative Information
+Non-binding information
+HTTP 1.1
+The meta-information in the response header may not be the same as that sent by the origin server. Answer fields can be changed by proxies, for example.
+204 No Content
+No content
+HTTP 1.1
+The request has been accepted and processed, but there is no content that can be returned. In this case, clients should continue to display the old content.
+205 Reset Content
+Reset content
+HTTP 1.1
+The request was successful and the client is asked to restore the previously viewed document to its original state. This corresponds, for example, to pressing a reset button
+<input type="reset"/>
+in an HTML form.
+206 Partial Content
+Partial content
+HTTP 1.1
+If the request
+Range
+contains a header, the server replies with this status code that the response is sent back in the desired area. One example is interrupted and resumed downloads.
+207 Multi-Status
+Multi-status
+HTTP 1.1
+The answer contains an XML document that contains several status codes for independently performed operations.
+208 Already Reported
+already reported
+HTTP 1.1
+WebDAV RFC 5842 – The members of a WebDAV binding have already been listed and are no longer available in this request.
+226 IM Used
+Instance manipulation used
+HTTP 1.1
+RFC 3229 – The server has fulfilled a GET request for the resource, the response is a representation of the result of one or more instance manipulations related to the current instance.
+HTTP 200 Status Codes
+3xx: Redirect HTTP Status Codes
+You can see the meaning, definition, and function of 300 Status Codes, in the table below.
+Code for HTTP Status Codes
+Designation of HTTP Status Code
+HTTP version
+Description of HTTP Status Code
+300 Multiple Choices
+More options
+HTTP 1.1
+The requested resource corresponds to a set of possible resources from which the client should
+choose. If the server has a preferred destination, this should be sent in
+a
+Location
+header.
+301 Moved Permanently
+Permanently postponed
+HTTP 1.1
+A new URI has been permanently assigned to the requested resource. This should be sent in
+the
+Location
+header. If the request method
+was
+GET
+or
+HEAD
+, the client can automatically forward to the new
+URI, otherwise it can only do so after user input.
+302 Found
+Found
+HTTP 1.1
+The requested resource was found, but currently has a different URI. Nevertheless, the client
+should continue to request this resource under this URI. Forwarding is to
+be
+301
+handled analogously to the status.
+303 See Other
+See elsewhere
+HTTP 1.1
+The answer can be
+GET
+fetched under another URI using
+the method. The purpose is
+POST
+to be able to seamlessly forward to a
+selected resource after a request.
+304 Not Modified
+Not changed
+HTTP 1.1
+The resource has not changed since the last request, the answer contains no data. This is the
+case, for example, if the client
+If-Modified-Since
+uses a header to
+declare that it already has the resource in an older version.
+305 Use Proxy
+Use proxy
+HTTP 1.1
+The resource must be accessed through the proxy
+Location
+specified in
+the header.
+306 (unused)
+(not used)
+HTTP 1.1
+The status code was
+Switch Proxy
+reserved for the answer in an earlier
+version , but is no longer used.
+307 Temporary Redirect
+Temporary diversion
+HTTP 1.1
+The requested resource was found but currently has a different URI. However, the client should
+continue to request this resource under this URI. Forwarding is to
+be 301handled analogously to the status. Since in older browser implementations
+the 302status was handled in such a way that the forwarding was independent of the
+query method used, HTTP 1.1 303and introduced 307to give servers the possibility to
+explicitly control the forwarding. Another problem is URL hijacking, which should be
+avoided.
+308 Permanent Redirect
+permanent diversion
+HTTP 1.1
+Introduced experimentally via RFC; the requested resource is now available at the address
+specified in the “Location” header field, the old address is no longer valid. The browser
+should follow the same method as for the original request (ie a POST is followed by a
+POST). This is the main difference to 302/303.
+[1 ]
+HTTP 300 Status Codes
+4xx: Client Error HTTP Status Codes
+You can see the meaning, definition, and function of
+400 Status Codes
+, in the table below.
+Code for HTTP Status Codes
+Designation of HTTP Status Code
+HTTP version
+Description of HTTP Status Code
+400 Bad Request
+invalid request
+HTTP 1.1
+The client sent an incorrect request that the server cannot process due to incorrect syntax.
+401 Unauthorized
+Unauthorized
+HTTP 1.1
+The request cannot be processed without the authorization. To do this, the server must send a WWW_Authenticate response header that explains how to authenticate. HTTP predefines the two methods “Basic” and “Digest”.
+402 Payment Required
+Payment needed
+HTTP 1.1
+This status code is reserved for future use. It also means that for further processes, the client should make payment.
+403 Forbidden
+Forbidden
+HTTP 1.1
+Access is permanently prohibited. Authorization is not recognized and the client should not make the request again.
+404 Not Found
+Not Found
+HTTP 1.1
+The server could not find the resource requested by the client. The most common cause is a so-called dead link. The
+404
+status can also be returned if no other status code is applicable or the client is to be rejected deliberately without giving a specific reason.
+405 Method Not Allowed
+Method not allowed
+HTTP 1.1
+The request method (like GET or POST) is not allowed. This answer can come back, for example,                     if you use WebDAV methods without the server being able to do this. The server must list permitted methods in an Allow res
+
+[...truncated...]

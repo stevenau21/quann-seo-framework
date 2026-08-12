@@ -1,0 +1,81 @@
+What is a website: Examples, Types and Structure - Holistic SEO
+Skip to content
+A website is a collection of web pages that are created with web technologies such as HTML, XHTML, or AMP HTML by a person or an organization. Website is a way of World Wide Web presence. A website can be displayed to a user agent via a browser such as Google Chrome, Firefox, or Microsoft Edge. A website has a server that serves the resources that are necessary to render the web page for the users. A website can include CSS, JavaScript, HTML, XHTML, XHR, JSON, PDF, CSV, Image and Font files. The first website was written and published on November 13, 1990, by Tim Berners-Lee on a NeXT computer. One day after Tim Barners-Lee and Robert Cailliau published a revised concept for a global hypertext project.
+Contents of the Article
+show
+1.
+What is the meaning of term website?
+2.
+What is the structure of a website?
+3.
+What is a Dynamic Website?
+3.1.
+What are the most popular CMS systems for websites?
+4.
+What is Dynamically Generated Static Website?
+5.
+What are the components of a website?
+6.
+What are the purposes of HTML, CSS and JS for a website?
+6.1.
+How to create a website?
+7.
+What are the purposes of a website?
+8.
+What are the different kinds of websites?
+9.
+What is the relation between a website and SEO?
+9.1.
+Is the website speed important?
+9.2.
+How does a website distribute PageRank among web pages?
+9.3.
+What is site-tree of a website?
+10.
+Is mobile-first indexing important for websites?
+11.
+What is the difference between a website and web page?
+12.
+How many websites are archived by internet archive?
+13.
+How does a Search Engine define a website?
+14.
+Last Thoughts on a Website and Holistic SEO
+What is the meaning of term website?
+Since the web presence includes all websites grouped under a certain domain and belonging to a provider and any downloadable documents on the World Wide Web, it is the preferred medium with which providers and users can come together via the Internet. The shortening of the long-term World Wide Web Site to a single lowercase word website reflects a typical development of technical expressions. Leading news agencies such as Reuters and The Chicago Manual recommend the collapsed spelling website in English, as do dictionaries and encyclopedias such as the Canadian Oxford Dictionary.
+The use of the spelling website can be seen in large Internet companies such as Google and Apple. Microsoft, on the other hand, uses both spellings, both website, and website. The terms site, website, internet platform, website, and web page collection are used interchangeably in general. In professional discourse sometimes websites (web applications + services/daemons as FTP and e-mail) are broader than web presence (only Web applications). While internet platform is generally used synonymously with website, web platform is often used synonymously with only in part of the cases website used.
+What is the structure of a website?
+Websites consist of structured text in which images and other multimedia elements can be integrated. The essential feature of websites is that they contain references, so-called hyperlinks, to other websites and together form the hypertext. Every document has at least one address (URL) that can be accessed in a web browser. Web pages can have static or dynamic content. Dynamic content is regenerated each time it is called, preferably based on the result of a database query. In addition, the same content can be presented in different ways, for example as a print version or version for the screen.
+Web pages are loaded from the Internet but can also be stored on a local storage medium, for example, a hard drive. The entirety of the web pages of an Internet presence is referred to as a website, web presence, Internet presence, or colloquially as a homepage.
+What is a Dynamic Website?
+In contrast to static web pages, which technically represent an HTML document on the webserver, web pages are often generated dynamically or actively at the moment of the request. This is useful if a website is to contain very current information such as stock prices or weather forecasts. In this case, the webserver executes a program that has been specifically developed in advance for this task. It carries the data from databases and creates the HTML document. This is then transferred from the webserver to the browser and displayed to the user. Another use case arises from the need to react to input from the user, such as entering a
+search term
+in a search engine. The search engine software creates a
+list of suitable links based on the search term
+and generates a website that conveniently presents this list to the user. The ability to generate web pages dynamically based on user input and database content quickly made the web a universal platform for many types of applications. The advantages lie in the independence of operating systems and other properties of the clients. The only basic requirements are a network connection to the server and a web browser.
+Any program that can be executed on the server system can be used to generate dynamic web pages. To simplify programming, however, standards such as the Common Gateway Interface (CGI) were introduced to make web applications independent of the type of web server. The majority of CGI applications were and are written in the Perl programming language. Technologies such as PHP, J2EE, and .NET developed due to the rapidly increasing need for very powerful servers to operate web applications. Since the content of extensive websites is usually entered by several people, a content management system (CMS) is often used in such projects. More and more, mostly PHP and MySQL-based solutions in free software are pushing onto the market, which can be used quickly even by inexperienced programmers, as long as they do not exceed a certain complexity.
+What are the most popular CMS systems for websites?
+What is Dynamically Generated Static Website?
+With the standardization for XML and XSLT, the W3C showed away in December 2000, how “real” and thus static HTML documents can be generated dynamically, which can take on the complexity of the database extracts of a CMS or even these Outperform: Simple and content-restricted, but well-structured output data in XML are converted into valid, complex HTML by an adapted XSL transformer, which is then available as a static document on the webserver.
+The main advantage is the higher performance because the host computer does not have to put together complex websites on request and the server can therefore cope with higher numbers of visitors. Another advantage is the greater flexibility in design. In contrast to conventional CMS, where database content is inserted into ready-made and relatively rigid HTML templates, a structured XML output document has a significant influence on the layout and user guidance of the HTML document generated from it. This allows the amateur suitable for producing also of long and related content via XML editor and their presentation in easily rezipierbarerForm, for example as a web-friendly e-book, whereby a single “website” can consist of several screen pages that are “folded” using CSS and can be conveniently leafed through or accessed using menu navigation. It is also possible to design entire websites as graphical user interfaces with several elements that can be operated in parallel. One of the main obstacles to the broad use of these significantly expanded options with regard to display and data storage has long been considered to be Microsoft Internet Explorer, which, as a long-standing market leader, only offers sufficient standard conformity with regard to CSS with Version 8, which was released in 2009.
+What are the components of a website?
+In the simplest case, a website consists of at least one HTML file that is located in a directory in the path of a domain. In general, however, it is now made up of numerous HTML files, which can also be accommodated in a nested directory structure. It should also be noted that an HTML file itself usually consists of a file with the ending .html or .htm and a directory of the same name, in which the non-HTML-compliant elements (images, media, etc.) are stored; this includes files about the CSS class typing and various script files (JavaScript ).
+At least this is how it looks when the displayed page is saved by the browser on the visitor’s hard drive. The provider can, however, have generated them dynamically from templates and database contents, so that the existence of a real file is only faked (partly because it promises better positions in search engines). CSS and JavaScript files are typically specified centrally for a website and, in the case of mass hosts, are even specified by the provider for the entire webspace.
+A homepage is the page of a website that is designed as a central hub. The start page (entry, index page) is the first page called up on a website. In most cases, the home page is also the home page of a website. In special cases, however, it is preceded by an intro page, usually, because it is followed by a frame is shown, which search engines often do not capture optimally. The intro should then provide the necessary information about the content and keywords that are invisible to the visitor and intended for search engines, provided that the following pages remain invisible to them. Therefore, the intro often appears extremely spartan and says nothing for the visitor; it is often perceived as a nuisance and an obstacle. In many cases, attempts are made to counteract this with Flash animations, which, however, are also viewed by many visitors as an imposition and a waste of time. In response to this, a link to skip is usually offered. The components of a website are summarized in the list below.
+Homepage
+Category Page
+Service, Product, Blog Page
+Content of the website
+Server of the website
+Design of the website
+HTML, CSS, JS, Images, Font files and codes
+What are the purposes of HTML, CSS and JS for a website?
+A technology mix of different techniques is used in the implementation of websites. The basic techniques here are HTML, CSS, and often JavaScript. There are various ways of combining these techniques within an HTML document (website). The JavaScript code can e.g. B. can be placed directly “inline” in the HTML description. The “Script” tag from HTML can be used for this purpose. Furthermore, direct connections with certain JavaScript functions can be set via HTML event handler attributes such as “onclick” or “ontouchstart”. Such an approach mixes logic for describing the content, design, and behavior. Due to a mixture, later changes to the behavior cannot be made without also taking the content (HTML) and presentation (CSS) into account. In the case of separation, this can be adjusted and further developed separately. Furthermore, the HTML document is simplified and remains free of longer JavaScript areas and CSS definitions. The following separation should be achieved with the following.
+HTML content: The HTML document should only keep the content to be displayed. The HTML tags used for this should be free of event handler attributes and inline JavaScript code. Styling attributes with CSS content should also not be used in the HTML markup.
+Visual representation: The visual representation of the content of the view should be defined in separate CSS files. The styles defined there are used by the rendering engine of the web browser when building the view. The separate definition of the visual representation also allows easier adaptation of the presentation for different output media. For example, a responsive web designimplemented, which automatically adapts to the technical conditions of the end device, such as the screen size. The integration of the CSS file in the HTML document should only be done via a “Link” tag in the header of the document. Older HTML tags for adapting visual representations, such as font or center, should no longer be used and have been marked with HTML5 as out of date (“deprecated”).
+Behavior: The client-side behavior of a website and the registration for input events should only take place in the JavaScript code. This code should also be placed in separate JavaScript files. The JavaScript file is also integrated into the HTML document using the script tag. However, an external file is addressed with the src attribute. When integrating JavaScript files into an HTML document, the strategy has also established itself of defining all script tags at the end of the HTML document. The reason for this is the rendering behavior of web browsers. As soon as the web browser finds a script tag, the script is downloaded and executed. Only after this process does the actual rendering of the rest of the content of the HTML document continue. If the header of the HTML document already defines several scripts, the website remains blocked until all scripts have been loaded. Alternatively, the async or defer attribute of HTML5 can be used for the script tag. However, the script files to be loaded must not have any dependencies, since the exact sequence of loading is no longer defined.
+If the described separation of content, behavior, and presentation is taken into account, the techniques used for the implementation of websites are also divided into individual areas. There is no direct mixing. The strict separation increases the maintainability and adaptability of the document. This separation also enables easier division of tasks when realizing a web project.
+How to create a website?
+Websites are mainly written in the platform-independent markup language HTML or XHTML in order to ensure that they can be displayed by as many browsers as possible. Today, websites are designed with CSS, because they allow the easy design of content that has been structured with HTML or XHTML. For more complex websites, the HTML source text is usually generated using a server-side script (PHP, 
+
+[...truncated...]

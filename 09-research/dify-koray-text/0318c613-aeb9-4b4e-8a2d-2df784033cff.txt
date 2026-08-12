@@ -1,0 +1,101 @@
+Skip to content
+The <kbd> HTML Tag defines users’ input on the content and, by default, employs the browser’s monospace typeface to create a visual separation between text and background colors. The <kbd> HTML Tag is used to indicate text that represents keyboard input from a user’s computer. It is customary for text enclosed by <kbd> HTML Tag to be rendered in the browser settings default monospace typeface. When a page wants to display the text that a user must input exactly from his keyboard, it is also used in that situation. The <kbd> HTML Tag is part of the Formatting HTML category in HTML Element Reference. The attributes of the <kbd> HTML Tag are global and event attributes.
+<kbd> code block example to learn how it works is given below.
+<body>
+<p>Type<kbd>Enter</kbd> to proceed</p>
+</body>
+The second example usage of the “<kbd>” code block example is given below.
+<p>Type <kbd>www.holisticseo.digital</kbd> into the address bar of the browser.</p>
+Contents of the Article
+show
+1.
+What is <kbd> HTML Tag?
+2.
+How to Use <kbd> HTML Tag?
+2.1.
+Example Usage of <kbd> HTML Tag?
+3.
+What are the Attributes of <kbd> HTML Tag?
+4.
+What is the Default CSS Setting for <kbd> HTML Tag?
+5.
+What are the Related other HTML Tags to <kbd>?
+What is <kbd> HTML Tag?
+The <kbd> HTML Tag can express textual user input from the keyboard, voice control, and any alternative text input tools as a range of inline text in your website. The <kbd> HTML Tag is used to specify the keyboard input to be used. The word or phrase is surrounded by the <kbd> HTML Tag. The <kbd> HTML Tag is not considered to be deprecated. With CSS, it is possible to generate a more complex and varied appearance. It falls within the category of the tag defined as the phrase tag, which is a type of tag. Different style codes can be used to improve the appearance and feel of the text that is contained within the <kbd> HTML Tag. It always comprises text that can be typed quickly and easily using a computer keyboard.
+How to Use <kbd> HTML Tag?
+To use the <kbd> HTML Tag, the web developer should write <kbd></kbd> with the input text placed in between the start and end tags. A string of <kbd> HTML Tags can be embedded within another <kbd> HTML Tag to indicate a succession of keystrokes, which is useful for web developers. In addition, the web developer can stack an <kbd> element within an <samp> element in order to display repeated input on the page.
+Example Usage of <kbd> HTML Tag?
+The following examples of usage of <kbd> HTML Tag are given below.
+<p>If you are working with Microsoft Word, you can make use of the shortcut<kbd>cntrl + s</kbd> to save the current document you're working on</p>
+<p>If you are a first-time online consumer, you can click the<kbd>cart</kbd> sign to save the item that you are planning to buy</p>
+What are the Attributes of <kbd> HTML Tag?
+There are multiple attributes for the <kbd> HTML Tag. The following attributes are listed below.
+Global Attributes: The <kbd> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <kbd> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <kbd> HTML Tag?
+The following is the Default CSS Setting for the <kbd> HTML Tag.
+kbd {
+background-color: #eee;
+border-radius: 3px;
+border: 1px solid #b4b4b4;
+box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+color: #333;
+display: inline-block;
+font-size: .85em;
+font-weight: 700;
+line-height: 1;
+padding: 2px 4px;
+white-space: nowrap;
+}
+What are the Related other HTML Tags to <kbd>?
+The other related HTML Tags to the <kbd> HTML Tag are listed below.
+<bdi> HTML Tag: The
+<bdi>
+HTML Tag and <kbd> HTML Tag are related because they are both formatting HTML Tags.The <bdi> HTML Tag separates a section of text from the rest so that it can be formatted differently.
+<u> HTML Tag: The
+<u>
+HTML Tag and <kbd> HTML Tag are related because they are both formatting HTML Tag. The <u> HTML Tags specifies that some text is not articulated and is formatted differently from typical text.
+<template> HTML Tag: The
+<template>
+HTML Tag and <kbd> HTML Tag are related because they are both formatting HTML Tags. The <template> HTML Tag specifies that when the page loads, the container defines what content should be hidden.
+<samp> HTML Tag: The
+<samp>
+HTML Tag and <kbd> HTML Tag are related because they are both formatting HTML Tags. The <samp> HTML Tag defines  a computer program’s sample output.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <kbd> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <dfn> Tag Definition, Usage and Example…
+TechSEO
+HTML <i> Tag Definition, Usage and Examples…
+0
+0
+0

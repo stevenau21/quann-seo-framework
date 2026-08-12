@@ -1,0 +1,112 @@
+Skip to content
+The X-Forwarded-Proto HTTP header is a de-facto standard for identifying a client’s connection protocol (HTTP or HTTPS). From user’s server access logs, it is not clear which protocol is being utilized between the server and the load balancer. The X-Forwarded-Proto HTTP Header request header is used to determine the client-load balancer protocol. The X-Forwarded-Proto HTTP Header value is the protocol. The HTTP protocol is used to retrieve HTML text and other resources. A client-server protocol is the backbone of all data exchange on the Internet, and requests are made by the recipient, typically a web browser. For client requests (HTTP or HTTPS), the value of the X-Forwarded-Proto HTTP Header request header. The following is an example of an X-Forwarded-Proto HTTP Header for the request header for a client-made HTTP request.
+X-Forwarded-Proto: https
+X-Forwarded-Proto HTTP Header request header is seen above. In the article, the X-Forwarded-Proto HTTP Header Syntax, Directives, and Uses with examples will be processed.
+Contents of the Article
+show
+1.
+What is X-Forwarded-Proto HTTP Header?
+1.1.
+What is the Syntax of X-Forwarded-Proto HTTP Header?
+1.2.
+What is the Directive of X-Forwarded-Proto HTTP Header?
+2.
+How to use X-Forwarded-Proto HTTP Header?
+2.1.
+Examples of X-Forwarded-Proto HTTP Header Use
+3.
+What is the Specification Document for X-Forwarded-Proto HTTP Header?
+4.
+What are the types of X-Forwarded-Proto HTTP Header?
+4.1.
+What are the similar HTTP Headers to the X-Forwarded-Proto HTTP Header?
+5.
+Which Browsers Support X-Forwarded-Proto HTTP Header?
+What is X-Forwarded-Proto HTTP Header?
+The X-Forwarded-Proto HTTP Header is the de-facto industry standard for identifying the protocol (HTTP or HTTPS) being used by a client when connecting to your proxy or load balancer. However, they do not contain information about the protocol that was used between the client and the load balancer. The X-Forwarded-Proto HTTP Header request header is used to determine the protocol that is being used between the client and the load balancer if one is being utilized.
+What is the Syntax of X-Forwarded-Proto HTTP Header?
+The syntax of the X-Forwarded-Proto HTTP Header has one part. In order to use X-Forwarded-Proto HTTP Header, follow the example syntax below.
+X-Forwarded-Proto: <protocol>
+What is the Directive of X-Forwarded-Proto HTTP Header?
+The directive of X-Forwarded-Proto HTTP Header is only one. The X-Forwarded-Proto HTTP Header directive is the protocol that is the value that contains an X-Forwarded-Proto HTTP Header request header for a request that originated from the client (HTTP or HTTPS).
+Below are examples of usage of the directives X-Forwarded-Proto HTTP Header.
+The first example shows how to do something. If a request comes from the client as an HTTP request, the following example has an X-Forwarded-Proto HTTP Header request header in it.
+// X-Forwarded-Proto: originatingprotocol
+X-Forwarded-Proto: http
+The following example has an X-Forwarded-Proto HTTP Header request header for an HTTPS request sent by the client.
+// X-Forwarded-Proto: originatingprotocol
+X-Forwarded-Proto: https
+This is an example of another non-standard form.
+# Microsoft
+Front-End-Https: on
+X-Forwarded-Protocol: http
+X-Forwarded-Ssl: on
+X-Url-Scheme: http
+How to use X-Forwarded-Proto HTTP Header?
+The X-Forwarded-Proto HTTP Header request header is used to determine the protocol that is being utilized between the client and the load balancer. The request header to determine the protocol is the “Forwarded Header”. The X-Forwarded-Proto HTTP Header provides information that is added by reverse proxy servers (such as load balancers, content delivery networks, and so on) that would otherwise be altered or lost when proxy servers are engaged in the request’s journey. The X-Forwarded-Proto HTTP Header is used for debugging, statistics, and creating material that is specific to a certain location. It is intended to expose information that is sensitive to privacy, such as the IP address of the client. Therefore, when installing this header, it is important to keep the user’s confidentiality in mind.
+Examples of X-Forwarded-Proto HTTP Header Use
+One example of the X-Forwarded-Proto HTTP Header port number used by the client to connect to the load balancer. An example of the X-Forwarded-Proto HTTP Header use is listed below.
+X-Forwarded-Proto: https
+What is the Specification Document for X-Forwarded-Proto HTTP Header?
+There is only one specification document for the X-Forwarded-Proto HTTP Header, which is RFC 7239. The RFC 7239 article mentioned the X-Forwarded-Proto HTTP Header as a common way to disclose information by using the non-standard header fields for the Forwarded HTTP Extension. Additionally, this article discusses the X-Forwarded-Proto HTTP Header’s definition and usage.
+What are the types of X-Forwarded-Proto HTTP Header?
+The  X-Forwarded-Proto HTTP Header HTTP Type is listed below.
+Request Headers. The purpose of this header is to provide data for the required subject in an HTTP request that will generate the server.
+Representation Headers. This header can be used when the information generated about the subject by utilizing other headers is insufficient or inaccurate.
+What are the similar HTTP Headers to the X-Forwarded-Proto HTTP Header?
+The similar HTTP Headers to the X-Forwarded-Proto HTTP Header are listed below.
+Forwarded HTTP Header:
+The Forwarded HTTP Header is similar to the X-Forwarded-Proto HTTP Header. The X-Forwarded-Proto HTTP Header and the
+Forwarded HTTP Header
+both contain information that adds reverse proxy servers such as load balancers, CDN, and so on. It is otherwise altered or lost when proxy servers are involved in the path of the request.
+X-Forwarded-Host HTTP Header:
+The X-Forwarded-Host HTTP Header is similar to the X-Forwarded-Proto HTTP Header. Both are requested type headers and are an alternative and de-facto standard version of the forward header. The X-Forwarded-Proto HTTP Header is a header for identifying the protocol, while the
+X-Forwarded-Host HTTP Header
+is a header that identifies the original request made by the client.
+X-Forwarded-For HTTP Header:
+The X-Forwarded-For HTTP Header is similar to the X-Forwarded-Proto HTTP Header. The X-Forwarded-Proto HTTP Header and the
+X-Forwarded-For HTTP Header
+is a request-type headers. These are alternative and de-facto standard versions of the forward header, which is used to identify the original IP address when a client connects to a web server via an HTTP proxy or load balancer.
+Which Browsers Support X-Forwarded-Proto HTTP Header?
+The compatibility of browsers for the X-Forwarded-Proto HTTP Header is unknown.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+1 thought on “X-Forwarded-Proto HTTP Header: Syntax, Directive, Examples”
+Great post! I found the examples really helpful for understanding how to implement the X-Forwarded-Proto header properly. It clarified a lot of the confusion I had about securing connections behind proxies.
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+X-Forwarded-Proto HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Sec-CH-UA-Platform-Version HTTP Header: Syntax, Di…
+TechSEO
+Save-Data HTTP Header: Syntax, Directive, Examples…
+0
+0
+1

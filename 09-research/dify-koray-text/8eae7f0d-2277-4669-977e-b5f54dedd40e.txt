@@ -1,0 +1,106 @@
+"aria-describedby" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-describedby recognizes the elements that mark out another element on which attribute sets, it lists the IDs of the elements that describe the object. The purpose of aria-describedby is to establish a link connecting widgets or groups and the text that is describing them. The aria-describedby isn’t limited to form controls, It can be utilized to connect the static text with widgets, groups of elements, areas that have a heading, definitions, and more. The developer can use aria-describedby to remark a certain element that is hidden, for instance in a form control description that is hidden by default, it can be revealed on request using a disclosure widget like a “more info” icon. When the user clicks on the icon, the description is referenced from that form field directly with aria-describedby. The aria-discribedby can be used in all elements, it is mostly used in interactive elements such as input, select, button, and text area. The aria-describedby can be used for other ARIA Labels like aria-labelledby, aria-description, and aria-details.
+Contents of the Article
+show
+1.
+What is the function of the “aria-describedby” ARIA Label?
+2.
+What are the uses of the “aria-describedby” ARIA Label?
+3.
+Example Uses of “aria-describedby” ARIA Label
+4.
+What are the related ARIA Labels to “aria-describedby”?
+What is the function of the “aria-describedby” ARIA Label?
+The aria-describedby isn’t made to remark any statements on external resources. Its value is one or a space-separated list of greater than one ID, and it must recognize elements in the same document. The aria-describedb is appropriate when the linked details contain information in plain text. The aria-describedby command can be used along with semantic HTML elements and with elements with an ARIA function.
+What are the uses of the “aria-describedby” ARIA Label?
+Listed below are the uses of the “aria-describedby” ARIA Label.
+Widget roles:
+The multiple widget roles are utilized to create common interaction patterns. The same as the document structure roles, many of these duties replicate the semantics of well-supported native HTML elements and should not be applied.
+Region role:
+To identify document fields that the author views as significant, is a generic landmark available to guide navigation when none of the other position roles is appropriate.
+Group role:
+It identifies a number of user interface objects that are unintended to be in the page summary or table of contents by assistive technologies.
+Form role:
+It can be used as an identifier of a group of elements on a page that provide the same functionality as an HTML form.
+Dialog role:
+Used to indicate an HTML-based application dialogue or form to separate content or user interface from all web applications or web pages.
+Example Uses of “aria-describedby” ARIA Label
+Listed below are the example uses of the “aria-describedby” ARIA Label.
+The aria-describedby attribute is not designed to reference descriptions on an external resource. Its value can be one or a space-separated by a list of more than one ID reference element in the same DOM document.
+<h1>ARIA describedby with role="alert</h1>
+<label for="target">Example label</label>
+<input id="target" aria-describedby="error" type="text">
+<div id="error" role="alert">
+This is an error message!
+</div>
+<button aria-describedby="trash-desc">Move to trash</button>
+...
+<p id="trash-desc">Permanently removed from trash?</p>
+<a href="..." aria-describedby="description">
+Dog
+</a>
+<div id="description">
+Man’s best friend
+</div>
+<form>
+<label for="fname">Levi</label>
+<input name="" type="text" id="fname" aria-describedby="int2">
+<p id="int2">Hello World, My Name is </p>
+</form>
+<button aria-label="Close" aria-describedby="descriptionClose"
+onclick="myDialog.close()">X</button>
+...
+<div id="descriptionClose">Closing window to discard information, return to homepage</div>
+What are the related ARIA Labels to “aria-describedby”?
+Listed below are the related ARIA Labels to “aria-describedby”.
+aria-labelledby:
+The aria-labelledby is related to aria-describedby because they both share the same text information. The
+aria-labelledby
+enables authors to reference other elements on the page to define an access name. The aria-labelledby is useful when using elements that don’t have native support for associating elements to provide an access name.
+aria-description:
+The aria-description is related to aria-describedby because they both provide the user with an added description for the object on which it is set. The
+aria-description
+determines a string value describing the ongoing element.
+aria-details:
+The aria-details is related to aria-describedby because they are both attributes that identify the element or elements that provide newly added information related to the object. The
+aria-details
+communicate with users that are able to scan the screen and recognize the content explanation clearly.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-describedby” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-description” ARIA Label for Acce…
+TechSEO
+“aria-current” ARIA Label for Accessib…
+0
+0
+0

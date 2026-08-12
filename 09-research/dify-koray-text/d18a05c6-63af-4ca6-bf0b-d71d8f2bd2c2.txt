@@ -1,0 +1,139 @@
+Anchor (Link) Text Definition: How to Optimize it for SEO? - Holistic SEO
+Skip to content
+Anchor text is the visible text that is clickable and enables the reader to be redirected once the clickable text is clicked. It usually appears as blue underlined text, but users are able to change their website’s link colors and styles through the HTML or CSS. The anchor text is the link text with keywords that must be relevant to the linked page. SEO is mainly the reason that anchor text is implemented. Part of the algorithm of Google is specific to the anchor texts. The search engines use the anchor text that is indexed to make sure that the link is relevant to the source. SEO professionals must use anchor text to optimize the search result by providing relevant keywords for the anchor text. Providing a relationship and continuity for readers or users is one of the uses of anchor text to bridge between pages. ​​It possesses ranking signals that search engines use to learn the quality of linked pages. Search engines reward a page that provides a better user experience in return. Mainly there are 3 types of anchor text; exact match, partial match, and branded anchor text.
+Contents of the Article
+show
+1.
+What is an Anchor Text?
+1.1.
+An Example of Anchor Text
+2.
+What are the types of anchor text?
+2.1.
+1. Exact Match Anchor Text
+2.2.
+2. Partial Match Anchor Text
+2.3.
+3. Branded Anchor Text
+2.4.
+4. Naked Link Anchor Text
+2.5.
+5. Generic Anchor Text
+2.6.
+6. Image Anchor Text
+2.7.
+7. Random Anchor Text
+2.8.
+8. Phrase Match Anchor Text
+3.
+What are the best practices for Anchor Texts?
+3.1.
+What is the ideal length for an anchor text?
+3.2.
+How many words are better for anchor text?
+4.
+What are the benefits of Anchor Text for Search Engines?
+4.1.
+1. Gives Relevance between Two Web Pages
+4.2.
+2. Provides Contextual Crawl Path Across Different Web Pages
+4.3.
+3. Flows PageRank between Web Documents
+4.4.
+4. Gives Web Page Purpose to Web Search Engines
+4.5.
+5. Gives Relevance Between Web Page and Targeted Queries
+4.6.
+Do Search Engines Index Anchor Texts?
+5.
+What are the three main features of good Anchor Texts according to Google?
+5.1.
+1. Descriptive
+5.2.
+2. Useful
+5.3.
+3. Relevant
+6.
+Why is Anchor Text important for Search Engine Optimization?
+6.1.
+What did John Mueller of Google tell about Anchor Texts?
+7.
+What is Annotation Text?
+7.1.
+How does Annotation Text affect Anchor Text?
+8.
+Which Anchor Text type is best for SEO?
+9.
+How to Optimize Anchor Text for SEO?
+9.1.
+How to Optimize Internal Link Structure with Link Text Improvement?
+10.
+What does Anchor Text Affect?
+10.1.
+Is Anchor Text a Ranking Factor?
+10.2.
+Is Anchor Text a Relevance Factor?
+10.3.
+Is Anchor Text a Web Site Quality Signal?
+10.4.
+Does Anchor Text help for a better User Experience?
+10.5.
+Can Anchor Text change the context of web documents according to search engines?
+10.6.
+Are Link Text and Anchor Text the Same?
+10.7.
+How to use Anchor Text in HTML?
+What is an Anchor Text?
+Anchor text is a specified word or phrase that is included in the content that contains hyperlinks linking to another page or article. Its prominent text color typically is blue, indicating that it contains hyperlinks, but most web maker tools nowadays have customizable tools when designing a web content’s appearance more from HTML or CSS. An example of anchor text that refers to a cyclist is the word “
+cyclist
+” as well, and when there are sentences that need to provide a competitor article, it is shown by providing an anchor text, “
+competitor article
+.” The purpose of anchor text is mainly used on text-heavy articles or pages that enable visitors to have a quick leap to a particular page without having to scroll through the entire content. It assures visitors that the website has relevant information that turns later into a conversion process because of visitors’ ability to jump to specific pages by using anchor text. The benefit of using anchor text on a website helps build trust from the readers that the website they are on is relevant. Additionally, the SEO measure pays off by providing the right signal to the search engine crawlers. The relevance of placing anchor text to an article is significant for the website’s growth, as it provides context for the user and the search engine. Anchor text provides link labels and some have a sneak peek of the entire page if the user decides to click it. The search engine uses the anchor text to make it indexes in order to rank the web pages in results.
+An Example of Anchor Text
+Anchor text is declared using web development tools or publishing tools, but a traditional way of declaring an anchor text using HTML code is shown below.
+The href is an HTML element that holds a hyperlink, the anchor text stated between the HTML A Tags <a></a>. The href holds the URL that it becomes an attribute of the anchor text label. The anchor text now provides a hyperlink, as it has a different appearance than the other text. The text now is clickable text. They are redirected to another document or web page related to the text that the user recently clicked when the user clicks it through.
+What are the types of anchor text?
+Exact Match Anchor Text
+Partial Match Anchor Text
+Branded Anchor Text
+Naked Link Anchor Text
+Generic Anchor Text
+Image Anchor Text
+Random Anchor Text
+Phrase Match Anchor Text
+1. Exact Match Anchor Text
+The exact match anchor text is the simplest type of anchor text that is used for SEO ranking. The SEO optimizer considered exact match anchor text as the core keywords and money keywords. The anchor text is just simply how the exact phrase of keywords is the anchor text label. For example, the link page is, “the best way to lose weight in just a week.” The anchor text just is like, ”the best way to lose weight in just a week”. The advantage of the exact match anchor text is that it is easy to set up because it is just the same label and the required link. The disadvantages, however; signals as a link-building scheme, do not look natural, and do not entice users to click through.
+2. Partial Match Anchor Text
+The partial match anchor text is generally the most used anchor text. Partial match anchor text enables an anchor text to be a long keyword. Partial match anchor text is used to match internal links by not using all the whole phrases of a sentence. An example phrase like “Top 10 best SEO tools” is going to be “Best SEO tools” for an anchor text. The advantage of using a partial match anchor text is that the keyword does not need to be modified in order to fit the link title. It does not get a bad impression as a link builder compared to the exact match anchor text.
+3. Branded Anchor Text
+Branded anchor text is just a simple brand name used as anchor text. The visitor is redirected to the brand’s homepage if a brand is clickable. The advantage of using a branded anchor text is to promote brand awareness for visitors. Visitors have the chance to know more about the brand by clicking through the link. For placing a branded anchor text, simply just by highlighting the brand name, “Holisticseo”, if it is clicked the visitor is redirected to the Holistic SEO main page. However, Branded anchor text is only limited to links of the Brand and not some important topics that the user might need.
+4. Naked Link Anchor Text
+The naked link anchor text is termed because of its appearance as a bare URL that is pasted within the content. Naked link anchor text typically is added at the bottom of the article by the readers for reference. There are some pages that do the type of practice using exposed URLs as anchor text. Anchor text must be related to the link that it is attached, Naked link anchor text typically contains some words that are related to the content that the clicker expects to see. Studies show that Google loves naked URLs or naked anchor texts, because of their less spammy characteristics as being transparent. For example: “https://www.myfirstblog.com/how-create-new-article/”, the naked anchor text indicates a hint to where the link go after the user clicks it.
+5. Generic Anchor Text
+The generic anchor text is known as the regular anchor text because it does not provide textual information or caption relevant to the end-link. Generic anchor text depends on the surrounding text within the content in order for the reader to understand or predict the content they are going to expect after clicking the link. Using generic anchor text as a CTA is a powerful way to associate its purpose, though most of the time it is suspected as being spammy. One example is ‘Click Here’ which is the common anchor or “See More” is a good example.
+6. Image Anchor Text
+Image anchor text is a type of hyperlink that used images or banners that redirects visitors to a specific URL or link relevant to the image. Image anchor text is mostly used to provide external links, especially with affiliate links and other promotional links. The advantage of using image anchor text is that it is attractive and most visitors are likely to be drawn to click the image. The downside however is that the image is not a relevant keyword to be used as a search term for the search engine. Using an image as anchor text must be followed by declaring an alt image text so that it is keyword focused as well.
+7. Random Anchor Text
+Random anchor text is a type of anchor text that is not specified or related to the link or hyperlink. Often times there are link analysis tools that randomly generate a generic anchor text in a similar category. These random anchor texts came with phrases that are not typically as generic as a “click here”, but it isn’t related to the keyword object as well. Random anchor text advantage is that it is not accounted for as keyword stuffing or hurts the search results. Most users or visitors understand generic anchor texts mean more information that is given if clicked. Random anchor text typically minimizes the pages from getting into some trouble, affiliate links use random anchor texts to hide real intentions, it’s either good or bad, but random anchor text minimizes the pages getting into trouble.
+8. Phrase Match Anchor Text
+A phrase that matches anchor text is a link bearing a particular phrase that a website is attempting to rank. The phrase-matched anchor texts are typically used by starters who do not use patterns. Phrase-match anchor text has an advantage because they provide more context for the readers, especially for long-phrase anchor text.
+What are the best practices for Anchor Texts?
+Listed below are the 8 best practices for anchor texts.
+By keeping it natural and versatile:
+Google has stressed that contents and other parts of any given site provide relevant links as the anchor text for the users. The anchor text is where the links are supposed to be as where the users expect them to be. Repetitive keywords or anchor texts have to be avoided because Google’s algorithm is getting smarter every year, and it detects websites that are stuffing too many keywords, which is considered spamming, which leads to penalties.
+By avoiding over-optimization:
+Cloud-based anchor text keywords are not allowed in Google, such as overly rich anchor texts. It causes penalties as it blunts manipulation over backlinks, instead spreading internal links across the site.
+By keeping anchor texts relevant to content:
+Google eventually understands every page’s content over time as the algorithm keeps understanding the relevance. The DeepMind is an AI technology that learns just like humans; it processes and learns how every page acts and how it provides relevant data. Putting irrelevant anchor text for an Internal link likely affects its ranking on search results. The same as with backlinks with irrelevant anchor text as well. Google’s objective is to improve the user experience, by providing the best and most relevant sources for the users in the most effective way.
+By engaging in relevant guest blogging:
+Keeping the content where it is relevant, especially when engaging with other sources that share the same type of discussions. Providing a variety of information that co-relates with the same ideas or relevant information is the best thing to do. Google sees the relationship and learns that the topics and discussion are relevant to each other, which makes it the website has the authority to provide such information.
+By avoiding links from and linking to spammy sites:
+Every website takes it seriously when linking to unknown or low-quality websites. Bigger or established websites are unaware of these deals with smaller or established websites. Most of them offer money in exchange for promoting their website. It affects the credibility to provide quality links If a good website links to a spammy or low-quality website. Google sees that the recommended link points to a bad-ranking website. It leads to penalties and costs for the website to be not recommended on search results.
+By distributing anchor texts in the right proportions:
+Though “
+right proportions
+” discussion is still an argument for stuffing anchor texts with exact match and partial match keywords. Instead, introduce more branded anchors because the algorithm of Google allowed such links as well as with other different search engines too. The best anchor text for SEO is using page titles or blog post titles as anchor texts, according to Adam White of the Search Engine Journal. There are still discussions of what is the right proportions of anchor texts, but in the case of studies, the right slices are: 50% be branded, 15% are websites names, 10 to 15% are naked URLs, and 1-5% are Generic anchor texts with exact and partial match keywords. These things have to be taken into deep analysis and not be taken are the constant formula for a page’s success at the end of the day.
+By focusing anchor texts on deep-level pages:
+The most typical mistakes that beginner SEO developers do are setting links on homepages, landing pages, and product pages, believing it is the 
+
+[...truncated...]

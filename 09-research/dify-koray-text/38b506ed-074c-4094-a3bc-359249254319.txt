@@ -1,0 +1,141 @@
+HTTP Authentication: Basic Authentication - Holistic SEO
+Skip to content
+HTTP Authentication (Basic Authentication Access) is to provide a secure connection between the user-agent and the webserver. HTTP Authentication requires the usage of specific HTTP Headers. Hypertext Transfer Protocol requires a username, password, user-agent for access to the webserver. A User-agent uses a web browser to authenticate via HTTP. To provide HTTP Authentication, the credentials and the authentication scheme should be specified within HTTP Authentication Headers. HTTP Authentication credentials are in the base64 format. HTTP Authentication and Digest Access Authentication are relevant to each other to provide access control. Digest Authentication is to prevent replay attacks with the MD5 Cryptographic Hash. An example of HTTP Authentication is below.
+Authorization: Basic <credentials>
+During an HTTP Authentication process, the 401, 407, or 200 status codes can be used. The main benefit of the HTTP Basic Authentication (BA) is standardizing the sending and receiving credentials between the User-agent and the webserver. HTTP Authentication guide will process the HTTP Authentication Headers, Status Codes, Syntax, Directives, and Access Restriction methods, and types.
+Contents of the Article
+show
+1.
+What is Basic Authentication?
+1.1.
+What are Basic Authentication Headers?
+2.
+How does HTTP Authentication Framework function?
+3.
+What is Proxy-Authentication?
+3.1.
+What does Access Forbidden mean for HTTP Authentication?
+4.
+How to authenticate Cross-origin Images?
+4.1.
+How do WWW-Authenticate and Proxy-Authenticate Headers work together?
+4.2.
+How do Authorization and Proxy-Authorization Headers work together?
+5.
+What are the Authentication Schemes?
+5.1.
+1. Basic Authentication Scheme
+5.2.
+2. Bearer Authentication Scheme
+5.3.
+3. Digest Authentication Scheme
+5.4.
+4. HOBA Authentication Scheme
+5.5.
+5. Mutual Authentication Scheme
+5.6.
+6. Negotiate/NLTM Authentication Scheme
+5.7.
+7. VAPID Authentication Scheme
+5.8.
+8. AWS4-HMAC-SHA256 Authentication Scheme
+6.
+Why is the Basic Authentication Scheme the most common?
+6.1.
+How is the security of the basic authentication?
+7.
+What is restricting access for authentication of HTTP?
+7.1.
+How to restrict access within NGINX Servers?
+7.2.
+How to restrict access within Apache Servers?
+What is Basic Authentication?
+Basic Authentication (BA) is the fundamental and common way for providing authentication and access restrictions. Basic Authentication is to provide access control for the web resources via HTTP. Basic Authentication doesn’t require any login page, cookies, session information, or URL parameters for the identification of the requestor.
+What are Basic Authentication Headers?
+The Basic Authentication Headers are the Proxy-Authenticate, Proxy-Authorization, WWW-Authenticate, Authorization. The explanations and examples of the Basic Authentication headers are below.
+Proxy-Authenticate: The HTTP Proxy-Authenticate response-header provides the authenticated mechanism to the proxy server for access validation to provide secure data transfer. The error message “HTTP request was forbidden with client authentication scheme anonymous” is an example of an authentication mismatch. This error message indicates a negative trust relationship between server and server. This implies the required credentials for authentication from Windows Communication Foundation (WCF) server to the client. An example for the HTTP-Authenticate Request Header is shown below.
+Proxy-Authenticate: Basic realm="Access to the internal site"
+Proxy-Authorization: The HTTP Proxy-Authorization request header provides the username and password after the status code 407 Proxy-Authentication and Proxy-Authenticate header to the user. HTTP digest authentication is a program that utilizes MD5 cryptographic hashing in conjunction with nonce data to avoid repeated attacks. An example for the HTTP-Authenticate Request Header is shown below.
+Proxy-Authorization: Basic ZXyvKRVpbjlspXVuc4QzZN3l
+WWW-Authenticate: The
+HTTP WWW-Authenticate
+response header determines the HTTP Authentication process to be used to provide secured access on a web server. The basic authentication header method provides the username and password listed. An example for the HTTP-Authenticate Request Header is shown below.
+WWW-Authenticate: Basic realm="Access to the staging site", charset="UTF-8"
+Authorization: The
+HTTP Authorization
+request header supplies the credentials to the user to the secured web server. HTTP Authorization request header provides a response with the status code 401 Unauthorized when the user provides no credentials upon access request from a secured proxy server. The HTTP Authorization fails when a credential is incorrect or the password is expired, the remote http basic access will be denied. An example for Authorization HTTP Request Header is shown below.
+Proxy-Authorization: Basic YQxvLQRscjlspTYudc3QzWV1l
+How does HTTP Authentication Framework function?
+The general HTTP Authentication Framework provides the pattern where the server will challenge the client to supply the credentials to access the resource from the proxy web server. The challenge and response pattern for the HTTP Authentication framework is shown below.
+A status code “401 (Unauthorized)” with WWW-Authenticate Response Header and one or more challenges from the server will be responded to by the client, which includes the details on how to authorize.
+A client can authenticate itself with the server by providing the credentials with an HTTP Authorization Request Header.
+An HTTP Authorization Request Header with password prompt will be requested by the client from the user.
+What is Proxy-Authentication?
+A Proxy-Authentication approach ensures that every request to the server is authenticated. In the context of Proxy-Authentication, the HTTP Proxy-Authenticate includes the type and realm directives for Proxy Server Authentication. The HTTP Authentication provides the general framework for the access control and authentication required for Proxy-Authenticate to ensure that every request to the server is authenticated. Proxy Authentication is a method of providing a Middle-tier server for user verification. The administrator will be providing the authorization to a Middle-tier server to proxy a client. There are three forms of Proxy-Authentication shown below.
+The application user validates itself with the middletier server. Then the middletier validates with the database server.
+The middletier server doesn’t provide authentication to the client. The username and password are submitted to the database server for verification.
+For recovering the user’s credentials, the client submits the certificate or the Distinguished Name (DN) to the middletier server for authentication.
+What does Access Forbidden mean for HTTP Authentication?
+Access Forbidden for HTTP Authentication implies invalid credentials received by the server from the user-agent. A status code “
+401
+Unauthorized” or “407 Proxy Authentication Required” will be sent to the user as an error message. Then, the user may supply new credentials to provide another access request. Another related status code is “403 Forbidden”, which refers to the server’s permanent refusal of access to the client. An example of Access Forbidden is shown below.
+HTTP/1.1 403 Forbidden
+Date: Tue, 28 Dec 2021 07:28:00 GMT
+How to authenticate Cross-origin Images?
+The Cross-Origin Resource Sharing protocol uses headers in HTTP to allow a server to indicate from other origins that a browser should authenticate the loading of resources from that domain. In Cross-Origin Images, the HTML, together with a Cross-Origin Resource Header, uses a Cross-Origin Attribute for images that permits images identified by the <img> element, HTML provides a cross-origin attribute for images that, in combination with an appropriate CORS header, allows images defined by the <img> element that are initiated from other domains to be provided for an <canvas> as it were they are from the current origin. The methodology of storing the images from an outside domain requires web server configuration. The server is configured to set up images with the Access-Control-Allow-Origin header. The Access-Control-Allow-Origin header authenticates Cross-Origin to access the image files. The web server will then allow other images from a foreign domain to be linked and saved in local storage.
+How do WWW-Authenticate and Proxy-Authenticate Headers work together?
+The HTTP WWW-Authenticate response header determines which HTTP authentication mechanics will be applied to provide access to a resource from the proxy web server. The response requires an HTTP WWW-Authenticate response header, together with one or more Challenge-Response Headers. The HTTP Proxy-Authenticate response header will then authenticate the specific authentication mechanics applied to allow access to a resource from the proxy web server. Status code “407 Proxy Authentication Required” is sent along with the Proxy-Authenticate header. An example is shown below.
+WWW-Authenticate: Basic
+WWW-Authenticate: Basic realm="Access to the staging site", charset="UTF-8"
+Proxy-Authenticate: Basic
+Proxy-Authenticate: Basic realm="Access to the internal site"
+How do Authorization and Proxy-Authorization Headers work together?
+The HTTP Proxy-Authenticate response-header provides the authentication of the applied mechanics to access the webserver. HTTP Proxy-Authenticate is forwarded along with the “407 Proxy Authentication Required” status code, where credentials will be required. The HTTP Authorization header will then provide the webserver with the necessary username and password to validate a user agent to allow access. An example is shown below.
+Proxy-Authenticate: Basic
+Proxy-Authenticate: Basic realm="Access to the internal site"
+Authorization: Basic ZXnqYWQplmordGWuc1VzQR2l
+What are the Authentication Schemes?
+The authentication schemes are listed below.
+Basic authentication scheme
+Bearer Authentication Scheme
+1. Basic Authentication Scheme
+“Basic” HTTP Authentication is a scheme described in RFC 7617 that uses base64 to transfer the username and password. The Basic Authentication method is not secured when credentials are submitted as clear text since these are encoded and not encrypted. An example is shown below.
+AuthType Basic
+AuthName "Access to the staging site"
+AuthUserFile /path/to/.htpasswd
+Require valid-user
+2. Bearer Authentication Scheme
+“Bearer” HTTP Authentication is a scheme described in RFC 6750 that provides security tokens that allow access to the client (the bearer of the token). A client is given the authorization to access the secured server with the owner’s approval. An example is shown below.
+app.get('/profile',
+passport.authenticate('bearer', { session: false }),
+nction(req, res) {
+res.json(req.user);
+});
+3. Digest Authentication Scheme
+The “Digest” HTTP Authentication scheme is one of the standard mechanisms used to authenticate the username and password of a user agent provided to the server. “Digest” HTTP Authentication scheme contains all access requests received by a proxy server and transferred to the domain administrator. An example is shown below.
+HA1 = MD5(username:realm:password)
+HA2 = MD5(method:digestURI)
+response = MD5(HA1:nonce:HA2
+4. HOBA Authentication Scheme
+The HTTP Origin-Bound Authentication (HOBA) scheme doesn’t require a password. Instead, a signature-based scheme is designed to make it more secure than the Basic and Digest HTTP Authentication schemes. A design where credentials are not prone to phishing attacks and can be applied in Javascript-based authentication embedded in HTML. An example is shown below.
+Authorization: HOBA result="kid"."challenge"."nonce"."sig"
+5. Mutual Authentication Scheme
+HTTP Mutual Authentication scheme, also known as bidirectional authentication, requires verification from both sides, the client and server. HTTP Mutual Authentication schemes may require various methods of authentication, such as digital certificates. The difference between HTTP Mutual Authentication and other schemes is that both client and server have one mutual entity to be verified. An example is shown below.
+The client sends a request to the server with:
+Authorization: Mutual user="name"
+ab1="..."
+The server responds with:
+Authorization: Mutual sid=123
+vab="..."
+6. Negotiate/NLTM Authentication Scheme
+The Negotiate/NLTM Authentication scheme is also called SPNEGO. A method of authentication, defined in RFC 4559, selects between Kerberos and NTLM (Windows NT LAN Manager) authentication. Negotiate/NLTM Authentication scheme is used to negotiate several authentication schemes, allows mutual authentication and delegation of username and password to remote machines. Kerberos, a computer network authentication protocol, provides high-security measures by implementing ticket-based requests to allow user access over a non-secure network. An example is shown below.
+Authorization: Negotiate <gssapi-data>
+7. VAPID Authentication Scheme
+The “VAPID” HTTP Authentication scheme, also known as the Voluntary Application Server Identification scheme is created to allow independent communications between the web server and the push service. VAPID HTTP Authentication scheme authorizes the developers to indicate their contact information and websites to deliver push notifications without recognizing which browser it supplies. An example is shown below.
+Authorization: vapid
+t=slK0eXAiOiJKV2ZiLCJhbGciOiJFUzI1NiJ9.eyJhdWQiOiJodHRwczovL3B1c2guZXhhbXBsZS5uZXQiLCJleHAiOjE0NTM1MjM3NjgsInN1YiI6Im1haWx0bzpwdXNoQGV4YW1wbGUuY29tIn0.i3CYb7t4xfxCDquptFOepC9GAu_HLGkMlMuCGSK2rpiUfnK9ojFwDXb1JrErtmysazNjjvW2L9OkCCHzvoB1oA,
+k=RC3Hxzyi1ZIP3b5wjxsn7nGxAszw2u61m164i3MrAIxHF6YK5h4SDYic-dRuU_RCPCfA5aq9ojSwk5Y2EmKLMJs
+Where “t” is a token provided by the client and “k” is the private key that serves as the signature for the token.
+8. AWS4-HMAC-SHA256 Auth
+
+[...truncated...]

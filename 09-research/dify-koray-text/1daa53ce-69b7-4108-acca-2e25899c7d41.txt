@@ -1,0 +1,106 @@
+Lead Generation Marketing: Definition and Best Practices - Holistic SEO
+Skip to content
+A lead  (plural leads ) is a term from the sales/marketing and describes a contact initiation and/or supply of contact information by a potential prospect. One speaks of a “qualified lead” when a potential customer confirms his interest (corresponding to a non-binding purchase intention).
+Lead marketing or lead generation marketing describes the process of arousing the interest of potential customers and then converting them into buyers. As a rule, this is done via various channels of online marketing. Lead marketing is about picking up and addressing potential customers depending on their phase in the buying process according to their needs. The goal of lead marketing is to convert prospects into customers. A lead denotes a qualified contact.
+Leads are, for example,  email addresses, a  telephone number, the name of the contact person,  company name, position title, other company data, etc. The qualitative lead is one of the main goals in B2B marketing. In the B2C area, leads are often just a type of micro-conversion in which the quantity of leads is important, which is subordinate to other main goals.
+Lead marketing is about picking up and addressing potential customers depending on their phase in the buying process according to their needs. The goal of lead marketing is to convert prospects into customers. A lead denotes a qualified contact. The term “ lead ” has different meanings depending on the context. For example, it is used in marketing, music, sports, journalism, or pharmaceutical research. However, this article is limited to the importance of leads in the sales and marketing context.
+The term lead is an interested party who has become aware of a company’s product or service. He voluntarily leaves his customer data and makes it available.
+Contents of the Article
+show
+1.
+What does lead generation mean?
+2.
+How Does Lead Generation Work?
+2.1.
+Which channels or instruments can you use for lead generation?
+3.
+Why is lead generation important?
+4.
+What can B2B lead generation actually do?
+5.
+What does MQL, SAL and SQL mean and what is the difference?
+6.
+What costs can I expect to generate a lead?
+7.
+What problems can arise during lead generation?
+8.
+Lead generation via Content Marketing
+9.
+Last Thoughts on Lead Generation and Search Engine Optimization
+What does lead generation mean?
+The lead generation or lead generation ( prospecting ), is a method of marketing and deals with the creation of interactions with qualified prospects ( leads ). Lead generation can be used in the context of dialog marketing, permission marketing, and/or inbound marketing. The generation of high-quality leads is a fundamental task of customer acquisition. Any activity that leads potential new customers to leave their contact details is then summarized under the term lead generation.
+Lead generation is a crucial driver for the growth of a company. Which also includes tapping new sales potential with existing customers.
+How Does Lead Generation Work?
+Lead generation is all about establishing contacts with potential customers and getting them to provide personal information.
+For example, interested parties are asked to provide their contact details when downloading an e-book, subscribing to a newsletter, or registering for a webinar. This customer data is collected in order to then set up appropriate campaigns or to pass the data on to sales. For sales, this has the advantage that it is not a matter of “cold contacts”, but of qualified interested parties.
+Before leads generate revenue, there are usually several steps. First of all, it is important to attract the attention of the target persons and to win their trust. In particular, certain online channels are used for companies:
+Search Engine Optimization (SEO)
+Search Engine Marketing
+Social Media Marketing
+Landing pages
+Banner advertising
+Online PR
+Community Management
+Influencer Marketing
+Affiliate Marketing
+Inbound Marketing
+Content Marketing
+Customer Relationship Management
+But trade fairs and conferences are also an effective tool for companies to generate leads. Another way to generate leads is through affiliate marketing. Affiliate program participants often receive lead compensation, i.e. a commission per contract by an interested party (e.g. registration or download).
+Which channels or instruments can you use for lead generation?
+The lead generation can be carried out via different channels:
+In personal contact, for example at trade fairs, promotional stands, offline raffles …
+Through cooperation with event organizers or through your own events
+Via outbound phone calls (cold calls) and emails
+Online via your own website, e.g. via contact forms, newsletter registration forms, etc.
+About content highlights such as webinars, downloads (guides, white papers, checklists, etc.)
+Via social media
+Print lead generation: Print ads with replies or advertising mailings
+Why is lead generation important?
+The lead generation helps the company’s customer base continues to expand. This method is also extremely important for a company in order to continuously improve the product or service. Lead generation is, among other things, an essential step in acquiring new customers. It forms the basic building block in the targeted search for new customers.
+Through high-quality leads, the company learns accurate information about customer needs. The chance that the lead will become a customer increases. Qualified leads have a greater interest in a service or a product. A campaign can thus be played more specifically with the content that is important for the customer. The chance increases that the customer becomes an existing customer. Generating leads has the potential to increase sales significantly. The sales figures increase and can be planned.
+What can B2B lead generation actually do?
+The B2B ( Business to Business ) lead generation makes it possible to establish qualified customer contacts. New contacts are established based on an existing first prospect for a product or service. The data that is left behind is made available in this way. Qualified leads are generated.
+Relevant business contacts will be contacted at the right time, with the right approach. For a company and its sales, this means new customers and more sales. With an optimal landing page, those interested in a product or service can be inspired and convinced.
+In the long term, B2B lead generation creates a diverse sales and marketing measure. Potential prospects become satisfied as existing customers and sales are increased.
+What does MQL, SAL and SQL mean and what is the difference?
+MQL stands for Marketing Qualified Lead . The term  SAL for Sales Accepted Lead and  SQL for Sales Qualified Lead . But what’s the difference?
+In short, a Marketing Qualified Lead is a lead that was generated by marketing measures. A typical MQL here is the contact information that was generated via a newsletter subscription.
+The MQL can be used for further marketing measures along the customer journey until it becomes a sales accepted lead. At this point, sales in the B2B area traditionally take over further measures.
+This process of measures across the individual lead qualification levels is also referred to as lead nurturing.
+Lead nurturing can be carried out in every phase of the sales funnel or the customer journey. For example in the acquisition of new customers, customer loyalty, customer recovery, or reactivation of former or inactive customers. The art is to accompany this contact in the customer journey with further marketing measures until it becomes an SQL or not.
+An SQL is a lead that is ready to be contacted by sales. Modern marketing automation tools can assist with this process and beyond.
+What costs can I expect to generate a lead?
+This question can not be answered generally. Depending on the business model, acquisition, or usage costs for the offer, and the customer lifetime value, the maximum cost per lead in English Cost per Lead (CPL) may differ. Before starting lead generation measures, it should be clear how much a lead is worth. In addition to the order value already mentioned, this also depends on the order completion rate, i.e. how many of the leads become the order on average.
+Here’s an example:
+With an estimated average turnover per order of 50,000 Dollars per new customer, the profitability is 20%. This leaves the order with 10,000 Dollars in profit that can theoretically be used to generate the lead without causing a loss. Evaluations have shown that an average of 20 leads is needed to get an order.
+To calculate the maximum cost per lead you can then calculate:
+10,000 Dollars/20 leads = 500 Dollars maximum cost per lead
+This is of course very theoretical, but I think it makes it clear how you can determine the maximum cost per lead.
+What problems can arise during lead generation?
+A certain rhythm of lead campaigns should be observed when generating leads. A procedure that is in the legal framework but consists of frequent mailings can have opposite effects and annoy interested parties.
+Leads are also often bought. This procedure is only legally permitted if the interested parties have clearly given their consent to the use of data from third parties. Negative effects on the company’s image can be expected here. If e.g. B. Users receive newsletters for which they originally did not register directly.
+Lead generation has its limits with certain forms. For example, competitions can lead to many leads. But maybe only a lot of users took part because they wanted to win the attractive skin award. Otherwise they are not interested in the company, its products or its services. For this reason, prices when generating leads with competitions should be as relevant as possible to the offer of the respective company.
+When generating leads, all types of trigger mailings, such as automated follow-ups, interval, or transactional mailings, fall under the concept of the promotional email.
+The consent of the recipient is required from three legal points of view:
+In terms of data protection law, the recipient’s data may only be saved, processed and used for the purpose of “sending advertising e-mails” if the recipient has given prior consent.
+Under civil law, the recipient must give his consent so that he cannot directly warn the sender himself according to §§ 823, 1004 Civil Code (BGB) for the violation of another right.
+In terms of competition law, express and prior consent is required so that the sender cannot be warned by competitors, the competition center, warning associations, etc. for violating Section 7 (2) of the Unfair Competition Act (UWG).
+Lead generation via Content Marketing
+In order to generate leads in high quality, the use of relevant content is essential. Instead of “falling into the house with the door”, the aim is to generate interest in a company’s products through high-quality content. It is important to offer the potential buyer the right content at the right contact points (touchpoints).
+Lead marketing is also about accompanying prospects along the customer journey. This is how a relationship with the potential customer is to be established before the customer is contacted about a sale.
+The customer journey varies depending on the user but can be roughly divided into certain phases. These are based on the AIDA formula known in marketing (Attention – Interest – Desire – Action):
+Awareness: perception of needs
+Consideration: Decide / evaluate
+Decision: purchase
+In the information search phase, consumers have to be addressed differently than when they are about to make a purchase decision. Using a keyword search, you can pick up on certain search queries and draw attention to company’s products and services, for example, with solution-providing blog articles or videos.
+If the user has already consumed information about a company and has found it useful, he may then download an e-book or sign up for a newsletter. If he leaves his contact details now, marketing can then set up personalized campaigns via email.
+With the right content for every phase of the customer journey, the respective needs of the customer are taken into account. The Customer Journey Content Map at offers an approach on how to develop relevant content for each phase in the buying process
+To manage leads and address contacts in a targeted manner, many companies use a system for customer relationship management (CRM) such as Salesforce or marketing automation software such as Marketo. Such tools not only collect data records such as customers and leads but also information about all previous activities and interactions. In this way, leads can be managed and evaluated, personalized campaigns set up and sales talks initiated at the right time.
+Last Thoughts on Lead Generation and Search Engine Optimization
+The generation of leads is an important task in acquiring new customers. Lead marketing is not just about making contacts with the aim of turning them into sales, but also about building long-term customer relationships.
+Since the attention of potential customers is very often awakened online, the digital presence of a company is particularly important for successful lead marketing. In addition, companies should offer potential customers appropriate content depending on the phase in the buying process. If interested parties have been won, the qualified leads can be passed on to the sales department.
+Good cooperation between the marketing department and sales is essential for successful lead marketing. Many companies rely on the support of lead management software for their lead marketing.
+Lead Generation is a side task of Search Engine Optimization. If a web page can’t collect leads, it means that it doesn’t perform its purpose of existence. To satisfy the users’ search intent and create a valuable reputation, page layout, content, and session communication with users should be confi
+
+[...truncated...]

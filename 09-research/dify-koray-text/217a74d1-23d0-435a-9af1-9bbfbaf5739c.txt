@@ -1,0 +1,134 @@
+HTML <canvas> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <canvas> HTML Tag is used to draw graphics in real time using scripting, usually JavaScript. The <canvas> HTML Tag is transparent and serves merely as a container for visuals; you must draw the graphics using a script. Any text contained within the <canvas> HTML Tag will be displayed in browsers that do not support <canvas> or have JavaScript disabled. The <canvas> HTML Tag is part of the images tags category. The attributes of the <canvas> HTML Tag are height, width, global and event attributes.
+<canvas> code block example to learn how it works is given below.
+<canvas id="myCanvas">
+Fallback content
+</canvas>
+<script>
+function displayCanvas()
+{
+var canvas = document.getElementById("myCanvas");
+</script>
+The second example usage of the “<canvas>” code block example is below.
+<canvas id="Square" width="200" height="200">
+<p>Browser does not support the canvas tag.</p>
+<p>Here's an <a href="/pix/html_5/tags/html_canvas_tag.gif">image of what it's supposed to look like</a>.</p>
+</canvas>
+<script>
+var canvasSq = document.getElementById("Square");
+if (canvasSq.getContext)
+{
+var ctxSq = canvasSq.getContext("2d");
+ctxSq.fillStyle = "rgb(255,0,0)";
+ctxSq.fillSq (0, 0, 150, 75);
+ctxSq.fillStyle = "rgb(0,255,0)";
+ctxSq.fillSq (40, 30, 125, 75);
+ctxSq.fillStyle = "rgb(0,0,255)";
+ctxSq.strokeSq (20, 20, 50, 100);
+}
+</script>
+Contents of the Article
+show
+1.
+What is <canvas> HTML Tag?
+2.
+How to Use <canvas> HTML Tag?
+2.1.
+Example Usage of <canvas> HTML Tag?
+3.
+What are the Attributes of <canvas> HTML Tag?
+4.
+What are the Default CSS Settings for <canvas> HTML Tag?
+5.
+What are the Related other HTML Tags to <canvas>?
+What is <canvas> HTML Tag?
+Using JavaScript, the <canvas> HTML tag is used to draw images on a web page. It enables the creation of pathways, boxes, text, gradients, and the addition of images. It does not have borders or text by default and should be noted that the <canvas> HTML tag is new in HTML5.
+How to Use <canvas> HTML Tag?
+To use the <canvas> HTML tag, the site developer must construct <canvas id=””></canvas> with any necessary fallback content put between the start and end tags. If the browser does not support the <canvas> HTML Tag, this fallback content will be displayed. You can also use the height and width attributes to specify the canvas height and width. If you omit these attributes, the canvas will be drawn at its default width and height of 300 and 150. To actually display something on the <canvas> HTML Tag, you must add the id attribute and use JavaScript to reference the <canvas>’ id.
+Example Usage of <canvas> HTML Tag?
+The following examples of usage of <canvas> HTML Tag is given below.
+<canvas id="Rectangle" width="400" height="300">
+<p>Browser does not support the canvas tag.</p>
+<p>Here's an <a href="/pix/html_5/tags/html_canvas_tag.gif">image of what it's supposed to look like</a>.</p>
+</canvas>
+<script>
+var canvasRect = document.getElementById("Rectangle");
+if (canvasRect.getContext)
+{
+var ctxRect = canvasRect.getContext("2d");
+ctxRect.fillStyle = "rgb(255,145,0)";
+ctxRect.fillSq (0, 0, 150, 75);
+ctxRect.fillStyle = "rgb(255,130,190)";
+ctxRect.fillSq (40, 30, 125, 75);
+ctxRectfillStyle = "rgb(150,0,255)";
+ctxRect.strokeSq (20, 20, 50, 100);
+}
+</script>
+What are the Attributes of <canvas> HTML Tag?
+There are multiple attributes for the <canvas> HTML Tag. The following attributes are listed below.
+Height Attribute: The <canvas> HTML Tag supports Height Attributes. The height attribute is used to specify the canvas’s height. The default setting is 150.
+Width Attribute: The <canvas> HTML Tag supports Width Attributes. The width attribute is used to specify the canvas’s width. The default setting is 300.
+Global Attributes: The <canvas> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <canvas> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <canvas> HTML Tag?
+The following is the Default CSS Setting for the <canvas> HTML Tag.
+canvas {
+height: 150px;
+width: 300px;
+canvas {
+height: 150px;
+width: 300px;
+}
+What are the Related other HTML Tags to <canvas>?
+The other related HTML Tags to the <canvas> HTML Tag are listed below.
+<img> HTML Tag: The
+<img>
+HTML Tag is related to <canvas> HTML Tag because they are both images tags. The <img> HTML Tag is used to specify the content of an image.
+<map> HTML Tag: The
+<map>
+HTML Tag is related to <canvas> HTML Tag because they are both images tags. The <map> HTML Tag is used to define an image map.
+<figcaption> HTML Tag: The
+<figcaption>
+HTML Tag is related to <canvas> HTML Tag because they are both image tags. The <figcaption> HTML Tag specifies the caption for the figure tag.
+<figure> HTML Tag: The
+<figure>
+HTML Tag is related to <canvas> HTML Tag because they are both images tags. The <figure> HTML Tag denotes self-contained content.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <canvas> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <script> Tag Definition, Usage and Exam…
+TechSEO
+HTML <noscript> Tag Definition, Usage and Ex…
+0
+0
+0

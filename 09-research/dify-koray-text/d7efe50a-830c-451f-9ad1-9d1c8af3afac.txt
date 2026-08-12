@@ -1,0 +1,114 @@
+Return of Investment (ROI): Definition and Importance - Holistic SEO
+Skip to content
+Return on Investment
+literally means the return of the investment; that is, capital. The
+ROI
+is thus a calculation parameter or an entrepreneurial key figure that provides information about when an investment paid off or whether it is profitable. One also speaks of return on capital, return on investment, or profitability. The profit is set in relation to the capital invested to determine how profitable investments were – or for future investments. The
+ROI is
+calculated from the determined or calculated share of profit and the required capital investment over a certain period of time.
+Short Definition of ROI is below.
+Return on Investment (ROI)
+describes the relationship between investment and profit. The value should show to what extent an investment was worthwhile. In online marketing, for example, the
+financial success of a campaign can be
+traced.
+Contents of the Article
+show
+1.
+Calculation of ROI – Return on Invest
+2.
+A Return of Investment Example from Real Life
+3.
+The ROI in online marketing
+4.
+What role does the Return of Investment play?
+5.
+What is the Relationship between Return of Investment and SEO
+Calculation of ROI – Return on Invest
+Since the investment or the capital investment (oven) and the profit (8 cents per roll) can be clearly and causally assigned to each other, the return on investment is easy to calculate. For example, two different ovens with different capacities and prices can be compared easily and simply with regard to their profitability. The oven that can achieve the same (or higher) profit in less time is the more profitable oven with a higher ROI. Then there is only hope that the additionally produced rolls can all be sold.
+ROI = profit share through capital investment (over one year) ROI = 2,400 divided by 2,600 ROI = 0.92
+Koray Tuğberk GÜBÜR – Founder of Holistic SEO & Digital
+The relationship between investment and profit is not always as clear and unambiguous as in our example with the baker and the new oven. If there are more complex facts and relationships, a causal relationship between costs and benefits is not always so easy to identify. Often, the situation of not clearly allocating administrative costs to an investment or there are other costs that cannot be clearly allocated. When the impact of indirect or general costs increases, the reliability of the ROI as a measure of profitability decreases.
+Some of the related Marketing Terms and Their Definitions along with guidelines for the readers who want to reach deeper information:
+Return on Capital Employed and Definition
+NeuroMarketing and Definition
+Flywheel Marketing Definition
+Eye-tracking Definition
+Community Management Definition
+A Return of Investment Example from Real Life
+ROI is of course not only for Online Marketing, but it is also actually firstly used in real brick & mortar businesses. Below, you may find an example of this.
+Example: A baker wants to buy a new oven. With this new oven, the baker can bake and sell 100 rolls a day more than before. The profit per roll sold is 8 cents, and the baker increases his profit (if he can sell all rolls) by $8 every day that his bakery is open. His bakery is open 25 days a month, which means an additional profit of $200 per month or $2,400 per year. The new furnace costs $2,600. The investment in the new furnace has paid off or paid off after 13 months ($2,600 more profit). The money that the baker spent on the oven completely “returned” to him after 13 months, and the additional profit is clearly attributable to the new oven.
+The ROI in online marketing
+In relation to online marketing, the ROI relates to the
+relationship between advertising costs and the profit made
+. This allows the financial success of advertising campaigns to be measured precisely. The prerequisite is, of course, that the necessary data is tracked, i.e. the conversion rates.
+The ROI is calculated using the following formula:
+Profit / turnover x turnover / total capital x 100%
+In online marketing, this calculation is also known under terms such as
+ROMI
+(Return on Marketing Investment) or – especially for search engine marketing –
+ROAS
+(Return on Advertising Spendings), since visitor tracking can be tracked here using web tracking. Therefore, this calculation is also somewhat simplified, namely by putting the advertising costs in relation to the profit:
+Revenue – total / advertising costs
+Total costs include all activities or investments that were incurred for the product before it was sold. This includes manufacturing costs, purchase costs, or marketing costs, such as the placement of AdWords ads.
+Example of AdWords ads:
+In a shop, 3000
+Dollars
+are required for the purchase of products, which generate sales of 5000
+Dollars
+via AdWords ads. AdWords spend is $ 500. This results in the following calculation:
+5000
+Dollars
+– 3500 euros / 500 Dollars= 3
+Dollars
+The value “3” means that you made a net profit of 3
+Dollars
+from a bet of 1
+Dollar
+.
+What role does the Return of Investment play?
+On the one hand, you can use the ROI to see whether the campaign was financially worthwhile, on the other hand, you can use it to identify the positions that were particularly profitable or particularly cost-intensive within the campaign. You can adjust future campaigns accordingly.
+With advertising measures such as AdWords, the value can still be determined quite precisely, since the focus is on click costs (CPC). However, it becomes more difficult with the ROI for SEO measures. Here, sales cannot be clearly attributed to certain SEO measures, as when clicking on an advertisement, since the success of the measures can only be determined over a longer period of time and the time, which is also associated with costs, is not factored in.
+For an entire online marketing campaign, it is quite possible to calculate financial success using the ROI, namely on the basis of a fixed budget, which is often set for such campaigns. If the path of a customer to conversion can be traced back to campaigns in this campaign, it can also be “booked” as exact turnover. However, a realistic ROI can only be determined if:
+All marketing channels used within the campaign are included in the budget
+The customer’s path – the customer journey – is tracked
+Exactly what a conversion in the campaign means
+The return on investment reflects the relationship between investment and profit. This consideration can be used for individual investments, but also for the profitability of an entire company.
+What is the Relationship between Return of Investment and SEO
+Holistic SEOs should be people who calculate the ROI for their customers. This is not only related to the SEO, but also a PR Campaign or AdWords Campaign can be calculated in terms of ROI by an SEO. A Holistic SEO is no different from a Growth Hacker. A Customer can trust a Holistic SEO in many ways such as the code structure or the marketing strategy, content’s grammar, or community management. A Growth Consultant can increase the efficiency of a customer’s budget spending via his/her vision. Also, SEO is a long-term project. Some customers can be impatient for seeing the results of the projects with a classical ROI Understanding. In addition to this, there are some SEO Campaign elements that can’t be calculated in a classical ROI Calculation methodology, such as PR or Natural Link Building processes. These kinds of steps create a permanent Brand Value in the long term, which helps rank better.
+ROI is related to the SEO for giving customers a realistic perspective on the ROI of SEO projects and also for giving a consultancy to increase the budget efficiency for a holistic digital marketing strategy. As Holistic SEOs, we will continue to improve our ROI Guidelines as the new practices, examples, and theories come up.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Marketing
+What is the Return of Investment (ROI)?
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+Marketing
+What is the Return on Capital Employed (ROCE)?
+Marketing
+What is Click Fraud and How Can You Stop It?
+0
+0
+0

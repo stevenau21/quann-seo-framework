@@ -1,0 +1,82 @@
+If-Range HTTP header: Principles, Types, Working Examples - Holistic SEO
+Skip to content
+The If-Range HTTP request header is a header field name that provides a conditional method to a Range HTTP request header. The Range HTTP request header specifies the part of a web page or a resource that the webserver is requested to return. The web server should provide the specified sub-range of the entity using a 206 (Partial content) response if the entity-tag given in the If-Range header matches the current entity tag for the entity. The web server should return the entire entity using a 200 (OK) response if the entity tag does not match. The 206 (Partial Content) status code specifies that the webserver has successfully fulfilled a range request for the target resource by sending one or more parts of the selected representation that complies with the If-Range header field. The 200 (OK) response is sent if the condition from the If-Range header field is not met.
+Contents of the Article
+show
+1.
+What are the principles of If-Range HTTP header?
+1.1.
+What is the Syntax of If-Range HTTP header HTTP Request Header?
+1.2.
+What are the directives of the If-Range HTTP header?
+2.
+What are the If-Range-related HTTP Headers?
+2.1.
+Examples of If-Range HTTP header Use
+3.
+Web server will apply the If-Range HTTP header What is the relation between If-Range HTTP header and Range HTTP Header?
+What are the principles of If-Range HTTP header?
+The principles of the If-Range HTTP request header are the resume download usage, can be used with the Last-Modified validator or Entity Tag (ETag), and makes a Range HTTP request header conditional. The Principles of the If-Range HTTP request header are explained below.
+An If-Range HTTP request header is used to resume a download and ensure that the stored resource was not modified since the last fragment was received.
+An If-Range HTTP request header is used with the Last-Modified validator. If the resource has been modified after the specified date, the web server returns a “200 status” for the requested resource. If the resource was not modified since the selected date, the response is a “304 without a body”.
+An If-Range HTTP request header makes a Range HTTP request header conditional by providing the client a “short-circuit” second request. If the condition is met, the web server will provide the specified sub-range using a 206 (Partial content) response. If the condition is not met, the web server will return the complete resource with a 200 (OK) response.
+What is the Syntax of If-Range HTTP header HTTP Request Header?
+The syntax of the If-Range HTTP request header is shown below.
+If-Range: <day-name>, <day> <month> <year> <hour>:<minute>:<second> GMT
+If-Range: <etag>
+Example usage of the above syntax for the If-Range HTTP request header is shown below.
+If-Range: Tue, 30 Nov 2021 07:28:00 GMT
+What are the directives of the If-Range HTTP header?
+The directives of the If-Range HTTP request header are shown below.
+<etag> An entity tag uniquely representing the requested resource. It is a string of ASCII characters placed between double quotes (Like “698ak25564dc-tr26”). It may be prefixed by W/ to indicate that the weak comparison algorithm should be used.
+<day-name> One of “Mon”, “Tue”, “Wed”, “Thu”, “Fri”, “Sat”, or “Sun” (case-sensitive).
+<day> 2 digit day number, e.g. “04” or “23”.
+<month> One of “Jan”, “Feb”, “Mar”, “Apr”, “May”, “Jun”, “Jul”, “Aug”, “Sep”, “Oct”, “Nov”, “Dec” (case-sensitive).
+<year> 4 digit year number, e.g. “2021” or “2022”.
+<hour> 2 digit hour number, e.g. “08” or “24”.
+<minute> 2 digit minute number, e.g. “03” or “29”.
+<second> 2 digit second number, e.g. “03” or “29”.
+GMT Greenwich Mean Time. HTTP dates are always expressed in GMT, never in local time.
+What are the If-Range-related HTTP Headers?
+The If-Range-related-Range-related HTTP headers are the Range HTTP header field, Last-Modified validator HTTP header, and ETag HTTP header.
+Examples of If-Range HTTP header Use
+An example of the If-Range HTTP request header is when a client requests will be requesting a document to be updated, the client can use the Range HTTP header field. If the precondition is not fulfilled, the client will have to make the second request by using the If-Range header field. The format is shown below.
+If-Range = entity-tag / HTTP-date
+Web server will apply the If-Range HTTP header What is the relation between If-Range HTTP header and Range HTTP Header?
+The relation of If-Range HTTP request header and Range HTTP header is the purpose to return the client’s request. Range HTTP header can be used by the client to request for a resume download and if the condition is fulfilled, the web server will provide the specified sub-range using a 206 (Partial content) response. If not resumed, the If-Range HTTP header will be applied by the web server with a 200 (OK) response.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+If-Range HTTP header: Principles, Types, Working Examples
+by Koray Tuğberk GÜBÜR
+time to read: 3 min
+TechSEO
+Vary HTTP response header: Principles, Types, Work…
+TechSEO
+Accept-Language HTTP Header: Principles, Types, Wo…
+0
+0
+0

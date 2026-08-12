@@ -1,0 +1,106 @@
+Referer HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Referer HTTP Header is a request-type header that indicates the previous web page’s address and how it relates to the current web page or resource being accessed. The use of the Referer HTTP Header raises the risk of a website’s privacy and security being compromised, but it does allow websites and web servers to determine where traffic is coming from. The browsers are not able to sent the Referer HTTP Header if the resource is a local file or data. There is only one value for using the Referer HTTP Header. The value using the Referer HTTP Header is the URL. An example of the Referer HTTP Header is written below.
+Referer: https://www.google.com/
+The Referer HTTP Header Request Header is seen above. In the article, the Referer HTTP Header Syntax, Directives, and Uses example will be processed.
+Contents of the Article
+show
+1.
+What is the Referer HTTP Header?
+1.1.
+What is the Syntax of the Referer HTTP Header?
+1.2.
+What is the Directive of Referer HTTP Header?
+2.
+How to use Referer HTTP Header?
+2.1.
+Examples of Referer HTTP Header Use
+3.
+What is the Specification Document for Referer HTTP Header?
+4.
+What is the type of Referer HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Referer HTTP Header?
+5.
+Which Browsers Support Referer HTTP Header?
+What is the Referer HTTP Header?
+The Referer HTTP Header request header contains the absolute or partial address of the page from which the request is made. The Referer HTTP Header tells a server where people are coming from when they visit a page. The information is allowed to be used for analytics, logging, optimized caching, and other purposes.
+What is the Syntax of the Referer HTTP Header?
+The Referer HTTP Header uses only one value in its syntax. The syntax for using the Referer HTTP Header is written below.
+Referer: <url>
+What is the Directive of Referer HTTP Header?
+The Referer HTTP Header only contains one directive. The URL is the full or partial URL of the web page from which the request is made. URL fragments (for example, “#section”) and user info (for example, “username: password” in “https://username:
+[email protected]
+/foo/bar/”) are not supported. Depending on the referrer-policy, the origin, path, and query string may be included. An example directive for using the Referer HTTP Header is given below.
+Referer: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+Referer: https://example.com/page?q=123
+Referer: https://example.com/
+How to use Referer HTTP Header?
+The Referer HTTP request header contains an absolute or partial address of the page from which the request is made. The Referer HTTP Header tells a server where people are coming from when they visit a page. The information is allowed to be used for analytics, logging, optimized caching, and other purposes. The Referer HTTP Header field contains the URL of the page that owns the link when users click on a link. The Referer HTTP Header contains the URL of the page that uses the requested resource when the user requests resources from another domain. The Referer HTTP Header includes an origin, path, and query string, but it does not include URL fragments (such as “#section”) or “username: password” information. The data that can be included in the request is defined by the Referrer-Policy.
+Examples of Referer HTTP Header Use
+The Referer HTTP Header is demonstrated in the examples below.
+The example case below shows that the previous web page’s address is facebook.com.
+Referer: https://www.facebook.com/
+The previous web page’s address is google.com in the example below.
+Referer: https://www.google.com/
+What is the Specification Document for Referer HTTP Header?
+There is only one specification document for the Referer HTTP Header, which is the Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content (HTTP/1.1 Semantics and Content). The Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content (HTTP/1.1 Semantics and Content) Article 5.5.2 mentions the Referer HTTP Header definition and uses. Additionally, this article discusses the Referer HTTP Header’s examples and values.
+What is the type of Referer HTTP Header?
+The Referer HTTP Header is a type of request header that identifies the previous web page’s address, which is linked to the current web page or resource being requested.
+What are the similar HTTP Headers to the Referer HTTP Header?
+There are other similar HTTP to the Referer HTTP Header. An example is listed below
+Fetch API HTTP Header:
+The Fetch API is a resource retrieval interface (including across the network). Anyone who has used XMLHttpRequest will recognize it, but the new API has a more powerful and flexible feature set. Similar to the Referer HTTP Header, which also provides a resource fetching interface.
+Content-Security-Policy HTTP Header:
+The HTTP Content-Security-Policy response header enables website administrators to control which resources a user agent is permitted to load for a specific page. Policies, with a few exceptions, primarily involve specifying server origins and script endpoints. It protects against cross-site scripting (Cross-site scripting) attacks. Similar to the Referer HTTP Header, which controls which resources the user agent is permitted to load for a given page.
+Same-origin policy HTTP Header:
+The same-origin policy is an important security mechanism that limits how a document or script loaded from one origin interacts with a resource from another origin. Similar to the Referer HTTP Header, which also interacts with a resource from a different origin.
+Which Browsers Support Referer HTTP Header?
+There are multiple browsers that support Referer HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Referer HTTP Header.
+Edge Browser is compatible with the Referer HTTP Header.
+Firefox Browser is compatible with the Referer HTTP Header.
+Opera Browser is compatible with the Referer HTTP Header.
+WebView Android Browser is compatible with the Referer HTTP Header.
+Chrome Android Browser is compatible with the Referer HTTP Header.
+Opera Android Browser is compatible with the Referer HTTP Header.
+Samsung Internet Browser is compatible with the Referer HTTP Header.
+You can see an image that shows the cross-browser compatibility of Referer HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Referer HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Public-Key-Pins HTTP Header: Syntax, Directive, Ex…
+TechSEO
+Pragma HTTP Header: Syntax, Directive, Examples
+0
+0
+0

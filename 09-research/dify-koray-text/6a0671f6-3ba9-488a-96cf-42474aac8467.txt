@@ -1,0 +1,145 @@
+Trailer HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Trailer HTTP Header is a response header that indicates the presence of a specified set of header fields in the trailer of a message encoded using chunked transfer-coding. It enables senders to put additional fields at the end of chunked messages to deliver metadata. The chunked transfer encoding is a data transport technique included in HTTP version 1.1. To enable the trailer fields in the Trailer HTTP Header, the TE request header must be set to trailers. The transfer encoding that the user agent is ready to accept is specified in the TE request header. The Trailer HTTP Header has only one value. The Trailer HTTP Header syntax is the header-name, which is a collection of header fields found in the trailer of a message encoded using chunked transfer-coding.  The example of the Trailer HTTP Header is shown below.
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Trailer: Expires
+7\r\n
+Mozilla\r\n
+9\r\n
+Developer\r\n
+7\r\n
+Network\r\n
+0\r\n
+Expires: Wed, 21 Oct 2015 07:28:00 GMT\r\n
+\r\n
+The Trailer HTTP Header Response Header is seen above. In the article, the Trailer HTTP Header Syntax, Directives, and Uses with examples will be processed.
+Contents of the Article
+show
+1.
+What is a Trailer HTTP Header?
+1.1.
+What is the Syntax of the Trailer HTTP Header?
+1.2.
+What is the Directive of Trailer HTTP Header?
+2.
+How to use a Trailer HTTP Header?
+2.1.
+Examples of Trailer HTTP Header Use
+3.
+What is the Specification Documents for Trailer HTTP Header?
+4.
+What are the types of Trailer HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Trailer HTTP Header?
+5.
+Which Browsers Support Trailer HTTP Header?
+What is a Trailer HTTP Header?
+The Trailer HTTP header is known as the Trailer HTTP Header. The Trailer HTTP Header is a response header that informs the server that a particular set of header fields have been included in the trailer of a message that has been encoded using chunked transfer-coding. It enables senders to include additional fields at the end of chunked messages in order to give metadata to the recipient.
+What is the Syntax of the Trailer HTTP Header?
+The syntax for the Trailer HTTP Header is the header-name. The syntax for using the Trailer HTTP Header is written below.
+Trailer: header-names
+What is the Directive of Trailer HTTP Header?
+There is only one directive that used in the Trailer HTTP Header. The directives for using the Trailer HTTP Header are the header-names that will be present in the trailer part of the chunked messages. However, the Trailer HTTP Header field is disallowed in message framing headers such as transfer-encoding and content-length, routing headers such as host, request modifiers such as control and conditional, like cache-control, Max-Forwards, or TE, and lastly for authentication headers such as Authorization or Set-Cookie, or Content-Encoding, Content-Type, Content-Range, and the Trailer itself. The directives for using the Trailer HTTP Header are written below.
+The request modifier Max-Forwards is being used in this case.
+Trailer: Max-Forwards
+In its case, the header that is being used is the Host header which is a routing header.
+Trailer: Host
+A trailer header with a chunked response from a database query is shown here. In its case, the Expires header is used.
+HTTP/1.0 500 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Trailer: Expires
+0\r\n
+Mozilla\r\n
+7\r\n
+Developer\r\n
+9\r\n
+Network\r\n
+0\r\n
+\r\n
+How to use a Trailer HTTP Header?
+A message body that is encoded with chunked transfer-coding and the sender wants to send metadata in the form of trailer fields at the end of the message. The sender should add a Trailer HTTP header field before the message body. The Trailer HTTP Header will tell the receiver which fields will be in the trailer. As a result, the recipient prepares for that metadata before it even starts processing the body. It will be useful if the message is being streamed and the recipient wants to make sure the integrity of the message is maintained on the fly.
+Examples of Trailer HTTP Header Use
+In the example, the Expires header is used at the end of the chunked message and serves as a trailing header. The Expires HTTP header contains the date and time after which the response is considered expired.
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Trailer: Expires
+7\r\n
+Mozilla\r\n
+9\r\n
+Developer\r\n
+7\r\n
+Network\r\n
+0\r\n
+Expires: Wed, 25 Nov 2015 07:16:00 GMT\r\n
+\r\n
+What is the Specification Documents for Trailer HTTP Header?
+There is only one specification document for the Trailer HTTP Header which is the Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing (HTTP/1.1 Message Syntax and Routing). The Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing (HTTP/1.1 Message Syntax and Routing) mention the definition and use of the Trailer HTTP Header. Additionally, the article discusses the Trailer HTTP Header’s examples and values.
+What are the types of Trailer HTTP Header?
+The  Trailer HTTP Header HTTP Type is listed below.
+Request Header – The Trailer HTTP Header HTTP header is a Request Header because it provides information about the request context so that the server can tailor the response.
+Payload Header- The Trailer HTTP Header HTTP Header is a Payload Header because it describes the payload information related to safe transmission and reconstruction of the original resource representation from one or more messages.
+What are the similar HTTP Headers to the Trailer HTTP Header?
+The similar HTTP Headers to the Trailer HTTP Header are listed below.
+Transfer-Encoding HTTP Header:
+Similar to the Trailer HTTP Header, the
+Transfer-Encoding HTTP Header
+provides the type of encoding required to safely transfer the payload body to the user.
+TE HTTP Header:
+As with the Trailer HTTP Header, the TE HTTP Header specifies the type of encoding required for the payload body to be successfully transmitted to the user.
+Which Browsers Support  Trailer HTTP Header?
+There are multiple browsers that support Trailer HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Trailer HTTP Header
+Edge Browser is compatible with the Trailer HTTP Header
+Firefox Browser is compatible with the Trailer HTTP Header
+Internet Explorer Browser is compatible with the Trailer HTTP Header
+Opera Browser is compatible with the Trailer HTTP Header
+Safari Browser is compatible with the Trailer HTTP Header
+WebView Android Browser is compatible with the Trailer HTTP Header
+Chrome Android Browser is compatible with the Trailer HTTP Header
+Firefox Android Browser is compatible with the Trailer HTTP Header
+Opera Android Browser is compatible with the Trailer HTTP Header
+Safari IOS Browser is compatible with the Trailer HTTP Header
+Samsung Internet Browser is compatible with the Trailer HTTP Header
+You can see an image that shows cross-browser compatibility of  Trailer HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Trailer HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Transfer-Encoding HTTP Header: Syntax, Directive, …
+TechSEO
+Set-Cookie2 HTTP Header: Syntax, Directive, Exampl…
+0
+0
+0

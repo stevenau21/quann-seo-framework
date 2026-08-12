@@ -1,0 +1,151 @@
+How to Verify and Test Robots.txt File via Python - Holistic SEO
+Skip to content
+The robots.txt file is a text file with the “txt” extension in the root directory of the website that tells a crawler which parts of a web entity can or cannot be accessed.  Thanks to “robots.txt” files, website owners can control the crawlers of Search Engines so that they can index only the necessary information on their website. Also, they can manage their crawl efficiency and crawl budget. Any kind of error in a Robots.txt file can affect the SEO Project deadly. So, verifying the Robots.txt file for different kind of paths and URLs are important. In this article, we will see how to verify a robots.txt file for different kinds of user-agents and URL Paths via Python and Advertools.
+If you don’t have enough information, before proceeding, you can read our related guidelines.
+How to Analyze and Compare Robots.txt Files via Python
+What is Robots.txt File
+In our guideline, we will use Advertools which is another Python Library especially focused on SEO, SEM, and Text Analysis for Digital Marketing. Before, proceeding, I recommend you to follow Elias Dabbas who is the creator of Advertools on Twitter.
+Contents of the Article
+show
+1.
+How to Perform a Robots.txt File Test via Python?
+1.1.
+How to Perform a Robots.txt Test via the “urllib” Module of Python
+2.
+How to Test Robots.txt Files via Reppy Library
+3.
+Last Thoughts on Robots.txt Testing and Verification via Python
+How to Perform a Robots.txt File Test via Python?
+In our last Python and SEO Article which is related to the Robots.txt Analyze, we have used “Washington Post” and “New York Times” robots.txt files for comparison. In this article, we will continue to use their robots.txt files for testing. The related and required function from Advertools is “robotstxt_test”. Thanks to the “robotstxt_test” function, we can test more than one URL for more than one User-agent in a glimpse.
+from advertools import robotstxt_test
+robotstxt_test('https://www.nytimes.com/robots.txt', user_agents=['*'], urls=['/ads/'])
+We have imported the required function from Advertools.
+We have performed a test via the “robotstxt_test” function.
+The first parameter is the URL of the tested robots.txt.
+The second parameter is for determining the user agents which will be tested.
+The third parameter is for determining the URL Path will be tested according to the user agents based on the determined robots.txt file.
+You may see our Robots.txt verification result below.
+We have performed a Robots.txt and User-agent test via Python.
+The first column which is “robotstxt_url” shows the robots.txt URL, which we are testing according to.
+The “user-agent” column shows the user agents we are testing.
+“url_path” shows the URL snippet we are testing for.
+“can_fetch” takes only “true” or “false” values. In this example, it is “False” which means that it is disallowed.
+Let’s perform a little bit more complicated example.
+robotstxt_test('https://www.nytimes.com/robots.txt', user_agents=['Googlebot', 'Twitterbot', 'AhrefsBot', 'Googlebot-News', 'SemrushBot-BA'], urls=['/', 'amp', 'search'])
+If we perform a “Robots.txt Testing” with more than one URL Path and User-agents, the function will perform variations for each combination and create a data frame for us.
+Robots.txt Testing for multiple User-agents.
+You may simply see which User-agent can reach which URL Path in a glimpse. In our example, the PDF Files from the New York Times are disallowed for all the user agents we are testing, except for Googlebot and Googlebot-News. Twitterbot, Ahrefsbot, and SemrushBot-BA (Semrush Backlink Bot) can’t fetch it.
+We also may perform a test for Washington Post to see a similar landscape.
+wprobots = 'https://www.washingtonpost.com/robots.txt'
+robotstxt_test(wprobots, user_agents=['Googlebot', 'Googlebot-News', 'Twitterbot', 'AhrefsBot', 'SemrushBot-BA'], urls=['/', '/amphtml/', 'ads'])
+We have assigned the Washington Post Robots.txt URL as a string into the “wprobots” variable, and then we have performed our test. You may see the result below:
+Robots.txt test for Washington Post via Python
+We see that only Twitterbot can’t fetch the “/amphtml/” URL Path, and the rest of the URLs are allowed for different URL Paths. If you want to test more URL Paths, you can use the “robotstxt_to_df()” function so that you can see URL Paths to test them in bulk. You may see an example below:
+robotstxt_to_df('https://www.google.com/robots.txt')
+OUTPUT>>>
+INFO:root:Getting: https://www.google.com/robots.txt
+Robots.txt can be turned into a Dataframe via Advertools.
+Here we see the robots.txt file of the Google Web Entity. You may examine the web entity sections of Google easily thanks to their Robots.txt file. Also, you can see what they are hiding from crawlers or how many website sections they have that you are not aware of. Let’s perform one more test for only Google’s robots.txt file. First, we will extract the User-agents in their Robots.txt file.
+googlerbts[googlerbts['directive'].str.contains('.gent',regex=True)]['content'].drop_duplicates().tolist()
+We have extracted only the unique “user-agent” values via the regex values from the “directive” column. If you wonder more about this section, you should read our Robots.txt File Analysis Article via Python. You may see the result below.
+We have filtered all the user agents from a robots.txt file.
+They have only four different user-agent declarations. It means that they are disallowing or allowing some special content areas for only those user agents.
+googlerbts[googlerbts['content']=='Twitterbot']
+We are checking the index number of the “Twitterbot” line in the “content” column.
+We have filtered a specific user-agent from our Robots.txt.
+Now, we should check the required index space to see what kind of changes are made for Twitterbot in terms of disallowing or allowing.
+googlerbts.iloc[278:296]
+You may see the result below:
+We have used the “iloc” method for filtering determined rows.
+Google is allowing Twitter and Facebookexternalhit Bots to crawl their “images” folder. I assume that they are blocking some subfolders of this URL Path.
+googlerbts[googlerbts['content'].str.contains('.mgres', regex=True)]
+You may see the result below:
+We have filtered a special URL Path via Regex.
+We have discovered a note that says that “We have allowed some certain Social Media Sites to crawl “imgres” folders.” Now, we may perform our test.
+robotstxt_test('https://www.google.com/robots.txt', user_agents=['Googlebot', 'Twitterbot', 'Facebookexternalhit', 'Ahrefsbot', 'SemrushBot-BA'], urls=['/', '/imgres', '/search', '/search/about'])
+We are performing a Robots.txt test for “Googlebot”, “Twitterbot”, “Facebookexternalhit”, “Ahrefsbot” and “SemrushBot-BA” for the URL Paths “/”, “/imgres”, “/search”, and “/search/about”. You may see the result below.
+Robots.txt Testing for multiple user-agents and URL Paths.
+Here, we see that Ahrefsbot can’t reach the “/imgres” and “/search” folders, while it can reach the “/” and “/search/about” paths. We also see that Twitterbot and Facebookexternalhit bots can reach the “/imgres” folder, as said in the comment of Google. You can crawl a website, or you can pull all the data from the Google Search Console Coverage Report so that you can perform a test for different URL Models and patterns to see whether they are disallowed or allowed for certain types of user agents.
+To learn more about Python SEO, you may read the related guidelines:
+How to resize images in  bulk with Python
+How to perform DNS Reverse Lookup thanks to Python
+How to perform TF-IDF Analysis with Python
+How to crawl and analyze a Website via Python
+How to perform text analysis via Python
+How to Compare and Analyse Robots.txt File via Python
+How to Analyze Content Structure of a Website via Sitemaps and Python
+How to Perform a Robots.txt Test via the “urllib” Module of Python
+Before proceeding, we should tell you that there are two other options to test Robots.txt files via Python. It is “urllib”. You may find a code block that performs a test for the same robots.txt file as an example via “urllib”.
+import urllib.robotparser
+robots_url = urllib.robotparser.RobotFileParser(url='https://www.nytimes.com/robots.txt')
+robots_url.read()
+rrate = robots_url.request_rate("*")
+robots_url.crawl_delay("*")
+robots_url.can_fetch("*", "https://www.nytimes.com/wirecutter/*?s=")
+First-line imports the necessary module class for us.
+Second-line parses the determined Robots.txt URL.
+The third line read the parsed Robots.txt File
+We are trying to catch the “request-rate” parameter from the Robots.txt file.
+We are trying to check whether there is a “crawl-delay” parameter in the Robots.txt file or not.
+We are trying to fetch a disallowed URL Pattern.
+You may see the results below:
+A sample analysis via urllib.robotparser.
+It basically says that there are no “crawl-rate” or “crawl-delay” parameters, and the requested URL can’t be fetched for the determined user-agent group. Robots.txt files may have “crawl rate” and “crawl delay” parameters for managing server bandwidth, even if Google Algorithms don’t care about those parameters, they might be necessary for validation. Also, you may encounter more specific and unique parameters, such as “Indexpage”.
+How to Test Robots.txt Files via Reppy Library
+Reppy is a Python Library which is created by Moz, one of the biggest SEO Software in the world which is built by “Dr. Pete Meyer”. Reppy is built on Google’s Robots.txt Repisotory which is originally created in C++. We also may perform some tests through an easy-to-use Reppy Library. You may see an example of use below.
+from reppy.robots import Robots
+robots = Robots.fetch('https://www.nytimes.com/robots.txt')
+robots.allowed('https://www.nytimes.com/wirecutter/*?s=', "*")
+agent = robots.agent('googlebot')
+agent.allowed('https://www.nytimes.com/news')
+robots.agent('Googlebot').delay
+robots.sitemaps
+The first line is for importing the necessary class function.
+The second line is for fetching the targeted robots.txt file.
+The third line is for checking specific user agents “allow and disallow” situations for a given URL.
+The fourth line is for determining a special user agent.
+The fifth line is for checking the different scenarios for only that user-agent.
+The sixth line is for checking the user-agent’s Crawl-delay parameter.
+The seventh line is for listing all the sitemaps.
+You may see the results below:
+A sample Robots.txt testing via reppy.robbots package.
+There are other types of opportunities for Robots.txt file verification via Python, but for now, these three main options will be enough for this guideline. I believe, from all of those options, the best is Advertools. It is easier to use and also has more shortcuts, also it allows you to use “Pandas” filtering and updating methods over results.
+Last Thoughts on Robots.txt Testing and Verification via Python
+We have performed a short and brief three different tests for Robots.txt files via Python. It includes a little bit of analytical thinking and interpretation skills but still, thanks to Advertools’ improved functions, we can test more than one URL Paths for more than one User-agent in a single line of code. This is not possible for Google’s robots.txt file testing tool or other types of robots.txt verification tools. Because of this situation, knowing Python can save a Holistic SEO for lots of tasks. You may create a simple robots.txt file testing pattern for yourself so that you can implement similar codes for different SEO Projects in terms of Robots.txt Verification even in a shorter time.
+Our Robots.txt File Testing via Python article will be improved over time, if you have any ideas or contributions, please let us know.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Python SEO
+How to Verify and Test Robots.txt File via Python
+by Koray Tuğberk GÜBÜR
+time to read: 8 min
+Python SEO
+How to Perform a Content Analysis based on Sitemap…
+Python SEO
+How to Check, Analyse and Compare Robots.txt Files…
+0
+0
+0

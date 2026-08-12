@@ -1,0 +1,138 @@
+Skip to content
+The Transfer-Encoding HTTP header is a response-type header that acts as a hop-by-hop header; the hop-by-hop header connection is the unique transport-level connection that must not be re-transmitted. The Transfer-Encoding HTTP Header is used to communicate between two nodes (a single transport-level connection). If there is a multi-node connection, then additional Transfer-Encoding settings must be used. There is a header called Content-Encoding-End-to-End that should be used to compress data over the entire connection. The syntax value of the Transfer-Encoding HTTP Header is five. They chucked, compressed, deflated, and gzipped. The Transfer-Encoding HTTP Header accepts these five directives, and the examples are listed below.
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+0\r\n
+Mozilla\r\n
+7\r\n
+Developer\r\n
+9\r\n
+Network\r\n
+0\r\n
+\r\n
+The Transfer-Encoding HTTP Header Response Header is seen above. In the article, the User-Agent HTTP Header Syntax, Directives, and Uses with examples will be processed.
+Contents of the Article
+show
+1.
+What is Transfer-Encoding HTTP Header?
+1.1.
+What is the Syntax of Transfer-Encoding?
+1.2.
+What is the Directive of Transfer-Encoding HTTP Header?
+2.
+How to use Transfer-Encoding HTTP Header?
+2.1.
+Examples of Transfer-Encoding HTTP Header Use
+3.
+What are the Specification Documents for Transfer-Encoding HTTP Header?
+4.
+What is the type of Transfer-Encoding HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Transfer-Encoding HTTP Header?
+5.
+Which Browsers Support Transfer-Encoding HTTP Header?
+What is Transfer-Encoding HTTP Header?
+The Transfer-Encoding HTTP Header indicates the type of encoding that will be used to transmit the payload body to the user securely. The Transfer-Encoding HTTP Header is a hop-by-hop header that is applied to a message between two nodes, not to an individual resource.
+What is the Syntax of Transfer-Encoding?
+The syntax for using the Transfer-Encoding HTTP Header is written below.
+Transfer-Encoding: chunked
+Transfer-Encoding: compress
+Transfer-Encoding: deflate
+Transfer-Encoding: gzip
+// Several values can be listed, separated by a comma
+Transfer-Encoding: gzip, chunked
+What is the Directive of Transfer-Encoding HTTP Header?
+There are multiple directives that can be put in the Transfer-Encoding HTTP Header. The syntax for using Transfer-Encoding HTTP Header is given below.
+Chunked: The chunked directive is used to send a chunk of data in the hexadecimal format before sending the chunk of data itself, followed by another ‘rn’ to indicate the length of each chunk.
+Compress: The Lempel-Ziv-Welch (LZW) technique is used to compress the data in this format.
+Deflate: Deflate is a compression format that uses the zlib structure and the deflate compression algorithm to make things easier to store and move around.
+Gzip: A compression format called Lempel-Ziv coding (LZ77), with a 32-bit CRC, is used to store the files.
+Identity: The Gzip directive tells the user what kind of function they should always use to identify themselves.
+How to use Transfer-Encoding HTTP Header?
+Transfer-Encoding HTTP Header is a method of transferring data. The Transfer-Encoding HTTP Header is used to communicate between two or more nodes, or between a single transmission-level connection. Additionally, if the connection is a multi-node connection, additional Transfer-Encoding settings must be configured. Using the header Content-Encoding-End to End, it is possible to compress data across the whole network connection.
+Examples of Transfer-Encoding HTTP Header Use
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+7\r\n
+Mozilla\r\n
+9\r\n
+Developer\r\n
+7\r\n
+Network\r\n
+0\r\n
+\r\n
+What are the Specification Documents for Transfer-Encoding HTTP Header?
+Below are the specification documents for Transfer-Encoding HTTP Header.
+Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content Article 3.3.1. mention that the Transfer-Encoder HTTP Header field contains a list of transfer coding names that correspond to the sequence of transfer codings that have been (or will be) applied to the payload body in order to form the message body. The Transfer-Encoder HTTP Header field can be found in the Transfer-Encoder HTTP Header field.
+Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content Article 3.3.1. mention that the Transfer-Encoding field is equivalent to MIME’s Content-Transfer-Encoding field, which was created to facilitate the secure transmission of binary data over a 7-bit transport service.
+What is the type of Transfer-Encoding HTTP Header?
+The Transfer-Encoding HTTP Header- The Transfer-Encoding HTTP Header is a response-type header that performs the same function as the hop-by-hop header. The other types of HTTP Headers from the Transfer-Encoding HTTP Header can be found below.
+What are the similar HTTP Headers to the Transfer-Encoding HTTP Header?
+The similar HTTP Headers to the  Transfer-Encoding HTTP Header are listed below.
+Accept-Encoding HTTP Header:
+The Accept-Encoding HTTP Header is similar to the Transfer-Encoding HTTP Header. Similar to the Transfer-Encoding HTTP header, the
+Accept-Encoding HTTP Header
+request HTTP header indicates the content encoding that the client can understand.
+Content-Encoding HTTP Header:
+The Content-Encoding HTTP Header is similar to the Transfer-Encoding HTTP Header. Similar to the Transfer-Encoding HTTP Header, the
+Content-Encoding HTTP Header
+representation header contains a list of all of the encodings that have been applied to the representation (message payload), as well as the order in which they have been applied. A message similar to it informs the recipient how to decode the representation in order to access the original payload format.
+Content-Length HTTP Header:
+The Content-Length HTTP Header is similar to the Transfer-Encoding HTTP Header. The
+Content-Length HTTP Header
+specifies the size of the message body, expressed in bytes, that is forwarded to the recipient of the message.
+Which Browsers Support Transfer-Encoding HTTP Header?
+There are multiple browsers that support Transfer-Encoding HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Transfer-Encoding HTTP Header
+Edge Browser is compatible with the Transfer-Encoding HTTP Header
+Firefox Browser is compatible with the Transfer-Encoding HTTP Header
+Internet Explorer Browser is compatible with the Transfer-Encoding HTTP Header
+Opera Browser is compatible with the Transfer-Encoding HTTP Header
+Safari Browser is compatible with the Transfer-Encoding HTTP Header
+WebView Android Browser is compatible with the Transfer-Encoding HTTP Header
+Chrome Android Browser is compatible with the Transfer-Encoding HTTP Header
+Firefox Android Browser is compatible with the Transfer-Encoding HTTP Header
+Opera Android Browser is compatible with the Transfer-Encoding HTTP Header
+Safari IOS Browser is compatible with the Transfer-Encoding HTTP Header
+Samsung Internet Browser is compatible with the Transfer-Encoding HTTP Header
+You can see an image that shows cross-browser compatibility of Transfer-Encoding HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Transfer-Encoding HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Viewport-Width HTTP Header: Syntax, Directive, Exa…
+TechSEO
+Trailer HTTP Header: Syntax, Directive, Examples
+0
+0
+0

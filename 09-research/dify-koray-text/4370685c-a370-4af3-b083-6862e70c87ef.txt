@@ -1,0 +1,122 @@
+Redirection: Definition & 301, 302, 307 Redirections for SEO - Holistic SEO
+Skip to content
+Redirect or redirection (short form for “redirection”) is a server or client-side and automatic redirection of a URL to another URL. Redirects are used for various purposes such as moving a website to a new domain or server maintenance. With a 301 redirect, for example, duplicate content can be avoided.
+A redirect is usually always automatic and is hardly perceived by the user as such. In this way, server-side automatic redirects are particularly well suited to redirect URLs without impairing usability.
+Contents of the Article
+show
+1.
+What is the Server-side Redirection
+2.
+What is the 301 Redirection?
+3.
+What happens with a 301 redirection?
+4.
+What is the 302 Redirection
+5.
+What is 307 Redirection?
+6.
+Client-Side and Javascript Redirection
+7.
+Client-side Redirection and Meta Refresh
+8.
+Excessive Use of Redirection and Its Effects on the Server
+9.
+Redirection and its Importance for SEO
+What is the Server-side Redirection
+With these forms of forwarding, a corresponding command is stored in the htaccess file on the server (mainly for Apache servers). If the corresponding URL is called up, the server immediately forwards it to the new destination.
+What is the 301 Redirection?
+The 301 redirect is a way to permanently forward a URL. This redirect is ideal for relaunching a website to redirect old URLs that are no longer valid to new URLs. The great advantage of the 301 redirect is that this forwarding inherits 100 percent link juice and sends a clear signal to search engines that the requested resource can be found permanently under a different URL.
+The 301 redirect can, for example, be implemented on Apache servers by adapting the htaccess file or via PHP. This code is used for the htaccess file:
+RewriteEngine on
+rewritecond %{http_host} ^domain.com [nc]
+rewriterule ^(.*)$ http://www.domain.com/$1 [r=301,nc]
+The 301 redirects can, for example, be implemented on Apache servers by adapting the HTACCESS file or via PHP. If the 301 redirections are implemented via PHP, the code to be used looks like this. It is stored directly in the source code of the forwarding document.
+<?php
+header("HTTP/1.1 301 Moved Permanently");
+header("Location: http://www.domain.de/der-neue-name.php");
+header("Connection: close");
+?>
+What happens with a 301 redirection?
+The Google bot wants to access the file “abc.html” from the domain “domain.com”.
+The Google bot sends a request to the webserver of the domain “domain.com” with the request to deliver the file “abc.html”.
+The web server notices that the “abc.html” file is no longer located under the URL “domain.com/abc.html”. The web server also notices that there is a 301 redirect for the “abc.html” file to “xyz.html”.
+The web server transmits the
+HTTP status code
+301 (Moved Permanently) to the Google bot and indicates the new URL “domain.com/xyz.html”.
+The
+Googlebot
+understands that the content of the file “domain.com/abc.html” can in future be found under the URL “domain.com/xyz.html”. In the future, a user will automatically be redirected to “domain.com/xyz.html” when the URL “domain.com/abc.html” is called.
+What is the 302 Redirection
+With the 302 redirects, pages in the HTTP version 1.0 were temporarily redirected. This forwarding has long been said to be unable to pass on a
+PageRank
+. In the meantime, 302 redirects also inherit the full link power, as Google’s John Müller has indirectly confirmed in a tweet. In the HTTP 1.1 version, the HTTP status code now simply means “found” and means that the requested resource is available on the server.
+What is 307 Redirection?
+Websites can be redirected at short notice using the 307 redirect. This often happens when a server is serviced.
+For this, a PHP file is first written, in which a message is stored for the visitors of the website. Then this file is saved in the root directory. Then a new HTACCESS file must be created, which is named htaccess.307.
+In the next step, you create a new one called .htaccess.307 in addition to the current .htaccess file. A possible solution would look like this:
+RewriteEngine On
+Rewrite Base /
+RewriteCond% {REMOTE_ADDR}! ^ 123 \ .123 \ .123 \ .123 $
+RewriteCond% {REQUEST_URI}! ^ / 307 \ .php $
+RewriteRule ^ (. *) $ Http://www.holisticseo.digital/307.php [R = 307, L]
+The server then outputs the status code 307 and redirects the URL at short notice.
+Client-Side and Javascript Redirection
+A redirect via JavaScript is only conditionally recommended. On the one hand, this forwarding assumes that JavaScript is activated in the user’s browser, and on the other hand, search engines often interpret such forwarding as cloaking or URL hijacking.
+If a redirect is implemented via JavaScript, it can look like this.
+document.location.href = ‘index.html’
+Client-side Redirection and Meta Refresh
+This redirect is set up by placing a meta tag in the header of the HTML document.
+This day are like this:
+<meta http-equiv="refresh" content="0;url=http://www.hosliticseo.digital/">
+A meta refresh is carried out via the client, i.e. the browser. Even if this redirection can be set up quickly, it has disadvantages in terms of SEO and usability.
+So the user has to wait several seconds until he is redirected to the new page. In addition, these redirects only pass on a little link juice to the target page.
+Also, Googlebot waits the crawling and rendering process for a few seconds to see is there any change or not. If you redirect the user after a long time, Googlebot may not see the client-side redirection.
+Since, client-side redirection methods such as “meta refresh” or “javascript redirection” are being used for spammy acts usually, Google and other Search Engines don’t recommend using it. Also, client-side redirection may not give clear signals to the Search Engine and prevent you from preserve your web page’s PageRank.
+Excessive Use of Redirection and Its Effects on the Server
+Each redirect causes an additional work step for the server when a client requests. All redirects are written to the HTACCESS file, which must be reloaded each time the server is accessed. For this reason, webmasters and SEOs should not use unnecessary redirects, as they can otherwise impair the performance of the website. In addition, forwarding chains should be avoided in which several redirects are combined with one another. After a certain amount, Google can no longer follow the redirects and the crawler receives an error.
+Redirection and its Importance for SEO
+A redirect is useful for search engine optimization in many ways.
+Dead links can be redirected to a new destination using 301 redirects.
+Duplicate content can be avoided by permanently forwarding a URL with www to the version without www or vice versa.
+Users can be made aware of server maintenance via 307 redirects. This avoids a bad user experience.
+Using 301 redirects when relaunching a website can prevent link juice from being lost. At the same time, the forwarding prevents dead links from being created in the first place.
+If a redirect is used, no PageRank is lost.
+With a 301 redirect, websites can be redirected from a protocol such as HTTP to HTTPS.
+In affiliate marketing, tracking links can be redirected to the actual landing page via the affiliate program.
+With a permanent redirect, a website with geolocation can automatically point to the appropriate language version.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+What is Redirection? Everything about 301, 302 and 307 Redirections
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+TechSEO
+What is Robots.txt File: Everything You Need to Kn…
+TechSEO
+IP Address: Definition, Importance, Types, and Ben…
+0
+0
+0

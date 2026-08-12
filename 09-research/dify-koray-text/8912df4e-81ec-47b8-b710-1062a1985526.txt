@@ -1,0 +1,103 @@
+HTML <object> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The HTML Tag <object> is representing an item that is embedded in an HTML page. The <object> HTML Tag is part of Programming HTML category in HTML Element Reference. The attributes of the <object> HTML Tag are data, form, height, name, type, typemustmatch, usemap, width, global attributes and events attributes.
+<object> code block example to learn how it works is given below.
+<object type="" data=""></object>
+<object data="" width="" height=""></object>
+The second example usage of the “<object>” code block example is given below.
+<object type="video/quicktime" data="/web_design/united_states.mov" width="350" height="95"></object>
+Contents of the Article
+show
+1.
+What is <object> HTML Tag?
+2.
+How to Use <object> HTML Tag?
+2.1.
+Example Usage of <object> HTML Tag?
+3.
+What are the Attributes of <object> HTML Tag?
+4.
+What are the Default CSS Settings for <object> HTML Tag?
+5.
+What are the Related other HTML Tags to <object>?
+What is <object> HTML Tag?
+The <object> HTML Tag represents an item that is embedded in an HTML page The <object> HTML Tag will be handled as an image, a nested browsing context, or an external resource to be processed by a plugin, depending on the kind of resource.
+How to Use <object> HTML Tag?
+To use the <object> HTML Tag, the <object></object> tag should be created by the web developer, with any material included between the begin and end tags The <object> HTML Tag will often contain one or more properties, such as the type attribute or data attribute, which identify the kind of embedded content and any needed data.
+Example Usage of <object> HTML Tag?
+The following example of usage of <object> HTML tag is given below.
+An embedded image:
+<object data="pic_diamonds.jpg" width="300" height="200"></object>
+An embedded HTML page:
+<object data="ygentertainment.html" width="500" height="200"></object>
+An embedded video:
+<object data="spiderman.mp4" width="400" height="300"></object>
+What are the Attributes of <object> HTML Tag?
+There are multiple attributes for the <object> HTML Tag. The following attributes are listed below.
+Global Attributes: The <object> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <object> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+Data Attribute: The <object> HTML Tag supports Data Attributes. The data attribute defines the URL of the resource that the object will utilize.
+Form Attribute: The <object> HTML Tag supports Form Attributes. The form attribute specifies the form to which the item belongs.
+Height Attribute: The <object> HTML Tag supports Height Attribute. The height of the embedded content is specified by this attribute.
+Name Attribute: The <object> HTML Tag supports Name Attribute. The attribute of name Provides a name for the item. The name attribute provides a name for the item.
+Type Attribute:  The <object> HTML Tag supports type Attribute. The media type of the embedded material is specified by this attribute.
+Typemustmatch Attribute: The <object> HTML Tag supports Typemustmatch Attribute. The Typemustmatch Attribute defines whether the type attribute and the resource’s actual content must match in order for the resource to be shown.
+Usemap Attribute: The <object> HTML Tag supports Usemap Attribute. The Usemap Attribute defines the name of a client-side image map that will be used in conjunction with the object.
+Width Attribute: The <object> HTML Tag supports Width Attribute. The width of the embedded content is specified by this attribute.
+What are the Default CSS Settings for <object> HTML Tag?
+The following is the Default CSS Setting for the <object> HTML Tag.
+object:focus {
+outline: none;
+}
+What are the Related other HTML Tags to <object>?
+The other related HTML Tags to the <object> HTML Tag are listed below.
+<embed> HTML Tag: The
+<embed>
+HTML Tag is related to <object> HTML Tag because they are both programming tags. The HTML <embed>Tag specifies a container for an external (non-HTML) program.
+<noscript> HTML Tag: The
+<noscript>
+HTML Tag is related to <object> HTML Tag because they are both programming tags. The <noscript> HTML Tag dspecifies an alternative content for people who do not support client-side scripting.
+<applet> HTML Tag: The
+<applet>
+HTML Tag is related to <object> HTML Tag because they are both programming tags. HTML5 does not support the <applet> HTML Tag. Instead, use <embed> or <object>. This class defines an embedded applet.
+<param> HTML Tag: The
+<param>
+HTML Tag is related to <object> HTML Tag because they are both programming tags. The HTML <param> Tag specifies a parameter for an object.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <object> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <picture> Tag Definition, Usage and Exa…
+TechSEO
+HTML <video> Tag Definition, Usage and Examp…
+0
+0
+0

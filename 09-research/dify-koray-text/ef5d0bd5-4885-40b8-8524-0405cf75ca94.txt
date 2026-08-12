@@ -1,0 +1,92 @@
+Link HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Link HTTP Header entity-header field allows one or more links to be serialized in HTTP headers. It has the same semantics as the <HTML link> element. The <HTML element link> specifies relationships between the current document and an external resource. The element is most commonly used to link to stylesheets, but it is used to create site icons (including “favicon” style icons and icons for the home screen and apps on mobile devices), among other things. There is only one value for using the Link HTTP Header. The value for using the Link HTTP Header is the <URI-references>. An example of the Link HTTP Header is written below.
+Link: <https://www.facebook.com/>; rel="preconnect"
+The Link HTTP Header Syntax, Directives and Uses example is seen above.
+Contents of the Article
+show
+1.
+What is Link HTTP Header?
+1.1.
+What is the Syntax of Link HTTP Header?
+1.2.
+What is the Directive of Link HTTP Header?
+2.
+How to use Link HTTP Header?
+2.1.
+Examples of Link HTTP Header Use
+3.
+What is the Specification Document for Link HTTP Header?
+4.
+What is the type of Link HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Link HTTP Header?
+5.
+Which Browsers Support Link HTTP Header?
+What is Link HTTP Header?
+To serialize one or more links in the HTTP headers, the Link HTTP Header field is used Allows a client interested in the requested resource to be referred to another resource that contains metadata. Like the <HTML link> element, it has the same semantics.
+What is the Syntax of Link HTTP Header?
+The Link HTTP Header uses only one value. The syntax for using the Link HTTP Header is written below
+Link: <uri-reference>; param1=value1; param2="value2"
+What is the Directive of Link HTTP Header?
+As previously noted and further explained, the Link HTTP Header only accepts one directive. There are options in the link header that are equal to the <link> element’s attributes, separated by a comma (,). The <uri-reference>is the URI reference, which must be contained in double quotes between and >. An example directive for using the Location HTTP Header is given below.
+Link: <https://example.com>; rel="preconnect"
+How to use Link HTTP Header?
+The Link HTTP Header field is used to serialize one or more links in HTTP headers. It enables the server to direct a client who is interested in another resource that contains metadata about the requested resource. It has the same semantics as the HTML link> element.
+Examples of Link HTTP Header Use
+The Link HTTP Header indicates that additional information about the requested resource is accessible at https:/facebook.com/.
+Link: <https://www.facebook.com/>; rel="preconnect"
+The URI must be contained in double quotes between < and >. As a result, this is an ineffective style of writing.
+Link:https://www.facebook.com/; rel="preconnect"
+Multiple links may be specified, separated by commas. An example is written below.
+Link: <https://example.one.com>; rel="preconnect",
+<https://example.two.com>; rel="preconnect",
+<https://example.three.com>; rel="preconnect"
+What is the Specification Document for Link HTTP Header?
+The following is the specification document for the Link HTTP Header. RFC 8288 Section 3 Article 4.1 mentions the Link HTTP Header’s definition and uses. Additionally, it mentions that Link targets may need to be transformed to URIs before being expressed in serializations that do not allow IRIs. This includes the HTTP header field for the Link.
+What is the type of Link HTTP Header?
+The Link HTTP Header is a Request Header Type because it enables the server to direct a client interested in the requested resource to another resource that contains metadata about the requested resource.
+What are the similar HTTP Headers to the Link HTTP Header?
+There are other similar HTTP to the Link HTTP Header that are listed below.
+103 Early Hints: The HTTP 103 Early Hints information response status code is primarily intended to be used in conjunction with the Link HTTP header to enable the user agent to begin preloading resources while the server is still preparing a response. It is similar to the Link HTTP header in that the entity-header field provides a means of serializing one or more links in HTTP headers.
+<link>: The <link> HTML element establishes a connection between the current content and a remote resource. The element is most frequently used to connect to stylesheets, but it is used to establish site icons (both “favicon”-style icons and icons for the home screen and apps on mobile devices).
+Which Browsers Support Link HTTP Header?
+There is no compatible browser for the Sec-CH-UA-Full-Version-List HTTP Header.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Link HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+From HTTP Header: Syntax, Directive, Examples
+TechSEO
+Forwarded HTTP Header: Syntax, Directive, Examples…
+0
+0
+0

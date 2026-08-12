@@ -1,0 +1,112 @@
+HTML <dt> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <dt> HTML element is used to specify a term within a description or definition list, and as such must be enclosed within a <dl> HTML Tag. Normally, it is followed by a <dd> HTML Tag; however, multiple <dt> HTML Tag in a row denote several terms that are all defined by the immediately following <dd> HTML Tag. The developer should specify a list of descriptions when using the <dt> HTML Tag. It is enclosed within the <dl> HTML Tag. The <dt> HTML Tag is part of the list tags category in HTML Element Reference. The attributes of the <dt> HTML tag are global attributes and event attributes.
+<dt> code block example to learn how it works is given below.
+<dl>
+<dt>TERM</dt>
+<dd>DESCRIPTION</dd>
+<dt>TERM</dt>
+<dd>DESCRIPTION</dd>
+</dl>
+The second example usage of the “<dt>” code block example is below.
+<dl>
+<dt>Color</dt>
+<dd>Red</dd>
+<dt>Size</dt>
+<dd>Medium</dd>
+</dl>
+Contents of the Article
+show
+1.
+What is <dt> HTML Tag?
+2.
+How to Use <dt> HTML Tag?
+2.1.
+Example Usage of <dt> HTML Tag?
+3.
+What are the Attributes of <dt> HTML Tag?
+4.
+What are the Default CSS Settings for <dt> HTML Tag?
+5.
+What are the Related other HTML Tags to <dt>?
+What is <dt> HTML Tag?
+The <dt> HTML tag is used to define a description list.  It is necessary for web developers because it is contained within the <dl> HTML Tag. Typically, it is followed by a <dd> HTML Tag. The following <dd> HTML tag provides some context for the term specified in <dt> HTML Tag.
+How to Use <dt> HTML Tag?
+To use the <dt> HTML Tag, the developer should use the format <dt></dt>, inserting the definition term between the start and end tags then this tag will specify the list of descriptions. It is contained within the <dl> HTML Tag.
+Example Usage of <dt> HTML Tag?
+The following example of usage of <dt> HTML Tag is given below.
+<p>The following are the assigned persons to clean each area of the house. </p>
+<dl>
+<dt>Mark</dt>
+<dd>Dining Area</dd>
+<dt>Daniel</dt>
+<dd>Kitchen Area</dd>
+</dl>
+What are the Attributes of <dt> HTML Tag?
+There are multiple attributes for the <dt> HTML Tag. The following attributes are listed below.
+Global Attributes: The <dt> HTML tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <dt> HTML tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <dt> HTML Tag?
+The following is the Default CSS Setting for the <dt> HTML Tag.
+p,
+dl {
+font: 1rem 'Fira Sans', sans-serif;
+}
+dl > dt {
+font-weight: normal;
+font-style: oblique;
+}
+dd {
+margin-bottom: 1rem;
+What are the Related other HTML Tags to <dt>?
+The other related HTML Tags to <dt> HTML Tag are listed below.
+<dl> HTML Tag: The
+<dl>
+HTML Tag is related to <dt> HTML Tag because they are both list tags. The <dl> HTML Tag specifies a list of descriptions. The terms and their descriptions are listed in the description list.
+<ol> HTML Tag: The
+<ol>
+HTML Tag is related to <dt> HTML Tag because they are both list tags. On a website or web page, the <ol> HTML Tag defines an ordered list. The ordered list element’s default list style is numerical or decimal.
+<ul> HTML Tag: The
+<ul>
+HTML Tag is related to <dt> HTML Tag because they are both list tags. The <ul> HTML Tag is used to define an unordered list.
+<li> HTML Tag: The
+<li>
+HTML Tag is related to <dt> HTML Tag because they are both list tags. The <li> HTML Tag is used to specify list or menu items.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <dt> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <div> Tag Definition, Usage and Example…
+TechSEO
+HTML <dl> Tag Definition, Usage and Examples…
+0
+0
+0

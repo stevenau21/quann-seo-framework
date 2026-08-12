@@ -1,0 +1,80 @@
+Access-Control-Allow-Origin HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Access-Control-Allow-Origin is a HyperText Transfer Protocol (HTTP) Response Header that determines if the response is allowed to be shared with the requesting code from a specified origin. The Access-Control-Allow-Origin HTTP response header notifies the web browser if the response can be shared by returning the value of the `Origin` request header, which can either be `null` or `*` in a response. The Origin HTTP request header indicates the origin of the request. The Origin HTTP request header may be set the value to “null” if the request originates from a document on a user’s device instead of from a hosted web page. The Origin spec also declares that the Origin may be “null” when the request derives from a “privacy-sensitive” context. The “null” value for the Access-Control-Allow-Origin HTTP response header should be avoided when the serialization of resource origin applies to a non-hierarchical scheme and sandboxed documents. User-Agents will generally allow these documents accessible to a response with an Access-Control-Allow-Origin HTTP response header: “null”, and any origin can also create a hostile document with a “null” origin. The Access-Control-Allow-Origin HTTP response header can only use the wildcard or “*” as a value when the Request’s mode credentials are omitted. The “*” value is not allowed when credentials are involved and when the Request’s mode credentials are “include”.
+Contents of the Article
+show
+1.
+What is Access-Control-Allow-Origin HTTP Header?
+1.1.
+What is the Syntax of Access-Control-Allow-Origin HTTP Header?
+1.2.
+What is the Directive of Access-Control-Allow-Origin HTTP Header?
+2.
+How to use Access-Control-Allow-Origin HTTP Header?
+2.1.
+Examples of Access-Control-Allow-Origin HTTP Header Use.
+3.
+What are the Specification Documents for Access-Control-Allow-Origin HTTP Header?
+3.1.
+What are the similar HTTP Headers to the Access-Control-Allow-Origin HTTP Header?
+What is Access-Control-Allow-Origin HTTP Header?
+The Access-Control-Allow-Origin HTTP response header is a CORS (Cross-Origin Resource Sharing) header. The CORS filter must be applied to deliver a response from the webserver while creating RESTful Web Services. CORS filter refers to the CORS (Cross-origin Resource Sharing) capability to function by inserting specific HTTP headers which will notify the web browser that the specified web page should be supported to make web requests to other domains. The REST refers to Representational State Transfer. The REST is a structural style for web services development. When a client generates a request for a particular resource, it delivers the Origin HTTP header in the request. The web server authenticates the origin and decides if the request is valid or not. If the request is valid, then it will respond with the Access-Control-Allow-Origin in the header. Upon receiving the Access-Control-Allow-Origin, the web browser connects the origin and authorizes the request. If the web browser identifies that the origin matches, it approves the request to be completed. Otherwise, it will return an error.
+What is the Syntax of Access-Control-Allow-Origin HTTP Header?
+The syntax for the Access-Control-Allow-Origin HTTP response header is below.
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Origin: <origin>
+Access-Control-Allow-Origin: null
+Example syntax of a response that notifies the web browser to allow code from any origin to access a resource is shown below.
+Access-Control-Allow-Origin: *
+What is the Directive of Access-Control-Allow-Origin HTTP Header?
+The directives for the Access-Control-Allow-Origin HTTP response header are below.
+<*> Represents a wildcard. For requests with no required credentials, the asterisk “*” value can be indicated as a wildcard; the value notifies the web browsers to permit the requesting code from any origin to obtain the resource. When using the wildcard with credentials, it will result in an error.
+<origin> Signifies the origin. It can only specify one single origin. If the web server supports clients from multiple origins, it will have to return the origin for the particular client creating the request.
+<null> Signifies the origin “null”.
+How to use Access-Control-Allow-Origin HTTP Header?
+The usage of the Access-Control-Allow-Origin HTTP response header is to let the web browser know whether or not the response is allowed to be shared with the requesting code from a specific origin. When a script on resource A needs to retrieve data from resource B, the use of CORS (Cross-origin Resource Sharing) protocol will be applied. As part of the CORS protocol, the user agent will be adding the Origin HTTP header in the request. Upon receiving a response from the webserver, the user agent will confirm the Access-Control-Allow-Origin HTTP response header. If the value of the Access-Control-Allow-Origin HTTP response header is either “resource A” or “*”, the user agent will invoke the success callback. Otherwise, the user agent will invoke the failure callback. A failure callback is invoked when the error is shown while making the request. To share responses with credentials, the `Access-Control-Allow-Origin` and `Access-Control-Allow-Credentials` headers are important. If the request’s credentials mode is not “include”, then `Access-Control-Allow-Origin` is `*`. If the request’s credentials mode is “include”, then `Access-Control-Allow-Credentials` is allowed.
+Examples of Access-Control-Allow-Origin HTTP Header Use.
+An example for the usage of Access-Control-Allow-Origin HTTP response header is when a SamplesiteA tries to fetch content from SamplesiteB, SamplesiteB can transmit an Access-Control-Allow-Origin HTTP response header to notify the web browser that the content of the web page is available to specific origins. (An origin is a domain that consists of a scheme and port number.) By default, SamplesiteB’s pages are not available to any other origin; using the Access-Control-Allow-Origin HTTP response header makes the availability of entry for cross-origin access by particular requesting origins. For each resource that SamplesiteB wants to access to SamplesiteA, SamplesiteB will have to serve its pages with the Access-Control-Allow-Origin HTTP response header. The format of the Access-Control-Allow-Origin HTTP response header is below.
+Access-Control-Allow-Origin: http://SamplesiteA.com
+What are the Specification Documents for Access-Control-Allow-Origin HTTP Header?
+The specification document for the Access-Control-Allow-Origin HTTP response header is RFC6454. The RFC6454 specification document defines the rules behind the “same-origin policy” as well as the “nuts and bolts” of comparing and serializing origins. The RFC6454 is the Web Origin Concept.
+What are the similar HTTP Headers to the Access-Control-Allow-Origin HTTP Header?
+A similar header for the Access-Control-Allow-Origin HTTP response header is the Vary HTTP header. The
+Vary HTTP header
+informs the web browser that the contents of the response depend on the user agent that requests the web content. the Vary HTTP response header. When a web server is configured to forward an Access-Control-Allow-Origin HTTP response header for a resource, in response to a CORS (Cross-origin Resource Sharing) request the user agent may receive a response to a non-CORS request for that resource. With the use of the Vary HTTP header, it will allow the user agent to acquire a response that contains the Access-Control-Allow-Origin HTTP header instead of using a cached response from the previous non-CORS request that lacks Access-Control-Allow-Origin.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Access-Control-Allow-Origin HTTP Header: Syntax, Directive, Examples
+by Koray Tuğberk GÜBÜR
+time to read: 4 min
+TechSEO
+Access-Control-Expose-Headers: Syntax, Directive, …
+TechSEO
+Accept-Encoding HTTP Header: Principles, Types, Wo…
+0
+0
+0

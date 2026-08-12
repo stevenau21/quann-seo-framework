@@ -1,0 +1,98 @@
+Skip to content
+The aria-disabled indicates a state for an interactive element that can be inaccessible or accessible in precedence if required actions are met. The purpose of aria-disabled is to provide information to the user that an instance cannot proceed due to some required toggles in need of interactions or blanks to be filled in information. The developer can use the aria-disabled better than the native HTML <disabled> element, the ARIA attribute provides versatility and relevance for the user of the assistive technologies. The aria-disabled can be used for elements such as options, header buttons, buttons, and items. The aria-disabled can be used with other ARIA labels such as, aria-hidden and aria-readonly.
+Contents of the Article
+show
+1.
+What is the function of the “aria-disabled” ARIA Label?
+2.
+What are the uses of the “aria-disabled” ARIA Label?
+3.
+Example Uses of “aria-disabled” ARIA Label
+4.
+What are the related ARIA Labels to “aria-disabled”?
+What is the function of the “aria-disabled” ARIA Label?
+The function of aria-disabled is to make the interactive elements disable their function until an instance or required fields are filled in. The aria-disabled value is boolean, which means it only has two values, which are “true” or “false”. The aria-disabled=”true” means that the state of an element that is identified is unavailable to interactions, a button element will not be able to be pressed unless a required action is initiated, else the aria-disabled=”false” element function can now be used. The aria-disabled benefits the system that the screen reader has because the ARIA label is built to provide assistance for persons with disabilities, it is best to use the aria-disabled than the native HTML equivalent.
+What are the uses of the “aria-disabled” ARIA Label?
+Listed below are the “aria-disabled” ARIA Label uses.
+Application role:
+It states that no native HTML is used and that assistive technologies should identify all elements and their children to have similar treatment as the desktop applications.
+Button role:
+It is for the clickable element that calls a response when activated by the user, adding role=”button” provides information to the screen reader that the element is a button, but has no function.
+Composite role:
+Is for the navigable descendants or owned children that is indicated by the widgets.
+Gridcell role:
+It is used intentionally to play the same role as the HTML table data element, which is used to make a cell grid or a treegrid.
+Group role:
+It provides an important role to group user interface objects that are not included in a list to the assistive technology, where it can be in the summary page or table of contents.
+Example Uses of “aria-disabled” ARIA Label
+Listed below are the example uses of the “aria-disabled” ARIA label.
+The aria-disabled=”true” means that the state of an element that is identified is unavailable to interactions, a button element will not be able to be pressed unless a required action is initiated, else the aria-disabled=”false” element function can now be used.
+<button type="submit" aria-disabled="true">Send</button>
+<style>
+button[disabled],
+button[aria-disabled=true] {opacity= .5;}
+</style>
+<button type="submit" aria-disabled="true">Submit Form</button>
+<button type="submit" aria-disabled="true">Click to Submit</button>
+<style>
+button[disabled],
+button[aria-disabled=true] {opacity= .5;}
+</style>
+<button type="submit" aria-disabled="true">Click</button>
+<style>
+button[disabled],
+button[aria-disabled=true] {opacity= .5;}
+</style>
+<button type="submit" aria-disabled="true">OK</button>
+<style>
+button[disabled],
+button[aria-disabled=true] {opacity= .5;}
+</style>
+What are the related ARIA Labels to “aria-disabled”?
+Listed below are the related ARIA Labels to “aria-disabled”.
+aria-hidden:
+The aria-hidden is related to aria-disabled because they are both indicating an element’s state if it can be toggled or not. The
+aria-hidden
+indicates that the element in question is not available, in particular to an accessibility API.
+aria-readonly:
+The aria-readonly is related to aria-disabled because they are both used to indicate an element is editable or inoperable. The
+aria-readonly
+attribute describes the elements that can not be used or are read-only.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-disabled” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-dropeffect” ARIA Label for Accessibility…
+TechSEO
+“aria-details” ARIA Label for Accessibility
+0
+0
+0

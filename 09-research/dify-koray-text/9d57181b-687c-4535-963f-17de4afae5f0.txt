@@ -1,0 +1,106 @@
+Skip to content
+The <noscript> HTML tag specifies an alternate content type that will be presented to users whose browsers have deactivated scripting or are using a browser that does not support scripting. The <noscript> HTML Tag is compatible with both the <head> and the <body>. The <noscript> HTML Tag could only contain <link>, <style>, and <meta> elements when used inside <head>. The <noscript> HTML Tag is part of the programming tags category. The attributes of the <noscript> HTML Tag are global attributes.
+<noscript> code block example to learn how it works is given below.
+<script>
+Script here
+</script>
+<noscript>
+Noscript content here
+</noscript>
+The second example usage of the “<noscript>” code block example is below.
+<html>
+<body>
+<h1>Hollistic</h1>
+<h2>HTML noscript Tag</h2>
+<script>
+document.write("Hollistic")
+</script>
+<noscript>A computer science portal</noscript>
+</body>
+</html>
+Contents of the Article
+show
+1.
+What is <noscript> HTML Tag?
+2.
+How to Use <noscript> HTML Tag?
+2.1.
+Example Usage of <noscript> HTML Tag?
+3.
+What are the Attributes of <noscript> HTML Tag?
+4.
+What are the Default CSS Settings for <noscript> HTML Tag?
+5.
+What are the Related other HTML Tags to <noscript>?
+What is <noscript> HTML Tag?
+In HTML, the <noscript> HTML Tag is used to show text for browsers that do not support the script tag or for browsers that have been configured to disable scripting. This tag is used in conjunction with the <head> and <body> tags. This tag is only used in browsers that do not support scripting.
+How to Use <noscript> HTML Tag?
+To use the <noscript> HTML tag, the site developer should create <noscript></noscript>, inserting the content between the start and end tags. The <noscript> HTML tag is normally inserted after the <script> element’s end tag.
+Example Usage of <noscript> HTML Tag?
+The following examples of usage of <noscript> HTML Tag is given below.
+<html>
+<body>
+<h1>Good Day</h1>
+<h2>HTML noscript Tag</h2>
+<script>
+document.write("Good Day!")
+</script>
+<noscript>A computer science portal</noscript>
+</body>
+</html>
+What are the Attributes of <noscript> HTML Tag?
+There is only one attribute for the <noscript> HTML Tag which is the Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+What are the Default CSS Settings for <noscript> HTML Tag?
+There is no Default CSS Setting for <noscript> HTML Tag
+What are the Related other HTML Tags to <noscript>?
+The other related HTML Tags to the <noscript> HTML Tag are listed below.
+<script>: The
+<script>
+HTML Tag is related to <noscript> HTML Tag because they are both programming tags. The HTML Tag script> specifies a client-side script.
+<applet>: The
+<applet>
+HTML Tag is related to <noscript> HTML Tag because they are both programming tags. HTML5 does not support the <applet> HTML Tag. Instead, use <embed> or <object>. This class defines an embedded applet.
+<embed>: The
+<embed>
+HTML Tag is related to <noscript> HTML Tag because they are both programming tags. The HTML <embed>Tag specifies a container for an external (non-HTML) program.
+<object>: The
+<object>
+HTML Tag is related to <noscript> HTML Tag because they are both programming tags. The HTML Tag <object> specifies an embedded object.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <noscript> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <canvas> Tag Definition, Usage and Exam…
+TechSEO
+HTML <svg> Tag Definition, Usage and Example…
+0
+0
+0

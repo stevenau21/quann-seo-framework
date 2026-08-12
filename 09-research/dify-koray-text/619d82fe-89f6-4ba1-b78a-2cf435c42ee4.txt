@@ -1,0 +1,97 @@
+Retry-After HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+HTTP headers are used to include additional data in HTTP requests and responses. The Retry-After HTTP Header is an HTTP response header that specifies the amount of time to wait before making another request. The Retry-After HTTP Header response header has a variety of uses depending on the status code. The status code 503 indicates that the service is unavailable. Retry-After HTTP Header is used with 503 to inform the user of the expected duration of the service’s downtime. It is used to manage planned downtime. The status code 301 indicates that the resource has been moved permanently. Retry-After HTTP Header is used in conjunction with 301 to inform the user of the minimum amount of time they should wait before issuing the redirect request. The status code 429 ID indicates that there are too many requests. Retry-After HTTP Header is used in conjunction with 429 to indicate how long the user should wait before making another request. There are multiple values for using the Retry-After HTTP Header. The values using the Retry-After HTTP Header are the <http-date> and the <delay-seconds>. An example of the Retry-After HTTP Header is written below.
+Retry-After: Wed, 29 Aug 2015 07:29:00 GMT
+Retry-After: 120
+The Retry-After HTTP Header Response Header is seen above. In the article, the Retry-After HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is Retry-After HTTP Header?
+1.1.
+What is the Syntax of Retry-After HTTP Header?
+1.2.
+What are the Directives of Retry-After HTTP Header?
+2.
+How to use Retry-After HTTP Header?
+2.1.
+Examples of Retry-After HTTP Header Use
+3.
+What is the Specification Document for Retry-After HTTP Header?
+4.
+What is the type of Retry-After HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Retry-After HTTP Header?
+5.
+Which Browsers Support Retry-After HTTP Header?
+What is Retry-After HTTP Header?
+The Retry-After HTTP Header is an HTTP response header that specifies how long to wait between requests. The Retry-After response header has a variety of uses depending on the status code.
+What is the Syntax of Retry-After HTTP Header?
+The Retry-After HTTP Header uses multiple values. The syntax for using the Retry-After HTTP Header is written below.
+Retry-After: <http-date>
+Retry-After: <delay-seconds>
+What are the Directives of Retry-After HTTP Header?
+The Retry-After HTTP Header has multiple directives to be used. The <http-date>is a date after which a retry should be attempted. For more information on the HTTP date format, see the Date header. The <delay-seconds> is a non-negative decimal integer indicating the number of seconds to wait after receiving the response. An example directive for using the Retry-After HTTP Header is given below.
+Retry-After: Wed, 29 Sep 2018 06:30:00 GMT
+Retry-After: 120
+How to use Retry-After HTTP Header?
+The Retry-After HTTP Header specifies the amount of time the user agent should wait before making a subsequent request. There are three primary situations in which the Retry-After HTTP Header is used.
+The Retry-After HTTP Header specifies the expected duration of the service’s downtime when used in conjunction with a 503 (Service Unavailable) response.
+The Retry-After HTTP Header specifies the amount of time to wait before making another request when accompanied by a 429 (Too Many Requests) response.
+The specifies the shortest amount of time the user agent must wait before issuing the redirected request when used in conjunction with a redirect response, such as 301 (Moved Permanently).
+Examples of Retry-After HTTP Header Use
+The example demonstrates how to use the Retry-After HTTP Header.
+By using the date directive, the client is able to retry the request after the specified date and time.
+Retry-After: Sun, 27 Oct 2019 09:45:00 GMT
+After the specified second client retries the request, the request is retried using the delay-second directive.
+Retry-After: 180
+What is the Specification Document for Retry-After HTTP Header?
+There is only one specification document for the Retry-After HTTP Header, which is the Hypertext Transfer Protocol. The Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content (HTTP/1.1 Semantics and Content) Article 7.1.3 mentions the Retry-After HTTP Header definition and uses along with values and examples.
+What is the type of Retry-After HTTP Header?
+The Retry-After HTTP Header is an HTTP response header that indicates how long to wait before making another request. Depending on the status code, the Retry-After HTTP Header response header has a range of functions.
+What are the similar HTTP Headers to the Retry-After HTTP Header?
+The similar HTTP Headers to the Retry-After HTTP Header are listed below.
+503 Service Unavailable:
+The server error number 503 Service Unavailable indicates that the server is not ready to handle the request. A response header that makes a follow-up request, similar to the Retry-After HTTP Header.
+301 Moved Permanently:
+The 301 Transferred Permanently redirect status code from the HyperText Transfer Protocol (HTTP) indicates that the requested resource has been definitively moved to the URL specified in the Location headers. Search engines update their links to the resource after a browser redirects to the updated URL. The Retry-After HTTP Header, which is likewise a response header type, is similar.
+Which Browsers Support Retry-After HTTP Header?
+There is only one browser that supports the Retry-HTTP Header which is the Edge Browser. You can see an image that shows cross-browser compatibility of Retry-After HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Retry-After HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+Content-Encoding HTTP Header: Syntax, Directive, E…
+TechSEO
+Content-Language HTTP Header: Syntax, Directive, E…
+0
+0
+0

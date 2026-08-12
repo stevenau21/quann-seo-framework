@@ -1,0 +1,104 @@
+HTML <a> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <a> HTML Tag or anchor HTML Tag indicates the href attribute adds a hyperlink to web pages, files, email addresses, locations within the same page, or anything else that a URL can address. The destination of the link should be indicated within each <a>. If the href attribute is visible, pressing enter while the focus is on the <a> HTML Tag will activate it. A hyperlink is created using the <a> HTML Tag. The <a> HTML Tag is part of the Link HTML category in HTML Element Reference. The attributes of the <a> HTML Tag are download, href, hreflang, media, ping, referrerpolicy, rel, target, type, global, and event attributes.
+<a> code block example to learn how it works is given below.
+<a href="http://www.example.com/">SampleHost</a>.
+The second example usage of the “<a>” code block example is below.
+<a href="http://www.holisticseo.digital/">HolisticSEO</a>.
+Contents of the Article
+show
+1.
+What is <a> HTML Tag?
+2.
+How to Use <a> HTML Tag?
+2.1.
+Example Usage of <a> HTML Tag?
+3.
+What are the Attributes of <a> HTML Tag?
+4.
+What are the Default CSS Settings for <a> HTML Tag?
+5.
+What are the Related other HTML Tags to <a>?
+What is <a> HTML Tag?
+The <a> tag defines a hyperlink, which is used to connect two pages.  It is necessary for web developers because the href attribute, which indicates the destination of the link, is the most important attribute of the <a> HTML Tag. A link that has not been visited is underlined and blue, a visited link is underlined and purple and an active link is underlined and red by default in all browsers.
+How to Use <a> HTML Tag?
+To use <a> HTML Tag, the web developer should create <a href=””>/a> with the linked URL between the href attribute’s double quotes and the anchor text between the start and end tags and it will make a hyperlink to the website. Using this hyperlink, the webpage can be linked to other websites. The “href” is either an absolute or a relative value, depending on how it’s used.
+Example Usage of <a> HTML Tag?
+The following example of usage of <a> HTML Tag is given below.
+<p>Contact us at:</p>
+<ul>
+<li><a href="https://holisticseo.digital">Website</a></li>
+<li><a href="
+[email protected]
+">Email</a></li>
+<li><a href="tel:+09212345">Phone</a></li>
+</ul>
+What are the Attributes of <a> HTML Tag?
+There are multiple attributes for the <a> HTML Tag. The following attributes are listed below.
+Global Attributes: The <a> HTML Tag supports global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <a> HTML Tag supports event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+Download Attribute: The <a> HTML Tag supports download attribute. The download attribute indicates that the target will be downloaded when the hyperlink is clicked. The value is filename.
+Href Attribute: The <a> HTML Tag supports href attribute. The href attribute indicates the URL of the page to which the link leads. The value is URL.
+Hreflang Attribute: The <a> HTML Tag supports hreflang attribute. The hreflang attribute indicates the language in which the referenced document is written. The value is language_code.
+Media Attribute: The <a> HTML Tag supports media attribute. The media attribute specifies the media type/device for which the linked document has been optimized. The value is media_query.
+Ping Attribute: The <a> HTML Tag supports ping attribute. This indicates the space-separated list of URLs to which, when the link is clicked, the browser will send background post requests with the body ping. The value is list_of_URLs.
+Referrerpolicy Attribute: The <a> HTML Tag supports referrer policy attribute. The referrerpolicy specifies the referrer information should be sent along with the link. The values are no-referrer, no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin-when-cross-origin, and unsafe-url.
+Rel Attribute: The <a> HTML Tag supports rel attribute. The rel attribute establishes a link between the current and linked documents. The values are alternate, author, bookmark, external, help, license, next, nofollow, noreferrer, noopener, prev, search, and tag.
+Target Attribute: The <a> HTML Tag supports target attribute. The target attribute specifies the location of the linked document to be opened. The values are _blank, parent, _self, and _top
+Type Attribute: The <a> HTML Tag supports type attribute. The type attribute indicates the associated document’s media type.The values are media_type.
+What are the Default CSS Settings for <a> HTML Tag?
+The following is the Default CSS Settings for the <a> HTML Tag.
+a:link, a:visited {
+color: 0000ff;
+text-decoration: underline;
+cursor: auto;
+}
+a:link:active, a:visited:active {
+color: 0000ff;
+}
+What are the Related other HTML Tags to <a>?
+The other related HTML Tags to <a> HTML Tag are listed below.
+<nav> HTML Tag: The
+<nav>
+HTML Tag is related to <a> HTML Tag because they are both link tags. The <nav> HTML Tag defines the web page’s navigation section.
+<link> HTML Tag: The
+<link>
+HTML Tag is related to <a> HTML Tag because they are both link tags. The <link> HTML Tag specifies links between the current document and external resources.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <a> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <p> Tag Definition, Usage and Examples…
+TechSEO
+HTML <bdo> Tag Definition, Usage and Example…
+0
+0
+0

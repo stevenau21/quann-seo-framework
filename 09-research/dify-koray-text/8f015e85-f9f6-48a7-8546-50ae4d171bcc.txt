@@ -1,0 +1,101 @@
+Skip to content
+The abbreviation CDN stands for Content Delivery Network. A content delivery network (CDN) is a network of servers in various data centers around the world. It is an excellent opportunity to offer or develop your website or web application worldwide. If you use such a network, your web server connects to a large number of other servers. With the help of a distribution system, the static content of your web server is transferred to these so-called replica servers. If users call up certain content on your website, a request routing system determines which replica server in the content delivery network is best suited for delivering the data. Depending on the provider of the CDN, the number and distribution of servers as well as the degree of integration of high-performance backbone networks vary.
+Here are just a few examples of the data that can be hosted on a CDN:
+Images
+: PNG, JPG, SVG, GIF, TIF
+Style sheets
+: CSS
+JavaScript
+: JS
+Video and audio
+: FLV (Flash), HLS, MP4 (HTML5 videos), MOV (QuickTime), WMV (Windows Media), MP3 and WAV
+Web Fonts
+: EOT, TTF, OTF, CFF, AFM, LWFN, FFIL, FON, PFM, PFB, WOFF, SVG, STD, PRO, XSF, and many more
+Other file formats
+: HTML, JSON, PDF, DOC, PPT, XLS, EPUB, ODT, ODP, ODS, TXT, RTF, ZIP
+Note: The volume of data generated annually is constantly increasing. If 16.1 zettabytes (more than 17 billion terabytes) of data were moved worldwide in 2016, the value is expected to increase tenfold by 2025. With a content delivery network (CDN), the load of the data requests can be distributed from one server to any number of servers. In the following we want to take a closer look at this globally available network.
+About the Page Speed and Web Page Loading Time, you may read our related guidelines below.
+What is the First Input Delay?
+What is the First Contentful Paint?
+What is the Largest Contentful Paint?
+What is the Time to First Byte?
+What is Time to Interactive?
+Contents of the Article
+show
+1.
+How Does Content Delivery Network (CDN) Work?
+1.1.
+1.Finding the Right Replica Server for the Fast Delivery Performance
+1.2.
+2.Forwarding the Request to the Right Replica Server
+2.
+Benefits of Using CDN for User Experience and Web Performance
+3.
+DDoS Attacks and Importance of CDN Against It
+4.
+What are the Disadvantages of a Content Delivery Network (CDN)?
+5.
+What does a CDN cost?
+6.
+Who Should Think About a CDN?
+7.
+How to Choose the Right Content Delivery Network (CDN), Provider?
+8.
+Last Thoughts on CDN Usage and SEO Relation
+How Does Content Delivery Network (CDN) Work?
+While surfing, the users do not know whether they are calling up data directly from the outgoing server of the respective website or from a replica server, because this process takes place in the background. What they notice at best are the short loading times.
+The two most important components involved in the process are the distribution system and the request routing system. The distribution system not only transmits the contents of the original server to the replica servers but also ensures that they are up-to-date and correct. Two approaches are possible: Either the distribution system sends new and changed data immediately to all servers in the content delivery network, or it simply sends the replica servers a message informing them that current data is available and must be requested if necessary. The request routing system is used so that the user inquiries reach the correct servers. This ensures in two steps that the requests are optimally redirected.
+Edge Server Term is equivalent to the “Replica Servers”.
+1.Finding the Right Replica Server for the Fast Delivery Performance
+The first step is to find the most suitable server for answering the user request. For this purpose, the request routing system is based on specific key figures that are determined using various measurement methods. The different key figures indicate, for example, whether the connections are client-side or server-side. The server-side metrics, such as general CPU usage or the number of active accesses to the server, determine the replica server with the lowest usage. Based on the properties of the connection between client and server, the request routing system determines the server with the best connection to the client. The factors taken into account include the latency time, the average transmission rate, the packet loss rate, and also the geographical proximity.
+Client-side key figures provide information about the identity of the requesting user. They are used by the system if the content is to be delivered in different quality, for example for standard and premium customers. The weighting of the various key figures always depends on the requested data: Dynamically generated content rather requires servers with good key figures, while a stable connection between client and server is the be-all and end-all for the use of streaming media.
+If you wonder about Technical SEO, you may read the guidelines below.
+2.Forwarding the Request to the Right Replica Server
+Once the target server has been determined in the CDN, the second step is the technical forwarding of the request by the request routing system. There are several procedures for this “request redirection”, which mainly differ in the location at which they are initiated – on the client, in the network, or on the replica server.
+Forwarding the request from the client is an easy-to-implement method in which the client selects the replica server from a presented list. However, this has the disadvantage that the content delivery network has little influence on the assignment. The server-side HTTP 302 redirection is also easy to implement – and also has good information about the CDN. In this case, the outgoing server responds to the request with the HTTP status code and thereby notifies the client of the appropriate replica server, which the client automatically contacts with a further request. The main disadvantage of this method is the duplication of the connections required.
+The most commonly used forwarding type is DNS-based request routing. Here, the client’s request to a local DNS server is forwarded to a special DNS server within the content delivery network, which in turn returns the IP address of a replica server. The main disadvantage of this method is that repeated looking up in the domain name system delays access.
+CDN Working Logic is being depicted in the picture.
+Benefits of Using CDN for User Experience and Web Performance
+Thanks to the globally scattered servers, your customers benefit from faster loading times and lower bandwidth utilization. But you as the operator also have considerable advantages from a content delivery network: Forwarding the requests not only minimizes the load on your web server but also increases the security of your cached data since attacks such as DDoS attacks do not even reach the outgoing server. The prerequisite for this is that you keep sensitive data such as user data or passwords away from the CDN, as these increase the potential surface area for the attack – apart from the fact that this often results in data protection conflicts.
+It also makes sense to assign your own domain for the outsourced CDN content; this is how you prevent a possible attack from spreading to the other website elements. The following list summarizes the advantages of a CDN:
+Static elements such as HTML pages, images, stylesheets, documents, or client-side scripts are temporarily stored in the cache of the replica server and no longer have to be retrieved from your web server – this protects your server and ensures shorter loading times for users. You benefit from a lower bounce rate and good search engine rankings.
+The lower utilization of the server and the applications involved protects them from overload and possible damage or failures; this also has a positive effect on the hardware required for hosting.
+You can determine which static elements clients should load from the servers in the content delivery network. Store e.g. If, for example, only the images from your weblog are selected, these can be loaded parallel to the rest of the blog, which means that the page loads faster overall.
+In the case of video and music streams, in particular, websites benefit from delivery via CDNs because large amounts of data have to be moved in a short time. This also applies to live broadcasts on the Internet.
+Visitor peaks and increasing user numbers are easily managed with a CDN. In particular, if you offer files for download or operate a webshop, the search of the request routing system for replica servers with low utilization pays off.
+Not only do they shorten loading times, but they also reduce the bandwidth utilization associated with calling up your content.
+The security of your server and thus of your data and the applications used are increased by a content delivery network, as attacks can be detected and averted at an early stage.
+Difference between Static and Dynamic Content in the context of Content Delivery Networks.
+DDoS Attacks and Importance of CDN Against It
+The primary goal of content delivery networks is therefore to increase the speed at which data is provided on the Internet. At the same time, a CDN also helps to provide data without interruption. This high availability is immensely important for companies that generate all or relevant parts of their sales online. After all, every downtime here is directly associated with a loss. Companies can protect themselves effectively against DDoS attacks, which try to bring servers to their knees with enormous simultaneous data queries, with content delivery networks. The “attack load” is distributed to the replica servers and thus reduced for each individual system: the service remains available.
+A final aspect that should not be neglected is the lower bandwidth required for the corporate server. Since the main load of the data transfer is absorbed via the content delivery network, the cost structure for the company’s own IT can be optimized in this way. Thus, one can also look forward to the forecast tenfold increase in global data transfer in the next eight years with complete ease.
+Most of the CDN Services have DDoS Mitigation System as built-in.
+What are the Disadvantages of a Content Delivery Network (CDN)?
+Disadvantages of a CDN are listed below.
+More effort: Both the setup and the operation of a CDN naturally involve more effort than a single server on which all files are located.
+Security concerns: More servers mean more gateways for hackers into the system. JavaScript files are particularly targeted by hackers.
+Loss of control: Since you don’t have the data on your own server, but rather distribute it worldwide, you naturally give up some of the control over the data.
+What does a CDN cost?
+There is a wider range of costs here. There are even free solutions. Cloudflare and the Google App Engine would be such solutions for free. However, the offers are actually designed for entire web applications. It is also possible to save static content there.
+The KeyCDN.com service is also very popular. However, the service there is not free. As a rule, bills are based on the data volume, so the first 10 terabytes for KeyCDN cost 0.04 US dollars per gigabyte.
+For large websites, large solutions are more appropriate. The Holisticseo.digital is being hosted in Cloudflare CDN Service so that our content can be delivered faster to the users around the planet.
+Who Should Think About a CDN?
+Pages with particularly high traffic should use a CDN, as the traffic load is optimally distributed. Pages that include a lot of files can also benefit from a CDN, for instance, when many pictures or many videos are played. As already explained, a CDN makes sense, of course, if visitors from many countries around the world access the website, because then the data is provided by the nearest server.
+How to Choose the Right Content Delivery Network (CDN), Provider?
+Methods and criterias for the choosing the right CDN (Content Delivery Network) Provider are listed below.
+Geographic reach
+: Businesses should choose their provider based on the region of their end-users. Does the content have to be distributed globally or only to a specific location?
+Type of traffic:
+Static and dynamic content have different requirements. A CDN infrastructure could be overloaded with large amounts of data from videos or online games, but it is ideal for dynamic content. This is mostly needed to speed up websites when trading online. Therefore, companies should ensure that the CDN architecture is up to their requirements.
+Protocol
+: CDN providers and companies should first test whether there may be problems with online content with SSL encryption. CDNs use completely different structures designed for different protocols. Encrypted data could overwhelm the system and limit performance.
+Capacity
+: If the web content is to be provided with consistent quality at all times, capacity plays a major role. The CDN should be scalable to guarantee the best possible data transmission even during peak loads. Video services or online gaming providers need to pay special attention to this.
+Connection to end-users
+: If the provider’s CDN relies on public Internet exchange points, this can affect performance during peak loads. A provider that has direct business relationships with the local Internet Service Providers (ISPs) can provide better connections closer to the end-user. Companies should therefore find out about possible business relationships between the CDN provider and ISPs.
+Service Level Agreement (SLA)
+: The CDN provider should communicate its SLA and its measures to remedy any malfunctions. In this way, companies can clarify whether these cover their business needs before an emergency occurs. This approach is beneficial for both sides and eliminates misunderstandings in advance.
+Encryption
+: CDN can play a crucial role in protecting web content. Companies need to be clear about
+
+[...truncated...]

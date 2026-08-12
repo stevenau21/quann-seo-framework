@@ -1,0 +1,104 @@
+Skip to content
+The Sec-CH-UA Platform HTTP Header user agent client hint request header tells the user what platform or operating system the user agent is running on, so users are able to figure out what it is. If the user wants to use “Windows,” for example, the user is able to say that. The Sec-CH-UA Platform HTTP Header Low Entropy is a clue that the platform is the right choice. It will be sent by default as long as it isn’t blocked by a policy for user agents. Without the server sending Accept-CH, there is no way to join. The Accept-CH HTTP Header is able to be set by a server to tell the next time the client sends a request which client hint headers it should use. There is only one value for the Sec-CH-UA HTTP Header. The directive value for the Sec-CH-UA Platform HTTP Header is <platform>. An example of the Sec-CH-UA Platform HTTP Header is written below.
+Sec-CH-UA-Platform: "macOS"
+The Sec-CH-UA Platform HTTP Header Request Header is seen above. In the article, the Sec-CH-UA Platform HTTP Header Syntax, Directives, and Uses example will be processed.
+Contents of the Article
+show
+1.
+What is the Sec-CH-UA-Platform HTTP Header?
+1.1.
+What is the Syntax of the Sec-CH-UA-Platform HTTP Header?
+1.2.
+What is the Directive of Sec-CH-UA-Platform HTTP Header?
+2.
+How to use the Sec-CH-UA-Platform HTTP Header?
+2.1.
+Examples of Sec-CH-UA-Platform HTTP Header Use
+3.
+What is the Specification Document for Sec-CH-UA-Platform HTTP Header?
+4.
+What is the type of Sec-CH-UA-Platform HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Sec-CH-UA-Platform HTTP Header?
+5.
+Which Browsers Support Sec-CH-UA-Platform HTTP Header?
+What is the Sec-CH-UA-Platform HTTP Header?
+The Sec-CH-UA Platform HTTP Header user agent client hint request header indicates the platform or operating system on which the user agent is executing. If users wish to use the term “Windows,” for example, you may do so. The low entropy of the Sec-CH-UA Platform HTTP Header indicates that the platform is the correct choice. As long as it is not prohibited by a user agent policy, it will be sent by default.
+What is the Syntax of the Sec-CH-UA-Platform HTTP Header?
+The Sec-CH-UA Platform HTTP Header has only one value for its syntax. The syntax using the Sec-CH-UA Platform HTTP Header is written below.
+Sec-CH-UA-Platform: <platform>
+What is the Directive of Sec-CH-UA-Platform HTTP Header?
+There is only one directive for the Sec-CH-UA Platform HTTP Header and that is the platform. It is one of the following   for “Android”, “Chrome OS”, “iOS”, “Linux”, “macOS”, “Windows”, or “Unknown”. The example directives for the Sec-CH-UA Platform HTTP Header are written below.
+It adds the following header to all requests if the browser is running on a macOS computer.
+Sec-CH-UA-Platform: "macOS"
+How to use the Sec-CH-UA-Platform HTTP Header?
+The Sec-CH-UA Platform HTTP Header user agent client hint request header provides such information if a user wants to know what operating system or platform the user agent is using. As an example, the user could say “Windows” if that’s what you want.
+You can tell when the platform is right for you by looking at the Sec-CH-UA Platform HTTP Header. It will be sent by default if a policy for user agents does not prohibit it.
+Examples of Sec-CH-UA-Platform HTTP Header Use
+An example of the Sec-CH-UA Platform HTTP Header is written below.
+It adds the following header to all requests if the browser is running on a WindowsOS computer.
+Sec-CH-UA-Platform: "windowsOS"
+What is the Specification Document for Sec-CH-UA-Platform HTTP Header?
+There is only one specification document for the Sec-CH-UA-Platform HTTP Header, which is the User-Agent Client Hints. The User-Agent Client Hints Article 3.7 mentions the Sec-CH-UA-Platform HTTP Header as the header field and informs the definition and use of the Sec-CH-UA-Platform HTTP Header. Additionally, the article discusses the Sec-CH-UA Platform HTTP Header’s examples and values.
+What is the type of Sec-CH-UA-Platform HTTP Header?
+Request Headers is a type of Sec-CH-UA Platform HTTP header because the user agent client hint request header tells the user what platform or operating system the user agent is running on, so they figure out what it is.
+What are the similar HTTP Headers to the Sec-CH-UA-Platform HTTP Header?
+The similar HTTP Headers to the Sec-CH-UA Platform HTTP Header are listed below.
+HTTP Client hints:
+The HTTP Client Hints is similar to the Sec-CH-UA-Platform HTTP Header. Client Hints are a set of HTTP request header fields that a server can ask for from a client in order to learn more about the device, network, user, and user-agent-specific preferences. It’s like the Sec-CH-UA Platform HTTP Header, The HTTP Client Hints tells user what platform or operating system the user agent is running on, just like it does.
+User-Agent Client Hints API:
+The User-Agent Client Hints API is similar to the Sec-CH-UA-Platform HTTP Header. To make it easier for developers to expose browser and platform information, the User-Agent Client Hints API extends the Client Hints API. Similar to the Sec-CH-UA Platform HTTP Header, User-Agent Client Hints API provides information on the platform or operating system running the user agent.
+Accept-CH HTTP Header:
+The Accept-CH HTTP Header is similar to the Sec-CH-UA-Platform HTTP Header. Using the Accept-CH header, a server can indicate which client hints headers should be included in subsequent requests. Similar to the Sec-CH-UA Platform HTTP Header, the
+Accept-CH HTTP Header
+provides information on the platform or operating system running the user agent.
+HTTP caching:
+The HTTP Caching is similar to the Sec-CH-UA-Platform. Reusing previously fetched resources can significantly enhance the performance of websites and applications. Similar to the Sec-CH-UA Platform HTTP Header, the HTTP caching provides information on the platform or operating system running the user agent.
+Which Browsers Support Sec-CH-UA-Platform HTTP Header?
+There are multiple browsers that support Sec-CH-UA-Platform HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible e with the Sec-CH-UA-Platform HTTP Header
+Edge Browser is compatible e with the Sec-CH-UA-Platform HTTP Header
+Opera Browser is compatible e with the Sec-CH-UA-Platform HTTP Header
+WebView Android Browser is compatible e with the Sec-CH-UA-Platform HTTP Header
+Chrome Android Browser is compatible e with the Sec-CH-UA-Platform HTTP Header
+Opera Android Browser is compatible e with the Sec-CH-UA-Platform HTTP Header
+Samsung Internet Browser is compatible e with the Sec-CH-UA-Platform HTTP Header
+You can see an image that shows the cross-browser compatibility of Sec-CH-UA-Platform HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Sec-CH-UA-Platform HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Sec-Fetch-Site HTTP Header: Syntax, Directive, Exa…
+TechSEO
+NEL HTTP Header: Syntax, Directive, Examples
+0
+0
+0

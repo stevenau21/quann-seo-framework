@@ -1,0 +1,151 @@
+App Store Optimization (ASO): Ultimate Guideline - Holistic SEO
+Skip to content
+App Store Optimization (ASO) is the process of optimizing the App Store entries. The goal is to achieve a higher rank in the search results of the app store and better placement in the charts. Because of the similarities to search engine optimization (SEO) for websites, app store optimization is also known as app store SEO, app search optimization, or mobile app SEO.
+In this complete App Store Optimization Guideline, one will learn the definition of the App Store Optimization along with App Store Conversion Optimization and App Store Keyword Research Methods and Importance of Competitor Analysis in the App market.
+Contents of the Article
+show
+1.
+What is the term ASO?
+2.
+Why App Store Optimization?
+3.
+How Does App Store Optimization Work?
+3.1.
+Find the Right Keywords for the App Store Optimization
+3.1.1.
+App Store Keyword Research Ideas and Methods
+3.1.2.
+Optimize Your App Store Keywords within Your App Page
+3.2.
+Put the App Store Keywords in the Right Places
+3.2.1.
+App name and App Store Optimization
+3.2.2.
+The Title of Mobile App and App Store Optimization
+3.2.3.
+App Subtitles (Only for iOS App Store)
+3.2.4.
+App Description (for Google Play Store)
+3.2.5.
+App Description (for iOS App Store)
+3.2.6.
+App Promotional Text (Only Available for iOS App Store)
+3.2.7.
+Keyword Field (Only Available for iOS App Store)
+3.2.8.
+In-App Purchases Section and App Store SEO
+3.3.
+Optimize the APP Store Page: Turn Visitors Into Regular Users for the APP
+3.3.1.
+1. App Icon and ASO
+3.3.2.
+2. Screenshots and ASO
+3.3.3.
+3. Video Preview and ASO
+3.3.4.
+4. Ratings & Reviews and ASO
+3.3.5.
+5. Review Optimization for ASO: Get 5 Star Reviews as much as Possible
+3.3.6.
+6. App Localization and ASO
+3.3.7.
+7. Competitor Analysis and ASO
+3.3.8.
+8. Update Frequency and ASO
+3.3.9.
+9. Categories and App Store Optimization
+4.
+App Store Optimization and Conversion Rate Optimization Relation
+4.1.
+1. Extensive Research for CRO in the App Store Optimization
+4.2.
+2. Hypotesis for ASO testing
+4.3.
+3. Clear Briefing for successful AP A/B Tests
+4.3.1.
+4. Build Strength in the Conversion Rate of Your App
+4.3.2.
+5. Testing as Part of Conversion Rate Optimization in ASO
+4.3.3.
+6. Share Measurements & Results in a Team
+4.4.
+App Store Featuring and Download Count
+5.
+App Indexing in Google, Bing, and Other Search Engines
+6.
+App Store Optimization and Deep Linking
+7.
+Importance of the Developer in the App Store Optimization
+8.
+Last Thoughts about App Store Optimization and Holistic SEO
+What is the term ASO?
+ASO is the process of optimizing the presence and presentation of a mobile app in an app store in order to rank as high as possible in the store’s search results. The higher the ranking of your app in the search results, the better the visibility of your app for potential users. This usually leads to more traffic around your app in the store and has one goal: increasing the number of downloads.
+Why App Store Optimization?
+In the early days of the app store, it was relatively easy to make money with an app. You published it on the App Store, and if the app wasn’t really bad, the chances of getting it financially were good. That was because there were very few apps at the time and therefore hardly any competition. It was also helpful that hardly any of the big players were interested in the App Store, main apps from indie developers were available.
+That has changed fundamentally in the meantime. Just putting an app in the store is nowhere near enough. No matter how good the app is, if nobody can find it, it won’t be downloaded. In order to make an app known, you could of course simply advertise, but that costs a lot of money and does not guarantee success. Therefore, one should first deal with the topic of app store optimization or the
+APP Store SEO
+, because the costs for it are kept within reasonable limits. If you optimize the APP by yourself, it “only” costs you as your working time. If you hire an app agency, it costs a little bit more but you may value your time better.
+While optimizing the App for the App Store, each factor should be evaluated as a whole.
+According to a research study on consumer behavior by Google, 48% of downloaded mobile apps are discovered through direct searches in Apple’s and Google’s app stores using keywords and phrases. This makes searching an app store the second most common way to find and download new apps. You should use App Store Optimization resources to improve the ranking of your app. Otherwise, you will miss the chance to use the largest channel in which potential users can discover your app for yourself. It is therefore all the more surprising that the majority of app providers do not invest in optimizing their app store presence.
+You may the Google’s Research we have talked about from the link below.
+How Users Discover APPs in App Store – Google Research
+Download
+How Does App Store Optimization Work?
+There are basically three different levels to be considered:
+The ranking for a search query for a specific keyword
+Placement in the App Store Charts
+A feature of the app by the store operator
+Find the Right Keywords for the App Store Optimization
+One of the most fundamental aspects of improving your App Store search ranking is choosing the right keywords. The keywords must first be relevant. It is of no use to you to have a good ranking for a keyword that is not related to your app. The hit is not relevant for the searcher and your app will most likely not load despite the good ranking for the keyword. On the other hand, a good keyword must also have the highest possible search volume. It’s easy to rank well with an exotic keyword, but it won’t do you any good if hardly anyone searches for it.
+When optimizing App Search, the best way to start is with thorough research of the appropriate app store keywords that users use while searching a related app for their
+search intent
+.
+To understand the App Store Optimization and App Search Intent, the questions below are useful.
+What language does my target group speak?
+Why does your target group install and use the app?
+What is THE decisive advantage of your app?
+What terms is your target group looking for?
+How can I be found by users when competing against other apps with the same keyword?
+A quick summary for the App Store Ranking Factors. Image Source: AppRadar
+App Store Keyword Research Ideas and Methods
+App store optimization starts with keyword research. Come up with around 50 app store keywords. There are some great ASO tools out there to help you find high-quality keywords. These tools suggest a few keywords for you to review and consider. Most of these tools are free to use, at least to a limited extent. Some example technologies and methods to start your App Store keyword research are listed below.
+Meatti.com
+Ubersuggest.com
+OneLook Reverse Dictionary
+Keywordtool.io
+APP Store Auto Suggestion
+APP Store Auto Complete
+Names of the Competitors APPs
+Mobileaction.co
+SensorTower
+AppRadar
+Again, it’s important to remember that the app store keywords need to be relevant to your app. Don’t try to use a popular but irrelevant keyword. Your app should be found by users who are actually interested in it and then download and use it.
+Optimize Your App Store Keywords within Your App Page
+Keyword research was only the first step on the way to successful app store optimization. You should now definitely develop a strategy for choosing the best keywords from your research for your app. For example, enter each keyword from your research in the search in the app store and then analyze the hits: What kind of apps are displayed, and do they move in a similar thematic environment as your app. If so, it is a strong indicator that the keyword is relevant to your app. At the same time, you also get an idea of ​​how competitive the keyword is. Often it doesn’t make sense to use a relevant keyword that is already used by many other high-quality apps. It is difficult to counter this especially if your app is new in the store or generally has few downloads.
+Another App Store Ranking Factor Summary. Image Source: SensorTower
+The number of downloads is an important factor that determines the algorithms of the app stores how highly an app is ranked for a keyword compared to another app with the same keyword. It is therefore helpful to find keywords that are relevant but not occupied by the big top apps in the market. The above app store keyword tools will help you with your app store keyword research. Then carefully choose around 25 keywords for the next release of your app.
+Put the App Store Keywords in the Right Places
+Now that you have selected and optimized your app store keywords, you are ready for the next step of app store optimization: enter the app store keywords in the store page of your app. There are different places where you can use the keywords.
+App name and App Store Optimization
+Name your app in a creative way, remembering that the title of your app is an important part of the search. Not only is it important to tell your potential users what your app is doing, but it also brings your app further up in the search results of the app stores if they use relevant keywords in the app title. According to MobileDevHQ ( Acquired by “Tune”), using keywords in your title can improve search result placement by up to 10.3%.
+Both the search algorithms on Google Play and Apple’s iOS App Store scan the app name for keywords. In the end result, apps with names that contain the search input (including your keyword) are given a higher priority. So it’s a good idea to include a few keywords in the name of your app. However, one should not overdo this. Do not put every keyword of the app in the title, otherwise your App Store entry will look like spam very quickly. You need to find a good balance between keywords and sensible branding.
+The iOS App Store limits the app name to a maximum of 30 characters, while the Google Play Store sets the limit to 50 characters. Efficiency is therefore the be-all and end-all.
+Also, according to the CEO of MobileDevHQ Ian Sefferman has said that App Store Optimization takes time, so after changing the App Name or Keyword Research, one shouldn’t expect a quick ranking improvement.
+“ASO is having dramatic effects on our client apps. For those who put the time in to understand, iterate, and test, we’ve seen many apps increase their downloads by a factor of 2x-10x, and an increase of revenue by a similar, or bigger, rate due to the increase in engagement of users earned by ASO. ASO is not a simple process, and you might not see the impact overnight, but if you’re willing to invest in it, the outcome can be incredibly worthwhile.”
+Ian Sefferman, CEO of MobileDevHQ
+Keywords in the Title and their Ranking Effect. Image Source: MobileDevHQ
+The Title of Mobile App and App Store Optimization
+Do not consider your personal preferences and your own gut feeling when choosing the app title. Instead, one should base your decision on objective facts. The title of your app should contain the target group-relevant keyword that includes the largest search volume. How to reach Apps with keywords in the title of an average 10.3% better ranking position as apps without keyword in the title. So use enough resources to research the best keyword and stick with it. Frequent changes to the app title are easy to make, but sooner or later it can become a harmful practice. Because as soon as your app has won over the first satisfied users, they will recommend your app to others. However, such recommendations can only result in new downloads if your app can also be found in the store under the recommended app title by the first satisfied users. Accordingly, changes to the title too frequently can reduce the number of app downloads and thus counteract your goal.
+Also changing the app title frequently can be viewed as a spam activity by the APP Store Algorithms since the one can’t change actually the Brand Name always.
+App Subtitles (Only for iOS App Store)
+With the introduction of iOS 11, it became possible to specify an app subtitle. You can use this to include some keywords here as well. The content of this field is displayed in the App Store directly under your app name and is limited to 30 characters. It is taken into account in the search and is therefore of great importance for your app store optimization.
+Two different efficient subtitle example according to their audience.
+App Description (for Google Play Store)
+The Google Play Store offers you a field for a short description text (up to 80 characters) and a field for longer texts (up to 4,000 characters) to describe your app. Google indexes words in these two description fields to generate keywords for the search. If you repeat your most important keywords up to five times in these texts, you are showing the Google Play algorithm that your app is most relevant for these keywords.
+App Description (for iOS App Store)
+The iOS App Store does not automatically search for app store keywords in the app description; you define these yourself as described above. However, this does not mean that you should neglect the description text of your app. On the contrary, the description text is extremely important for the visitor to the App Store entry and helps to decide whether this visitor becomes a user who loads your app.
+You should therefore mention the top features of your app in the first three lines so that the visitor can read them in the preview of the description. In the further process, you list, if available, positive user comments awards won and mentions in the press. Then make a list of all the features of your app and add any social media links to your app.
+App Promotional Text (Only Available for iOS App Store)
+In addition to the subtitle field of the app, there is also a field for an advertising text. The field is located above the app description and is limited to 170 characters. This p
+
+[...truncated...]

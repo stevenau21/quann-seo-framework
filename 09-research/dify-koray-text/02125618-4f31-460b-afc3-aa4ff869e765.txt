@@ -1,0 +1,122 @@
+Click Fraud: Definition and How to Detect and Avoid- Holistic SEO
+Skip to content
+Click Fraud, in English click fraud, refers to the creation of clicks with malicious or fraudulent intent. Clicks on advertising banners are artificially generated, behind which there is no intention to buy. The goal is either to increase your own income through advertising banners or to push the budget of the competition so far that their banners are no longer displayed.
+Contents of the Article
+show
+1.
+Types of Click Fraud
+2.
+Purposes of Click Fraud
+3.
+Problems about Click Fraud
+4.
+Countermeasures for Click Fraud
+4.1.
+Click Fraud Filters
+4.2.
+Manually check for suspicious clicks
+5.
+Motivations of a Click Fraudster
+6.
+Last Thoughts on Click Fraud and Its Importance for SEO
+Types of Click Fraud
+Click fraud is either done manually or automated by appropriate software. Common methods are:
+Manual clicks:
+Click fraudsters achieve comparatively little effects by manually clicking on advertisements. The perpetrator either clicks himself or leaves this task to friends, relatives, or employees.
+Click farms:
+If the clicking of advertising banners, text ads, videos, and posts in social networks is outsourced to a large number of generally poorly paid employees, this is known as click farms. Such massive clicks can do significant damage.
+Click robot:
+A click robot is a software that has been programmed to generate automatic clicks. The manual click by a human Internet user is therefore superfluous.
+Botnets:
+If several click robots are accommodated on servers that have been hijacked, this is called a botnet. With such a large number of clicks can be generated via different IP addresses.
+In addition, clicks on advertisements or social media posts are sometimes generated through
+campaigns in social networks or forums
+. Users are specifically encouraged to click fraud in order to push content or cause unnecessary advertising costs.
+Purposes of Click Fraud
+Click fraud pursues different goals. Depending on the type of
+affiliate marketing
+, advertising banners are paid differently on the Internet. Certain forms encourage click fraud.
+Harming the competition: With
+Cost Per Click (CPC)
+, the advertiser pays a certain amount for each click on his ads. The advertiser can use Google AdWords to specify the maximum expenditure for the ads. Once this financial limit is reached, no more ads will appear. This fact is exploited in the click fraud. The competition ads are automatically clicked so that the maximum budget is reached more quickly. The result is that their ads disappear faster and, under certain circumstances, your own can also appear higher up.
+Enrich yourself: It is possible to place advertising banners on any page from other sites. The website operator is paid for each click on the banner, which is the basis for Click Fraud. For example, a special page is created just to place advertisements. If the banner is clicked automatically, the operator artificially increases his earnings.
+Click Fraud can cost millions of dollars for companies.
+Problems about Click Fraud
+Click fraud costs Google more than $1 billion annually. The fraud lowers the quality of the ad network. If the total number of clicks is compared with the number of clicks that actually lead to the purchase, the worthless multiple clicks damage the value of the advertisement. Search engines then earn less from the ad, with the loss in value causing the most damage to the market leader Google. Confidence in this form of advertising is also affected.
+The advertising company is also financially damaged. Click fraud can do a lot of damage, especially to small businesses that have very limited advertising budgets, right down to doing business. The damage here is caused by the fact that the ad disappears early because the maximum amount has been artificially reached. The ad thus costs money without the prospect of new customers.
+Countermeasures for Click Fraud
+Google has developed methods to detect click fraud and does not charge anything for detected fraudulent clicks. According to Google, a three-step system is used to detect click fraud.
+Step: Every click is automatically checked using filters. Certain constellations of time, date, and IP address are indications of fraudulent clicks.
+Step: Noticeable clicks from Step 1 are analyzed in a similar analysis by computer, but also manually, in more detail to determine whether they could have been “real”.
+Step: This step is used when an advertiser raises concerns that clicks on their banners may not be in real interest. If Google finds such complaints to be correct, the person concerned will be compensated.
+Click Fraud Filters
+To prevent click fraud, both automatic and manual test steps are usually used. For example, Google relies on an online filter that checks all clicks on advertisements in the display network and automatically intercepts a suspicious constellation of time, date and IP address. In the next step, Google employees will check these manually. AdWords users can also report noticeable click behavior. If after a check it turns out that it is Click Fraud, the advertiser will be compensated.
+Manually check for suspicious clicks
+In order to get an invalid click on the track, advertisers generally use the same tracking mechanisms on which the success monitoring of advertising is based. With Analytics, for example, Google offers a server-side implementation with which it is possible to monitor the success of an advertising campaign and fluctuations in the number of clicks. Click patterns can indicate click fraud in which, despite the lack of conversion, there is a sharp increase in the number of visitors. Here it is advisable to compare noticeable clicks with the log files of the webserver. Relevant information is above all:
+The
+IP address
+The timestamp of the click
+The timestamp of action on the website
+The user agent
+While the IP address of a website visitor indicates the outgoing server of suspected click fraud, comparing the time stamps helps to find the clicks that lead to the website via an advertisement, but do not end in conversion there. If there are a conspicuous number of click timestamps for a specific IP address, but not a single action timestamp, this indicates a high probability of click fraud. By identifying the user agents used, advertisers can also determine whether clicks on a certain IP address come from multiple users or can be traced back to the same device.
+If a conspicuous number of clicks have been registered via a certain IP address, advertisers should check whether this possibly belongs to a
+proxy server
+. Such communication interfaces are used on public Internet access, such as those provided by cafes, universities, or airports, and may lead to a large number of website accesses with the same sender IP. Click fraud is sometimes disguised via proxy servers. An analysis of user behavior on the website linked to the advertisement helps here. If there are recurring patterns instead of a natural variation, this suggests click fraud.
+IPs that were exposed as the starting point for click fraud can be blocked by the operator of the advertising network. Advertisements will no longer be displayed to users with the corresponding address, which means that there will be no fraudulent clicks.
+Motivations of a Click Fraudster
+The motivation to click fraud is different and can generally be divided into two types:
+Provide a competitive advantage (mainly through competing advertising companies)
+Achievement
+The following types of competitive advantage are usually intended by the click fraudster:
+Extending a competitor’s advertising budget and thus deactivating their advertising banners
+Cause additional advertising costs for competitors
+Among advertising partners (
+publishers
+): Provoking the exclusion of a competing advertising partner
+If services are to be achieved, the following are usually the following:
+Direct additional income by clicking on your own ads to generate additional income.
+Indirect extra earnings by clicking on a specific topic to drive up the per-click price.
+After the pay-per-click providers such as Google rigorously act against advertising partners who sneak in on services through click fraud, the main motivation will be found in the competitive advantage.
+Last Thoughts on Click Fraud and Its Importance for SEO
+Click fraud can be very obvious if, for example, the Google Adwords bill in one month was significantly above the average of the past few months.
+There are special companies dedicated to finding click fraud. If they are hired, they can track the ads and investigate the clicks in more detail.
+Click Fraud can also be used in SEO to tarnish Google Search Console Data like in Log Analysis Files by imitating the Googlebot. To prevent this situation, you should always check the Log Files with
+DNS Reverse Look Up
+and you should check the sessions’ characteristics to grab out the non-real users’ sessions from the data. Also, preventing the customers’ budget melting because of Click Fraud is an important reflex for the Holistic SEO since the success of the SEA project can also affect the success of the SEO Project in many ways.
+As Holistic SEOs, we will continue to improve our Click Fraud Guideline for a better digital marketing playground.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Marketing
+What is Click Fraud and How Can You Stop It?
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+Marketing
+What is the Return of Investment (ROI)?
+Marketing
+What is Cost Per Click (CPM): Definition, Examples…
+0
+0
+0

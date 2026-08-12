@@ -1,0 +1,106 @@
+X-DNS-Prefetch-Control HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The X-DNS-Prefetch-Control HTTP Header response type header indicates to the browser whether or not to perform DNS prefetching. Turning it on will not work in all scenarios, as not all browsers support it. Disabling it should result in its removal from all supported browsers. The majority of browsers will disregard the header because they do not perform DNS prefetching. In the background, file objects like style sheets, pictures, and JavaScript are prefetched. Prefetching is done in the background if the DNS is not resolved by the time the requested items are required or the user visits a URL. It minimizes latency. The examples of the X-DNS-Prefetch-Control HTTP Header are shown below.
+<link rel="dns-prefetch" href="http://www.mozilla.org/contribute/">
+The X-DNS-Prefetch HTTP Header Response Header is seen above. In the article, the X-DNS-Prefetch HTTP Header Syntax, Directives, and Uses with examples will be processed.
+Contents of the Article
+show
+1.
+What is X-DNS-Prefetch-Control HTTP Header?
+1.1.
+What are the Syntax of X-DNS-Prefetch-Control HTTP Header?
+1.2.
+What are the Directives of X-DNS-Prefetch-Control HTTP?
+2.
+How to use X-DNS-Prefetch-Control HTTP Header?
+2.1.
+Examples of X-DNS-Prefetch-Control HTTP Header Use
+3.
+What is the Specification Document for X-DNS-Prefetch-Control HTTP Header?
+4.
+What is the type of X-DNS-Prefetch-Control HTTP Header?
+4.1.
+What are the similar HTTP Headers to the X-DNS-Prefetch-Control?
+5.
+Which Browsers Support X-DNS-Prefetch-Control HTTP Header?
+What is X-DNS-Prefetch-Control HTTP Header?
+The X-DNS-Prefetch HTTP Header is a feature implemented by various browsers that causes the browser to make DNS requests for domains referred to on a given page ahead of time. It will perform DNS requests for those domains in order to pre-fill the local DNS cache if a page has links to other websites. It is beneficial to consumers because it enhances browser performance, but it is an invasion of privacy because it makes it appear as if the person visited websites they did not visit.
+What are the Syntax of X-DNS-Prefetch-Control HTTP Header?
+The X-DNS-Prefetch-Control HTTP Header contains two parts in its syntax. The values of the X-DNS-Prefetch-Control HTTP Header are on and off. The syntax for using the X-DNS-Prefetch-Control HTTP Header is written below.
+X-DNS-Prefetch-Control: on
+X-DNS-Prefetch-Control: off
+What are the Directives of X-DNS-Prefetch-Control HTTP?
+The directives of the X-DNS-Prefetch-Control HTTP Header are “on” and “off”. The “on” activates the X-DNS-Prefetch-Control HTTP Header. The default behavior of browsers when the header is absent is described here, assuming they support it. “off” disables the X-DNS-Prefetch-Control HTTP Header to ensure that no information is leaked to untrusted domains, even if users don’t have control over the links on the pages. There are two directive examples for the X-DNS-Prefetch-Control-HTTP Header. The first one is the specific hostname force lookup. A <link> component with a DNS-Prefetch link type is used to compel the lookup of certain hostnames without supplying explicit anchors. Turning On and Off Prefetching is another directive example of the X-DNS-Prefetch-Control HTTP Header. The component’s HTTP-Equiv parameter sends an X-DNS-Prefetch-Control HTTP Header from the server or from individual files. Forced prefetching of hostnames could be useful on a homepage to pre-resolve domain names quoted across the site but not used on the home page. The directive examples for the X-DNS-Prefetch-Control HTTP Header are shown below.
+Specific hostnames force lookup
+<link rel="dns-prefetch" href="https://www.xxxx.org/">
+Turning on and off prefetching
+<meta http-equiv="x-dns-prefetch-control" content="off">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+How to use X-DNS-Prefetch-Control HTTP Header?
+The X-DNS-Prefetch HTTP Header is a feature introduced by various browsers that allows the browser to initiate DNS requests in advance for domains referenced on a specific page. Whenever a page contains links to other websites, it will initiate DNS requests for those domains so that the local DNS cache is pre-populated. While it is beneficial for users since it enhances browser performance, as a privacy intrusion, it has the potential to make it appear as though the user has visited websites that they have not viewed at all.
+Examples of X-DNS-Prefetch-Control HTTP Header Use
+An example of the X-DNS-Prefetch-Control HTTP Header use is given below.
+<meta http-equiv="x-dns-prefetch-control" content="off">
+<link rel="dns-prefetch" href="https://www.mozilla.org/contribute/">
+<link rel="dns-prefetch" href="//www.mozilla.org/contribute/">
+What is the Specification Document for X-DNS-Prefetch-Control HTTP Header?
+There is no specification available for the X-DNS-Prefetch-Control HTTP Header because there are no available documents for the specification for the X-DNS-Prefetch-Control HTTP Header.
+What is the type of X-DNS-Prefetch-Control HTTP Header?
+The X-DNS-Prefetch-Control HTTP is a response header HTTP type that regulates DNS prefetching, a feature that enables browsers to conduct proactive domain name resolution on both user-selected links and URLs for document-referenced objects such as pictures, CSS, and JavaScript.
+What are the similar HTTP Headers to the X-DNS-Prefetch-Control?
+There is no available document similar HTTP Header to the X-DNS-Prefetch-Control HTTP Header.
+Which Browsers Support X-DNS-Prefetch-Control HTTP Header?
+There are multiple browsers that support X-DNS-Prefetch-Control. The following browsers are listed below.
+Chrome Browser is compatible with the X-DNS-Prefetch-Control HTTP Header
+Edge Browser is compatible with the X-DNS-Prefetch-Control HTTP Header
+Firefox Browser is compatible with the X-DNS-Prefetch-Control HTTP Header
+Opera Browser is compatible with the X-DNS-Prefetch-Control HTTP Header
+WebView Android Browser is compatible with the X-DNS-Prefetch-Control HTTP Header
+Chrome Android Browser is compatible with the X-DNS-Prefetch-Control HTTP Header
+Firefox for Android Browser is compatible with the X-DNS-Prefetch-Control HTTP Header
+Opera Android Browser is compatible with the X-DNS-Prefetch-Control HTTP Header
+Samsung Internet Browser is compatible with the X-DNS-Prefetch-Control HTTP Header
+You can see an image that shows cross-browsers compatibility of X-DNS-Prefetch-Control HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+2 thoughts on “X-DNS-Prefetch-Control HTTP Header: Syntax, Directive, Examples”
+Thanks for writing for the HTTP response headers.
+Reply
+Thanks for reading, Tammy.
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+X-DNS-Prefetch-Control HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+Want-Digest HTTP Header: Syntax, Directive, Exampl…
+TechSEO
+Host HTTP Header: Syntax, Directive, Examples
+0
+0
+2

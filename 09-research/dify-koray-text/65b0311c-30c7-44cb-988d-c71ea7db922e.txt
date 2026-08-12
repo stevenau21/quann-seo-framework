@@ -1,0 +1,58 @@
+About, Privacy and Contact Page - Holistic SEO
+Skip to content
+Koray Tugberk GUBUR has founded Holistic SEO. Below, there is a celebration from Holistic SEO’s Founder.
+Koray Tugberk GUBUR holds the resignation letter before founding the Holistic SEO & Digital.
+Objectives of Holistic SEO & Digital
+Objectives of Holistic SEO & Digital include the following.
+Data Science
+: Holistic SEO & Digital uses data science algorithms and techniques to give the existing data more meaning, and provide insights to understand the search engine’s decision trees.
+Natural Language Processing
+: Holistic SEO & Digital uses NLP Algorithms to parse a text to make the machine understand the human language so that the content of a website, or a web entity can be improved for better rankings and overall quality for the users. From BERT to the Hugging-face Algorithms can be used to understand the parse of speech tags, sentiment analysis overall WordNet, lexical semantics, and named entity recognition for the topicality and comprehensiveness of a source on the open web.
+Machine Learning
+: Holistic SEO & Digital uses ML Algorithms to cluster the queries within the search engine that users seek or the search engine generates synthetically. ML Algorithms are used with SKLearn and PyTorch algorithms to understand the word proximity and context vectors between the sentences, text spans, or overall content networks.
+Education of Python Technologies
+: Holistic SEO & Digital has published many free educational e-books that are more than 60.000 words, 2.000 lines of code, and 200 visuals, graphics, and expressions for data science, ML Algorithms and NLP. Traffic Think Thank which is the most prominent and important SEO Community has published one of the educations on Holistic SEO & Digital for its paid clients. RankSense which is the most important SEO Automation and SEO-related Data Science Company published articles and webinars on Holistic SEO & Digital. A data-driven Technical SEO Company OnCrawl has published the webinars of Holistic SEO & Digital and its SEO Case Studies’ that changed the perspective of SEOs related to the Semantic Search Engines.
+Education for SEO Perspective
+: Holistic SEO & Digital has published its first course in 2021 December related to Semantic SEO. Holistic SEO & Digital has given education to the CEOs of Reboot Digital, and Team, 180Marketing CEO, and Team. From Israel, Thailand, and Australia to the United Kingdom and the USA, Holistic SEO & Digital performs educational sessions to change the perspective of SEOs and the SEO Industry related to the PageRank and Semantics conflict while using every vertical of SEO to improve a web entity’s organic search performance while helping web search engine users to perform their search intent.
+Conversion Rate Optimization
+: Holistic SEO & Digital provides Conversion Rate Optimization services for e-commerce websites, and event-based websites, or appointment-based websites. A search engine can call any website that is relevant to the money and shopping activity as a Your Money or Your Life website. From affiliate marketing to the direct consumers, or B2B and B2C business models are the areas of CRO Services of Holistic SEO & Digital.
+Log File Analysis
+: A log occurs when a search engine crawler, or any kind of user-agent requests a web page from a web server. A web server keeps recordings of these requests. An SEO can perform log analysis to understand how a search engine crawls a website, and how a search engine ranks a website segment based on the crawl hits. JavaScript Rendering crawl hits, and Plain Crawl Hits are different from each other. Analyzing log files, and optimizing the crawl efficiency for Technical SEO is provided by Holistic SEO & Digital. On 19th October 2021, HSD performed a webinar with JetOctopus, just based on Log Analysis.
+Local SEO
+: Local SEO services are provided by Holistic SEO & Digital to improve the local search visibility of the web entities. The performance of the local search can affects the web search in the context of the Universal Search principle of a search engine. Information Foraging Theory is used to provide better quality Search Engine Result Pages. Optimization of a Google My Business Account, Apple Map Account, Yandex Business Account, and opening Yellow Pages accounts to provide more and consistent information across the surfaces of the open web while letting users more chance to perform a search activity related to the brand is the core of the Local SEO services of HSD. Holistic SEO & Digital published research and case studies for Local SEO projects.
+Technical SEO: Technical SEO services are provided by Holistic SEO & Digital to make a website more clear, understandable, and usable for the purposes of crawling, rendering, and indexing. Technical SEO involves optimization of the technical aspects of the HTML Documents so that the web pages can be rendered, and evaluated by the search engine crawlers. Technical SEO is connected to JavaScript SEO, and Web Page Loading Time Optimization, along with Canonicalization, Crawl Budget Optimization, Log File Analysis, and Multilingual SEO along with Video and Image SEOs. Holistic SEO & Digital has published many types of research and Technical SEO Case Studies by analyzing the search engines’ perspectives and decision trees.
+How to Contact Holistic SEO & Digital
+To reach out to us, you may use the contact form below. You can send us your wishes, critics, opinions or article pitches for contribution.
+Where can you find us else?
+If you want to contact us directly, you can also do this on Twitter. We have other types of communication places. You may contact us through Facebook, Instagram, Medium, TrustPilot, Issuu, Slideshare, and more… You may see our founder’s Twitter account below.
+Tweets by KorayGubur
+What personal data do we collect and why do we collect it
+Holistic SEO & Digital does not collect personal data in any way. It does not track you with any cookie or similar technology. You can browse our website in complete safety.
+Comments
+If you leave any comments on our website, your name, e-mail address, and website will be saved in our database. Also, your comments are published unchanged. The data collected here is not used at a different point in any way.
+Media
+For the time being, users cannot directly add media to the Holistic SEO & Digital address in any way. For this reason, we only accept the media you send via e-mail or from different points.
+Contact forms
+You can contact us by filling out the Contact Form. At this point, all the data you give are used for healthy communication. There is no use of any personal data.
+Cookies
+If you leave a comment on our website or visit our website frequently, Cookies are available for faster loading of the website. However, none of these cookies contain any personal data and do not track you. Holistic SEO & Digital values ​​users’ security and private information.
+Embedded content from other websites
+On our website, only Holistic SEO & Digital Founder Koray Tuğberk GÜBÜR has some embedded shares from channels such as Twitter and Facebook. Twitter or Facebook, on the other hand, can see your transactions with embedded content, therefore these third-party resources can only track your behavior to examine their embedded content.
+Analytics
+In Holistic SEO & Digital, only Google Analytics is being used. For this reason, it is not possible to follow your personal data or collect any other personal information that is not allowed. At the same time, Holisticseo. digital has a policy of not using any Analytics tools that are not safe and could harm the user.
+Who we share your data with
+Holisticseo.digital doesn’t share its data with anyone. Our data is only for understanding the user and serving better content to the users.
+How long do we retain your data
+If you leave a comment on our website, your comment information and the comment data can be retained indefinitely. Thus, future comments of users can be approved without waiting. The aim here is to make the website easier for the user to use.
+What rights do you have over your data
+If you have left a comment on our website, you can always ask us for information held about you. You can delete your comments at any time. The data we have is no more than what you provide.
+Where we send your data
+We use some software services to find out if the comments left are fake. Apart from these services, there is no data sharing with anyone.
+Additional information
+Holisticseo.digital doesn’t have a commercial purpose. Its main purpose is to provide state-of-art information related to SEO and Web Developing along with Data Science.
+How we protect your data
+All necessary technical measures have been taken on Holisticseo.digital to protect users’ data. Our server, database, and all services we use are regularly scanned and updated. In addition, all necessary Security Response Headers are used.
+When is Holistic SEO founded?
+Holistic SEO is founded in 1 September 2020 by Koray Tuğberk GÜBÜR in Istanbul. Holistic SEO is created as a one-man company; now it has more than 6 employees, and the company continues to grow. In 2020, Holistic SEO has been chosen as the best SEO Start-up in Turkey by Startup Pill.
+Our Latest Posts for You
+If you want to learn more about Holistic SEO and its principles, you may check out our latest posts.

@@ -1,0 +1,95 @@
+Access-Control-Allow-Methods: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Access-Control-Allow-Methods is an HTTP response header that determines the acceptable methods to connect to a specific resource in response to the given preflight request. A preflight request allows a web server to check how the actual request will appear before being created. The web server will recommend a web browser if the actual request must be sent or return an error to the client instead. The web browser will no longer return the request if an error is sent to the client. The Access-Control-Allow-Methods HTTP response header is a Cross-Origin Resource Sharing(CORS) response-type header. The Access-Control-Allow-Methods header specifies which HTTP methods are supported on a particular endpoint for cross-origin requests. Cross-Origin Resource Sharing (CORS) is an HTTP header-based method that lets a web server specify any other origin or domain than its own from which a web browser will allow resources to be loaded. If you permit all HTTP methods, then we may set the value similar to the Access-Control-Allow-Methods, such as GET, PUT, and POST. Nevertheless, if you need to restrict the endpoint to only a few methods, then you need to limit the methods.
+Contents of the Article
+show
+1.
+What is Access-Control-Allow-Methods?
+1.1.
+What is the Syntax of Access-Control-Allow-Methods?
+1.2.
+What is the Directive of Access-Control-Allow-Methods?
+2.
+How to use Access-Control-Allow-Methods?
+2.1.
+Examples of Access-Control-Allow-Methods Use
+3.
+What are the Specification Documents for Access-Control-Allow-Methods?
+3.1.
+What are the similar HTTP Headers to the Access-Control-Allow-Methods?
+What is Access-Control-Allow-Methods?
+The Access-Control-Allow-Methods HTTP response header is used to show which HTTP methods are allowed to access the resources in a response to the cross-origin requests. For the Access-Control-Allow-Methods HTTP response headers, the asterisk value `*` pertains to a wildcard for the requests with no credentials. The requests with no credentials will not be connected to a header name or method that is `*`. The Access-Control-Allow-Methods HTTP response header can only apply the asterisk (*) as a value if the request’s credentials mode is not “include”.
+What is the Syntax of Access-Control-Allow-Methods?
+The syntax of the Access-Control-Allow-Methods HTTP response header is below.
+Access-Control-Allow-Methods: <method>, <method>, ...
+Access-Control-Allow-Methods: *
+An example of the syntax for the Access-Control-Allow-Methods HTTP response header is below.
+Access-Control-Allow-Methods: POST, GET, PUT
+Access-Control-Allow-Methods: *
+What is the Directive of Access-Control-Allow-Methods?
+The directives of the Access-Control-Allow-Methods HTTP response header are below.
+<method> A comma-delimited list of the allowed HTTP request methods.
+<*> The asterisk value is counted as a wildcard. The “*” value only counts as a special wildcard value for requests with no credentials (requests without HTTP cookies or HTTP authentication information).
+How to use Access-Control-Allow-Methods?
+The Access-Control-Allow-Methods HTTP response header is used with the following methods.
+<GET> The GET method asks for a representation of the specified resource. The purpose of GET is to retrieve data.
+<HEAD> The HEAD method requests for a response identical to a GET request, but with no need for a response body.
+<POST> The POST method sends an entity to a specific resource, often causing a change in state or side effects on the web server.
+<PUT> The PUT method replaces all existing representations of the target resource with the request payload.
+<DELETE> The DELETE method deletes a specific resource.
+<CONNECT> The CONNECT method creates a tunnel to the web server recognized by the target resource.
+<OPTIONS> The OPTIONS method identifies the communication options available for the target resource.
+<TRACE> The TRACE method works as a message loop-back test along the path to the target resource.
+<PATCH> The PATCH method applies partial adjustments to a resource.
+Examples of Access-Control-Allow-Methods Use
+An example of the Access-Control-Allow-Methods HTTP response header is the usage of the HTTP header on the MOTECH-UI application. The MOTECH-UI application is the abbreviation for Motech Fusion User Interface. Motech Fusion is a software development company that concentrates on modified high-standard web applications, websites, and mobile applications. These development services provided by Motech Fusion consist of User Experience (UX) design, User Interface (UI) design, Strategy, Back-end Functions and processes, Development, Product Design, Publication, and Testing. Let’s assume that http://motech-ui.example is a URL to the MOTECH-UI application. A configuration example for the MOTECH-UI application is below.
+<LocationMatch "/motech-platform-server">
+Header always set Access-Control-Allow-Origin "http://motech-ui.example"
+Header always set Access-Control-Allow-Methods "GET,POST,PUT,DELETE,HEAD,OPTIONS"
+Header always set Access-Control-Allow-Headers "Content-Type,X-Requested-With,Accept,Authorization,Origin,Access-Control-Request-Method,Access-Control-Request-Headers"
+Header always set Access-Control-Expose-Headers "Access-Control-Allow-Origin,Access-Control-Allow-Credentials"
+</LocationMatch>
+What are the Specification Documents for Access-Control-Allow-Methods?
+The specification document for the Access-Control-Allow-Methods HTTP response header is RFC7480. The specification document RFC7480 defines the Registration Data Access Protocol (RDAP). It explains how RDAP is carried using the Hypertext Transfer Protocol (HTTP). The objective of this specification document is to define the usage of HTTP methods, including the Access-Control-Allow-Methods HTTP response header.
+What are the similar HTTP Headers to the Access-Control-Allow-Methods?
+The similar HTTP headers Access-Control-Allow-Method are the Access-Control-Request-Method and
+Access-Control-Allow-Headers
+. The definition of similar headers is below.
+The Access-Control-Allow-Headers determines which HTTP headers will be used during the actual request.
+The Access-Control-Request-Method is a request header that is set by the web browser on CORS (Cross-origin Resource Sharing) preflight requests, and it only has one value. The Access-Control-Allow-Methods header is also a CORS (Cross-origin Resource Sharing) HTTP response header but can have multiple values.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Access-Control-Allow-Methods: Syntax, Directive, Examples
+by Koray Tuğberk GÜBÜR
+time to read: 3 min
+TechSEO
+Accept-Language HTTP Header: Principles, Types, Wo…
+TechSEO
+Access-Control-Allow-Headers: Syntax, Directive, E…
+0
+0
+0

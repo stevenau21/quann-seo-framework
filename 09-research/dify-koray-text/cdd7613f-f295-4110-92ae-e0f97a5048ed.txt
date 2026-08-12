@@ -1,0 +1,99 @@
+308 HTTP Response Status Code Definition: Example, Usage, Methods - Holistic SEO
+Skip to content
+The 308 HTTP Status Code means that the request is a permanent redirect. The 308 HTTP Status Code indicates that the target resource has a new permanent URI (Uniform Resource Identification) and that any future references to it should use one of the enclosed URIs. Clients with link editing capabilities ought to automatically re-link references to the effective request URI to one or more of the new references sent by the server, where possible. Wherever possible, clients with link editing capabilities should automatically re-link references to the effective request URI to one or more of the server’s new references. The difference between the 308 and 300 HTTP Status Codes is that the 308 HTTP Status Code indicates that the resource the user attempted to access has been moved to a new URI, whereas the 300 HTTP Status Code indicates that the client has multiple options for the resource.
+Contents of the Article
+show
+1.
+What does 308 HTTP Status Code Mean?
+1.1.
+How to Use 308 HTTP Status Code for a Website?
+2.
+How to Check 308 HTTP Status Code?
+2.1.
+Which HTTP Method is used with 308 HTTP Status Code?
+3.
+What are the Related HTTP Response Headers with 308 HTTP Status Code?
+4.
+What is the Browsers Compatibility of 308 HTTP Status Code?
+5.
+What are the other Similar Status Codes to the 308 HTTP Status Code?
+What does 308 HTTP Status Code Mean?
+The 308 HTTP Status Codes indicate that the requested resource has been definitively relocated to the URL specified by the Location headers. A browser redirects to this page, and search engines update their links to the resource (the ‘link-juice’ is said to be sent to the new URL in ‘SEO-speak’).
+How to Use 308 HTTP Status Code for a Website?
+To use the 308 HTTP Status Code in a website, the web developer should include a Location header field in the response with a preferred URI reference for the new permanent URI. The Location field value can be used by the user agent to perform automatic redirection. The server’s response payload typically includes a brief hypertext note with a link to the new URI (s). Unless otherwise specified by the method definition or explicit cache controls, a 308 response is cacheable by default.
+How to Check 308 HTTP Status Code?
+To check the 308 HTTP Status Code, use Fiddler or Firebug. There are literally hundreds of other tools and plug-ins available for viewing raw HTTP data. In Mozilla Firebug, for example, you can go to Net and press F5 to refresh the page. Simply open a web browser and press F12 to launch developer tools, then navigate to the Network tab, which displays all Status Codes, whether the page was cached, and so on.
+Which HTTP Method is used with 308 HTTP Status Code?
+There is only one HTTP method used with the 308 HTTP Status Code which is the POST HTTP method. The POST HTTP method is used to the 308 HTTP Header to request with a body on the new location. The POST HTTP method sends an entity to the specified resource, which frequently results in a state change or side effects on the server.
+What are the Related HTTP Response Headers with 308 HTTP Status Code?
+There is only one related HTTP Response Header with the 308 HTTP Status Code which is the 306 HTTP Status Code because they are both redirection messages with more than one possible response.
+What is the Browsers Compatibility of 308 HTTP Status Code?
+You can see the table that shows the browser’s compatibility with the 307 HTTP Status Code below.
+Browser Name
+Browser Compatibility of 308 HTTP Status Code
+Chrome
+YES
+Edge
+YES
+Firefox
+YES
+Internet Explorer
+YES
+Opera
+YES
+Safari
+YES
+WebView Android
+YES
+What are the other Similar Status Codes to the 308 HTTP Status Code?
+There are other similar HTTP Status Codes to 308 HTTP Status Code. The following HTTP Status Codes are listed below.
+300 Multiple Choices HTTP Status Code: 300 Multiple Choices HTTP Status Code is similar to the 308 HTTP Status Code because they are both redirection messages. The
+300 HTTP Status Code
+indicates that there are multiple possible responses to the request. One of them should be chosen by the user agent or the user. There is no standardized method for selecting one of the responses.
+301 Moved Permanently HTTP Status Code: The
+301 HTTP Status Code
+indicates that the requested resource’s URI has changed. In most cases, the response should include a new URI. Similar to the 308 HTTP Status Code, which is also a redirection message.
+302 Found HTTP Status Code: The
+302 HTTP Status Code
+is similar to the 308 HTTP Status Code because they are both redirection messages. The 308 HTTP Status Code indicates that the requested resource’s URI has been temporarily changed. In the future, new changes to the URI may be made. As a result, the client should use the same URI in future requests.
+303 See Other HTTP Status Code: The
+303 HTTP Status Code
+indicates that the server sent this response to instruct the client to use a GET request to obtain the requested resource from another URI. Similar to the 308 HTTP Status Code, which is also a redirection message.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+308 HTTP Response Status Code Definition: Example, Usage, Methods
+by Holistic SEO
+time to read: 3 min
+TechSEO
+401 HTTP Response Status Code Definition: Example,…
+TechSEO
+307 HTTP Response Status Code Definition: Example,…
+0
+0
+0

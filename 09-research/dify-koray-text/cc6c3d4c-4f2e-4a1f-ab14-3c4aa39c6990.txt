@@ -1,0 +1,100 @@
+HTML <video> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <video> HTML Tag inserts into the content a media player that allows video playback. Although <video> HTML Tag may be used for audio material, the <audio> HTML Tag may give a more acceptable user experience. The <video> HTML Tag is part of Audio/Video HTML category in HTML Element Reference. The attributes of the <video> HTML Tag are autoplay, controls, height, loop, muted, poster, preload, src, width, global attributes, and event attributes.
+<video> code block example to learn how it works is given below.
+<video src="video.ogg" width="170" height="85" controls>
+The second example usage of the “<video>” code block example is below.
+<video src="/video/doraemon-clip.ogg" width="180" height="90" controls>
+<p>Your browser does not support the HTML5 video element</p>
+</video>
+Contents of the Article
+show
+1.
+What is <video> HTML Tag?
+2.
+How to Use <video> HTML Tag?
+2.1.
+Example Usage of <video> HTML Tag?
+3.
+What are the Attributes of <video> HTML Tag?
+4.
+What are the Default CSS Settings for <video> HTML Tag?
+5.
+What are the Related other HTML Tags to <video>?
+What is <video> HTML Tag?
+The <video> HTML Tag is used to embed video material, such as movie clips or other video streams, in a document. The <video> HTML Tag includes one or more <source> HTML Tags, each of which has a distinct video source.
+How to Use <video> HTML Tag?
+To use the <video> HTML Tag, the <video src=””></video> tag should be created by the web developer, with the URL of the video file put between the double quotes of the src attribute. The controls property may be used to give user controls for the interface, such as stopping, starting, changing the volume, and so on. The width and height properties can also be used to give the video’s width and height.
+Example Usage of <video> HTML Tag?
+The following example of usage of <video> HTML tag is given below.
+<video controls width="250">
+<source src="/media/nature-videos/rain.webm"
+type="video/webm">
+<source src="/media/nature-videos/rain.mp4"
+type="video/mp4">
+Your browser does not support the HTML5 video element
+</video>
+What are the Attributes of <video> HTML Tag?
+There are multiple attributes for the <video> HTML Tag. The following attributes are listed below.
+Global Attributes: The <video> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <video> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+autoplay attribute: The <video> HTML Tag supports autoplay attribute. The autoplay attribute instructs the video to begin playing as soon as it is ready.
+controls attribute: The <video> HTML Tag supports controls attribute. The controls property defines whether or not video controls, such as a play/pause button, should be shown.
+height attribute: The <video> HTML Tag supports height attribute. The video player’s height is determined by the height attribute.
+loop attribute: The <video> HTML Tag supports loop attribute. When the video is done, the loop attribute says that it will begin again.
+muted attribute: The <video> HTML Tag supports muted attribute. The muted attribute specifies that the video’s audio output should be muted.
+poster attribute: The <video> HTML Tag supports poster attribute. The poster attribute specifies an image that will be displayed while the movie downloads or until the user clicks the play button.
+preload attribute: The <video> HTML Tag supports preload attribute. The preload attribute specifies if and how the video should be loaded when the page loads, according to the creator.
+src attribute: The <video> HTML Tag supports src attribute. The src attribute specifies the video file’s URL.
+width attribute: The <video> HTML Tag supports width attribute. The width attribute determines how wide the video player is.
+What are the Default CSS Settings for <video> HTML Tag?
+There is no default CSS setting for the <video> HTML Tag.
+What are the Related other HTML Tags to <video>?
+The other related HTML Tags to the <video> HTML Tag are listed below.
+<audio> HTML Tag: The
+<audio>
+HTML Tag is related to <video> HTML Tag because they are both audio/video tags. The <audio> HTML Tag is used to specify the audio content.
+<track> HTML Tag: The
+<track>
+HTML Tag is related to <video> HTML Tag because they are both audio/video tags. The <track> HTML Tag is used to specify a media element’s track.
+<source> HTML Tag: The
+<source>
+HTML Tag is related to <video> HTML Tag because they are both audio/video tags. The <source> HTML Tag is used to specify the media resources that will be used by media elements.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <video> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <object> Tag Definition, Usage and Exam…
+TechSEO
+HTML <section> Tag Definition, Usage and Exa…
+0
+0
+0

@@ -1,0 +1,212 @@
+"aria-sort" ARIA Label for Accessibility - Holistic SEO
+Skip to content
+The aria-sort is an attribute that is used on tables to arrange the contents in ascending or descending manner. The purpose of the aria-sort is to organize the contents within the table or grid. The function of aria-sort is to sort a column or a row in ascending or descending manner or order, although table elements provide sorting functionality the aria-sort attributes should be set whether ascending or descending order within the perimeter. The developer can use the aria-sort to organize a table or grid in order for the end-user to efficiently predict where to find the content they were looking for. The aria-sort is can be used in elements such as a row, column, table, grid, and treegrid. The aria-sort can be used with the aria-pressed ARIA Label, it triggers the sort functionality set by the aria-sort in displaying ascending or descending columns or rows.
+Contents of the Article
+show
+1.
+What is the function of the “aria-sort” ARIA Label?
+2.
+What are the uses of the “aria-sort” ARIA Label?
+3.
+Example Uses of “aria-sort” ARIA Label
+4.
+What is the related ARIA Label to “aria-sort”?
+What is the function of the “aria-sort” ARIA Label?
+The function of the aria-sort in tables or grids is important for the end-user in order to be able to search contents easily prior to the ascending and descending function it provides. The aria-sort functionality can only be used for one column or row header at a time. The aria-sort can be set to none as default or other for advanced functionalities, a table, or grid provides sorting functionality. The table content will not be in proper order unless toggled by the user, the aria-sort can be set to ascending or descending manner to properly organize as searchable table columns or rows. The aria-sort can have an interface using a button element to trigger the sorting operation, then aria-pressed will be added as the identifier to apply the sort function.
+What are the uses of the “aria-sort” ARIA Label?
+Listed below are the uses of the “aria-sort” ARIA Label.
+Columnheader role:
+It contains the header details and information within the table structure, particularly the column.
+Rowheader role:
+It contains the header details and information within the table structure, particularly the row.
+Row role:
+Is the cell within the table structure within the row, it may contain more than one cell, and it has a row header that provides the information what the row contents should have.
+Table role:
+Is an attribute that identifies the element that possesses the role as a non-interactive table structure containing data in rows and columns, the same as the native HTML table element.
+Grid role:
+Is for a widget that has one or more rows of cells, structured the same as a table. The position of each cell is significant and can be accessed using keyboard strokes.
+Example Uses of “aria-sort” ARIA Label
+Listed below are the example uses of the “aria-sort” ARIA Label.
+The benefit of using aria-sort is to manage or organize content for users and also for developers to provide a more user-focused dynamic accessibility that it may provide.
+<table>
+<caption>
+List of students in the English class
+</caption>
+<thead>
+<tr>
+<th>
+<button>
+First Name
+</button>
+</th>
+<th aria-sort="ascending">
+<button>
+Last Name
+</button>
+</th>
+<th>
+<button>
+Major
+</button>
+</th>
+<th>
+Building number
+</th>
+</tr>
+</thead>
+Welcome to ABC university
+</table>
+<table>
+<caption>
+List of Employees
+</caption>
+<thead>
+<tr>
+<th>
+<button>
+First Name
+</button>
+</th>
+<th aria-sort="ascending">
+<button>
+Last Name
+</button>
+</th>
+<th>
+<button>
+Email
+</button>
+</th>
+<th>
+Department
+</th>
+</tr>
+</thead>
+Welcome to ABC Company
+</table>
+<table>
+<caption>
+Customer Information Sheet
+</caption>
+<thead>
+<tr>
+<th>
+<button>
+First Name
+</button>
+</th>
+<th aria-sort="ascending">
+<button>
+Last Name
+</button>
+</th>
+<th>
+<button>
+Telephone Number
+</button>
+</th>
+<th>
+Address
+</th>
+</tr>
+</thead>
+This is a Customer Information list
+</table>
+<table>
+<caption>
+Customer Membership Information Sheet
+</caption>
+<thead>
+<tr>
+<th>
+<button>
+First Name
+</button>
+</th>
+<th aria-sort="ascending">
+<button>
+Last Name
+</button>
+</th>
+<th>
+<button>
+Mobile Number
+</button>
+</th>
+<th>
+Address
+</th>
+</tr>
+</thead>
+ABC Grocery Mart Membership Card
+</table>
+<table>
+<caption>
+List of Borrowers
+</caption>
+<thead>
+<tr>
+<th>
+<button>
+First Name
+</button>
+</th>
+<th aria-sort="ascending">
+<button>
+Last Name
+</button>
+</th>
+<th>
+<button>
+Contact Number
+</button>
+</th>
+<th>
+Address
+</th>
+</tr>
+</thead>
+Welcome to the ABC City Library
+</table>
+What is the related ARIA Label to “aria-sort”?
+The aria-pressed is related to aria-sort because they are both used in an instance, particularly in the sorting function that the aria-sort defines. The
+aria-pressed
+used button role as one of the triggers to execute a procedure specifically with the sorting function that could define a column or row’s content arrangements. The aria-pressed will relay information to the aria-sort that the trigger is pressed, and the sort function can now be enabled in a manner of arranging the column or row in ascending or descending order.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-sort” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 4 min
+TechSEO
+“aria-valuemax” ARIA Label for Accessi…
+TechSEO
+“aria-setsize” ARIA Label for Accessib…
+0
+0
+0

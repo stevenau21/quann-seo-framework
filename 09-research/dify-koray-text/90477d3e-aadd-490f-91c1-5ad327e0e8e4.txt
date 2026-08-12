@@ -1,0 +1,87 @@
+428 HTTP Response Status Code Definition: Example, Usage, Methods - Holistic SEO
+Skip to content
+The 428 HTTP Status Code indicates that the request was preconditioned required. The 428 HTTP Status Code is one of the 4xx(Server Error) response codes that indicate the server anticipates conditionality in the request. The 428 HTTP Status Code indicates that the origin server requires a conditional request. The purpose of the 428 HTTP Status Code is to prevent the ‘lost update’ problem. This issue occurs when a client makes a GET request on the state of a given resource, changes the state, and then PUTs it back. At the same time, another client made a change to the same server resource. The difference between the 428 HTTP Status Code and the 400 HTTP Status Codes is that the 400 HTTP Status Codes could not understand the request due to invalid syntax, whereas the 428 HTTP Status Code indicates that the server requires a conditional request.
+Contents of the Article
+show
+1.
+What does 428 HTTP Status Code Mean?
+1.1.
+How to Use 428 HTTP Status Code for a Website?
+2.
+How to Check 428 HTTP Status Code?
+2.1.
+Which HTTP Method is used with 428 HTTP Status Code?
+3.
+What are the Related HTTP Response Headers with 428 HTTP Status Code?
+4.
+What are the Browsers Compatibility of 428 HTTP Status Code?
+5.
+What are the other Similar Status Codes to the 428 HTTP Status Code?
+What does 428 HTTP Status Code Mean?
+The HTTP 428 Precondition Required response status code indicates that the server requires a conditional request. Typically, this indicates the absence of a required precondition header, such as If-Match. The response should be 412 Precondition Failed if a precondition header does not match the server-side state.
+How to Use 428 HTTP Status Code for a Website?
+To use the 428 HTTP Status Code on the website, the web developer should avoid the “lost update” problem, which occurs when a client GETs the state of a resource, modifies it, and PUTs it back to the server, while a third party modifies the server’s state, resulting in a conflict. The server can ensure that clients are working with the correct copies by requiring conditional requests. Responses with this status code should explain how to successfully resubmit the request.
+How to Check 428 HTTP Status Code?
+To check the 428 HTTP Status Code use the web browser network tab and developer tools for every resource that the client uses.
+Which HTTP Method is used with 428 HTTP Status Code?
+There are multiple methods used with the 428 HTTP Status Code which are the GET method and PUT method. Those methods are used to avoid the “lost update” problem. The GET method asks for a representation of the given resource. GET requests should only retrieve data. The PUT method replaces the request payload with all current representations of the target resource.
+What are the Related HTTP Response Headers with 428 HTTP Status Code?
+There are multiple related HTTP Response Headers with the 428 HTTP Status Code. The Following HTTP Response Headers are listed below.
+HTTP conditional requests: Conditional requests are a concept in HTTP that allows the result, and even the success, of a request to be changed by comparing the affected resources with the value of a validator. Such requests can be useful for validating the content of a cache and avoiding unnecessary control, or for verifying the integrity of a document, such as when resuming a download or preventing lost updates when uploading or modifying a document on the server.
+If-Match HTTP Header: The
+If-Match
+HTTP Header request header conditions the request. The server will only return the requested resource if it matches one of the listed ETags for the GET and HEAD methods. In this case, PUT and other unsafe methods will only upload the resource.
+What are the Browsers Compatibility of 428 HTTP Status Code?
+The 428 HTTP Status Code is compatible with all browsers including Chrome, Edge, Firefox, Internet Explorer, Opera, Safari, and Webview Android.
+What are the other Similar Status Codes to the 428 HTTP Status Code?
+There are other similar HTTP Status Codes to 428 HTTP Status Code. The following HTTP Status Codes are listed below.
+425 Too Early HTTP Status Code: This indicates that the server is unwilling to take the risk of processing a request that could be replayed. The
+425 HTTP Status Code
+is similar to the 428 HTTP Status Code which is also a client error response.
+409 Conflict HTTP Status Code: This response is sent when a request is in conflict with the server’s current state. The
+409 HTTP Status Code
+is similar to the 428 HTTP Status Code which is also a client error response.
+429 Too Many Requests HTTP Status Code: The user has sent an excessive number of requests in a short period of time (“rate limiting”). The
+429 HTTP Status Code
+is similar to the 428 HTTP Status Code which is also a client error response.
+431 Request Header Fields Too Large HTTP Status Code: Because the request’s header fields are too large, the server refuses to process it. After reducing the size of the request header fields, the request may be resubmitted. The
+431 HTTP Status Code
+is similar to the 428 HTTP Status Code which is also a client error response.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+428 HTTP Response Status Code Definition: Example, Usage, Methods
+by Holistic SEO
+time to read: 3 min
+TechSEO
+302 HTTP Response Status Code Definition: Example,…
+TechSEO
+301 HTTP Response Status Code Definition: Example,…
+0
+0
+0

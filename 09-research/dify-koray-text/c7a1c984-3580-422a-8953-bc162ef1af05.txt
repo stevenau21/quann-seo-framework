@@ -1,0 +1,123 @@
+Mobile-first Indexing: Definition and Importance for SEO - Holistic SEO
+Skip to content
+The use of mobile devices has been increasing for years. A mobile-optimized website is a must. Google has long responded to this: With the Mobile-First Index, Google uses information that is found on the mobile version of a website to compile the search results
+Contents of the Article
+show
+1.
+Definition of Mobile-First Index
+2.
+Digression: How does a search engine work?
+2.1.
+Crawler
+2.2.
+Index
+2.3.
+Ranking Factors
+2.4.
+The Way of Searching
+2.5.
+How does the Mobile-First Index work?
+3.
+Difference between the Mobile-First Index and the Mobile-friendliness ranking signal
+4.
+Why is Google changing its indexing method?
+5.
+How can I build the mobile version of my website?
+6.
+Things to Consider for Mobile-design and Mobile-first Indexing
+7.
+How do I find out if my website is already using the Mobile-First Index?
+8.
+What happens if I don’t have a mobile website?
+9.
+Conclusion on the Mobile-First Index
+Definition of Mobile-First Index
+With the Mobile-First Index, Google is taking the “mobile revolution” into account and will in the future only evaluate search results based on the information found on the mobile version of a website.
+Only the mobile version of a website is considered for the ranking. The first announcement of this project dates from November 2016. In April 2018, Google officially announced the introduction of mobile-first indexing but also pointed out that not all websites will be converted directly to this new indexing method.
+Some related articles for Mobile-first Indexing:
+User Retention Rate Optimization
+Conversion Funnel Designing
+Mobile-first Design
+Click Path Optimization
+Digression: How does a search engine work?
+The goals of the Mobile-First Index can be better understood if you understand how Google Search works. In their videos “How Search Works” and “How Google Works: A Google Ranking Engineer’s Story”, Matt Cutts and Paul Haar from Google succinctly summarize how a search query is served on Google:
+“How Google Works: A Google Ranking Engineer’s Story”
+Crawler
+Google’s web crawlers access websites and index their content. These crawlers, also called spiders, behave like a browser when accessing a website, but without a graphical user interface. A website is accessed, loaded, and set up in the same way as it is the case with a “real” user.
+Index
+Google’s index stores all information about all documents and the associated resources, links, and structured data, to mention just a few. It is the heart of the search engine; without this extensive storage space, Google would not be able to provide the search results so quickly.
+So that the search engine does not have to send a crawler “through the Internet” for every search, the information that the crawlers have collected is stored decentrally – in so-called shards. So there is not a database, but many parts are distributed across different data centers.
+Ranking Factors
+The ranking signals or factors that are much discussed in SEO circles are the brains of the search engine. These rules put the websites that are suitable for a corresponding search in a meaningful order, which depends, among other things, on the relevance and quality of the content.
+The Way of Searching
+Put simply, a search query via Google is “sent to the index” and all documents that use this search query or contain parts of it are searched out and sorted according to the ranking factors: the Google results page appears.
+How does the Mobile-First Index work?
+The fact that Google switched to the mobile index means that only the mobile version of a website is used for every search query. Information that the “mobile” crawler has not been shown is not taken into account in the ranking – regardless of whether this information may be available in the desktop version.
+In practice, this means that anyone using different URLs or dynamic serving and slimming down the mobile content of a website for reasons of usability runs the risk of no longer ranking even via desktop search queries, even though he has relevant content ready for a corresponding search.
+Difference between the Mobile-First Index and the Mobile-friendliness ranking signal
+There is an important distinction between the two concepts of the Mobile-First Index that Google has been using recently and Mobile Friendliness.
+These are two Google principles that can be clearly distinguished from one another. The Mobile-First Index always refers to the content of a website that is used as a possible result in a search and is intended to ensure that the content is actually available for mobile devices.
+The ranking factor mobile-friendliness ties in there. Only when sorting the possible results according to relevance and quality does he ensure that websites that have mobile-friendly features rank better.
+To understand whether your web site is mobile-friendly or not, you can use Google’s or Bing’s Mobile-friendliness Tool, You can also check which resources or assets can be downloaded and which resources can’t be downloaded by the Search Engines’ Crawlers.
+Why is Google changing its indexing method?
+More and more searches are started from mobile devices.
+Websites often did not provide the same content on their mobile documents as on the desktop version due to space and loading time reasons. For this reason, websites with mobile search queries could rank that did not contain the desired information at all in their mobile version.
+By changing the indexed variant from desktop to mobile, Google ensures that a website is only displayed to a mobile searcher if the information they are looking for is really available on the mobile page.
+How can I build the mobile version of my website?
+Responsive design
+With responsive web design, there is only one version of the page and this is automatically adjusted to different screen sizes via CSS. Google currently prefers this approach and has its own page on the basics of responsive web design.
+Different URLs for desktop and mobile
+The use of different URLs for the content of a desktop and mobile page is not a problem for Google, as long as the versions are labeled so that Google can recognize which one they are. Google also offers helpful information on the different URLs on its Google Developers platform.
+Dynamic serving
+The provision of different content on a URL – depending on the querying device – is another way of delivering your own content. This dynamic provision is technically complex but can be the right choice for extensive and complex internal systems. Of course, there are also Google’s own help documents for dynamic provision.
+Things to Consider for Mobile-design and Mobile-first Indexing
+Regardless of the implementation, the focus is always on what content is presented to Googlebot in the source text.
+With different URLs and dynamic serving it is clear: If content is not delivered on the mobile version, it is invisible to Googlebot and the document cannot rank for this content.
+With a responsive design, there are other nuances to consider. With CSS it is possible to hide content that is in the source text of the document by default. This can be done, for example, by accordion navigation, in which a heading must first be clicked before further text becomes visible.
+For users, this is a helpful design element so that they don’t have to scroll too much on their smartphone. Google explicitly allows this procedure for mobile devices.
+However, it is also possible to hide content without giving mobile users the option of showing them with a click. In this case, you can assume that Google ignores this content.
+Every content and design difference between desktop and mobile version of the web page is called as mismatch by the Google. It is being tolerated until a degree for now, you should keep your content as much as possible same for different devices.
+How do I find out if my website is already using the Mobile-First Index?
+It’s easy for anyone who uses the Google Search Console: Google sends a corresponding message via the Search Console.
+If the Search Console is not used, you can use the querying Google crawlers to conclude that mobile-first indexing has already been activated for your own page. This is the case if the majority of the crawler activity (according to Google about 80%) bears the user agent of the smartphone Googlebot:
+Mozilla / 5.0 (Linux; Android 6.0.1; Nexus 5X Build / MMB29P) AppleWebKit / 537.36 (KHTML, like Gecko) Chrome / 41.0.2272.96 Mobile Safari / 537.36 (compatible; Googlebot / 2.1; + http: //www.google .com / bot.html)
+What happens if I don’t have a mobile website?
+In the event that a domain does not provide its own mobile website, Google will continue to crawl the existing desktop page, albeit with the mobile crawler.
+Conclusion on the Mobile-First Index
+Depending on your own system and the previous delivery of mobile web content, Google’s switch to the Mobile-First Index can mean a lot of work for website operators and SEOs.
+In general, Google seems to have learned from the past and decided not to convert all websites to mobile-first indexing on a fixed date. Since for the time being only websites will be converted where the desktop and mobile versions are compatible, there is still a certain grace period for all webmasters who have not yet dealt with the topic. It is currently not to be assumed that Google will revise this decision.
+.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Theoretical SEO
+What is the Mobile-First Index?
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+Theoretical SEO
+What is Google’s Hilltop Algorithm?
+0
+0
+0

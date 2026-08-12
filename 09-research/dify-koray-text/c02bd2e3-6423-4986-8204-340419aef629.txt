@@ -1,0 +1,119 @@
+Pragma HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Pragma HTTP Header HTTP/1.0 general-header is an implementation-specific header with several impacts along the request-response chain. The Pragma HTTP Header ensures compatibility with HTTP/1.0 caches that lack a Cache-Control HTTP/1.1 header. The Cache-Control HTTP header field contains directives (instructions) that control caching in browsers and shared caches in both requests and responses (e.g. Proxies, CDNs).  Since the Pragma HTTP Header is not specified for HTTP responses, it is ineffective as a replacement for the general HTTP/1.1 Cache-Control header. However, despite the fact that it has the same behavior as Cache-Control, no-cache, if the Cache-Control header field is omitted in a request Pragma, should only be used for backward compatibility with HTTP/1.0 clients. There is only one value using the Pragma HTTP Header. The value using the Pragma HTTP Header is no-cache. An example of the Pragma HTTP Header is written below.
+content-type: application/binary
+date: Mon, 22 Mar 2015 07:35:26 GMT
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+location: https://analytics.google,com/analytics/web/
+pragma: no-cache
+server: ESF
+set-cookie: SIDC=jGbjhtgdsvbakzmRTFjhds jGVs
+RNPoA; expires= Thu, 29-Feb-2020 07:23:25 GMT; path=/; domain=,google.com; priority=high
+The Pragma HTTP Header Request and Response Header is seen above. In the article, the Pragma HTTP Header Syntax, Directives and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is Pragma HTTP Header?
+1.1.
+What is the Syntax of Pragma HTTP Header?
+1.2.
+What is the Directive of Pragma HTTP Header?
+2.
+How to use Pragma HTTP Header?
+2.1.
+Examples of Pragma HTTP Header Use
+3.
+What is the Specification Document for Pragma HTTP Header?
+4.
+What are the types of Pragma HTTP Header?
+4.1.
+What are the similar HTTP Headers to the Pragma HTTP Header?
+5.
+Which Browsers Support Pragma HTTP Header?
+What is Pragma HTTP Header?
+The Pragma HTTP Header is a no-cache general-type CORS-safe listed response header field in an HTTP/1.0 header meant to be used in the request-response chain. A Pragma HTTP Header prevents the client from caching the response. The Pragma HTTP Header tells browsers to tell the server and any intermediate caches that they want a fresh version of the resource, which is not true.
+What is the Syntax of Pragma HTTP Header?
+The Pragma HTTP Header uses only one value. The syntax for using the Pragma HTTP Header is written below.
+Pragma: no-cache
+What is the Directive of Pragma HTTP Header?
+The Pragma HTTP Header only contains one directive. The no-cache is the same as “Cache-Control: no-cache.” Caches are required to submit the request to the origin server for validation prior to releasing a cached copy. An example directive for using the Pragma HTTP Header is given below.
+Pragma: no-cache
+How to use Pragma HTTP Header?
+In an HTTP/1.0 header, the Pragma HTTP Header is a no-cache general-type CORS-safe listed response header field that is intended to be used in the request-response chain. A pragma header is used to prevent the client from caching the answer. It tells the server and any intermediate caches that the browser needs a fresh version of the resource and vice versa.
+Examples of Pragma HTTP Header Use
+To see the Pragma in action, go to Inspect Element -> Network and look for Pragma in the header, as seen below. The header of the Pragma is emphasized.
+content-type: application/binary
+date: Mon, 12 Sep 2015 07:35:26 GMT
+expires: Mon, 11 Jun 1990 00:00:00 GMT
+location: https://analytics.google,com/analytics/web/
+pragma: no-cache
+server: ESF
+set-cookie: SIDC=jGbjhtgdsvbakzmRTFjhds jGVs
+RNPoA; expires= Thu, 29-Feb-2020 07:23:25 GMT; path=/; domain=,google.com; priority=high
+What is the Specification Document for Pragma HTTP Header?
+There is only one specification document for the Pragma HTTP Header, which is RFC 7234. The RFC 7234 Hypertext Transfer Protocol (HTTP/1.1): Caching (HTTP/1.1 Caching) Article 5.4 mention the Pragma HTTP Header definition and uses. Additionally, the article discusses the Pragma HTTP Header’s values and examples.
+What are the types of Pragma HTTP Header?
+The Pragma HTTP Header HTTP Type is listed below.
+The HTTP Header type of the Pragma HTTP Header is the Response Header type because it’s a field in an HTTP/1.0 header meant to be used in the request-response chain.
+The HTTP Header type of the Pragma HTTP Header is the Request Header type. It was designed to prevent the client from caching the answer, Pragma requires browsers to inform the server and any intermediate caches that they want a new version of the resource, rather than the other way around.
+What are the similar HTTP Headers to the Pragma HTTP Header?
+There are other similar HTTP to the Pragma HTTP Header. The examples are listed below.
+Cache-Control HTTP Header:
+The Cache-Control HTTP Header is similar to the Pragma HTTP Header. The
+Cache-Control HTTP Header
+field holds directives or instructions that control how long things are stored in browsers and other shared caches, like proxies and CDNs when the user sends a request or a response. It has a wide range of effects on the request and response chain as well, which is similar to the Pragma HTTP Header.
+Expires HTTP Header:
+The Expires HTTP header tells the user when the response is no longer valid, like the Pragma HTTP Header, which also tells the user the date and time.
+Which Browsers Support Pragma HTTP Header?
+There are multiple browsers that support Pragma HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Pragma HTTP Header.
+Edge Browser is compatible with the Pragma HTTP Header.
+Firefox Browser is compatible with the Pragma HTTP Header.
+Internet Explorer Browser is compatible with the Pragma HTTP Header.
+Opera Browser is compatible with the Pragma HTTP Header.
+Safari Browser is compatible with the Pragma HTTP Header.
+WebView Android Browser is compatible with the Pragma HTTP Header.
+Chrome Android Browser is compatible with the Pragma HTTP Header.
+Firefox for Android Browser is compatible with the Pragma HTTP Header.
+Opera Android Browser is compatible with the Pragma HTTP Header.
+Safari on iOS Browser is compatible with the Pragma HTTP Header.
+Samsung Internet Browser is compatible with the Pragma HTTP Header.
+You can see an image that shows the cross-browser compatibility of Pragma HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Pragma HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+Referer HTTP Header: Syntax, Directive, Examples
+TechSEO
+Sec-CH-UA HTTP Header: Syntax, Directive, Examples…
+0
+0
+0

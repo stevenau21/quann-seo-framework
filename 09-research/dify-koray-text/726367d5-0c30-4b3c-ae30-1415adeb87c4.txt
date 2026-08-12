@@ -1,0 +1,105 @@
+HTML <applet> Tag Definition, Usage and Example - Holistic SEO
+Skip to content
+The HTML Tag applet> specifies the embedding of a Java applet into the content. HTML 4 introduced the <applet> HTML Tag. However, HTML 5 deprecates the <applet> HTML Tag in favor for <object> HTML Tag.The <applet> HTML Tag is part of the Programming HTML category in HTML Element Reference. The attributes of the <applet> HTML Tag are align, alt, archive, code, codebase, datafld, datasrc, height, hspace, myscript, name, object, src, vspace and width.
+<applet> code block example to learn how it works is given below.
+<applet>.........</applet>
+The second example usage of the “<applet>” code block example is given below.
+<applet code = 'Holisticseo.Digital'
+archive = 'Holisticseo.Digital'
+width = 200
+height = 200>
+<param name="access" value="sandbox" />
+</applet>
+Contents of the Article
+show
+1.
+What is <applet> HTML Tag
+2.
+How to Use <applet> HTML Tag?
+2.1.
+Example Usage of <applet> HTML Tag?
+3.
+What is the Attribute of <applet> HTML Tag?
+4.
+What are the Default CSS Settings for <applet> HTML Tag?
+5.
+What are the Related other HTML Tags to <applet>?
+What is <applet> HTML Tag
+The <applet> HTML Tag is utilized to insert the Java applets into HTML documents. The <applet> HTML Tag was excluded from the HTML standard completely with the launch of HTML5 and was discouraged in HTML 4.01.The <object> and embed> elements  are the modern equivalents to <applet> HTML Tag.The <applet> HTML Tag element is no longer supported.Though certain browsers may still allow it, it may have already been deleted from the relevant web standards, be in the process of being withdrawn, or be preserved simply for compatibility.
+How to Use <applet> HTML Tag?
+To use the <applet> HTML Tag, the web developer should write the <applet></applet> with the needed attributes such as archive, width, and height should be placed in between the start and end tags. Additionally, web developers can use the <object> and the newly installed <embed> element.
+Example Usage of <applet> HTML Tag?
+The following examples of usage of <applet> HTML Tag are given below.
+<applet code="HTML" height="100" width="200"></applet>
+<applet code="HTTP" height="100" width="200"></applet>
+What is the Attribute of <applet> HTML Tag?
+There are multiple attributes for the <applet> HTML Tag. The following attributes are listed below.
+Align Attribute: The <applet> HTML Tag supports the align attribute.The align attribute is utilized to set the applet’s location on the page in relation to any surrounding content.
+Alt Attribute: The <applet> HTML Tag supports the alt attribute. On browsers that don’t support Java, this attribute enables a descriptive text alternative to be displayed.
+Archive Attribute: The <applet> HTML Tag supports the archive attribute. Using this attribute, the applet and its accompanying class files can be archived or compressed, which could speed up downloads.
+Code Attribute: The <applet> HTML Tag supports the code attribute. In order to load and run the applet’s class, this attribute specifies its URL.
+Codebase Attribute: The <applet> HTML Tag supports the codebase attribute. This element specifies the location of the.class files that are specified by the code attribute and can be either absolute or relative.
+Datafld Attribute: The <applet> HTML Tag supports the datafld attribute. When using Internet Explorer 4 or higher, this feature specifies which columns are being connected to the data.
+Datasrc Attribute: The <applet> HTML Tag supports the datasrc attribute. Internet Explorer 4 uses this attribute for data binding.
+Height Attribute: The <applet> HTML Tag supports the height attribute. This element specifies the applet’s required height in pixels.
+Hspace Attribute: The <applet> HTML Tag supports the space attribute. This feature indicates how many pixels should be allocated on either side of the applet for additional horizontal space.
+Mayscript Attribute: The <applet> HTML Tag supports the mayspace attribute. This characteristic, as implemented by Netscape, allows scripts contained in a document to access an applet.
+Name Attribute: The <applet> HTML Tag supports the name attribute. This feature gives the applet a unique name that other resources, such as scripts, can use to identify it.
+Object Attribute: The <applet> HTML Tag supports the object attribute. A serialized representation of an applet can be found at the URL given in this attribute.
+Src Attribute: The <applet> HTML Tag supports the src attribute. This attribute specifies a link to an attached document for the applet in Internet Explorer 4 and higher.
+Vspace Attribute: The <applet> HTML Tag supports the “vspace” attribute. The addition of vertical space above and below the applet is specified by this attribute.
+Width Attribute: The <applet> HTML Tag supports the width attribute. The applet’s required width is specified in pixels using this attribute.
+What are the Default CSS Settings for <applet> HTML Tag?
+There are no available Default CSS Settings for <applet> HTML Tag.
+What are the Related other HTML Tags to <applet>?
+The other related HTML Tags to the <applet> HTML Tag are listed below.
+<param>: The
+<param>
+HTML Tag is related to <applet> HTML Tag because they are both programming tags. The HTML <param> Tag specifies a parameter for an object.
+<object>: The
+<object>
+HTML Tag is related to <applet> HTML Tag because they are both programming tags. The HTML Tag <object> specifies an embedded object.
+<script>: The
+<script>
+HTML Tag is related to <applet> HTML Tag because they are both programming tags. The HTML Tag script> specifies a client-side script.
+<noscript>: The
+<noscript>
+HTML Tag is related to <applet> HTML Tag because they are both programming tags. The <noscript> HTML Tag dspecifies an alternative content for people who do not support client-side scripting.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <applet> Tag Definition, Usage and Example
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <time> Tag Definition, Usage and Exampl…
+TechSEO
+HTML <basefont>  Definition, Usage and …
+0
+0
+0

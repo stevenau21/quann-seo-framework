@@ -1,0 +1,104 @@
+Skip to content
+The Content-Location HTTP Header specifies the location of the data in the event that the request fails. The most common application is to display the URL of a resource that was sent via content negotiation. Content negotiation is a technique for serving multiple representations of a resource to the same URI, allowing the user agent to choose the one that is most appropriate for the user. For instance, which document language to use, which image format to use, and which content encoding to use. Geographical location and content-geographic location HTTP Header are not synonymous terms. The Location HTTP Header specifies the URL of a redirect, whereas the Content-Location HTTP Header specifies the direct URL to use to access the resource without navigating through other content. Location is a response header. Location is a response header. Content-Location HTTP Header is a header that is returned with the data. The distinction is difficult to grasp without examples. The Content-Location HTTP Header uses only one value in its syntax. The value for using the Content-Location HTTP Header is “url”. An example of a Content-Location HTTP Header is given below.
+HTTP/1.1 201 Created
+Content-Type: text/markdown
+Content-Location: /my-birthday-celebration-post
+The Content-Location HTTP Header Representation Header is seen above. In the article, the Content-Location HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is Content-Location HTTP Header?
+1.1.
+What is the Syntax of Content-Location HTTP Header?
+1.2.
+What is the Directive of Content-Location HTTP Header?
+2.
+How to use Content-Location HTTP Header?
+2.1.
+Examples of Content-Location HTTP Header Use
+3.
+What is the Specification Document for Content-Location HTTP Header?
+4.
+What is the type of Content-Location HTTP Header?
+4.1.
+What is the similar HTTP Header to the Content-Location HTTP Header?
+5.
+Which Browsers Support Content-Location HTTP Header?
+What is Content-Location HTTP Header?
+The Content-Location Relationship HTTP Header is an entity-header that specifies the origin and path of the data returned. Additionally, it indicates how to access the resource by providing the direct URL. It is frequently used interchangeably with another HTTP Header called Location. So, even though the Content-Location HTTP Header is used to send the URL of a new location when a page is redirected to a new location, it uses Location.
+What is the Syntax of Content-Location HTTP Header?
+The Content-Location HTTP Header uses only one value in its syntax. The syntax for using the Content-Location HTTP Header is written below.
+Content-Location: <url>
+What is the Directive of Content-Location HTTP Header?
+There is only one directive in the Content-Location HTTP Header. The “URL” is either an absolute or a relative URL. An example directive of the Content-Location HTTP Header is given below.
+Content-Location: /index.html
+Content-Location: /teddy.xml
+How to use Content-Location HTTP Header?
+The Content-Location HTTP Header is used in conjunction with the Location HTTP Header. The primary difference between the two is that Location specifies the URL of the resource to which the page is being redirected, whereas Content-Location specifies the URL of a resource that has been communicated over the network.
+Examples of Content-Location HTTP Header Use
+The following are examples of how to use the Content-Location HTTP Header.
+In this case, index.html is the URL indicating the content’s location.
+Content-Location: /index.html
+In this case, teddy.xml is the URL indicating the content’s location.
+Content-Location: /teddy.xml
+What is the Specification Document for Content-Location HTTP Header?
+There is only one specification document for the Content-Location HTTP Header, which is the RFC 7231. The RFC 7231 Article 3.1.4.2 discusses the Content-Location HTTP Header and its applications. Additionally, the article discusses the Content-Location HTTP Header’s definition and usage.
+What is the type of Content-Location HTTP Header?
+The Content-Location HTTP Header type is the Representation Header because it contains information on the resource’s body, such as its MIME-type or the encoding/compression used
+What is the similar HTTP Header to the Content-Location HTTP Header?
+There is only one similar HTTP  Header to the Content-Location HTTP Header, which is the Location HTTP Header. The
+Location HTTP Header
+response header specifies the URL to which a page should be redirected. It has no meaning unless it is accompanied by a 3xx (redirection) or 201 (generated) status code, similar to the Content-Location HTTP Header.
+Which Browsers Support Content-Location HTTP Header?
+There are multiple browsers that support Content-Location HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the Content-Location HTTP Header.
+Edge Browser is compatible with the Content-Location HTTP Header.
+Firefox Browser is compatible with the Content-Location HTTP Header.
+Internet Explorer Browser is compatible with the Content-Location HTTP Header.
+Opera Browser is compatible with the Content-Location HTTP Header.
+Safari Browser is compatible with the Content-Location HTTP Header.
+WebView Android Browser is compatible with the Content-Location HTTP Header.
+Chrome Android Browser is compatible with the Content-Location HTTP Header.
+Firefox Android Browser is compatible with the Content-Location HTTP Header.
+Opera Android Browser is compatible with the Content-Location HTTP Header.
+Safari on iOS Browser is compatible with the Content-Location HTTP Header.
+Samsung Internet Browser is compatible with the Content-Location HTTP Header.
+You can see an image that shows cross-browsers compatibility of Content-Location HTTP Headers below.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Content-Location HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+TK HTTP Header: Syntax, Directive, Examples
+TechSEO
+Access-Control-Max-Age: Syntax, Directive, Example…
+0
+0
+0

@@ -1,0 +1,101 @@
+HTML <rt> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <rt> HTML Tag indicates the ruby text component of a ruby annotation, which is used to provide information about East Asian typography’s pronunciation, translation, or transliteration. Always contain the <rt> HTML Tag within a <ruby> HTML Tag. The <rt> HTML Tag is part of the Formatting HTML category in HTML Element Reference. The attributes of the <rt> HTML Tag are global and event attributes.
+<rt> code block example to learn how it works is given below.
+<ruby>
+base
+<rt>ruby text</rt>
+</ruby>
+The second example usage of the “<rt>” code block example is given below.
+<ruby>
+爱 <rp>(</rp><rt>Ai</rt><rp>)</rp>
+你<rp>(</rp><rt>Ni</rt><rp>)</rp>
+</ruby>
+Contents of the Article
+show
+1.
+What is <rt> HTML Tag?
+2.
+How to Use <rt> HTML Tag?
+2.1.
+Example Usage of <rt> HTML Tag?
+3.
+What are the Attributes of <rt> HTML Tag?
+4.
+What is the Default CSS Setting for <rt> HTML Tag?
+5.
+What are the Related other HTML Tags to <rt>?
+What is <rt> HTML Tag?
+The <rt> HTML Tag in a ruby annotation specifies an explanation or pronunciation of characters for East Asian typography. It is necessary for web developers because it is use in conjunction with <ruby> HTML Tag and <rp> HTML Tag. The <ruby> HTML Tag contains one or more characters that require explanation/pronunciation, a <rt> HTML Tag that provides that information, and an optional <rp> HTML Tag that specifies what to display in browsers that do not support ruby annotations.
+How to Use <rt> HTML Tag?
+To use <rt> HTML Tag, the web developer should insert the ruby text between the <ruby> and </ruby> tag and it will explain the ruby annotation, which is a brief text attached to the main text.
+Example Usage of <rt> HTML Tag?
+The following example of usage of <rt> HTML Tag is given below.
+<ruby>
+爱 <rp>(</rp><rt>Ai</rt><rp>)</rp>
+君<rp>(</rp><rt>Kimi</rt><rp>)</rp>
+</ruby>
+What are the Attributes of <rt> HTML Tag?
+There are multiple attributes for the <rt> HTML Tag. The following attributes are listed below.
+What is the Default CSS Setting for <rt> HTML Tag?
+Global Attributes: The <link> HTML Tag supports global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <link> HTML Tag supports event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+The following is the Default CSS Setting for the <rt> HTML Tag.
+rt {
+line-height: normal;
+}
+What are the Related other HTML Tags to <rt>?
+The other related HTML Tags to <rt> HTML Tag are listed below.
+<ruby> HTML Tag: The
+<ruby>
+HTML Tag is related to <rt> HTML Tag because they are both in formatting HTML Tags. Ruby annotations are defined using the <ruby> HTML Tag.
+<rp> HTML Tag: The
+<rp>
+HTML Tag is related to <rt> HTML Tag because they are both in formatting HTML Tags. When ruby annotations are not supported, the <rp> HTML Tag is used to define the content to display.
+<kbd> HTML Tag: The
+<kbd>
+HTML Tag is related to <rt> HTML Tag because they are both in formatting HTML Tags. The <kbd> HTML Tag is used to specify the keyboard input method.
+<mark> HTML Tag: The
+<mark>
+HTML Tag is related to <rt> HTML Tag because they are both in formatting HTML Tags. The <mark> HTML Tag is used to indicate which text should be highlighted.
+<meter> HTML Tag: The
+<meter>
+HTML Tag is related to <rt> HTML Tag because they are both in formatting HTML Tags. The <meter> HTML Tag denotes a scalar measurement.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <rt> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <rp> Tag Definition, Usage and Examples…
+TechSEO
+HTML <ruby> Tag Definition, Usage and Exampl…
+0
+0
+0

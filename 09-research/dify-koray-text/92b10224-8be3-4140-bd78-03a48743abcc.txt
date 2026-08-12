@@ -1,0 +1,81 @@
+Access-Control-Allow-Credentials HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The Access-Control-Allow-Credentials is an HTTP response header that notifies the web browser to display the response when the Request’s credentials mode is “include”. Request’s credentials is a read-only property that contains the credentials of the request. Credentials can be in a form of cookies, authorization headers, or client certificates. The “include” command refers to the requirement of the request’s credentials. If the credential’s mode is not “include”, then the Access-Control-Allow-Credentials HTTP response header is ignored. When the Request’s credentials mode is “include”, it provides an impact on the operation of the CORS (Cross-Origin Resource Sharing) protocol. CORS (Cross-Origin Resource Sharing) is an HTTP-header-based method that enables verified access to resources located outside a given domain. CORS (Cross-Origin Resource Sharing) does not apply cookies to cross-origin requests. This is different from other cross-origin methods such as JSON-P. JSON-P (JSON with Padding) regularly applies cookies to the request, and this way can provide a Cross-site Request Forgery (CSRF). In order to reduce the chance of Cross-site Request Forgery (CSRF) attacks in CORS, the CORS (Cross-Origin Resource Sharing) challenges both the web server and the client to confirm that it is approved to apply cookies on the requests. The client code must set the “withCredentials” property on the XMLHttpRequest to “true” in order to give permission. “withCredentials ()” enables the inclusion of cookies in your web browser, together with the authentication headers in your XHR request. XHR (XMLHttpRequest) is an API (Application Program Interface) that can be used by JavaScript, and other web browser scripting languages to transmit and operate XML data to and from a web server with the use of HTTP. The Access-Control-Allow-Credentials HTTP response header works simultaneously with the XMLHttpRequest.withCredentials property or with the credentials option in the Request() constructor of the Fetch API. The Fetch API is a modern interface that permits you to apply HTTP requests to web servers from web browsers.
+Contents of the Article
+show
+1.
+What is Access-Control-Allow-Credentials HTTP Header?
+1.1.
+What is the Syntax of Access-Control-Allow-Credentials HTTP Header?
+1.2.
+What is the Directive of Access-Control-Allow-Credentials HTTP Header?
+2.
+How to use Access-Control-Allow-Credentials HTTP Header?
+2.1.
+Examples of Access-Control-Allow-Credentials HTTP Header Use.
+3.
+What are the Specification Documents for Access-Control-Allow-Credentials HTTP Header?
+3.1.
+What are the similar HTTP Headers to the Access-Control-Allow-Credentials HTTP Header?
+What is Access-Control-Allow-Credentials HTTP Header?
+The Access-Control-Allow-Credentials HTTP response header indicates if the response can be exposed when the Request’s credentials mode is “include”. The user agent will include all required credentials in the request. The Access-Control-Allow-Credentials HTTP response header will provide more stringent requirements on the response to be displayed to the frontend JavaScript code. XMLHttpRequest can be used to have the Request’s credentials mode to “include”. To grant permission, the XMLHttpRequest’s “withCredentials” property must be set to “true”. If Request’s credentials mode is “not include”, the Access-Control-Allow-Credentials HTTP response header will be disregarded. The Access-Control-Allow-Credentials HTTP response header can be applied as part of a response to a preflight request. If the request created for a resource has credentials, and the Access-Control-Allow-Credentials HTTP response header was not returned with the resource, this will indicate that the response is ignored by the web browser and not returned to the web content. A Preflight request is an Options request that gives the webserver a chance to review how the actual request will appear before its executed. The web server can then indicate whether the web browser should send the actual request, or return an error to the client without sending the request.
+What is the Syntax of Access-Control-Allow-Credentials HTTP Header?
+The syntax of the Access-Control-Allow-Credentials HTTP response header is below.
+Access-Control-Allow-Credentials: true
+What is the Directive of Access-Control-Allow-Credentials HTTP Header?
+A directive of the Access-Control-Allow-Credentials HTTP response header is below.
+<true> The only valid value for this header is “true” if credentials are needed. If credentials are not required, then omit this directive.
+How to use Access-Control-Allow-Credentials HTTP Header?
+The Access-Control-Allow-Credentials HTTP response header is used for confirmation on exposing the response if the request’s credential mode is “include”.  In order to give approval, the client code must set the “withCredentials” property on the XMLHttpRequest to “true”. “withCredentials ()” enables the inclusion of cookies in a web browser. The web server will respond “true” with the Access-Control-Allow-Credentials HTTP header, this response will show that the webserver enables cookies (credentials) to be carried on cross-origin requests. Make sure that the web browser is not blocking the third-party cookies, this will allow cross-origin credentialed requests to operate properly. It is important to keep in mind that even if same-origin or cross-origin requests are created, we need to defend the website from Cross-site Request Forgery (CSRF), especially if cookies are included in the request. For “GET” requests, it doesn’t require a pre-flight,, instead of pre-flighting, the web browser will just regularly generate the request, sending cookies if “withCredentials” is set. When it receives the response, it will only deliver the result to the javascript if the response has the Access-Control-Allow-Credentials HTTP header included. If the Access-Control-Allow-Credentials HTTP header is not included, it will not expose the response, completely black-holing it. Blackholing is an anti-spam system of particular domains that can block several types of malware and dismiss service attacks.
+Examples of Access-Control-Allow-Credentials HTTP Header Use.
+An example of the Access-Control-Allow-Credentials HTTP response header is using the XHR with credentials:
+var xhr = new XMLHttpRequest();
+xhr.open('GET', 'http://example.com/', true);
+xhr.withCredentials = true;
+xhr.send(null);
+Using Fetch with credentials:
+fetch(url, {
+credentials: 'include'
+})
+What are the Specification Documents for Access-Control-Allow-Credentials HTTP Header?
+The specification document for the Access-Control-Allow-Credentials HTTP response header is RFC 4513. The RFC4513 or Access control policy, sets restrictions on determining the security of resources, generally in terms of the abilities of entities, entering the resources.
+What are the similar HTTP Headers to the Access-Control-Allow-Credentials HTTP Header?
+A similar header of Access-Control-Allow-Credentials HTTP response header is the
+Access-Control-Allow-Headers HTTP
+response header is included in a preflight request, which contains the Access-Control-Request-Headers, to specify which HTTP headers can be applied to the requests. The Access-Control-Allow-Headers HTTP response header determines the need for the application of the Access-Control-Allow-Credentials HTTP response header on verification of request’s credentials.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Access-Control-Allow-Credentials HTTP Header: Syntax, Directive, Examples
+by Koray Tuğberk GÜBÜR
+time to read: 4 min
+TechSEO
+SourceMap HTTP Header: Syntax, Directive, Examples…
+TechSEO
+TK HTTP Header: Syntax, Directive, Examples
+0
+0
+0

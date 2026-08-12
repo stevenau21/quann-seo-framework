@@ -1,0 +1,97 @@
+Skip to content
+The aria-valuemax is a type of attribute or property that identifies the element’s maximum value in the range. The aria-valuemax purpose is to identify the elements with widget roles such as meter, scrollbar, slider, and spinbutton its maximum value. The developer can use the aria-valuemax to let the user know that there are limited values that can be selected, including the maximum value. The aria-valuemax can be used with elements such as meter, input, and progressbar. The aria-valuemax can also be used with other ARIA labels, such as aria-valuemin and aria-valuenow.
+Contents of the Article
+show
+1.
+What is the function of the “aria-valuemax” ARIA Label?
+2.
+What are the uses of the “aria-valuemax” ARIA Label?
+3.
+Example Uses of “aria-valuemax” ARIA Label
+4.
+What are the related ARIA Labels to “aria-valuemax”?
+What is the function of the “aria-valuemax” ARIA Label?
+The function aria-valuemax is used to identify the highest value property the range element contains. The benefit of aria-valuemax is that it can provide information about the range of the highest value that is required with the range element. The importance of aria-valuemax is providing the maximum capacity of an element. The user will not have difficulty in providing input because of the range value that the user may select. If the aria-valuemax is used to define the highest value of a range element, it should be paired with an attribute that defines the lowest value, the aria-valuemin. The combo declaration enables the syntax of the range widget to be complete when it is announced during selecting between the ranges.
+What are the uses of the “aria-valuemax” ARIA Label?
+Listed below are the uses of the “aria-valuemax” ARIA Label.
+Meter role:
+It defines a range that possesses a numeric value through a graphical display, examples are battery load percentage and engine temperature gauge.
+Slider role:
+It has a minimum and maximum value that is imputed through the widget, it can be interacted with by the user and selected within the given value.
+Separator role:
+It indicates the element is a separator that distinguishes sections of the content contained in a toolbar, controller, or navigation.
+Spinbutton role:
+Is an input widget that defines a range that contains a range that is restricted to a set of discrete values.
+Scrollbar role:
+It is a graphical interface that can be interacted by a keyboard or mouse pointer to scroll a view either up or down. Content can only be scrollable if the content exceeds the size of the screen and will only be viewed by scrolling down to see more information or content.
+Example Uses of “aria-valuemax” ARIA Label
+Listed below are the example uses of the “aria-valuemax” ARIA Label.
+The aria-valuemax attribute identifies the maximum value that an element can provide. The screen reader will be able to convey information to the user regarding the max value identified by the aria-valuemax. Else if the user exceeds the maximum value it would be invalid, but it won’t happen with widgets as it is designed to control their value.
+<div id="dimesLabel">Progress bar ranging from 0% to 100%</div>
+<div role="slider" aria-valuenow="0" aria-valuemin="0"
+aria-valuemax="100"
+aria-labelledby="dimesLabel" id="dimes"></div>
+<div id="dimesLabel">Select a number from 1 to 10</div>
+<div role="slider" aria-valuenow="5" aria-valuemin="1"
+aria-valuemax="10"
+aria-labelledby="dimesLabel" id="dimes"></div>
+<div id="dimesLabel">Select a level of difficulty where 1 is the easiest, 5 is hard</div>
+<div role="slider" aria-valuenow="5" aria-valuemin="1"
+aria-valuemax="5"
+aria-labelledby="dimesLabel" id="dimes">current value is 5</div>
+<div id="dimesLabel">Enter your age to qualify for the raffle</div>
+<div role="slider" aria-valuenow="25" aria-valuemin="20"
+aria-valuemax="40"
+aria-labelledby="dimesLabel" id="dimes">All 25 years old will receive a prize</div>
+<div id="dimesLabel">Place your bet $20 is the minimum $500 is the maximum</div>
+<div role="slider" aria-valuenow="100" aria-valuemin="20"
+aria-valuemax="40"
+aria-labelledby="dimesLabel" id="dimes">your bet is $100</div>
+What are the related ARIA Labels to “aria-valuemax”?
+Listed below are the related ARIA Labels to “aria-valuemax”.
+aria-valuemin:
+The aria-valuemin is related to aria-valuemax because they are both used to determine and declare at the same time the minimum and the maximum values of the range. The
+aria-valuemin
+is related to aria-valuenow because they are both defining the range of the widget. The aria-valuemin contains the minimum value within the range. The value can only be more than or equal to the minimum, and a lower value will be considered an invalid input for the text box.
+aria-valuenow:
+The aria-valuenow is related to aria-valuemax because they are both rendering a value that the user selected. The
+aria-valuenow
+is to hold a present value. It can contain any value like string number character date time and even contents of roles and HTML elements. The aria-valuenow depends on the range of aria-valuemin and aria-valuemax. If the value input is beyond the range, it is considered invalid.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-valuemax” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-valuemin” ARIA Label for Accessi…
+TechSEO
+“aria-sort” ARIA Label for Accessibili…
+0
+0
+0

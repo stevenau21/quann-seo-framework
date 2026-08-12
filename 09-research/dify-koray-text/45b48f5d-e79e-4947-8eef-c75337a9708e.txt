@@ -1,0 +1,205 @@
+KPI: Definition, Best Examples and Practices for KPI - Holistic SEO
+Skip to content
+Key Performance Indicators (KPI) are simple and understandable performance indicators. The performance that a business unit provides is measured and presented in the form of a key figure. A division can be an individual employee, a team, a department, or the entire company. The key figure shows whether the respective area fulfills its purpose and to what extent it achieves predetermined goals. There should be a few key performance indicators as possible for an area.
+KPIs are used to check how successful certain activities in companies are. All processes in organizations can be controlled using these key performance indicators. Management and controlling can analyze processes in the company using key performance indicators. Through consistent monitoring, processes and measures can be adapted and optimized accordingly.
+Depending on the company and area, different KPIs are used to measure performance. For example, marketing is interested in key figures other than sales, accounting in other than logistics. Which KPIs are the right one always depends on which activities are to be checked.
+KPIs can be determined in different ways. Many key figures can be measured on the internet and can be determined using analysis tools such as Google Analytics. The relevant KPIs vary depending on whether it is, for example, an online shop or a blog.
+Contents of the Article
+show
+1.
+Examples of key performance indicators
+2.
+KPIs show how well a process is running
+3.
+Example of KPI for the Service Hotline for Customer Calls
+4.
+How are Key Performance Indicators Determined?
+5.
+Tip: Visualize Key Performance Figures
+6.
+What are The Benefits of Key Performance Indicators?
+7.
+Management Risks With Key Performance Indicators
+8.
+How to Choose The Right Key Performance Indicators
+9.
+Examples of key performance indicators in different departments of a company
+10.
+KPIs in Content Marketing
+11.
+KPI Metrics for Page Speed
+11.1.
+Redirection time
+11.2.
+Incorrect Status Codes
+11.3.
+TTFB Time to First Byte/ Server Response Time
+11.4.
+First Paint (Paint Time)
+11.5.
+First Contentful Paint (Paint time)
+11.6.
+First Meaningful Paint
+11.7.
+CLT – content loaded time / DOM content loaded time
+11.8.
+Request Size
+11.9.
+RTT – Round Trip Time
+11.10.
+TTI – Time to interact (Lighthouse)
+11.11.
+Average Speed ​​Index (Lighthouse)
+12.
+Last Thoughts on KPIs and Its Importance for SEO Projects
+Examples of key performance indicators
+Good key performance indicators are aligned as precisely as possible with the goals and requirements of an area. They match the critical success factors and are therefore always very special. Here are some examples of key performance indicators for individual company or functional areas that show what kind of key performance indicators can be and what they make visible:
+Number of pieces per day in production
+Number of (positive) reports about the company in the media
+Sales with first-time customers that a sales team reaches
+Number of projects in research and development that go into pre-series
+Number of support measures for employees carried out by personnel development
+KPIs show how well a process is running
+Key performance indicators are mostly related to a process. The key figure is then selected so that it is visible to what extent the result for which the process is carried out is available at the end of the process. The key figure can also be related to the resources used for the process, time and costs.
+Example of KPI for the Service Hotline for Customer Calls
+Purpose of the process
+to receive and
+process
+customer calls (direct)
+to satisfy customers (indirect)
+Accepting individual process steps
+Clarifying the matter with the customer –
+Offering a solution –
+A solution is not immediately possible, forwarding it to experts –
+Documenting customer conversation –
+No further activities by the employee are necessary,
+Mark the customer call as “processed”
+Process Result
+Processed customer call
+Accept and process target with target ten customer calls per employee per hour
+Performance indicator and key performance indicator for this process
+Number of customer calls per day that are processed and marked as “processed” in a computer system (also possible as an average per week, month or quarter)
+Performance counter or KPI in relation to time
+Average time to process a customer call (in minutes)
+A performance indicator or KPI in relation to costs
+The average cost of handling a customer call (in euros)
+Further possible key performance indicators for this process
+Percentage of directly resolved customer inquiries that were not forwarded to an expert (in percent, on average per month)
+Customer satisfaction value after a subsequent customer survey (in a grade value, on average per month)
+By depicting the key performance indicator with the target specification in a diagram over time (for example daily), it should be visible to what extent the service has been performed and the goal has been achieved. Figure 1 shows an example of how the course of a key performance indicator can be displayed.
+How are Key Performance Indicators Determined?
+It is the responsibility of the manager to develop the key performance indicators for their area of ​​responsibility. Important steps are:
+The manager must know and name the goals for his area of ​​responsibility.
+Definition of the key figures that make visible whether goal X has been reached.
+Definition of how the data for the corresponding key figures are measured: measured value, measuring method, measuring rhythm, the person responsible for the measurement.
+Calculation of the actual values ​​for these key figures from this data.
+The explanation for all employees what the key figure means. There must be clarity and agreement on what the key figure says.
+Coordination and agreement of the goals represented by the key figure and the target specifications with the employees concerned.
+Collection and measurement of the necessary data, as well as the determination of the key figure and visible representation for all employees; suitable for this, are diagrams, which are hung up in the meeting room, for example, and which show the target specification and the measured values ​​of the last days (or weeks).
+The manager regularly works with these key figures by talking to his employees about them and taking measures when something needs to be changed or improved. Goal: To improve the team and the employees in relation to the corresponding key figure.
+Check at regular intervals whether the key figure is still needed for planning and controlling the area of ​​responsibility. Otherwise, it will be replaced.
+Tip: Visualize Key Performance Figures
+On the internet you may find some Excel templates with different diagrams and visualization forms of key figures such as key performance indicators. For example traffic light diagrams, thermometer displays, diagrams as circle segments, progress diagrams, and many more.
+What are The Benefits of Key Performance Indicators?
+Working with key performance indicators should lead to the company improving overall and asserting itself against competitors. All employees should recognize whether they are performing optimally or in which areas they need to improve.
+With a focus on key performance indicators, traditional key figure systems are cleared out so that the decisive success factors (again) come into focus. Because in many companies there is an abundance of key figures that are prepared and presented in reports and that no manager can see anymore. The employees concerned no longer know which key figure is really relevant and which performance is particularly important. It is only about these questions:
+Will we achieve the goals we set?
+Where do we have to take countermeasures as quickly as possible?
+What are our strengths and where are there weaknesses?
+When the right key performance indicators have been developed, they provide reliable answers to precisely these questions.
+Key performance indicators also help executives, because working with key figures is an important management task and part of personnel and area management. Every manager, from the team leader to the project manager, department head to the managing director and board of directors, must define key figures and be able to use them for planning and controlling their own area. Only then can the manager steer the activities of the employees in the right direction.
+Management Risks With Key Performance Indicators
+If you focus your actions on individual, selected performance indicators, you also take risks. Because he acts with restrictions and can easily overlook side effects. Examples of risks:
+Some goals are too general and too abstract (e.g. employee satisfaction or working atmosphere) and cannot be represented directly with a measurable and suitable key figure.
+There are goals that contradict each other. Then the associated key performance indicators or the target specifications cannot be optimally achieved at the same time. The employee does not know what is more important in individual cases.
+Employees only have their key performance indicators in mind and only do what improves this key figure in the short term or how they achieve their target.
+A key figure is measured and evaluated, but there are no consequences if the target value is not reached. No action is taken and there are no changes in behavior. The key performance indicator loses its meaning.
+Employees feel monitored and controlled by their manager’s key figure. This can limit their willingness to perform and lead to resentment.
+How to Choose The Right Key Performance Indicators
+You must determine and compile the following information in order to find and determine the right key performance indicators for a selected area (person, team, department).
+Which process are you considering?
+What is the purpose or task of the process?
+Why or what is this process for?
+What are the process steps in detail?
+Which result should be available at the end of the processor which state should be reached?
+What is the best way to measure the performance of the process?
+Which key figure best expresses this performance?
+How can you tell that the process serves its purpose very well and that the goals have been achieved?
+What target is there for this goal or key figure?
+What value indicates that the performance of the process is adequate?
+Now translate this into a key performance indicator for this process. This key figure is measured. The measured value expresses unequivocally whether and to what extent the process delivers the expected performance. Also consider the aspects: quality of performance, time, and costs associated with the process.
+Examples of key performance indicators in different departments of a company
+Production
+Number of pieces spread per day
+Number of reworks per day
+Time between order release and goods issue
+Customer service
+Number of calls per day
+Average duration of a conversation
+Share of necessary referral
+Number of customer complaints processed per day
+Marketing
+Marketing costs per customer contact or lead
+Number of (positive) reports about the company in the media per year
+Number of followers in social networks (Twitter, Facebook)
+Distribution
+Number of customer visits per week
+Share of sales with first-time customers
+Average customer turnover per year
+Research and Development
+Number of positive development projects per year
+Number of projects that go into pre-production each year
+Number of ideas for semi-annual project planning
+Number of changes in component drawings per month
+Purchasing and materials management
+Number of framework contracts concluded with suppliers per year
+Number of supplier audits per year
+The proportion of purchasing volume for which a price reduction of five percent or more was negotiated
+Average time from order to delivery of goods
+HR development
+Number of support measures for employees per year
+Number of employees who quit each year
+Number of training days per year
+Personnel development costs per year
+Project management
+Number of projects that are on schedule
+Number of projects that meet the cost budget
+Number of employee hours for project work
+Management or board
+Increase in sales per year
+Increase market share
+Annual profit increase
+Cash flow per year
+The average interest rate on debt
+The share price of the company on June 30 after one year
+KPIs in Content Marketing
+Only those who regularly monitor the results can determine how effective their own content marketing measures are. Which metrics are relevant depends on the measure and its objectives.
+For example, if traffic on a blog is to be increased, key figures such as visitors, returning users, and length of stay are suitable. However, if the goal of the content measure is to generate leads, For example, the conversion rate of landing pages can be considered. The renowned Content Marketing Institute (CMI) divides the metrics for measuring content success into four areas:
+Metrics for lead generation
+: e.g. Registrations
+Sales metrics: e.g. Online sales
+Consumption metrics: e.g. Downloads
+Sharing metrics: e.g. Retweets
+The most important metrics that B2B companies use to measure their content marketing according to the Content Marketing Institute (CMI) are currently:
+Lead quality
+Sales
+Conversion rates
+Website traffic and SEO ranking are also among the 10 most important KPIs. Important key performance indicators in content marketing can also be:
+Page Views
+Unique visits
+Number of new users
+Newsletter subscriptions
+Length of stay
+Bounce rate
+Social shares
+Impressions
+Click-Through Rate
+Scroll Depth
+Clicks
+Ranked Keyword Amount
+Canalizing Users through a Search Journey
+User Retention Rate
+KPI Metrics for Page Speed
+Like in Content Marketing and SEO, Also Page Speed KPIs are important. Using the right KPI Metrics for Page Speed projects is the most efficient step for improving User Experience. Focusing on the wrong page spee
+
+[...truncated...]

@@ -1,0 +1,131 @@
+HTML "select" Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <select> HTML Tag indicates a control for picking from a list of alternatives. The <select> HTML Tag is used with the <option> HTML Tag to provide a list of options from which the user may select. Those <option> HTML Tag can also be grouped using the <optgroup> HTML Tag. The <select> HTML Tag is part of Forms and Input Tags category in HTML Element Reference. The attributes of the <select> HTML Tag are autofocus, disabled, form, multiple, name, required, size, global attributes and events attributes.
+<select> code block example to learn how it works is given below.
+<select name="myName">
+<option value="1">Option 1</option>
+<option value="2">Option 2</option>
+<option value="3">Option 3</option>
+</select>
+The second example usage of the “<select>” code block example is given below.
+<select name="city">
+<option value ="seoul">Seoul</option>
+<option value ="busan">Busan</option>
+<option value ="pyongdong" selected>Cromwell</option>
+<option value ="jeju">Jeju</option>
+</select>
+Contents of the Article
+show
+1.
+What is <select> HTML Tag?
+2.
+How to Use <select> HTML Tag?
+2.1.
+Example Usage of <select> HTML Tag?
+3.
+What are the Attributes of <select> HTML Tag?
+4.
+What are the Default CSS Settings for <select> HTML Tag?
+5.
+What are the Related other HTML Tags to <select>?
+What is <select> HTML Tag?
+The <select> HTML Tag  is used to construct a drop-down list. The <select> HTML Tag is most commonly used to collect user input in a form. After the form is submitted, the name property is required to refer to the form data. The id attribute is required to link the drop-down list to a label. The available options in the drop-down list are defined by the <option> HTML Tags included within the <select> HTML Tag.
+How to Use <select> HTML Tag?
+To use the <select> HTML Tag, The site developer should write <select></select>with any number of nested <option> HTML tags between the start and end tags. The name attribute is frequently used so that any script that processes the form control may refer to the value that was selected.
+Example Usage of <select> HTML Tag?
+The following example of usage of <select> HTML tag is given below.
+<label for="flower-select">Choose a flower:</label>
+<select name="flower" id="flower-select">
+<option value="">--Please choose an option--</option>
+<option value="rose">Rose</option>
+<option value="sunflower">Sunflower</option>
+<option value="santan">Santan</option>
+<option value="tulips">Tulips</option>
+<option value="daisy">Daisy</option>
+<option value="carnation">Carnation</option>
+</select>
+What are the Attributes of <select> HTML Tag?
+There are multiple attributes for the <select> HTML Tag. The following attributes are listed below.
+Global Attributes: The <select> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <select> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+Autofocus Attrubute: The <select> HTML Tag supports Autofocus Attribute. The Autofocus Attribute indicates that the drop-down list should be given focus automatically when the page loads.
+Disabled Attribute:  The <select> HTML Tag supports Disabled Attribute. The Disabled Attribute indicates that a drop-down list is disabled.
+Form Attribute: The <select> HTML Tag supports Form Attributes. The Form Attribute specifies the form to which the drop-down list belongs.
+Multiple Attribute: The <select> HTML Tag supports Multiple Attribute. The Multiple Attribute indicates that many alternatives can be selected at the same time.
+Name Attribute: The <select> HTML Tag supports Name Attribute. The Name Attribute specifies the name of the drop-down menu.
+Required Attribute: The <select> HTML Tag supports Required Attribute. The Required Attribute indicates that the user must choose a value before submitting the form.
+Size Attribute: The <select> HTML Tag supports Size Attribute. The Size Attribute specifies how many options are shown in a drop-down list.
+What are the Default CSS Settings for <select> HTML Tag?
+The following is the Default CSS Setting for the <select> HTML Tag.
+label,
+footer {
+font-family: sans-serif;
+}
+label {
+font-size: 1rem;
+padding-right: 10px;
+}
+select {
+font-size: .9rem;
+padding: 2px 5px;
+}
+footer {
+font-size: .8rem;
+position: absolute;
+bottom: 30px;
+left: 30px;
+}
+.output {
+background: center/cover no-repeat url('/media/cc0-images/hamster.jpg');
+position: relative;
+}
+What are the Related other HTML Tags to <select>?
+The other related HTML Tags to the <select> HTML Tag are listed below.
+<option> HTML Tag: The <option> HTML Tag is related to <select> HTML Tag because they are both forms and input tags. The <option> HTML Tag define the select element’s options.
+<label> HTML Tag: The <label> HTML Tag is related to <select> HTML Tag because they are both forms and input tags. The
+<label>
+HTML Tag is used to specify label for input element.
+<legend> HTML Tag: The <legend> HTML Tag is related to <select> HTML Tag because they are both forms and input tags. The caption for the fieldset element is defined using the
+<legend>
+HTML Tag.
+<fieldset> HTML Tag: The <fieldset> HTML Tag is related to <select> HTML Tag because they are both forms and input tags. The
+<fieldset>
+HTML Tag defines a group of related elements in a form.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML “select”  Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <th> Definition, Usage and Examples
+TechSEO
+HTML <bgsound>  Definition, Usage and E…
+0
+0
+0

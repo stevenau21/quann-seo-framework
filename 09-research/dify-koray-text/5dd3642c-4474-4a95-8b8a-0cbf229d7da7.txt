@@ -1,0 +1,127 @@
+What is a "Web Browser": Definition, Uses, History, Types, and Features - Holistic SEO
+Skip to content
+A web browser is a computer program is used to surf the Internet. A web browser represents the user interface of internet surfing applications. Web browsers are used to access the HTML Documents of websites that are stored within the web servers. To display a web page to a World Wide Web user, a web browser is used. A web browser renders a web page that includes hyperlinks to other web pages. A web browser user can navigate to other web pages via hyperlinks. A website can have PDF, CSV, and PPTX documents as web page content to be displayed via a web browser. The term web browser is derived from “to look”, “to graze” in the context of wandering on the World Wide Web.
+Contents of the Article
+show
+1.
+What are the uses of a Web Browser?
+2.
+What are the Mobile Web Browsers?
+3.
+What are the Special Web Browsers?
+4.
+How is the History of Web Browsers?
+4.1.
+1. Mosaic Web Browser
+4.2.
+2. NetScape
+4.3.
+3. Internet Explorer
+4.4.
+4. Mozilla Firefox
+4.5.
+5. Opera
+4.6.
+6. Apple Safari
+4.7.
+7. Google Chrome
+4.8.
+8. Microsoft Edge
+4.9.
+9. Vivaldi
+5.
+What is the Compability Standards for Browsers?
+6.
+What is the Cross-browser Compability?
+7.
+What is the Acid3 Test for Web Browsers?
+8.
+What are the Market Shares for Web Browsers?
+9.
+What is the relation between a web browser and a website?
+10.
+What is the relation between a web browser and a web server?
+10.1.
+What is the relation between web browser and the user-agent?
+11.
+What is the relation between web browser and web development?
+12.
+Why does every search engine have a separate web browser?
+13.
+How does web browsers affect the web page loading speed?
+14.
+Do web browsers have default, local files for web page design?
+15.
+Last Thoughts on Web Browsers and Holistic SEO
+What are the uses of a Web Browser?
+A web browser is used to render web pages on the World Wide Web to help users to display the content of websites. The main uses of a web browser are serving as a user interface for web users. The side-uses of a web browser involve web development, web server security test, web site usability test, web scraping, and web server tests. A web browser can be used for hiding the private information of a web user like preventing the ads trackers or reaching out to the content on the web. The uses of a web browser are listed below.
+Bookmarking: Bookmarks are the records that a web browser user performs for a web page related to a topic. A web page can be bookmarked, grouped and accessed another time by the same user.
+Forwarding to the next web page: A web browser use is to forwarding the the next web page via the next button. A web broswer can use different cache systems to store the web pages that are the targeted URLs of the next button.
+Backward to the next web page: A web browser can be used to navigate to the previous web page. A web browser such as Google Chrome can cache the previous web pages so that the back button of the web browser can navigate user to the previous web pages faster.
+Using address bar for navigating to another web page: A web browser has an address bar for navigating to the targeted website address via DNS Resolution.
+Clicking on a different web page hypertext for navigating: A web browser can be used for navigating different web pages via hypertext links.
+Recording the web browsing history: A web browser records the web browsing history so that the web browser user can reach out to the previous web pages that he/she visited before.
+Tabbed Browsing: A web browser can be used with multi-tabs. Firefox, Google Chrome, Opera and other web browsers provide tabbed browsing. Google chrome provides pinned tabbed browsing for grouping the similar tabs to each other.
+Using Plug-ins and Web Pages: Plug-ins, and Addons can be used to improve the web browsers’ capacity for the differnt tasks such as taking the words within a web page, or extracting the links within a web page.
+Having a start page such as an internet search engine, or a web portal: A web browser can have a start page such as a internet web search engine, a web portal, or a specifically designed web page. For instance the web browser plugins such as Daily Web Dev creates a start page from the news for the web developers.
+Downloading the web page: A web browser can be used to download a web page. To use a web browser for downloading a web page, the “ctrl + s” shortcut can be used within the Windows.
+Downloading a web page asset such as an image, or CSS File: A web browser can be used for downloading a specific web page asset. To download an image, the right click can be used, to download a CSS, JS or Font file the Google Chrome DevTools, or the Firefox Developer Tools can be used with the network section.
+Controlling the web page loading performance: A web page loading performance optimization analysis can be done via a web browser. To use a web browser for analyzing the web page loading performance, the Google Chrome’s Network and Performance Tab can be used.
+Controlling the response headers: A web browser can be used to check the response headers of the web server for a specific server request. To check the response headers for a specific web page asset, the network tab of the Firefox, Opera, and Google Chrome can be used.
+Scraping the web page content: To scrape the web page content, a web browser automtor, and simulator can be used such as Puppeteer or the Selenium.
+Taking the HTML Source Code of web pages: The HTML Source code can opened with the “ctrl + u” shortcut within the Windows by using a web browser. Taking the HTML Source Code is useful for web scraping, or DOM Size Analysis, along with the improving the existing DOM Structure. A web browser can provide a HTML Source Code extraction site-wide.
+Controlling the Web Server IP Address: A web server IP Address can be found wirthin the response headers section with the Remote IP Address value. Finding the IP Addres of t a web server is useful to make multpile requests to a web server for testing purposes in terms of security, or load test.
+Controlling the web Server Security: A web server can be tested for security reasons via a web browser. If the web server doesn’t have the security related response headers, the web pages can be risky for the web browser user.
+Auditing the Web Server Load Test: A web browser simulator can be used for the web server load test to see the capcity of a web server.
+Caching the Cache: A web browser can be used for clearence of the cache. The cookies, and the session related trackers can be cleaned via a web browser.
+Displaying the local files: A web browser can be used to access to the local files with a file path. A web browser can render a CSV, PDF, or a PPTX from the local machine without the internet.
+A web browser has many uses such as security audit, page speed audit, HTML optimization, CSS refactoring, JavaScript Tree-shaking, designing a web page, or displaying a web page for the web users and web developers. A web browser is one of the fundamental parts of the worldwide web such as a web server, website, and web page.
+Due to the excessive use of web browsers, they became a standard program for every computer. A web browser is a lean client application that made the file browsers similar to itself. A file browser is used to navigate a computer user within the local files. Web browsers affected the design and uses of the file browsers within the local machines.
+What are the Mobile Web Browsers?
+A mobile web browser is a web user application for displaying web pages within a handheld mobile device. The first mobile browser is the PocketWeb developed by TecO in 1994. TecO developed the first mobile browser PocketWeb for the Apple Newton. Since, the mobile user count increases, the mobile web browsers increase their prominence. The mobile web browsers from today are listed below.
+Firefox Mobile
+Google Chrome
+Opera Mini
+Internet Explorer
+Microsoft Edge
+Apple Safari
+Tor
+Skyfire
+Brave
+Dolphin Browser
+Boat Browser
+What protocols can a web browser use?
+A protocol is a set of rules that determine a specific function, or process. A web browser protocol determines how the web browser behaves for certain functions and progresses. If a web browser opens a web page, it will use HTTP (Hypertext Transfer Protocol), if a web page transfers a file, it will use File Transfer Protocol (FTP). The protocols that a web browser can use are listed below.
+HTTP: HTTP is used by web browsers for displaing the web pages.
+FTP: FTP ise used by web browsers for transferring the files.
+SSH FTP: SSH FTP is used by a web browser to transfer files with a secure layer.
+SMPTP: Simple Email Transfer Protocol is used by the web browsers for sending emails.
+Bittorent Protocol: Bittorent Protocol can be used by web browsers for peer-to-peer file transfer.
+What are the Special Web Browsers?
+The special web browsers are designed for specific purposes with specific features. For instance, a text browser works based on the text, it doesn’t render the JavaScript. The most common types of special web browsers are text browsers and offline browsers.
+Text browsers are used to prevent the advertisements on the web pages, and understanding the technical aspects of a website. For instance, Lynx, and Elinks are the text browsers that render only the images and the text within the HTML Documents. By comparing the document within the web page based on the text browsers and a browser that can render the JavaScript give an. opinion to be able to see how the main content of a web page changes. Text browsers are prominent for Technical SEO, and blocking the advertisements.
+Offline Browsers are used for rendering, and navigating within the websites that are downloaded into the local machine’s hardrive. A web site can be downloaded via HTTP Tracker, or the Wget. After downloading a website, the local machine can be used to surf on the website. Offline browsers lead the way for the offline mode for the web browsers. For instance, via the Progressive Web Applications, making a website work as offline is possible.
+How is the History of Web Browsers?
+Tim Barners Lee invented the first web browser which is the WorldWideWeb. WorldWideWeb browser name changes as Nexus in the NextT labs in CERN, Switzerland. Tim Barners Lee has created the first HTML Document and the web browser in 1989. Later, Tim Barners Lee and Nicola Pellow invented the Line Mode Browser for providing a web browser for all of the computers. The first web browsers didn’t render the images directly, it required a click to the image to be rendered. In 1991, Tim Barners Lee made both of the browsers public in the newsgroup, “.alt.hypertext”. After Tim Barners Lee made the browser publicly known and open, new web browsers emerged such as Mosaic, and Netscape. The Web Browsers that are used within the web browser history are listed below.
+Mosaic
+NetScape
+Internet Explorer
+Firefox
+Opera
+Safari
+Google Chrome
+Vivaldi
+Microsoft Edge
+1. Mosaic Web Browser
+NSCA Mosaic is a web browser that runs over the Unix systems that lost its popularity after Windows and McOS became more popular.  NSCA Mosaic web browser was launched on November 11, 1993.
+2. NetScape
+Netscape web browser is launched by Marc Anderssen in October 1994. Marc Anderssen was an employee for Mosaic, he created the Netscape Communications group. Since Netscape was faster than Mosaic, it has dominated the web browser market. After the fast growth of Netscape, it has been bought by the AOL Group in 1998. Netscape couldn’t compete against Firefox, Google Chrome, and Internet Explorer, thus it has lost its popularity among the web browsers.
+3. Internet Explorer
+Microsoft released its first web browser in 1995 after seeing Netscape’s success. Microsoft has made the internet explorer the default web browser within Microsoft Computers. Internet Explorer became the most popular web browser between 1995-2009 due to the vast usage of Microsoft Products. The Internet Explorer has been developed by SpyGlass which is the owner of the Mosaic. Thus, it shows the competition between the Mosaic and the Netscape has been reflected in the Microsoft Internet Explorer.
+Since Microsoft Windows used Internet Explorer as a default web browser, internet explorer acquired more than 70% of the web browser market. This situation is discussed within the anti-trust lawsuits against Microsoft. Europen Union forced Microsoft to let users choose an alternate web browser during the windows installation. This situation created BrowserChoice.edu in December 2009.
+The competition between Microsoft Internet Explorer and Netscape caused different companies to create plugins for both the web browsers such as Google Toolbar.
+4. Mozilla Firefox
+When Netscape started to lose the competition against Microsoft Internet Explorer, it has started to make itself open-source. When Netscape becomes open-source, it aimed to be improved further and be owned by the web development community more. After Netscape becomes open source, the community and the web browser are called Mozilla. The first name of Mozilla Firefox was Phoenix, later it has changed to Firefox. The Mozilla Firefox has been supported by the email client Thunderbird as a personal file manager. In December 2004, Mozilla Firefox has published out of the beta version.
+Mozilla Firefox has created a Web Application Suite that contains HTML Editor, File Manager, Addressbook, browser, email client. The purpose of Mozilla Firefox is to lower computational needs with faster browsing speed and faster program start. The Mozilla Application Suite has been started to developed by different groups. The Email Client name changed from Thunderbird to Sunbird, the HTML Editor has been started developed by BlueGriffon. Since, mid-2005, the Sea Monkey continues to improve Mozilla Firefox as a community project. Mozilla Firefox is a competitor of Google Chrome, and it has Firefox Night
+
+[...truncated...]

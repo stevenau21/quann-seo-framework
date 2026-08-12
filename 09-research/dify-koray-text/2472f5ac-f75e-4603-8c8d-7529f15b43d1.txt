@@ -1,0 +1,326 @@
+OnCrawl Review: The Most Prestigious Technical SEO Crawler - Holistic SEO
+Skip to content
+OnCrawl is the world’s most prestigious Technical SEO Crawler that scans a website with a single click, reports technical SEO errors and needs in a data-driven manner, visualizes and provides insights needed by SEO Projects, and provides live tracking with Data Studio. Read the
+most detailed Technical SEO Crawler Review
+as it has ever been written.
+OnCrawl’s SEO Crawl Analysis Report Quick View.
+A General “Header” View from OnCrawl’s Craw Insights for a Website.
+During this review, we also will focus on Technical SEO Elements along with On-Page SEO Elements and their definitions, importance, and functions through OnCrawl’s visualizations and data extracting systems. We will perform our review over one of the biggest Insurance Aggregators of Turkey, which lost the 6 May Core Algorithm update 6 months ago in 2020. Focusing on a website that has lost a core algorithm update can be more useful for our review’s educational side in terms of Technical SEO, since the core algorithm updates and Technical SEO are connected to each other on so many levels.
+Thus, if you are not familiar with Technical SEO Terms and Google’s Algorithmic Decision-trees, examining OnCrawl’s site crawling and understanding methodology can be a good start point for every level of SEO enthusiasts.
+Let’s begin our first crawl with an example and OnCrawl’s detailed Crawl Configuration that gives a chance for adjusting crawl style and purpose according to the unique SEO Cases.
+Contents of the Article
+show
+1.
+How to Configure a Crawl in OnCrawl’s Crawl Configuration Settings and Options
+1.1.
+OnCrawl Crawl Configuration Options: Start URL
+1.1.1.
+Why is “Start URL” important?
+1.2.
+OnCrawl Crawl Configuration Options: Crawl Limits
+1.2.1.
+Why is “Crawl Limits” important?
+1.3.
+OnCrawl Crawl Configuration Options: Crawl Bots
+1.3.1.
+Why is “Crawl Bots” important?
+1.4.
+OnCrawl Crawl Configuration Options: Max Crawl Speed
+1.4.1.
+Why is “Max Crawl Speed” important?
+1.5.
+OnCrawl Crawl Configuration Options: Crawler Behavior
+1.6.
+OnCrawl Crawl Configuration Options: URL With Parameters
+1.6.1.
+Why are URL Parameters important for SEO based Web Site Crawling?
+1.7.
+OnCrawl Crawl Configuration Options: Subdomains
+1.7.1.
+Why are “Subdomains” important?
+1.8.
+OnCrawl Crawl Configuration Options: Sitemaps
+1.8.1.
+Why is “Sitemaps” important?
+1.9.
+OnCrawl Crawl Configuration Options: Crawler IP Address
+1.9.1.
+Why is “Crawler IP Address” important?
+1.10.
+OnCrawl Crawl Configuration Options: Virtual Robots.txt
+1.10.1.
+Why is Virtual Robots.txt is Important
+1.11.
+OnCrawl Crawl Configuration Options: Crawl Javascript
+1.12.
+Why is “Crawl Javascript” Important?
+1.13.
+OnCrawl Crawl Configuration Options: HTTP Headers
+1.13.1.
+Why is “HTTP Headers” Important?
+1.14.
+OnCrawl Crawl Configuration Options: DNS Override
+1.14.1.
+Why is “DNS Override” Important?
+1.15.
+OnCrawl Crawl Configuration Options: HTTP Authentication
+1.15.1.
+Why is HTTP Authentication important?
+1.16.
+OnCrawl Crawl Configuration Options: SEO Impact Report
+1.16.1.
+Why is SEO Impact Report Important?
+1.17.
+OnCrawl Crawl Configuration Options: Ranking Report
+1.17.1.
+Why is the “Ranking Report” Important?
+1.18.
+OnCrawl Crawl Configuration Options: Backlink Report
+1.18.1.
+Why is the “Backlink Report” Important?
+1.19.
+OnCrawl Crawl Configuration Options: Crawl over Crawl
+1.19.1.
+Why is the “Crawl over Crawl” Important?
+1.20.
+OnCrawl Crawl Configuration Options: Scraping
+1.20.1.
+Why is “Scraping” Important?
+1.21.
+OnCrawl Crawl Configuration Options: Data Ingestion
+1.21.1.
+Why is “Data Ingestion” Important?
+1.22.
+OnCrawl Crawl Configuration Options: Export to
+1.22.1.
+Why is “Export to” Important?
+2.
+What are the Insights and Sections of an Example Crawl of OnCrawl for a Technical SEO?
+2.1.
+Summary of Crawl Report
+2.2.
+Grouping Pages According to Their Content and Target
+2.3.
+Page Groups by Depth
+2.4.
+Average Inrank by Depth
+2.5.
+Status Codes
+2.6.
+Load Time
+2.7.
+SEO Tag Duplication
+2.8.
+Word Count Evaluation
+2.9.
+Duplicate Content Detection
+3.
+Indexability Section of SEO Reports on OnCrawl
+3.1.
+Pages by state of Indexation
+3.2.
+Indexability Breakdown of Pages
+4.
+Rel Alternate URLs in a Web Site
+4.1.
+Canonical Evaluation
+4.2.
+Pages Linked in Pagination (next / prev)
+4.3.
+Hreflang URLs and Their Data Visualization in OnCrawl
+5.
+Sitemaps Section of the OnCrawl’s Crawl Output
+5.1.
+Sitemap Types
+5.2.
+Sitemap and Structure Data
+5.3.
+Pages in Sitemaps
+5.4.
+Sitemaps orphan pages
+5.5.
+Pages in sitemaps by state of indexation
+6.
+Status Codes Report of the OnCrawl
+6.1.
+Target status of 3xx pages
+6.2.
+Status Codes Breakdown According to the Site Segmentation
+6.3.
+Status Codes Breakdown According to the Distance from Homepage
+7.
+Link Flow and Internal Link Structure in OnCrawl’s Crawl Reports
+7.1.
+Page Groups by Depth
+7.2.
+InRank Distribution
+7.3.
+InRank Flow
+7.4.
+Average InRank by Depth
+8.
+Average Link Facts for a Website in OnCrawl’s Reports
+8.1.
+Links Status Code Breakdown for a Web Site
+8.2.
+Links Insights
+8.3.
+Links Flow
+8.4.
+Average Followed Internal Links by Groups and Depth
+8.5.
+Average Followed Outlinks for Every Web Page
+9.
+HTML Tags in the OnCrawl’s SEO Reports
+10.
+Structured Data Reports in OnCrawl’s Reports
+11.
+Social Tags in OnCrawl Reports
+12.
+Content Audits with OnCrawl’s Crawl Systems
+12.1.
+N-Gram Analysis of the OnCrawl
+13.
+Duplicate Content Reports on OnCrawl
+14.
+Content Duplication, Similarity, and Content Clusters on OnCrawl Reports
+15.
+PayLoad Report of OnCrawl Crawl Process
+16.
+OnCrawl Ranking Report via Google Search Console Data
+16.1.
+Keyword Insights with N-Gram Analysis
+16.2.
+Average Number of Impressions and Clicks
+16.3.
+CTR and Position Correlations
+16.4.
+Average Position Distribution for Different Page Segments
+17.
+Ranking Indexation Report of OnCrawl
+18.
+Characteristics of Ranking Pages based on GSC and SERP Data
+19.
+OnCrawl Data Explorer and Single URL Examination Attributes
+20.
+Custom DashBoard Builder of OnCrawl
+21.
+How To Download a Report from OnCrawl?
+22.
+OnCrawl URL Details and Data Explorer
+22.1.
+OnCrawl Query Language
+22.2.
+OnCrawl URL Details Report System
+22.2.1.
+The Crawl Report of URL Details Report of OnCrawl
+22.2.2.
+OnCrawl’s Ranking Report in URL Details
+22.2.3.
+View Source Section of URL Details Report of OnCrawl
+23.
+OnCrawl Log Analysis and SEO Metric Correlations
+24.
+OnCrawl Data Studio Connector
+25.
+OnCrawl Custom Segmentation
+26.
+Social Media and Backlink Audits of OnCrawl
+26.1.
+Backlink Reports of OnCrawl
+27.
+OnCrawl Pricing
+28.
+Last Thoughts on OnCrawl and HolisticSEO
+How to Configure a Crawl in OnCrawl’s Crawl Configuration Settings and Options
+To configure crawl settings in OnCrawl, there are multiple options from the crawl speed to the integrating log files along with custom extractions.
+Some of the OnCrawl Crawl Settings and Options are below.
+Start URL
+Crawl Limits
+Crawl Bot
+Max Crawl Speed
+Crawler Behavior
+URL With Parameters
+Subdomains
+Sitemaps
+Crawler IP Address
+Virtual Robots.txt
+Crawl JS
+HTTP Headers
+DNS Override
+Authentication
+SEO Impact Report
+Ranking Report
+Backlink Report
+Crawl over crawl
+Scraping
+Data Ingestion
+Export to
+Before proceeding more, we can give some details about crawl configuration options to make them more clear.
+OnCrawl Crawl Configuration Options: Start URL
+Start URL is determining the starting URL of the crawl. In the Start URL Section, you may choose to crawl only a listed URL from a domain or you may choose to explore, extract, and crawl every URL on a domain.
+You can choose “Start URL” for the SEO Crawl.
+Why is “Start URL” important?
+Choosing which URLs to be crawled and where to begin crawling can give the opportunity to crawl for a specific purpose and it can save time. You can crawl only for “product pages” or only for “blog” pages with a specific string within it.
+OnCrawl Crawl Configuration Options: Crawl Limits
+Crawl Limits is for determining the limit of URL amount along with their distance from the homepage to be crawled. It might vary from package to package that you have, but all packages of OnCrawl have enough URL Limit for managing an SEO Project.
+SEO Crawl Limits View from OnCrawl’s Crawl Configuration Section.
+Why is “Crawl Limits” important?
+Choosing URL Depth and URL Amount as a limit can save time and also give the possibility to make target-oriented crawls. To see a quick summary of a category and its general problems, a certain amount of URL from a certain depth can be enough.
+You also can determine the “Max Depth” to be crawled from the same section.
+OnCrawl Crawl Configuration Options: Crawl Bots
+Crawl Bots is the configuration for determining the crawler’s character according to the device type. Since, next year in March 2021, Google will start to use “mobile-only indexing” instead of “mobile-first” indexing, the option for “Crawl as Mobile Bot” here is more important for technical SEO.
+Crawler’s User Agents can be determined.
+On the right side of the image, you may see the user-agent that will be used by OnCrawl during the crawling of the URL List or Domain that you have chosen.
+Why is “Crawl Bots” important?
+According to the device type, the viewport of the screen will change. Having both desktop and mobile bot options is important because internal links, page speed, status codes, the content amount can vary according to the device types. Being able to see and compare device-based differences is an advantage for SEO.
+You can choose between desktop or mobile bot according to your need.
+Also to make log analysis easier, you may change the bot’s name in the user agent.
+OnCrawl Crawl Configuration Options: Max Crawl Speed
+Max Crawl Speed is actually a rare configuration option for a Technical SEO crawler. Most of the SEO Crawlers do not care so much about the website’s server capacity, but OnCrawl tries to crawl one URL per second. It also has a calculator that says that crawling X amount of URL would take X amount of time.
+To make OnCrawl’s crawl speed faster, you should validate that you are the owner of the domain so that the server’s situation can be your own responsibility during the crawl.
+Crawl Speed can be adjusted with OnCrawl’s Crawl Configuration.
+You also can make OnCrawl crawl one URL per 5 seconds. Having a fast crawler is an important trait, but having a responsible crawler is too.
+Why is “Max Crawl Speed” important?
+Max Crawl Speed is a metric that helps to protect the server’s health to respond to the actual users. Googlebot also has a similar configuration on the Google Search Console and Bingbot has another type of configuration for the timelines in the day.
+OnCrawl Crawl Configuration Options: Crawler Behavior
+Crawler Behavior Configuration Options are for determining the crawl launch’s personality, purpose, and style. Different crawler behaviors can be used for different types of technical SEO Analysis.
+You can determine the crawler’s behavior.
+The crawl behavior configuration options in OnCrawl are below.
+Follow links
+Follow HTTP redirects (3xx)
+Follow Alternates
+Follow Canonicals
+Ignore Nofollow
+Follow Canonicals
+Ignore Nofollow
+Ignore Noindex
+Ignore Links from 4xx and 5xx pages
+These crawler behavior options are easy to guess but we can explain them simply.
+Follow Links
+: This option is for extracting and following any link in the after-DOM of the web page.
+Follow HTTP Redirects (3xx)
+: Googlebot stops after the 6th 301 redirects to follow the redirect chain. I am not sure what is the limit for OnCrawl’s crawler but according to the documentation, OnCrawl continues every redirection on the web page by including every 3xx variation of
+HTTP Status Codes
+.
+Follow Alternates
+: Every link with the “rel=’alternate’” attribute will also be followed. Especially in the old news and e-commerce sites, an SEO can come across these types of old link attributes such as “rel=’alternate’ media=’handheld’”. In such cases, OnCrawl can cover SEO’s inexperiences that causes time differences.
+Follow Canonicals
+: Every URL in the canonical tag will be followed by the OnCrawl’s crawler.
+Ignore Nofollow
+: It means that the OnCrawl’s crawler will crawl every URL with the “nofollow” attribute. Googlebot doesn’t listen to the “nofollow” attribute if the nofollowed link belongs to the same domain and some websites still use the “nofollow” attribute for internal links, for extracting those links and pages that include them, this can be a useful feature.
+Ignore Noindex
+: this option will make the OnCrawl’s crawler follow and crawl every noindexed page with their own label. This is important because noindexed pages are not important for Googlebot, it even doesn’t render
+javascript
+on those pages. Thus, if there are important internal links that point to noindexed pages, you can explore these.
+Ignore Links
+from 4xx and 5xx Pages
+: It means that OnCrawl’s crawler will ignore those links for the output of the crawl process. It is important because 4xx Pages and some 5xx pages can defy the output data, and most of the 4xx pages can be created because of a CMS error or site migration, etc… Keeping the valid situation’s data clean, it is a necessary option.
+OnCrawl Crawl Configuration Options: URL With Parameters
+URL Parameters are the addons in the URLs for special tasks such as searching, filtering, and grouping the data including “?s=term” or “?size=L”. URL Parameters can be used for grouping products, services, blog posts, and URL Parameters help users to find the information they seek easier thanks to the search bar or faceted navigation.
+Specifying URL Parameters Configuration for SEO Crawl.
+Why are URL Parameters important for SEO based Web Site Crawling?
+Extracting these URL Parameters and grouping them or filtering them can help an SEO to understand the web pages’ characters and functions. Imagine you can compare two web site’s parameters, which one has more parameters for the “shoe sizes” or “shoe prices” along with “shoe brands”?
+Also, unnecessary URL Parameters
+
+[...truncated...]

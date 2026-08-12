@@ -1,0 +1,115 @@
+HTML <dl> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <dl> HTML element represents a description list. The element encloses a list of groups of terms specified using the <dt> element and descriptions provided by <dd> elements. Common uses for this element are to implement a glossary or to display metadata which is the list of key-value pairs. The web developer should define a list of descriptions before using the <dl> HTML tag. The <dl> HTML Tag should not be used to indent a page. The <dl> HTML Tag is part of the list tags category in HTML Element Reference. The attributes of the <dl> HTML tag are global attributes and event attributes.  The code block and code sample for the <dl> HTML Tag are shown below.
+<dl> code block example to learn how it works is given below.
+<dl>
+<dt>TERM</dt>
+<dd>DESCRIPTION</dd>
+<dt>TERM</dt>
+<dd>DESCRIPTION</dd>
+</dl>
+The second example usage of the “<dl>” code block example is below.
+<dl>
+<dt>Like</dt>
+<dd>attraction</dd>
+<dt>Heart</dt>
+<dd>love</dd>
+</dl>
+Contents of the Article
+show
+1.
+What is <dl> HTML Tag?
+2.
+How to Use <dl> HTML Tag?
+2.1.
+Example Usage of <dl> HTML Tag?
+3.
+What are the Attributes of <dl> HTML Tag?
+4.
+What are the Default CSS Settings for <dl> HTML Tag?
+5.
+What are the Related other HTML Tags to <dl>?
+What is <dl> HTML Tag?
+The <dl> HTML Tag is used to denote a description list. It is necessary for web developers because <dl> HTML Tag is used in conjunction with the <dt> HTML Tag and <dd> HTML Tag. It defines a definition list in HTML 4.1 and description list in HTML5.
+How to Use <dl> HTML Tag?
+To use <dl> HTML tag, the web developer should create the <dl></dl> element with the <dt> and <dd> HTML Tag tucked between the start and end tags then this tag will define a list of descriptions. The <dl> HTML Tag should not be used to simply create indentation on a page.
+Example Usage of <dl> HTML Tag?
+The following example of usage of <dl> HTML Tag is given below.
+<dl>
+<dt>Name</dt>
+<dd>Mark Daniel</dd>
+<dt>Address</dt>
+<dd>Manila, Philippines</dd>
+</dl>
+What are the Attributes of <dl> HTML Tag?
+There are multiple attributes for the <footer> HTML Tag. The following attributes are listed below.
+Global Attributes: The <main> HTML tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <main> HTML tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <dl> HTML Tag?
+The following is the Default CSS Setting for the <dl> HTML Tag.
+.output {
+font: 1rem 'Calibri Sans', sans-serif;
+}
+p,
+dt {
+font-weight: bold;
+}
+dl,
+dd {
+font-size: .10rem;
+}
+dd {
+margin-bottom: 2em;
+}
+What are the Related other HTML Tags to <dl>?
+The other related HTML Tags to <dl> HTML Tag are listed below.
+<ol> HTML Tag: The
+<ol>
+HTML Tag is related to <dl> HTML Tag because they are both list tags. On a website or web page, the <ol> HTML Tag defines an ordered list. The ordered list element’s default list style is numerical or decimal.
+<ul> HTML Tag: The
+<ul>
+HTML Tag is related to <dl> HTML Tag because they are both list tags. The <ul> HTML Tag is used to define an unordered list.
+<li> HTML Tag: The
+<li>
+HTML Tag is related to <dl> HTML Tag because they are both list tags. The <li> HTML Tag is used to specify list or menu items.
+<dir> HTML Tag: The
+<dir>
+HTML Tag is related to <dl> HTML Tag because they are both list tags. A list of directory titles was created using the <dir> HTML Tag.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <dl> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <dt> Tag Definition, Usage and Examples…
+TechSEO
+HTML <figcaption> Tag Definition, Usage and …
+0
+0
+0

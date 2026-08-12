@@ -1,0 +1,112 @@
+Skip to content
+In the area of off-page optimization of SEO, links still play a major role. If you want your website to be successful in the search engine results on Google or other search engines, an internal or external link to other pages is required. You should therefore always make sure that you use enough links to convince with Linkjuice and Trust. But a simple link is not enough for professional off-page optimization: you also have to take some into account when designing the text of the links. In the next article, we will explain how to write and incorporate good and efficient anchor texts.
+Contents of the Article
+show
+1.
+WHAT IS ANCHOR TEXT?
+2.
+USE OF GOOD ANCHOR TEXTS FOR SEO
+3.
+WHY GOOD ANCHOR TEXTS?
+4.
+WHAT MUST ALSO BE CONSIDERED WHEN SETTING ANCHOR TEXTS
+5.
+Types of Anchor Texts for SEO and UX Purposes
+6.
+Types of Anchor Text Manipulations
+7.
+CHANGES AFTER THE PENGUIN UPDATE
+8.
+Last Thoughts about Anchor Texts in Terms of SEO
+WHAT IS ANCHOR TEXT?
+Anchor texts are the clickable texts in a hyperlink on a website or in a document. The anchor text is therefore also called reference or link text. To emphasize the functionality as a link, anchor texts of the links are usually colored or underlined so that they stand out from the rest of the text.
+There is also the option of visualizing the link and its anchor text using mouse-over effects. The link stands out visually from the rest of the text by enlarging or highlighting when the mouse is moved over it.
+The anchor text is then displayed as a clickable link in the text of the website to be displayed, but the structure and structure of the destination address / URL are not.
+Anchor Texts are a part of
+On-Page SEO Optimization
+, you may find more related guideline below:
+Heading Tag Optimization
+Image Alt Tag Optimization
+What is the Thin Content?
+What is the Bounce Rate?
+What is the Above the Fold Section?
+USE OF GOOD ANCHOR TEXTS FOR SEO
+When crawling a website, the search engine algorithm examines whether there are links on the page. All links on a website are evaluated. The contents of the anchor texts are then included in the Google evaluation for the ranking in the search engine results. This means that Google attaches great importance to the information contained in the link text.
+John Mueller’s explanation for anchor texts.
+Anchor Texts tell the Search Engine Algorithms what topic is being talled or what can be done in the next web page. If you use same anchor texts for different web pages, Search Engine can be confused to rank which web page for the same query and search intent. Always try to use a consistent and stable, clear anchor text strategy. Also, try to link the most relevant web page to the topic or the message you are telling.
+WHY GOOD ANCHOR TEXTS?
+Many websites still have links that only contain the phrase “click here” as anchor text. This type of anchor text is not recommended in terms of usability for the user since it does not contain any information about the target address of the link. After all, you want to know where the advertised link leads you, don’t you? It is therefore imperative that you work with meaningful anchor texts in your links in order to offer the user added value and make them curious about the additional content.
+In addition, anchor texts also play a major role in connection with accessibility. Especially for blind or visually impaired people, a good anchor text helps immensely when navigating the sub-pages of a website, as it is read by screen readers.
+WHAT MUST ALSO BE CONSIDERED WHEN SETTING ANCHOR TEXTS
+Anchor Texts Similarity and Target URLs’ Identity:
+If there are many links in a text on a web page that points out to the same web page, only the first link’s PageRank counts for Google Search Engine’s Algorithm. But, second and other links will still provide the context and relevancy, in a logical and necessary way, more than one anchor text for the same web page can be used. Also, for this reason, it is important that the anchor text of the first link should receive as much attention as possible from you.
+The positions of the Links and Anchor Texts:
+Another thing to consider is the number of links on a web page and their positions. A link can give PageRank according to its location on the web page. Different positions and click possibilities, links’ anchor texts, and their font size are also accounted for. You need to put your anchor texts in a natural way, you shouldn’t try to use anchor texts for just SEO Purposes. The languages have to be natural to any human reader and they have to be useful, meaningful for the search intent.
+The number of the Links and Anchor Texts:
+Also, if you have too many links on a web page, the importance of the anchor texts along with the links’ power to signal relevancy and carry PageRank to the target web page can be lesser. According to Google, you can use between 100 and 150 links maximum on a web page. This interval can also vary according to the topic or the web page’s purposes.
+General Context and Wrapper Text:
+Lastly, the wrapper text is also important. If you give a link to the pizza store with the “pizza delivery service” anchor text with a bad review, since the wrapper text and general context is bad for the store, it won’t boost their rankings. Contrary, it will decrease its Entity Reputation in the eyes of Google.
+Types of Anchor Texts for SEO and UX Purposes
+Exact Match Anchor Text
+: The anchor text is exactly identical to the targeted query.
+Phrase Match Anchor Text
+: The targeted Query and the Anchor Text is not exactly the same but the anchor text includes the targeted query.
+Partial Match Anchor Text
+: Anchor text doesn’t include all the words in the targeted Search Query.
+Branded Anchor Text
+: Anchor text includes the brand queries or brand names.
+Naked URL
+: Anchor text is the naked or raw URL. Also without even a link, a naked URL text can make Googlebot queue the link.
+Non-Contextual Anchor Text
+: Anchor Text and the Query doesn’t have any mutual points. It usually includes “click here” or “read more” options.
+Image links
+: Images can be anchor text via their wrapper text or alt tags, titles, and captions or the texts on their visuals.
+Types of Anchor Text Manipulations
+Targeted Anchor Text: On these examples, the spammer doesn’t use the exact match anchor texts but use the similar or synonym anchor texts.
+One-way Anchor Text Links: In these examples, spammers can use the relevant web pages to link their content from the important anchor texts but don’t link them back. PBN Networks in the past are being used for this purpose.
+Excessive Anchor Text Usage: Similar to the keyword stuffing, spammer uses an extremely high number of anchor texts to the targeted web pages to increase its rankings.
+Irrelevant Anchor Text: This is another technique for confusing Search Engines. Using irrelevant anchor texts for the targeted web page can decrease the relevancy scores of the web page for certain queries.
+With time, Google and other Search Engines improved their algorithms against these kinds of spam acts. Google finds 25 billion spammy web pages every day and it has a %99 success rate to detect spam acts. Always, try to use natural anchor texts and do not try to manipulate your backlink profile. To learn more, you can read our analysis of Search Engine Theories and Patents.
+Also, Google and other Search Engines improved Uncertainty Principles which prevents them from deciding in a short time with important factors. Thus, these kinds of spam acts can’t succeed.
+CHANGES AFTER THE PENGUIN UPDATE
+8 years ago, it was unfortunately customary to “optimize” your website using SEO so that as many keywords as possible could be found in the content of the page. For this purpose, anchor texts in links were misused.
+In order to get a particularly high ranking in Google’s SERPs, keywords were used as anchor text. This often led to abstruse texts. Many anchor texts with the respective keyword in the link were also used in comments on articles or blogs. This procedure was also called “hard linking”. To put an end to this behavior, Google changed its search algorithm and released the Penguin update. From then on, all pages were downgraded that applied such hard links in practice.
+Since 2012, the anchor text has again had the actual meaning it once had: guiding the user to the desired goal.
+Last Thoughts about Anchor Texts in Terms of SEO
+With a sophisticated online marketing strategy and well-thought-out search engine optimization, you can bring your website to one of the top spots in the Google rankings. In addition to on-page optimization, off-page optimization continues to play a special role in SEO. Internal and external links are one of the most important ranking signals to Google. But not only the type of links but also the description of the links, the anchor or link text is of great importance for indexing by the search engine. Therefore, pay attention to meaningful and professional anchor texts, then both the user and the Google algorithm will find your way around your website!
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+On-Page SEO
+What is Anchor Text: How to Optimize Anchor Texts for SEO
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+On-Page SEO
+What is Footer? How to use it for SEO?
+On-Page SEO
+What is the Breadcrumb Navigation?
+0
+0
+0

@@ -1,0 +1,121 @@
+Google Phantom Update: Effects and Importance for SEO - Holistic SEO
+Skip to content
+The
+Google Phantom Update
+denotes an unannounced change to the core algorithm (core algorithm). The first of these updates occurred in the spring of 2015. SEO specialists noticed significant changes in the SERPs. The search engine denied the existence of such an update for a very long time. As a nameless update of the heart algorithm, the phantom update is accompanied by a number of different speculations. In fact, there have been several unofficial changes since 2015.
+The Phantom Updates are actually the first Google Broad Core Algorithm Updates without an official announcement. After a while, Google has accepted that they have performed changes in their core algorithm. With time, they have started to announce their Broad Core Algorithm Update. The first announced broad core algorithm update was on 1st August 2018 which is called Medic Update by Barry Schwartz the first time.
+Contents of the Article
+show
+1.
+Google update without name aka phantom update
+2.
+Why doesn’t the Phantom Update have a name?
+3.
+What is different compared to Panda and Penguin on the Phantom Update?
+4.
+What is the purpose of the changes?
+5.
+What were the effects of the Phantom Update?
+6.
+Is the phantom update a quality update?
+7.
+How many phantom updates have there been?
+8.
+How should SEO react to the Google Phantom Update?
+9.
+What’s the 2018 Phantom Update?
+10.
+Practical relevance for Phantom Updates
+11.
+Who are the winners and losers of the phantom update?
+12.
+Why did Well-known Brands Gain Visibility during Phantom Updates?
+13.
+Why is Phantom Update Term still Important in 2020
+Google update without name aka phantom update
+Google claims to make almost two algorithm changes every day. For the most part, however, these were minor adjustments with little impact for a majority of the websites. In 2012 alone, around 665 changes to the ranking algorithm were made. If update-relevant factors were still communicated in the
+Panda Update
+and
+Penguin Update
+, Google Webmaster left ignorant in the course of the phantom update which factors were significant for a loss or gain in the visibility of a website.
+According to Google, these were changed to the core algorithm. What exactly, how, and why was changed here or what is now weighted differently under the known ranking factors remained unknown.
+At the SMX Sydney 2015 conference, webmaster trends analyst Gary Illyes of Google confirmed the update to their own core algorithm and pointed out that this adjustment has nothing to do with the
+mobile-friendly ranking factor update
+rolled out on April 21, 2015. A data refresh of the Panda or Penguin filter was also excluded.
+Why doesn’t the Phantom Update have a name?
+Changes right in the heart of the search engine: The Google Phantom Update includes specific changes to the search engine algorithms that control the mechanisms of the search results. This is why experts refer to the phenomenon as a core algorithm update. The specific model of operation of the algorithm falls within the area of ​​the search engine’s corporate secret. Therefore, relevant adjustments to the content of the core algorithm present a topic, moreover Google decidedly remains silent. It is known that this revision affected the signals with which Google judges the quality of a website and thus its ranking.
+Google didn’t announce its algorithm changes because it didn’t want SEOs to examine their algorithm with their experiments so that their algorithm updates shall not become useless. Any Search Engine doesn’t want to reveal their secrets so that their algorithm’s success doesn’t go under the Gaming System methodologies. That’s why today, Google only says “Write Great Content”, “Think your users” after every Core Algorithm Update but never tells that how they understand the “great content” or how they differentiate “great content” from ordinary content so that their algorithm shall not be manipulated. As Holistic SEOs, we call this “Search Engine Privacy”.
+What is different compared to Panda and Penguin on the Phantom Update?
+Google provided explanations for each of the major updates announced. However, the changes in the context of the phantom update cannot be clearly described because they do not focus on a specific area of ​​a website.
+For example, the updates in the context of the Panda and Penguin updates were primarily aimed at low-quality content and low-quality links. The changes to the core algorithm, however, were completely faceless and nameless and make the phantom update a barely tangible construct. However, webmasters could feel the effects of the update on the ranking of their domain.
+You may learn more about Related Google Algorithms and Updates via our Guidelines:
+Google Florida Update
+Google Hilltop Algorithm Update
+Google Possum Update
+Google TrustRank Algorithm
+Google PageRank Algorithm
+What is Information Retrieval for Search Engines
+Google Caffeine Update
+What is the purpose of the changes?
+Quality is the linchpin when it comes to offering users a personalized search result. The search via Google should in any case lead the user to a relevant result. Therefore, the algorithm operating in the background is constantly being perfected by the search engine.
+The Google Phantom Update also aims to improve the quality signals. The group wants to provide every user with relevant information. Forwarding to pages that do not offer the user any added value should thus be counteracted.
+What were the effects of the Phantom Update?
+Significant losses in ranking and visibility
+– in the spring of 2015, numerous domains recorded major shifts in the SERPs and visibility
+losses
+of up to 60%. The changes affected both smaller and larger websites, ranging from purely informative platforms to well-known brands. Regardless of the popularity of these websites, the placement in the SERPs changed massively.
+The changes to the core algorithm therefore left a lasting impression. Because the loss of visibility and the falling rankings could not be assigned to any clear facts, webmasters were in a real panic.
+At the same time, incorrect local search results in Germany and the USA attracted attention. SEO specialists suspected that it was a change in the core algorithm to combat map hacks. Our blog article “ Was the Google Phantom Update a bug? “
+Is the phantom update a quality update?
+Webmasters and SEOs were long in the dark about the existence, scope and origin of the Google Phantom Update. So there was the assumption that the changes occurred in connection with the Penguin or Panda update.
+However, Google denied this assumption.
+The search engine also held back on confirming the update. The company only made statements after several inquiries from Search Engine Land magazine. Google is committed to changes to the core algorithm that is
+used to evaluate quality signals.
+However, the exact change in the ranking factors and their weighting when evaluating websites remains hidden.
+Based on the statement and the purpose of the changes, Search Engine Land called the phenomenon a
+quality update
+. This quality update is about the measures that the search engine took in May 2015.
+In the parlance of SEO experts, the term phantom update also became established, which acts as an encroachment on a number of other adjustments to the core algorithm that occurred over the coming years.
+How many phantom updates have there been?
+The noticeable changes to the core algorithm are associated with a series of phantom updates over a period of three years. Not all updates were officially confirmed by the search engine.
+The Quality Update, also called Phantom Update, took place in early May 2015
+The Phantom II update may have taken place in July 2015
+The Phantom Update III is said to have been released in December 2015
+Google confirmed the Phantom Update IV from May 2016
+The Phantom Update V is said to have been rolled out in February 2017
+An official core algorithm update was initiated in March 2018.
+How should SEO react to the Google Phantom Update?
+Google is clearly committed to the quality criteria of the webmaster guidelines for the ideal of a high-quality website. A rash reaction to the Google Phantom Update would not have been expedient.
+It is important to keep an eye on the general and long-term improvement of a website. The most important message to webmasters in the context of the phantom updates is present in the
+provision of high-quality content
+. Elementary factors are the user value and the unique content.
+Focus on unique content:
+Google doesn’t want content created for a search engine. It is about providing
+unique content,
+i.e. high-quality and relevant content for the users. What Google considers to be of high quality is defined in detail in the webmaster guidelines, in questions from webmasters and in older blog posts.
+User value:
+Technical aspects of a domain such as user friendliness, mobile optimization and crawlability are important for a good ranking. It’s important to adapt to Google’s latest advances. Webmasters should not neglect long-term optimizations.
+The Google Phantom Update reminds webmasters with the adjustments to the core algorithm that they should react to the changes as part of the Panda and Penguin updates.
+What’s the 2018 Phantom Update?
+The official core update of March 12, 2018, led to violent changes in the search results. In 2017, webmasters noticed changes in the ranking, the pattern of which suggested the phantom update. Google has only confirmed the 2018 update but remains silent about adjustments to the core algorithm in the previous year.
+Practical relevance for Phantom Updates
+The current state of knowledge about the phantom update can be summarized as follows:
+The update is intended to improve the quality of the search result lists by adapting the core algorithm.
+One strategy for responding to the update is to improve the individual websites of a domain in general and, above all, in the long term. This relates primarily to the user value of the unique content and only afterward to technical aspects such as user-friendliness, crawlability, or mobile optimization.
+In this context, Google refers to older blog posts, the webmaster guidelines, and questions from webmasters.
+Google recommends that the update be viewed as if the company is trying to decrypt users’ needs. According to the assumption, they do not want content that was created for search engines, but content with added value for real users.
+Who are the winners and losers of the phantom update?
+The 2015 quality update that Google rolled out in early May hit different domains. Interesting trends emerged, which gave rise to numerous assumptions.
+Winner
+Loser
+An extensive directory of categories and web pages apparently benefited from the effects of the phantom update. The visibility of well-known brands and domains also increased. Websites that had previously lost visibility also had a beneficial effect on this turn.
+Advice and information pages in particular lost a lot of their visibility. Small and medium-sized websites were also affected by the adverse effects of the quality update. This observation was also seen in domains that previously had increased visibility and suddenly lost.
+Why did Well-known Brands Gain Visibility during Phantom Updates?
+After lots of teeny tiny and some big updates, Google has decided to use big brands with broad historical data on specific niches for improving its SERP and search experience. The main reason for this, lots of new blogs, Private  Blog Networks, and sleazy new content along with new spammy websites were entering the SERP without any added value or unique function. This was creating a cost for Search Engines for both crawling and also in terms of negative search experience. Google has decided to use big and legal brands or strong web blogs with a better search demand and off-page profile. This has prevented some new websites from gaining rankings in a very short time after a while. In fact, by the time, new web sites started to have to wait even longer than 6 months to gain visibility on the SERP. This situation created the
+Google Sandbox
+Term which Google denies.
+This situation also had its side effects by the time because most of the SEOs have understood the nature of the new algorithm. The Brand Power and Backlink Profile were more important than the content or UX. If you have search demand, organic traffic, high CTR, and a strong link profile, you could beat other brands with time. Because of this situation, the spammy link market and unnatural link sales have been increased and this also created a new spam wave on the search ecosystem. Google has created better Core Algorithm Updates along with new User Experience, Page Speed, Page Layout Updates. They have also started to use BERT Algorithm to understand queries better and they have started to use Entity-based Search Engine Features to decrease the manipulation via links.
+After the 2020 January Core Algorithm Update, the content and web pages’ function have started to become more important than the big brands. The first time after the Phantom Updates, we have seen that small brands and blogs could gain visibility against the big brands. Phantom Updates’ features in favor of big brands also changed the shape of the internet. Most of the small forums or blogs and some small internet communities couldn’t stand against the big brands and social media networks such as Reddit or Facebook. In the future, the situation which in favor of big brands on the SERP might change while the new internet design and communication technologies becoming broadly available for ordinary designers and coders conversely.
+Entity-based Search Engine can understand the meanings of the words and sentences. The ability to understand the content has decreased the importance of off-page profile and branding power on the SERP. A Hybrid and Balanced Search Engine Profile is the most 
+
+[...truncated...]

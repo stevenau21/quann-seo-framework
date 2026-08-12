@@ -1,0 +1,128 @@
+HTML <title> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <title> HTML Tag specifies a web page HTML element and the title of the web page being visited. Search engine results pages include a result from a page’s title tag, which is displayed alongside the search engine result page snippet. Users’ experience, SEO, and social sharing are all improved when the search result has a clickable and relevant title tag. An accurate and clear summary of a web page’s content in the SERP snippet is intended for the title tag of the page. The small details on the website pages might have a significant impact on the search engine optimization rankings. There is a limit of one <title> HTML Tag per document. The <title> HTML Tag is part of the Basic HTML category in HTML Element Reference. The attributes of the <title> HTML Tag are global and event attributes.
+<title> code block example to learn how it works is given below.
+<title>
+Title here.
+</title>
+The second example usage of the “<title>” code block example is given below.
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title Tag of the Web Page</title>
+</head>
+<body>
+<h1>Holisticseo</h1>
+<h2>Tag</h2>
+<p>Welcome to Holisticseo.digital!</p>
+</body>
+</html>
+Contents of the Article
+show
+1.
+What is <title> HTML Tag?
+2.
+How to Use <title> HTML Tag?
+2.1.
+Example Usage of <title> HTML Tag?
+3.
+What are the Attributes of <title> HTML Tag?
+4.
+What is the Default CSS Setting for <title> HTML Tag?
+5.
+What are the Related other HTML Tags to <title>?
+What is <title> HTML Tag?
+The <title> HTML Tag is used to add a title to a web page. The <title> HTML Tag appears in the browser title bar as well as the search engine results pages, and the <title> HTML Tag provides a short description of what the page is about. The <title> HTML Tag is critical to include and optimize your website’s title tags, as they play a critical part in organic search engine ranking results. The <title> HTML Tag contains important information, and search engine algorithms utilize this information to determine which pages should appear at the top of the search results page and which ones should be buried farther down the page. Additionally, the <title> HTML Tag serves as the first “hook” by which user attract the attention of readers who are scanning the search results page.
+How to Use <title> HTML Tag?
+To use the <title> HTML Tag, web developers should write <title></title> with the page title placed in between the start and end tags. Although the tag lacks local attributes, it can be used with any of the global or event content attributes.
+Example Usage of <title> HTML Tag?
+The following examples of usage of <title> HTML Tag are given below.
+<!doctype html>
+<html>
+<head>
+<title>How to Build a Modern Mansion House</title>
+</head>
+<body>
+Content…
+<p><abbr title="Meritage Home Corporation">MHC</abbr> was founded in 1985.</p>
+<p title="Free Build tutorials">Holisticseo.digital</p>
+</body>
+</html>
+<!doctype html>
+<html>
+<head>
+<title>Building Quarantine Facilities for Covid-19 Patients</title>
+</head>
+<body>
+Content…
+<p><abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<p title="Free Web tutorials">Holisticseo.digital</p>
+</body>
+</html>
+What are the Attributes of <title> HTML Tag?
+There are multiple attributes for the <title> HTML Tag. The following attributes are listed below.
+Global Attributes: The <title> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <title> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <title> HTML Tag?
+The following is the Default CSS Setting for the <title> HTML Tag.
+title {
+display: none;
+}
+What are the Related other HTML Tags to <title>?
+The other related HTML Tags to the <title> HTML Tag are listed below.
+<body> HTML Tag: The
+<body>
+HTML Tag and <title> HTML Tag are related because they are both basic HTML Tags. The <body> HTML Tag This section defines the body of the document.
+<head> HTML Tag: The
+<head>
+HTML Tag and <title> HTML Tag are related because they are both basic HTML Tags. It is necessary to specify the head portion of the page, which contains information that is relevant to the document, with an HTML Tag called “head.” The <head> HTML Tag contains other head components such as the <title>,
+<meta>
+,
+<link>
+,
+<style>
+, and <link> Tags, amongst other things.
+<hr> HTML Tag: The
+<hr>
+HTML Tag and <title> HTML Tag are related because they are both basic HTML Tags.  The <hr> HTML Tag refers to a change in the content’s subject focus.
+<br> HTML Tag: The
+<br>
+HTML Tag and <title> HTML Tag are related because they are both basic HTML Tags. The <br> HTML Tag function adds a single line break.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <title> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <style> Tag Definition, Usage and Examp…
+TechSEO
+HTML <dd> Tag Definition, Usage and Examples…
+0
+0
+0

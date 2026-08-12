@@ -1,0 +1,97 @@
+Semantic Search: Definition, Explanation and Examples - Holistic SEO
+Skip to content
+Semantic Search is the way users act on the Search Engine according to the semantic meaning relationships of words and concepts. The content of a concept or entity combines with other meanings and concepts at different points to form a Semantic Hierarchy of Meaning. Search Engines such as Google, Bing, and Yandex put frequently searched or asked questions and queries about a certain concept in a Semantic structure. This semantic query network is fed by user behavior. Thus, a SERP Design is created in which more organized, logical, and relevant information is interconnected. Semantic Search is linked to the meanings of words as well as to grammatical rules and the way words characterize each other. In this context, even if a sentence is grammatically correct, if its meaning is weak, the sentence is not suitable for the Semantic Search structure.
+“One morning, I have seen an eagle while running on a horse in my suit.” In this sentence, it is not clear grammatically exactly who the runner is or who is in the suit. However, we can make this inference with the meaning bond that words have. Search Engines adapt to the Semantic Search structure by extracting these links, the meanings of words, and their semantic links with Natural Language Processing, and using them on the Web with Machine Learning Models.
+Contents of the Article
+show
+1.
+Lexical Search Engines and Semantic Search Relation
+2.
+Anatomy of Semantic Search and Meaning of Words
+3.
+Semantic Search Engines and Their Query Understanding Capacity
+4.
+Knowledge Graph, BERT, RankBrain, Neural Matching, and Semantic Search
+5.
+Why do Search Engines Pursue Semantic Search?
+5.1.
+Many searches are unintentionally ambiguous
+5.2.
+The need to reflect personal interests and trends
+5.3.
+The Need to Understand Lexical Hierarchy and Entity Relationships
+5.4.
+Dynamic Organization of SERP for Multi-faceted Search Behavior
+5.5.
+Semantic Search Principles
+5.6.
+Voice Search
+5.7.
+Featured Snippets and Rich Results
+6.
+Why is Semantic Search Important for SEO?
+7.
+Which Google technologies play a role in how semantic search works?
+7.1.
+Knowledge Graph
+7.2.
+Hummingbird
+7.3.
+RankBrain
+7.4.
+BERT
+7.5.
+Neural Matching
+8.
+Last Thoughts on Semantic Search, Semantic Search Behavior, and Structured Search Engine along with Holistic SEO
+Lexical Search Engines and Semantic Search Relation
+Search Engines treat words in two different ways “phrase-based” or “string” or “entity-based” meaning. Sometimes different “strings” are included in the same “entity”. Words with the same meaning in different languages ​​are thus combined at the same point, even if they are spoken in different ways. Microsoft Bing, Google, Yahoo, Yandex, DuckDuckGo, and other Search Engines were just “Lexical”. That is, they were looking at whether a word in the user’s query was in a corpus. During these periods, concepts such as the length of content or keyword density were still important. Search Engines give importance to the meaning and conceptual links of words as much as “string matching”. Search Engines, such as Google, know the connection of a particular concept to another and have a Knowledge Base for it and create a Knowledge Graph for, a better understanding of search intent.
+Thus, the Lexical Search Search Engine feature has been renewed with the Semantic Search Engine or Structured Search Engine feature.  Below, the algorithm capabilities of a Lexical Search Engine and Entity-based Search Engine are compared. A Lexical Search Engine performs the following calculation if a user has entered the “Electricity Saving” query in the search bar.
+Does Corpus have the word “Electricity Saving”?
+Does Corpus “Electricity Saving” have items such as URL, Heading, First Paragraph, Breadcrumb, Meta Tag?
+Does Corpus have other words often used with Electricity Saving?
+Does Corpus have other words that mean Electricity Saving?
+When methods such as Corpus, Word2vec, and N-Gram Analysis or TF-IDF Analysis are applied, is the word “Electricity Saving” central?
+An Entity-based Search Engine performs a calculation like this.
+What information do users most often wonder about Electricity Saving?
+What are other questions about Electricity Saving?
+Are other concepts related to Electricity and Saving Concepts included in the corpus?
+Are there any grammatical mistakes?
+Does the Corpus have enough specialist knowledge?
+Corpus author, is an entity expert on the subject?
+Is Corpus’ publisher the authority on this matter?
+Does Corpus include related side search intentions and other related concepts, as well as the source that publishes Corpus?
+Anatomy of Semantic Search and Meaning of Words
+Semantic Search means using words with their meanings in search. Semantic Search means understanding the query and not focusing on just one string or literal matching situation. It is the execution of Information Retrieval Methods with the meanings of words and all relevant aspects of a topic in a logical order in search results.
+Semantic Search aims to go beyond the dictionary meaning of a word and understand the user’s search intent. With the emergence of the Semantic Search Concept, the number of long-tail queries in Google and other Search Engines has increased and the amount of content produced to meet such queries has also increased. Thus, a structure has emerged where more content is presented in a more organized structure, and it is easier for the Search Engine to scan and index, and see the relationship between each other. Semantic Search and Semantic SEO are related concepts in this context.
+Semantic SEO
+aims to make a website have a Semantic content network by looking at the connection between concepts. Thus, a website suitable for Neural Network and Search Engine Information Organization structure is created. While Semantic SEO deals with all aspects of a subject, instead of queries, it focuses on concepts and the content of those concepts, that is, the harmony of the subject and search queries, and the search intention.
+In the Semantic Search structure, the “How do I learn to write code” and “Tips for learning to code” queries are the same queries. Lexical Search Engines, on the other hand, are completely different queries. Therefore, it is the most natural feature of Semantic Search to focus on a user’s “intent” and create a page design, function, and content network accordingly, and provide the necessary semantic editing and connection with the user.
+Semantic Search Engines and Their Query Understanding Capacity
+If the question “who” is asked in a query, Google knows that the relevant result page will contain “a personality”. If the word “dancer” is mentioned in a query, Google also knows that the person concerned will be a dancer or has a relationship with a dancer. Search Engines such as Google and Bing save billions of “facts” and “millions of entities” in their Knowledge Base. While recording the connection and direction of each entity with each other; Entity-seeking Queries, Canonical Queries, and Query Rewriting methods deliver the information they seek to users in the most comprehensive and accurate format.
+Some concepts related to Semantic Search Engine are briefly explained below.
+Entity-seeking Query is a query that searches for a specific entity.
+Canonical Query is the expression of a main query and search intent in different ways.
+Query Rewriting is the calculation of different variants of a query and the Semantic Search Engine rewriting it and presenting the relevant results to the user.
+Dominant Search Intent and Subintent are intent types that are more than one in a query.
+If you ask Google the question “What is cancer?”, you will see a result from the website with the most comprehensive content about cancer.
+The relevant results page explains the cancer treatment, its types, symptoms, causes, and history in broad aspects and contains various links to categories with related sub-topics. Semantic Web and Semantic Search reward quality content writers with a certain depth. If you enter the query “Who was the wife of 36th President of the United States of America” ​​on Google, you will see that Google gives the exact best matching result.
+Because they extract facts as entity attributes and the 36th US President is an attribution of the Lyndon B. Johnson, and the “wife” term is also another for Lyndon B. Johnson. Claudia Alta or “Lady Bird” is another entity attribution and also it is directly another entity. Google creates these connections, and profiles, and search behavior patterns along with the information on the web for better-organized Search Results.
+If you enter the query “who is the dancer in Beyonce already video” on Google, you will see that Google pulls the relevant response from the relevant content, highlights it, and places the relevant image in the snippet.
+At this point, words bolded in black even in Description will change according to the character of the query and the links of the searched entities. If you searched for “dancer”, his name will be marked in bold and the attribute of the searched person and the other prominent entity in the query will be marked in bold.
+Google understands content with the Knowledge Base it has created using NLP and Fact Extracting methods and creates a Semantic SERP by using the Semantic Search features according to the quality of the content and the content publisher’s reliability, authority, and expertise values. Likewise, the “how tall is the Eiffel Tower” question will give the exact answer because Eiffel Tower is an entity in the Knowledge Base with the “tall” attribution. If the content has wrong information about this fact, it will probably hurt the source’s reliability from the Search Engine’s perspective.
+Knowledge Graph, BERT, RankBrain, Neural Matching, and Semantic Search
+When Google announced the Knowledge Graph in 2012, it began profiling people, songs, places, countries, nations, occurrences, and everything in an appropriate format with relevant information and facts, using semantic relationships. With the Bidirectional Encoder Representations of Transformers (BERT) Algorithm, it started to read the content from right to left and left to right, and it began to better match the relevant queries and content. Neural Matching algorithms that perform Query / Document matching by measuring what a query means and which intents a content will meet better. RankBrain measures whether a document can provide successful and reliable Search Satisfaction in a query. With all these and similar concepts, Google and Other Search Engines are building the Semantic Search and Semantic Web World better every day.
+Why do Search Engines Pursue Semantic Search?
+Semantic Search is the Search Ecosystem that knows that similar queries will display similar search behaviors with similar search intents, thanks to the fact that concepts are linked to each other in a specific context. Therefore, a Search Engine knows that websites with authority over certain types of topic hierarchy, concept link, and semantic search elements can handle all similar queries authoritatively. Thus, a Search Engine can spend less computation, crawling, indexing, and ranking resources for creating the best possible Search Engine Results Page. With Search Engines bringing the websites to the fore with the right context, content format, and content type in certain semantic queries, it is easier for users to predict the queries that are likely to search in the future or that may be of interest.
+Thus, a more consistent, regular, and meaningful Search Engine Results Page Network is created for both users and search engines. Semantic Search is also an Entity-based Search Engine. By applying the rules of Natural Language Processing, and Natural Language Understanding, the meanings of the concepts, their contents, and the quality and context of the documents can be better matched.
+An example schema of Semantic Search Connections.
+With Semantic Search, it is also easier for users to perform auto-prediction as it is easier for the Search Engine to predict their queries. People Also Ask, Knowledge Panels, Location Packs, and Image Packs, Image Query Refinement Bubbles are also results of the Semantic Search. Semantic Search makes it easier for users to find relevant concepts while reducing the number of resources required for Search Engines to deliver quality results pages to the user.
+Many searches are unintentionally ambiguous
+People have different search intents with the same words. They are looking for different things with the same queries. One out of every 10 queries has a typo. When the same word is searched for, the type or format of the content that the user wants to see may change. Therefore, Search Engine has different concepts such as “Query Rewrite”, “Dominant Search Intent”, “Canonical Query”, and “Sub Search Intents”.
+It is possible to handle a query in more than one way and to create the most suitable SERP by performing many experiments. but with Semantic Search, it is possible for Search Engines to make all existing predictions easier. Because, with the transition of the Search Engine Results Page to a completely Semantic structure, the communication between the Search Engine and the user has been strengthened. Therefore, the user has switched to “I did not enter a meaningful query enough” instead of “Google did not give what I was looking for”. Humans are semantic by nature. Semantic things produce meaning faster and become noticeable to humans. Therefore, the fact that Search Engine is semantic has enabled it to communicate with the search engine user more easily. And it pushed the user to use the information he was looking for more clearly and by specifying its context.
+Every different color shows a different type of entity within the queries and titles.
+The need to reflect personal interests and trends
+Semantic Search also makes it easier to understa
+
+[...truncated...]

@@ -1,0 +1,94 @@
+Link Juice & Equity: Definition, Myths and Importance for SEO - Holistic SEO
+Skip to content
+Link juice, Google juice, or link juice describes the distribution of backlinks within a website and the strength or reputation of these links (PageRank). Both the number and the quality of the links determine how the link juice is composed and what effect it has on the subpages. Most SEOs don’t try to calculate the TrustRank of the links. If you consider the TrustRank algorithm’s Confidence Index and Confidence Note terms, the Link Equity perception may change.
+Link Strength in the SEO area is the value of a link. Also known as link quality, the term describes valuable information in the context of off-page optimization in order to gain knowledge of the influence of backlinks on websites. This procedure is important because high-quality links improve the page rank of your own page.
+Targeted backlinks increase the page’s ranking – referring to your own website from another website, Google understands these links as a recommendation. The higher the link strength of the backlinks, the higher the ranking of your own page. The link strength is determined by various criteria.
+Contents of the Article
+show
+1.
+Link Equity is Harness of TrustRank, AuthorRank and PageRank along with More
+2.
+Practical Relevance
+2.1.
+How do I distribute the link juice on my website?
+2.2.
+Search Engine criterias for Link Equity (Link Strength)
+3.
+Link Juice and Pagerank Difference
+4.
+Importance for SEO
+Link Equity is Harness of TrustRank, AuthorRank and PageRank along with More
+While individual algorithms such as
+PageRank
+,
+TrustRank
+, or AuthorRank represent concrete evaluation factors for websites and web content, Link Juice is rather a meta-term that allows multiple evaluation factors. The quality of an inbound link, the number of all inbound links, and the way in which these references are distributed across a website are part of the concept of link strength.
+In addition, other criteria determine the quality of links and websites such as content, awards, metadata or the ranking in the SERPs.
+The term “link juice” can be used to visualize a river with branches: the homepage as the main vein has most of the link juice, the sub-pages as sidearms benefit from the link juice of the main vein, and pass it on to other sidearms. It is important to ensure a steady flow that distributes link power sensibly through internal links.
+Using internal links and a clear site hierarchy can increase the Link Juice along with the site’s crawl and evaluation efficiency by Search Engines. Also, using smaller sitemaps with a sitemap index file for categorized URLs can help this process.
+Showing the context of the web page and relation with other web pages will increase the relevance score of the web page for a topic. A link from a web page to another web page can give different PageRanks for different queries and results.
+Practical Relevance
+It is advisable to control the link juice of a website in a targeted manner. In practice, this means that internal links are set specifically to strengthen sub-pages. Subpages such as terms and conditions or an imprint can be changed so that they do not receive a link juice on the main page. An OnPage SEO concept can, for example, provide that some subpages do not receive a link juice, and pages with a lot of link juice do not have to submit it. In short: keeping Link Juice on important web pages are the main purpose for Link Equity distribution.
+Internal Links can be used to distribute PageRank among subpages. If you distribute PageRank in a non-correct way, the Search Engine will see that your internal link structure and important web pages along with user-flow are not consistent. This will led the Search Engine to consider that your internal link structure is not a correct signal. It means that you may not get benefit from Link Juice or Equity if you don’t have a proper internal link structure.
+A few years ago, SEOs attempted to use the nofollow attribute as part of PageRank Sculpting in order not to provide certain pages with link juice. Trying to control the link juice using the nofollow attribute, which was actually intended as an anti-spam measure]], was not in Google’s interest. Because ultimately nofollow was misused. The consequence was that Google changed the “rules of the game” in 2009 and internally nofollow links can also pass on link juice. For this reason, it is recommended to use mostly dofollow links for the internal link. In order to exclude pages from crawling, the robots.txt should be used instead. But even for pages that are to be excluded from indexing via noindex, it is advisable to add the “follow” attribute so that the crawler can follow the link and link strength can be passed on.
+You can learn more about Link Sculpting by reading our “What is Link Sculpting” article. Also, because of the extensive wrong usage of the “nofollow” attribute, Google has changed its current situation. There are continuous experiments on nofollow tag to understand links nature better. The second reason for this change is that improved AI Technologies. Learn more about “Nofollow”.
+How do I distribute the link juice on my website?
+So you got a strong backlink that only passed good information on. But how do you let the “link juice” continue to flow on your own website?
+It is now important that you structure your site well. This is where the term “siloing” comes into play.
+You should build your website logically and sorted by topic
+. The aim is to provide all relevant subpages with sufficient “link juice”.
+Search Engine criterias for Link Equity (Link Strength)
+Search engines use a number of criteria as an indicator to assess the quality of links. Therefore, here is a brief overview of the most important factors:
+The content-related orientation of the websites: If websites are linked to each other by a link that is thematically similar, a positive influence on the link strength can be assumed. Links unrelated to the topic result in lower link quality.
+The age of the link: The age of a link on the Internet gives search engines information about its trustworthiness. Certain durability increases the quality of a link.
+The authority of the referring website: If well-known and very frequently visited websites link to your own website, these are backlinks that generate high link quality. Pages that offer content and thus a certain added value are particularly effective because they increase the ranking of the page.
+Position of the link: If incorporated into the content of the page, a backlink shows a stronger link strength than a footer link. Links on the home page deliver higher quality than backlinks on subpages. Also, Links order matters for PageRank flow.
+The number of backlinks: Too many links on a website reduce the link strength of each individual link.
+Link spamming is to be avoided since the link quality suffers enormously.
+Link Juice and Pagerank Difference
+In practice, link juice is used synonymously with page rank. Strictly speaking, Pagerank is a term that was coined by Google and describes how much power a link can “inherit” on subpages. The page rank can be clearly calculated, while the link juice is rather a construct to describe the transfer of link power.
+PageRank
+is a procedure that allows websites to be evaluated using an algorithm based on their inbound links. Basically, a page with many incoming links is weighted higher than a website to which only a few hyperlinks refer.
+If you want your website to rank high in the SERPs, you have to demonstrate authority and
+domain trust, i.e. credibility, of your website in addition to many other factors
+. A website is considered trustworthy or with a high domain trust for Google and other search engines if it is rich in valuable, useful information for its users and free of spam or unethical practices. Domain trust can also be increased by incoming links or the domain age. Overall, there are many different aspects that can influence the domain trust.
+Importance for SEO
+Even if the link juice is an abstract concept, SEOs can use it as a guide. On the one hand, it is important that high-quality backlinks refer externally to a website so that it receives a lot of link power. On the other hand, it is also important that this link power is optimally distributed on the subpages. In this context, one also speaks of “PageRank flow”. In addition to a good link juice, it is particularly important for the internal linking that the
+anchor texts
+for the links to the subpages contain relevant keywords. In this way, in addition to the distribution of the link juice, the relevance of the page can also be influenced. It is important that each subpage is always linked internally with the exact same keyword.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Theoretical SEO
+What is the Link Juice (Link Equity)? How to Use Link Equity for SEO?
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+Theoretical SEO
+Google Panda Update: What did it change?
+Theoretical SEO
+What is TrustRank? How to Improve it?
+0
+0
+0

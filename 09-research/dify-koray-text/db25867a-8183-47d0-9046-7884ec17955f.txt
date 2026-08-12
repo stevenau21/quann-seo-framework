@@ -1,0 +1,108 @@
+HTML <img> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <img> HTML Tag is used to include an image within a webpage or website. Photos are no longer directly added to web pages by websites these days; instead, images are connected to web pages through the use of the <img> HTML Tag, which provides space for the image. The <img> HTML Tag is part of the images tags in HTML Element Reference. The attributes of the <img> HTML Tag are alt, crossorigin, height,ismap, loading, longdesc, referrer-policy, sizes, src, srcset, usemap, width, global and event attributes.
+<img> code block example to learn how it works is given below.
+<img src="sampleimage.jpg" alt="Sample Image">
+The second example usage of the “<img>” code block example is below.
+<img src="/pix/places/eiffel-tower-ground-up_3x4.jpg" alt="Eiffel tower in Paris, France">
+Contents of the Article
+show
+1.
+What is <img> HTML Tag?
+2.
+How to Use <img> HTML Tag?
+2.1.
+Example Usage of <img> HTML Tag?
+3.
+What are the Attributes of <img> HTML Tag?
+4.
+What are the Default CSS Settings for <img> HTML Tag?
+5.
+What are the Related other HTML Tags to <img>?
+What is <img> HTML Tag?
+To include an image in an HTML page, the <img> HTML Tag is used. Unlike images that are incorporated into websites, images that are linked to websites are technically inserted into websites. The <img> HTML Tag generates a holding place for the picture that is being referred to. Image tags require two attributes, which are the src and alt attributes, in order for them to function properly. Specifying the location to an image with the src attribute and specifying an alternate text for the picture with the alt attribute is useful in the event that the image cannot be shown for whatever reason. Additionally, the width and height of a picture should always be specified. Unless the width and height are given, the page may flicker while the image is being downloaded.
+How to Use <img> HTML Tag?
+To use <audio> HTML Tag, the web developer should construct an image element with the attributes <img src=”” alt=””> and no end tag with the image URL added between the double quotes of the src attribute. When using many photos in different scenarios, the srcset attribute can also be used to define which images to use for each situation. If the picture cannot be loaded, the value of the alt attribute is shown instead.
+Example Usage of <img> HTML Tag?
+The following examples of usage of <img> HTML Tag are shown below.
+<img
+src="galaxy.jpg"
+alt="Galaxy"
+style="width:1200px;height:991px;">
+<img src="/pix/galaxy-1200x991.jpg" alt="Galaxy">
+What are the Attributes of <img> HTML Tag?
+There are multiple attributes for the <img> HTML Tag. The following attributes are listed below.
+Global Attributes: The <audio> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <audio> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+height: The <img> HTML Tag supports height attribute. The height attribute specifies an image’s height.
+alt: The <img> HTML Tag supports autoplay attribute. The alt attribute specifies a text that will appear in place of an image.
+crossorigin: The <img> HTML Tag supports crossorigin attribute. The crossorigin attribute enables the use of images from third-party websites that permit cross-origin access.
+ismap: The <img> HTML Tag supports ismap attribute. The ismap attribute indicates that an image is being used as a server-side image map.
+loading: The <img> HTML Tag supports loading attributes. The loading attribute indicates whether a browser should immediately load an image or defer it until certain conditions are met.
+width: The <img> HTML Tag supports width attribute. The width attribute specifies an image’s width.
+longdesc: The <img> HTML Tag supports longdesc attribute. The longdesc attribute specifies a hyperlink to an image’s detailed description.
+referrerpolicy: The <img> HTML Tag supports referrer policy attribute. The referrer policy attribute specifies how to obtain an image’s referrer information.
+sizes: The <img> HTML Tag supports sizes attribute. The sizes attribute specifies the size of images for various page layouts.
+src: The <img> HTML Tag supports src attribute. The src attribute specifies the image’s location.
+srcset: The <img> HTML Tag supports srcset attribute. The srcset attribute specifies a collection of image files to be used in various circumstances.
+usemap: The <img> HTML Tag supports usemap attribute. The usemap attribute indicates that an image should be used as a client-side image map.
+What are the Default CSS Settings for <img> HTML Tag?
+The following is the Default CSS Setting for the <img> HTML Tag.
+.fit-picture {
+width: 250px;
+}
+What are the Related other HTML Tags to <img>?
+The other related HTML Tags to <img> HTML Tag are listed below.
+<figcaption> HTML Tag: The
+<figcaption>
+HTML Tag is related to <img> HTML Tag because they are both image tags. The <figcaption> HTML Tag specifies the caption for the figure tag.
+<figure> HTML Tag: The
+<figure>
+HTML Tag is related to <img> HTML Tag because they are both images tags. The <figure> HTML Tag denotes self-contained content.
+<picture> HTML Tag: The
+<picture>
+HTML Tag is related to <img> HTML Tag because they are both images tags. The <picture> HTML Tag is used to specify a container for multiple image resources.
+<svg> HTML Tag: The
+<svg>
+HTML Tag is related to <img> HTML Tag because they are both images tags. The <svg> HTML Tag is used to specify the container for SVG graphics.
+<area> HTML Tag: The
+<area>
+HTML Tag is related to <img> HTML Tag because they are both images tags. The <area> HTML Tag specifies the area contained within an image map.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <img> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <article> Tag Definition, Usage and Exa…
+TechSEO
+HTML <area> Tag Definition, Usage and Exampl…
+0
+0
+0

@@ -1,0 +1,118 @@
+HTTP Security Response Headers: Definition, Usage, Syntax and TYPES - Holistic SEO
+Skip to content
+HTTP Security Response Headers are designed to balance the usability and security of website users. HTTP Security Response Headers include Content Security Policy, HTTP Strict Transport Security, X-frame Options, XSS Protection, X-content-type Options, and referrer policy. HTTP Security Response Headers are designed to improve the privacy of the users, and the security of the web servers from hackers. The web development teams developed guidelines for the website security response headers such as Framework for Secure Application Design and Development, Security in Development: The IBM Secure Engineering Framework, and Open Web Application Security Project. Web browsers can use security-related response headers to avoid security vulnerabilities.
+HTTP Response Headers can be used for improving the web page speed besides improving the security and privacy of the users and the web servers. The list of security-related response headers can be found below.
+HTTP Strict Transport Security
+Content Security Policy
+X-Frame Options
+XSS Protection
+X-Content-type-options
+Referrer-Policy
+The security response headers are easy to implement, and audit. In this security-related HTTP Response Headers guideline, the implementation, and audit of the security response headers will be demonstrated with their definitions, syntax, and usage.
+Contents of the Article
+show
+1.
+1. HTTP Strict Transport Security
+2.
+2. X-Frame Options
+3.
+3. X-XSS-Protection
+4.
+4. X-Content-Type-Options
+5.
+5. Content-Security-Policy
+6.
+6. Referrer Policy
+7.
+7. Permissions Policy
+8.
+8. Feature Policy
+9.
+9. Expect-CT
+10.
+10. Clear-Site-Data
+11.
+11. Cross-Origin-Embedder-Policy
+12.
+12. Cross-Origin-Opener-Policy
+13.
+13. Cross-Origin-Resource-Policy
+14.
+What is the main relationship between security response headers and a web browser?
+15.
+What is the main relationship between the security response headers and a web server?
+16.
+What is the main relation between security response headers and a web page?
+17.
+What are other response header types besides security response headers?
+18.
+Last Thoughts on Security Response Headers and the Holistic SEO
+1. HTTP Strict Transport Security
+HTTP Strict Transport Security is a security-related response header to provide HTTPS connection for the web browsers by preventing the connection over HTTP. HTTPS is the extension of HTTP. Hypertext Transfer Protocol Secure is to provide a secure connection between the computers and the web users. HTTP Strict Transport Security response header forces a user to use the HTTPS connection for all of the assets of the web page. HTTP Strict Transport Security doesn’t let to use the lower versions of the Transfer Secure Layer (TLS). HTTP Strict Transport Security has three header values. Below, you can see the values for the HTTP Strict Transport Security with their header values.
+max-age: max-age for the HTTP Strict Transport Security represents the seconds that the web browser needs to remember that the website uses only HTTPS connection.
+includeSubDomains: includeSubDomains HTTP Strict Transport Security response header value determines whether the HTTP Strict Transport Security will be valid for the subdomains of the website or not.
+Preload: Every modern web browsers have a preload list for the HSTS websites. The preload response header helps a website to make itself registered to the HSTS Preload List. It means that the web browser will be able to create a faster HTTPS connection which will affect the timing of the TLS Handshake.
+The HTTP Strict Transport Security response header uses the 307 Redirection HTTP Status Code for redirecting an HTTP connection to the HTTPS connection. Below, you can see an example usage of the HTTP Strict Transport Security Response Header.
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+2. X-Frame Options
+X-Frame Options is a security-related Response Header that protects websites from clickjacking. Clickjacking is a web security-related thread that steals the content of the websites within an iframe to make the web user activity away from the actual content owner’s website. The X-frame-options security-related response header prevents a third party to render the content of the website within the iframe for another website. There are three different response header values for X-frame-options. These are “deny”, “sameorigin”, “allow-from: <DOMAIN list>”. The functions and meanings of the x-frame options response headers can be seen below.
+Deny: Deny is the value for the X-frame-options response header. It denies all third-party requests for rendering the website content within another webpage. It prevents the same website from rendering its content within the iframe.
+Same-origin: Same-origin HTTP Response Header value is to be used for the X-frame-Options response header to let only the same domain use the content of the website within the iframe.
+Allow-from: Allow-from is a response header value for X-frame-options to prevent other websites besides the listed within the value of the Allow-form from using the content of the website within the iframe. Via allow-from, a website can determine which other websites can use their content within the iframe or not.
+Below, there is an example usage of the X-frame-options security HTTP response header.
+X-Frame Options: DENY
+3. X-XSS-Protection
+X-XSS-Protection response header is an HTTP Header related to web security. It is used to prevent XSS (Cross-site Scripting) attacks. Cross-site Scripting is injecting harmful JavaScript codes into the JS Files of the website to gather the information related to the website users. Preventing XSS Attacks is important to provide secure web surfing to web users. X-XSS-Protection response header is used to determine, and block XSS Attacks while sanitizing the web page when the XSS is realized. There are three response header values that can be used for the X-XSS-Protection response header. These are “0”,  “1”, “1;mode=block”. The explanations of the X-XSS-Protection response header values and their usage for preventing the XSS Attacks to protect web users are below.
+“1”: “1” is a response header value for the X-XSS-Protection that helps a website to block the web page and sanitize it if the XSS Attack is realized.
+“0”: “0” is a response header value for the X-XSS-Protection that blocks the web page protection against the XSS Attacks.
+“1;mode=block”: “1;mode=block” is a value for the X-XSS-Protection that blocks the web page from rendering, but it doesn’t sanitize the web page.
+The sanitization of the web page means that if the XSS Attacks have been performed, the website will restore the old JS Files to clean the injected scripts. The example usage of the X-XSS-Protection can be seen below.
+X-XSS-Protection: 1; mode=block
+As a web security HTTP Response Header, X-XSS-Protection is a fundamental response header to be used for protecting the web users’ privacy, and the web servers’ security.
+4. X-Content-Type-Options
+X-Content-Type-Options is a security-related response header to protect web users and websites against the Multipurpose Internet Mail Extensions (MIME) type confusion attacks. MIME Type Confusion attacks rely on executable and uploadable files or dynamic HTML files. Content-type and X-content-type-options response headers are related to each other. X-content-type-options can make the content-type response header ignored by the web browser and the webserver. X-content-type-options have only a single response header value that can be used. The only response header value of the x-content-type-options is “nosniff”. The meaning of the “nosniff” means that the web browser won’t be able to perform sniffing.
+The example usage of the x-content-type-options can be found below.
+X-Content-Type-Options: nosniff
+X-content-type-options is are one of the most fundamental web security response headers. To learn more about the X-content-type directives, syntax, and web browser compatibility, read the “x-content-type-options” guide.
+5. Content-Security-Policy
+Content Security Policy (CSP) is a defense response header against XSS Attacks and Clickjacking. CSP is a detailed security-related policy protocol for websites. Content-security-policy response header is to forbid certain websites from making a request to the webserver and let only certain types of resources, and web page assets are downloaded. Content-security-policy can be created separately for different web page assets such as JavaScript, CSS, Image, and Font files. A CSP can determine which websites can make a request to use the CSS files of the website, or which resources will be downloaded from which web server addresses. An example of the Content-security-policy security response header usage is below.
+Content-Security-Policy: default-src 'self' https://holisticseo.digital;
+connect-src 'none';
+The “-src” suffix can be used for the “content”, “script”, “font”, “frame”, “IMG”, “media”, “default”, “object” to determine which resources should be downloaded from where. To use the content-security policy, the document directives, navigation directives, reporting directives, and fetch directives should be understood. These directives are to determine the limits and the working method of the CSP for the website. To learn how to create and use a Content Security Policy, read the related guideline.
+6. Referrer Policy
+Referrer-Policy is a security-related response header. The referrer policy response header protects the domain information during a click event for a new domain. A click event that results in landing to another domain can convey information related to the referrer domain. Referrer-Policy determines what information related to the referrer domain will be shared. Protecting the referrer information is to provide better privacy for web users. Referrer policy makes web redirection and surfing safer for web users. There are 8 different response header values that can be used with the referrer-policy security response header. These are “no-referrer”, “no-referrer-when-downgrade”, “origin”, “origin-when-cross-origin”, “same-origin”, “strict-origin”, “strict-origin-when-cross-origin”, “unsafe-url”. The explanations of the referrer-policy response header values are below.
+No-referrer will prevent any referrer information from being passed.
+No-referrer when-downgrade sends the referrer information if the HTTP Protocol stays the same or improves.
+Origin sends the referrer information with only the origin name.
+Origin-when-cross-origin sends the referrer information when the request is made from the same or a better HTTP version from the same domain to the same domain. If it is a request from another domain, only the original name will be sent.
+Same-origin sends the referrer information only for the internal requests, but no referrer information for the cross-origin requests.
+Strict-origin sends the referrer information if only the protocol level is the same.
+Strict-origin-when-cross-origin sends the referrer information, if only the protocol level is the same for cross-origin requests, it sends all referrer information for the same-origin requests.
+Unsafe-url sends all the referrer information for all of the ref situations.
+To learn more about the referrer-policy, implementation, the related Referrer-Policy response header guide can be read.
+7. Permissions Policy
+Permissions Policy is a security-related response header to determine which web browser features will be able to be used within the website or not. Permissions policy prevents iframes from using the same web browser features for the content that has been taken from the website via the iframe HTML tag. To make the distinction between the “permissions policy” rules, the “allowed”, “not allowed”, and the “self” response header values can be used.
+Allowed means that the specified rules will be valid for the domain itself and all the other domains that use the content from the website via the iframe HTML tags. Allowed is a positive response header value for the permission policy response header.
+Not allowed means that the specified rules will be valid for all of the domains, but the web browser features that are specified won’t be able to be used.
+Self means that the specified web browser features will be used or not used for only the domain itself, while the rules won’t be applied to third-party domains.
+The features that can be used via the permissions policy are listed below.
+Camera
+Microphone
+Autoplay
+Fullscreen
+Geolocation
+Encrypted-media
+Accelerometer
+Example usage of the permissions policy can be found below.
+Feature-Policy: autoplay'none'; geolocation 'none'
+8. Feature Policy
+Feature policy is an HTTP response header for web security. The featured policy is a similar security-related HTTP response header to the permissions policy. The main difference between the feature policy and the permissions policy response headers is that the feature policy is valid for only the website’s own content, and frames, while the permissions policy can be effective for all the websites.
+Below, you can see the syntax of the feature policy security response header.
+Feature-Policy: <directive> <allowlist>
+Below you can see the usage of the feature policy example.
+Feature-Policy: autoplay 'none'
+The example above states that the web browser feature autoplay is disabled for the nested browser context and the specific window.. The nested browser context represents the iframes that take the content from another web page. To learn further read the related Feature-Policy guide.
+9. Expect-CT
+Expect-CT is a security-related response header. Expect-CT HTTP Header is to make a website to use Certificate Transparency requirements. If a website uses a misused certificate, it will be reported to the report URI. Expect-CT HTTP Response header is only for the connections via HTTPS, not HTTP. And, since June 2021, the Expect
+
+[...truncated...]

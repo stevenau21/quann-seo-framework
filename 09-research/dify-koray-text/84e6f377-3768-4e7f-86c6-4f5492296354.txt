@@ -1,0 +1,177 @@
+Apache Bench (AB) Load Test Tutorial: [From Install to Usage] - Holistic SEO
+Skip to content
+Apache Bench (ab) is a popular HTTP load testing and performance benchmarking tool. It can be used to test the speed of a website’s server. The best way to use Apache Bench is to run it from your local machine, which makes it very easy for beginners or intermediate users who are looking for something accessible. The interface is user-friendly and provides results within one minute of running the program.  Apache Bench (AB) gets installed automatically within the Apache web server, or it can be installed separately as an Apache utility by the user. Also, Apache Bench can be used with Asp.NET Core APIs.
+In this article, Application Life Cycle Management, Load Testing and HTTP Web Server’s testing need, a tutorial for methodologies of using Apache Bench tool will be told.
+Contents of the Article
+show
+1.
+What is the Application Life Cycle Management for Apache Bench?
+2.
+How to Download Apache Benchmark (AB) Load Testing Tool?
+3.
+How to Use Apache Bench for Load Testing?
+4.
+What can be learned from an Apache Bench Load Test?
+5.
+What are the Parameters that can be used with Apache Bench Tool?
+6.
+How to Print an Apache Bench Load Test Result?
+6.1.
+How to Output Apache Bench Result Load Test to a File as HTML Table?
+7.
+How to Print out an Apache Bench Load Test Result as GNUPLOT and Text File?
+8.
+Apache Bench Usage Example for Facebook Load Test
+9.
+Apache Bench Usage Example for Twitter Load Test
+10.
+Apache Bench Usage Example for Google Load Test
+11.
+What are the other Methods for Load Tests?
+11.1.
+How to Perform Load Test with Python?
+12.
+Last Thoughts on Web Server Load Tests with Apache Bench and Holistic SEO
+What is the Application Life Cycle Management for Apache Bench?
+Application Life Cycle is the process of planning, designing, constructing, testing, and launching a product or service. Application Life Cycle is connected to the Apache Bench because Apache Bench can be used for testing the API’s server and usability under heavy HTTP Load. The test section of the Application Life Cycle (ALM) has different tests, such as Unit Test, Functional Test, and Load Test. Apache Bench is used for performing the Load Tests.
+Load test is an important step for measuring the endurance of a web server for an application or website. If a website can’t respond to a requestor, it won’t be able to satisfy the users. Thus, a website or any project with a server should perform HTTP Load testing before launching its project. Also, Time to First Byte is a page speed metric that related to the power of the server, thus testing a server with Apache Bench can give an idea to an SEO or developer about the server’s situation compared to competitors.
+How to Download Apache Benchmark (AB) Load Testing Tool?
+To download and install the Apache Benchmark (AB), the “apt-get” command should be used in Linux and Max operation systems. To download and install the Apache Bench on Windows, the binary zip file should be downloaded from one of the distributors below.
+ApacheHaus
+Apache Lounge
+Bitnami WAMP Stack
+WampServer
+XAMPP
+To download the Apache Benchmark with “apt-get” command, you can use the example below.
+apt-get install apache2-utils
+To download and install the Apache Bench (AB) for windows, you should choose the correct binary zip version and modules for your load testing purposes and device. In this example, you will see an Apache Bench installing process for Windows 64bit,  from Apache Lounge.
+After downloading the “Apache 2.4.47 Win64” file as a zip file, you should extract the file as a folder and open the extracted file to take the “ab.exe” file from the “bin” folder.
+Apache Bench can be used via the “ab.exe” file from any folder or path as long as the “ab.exe” file in the specified folder in the command line. In this example, Apache Bench will be used from the desktop by copying the “ab.exe” file.
+How to Use Apache Bench for Load Testing?
+To use the Apache Bench (ab) the steps below should be followed.
+Change the working directory which includes “ab.exe”.
+Open the command line prompt.
+Use the “ab” command to determine the website to be tested.
+Use -k, -n, -c parameters to determine the load test’s methodology.
+An example of usecase for the Apache Bench is below.
+ab -k -n 100 -c 10 http://www.holisticseo.digital/
+The explanation of the code block is below.
+Used “ab” for the load test.
+Used -k parameter to use the “HTTP KeepAlive Feature”.
+Used -n parameter for the request count.
+Use -c to determine the concurrent request count.
+In this example, we have performed 100 requests in total, and 10 requests per time, we used HTTP KeepAlive Feature” for “holisticseo.digital”.
+Below, you will see the result of “Apache Bench” test result.
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+Benchmarking www.holisticseo.digital (be patient).....done
+Server Software:        cloudflare
+Server Hostname:        www.holisticseo.digital
+Server Port:            80
+Document Path:          /
+Document Length:        0 bytes
+Concurrency Level:      10
+Time taken for tests:   2.762 seconds
+Complete requests:      100
+Failed requests:        0
+Non-2xx responses:      100
+Keep-Alive requests:    0
+Total transferred:      70714 bytes
+HTML transferred:       0 bytes
+Requests per second:    36.21 [#/sec] (mean)
+Time per request:       276.200 [ms] (mean)
+Time per request:       27.620 [ms] (mean, across all concurrent requests)
+Transfer rate:          25.00 [Kbytes/sec] received
+Connection Times (ms)
+min  mean[+/-sd] median   max
+Connect:        6   27 141.8      7    1018
+Processing:    10  242 390.6     63    1081
+Waiting:       10  220 381.8     55    1081
+Total:         17  269 406.6     70    1088
+Percentage of the requests served within a certain time (ms)
+50%     70
+66%     76
+75%     76
+80%   1071
+90%   1078
+95%   1087
+98%   1087
+99%   1088
+100%   1088 (longest request)
+According to the output of the Apache Bench usage example, the time per request was 276 MS, and 36.21 requests performed per second. The max spent time for connecting was 1018 MS, for processing, it was 1081. Simply, we can see the general situation of the webserver for Holisticseo.digital with Apache Bench load test.
+Note: To use the Apache Bench load testing tool without an SSL Configuration, you should use “HTTP” instead of “HTTPS”, and a trailing “/” should exist on the URL.
+What can be learned from an Apache Bench Load Test?
+An Apache Bench load test includes information about the things below.
+Server Software
+Server Hostname
+Server Port
+Document Path
+Document Length
+Concurrency Level for the Apache Test
+Time taken for tests
+Complete requests
+Non-2xx responses
+Keep-Alive requests
+Total transferred
+HTML transferred
+Requests per second
+Time per request
+Time per request for all  concurrent requests
+Transfer rate
+Connection Times for Connecting, Processing, Waiting, Total.
+Percentage of the requests served within a certain time (ms)
+What are the Parameters that can be used with Apache Bench Tool?
+The parameters that can be used for an Apache Bench test and their explanations are below.
+“-A” authorized-user: password: Provides evidence to the server for use in BASIC Authentication. It is simply: put between username and password and is sent to the server base64 encoded over the link, regardless of whether the server needs it (ie, a “401 authentication required” response is not expected).
+“-b” bumper-size: Length of TCP send/receive buffers in bytes.
+“-B” local-address: The address to listen to when making remote connections.
+“-c” connection-count: A number of connections to be processed at the same time. The default value is one connection at a time.
+“-c” connection-count: A number of connections to be processed at the same time. The default value is one connection at a time.
+“-C” cookie-name = value: Cookie: Adds a line to the request. Usually, a name = value pair is used as an argument. These pairs can be more than one.
+“-D”: The message “percentage served within XX [ms] table” is not displayed. (Available for backward compatibility).
+“-e” CSV-file: Comma-separated values ​​(CSV) file showing how much (in percent) of the submitted request was served per unit time (milliseconds). It is naturally more useful than the ‘Gnuplot file as the results are ‘coiled’.
+“-E” client-certificate-file: When connecting to an SSL site, the certificate provided in PEM format is used for authentication with the server. The file is expected to contain the client certificate, intermediate certificates, and private key sequentially. Available in 2.4.36 and later.
+“-f” protocol: SSL/TLS protocol is specified (SSL2, SSL3, TLS1, TLS1.1, TLS1.2 or ALL). Support for TLS1.1 and TLS1.2 is for version 2.4.4 and later.
+“-g” Gnuplot-file: The measured values ​​are written to a ‘Gnuplot or TSV (tab-delimited values) file. This file is considered as a data file by Gnuplot, IDL, Mathematica, Igor, or even Excel. The headers of the data columns are in the first row of the file.
+“-h”: Shows usage information.
+“-H” custom-header: Adds an extra header to the request. The custom header is specified as a name-value pair with a colon between them. Sample: “Accept-Encoding: zip/zop; 8bit”
+“-I”: GETrequests HEADare made instead of requests.
+“-k”: Enables the HTTP KeepAlive (persistent connection) feature, which means multiple requests can be served in a single session. The feature is turned off by default.
+“-l”: If the length of the reply is not fixed, it will not report errors. It can be useful on automata pages. For version 2.4.7 and above.
+“-m” HTTP-method: Specify specific HTTP methods for requests. For 2.4.10 and later versions.
+“-n” requests: The number of requests to apply to the server during the benchmark session. By default, a single request is made with no performance criteria.
+“-p” POST-file: The file containing data about the POST request. Also -T, don’t forget to specify the option. -P proxy-authority, password: Proxy provides evidence to the server for use in BASIC Authentication. It is simply: put between username and password and is sent to the server as base64 encoded over the connection, regardless of whether the proxy needs it (ie without waiting for a “407 proxy authentication required” response).
+“-q”: When the number of requests exceeds 150, it outputs a processed request counter for every 100 or 10% requests, to the standard error. “-q” option ensures that this output is not produced.
+“-r”: Even if the socket gets an error, the program will not exist.
+“-s” timeline: The maximum number of seconds to wait before the socket times out. 30 seconds is the default. For version 2.4.4 and higher.
+“-S”: If there are more than one or two standard deviations between the mean and median values, neither the mean value, the standard deviation value, nor the warning/error messages are displayed. By default, the minimum/average / maximum values ​​are displayed. (Backward compatibility).
+“-t” seconds: It is specified how long the measurement process will be applied. The -n 50000option is applied internally. You can use this to make a comparison over a period of time. By default, there is no time limit.
+“-T” content-type: Content type to be used for POST / PUT data. Example: application / x-www-form-urlencoded. The default value is text/plain.
+“-v” verbosity: The verbosity level of the output is specified. 4and above with information about headings, 3and above with response codes (404, 200, etc.), 2 and above with warning and information messages.
+“-u” PUT-file: The file containing the PUT data. Also, -T don’t forget to specify its option.
+“-V”: Display version information and exit.
+“-w”: Prints result in HTML tables. The default table has a white background and two columns.
+“-x”: attributes: The attributes to be used in the tag are specified. The specified attributes are placed inside the tag in the style.
+“-X”: proxy [: port]: A proxy server is used for requests.
+“-y”: attributes: The attributes to be used in the tag is specified.
+“-Z”: password-cluster: The SSL / TLS cipher set is specified (see OpenSSL (1) passwords).
+How to Print an Apache Bench Load Test Result?
+There are two different methodologies for taking the output of the Apache Bench load test as a file.
+HTML Table Output with “-w” parameter.
+Gnuplot Output with “-g” parameter.
+How to Output Apache Bench Result Load Test to a File as HTML Table?
+To print a Apache Bench Load test result as HTML Table, the “-W” parameter should be used. An eaxmple of printing Apache Bench load test result is below.
+ab -k -n 100 -c 10 -w http://www.holisticseo.digital/
+The “-w” parameter here will print all the output as a HTML Table with raw codes.
+The printed HTML Table output should be taken to an HTML editor to see the results in a clear way. Below, you will see the printed HTML Table output for the Apache Bench Load test.
+How to Print out an Apache Bench Load Test Result as GNUPLOT and Text File?
+To print out an Apache Bench (ab) load test results as a txt file and gnuplot, the “-g” parameter and the file name should be used. Below, you can see an example of Apache Bench load test result as txt file and gnuplot.
+ab -k -n 100 -c 10 -g output.txt http://www.holisticseo.digital/
+In the current working directory, you will see an output file as “output.txt”.
+Below, you will see the output file’s content for the Apache Bench test.
+In the Apache Bench load test result as a text file, you can see the request date, and response times. On the other hand, Gnuplot is a data visualization programming language, and a “Gnuplot” file can be used to visualize the Apache Bench test results.
+Apache Bench Usage Example for Facebook Load Test
+An example test with the 100 concurrent requests from 10 virtual users at the same time by keeping the HTTP Connection alive for Facebook with Apache
+
+[...truncated...]

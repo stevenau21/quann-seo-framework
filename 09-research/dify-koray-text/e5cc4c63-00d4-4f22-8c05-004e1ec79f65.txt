@@ -1,0 +1,88 @@
+HTML <strike> Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <strike> HTML Tag specifies the look of a strikethrough to text by drawing a horizontal line across to it. The <strike> HTML Tag is frequently referred to as the <strike> element. Strikethrough text was defined using the <strike> HTML Tag in HTML 4. However, HTML5 has deprecated the strike> HTML Tag.The <strike> HTML Tag is part of the Formatting HTML category in HTML Element Reference. The attribute of the <strike> HTML Tag is global attributes.
+<strike> code block example to learn how it works is given below.
+<strike> Text here....</strike>
+The second example usage of the “<strike>” code block example is given below.
+&lt;strike&gt;: <strike>Recipe for today: Dried Fish</strike> SOLD OUT<br/>
+&lt;s&gt;: <s>Recipe for today: Buttered Shrimp</s> SOLD OUT
+Contents of the Article
+show
+1.
+What is <strike> HTML Tag?
+2.
+How to Use <strike> HTML Tag?
+2.1.
+Example Usage of <strike> HTML Tag?
+3.
+What are the Attributes of <strike> HTML Tag?
+4.
+What are the Default CSS Settings for <strike> HTML Tag?
+5.
+What are the Related other HTML Tags to <strike>?
+What is <strike> HTML Tag?
+The <strike> HTML Tag was used for enclosing a text that is shown with strikethrough style with a line drawn with it. The <strike> HTML Tag has limited browser support, and its use may result in unexpected outcomes. Rather than that, users make use of the <s> and <del> elements or use the CSS. Though certain browsers may still allow the use of <strike> HTML Tag, it may have already been deleted from the relevant web standards, be in the process of being withdrawn, or be preserved simply for compatibility.
+How to Use <strike> HTML Tag?
+To use the <strike> HTML Tag, the web developer should write the <strike></strike> with a text inserted between the start and end tags for strikethrough style. Although the tag lacks local attributes, it can be used with any of the global or event content attributes.
+Example Usage of <strike> HTML Tag?
+The following examples of usage of <strike> HTML Tag are given below.
+&lt;strike&gt;: <strike>Milk Tea: Black Tea</strike> SOLD OUT<br/>
+&lt;s&gt;: <s>Milk Tea: Nutella</s> SOLD OUT
+&lt;strike&gt;: <strike>Dior Makeup: Dior Backstage Flash Perfector Concealer</strike> SOLD OUT<br/>
+&lt;s&gt;: <s>Dior Makeup: Dior Backstage Face & Body Primer</s> SOLD OUT
+What are the Attributes of <strike> HTML Tag?
+There is only attribute for the <strike> HTML Tag. The <strike> HTML Tag supports the Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+What are the Default CSS Settings for <strike> HTML Tag?
+There are no available Default CSS Settings for <strike> HTML Tag.
+What are the Related other HTML Tags to <strike>?
+The other related HTML Tags to the <strike> HTML Tag are listed below.
+<code> HTML Tag: The
+<code>
+HTML Tag is related to <strike> HTML Tag because they are both in formatting HTML Tags. The <code> HTML Tag is used to define the document’s code.
+<abbr> HTML Tag: The
+<abbr>
+HTML Tag is related to <strike> HTML Tag because they are both in formatting HTML Tags. The <abbr> HTML Tag is used to define abbreviations such as HTML, CSS, and so on.
+<blockquote> HTML Tag: The
+<blockquote>
+HTML Tag is related to <strike> HTML Tag because they are both in formatting HTML Tags. The <blockquote> HTML Tag is used to include quotations from other sources.
+<bdi> HTML Tag: The
+<bdi>
+HTML Tag is related to <strike> HTML Tag because they are both in formatting HTML Tags. The <bdi> HTML Tag is used to create text that is written in a different direction than the rest of the text.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <strike> Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <dir> Tag Definition, Usage and Example…
+TechSEO
+HTML <noframes> Definition, Usage and Exampl…
+0
+0
+0

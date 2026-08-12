@@ -1,0 +1,142 @@
+Skip to content
+Time to Interactive (TTI) is the performance metric that measures when the web page’s subresources have been downloaded and when the user can interact with the web page. Time to Interactive is not just about “loading responsiveness”. It is also about the “downloading the main resources of the web page”. To measure and understand the Time to Interactive (TTI), understanding First Contentful Paint and Total Blocking Time is important. Time to Interactive Definition is that is the timing metric for a web page’s becoming fully interactive.
+Contents of the Article
+show
+1.
+What does Time to Interactive Measure?
+2.
+How does Google Chrome Lighthouse Calculate the Time to Interactive?
+3.
+What is a Good Time to Interactive Timing?
+4.
+How to Optimize Time to Interactive for better UX and SEO Performance?
+5.
+What is Quiet Window and Relation to the Time to Interactive?
+6.
+What is the Consistent Interactivity and Relation to the Time to Interactive?
+6.1.
+Optimize the Javascript Assets to Improve Time to Interactive
+6.2.
+Optimize CSS Files and Images for Better Time to Interactive Metric
+7.
+Why is Time to Interactive Important for User Experience and Holistic SEO?
+8.
+What is the Difference Between Time to Interactive and Interaction to Next Paint?
+What does Time to Interactive Measure?
+Time to Interactive (TTI) measures three things as basic during the web page loading process.
+When the web page shows the useful content that means the
+First Contentful Paint
+happened.
+When the event handlers have been activated and the web page can respond to the interaction of the user.
+The web page can respond to the user in 50 milliseconds.
+First CPU Idle, Total Blocking Time, and “Consistently Interactive Timing” terms are related to the Time to Interactive. First CPU Idle is the measuring metric for the first time when the browser’s main thread is idle while the Time to Interactive is related to the “Consistently Interactivity”. To assume that Time to Interactive happened, the main thread should be idle for more than 5 seconds, this is called “Quiet Window” or “Main Thread Quiet Timing”. You may see a descriptive graphic for showing the difference between First CPU Idle and Consistently Interactivity on the big brands’ web sites.
+You may see that the 5s Main Thread Quiet Metric has been tried to be distinguished by the Chrome Developers.
+How does Google Chrome Lighthouse Calculate the Time to Interactive?
+To calculate the Time to Interactive, Lighthouse uses the HTTP Archive’s Time to Interactive Data. If the web page’s TTI Score is better than the general of the web sites around the world, Lighthouse will mark the TTI Score as good. Below, you may find the HTTP Archive’s Time to Interactive Data Graphic.
+Time to Interactive Timing between 2012 and 2020 according to the HTTP Archive.
+What is a Good Time to Interactive Timing?
+You may see the fast and slow definitions for the Time to Interactive in terms of timing.
+Time to Interactive (TTI) Metric in Seconds
+Result for TTI
+0-3.8
+Fast
+3.9-7.3
+Moderate
+Over 7.3
+Slow
+These thresholds for the TTI can vary from time to time according to the new developments in the area of Web Development.
+How to Optimize Time to Interactive for better UX and SEO Performance?
+Time to Interactive measures when the main content of the web site has been downloaded and the user can interact with the web site without any blocking for the rest of his/her pageview. In this context, Time to Interactive is a “user-centric” Pagespeed Metric and also it is directly related to the Main Thread’s overloading percentage. Because of this situation, a Holistic SEO or a Developer has to know to read the Main Thread’s activity during the page loading process.
+To perform analysis of the browser’s main thread, Chrome Web Tools’ Performance tab can be used. You may see an example below:
+You may see the Time Stamps for DCL, FP, FCP and more… Also, you can see that “Long Tasks” that block the user are marked with a red notch at the right top corner.
+You may see that in our web pages, most of the time there is not a “Blocking situation for the User Input”. To improve the TTI, downloading the main content and also leaving the CPU as idle for after the main content downloading time is important. In our example, after the First Meaningful Paint and
+Largest Contentful Paint
+, there is a single interactivity blocker Long Task.
+In such a situation, Holistic SEO or a Developer should diagnose the specific code block that causes this situation and optimize it. To improve Time to Interactive, there are several methods that are useful for also other page speed metrics. You will find these methods below in the context of Time to Interactive.
+What is Quiet Window and Relation to the Time to Interactive?
+Quiet Window term is related to the Time to Interactive directly. It measures the CPU Blocking time after the First Contentful Paint. If there is no “Long Task” after the First Contentful Paint for the 5 seconds, it means that the user can see the content and interact it continuously after the main content has been downloaded. Long Tasks are determined by the Browsers’ Long Task API.
+In this context, if a web site uses the server-side rendering, the Holistic SEO or the Developer should be more careful about the Time to Interactive. Because, Server-side Rendering or the Pre-rendering can improve the First Paint, First Contentful Paint, First Meaningful Paint, and First Contentful Paint while decreasing the Time to Interactive performance.
+Time to Interactive and Quiet Window Relation
+Since, there is a static web page at the background, in the server, even if this static HTML Web page can be shown the user in a glimpse, the necessary Event-handlers and also Javascript Files are must for creating the consistent interactivity. This situation creates the assumption that the web page is broken and won’t give the response, or in the best possible situation, it will annoy the users.
+What is the Consistent Interactivity and Relation to the Time to Interactive?
+To understand the Pagespeed Science, knowing the related terms to the different page speed metrics is important. In this context, Consistent Interactivity means the web page is interactive for a long period of time without any interruption. Consistent Interactivity and the Quiet Window are the related terms to each other in terms of Time to Interactive Measurement. And,
+Time to First Byte
+is related to the First Paint,
+First Input Delay
+, First Contentful Paint, First Meaningful Paint and Total Blocking Time in terms of web site usability and page speed science.
+You may see the Time To Interactive and the Long Task Durations.
+User-centric performance metrics are directly related to the users’ experience during the web page loading process, “loading responsiveness” is directly related to the users’ interactivity to the during the page loading process. In this context, the Consistent Interactivity term has the importance to understand Time to Interactive.
+Optimize the Javascript Assets to Improve Time to Interactive
+There are several reasons that Javascript is one of the most important elements for Time to Interactive. First, Javascript files are parser-blocker, and also the browser’s main thread can be blocked because of the long Javascript tasks. To prevent this situation, optimizing Javascript assets is important. You may see the methods for optimizing the Javascript.
+Preload the most important web page assets in terms of Javascript.
+Render the most important web page assets before others.
+Use Caching for the important Javascript Files.
+Use “code splitting” and reduce the Javascript Payloads for the Main Thread.
+Use ECMAScript 6 Syntax for decreasing the Javascript File’s size.
+Remove the Unused and dead codes from the Javascript Files
+Minify and Compress the Javascript files by deleting comments and spaces.
+Do not use long variable chains and do not use global scope instead of local scope.
+Decrease the size and count of the third-party tracker Javascripts
+Reduce the Javascript Execution time with a better code structure.
+Use “defer” and “async” according to the Main Thread’s Situation.
+Inline the Critical Javascript and be careful that any of the inlined Javascript Codes are not longer than 1500 Characters.
+Use Javascript Bundles but be careful about the Javascript Files’ total size so that it may not become larger than necessary.
+Long and Short Task Differences.
+To learn how to optimize Javascript Files, you may read our related guidelines.
+Optimize CSS Files and Images for Better Time to Interactive Metric
+To improve the Time to Interactive performance metric, CSS Files, and also Images are important. To improve the “Fully Interactive” timing, optimizing image and CSS files are important so that the First CPU Idle, Largest Contentful Paint, and naturally TTI can happen earlier. You may use the methods below for optimizing image and CSS files in terms of improving the Time to Interactive.
+Clean the unused and dead codes from the CSS Files.
+Clean the multiple IDs from the CSS Files.
+Unify the CSS Files to decrease the request count.
+Inline the Critical CSS Codes to create faster visual communication with the user.
+Preload the important CSS Files.
+Download some of the CSS Files as asynchronously to eliminate Render-blocking Resources.
+Use lesser Color Codes to prevent the bloating of the CSS Files.
+Refactor the CSS Files to prevent the bloating of the CSS Files.
+To optimize the image files in terms of improving the Time to Interactive, you may use the methods below:
+Use the more efficient image formats and file extensions.
+Delete the unnecessary image pixels to decrease the size of the image.
+Try to use inlined images such as Base64 or SVG.
+Delete the image metadata to decrease the size of the image files.
+Try to use CDN to deliver the images faster without overloading the actual web site server.
+Try to find the best Image Optimization Algorithm for the UX and also Web Page Performance.
+You may see that the Time to Interactive has happened after long period of time “low CPU Activity”. Also, this image is an inlined image in the form of SVG, so you may see that our “Image optimization suggestions” at practice.
+Why is Time to Interactive Important for User Experience and Holistic SEO?
+According to the Long Task API, if the main thread of the browser is busy more than 50 MS, it means that there is a blocking situation for user interactivity. If the user can’t interact with the web page, this situation will frustrate the user. TTI is important for creating a reliable impression on the users’ perception and protect the users’ visit intent in their focus. If there is a web site usability issue on the web page, users’ “bad abandonment” possibility will increase.
+If there is a bad UX, the SEO Performance also will suffer from this situation. That’s why being a Coder / Marketer or Holistic SEO is important. Thanks to this vision, a Holistic SEO can simply diagnose the Long Task, understand the reasons by examining the code structure, test the users’ behavior and web page’s usability and optimize the web page’s interactivity for a better Search Engine Quality Score and Trust for specific search intents.
+What is the Difference Between Time to Interactive and Interaction to Next Paint?
+Two important performance measures in web development are Time to Interactive (TTI) and Interaction to Next Paint (INP), each of which concentrate on different facets of the user experience. TTI calculates the amount of time it takes for a webpage to reach full interactive status, which indicates how long it will take for viewers to interact with the page’s contents in a meaningful way. It evaluates the website’s general responsiveness and usability. INP, on the other hand, focuses on the instantaneous time interval that passes between a user-initiated interaction and the ensuing visual refresh on the screen. This measure is essential for evaluating how responsive a web application is thought to be when a user performs particular actions. When combined, TTI and
+Interaction to Next Paint (INP)
+offer a comprehensive view of a website’s performance, which helps developers optimize responsiveness and overall interactivity for better user experiences.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+PageSpeed
+What is Time to Interactive (TTI) and How to Optimize It?
+by Koray Tuğberk GÜBÜR
+time to read: 8 min
+Pag
+
+[...truncated...]

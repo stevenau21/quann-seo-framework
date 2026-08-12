@@ -1,0 +1,155 @@
+Skip to content
+Google Image Sitemaps provide Google with about the images contained on a website. Visitors can do an image search on Google. Using Google image extensions in Sitemaps provides the search engine with additional information about the images on the website.
+The inclusion of image and video content in an
+XML sitemap
+can also help Google find out the content that could possibly be included in the search results of image and video search results. This can help Google discover images that it may not find when crawling. For example, images that are called up using JavaScript forms. XML sitemaps are a convenient way to share page information with search engines like Google. Submitting a sitemap does not guarantee that a page will be indexed, but it does not harm the rankings. As a result, it is a practice of search engine optimization to submit an XML sitemap.
+Other Guidelines Related to the Sitemaps:
+What is HTML Sitemap
+What is XML Sitemap
+How to  Submit a Sitemap
+What is News Sitemap
+What is a Video Sitemap?
+Contents of the Article
+show
+1.
+What Does an Image Sitemap Consist of?
+2.
+How to Include Images in a Normal Sitemap?
+3.
+Tags in an Image Sitemap
+4.
+What Image Sitemap Tags did expire?
+5.
+Last Thoughts on Image Sitemaps and Image SEO
+What Does an Image Sitemap Consist of?
+A typical image sitemap contains the URL and other information about the specific images that Google, Bing, and other search engines should index. In summary, the standard XML tags used for sitemaps can be described as a schema and are used by all major search engines.
+In order to provide Google with information about images on the website, the website owner must add relevant details to the standard sitemap. This includes the type of image, the subject, the caption, the title, the geographical location, and the license. The process enables website owners to determine which images are most important on each page. You can see an example of an image sitemap below:
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<image:image>
+<image:loc>https://www.holisticseo.digital/image-1.jpg</image:loc>
+<image:caption>Everything you need to know about Images</image:caption>
+<image:geo_location>London, United Kingdom</image:geo_location>
+<image:title>Image Sitemap Example</image:title>
+<image:license>Creator:HolisticSEO.Digital, Credit Line: HolisticSEO, Copyright Notice: Free to Use</image:licence>
+</image:image>
+</urlset>
+In this example, we have only one image in our Image Sitemap. It has a caption, title, license information, images’ geographic location, and also its URL information. If for a website, image traffic is important, using an image sitemap can help for better Image SEO Rankings and Projects.
+Also, the “xmlns:image=”http://www.google.com/schemas/sitemap-image/1.1” section is for telling the sitemap’s structure to the crawler.
+How to Include Images in a Normal Sitemap?
+In 2010, Google has published an official statement related to the sitemaps. According to the statement, webmasters, and developers can contain the images in their regular sitemaps.  The biggest benefit of adding an Image Sitemap or Images to a normal sitemap is that websites that draw their images with JavaScript can index their visual content faster and more easily. The fact that Google sometimes has a problem crawling JavaScript-based sites or that the Rendering Budget (a subunit of the Crawl Budget Concept) problem exists for websites makes this situation more advantageous.
+In addition, the visual content that best complements the text content in a URL can be drawn from the sitemap.
+Google’s Official Statement Related to the Images in Sitemaps.
+Source: https://webmasters.googleblog.com/2010/04/adding-images-to-your-sitemaps.html
+You may find an example of showing the Images in a regular sitemap below:
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://www.holisticseo.digital/image-sitemap</loc>
+<image:image>
+<image:loc>https://www.holisticseo.digital/image-1.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://www.holisticseo.digital/image-2.jpg</image:loc>
+</image:image>
+</url>
+</urlset>
+Here, we have two different XML Name Space (xmlns) sections. One of them shows the code structure and context of the URL in the sitemap, while the other one is showing the image URL’s context and structure. The content URL is holisticseo.digital/image-sitemap, and it has two different images that describe the content in a better way according to the other images on the same web page, these are holisticseo.digital/image-1.jpg and holisticseo.digital/image-2.jpg assets.
+Giving image content in a sitemap is saving the crawl budget and also helps the Googlebot to understand the web page in a better context.
+Tags in an Image Sitemap
+Image sitemaps have unique tags that can be used for giving more details about the images. You can find all the images tags in the images sitemaps below:
+Tag
+Required
+Description
+Deprecated for Google Search Engine
+<image:image>
+Yes
+It includes all the necessary information for the images in the image sitemap. Each <image:image> tag can contain 1000 URLs.
+<image:loc> tag for image sitemaps is not deprecated and valid for Google search engines.
+<image:loc>
+Yes
+This section has all the URLs of the image. An image URL doesn’t have to be on the same server as the actual site. In these kinds of situations, the domain address which includes the images should be verified via Google Search Console. Using a Content Delivery Network may speed up the images’ download time but checking its crawlability by the Search Engine Crawlers is important. So, make sure that your
+robots.txt
+file doesn’t disallow the crawling of any content in your Content Delivery Network.
+<image:loc> tag for image sitemaps is not deprecated and valid for Google search engine.
+<image:caption>
+Optional
+A caption is a textual content for the images. It is actually the message of the image. It can be inserted into the images or it can be also in the image sitemap.
+<image:caption> is deprecated for Google Search Engine on 6 May 2022.
+<image:geo_location>
+Optional
+This information shows the geographic location of the images’ visual content. Such as,
+<image:geo_location>London, United Kingdom</image:geo_location>
+.
+<image:geo_location> is deprecated for Google Search Engine on 6 May 2022.
+<image:title>
+Optional
+The title of the image is also similar to the Alt Tags. It should describe the images’ contribution to the article or general content.
+<image:title> is deprecated for Google Search Engine on 6 May 2022.
+<image:license>
+Optional
+It includes image metadata such as Creator, Credit Line, and License Type.
+<image:license> is deprecated for Google Search Engine on 6 May 2022.
+Tags in the Image Sitemap XML file for SEO are explained in the table.
+What Image Sitemap Tags did expire?
+The deprecated and expired image sitemap tags are “image:caption”, “image:title”, “image:license”, “image:geo_location” tags. These tags are expired and have not been used by the Google search engine since 06 May 2022. Deprecated image sitemap tags are related to image meta-data rather than the image URLs such as “image:title”, or “image:license” which both are related to the metadata of the image for title and license information. Thus, Google continues to use image sitemaps to find image locations and relate them to web pages, but Google systems for image crawling and indexing do not use image metadata sitemap tags. The deprecated image sitemap tags for Google are still used by Microsoft Bing, Yandex, and other commercial web search engine systems, thus expired image sitemap tags are expired only for search engine Google.
+Last Thoughts on Image Sitemaps and Image SEO
+Using high-quality images and 1200px width can help to take visibility on Google Discovery. Google Image Search is getting more traffic and engagement every year for e-commerce search along with visual content search. Using image sitemaps can increase the images’ crawling and indexing efficiency, and it creates a comprehensive vision for the Google Search Algorithms. If Google or another Search Engine can’t index your images, it can give the necessary quality points or visual relevance for your web pages because the images are missing in the indexed version of every indexed web page. It can cause millions of clicks and revenue loss. Image Search and Image SEO are important terms for Holistic SEO.
+Thanks to Image SEO Components and Google’s improving AI for visual queries, image sitemaps, and adding images into the regular sitemaps are getting more important according to before. Thanks to images in sitemaps or image sitemaps, creating more relevance and contextual confidence along with expertise and authority can be easier. Giving all relevant visual content for a URL to Google with more detail in a brief time will increase the quality degree of the website in the eyes of Google.
+To learn more about Image SEO and Visual Content’s Importance for Search Engines, you may read our guidelines. We will continue to improve our image sitemap guidelines with time.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+8 thoughts on “What is an image sitemap?”
+Google has announced that extension tags are going away, including image sitemap: caption, geo_collection, title, and license.
+Reply
+Hey Kelly, yes, according to the Google’s own feedback, the image sitemap article is updated.
+Reply
+I find it kinda strange, the uploaded image sitemap in Search Console doesn’t count the images in the sitemap, it only shows the number of URLs and instead of images it says videos.
+Reply
+I have been searching for it for a long time. It is easy to understand, create, and submit a normal sitemap. But I am confused about how we can create an Image Sitemap, and add it to our normal sitemap.
+Reply
+Hello Adil,
+To create a URL and Image Sitemap in the same XML file, you can use a tool like Screaming Frog, or you can use Python Jinja2 library to create them inside a template.
+Reply
+I think image SEO is very important .
+many great websites use it
+Reply
+I completely agree with the importance of having a clear hierarchy and structure in an image sitemap for SEO purposes. As a reader, I appreciate the attention to detail and thoroughness of this guide. It’s great to have a comprehensive resource like this to refer back to when creating or optimizing my own image sitemaps. Thank you for sharing!
+Reply
+Great article! As an SEO specialist, I completely agree with the importance of an image sitemap for improving website visibility and user experience. I’ll definitely be implementing these strategies in my own SEO work. Thanks for sharing!
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+What is an image sitemap?
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+TechSEO
+What is Video Sitemap? Everything You Should Know…
+TechSEO
+How to Create a Google News Sitemap XML for SEO
+0
+0
+8

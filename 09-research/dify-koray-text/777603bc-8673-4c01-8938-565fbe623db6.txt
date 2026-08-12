@@ -1,0 +1,122 @@
+Skip to content
+The <optgroup> HTML Tag specifies a collection of <option> components that share a label. When selecting from a large list of alternatives, the <optgroup> HTML Tag assists users in understanding their selections. The <optgroup> HTML Tag is part of Forms and Input Tags category in HTML Element Reference. The attributes of the <optgroup> HTML Tag are disabled, label, global attributes and events attributes.
+<optgroup> code block example to learn how it works is given below.
+<select name="City">
+<optgroup label="Korea">
+<option value ="Seoul">Seoul</option>
+<option value ="Busan">Seoul</option>
+<option value ="brisbane">Seoul</option>
+</optgroup>
+</select>
+The second example usage of the “<optgroup>” code block example is given below.
+<select name="City">
+<optgroup label="Korea">
+<option value ="Seoul">Korea</option>
+<option value ="">Seoul</option>
+<option value ="busan">Busan</option>
+</optgroup>
+<optgroup label="Philippines">
+<option value ="manila">Manila</option>
+<option value ="cavite">Cavite</option>
+<option value ="nelson">Nelson</option>
+</optgroup>
+<optgroup label="Indonesia">
+<option value ="Jakarta">Jakarta</option>
+<option value ="Bali">Bali</option>
+<option value ="jakarta">jakarta</option>
+</optgroup>
+</select>
+Contents of the Article
+show
+1.
+What is <optgroup> HTML Tag?
+2.
+How to Use <optgroup> HTML Tag?
+2.1.
+Example Usage of <optgroup> HTML Tag?
+3.
+What are the Attributes of <optgroup> HTML Tag?
+4.
+What are the Default CSS Settings for <optgroup> HTML Tag?
+5.
+What are the Related other HTML Tags to <optgroup>?
+What is <optgroup>  HTML Tag?
+The <optgroup> HTML Tag is used to construct a drop-down list with a group of choices from the same category. When there is a large list of items, the <optgroup> HTML Tag is necessary.
+How to Use <optgroup>  HTML Tag?
+To use the <optgroup> HTML Tag, The site developer should write <optgroup label=””></optgroup> with an unlimited number of <option> and/or script-supporting elements. It is necessary to specify the label attribute. The name of the group is provided to the user using this property. The <optgroup> HTML Tag would be worthless without it. The <optgroup> HTML Tag must be enclosed by a <choose> HTML Tag.
+Example Usage of <optgroup>  HTML Tag?
+The following example of usage of <optgroup> HTML tag is given below.
+<select>
+<optgroup label="Group 1">
+<option>Option 1.11</option>
+</optgroup>
+<optgroup label="Group 2">
+<option>Option 2.11</option>
+<option>Option 2.22</option>
+</optgroup>
+<optgroup label="Group 3" disabled>
+<option>Option 3.11</option>
+<option>Option 3.22</option>
+</optgroup>
+</select>
+What are the Attributes of <optgroup>  HTML Tag?
+There are multiple attributes for the <optgroup> HTML Tag. The following attributes are listed below.
+Global Attributes: The <colgroup> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <colgroup> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+Disabled Attribute: The <colgroup> HTML Tag supports Disabled Attributes. The Disabled Attribute indicates whether or not an option-group should be disabled.
+Label Attribute: The <colgroup> HTML Tag supports Label Attributes. The Label Attribute is used to specify a label for an option group.
+What are the Default CSS Settings for <optgroup>  HTML Tag?
+The following is the Default CSS Setting for the <colgroup> HTML Tag.
+label {
+font-family: "Fira Sans", sans-serif;
+}
+What are the Related other HTML Tags to <optgroup>?
+The other related HTML Tags to the <optgroup> HTML Tag are listed below.
+<button> HTML Tag: The
+<button>
+HTML Tag is related to <colgroup> HTML Tag because they are both forms and input tags. The HTML button is created using the <button> HTML Tag.
+<select> HTML Tag: The
+<select>
+HTML Tag is related to <colgroup> HTML Tag because they are both forms and input tags. The <select> HTML Tag is used to define drop down list.
+<option> HTML Tag: The <option> HTML Tag is related to <colgroup> HTML Tag because they are both forms and input tags. The <option> HTML Tag define the select element’s options.
+<label> HTML Tag: The
+<label>
+HTML Tag is related to <colgroup> HTML Tag because they are both forms and input tags. The <label> HTML Tag is used to specify label for input element.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <optgroup>  Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <form> Definition, Usage and Examples
+TechSEO
+HTML “meter” Tag Definition, Usage and…
+0
+0
+0

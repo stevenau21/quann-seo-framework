@@ -1,0 +1,138 @@
+Last Modified HTTP Response Header for Cache Validation - Holistic SEO
+Skip to content
+The Last-Modified HTTP Response Header is a server response header that indicates the latest modification date when asked to provide a source. Here’s how it looks, but there’s a lot to it.
+A user might browse your website and the browser temporarily stores a lot of elements, such as HTML, images, style sheets, and even some infrequently changing dynamic content. The resources are cached by default in all browsers, so a header response is not required.
+You get more traffic now! The user is returning to your site a second time, and you put in an even better presentation this time. A “304 not modified” response is sent to the browser if the server finds no changes made since the last visit. The information then loads from the local cache.
+A response header called “last-modified” is sent along with a request header called “If modified”. If modified, tell the browser when the resource was last modified and whether to use the cached version or download the newer edition. The last-modified header tells the browser what type of resource was last modified. The headers here control the caching of data.
+Last-Modified Response Header Example.
+Contents of the Article
+show
+1.
+What is the Syntax of the Last-Modified Response Header?
+2.
+What are the Directives for Last-Modified HTTP Header?
+3.
+What are the Advantages of Last-Modified HTTP Response Header?
+4.
+Which Browsers Do Support Last-Modified HTTP Header?
+5.
+What is the Difference Between Etag and Last-Modified Response Header?
+6.
+Can Etag and Last-Modified be used together?
+7.
+What is the Relation between If-Unmodified-Since and Last-Modified HTTP Headers?
+8.
+What is the Difference Between Expires and Last-Modified HTTP Header?
+9.
+What is the Related RFC Document for the Last-Modified HTTP Header?
+10.
+What are related HTTP Headers to the Last-Modified?
+11.
+Last Thoughts on Last-Modified HTTP Header and Holistic SEO
+What is the Syntax of the Last-Modified Response Header?
+Syntax of the Last-Modified HTTP Response Header can be found below.
+Last-Modified: <day-name>, <day> <month> <year> <hour>:<minute>:<second> GMT
+Below, you can see a real-world example of the Last-Modified HTTP Response Header.
+Last-Modified: Wed, 14 Apr 2021 16:11:30 GMT
+What are the Directives for Last-Modified HTTP Header?
+Directives for the Last-Modified Header are listed below.
+“<day-name>” includes names of days such as “Mon”, “Wed”, “Thur”.
+“<day>” includes the day of the month as numbers such as “15” or “16”
+“<month>” includes the names of the months in a case-sensitive way, “Jan”, “Mar”.
+“<year>” includes the year number as four digits, such as “2022”.
+“<hour>” contains the hour data as two digits numbers such as “02”, and “12”.
+“<minute>” contains the two-digit numbers for specifying the minute, such as “43”, and “24”.
+“<second>” encompasses the two digits numbers for specifying the seconds, such as “24”, and “56”.
+“<GMT>” includes all dates on the HTTP server that will be displayed in GMT (Greenwich Mean Time), instead of local time.
+Last-Modified directives are mostly about date and time information for specifying the last updated and modified date of the related resource for the web page.
+What are the Advantages of Last-Modified HTTP Response Header?
+Advantages of Last-Modified HTTP Header are listed below.
+Bandwidth Efficiency: decreases the bandwidth usage by serving the non-modified resources from the browser cache.
+Server Load: decreases the server overload and overheat possibility.
+User Experience: improves the user experience with faster responding web pages.
+Crawlability: improves a website’s crawlability.
+Which Browsers Do Support Last-Modified HTTP Header?
+The browsers that support the Last-Modified header are listed below.
+Google Chrome
+Internet Explorer
+Firefox
+Safari
+Opera
+Below, you can see an image that contains the browser compatibility information for the Last-Modified HTTP Header.
+Last-modified browser compatibility
+What is the Difference Between Etag and Last-Modified Response Header?
+Etag and Last-Modified HTTP headers are different response headers used by the HTTP Cache system of browsers. Etag HTTP header generates a hash value for validating the usability of a web page resource regarding updates, while Last-Modified uses a date that shows the last modified date of a web page resource. Etag generates a more concrete and secure caching validation system than the Last-Modified response header. The second difference between Etag and Last-Modified is that Etag values can’t be understood by a client, while the value of the Last-Modified is clear.
+Can Etag and Last-Modified be used together?
+Yes, Etag HTTP Header and Last-Modified HTTP Header can be used together. E-tag is superior to Last-Modified. Last-Modified can be used as a fallback mechanism in case of Etag doesn’t generate the correct hash value or command for managing the browser cache.
+What is the Relation between If-Unmodified-Since and Last-Modified HTTP Headers?
+If-Unmodified-Since HTTP Request Header is a contemporary of the Last-Modified HTTP Header. If-Unmodified Since includes a date as a value to request a web page resource’s version after a specific date.  “If-Unmodified-Since” HTTP Header is connected to the Last-Modified HTTP Header. If the Last-Modified HTTP Header is used by a client as a request header, the server will check whether the Last-Modified HTTP Response Header value to see whether it is after the value of the “If-Unmodified-Since” HTTP Request Header or not.
+What is the Difference Between Expires and Last-Modified HTTP Header?
+A client (and proxy) uses the Expires header to determine whether it needs to make an HTTP request to the server. The closer you are to the expiration date, the more likely it is that the client will make an HTTP request to the server.
+What is the Related RFC Document for the Last-Modified HTTP Header?
+The related information for the Last-Modified response header can be found in RFC 7232. A related section for Last-Modified from RFC 7232 can be found below.
+Last-Modified and RFC 7232
+Below, you can read the related RFC 7232 section for the Last-Modified HTTP Header.
+This header field indicates when the origin server believes that the selected representation was last modified. The time and date this was determined are shown in the response. As an example, we have seen that last-modified: Tue, 15 Nov 1994 12:45:26 GMT
+If the origin server sends Backend/LastModified, then only selected representations should do so if the last modification date is consistent and easily determined. In this way, HTTP traffic on the Internet can be severely curtailed, and the service can be scaled more reliably.
+Typically, representations consist of multiple elements behind the resource interface. The time at which they were last modified is typically when any of those elements were last changed. How that value is calculated for a resource is an implementation detail considered outside the scope of this specification. How its value can be used by recipients of the Last-Modified header field for conditional requests and testing locally cached responses is what is important to HTTP. When generating the Date field value for its response, an origin server must obtain the Last-Modified value of the representation as close as possible to the time when its representation is developed. Receivers can make accurate calculations regarding representation modification times, especially if the representation has changed near the time the response is generated. A clock-equipped origin server should never submit a Last-Modified date (Time/Date) afterward than the server’s time of message origination.
+RFC 7232
+What are related HTTP Headers to the Last-Modified?
+The related HTTP Headers for the Last-Modified are listed below.
+ETag HTTP Header
+Cache-Control HTTP Header
+Expires HTTP Header
+If-Unmodified-Since
+If-Modified
+If-Non-Matched
+Vary
+These related HTTP Headers for the Last-Modified are other HTTP Response and Request headers for local storage and HTTP Cache system.
+Last Thoughts on Last-Modified HTTP Header and Holistic SEO
+The last-Modified HTTP Response header is important for server-side cache systems. It helps clients to consume less bandwidth while downloading web page resources faster. Last-Modified HTTP headers can also be used with Etag Headers and Cache-Control as a fallback mechanism. Understanding Last-Modified syntax and directives helps a Holistic SEO to understand a resource’s change frequency, importance, and whether it can be cached or not. An SEO can check the memory cache and disk cache along with other types of HTTP Cache Hierarchies with the help of knowledge for response and request headers such as Last-Modified.
+Our Last-Modified HTTP Header guideline and article will be updated in the light of new information over time.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+4 thoughts on “Last Modified Response Header Definition and Examples”
+Thanks, that was a useful overview.  I think it would also be useful if you added information on how to add the tag to a webpage (that is what I was searching for), so, to add using meta to html for example:
+Reply
+Hey Peter, thank you. We will add the information that you requested to this web page.
+Reply
+Koray,
+Is it safe to say that the “Last Modified Date” is the date on which the webpage updated the information? For example, if you upload a PDF document on your webpage, the last modified date will reflect when the document was uploaded.
+Reply
+Hey Anne,
+Yes, last-modified-date response header reflects the date that the web page is updated substantially.
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+PageSpeed
+Last Modified Response Header Definition and Examples
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+PageSpeed
+What is the Expires HTTP Header?
+PageSpeed
+Cache-Control HTTP Response Header
+0
+0
+4

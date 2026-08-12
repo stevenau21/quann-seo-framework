@@ -1,0 +1,108 @@
+X-Frame-Options HTTP Header: Syntax, Directive, Examples - Holistic SEO
+Skip to content
+The X-Frame-Options HTTP response header can be used to indicate whether a browser should be permitted to render a page within a <frame>, an <iframe>, an <embed>, or an <object>. Websites can utilize this to protect themselves from click-jacking attacks by ensuring that their content is not integrated into other websites. The HTML element <frame> designates a specific region within which another HTML page may be displayed. The <iframe> HTML element denotes a nested browsing environment, allowing another HTML page to be embedded within the current one. The <embed> HTML element inserts external content into the document at the specified location. The <object> HTML element denotes an external resource that can be interpreted as an image, a nested browsing context, or a resource that will be handled by a plugin. The additional protection is offered only if the browser used to access the document supports X-Frame-Options. There are multiple values using the X-Frame-Options HTTP Header. The values using the X-Frame-Options HTTP Header are the “deny” and “sameorigin”. An example of X-Frame-Options HTTP Header is written below.
+Header always set X-Frame-Options "SAMEORIGIN"
+Header set X-Frame-Options "DENY"
+add_header X-Frame-Options SAMEORIGIN always;
+The X-Frame-Options HTTP Header Response Header can be seen above. In this article, the X-Frame-Options HTTP Header Syntax, Directives, and Uses examples will be processed.
+Contents of the Article
+show
+1.
+What is X-Frame-Options HTTP Header?
+1.1.
+What is the Syntax of X-Frame-Options HTTP Header?
+1.2.
+What are the Directives of X-Frame-Options HTTP Header?
+2.
+How to use X-Frame-Options HTTP Header?
+2.1.
+Examples of X-Frame-Options HTTP Header Use
+3.
+What is the Specification Document for X-Frame-Options HTTP Header?
+4.
+What is the type of X-Frame-Options HTTP Header?
+4.1.
+What is the similar HTTP Header to the X-Frame-Options HTTP Header?
+5.
+Which Browsers Support X-Frame-Options HTTP Header?
+What is X-Frame-Options HTTP Header?
+The X-Frame-Options are used to prevent clickjacking attacks on the site. It specifies whether a browser is allowed to render a website in a frame, iframe, embed, or object format. The X-Frame-Options has been replaced by the frame-ancestors directive in Content-Security-Policy(CSP).
+What is the Syntax of X-Frame-Options HTTP Header?
+The X-Frame-Options HTTP Header uses only one value in its syntax. The syntax for using the X-Frame-Options HTTP Header is written below.
+X-Frame-Options: directive
+What are the Directives of X-Frame-Options HTTP Header?
+The X-Frame-Options HTTP Header has multiple values in its directives. An example directive for using the X-Frame-Options HTTP Header is given below.
+deny
+It prevents the site from being presented in a framed environment, which means that it cannot be incorporated into other websites.
+sameorigin
+This directive enables the page to be presented within the frame if the frame shares the page’s origin.
+allow-from uri
+This directive has been deprecated and should no longer be used. It is incompatible with newer browsers. This allows the page to be rendered within the frame defined by the uri.
+How to use X-Frame-Options HTTP Header?
+In order to avoid clickjacking assaults on the site, the X-Frame-Options are enabled. It indicates whether a browser is permitted to render a website in a frame, an iframe, an embed, or an object format, among other things. In Content-Security-Policy, the X-Frame-Options directive has been superseded with the frame-ancestors directive (CSP).
+Examples of X-Frame-Options HTTP Header Use
+The following is an example of how to use the X-Frame-Options HTTP Header.
+When you set up Apache, you can tell it to send the X-Frame-Options to all pages that come from the same source.
+Header always set X-Frame-Options "sameorigin"
+Add the following code to the file called httpd.conf.
+header always set x-frame-options "DENY"
+On Nginx, open the server configuration file and add the following code to restrict access to the server to requests from the same origin.
+add_header x-frame-options "SAMEORIGIN" always;
+What is the Specification Document for X-Frame-Options HTTP Header?
+There is only one specification document for X-Frame-Options HTTP Header which is the RFC 7034. The RFC 7034 Article 2 discusses the X-Frame-Options HTTP Header and its applications. Additionally, this article discusses the X-Frame-Options HTTP Header’s definition and usage.
+What is the type of X-Frame-Options HTTP Header?
+The X-Frame-Options HTTP Header is a Response Header because it contains additional information about the response, such as its location or the server that provided it.
+What is the similar HTTP Header to the X-Frame-Options HTTP Header?
+There is a similar HTTP to the X-Frame-Options HTTP Header which is the Content-Security-Policy HTTP Header. The Content-Security-Policy HTTP Header response header, like the X-Frame-Options HTTP Header, allows website administrators to control which resources a user agent is allowed to load for a given page.
+Which Browsers Support X-Frame-Options HTTP Header?
+There are multiple browsers that support X-Frame-Options HTTP Header. The following browsers are listed below.
+Chrome Browser is compatible with the X-Frame-Options HTTP Header.
+Edge Browser is compatible with the X-Frame-Options HTTP Header.
+Firefox Browser is compatible with the X-Frame-Options HTTP Header.
+Internet Explorer Browser is compatible with the X-Frame-Options HTTP Header.
+Opera Browser is compatible with the X-Frame-Options HTTP Header.
+Safari Browser is compatible with the X-Frame-Options HTTP Header.
+WebView Android Browser is compatible with the X-Frame-Options HTTP Header.
+Chrome Android Browser is compatible with the X-Frame-Options HTTP Header.
+Firefox Android Browser is compatible with the X-Frame-Options HTTP Header.
+Opera Android Browser is compatible with the X-Frame-Options HTTP Header.
+Safari IOS Browser is compatible with the X-Frame-Options HTTP Header.
+Samsung Internet Browser is compatible with the X-Frame-Options HTTP Header.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+X-Frame-Options HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+Clear-Site-Data HTTP Header: Syntax, Directive, Ex…
+TechSEO
+Content-Type HTTP Header: Syntax, Directive, Examp…
+0
+0
+0

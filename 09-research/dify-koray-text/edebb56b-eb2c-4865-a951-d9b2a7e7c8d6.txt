@@ -1,0 +1,1101 @@
+Country Code Top Level Domain (ccTLD) List and Guide - Holistic SEO
+Skip to content
+County-code Top Level Domain (ccTLD) is a custom domain extension for a specific country, region, or language. ccTLDs are a type of Top-level Domain. Country-code Top Level Domains are sold to the end-user by different Network Information Center (NIC) for specific countries, languages, and regions through the relevant domain registrar organizations.
+ccTLD or Country-code Top-Level Domain indicates the relationship of a domain name to a particular country, region, or language. For the purchase of a Country Code Top Level Domain, residence permit, official institution documents or citizenship may be required for the relevant country, region, or language. ICANN or the Internet Corporation for Assigned Numbers and Names is the organization that operates, manages, and regulates the ccTLDs. The Network Information Center is the responsible institution for the specific Country Code Top Level Domain. In the world, there are more than 200 Country Code Top Level Domain. Internet Corporation for Assigned Numbers and Names also operates the “theme-based” Top Level Domains or Generic Top Level Domains (gTLD) such as “.com”, “.org”, or “.digital”.
+Before proceeding more, you may want to read the related articles to Country Code Top Level Domains.
+What is a domain name?
+What is DNS Lookup?
+What is an IP Address?
+How to Perform DNS Reverse Lookup with Python?
+What is a Content Delivery Network (CDN)?
+Contents of the Article
+show
+1.
+What are the Features of the Country-code Top-Level Domains?
+2.
+Country Code Top Level Domain (ccTLD) List for Countries
+3.
+What are the Changes in the Country Code Top Level Domains (ccTLDs) in Time?
+4.
+Last Thoughts on Country Code Top Level Domains and Holistic SEO
+What are the Features of the Country-code Top-Level Domains?
+The key features of the Country Code Top Level Domains (ccTLD) are listed below.
+ccTLD is unique for a region, language, or country.
+ccTLD is being operated by the ICANN.
+The specific ccTLD is managed by the related Network Information Center.
+ccTLD can be purchased if certain conditions for the related country, language, region are being met.
+All of the ccTLDs consist of two Latin Alphabet that represents the region, country, or the language.
+There are Internationalized Country Code Top Level Domains (IDN-ccTLD) as exceptions that have more than two letters. For instance, in Sri Lanka, there are “.lk” extension as ccTLD, but also “.ලංකා/.இலங்கை” IDN-ccTLD are being used for Sinhala and Tamil Languages.
+Generic Top Level Domains have specific variations for certain web sites such as “.io” for “software” and “.org” for “organizations”. Country Code Top Level Domains do not have a specific purpose, their main characteristic is being determined by the region, language, and country differences.
+Country Code Top Level Domain (ccTLD) List for Countries
+In the country-specific ccTLD list below, you can see which ccTLDs are available for which country. You can also see which ccTLDs are accessible via Domain Name Security Extensions (DNSSEC). DNSSEC is an important term for web site security, it is a part of the Domain Name Security System which protects the web site from phishing attacks and more. In the list, you will also see whether the ccTLD is being accessed via an Internationalized Domain Name or not. Internationalized Domain Name (IDN) can be used Latin Alphabet along with localized letters. An Internationalized Domain Name also can be used with only Latin Letters in case that the language is being used in the Latin Alphabet. For instance, the German Language is being written in Latin Alphabet, thus, “.de” ccTLD can be used with the Latin Alphabet based letters that are specific to Germany such as “à, á, â, ã”. It doesn’t mean that every IDN can be used with only the non-Latin Alphabet letters like in the Sri Lanka example.
+ccTLD
+Country / Region
+DNSSEC
+IDN
+.ac
+Ascension Island
+Yes
+Yes
+.ad
+Andorra
+Yes
+No
+.ae
+United Arab Emirates
+No
+No
+.af
+Afghanistan
+Yes
+No
+.ag
+Antigua and Barbuda
+Yes
+No
+.ai
+Anguilla
+No
+No
+.al
+Albania
+No
+No
+.am
+Armenia
+Yes
+No
+.an
+Netherlands Antilles (now deleted – with the 2010 political dissolution of this region as an overseas territory, the ccTLD was closed down in 2015)
+No
+No
+.ao
+Angola
+No
+No
+.aq
+Antarctic
+No
+No
+.ar
+Argentina
+Yes
+Yes
+.as
+American Samoa
+No
+Yes
+.at
+Austria
+Yes
+No
+.au
+Australia
+Yes
+No
+.aw
+Aruba
+Yes
+No
+.ax
+Åland Islands (until March 2006 still accessable at
+.aland.fi
+)
+No
+No
+.az
+Azerbaijan
+No
+No
+.ba
+Bosnia and Herzegovina
+No
+No
+.bb
+Barbados
+No
+No
+.bd
+Bangladesh
+No
+Yes
+.be
+Belgium
+Yes
+Yes
+.bf
+Burkina Faso
+No
+No
+.bg
+Bulgaria
+Yes
+Yes
+.bh
+Bahrain
+No
+No
+.bi
+Burundi
+No
+No
+.bj
+Benin
+No
+No
+.bl
+Saint-Barthélemy
+No
+No
+.bm
+Bermuda
+No
+No
+.bn
+Brunei
+No
+No
+.bo
+Bolivia
+No
+No
+.br
+Brazil
+Yes
+Yes
+.bq
+Bonaire,  Saba,  Sint Eustatius
+No
+No
+.bs
+Bahamas
+No
+No
+.bt
+Bhutan
+No
+No
+.bv
+Bouvet Island (registration not yet possible)
+No
+No
+.bw
+Botswana
+Yes
+No
+.by
+Belarus
+Yes
+No
+.bz
+Belize
+Yes
+No
+.ca
+Canada
+Yes
+Yes
+.cc
+Cocos Islands
+Yes
+No
+.cd
+Democratic Republic of the Congo
+No
+No
+.cf
+Central African Republic
+No
+No
+.cg
+Republic of the Congo
+Yes
+No
+.ch
+Switzerland
+Yes
+Yes
+.ci
+Côte d’Ivoire
+No
+No
+.ck
+Cook Islands
+Yes
+No
+.cl
+Chile
+Yes
+Yes
+.cm
+Cameroon
+Yes
+No
+.cn
+China
+Yes
+Yes
+.co
+Colombia
+Yes
+No
+.cr
+Costa Rica
+Yes
+No
+.cs
+Czechoslovakia (Inactive)
+No
+No
+.cu
+Cuba
+No
+No
+.cv
+Cape Verde
+No
+No
+.cw
+Curaçao
+Yes
+No
+.cx
+Christmas Island
+No
+No
+.cy
+Cyprus
+Yes
+No
+.cz
+Czech Republic
+Yes
+No
+.dd
+German Democratic Republic (Never Activated)
+No
+No
+.de
+Germany
+Yes
+Yes
+.dj
+Djibuti
+Yes
+No
+.dk
+Denmark
+Yes
+Yes
+.dm
+Dominica
+No
+No
+.do
+Dominican Republic
+No
+No
+.dz
+Algeria
+No
+No
+.ec
+Ecuador
+Yes
+No
+.ee
+Estonia
+No
+Yes
+.eg
+Egypt
+No
+No
+.eh
+Western Sahara (due to the political conflict between the countries of Western Sahara and Morocco, this ccTLD is currently not live)
+No
+No
+.er
+Eritrea
+Yes
+No
+.es
+Spain
+No
+No
+.et
+Ethiopia
+Yes
+No
+.eu
+European Union
+Yes
+Yes
+.fi
+Finland
+Yes
+Yes
+.fj
+Fiji
+No
+No
+.fk
+Falkland Islands
+No
+No
+.fm
+Micronesia
+Yes
+No
+.fo
+Faroe
+Yes
+No
+.fr
+France
+Yes
+Yes
+.ga
+Gabon
+No DS resource record available
+No
+.gb
+United Kingdom (No longer in use since
+.uk
+became the established ccTLD for the United Kingdom)
+Yes
+No
+.gd
+Grenada
+No
+No
+.ge
+Georgia
+No
+No
+.gf
+French Guiana
+No
+No
+.gg
+Guernsey
+No
+No
+.gh
+Ghana
+Yes
+No
+.gi
+Gibraltar
+Yes
+No
+.gl
+Greenland
+No
+No
+.gm
+Gambia
+Yes
+No
+.gn
+Guinea
+No DS resource record available
+No
+.gp
+Guadeloupe
+No
+No
+.gq
+Equatorial Guinea
+Yes
+No
+.gr
+Greece
+Yes
+Yes
+.gs
+South Georgia and the South Sandwich Islands
+No
+No
+.gt
+Guatemala
+No
+Yes
+.gu
+Guam
+No
+No
+.gw
+Guinea-Bissau
+No
+No
+.gy
+Guyana
+No
+No
+.hk
+Hong Kong
+No
+Yes
+.hm
+Heard Island and McDonald Islands
+Yes
+No
+.hn
+Honduras
+Yes
+No
+.hr
+Croatia
+No
+No
+.ht
+Haiti
+Yes
+Yes
+.hu
+Hungary
+Yes
+No
+.id
+Indonesia
+Yes
+Yes
+.ie
+Ireland
+No
+No
+.il
+Israel
+No
+Yes
+.im
+Isle of Man
+Yes
+No
+.in
+India
+Yes
+No
+.io
+British Indian Ocean Territory
+Yes
+No
+.iq
+Iraq
+No
+No
+.ir
+Iran
+No
+Yes
+.is
+Iceland
+No
+Yes
+.it
+Italy
+No
+Yes
+.je
+Jersey
+No
+No
+.jm
+Jamaica
+No
+No
+.jo
+Jordan
+Yes
+No
+.jp
+Japan
+Yes
+No
+.ke
+Kenya
+Yes
+No
+.kg
+Kyrgyzstan
+Yes
+No
+.kh
+Cambodia
+Yes
+No
+.ki
+Kiribati
+No
+No
+.km
+Comoros
+No
+No
+.kn
+St. Kitts and Nevis
+No
+No
+.kp
+North Korea
+Yes
+No
+.kr
+South Korea
+Yes
+Yes
+.kw
+Kuwait
+Yes
+No
+.ky
+Cayman Islands
+No
+No
+.kz
+Kazakhstan
+Yes
+No
+.la
+Laos
+Yes
+No
+.lb
+Lebanon
+Yes
+No
+.lc
+St. Lucia
+Yes
+No
+.li
+Liechtenstein
+Yes
+Yes
+.lk
+Sri Lanka
+Yes
+Yes
+.lr
+Liberia
+No DS resource record available
+No
+.ls
+Lesotho
+Yes
+No
+.lt
+Lithuania
+Yes
+Yes
+.lu
+Luxembourg
+Yes
+Yes
+.lv
+Latvia
+Yes
+Yes
+.ly
+Libya
+Yes
+No
+.ma
+Marocco
+No
+No
+.mc
+Monaco
+No
+No
+.md
+Moldova
+Yes
+No
+.me
+Montenegro
+Yes
+No
+.mf
+Saint Martin
+No
+No
+.mg
+Madagascar
+No
+No
+.mh
+Marshall Islands
+No
+No
+.mk
+Macedonia
+Yes
+No
+.ml
+Mali
+Yes
+No
+.mm
+Myanmar
+Yes
+No
+.mn
+Mongolia
+Yes
+No
+.mo
+Macau
+No
+No
+.mp
+Northern Mariana Islands
+No
+No
+.mq
+Martinique
+No
+No
+.mr
+Mauritania
+No
+No
+.ms
+Montserrat
+No
+No
+.mt
+Malta
+No
+No
+.mu
+Mauritius
+No
+No
+.mv
+Maldives
+Yes
+No
+.mw
+Malawi
+Yes
+No
+.mx
+Mexico
+No
+No
+.my
+Malaysia
+Yes
+Yes
+.mz
+Mozambique
+Yes
+No
+.na
+Namibia
+Yes
+No
+.nc
+New Caledonia
+Yes
+No
+.ne
+Niger
+No
+No
+.nf
+Norfolk Island
+No
+No
+.ng
+Nigeria
+Yes
+No
+.ni
+Nicaragua
+Yes
+No
+.nl
+Netherlands
+Yes
+No
+.no
+Norway
+No
+Yes
+.np
+Nepal
+Yes
+No
+.nr
+Nauru
+Yes
+No
+.nu
+Niue
+Yes
+Yes
+.nz
+New Zealand
+Yes
+Yes
+.om
+Oman
+Yes
+No
+.pa
+Panama
+No
+No
+.pe
+Peru
+No
+Yes
+.pf
+French Polynesia
+No
+No
+.pg
+Papua New Guinea
+No
+No
+.ph
+Philippines
+Yes
+No
+.pk
+Pakistan
+Yes
+No
+.pl
+Poland
+Yes
+Yes
+.pm
+Saint Pierre and Miquelon
+Yes
+Yes
+.pn
+Pitcairn Islands
+No
+No
+.pr
+Puerto Rico
+Yes
+No
+.ps
+Palestine
+Yes
+No
+.pt
+Portugal
+Yes
+Yes
+.pw
+Palau
+No
+No
+.py
+Paraguay
+Yes
+No
+.qa
+Qatar
+Yes
+No
+.re
+Réunion
+Yes
+Yes
+.ro
+Romania
+Yes
+Yes
+.rs
+Serbia
+No
+No
+.ru
+Russia
+No
+No
+.rw
+Rwanda
+Yes
+No
+.sa
+Saudi Arabia
+Yes
+Yes
+.sb
+Solomon Islands
+No
+No
+.sc
+Seychelles
+Yes
+No
+.sd
+Sudan
+No
+No
+.se
+Sweden
+Yes
+Yes
+.sg
+Singapore
+Yes
+No
+.sh
+St. Helena
+Yes
+Yes
+.si
+Slovenia
+Yes
+Yes
+.sj
+Svalbard and Jan Mayen (registration is not yet possible)
+No
+No
+.sk
+Slovakia
+No
+No
+.sl
+Sierra Leone
+No
+No
+.sm
+San Marino
+No
+No
+.sn
+Senegal
+No
+No
+.so
+Somalia
+No
+No
+.sr
+Suriname
+No
+No
+.ss
+South Sudan
+Yes
+No
+.st
+São Tomé and Príncipe
+No
+No
+.su
+Soviet Union (this TLD has been managed by Russia since the dissolution of the USSR)
+Yes
+Yes
+.sv
+El Salvador
+No
+No
+.sx
+Sint Maarten
+Yes
+No
+.sy
+Syria
+No
+No
+.sz
+Swaziland
+No
+No
+.tc
+Turks and Caicos Islands
+Yes
+No
+.td
+Chad
+No
+No
+.tf
+French Southern and Antarctic Lands
+Yes
+Yes
+.tg
+Togo
+No
+No
+.th
+Thailand
+No
+Yes
+.tj
+Tajikistan
+No
+No
+.tk
+Tokelau
+Yes
+No
+.tl
+Timor-Leste (formerly
+.tp
+)
+Yes
+No
+.tm
+Turkmenistan
+Yes
+Yes
+.tn
+Tunisia
+No
+Yes
+.to
+Tonga
+No
+Yes
+.tp
+Timor-Leste (now deleted – replaced by
+.tl
+in 2002)
+Yes
+No
+.tr
+Turkey,  Turkish Republic of Northern Cyprus
+Yes
+Yes
+.tt
+Trinidad and Tobago
+Yes
+No
+.tv
+Tuvalu
+Yes
+No
+.tw
+Taiwan
+Yes
+Yes
+.tz
+Tanzania
+No DS resource record available
+No
+.ua
+Ukraine
+Yes
+No
+.ug
+Uganda
+Yes
+No
+.uk
+United Kingdom
+Yes
+No
+.um
+United States Minor Outlying Islands (now deleted)
+No
+No
+.us
+United States
+No
+No
+.uy
+Uruguay
+Yes
+No
+.uz
+Uzbekistan
+No
+No
+.va
+Vatican City
+No
+No
+.vc
+St. Vincent and the Grenadines
+No DS resource record available
+No
+.ve
+Venezuela
+No
+No
+.vg
+Britische Virgin Islands
+Yes
+No
+.vi
+United States Virgin Islands
+Yes
+No
+.vn
+Vietnam
+Yes
+Yes
+.vu
+Vanuatu
+No
+No
+.wf
+Wallis and Futuna (also
+.fr
+)
+Yes
+Yes
+.ws
+Samoa
+No
+Yes
+.ye
+Yemen
+Yes
+No
+.yt
+Mayotte (French region – also
+.fr
+)
+Yes
+Yes
+.yu
+Yugoslavia (now deleted – after the dissolution of the former Yugoslavia the TLD was used by Serbia and Montenegro until 2010)
+No
+No
+.za
+South Africa
+No
+No
+.zm
+Zambia
+No
+No
+.zr
+Zaire (now deleted – since the country was renamed in 1997, the ccTLD
+.cd
+has been used)
+No
+No
+.zw
+Zimbabwe
+No
+No
+Country Code Top Level Domain list for all the Countries, Regions and Languages.
+What are the Changes in the Country Code Top Level Domains (ccTLDs) in Time?
+Since Country Code Top Level Domain (ccTLD) is specific to countries, languages, and regions, it is subject to changes due to political problems or government decisions. The Internet Corporation for Assigned Numbers and Names (ICANN) is mostly busy organizing new ones while cleaning up deleted or no longer active ccTLDs. These changes that ICANN has to make are difficult and time-consuming. For example, the Soviet Union (USSR) was destroyed in 1991. However, the extension “.su”, which belongs to the Soviet Union, is still alive today and it is possible to register a domain.
+Below, you will see some of the ccTLD changes that happened in history.
+The political state structure named Netherlands Antilles (Dutch Antilles) collapsed in 2010. Netherlands Antilles was made up of many islands in the Caribbean. People living on the islands could register domain names with the “.an” extension. After the dissolution in 2010, ICANN started using the “.bq” extension for “Caribbean Netherlands”. “.cw” was used for Curaçao, and “.sx” was used for Six Maarten. All these new extensions replaced “.an”.
+Below you will see some of the ccTLD changes that happened over the course of history.
+The political state structure named Netherlands Antilles (Dutch Antilles) collapsed in 2010. Netherlands Antilles consisted of many islands in the Caribbean. People living on the islands could register domain names with the “.an” extension. After the dissolution in 2010, ICANN started using the “.bq” extension for “Caribbean Netherlands”. “.cw” was used for Curaçao, and “.sx” was used for Six Maarten. All these new extensions replaced “.an”.
+“.dd” ccTLD was being used for German Democratic Republic (GDR), this ccTLD has been used only for communication between two German Universities between East and West Germany.
+“.um” was being used for the islands without a high population in the Pacific Oceans. These islands were being governed by the Southern California University. After the University’s wish to relieve itself from the burden of the ccTLD, the ICANN removed the “.um” ccTLD.
+“.yu” was the ccTLD of the former Yugoslav Republic. After the dissolvation of the Yugoslav Republic, Serbia has started to use “.rs”, while Montenegro has started to use “.me” instead of the “.yu”.
+“.zr” was being used in the West Africa Country, Republic of Zaire. After they have changed the name of the country as the Democratic Republic of Congo, in 1997, the “.zr” has been replaced with the “.cd”. After four years, in 2001, the “.zr” has been deleted by the ICANN.
+“.eh” means the “Sáhara Español” that represents the Western Side of the Sahara. Morocco and Sahrawi Arab Democratic Republic had a political conflict. Both of the political sides try to use the “.eh” as their default ccTLD after the conflict. At first, Internet Assigned Numbers Authority (IANA) assigned the “.eh” ccTLD extension to the Sahrawi Arab Democratic Republic. After one year, in 2007 ICANN decided to remove the “.eh” from the usage. Since there is no agreement between two political sides, still, “.eh” stays as inactive.
+Last Thoughts on Country Code Top Level Domains and Holistic SEO
+Country Code Top Level Domains are important for regional, nat
+
+[...truncated...]

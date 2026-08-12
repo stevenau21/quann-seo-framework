@@ -1,0 +1,125 @@
+HTML <body> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <body> HTML Tag specifies the main content that is displayed to the browser. Text, headings, photos, tables, hyperlinks, videos, and more can all be included. The use of <body> HTML Tag is essential in every HTML document and should only be used once in the entire document. Generally, the <body> HTML Tag contains most of the content visible on a standard web page. As a result, the <body> HTML Tag frequently contains a large number of additional elements, considering the quantity of content on a normal web page. The <body> HTML Tag is part of the basic HTML Tag category in HTML Element Reference. The attributes for <body> HTML Tag are global and event attributes.
+<body> code block example to learn how it works is given below.
+<!doctype html>
+<html>
+<head>
+<title>Title.</title>
+</head>
+<body>
+Content.
+</body>
+</html>
+The second example usage of the “<body>” code block example is given below.
+<html>
+<head>
+<title>The Tree of Life</title>
+</head>
+<body>
+<p>The Tree of Life symbol is symbolic of our personal growth, uniqueness, inherent beauty….</p>
+</body>
+</html>
+Contents of the Article
+show
+1.
+What is <body> HTML Tag?
+2.
+How to Use <body> HTML Tag?
+2.1.
+Example Usage of <body> HTML Tag?
+3.
+What are the Attributes of <body> HTML Tag?
+4.
+What are the Default CSS Settings for <body> HTML Tag?
+5.
+What are the Related other HTML Tags to <body>?
+What is <body> HTML Tag?
+The <body> HTML Tag means that the primary content of an HTML document or a piece of an HTML document will be directly accessible on your website.  The <body> HTML Tag is also referred to as the <body> HTML Tag element in most instances. The use of <body> HTML Tag is to display the primary content that is contained within the HTML document.  element is frequently used to contain a list of content-specific CSS classes that allow JavaScript designers and developers to target certain pages with convenience. Even if none of these classes are utilized, they will not cause any issues in any way.
+How to Use <body> HTML Tag?
+To use the <body> HTML Tag, the web developer should write <body></body> with the appended document’s content between the tags. The tag should be positioned between </head> and the </html> Tags. Although the tag lacks local attributes, it can be used with any of the global or event content attributes.
+Example Usage of <body> HTML Tag?
+The following examples of usage of <body> HTML Tag are given below.
+<html>
+<head>
+<title>The New Normal Life with Covid-19</title>
+</head>
+<body>
+<h1>The New Normal Life with Covid-19</h1>
+<p>One year after the COVID-19 epidemic broke out...</p>
+</body>
+</html>
+<html>
+<head>
+<title>The glory of existence</title>
+</head>
+<body>
+<h1>The glory of existence</h1>
+<p>A different feeling than usual this morning...</p>
+</body>
+</html>
+What are the Attributes of <body> HTML Tag?
+There are multiple attributes for the <body> HTML Tag. The following attributes are listed below.
+Global Attributes: The <body> HTML Tag supports the global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <body> HTML Tag supports the event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <body> HTML Tag?
+The following is the Default CSS Settings for the <body> HTML Tag. Some examples are listed below this document.
+body {
+display: block;
+margin: 8px;
+}
+body:focus {
+outline: ;
+}
+What are the Related other HTML Tags to <body>?
+The other related HTML Tags to the <body> HTML Tag are listed below.
+<title> HTML Tag: The
+<title>
+HTML Tag and <body> HTML Tag are related because they are both basic HTML Tags. In the <title> HTML Tag the document’s title is defined in this section.
+<head> HTML Tag: The
+<head>
+HTML Tag and <body> HTML Tag are related because they are both basic HTML Tags. It is necessary to specify the head portion of the page, which contains information that is relevant to the document, with an HTML Tag called “head.”
+<hr> HTML Tag: The
+<hr>
+HTML Tag and <body> HTML Tag are related because they are both basic HTML Tags.  The <hr> HTML Tag refers to a change in the content’s subject focus.
+<br> HTML Tag: The
+<br>
+HTML Tag and <body> HTML Tag are related because they are both basic HTML Tags. The <br> HTML Tag function adds a single line break.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <body> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 4 min
+TechSEO
+HTML <header> Tag Definition, Usage and Exam…
+TechSEO
+HTML <base> Tag Definition, Usage and Exampl…
+0
+0
+0

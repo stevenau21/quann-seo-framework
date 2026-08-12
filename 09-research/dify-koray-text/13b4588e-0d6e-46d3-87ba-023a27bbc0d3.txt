@@ -1,0 +1,171 @@
+Skip to content
+Image Title vs. Image Alt Tags involves the differences in terms of web accessibility, search engine optimization, and user experience. The difference between image title and the image alt tag is that image alt tag is mainly for web accessibility, screen readers, and search engines while image titles are for the users. An image alt tag can be read by a screen reader for better web accessibility and usability. Image alt tags can be read by a search engine to understand the role, purpose, and meaning of the image. The Image Titles can be shown to the users if the user touches, clicks, or hovers over to the image. An image title represents the image’s meaning, and purpose visually for the user. A search engine can read the image titles as they read the image alt tags. The image title attribute has a value for search engine optimization to describe the purpose of the image and expand the definitive words in the image alt tag for a better image description.
+Image titles and the
+image alt tags
+are complementary image attributes to describe the image. Image titles for SEO involve the role and contribution of the image titles for search engine optimization performance. In this tutorial, the differences between the image alt tags and the image titles are told from an SEO and UX perspective.
+https://www.getrevue.co/profile/koraygubur
+Contents of the Article
+show
+1.
+What are the differences between Image Titles and Image Alt Tags?
+2.
+How to use Image Titles for SEO?
+3.
+What does an image title attribute look like?
+4.
+How to use Image File Names with Image Title Attributes?
+5.
+How to use Image Title Attributes with WordPress Sites?
+6.
+How to use Image Title Attributes with Other CMS Systems?
+7.
+What is the Browser Compatibility for Image Title Attributes?
+8.
+Last Thoughts on Image Title Attribute and Image Alt Tag Differences for Holistic SEO
+What are the differences between Image Titles and Image Alt Tags?
+The differences between image titles and the image alt tags are below.
+Image titles are for user experience, while image alt tags are for screen readers and search engine crawlers.
+Image titles can be visually rendered on the web page, while image alt tags can’t be seen on the web page.
+Image alt tags should be short and describe the image’s purpose, and the image titles can be longer to communicate with the user.
+Image titles are seen as tooltips, while image alt tags are an alternative textual expression of the image.
+Image Alt Tags and Image Attributes should be used together to support the SEO and UX benefits.
+To check all Image Title and Image Alt Tag on your website or a specific page, you can use
+Free SEO Checker
+by Sitechecker.
+How to use Image Titles for SEO?
+To use Image Titles for SEO, the instructions and information below should be used.
+Understand the Purpose of an Image for writing an Image Title.
+Write longer image titles than the image alt tag.
+Reflect the web page’s purpose within the image titles.
+Connect the Featured Image Title to the title of the
+web page
+to better express the purpose of the content.
+Reflect the meaning of the text around the image in the image title.
+Complete the meaning of the image caption in the image title.
+Use the image title to provide better relevance for the targeted queries.
+Increase user engagement with image titles to provide a more informational and efficient session.
+Align the grammar rules and spelling necessities in the image titles.
+Do not use emojis or broken text with HTML Entities within the image titles.
+Use the image alt tag words in the image titles with better expressions to provide better relevance and context.
+What does an image title attribute look like?
+The image title attribute is an “<img>” HTML tag. Below, an example usage of the image title attribute can be seen.
+<img src="alt-tag-image-title-difference.png" alt="image alt tag vs title attribute" title="Understand the image alt tag and image title attribute for SEO and UX.">
+The explanation of the code block for the image title attribute usage and the difference from the alt tag can be seen below.
+“img” is used to provide an HTML image tag.
+“alt” is for providing an image alt tag to describe the image to the search engine crawlers and the screen readers for better web accessibility.
+“title” is used to provide an explanation of the image alt tag and image URL within the “src” attribute.
+“src” provides a URL and the address for the image file in the web server.
+The example usage of the image title attribute above demonstrates how an image title should be written and what it looks. An image example for the image title attribute usage can be seen below.
+How to use Image File Names with Image Title Attributes?
+The image title attributes should be used in a complementary way for the image file names. An image filename is prominent for Search Engines and Search Engine Optimization. Image file names provide information, and context for the purpose of the image. Image title attribute value as a sentence can help a search engine to understand the words in the image file names better. Thus, the words in the image alt tag, image file name, and the image title attribute should have mutual words.
+How to use Image Title Attributes with WordPress Sites?
+To use the Image Title Attributes with WordPress Web Sites, the WordPress CMS free image edit tool is used. WordPress provides an image edit tool for image alt tag, image description, image title writing, editing, and using. An example visual for providing an example of WordPress Image Titles can be seen below.
+Image Title vs. Image Alt Tag: Adding a title to an image on WordPre
+Another method to add image titles to WordPress sites is using plugins such as “Auto Image Attributes From Filename With Bulk Updater (Add Alt Text, Image Title For Image SEO)” and “Bulk Auto Image Title Attribute (Image Title tag) optimization (Image SEO) + Woocommerce”. For a better SEO Performance for WordPress websites, adding image titles with Plugins, or customized WordPress code blocks is necessary. To use WordPress Image Description features and titles, the related guideline should be read.
+How to use Image Title Attributes with Other CMS Systems?
+To use Image Title Attributes with Other CMS Systems, there are multiple methodologies.
+Use Custom Code example to add title attribute to the images.
+Use existing plugins and the CMS Features to add title attribute to the images for SEO and other benefits.
+Use the CMS systems that contains the image title adding option built-in such as Wix, or WebFlow.
+An example of Image Title Attribute adding with custom JavaScript can be seen below.
+var image = document.querySelector('img');
+image.title = 'Example Image Title Adding with JavaScript';
+image.setAttribute('title', 'Example Image File Name');
+What is the Browser Compatibility for Image Title Attributes?
+Browser Compatibility for Image Title Attributes can be seen below.
+Browser Name
+Version
+Date
+Chrome
+1.0
+Sep 2008
+Firefox
+1.0
+Sep 2002
+IE/Edge
+1.0
+Aug 1995
+Opera
+1.0
+Jan 2006
+Safari
+1.0
+Jan 2003
+Image Title Attribute Browser Compatibility Table.
+Last Thoughts on Image Title Attribute and Image Alt Tag Differences for Holistic SEO
+Image Title Attribute and Image Alt Tag differences matter for SEO. Thus, a Holistic SEO should know about the small differences between the HTML Tags. In Semantic HTML, every kind of HTML Tag and DOM example will have a different meaning. An attribute for an HTML tag will have a different meaning than another one for search engine crawlers. An image alt tag can be understood better by a search engine thanks to the text around the image, image caption, and the image title together. Thus, from the image file name to the image title attribute, the image alt tags and more should be optimized for better SEO and UX performance. The image titles are discussed by Matt Cutts from Google before. He also mentioned that the image title attributes should be used in a way to support the image SEO.
+The Image Title Attribute and its difference from the image alt tag guide will be updated in the light of new information.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+10 thoughts on “Image Title vs Image Alt Tag: Image Titles for SEO”
+Thank you for a great article, technical and informative content.
+Reply
+Thank you, Semih.
+Reply
+Great article.  Very well written and easy to understand the difference between image title attribute and image alt tag.
+Reply
+Thank you for your kind comment, and words, Art.
+Reply
+Very thorough information. Thank you.
+For a multilingual site, I use language-specific IMG alt title, which is the name of the item.
+I have 2 questions:
+Is it worth translating the image file name into the other language, or is the image alt title enough for SEO?
+Currently, all my images have the same image alt title, which is the item’s name.
+Is it beneficial to have slightly different descriptive image alt titles for multiple images of the same item
+or counterproductive?
+It would be great to have your opinion about that.
+Best Regards,
+Martin.
+Reply
+Hello Martin,
+Thank you for your positive feedback about the “image title vs image alt tag” post. It means a lot.
+Using translated alt tags for the specific language and audience in alt tags is a correct SEO practice.
+When it comes to translating image file names, it would be better to use contextually relevant language for file names too. File names, alt tags, the title for the image, the caption of the image, and text on the image, if they match for the topicality, and language, the confidence score increases for the algorithms for overall topicality.
+You can try to variate your image titles according to the text around the image, or the heading words to connect the image to the context in a better way.
+I hope it helps you.
+Reply
+Thanks Koray for the information. Very useful. Two additions.
+Can you give a few examples of differences between a title and a alt tag. (how would you describe them?)
+Another one, i’m an WP developer and create my own blocks. The mentioned plugins only work when you use the default editor (not gutenberg blocks). I’ve found a script that i would like to share that works almost the same.
+Let me know if i can share it with the community.
+Reply
+Thank you so much. The examples were clear.
+Reply
+Thankyou, Sarah.
+Reply
+This was a really insightful post! I’ve always wondered about the differences between image titles and alt tags for SEO purposes. Your explanations clarified how each serves its unique role in optimizing images. I’ll definitely be implementing your tips to enhance my website’s SEO strategy. Thanks for sharing!
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+Image Title vs Image Alt Tag: Image Titles for SEO
+by Koray Tuğberk GÜBÜR
+time to read: 5 min
+TechSEO
+HTML <area> Tag Definition, Usage and Exampl…
+TechSEO
+Proxy-Authorization HTTP Request Header: Syntax, D…
+0
+0
+10

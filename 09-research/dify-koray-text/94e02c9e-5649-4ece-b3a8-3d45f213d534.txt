@@ -1,0 +1,97 @@
+Skip to content
+The aria-valuemin is an attribute that identifies a widget or range element its minimum value, the attribute is responsible for conveying the information about the range widget’s minimum value. The aria-valuemin purpose is to declare to the user that the minimum value is set, and the value can only be equal to or more than the minimum. In case a minimum value will be inputted through a text input box, the developer can use the aria-valuemin to let the user know if there are instances that the value entered is beyond the range. The aria-valuemin can be used for elements such as meter, input, and progress bar. The aria-valuemin can also be used with other ARIA Labels such as aria-valuemax and aria-valuenow.
+Contents of the Article
+show
+1.
+What is the function of the “aria-valuemin” ARIA Label?
+2.
+What are the uses of the “aria-valuemin” ARIA Label?
+3.
+Example Uses of “aria-valuemin” ARIA Label
+4.
+What are the related ARIA Labels to “aria-valuemin”?
+What is the function of the “aria-valuemin” ARIA Label?
+The function of the aria-valuemin provides the necessary information to the user and user agent that the minimum value is required when using the widget element. The benefit of using the aria-valuemin is the same as using the aria-valuemax, as it controls the value or limits the value to be entered. The aria-valuemin value can be integer or decimal, as long as the value entered is within the range. The minimum value that aria-value can have is only equal to or greater than the minimum value. The range role itself should NOT be used as it is an “abstract”. The aria-valuemin attribute is used on all the range roles subtypes.
+What are the uses of the “aria-valuemin” ARIA Label?
+Listed below are the uses of the “aria-valuemin” ARIA Label.
+Meter role:
+It defines a range that possesses a numeric value through a graphical display, examples are battery load percentage and engine temperature gauge.
+Slider role:
+It has a minimum and maximum value that is imputed through the widget, it can be interacted with by the user and selected within the given value.
+Separator role:
+It indicates the element is a separator that distinguishes sections of the content contained in a toolbar, controller, or navigation.
+Spinbutton role:
+Is an input widget that defines a range that contains a range that is restricted to a set of discrete values.
+Scrollbar role:
+It is a graphical interface that can be interacted by a keyboard or mouse pointer to scroll a view either up or down. Content can only be scrollable if the content exceeds the size of the screen and will only be viewed by scrolling down to see more information or content.
+Example Uses of “aria-valuemin” ARIA Label
+Listed below are the example uses of the “aria-valuemin” ARIA Label.
+The aria-valuemin identified value can be equal to the minimum value or more than the minimum value, as long as it would not be lesser than the minimum, else it will be an invalid input.
+<div id="dimesLabel">Progress bar ranging from 0% to 100%</div>
+<div role="slider" aria-valuenow="0" aria-valuemin="0"
+aria-valuemax="100"
+aria-labelledby="dimesLabel" id="dimes"></div>
+<div id="dimesLabel">Select a number from 1 to 10</div>
+<div role="slider" aria-valuenow="5" aria-valuemin="1"
+aria-valuemax="10"
+aria-labelledby="dimesLabel" id="dimes"></div>
+<div id="dimesLabel">Select a level of difficulty where 1 is the easiest 5 is hard</div>
+<div role="slider" aria-valuenow="5" aria-valuemin="1"
+aria-valuemax="5"
+aria-labelledby="dimesLabel" id="dimes">current value is 5</div>
+<div id="dimesLabel">Enter your age to qualify for the raffle</div>
+<div role="slider" aria-valuenow="25" aria-valuemin="20"
+aria-valuemax="40"
+aria-labelledby="dimesLabel" id="dimes">All 25 years old will recieved a prize</div>
+<div id="dimesLabel">Place your bet $20 is the minimum $500 is the maximum</div>
+<div role="slider" aria-valuenow="100" aria-valuemin="20"
+aria-valuemax="40"
+aria-labelledby="dimesLabel" id="dimes">your bet is $100</div>
+What are the related ARIA Labels to “aria-valuemin”?
+Listed below are the related ARIA Labels to “aria-valuemin”.
+aria-valuenow:
+The aria-valuenow is related to the aria-valuemin because they are both used to determine the range value that the widget element is set. The aria-valuenow is to hold a present value, it can contain any value like string number character date time and even contents of roles and HTML elements. The
+aria-valuenow
+depends on within the range of aria-valuemin and aria-valuemax, if the value input is beyond the range it is considered invalid.
+aria-valuemax:
+The aria-valuemax is related to the aria-valuemin because they are both used to determine and declared at the same time the minimum and the maximum value of the range. The
+aria-valuemax
+is used to identify the element’s maximum value, it enables the user to determine how high a maximum value can be entered. The maximum value is limited to the max value or less than the max value.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-valuemin” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 3 min
+TechSEO
+“aria-valuenow” ARIA Label for Accessi…
+TechSEO
+“aria-valuemax” ARIA Label for Accessi…
+0
+0
+0

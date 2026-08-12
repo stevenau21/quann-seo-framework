@@ -1,0 +1,229 @@
+Skip to content
+The aria-colspan specifies each column covered by a cell in a table. The aria-colspan is designated for gridcells that aren’t incorporated in a native HTML <table>. The aria-colspan value identifies the number of columns in each individual cell in an ARIA table. This attribute can be utilised  in elements like <table>, <th>, and <td>. The <table> element represents tabular data; <th> identifies a cell as a header of a group of table cells; lastly, <td> element identifies a cell of table with the given data. The aria-colspan can also be used in aria-rowspan and aria-rowindex.
+Contents of the Article
+show
+1.
+What is the function of the “aria-colspan” ARIA Label?
+2.
+What are the uses of the “aria-colspan” ARIA Label?
+3.
+Example Uses of “aria-colspan” ARIA Label
+4.
+What are the related ARIA Labels to “aria-colspan”?
+What is the function of the “aria-colspan” ARIA Label?
+The aria-colspan designates the overall number of columns in each gridcell. The aria-colspan is designated for gridcells that aren’t inside its localized table. Whenever the column extent of cells or gridcells in its localized table is defined, developers must use the host language commands in place of the aria-colspan. When aria-colspan is utilized with an element that the host language supplies an equal command, developers must disregard the value of aria-colspan and rather uncover the value of its host language attribute with assistive technology.
+What are the uses of the “aria-colspan” ARIA Label?
+Listed below are the uses of the “aria-colspan” ARIA Label.
+Cell:
+The cell value of the ARIA role command defines a cell in a tabular container that has no column/row header information.
+Columnheader:
+The columnheader value of the ARIA role command acknowledges an element as being a cell in a row that has header information with a column, the same with the native <th> element with column scope.
+Example Uses of “aria-colspan” ARIA Label
+Listed below are the example uses of the “aria-colspan” ARIA Label.
+The aria-colspan identifies the total quantity of columns in a spanned gridcell.  Developers must be able to create the value of aria-colspan that is greater or equivalent to 1. It must be less than or equal to the overall quantity of columns of the given table. The total columns in a spanned cell must be the exact value. The example below follows a baseball game scoresheet. There are 9 innings in a game. The 9th and last frame in each game spans 4 columns.
+<div role="grid" aria-rowcount="27">
+aria-label="Baseball Game Scores"
+<div role="rowgroup">
+<div role="row" aria-rowindex="1">
+<!--
+aria-rowspan and aria-colspan provide
+assistive technologies with the correct data cell header information
+when header cells span more than one row or column.
+-->
+<span role="columnheader" aria-rowspan="2">Team</span>
+<span role="columnheader" aria-colspan="2">Team</span>
+<span role="columnheader" aria-colspan="31">Game 1 </span>
+<span role="columnheader" aria-colspan="31">Game 2 </span>
+<span role="columnheader" aria-colspan="31">Game 3 </span>
+<span role="columnheader" aria-rowspan="2">Total</span>
+</div>
+<div role="row" aria-rowindex="2">
+<span role="columnheader">Last Name</span>
+<span role="columnheader">First Name</span>
+<span role="columnheader" aria-colspan="3">1</span>
+<span role="columnheader" aria-colspan="3">2</span>
+<span role="columnheader" aria-colspan="3">3</span>
+<span role="columnheader" aria-colspan="3">4</span>
+<span role="columnheader" aria-colspan="3">5</span>
+<span role="columnheader" aria-colspan="3">6</span>
+<span role="columnheader" aria-colspan="3">7</span>
+<span role="columnheader" aria-colspan="3">8</span>
+<span role="columnheader" aria-colspan="3">9</span>
+<span role="columnheader" aria-colspan="4">10</span>
+<span role="columnheader" aria-colspan="3">1</span>
+<span role="columnheader" aria-colspan="3">2</span>
+<span role="columnheader" aria-colspan="3">3</span>
+<span role="columnheader" aria-colspan="3">4</span>
+<span role="columnheader" aria-colspan="3">5</span>
+<span role="columnheader" aria-colspan="3">6</span>
+<span role="columnheader" aria-colspan="3">7</span>
+<span role="columnheader" aria-colspan="3">8</span>
+<span role="columnheader" aria-colspan="3">9</span>
+<span role="columnheader" aria-colspan="4">10</span>
+<span role="columnheader" aria-colspan="3">1</span>
+<span role="columnheader" aria-colspan="3">2</span>
+<span role="columnheader" aria-colspan="3">3</span>
+<span role="columnheader" aria-colspan="3">4</span>
+<span role="columnheader" aria-colspan="3">5</span>
+<span role="columnheader" aria-colspan="3">6</span>
+<span role="columnheader" aria-colspan="3">7</span>
+<span role="columnheader" aria-colspan="3">8</span>
+<span role="columnheader" aria-colspan="3">9</span>
+</div>
+</div>
+<div role="rowgroup">
+<div role="row" aria-rowindex="10">
+<span role="rowheader" aria-rowspan="3">The Quads</span>
+<span role="cell">Henderson</span>
+<span role="cell">Alice</span>
+<span role="cell">7</span>
+<span role="cell">/</span>
+<span role="cell">20</span>
+<span role="cell" aria-colspan="2">X</span>
+<span role="cell">39</span>
+<span role="cell">9</span>
+<span role="cell">-</span>
+<span role="cell">48</span>
+<span role="cell" aria-colspan="2">X</span>
+<span role="cell">76</span>
+<span role="cell" aria-colspan="2">X</span>
+<span role="cell">96</span>
+<span role="cell">8</span>
+<span role="cell">/</span>
+<span role="cell">113</span>
+<span role="cell">7</span>
+<span role="cell">-</span>
+<span role="cell">120</span>
+<span role="cell" aria-colspan="2">X</span>
+<span role="cell">146</span>
+<span role="cell" aria-colspan="2">X</span>
+<span role="cell">166</span>
+<span role="cell">6</span>
+<span role="cell">/</span>
+<span role="cell">X</span>
+<span role="cell">186</span>
+<span role="cell">7</span>
+<span role="cell">2</span>
+<span role="cell">9</span>
+<span role="cell">6</span>
+<span role="cell">-</span>
+<span role="cell">15</span>
+<span role="cell" aria-colspan="2">X</span>
+<span role="cell">35</span>
+<span role="cell">7</span>
+<span role="cell">/</span>
+...
+</div>
+<div role="row" aria-rowindex="11">
+<span role="cell">Sacrameto</span>
+<span role="cell">Leslie</span>
+<span role="cell">9</span>
+<span role="cell">-</span>
+<span role="cell">9</span>
+<span role="cell">8</span>
+<span role="cell">1</span>
+<span role="cell">18</span>
+...
+Example of spanned cells in a table having missed column
+<div role="table" aria-colcount="4">
+<div role="row">
+<div role="cell" aria-colindex="1" aria-colspan=”2″>cell 1</div>
+<div role="cell" aria-colindex="4">cell 4</div>
+</div>
+<div role="row">
+<div role="cell" aria-colindex="1" aria-colspan="2">cell 1</div>
+<div role="cell" aria-colindex="2">cell 2</div>
+<div role="cell" aria-colindex="4">cell 4</div>
+</div>
+</div>
+Example of the HTML “aria-colspan” attribute.
+<table>
+<tr>
+<th>Month</th>
+<th>Savings</th>
+</tr>
+<tr>
+<td>January</td>
+<td>$100</td>
+</tr>
+<tr>
+<td>February</td>
+<td>$80</td>
+</tr>
+<tr>
+<td colspan=”2″>Sum: $180</td>
+</tr>
+</table>
+<table>
+<tr>
+<th>Year</th>
+<th>Savings</th>
+</tr>
+<tr>
+<td>2022</td>
+<td>$50000</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>$100000</td>
+</tr>
+<tr>
+<td colspan=”2″>Sum: $150000</td>
+</tr>
+</table>
+Sample code snippet
+if given
+<div role=”table”>
+<div role=”row”>
+<div id=”sd” role=”cell” aria-colspan=”2″>country</div>
+</div>
+</div>
+then expose aria-colspan=”2″ on the element with id=”sd”
+What are the related ARIA Labels to “aria-colspan”?
+Listed below are the related ARIA Labels to “aria-colspan”.
+aria-rowspan:
+The aria-rowspan is reminiscent of aria-rowspan because both specify the number of rows spanned by a gridcell while the aria-colspan identifies the number of columns spanned. The
+aria-rowspan
+attribute specifies the total rows in a spanned cell or gridcell in a table or treegrid.
+aria-rowindex:
+The aria-rowindex and aria-colspan are linked together because they both have the same functions as identifying the number of columns and index. The
+aria-rowindex
+attribute points out an element’s designation in regard to the total number of rows in a table.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+“aria-colspan” ARIA Label for Accessibility
+by Holistic SEO
+time to read: 6 min
+TechSEO
+“aria-controls” ARIA Label for Accessibility
+TechSEO
+“aria-colindextext” ARIA Label for Acc…
+0
+0
+0

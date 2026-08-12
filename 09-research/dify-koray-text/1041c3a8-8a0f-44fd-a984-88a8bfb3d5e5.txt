@@ -1,0 +1,104 @@
+How to Use the Change of Address tool of Google Search Console? - Holistic SEO
+Skip to content
+Change of Address Tool has been announced by Google in 2020 to help SEOs and website owners to let Google that they migrate their website. Change of Address Tool is placed in Google Search Console to let Google Search Console permitted users to use to specify that the website has been migrated to another domain. Google requests website owners, SEOs, and website managers to keep the change of address statement for at least 6 months with a valid 301 redirection. To be able to use the change of address tool of Google Search Console, all of the website domain name variations such as with “www”, without “www”, with “HTTP”, without “HTTPS”, and their different combinations should be redirected with permanent redirection (301) to the new website address.
+Contents of the Article
+show
+1.
+What is the Change of Address Tool of Google Search Console?
+2.
+When the Change of Address tool of Google shouldn’t be used?
+3.
+What to avoid while using the Change of Address Tool?
+4.
+How to Prepare a Change of Address with Google Search Console?
+5.
+What are the conditions of usage for Change of Address Tool?
+6.
+What are the steps to use the Change of Address Tool?
+7.
+How does the Change of Address tool affect Google’s decisions?
+8.
+How to cancel a Change of Address Request?
+9.
+How to Reverse a Change of Address Request?
+10.
+What to do during a change of address request?
+11.
+Last Thoughts on Change of Address Tool and Holistic SEO
+What is the Change of Address Tool of Google Search Console?
+Change of address tool of Google Search Console has been launched by Google to let website owners migrate the domain to another one by letting Google know. To use the change of address tool, a domain, or subdomain should be moved to another one. For instance, from “sample.com” to “sample.org”, or “sample.co.uk”, to “sample.ph”. Change of address tool improves the search engine’s confidence score that the website has been migrated to another source, the new domain migration is not a mistake or hacking, it is a planned change. Search engines might trust the signals of the websites over time, and since domain redirections can cause trust issues, or rebranding,  a search engine can audit the reliability of the permanent content movement. Having a consistent statement from the website owner can help Google to believe the authenticity of the redirection.
+When the Change of Address tool of Google shouldn’t be used?
+The change of address tool of Google shouldn’t be used for the internal domain migrations, in other words, a domain name variation change is not the area of use for the Change of Address Tool. Only, the solid domain name changes can be related to the change of address tool. The situations that do not require the usage of the change of address tool are listed below.
+HTTP to HTTPS migration: A website that changes its “http”, and “https” portion of the URL doesn’t require the usage of change of address tool.
+Subfolder Migration: Subfolder changes do not require usage
+From www to without www version: Deleting the “www” from the domain name and using version without “www” doesn’t require the usage of change of address tool.
+From without www version to www version: Adding the “www” prefix to the domain doesn’t require the usage of change of address tool.
+Hosting Changes: hosting provider changes called site migration without URL change, and it doesn’t require the use of change of the address, since the address of the website is still same.
+CDN Changes: The CDN usage changes is simialr to the Hosting Changes, and it does not require usage of change of address tool.
+A site migration without URL Change can include CDN, Hosting, or back-end infrastructure changes. Thus, these changes can affect the crawl pattern of the website, its performance, and perception of the website by users, and search engine crawlers. In the context of user experience, and site move without URL change, you can read the related “
+What is a CDN?
+” guide.
+What to avoid while using the Change of Address Tool?
+The things that a website owner should avoid while using the change of address tool are listed below.
+Do not migrate multiple websites to a single website at the same time. For example, if websites A, B, C, D, E are redirected to another domain such as F at the same time, and the Change of Address Tool has been used, it can cause that search engine to think it is redirection spam. A website should be redirected to another one in the context of topic, service, general use purposes, and similarity in terms of region, and language. Thus, if multiple websites will be redirected to one website, the person should wait until the first migration and change of address can be completed.
+Do not use redirection changes for website moves. For example if website A is moved to website B, and website B is moved to the website C, the change of address tool should used from website A to website C directly. And, a moved website can’t be moved to another one without its movement is not completed. It means that the search engine doesn’t trust all redirections, and it tries to find a connection. If a website is moved to another domain without consistency over time, it means that the redirection was not valid, and it was a mistake, or manipulation trying for the search engine rankings. Thus, not interupting the site redirections and keeping them consistent, and reliable for long time is prominent to take the effect of search engine’s trust for a source.
+If a sub-domain, and main domain will be redirected to another main domain and sub domain at the same time, the sub domain should be redirected to the equivalent of new sub domain. To redirect the sub domain along with the main domain, site owner should create a Google Search Console property for the sub domain, and a second change of address request should be made. For example, if website A, and website subdomain.A.com will be redirected to the website B and subdomain.B.com, the subdomain.A.com should have a seperate Google Search Console account, and it should be redirected. If a sub domain and main domain are redirected to the same main domain, it can create confusion for the search engine to find the enough relevance, and authenticity for the brand, and function transfer via redircetion.
+Do not change the website architecture, site-tree, colors, design, layout, URL structure, order of web page components, and content while moving a website to another one. If the topic, brand, idendity, and content, design related things are different, it means that the redirection is not complete for the search engine. And, passing the same level of authority, historical data, ranking efficiency, and source prominence signals won’t be possible for the search engine, or it will take more time.
+How to Prepare a Change of Address with Google Search Console?
+To prepare a change of address, one should provide the conditions below.
+Redirect the old URLs to the new ones with 301 redirection from every possible domain name variations such as “http”, “https”,  with “www”, and without “www”.
+Verify the 301 redirections with a simple “curl” command for every version of the old domain. For checking the “http” to “https” redirections, using the browser might mislead the website owner since it will use the HSTS response header with 307 redirection.
+Redirect all of the canonical pages, and non-canonical pages to the equivalent sections of the new website.
+Submit the new website’s sitemap with the new URLs.
+Create a robots.txt file for the new website, and put the new sitemap URL there with the “Sitemap:” prefix.
+Use the change of address tool from GSC for all of the sites at domain level such as “https://”, “http://”, “http://www.”, and “https://www.”
+An example of change of address tool usage over Google Search Console can be seen below.
+Change of Address Tool Usage Example.
+What are the conditions of usage for Change of Address Tool?
+The conditions of usage for the change of address tool are below.
+The one should be verified owner of the Google Search Console property.
+Both website’s properties should be haved as verified owner.
+Only the domain level addresses can be affected from change of address tool, not the subfolders, paths, or URL parameters.
+The change of address tool will work only for the single domain level site, thus, all of the website variations should be moved one by one.
+Protocol based differences can be aligned by the chang eof address tool, but still performing seperate change of address requests from every property might help the search engine to increase the confidence score of a consistent redirection.
+What are the steps to use the Change of Address Tool?
+The steps to use a change of address tool of Google Search Console (GSC) are listed below.
+Provide the conditions for change of address tool.
+Perform the preparations for change of address with URL Changes.
+Open the Google Search Console for the domain level property.
+Click to the Settings from the left menu.
+Click to the Change of Address Tool from the settings menu of GSC.
+Click to the select new site option.
+Choose the website for the targeted change of address tool.
+Click to the “Validate & Update” button to start the change of address process.
+After clicking to the “Validate & Update”, Google Search Console will validate the 301 redirections from the old domain to the new domain. After successful validation for change of address, the Google Search Console will show a warning that tells that the website is being moved to another domain. Google will suggest keeping the redirection at least alive for 6 months.
+Change of Address Tool Report Example.
+How does the Change of Address tool affect Google’s decisions?
+Change of Address Tool has many different aspects that show how Google wants to be sure that a domain is moved to another one, with what reason, and what the site owner told about it. Website redirections can cause unjustified PageRank flow, historical data, and expertise signals flow. To prevent this, Google can use a change of address tool as a signal, or to improve its existing algorithms to recognize unjustified site migrations. In this context, keeping the redirection live for 180 days, redirecting a website only one time, keeping the design consistent is important. The search engines’ suggestions for keeping the design, topic, and content consistent across migration sources to target can be seen also multiregional, and multilingual websites. In Multilingual SEO, keeping every sub-section of the website consistent with each other in terms of topic, design, and brand identity helps search engines to trust the source more since the source doesn’t reflect another brand or service for using its authority from another section.
+The change of address tool is also important for consolidating duplicate websites. As in consolidating duplicate web pages, also consolidating the duplicate websites can have a prominent efficiency for search engines to have better, authoritative, and economical organized web for the web search engine users. Thus, using “canonical tag”, and keeping the redirected old URLs consolidated while migrating them to the new domain is important. Change of address tool can affect Google’s decisions to trust a source more, and pass the historical data, authority, trustworthiness, expertise signals to the new domain address, by protecting its identity, and place on the SERP. At the same time, in the context of shady site migrations, and not keeping everything ordered, consolidated, aligned can cause an organic traffic loss with Google’s decisions due to the reasons such as not keeping the design, brand identity, or site-tree consistent between the old and new domains during the change of address.
+How to cancel a Change of Address Request?
+To cancel a change of address request, the instructions below can be followed.
+Remove all of the 301 redirections from the old domain to the new domain.
+Open change of address tool.
+Click to the “Cancel Move”.
+Repeat the steps for every other domain level site from the same domain.
+Canceling a change of address can cause traffic loss on the new website, and it can lose its prominence and authority. The old website might not gain its traffic back immediately. And, crawl budget of the old and new domain, their prominence for a topic can be calculated from the beginning. If the new and old websites are kept alive, their content should be different. If duplicate content is used, using a cross-domain canonical tag can help both of the domains.
+How to Reverse a Change of Address Request?
+To reverse a change of address request, the steps below can be followed.
+Remove all of the 301 redirections from the old domain to the new domain.
+Redirect the new domain to the old domain.
+Open change of address tool.
+Cancel the change of address from the old domain to the new domain.
+Redirect the new site to the old website by reversing 301 redirections.
+Open the change of address tool from the new website’s GSC property.
+Perform change of address from the new site to the old site.
+Reversing the change of address from an old domain to a new domain can take a longer time for Google to trust and reverse the ranking signals. Giving a redirected domain its old ranking signals, historical data, and categorical quality will take time by decreasing the prominence of the old domain. During reversing change of address request, users should be able to reasons of URL changes, since it might affect the reliability of the source with the most important section of a URL which is a domain name.
+What to do during a change of address request?
+An SEO should do the things below during a change of address request.
+Perform log analysis for old domain and new domain.
+Check the redirections’ consistency by checking the servers.
+Audit the indexing coverage for old and new domain.
+Audit the user bheviours
+Audit the new bra
+
+[...truncated...]

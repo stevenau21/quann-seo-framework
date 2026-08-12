@@ -1,0 +1,114 @@
+HTML <source> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <source> HTML Tag allows you to specify numerous media resources for the <picture>, <audio>, or <video> HTML Tag. It is an empty HTML Tag, which means it has no content and lacks a closing tag. It is frequently used to provide the same media material in several file formats in order to ensure compatibility with a wide variety of browsers that accept a variety of image and media file formats. The <source> HTML Tag is part of the audio/video tags category in HTML Element Reference. The attributes of the <source> HTML Tag are media, sizes, src, srcset, type, global attributes and event attributes.
+<source> code block example to learn how it works is given below.
+<audio controls>
+<source src="tune.wma" type="audio/x-ms-wma">
+<source src="tune.mp3" type="audio/mpeg">
+</audio>
+The second example usage of the “<source>” code block example is given below.
+<audio controls>
+<source src="/music/feeling_good.wma" type="audio/x-ms-wma">
+<source src="/music/feeling_good.mp3" type="audio/mpeg">
+<p>Your browser does not support the HTML audio element</p>
+</audio>
+Contents of the Article
+show
+1.
+What is <source> HTML Tag?
+2.
+How to Use <source> HTML Tag?
+2.1.
+Example Usage of <source> HTML Tag?
+3.
+What are the Attributes of <source> HTML Tag?
+4.
+What are the Default CSS Settings for <source> HTML Tag?
+5.
+What are the Related other HTML Tags to <source>?
+What is <source> HTML Tag?
+The <source> HTML Tag specifies numerous media resources for media components like as <video>, <audio>, and <image>. The <source> HTML Tag enables you to supply alternative video/audio/image files that the browser may use depending on the browser’s capabilities or viewport width. The browser will use the first <source>  HTML Tag that it recognizes.
+How to Use <source> HTML Tag?
+To use <source> HTML Tag, the web developer should create a <source src=”” type=””> and no end tag with the media URL listed between the src attribute’s double quotes. The type attribute is used to specify the media resource’s type. This enables the browser to detect whether or not the media resource can be played before downloading it.
+Example Usage of <source> HTML Tag?
+The following example of usage of <source> HTML Tag is given below.
+<video controls
+width="200"
+height="180"
+muted>
+<source src="/media/nature-videos/mountains.webm"
+type="video/webm">
+<source src="/media/nature-videos/mountains.mp4"
+type="video/mp4">
+Your browser does not support the HTML video element
+</video>
+What are the Attributes of <source> HTML Tag?
+There are multiple attributes for the <source> HTML Tag. The following attributes are listed below.
+media attribute: The <source> HTML Tag supports media attributes. The media attribute indicates the media queries that would ordinarily be defined in a CSS.
+sizes attribute: The <source> HTML Tag supports sizes attribute. The sizes attribute specifies the picture sizes for various page layouts should be displayed.
+src attribute: The <source> HTML Tag supports src attribute. The src attribute provides the media file’s URL.
+srcset attribute: The <source> HTML Tag supports srcset attribute. The srcset attribute specifies the image’s URL for use in various situations.
+type attribute: The <source> HTML Tag supports type attribute. The type attribute indicates the resource’s MIME type.
+Global Attributes: The <source> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <source> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <source> HTML Tag?
+The following is the Default CSS Setting for the <source> HTML Tag.
+footer {
+font-size: .8rem;
+position: absolute;
+bottom: 10px;
+right: 10px;
+}
+.output {
+background: #eee;
+position: relative;
+}
+What are the Related other HTML Tags to <source>?
+The other related HTML Tags to <source> HTML Tag are listed below.
+<audio> HTML Tag: The
+<audio>
+HTML Tag is related to <source> HTML Tag because they are both audio/video tags. The <audio> HTML Tag is used to specify the audio content.
+<track> HTML Tag: The
+<track>
+HTML Tag is related to <source> HTML Tag because they are both audio/video tags. The <track> HTML Tag is used to specify a media element’s track.
+<video> HTML Tag: The
+<video>
+HTML Tag is related to <source> HTML Tag because they are both audio/video tags. The <video> HTML Tag is used to specify video content.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <source> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <input>  Definition, Usage and Exa…
+TechSEO
+HTML <label> Tag Definition, Usage and Examp…
+0
+0
+0

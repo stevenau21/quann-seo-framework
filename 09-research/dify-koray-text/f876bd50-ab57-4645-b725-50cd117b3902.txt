@@ -1,0 +1,125 @@
+Google Penguin Update: Importance and Effects on SEO - Holistic SEO
+Skip to content
+The Penguin Updates (Penguin Updates) relate to a number of algorithm changes and data refreshes from Google. The aim of the adjustments is to identify and remove webspam in the search results. Google wants to reduce the manipulation of search results and deliberately punish page optimization that does not seem natural.
+Contents of the Article
+show
+1.
+Spam and Penguin Update
+2.
+Mainly backlinks affected by the penguin update
+2.1.
+1.Subject relevance of the linking page to the linked page
+2.2.
+2.Link texts with a high proportion of hard keywords
+2.3.
+3.Purchased links
+2.4.
+4.Unnatural link growth
+2.5.
+5.Low quality backlinks
+2.6.
+6. Spammy Anchor Text Usage
+2.7.
+7. Inferior Links
+3.
+The development of the Penguin updates
+4.
+Detect Penguin Update penalty
+5.
+What can you do after a Google Algorithm Penalty?
+Spam and Penguin Update
+Google refers to webspam as measures that website operators take to get their page up in the search results. According to Google, only the content and thus the added value for the user should be decisive for the placement in the SERPs.
+Basically, Google’s updates were about containing “webspam”. This generally means all measures and techniques that are used in the context of search engine optimization contrary to the Google Webmaster guidelines to achieve a better ranking. Pages that use such spam measures for their optimization are punished by the updates so that their visibility drops noticeably or they are even completely banned from the SERPs.
+We want people doing white hat search engine optimization (or even no search engine optimization at all.
+Matt Cutts, 2014
+The main focus was on web spam in connection with backlinks and keyword stuffing.
+Since the user does not benefit from techniques such as unnatural link building, cloaking or keyword stuffing, the affected websites rank too high from a Google perspective. The Google Search Console guidelines define exactly what is not allowed for website optimization. Violations can result in a penalty by the penguin update. Google does not disclose the exact variables that lead to punishment. However, the typical “Penguin loser websites” show which violations have led to this.
+You may learn more about Related Google Algorithms and Updates via our Guidelines:
+Google Florida Update
+Google Hilltop Algorithm Update
+Google Possum Update
+Google TrustRank Algorithm
+Google PageRank Algorithm
+Google Caffeine Update
+Google Hummingbird Update
+What is Information Retrieval for Search Engines
+Mainly backlinks affected by the penguin update
+The aim of the Penguin updates was and is to limit the manipulation of search results. To do this, Google has introduced a completely new algorithm that specifically looks for unnatural page optimization. It is not known exactly which variables are used here. Therefore, the SEO industry mostly makes assumptions about the background and possible measures. However, thanks to the analysis of the losers after the updates, there are clear signs.
+1.Subject relevance of the linking page to the linked page
+The linking page should be thematically related to the linked page since it is simply more likely and more natural if recommendations come from similar subject areas.
+Natural links are usually set by websites that have a certain topic relevance. As a rule, an aquarium lover does not tell his readers about the cheapest overnight accounts. So if a link suddenly appears in a text that is about something completely different and does not fit into this environment at all, this is also noticeable.
+2.Link texts with a high proportion of hard keywords
+Before Penguin, hard link texts with money keywords were common because they simply worked and brought the page up due to the massive keyword links. However, a link profile in which more than 50 percent of the links consist of money keywords is very unnatural, since the “normal average user” does not link in this way. Instead, the link profile should consist of a mix of general terms such as “here”, “so”, “more information”, brands and money keywords as link text.
+3.Purchased links
+If you look at the link in the sense of a “recommendation”, the purchased link is probably the biggest violation of the Google guidelines. After all, the website operator only links because he receives money for it and not because he is convinced of the linked content and likes it. In this context, the Penguin Update penalized entire link networks in which links were sold via platforms. However, Google now not only uses the algorithm to track purchased links, but it also imposes manual measures. In addition, the penalties affect not only the pages with unnatural backlinks but also the link-giving pages.
+4.Unnatural link growth
+If the number of links suddenly increases suddenly, while before that only a new link was added every now and then, this also looks suspicious and speaks for an unnatural link structure. Actions can also lead to a sudden high increase in links, but this can then be attributed exactly to the respective action.
+5.Low quality backlinks
+Links from inferior pages without added value for the user or pages that serve the sole purpose of linking and which therefore also lack additional value are considered bad backlink sources. This applies e.g. to so-called link farms, web catalogs, and article directories. It is basically not harmful to the link profile if a link comes from a web catalog or similar directories, but the profile may not consist largely of it. After all, these are not recommendations, but only self-made entries.
+6. Spammy Anchor Text Usage
+Many search engine optimizers have built up tons of links for a long time, each of which linked with hard money keywords. Other search texts such as brand keywords or non-keywords (eg “more information can be found here”) were largely pushed into the background or even completely neglected. Such unnatural link profiles with well over 60 percent of money keywords are a clear indication of webspam measures for Google Penguin since natural link profiles do not have such a high density of money keywords.
+7. Inferior Links
+One speaks of inferior backlinks if they come predominantly from websites that offer little added value themselves or were even established only to build links. Certain positions of links also look suspicious. Examples of this are backlinks …
+from link lists/link farms
+from article directories and web catalogs
+from unkempt press portals
+from blog comments
+from footers
+from already punished websites
+of link networks
+It is less important here that such links exist. However, if they predominate very strongly compared to backlinks with a certain quality, this is an indication of webspam for Google.
+The development of the Penguin updates
+There have been six Penguin updates so far, of which only three were full updates and three were only data refreshes. In the case of a data refresh, an analysis is carried out using an unchanged algorithm. The first update was initially called Webspam Algorithm Update and Google officially called it “Penguin Update” a few days after its release.
+So far there have been the following updates and data refreshes:
+April 24, 2012 – Penguin Update 1.0
+May 25, 2012 – Penguin Update 1.1 (Data Refresh)
+October 05, 2012 – Penguin Update 1.2 (Data Refresh)
+May 22, 2013 – Penguin Update 2.0
+October 04, 2013 – Penguin Update 2.1 (probably a data refresh)
+October 18, 2014 – Penguin Update 3.0
+The first Penguin Update in April 2012 showed the most significant effects compared to the other updates and refreshes. About three percent of the English-language pages were affected. Major effects were only noticeable again in Update 2.0, which according to Google was a completely new “Penguin filter generation”.
+Detect Penguin Update penalty
+The fact that a website was punished by the Penguin Update can be recognized by a drop in visibility in the search results or visibility that tends towards zero. The exact algorithms used are unknown.
+Whether the sharp changes in the visibility index are really due to the Penguin update and not have other causes, e.g. due to technical work that was carried out on the website at the same time, can be seen in the course of the weeks/months after the update. If the value remains constant at a low level after the decrease, this clearly speaks for the effects of the Penguin update. Improvements are then only noticeable after the next refresh or update, of course only if you take appropriate measures.
+What can you do after a Google Algorithm Penalty?
+Those affected by the Penguin Update should primarily analyze and improve their own backlink profile. In this case, improving mainly means deleting, i.e. removing the link. However, here it is important to check whether the link is really bad in terms of Google guidelines, otherwise, you may delete good links and keep harmful links, which of course prevents the ranking from recovering. Successful link removal, just like link building, requires a lot of experience.
+In addition, Google launched the Link Disavow Tool in October 2012, with the help of which webmasters can even check unnatural or spammy links and have them devalued. At the same time, new, natural-looking links can be set up to actively strengthen the backlink profile.
+Over time, Google algorithms have improved themselves tremendously. Most of the time, you won’t need to use Disavow Tool because Google will recognize the spammy links and neutralize their effects on their web site. But if you think that you can help Google to understand spammy links, you may use it. Also, never disavow the links you don’t like rather then spammy links. Disavow Tool is for only spammy links, not the links you don’t like.
+If a website is affected by visibility losses shortly after a new Penguin update is rolled out, those affected should first analyze what is causing it. Very often, the site operators themselves already know what mistakes they might have made in search engine optimization, for example in relation to the establishment of a one-sided link profile or the purchase of links.
+Otherwise, an examination of the backlink profile can provide information. The uncovered spam measures must now be undone. Specifically, this means manually removing “bad” links and cleaning up the link profile. This can be achieved by asking the operators of the linked pages to remove the links.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+Theoretical SEO
+What is the Penguin Update? How does the Penguin Algorithm Update Affect SEO?
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+Theoretical SEO
+What is the PageRank for SEO?
+Theoretical SEO
+What is Google’s Hilltop Algorithm?
+0
+0
+0

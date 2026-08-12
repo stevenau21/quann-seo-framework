@@ -1,0 +1,213 @@
+X-Default: Specifying Default Version of a Website - Holistic SEO
+Skip to content
+X-Default is a value for
+hreflang
+the attribute of the link tag.
+A
+hreflang
+value can specify the alternate version of a web page for different regions, and languages, while the x-default value signals the default version for international users. A landing page with a
+hreflang
+set can help users to use a website in their own language. If the user’s language and region are not in the
+hreflang
+set of the landing page, the x-default value can be used as the canonical (default, international) version of the
+hreflang
+set.
+X-default was announced by Google and Yandex on 10 April 2013.
+A URL can have only one x-default, and having an x-default version for the canonical (original) language of the website can help a user and search engine to understand the regional, and cultural relevance of a website for a population segment easier.
+Contents of the Article
+show
+1.
+How to Use X-Default for a Web Page?
+1.1.
+How to Use Hreflang X-Default within WordPress Sites?
+1.2.
+How to Use Hreflang X-Default within the Joomla Websites?
+1.3.
+How to use Hreflang X-Default with Custom Code?
+1.4.
+Can Hreflang X Default be used within Sitemap Files?
+1.5.
+Can Hreflang X-Default be used within Response Headers?
+1.6.
+Can Hreflang X-Default be used for PDF Files?
+1.7.
+Should you use X-Default for your website?
+2.
+What does X-Default Hreflang Mean for a Search Engine?
+3.
+Can a Web Page have X-default hreflang and alternate language code at the same time?
+3.1.
+Can a URL have multiple X-default values?
+3.2.
+Can a Website have multiple X-Default values?
+4.
+Last Thoughts on X-Default Hreflang and Holistic SEO
+How to Use X-Default for a Web Page?
+To use alternate  X-Default
+hreflang
+values within a
+hreflang
+set, the steps below should be followed.
+Check whether the website has alternate languages and regions.
+Check what is the canonical version of the website for a language, and region.
+Understand the syntax of the x-default and hreflang values.
+Choose the default version of the landing page as an international version with an x-default value.
+Be sure that there is no second x-default value on the web page.
+<link rel="alternate" href="http://example.com/en-gb" hreflang="en-gb" />
+<link rel="alternate" href="http://example.com/en-us" hreflang="en-us" />
+<link rel="alternate" href="http://example.com/en-au" hreflang="en-au" />
+<link rel="alternate" href="http://example.com/" hreflang="x-default" />
+To learn how to use “
+hreflang
+” attribute, and alternate language codes, you can read the related guideline.
+How to Use Hreflang X-Default within WordPress Sites?
+WordPress sites can use X-Default
+hreflang
+value with the help of plugins, or by modifying the “.htaccess” files. The plugins for
+hreflang
+can add an x-default value to the sitemaps, response headers, or HTML documents. The plugins below can be used for the X-Default
+hreflang
+tag within WordPress.
+Hreflang Tags Lite
+Multilingual Press
+Polylang
+To add
+hreflang
+X-Default to a WordPress website, one can use manual code adding via “header.php”, or “.htaccess of WordPress”.
+To learn the Hreflang X-default and
+hreflang
+values for WordPress, read the related guideline.
+How to Use Hreflang X-Default within the Joomla Websites?
+To add the Hreflang X Default value within Joomla Websites, Joomla provides core features and extensions. Languages Extension of Joomla enables a user to add X-default
+hreflang
+value. Joomla provides options and possibilities to create a multilingual menu, content, and website.
+How to use Hreflang X-Default with Custom Code?
+To use X-Default with custom code, such as a static site generator, or with a NodeJS server, a developer, and SEO can use Jinja, GatsbyJS, or some NodeJS plugins. In ReactJS, the “dangerouslySetInnerHTML” method can be used to create a markup for the hreflang and x-default values. With Jinja, a developer can generate related
+hreflang
+set values by including the hreflang X default HTML tag lines.
+To learn how to create a sitemap with Jinja, and use it for alternate templates such as
+hreflang
+, read the related guideline.
+Can Hreflang X Default be used within Sitemap Files?
+Yes, hreflang X Default can be used within sitemap files. X-Default hreflang value and the language, and region codes can be used within sitemap files of the websites to specify the alternate and international versions of the web pages. To use the x-default within the sitemap files, you should include the “http://www.w3.org/1999/xhtml” namespace, and “<xhtml:link rel=”alternate” and “hreflang = “x-default” values. The proper tag order within sitemaps to use hreflang x-default is below.
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>http://www.example.com/english/english/children-bed</loc>
+<xhtml:link
+rel="alternate"
+hreflang="x-default"
+href="http://www.example.com/kinderbett "/>
+<xhtml:link
+rel="alternate"
+hreflang="de-ch"
+href="http://www.example.com/en-us/children-bed"/>
+<xhtml:link
+rel="alternate"
+hreflang="en"
+href="http://www.example.com/english/children-bed"/>
+</url>
+<url>
+<loc>http://www.example.com/kinderbett</loc>
+<xhtml:link
+rel="alternate"
+hreflang="de"
+href="http://www.example.com/kinderbett"/>
+<xhtml:link
+rel="alternate"
+hreflang="en-us"
+href="http://www.example.com/en-us/children-bed"/>
+<xhtml:link
+rel="alternate"
+hreflang="en"
+href="http://www.example.com/en/children-bed">
+</url>
+<url>
+<loc>http://www.example.com/en-us/children-bed</loc>
+<xhtml:link
+rel="alternate"
+hreflang="de"
+href="http://www.example.com/kinderbett"/>
+<xhtml:link
+rel="alternate"
+hreflang="de-ch"
+href="http://www.example.com/en-us/children-bed"/>
+<xhtml:link
+rel="alternate"
+hreflang="en"
+href="http://www.example.com/en/children-bed"/>
+</url>
+</urlset>
+To learn more about sitemaps, such as
+XML sitemap
+and
+HTML Sitemap
+definitions, types of sitemaps, and their necessity for SEO, you can read the related guidelines.
+Can Hreflang X-Default be used within Response Headers?
+Yes, hreflang x-default can be used within response headers. X-default hreflang can be used within response headers like other hreflang tag values. To use the x default hreflang within the response headers, you should use the “Link” response header with the “<url of the web page/>” and the “hreflang=x-default” values. An example of x-default hreflang within response headers can be found. Below, an example of hreflang x-default can be found.
+Link: <http://example.com/pdf-file.pdf>; rel="alternate"; hreflang="x-default",
+<http://en-us.example.com/pdf-file.pdf>; rel="alternate"; hreflang="en-us",
+<http://de.example.com/pdf-file.pdf>; rel="alternate"; hreflang="de"
+Can Hreflang X-Default be used for PDF Files?
+Yes, hreflang x-default can be used for PDF files to specify the international version of the PDF Files. X-default can be used for PDF Files within the response headers. Below, hreflang-x usage samples can be found for PDF files. As an x-default hreflang value, regular alternate values of hreflang can be used for PDF Files to specify a different region and language.
+Should you use X-Default for your website?
+Using the x-default hreflang value can help a search engine to understand the original version of a website. The original version of a website is the canonical, and root version with the default language, and region information. X-Default can affect the user experience of search engine users, it can decrease the time for satisfying the users from around the world that do not match a language, and region from the hreflang set.
+X-Default Hreflang is necessary for
+multilingual SEO
+, and search engine communication, it can help a search engine to give more weight to a version of the web page.
+What does X-Default Hreflang Mean for a Search Engine?
+X-default hreflang means that the web page doesn’t focus on a specific language and locale, it is a regular, international, and general version of the hreflang alternate URLs. X-Default is suggested to be used for the Homepages, or the pages with a map that help users to choose an alternate version of the website, or the web page for the user. If the user speaks French, and if it searches from French, an English content website with X-Default can help the user to navigate a landing page so that the user can choose another language version of the website or the web page.
+Can a Web Page have X-default hreflang and alternate language code at the same time?
+Yes, a web page can have x-default hreflang value and also the hreflang language alternate values. A URL can be x-default and also an alternate language version. Google’s John Mueller approved that a web page can have an X-default HTML hreflang attribute to be used as an international version while it can be used as a specific language section at the same time.
+Can a URL have multiple X-default values?
+No, a URL can have only a single X-Default value. A URL can have only one internationalized default version. In terms of hreflang alternate values, a user can specify a different language, and region codes, or their combinations as long as it is necessary while using only one X-Default version.
+Can a Website have multiple X-Default values?
+Yes, a website can have multiple x-default values. A website can use a certain language section as an internationalized version with an X-default for a subsection, or subset of queries while for other topics, it can use another subsection as X-default. But, using multiple internationalized versions for different topics with different URL subsets can signal that a website has two different intended audiences. Thus, to prevent the brand identity, and the website’s intended audience from conflict, creating clear signals for the search engine is better. For example, if a website has five different languages, and five different topics, for one topic, it can use a language as x-default, for another topic, another language version can be x-default.
+Last Thoughts on X-Default Hreflang and Holistic SEO
+X-Default hreflang is a part of International SEO for multilingual websites. Most websites do not use an x-default version, and it might harm the user experience on the SERP while making assigning a canonical language version harder for search engines. A search engine can use a Language Rank score to understand the language of the document and to match it to the query by checking the query language. Hreflang tags can help a search engine to understand the language of the web page, and x-default can help to see the intended audience of the website as default.
+Language rank and language sets help search engines to match the related documents with the related audience, thus even if relevance and quality are good enough, matching the related region, and language is a critical task for the web search engines such as Google, Yandex, Bing, DuckDuckGo or Ecosia. In the context of Holistic SEO, understanding the value of the X-default will help a search engine optimization expert to use it wisely to decrease the cost of evaluation for the search engines to make the website clear from more sides.
+The X-default hreflang guide will be updated in light of new information.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+2 thoughts on “X-Default: Specifying Default Version of a Website”
+Hi there. Thanks for writing a very detailed article on the multilingual sitemap. One x-default element is shown in your illustrated sitemap example. Can it contain a multiple of this tag in the sitemap? I want to give one for about us, faq, sitemap, etc.
+Thanks for your response in advance.
+Reply
+Hello Sam,
+Thanks for commenting. The “x-default” should be one inside the hreflang set.
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+X-Default: Specifying Default Version of a Website
+by Koray Tuğberk GÜBÜR
+time to read: 7 min
+TechSEO
+What is a Web Page: Definition, Types, and Example…
+TechSEO
+What is a website: Examples, Types and Structure
+0
+0
+2

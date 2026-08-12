@@ -1,0 +1,104 @@
+HTML <audio> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <audio> HTML Tag is used to incorporate audio into documents. It may include one or more audio sources, indicated by the src attribute or the <source> HTML Tag, and the browser will select the most appropriate one. Additionally, it can be used as the destination for streamed media via a MediaStream. The <audio> HTML Tag is part of the audio/video tags’ category in HTML Element Reference. The attributes of the <audio> HTML Tag are autoplay, controls, loop, muted, preload, src, global attributes, and event attributes.
+<audio> HTML Tag code block example to learn how it works is given below.
+<audio src="" controls>
+(Fallback content insert here)
+</audio>
+The second example usage of the “<audio>” code block example is below.
+<audio src="/music/to_the_bone.mp3" controls>
+<p>If you're reading this, it's because your computer is unable to play audio...</p>
+</audio>
+Contents of the Article
+show
+1.
+What is <audio> HTML Tag?
+2.
+How to Use <audio> HTML Tag?
+2.1.
+Example Usage of <audio> HTML Tag?
+3.
+What are the Attributes of <audio> HTML Tag?
+4.
+What are the Default CSS Settings for <audio> HTML Tag?
+5.
+What are the Related other HTML Tags to <audio>?
+What is <audio> HTML Tag?
+The <audio> HTML Tag is used to embed audio content, such as music or other audio streams, within a document. The <audio> HTML Tag contains one or more <source> HTML Tags containing audio files from various sources. The browser will attempt to connect to the first source that it recognizes. Between the <audio> and </audio> HTML Tags, the text will be displayed only in browsers that do not support the <audio> HTML Tag. HTML supports three audio formats which is the MP3, WAV, and OGG.
+How to Use <audio> HTML Tag?
+To use <audio> HTML Tag, the web developer should create <audio></audio> using the start tag’s attributes. Attributes can specify the audio file to play as well as other choices such as whether to play automatically, to choose whether or not to display the controls in the browser, and so on.
+Example Usage of <audio> HTML Tag?
+The following example of usage of <audio> HTML Tag is given below.
+<figure>
+<figcaption>Listen to Shawn Mendes:</figcaption>
+<audio
+controls
+src="/media/cc0-audio/shawn-mendes-stitches.mp3">
+Your browser does not currently support
+<code>audio</code> content.
+</audio>
+</figure>
+What are the Attributes of <audio> HTML Tag?
+There are multiple attributes for the <audio> HTML Tag. The following attributes are listed below.
+controls: The <audio> HTML Tag supports controls attribute. The controls attribute indicates that audio controls, such as a play/pause button, should be displayed.
+autoplay: The <audio> HTML Tag supports autoplay attribute. The autoplay attribute indicates that the audio will begin playing immediately upon completion.
+muted: The <audio> HTML Tag supports muted attributes. The mute attribute indicates whether or not the audio output should be muted.
+preload: The <audio> HTML Tag supports preload attribute. The preload attribute indicates whether and how the author believes the audio should be loaded upon page load.
+src: The <audio> HTML Tag supports src attribute. The src attribute specifies the audio file’s URL.
+loop: The <audio> HTML Tag supports loop attribute. The loop attribute indicates that the audio will restart when it is finished.
+Global Attributes: The <audio> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <audio> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <audio> HTML Tag?
+The following is the Default CSS Setting for the <audio> HTML Tag.
+figure {
+margin: 0;
+}
+What are the Related other HTML Tags to <audio>?
+The other related HTML Tags to <audio> HTML Tag are listed below.
+<track> HTML Tag: The
+<track>
+HTML Tag is related to <audio> HTML Tag because they are both audio/video tags. The <track> HTML Tag is used to specify a media element’s track.
+<video> HTML Tag: The
+<video>
+HTML Tag is related to <audio> HTML Tag because they are both audio/video tags. The <video> HTML Tag is used to specify video content.
+<source> HTML Tag: The
+<source>
+HTML Tag is related to <audio> HTML Tag because they are both audio/video tags. The <source> HTML Tag is used to specify the media resources that will be used by media elements.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <audio> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <base> Tag Definition, Usage and Exampl…
+TechSEO
+HTML <map> Tag Definition, Usage and Example…
+0
+0
+0

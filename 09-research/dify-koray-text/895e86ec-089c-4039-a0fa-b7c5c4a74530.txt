@@ -1,0 +1,140 @@
+What is Largest Contentful Paint? How to Improve LCP - Holistic SEO
+Skip to content
+Largest Contentful Paint (LCP) is the rendering time of the largest and main content of the web page. LCP is one of the Core Web Vitals Metrics that are launched by Google Chrome Developers to measure “user experience” based on Page Speed Metrics. Largest Contentful Paint is important to see that when the most important web page component is being downloaded and users can perform their main search and visit intent on the web page. Improved LCP Timing can increase the conversion rate and user satisfaction.
+Largest Contentful Paint (LCP) are directly related some of the Page Speed Metrics:
+First Contentful Paint
+First Paint
+First Meaningful Paint
+First Significant Paint
+Time to First Byte
+Speed Index
+Except for the First Meaningful Paint and First Significant Paint, the rest are still being used by Lighthouse, Page Speed Insights, and Google Chrome Developers. Largest Contentful Paint has taken the place of First Meaningful Paint and First Significant Paint by time. First Meaningful Paint was calculating the when the first meaningful page component was being downloaded while the First Significant Paint was calculating the first important web page component’s rendering time.
+Largest Contentful Paint has included both of those metrics for a better user-centric page speed improvement tradition. Since, calculating First Meaningful Paint and First Significant Paint as separate hard and they are hard to use for better User-experience, Largest Contentful Paint has been started to use after Core Web Vitals’ launching.
+The change of Page Speed Metrics from Lighthouse v5 to Lighthouse v6.
+Contents of the Article
+show
+1.
+What is a Good Largest Contentful Paint (LCP) Timing?
+2.
+Which Web Page Elements are Considered in Largest Contentful Paint?
+3.
+How is a Web Page Element can be Perceived as Largest according to the Web Core Vitals?
+3.1.
+How is LCP being measured for the image elements on the web page?
+3.2.
+How is LCP being perceived for the text elements on the web page?
+4.
+Largest Contentful Paint Reporting Time in the Browser
+4.1.
+How Does Browser Determine the LCP During the Web Page Loading Process?
+5.
+How to Measure the Largest Contentful Paint?
+6.
+What are the Main Reasons of a Bad Largest Contentful Paint Timing?
+7.
+How to Optimize the Largest Contentful Paint?
+7.1.
+1.Optimize Web Servers for Better Largest Contentful Paint Timing
+7.2.
+2. Use Content Delivery Network for Largest Contentful Paint
+7.3.
+3. Use Cache to Store Web Page Assets
+7.4.
+4. Use Service Worker for Caching the Necessary Assets to Improve Largest Contentful Paint
+7.5.
+5. Use Browser Hints to Improve Largest Contentful Paint
+7.6.
+6. Eliminate Render Blocking Resources for Better Largest Contentful Paint Timing
+7.6.1.
+How to Compress and Minify the CSS Files for Largest Contentful Paint Optimization
+7.6.2.
+How to Reduce the Javascript Blocking time for The Largest Contentful Paint Optimization
+7.7.
+7. Optimize Images for Largest Contentful Image Optimization
+7.8.
+8. Use Adaptive Serving for the LCP Optimization
+7.9.
+9. Don’t Rely on Client-side Rendering for Better Largest Contentful Paint Timing
+7.10.
+10. Use Server-side Rendering and Pre-rendering for Largest Contentful Paint Optimization
+8.
+Last Thoughts on Largest Contentful Paint and Holistic SEO
+9.
+What is the Difference Between Largest Contentful Paint and Interaction to Next Paint?
+What is a Good Largest Contentful Paint (LCP) Timing?
+A Good Largest Contentful Paint timing is under the 2.5 seconds. Between, 2.5 seconds and 4.0 seconds means that LCP needs to be improved. If it is longer than 4.0 seconds, it means that the Largest Contentful Paint is poor. Measuring LCP from a different device and connection types can help Developers and SEOs to understand that which user-profile has to have what type of LCP Experience in the web site. Using Dynamic Serving, Network Information API can help for device and connection type optimization in this context. If 75% or more than 75% of the users have an LCP Timing under the 2.5 Seconds, it means that the LCP Score is good in general.
+Largest Contentful Paint Timing Classification.
+Which Web Page Elements are Considered in Largest Contentful Paint?
+The web page elements that are considered in the Largest Contentful Paint are as below.
+Image Elements
+Image Elements in a <svg> tag.
+Text Elements whether “block” or “inline”.
+Image Elements with CSS Background Property
+The elements that are measured for LCP are limited to keep calculation simple. In the future, Google Chrome Developers think adding “svg” and “video” elements also.
+How is a Web Page Element can be Perceived as Largest according to the Web Core Vitals?
+The <div> tag or the web page element that contains the Largest Content of the web page is being measured according to its “visible” area to the users. If a web page component has a wider area than the viewport or some of the web page component’s parts are “hidden” or “non-visible”, this hidden portion is not counted in the LCP.
+How is LCP being measured for the image elements on the web page?
+The size of the element for the Largest Contentful Paint is being perceived and measured according to its visible size to the users. For the resized images, the smaller size of the image from between the intrinsic size or the resized size will be counted for the LCP. If an image is stretched, the intrinsic size will be counted. If an image is shrunk according to its intrinsic size then the shrunk size will be counted.
+Largest Contentful Paint, especially the LCP with images, also can affect the
+Speed Index
+, perceived speed and visual completeness progress of a web page.
+How is LCP being perceived for the text elements on the web page?
+For the LCP of the HTML Nodes that contain “text elements” the size of the text element is being measured. It means that the possible smallest rectangle that wraps the area of the text elements will be measured and compared for the LCP. To understand which text element belongs to which element, Chrome Developers use the “closest block-level element”. It means that if there is a text whether it is a plain text, paragraph, or inline text, it will be counted as the text of the closest block-level ancestor element.
+For all of the web page components, CSS Borders, Margins and Paddings are not counted for the LCP Measuring.
+A Representation of Largest Contentful Paint Perception from Koray Tuğberk GÜBÜR’s “Advanced Concepts for Measuring Page Speed in 2020 – Oncrawl” Article.
+Largest Contentful Paint Reporting Time in the Browser
+Largest Contentful Paint can be perceived as different by the browser since the web page is being downloaded and rendered in phases. To solve this issue, the browser uses the “PerformanceEntry” with the type of “largest-contentful-paint”. Whenever a new page element is being shown by the browser, the PerformanceEntry with the type of “largest-contentful-paint” is being refreshed. So, in the first second of the page rendering process, a small image can be Largest Contentful Element, but later, if there is a larger element on the screen, the Largest Content will change immediately.
+For instance, at the beginning of the web page loading, a text element can be the largest contentful paint. After a button is being downloaded with the CTA and Heading 1, Largest Contentful Paint can be changed. After the background image’s download has been finished, the LCP will change again. Largest Contentful Paint will be perceived according to the “wrapper HTML Node’s” content. If all of these content are in the same “HTML Node” (if all of them have the same parent HTML Node), then they all will be in the Largest Contentful Paint.
+If the web page elements are in different HTML Nodes, then the LCP will be chosen according to these different HTML Node Elements’ total visible size. Semantic HTML Usage and Cleaner HTML Code Structure can help Google Algorithms and Chrome Page Speed Measure Systems to identify the LCP easier. Imagine, LCP is the “pop-up” on the web page or a small and non-important text snippet. This actually can create a non-efficient Chrome User Experience Report, confuse the Google Algorithms, and decrease the Page Speed Tools’ efficiency.
+Largest Contentful Paint should include the web page’s main content and purpose. It clearly should tell the web page’s context and function while satisfies the users’ main visit intent. Google Search Engine Algorithms also can use LCP to understand the web page’s purpose, that’s why having a clear LCP in the web page loading experience is important.
+How Does Browser Determine the LCP During the Web Page Loading Process?
+Below, you may find more details about Largest Contentful Paint measurement and optimization.
+If a web page component stays long enough on the web page during the web page loading, it can be perceived as the LCP despite there is another web page component that larger and being downloaded later.
+Despite an HTML Node has the largest content on the web page, it still may not be the LCP. If there are two HTML Nodes that have similar visible sizes, the HTML Node with the larger and lesser elements will be chosen as LCP. Imagine there are two HTML Nodes, one has a big image, the other one has two different small images, in this context, the HTML Node with the larger image will be perceived as LCP.
+After Chrome 86, the HTML Nodes with 0 opacity will not be counted in LCP Measurement.
+After the user has performed the first interaction with the web page, the LCP Measurement will stop. In this context, we may say that LCP reflects the web page’s main purpose.
+Browsers always change the LCP whenever the new web page elements become visible, because if a web page has a “splash screen” or “loading phase as visually”, the web page can’t be perceived and interpreted as it should be.
+If there is a placeholder for the image, the Browser will notice the placeholder’s erased time and change the LCP with the actual image.
+If there are “cross-origin” images with a lack of the “Timing-Allow-Origin” header, the LCP can’t be measured for these web page elements.
+To keep the Performance Cost of LCP Calculation and Measurement, only the “initial visible size” is being counted. It means that any change in the element’s size or position after it is visible won’t affect the LCP.
+If an element is being removed from the Web Page during the loading phase of the web page, it will also be removed from the LCP. This section is especially important for the “Image Carousels.”
+How to Measure the Largest Contentful Paint?
+To measure Largest Contentful Paint, methods and tools below can be used.
+Page Speed Insights
+Lighthouse
+GTMetrix
+Webpagetest
+Chrome Experience Report
+Puppeteer (Recommended for Holistic SEOs)
+What are the Main Reasons of a Bad Largest Contentful Paint Timing?
+The bad LCP Timing reasons are listed below.
+Slow Response Time
+Render Blocking CSS
+Render Blocking Javascript
+Client-side Rendering
+Unoptimized and Uncleaned CSS and JS Files
+Non-visible Fonts During Page Loading
+Unoptimized Images
+Unoptimized Resource Load Order
+These points are important for every web page performance metric. In the context of LCP, it is processed under the title of How to Optimize LCP.
+How to Optimize the Largest Contentful Paint?
+A slow Time To First Byte timing will decrease the overall performance for the web site. A slow server will create a general slowdown, but it is more critical for the Largest Contentful Paint. Because of the slow response time, the browser may not interpret the LCP correctly since some of the web page components stays longer than they should on the screen.
+To increase the TTFB to help LCP, you may implement methods below.
+Optimize the Server Infrastructure with the Back-end Technologies
+Use Brotyli or Gzip Compression on the Server
+Use HTTP 2 Push for the critical assets to decrease the TTFB for these resources.
+Cache the necessary assets for the web page
+Try to use CDN
+Use HTTP 2.1 instead of HTTP 1.1
+Serve the HTML Pages from Cache
+Server Configuration and using more simple query structure at the background, will affect Response time and Largest Contentful Paint directly.
+To optimize the Time to First Byte
+, you may read the related guideline.
+1.Optimize Web Servers for Better Largest Contentful Paint Timing
+Every web server infrastructure has its own terms, methods, and guidelines to improve web page performance. If the webserver doesn’t support or doesn’t have the “Brotli” or the “Gzip” compression technology, or it doesn’t serve the response headers that are necessary for the caching, it will also decrease the web page loading speed. To optimize the server infrastructure, using more simple queries on the background is important.
+Also, using a server-side rendering technology along with a server-side cache can decrease the response time. Every asset on the web page is being called from the webserver during the “connection creation”. Because of these fetching, downloading, and creating the web page from the start process, the response time and the general web page performance may be affected as bad. Server-side rendering can create an HTML Web page in the server-side and the server can cache that static HTML Web Page for serving it to the user FASTER.
+In this method, the browser will fetch a ready-to-go web page from the cache and the server won’t be exhausted for giving a response for every individual web page asset. Thanks to Server-side Rendering and faster response timing, Gzip and Brotli Compression, Largest Contentful Paint can be optimized.
+2. Use Content Delivery Network for Largest Contentful Paint
+If a web-site has only a single server, it can be overloaded easily. Also, if there is not enough “Disk I/O”, “CPU”, “Network” or “Memory” on the server, the web site can suffer from the server response times or worse, 500x errors. This situation affects the Largest Contentful Paint like other page speed 
+
+[...truncated...]

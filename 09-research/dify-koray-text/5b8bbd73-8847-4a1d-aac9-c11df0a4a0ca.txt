@@ -1,0 +1,92 @@
+Skip to content
+The HTML <small>Tag represents side comments such as small print. Small print, sometimes known as “fine print” or “mouseprint,” is the section of a document that contains disclaimers, cautions, or legal limitations, such as copyrights. The <small> HTML Tag is part of formatting HTML category in HTML Element Reference. The attributes of the <small> HTML Tag are global attributes and event attributes.
+<small> code block example to learn how it works is given below.
+<small>Small text here...</small>
+The second example usage of the “<small>” code block example is given below.
+<p>Mojito, half price! <small>(as long as you tip us the other half)</small></p>
+Contents of the Article
+show
+1.
+What is <small> HTML Tag?
+2.
+How to Use <small> HTML Tag?
+2.1.
+Example Usage of <small> HTML Tag?
+3.
+What are the Attributes of <small> HTML Tag?
+4.
+What are the Default CSS Settings for <small> HTML Tag?
+5.
+What are the Related other HTML Tags to <small>?
+What is <small> HTML Tag?
+The <small> HTML tag specifies side-comments and small print, such as copyright and legal material, regardless of how it is designed. It renders text within it one font size smaller by default, such as from small to x-small.
+How to Use <small> HTML Tag?
+To use the <small> HTML Tag the web developer should write the <small> tag with the small text inserted between the start and end tags. To represent legal restrictions and cautions, the web developer must utilize the <small> tag. The <small> element is specifically meant for short text runs. It is not ideal for long stretches of text, such as paragraphs, lists, and so on. As a result, the <small> tag should not be used to mark up the whole content of a “Terms of Use” page.
+Example Usage of <small> HTML Tag?
+The following example of usage of <small> HTML tag is given below.
+<p>This is some normal text.</p>
+<p><small>This is some smaller text.</small></p>
+What are the Attributes of <small> HTML Tag?
+There are multiple attributes for the <small> HTML Tag. The following attributes are listed below.
+Global Attributes: The <small> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <small> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <small> HTML Tag?
+The following is the Default CSS Setting for the <small> HTML Tag.
+small {
+font-size: .7em
+}
+What are the Related other HTML Tags to <small>?
+The other related HTML Tags to the <small> HTML Tag are listed below.
+<b> HTML Tag: The
+<b>
+HTML Tag is related to <small> HTML Tag because they are both in formatting HTML Tags. The <b> HTML Tag is used to indicate that the text is bold.
+<bdi> HTML Tag: The
+<bdi>
+HTML Tag is related to <small> HTML Tag because they are both in formatting HTML Tags. The <bdi> HTML Tag is used to create text that is written in a different direction than the rest of the text.
+<center> HTML Tag: The
+<center>
+HTML Tag is related to <small> HTML Tag because they are both in formatting HTML Tags. To centralize the text in HTML, the <center> HTML Tag is used.
+<cite> HTML Tag: The
+<cite>
+HTML Tag is related to <small> HTML Tag because they are both in formatting HTML Tags. The <cite> HTML Tag is used to specify the work’s title.
+<code> HTML Tag: The
+<code>
+HTML Tag is related to <small> HTML Tag because they are both in formatting HTML Tags. The <code> HTML Tag is used to define the document’s code.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <small> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <s> Tag Definition, Usage and Examples…
+TechSEO
+HTML <span> Tag Definition, Usage and Exampl…
+0
+0
+0

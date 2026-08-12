@@ -1,0 +1,122 @@
+HTML <aside> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <aside> HTML Tag indicates a section of a document whose content is only slightly related to the document’s primary content. Commonly, asides are presented as sidebars or call-out boxes. The <aside> HTML Tag is used to describe the web page’s primary object in a concise manner, similar to a highlighter. The <aside> HTML Tag is part of the style and semantic tags category in HTML Element Reference. The attributes of the <aside> HTML Tag are global attributes and event attributes.
+<aside> code block example to learn how it works is given below.
+<aside>
+Content
+</aside>
+The second example usage of the “<aside>” code block example is below.
+<h1>Chrome</h1>
+<p>Google Chrome is a Google-developed cross-platform web browser.</p>
+<aside>
+<p>It was released for Microsoft Windows for the first time in 2008, using free software parts from Apple WebKit and Mozilla Firefox.</p>
+</aside>
+Contents of the Article
+show
+1.
+What is <aside> HTML Tag?
+2.
+How to Use <aside> HTML Tag?
+2.1.
+Example Usage of <aside> HTML Tag?
+3.
+What are the Attributes of <aside> HTML Tag?
+4.
+What are the Default CSS Settings for <aside> HTML Tag?
+5.
+What are the Related other HTML Tags to <aside>?
+What is <aside> HTML Tag?
+The <aside> HTML Tag is used to briefly describe the web page’s primary object, much like a highlighter. It is necessary for web developers because it essentially identifies content that is related to the web page’s primary content but does not constitute the primary page’s primary intent. The <aside> HTML Tag primarily contains author information, links, and related content.
+How to Use <aside> HTML Tag?
+To use <aside> HTML Tag, the web developer should write <aside></aside> with content inserted between the start and end tags and it will describe the web page’s primary object just like a highlighter. Avoid tagging parenthesized text with the <aside> HTML Tag, as this type of text, is considered to be part of the main flow.
+Example Usage of <aside> HTML Tag?
+The following example of usage of <aside> HTML Tag is given below.
+<article>
+<p>
+Meta Platforms <cite>Facebook</cite> was
+founded in 2004
+</p>
+<aside>
+<p>
+It was the most downloaded mobile application of the decade of the 2010s.
+</p>
+</aside>
+<p>
+According to Facebook, there are 2.8 billion monthly active users as of 2020.
+</p>
+</article>
+What are the Attributes of <aside> HTML Tag?
+There are multiple attributes for the <aside> HTML Tag. The following attributes are listed below.
+Global Attributes: The <aside> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <aside> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <aside> HTML Tag?
+The following is the Default CSS Setting for the <aside> HTML Tag.
+aside {
+width: 75%;
+padding-left: .3rem;
+margin-left: .3rem;
+float: right;
+box-shadow: inset 5px 0 5px -5px #00000;
+font-style: bold;
+color: #FFE4C4;
+}
+aside > p {
+margin: 1rem;
+}
+What are the Related other HTML Tags to <aside>?
+The other related HTML Tags to <aside> HTML Tag are listed below.
+<footer> HTML Tag: The
+<footer>
+HTML Tag is related to <aside> HTML Tag because they are both style and semantic tags. The <footer> HTML Tag specifies a footer for the sectioning content or sectioning root element immediately preceding it.
+<div> HTML Tag: The
+<div>
+HTML Tag is related to <aside> HTML Tag because they are both style and semantic tags. The <div> HTML Tag acts as a container for flow content. It has no influence on the text or layout unless and until it is styled with CSS.
+<summary> HTML Tag: The
+<summary>
+HTML Tag is related to <aside> HTML Tag because they are both style and semantic tags. The <summary> HTML Tag specifies a summary, caption, or legend for the disclosure box of a <details> HTML Tag.
+<article> HTML Tag: The
+<article>
+HTML Tag is related to <aside> HTML Tag because they are both semantic and style tags. The <article> HTML Tag specifies a self-contained composition in a document, page, application, or site that is meant to be distributable or reusable independently.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+2 thoughts on “HTML <aside> Tag Definition, Usage and Examples”
+Does it make sense to use this tag (aside) from the SEO point of view. Or does it not matter?
+Reply
+Assistive technologies can recognize the
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <aside> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <hr> Tag Definition, Usage and Examples…
+TechSEO
+HTML <main> Tag Definition, Usage and Exampl…
+0
+0
+2

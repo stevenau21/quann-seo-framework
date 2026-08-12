@@ -1,0 +1,98 @@
+HTML <p> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <p> HTML Tag is used to show a paragraph. Blank lines or first-line indentation typically define paragraphs in visual media, but HTML paragraphs can be any structural grouping of related material, including images and form fields. For example, paragraphs will automatically close when another block-level element is parsed before the concluding </p> HTML Tag, which is a notable feature. The <p> HTML Tag is part of the basic HTML category in HTML Element Reference. The attributes of the <p> HTML Tag are global attributes and event attributes.
+<p> code block example to learn how it works is given below.
+<p>Paragraph</p>
+The second example usage of the “<p>” code block examples is given below.
+<p>Facebook is accessible from any device that has Internet access, including personal computers, tablets, and smartphones. Users.......</p>
+<p>Facebook has frequently come under criticism for issues such as user privacy.....</p>
+Contents of the Article
+show
+1.
+What is <p> HTML Tag?
+2.
+How to Use <p> HTML Tag?
+2.1.
+Example Usage of <p> HTML Tag?
+3.
+What are the Attributes of <p> HTML Tag?
+4.
+What is the Default CSS Setting for <p> HTML Tag?
+5.
+What are the Related other HTML Tags to <p>?
+What is <p> HTML Tag?
+The <p> HTML Tag can be used to display a paragraph on the web. Blank lines or a first-line indentation are usually used to define paragraphs in visual media. HTML paragraphs can be any structural grouping of related material, such as images and form fields, and they can be used to group together content.
+How to Use <p> HTML Tag?
+To use <p> HTML Tag, the web developer should insert a paragraph between the <p> and </p> HTML Tags. Browsers automatically add a single blank line before and after each <p> HTML Tag, so there is always a blank line before and after it.
+Example Usage of <p> HTML Tag?
+The following examples of usage of <p> HTML Tag are given below.
+<p>A web browser is computer software that enables users to visit the World Wide Web or a local website.</p>
+<p>A web browser is not synonymous with a search engine....</p>
+What are the Attributes of <p> HTML Tag?
+There are multiple attributes for the <p> HTML Tag. The following attributes are listed below.
+Global Attributes: The <p> HTML Tag supports global attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <p> HTML Tag supports event attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What is the Default CSS Setting for <p> HTML Tag?
+The following is the Default CSS Setting for the <p> HTML Tag.
+p {
+margin: 10px 0;
+padding: 5px;
+border: 1px solid #999;
+}
+What are the Related other HTML Tags to <p>?
+The other related HTML Tags to <p> HTML Tag are listed below.
+<comment> HTML Tag: The <comment> HTML Tag is related to <p> HTML Tag because they are both in basic HTML Tags. The <comment> HTML Tag is used to insert comments into the main HTML code file.
+<doctype> HTML Tag: The <doctype> HTML Tag is related to <p> HTML Tag because they are both in basic HTML Tags. The <doctype> HTML Tag informs the browser about the HTML version.
+<title> HTML Tag: The
+<title>
+HTML Tag is related to <p> HTML Tag because they are both in basic HTML Tags. The <title> HTML Tag is used to define the page’s title.
+<body> HTML Tag: The
+<body>
+HTML Tag is related to <p> HTML Tag because they are both in basic HTML Tags. The <body> HTML Tag is used to define the body of a web page.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+4 thoughts on “HTML <p> Tag Definition, Usage and Examples”
+great article there keep it up.
+Reply
+Thank you, Kodokmas33.
+Reply
+Thank you, this is helpful to understand.
+Reply
+Thank you, Aku!
+Reply
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <p> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <figure> Tag Definition, Usage and Exam…
+TechSEO
+HTML <a> Tag Definition, Usage and Examples…
+0
+0
+4

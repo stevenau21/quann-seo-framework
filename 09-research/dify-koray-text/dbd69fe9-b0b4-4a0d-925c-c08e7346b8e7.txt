@@ -1,0 +1,100 @@
+Skip to content
+The X-Forwarded-Host HTTP Header is a de facto standard request-type header. The X-Forwarded-Host HTTP Header is used to identify the client’s initial request. Since the host names and ports of reverse proxies differed, the X-Forwarded-Host HTTP Header took the initiative and identified the originating request. The X-Forwarded-Host HTTP Header is also utilized for debugging and creating location-based information. As a result, the X-Forwarded-Host HTTP Header protects the client’s privacy. The X-Forwarded-Host HTTP Header’s root version is HTTP Forwarded. The forwarded request header provides information that reverse proxy servers (load balancers, CDNs, and so on) may add that would otherwise be altered or lost during the request’s journey through proxy servers. The X-Forwarded-Host HTTP Header value is the <host>. The value is the domain name of the forwarding server. The following is an example of an X-Forwarded-Host HTTP Header for the request header for a client-made HTTP request.
+X-Forwarded-Host: ih29.example-cdn.com
+The X-Forwarded-Host HTTP Header request header is seen above. The article will process the X-Forwarded-Host HTTP Header Syntax, Directives, and uses with examples.
+Contents of the Article
+show
+1.
+What is an X-Forwarded-Host HTTP Header?
+1.1.
+What is the Syntax of X-Forwarded-Host HTTP Header?
+1.2.
+What is the Directive for the X-Forwarded-Host HTTP Header?
+2.
+How to use X-Forwarded-Host HTTP Header?
+2.1.
+Examples of X-Forwarded-Host HTTP Header Use
+3.
+What is the Specification Documents for X-Forwarded-Host HTTP Header?
+4.
+What are the types of X-Forwarded-Host HTTP Header?
+4.1.
+What HTTP headers are similar to the X-Forwarded-Host HTTP header?
+5.
+Which Browsers Support X-Forwarded-Host HTTP Header?
+What is an X-Forwarded-Host HTTP Header?
+The X-Forwarded-Host HTTP Header is a de facto standard for identifying the origin of the Host HTTP header request. It indicates which host was originally used. By design, the X-Forwarded-Host HTTP Header is used for debugging, statistics, and providing location-specific content. It also exposes personal identifying information, such as the client’s IP address.
+What is the Syntax of X-Forwarded-Host HTTP Header?
+The syntax of X-Forwarded-Host HTTP has one part. To use the X-Forwarded-Host HTTP Header, follow the example syntax below.
+X-Forwarded-Host: <host>
+What is the Directive for the X-Forwarded-Host HTTP Header?
+The directives of the X-Forwarded-Proto HTTP Header are only one. The host is the directive of the X-Forwarded-Host HTTP Header, which is then forwarded to the server’s domain name.
+The viewed website in this example was sent from the previously indicated host website.
+Below is an example of the usage of the directives X-Forwarded-Host HTTP Header.
+X-Forwarded-Host: www.example-cdn.com
+How to use X-Forwarded-Host HTTP Header?
+The X-Forwarded-Host HTTP Header is used to identify the client’s initial request. Since the hostnames and ports in the reverse proxies differed at the time, the X-Forwarded-Host HTTP Header took the lead and identified the originating request. The X-Forwarded-Host HTTP Header is useful for debugging and developing location-based content. As a result, it protects the client’s privacy.
+Examples of X-Forwarded-Host HTTP Header Use
+An example of the use of the X-Forwarded-Host HTTP Header can be found below.
+X-Forwarded-Host: www.oracle.com:8080
+X-Forwarded-Host: www.cdn.geeksforgeeks.org
+What is the Specification Documents for X-Forwarded-Host HTTP Header?
+There is only one specification document for the X-Forwarded-Host HTTP Header, RFC 7239. The article mentions the X-Forwarded-Host HTTP Header as a common way to disclose information by using the non-standard header fields for the Forwarded HTTP Extension. Additionally, the article discusses the definition and usage of the X-Forwarded-Host HTTP Header.
+What are the types of X-Forwarded-Host HTTP Header?
+The  X-Forwarded-Host HTTP Header HTTP Type is listed below.
+Request Headers – The originating request was intercepted and identified by the X-Forwarded-Host HTTP Header.
+Response Headers – The X-Forwarded-Host HTTP Header exposes privacy-sensitive information for debugging, statistics, and generating location-dependent content.
+What HTTP headers are similar to the X-Forwarded-Host HTTP header?
+The HTTP headers similar to the X-Forwarded-Host HTTP header are listed below.
+Host HTTP Header:
+Host HTTP Header and X-Forwarded-Host HTTP Header specify the server to which the request is sent.
+Forwarded HTTP Header:
+The Forward HTTP Header is similar to the X-Forwarded-Host HTTP Header. It contains information that may be added by reverse proxy servers that would otherwise be altered or lost when the proxy servers are involved in the request’s path.
+X-Forwarded-For HTTP Header:
+The X-Forwarded-For is similar to the X-Forwarded-Host HTTP Header. The
+X-Forwarded-For HTTP Header
+is a de-facto standard header that identifies the original IP address of the client connecting to a web server through an HTTP proxy or a load balancer.
+X-Forwarded-Proto HTTP Header:
+The X-Forwarded-Proto HTTP Header is similar to the X-Forwarded-Host HTTP Header. The
+X-Forwarded-Proto HTTP Header
+is a de facto standard header that is connected to an HTTP proxy and a load balancer.
+Which Browsers Support X-Forwarded-Host HTTP Header?
+The compatibility of browsers for the X-Forwarded-Host HTTP Header is unknown.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+X-Forwarded-Host HTTP Header: Syntax, Directive, Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+Sec-CH-UA-Bitness HTTP Header: Syntax, Directive, …
+TechSEO
+Sec-CH-UA-Arch HTTP Header: Syntax, Directive, Exa…
+0
+0
+0

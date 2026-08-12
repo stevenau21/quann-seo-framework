@@ -1,0 +1,116 @@
+HTML <map> Tag Definition, Usage and Examples - Holistic SEO
+Skip to content
+The <map> HTML Tag is used to define the map image that appears on the user interface and may be clicked on. The <map> HTML Tag needed the inclusion of the <img> HTML Tag, which facilitates the relationship between the picture and the map. The <map> HTML Tag contains a number of <area> HTML Tag, each of which defines a clickable area in the image map that is displayed. The <map> HTML Tag is part of the images tags category in HTML Element Reference. The attributes of the <map> HTML Tag are name, global, and event attributes.
+<map> HTML tag code block example to learn how it works is given below.
+<img src="/image.png" alt="image" usemap="#map">
+<map name="map">
+<area
+shape="rect"
+coords="50,50,100,100"
+href="/box/"
+alt="name">
+</map>
+The second example usage of the “<map>” HTML tag code block example is given below.
+<img src ="/pix/examples/usa-ca-map.gif"
+width="195" height="150"
+alt="Map of Canada and USA"
+usemap ="#usa-ca">
+<area shape ="poly" coords ="3,9,3,9,264,685,85"
+<map name="usa-ca">
+href ="https://en.wikipedia.org/wiki/Canada" target="_blank"
+alt="Canada">
+<area shape ="poly" coords ="9,9,3,869,163,507"
+alt="USA">
+</map>
+Contents of the Article
+show
+1.
+What is <map> HTML Tag?
+2.
+How to Use <map> HTML Tag?
+2.1.
+Example Usage of <map> HTML Tag?
+3.
+What are the Attributes of <map> HTML Tag?
+4.
+What are the Default CSS Settings for <map> HTML Tag?
+5.
+What are the Related other HTML Tags to <map>?
+What is <map> HTML Tag?
+The <map> HTML Tag specifies an image map. An image map is a picture that contains clickable sections. The <map> HTML Tag’s necessary name attribute is linked with the img> element’s usemap attribute, establishing a connection between the image and the map. The <map> HTML Tag contains a set of <area> HTML Tag that define the image map’s clickable areas.
+How to Use <map> HTML Tag?
+To use <map> HTML Tag, The web developer should create a map using the <map name=””></map> nesting the <area> HTML Tag between the start and finish tags. The name attribute is used by all <img> HTML Tag that reference this image map.
+Example Usage of <map> HTML Tag?
+The following example of usage of <map> HTML Tag is shown below.
+<img src ="/pix/examples/eu-map.gif"
+width="300" height="185"
+alt="Map of Europe"
+usemap ="#eu">
+<map name="eu">
+<area shape ="poly" coords ="5,48,45,12,120,7,140,70,150,135,18,95"
+href ="https://en.wikipedia.org/wiki/Europe" target="_blank"
+</map>
+What are the Attributes of <map> HTML Tag?
+There are multiple attributes for the <map> HTML Tag. The following attributes are listed below.
+name: The <map> HTML Tag supports name attribute. The name attribute defines the picture map’s title.
+Global Attributes: The <map> HTML Tag supports Global Attributes. All HTML elements, even those not specified in the standard, can have global attributes. This means that any non-standard elements must nevertheless allow certain characteristics, even if using such elements makes the content non-HTML5 compliant.
+Event Attributes: The <map> HTML Tag supports Event Attributes. The Event Attributes always have a name that begins with “on” and is followed by the name of the event for which it is intended. They specify a script to run when an event of the defined type is dispatched to the element with the specified attributes.
+What are the Default CSS Settings for <map> HTML Tag?
+The following is the Default CSS Setting for the <map> HTML Tag.
+img {
+display: block;
+margin: 0 auto;
+height: 232px;
+}
+What are the Related other HTML Tags to <map>?
+The other related HTML Tags to <map> HTML Tag are listed below.
+<picture> HTML Tag: The
+<picture>
+HTML Tag is related to <map> HTML Tag because they are both images tags. The <picture> HTML Tag is used to specify a container for multiple image resources.
+<svg> HTML Tag: The
+<svg>
+HTML Tag is related to <map> HTML Tag because they are both images tags. The <svg> HTML Tag is used to specify the container for SVG graphics.
+<area> HTML Tag: The
+<area>
+HTML Tag is related to <map> HTML Tag because they are both images tags. The <area> HTML Tag specifies the area contained within an image map.
+<img> HTML Tag: The
+<img>
+HTML Tag is related to <map> HTML Tag because they are both images tags. The <img> HTML Tag is used to specify the content of an image.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+HTML <map> Tag Definition, Usage and Examples
+by Holistic SEO
+time to read: 3 min
+TechSEO
+HTML <audio> Tag Definition, Usage and Examp…
+TechSEO
+HTML <html> Tag Definition, Usage and Exampl…
+0
+0
+0

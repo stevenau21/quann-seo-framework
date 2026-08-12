@@ -1,0 +1,99 @@
+URL Hijacking: Definition and Avoiding Methods - Holistic SEO
+Skip to content
+URL hijacking is the process of incorrectly removing a URL from the search engine index and replacing it with another. The new, wrong URL continues to link to the actual landing page, but not directly, but via a redirect. Since the wrong URL also takes over the ranking of the original page, URL hijacking can lead to a massive drop in
+visitors
+.
+The term URL hijacking refers to a phenomenon in which a website erroneously disappears from the
+results of one search engine
+and is
+replaced by another
+. This other page links to the actual target page or URL – but not by direct reference, but with the help of a redirect (also redirect). So of
+www.example.com/
+on
+www.targetexample.com
+referenced in place, the usual HTML tags
+<a>
+however, a
+forwarding
+used. For example, the redirect URL looks like this:
+www.example.com/redirect.php?target=www.targetexample.com
+If a search engine finds such a link, it classifies the linking page and the landing page as identical, which means that it deletes one of the two from the index. It is based on the
+HTTP status codes
+that are attached to the redirects. While code 301 (Moved Permanently) denotes a permanent redirection to the specified URL, code 302 (Found) stands for a temporary redirection to the specified URL. The first type is not a problem, but the 302 redirect is the main reason for URL hijacking. Such excellent redirects suggest to the search engine crawlers that the target page will only exist temporarily and that the linking page is the actual original – there is no check to see whether the two pages are connected at all. If this is not intended, the wrong page will be indexed, which will take over the ranking of the linked URL.
+Contents of the Article
+show
+1.
+Where are 301 and 302 redirects used at all?
+2.
+How to Recognize URL Hijacking
+3.
+How to protect your web project from URL hijacking
+4.
+Last Thoughts on URL Hijacking and SEO
+Where are 301 and 302 redirects used at all?
+There are very different reasons for using URL redirects. Permanent redirection of so-called typo domains to the correct domain is a widespread practice. If you accidentally type googel.de instead of google.de in the address bar of your browser, you will still get to the homepage of the well-known search engine. It is also not uncommon to be forwarded permanently to the correct address on the main page. For example, if you visit the main page of the HolisticSEO.Digital without any www. or https://, you will be redirected to the correct version with a 301 Redirection. In addition, webmasters use permanent redirects to direct visitors to the new web address after a domain change or to mark the content of the web project that has been given a new URL accordingly.
+To learn the
+definitions and differences of 301, 302 and 307 Redirects
+, you can read our guideline.
+Temporary 302 redirects, on the other hand, basically have the function of temporarily presenting content at a different URL if they are still to be available, for example when the original page is being serviced. If a webmaster creates this redirection type manually, the intention is usually that the content later appears again on the original URL. However, there are three scenarios for temporary redirects that lead to URL hijacking or even have this as a goal:
+Unintentional use of the 302 redirect
+: It is quite possible that webmasters refer to a third-party web project with a temporary redirect without there being any malicious intent behind it. It can be a mistake because a permanent redirect should actually be set. The Apache web server’s URL redirection module (rewrite engine), mod_rewrite, also sets redirects with status code 302 as standard.
+Dynamically generated URLs
+: PHP is a constant in web development. The server-side scripts in this popular programming language are a simple and practical way to generate dynamic content for your own website. However, it is often also PHP scripts that dynamically integrate target addresses into an existing URL and use the status code 302 for temporary redirects. This type of scripts is mainly used in directories for web addresses, but also in many content management systems.
+Deliberate URL hijacking
+: Even sinister people on the web are aware of the phenomenon of URL hijacking, which is why they like to take advantage of it again and again. They consciously use 302 redirects to promote the indexing of their own content and try to “hijack” particularly well-ranked pages. However, this approach is neither sustainable nor legal and falls under the so-called black hat SEO.
+How to Recognize URL Hijacking
+You can tell whether a page has been “kidnapped” as follows:
+Site query
+: site: www.holisticseo.digital – here the hijacking page appears instead of your own website
+Cache query
+: cache: http: //www.holisticseo.digital/hijacked-URL – instead of
+finding your
+own domain name, here is the hijacking page
+Most cases of a hijacking are based on ignorance of webmasters and therefore do not happen on purpose. However, it is also possible to misuse the redirect to bring your own page forward in the SERPs. This falls under Black Hat SEO and is considered a criminal act.
+How to protect your web project from URL hijacking
+Anyone who is busy improving the ranking of their websites knows how demanding and time-consuming this undertaking is. The higher you get in the favor of search engines, the more serious a possible kidnapping of the indexed pages will be. Unlike an attack, for example, which is made possible by a security gap in your web project, the process of URL hijacking is closely linked to the elementary SEO discipline of link building and is therefore not easy to prevent by using security software. As a result, it is imperative to regularly analyze new and existing backlinks in order to filter out problematic URLs. There are numerous tools and services for this, such as SEMrush, LinkResearchTools, SISTRIX, or the Google Search Console.
+The latter service from Google also provides you with a tool to remove URLs to unwanted redirects that point to your web site to remove from the search index. Before that, however, you should always contact the webmaster concerned and ask them to adjust the forwarding – so there is a chance of maintaining the corresponding natural backlinks. With the status code 307 (Temporary Redirect) there is even an option for temporary redirects that do not lead to URL hijacking since HTTP 1.1.
+If the original page has already disappeared from the index, you should contact the search engine provider after revising or deleting the harmful backlinks and ask for a restoration of the original ranking.
+Last Thoughts on URL Hijacking and SEO
+URL Hijacking shows the importance of knowing the nature of the Search Engines. URL Hijacking methodology doesn’t work for 301 Redirects but it works for the 302 Redirects? Why do you think that is? If you know the answer as a reflex, you have a better vision to imitate the Search Engine’s Working Principles in your mind. 302 Redirects are not permanent redirects, most of the Webmasters and Web Developers usually forget about the 302 Redirects they have. So, Search Engines such as Bing only assume a 302 Redirect as valid for two weeks. We don’t know the exact timing for the 302 Redirections’ valid time threshold yet but it can be close the Bing’s.
+When a forgotten 302 redirect does not appear to be valid by Search Engine, Search Engine cancels the redirect for its own result pages and accepts the redirected URL as the original, leaving it no longer to see the redirected URL as a valid page. For this reason, the redirected URL appears in the search results. To counteract this situation, the Search Engine tries to find a difference based on artificial intelligence between the permanently performed 302 Redirect and the really temporary 302 redirects.
+If it cannot find the difference, both the redirected and the redirecting URL appear alternately in the search results. In this case, there are methods such as checking the popularity difference between the two URLs, the links they have, the behavior of the users, the social share rate, and whether different 302s from the same domain have come to the same target URL and how long they have existed.
+Using 302 Redirections for URL Hijacking is also a result of Search Engines working according to the Uncertainty Principle. Thus, instead of giving precise answers to manipulation, the decision is made by looking at the consistency of various small factors. Holistic SEO is the person who knows how to take advantage of the Search Engine’s ability to see the gray zone, think, and interpret the harmony of different factors.
+As Holistic SEOs, we will continue to improve our URL Hijacking Guideline.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+What is URL Hijacking? Definition of Typosquatting
+by Koray Tuğberk GÜBÜR
+time to read: 6 min
+TechSEO
+Canonical Tags for SEO: Definitive Guide for 2024…
+TechSEO
+What is Video Sitemap? Everything You Should Know…
+0
+0
+0

@@ -1,0 +1,117 @@
+Cookies: Definition and Importance for Marketing
+Skip to content
+Cookies are short texts that are exchanged between the server and the browser. In this way, websites store relevant information in the researcher’s internet browser, which can then be called up again at a later time.
+Cookies do not have a good reputation among Internet users: they save the data required for various functions on the hard drive and are able to easily identify visitors to the website. However, it is undeniable that cookies make surfing much more convenient.
+Contents of the Article
+show
+1.
+Definitions and Functions of Cookies: How Do They Work?
+2.
+Structure of Cookies
+2.1.
+Session cookies and tracking cookies
+2.1.1.
+“Good”: Session Cookies
+2.1.2.
+“Evil”: Tracking Cookies
+3.
+Types of Cookies According to Their Function
+4.
+Allow Cookies and Delete Cookies
+5.
+Protection from Cookies
+5.1.
+EU Laws for Privacy Against the Cookies
+6.
+Cookie Settings in Firefox and Chrome
+7.
+Cookies and Their Importance for SEO
+Definitions and Functions of Cookies: How Do They Work?
+Instead of delicious cookies, we are dealing with data records in the online environment with cookies. Like the crumbs of the popular pastries, these are also very small. Cookies are placed in the user’s browser so that the web server can link requests and assign them to the respective user or device – be it a computer, a tablet or a smartphone.
+When you visit a website, the cookies end up in the user’s browser. The operator of the respective website stores information locally by sorting a file in the format .txt in a browser directory. This text file consists of a name and the text value, a randomly generated number. It gives the user an identity – with the aim of recognizing them. The whole thing works as follows: If a user accesses a previously accessed page again, the browser selects the cookies that are noted with the same domain as the webserver. Then the cookie data – regardless of the file type – is sent back to the original web server. This transfer takes place via HTTP or a
+scripting language
+such as Java. On the next visit, the user can be identified as exactly the same person who visited the website. The server recognizes at the moment whether a corresponding cookie is present and sees what information is contained in it. In terminology, this kind of cookie is called a “durable cookie.”
+If cookies are used properly, they make surfing the Internet easy. Viruses or Trojans, on the other hand, which are known as malware – that is, malicious software – are programs that attempt to infect hardware or software by performing harmful functions. That is why it is essential to protect computer systems.
+Structure of Cookies
+A cookie contains various parameters, which are usually composed of information such as the name of the cookie, value, expiry date, path, the Internet domain, and information about the type of connection required. Further details such as comments or restrictions on a specific port are also possible.
+Session cookies and tracking cookies
+In addition to the persistent cookies already mentioned, there are other types of small text files – such as session and tracking cookies.
+“Good”: Session Cookies
+Cookies can also be used to store information at short notice; the typical application is logging into a password-protected website. To uniquely identify the user, the server stores a session ID in a corresponding cookie. The password entered during login is stored in the cookie for the entire session via an ID – until the connection to the webserver is interrupted and the session is ended. This invalidates the session cookie. Session cookies are used for example in online banking. Another example is filling a shopping cart when shopping online and clicking to switch to the payment process.
+“Evil”: Tracking Cookies
+But cookies are not only useful services on the net: When a user visits a website on which advertising is placed, the advertising banner often places a tracking cookie on the computer. The cookie is then not from the website visited, but from the web server that delivers the advertising. This, in turn, is a so-called “ad server” that is only integrated on the website you are actually visiting.
+The ad servers use cookies to analyze user behavior and deliver personalized advertising. This is related to the structure of advertising on the net: Few advertising service providers with few ad servers supply numerous websites with advertising. If an advertisement is placed on a page with a cookie and the user surfs on another page, which is also supplied by the same advertising service, the ad server can draw conclusions about the interests of the surfer. Many see these tracking cookies as a type of spyware, and anti-spyware software also classifies them accordingly. Others also find it convenient to see interesting products for them the next time they visit a shop page.
+Types of Cookies According to Their Function
+Types of cookies
+Necessary cookies
+These cookies are necessary for the execution of the specific functions of a website. For example, such cookies are used when a user places a product in the shopping cart and then continues to surf the site (or other sites) before proceeding to checkout. This means that his shopping cart is not deleted, even after a browser window is closed.
+Performance or performance cookies.
+These cookies collect information about the behavior of users on the site and whether users receive error messages (if so, where and after which events). Also, loading times or the behavior of the website with different browser types are measured with performance cookies.
+Functional cookies
+These cookies are not absolutely necessary, but they increase the “usability” of a website. For example, the location entered once is saved so that when the page is called up again, this location is immediately displayed to the respective user. Form data once entered, the size of the font or the like can also be saved.
+Advertising cookies
+Advertising or targeting cookies are explicitly used to show the user suitable advertising for his surfing behavior. You often notice the use of these cookies after you have been to online shops: Advertisements for this shop reappear on many websites visited afterward, sometimes with a (deliberate) delay of a few hours to a few weeks. In online marketing, this is also called “re-targeting”.
+Evercookie
+So-called “Evercookies” are a combination of several normal cookies and “Supercookies” (flash cookies). Deleting an Evercookie is very difficult for normal users since the Evercookie is stored in at least 8 different locations (by now there are probably more) ). If you delete the cookie in 7 of these storage locations, the Evercookie can restore all other cookies from the data of the remaining cookie.
+Allow Cookies and Delete Cookies
+Basically, this information gain is not bad at first, especially since the analysis and personalization are carried out anonymously and personalized advertising seems reasonable for both sides. The problem lies elsewhere: Most users have no idea that their page views play an immense role in the advertising industry and thus provide valuable information free of charge without their knowledge.
+With the General Data Protection Regulation, which came into force in May 2018, the legal provisions for website operators have become significantly stricter. Before any data is transferred, the user is asked for his consent. On many pages, a banner opens right at the beginning, with which the use of cookies can be rejected or accepted or even has to. Some sites on the Internet are only available to a limited extent or not at all without your consent.
+Protection from Cookies
+The cookie options in the browser provide basic protection against cookie abuse: One possibility is the use of temporary cookies. With the appropriate setting, cookies are only accepted within a browser session, i.e. all cookies are treated like session cookies. However, the user has to consider that passwords, etc. have to be entered again and again. In principle, however, cookies are not dangerous and cannot contain any malicious code.
+However, if particularly unwanted cookies have settled on the computer, they can also be deleted using the browser settings.
+EU Laws for Privacy Against the Cookies
+According to an EU e-privacy directive published at the end of 2009, which was implemented in Germany, every webmaster is obliged to obtain the user’s consent to the use of cookies on the visited page. This right only applies to webmasters whose servers are located within the European Union. Specifically, the directive states:
+“66. It is conceivable that third parties may want to store information on a user’s terminal equipment or access information that has already been saved for a number of reasons, from legitimate reasons (such as some types of cookies) to unauthorized intrusions into privacy (e.g. Such as spyware or viruses). Therefore, it is of the utmost importance that users are provided with clear and understandable information when performing any activity that could result in such storage or access. The methods of information and the right to refuse them should be designed to be as user-friendly as possible. ”
+EU E-privacy Directive: http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:337:0011:0036:De:PDF
+Cookie Settings in Firefox and Chrome
+With Chrome you can access the cookie settings via the following menu items: Settings – Advanced-Data protection and security – Website settings – Cookies. There are several options here. Among other things, third-party cookies can be blocked. At this point, you can also view and delete all cookies.
+With Firefox, the whole thing works as follows: Select Settings in the menu, then: Data protection and security – cookies and website data. Here, for example, it can be specified that all cookies are automatically deleted after the browser is closed. The previous cookies can also be viewed under “Manage data”.
+When surfing on the smartphone, you will also find the settings for cookies in the browser menus themselves. The structure is similar.
+You also may want to read our some of the related Marketing Guidelines.
+Return of Investment Definition and Importance
+NeuroMarketing and Principles
+Flywheel Marketing and Its Effects on Revenue
+Eye-tracking and Importance for UX
+Community Management for Better Customer Loyalty
+What is Page Impression?
+What is Conversion Rate Optimization?
+Cookies and Their Importance for SEO
+Cookies give the ability to know the users and their behavior patterns so that digital marketers can interpret the users needs and thoughts or experience. Along with this given ability, also securing the users’ private information is important. If the web entity follows the user in a bad way or breach the security guidelines while implementing cookie-based practices, this can heart the web entity’s rankings. Also, legal issues and obligations are important to maintain the web entity’s existence. Calculating the page using experience along with page load timing experience are important resources for SEOs. Also, we put a simple video from Matt Cutts below:
+Matt Cutts tells here that protecting the User Experience is important while using Cookies.
+As Holistic SEOs, we will continue to improve our information and guideline related to the Cookies.
+Author
+Recent Posts
+Koray Tuğberk GÜBÜR
+Owner and Founder
+at
+Holistic SEO & Digital
+Koray Tuğberk GÜBÜR is the CEO and Founder of Holistic SEO & Digital where he provides SEO Consultancy, Web Development, Data Science, Web Design, and Search Engine Optimization services with strategic leadership for the agency’s SEO Client Projects. Koray Tuğberk GÜBÜR performs SEO A/B Tests regularly to understand the Google, Microsoft Bing, and Yandex like search engines’ algorithms, and internal agenda. Koray uses Data Science to understand the custom click curves and baby search engine algorithms’ decision trees. Tuğberk used many websites for writing different SEO Case Studies. He published more than 10 SEO Case Studies with 20+ websites to explain the search engines. Koray Tuğberk started his SEO Career in 2015 in the casino industry and moved into the white-hat SEO industry. Koray worked with more than 700 companies for their SEO Projects since 2015. Koray used SEO to improve the user experience, and conversion rate along with brand awareness of the online businesses from different verticals such as retail, e-commerce, affiliate, and b2b, or b2c websites. He enjoys examining websites, algorithms, and search engines.
+Latest posts by Koray Tuğberk GÜBÜR
+(
+see all
+)
+Sliding Window
+- August 12, 2024
+B2P Marketing: How it Works, Benefits, and Strategies
+- April 26, 2024
+SEO for Casino Websites: A SEO Case Study for the Bet and Gamble Industry
+- February 5, 2024
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+What are Cookies? Importance of Cookies for Marketing
+by Koray Tuğberk GÜBÜR
+time to read: 7 min
+TechSEO
+What are the HTTP Status Codes: Everything You Nee…
+TechSEO
+What is the User-agent?
+0
+0
+0

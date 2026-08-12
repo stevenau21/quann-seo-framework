@@ -1,0 +1,102 @@
+201 HTTP Response Status Code Definition: Example, Usage, Methods - Holistic SEO
+Skip to content
+The 201 HTTP status code means that a request is successful to a resource that was created as a result. The new resource is effectively created before the response code is returned. It is returned to the response message’s body. Its location is either the request’s URL or the content of the Location header. It is typically used in conjunction with a POST HTTP method request to create new users or articles via a web form. The POST method is used to send data to the server. Perhaps the most common status code returned is 200. It simply means that the request was received, understood, and is being processed, whereas the 201 status code indicates that a request was successful and a resource was created as a result.
+Contents of the Article
+show
+1.
+What does the 201 HTTP Status Code Mean?
+1.1.
+How to Use 201 HTTP Status Code for a Website?
+2.
+How to Check 201 HTTP Status Code?
+2.1.
+Which HTTP Method is used with 201 HTTP Status Code?
+3.
+What is the Related HTTP Response Header with 201 HTTP Status Code?
+4.
+What is the Browser Compatibility of 201 HTTP Status Code?
+5.
+What are the other Similar Status Codes to 201 HTTP Status Code?
+What does the 201 HTTP Status Code Mean?
+The 201 Created status code indicates that the request was successfully fulfilled, resulting in the creation of one or more new resources.
+How to Use 201 HTTP Status Code for a Website?
+To use the 201 HTTP Status Code in a website, the web developer should use the newly created resource. The newly created resource can be referred to by the URI(s) returned in the response entity, with the most specific URI for the resource provided by a Location header field. The response should include an entity containing a list of resource characteristics and location(s) from which the user or user agent can select the best one. The media type specified in the Content-Type header field determines the entity format.
+How to Check 201 HTTP Status Code?
+To check the 201 HTTP Status Code, you must first determine what type of HTTP Status the 201 HTTP Status Code belongs to. This is the most desirable HTTP status code to be given. A 200-level response indicates that everything is functioning properly. The 201 HTTP Status Code indicates that a new resource was created after the server fulfilled the browser’s request.
+Which HTTP Method is used with 201 HTTP Status Code?
+There is only one HTTP method used with the 201 HTTP status code which is the POST method. The POST HTTP method is used to the 201 HTTP Response Status code to send data to the server. The POST HTTP method describing the action’s outcome is transmitted in the message body.
+What is the Related HTTP Response Header with 201 HTTP Status Code?
+There is only one related HTTP Response header with 201 status code which is the Location HTTP Header. The Location HTTP Header interface represents the location (URL) of the object it is linked to. When you make a change to it, it updates the related object. In order to understand why the 201 HTTP Status Code is related to the Location HTTP Response Header, it is necessary to understand the location of the 201 HTTP Status Code.
+What is the Browser Compatibility of 201 HTTP Status Code?
+You can see the table that shows the browser’s compatibility with the 201 HTTP Status Code below.
+Browser Name
+Browser Compatibility of 201 HTTP Status Code
+Chrome
+YES
+Edge
+YES
+Firefox
+YES
+Internet Explorer
+YES
+Opera
+YES
+Safari
+YES
+WebView Android
+YES
+What are the other Similar Status Codes to 201 HTTP Status Code?
+There are other similar HTTP Status Codes to 201 HTTP Status Code. The following are listed below.
+202 Accepted HTTP Status Code: The request was received but not yet processed. It is noncommittal because HTTP does not allow you to send an asynchronous response indicating the outcome of the request later. It is intended for cases where the request is handled by another process or server, or for batch processing. The
+202 HTTP Status Code
+is similar to the 201 HTTP Status Code which is also a successful response.
+203 Non-Authoritative Information HTTP Status Code: This response code indicates that the returned metadata is not the same as what is available from the origin server, but was obtained from a local or third-party copy. This is typically used for mirroring or backing up another resource. Except, in that case, the 200 OK response is preferable to this status. The
+203 HTTP Status Code
+is similar to the 201 HTTP Status Code which is also a successful response.
+204 No Content HTTP Status Code: This request has no content to send, but the headers may be useful. The user agent may replace the resource’s cached headers with the new ones. The
+204 HTTP Status Code
+is similar to the 201 HTTP Status Code which is also a successful response.
+205 Reset Content HTTP Status Code This command instructs the user agent to reset the document that sent this request. The
+205 HTTP Status Code
+is similar to the 201 HTTP Status Code which is also a successful response.
+206 Partial Content HTTP Status Code: This response code is used when the client sends the Range header to request only a portion of a resource. The
+206 HTTP Status Code
+is similar to the 201 HTTP Status Code which is also a successful response.
+Author
+Recent Posts
+Follow SEO
+Holistic SEO
+SEO Research Department
+at
+Holistic SEO & Digital
+Holistic SEO & Digital has been built by Koray Tuğberk GÜBÜR. Holistic SEO is the process of developing integrated digital marketing projects with every aspect including Coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Marketing, Technical SEO, and Branding. Structured, Semantic Search Engine improves its ability to detect the real-world entities, today. Having a simple website is not enough anymore. To show that your brand is authoritative, trustworthy, and expert on its own niche, you need entity-based Search Engine Optimization Projects. Holistic SEO & Digital's main focus is on improving the brand's organic visibility and growth potential.
+Follow SEO
+Latest posts by Holistic SEO
+(
+see all
+)
+48 Online Shopping and Consumer Behavior Statistics, Facts and Trends
+- August 22, 2023
+B2B Marketing Statistics
+- August 22, 2023
+38 Podcast Statistics, Facts, and Trends
+- August 22, 2023
+Leave a Comment
+Cancel reply
+Comment
+Name
+Email
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Δ
+TechSEO
+201 HTTP Response Status Code Definition: Example, Usage, Methods
+by Holistic SEO
+time to read: 3 min
+TechSEO
+306 HTTP Response Status Code Definition: Example,…
+TechSEO
+202 HTTP Response Status Code Definition: Example,…
+0
+0
+0
