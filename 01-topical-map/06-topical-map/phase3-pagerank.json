@@ -1,0 +1,90 @@
+{
+  "pagerank": {
+    "buying-hub": 0.105903,
+    "homepage": 0.099625,
+    "katy-hub": 0.084167,
+    "contact": 0.081798,
+    "about": 0.073742,
+    "katy-neighborhoods": 0.070682,
+    "fthb-process": 0.059573,
+    "fha-vs-conv": 0.056285,
+    "pre-approval": 0.047432,
+    "new-construction": 0.047342,
+    "trust-hub": 0.046653,
+    "katy-isd": 0.042315,
+    "commute-guide": 0.042315,
+    "builder-incentives": 0.040853,
+    "dpa-programs": 0.040098,
+    "out-of-state": 0.030815,
+    "closing-costs": 0.0304
+  },
+  "pr_sinks": [
+    {
+      "page": "about",
+      "pr": 0.07374,
+      "out_links": 3
+    },
+    {
+      "page": "contact",
+      "pr": 0.0818,
+      "out_links": 2
+    }
+  ],
+  "boolean_model": {
+    "katy": {
+      "match_count": 7,
+      "precision": 0.412
+    },
+    "houston": {
+      "match_count": 0,
+      "precision": 0.0
+    },
+    "first-time buyer": {
+      "match_count": 0,
+      "precision": 0.0
+    },
+    "builder incentives": {
+      "match_count": 4,
+      "precision": 0.235
+    },
+    "school": {
+      "match_count": 0,
+      "precision": 0.0
+    },
+    "commute": {
+      "match_count": 4,
+      "precision": 0.235
+    },
+    "pre-approval": {
+      "match_count": 3,
+      "precision": 0.176
+    },
+    "closing costs": {
+      "match_count": 3,
+      "precision": 0.176
+    },
+    "relocation": {
+      "match_count": 0,
+      "precision": 0.0
+    },
+    "dpa": {
+      "match_count": 4,
+      "precision": 0.235
+    },
+    "fha": {
+      "match_count": 5,
+      "precision": 0.294
+    }
+  },
+  "rankbrain_signals": {
+    "primary_queries": [
+      "homes for sale katy tx first time buyer",
+      "houston relocation guide buyer agent",
+      "katy isd schools new construction homes",
+      "texas first time home buyer programs 2025",
+      "builder incentives houston new construction"
+    ],
+    "entity_salience": "Homepage must rank for 'Quan Nguyen real estate Katy TX' before spoke pages can inherit authority",
+    "click_satisfaction_signal": "Every page must answer its primary query in the first 3 sentences (above the fold)"
+  }
+}

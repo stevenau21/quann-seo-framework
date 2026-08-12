@@ -1,0 +1,509 @@
+{
+  "platform": {
+    "name": "SEO Topical Authority Framework",
+    "version": "2.0",
+    "created": "2026-05-28",
+    "description": "Industry-agnostic SEO pipeline: Domain KG \u2192 entity discovery \u2192 vocabulary extraction \u2192 semantic bridge \u2192 topical authority. Replace the Domain KG and the entire pipeline adapts to any vertical. Zero hand-coded queries. Zero manual blacklists. Corpus-driven, not dictionary-driven.",
+    "canonical_repository": "/home/steve/SEO-quann.homes/",
+    "current_client": {
+      "domain": "quann.homes",
+      "entity": "Quan Nguyen",
+      "brokerage": "Walzel Properties",
+      "vertical": "Residential Real Estate \u2014 Buyer Representation",
+      "geographic_focus": "Katy, TX / Greater Houston Metro"
+    }
+  },
+  "skills": {
+    "description": "Custom skills that extend the agent's capabilities. Any future agent MUST load these before executing SEO framework tasks.",
+    "in_repo": [
+      {
+        "name": "corpus-driven-vocabulary-extraction",
+        "category": "data-science",
+        "description": "Replace WordNet/dictionary-based vocabulary extraction with live SERP corpus mining. Domain-agnostic \u2014 auto-discovers seed queries from Domain KG, scrapes competitor SERPs, extracts high-signal terms. Produces vocabulary-bank.json, copywriter-manual.md, and entity-glossary.md.",
+        "trigger_conditions": [
+          "vocabulary bank",
+          "WordNet is giving noise",
+          "extract domain vocabulary",
+          "entity vocabulary",
+          "build vocabulary"
+        ]
+      }
+    ],
+    "hermes_builtin": [
+      {
+        "name": "lightrag-incremental-ingestion",
+        "purpose": "Ingest content into LightRAG knowledge graph using ainsert() \u2014 never wipe and rebuild."
+      },
+      {
+        "name": "lightrag-model-selection",
+        "purpose": "Select optimal LLM for LightRAG entity extraction based on domain complexity."
+      },
+      {
+        "name": "query-expansion",
+        "purpose": "HyDE-style multi-angle query expansion for LightRAG/Neo4j retrieval."
+      },
+      {
+        "name": "knowledge-synthesis-architecture",
+        "purpose": "Living architecture document for multi-source intelligence synthesis pipeline."
+      }
+    ],
+    "custom_scripts": [
+      {
+        "path": "06-topical-map/dependency_dag.py",
+        "purpose": "3-Vector Dependency Extraction Engine \u2014 computes topological sort of 12 Koray frameworks across 534 cards with cycle detection and resolution."
+      }
+    ]
+  },
+  "phase_roadmap": {
+    "description": "Topologically sorted phase sequence from the 3-Vector Dependency Extraction Engine. Phase 0 (prerequisites) was manually defined. Phases 1-7 were algorithmically derived from cross-framework dependency analysis of 534 Koray Gubur flashcards.",
+    "engine": "3-Vector Dependency Extraction Engine v1.0",
+    "vectors": {
+      "vector_1": "Framework Stratification \u2014 explicit depends_on edges from framework metadata",
+      "vector_2": "Cross-Framework NLP Overlap \u2014 Jaccard similarity > 0.5 on cards \u2265 5",
+      "vector_3": "External Dependency Co-occurrence \u2014 \u2265 8 shared keywords across frameworks"
+    },
+    "cycle_resolution_rule": "Vector 1 (explicit dependency) always overrides Vectors 2-3. Lower foundational layer wins when cycles form across same-layer frameworks.",
+    "total_frameworks": 12,
+    "total_cards": 534,
+    "tier_1_grounded": 144,
+    "tier_2_context": 390,
+    "phases": [
+      {
+        "id": 0,
+        "name": "Prerequisites \u2014 Domain Grounding",
+        "layer": -1,
+        "status": "complete",
+        "note": "Manually sequenced before the topological engine because these are data-gathering steps, not framework-derived tasks.",
+        "categories": {
+          "A": {
+            "name": "Quan Interview",
+            "status": "complete",
+            "output": "central-entity.md, EAV triples, Source Context"
+          },
+          "B": {
+            "name": "Public Market Data",
+            "status": "complete",
+            "output": "market-data.md"
+          },
+          "C": {
+            "name": "Web Entity Discovery",
+            "status": "complete",
+            "output": "web-entity.md, entity-discovery.md"
+          },
+          "D": {
+            "name": "Framer/Site Access",
+            "status": "skipped",
+            "reason": "Not needed \u2014 data extracted via browser"
+          },
+          "E": {
+            "name": "Knowledge Graph API Key",
+            "status": "deferred",
+            "reason": "Free tier available, GCP billing needed for production"
+          },
+          "F": {
+            "name": "Technical SEO Prep",
+            "status": "skipped",
+            "reason": "Not needed yet \u2014 deferred to Phase 5"
+          },
+          "G": {
+            "name": "Competitor Analysis",
+            "status": "complete",
+            "output": "SERP corpus extraction in Phase 1"
+          }
+        }
+      },
+      {
+        "id": 1,
+        "name": "Foundational Primitives \u2014 Linguistics & Data Infrastructure",
+        "layer": 0,
+        "frameworks": [
+          "Python & Data-Driven SEO",
+          "Content Quality & Linguistics"
+        ],
+        "total_cards": 61,
+        "grounded_rules": 23,
+        "status": "complete",
+        "key_outputs": [
+          "phase1-vocabulary-bank.json (v2.0 \u2014 corpus-driven)",
+          "phase1-copywriter-manual.md (v2.0)",
+          "texas-entity-glossary.md",
+          "phase1-auto-seeds.json",
+          "phase1-competitor-corpus.json"
+        ],
+        "methodology_note": "v1.0 used WordNet \u2014 discarded due to algorithmic noise (barony, trafficker, cliff dwelling). v2.0 uses Autonomous Seed Query Generator \u2192 DuckDuckGo SERP scraping \u2192 corpus-driven term extraction. This is the CORPUS OVER DICTIONARY rule."
+      },
+      {
+        "id": 2,
+        "name": "Core SEO Concepts \u2014 Knowledge Graph & Conversion Architecture",
+        "layer": 1,
+        "frameworks": [
+          "Knowledge Graph & Structured Data",
+          "Conversion & Growth"
+        ],
+        "total_cards": 99,
+        "grounded_rules": 24,
+        "status": "complete",
+        "key_outputs": [
+          "phase2-schemas.json (JSON-LD: Homepage, About, Article, LocalBusiness)",
+          "sameAs manifest (5 verified, 5 needs verification, 7 needs creation)",
+          "Entity descriptions (Quan Nguyen + Walzel Properties)",
+          "KG Panel tracking configuration",
+          "Conversion flywheel mapping"
+        ],
+        "methodology_note": "Discovered 4 contaminated profiles (LinkedIn \u00d72, HAR, Realty.com) with wrong brokerages. Entity contamination IS worse than missing profiles \u2014 fix contamination before filling gaps."
+      },
+      {
+        "id": 3,
+        "name": "Information Science \u2014 Retrieval & Indexing Foundations",
+        "layer": 2,
+        "frameworks": [
+          "SEO Information Retrieval"
+        ],
+        "total_cards": 30,
+        "grounded_rules": 7,
+        "status": "complete",
+        "key_outputs": [
+          "PageRank simulation for quann.homes internal link graph",
+          "Boolean retrieval model matrix",
+          "RankBrain signal mapping"
+        ],
+        "methodology_note": "Lightweight phase \u2014 all engine work. Confirmed PageRank distribution and Boolean index structure for future internal linking architecture."
+      },
+      {
+        "id": 4,
+        "name": "Entity-Semantic Bridge \u2014 From Raw Data to Authority Signals",
+        "layer": 3,
+        "frameworks": [
+          "Semantic SEO",
+          "Entity-Based SEO"
+        ],
+        "total_cards": 89,
+        "grounded_rules": 30,
+        "status": "complete",
+        "key_outputs": [
+          "phase4-entity-bridge.json (37-node entity graph, 94 edges)",
+          "Entity salience ranking (Quan Nguyen = 1250.8, 78\u00d7 next entity)",
+          "6 contextual bridges (Quan\u2194Katy, Quan\u2194Relocation, Katy\u2194Houston, FTHB\u2194TSAHC, NewConstr\u2194Katy, Tax\u2194Katy)",
+          "Information gap analysis (schema.org attribute coverage)",
+          "Entity disambiguation matrix (3 verified, 2 contaminated, 2 duplicate, 4 missing)"
+        ],
+        "methodology_note": "The engine builds the semantic network \u2014 the human only reviews. 93% engine allocation."
+      },
+      {
+        "id": 5,
+        "name": "Execution Layer \u2014 Technical & International Deployment",
+        "layer": 4,
+        "frameworks": [
+          "Technical SEO",
+          "Multilingual & International SEO"
+        ],
+        "total_cards": 124,
+        "grounded_rules": 30,
+        "status": "pending",
+        "key_outputs": "TBD \u2014 awaiting Review Gate for Phase 4",
+        "methodology_note": "Will normalize EAV attribute names to schema.org JSON-LD keys (Phase 4's 0% coverage gap is format, not data). Will translate 6 contextual bridges into internal linking architecture."
+      },
+      {
+        "id": 6,
+        "name": "The Crown \u2014 Topical Authority Assembly",
+        "layer": 5,
+        "frameworks": [
+          "Holistic SEO",
+          "Topical Authority"
+        ],
+        "total_cards": 110,
+        "grounded_rules": 21,
+        "status": "pending",
+        "key_outputs": "TBD \u2014 awaits Phases 5 completion",
+        "methodology_note": "Final assembly phase. All bridges, schemas, vocab, and disambiguation converge here into a unified topical authority graph."
+      },
+      {
+        "id": 7,
+        "name": "Meta-Reflection \u2014 Case Study Validation & Iteration",
+        "layer": 6,
+        "frameworks": [
+          "SEO Case Study Methodology"
+        ],
+        "total_cards": 21,
+        "grounded_rules": 9,
+        "status": "pending",
+        "key_outputs": "TBD \u2014 post-deployment validation",
+        "methodology_note": "After all content is live, validate against KG panel appearance, ranking changes, and entity consolidation signals."
+      }
+    ]
+  },
+  "core_constraints": {
+    "description": "HARDCODED RULES. No future agent may violate these. They override all default agent behavior for any SEO framework task in this repository.",
+    "review_gate": {
+      "rule": "NEVER auto-advance across multiple phases. At the end of EVERY phase, pause, output the human-readable deliverables into chat, and wait for explicit 'Proceed' command.",
+      "violation_example": "Executing Phase 2 while Phase 1 was unreviewed \u2014 corrected after Phase 1.",
+      "trigger": "End of any phase \u2014 the agent must call clarify() or deliver the phase summary and stop."
+    },
+    "autonomous_resource_allocation": {
+      "rule": "For EVERY phase, the Lead Architect (agent) must silently determine the ENGINE vs HUMAN task split before execution. ENGINE tasks are algorithmic and run without user involvement. HUMAN tasks are translated into simple, actionable briefs (plain English, no SEO jargon). Never ask the user to define the split or format.",
+      "engine_tasks": "Python computation, data extraction, schema generation, graph construction, PageRank simulation, JSON-LD generation, SERP scraping, vocabulary extraction, dependency computation, cycle resolution.",
+      "human_tasks": "Profile verification, brokerage updates, account creation (GBP, Wikidata, Zillow), domain expert vocabulary filtering, contextual bridge review, content brief approval."
+    },
+    "corpus_over_dictionary": {
+      "rule": "NEVER use WordNet, NLTK, or any lexical dictionary for domain vocabulary extraction. WordNet is a 1985 lexical database. It returns 'barony' for 'estate' and 'trafficker' for 'seller.' Google's live index IS the semantic corpus. Use the Autonomous Seed Query Generator \u2192 SERP scraping \u2192 competitor term extraction pipeline. This is mandatory for ALL industries.",
+      "pipeline": "Domain KG \u2192 get_anchor_entities() \u2192 generate_seed_queries() \u2192 DuckDuckGo SERP scraping \u2192 title + snippet + URL slug parsing \u2192 frequency-weighted term extraction \u2192 expert filter \u2192 vocabulary bank.",
+      "validation": "Zero WordNet artifacts in vocabulary bank. All government program entities present. All tax-district entities present. All regional submarket names present. All numeric thresholds captured."
+    },
+    "autonomous_seed_discovery": {
+      "rule": "NEVER hardcode seed queries. The framework must auto-discover queries from the Domain KG using get_anchor_entities() \u2192 intent modifier combination \u2192 compound query generation. This MUST work for any industry without code changes.",
+      "pipeline": "Query Domain KG \u2192 extract top 15 anchor entities by frequency \u00d7 attribute richness \u2192 deconflict by entity type (brand, location, service, product) \u2192 combine with intent modifiers (guide, cost of, comparison, how to, near me) \u2192 generate compound queries (location \u00d7 service).",
+      "structural_filter": "Use structural/regex parsing to exclude markdown table headers, dividers, and schema type names from entity extraction. Never hardcode a manual exclusion list \u2014 the filter must be structural so it works for any domain."
+    },
+    "framer_site_rule": {
+      "rule": "On Framer-built (or any amateur-built) real estate sites, brokerage information often lives ONLY in images/logos. Text fields (footer, metadata) are manually updated and frequently lag behind image updates. NEVER trust text extraction for brokerage \u2014 visually inspect images, and when in doubt, ask the owner.",
+      "trigger": "Any entity discovery task against a Framer-built or amateur-built site."
+    },
+    "contamination_priority": {
+      "rule": "Entity contamination (wrong brokerage on external profiles) IS worse than missing profiles. Fix contamination BEFORE creating new profiles. Order: contamination cleanup \u2192 gap filling \u2192 supplementation.",
+      "reason": "Wrong brokerage = Google has actively WRONG information. Missing profile = Google has no information (neutral)."
+    },
+    "structural_filtering_only": {
+      "rule": "Never use manual keyword blacklists to filter entity extraction noise. Use structural/regex-based filters (markdown table syntax, column headers, dividers, JSON key names, row indices) that operate on document structure, not content. Structural filters are domain-agnostic \u2014 manual blacklists break pluggability.",
+      "deferred_items": "Schema-key parent-attribution and row-index capture bugs are semantic problems requiring entity-type validity rules \u2014 deferred to Phase 2 Entity Recognition layer, not patched with regex."
+    },
+    "methodology_portability": {
+      "rule": "Every methodology decision must be portable to any industry. If a decision embeds real-estate-specific assumptions, it's wrong. The Anchor Entity extraction, seed query generation, competitor corpus mining, bridge construction, and gap analysis must all work identically for dentistry, personal injury, SaaS, or any vertical with a defined entity set.",
+      "test": "Replace the Domain KG with a dental clinic in Chicago. The pipeline should produce 'Chicago dental implants cost', 'teeth whitening near me comparison', etc. \u2014 without code changes."
+    }
+  },
+  "methodology_patterns": {
+    "description": "Proven patterns discovered during execution. These are operational refinements, not constraints \u2014 but future agents should apply them.",
+    "patterns": [
+      {
+        "id": "pattern-6",
+        "name": "DuckDuckGo as Primary Search Engine",
+        "rule": "For multi-step search workflows (entity discovery, competitor analysis, market data), START with DuckDuckGo. Google CAPTCHA persists across sessions once triggered. DDG doesn't CAPTCHA and returns cleaner SERP snippets for entity discovery. Minimum 30s between any two browser_navigate calls regardless of target.",
+        "exception": "Google Maps/GBP verification and Knowledge Graph API testing require Google."
+      },
+      {
+        "id": "pattern-7",
+        "name": "Contamination Before Creation",
+        "rule": "Fix wrong profiles before adding missing ones. A wrong brokerage on LinkedIn is actively harmful \u2014 a missing Zillow profile is neutral."
+      },
+      {
+        "id": "pattern-8",
+        "name": "Workflow Documents Beat Static Reports",
+        "rule": "Entity discovery output = workflow checklist with exact steps, URLs, and yes/no decision points. Never deliver a static audit report that requires the user to translate into actions."
+      },
+      {
+        "id": "pattern-9",
+        "name": "Framer Site Image-First Rule",
+        "rule": "Image layer is more current than text layer on Framer sites. Footer text is untrustworthy. External profiles are untrustworthy. Ask the owner."
+      }
+    ]
+  },
+  "execution_issues": {
+    "description": "29 documented issues across 4 sessions. Full log at EXECUTION-ISSUES-LOG.md.",
+    "summary": {
+      "total_issues": 29,
+      "critical": 5,
+      "resolved": 24,
+      "open": 5
+    },
+    "key_issues": [
+      "ISSUE-029: Cascade Brokerage Misidentification \u2014 3 wrong brokerages before finding Walzel Properties",
+      "ISSUE-028: LinkedIn duplicate profiles with wrong brokerages (Elevatus, Truss)",
+      "ISSUE-027: HAR.com duplicate agent profile IDs",
+      "ISSUE-022: Camofox tab expiration (410) \u2014 re-navigate to fix",
+      "ISSUE-019: Forever Realty in all external profiles \u2014 Quan confirmed this is outdated"
+    ]
+  },
+  "files_manifest": {
+    "description": "Key files in the repository and their purpose.",
+    "root": "/home/steve/SEO-quann.homes/",
+    "critical_files": [
+      {
+        "path": "phase-dependencies.json",
+        "purpose": "Topological sort of all 12 frameworks \u2014 the single source of truth for phase sequencing"
+      },
+      {
+        "path": "EXECUTION-ISSUES-LOG.md",
+        "purpose": "All 29 issues encountered + 9 fix patterns \u2014 read before starting any new SEO task"
+      },
+      {
+        "path": "MASTER-GAP-LIST.md",
+        "purpose": "Content gap analysis \u2014 what Quan covers vs. what's missing"
+      },
+      {
+        "path": "framework-report.md",
+        "purpose": "Comprehensive report of all framework work done \u2014 deliverable for SEO expert"
+      },
+      {
+        "path": "02-central-entity/central-entity.md",
+        "purpose": "Canonical entity definition \u2014 Quan Nguyen, Walzel Properties, license, certifications"
+      },
+      {
+        "path": "03-web-entity/web-entity.md",
+        "purpose": "Web entity discovery \u2014 11 profiles across 7 platforms, workflow checklist"
+      },
+      {
+        "path": "04-eav-triples/eav-triples.md",
+        "purpose": "Entity-Attribute-Value triples \u2014 the Domain KG"
+      },
+      {
+        "path": "06-topical-map/phase1-vocabulary-bank.json",
+        "purpose": "Corpus-driven vocabulary \u2014 94 approved terms across 8 categories"
+      },
+      {
+        "path": "06-topical-map/phase2-schemas.json",
+        "purpose": "JSON-LD schemas for Homepage, About, Article, LocalBusiness"
+      },
+      {
+        "path": "06-topical-map/phase4-entity-bridge.json",
+        "purpose": "Entity graph (37 nodes, 94 edges) + salience + bridges + gaps"
+      },
+      {
+        "path": "07-content-briefs/phase1-copywriter-manual.md",
+        "purpose": "Copywriter rulebook \u2014 predicates, vocabulary, sentence rules, banned list, example page"
+      },
+      {
+        "path": "07-content-briefs/texas-entity-glossary.md",
+        "purpose": "One-page definitions of every Texas-specific term for copywriters with zero domain knowledge"
+      }
+    ]
+  },
+  "quickstart": {
+    "description": "How a fresh agent should initialize itself when opening this repository. CRITICAL: Do NOT begin sequential phase execution — use the Meta-Cognitive Control Plane (protocol_1_boot_up_sequence) to determine the user's business priority first.",
+    "steps": [
+      "1. Read this file (master-operating-blueprint.json) — understand the 5 core constraints AND the meta_cognitive_control_plane.",
+      "2. Read phase-dependencies.json — understand the topological DAG.",
+      "3. Read EXECUTION-ISSUES-LOG.md — learn from 29 prior issues and 9 patterns.",
+      "4. Load 'corpus-driven-vocabulary-extraction' skill with skill_view().",
+      "5. Load 'seo-framework-execution' skill — governs phase execution rules.",
+      "6. Load other relevant skills from the skills manifest.",
+      "7. Read central-entity.md and eav-triples.md — understand the Domain KG.",
+      "8. PRESENT THE BUSINESS PRIORITY PROMPT (protocol_1_boot_up_sequence, step 3).",
+      "9. Calculate the SUB-DAG based on the user's answer. Do NOT begin sequential phase execution.",
+      "10. Apply all core constraints: Review Gate, resource allocation, corpus over dictionary, autonomous seed discovery, contamination priority."
+    ]
+  },
+  "data_sources": {
+    "koray_transcripts": {
+      "source": "89 Koray Course lectures (88 + 1 guest intro)",
+      "lightrag_instance": "http://localhost:8014",
+      "model": "deepseek-v4-pro:cloud",
+      "ingested": "2026-05-27",
+      "status": "89/89 processed",
+      "phase_relevance": "Phase 6+ — cross-reference enrichment for Topical Authority Assembly",
+      "semantic_delta": {
+        "new_frameworks": 0,
+        "new_methods": 0,
+        "enhanced_rules": 0,
+        "patches_file": "/home/steve/SEO-quann.homes/07-content-briefs/phase1-5-lecture-patches.md",
+        "generated": "2026-05-26T11:55:36.180063"
+      }
+    }
+  },
+  "meta_cognitive_control_plane": {
+    "version": "1.0",
+    "installed": "2026-05-26",
+    "description": "Autonomous control plane for self-governing pipeline execution. Prevents the system from blindly executing sequential phases when business priorities demand targeted output. Handles paradigm shifts (SEO→AEO→GEO) via temporal invalidation and confidence decay.",
+    "protocol_1_boot_up_sequence": {
+      "name": "Priority-Aware Boot-Up & Sub-DAG Calculation",
+      "problem_solved": "A fresh agent reads the phase roadmap and starts executing Phase 0→1→2→3… blindly like a checklist, even when the user needs content briefs NOW, not a robots.txt audit.",
+      "rule": "On ANY fresh start or repository initialization, the agent MUST NOT begin sequential phase execution. Instead:",
+      "steps": [
+        "1. Load this blueprint and the Domain KG (central-entity.md, eav-triples.md).",
+        "2. Read EXECUTION-ISSUES-LOG.md and the core constraints.",
+        "3. Present the user with an IMMEDIATE BUSINESS PRIORITY prompt using clarify(). Options:",
+        "   a) 'Content Generation' — I need a topical map and content briefs for my copywriter",
+        "   b) 'Technical Audit' — Audit my site for SEO issues (sitemaps, page speed, broken links)",
+        "   c) 'Entity Cleanup' — Fix contaminated external profiles (wrong brokerages, duplicate LinkedIn)",
+        "   d) 'Full Pipeline' — Run all phases in topological order from where we left off",
+        "4. Based on the user's answer, dynamically calculate a SUB-DAG:",
+        "   - 'Content Generation' → load Phase 1 vocab + Phase 4 bridges → execute Phase 6 (Topical Authority Assembly) → generate content briefs. Bypass Phase 5 (Technical SEO) — it is NOT a blocking dependency for content output.",
+        "   - 'Technical Audit' → execute Phase 5 in isolation against the live site",
+        "   - 'Entity Cleanup' → re-run Phase 2 entity disambiguation + Phase 4 sameAs verification",
+        "   - 'Full Pipeline' → resume standard topological execution from the first incomplete phase",
+        "5. The SUB-DAG respects all 5 core constraints (Review Gate, resource allocation, corpus over dictionary, autonomous seed discovery, contamination priority) regardless of which path is chosen.",
+        "6. After the sub-DAG completes, return to the priority prompt to ask what's next."
+      ],
+      "dependency_override_logic": {
+        "description": "Which phases can be bypassed for which priorities, and why.",
+        "overrides": {
+          "content_generation_bypasses_phase_5": {
+            "phases_bypassed": [5],
+            "reason": "Phase 5 (Technical SEO) covers robots.txt, sitemaps, page speed, broken links, server-side rendering. None of these are prerequisites for building a topical map or writing content briefs. The content can be written and published before the technical audit. Defer Phase 5 to post-publication.",
+            "blocking_if": "If the site has NO pages indexed or is returning 5xx errors, Phase 5 becomes blocking. Check with a simple curl health check first."
+          },
+          "content_generation_bypasses_phase_7": {
+            "phases_bypassed": [7],
+            "reason": "Phase 7 (Case Study Validation) requires live content with ranking data. Cannot execute before content exists. Always deferred."
+          }
+        }
+      }
+    },
+    "protocol_2_evolution": {
+      "name": "Chronological Conflict Resolution & Paradigm Shift Protocol",
+      "problem_solved": "If Google releases an AEO (Answer Engine Optimization) update in 2027 and new source material is ingested, the current system smashes new rules into old rules with no conflict resolution. The system becomes confused by contradictions. The pipeline MUST know that newer, highly-cited paradigms mathematically overwrite older rules.",
+      "trigger": "Any NEW data source ingestion (new PDFs, new course transcripts, new framework documents) into the knowledge graph.",
+      "rule": "After every new data source ingestion, the agent MUST run the Contradiction Audit. This is NOT optional.",
+      "contradiction_audit": {
+        "pipeline": [
+          "1. Run data_pipeline_auditor.py against the NEW data source with --mode contradiction (mode to be added to auditor by next engine task).",
+          "2. For every rule/concept extracted from the new source, search the EXISTING baseline (534 Koray cards + any prior validated patches) for semantic overlap using the Jaccard similarity engine.",
+          "3. Classify each match:",
+          "   - CONFIRMATION (Jaccard > 0.7): New source corroborates existing rule. Timestamp on existing rule is refreshed.",
+          "   - ENHANCEMENT (Jaccard 0.3–0.7): New source adds nuance. Existing rule is updated with new detail, preserving original source attribution.",
+          "   - CONTRADICTION (Jaccard > 0.3 with OPPOSITE directive): New source says the opposite. This triggers confidence decay.",
+          "   - NOVEL (Jaccard < 0.1): Entirely new concept. Added as a new card with the new source's timestamp."
+        ],
+        "confidence_decay": {
+          "description": "When a contradiction is detected, confidence decays based on recency and citation authority.",
+          "formula": "confidence = base_confidence × (0.5^(years_since_publication)) × (citation_count / max_citation_count_in_corpus)",
+          "override_threshold": "If the NEW rule achieves confidence > old_rule.confidence × 1.5, the new rule REPLACES the old rule. The old rule is archived, not deleted.",
+          "tie_breaker": "If confidence scores are within 10%, newer timestamp wins. If timestamps are within 90 days, higher citation count wins."
+        },
+        "output": "A contradiction_audit.json file listing every conflict, the confidence scores, which rules were overwritten, and which were archived."
+      },
+      "paradigm_shift_detection": {
+        "description": "Detect when the fundamental axioms of the pipeline have changed (e.g., 'SEO is about keywords' → 'SEO is about entities' → 'AEO is about answer optimization'). This is NOT a contradiction — it's a paradigm shift that invalidates entire framework branches.",
+        "detection_criteria": [
+          "More than 40% of new-source rules are classified as CONTRADICTION against the existing baseline.",
+          "The new source explicitly declares a paradigm shift (e.g., 'SEO is dead, AEO is the new paradigm').",
+          "The new source introduces > 15 NOVEL concepts with zero overlap against the baseline — indicating a fundamentally new framework, not an iteration."
+        ],
+        "on_detection": [
+          "1. FREEZE the existing phase roadmap. Mark it as superseded_by=<new_paradigm_name>.",
+          "2. Run the 3-Vector Dependency Engine against the NEW data's flashcards to compute a new topological DAG.",
+          "3. Generate a PARADIGM_SHIFT_DELTA.md report detailing:",
+          "   a) Which existing rules are obsolete and why",
+          "   b) Which new rules replace them",
+          "   c) Which existing content pages must be rewritten (see Protocol 3)",
+          "   d) Which phases in the roadmap must be re-executed",
+          "4. Do NOT delete the old roadmap — archive it for historical reference."
+        ]
+      }
+    },
+    "protocol_3_output_delta": {
+      "name": "Paradigm-Shift Page Audit & Rewrite Directive",
+      "problem_solved": "When the paradigm shifts (e.g., SEO → AEO), the system has no way to tell the user which existing pages are now obsolete and must be rewritten. The user is left guessing.",
+      "trigger": "Protocol 2 paradigm_shift_detection fires, OR the user explicitly requests a delta audit against new standards.",
+      "rule": "After a paradigm shift or major contradiction resolution, the agent MUST produce a PAGE-LEVEL AUDIT of the live site.",
+      "pipeline": [
+        "1. Crawl the live site (quann.homes or current client domain) to extract every live URL, its H1, and its primary keyword targets.",
+        "2. For each page, compute a COMPLIANCE SCORE against the NEW paradigm's rules:",
+        "   - Does the page's H1 match the new macro context rules?",
+        "   - Does the page use the new predicate families (or does it use the old, now-banned ones)?",
+        "   - Are the entity-first sentence structures correct under the new framework?",
+        "   - Do the contextual bridges use the new anchor text methodology?",
+        "3. Classify each page:",
+        "   - COMPLIANT (> 80%): No rewrite needed",
+        "   - MINOR REWRITE (50–80%): Headline or CTA updates only",
+        "   - MAJOR REWRITE (20–50%): Structural changes needed (heading order, contextual vector)",
+        "   - OBSOLETE (< 20%): Page must be rewritten from scratch or 301-redirected",
+        "4. Output a DELTA_REPORT.md with the page audit table, rewrite priority (sorted by traffic potential × obsolescence score), and estimated copywriter hours.",
+        "5. Regenerate content briefs for every page scoring below 80% — using the NEW paradigm's template."
+      ],
+      "output_format": {
+        "columns": ["URL", "Current H1", "Compliance Score", "Classification", "Rewrite Priority", "Est. Hours"],
+        "sort_key": "Rewrite Priority = (1 - compliance_score) × estimated_monthly_traffic"
+      }
+    }
+  }
+}

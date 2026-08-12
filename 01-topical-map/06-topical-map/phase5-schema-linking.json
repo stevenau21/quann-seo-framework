@@ -1,0 +1,654 @@
+{
+  "normalized_schema": {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "@id": "https://quann.homes/#agent",
+    "name": "Quan Nguyen",
+    "alternateName": [
+      "Minh Quan Nguyen"
+    ],
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "TX Real Estate License",
+      "value": "0774451"
+    },
+    "description": "Quan Nguyen is a Texas REALTOR\u00ae (license #0774451) at Walzel Properties \u2014 5 years experience, 75+ transactions, 85% buyer-focused. 40% first-time buyers, 25% out-of-state relocators. Average $8,500 in negotiated incentives per transaction. AI-powered multilingual advisory.",
+    "url": "https://quann.homes",
+    "telephone": "+1-832-400-3152",
+    "email": "quan@thequantumteam.net",
+    "jobTitle": "REALTOR\u00ae \u2014 Buyer Representation Specialist",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Katy",
+      "addressRegion": "TX",
+      "postalCode": "77494",
+      "addressCountry": "US"
+    },
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Walzel Properties",
+      "url": "https://www.walzelproperties.com/"
+    },
+    "brand": {
+      "@type": "Brand",
+      "name": "The Quantum Team"
+    },
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Katy"
+      },
+      {
+        "@type": "City",
+        "name": "Houston"
+      },
+      {
+        "@type": "City",
+        "name": "Austin"
+      },
+      {
+        "@type": "City",
+        "name": "Dallas"
+      },
+      {
+        "@type": "State",
+        "name": "Rio Grande Valley"
+      }
+    ],
+    "knowsLanguage": [
+      {
+        "@type": "Language",
+        "name": "English"
+      },
+      {
+        "@type": "Language",
+        "name": "Vietnamese"
+      }
+    ],
+    "memberOf": [
+      {
+        "@type": "Organization",
+        "name": "National Association of REALTORS\u00ae",
+        "url": "https://www.nar.realtor/"
+      },
+      {
+        "@type": "Organization",
+        "name": "Texas Association of REALTORS\u00ae",
+        "url": "https://www.texasrealestate.com/"
+      },
+      {
+        "@type": "Organization",
+        "name": "Houston Association of REALTORS\u00ae",
+        "url": "https://www.har.com/"
+      },
+      {
+        "@type": "Organization",
+        "name": "Katy Area Chamber of Commerce",
+        "url": "https://www.katychamber.com/"
+      },
+      {
+        "@type": "Organization",
+        "name": "Asian Real Estate Association of America",
+        "url": "https://areaa.org/"
+      }
+    ],
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "ABR \u2014 Accredited Buyer's Representative",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "NAR"
+        }
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "GRI \u2014 Graduate, REALTOR\u00ae Institute"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "C2EX \u2014 Commitment to Excellence (NAR)"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "MRP \u2014 Military Relocation Professional"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "PSA \u2014 Pricing Strategy Advisor"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Texas Real Estate License #0774451 (TREC)"
+      }
+    ],
+    "award": [
+      "Walzel Properties Top Producer 2024",
+      "Walzel Properties Top Producer 2025",
+      "HAR Rising Star"
+    ],
+    "knowsAbout": [
+      {
+        "@type": "Thing",
+        "name": "Builder incentives and 'Get Paid to Buy'"
+      },
+      {
+        "@type": "Thing",
+        "name": "AI-powered multilingual real estate advisory"
+      },
+      {
+        "@type": "Thing",
+        "name": "Cross-Texas relocation and multi-market service"
+      },
+      {
+        "@type": "Thing",
+        "name": "New construction home buying"
+      },
+      {
+        "@type": "Thing",
+        "name": "Luxury and move-up home buying"
+      },
+      {
+        "@type": "Thing",
+        "name": "Investment property analysis"
+      }
+    ],
+    "image": "https://quann.homes/images/quan-nguyen.jpg",
+    "priceRange": "Free consultation; buyer agent commission per Texas custom",
+    "sameAs": [
+      "https://www.facebook.com/quann.realtor",
+      "https://www.linkedin.com/in/quan-nguyen-realestate/",
+      "https://www.instagram.com/quann.realtor"
+    ]
+  },
+  "attribute_coverage": {
+    "covered": 16,
+    "total": 16,
+    "pct": 100.0
+  },
+  "total_eav_mappings": 44,
+  "internal_links": [
+    {
+      "from": "about-quan",
+      "to": "katy-neighborhoods",
+      "anchor": "Katy area buyer agent",
+      "bridge": "Quan\u2194Katy"
+    },
+    {
+      "from": "about-quan",
+      "to": "katy-isd-schools",
+      "anchor": "Katy ISD school zone specialist",
+      "bridge": "Quan\u2194Katy"
+    },
+    {
+      "from": "katy-neighborhoods",
+      "to": "about-quan",
+      "anchor": "Quan Nguyen \u2014 Walzel Properties Katy agent",
+      "bridge": "Quan\u2194Katy"
+    },
+    {
+      "from": "about-quan",
+      "to": "relocation-guide",
+      "anchor": "out-of-state buyer relocation",
+      "bridge": "Quan\u2194Relocation"
+    },
+    {
+      "from": "about-quan",
+      "to": "commute-guide",
+      "anchor": "Houston relocation commute planning",
+      "bridge": "Quan\u2194Relocation"
+    },
+    {
+      "from": "relocation-guide",
+      "to": "about-quan",
+      "anchor": "Quan Nguyen \u2014 Texas relocation specialist",
+      "bridge": "Quan\u2194Relocation"
+    },
+    {
+      "from": "katy-neighborhoods",
+      "to": "commute-guide",
+      "anchor": "Katy Freeway (I-10) to downtown Houston",
+      "bridge": "Katy\u2194Houston"
+    },
+    {
+      "from": "katy-neighborhoods",
+      "to": "tx-market-fundamentals",
+      "anchor": "Houston metro market trends",
+      "bridge": "Katy\u2194Houston"
+    },
+    {
+      "from": "commute-guide",
+      "to": "katy-neighborhoods",
+      "anchor": "Katy neighborhoods near Energy Corridor",
+      "bridge": "Katy\u2194Houston"
+    },
+    {
+      "from": "fthb-process",
+      "to": "dpa-programs",
+      "anchor": "down payment assistance (TSAHC, TDHCA)",
+      "bridge": "FTHB\u2194TSAHC"
+    },
+    {
+      "from": "fthb-process",
+      "to": "dpa-programs",
+      "anchor": "Home Sweet Texas Loan program",
+      "bridge": "FTHB\u2194TSAHC"
+    },
+    {
+      "from": "dpa-programs",
+      "to": "fthb-process",
+      "anchor": "first-time home buyer process",
+      "bridge": "FTHB\u2194TSAHC"
+    },
+    {
+      "from": "dpa-programs",
+      "to": "fha-vs-conventional",
+      "anchor": "FHA loan with 620+ credit score",
+      "bridge": "FTHB\u2194TSAHC"
+    },
+    {
+      "from": "new-construction",
+      "to": "katy-neighborhoods",
+      "anchor": "Cinco Ranch master-planned community",
+      "bridge": "NewConstr\u2194Katy"
+    },
+    {
+      "from": "new-construction",
+      "to": "builder-incentives",
+      "anchor": "builder incentives and discounts",
+      "bridge": "NewConstr\u2194Katy"
+    },
+    {
+      "from": "builder-incentives",
+      "to": "new-construction",
+      "anchor": "quick move-in inventory homes",
+      "bridge": "NewConstr\u2194Katy"
+    },
+    {
+      "from": "katy-neighborhoods",
+      "to": "new-construction",
+      "anchor": "new construction in Katy",
+      "bridge": "NewConstr\u2194Katy"
+    },
+    {
+      "from": "tx-property-tax",
+      "to": "katy-neighborhoods",
+      "anchor": "Katy MUD and PID tax districts",
+      "bridge": "Tax\u2194Katy"
+    },
+    {
+      "from": "tx-property-tax",
+      "to": "katy-isd-schools",
+      "anchor": "Katy ISD homestead exemption impact",
+      "bridge": "Tax\u2194Katy"
+    },
+    {
+      "from": "katy-neighborhoods",
+      "to": "tx-property-tax",
+      "anchor": "Texas property tax MUD PID explained",
+      "bridge": "Tax\u2194Katy"
+    },
+    {
+      "from": "tx-property-tax",
+      "to": "dpa-programs",
+      "anchor": "property tax effect on loan qualification",
+      "bridge": "Tax\u2194DPA"
+    },
+    {
+      "from": "dpa-programs",
+      "to": "fthb-process",
+      "anchor": "First-Time Home Buyer Process \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "fthb-process",
+      "to": "dpa-programs",
+      "anchor": "Down Payment Assistance Programs",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "dpa-programs",
+      "to": "builder-incentives",
+      "anchor": "Builder Incentives / Get Paid to Buy \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "builder-incentives",
+      "to": "dpa-programs",
+      "anchor": "Down Payment Assistance Programs",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "dpa-programs",
+      "to": "relocation-guide",
+      "anchor": "Out-of-State Relocation Guide \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "relocation-guide",
+      "to": "dpa-programs",
+      "anchor": "Down Payment Assistance Programs",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "fha-vs-conventional",
+      "to": "fthb-process",
+      "anchor": "First-Time Home Buyer Process \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "fthb-process",
+      "to": "fha-vs-conventional",
+      "anchor": "FHA vs Conventional Loans",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "fha-vs-conventional",
+      "to": "builder-incentives",
+      "anchor": "Builder Incentives / Get Paid to Buy \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "builder-incentives",
+      "to": "fha-vs-conventional",
+      "anchor": "FHA vs Conventional Loans",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "fha-vs-conventional",
+      "to": "relocation-guide",
+      "anchor": "Out-of-State Relocation Guide \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "relocation-guide",
+      "to": "fha-vs-conventional",
+      "anchor": "FHA vs Conventional Loans",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "closing-costs",
+      "to": "fthb-process",
+      "anchor": "First-Time Home Buyer Process \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "fthb-process",
+      "to": "closing-costs",
+      "anchor": "Closing Costs in Texas",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "closing-costs",
+      "to": "builder-incentives",
+      "anchor": "Builder Incentives / Get Paid to Buy \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "builder-incentives",
+      "to": "closing-costs",
+      "anchor": "Closing Costs in Texas",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "closing-costs",
+      "to": "relocation-guide",
+      "anchor": "Out-of-State Relocation Guide \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "relocation-guide",
+      "to": "closing-costs",
+      "anchor": "Closing Costs in Texas",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "mortgage-preapproval",
+      "to": "fthb-process",
+      "anchor": "First-Time Home Buyer Process \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "fthb-process",
+      "to": "mortgage-preapproval",
+      "anchor": "Mortgage Pre-Approval Process",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "mortgage-preapproval",
+      "to": "builder-incentives",
+      "anchor": "Builder Incentives / Get Paid to Buy \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "builder-incentives",
+      "to": "mortgage-preapproval",
+      "anchor": "Mortgage Pre-Approval Process",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "mortgage-preapproval",
+      "to": "relocation-guide",
+      "anchor": "Out-of-State Relocation Guide \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "relocation-guide",
+      "to": "mortgage-preapproval",
+      "anchor": "Mortgage Pre-Approval Process",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "katy-isd-schools",
+      "to": "katy-neighborhoods",
+      "anchor": "Katy Neighborhood Guide \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "katy-neighborhoods",
+      "to": "katy-isd-schools",
+      "anchor": "Katy ISD School Guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "new-construction",
+      "to": "katy-neighborhoods",
+      "anchor": "Katy Neighborhood Guide \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "katy-neighborhoods",
+      "to": "new-construction",
+      "anchor": "New Construction Communities in Katy",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "commute-guide",
+      "to": "katy-neighborhoods",
+      "anchor": "Katy Neighborhood Guide \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "katy-neighborhoods",
+      "to": "commute-guide",
+      "anchor": "Katy \u2192 Houston Commute Guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "tx-flood-zones",
+      "to": "tx-property-tax",
+      "anchor": "Texas Property Tax Structure \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "tx-property-tax",
+      "to": "tx-flood-zones",
+      "anchor": "Texas Flood Zones & Insurance",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "tx-market-fundamentals",
+      "to": "tx-property-tax",
+      "anchor": "Texas Property Tax Structure \u2014 complete guide",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "tx-property-tax",
+      "to": "tx-market-fundamentals",
+      "anchor": "Texas Residential Market Fundamentals",
+      "bridge": "HIERARCHY"
+    },
+    {
+      "from": "fthb-process",
+      "to": "about-quan",
+      "anchor": "Quan Nguyen \u2014 Walzel Properties",
+      "bridge": "ENTITY_ANCHOR"
+    },
+    {
+      "from": "builder-incentives",
+      "to": "about-quan",
+      "anchor": "Quan Nguyen \u2014 Walzel Properties",
+      "bridge": "ENTITY_ANCHOR"
+    },
+    {
+      "from": "relocation-guide",
+      "to": "about-quan",
+      "anchor": "Quan Nguyen \u2014 Walzel Properties",
+      "bridge": "ENTITY_ANCHOR"
+    },
+    {
+      "from": "dpa-programs",
+      "to": "about-quan",
+      "anchor": "Quan Nguyen \u2014 Walzel Properties",
+      "bridge": "ENTITY_ANCHOR"
+    },
+    {
+      "from": "fha-vs-conventional",
+      "to": "about-quan",
+      "anchor": "Quan Nguyen \u2014 Walzel Properties",
+      "bridge": "ENTITY_ANCHOR"
+    },
+    {
+      "from": "closing-costs",
+      "to": "about-quan",
+      "anchor": "Quan Nguyen \u2014 Walzel Properties",
+      "bridge": "ENTITY_ANCHOR"
+    },
+    {
+      "from": "mortgage-preapproval",
+      "to": "about-quan",
+      "anchor": "Quan Nguyen \u2014 Walzel Properties",
+      "bridge": "ENTITY_ANCHOR"
+    },
+    {
+      "from": "katy-neighborhoods",
+      "to": "about-quan",
+      "anchor": "Quan Nguyen \u2014 Walzel Properties",
+      "bridge": "ENTITY_ANCHOR"
+    },
+    {
+      "from": "katy-isd-schools",
+      "to": "about-quan",
+      "anchor": "Quan Nguyen \u2014 Walzel Properties",
+      "bridge": "ENTITY_ANCHOR"
+    },
+    {
+      "from": "new-construction",
+      "to": "about-quan",
+      "anchor": "Quan Nguyen \u2014 Walzel Properties",
+      "bridge": "ENTITY_ANCHOR"
+    },
+    {
+      "from": "commute-guide",
+      "to": "about-quan",
+      "anchor": "Quan Nguyen \u2014 Walzel Properties",
+      "bridge": "ENTITY_ANCHOR"
+    },
+    {
+      "from": "tx-property-tax",
+      "to": "about-quan",
+      "anchor": "Quan Nguyen \u2014 Walzel Properties",
+      "bridge": "ENTITY_ANCHOR"
+    },
+    {
+      "from": "tx-flood-zones",
+      "to": "about-quan",
+      "anchor": "Quan Nguyen \u2014 Walzel Properties",
+      "bridge": "ENTITY_ANCHOR"
+    },
+    {
+      "from": "tx-market-fundamentals",
+      "to": "about-quan",
+      "anchor": "Quan Nguyen \u2014 Walzel Properties",
+      "bridge": "ENTITY_ANCHOR"
+    },
+    {
+      "from": "fthb-process",
+      "to": "builder-incentives",
+      "anchor": "Builder Incentives / Get Paid to Buy",
+      "bridge": "CROSS_CENTROID"
+    },
+    {
+      "from": "fthb-process",
+      "to": "relocation-guide",
+      "anchor": "Out-of-State Relocation Guide",
+      "bridge": "CROSS_CENTROID"
+    },
+    {
+      "from": "fthb-process",
+      "to": "katy-neighborhoods",
+      "anchor": "Katy Neighborhood Guide",
+      "bridge": "CROSS_CENTROID"
+    },
+    {
+      "from": "fthb-process",
+      "to": "tx-property-tax",
+      "anchor": "Texas Property Tax Structure",
+      "bridge": "CROSS_CENTROID"
+    },
+    {
+      "from": "builder-incentives",
+      "to": "relocation-guide",
+      "anchor": "Out-of-State Relocation Guide",
+      "bridge": "CROSS_CENTROID"
+    },
+    {
+      "from": "builder-incentives",
+      "to": "katy-neighborhoods",
+      "anchor": "Katy Neighborhood Guide",
+      "bridge": "CROSS_CENTROID"
+    },
+    {
+      "from": "builder-incentives",
+      "to": "tx-property-tax",
+      "anchor": "Texas Property Tax Structure",
+      "bridge": "CROSS_CENTROID"
+    },
+    {
+      "from": "relocation-guide",
+      "to": "katy-neighborhoods",
+      "anchor": "Katy Neighborhood Guide",
+      "bridge": "CROSS_CENTROID"
+    },
+    {
+      "from": "relocation-guide",
+      "to": "tx-property-tax",
+      "anchor": "Texas Property Tax Structure",
+      "bridge": "CROSS_CENTROID"
+    },
+    {
+      "from": "katy-neighborhoods",
+      "to": "tx-property-tax",
+      "anchor": "Texas Property Tax Structure",
+      "bridge": "CROSS_CENTROID"
+    }
+  ],
+  "link_stats": {
+    "total": 79,
+    "bridge": 21,
+    "hierarchy": 34,
+    "entity_anchor": 14,
+    "cross_centroid": 10,
+    "pages": 15
+  }
+}

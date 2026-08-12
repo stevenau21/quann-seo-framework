@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "engine": "Phase 1 Corpus Extraction \u2014 DuckDuckGo SERP Mining",
+    "queries_tested": 5,
+    "competitor_domains_found": 26,
+    "unique_domains": 26,
+    "source": "Autonomous Seed Query Generator v2.0",
+    "methodology": "SERP snapshot parsing \u2014 titles, URLs, snippets extracted from DuckDuckGo organic results"
+  },
+  "queries": {
+    "query1_Buyer_Representation_in_Katy_TX": {
+      "query": "Buyer Representation in Katy TX",
+      "competitors": [
+        {
+          "domain": "mkatgroup.com",
+          "title": "Home Buyer Services in Katy & Houston, TX | MKAT Group",
+          "url_slug": "/services/buyer-services"
+        },
+        {
+          "domain": "katyhomesforsaletx.com",
+          "title": "Buyer Representation in Texas - Updated May 2026",
+          "url_slug": "/buyer-representation"
+        },
+        {
+          "domain": "redlionrealtygroup.com",
+          "title": "Best Realtor in Katy TX | Red Lion Realty Group - Richard Luebeck",
+          "url_slug": "/"
+        },
+        {
+          "domain": "yelp.com",
+          "title": "10 BEST TOP-RATED Buyers Agent in Katy, TX",
+          "url_slug": "/search?find_desc=buyers+agent&find_loc=Katy,TX"
+        },
+        {
+          "domain": "yellowpages.com",
+          "title": "Real Estate Buyer Brokers in Katy, TX",
+          "url_slug": "/katy-tx/real-estate-buyer-brokers"
+        },
+        {
+          "domain": "facebook.com",
+          "title": "i Realty Group | Katy TX",
+          "url_slug": "/irealtygroup/"
+        },
+        {
+          "domain": "kat-realty.com",
+          "title": "$4999 Buyer Agent Fee | BIG Rebate",
+          "url_slug": "/blog/top-flat-fee-realtors-in-katy-tx-houston-2026-guide"
+        }
+      ]
+    },
+    "query2_Texas_first_time_home_buyer_guide": {
+      "query": "Texas first time home buyer guide",
+      "competitors": [
+        {
+          "domain": "thetexasmortgagepros.com",
+          "title": "First-Time Home Buyers Guide in Texas",
+          "url_slug": "/blog/first-time-home-buyers-guide-in-texas/"
+        },
+        {
+          "domain": "1sthometexas.com",
+          "title": "Buying Your First Home in Texas: A Complete Guide",
+          "url_slug": "/home-buying-tips/how-to-buy-your-first-home-in-texas-2025-step-by-step-guide-for-first-time-buyers/"
+        },
+        {
+          "domain": "tsahc.org",
+          "title": "First Time Home Buyer Grants in Texas",
+          "url_slug": "/homebuyers-renters/first-time-home-buyer-grants"
+        },
+        {
+          "domain": "tdhca.texas.gov",
+          "title": "Programs | The Texas Homebuyers Program",
+          "url_slug": "/programs"
+        },
+        {
+          "domain": "houzeo.com",
+          "title": "How to Buy a House in Texas",
+          "url_slug": "/blog/how-to-buy-a-house-in-texas"
+        }
+      ],
+      "high_signal_terms_from_snippets": [
+        "TSAHC",
+        "Home Sweet Texas Loan",
+        "down payment assistance",
+        "620+ credit score",
+        "Homes for Texas Heroes",
+        "first-time buyer grants",
+        "My First Texas Home",
+        "closing-cost assistance",
+        "mortgage loan programs",
+        "forgivable loans"
+      ]
+    },
+    "query3_Katy_TX_relocation_guide": {
+      "query": "Katy TX relocation guide out of state",
+      "competitors": [
+        {
+          "domain": "southernmovingservices.com",
+          "title": "Relocating to Katy TX Guide",
+          "url_slug": "/relocating-to-katy-tx/"
+        },
+        {
+          "domain": "northamerican.com",
+          "title": "Moving to Katy TX Guide",
+          "url_slug": "/moving-to-katy-tx"
+        },
+        {
+          "domain": "greatguysmovers.com",
+          "title": "Katy TX Moving Guide",
+          "url_slug": "/moving-to-katy-tx-guide"
+        },
+        {
+          "domain": "katymagazine.com",
+          "title": "Moving to Katy, Texas",
+          "url_slug": "/moving-to-katy-texas/"
+        }
+      ]
+    },
+    "query4_Houston_master_planned_communities": {
+      "query": "Houston master planned communities new construction",
+      "competitors": [
+        {
+          "domain": "davidweekleyhomes.com",
+          "title": "Quick Move-In Homes \u2014 David Weekley",
+          "url_slug": "/new-homes/tx/houston/friendswood"
+        },
+        {
+          "domain": "newhomesource.com",
+          "title": "Houston Master Planned Communities | NewHomeSource",
+          "url_slug": "/houston-master-planned-communities"
+        },
+        {
+          "domain": "har.com",
+          "title": "Houston Master Planned Communities \u2014 HAR",
+          "url_slug": "/master-planned-communities"
+        },
+        {
+          "domain": "lennar.com",
+          "title": "New Construction in Houston | Lennar",
+          "url_slug": "/new-homes/texas/houston"
+        }
+      ]
+    },
+    "query5_Texas_property_tax_MUD_PID": {
+      "query": "Texas property tax MUD PID explained",
+      "competitors": [
+        {
+          "domain": "texaspropertycalc.com",
+          "title": "Texas Property Tax Calculator 2025",
+          "url_slug": "/guides/texas-mud-pid"
+        },
+        {
+          "domain": "oldrepublictitle.com",
+          "title": "Understanding PIDs, PUDs and MUDs (PDF)",
+          "url_slug": "/media/u2vlpqo4/texas__understanding_puds_muds__pids_08092023.pdf"
+        },
+        {
+          "domain": "pattentitle.com",
+          "title": "Understanding MUDs / WCIDs / PIDs (PDF)",
+          "url_slug": "/wp-content/uploads/2025/06/MUDs_PIDs_WCIDs_CentralTexas.pdf"
+        },
+        {
+          "domain": "texasrealestatesource.com",
+          "title": "MUDs, PIDs, PUDs & TIFs: 4 Property Taxes",
+          "url_slug": "/blog/muds-pids-puds-tifs/"
+        },
+        {
+          "domain": "historymaker.com",
+          "title": "MUD vs PID Taxes in Texas",
+          "url_slug": "/blog/mud-vs-pid-taxes-in-the-state-of-texas/"
+        },
+        {
+          "domain": "destinationnorthtexas.com",
+          "title": "What Is a MUD District in Texas?",
+          "url_slug": "/mud-texas/"
+        }
+      ],
+      "high_signal_terms_from_snippets": [
+        "Municipal Utility District",
+        "Property Improvement District",
+        "Water Control and Improvement District (WCID)",
+        "PID assessments",
+        "MUD tax rate",
+        "special district",
+        "infrastructure bonds",
+        "20 to 40 years debt",
+        "tax deductible",
+        "disclosure requirements",
+        "homestead exemption"
+      ]
+    }
+  },
+  "high_signal_terms": {
+    "texas_entities": {
+      "programs": [
+        "TSAHC",
+        "TDHCA",
+        "Home Sweet Texas Loan",
+        "Homes for Texas Heroes",
+        "My First Texas Home",
+        "Texas Homebuyers Program"
+      ],
+      "districts": [
+        "MUD",
+        "Municipal Utility District",
+        "PID",
+        "Property Improvement District",
+        "WCID",
+        "Water Control and Improvement District",
+        "PUD",
+        "TIF"
+      ],
+      "tax_concepts": [
+        "homestead exemption",
+        "property tax assessment",
+        "MUD tax rate",
+        "PID assessment",
+        "infrastructure bond",
+        "forgivable loan",
+        "deferred payment",
+        "tax deductible"
+      ],
+      "credentials": [
+        "620+ credit score",
+        "TREC",
+        "Texas Real Estate Commission"
+      ]
+    },
+    "buyer_concepts": {
+      "assistance": [
+        "down payment assistance",
+        "closing cost assistance",
+        "DPA program",
+        "grant",
+        "forgivable loan",
+        "deferred second lien"
+      ],
+      "representation": [
+        "buyer agent",
+        "buyer broker",
+        "buyer representation agreement",
+        "fiduciary duty",
+        "buyer rebate"
+      ],
+      "first_time": [
+        "first-time home buyer",
+        "first time buyer programs",
+        "FTHB",
+        "pre-approval",
+        "mortgage readiness"
+      ]
+    },
+    "location_signals": {
+      "katy_terms": [
+        "Katy ISD",
+        "Katy Texas",
+        "Katy area",
+        "Katy Mills",
+        "Cinco Ranch",
+        "master-planned community",
+        "77494",
+        "77450"
+      ],
+      "houston_terms": [
+        "Houston metro",
+        "Greater Houston",
+        "Houston area",
+        "inner-loop",
+        "Energy Corridor",
+        "West Houston",
+        "Fort Bend County",
+        "Harris County"
+      ],
+      "relocation_terms": [
+        "out of state",
+        "relocating to",
+        "moving to",
+        "transferee",
+        "relocation package",
+        "corporate relocation"
+      ]
+    },
+    "construction_terms": [
+      "new construction",
+      "builder incentive",
+      "quick move-in",
+      "inventory home",
+      "model home",
+      "floor plan",
+      "spec home",
+      "production builder",
+      "custom builder",
+      "new home community",
+      "master-planned",
+      "amenity center",
+      "HOA dues"
+    ],
+    "financial_terms": [
+      "closing cost",
+      "earnest money",
+      "option period",
+      "inspection contingency",
+      "appraisal gap",
+      "seller concession",
+      "rate buydown",
+      "mortgage points",
+      "FHA loan",
+      "conventional loan",
+      "VA loan",
+      "USDA loan"
+    ]
+  }
+}

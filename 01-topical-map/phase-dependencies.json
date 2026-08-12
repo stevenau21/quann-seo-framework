@@ -1,0 +1,345 @@
+{
+  "metadata": {
+    "engine": "3-Vector Dependency Extraction Engine v1.0",
+    "vectors": {
+      "vector_1": "Framework Stratification (explicit depends_on)",
+      "vector_2": "Cross-Framework NLP Overlap (strength > 0.5, cards \u2265 5)",
+      "vector_3": "External Dependency Co-occurrence (\u2265 8 shared keywords)"
+    },
+    "cycle_resolution": "Vector 1 always overrides \u2014 lower foundational layer wins",
+    "total_frameworks": 12,
+    "total_cards": 534,
+    "tier_1_grounded": 144,
+    "tier_2_context": 390
+  },
+  "topological_order": [
+    "holistic-seo",
+    "multilingual-international-seo",
+    "seo-case-study-methodology",
+    "knowledge-graph-structured-data",
+    "semantic-seo",
+    "seo-information-retrieval",
+    "entity-based-seo",
+    "technical-seo",
+    "topical-authority",
+    "python-data-driven-seo",
+    "content-quality-linguistics",
+    "conversion-growth"
+  ],
+  "phases": [
+    {
+      "name": "Phase 6: The Crown \u2014 Topical Authority Assembly",
+      "layer_start": 5,
+      "frameworks": [
+        {
+          "id": "holistic-seo",
+          "name": "Holistic SEO",
+          "layer": 5,
+          "tier_1_rules": 9,
+          "tier_2_context": 51,
+          "total_cards": 60,
+          "depends_on": [
+            "Semantic SEO",
+            "Python & Data-Driven SEO",
+            "Content Quality & Linguistics"
+          ],
+          "supports": [],
+          "definition": "Holistic SEO is the process of developing integrated digital marketing projects with every aspect including coding, Natural Language Processing, Data Science, Page Speed, Digital Analytics, Content Ma..."
+        }
+      ],
+      "cards": 60
+    },
+    {
+      "name": "Phase 5: Execution Layer \u2014 Technical & International Deployment",
+      "layer_start": 4,
+      "frameworks": [
+        {
+          "id": "multilingual-international-seo",
+          "name": "Multilingual & International SEO",
+          "layer": 4,
+          "tier_1_rules": 6,
+          "tier_2_context": 36,
+          "total_cards": 42,
+          "depends_on": [
+            "Conversion & Growth",
+            "Python & Data-Driven SEO",
+            "Technical SEO",
+            "Content Quality & Linguistics",
+            "Topical Authority"
+          ],
+          "supports": [
+            "Topical Authority"
+          ],
+          "definition": "Multilingual SEO is the process of optimizing a website or web entity for multiple languages in the context of Search Engine Optimization, closely connected to Multiregional SEO. It aims to acquire vi..."
+        }
+      ],
+      "cards": 42
+    },
+    {
+      "name": "Phase 7: Meta-Reflection \u2014 Case Study Validation & Iteration",
+      "layer_start": 6,
+      "frameworks": [
+        {
+          "id": "seo-case-study-methodology",
+          "name": "SEO Case Study Methodology",
+          "layer": 6,
+          "tier_1_rules": 9,
+          "tier_2_context": 12,
+          "total_cards": 21,
+          "depends_on": [
+            "Entity-Based SEO",
+            "Knowledge Graph & Structured Data",
+            "Semantic SEO",
+            "Content Quality & Linguistics",
+            "SEO Information Retrieval",
+            "Topical Authority"
+          ],
+          "supports": [],
+          "definition": "Koray Gubur defines SEO Case Study Methodology as a rigorous, evidence-based approach to formulating how search engines work and how to convince them through real-world projects. He states, 'an SEO Ca..."
+        }
+      ],
+      "cards": 21
+    },
+    {
+      "name": "Phase 2: Core SEO Concepts \u2014 Knowledge Graph & Conversion Architecture",
+      "layer_start": 1,
+      "frameworks": [
+        {
+          "id": "knowledge-graph-structured-data",
+          "name": "Knowledge Graph & Structured Data",
+          "layer": 1,
+          "tier_1_rules": 14,
+          "tier_2_context": 39,
+          "total_cards": 53,
+          "depends_on": [
+            "Content Quality & Linguistics"
+          ],
+          "supports": [
+            "Topical Authority",
+            "Semantic SEO",
+            "Entity-Based SEO",
+            "SEO Case Study Methodology"
+          ],
+          "definition": "Koray Gubur defines the Knowledge Graph as a graph of entities and their connections, used by search engines to understand real-world things and move beyond strings to things (Amit Singhal). Structure..."
+        }
+      ],
+      "cards": 53
+    },
+    {
+      "name": "Phase 4: Entity-Semantic Bridge \u2014 From Raw Data to Authority Signals",
+      "layer_start": 3,
+      "frameworks": [
+        {
+          "id": "semantic-seo",
+          "name": "Semantic SEO",
+          "layer": 3,
+          "tier_1_rules": 11,
+          "tier_2_context": 26,
+          "total_cards": 37,
+          "depends_on": [
+            "Knowledge Graph & Structured Data",
+            "Topical Authority",
+            "Content Quality & Linguistics"
+          ],
+          "supports": [
+            "Topical Authority",
+            "Holistic SEO",
+            "Entity-Based SEO",
+            "Technical SEO",
+            "SEO Case Study Methodology"
+          ],
+          "definition": "Semantic SEO is the practice of optimizing a website or web page for semantic search engines to improve its ranking and visibility, developed in the 2010s as a response to the increasing use of semant..."
+        }
+      ],
+      "cards": 37
+    },
+    {
+      "name": "Phase 3: Information Science \u2014 Retrieval & Indexing Foundations",
+      "layer_start": 2,
+      "frameworks": [
+        {
+          "id": "seo-information-retrieval",
+          "name": "SEO Information Retrieval",
+          "layer": 2,
+          "tier_1_rules": 7,
+          "tier_2_context": 23,
+          "total_cards": 30,
+          "depends_on": [
+            "Entity-Based SEO",
+            "Technical SEO",
+            "Python & Data-Driven SEO",
+            "Content Quality & Linguistics"
+          ],
+          "supports": [
+            "Topical Authority",
+            "Entity-Based SEO",
+            "Technical SEO",
+            "SEO Case Study Methodology"
+          ],
+          "definition": "Information retrieval (IR) is the process of recovering information from a large unstructured database based on a request. For Koray Gubur, IR is central to search engines: they collect, evaluate, pro..."
+        }
+      ],
+      "cards": 30
+    },
+    {
+      "name": "Phase 4: Entity-Semantic Bridge \u2014 From Raw Data to Authority Signals",
+      "layer_start": 3,
+      "frameworks": [
+        {
+          "id": "entity-based-seo",
+          "name": "Entity-Based SEO",
+          "layer": 3,
+          "tier_1_rules": 19,
+          "tier_2_context": 33,
+          "total_cards": 52,
+          "depends_on": [
+            "Knowledge Graph & Structured Data",
+            "Semantic SEO",
+            "Content Quality & Linguistics",
+            "SEO Information Retrieval",
+            "Topical Authority"
+          ],
+          "supports": [
+            "Topical Authority",
+            "Technical SEO",
+            "SEO Information Retrieval",
+            "SEO Case Study Methodology"
+          ],
+          "definition": "Entity-Based SEO is a framework that shifts focus from keywords (strings) to real-world entities (things). It involves optimizing a brand or entity to be recognized, understood, and trusted by search ..."
+        }
+      ],
+      "cards": 52
+    },
+    {
+      "name": "Phase 5: Execution Layer \u2014 Technical & International Deployment",
+      "layer_start": 4,
+      "frameworks": [
+        {
+          "id": "technical-seo",
+          "name": "Technical SEO",
+          "layer": 4,
+          "tier_1_rules": 24,
+          "tier_2_context": 58,
+          "total_cards": 82,
+          "depends_on": [
+            "Entity-Based SEO",
+            "Conversion & Growth",
+            "Python & Data-Driven SEO",
+            "Semantic SEO",
+            "SEO Information Retrieval"
+          ],
+          "supports": [
+            "Topical Authority",
+            "SEO Information Retrieval",
+            "Multilingual & International SEO"
+          ],
+          "definition": "Technical SEO is about optimizing the cost of retrieval and indexation signals. It involves making a website crawlable and cheaper to be crawled by search engines, optimizing crawl budget and efficien..."
+        }
+      ],
+      "cards": 82
+    },
+    {
+      "name": "Phase 6: The Crown \u2014 Topical Authority Assembly",
+      "layer_start": 5,
+      "frameworks": [
+        {
+          "id": "topical-authority",
+          "name": "Topical Authority",
+          "layer": 5,
+          "tier_1_rules": 12,
+          "tier_2_context": 38,
+          "total_cards": 50,
+          "depends_on": [
+            "Entity-Based SEO",
+            "Multilingual & International SEO",
+            "Knowledge Graph & Structured Data",
+            "Semantic SEO",
+            "Technical SEO",
+            "Content Quality & Linguistics",
+            "SEO Information Retrieval"
+          ],
+          "supports": [
+            "Semantic SEO",
+            "Entity-Based SEO",
+            "Multilingual & International SEO",
+            "SEO Case Study Methodology"
+          ],
+          "definition": "Topical Authority is a positive ranking state that a website achieves when it demonstrates deep, comprehensive, and semantically connected coverage of a topic. It is founded on the concept that search..."
+        }
+      ],
+      "cards": 50
+    },
+    {
+      "name": "Phase 1: Foundational Primitives \u2014 Linguistics & Data Infrastructure",
+      "layer_start": 0,
+      "frameworks": [
+        {
+          "id": "python-data-driven-seo",
+          "name": "Python & Data-Driven SEO",
+          "layer": 0,
+          "tier_1_rules": 16,
+          "tier_2_context": 18,
+          "total_cards": 34,
+          "depends_on": [
+            "Content Quality & Linguistics"
+          ],
+          "supports": [
+            "Holistic SEO",
+            "Technical SEO",
+            "SEO Information Retrieval",
+            "Content Quality & Linguistics",
+            "Multilingual & International SEO"
+          ],
+          "definition": "Python & Data-Driven SEO is the application of Python programming and data science techniques to understand search engines, optimize content, and make data-driven decisions. It involves using Python l..."
+        },
+        {
+          "id": "content-quality-linguistics",
+          "name": "Content Quality & Linguistics",
+          "layer": 0,
+          "tier_1_rules": 7,
+          "tier_2_context": 20,
+          "total_cards": 27,
+          "depends_on": [
+            "Conversion & Growth",
+            "Python & Data-Driven SEO"
+          ],
+          "supports": [
+            "Topical Authority",
+            "Semantic SEO",
+            "Holistic SEO",
+            "Entity-Based SEO",
+            "SEO Information Retrieval",
+            "Multilingual & International SEO",
+            "Knowledge Graph & Structured Data",
+            "Python & Data-Driven SEO",
+            "SEO Case Study Methodology"
+          ],
+          "definition": "Koray Gubur defines content quality as the degree to which digital content provides unique, relevant, and valuable information that satisfies user search intent, while linguistics refers to the precis..."
+        }
+      ],
+      "cards": 61
+    },
+    {
+      "name": "Phase 2: Core SEO Concepts \u2014 Knowledge Graph & Conversion Architecture",
+      "layer_start": 1,
+      "frameworks": [
+        {
+          "id": "conversion-growth",
+          "name": "Conversion & Growth",
+          "layer": 1,
+          "tier_1_rules": 10,
+          "tier_2_context": 36,
+          "total_cards": 46,
+          "depends_on": [],
+          "supports": [
+            "Technical SEO",
+            "Content Quality & Linguistics",
+            "Multilingual & International SEO"
+          ],
+          "definition": "The documents do not explicitly define a framework named 'Conversion & Growth'. However, Koray Gubur's writings integrate conversion rate optimization (CRO), inbound marketing, flywheel marketing, use..."
+        }
+      ],
+      "cards": 46
+    }
+  ]
+}

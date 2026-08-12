@@ -1,0 +1,121 @@
+{
+  "summary": "All failed approaches for fixing the Dify SEO/Homes chatbot. Do NOT retry any of these.",
+  "attempts": [
+    {
+      "id": 1,
+      "what": "Native Ollama plugin (langgenius/ollama/ollama) pointing to cloud model stubs",
+      "error": "PluginInvokeError: 401 unauthorized",
+      "root_cause": "SSRF proxy (squid) blocked host.docker.internal. Even after allowlisting, plugin sent malformed auth headers.",
+      "never_again": true
+    },
+    {
+      "id": 2,
+      "what": "Added host.docker.internal to squid allowlist + /etc/hosts mapping",
+      "error": "Still 401",
+      "root_cause": "Plugin internals sent auth header even to local Ollama (which needs no auth), causing 401",
+      "never_again": true
+    },
+    {
+      "id": 3,
+      "what": "Switched all 3 apps to openai_api_compatible provider + Ollama Cloud credential",
+      "error": "Provider langgenius/openai/openai does not exist",
+      "root_cause": "The openai_api_compatible plugin was NEVER INSTALLED via Dify plugin marketplace. Only exists in provider_models table, not in providers table. Dify reads from 'model' JSON column, not 'provider' column.",
+      "never_again": true
+    },
+    {
+      "id": 4,
+      "what": "Switched apps back to langgenius/ollama/ollama via UPDATE provider column only",
+      "error": "Provider langgenius/openai/openai does not exist (same error persisted)",
+      "root_cause": "Dify reads the 'model' JSON column, NOT the 'provider' column. The model JSON still had \"provider\":\"langgenius/openai/openai\"",
+      "never_again": true
+    },
+    {
+      "id": 5,
+      "what": "Fixed model JSON column to langgenius/ollama/ollama with gemma4:31b-cloud",
+      "error": "Model gemma4:31b-cloud not exist",
+      "root_cause": "Provider_models table had stale/conflicting entries. Dify validates model name against provider_models before accepting.",
+      "never_again": false
+    },
+    {
+      "id": 6,
+      "what": "Changed model_id and model JSON to gemma4:31b (no -cloud suffix)",
+      "error": "Model gemma4:31b credentials is not initialized",
+      "root_cause": "Credential existed but wasn't properly linked, OR local Ollama doesn't have gemma4:31b without cloud stub",
+      "never_again": false
+    },
+    {
+      "id": 7,
+      "what": "Deleted and recreated provider_credential + relinked in providers table",
+      "error": "Model gemma4:31b-cloud not exist (back to original error)",
+      "root_cause": "provider_models DELETE/INSERT didn't take effect (Redis cache? Wrong tenant? Race condition?)",
+      "never_again": false
+    },
+    {
+      "id": 8,
+      "what": "Admin login: admin@quann.homes with Quan@2024",
+      "error": "authentication_failed: Invalid encrypted data",
+      "root_cause": "SECRET_KEY mismatch between current .env and when the account was created. Encryption key changed.",
+      "never_again": true
+    },
+    {
+      "id": 9,
+      "what": "Admin login: admin@quann.homes with Lawof1!!",
+      "error": "authentication_failed: Invalid encrypted data (same)",
+      "root_cause": "Same encryption key mismatch \u2014 password is irrelevant, the stored encrypted data can't be decrypted",
+      "never_again": true
+    },
+    {
+      "id": 10,
+      "what": "flask reset-password command inside container",
+      "error": "Command timed out after 10s",
+      "root_cause": "Flask CLI in Dify container hangs or takes too long",
+      "never_again": true
+    },
+    {
+      "id": 11,
+      "what": "NULL'd password + password_salt in accounts table",
+      "error": "Still authentication_failed",
+      "root_cause": "NULL password doesn't allow login \u2014 need flask create-account to hash properly, but flask CLI hangs",
+      "never_again": true
+    },
+    {
+      "id": 12,
+      "what": "Patched Ollama cloud stub blob JSON files on Windows to add model_format/family/type metadata",
+      "error": "Model deepseek-v4-pro:cloud not exist \u2014 still fails after blob patching + daemon restart",
+      "root_cause": "Plugin daemon only discovers 'ollama' as installed model (log: 'Installed model: ollama'). Cloud stub variants are never registered regardless of blob metadata. Plugin daemon model discovery != provider_models table. The customizable-model provider requires models to be added via UI, and the plugin daemon only lists what the Ollama server reports \u2014 but cloud stubs return minimal data.",
+      "never_again": true,
+      "lesson": "Blob patching changes /api/tags output but plugin daemon doesn't use /api/tags for model discovery \u2014 it uses the Ollama Go client library directly which may have different behavior for cloud stubs."
+    }
+  ],
+  "working_state": {
+    "local_ollama_works": true,
+    "detail": "docker exec dify-worker-1 curl http://host.docker.internal:11434/api/chat with model 'gemma4:31b-cloud' returns valid response. Cloud stubs route to ollama.com transparently.",
+    "model_names_local_ollama_uses": [
+      "gemma4:31b-cloud",
+      "deepseek-v4-pro:cloud"
+    ],
+    "model_names_ollama_cloud_api_uses": [
+      "gemma4:31b",
+      "deepseek-v4-pro"
+    ],
+    "credential_needed_for_local_ollama": false,
+    "credential_needed_for_ollama_cloud_api": true
+  },
+  "key_insights": [
+    "Dify reads model config from app_model_configs.model (JSON column), NOT provider/model_id columns",
+    "Admin login is PERMANENTLY BROKEN \u2014 SECRET_KEY mismatch. All config changes MUST be via direct SQL",
+    "Redis caches model configs \u2014 always FLUSHALL after DB changes",
+    "provider_models table must have exact model name that appears in ollama /api/tags",
+    "The openai_api_compatible plugin was NEVER INSTALLED \u2014 don't try using it",
+    "Local Ollama with :cloud stubs WORKS from worker container \u2014 it's the Dify config layer that's broken",
+    "Plugin daemon model discovery is separate from provider_models table. The Ollama plugin only installs 'ollama' model name. Cloud stub variants are NOT automatically discovered."
+  ],
+  "what_actually_needs_to_happen": [
+    "1. Ensure provider_models has gemma4:31b-cloud and deepseek-v4-pro:cloud for langgenius/ollama/ollama",
+    "2. Ensure app_model_configs.model JSON has provider: 'langgenius/ollama/ollama'",
+    "3. Ensure app_model_configs.model_id matches provider_models.model_name exactly",
+    "4. Ensure providers table has a valid entry for langgenius/ollama/ollama with credential_id set",
+    "5. Redis FLUSHALL + restart dify-api-1 AND dify-worker-1",
+    "6. Test API immediately after restart"
+  ]
+}

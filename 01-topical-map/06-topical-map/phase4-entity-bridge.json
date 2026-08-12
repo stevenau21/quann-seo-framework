@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "phase": "Phase 4: Entity-Semantic Bridge",
+    "frameworks": [
+      "Semantic SEO (11 rules, 37 cards)",
+      "Entity-Based SEO (19 rules, 52 cards)"
+    ],
+    "total_grounded_rules": 30,
+    "total_cards": 89,
+    "layer": 3,
+    "depends_on": [
+      "Phase 2 (Knowledge Graph & Structured Data)",
+      "Phase 3 (Information Retrieval)"
+    ],
+    "feeds_into": [
+      "Phase 5 (Technical & International)",
+      "Phase 6 (Topical Authority)"
+    ]
+  },
+  "entity_salience_ranking": [
+    {
+      "entity": "Quan Nguyen",
+      "salience": 1250.8,
+      "edges": 5,
+      "attrs": 36
+    },
+    {
+      "entity": "Katy, TX",
+      "salience": 16.0,
+      "edges": 5,
+      "attrs": 2
+    },
+    {
+      "entity": "Buyer Representation",
+      "salience": 13.4,
+      "edges": 2,
+      "attrs": 2
+    },
+    {
+      "entity": "Seller Listing",
+      "salience": 4.5,
+      "edges": 2,
+      "attrs": 2
+    },
+    {
+      "entity": "Investment Consulting",
+      "salience": 4.5,
+      "edges": 2,
+      "attrs": 2
+    },
+    {
+      "entity": "8",
+      "salience": 3.1,
+      "edges": 7,
+      "attrs": 1
+    },
+    {
+      "entity": "1",
+      "salience": 2.9,
+      "edges": 6,
+      "attrs": 1
+    },
+    {
+      "entity": "2",
+      "salience": 2.9,
+      "edges": 6,
+      "attrs": 1
+    },
+    {
+      "entity": "4",
+      "salience": 2.9,
+      "edges": 6,
+      "attrs": 1
+    },
+    {
+      "entity": "5",
+      "salience": 2.9,
+      "edges": 6,
+      "attrs": 1
+    },
+    {
+      "entity": "7",
+      "salience": 2.9,
+      "edges": 6,
+      "attrs": 1
+    },
+    {
+      "entity": "11",
+      "salience": 2.9,
+      "edges": 6,
+      "attrs": 1
+    },
+    {
+      "entity": "Houston, TX",
+      "salience": 2.6,
+      "edges": 5,
+      "attrs": 1
+    },
+    {
+      "entity": "Austin, TX",
+      "salience": 2.6,
+      "edges": 5,
+      "attrs": 1
+    },
+    {
+      "entity": "Dallas, TX",
+      "salience": 2.6,
+      "edges": 5,
+      "attrs": 1
+    }
+  ],
+  "entity_coverage_report": {
+    "Quan Nguyen": {
+      "covered": 0,
+      "total": 15,
+      "missing": [
+        "name",
+        "url",
+        "email",
+        "affiliation",
+        "hasCredential",
+        "telephone",
+        "jobTitle",
+        "image",
+        "priceRange",
+        "areaServed",
+        "address",
+        "description",
+        "award",
+        "sameAs",
+        "knowsAbout"
+      ],
+      "pct": 0.0
+    }
+  },
+  "disambiguation_matrix": {
+    "canonical_entity": "Quan Nguyen \u2014 The Quantum Team at Walzel Properties (quann.homes)",
+    "verified_sameAs": [
+      "facebook.com/QuanNguyenRealtor",
+      "linkedin.com/in/quannguyen",
+      "instagram.com/quan.realtor"
+    ],
+    "contaminated_need_fix": [
+      "har.com/quannguyen",
+      "realty.com/quan-nguyen"
+    ],
+    "duplicate_need_closure": [
+      "linkedin.com/in/quannguyen-elevatus",
+      "linkedin.com/in/quannguyen-truss"
+    ],
+    "missing_need_creation": [
+      "zillow.com/profile/quannguyen",
+      "realtor.com/realestateagents/quannguyen",
+      "wikidata.org/wiki/Q...",
+      "crunchbase.com/organization/the-quantum-team"
+    ]
+  },
+  "contextual_bridges": [
+    {
+      "source": "Quan Nguyen",
+      "target": "Katy, TX",
+      "bridges": [
+        "Katy area",
+        "Cinco Ranch",
+        "77494",
+        "master-planned community",
+        "Katy ISD"
+      ]
+    },
+    {
+      "source": "Quan Nguyen",
+      "target": "Houston Relocation",
+      "bridges": [
+        "out of state buyer",
+        "corporate relocation",
+        "Energy Corridor",
+        "transferee"
+      ]
+    },
+    {
+      "source": "Katy, TX",
+      "target": "Houston, TX",
+      "bridges": [
+        "Energy Corridor",
+        "Katy Freeway (I-10)",
+        "metro area",
+        "Fort Bend County"
+      ]
+    },
+    {
+      "source": "First-Time Home Buyer",
+      "target": "TSAHC",
+      "bridges": [
+        "down payment assistance",
+        "Home Sweet Texas Loan",
+        "620+ credit score"
+      ]
+    },
+    {
+      "source": "New Construction",
+      "target": "Katy, TX",
+      "bridges": [
+        "Cinco Ranch",
+        "builder incentive",
+        "master-planned",
+        "quick move-in"
+      ]
+    },
+    {
+      "source": "Property Tax",
+      "target": "Katy, TX",
+      "bridges": [
+        "MUD",
+        "PID",
+        "homestead exemption",
+        "MUD tax rate"
+      ]
+    }
+  ],
+  "information_gaps": {
+    "RealEstateAgent": {
+      "critical_missing": [
+        "knowsabout",
+        "name",
+        "url",
+        "hascredential",
+        "telephone",
+        "image",
+        "jobtitle",
+        "areaserved",
+        "description",
+        "sameas",
+        "affiliation",
+        "address",
+        "pricerange"
+      ],
+      "advanced_missing": [
+        "review",
+        "memberof",
+        "openinghours",
+        "makesoffer",
+        "geo",
+        "alumniof",
+        "numberofemployees",
+        "currenciesaccepted",
+        "aggregaterating",
+        "foundingdate",
+        "paymentaccepted"
+      ],
+      "critical_coverage": "2/15",
+      "advanced_coverage": "0/11"
+    }
+  },
+  "entity_graph_stats": {
+    "total_entities": 37,
+    "total_edges": 94,
+    "avg_attributes_per_entity": 2.1,
+    "isolated_entities": [
+      "Business Entity",
+      "Service Entities",
+      "Location Entities",
+      "Property Type Entities",
+      "Transaction Process",
+      "Financial/Legal",
+      "Audience Entities",
+      "Market Data",
+      "Content Format",
+      "12",
+      "Down Payment",
+      "Property Tax",
+      "Builder Incentives",
+      "Mortgage Pre-Approval"
+    ]
+  }
+}

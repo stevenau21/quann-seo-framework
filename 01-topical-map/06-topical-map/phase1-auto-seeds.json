@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "engine": "Autonomous Seed Query Generator v2.0",
+    "parser": "structural-markdown-aware \u2014 headers, dividers, and schema-internal types filtered",
+    "anchor_extraction": "72 entities scored, 5 deconflicted anchors",
+    "generation": "anchor\u00d7intent + compound(location\u00d7service\u00d7product)",
+    "total_seeds": 12,
+    "domain": "auto-detected \u2014 quann.homes (Texas real estate)"
+  },
+  "top_anchors": [
+    {
+      "entity": "Quan Nguyen",
+      "score": 87.6,
+      "type": "brand"
+    },
+    {
+      "entity": "Buyer Representation",
+      "score": 8.8,
+      "type": "service"
+    },
+    {
+      "entity": "Katy, TX",
+      "score": 7.5,
+      "type": "location"
+    },
+    {
+      "entity": "homepage",
+      "score": 35.6,
+      "type": "general"
+    },
+    {
+      "entity": "Seller Listing",
+      "score": 3.6,
+      "type": "service"
+    }
+  ],
+  "seed_queries": [
+    {
+      "query": "guide Quan Nguyen",
+      "anchor": "Quan Nguyen",
+      "type": "brand",
+      "intent": "informational",
+      "generation": "anchor \u00d7 intent"
+    },
+    {
+      "query": "how to Quan Nguyen",
+      "anchor": "Quan Nguyen",
+      "type": "brand",
+      "intent": "informational",
+      "generation": "anchor \u00d7 intent"
+    },
+    {
+      "query": "cost of Buyer Representation",
+      "anchor": "Buyer Representation",
+      "type": "service",
+      "intent": "commercial",
+      "generation": "anchor \u00d7 intent"
+    },
+    {
+      "query": "comparison Buyer Representation",
+      "anchor": "Buyer Representation",
+      "type": "service",
+      "intent": "commercial",
+      "generation": "anchor \u00d7 intent"
+    },
+    {
+      "query": "guide Katy, TX",
+      "anchor": "Katy, TX",
+      "type": "location",
+      "intent": "informational",
+      "generation": "anchor \u00d7 intent"
+    },
+    {
+      "query": "how to Katy, TX",
+      "anchor": "Katy, TX",
+      "type": "location",
+      "intent": "informational",
+      "generation": "anchor \u00d7 intent"
+    },
+    {
+      "query": "guide homepage",
+      "anchor": "homepage",
+      "type": "general",
+      "intent": "informational",
+      "generation": "anchor \u00d7 intent"
+    },
+    {
+      "query": "how to homepage",
+      "anchor": "homepage",
+      "type": "general",
+      "intent": "informational",
+      "generation": "anchor \u00d7 intent"
+    },
+    {
+      "query": "cost of Seller Listing",
+      "anchor": "Seller Listing",
+      "type": "service",
+      "intent": "commercial",
+      "generation": "anchor \u00d7 intent"
+    },
+    {
+      "query": "comparison Seller Listing",
+      "anchor": "Seller Listing",
+      "type": "service",
+      "intent": "commercial",
+      "generation": "anchor \u00d7 intent"
+    },
+    {
+      "query": "Buyer Representation in Katy, TX",
+      "anchor": "Katy, TX + Buyer Representation",
+      "type": "compound:location\u00d7service",
+      "intent": "local",
+      "generation": "compound"
+    },
+    {
+      "query": "guide buyer representation Katy, TX Texas",
+      "anchor": "Katy, TX + Buyer Representation",
+      "type": "compound:location\u00d7service",
+      "intent": "informational",
+      "generation": "compound"
+    }
+  ]
+}

@@ -1,0 +1,3284 @@
+{
+  "urls": {
+    "https://www.holisticseo.digital/theoretical-seo/knowledge-panel/": {
+      "lastmod": "2025-08-27T18:50:14+00:00",
+      "ingested_at": "2026-05-07T03:05:09.291086+00:00"
+    },
+    "https://www.holisticseo.digital/review/kalicube-pro": {
+      "lastmod": "2025-08-27T17:30:29+00:00",
+      "ingested_at": "2026-05-07T03:05:11.256969+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/brand-serp-optimization/": {
+      "lastmod": "2025-08-27T17:28:23+00:00",
+      "ingested_at": "2026-05-07T03:05:12.666279+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/information-retrieval/": {
+      "lastmod": "2024-09-21T23:08:55+00:00",
+      "ingested_at": "2026-05-07T03:05:14.085017+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/perform-text-analysis/": {
+      "lastmod": "2024-09-08T11:23:50+00:00",
+      "ingested_at": "2026-05-07T03:05:15.364813+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/x-forwarded-host": {
+      "lastmod": "2024-08-30T14:53:04+00:00",
+      "ingested_at": "2026-05-07T03:05:16.717906+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/validator-ai/": {
+      "lastmod": "2024-08-14T22:48:52+00:00",
+      "ingested_at": "2026-05-07T03:05:18.024361+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/sliding-window-technique-and-algorithm/": {
+      "lastmod": "2024-08-14T21:18:11+00:00",
+      "ingested_at": "2026-05-07T03:05:19.429699+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/content-writing/lexicography/words/starting-with-z": {
+      "lastmod": "2024-07-25T17:52:17+00:00",
+      "ingested_at": "2026-05-07T03:05:20.987404+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/b2p-marketing/": {
+      "lastmod": "2024-06-27T21:23:09+00:00",
+      "ingested_at": "2026-05-07T03:05:22.330072+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/data-science/": {
+      "lastmod": "2024-04-02T14:36:35+00:00",
+      "ingested_at": "2026-05-07T03:05:24.547211+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/news-sitemap/": {
+      "lastmod": "2024-03-21T11:56:42+00:00",
+      "ingested_at": "2026-05-07T03:05:25.840023+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/image-seo/title-attribute/": {
+      "lastmod": "2024-03-19T22:11:41+00:00",
+      "ingested_at": "2026-05-07T03:05:27.152938+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/seo-for-casino-websites-a-seo-case-study-for-bet-and-gamble-industry/": {
+      "lastmod": "2024-02-08T11:13:54+00:00",
+      "ingested_at": "2026-05-07T03:05:28.649234+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/style-and-semantic-tag/": {
+      "lastmod": "2024-01-15T10:55:53+00:00",
+      "ingested_at": "2026-05-07T03:05:30.052054+00:00"
+    },
+    "https://www.holisticseo.digital/ai/hardware/": {
+      "lastmod": "2024-01-07T16:08:13+00:00",
+      "ingested_at": "2026-05-07T03:05:31.493893+00:00"
+    },
+    "https://www.holisticseo.digital/on-page-seo/anchor-text/": {
+      "lastmod": "2023-12-27T15:08:20+00:00",
+      "ingested_at": "2026-05-07T03:05:32.842537+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/": {
+      "lastmod": "2023-12-19T10:31:14+00:00",
+      "ingested_at": "2026-05-07T03:05:34.267175+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/fcp/": {
+      "lastmod": "2023-12-18T09:44:31+00:00",
+      "ingested_at": "2026-05-07T03:05:35.845248+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/lcp/": {
+      "lastmod": "2023-12-18T08:31:41+00:00",
+      "ingested_at": "2026-05-07T03:05:37.369808+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/tti/": {
+      "lastmod": "2023-12-18T08:30:36+00:00",
+      "ingested_at": "2026-05-07T03:05:38.918412+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/user-centric-metric/": {
+      "lastmod": "2023-12-18T08:27:06+00:00",
+      "ingested_at": "2026-05-07T03:05:40.442186+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/what-is-interaction-to-next-paint-inp-and-how-to-optimize-it/": {
+      "lastmod": "2023-12-18T08:08:33+00:00",
+      "ingested_at": "2026-05-07T03:05:41.966660+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/mobile-consumer": {
+      "lastmod": "2023-11-08T07:46:06+00:00",
+      "ingested_at": "2026-05-07T03:05:43.372778+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/style-and-semantic-tag/style": {
+      "lastmod": "2023-11-08T07:12:13+00:00",
+      "ingested_at": "2026-05-07T03:05:44.802668+00:00"
+    },
+    "https://www.holisticseo.digital/ai/latest-news/": {
+      "lastmod": "2023-11-07T14:46:15+00:00",
+      "ingested_at": "2026-05-07T03:05:46.350033+00:00"
+    },
+    "https://www.holisticseo.digital/ai/benefit/natural-language-processing": {
+      "lastmod": "2023-11-07T14:36:39+00:00",
+      "ingested_at": "2026-05-07T03:05:47.804413+00:00"
+    },
+    "https://www.holisticseo.digital/ai/future-tools/": {
+      "lastmod": "2023-11-07T14:29:16+00:00",
+      "ingested_at": "2026-05-07T03:05:49.366974+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/import-ai/": {
+      "lastmod": "2023-11-07T14:22:13+00:00",
+      "ingested_at": "2026-05-07T03:05:50.923924+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/exponential-view/": {
+      "lastmod": "2023-11-07T14:11:38+00:00",
+      "ingested_at": "2026-05-07T03:05:52.401716+00:00"
+    },
+    "https://www.holisticseo.digital/ai/benefit/computer-vision/": {
+      "lastmod": "2023-11-07T14:04:11+00:00",
+      "ingested_at": "2026-05-07T03:05:54.127957+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/ben-bites/": {
+      "lastmod": "2023-11-07T13:57:57+00:00",
+      "ingested_at": "2026-05-07T03:05:55.630443+00:00"
+    },
+    "https://www.holisticseo.digital/ai/": {
+      "lastmod": "2023-11-07T13:52:41+00:00",
+      "ingested_at": "2026-05-07T03:05:57.404556+00:00"
+    },
+    "https://www.holisticseo.digital/ai/benefit/creativity/": {
+      "lastmod": "2023-11-07T13:49:09+00:00",
+      "ingested_at": "2026-05-07T03:05:58.898965+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/eye-on-ai/": {
+      "lastmod": "2023-11-07T13:37:22+00:00",
+      "ingested_at": "2026-05-07T03:06:00.732157+00:00"
+    },
+    "https://www.holisticseo.digital/ai/benefit/finance/": {
+      "lastmod": "2023-11-07T13:13:20+00:00",
+      "ingested_at": "2026-05-07T03:06:02.474960+00:00"
+    },
+    "https://www.holisticseo.digital/ai/benefit/art/": {
+      "lastmod": "2023-11-07T12:49:08+00:00",
+      "ingested_at": "2026-05-07T03:06:03.986677+00:00"
+    },
+    "https://www.holisticseo.digital/ai/machine-learning/course/": {
+      "lastmod": "2023-11-07T12:24:39+00:00",
+      "ingested_at": "2026-05-07T03:06:05.503346+00:00"
+    },
+    "https://www.holisticseo.digital/newsletter/": {
+      "lastmod": "2023-11-07T12:23:51+00:00",
+      "ingested_at": "2026-05-07T03:06:07.059981+00:00"
+    },
+    "https://www.holisticseo.digital/ai/type/explainable/": {
+      "lastmod": "2023-11-07T12:08:20+00:00",
+      "ingested_at": "2026-05-07T03:06:08.656897+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/superhuman/": {
+      "lastmod": "2023-11-07T11:54:22+00:00",
+      "ingested_at": "2026-05-07T03:06:10.190558+00:00"
+    },
+    "https://www.holisticseo.digital/ai/benefit/transportation/": {
+      "lastmod": "2023-11-07T11:00:51+00:00",
+      "ingested_at": "2026-05-07T03:06:11.770873+00:00"
+    },
+    "https://www.holisticseo.digital/ai/ethics/": {
+      "lastmod": "2023-11-07T10:36:19+00:00",
+      "ingested_at": "2026-05-07T03:06:13.220592+00:00"
+    },
+    "https://www.holisticseo.digital/ai/benefit/education/": {
+      "lastmod": "2023-11-07T09:13:20+00:00",
+      "ingested_at": "2026-05-07T03:06:14.701994+00:00"
+    },
+    "https://www.holisticseo.digital/ai/future/": {
+      "lastmod": "2023-11-07T09:12:39+00:00",
+      "ingested_at": "2026-05-07T03:06:16.271213+00:00"
+    },
+    "https://www.holisticseo.digital/ai/benefit/retail/": {
+      "lastmod": "2023-11-07T08:59:08+00:00",
+      "ingested_at": "2026-05-07T03:06:18.042960+00:00"
+    },
+    "https://www.holisticseo.digital/ai/benefit/biometric/": {
+      "lastmod": "2023-11-07T08:49:35+00:00",
+      "ingested_at": "2026-05-07T03:06:19.482779+00:00"
+    },
+    "https://www.holisticseo.digital/ai/ethics/bias/": {
+      "lastmod": "2023-11-07T08:29:23+00:00",
+      "ingested_at": "2026-05-07T03:06:21.005495+00:00"
+    },
+    "https://www.holisticseo.digital/ai/neural-network": {
+      "lastmod": "2023-11-07T08:22:20+00:00",
+      "ingested_at": "2026-05-07T03:06:22.524350+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/prompt-engineering-daily/": {
+      "lastmod": "2023-11-07T08:21:58+00:00",
+      "ingested_at": "2026-05-07T03:06:24.028592+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/the-batch/": {
+      "lastmod": "2023-11-07T08:09:05+00:00",
+      "ingested_at": "2026-05-07T03:06:25.586786+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/big-brain/": {
+      "lastmod": "2023-11-07T07:57:35+00:00",
+      "ingested_at": "2026-05-07T03:06:27.069238+00:00"
+    },
+    "https://www.holisticseo.digital/ai/machine-learning/type/reinforcement/": {
+      "lastmod": "2023-11-06T15:30:07+00:00",
+      "ingested_at": "2026-05-07T03:06:28.611798+00:00"
+    },
+    "https://www.holisticseo.digital/ai/benefit/robotic/": {
+      "lastmod": "2023-11-06T14:37:37+00:00",
+      "ingested_at": "2026-05-07T03:06:30.168771+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/generator/": {
+      "lastmod": "2023-11-06T14:00:47+00:00",
+      "ingested_at": "2026-05-07T03:06:31.669931+00:00"
+    },
+    "https://www.holisticseo.digital/ai/benefit/cybersecurity/": {
+      "lastmod": "2023-11-06T12:45:14+00:00",
+      "ingested_at": "2026-05-07T03:06:33.162795+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/ai-weekly/": {
+      "lastmod": "2023-11-06T11:45:37+00:00",
+      "ingested_at": "2026-05-07T03:06:34.648947+00:00"
+    },
+    "https://www.holisticseo.digital/ai/benefit/healthcare/": {
+      "lastmod": "2023-11-06T11:13:08+00:00",
+      "ingested_at": "2026-05-07T03:06:36.211916+00:00"
+    },
+    "https://www.holisticseo.digital/ai/machine-learning/responsible": {
+      "lastmod": "2023-11-03T15:05:30+00:00",
+      "ingested_at": "2026-05-07T03:06:37.728590+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/chinai/": {
+      "lastmod": "2023-11-03T14:57:53+00:00",
+      "ingested_at": "2026-05-07T03:06:39.217436+00:00"
+    },
+    "https://www.holisticseo.digital/ai/machine-learning/types/supervised/": {
+      "lastmod": "2023-11-03T14:48:24+00:00",
+      "ingested_at": "2026-05-07T03:06:40.669046+00:00"
+    },
+    "https://www.holisticseo.digital/ai/machine-learning/types/supervised-vs-unsupervised/": {
+      "lastmod": "2023-11-03T14:39:19+00:00",
+      "ingested_at": "2026-05-07T03:06:42.220747+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/algorithm/": {
+      "lastmod": "2023-11-03T14:26:04+00:00",
+      "ingested_at": "2026-05-07T03:06:45.158362+00:00"
+    },
+    "https://www.holisticseo.digital/ai/machine-learning/sequence/": {
+      "lastmod": "2023-11-03T14:14:25+00:00",
+      "ingested_at": "2026-05-07T03:06:46.691344+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/tldr-ai/": {
+      "lastmod": "2023-11-03T14:11:12+00:00",
+      "ingested_at": "2026-05-07T03:06:48.171160+00:00"
+    },
+    "https://www.holisticseo.digital/ai/benefit/climate-change/": {
+      "lastmod": "2023-11-03T14:06:30+00:00",
+      "ingested_at": "2026-05-07T03:06:49.778215+00:00"
+    },
+    "https://www.holisticseo.digital/ai/machine-learning/type/transfer/": {
+      "lastmod": "2023-11-03T14:02:18+00:00",
+      "ingested_at": "2026-05-07T03:06:51.207200+00:00"
+    },
+    "https://www.holisticseo.digital/ai/machine-learning/types/unsupervised/": {
+      "lastmod": "2023-11-03T13:53:42+00:00",
+      "ingested_at": "2026-05-07T03:06:52.740746+00:00"
+    },
+    "https://www.holisticseo.digital/ai/machine-learning/": {
+      "lastmod": "2023-11-03T13:46:53+00:00",
+      "ingested_at": "2026-05-07T03:06:54.177026+00:00"
+    },
+    "https://www.holisticseo.digital/ai/benefit/virtual-agent/": {
+      "lastmod": "2023-11-03T13:43:06+00:00",
+      "ingested_at": "2026-05-07T03:06:55.715693+00:00"
+    },
+    "https://www.holisticseo.digital/ai/benefit/speech-recognition": {
+      "lastmod": "2023-11-03T13:37:34+00:00",
+      "ingested_at": "2026-05-07T03:06:57.158887+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/rundown/": {
+      "lastmod": "2023-11-03T13:16:49+00:00",
+      "ingested_at": "2026-05-07T03:06:58.461950+00:00"
+    },
+    "https://www.holisticseo.digital/ai/machine-learning/types/": {
+      "lastmod": "2023-11-03T11:28:31+00:00",
+      "ingested_at": "2026-05-07T03:07:00.044814+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/social-media": {
+      "lastmod": "2023-11-02T15:06:46+00:00",
+      "ingested_at": "2026-05-07T03:07:01.582381+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/sales": {
+      "lastmod": "2023-11-02T14:02:57+00:00",
+      "ingested_at": "2026-05-07T03:07:03.118651+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/email": {
+      "lastmod": "2023-11-02T13:46:58+00:00",
+      "ingested_at": "2026-05-07T03:07:04.642435+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/advertising": {
+      "lastmod": "2023-11-01T12:47:37+00:00",
+      "ingested_at": "2026-05-07T03:07:06.270817+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/technology": {
+      "lastmod": "2023-11-01T12:29:59+00:00",
+      "ingested_at": "2026-05-07T03:07:07.682804+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/lead-generation": {
+      "lastmod": "2023-10-31T15:01:43+00:00",
+      "ingested_at": "2026-05-07T03:07:09.143326+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/video": {
+      "lastmod": "2023-10-31T13:49:05+00:00",
+      "ingested_at": "2026-05-07T03:07:10.555334+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/fomo": {
+      "lastmod": "2023-10-31T13:25:51+00:00",
+      "ingested_at": "2026-05-07T03:07:11.970971+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/content": {
+      "lastmod": "2023-10-31T13:20:43+00:00",
+      "ingested_at": "2026-05-07T03:07:13.532305+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/ecommerce": {
+      "lastmod": "2023-10-31T12:30:59+00:00",
+      "ingested_at": "2026-05-07T03:07:15.004748+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/ranking/": {
+      "lastmod": "2023-10-28T12:58:19+00:00",
+      "ingested_at": "2026-05-07T03:07:16.854253+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/conversion-rate": {
+      "lastmod": "2023-10-10T15:03:17+00:00",
+      "ingested_at": "2026-05-07T03:07:18.334362+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/online-shopping": {
+      "lastmod": "2023-10-09T14:06:06+00:00",
+      "ingested_at": "2026-05-07T03:07:19.756880+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/seo": {
+      "lastmod": "2023-10-09T11:01:51+00:00",
+      "ingested_at": "2026-05-07T03:07:21.222946+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/social-proof": {
+      "lastmod": "2023-10-09T08:26:49+00:00",
+      "ingested_at": "2026-05-07T03:07:22.610102+00:00"
+    },
+    "https://www.holisticseo.digital/on-page-seo/topic-clusters/": {
+      "lastmod": "2023-09-20T09:50:39+00:00",
+      "ingested_at": "2026-05-07T03:07:24.037602+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/social-selling": {
+      "lastmod": "2023-09-14T15:10:02+00:00",
+      "ingested_at": "2026-05-07T03:07:25.484851+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/b2b": {
+      "lastmod": "2023-09-14T13:19:37+00:00",
+      "ingested_at": "2026-05-07T03:07:26.982672+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/behavioral": {
+      "lastmod": "2023-09-14T13:00:18+00:00",
+      "ingested_at": "2026-05-07T03:07:28.408551+00:00"
+    },
+    "https://www.holisticseo.digital/user-experience/conversion-funnel/": {
+      "lastmod": "2023-09-13T13:32:54+00:00",
+      "ingested_at": "2026-05-07T03:07:29.770633+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/content-type": {
+      "lastmod": "2023-09-07T11:07:53+00:00",
+      "ingested_at": "2026-05-07T03:07:31.107646+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/complacent-vs-complaisant-difference-between-them-and-how-to-correctly-use-them/": {
+      "lastmod": "2023-09-07T11:07:25+00:00",
+      "ingested_at": "2026-05-07T03:07:32.478460+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-controls": {
+      "lastmod": "2023-09-07T11:06:18+00:00",
+      "ingested_at": "2026-05-07T03:07:33.942126+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/keep-alive": {
+      "lastmod": "2023-09-07T11:05:31+00:00",
+      "ingested_at": "2026-05-07T03:07:35.377585+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/trailer": {
+      "lastmod": "2023-09-07T11:04:19+00:00",
+      "ingested_at": "2026-05-07T03:07:36.778572+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-required": {
+      "lastmod": "2023-09-07T11:04:02+00:00",
+      "ingested_at": "2026-05-07T03:07:38.429430+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-autocomplete": {
+      "lastmod": "2023-09-07T11:03:40+00:00",
+      "ingested_at": "2026-05-07T03:07:40.128840+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-flowto": {
+      "lastmod": "2023-09-07T10:11:25+00:00",
+      "ingested_at": "2026-05-07T03:07:41.634126+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/transfer-encoding": {
+      "lastmod": "2023-09-07T10:10:47+00:00",
+      "ingested_at": "2026-05-07T03:07:43.136083+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/bridle-vs-bristle": {
+      "lastmod": "2023-09-07T10:10:30+00:00",
+      "ingested_at": "2026-05-07T03:07:44.694864+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-valuetext": {
+      "lastmod": "2023-09-07T10:08:47+00:00",
+      "ingested_at": "2026-05-07T03:07:46.258093+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/from": {
+      "lastmod": "2023-09-07T10:08:19+00:00",
+      "ingested_at": "2026-05-07T03:07:47.639929+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/especially-vs-specially": {
+      "lastmod": "2023-09-07T10:08:00+00:00",
+      "ingested_at": "2026-05-07T03:07:49.241831+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/sec-ch-ua-arch": {
+      "lastmod": "2023-09-07T10:07:02+00:00",
+      "ingested_at": "2026-05-07T03:07:51.062865+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-colspan": {
+      "lastmod": "2023-09-07T10:06:31+00:00",
+      "ingested_at": "2026-05-07T03:07:52.419255+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-disabled": {
+      "lastmod": "2023-09-07T10:06:18+00:00",
+      "ingested_at": "2026-05-07T03:07:53.990777+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/connection": {
+      "lastmod": "2023-09-07T10:06:07+00:00",
+      "ingested_at": "2026-05-07T03:07:55.806673+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-live": {
+      "lastmod": "2023-09-07T10:04:52+00:00",
+      "ingested_at": "2026-05-07T03:07:57.072067+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/content-length": {
+      "lastmod": "2023-09-07T10:04:52+00:00",
+      "ingested_at": "2026-05-07T03:07:58.344972+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/sec-ch-ua-full-version": {
+      "lastmod": "2023-09-07T10:04:52+00:00",
+      "ingested_at": "2026-05-07T03:07:59.601043+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/sec-ch-ua-platform": {
+      "lastmod": "2023-09-07T10:04:10+00:00",
+      "ingested_at": "2026-05-07T03:08:00.883567+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/sec-ch-ua-full-version-list": {
+      "lastmod": "2023-09-07T10:02:39+00:00",
+      "ingested_at": "2026-05-07T03:08:02.422722+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-sort": {
+      "lastmod": "2023-09-07T10:00:28+00:00",
+      "ingested_at": "2026-05-07T03:08:03.860631+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/e.g-vs-i.e": {
+      "lastmod": "2023-09-07T09:59:55+00:00",
+      "ingested_at": "2026-05-07T03:08:05.146222+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-placeholder": {
+      "lastmod": "2023-09-07T09:57:08+00:00",
+      "ingested_at": "2026-05-07T03:08:06.493842+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-labels": {
+      "lastmod": "2023-09-07T09:56:18+00:00",
+      "ingested_at": "2026-05-07T03:08:07.966067+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/meter-or-metre": {
+      "lastmod": "2023-09-07T09:55:33+00:00",
+      "ingested_at": "2026-05-07T03:08:09.236111+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-dropeffect": {
+      "lastmod": "2023-09-07T09:52:34+00:00",
+      "ingested_at": "2026-05-07T03:08:11.541152+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-invalid": {
+      "lastmod": "2023-09-07T09:52:03+00:00",
+      "ingested_at": "2026-05-07T03:08:12.819033+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/me-myself-i": {
+      "lastmod": "2023-09-07T09:51:30+00:00",
+      "ingested_at": "2026-05-07T03:08:14.074940+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-braillelabel": {
+      "lastmod": "2023-09-07T09:50:16+00:00",
+      "ingested_at": "2026-05-07T03:08:15.316587+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/complementary-vs-complimentary": {
+      "lastmod": "2023-09-07T09:49:53+00:00",
+      "ingested_at": "2026-05-07T03:08:16.558859+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-valuemax": {
+      "lastmod": "2023-09-07T09:49:00+00:00",
+      "ingested_at": "2026-05-07T03:08:17.747272+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/aesthetic-vs-ascetic": {
+      "lastmod": "2023-09-07T09:48:35+00:00",
+      "ingested_at": "2026-05-07T03:08:18.941045+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/dpr": {
+      "lastmod": "2023-09-07T09:47:15+00:00",
+      "ingested_at": "2026-05-07T03:08:20.615393+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-current": {
+      "lastmod": "2023-09-07T09:46:47+00:00",
+      "ingested_at": "2026-05-07T03:08:21.776985+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-labelledby": {
+      "lastmod": "2023-09-07T09:46:19+00:00",
+      "ingested_at": "2026-05-07T03:08:23.002916+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-colindex": {
+      "lastmod": "2023-09-07T09:45:49+00:00",
+      "ingested_at": "2026-05-07T03:08:24.271441+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/defuse-vs-diffuse": {
+      "lastmod": "2023-09-07T09:45:28+00:00",
+      "ingested_at": "2026-05-07T03:08:26.467257+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/flair-vs-flare": {
+      "lastmod": "2023-09-07T09:44:15+00:00",
+      "ingested_at": "2026-05-07T03:08:27.777136+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-valuenow": {
+      "lastmod": "2023-09-07T09:43:45+00:00",
+      "ingested_at": "2026-05-07T03:08:29.106207+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/device-memory": {
+      "lastmod": "2023-09-07T09:42:55+00:00",
+      "ingested_at": "2026-05-07T03:08:30.302955+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-relevant": {
+      "lastmod": "2023-09-07T09:42:23+00:00",
+      "ingested_at": "2026-05-07T03:08:31.608402+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-valuemin": {
+      "lastmod": "2023-09-07T09:41:57+00:00",
+      "ingested_at": "2026-05-07T03:08:32.874807+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/server": {
+      "lastmod": "2023-09-07T09:41:36+00:00",
+      "ingested_at": "2026-05-07T03:08:34.110314+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-activedescendant": {
+      "lastmod": "2023-09-07T09:41:17+00:00",
+      "ingested_at": "2026-05-07T03:08:35.681705+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/allow": {
+      "lastmod": "2023-09-07T09:40:54+00:00",
+      "ingested_at": "2026-05-07T03:08:36.972667+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-posinset": {
+      "lastmod": "2023-09-07T09:40:36+00:00",
+      "ingested_at": "2026-05-07T03:08:38.256252+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-pressed": {
+      "lastmod": "2023-09-07T09:39:15+00:00",
+      "ingested_at": "2026-05-07T03:08:39.456239+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-roledescription": {
+      "lastmod": "2023-09-07T09:39:04+00:00",
+      "ingested_at": "2026-05-07T03:08:40.669543+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-setsize": {
+      "lastmod": "2023-09-07T09:37:58+00:00",
+      "ingested_at": "2026-05-07T03:08:41.852374+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/x-content-type-options": {
+      "lastmod": "2023-09-07T09:37:42+00:00",
+      "ingested_at": "2026-05-07T03:08:43.143212+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/rtt": {
+      "lastmod": "2023-09-07T09:37:18+00:00",
+      "ingested_at": "2026-05-07T03:08:44.411872+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/content-location": {
+      "lastmod": "2023-09-07T09:36:59+00:00",
+      "ingested_at": "2026-05-07T03:08:45.742659+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/bisect-vs-dissect": {
+      "lastmod": "2023-09-07T09:36:39+00:00",
+      "ingested_at": "2026-05-07T03:08:47.019985+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/sec-ch-ua-model": {
+      "lastmod": "2023-09-07T09:35:37+00:00",
+      "ingested_at": "2026-05-07T03:08:48.478608+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/ect": {
+      "lastmod": "2023-09-07T09:35:32+00:00",
+      "ingested_at": "2026-05-07T03:08:49.770859+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-busy": {
+      "lastmod": "2023-09-07T09:34:43+00:00",
+      "ingested_at": "2026-05-07T03:08:51.036589+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/cache-cachet-cash": {
+      "lastmod": "2023-09-07T09:34:23+00:00",
+      "ingested_at": "2026-05-07T03:08:52.285102+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-checked": {
+      "lastmod": "2023-09-07T09:33:16+00:00",
+      "ingested_at": "2026-05-07T03:08:53.630159+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/pragma": {
+      "lastmod": "2023-09-07T09:32:53+00:00",
+      "ingested_at": "2026-05-07T03:08:54.852617+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-multiline": {
+      "lastmod": "2023-09-07T09:32:29+00:00",
+      "ingested_at": "2026-05-07T03:08:56.106398+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/liable-vs-libel": {
+      "lastmod": "2023-09-07T09:32:00+00:00",
+      "ingested_at": "2026-05-07T03:08:57.372426+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-rowcount": {
+      "lastmod": "2023-09-07T09:31:16+00:00",
+      "ingested_at": "2026-05-07T03:08:58.608622+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/origin": {
+      "lastmod": "2023-09-07T09:31:11+00:00",
+      "ingested_at": "2026-05-07T03:08:59.825964+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/x-forwarded-proto": {
+      "lastmod": "2023-09-07T09:29:58+00:00",
+      "ingested_at": "2026-05-07T03:09:01.168886+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-describedby": {
+      "lastmod": "2023-09-07T09:29:27+00:00",
+      "ingested_at": "2026-05-07T03:09:03.215866+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-owns": {
+      "lastmod": "2023-09-07T09:29:07+00:00",
+      "ingested_at": "2026-05-07T03:09:05.235194+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/forwarded": {
+      "lastmod": "2023-09-07T09:28:00+00:00",
+      "ingested_at": "2026-05-07T03:09:06.922385+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-description": {
+      "lastmod": "2023-09-07T09:27:00+00:00",
+      "ingested_at": "2026-05-07T03:09:08.446097+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-selected": {
+      "lastmod": "2023-09-07T09:26:22+00:00",
+      "ingested_at": "2026-05-07T03:09:10.001425+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-rowspan": {
+      "lastmod": "2023-09-07T09:25:38+00:00",
+      "ingested_at": "2026-05-07T03:09:11.283592+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/sec-ch-ua-mobile": {
+      "lastmod": "2023-09-07T09:25:06+00:00",
+      "ingested_at": "2026-05-07T03:09:12.591318+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-atomic": {
+      "lastmod": "2023-09-07T09:24:51+00:00",
+      "ingested_at": "2026-05-07T03:09:13.914761+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/warning": {
+      "lastmod": "2023-09-07T09:23:38+00:00",
+      "ingested_at": "2026-05-07T03:09:15.132984+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-multiselectable": {
+      "lastmod": "2023-09-07T09:23:01+00:00",
+      "ingested_at": "2026-05-07T03:09:16.420436+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/viewport-width": {
+      "lastmod": "2023-09-07T09:22:43+00:00",
+      "ingested_at": "2026-05-07T03:09:17.629440+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/content-disposition": {
+      "lastmod": "2023-09-07T09:21:51+00:00",
+      "ingested_at": "2026-05-07T03:09:18.862413+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/sec-ch-ua": {
+      "lastmod": "2023-09-07T09:21:18+00:00",
+      "ingested_at": "2026-05-07T03:09:20.314771+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/save-data": {
+      "lastmod": "2023-09-07T09:20:56+00:00",
+      "ingested_at": "2026-05-07T03:09:21.576064+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-colcount": {
+      "lastmod": "2023-09-07T09:20:25+00:00",
+      "ingested_at": "2026-05-07T03:09:22.817334+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-brailleroledescription": {
+      "lastmod": "2023-09-07T09:19:50+00:00",
+      "ingested_at": "2026-05-07T03:09:24.066496+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-expanded": {
+      "lastmod": "2023-09-07T09:19:06+00:00",
+      "ingested_at": "2026-05-07T03:09:25.382053+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-level": {
+      "lastmod": "2023-09-07T09:18:06+00:00",
+      "ingested_at": "2026-05-07T03:09:26.758469+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-colindextext": {
+      "lastmod": "2023-09-07T09:17:26+00:00",
+      "ingested_at": "2026-05-07T03:09:28.146033+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-grabbed": {
+      "lastmod": "2023-09-07T09:16:46+00:00",
+      "ingested_at": "2026-05-07T03:09:29.493991+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-label": {
+      "lastmod": "2023-09-07T09:16:17+00:00",
+      "ingested_at": "2026-05-07T03:09:30.976875+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/downlink": {
+      "lastmod": "2023-09-07T09:08:39+00:00",
+      "ingested_at": "2026-05-07T03:09:32.566226+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-details": {
+      "lastmod": "2023-09-07T09:07:59+00:00",
+      "ingested_at": "2026-05-07T03:09:33.937181+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-rowindex": {
+      "lastmod": "2023-09-07T09:07:22+00:00",
+      "ingested_at": "2026-05-07T03:09:35.541385+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-j": {
+      "lastmod": "2023-09-07T09:04:48+00:00",
+      "ingested_at": "2026-05-07T03:09:37.227478+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-r": {
+      "lastmod": "2023-09-07T09:04:16+00:00",
+      "ingested_at": "2026-05-07T03:09:39.019802+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-o": {
+      "lastmod": "2023-09-07T09:03:40+00:00",
+      "ingested_at": "2026-05-07T03:09:41.154641+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-w": {
+      "lastmod": "2023-09-07T07:46:44+00:00",
+      "ingested_at": "2026-05-07T03:09:43.137696+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-p": {
+      "lastmod": "2023-09-07T07:45:57+00:00",
+      "ingested_at": "2026-05-07T03:09:45.117702+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-k": {
+      "lastmod": "2023-09-07T07:45:15+00:00",
+      "ingested_at": "2026-05-07T03:09:47.180485+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-n": {
+      "lastmod": "2023-09-07T07:44:44+00:00",
+      "ingested_at": "2026-05-07T03:09:49.291720+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/acute-vs-chronic": {
+      "lastmod": "2023-09-07T07:44:14+00:00",
+      "ingested_at": "2026-05-07T03:09:51.274067+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-e": {
+      "lastmod": "2023-09-07T07:43:09+00:00",
+      "ingested_at": "2026-05-07T03:09:53.282607+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-y": {
+      "lastmod": "2023-09-07T07:42:51+00:00",
+      "ingested_at": "2026-05-07T03:09:55.191619+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-v": {
+      "lastmod": "2023-09-07T07:41:55+00:00",
+      "ingested_at": "2026-05-07T03:09:57.287578+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-t": {
+      "lastmod": "2023-09-07T07:40:58+00:00",
+      "ingested_at": "2026-05-07T03:09:59.197172+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-f": {
+      "lastmod": "2023-09-07T07:39:41+00:00",
+      "ingested_at": "2026-05-07T03:10:01.315654+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/elicit-vs-illicit": {
+      "lastmod": "2023-09-07T07:39:00+00:00",
+      "ingested_at": "2026-05-07T03:10:04.277080+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/suit-vs-suite": {
+      "lastmod": "2023-09-07T07:37:38+00:00",
+      "ingested_at": "2026-05-07T03:10:06.286985+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/canvas-vs-canvass": {
+      "lastmod": "2023-09-07T07:36:32+00:00",
+      "ingested_at": "2026-05-07T03:10:08.235357+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-x": {
+      "lastmod": "2023-09-07T07:35:23+00:00",
+      "ingested_at": "2026-05-07T03:10:10.314997+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/bemused-vs-amused": {
+      "lastmod": "2023-09-07T07:34:39+00:00",
+      "ingested_at": "2026-05-07T03:10:12.335747+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-a": {
+      "lastmod": "2023-09-07T07:33:24+00:00",
+      "ingested_at": "2026-05-07T03:10:14.489020+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-c": {
+      "lastmod": "2023-09-07T07:32:18+00:00",
+      "ingested_at": "2026-05-07T03:10:16.461175+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-b": {
+      "lastmod": "2023-09-07T07:31:23+00:00",
+      "ingested_at": "2026-05-07T03:10:18.635596+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/bridal-vs-bridle": {
+      "lastmod": "2023-09-07T07:31:22+00:00",
+      "ingested_at": "2026-05-07T03:10:20.482620+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/copy-write-vs-copyright": {
+      "lastmod": "2023-09-07T07:23:37+00:00",
+      "ingested_at": "2026-05-07T03:10:22.314408+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/contingent-vs-contingency": {
+      "lastmod": "2023-09-07T07:22:12+00:00",
+      "ingested_at": "2026-05-07T03:10:24.097320+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/x-forwarded-for": {
+      "lastmod": "2023-09-07T07:19:28+00:00",
+      "ingested_at": "2026-05-07T03:10:25.943626+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-hidden": {
+      "lastmod": "2023-09-07T07:17:59+00:00",
+      "ingested_at": "2026-05-07T03:10:27.648543+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/sec-fetch-mode": {
+      "lastmod": "2023-09-07T07:16:06+00:00",
+      "ingested_at": "2026-05-07T03:10:29.381499+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/contiguous-continual-vs-continuous": {
+      "lastmod": "2023-09-07T07:15:04+00:00",
+      "ingested_at": "2026-05-07T03:10:31.165826+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/sec-fetch-user": {
+      "lastmod": "2023-09-07T07:12:25+00:00",
+      "ingested_at": "2026-05-07T03:10:32.946571+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/awaken-vs-awoken": {
+      "lastmod": "2023-09-07T07:07:02+00:00",
+      "ingested_at": "2026-05-07T03:10:34.794285+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/content-encoding": {
+      "lastmod": "2023-09-07T07:03:42+00:00",
+      "ingested_at": "2026-05-07T03:10:36.543490+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/sec-fetch-site": {
+      "lastmod": "2023-09-07T07:01:46+00:00",
+      "ingested_at": "2026-05-07T03:10:38.265083+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/cloth-clothe-clothes": {
+      "lastmod": "2023-09-07T06:57:40+00:00",
+      "ingested_at": "2026-05-07T03:10:40.137314+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/cant-vs-cant": {
+      "lastmod": "2023-09-07T06:43:16+00:00",
+      "ingested_at": "2026-05-07T03:10:41.898143+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/canonical-tag/": {
+      "lastmod": "2023-09-03T15:13:49+00:00",
+      "ingested_at": "2026-05-07T03:10:43.761784+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/podcast": {
+      "lastmod": "2023-09-01T21:28:39+00:00",
+      "ingested_at": "2026-05-07T03:10:45.563652+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/cls/": {
+      "lastmod": "2023-08-23T10:25:11+00:00",
+      "ingested_at": "2026-05-07T03:10:47.492294+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/user-retention/": {
+      "lastmod": "2023-08-23T10:19:11+00:00",
+      "ingested_at": "2026-05-07T03:10:49.327948+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/statistic/": {
+      "lastmod": "2023-08-22T15:12:51+00:00",
+      "ingested_at": "2026-05-07T03:10:51.216593+00:00"
+    },
+    "https://www.holisticseo.digital/on-page-seo/local-seo": {
+      "lastmod": "2023-08-22T12:54:12+00:00",
+      "ingested_at": "2026-05-07T03:10:53.056506+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/width": {
+      "lastmod": "2023-08-14T13:01:02+00:00",
+      "ingested_at": "2026-05-07T03:10:54.742450+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/brighton-seo": {
+      "lastmod": "2023-08-14T12:56:49+00:00",
+      "ingested_at": "2026-05-07T03:10:56.650930+00:00"
+    },
+    "https://www.holisticseo.digital/seo-research-study/saas": {
+      "lastmod": "2023-08-14T12:52:54+00:00",
+      "ingested_at": "2026-05-07T03:10:59.030179+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-l/": {
+      "lastmod": "2023-08-10T14:32:18+00:00",
+      "ingested_at": "2026-05-07T03:11:02.175922+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-z/": {
+      "lastmod": "2023-08-10T14:29:55+00:00",
+      "ingested_at": "2026-05-07T03:11:04.392143+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html-sitemap": {
+      "lastmod": "2023-08-10T14:27:18+00:00",
+      "ingested_at": "2026-05-07T03:11:06.105823+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-m": {
+      "lastmod": "2023-08-10T14:24:34+00:00",
+      "ingested_at": "2026-05-07T03:11:07.966930+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/ai-ethics-definition-how-it-works-and-its-importance/": {
+      "lastmod": "2023-08-08T13:10:16+00:00",
+      "ingested_at": "2026-05-07T03:11:09.720379+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/yea-yeah-yay": {
+      "lastmod": "2023-08-04T07:37:34+00:00",
+      "ingested_at": "2026-05-07T03:11:11.718058+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/use-vs-used": {
+      "lastmod": "2023-08-04T07:33:43+00:00",
+      "ingested_at": "2026-05-07T03:11:13.434679+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/accept-and-except": {
+      "lastmod": "2023-08-04T07:23:20+00:00",
+      "ingested_at": "2026-05-07T03:11:15.188433+00:00"
+    },
+    "https://www.holisticseo.digital/ai/machine-learning/limitation/": {
+      "lastmod": "2023-08-02T08:38:30+00:00",
+      "ingested_at": "2026-05-07T03:11:16.946695+00:00"
+    },
+    "https://www.holisticseo.digital/ai/newsletter/last-week-in-ai/": {
+      "lastmod": "2023-08-02T08:29:34+00:00",
+      "ingested_at": "2026-05-07T03:11:18.932715+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/image-sitemap/": {
+      "lastmod": "2023-07-11T21:31:13+00:00",
+      "ingested_at": "2026-05-07T03:11:20.756964+00:00"
+    },
+    "https://www.holisticseo.digital/on-page-seo/ranking-factors/": {
+      "lastmod": "2023-06-28T13:13:24+00:00",
+      "ingested_at": "2026-05-07T03:11:22.577936+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/venal-vs-venial": {
+      "lastmod": "2023-06-26T14:40:37+00:00",
+      "ingested_at": "2026-05-07T03:11:24.292381+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-i": {
+      "lastmod": "2023-06-26T14:40:16+00:00",
+      "ingested_at": "2026-05-07T03:11:26.321943+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/pored-vs-poured": {
+      "lastmod": "2023-06-26T14:39:10+00:00",
+      "ingested_at": "2026-05-07T03:11:28.053369+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/perspicuity-and-perspicacity": {
+      "lastmod": "2023-06-26T14:38:49+00:00",
+      "ingested_at": "2026-05-07T03:11:29.876287+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/happy-new-year-new-years-or-new-years-which-one-is-correct/": {
+      "lastmod": "2023-06-26T14:38:28+00:00",
+      "ingested_at": "2026-05-07T03:11:31.598754+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/since-vs-sense": {
+      "lastmod": "2023-06-26T14:38:08+00:00",
+      "ingested_at": "2026-05-07T03:11:40.553912+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/peremptory-vs-preemptive": {
+      "lastmod": "2023-06-26T14:37:49+00:00",
+      "ingested_at": "2026-05-07T03:11:41.996845+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/inherent-vs-inherit": {
+      "lastmod": "2023-06-26T14:37:28+00:00",
+      "ingested_at": "2026-05-07T03:11:43.601469+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/past-vs-passed": {
+      "lastmod": "2023-06-26T14:37:09+00:00",
+      "ingested_at": "2026-05-07T03:11:45.858949+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/perpetrate-vs-perpetuate": {
+      "lastmod": "2023-06-26T14:36:45+00:00",
+      "ingested_at": "2026-05-07T03:11:47.421801+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/overestimate-vs-underestimate": {
+      "lastmod": "2023-06-26T14:36:25+00:00",
+      "ingested_at": "2026-05-07T03:11:48.935600+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/lose-vs-loose": {
+      "lastmod": "2023-06-26T14:35:53+00:00",
+      "ingested_at": "2026-05-07T03:11:50.409546+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/militate-vs-mitigate": {
+      "lastmod": "2023-06-26T14:35:10+00:00",
+      "ingested_at": "2026-05-07T03:11:52.033849+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/jibe-vs-jive": {
+      "lastmod": "2023-06-26T14:34:40+00:00",
+      "ingested_at": "2026-05-07T03:11:53.494365+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/flack-vs-flak": {
+      "lastmod": "2023-06-26T14:33:44+00:00",
+      "ingested_at": "2026-05-07T03:11:55.210476+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/assure-ensure-insure": {
+      "lastmod": "2023-06-26T14:33:20+00:00",
+      "ingested_at": "2026-05-07T03:11:56.730058+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/disinterested-vs-uninterested": {
+      "lastmod": "2023-06-26T14:32:30+00:00",
+      "ingested_at": "2026-05-07T03:11:58.265577+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/disassemble-vs-dissemble": {
+      "lastmod": "2023-06-26T14:32:10+00:00",
+      "ingested_at": "2026-05-07T03:11:59.805161+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/buy-vs-by": {
+      "lastmod": "2023-06-26T14:31:53+00:00",
+      "ingested_at": "2026-05-07T03:12:01.280179+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/perquisite-and-prerequisite": {
+      "lastmod": "2023-06-26T14:31:25+00:00",
+      "ingested_at": "2026-05-07T03:12:02.978424+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/perspective-and-prospective": {
+      "lastmod": "2023-06-26T14:30:59+00:00",
+      "ingested_at": "2026-05-07T03:12:04.715384+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/set-vs-sit": {
+      "lastmod": "2023-06-26T14:30:35+00:00",
+      "ingested_at": "2026-05-07T03:12:06.284905+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/principle-vs-principal": {
+      "lastmod": "2023-06-26T14:30:12+00:00",
+      "ingested_at": "2026-05-07T03:12:07.781722+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/photogenic-and-photographic": {
+      "lastmod": "2023-06-26T14:29:44+00:00",
+      "ingested_at": "2026-05-07T03:12:09.290875+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/shrink-vs-shrink": {
+      "lastmod": "2023-06-26T14:22:17+00:00",
+      "ingested_at": "2026-05-07T03:12:10.878323+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/waive-vs-wave-difference-between-them-and-how-to-correctly-use-them/": {
+      "lastmod": "2023-06-26T14:20:59+00:00",
+      "ingested_at": "2026-05-07T03:12:12.395320+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/hear-vs-here": {
+      "lastmod": "2023-06-26T14:19:23+00:00",
+      "ingested_at": "2026-05-07T03:12:13.891299+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-h": {
+      "lastmod": "2023-06-26T14:13:07+00:00",
+      "ingested_at": "2026-05-07T03:12:15.673906+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-x": {
+      "lastmod": "2023-06-26T14:18:04+00:00",
+      "ingested_at": "2026-05-07T03:12:17.290792+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-y": {
+      "lastmod": "2023-06-26T14:17:24+00:00",
+      "ingested_at": "2026-05-07T03:12:19.074375+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-q": {
+      "lastmod": "2023-06-26T14:15:47+00:00",
+      "ingested_at": "2026-05-07T03:12:20.785290+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-r": {
+      "lastmod": "2023-06-26T14:14:59+00:00",
+      "ingested_at": "2026-05-07T03:12:22.503067+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-w": {
+      "lastmod": "2023-06-26T14:13:36+00:00",
+      "ingested_at": "2026-05-07T03:12:24.324620+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-v": {
+      "lastmod": "2023-06-26T14:12:22+00:00",
+      "ingested_at": "2026-05-07T03:12:26.062070+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-u": {
+      "lastmod": "2023-06-26T14:11:55+00:00",
+      "ingested_at": "2026-05-07T03:12:27.910022+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-s": {
+      "lastmod": "2023-06-26T14:11:33+00:00",
+      "ingested_at": "2026-05-07T03:12:29.707182+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-p": {
+      "lastmod": "2023-06-26T14:11:00+00:00",
+      "ingested_at": "2026-05-07T03:12:31.570084+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-n": {
+      "lastmod": "2023-06-26T14:10:01+00:00",
+      "ingested_at": "2026-05-07T03:12:33.379727+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-d": {
+      "lastmod": "2023-06-26T14:08:19+00:00",
+      "ingested_at": "2026-05-07T03:12:35.378233+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-g": {
+      "lastmod": "2023-06-26T14:07:36+00:00",
+      "ingested_at": "2026-05-07T03:12:37.116832+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-k": {
+      "lastmod": "2023-06-26T14:07:06+00:00",
+      "ingested_at": "2026-05-07T03:12:39.174171+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-b": {
+      "lastmod": "2023-06-26T14:06:27+00:00",
+      "ingested_at": "2026-05-07T03:12:40.976905+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-o": {
+      "lastmod": "2023-06-26T14:05:21+00:00",
+      "ingested_at": "2026-05-07T03:12:43.046453+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-j": {
+      "lastmod": "2023-06-26T14:03:41+00:00",
+      "ingested_at": "2026-05-07T03:12:44.686398+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-f": {
+      "lastmod": "2023-06-26T14:02:08+00:00",
+      "ingested_at": "2026-05-07T03:12:46.454219+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-e": {
+      "lastmod": "2023-06-26T14:01:23+00:00",
+      "ingested_at": "2026-05-07T03:12:48.750703+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-c": {
+      "lastmod": "2023-06-26T14:00:56+00:00",
+      "ingested_at": "2026-05-07T03:12:50.701649+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-a": {
+      "lastmod": "2023-06-26T14:00:26+00:00",
+      "ingested_at": "2026-05-07T03:12:52.761070+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/adjective/starting-with-t": {
+      "lastmod": "2023-06-26T13:56:08+00:00",
+      "ingested_at": "2026-05-07T03:12:54.645878+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-u": {
+      "lastmod": "2023-06-26T13:53:18+00:00",
+      "ingested_at": "2026-05-07T03:12:56.607044+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-s": {
+      "lastmod": "2023-06-26T13:49:41+00:00",
+      "ingested_at": "2026-05-07T03:12:58.225311+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-q": {
+      "lastmod": "2023-06-26T13:45:31+00:00",
+      "ingested_at": "2026-05-07T03:12:59.958799+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-m": {
+      "lastmod": "2023-06-26T13:41:10+00:00",
+      "ingested_at": "2026-05-07T03:13:01.804273+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-l": {
+      "lastmod": "2023-06-26T13:40:28+00:00",
+      "ingested_at": "2026-05-07T03:13:03.680021+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-i": {
+      "lastmod": "2023-06-26T13:34:45+00:00",
+      "ingested_at": "2026-05-07T03:13:05.398459+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-h": {
+      "lastmod": "2023-06-26T13:34:02+00:00",
+      "ingested_at": "2026-05-07T03:13:07.175475+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-g": {
+      "lastmod": "2023-06-26T13:31:06+00:00",
+      "ingested_at": "2026-05-07T03:13:09.072366+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/lexicography/words/starting-with-d": {
+      "lastmod": "2023-06-26T13:16:24+00:00",
+      "ingested_at": "2026-05-07T03:13:11.882121+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/allusion-vs-illusion": {
+      "lastmod": "2023-06-26T07:22:33+00:00",
+      "ingested_at": "2026-05-07T03:13:13.532992+00:00"
+    },
+    "https://www.holisticseo.digital/seo-research-study/lexical-semantics": {
+      "lastmod": "2023-06-25T16:52:32+00:00",
+      "ingested_at": "2026-05-07T03:13:16.302521+00:00"
+    },
+    "https://www.holisticseo.digital/on-page-seo/duplicate-content/": {
+      "lastmod": "2023-06-25T13:51:00+00:00",
+      "ingested_at": "2026-05-07T03:13:17.814725+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/seo-chat/": {
+      "lastmod": "2023-06-09T13:53:51+00:00",
+      "ingested_at": "2026-05-07T03:13:19.380883+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/affiliate/": {
+      "lastmod": "2023-06-07T14:38:24+00:00",
+      "ingested_at": "2026-05-07T03:13:21.114921+00:00"
+    },
+    "https://www.holisticseo.digital/seo-research-study/holistic-seo": {
+      "lastmod": "2023-05-29T11:54:02+00:00",
+      "ingested_at": "2026-05-07T03:13:23.008525+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/importance-of-lexical-semantics-and-semantic-similarity-closeness-for-seo-an-seo-case-study-with-5-websites/": {
+      "lastmod": "2023-05-17T14:26:56+00:00",
+      "ingested_at": "2026-05-07T03:13:23.800110+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/ip-address/": {
+      "lastmod": "2023-04-28T10:58:10+00:00",
+      "ingested_at": "2026-05-07T03:13:26.208040+00:00"
+    },
+    "https://www.holisticseo.digital/seo-research-study/entity-seo": {
+      "lastmod": "2023-04-16T21:32:06+00:00",
+      "ingested_at": "2026-05-07T03:13:27.762629+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/load-balancer/": {
+      "lastmod": "2023-04-05T08:32:58+00:00",
+      "ingested_at": "2026-05-07T03:13:29.216052+00:00"
+    },
+    "https://www.holisticseo.digital/seo-research-study/entity-attribute-value": {
+      "lastmod": "2023-04-01T16:08:52+00:00",
+      "ingested_at": "2026-05-07T03:13:30.833167+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/big-data/": {
+      "lastmod": "2023-03-31T10:41:16+00:00",
+      "ingested_at": "2026-05-07T03:13:32.309749+00:00"
+    },
+    "https://www.holisticseo.digital/seo-research-study/b2b": {
+      "lastmod": "2023-03-25T17:58:47+00:00",
+      "ingested_at": "2026-05-07T03:13:33.986587+00:00"
+    },
+    "https://www.holisticseo.digital/seo-research-study/entity-identity-management": {
+      "lastmod": "2023-03-24T13:44:29+00:00",
+      "ingested_at": "2026-05-07T03:13:35.567283+00:00"
+    },
+    "https://www.holisticseo.digital/user-experience/usability/": {
+      "lastmod": "2023-03-24T11:49:56+00:00",
+      "ingested_at": "2026-05-07T03:13:37.181507+00:00"
+    },
+    "https://www.holisticseo.digital/seo-research-study/exact-matching-domain": {
+      "lastmod": "2023-03-21T09:03:40+00:00",
+      "ingested_at": "2026-05-07T03:13:38.890729+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/swot/": {
+      "lastmod": "2023-03-20T10:33:36+00:00",
+      "ingested_at": "2026-05-07T03:13:40.451509+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/eye-tracking/": {
+      "lastmod": "2023-03-17T12:05:55+00:00",
+      "ingested_at": "2026-05-07T03:13:41.915394+00:00"
+    },
+    "https://www.holisticseo.digital/user-experience/dwell-time/": {
+      "lastmod": "2023-03-15T15:48:55+00:00",
+      "ingested_at": "2026-05-07T03:13:43.296020+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/cdn/": {
+      "lastmod": "2023-03-10T18:38:56+00:00",
+      "ingested_at": "2026-05-07T03:13:44.809786+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/buyer-persona/": {
+      "lastmod": "2023-02-24T12:55:07+00:00",
+      "ingested_at": "2026-05-07T03:13:46.316229+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/social-media/": {
+      "lastmod": "2023-02-16T08:25:19+00:00",
+      "ingested_at": "2026-05-07T03:13:47.917612+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/caliber-or-calibre": {
+      "lastmod": "2023-02-08T10:00:00+00:00",
+      "ingested_at": "2026-05-07T03:13:49.310751+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/humor-or-humour": {
+      "lastmod": "2023-02-08T10:00:00+00:00",
+      "ingested_at": "2026-05-07T03:13:50.827927+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/theater-or-theatre": {
+      "lastmod": "2023-02-08T10:00:00+00:00",
+      "ingested_at": "2026-05-07T03:13:52.306071+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/adverse-vs-averse": {
+      "lastmod": "2023-01-25T06:58:40+00:00",
+      "ingested_at": "2026-05-07T03:13:53.822180+00:00"
+    },
+    "https://www.holisticseo.digital/on-page-seo/thin-content/": {
+      "lastmod": "2023-01-14T13:19:05+00:00",
+      "ingested_at": "2026-05-07T03:13:55.307132+00:00"
+    },
+    "https://www.holisticseo.digital/seo-research-study/semantic-search": {
+      "lastmod": "2023-01-12T14:57:30+00:00",
+      "ingested_at": "2026-05-07T03:13:56.889079+00:00"
+    },
+    "https://www.holisticseo.digital/seo-research-study/topical-map": {
+      "lastmod": "2023-01-08T14:21:47+00:00",
+      "ingested_at": "2026-05-07T03:13:58.544896+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/pagerank/anchor-text": {
+      "lastmod": "2022-12-30T07:25:13+00:00",
+      "ingested_at": "2026-05-07T03:14:00.254747+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/referer": {
+      "lastmod": "2022-12-28T06:49:39+00:00",
+      "ingested_at": "2026-05-07T03:14:01.825768+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/server-timing": {
+      "lastmod": "2022-12-28T06:23:25+00:00",
+      "ingested_at": "2026-05-07T03:14:03.444727+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/get-got-gotten": {
+      "lastmod": "2022-12-20T22:30:26+00:00",
+      "ingested_at": "2026-05-07T03:14:04.991876+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/pagerank/": {
+      "lastmod": "2020-08-15T08:19:26+00:00",
+      "ingested_at": "2026-05-07T03:14:06.520362+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/meta-tag/base": {
+      "lastmod": "2022-12-19T00:08:06+00:00",
+      "ingested_at": "2026-05-07T03:14:08.145311+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/programming-tag/embed": {
+      "lastmod": "2022-12-16T06:27:36+00:00",
+      "ingested_at": "2026-05-07T03:14:09.621420+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/forms-and-input-tag/select": {
+      "lastmod": "2022-12-16T06:26:05+00:00",
+      "ingested_at": "2026-05-07T03:14:11.076441+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html": {
+      "lastmod": "2022-12-16T06:16:12+00:00",
+      "ingested_at": "2026-05-07T03:14:12.804829+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/applet": {
+      "lastmod": "2022-12-15T22:07:00+00:00",
+      "ingested_at": "2026-05-07T03:14:14.167370+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/s": {
+      "lastmod": "2022-12-15T22:04:44+00:00",
+      "ingested_at": "2026-05-07T03:14:15.695241+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/ruby": {
+      "lastmod": "2022-12-15T22:04:02+00:00",
+      "ingested_at": "2026-05-07T03:14:17.104733+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/style-and-semantic-tag/dialog": {
+      "lastmod": "2022-12-15T21:59:22+00:00",
+      "ingested_at": "2026-05-07T03:14:18.527925+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/images-tag/picture": {
+      "lastmod": "2022-12-15T21:49:23+00:00",
+      "ingested_at": "2026-05-07T03:14:19.933808+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/ins": {
+      "lastmod": "2022-12-15T21:48:36+00:00",
+      "ingested_at": "2026-05-07T03:14:21.432670+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/table-tag/td": {
+      "lastmod": "2022-12-15T21:39:01+00:00",
+      "ingested_at": "2026-05-07T03:14:23.010844+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/forms-and-input-tag/legend": {
+      "lastmod": "2022-12-15T21:28:18+00:00",
+      "ingested_at": "2026-05-07T03:14:24.527993+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/meter": {
+      "lastmod": "2022-12-15T21:27:26+00:00",
+      "ingested_at": "2026-05-07T03:14:25.969344+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/forms-and-input-tag/textarea": {
+      "lastmod": "2022-12-15T21:27:03+00:00",
+      "ingested_at": "2026-05-07T03:14:27.426966+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/progress": {
+      "lastmod": "2022-12-15T21:25:35+00:00",
+      "ingested_at": "2026-05-07T03:14:29.011129+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/forms-and-input-tag/optgroup": {
+      "lastmod": "2022-12-15T21:22:22+00:00",
+      "ingested_at": "2026-05-07T03:14:30.673148+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/forms-and-input-tag/button": {
+      "lastmod": "2022-12-15T21:12:13+00:00",
+      "ingested_at": "2026-05-07T03:14:32.036822+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-errormessage": {
+      "lastmod": "2022-12-15T21:09:17+00:00",
+      "ingested_at": "2026-05-07T03:14:33.500204+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/public-key-pins": {
+      "lastmod": "2022-12-15T21:01:09+00:00",
+      "ingested_at": "2026-05-07T03:14:35.083830+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/pinning/public-key-pins-report-only/": {
+      "lastmod": "2022-12-15T17:07:08+00:00",
+      "ingested_at": "2026-05-07T03:14:36.611982+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/big": {
+      "lastmod": "2022-12-15T10:54:19+00:00",
+      "ingested_at": "2026-05-07T03:14:38.303462+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/content-dpr": {
+      "lastmod": "2022-12-15T07:49:32+00:00",
+      "ingested_at": "2026-05-07T03:14:39.919914+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/images-tag/area": {
+      "lastmod": "2022-12-15T07:42:09+00:00",
+      "ingested_at": "2026-05-07T03:14:41.362275+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/images-tag/img": {
+      "lastmod": "2022-12-15T07:41:33+00:00",
+      "ingested_at": "2026-05-07T03:14:42.825940+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/style-and-semantic-tag/article": {
+      "lastmod": "2022-12-15T07:40:59+00:00",
+      "ingested_at": "2026-05-07T03:14:44.439113+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/meta-tag/meta": {
+      "lastmod": "2022-12-15T07:39:51+00:00",
+      "ingested_at": "2026-05-07T03:14:46.027094+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/meta-tag/head": {
+      "lastmod": "2022-12-15T07:39:01+00:00",
+      "ingested_at": "2026-05-07T03:14:47.514593+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/basic-tag/html": {
+      "lastmod": "2022-12-15T07:38:11+00:00",
+      "ingested_at": "2026-05-07T03:14:49.078402+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/images-tag/map": {
+      "lastmod": "2022-12-15T07:37:34+00:00",
+      "ingested_at": "2026-05-07T03:14:50.691071+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/audio-video-tag/audio": {
+      "lastmod": "2022-12-15T07:36:49+00:00",
+      "ingested_at": "2026-05-07T03:14:52.161341+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/basic-tag/body": {
+      "lastmod": "2022-12-15T07:33:49+00:00",
+      "ingested_at": "2026-05-07T03:14:53.863616+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/style-and-semantic-tag/header": {
+      "lastmod": "2022-12-15T07:33:17+00:00",
+      "ingested_at": "2026-05-07T03:14:55.412051+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/link-tag/nav": {
+      "lastmod": "2022-12-15T07:32:32+00:00",
+      "ingested_at": "2026-05-07T03:14:57.041222+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/pre": {
+      "lastmod": "2022-12-15T07:32:06+00:00",
+      "ingested_at": "2026-05-07T03:14:58.637944+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/bdi": {
+      "lastmod": "2022-12-15T07:31:30+00:00",
+      "ingested_at": "2026-05-07T03:15:00.219106+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/sup": {
+      "lastmod": "2022-12-15T07:30:56+00:00",
+      "ingested_at": "2026-05-07T03:15:02.119992+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/meta-tag/basefont": {
+      "lastmod": "2022-12-15T07:30:13+00:00",
+      "ingested_at": "2026-05-07T03:15:04.792808+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/time": {
+      "lastmod": "2022-12-15T07:28:11+00:00",
+      "ingested_at": "2026-05-07T03:15:07.016668+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/wbr": {
+      "lastmod": "2022-12-15T07:27:40+00:00",
+      "ingested_at": "2026-05-07T03:15:08.977241+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/var": {
+      "lastmod": "2022-12-15T07:27:10+00:00",
+      "ingested_at": "2026-05-07T03:15:10.784758+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/u": {
+      "lastmod": "2022-12-15T07:26:38+00:00",
+      "ingested_at": "2026-05-07T03:15:12.677489+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/sub": {
+      "lastmod": "2022-12-15T07:26:05+00:00",
+      "ingested_at": "2026-05-07T03:15:14.556234+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/strong": {
+      "lastmod": "2022-12-15T07:25:24+00:00",
+      "ingested_at": "2026-05-07T03:15:16.231464+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/style-and-semantic-tag/span": {
+      "lastmod": "2022-12-15T07:24:47+00:00",
+      "ingested_at": "2026-05-07T03:15:17.984059+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/small": {
+      "lastmod": "2022-12-15T07:23:56+00:00",
+      "ingested_at": "2026-05-07T03:15:19.642681+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/samp": {
+      "lastmod": "2022-12-15T07:01:09+00:00",
+      "ingested_at": "2026-05-07T03:15:21.435249+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/rt": {
+      "lastmod": "2022-12-15T06:59:38+00:00",
+      "ingested_at": "2026-05-07T03:15:23.159097+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/rp": {
+      "lastmod": "2022-12-15T06:59:04+00:00",
+      "ingested_at": "2026-05-07T03:15:24.844198+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/q": {
+      "lastmod": "2022-12-15T06:58:27+00:00",
+      "ingested_at": "2026-05-07T03:15:26.662187+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/mark": {
+      "lastmod": "2022-12-15T06:57:44+00:00",
+      "ingested_at": "2026-05-07T03:15:28.415638+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/i": {
+      "lastmod": "2022-12-15T06:57:12+00:00",
+      "ingested_at": "2026-05-07T03:15:30.262504+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/kbd": {
+      "lastmod": "2022-12-15T06:56:03+00:00",
+      "ingested_at": "2026-05-07T03:15:31.964619+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/dfn": {
+      "lastmod": "2022-12-15T06:55:34+00:00",
+      "ingested_at": "2026-05-07T03:15:33.613114+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/em": {
+      "lastmod": "2022-12-15T06:55:00+00:00",
+      "ingested_at": "2026-05-07T03:15:35.320329+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/style-and-semantic-tag/data": {
+      "lastmod": "2022-12-15T06:54:29+00:00",
+      "ingested_at": "2026-05-07T03:15:37.067261+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/code": {
+      "lastmod": "2022-12-15T06:54:00+00:00",
+      "ingested_at": "2026-05-07T03:15:38.871245+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/cite": {
+      "lastmod": "2022-12-15T06:53:33+00:00",
+      "ingested_at": "2026-05-07T03:15:40.527876+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/basic-tag/br": {
+      "lastmod": "2022-12-15T06:53:06+00:00",
+      "ingested_at": "2026-05-07T03:15:42.295710+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/style-and-semantic-tag/footer": {
+      "lastmod": "2022-12-15T06:52:29+00:00",
+      "ingested_at": "2026-05-07T03:15:44.043629+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/list-tag/dd": {
+      "lastmod": "2022-12-15T06:51:02+00:00",
+      "ingested_at": "2026-05-07T03:15:45.721561+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/basic-tag/title": {
+      "lastmod": "2022-12-15T06:50:19+00:00",
+      "ingested_at": "2026-05-07T03:15:47.490079+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/template": {
+      "lastmod": "2022-12-15T06:47:04+00:00",
+      "ingested_at": "2026-05-07T03:15:49.065553+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/audio-video-tag/track": {
+      "lastmod": "2022-12-15T06:46:21+00:00",
+      "ingested_at": "2026-05-07T03:15:50.559886+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/images-tag/svg": {
+      "lastmod": "2022-12-15T06:45:00+00:00",
+      "ingested_at": "2026-05-07T03:15:51.939944+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/programming-tag/noscript": {
+      "lastmod": "2022-12-15T06:43:54+00:00",
+      "ingested_at": "2026-05-07T03:15:53.352052+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/images-tag/canvas": {
+      "lastmod": "2022-12-15T06:42:55+00:00",
+      "ingested_at": "2026-05-07T03:15:54.824375+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/programming-tag/script": {
+      "lastmod": "2022-12-15T06:41:40+00:00",
+      "ingested_at": "2026-05-07T03:15:56.198272+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/del": {
+      "lastmod": "2022-12-15T06:41:00+00:00",
+      "ingested_at": "2026-05-07T03:15:57.545435+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/style-and-semantic-tag/summary": {
+      "lastmod": "2022-12-15T06:40:02+00:00",
+      "ingested_at": "2026-05-07T03:15:59.020306+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/b": {
+      "lastmod": "2022-12-15T06:36:42+00:00",
+      "ingested_at": "2026-05-07T03:16:00.745281+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/abbr": {
+      "lastmod": "2022-12-15T06:36:09+00:00",
+      "ingested_at": "2026-05-07T03:16:02.508933+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/list-tag/ul": {
+      "lastmod": "2022-12-15T06:34:44+00:00",
+      "ingested_at": "2026-05-07T03:16:03.972166+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/programming-tag/param": {
+      "lastmod": "2022-12-15T06:32:38+00:00",
+      "ingested_at": "2026-05-07T03:16:05.692942+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/link-tag/link": {
+      "lastmod": "2022-12-15T06:24:48+00:00",
+      "ingested_at": "2026-05-07T03:16:07.100634+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/frame-tag/iframe": {
+      "lastmod": "2022-12-15T06:24:14+00:00",
+      "ingested_at": "2026-05-07T03:16:08.516465+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/bdo": {
+      "lastmod": "2022-12-15T06:23:40+00:00",
+      "ingested_at": "2026-05-07T03:16:10.122679+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/link-tag/a": {
+      "lastmod": "2022-12-15T06:22:58+00:00",
+      "ingested_at": "2026-05-07T03:16:11.522599+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/basic-tag/p": {
+      "lastmod": "2022-12-15T06:22:09+00:00",
+      "ingested_at": "2026-05-07T03:16:12.948422+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/images-tag/figure": {
+      "lastmod": "2022-12-15T06:21:44+00:00",
+      "ingested_at": "2026-05-07T03:16:14.322103+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/list-tag/ol": {
+      "lastmod": "2022-12-15T06:20:57+00:00",
+      "ingested_at": "2026-05-07T03:16:15.712216+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/list-tag/li": {
+      "lastmod": "2022-12-15T06:20:25+00:00",
+      "ingested_at": "2026-05-07T03:16:17.178290+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/images-tag/figcaption": {
+      "lastmod": "2022-12-15T06:20:00+00:00",
+      "ingested_at": "2026-05-07T03:16:18.507527+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/list-tag/dl": {
+      "lastmod": "2022-12-15T06:19:06+00:00",
+      "ingested_at": "2026-05-07T03:16:20.018232+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/list-tag/dt": {
+      "lastmod": "2022-12-15T06:18:34+00:00",
+      "ingested_at": "2026-05-07T03:16:21.411954+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/style-and-semantic-tag/div": {
+      "lastmod": "2022-12-15T06:18:00+00:00",
+      "ingested_at": "2026-05-07T03:16:22.898960+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/blockquote": {
+      "lastmod": "2022-12-15T06:17:25+00:00",
+      "ingested_at": "2026-05-07T03:16:24.440347+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/style-and-semantic-tag/main": {
+      "lastmod": "2022-12-15T06:16:44+00:00",
+      "ingested_at": "2026-05-07T03:16:25.770331+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/style-and-semantic-tag/aside": {
+      "lastmod": "2022-12-15T06:16:10+00:00",
+      "ingested_at": "2026-05-07T03:16:27.153834+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/basic-tag/hr": {
+      "lastmod": "2022-12-15T06:14:58+00:00",
+      "ingested_at": "2026-05-07T03:16:28.592338+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/style-and-semantic-tag/section": {
+      "lastmod": "2022-12-15T06:13:54+00:00",
+      "ingested_at": "2026-05-07T03:16:30.013053+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/audio-video-tag/video": {
+      "lastmod": "2022-12-15T06:12:39+00:00",
+      "ingested_at": "2026-05-07T03:16:31.550110+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/programming-tag/object": {
+      "lastmod": "2022-12-15T06:11:45+00:00",
+      "ingested_at": "2026-05-07T03:16:32.998939+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/table-tag/caption": {
+      "lastmod": "2022-12-15T06:08:57+00:00",
+      "ingested_at": "2026-05-07T03:16:34.501457+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/table-tag/col": {
+      "lastmod": "2022-12-15T06:07:40+00:00",
+      "ingested_at": "2026-05-07T03:16:35.847153+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/table-tag/colgroup": {
+      "lastmod": "2022-12-15T06:06:48+00:00",
+      "ingested_at": "2026-05-07T03:16:37.213963+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/table-tag/tfoot": {
+      "lastmod": "2022-12-15T06:04:51+00:00",
+      "ingested_at": "2026-05-07T03:16:38.780378+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/table-tag/thead": {
+      "lastmod": "2022-12-15T06:03:32+00:00",
+      "ingested_at": "2026-05-07T03:16:40.130388+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/table-tag/tr": {
+      "lastmod": "2022-12-15T06:02:56+00:00",
+      "ingested_at": "2026-05-07T03:16:41.552224+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/forms-and-input-tag/datalist": {
+      "lastmod": "2022-12-15T06:00:46+00:00",
+      "ingested_at": "2026-05-07T03:16:42.986172+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/forms-and-input-tag/fieldset": {
+      "lastmod": "2022-12-15T05:59:31+00:00",
+      "ingested_at": "2026-05-07T03:16:44.402760+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/tt": {
+      "lastmod": "2022-12-15T05:58:50+00:00",
+      "ingested_at": "2026-05-07T03:16:45.926545+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/address": {
+      "lastmod": "2022-12-15T05:58:05+00:00",
+      "ingested_at": "2026-05-07T03:16:47.317127+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/forms-and-input-tag/label": {
+      "lastmod": "2022-12-15T05:57:28+00:00",
+      "ingested_at": "2026-05-07T03:16:48.787536+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/audio-video-tag/source": {
+      "lastmod": "2022-12-15T05:56:53+00:00",
+      "ingested_at": "2026-05-07T03:16:50.238781+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/forms-and-input-tag/input": {
+      "lastmod": "2022-12-15T05:56:11+00:00",
+      "ingested_at": "2026-05-07T03:16:51.652527+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/forms-and-input-tag/form": {
+      "lastmod": "2022-12-15T05:52:39+00:00",
+      "ingested_at": "2026-05-07T03:16:53.174680+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/style-and-semantic-tag/details": {
+      "lastmod": "2022-12-15T05:51:30+00:00",
+      "ingested_at": "2026-05-07T03:16:54.693645+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/acronym": {
+      "lastmod": "2022-12-15T05:50:53+00:00",
+      "ingested_at": "2026-05-07T03:16:56.136437+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/frame-tag/frame": {
+      "lastmod": "2022-12-15T05:50:22+00:00",
+      "ingested_at": "2026-05-07T03:16:57.568101+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/frame-tag/frameset": {
+      "lastmod": "2022-12-15T05:49:26+00:00",
+      "ingested_at": "2026-05-07T03:16:58.942762+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/center": {
+      "lastmod": "2022-12-15T05:48:52+00:00",
+      "ingested_at": "2026-05-07T03:17:00.560858+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/frame-tag/noframes": {
+      "lastmod": "2022-12-15T05:46:41+00:00",
+      "ingested_at": "2026-05-07T03:17:02.212979+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/strike": {
+      "lastmod": "2022-12-15T05:45:14+00:00",
+      "ingested_at": "2026-05-07T03:17:03.795690+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/list-tag/dir": {
+      "lastmod": "2022-12-15T05:44:12+00:00",
+      "ingested_at": "2026-05-07T03:17:05.337339+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/audio-video-tag/bgsound": {
+      "lastmod": "2022-12-15T05:41:51+00:00",
+      "ingested_at": "2026-05-07T03:17:06.775118+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/table-tag/th": {
+      "lastmod": "2022-12-15T05:40:39+00:00",
+      "ingested_at": "2026-05-07T03:17:08.380079+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/formatting-tag/font": {
+      "lastmod": "2022-12-15T05:39:30+00:00",
+      "ingested_at": "2026-05-07T03:17:09.747209+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/ariahaspopup": {
+      "lastmod": "2022-12-15T04:50:04+00:00",
+      "ingested_at": "2026-05-07T03:17:11.490167+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-keyshortcuts": {
+      "lastmod": "2022-12-15T04:19:20+00:00",
+      "ingested_at": "2026-05-07T03:17:12.962187+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-orientation": {
+      "lastmod": "2022-12-15T04:09:08+00:00",
+      "ingested_at": "2026-05-07T03:17:14.370235+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-rowindextext": {
+      "lastmod": "2022-12-15T03:54:32+00:00",
+      "ingested_at": "2026-05-07T03:17:15.955838+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/aria-readonly": {
+      "lastmod": "2022-12-15T03:43:46+00:00",
+      "ingested_at": "2026-05-07T03:17:17.385626+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/adjectives": {
+      "lastmod": "2022-12-14T12:31:44+00:00",
+      "ingested_at": "2026-05-07T03:17:19.168405+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/beck-and-call-or-beckon-call": {
+      "lastmod": "2022-12-14T12:26:14+00:00",
+      "ingested_at": "2026-05-07T03:17:20.646322+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/misspel-mispell": {
+      "lastmod": "2022-12-14T12:21:24+00:00",
+      "ingested_at": "2026-05-07T03:17:22.109802+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/busses-buses": {
+      "lastmod": "2022-12-14T12:14:48+00:00",
+      "ingested_at": "2026-05-07T03:17:23.708289+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/while-vs-whilst": {
+      "lastmod": "2022-12-14T12:09:50+00:00",
+      "ingested_at": "2026-05-07T03:17:25.224657+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/bear-with-me-vs-bare-with-me": {
+      "lastmod": "2022-12-14T12:06:59+00:00",
+      "ingested_at": "2026-05-07T03:17:26.585617+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/until-till-til": {
+      "lastmod": "2022-12-14T08:49:03+00:00",
+      "ingested_at": "2026-05-07T03:17:28.091399+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/surprise-suprise-surprize": {
+      "lastmod": "2022-12-14T04:59:26+00:00",
+      "ingested_at": "2026-05-07T03:17:29.588822+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/occured-ocurred-occurred": {
+      "lastmod": "2022-12-14T04:57:27+00:00",
+      "ingested_at": "2026-05-07T03:17:31.159089+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/gist-jist": {
+      "lastmod": "2022-12-14T04:56:37+00:00",
+      "ingested_at": "2026-05-07T03:17:32.549682+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/bingeing-binging": {
+      "lastmod": "2022-12-14T04:54:36+00:00",
+      "ingested_at": "2026-05-07T03:17:33.908978+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/truly-truely": {
+      "lastmod": "2022-12-14T04:49:15+00:00",
+      "ingested_at": "2026-05-07T03:17:35.087495+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/grey-or-gray": {
+      "lastmod": "2022-12-13T22:41:26+00:00",
+      "ingested_at": "2026-05-07T03:17:36.488954+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-codes/": {
+      "lastmod": "2022-12-13T22:38:45+00:00",
+      "ingested_at": "2026-05-07T03:17:38.080906+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/trust-elements/": {
+      "lastmod": "2022-12-13T22:36:57+00:00",
+      "ingested_at": "2026-05-07T03:17:39.307594+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/banner-blindness/": {
+      "lastmod": "2022-12-13T22:29:44+00:00",
+      "ingested_at": "2026-05-07T03:17:41.486320+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/jpg-png-difference/": {
+      "lastmod": "2022-12-13T22:19:15+00:00",
+      "ingested_at": "2026-05-07T03:17:42.601289+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/jpeg/": {
+      "lastmod": "2022-12-13T22:08:42+00:00",
+      "ingested_at": "2026-05-07T03:17:43.763909+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/stop-words": {
+      "lastmod": "2022-12-13T11:32:21+00:00",
+      "ingested_at": "2026-05-07T03:17:45.836405+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/difficult-words": {
+      "lastmod": "2022-12-12T04:40:03+00:00",
+      "ingested_at": "2026-05-07T03:17:47.102274+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-word": {
+      "lastmod": "2022-12-12T04:13:51+00:00",
+      "ingested_at": "2026-05-07T03:17:48.822632+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/seperate-or-separate": {
+      "lastmod": "2022-12-09T08:17:26+00:00",
+      "ingested_at": "2026-05-07T03:17:50.052437+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/wether-weather-whether": {
+      "lastmod": "2022-12-09T08:14:35+00:00",
+      "ingested_at": "2026-05-07T03:17:51.212731+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/are-and-our": {
+      "lastmod": "2022-12-09T08:14:01+00:00",
+      "ingested_at": "2026-05-07T03:17:52.420795+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/aisle-and-isle": {
+      "lastmod": "2022-12-05T08:12:39+00:00",
+      "ingested_at": "2026-05-07T03:17:53.636134+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/black-hat": {
+      "lastmod": "2022-12-05T07:13:10+00:00",
+      "ingested_at": "2026-05-07T03:17:54.931091+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/pagerank/google-matrix": {
+      "lastmod": "2022-12-05T07:11:01+00:00",
+      "ingested_at": "2026-05-07T03:17:56.099681+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/hope-you-are-well": {
+      "lastmod": "2022-12-05T07:10:57+00:00",
+      "ingested_at": "2026-05-07T03:17:57.272438+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/abbreviation/lul": {
+      "lastmod": "2022-12-05T07:10:52+00:00",
+      "ingested_at": "2026-05-07T03:17:58.650878+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/abbreviation/lol": {
+      "lastmod": "2022-12-05T07:10:50+00:00",
+      "ingested_at": "2026-05-07T03:17:59.831063+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/mustache-moustache": {
+      "lastmod": "2022-12-05T07:10:48+00:00",
+      "ingested_at": "2026-05-07T03:18:01.218015+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/its-vs-its": {
+      "lastmod": "2022-12-05T07:10:43+00:00",
+      "ingested_at": "2026-05-07T03:18:02.787025+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/photoshoot-or-photo-shoot": {
+      "lastmod": "2022-12-05T07:10:40+00:00",
+      "ingested_at": "2026-05-07T03:18:04.016619+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/cancelled-or-canceled": {
+      "lastmod": "2022-12-05T07:10:32+00:00",
+      "ingested_at": "2026-05-07T03:18:05.304755+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/among-vs-amongsts": {
+      "lastmod": "2022-12-05T07:10:29+00:00",
+      "ingested_at": "2026-05-07T03:18:06.590558+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/idk-meaning": {
+      "lastmod": "2022-12-05T07:09:36+00:00",
+      "ingested_at": "2026-05-07T03:18:07.772940+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/breath-vs-breathe": {
+      "lastmod": "2022-12-05T07:09:34+00:00",
+      "ingested_at": "2026-05-07T03:18:08.928863+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/ax-or-axe": {
+      "lastmod": "2022-12-05T07:09:32+00:00",
+      "ingested_at": "2026-05-07T03:18:10.151027+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/affect-and-effect": {
+      "lastmod": "2022-12-05T07:08:55+00:00",
+      "ingested_at": "2026-05-07T03:18:12.460443+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/into-vs-in-to": {
+      "lastmod": "2022-12-05T07:08:51+00:00",
+      "ingested_at": "2026-05-07T03:18:13.628469+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/advice-vs-advise": {
+      "lastmod": "2022-12-05T07:08:50+00:00",
+      "ingested_at": "2026-05-07T03:18:14.833625+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/further-vs-farther": {
+      "lastmod": "2022-12-05T07:08:47+00:00",
+      "ingested_at": "2026-05-07T03:18:16.121832+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/born-and-borne": {
+      "lastmod": "2022-12-05T07:08:45+00:00",
+      "ingested_at": "2026-05-07T03:18:17.301599+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/afk-meaning": {
+      "lastmod": "2022-12-05T07:08:41+00:00",
+      "ingested_at": "2026-05-07T03:18:18.607731+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/was-vs-were": {
+      "lastmod": "2022-12-05T07:08:39+00:00",
+      "ingested_at": "2026-05-07T03:18:19.867097+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/who-or-whom": {
+      "lastmod": "2022-12-05T07:08:38+00:00",
+      "ingested_at": "2026-05-07T03:18:21.089102+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/blond-vs-blonde": {
+      "lastmod": "2022-12-05T07:08:30+00:00",
+      "ingested_at": "2026-05-07T03:18:22.356171+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/learnt-vs-learned": {
+      "lastmod": "2022-12-05T07:08:27+00:00",
+      "ingested_at": "2026-05-07T03:18:23.635164+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/sympathy-vs-empathy": {
+      "lastmod": "2022-12-05T07:08:21+00:00",
+      "ingested_at": "2026-05-07T03:18:25.294406+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/purposely-purposefully": {
+      "lastmod": "2022-12-05T07:07:05+00:00",
+      "ingested_at": "2026-05-07T03:18:26.635730+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/dragged-drug": {
+      "lastmod": "2022-12-05T07:06:53+00:00",
+      "ingested_at": "2026-05-07T03:18:27.923766+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/abbreviation/ps": {
+      "lastmod": "2022-12-05T07:06:46+00:00",
+      "ingested_at": "2026-05-07T03:18:29.217305+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/verb": {
+      "lastmod": "2022-12-05T07:06:43+00:00",
+      "ingested_at": "2026-05-07T03:18:30.911805+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing": {
+      "lastmod": "2022-12-05T07:06:39+00:00",
+      "ingested_at": "2026-05-07T03:18:32.407998+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/linking-verb": {
+      "lastmod": "2022-12-05T07:06:27+00:00",
+      "ingested_at": "2026-05-07T03:18:33.727584+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/happy-belated-birthday": {
+      "lastmod": "2022-12-05T07:06:24+00:00",
+      "ingested_at": "2026-05-07T03:18:35.121217+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/pagerank/link-farm": {
+      "lastmod": "2022-12-05T07:06:21+00:00",
+      "ingested_at": "2026-05-07T03:18:36.367388+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/a-lot-and-allot": {
+      "lastmod": "2022-12-05T07:05:36+00:00",
+      "ingested_at": "2026-05-07T03:18:37.610444+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/possum-vs-opossum": {
+      "lastmod": "2022-12-05T07:05:34+00:00",
+      "ingested_at": "2026-05-07T03:18:38.939425+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/simile-vs-metaphor": {
+      "lastmod": "2022-12-05T07:05:32+00:00",
+      "ingested_at": "2026-05-07T03:18:40.169243+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/to-vs-too": {
+      "lastmod": "2022-12-05T07:05:30+00:00",
+      "ingested_at": "2026-05-07T03:18:41.401729+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/hypen-vs-dash": {
+      "lastmod": "2022-12-05T07:05:23+00:00",
+      "ingested_at": "2026-05-07T03:18:42.633587+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/center-centre": {
+      "lastmod": "2022-12-05T07:05:21+00:00",
+      "ingested_at": "2026-05-07T03:18:43.880399+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/payed-paid": {
+      "lastmod": "2022-12-05T07:05:20+00:00",
+      "ingested_at": "2026-05-07T03:18:45.237367+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/colour-color": {
+      "lastmod": "2022-12-05T07:05:18+00:00",
+      "ingested_at": "2026-05-07T03:18:46.555356+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/labeled-labelled": {
+      "lastmod": "2022-12-05T07:05:16+00:00",
+      "ingested_at": "2026-05-07T03:18:47.767416+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/toward-vs-towards": {
+      "lastmod": "2022-12-05T07:05:14+00:00",
+      "ingested_at": "2026-05-07T03:18:49.036559+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/judgement-judgment": {
+      "lastmod": "2022-12-05T07:05:10+00:00",
+      "ingested_at": "2026-05-07T03:18:50.209171+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/abbreviation/lmao": {
+      "lastmod": "2022-12-05T07:03:59+00:00",
+      "ingested_at": "2026-05-07T03:18:51.502481+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/abbreviation/lulz": {
+      "lastmod": "2022-12-05T07:03:58+00:00",
+      "ingested_at": "2026-05-07T03:18:52.672461+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/abbreviation/lolz": {
+      "lastmod": "2022-12-05T07:03:55+00:00",
+      "ingested_at": "2026-05-07T03:18:53.819606+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/best-regards": {
+      "lastmod": "2022-12-05T07:03:53+00:00",
+      "ingested_at": "2026-05-07T03:18:55.017900+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/abbreviation/roflcopter": {
+      "lastmod": "2022-12-05T07:03:40+00:00",
+      "ingested_at": "2026-05-07T03:18:56.224851+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/abbreviation/pmsl": {
+      "lastmod": "2022-12-05T07:03:38+00:00",
+      "ingested_at": "2026-05-07T03:18:57.534671+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/anytime-vs-any-time": {
+      "lastmod": "2022-12-05T07:03:07+00:00",
+      "ingested_at": "2026-05-07T03:18:58.701985+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/abbreviation/rofl": {
+      "lastmod": "2022-12-05T07:03:07+00:00",
+      "ingested_at": "2026-05-07T03:18:59.841970+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/appraise-and-apprise": {
+      "lastmod": "2022-12-05T07:03:05+00:00",
+      "ingested_at": "2026-05-07T03:19:01.121606+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/noone-or-no-one": {
+      "lastmod": "2022-12-05T07:02:17+00:00",
+      "ingested_at": "2026-05-07T03:19:02.495567+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-writing/confused-words/ascent-and-assent": {
+      "lastmod": "2022-12-05T07:02:01+00:00",
+      "ingested_at": "2026-05-07T03:19:04.031703+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/topical-authority/": {
+      "lastmod": "2022-11-24T10:08:02+00:00",
+      "ingested_at": "2026-05-07T03:19:05.728761+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/x-default/": {
+      "lastmod": "2022-11-18T20:48:58+00:00",
+      "ingested_at": "2026-05-07T03:19:06.928855+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/robots-txt/": {
+      "lastmod": "2022-11-12T14:30:06+00:00",
+      "ingested_at": "2026-05-07T03:19:08.089884+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/418/": {
+      "lastmod": "2022-11-08T08:47:31+00:00",
+      "ingested_at": "2026-05-07T03:19:09.271941+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/419/": {
+      "lastmod": "2022-11-03T09:22:06+00:00",
+      "ingested_at": "2026-05-07T03:19:10.571536+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/topic-modeling/": {
+      "lastmod": "2022-10-17T14:03:36+00:00",
+      "ingested_at": "2026-05-07T03:19:11.871209+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/hummingbird/": {
+      "lastmod": "2022-10-14T19:24:45+00:00",
+      "ingested_at": "2026-05-07T03:19:13.023179+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/dns-reverse-lookup/": {
+      "lastmod": "2022-10-11T21:00:55+00:00",
+      "ingested_at": "2026-05-07T03:19:14.103874+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/categorize-url-parameter/": {
+      "lastmod": "2022-10-09T10:45:45+00:00",
+      "ingested_at": "2026-05-07T03:19:15.231725+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/verify-test-robots-txt-file/": {
+      "lastmod": "2022-10-06T23:02:40+00:00",
+      "ingested_at": "2026-05-07T03:19:16.437638+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/nel": {
+      "lastmod": "2022-09-30T06:03:11+00:00",
+      "ingested_at": "2026-05-07T03:19:17.641245+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/sec-fetch-dest": {
+      "lastmod": "2022-09-30T05:31:05+00:00",
+      "ingested_at": "2026-05-07T03:19:18.795687+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/sec-ch-ua-platform-version": {
+      "lastmod": "2022-09-29T22:27:48+00:00",
+      "ingested_at": "2026-05-07T03:19:20.035626+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/ctr/": {
+      "lastmod": "2022-09-29T11:14:14+00:00",
+      "ingested_at": "2026-05-07T03:19:21.280098+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/if-match": {
+      "lastmod": "2022-09-29T02:25:16+00:00",
+      "ingested_at": "2026-05-07T03:19:22.656044+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/location": {
+      "lastmod": "2022-09-29T02:15:28+00:00",
+      "ingested_at": "2026-05-07T03:19:24.006906+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/sec-ch-ua-bitness": {
+      "lastmod": "2022-09-29T02:08:34+00:00",
+      "ingested_at": "2026-05-07T03:19:25.487869+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/host": {
+      "lastmod": "2022-09-29T02:00:06+00:00",
+      "ingested_at": "2026-05-07T03:19:26.773024+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/early-data": {
+      "lastmod": "2022-09-29T01:06:22+00:00",
+      "ingested_at": "2026-05-07T03:19:27.909914+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/retry-after": {
+      "lastmod": "2022-09-28T16:39:49+00:00",
+      "ingested_at": "2026-05-07T03:19:29.253562+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/content-language": {
+      "lastmod": "2022-09-28T16:06:11+00:00",
+      "ingested_at": "2026-05-07T03:19:30.416688+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/sourcemap": {
+      "lastmod": "2022-09-28T15:50:35+00:00",
+      "ingested_at": "2026-05-07T03:19:31.620631+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/dnt": {
+      "lastmod": "2022-09-28T07:54:27+00:00",
+      "ingested_at": "2026-05-07T03:19:32.892659+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/link": {
+      "lastmod": "2022-09-28T07:18:19+00:00",
+      "ingested_at": "2026-05-07T03:19:34.134243+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/x-frame-options": {
+      "lastmod": "2022-09-28T06:51:17+00:00",
+      "ingested_at": "2026-05-07T03:19:35.629937+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/user-agent": {
+      "lastmod": "2022-09-28T06:08:47+00:00",
+      "ingested_at": "2026-05-07T03:19:37.022256+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/cookies2": {
+      "lastmod": "2022-09-28T05:23:41+00:00",
+      "ingested_at": "2026-05-07T03:19:38.558082+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/digest": {
+      "lastmod": "2022-09-28T05:08:26+00:00",
+      "ingested_at": "2026-05-07T03:19:40.160972+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/date": {
+      "lastmod": "2022-09-28T04:56:21+00:00",
+      "ingested_at": "2026-05-07T03:19:41.576377+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/sec-websocket-accept": {
+      "lastmod": "2022-09-28T01:48:10+00:00",
+      "ingested_at": "2026-05-07T03:19:43.068927+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/age": {
+      "lastmod": "2022-09-28T01:32:46+00:00",
+      "ingested_at": "2026-05-07T03:19:44.399220+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/x-dns-prefetch-control": {
+      "lastmod": "2022-09-27T15:20:22+00:00",
+      "ingested_at": "2026-05-07T03:19:45.766638+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-accessibility/http-header/clear-site-data": {
+      "lastmod": "2022-09-27T15:04:13+00:00",
+      "ingested_at": "2026-05-07T03:19:47.160621+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/want-digest-syntax-directive-examples/": {
+      "lastmod": "2022-09-25T15:39:31+00:00",
+      "ingested_at": "2026-05-07T03:19:48.585682+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/accept-post-syntax-directive-examples/": {
+      "lastmod": "2022-09-25T15:24:25+00:00",
+      "ingested_at": "2026-05-07T03:19:50.466657+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/what-is-curl-how-to-use-curl-curl-and-libcurl-guide/": {
+      "lastmod": "2022-09-25T15:21:46+00:00",
+      "ingested_at": "2026-05-07T03:19:52.206629+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/xml-sitemap/": {
+      "lastmod": "2022-09-22T18:30:12+00:00",
+      "ingested_at": "2026-05-07T03:19:53.995904+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/summarize/": {
+      "lastmod": "2022-09-11T22:58:10+00:00",
+      "ingested_at": "2026-05-07T03:19:55.766779+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/guerilla-marketing/": {
+      "lastmod": "2022-08-30T07:49:02+00:00",
+      "ingested_at": "2026-05-07T03:19:57.407587+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/hidden-content/": {
+      "lastmod": "2022-08-30T07:45:13+00:00",
+      "ingested_at": "2026-05-07T03:19:59.220927+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/gif/": {
+      "lastmod": "2022-08-30T07:43:19+00:00",
+      "ingested_at": "2026-05-07T03:20:01.011239+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/roce/": {
+      "lastmod": "2022-08-30T07:39:15+00:00",
+      "ingested_at": "2026-05-07T03:20:03.876643+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/keyword-stuffing/": {
+      "lastmod": "2022-08-30T07:27:56+00:00",
+      "ingested_at": "2026-05-07T03:20:06.970587+00:00"
+    },
+    "https://www.holisticseo.digital/review/oncrawl/": {
+      "lastmod": "2022-07-20T16:55:51+00:00",
+      "ingested_at": "2026-05-07T03:20:09.628570+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/google-trends/": {
+      "lastmod": "2022-07-20T16:42:03+00:00",
+      "ingested_at": "2026-05-07T03:20:11.672220+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/google-dance/": {
+      "lastmod": "2022-07-04T08:41:23+00:00",
+      "ingested_at": "2026-05-07T03:20:13.564777+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/glossary/keyword-difficulty": {
+      "lastmod": "2022-06-29T11:04:09+00:00",
+      "ingested_at": "2026-05-07T03:20:15.545752+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/glossary/keyword-search-volume": {
+      "lastmod": "2022-06-29T10:59:19+00:00",
+      "ingested_at": "2026-05-07T03:20:17.359263+00:00"
+    },
+    "https://www.holisticseo.digital/on-page-seo/evergreen-content/": {
+      "lastmod": "2022-06-25T17:10:57+00:00",
+      "ingested_at": "2026-05-07T03:20:19.060166+00:00"
+    },
+    "https://www.holisticseo.digital/on-page-seo/keyword/": {
+      "lastmod": "2022-06-25T16:55:51+00:00",
+      "ingested_at": "2026-05-07T03:20:21.099964+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/semantic-search/": {
+      "lastmod": "2022-06-23T07:20:37+00:00",
+      "ingested_at": "2026-05-07T03:20:22.898810+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/dns-lookup/": {
+      "lastmod": "2022-06-23T07:09:10+00:00",
+      "ingested_at": "2026-05-07T03:20:24.516072+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/crawl-analyse-website/": {
+      "lastmod": "2022-06-16T09:48:59+00:00",
+      "ingested_at": "2026-05-07T03:20:26.401797+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/broser-hints/preload/": {
+      "lastmod": "2022-06-09T13:05:45+00:00",
+      "ingested_at": "2026-05-07T03:20:28.158767+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/tk-syntax-directive-examples/": {
+      "lastmod": "2022-06-08T08:33:02+00:00",
+      "ingested_at": "2026-05-07T03:20:30.028191+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/response/security/": {
+      "lastmod": "2022-06-08T08:08:01+00:00",
+      "ingested_at": "2026-05-07T03:20:31.833697+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/last-modified/": {
+      "lastmod": "2022-06-08T07:41:34+00:00",
+      "ingested_at": "2026-05-07T03:20:33.646245+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/expires/": {
+      "lastmod": "2022-06-08T07:28:07+00:00",
+      "ingested_at": "2026-05-07T03:20:35.330598+00:00"
+    },
+    "https://www.holisticseo.digital/on-page-seo/writing-tips-for-seo": {
+      "lastmod": "2022-05-31T21:31:55+00:00",
+      "ingested_at": "2026-05-07T03:20:37.221304+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/google-author": {
+      "lastmod": "2022-05-31T16:47:10+00:00",
+      "ingested_at": "2026-05-07T03:20:39.447190+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/response/security/hsts/missing-from-web-server": {
+      "lastmod": "2022-05-29T22:56:49+00:00",
+      "ingested_at": "2026-05-07T03:20:41.119497+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/bill-slawski": {
+      "lastmod": "2022-05-27T20:41:29+00:00",
+      "ingested_at": "2026-05-07T03:20:42.862463+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/knowledge-graph/": {
+      "lastmod": "2022-05-27T18:13:43+00:00",
+      "ingested_at": "2026-05-07T03:20:44.792145+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/multilingual-seo/": {
+      "lastmod": "2022-05-26T23:27:54+00:00",
+      "ingested_at": "2026-05-07T03:20:46.832152+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/absolute-relative-url": {
+      "lastmod": "2022-05-24T22:44:49+00:00",
+      "ingested_at": "2026-05-07T03:20:48.675065+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/proxy-server/": {
+      "lastmod": "2022-05-10T19:32:26+00:00",
+      "ingested_at": "2026-05-07T03:20:50.436382+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-security/protocol-relative-url": {
+      "lastmod": "2022-05-08T11:31:18+00:00",
+      "ingested_at": "2026-05-07T03:20:52.175004+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/roi/": {
+      "lastmod": "2022-05-01T10:30:29+00:00",
+      "ingested_at": "2026-05-07T03:20:53.815526+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/authentication/proxy-authenticate/": {
+      "lastmod": "2022-05-01T10:14:28+00:00",
+      "ingested_at": "2026-05-07T03:20:55.996900+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/300s/308/": {
+      "lastmod": "2022-04-23T19:08:12+00:00",
+      "ingested_at": "2026-05-07T03:20:57.886194+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/300s/300/": {
+      "lastmod": "2022-04-23T19:06:50+00:00",
+      "ingested_at": "2026-05-07T03:20:59.675812+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/407/": {
+      "lastmod": "2022-04-20T13:56:24+00:00",
+      "ingested_at": "2026-05-07T03:21:01.561392+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/": {
+      "lastmod": "2022-04-20T13:38:15+00:00",
+      "ingested_at": "2026-05-07T03:21:03.635713+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/nltk/tokenization": {
+      "lastmod": "2022-04-20T13:37:38+00:00",
+      "ingested_at": "2026-05-07T03:21:05.481549+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/nltk/stemming": {
+      "lastmod": "2022-04-20T13:37:08+00:00",
+      "ingested_at": "2026-05-07T03:21:07.374050+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/nltk/lemmatize": {
+      "lastmod": "2022-04-20T13:36:04+00:00",
+      "ingested_at": "2026-05-07T03:21:09.022561+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/nltk/wordnet": {
+      "lastmod": "2022-04-20T13:35:34+00:00",
+      "ingested_at": "2026-05-07T03:21:11.117376+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/500s/502/": {
+      "lastmod": "2022-04-20T13:20:37+00:00",
+      "ingested_at": "2026-05-07T03:21:12.692823+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/network-client-hint/ect/": {
+      "lastmod": "2022-04-20T13:14:01+00:00",
+      "ingested_at": "2026-05-07T03:21:14.273694+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/trustrank/": {
+      "lastmod": "2022-04-20T12:51:15+00:00",
+      "ingested_at": "2026-05-07T03:21:15.969116+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/over-optimization-penalty/": {
+      "lastmod": "2022-04-20T12:50:10+00:00",
+      "ingested_at": "2026-05-07T03:21:17.563536+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/page-impression/": {
+      "lastmod": "2022-04-20T12:47:36+00:00",
+      "ingested_at": "2026-05-07T03:21:19.072067+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/possum/": {
+      "lastmod": "2022-04-20T12:46:34+00:00",
+      "ingested_at": "2026-05-07T03:21:20.638835+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/content-negotiation/accept-language/": {
+      "lastmod": "2022-04-20T12:44:50+00:00",
+      "ingested_at": "2026-05-07T03:21:22.144089+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/authentication/proxy-authorization/": {
+      "lastmod": "2022-04-20T12:43:08+00:00",
+      "ingested_at": "2026-05-07T03:21:23.777597+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/crawl-budget/": {
+      "lastmod": "2022-04-20T12:42:56+00:00",
+      "ingested_at": "2026-05-07T03:21:25.365422+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/client-hint/accept-ch-http-header/": {
+      "lastmod": "2022-04-20T12:41:35+00:00",
+      "ingested_at": "2026-05-07T03:21:27.017002+00:00"
+    },
+    "https://www.holisticseo.digital/on-page-seo/heading-tag/": {
+      "lastmod": "2022-04-20T12:41:02+00:00",
+      "ingested_at": "2026-05-07T03:21:28.693334+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/florida/": {
+      "lastmod": "2022-04-20T12:36:16+00:00",
+      "ingested_at": "2026-05-07T03:21:30.484898+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-page/": {
+      "lastmod": "2022-04-20T12:34:58+00:00",
+      "ingested_at": "2026-05-07T03:21:32.480441+00:00"
+    },
+    "https://www.holisticseo.digital/on-page-seo/footer/": {
+      "lastmod": "2022-04-20T12:33:57+00:00",
+      "ingested_at": "2026-05-07T03:21:34.313288+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/range-requests/if-range-http-header/": {
+      "lastmod": "2022-04-20T12:33:45+00:00",
+      "ingested_at": "2026-05-07T03:21:37.000514+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/redirection/": {
+      "lastmod": "2022-04-20T12:30:48+00:00",
+      "ingested_at": "2026-05-07T03:21:38.773175+00:00"
+    },
+    "https://www.holisticseo.digital/user-experience/user-interface/": {
+      "lastmod": "2022-04-20T12:29:05+00:00",
+      "ingested_at": "2026-05-07T03:21:40.569808+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/conditional/vary/": {
+      "lastmod": "2022-04-20T12:26:43+00:00",
+      "ingested_at": "2026-05-07T03:21:42.538192+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/word-cloud/": {
+      "lastmod": "2022-04-20T12:25:18+00:00",
+      "ingested_at": "2026-05-07T03:21:45.363943+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/community-management/": {
+      "lastmod": "2022-04-20T12:25:10+00:00",
+      "ingested_at": "2026-05-07T03:21:47.141245+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/tf-idf-analyse/": {
+      "lastmod": "2022-04-20T12:23:42+00:00",
+      "ingested_at": "2026-05-07T03:21:49.101262+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-browser/": {
+      "lastmod": "2022-04-20T12:22:49+00:00",
+      "ingested_at": "2026-05-07T03:21:50.978858+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/internet-archive/": {
+      "lastmod": "2022-04-20T12:22:43+00:00",
+      "ingested_at": "2026-05-07T03:21:53.016845+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/content-negotiation/": {
+      "lastmod": "2022-04-20T12:21:58+00:00",
+      "ingested_at": "2026-05-07T03:21:54.705100+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/image-optimization/": {
+      "lastmod": "2022-04-20T12:21:52+00:00",
+      "ingested_at": "2026-05-07T03:21:56.447383+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/content-analysis-with-sitemaps/": {
+      "lastmod": "2022-04-20T12:20:20+00:00",
+      "ingested_at": "2026-05-07T03:21:58.296346+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/resize-image/": {
+      "lastmod": "2022-04-20T12:15:31+00:00",
+      "ingested_at": "2026-05-07T03:22:00.081640+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/scrape-paa-questions/": {
+      "lastmod": "2022-04-20T12:15:31+00:00",
+      "ingested_at": "2026-05-07T03:22:02.126182+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/authentication/www-authenticate/": {
+      "lastmod": "2022-04-20T12:12:53+00:00",
+      "ingested_at": "2026-05-07T03:22:04.107261+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/analyse-compare-robots-txt/": {
+      "lastmod": "2022-04-20T12:12:47+00:00",
+      "ingested_at": "2026-05-07T03:22:06.016617+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/check-fix-grammar-errors/": {
+      "lastmod": "2022-04-20T12:12:26+00:00",
+      "ingested_at": "2026-05-07T03:22:07.796262+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/check-status-codes/": {
+      "lastmod": "2022-04-20T12:12:00+00:00",
+      "ingested_at": "2026-05-07T03:22:09.621250+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/response/security/hsts/": {
+      "lastmod": "2022-04-20T12:11:41+00:00",
+      "ingested_at": "2026-05-07T03:22:11.600286+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/authentication/authorization/": {
+      "lastmod": "2022-04-20T12:07:23+00:00",
+      "ingested_at": "2026-05-07T03:22:13.453121+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/cors/access-control-expose-headers/": {
+      "lastmod": "2022-04-20T12:03:53+00:00",
+      "ingested_at": "2026-05-07T03:22:15.178731+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/translate-website/": {
+      "lastmod": "2022-04-20T12:01:58+00:00",
+      "ingested_at": "2026-05-07T03:22:17.034222+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/content-negotiation/accept-encoding-http-header/": {
+      "lastmod": "2022-04-20T12:01:50+00:00",
+      "ingested_at": "2026-05-07T03:22:18.796702+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/categorize-queries/": {
+      "lastmod": "2022-04-20T11:59:14+00:00",
+      "ingested_at": "2026-05-07T03:22:20.813914+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/information-extraction/": {
+      "lastmod": "2022-04-20T11:57:49+00:00",
+      "ingested_at": "2026-05-07T03:22:22.624375+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/proxies/via/": {
+      "lastmod": "2022-04-20T11:55:02+00:00",
+      "ingested_at": "2026-05-07T03:22:24.440369+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/download-image/": {
+      "lastmod": "2022-04-20T11:54:29+00:00",
+      "ingested_at": "2026-05-07T03:22:26.321291+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/list-files/": {
+      "lastmod": "2022-04-20T11:52:34+00:00",
+      "ingested_at": "2026-05-07T03:22:28.099277+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/cors/access-control-allow-headers/": {
+      "lastmod": "2022-04-20T11:51:33+00:00",
+      "ingested_at": "2026-05-07T03:22:30.116365+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/web-server/": {
+      "lastmod": "2022-04-20T11:42:43+00:00",
+      "ingested_at": "2026-05-07T03:22:31.937544+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/500s/508/": {
+      "lastmod": "2022-04-20T11:39:06+00:00",
+      "ingested_at": "2026-05-07T03:22:33.560985+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/200s/200/": {
+      "lastmod": "2022-04-20T11:37:21+00:00",
+      "ingested_at": "2026-05-07T03:22:35.536039+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/300s/303/": {
+      "lastmod": "2022-04-20T11:36:26+00:00",
+      "ingested_at": "2026-05-07T03:22:37.301924+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/cors/access-control-allow-credentials/": {
+      "lastmod": "2022-04-20T11:35:09+00:00",
+      "ingested_at": "2026-05-07T03:22:39.331737+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/cors/access-control-allow-origin/": {
+      "lastmod": "2022-04-20T11:34:25+00:00",
+      "ingested_at": "2026-05-07T03:22:41.016142+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/500s/507/": {
+      "lastmod": "2022-04-20T11:30:11+00:00",
+      "ingested_at": "2026-05-07T03:22:42.828907+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/300s/304/": {
+      "lastmod": "2022-04-20T11:29:14+00:00",
+      "ingested_at": "2026-05-07T03:22:44.583585+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/cors/access-control-allow-methods/": {
+      "lastmod": "2022-04-20T11:27:59+00:00",
+      "ingested_at": "2026-05-07T03:22:46.350098+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/200s/201/": {
+      "lastmod": "2022-04-20T11:27:13+00:00",
+      "ingested_at": "2026-05-07T03:22:48.364907+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/client-hint/accept-ch-lifetime/": {
+      "lastmod": "2022-04-20T11:21:05+00:00",
+      "ingested_at": "2026-05-07T03:22:50.122492+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/300s/301/": {
+      "lastmod": "2022-04-20T11:19:45+00:00",
+      "ingested_at": "2026-05-07T03:22:51.952149+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/200s/226/": {
+      "lastmod": "2022-04-20T11:18:50+00:00",
+      "ingested_at": "2026-05-07T03:22:53.722048+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/200s/202/": {
+      "lastmod": "2022-04-20T11:18:00+00:00",
+      "ingested_at": "2026-05-07T03:22:55.684746+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/500s/509/": {
+      "lastmod": "2022-04-20T11:12:20+00:00",
+      "ingested_at": "2026-05-07T03:22:57.622337+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/300s/302/": {
+      "lastmod": "2022-04-20T11:11:30+00:00",
+      "ingested_at": "2026-05-07T03:22:59.541843+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/cors/access-control-max-age/": {
+      "lastmod": "2022-04-20T11:10:44+00:00",
+      "ingested_at": "2026-05-07T03:23:01.283787+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/200s/203/": {
+      "lastmod": "2022-04-20T11:07:48+00:00",
+      "ingested_at": "2026-05-07T03:23:03.231805+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/500s/599/": {
+      "lastmod": "2022-04-20T11:03:25+00:00",
+      "ingested_at": "2026-05-07T03:23:05.039126+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/500s/506/": {
+      "lastmod": "2022-04-20T11:02:44+00:00",
+      "ingested_at": "2026-05-07T03:23:06.960502+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/500s/504/": {
+      "lastmod": "2022-04-20T11:00:38+00:00",
+      "ingested_at": "2026-05-07T03:23:08.722728+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/402/": {
+      "lastmod": "2022-04-20T11:00:26+00:00",
+      "ingested_at": "2026-05-07T03:23:10.535044+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/500s/503/": {
+      "lastmod": "2022-04-20T11:00:13+00:00",
+      "ingested_at": "2026-05-07T03:23:12.262084+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/200s/204/": {
+      "lastmod": "2022-04-20T10:59:43+00:00",
+      "ingested_at": "2026-05-07T03:23:14.030134+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/500s/501/": {
+      "lastmod": "2022-04-20T10:59:30+00:00",
+      "ingested_at": "2026-05-07T03:23:15.995085+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/431/": {
+      "lastmod": "2022-04-20T10:58:46+00:00",
+      "ingested_at": "2026-05-07T03:23:17.857402+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/414/": {
+      "lastmod": "2022-04-20T10:58:43+00:00",
+      "ingested_at": "2026-05-07T03:23:19.599705+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/429/": {
+      "lastmod": "2022-04-20T10:58:15+00:00",
+      "ingested_at": "2026-05-07T03:23:21.375123+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/426/": {
+      "lastmod": "2022-04-20T10:57:42+00:00",
+      "ingested_at": "2026-05-07T03:23:23.215248+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/409/": {
+      "lastmod": "2022-04-20T10:56:04+00:00",
+      "ingested_at": "2026-05-07T03:23:25.115651+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/406/": {
+      "lastmod": "2022-04-20T10:54:23+00:00",
+      "ingested_at": "2026-05-07T03:23:26.912234+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/408/": {
+      "lastmod": "2022-04-20T10:53:52+00:00",
+      "ingested_at": "2026-05-07T03:23:29.018740+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/403/": {
+      "lastmod": "2022-04-20T10:51:36+00:00",
+      "ingested_at": "2026-05-07T03:23:30.731693+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/415/": {
+      "lastmod": "2022-04-20T10:50:54+00:00",
+      "ingested_at": "2026-05-07T03:23:32.479627+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/200s/205/": {
+      "lastmod": "2022-04-20T10:50:48+00:00",
+      "ingested_at": "2026-05-07T03:23:34.457483+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/200s/206/": {
+      "lastmod": "2022-04-20T10:50:20+00:00",
+      "ingested_at": "2026-05-07T03:23:36.235878+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/428/": {
+      "lastmod": "2022-04-20T10:46:59+00:00",
+      "ingested_at": "2026-05-07T03:23:38.044962+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/404/": {
+      "lastmod": "2022-04-20T10:44:55+00:00",
+      "ingested_at": "2026-05-07T03:23:39.841135+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/cookies/set-cookie2/": {
+      "lastmod": "2022-04-20T10:44:04+00:00",
+      "ingested_at": "2026-05-07T03:23:41.585727+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/416/": {
+      "lastmod": "2022-04-20T10:40:30+00:00",
+      "ingested_at": "2026-05-07T03:23:43.496358+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/417/": {
+      "lastmod": "2022-04-20T10:35:58+00:00",
+      "ingested_at": "2026-05-07T03:23:46.221459+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/200s/207/": {
+      "lastmod": "2022-04-20T10:35:20+00:00",
+      "ingested_at": "2026-05-07T03:23:47.930742+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/405/": {
+      "lastmod": "2022-04-20T10:33:07+00:00",
+      "ingested_at": "2026-05-07T03:23:49.672524+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/200s/208/": {
+      "lastmod": "2022-04-20T10:31:32+00:00",
+      "ingested_at": "2026-05-07T03:23:51.467495+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/500s/500/": {
+      "lastmod": "2022-04-20T10:26:33+00:00",
+      "ingested_at": "2026-05-07T03:23:53.444630+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/410/": {
+      "lastmod": "2022-04-20T09:04:33+00:00",
+      "ingested_at": "2026-05-07T03:23:55.154179+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/422/": {
+      "lastmod": "2022-04-20T09:03:31+00:00",
+      "ingested_at": "2026-05-07T03:23:56.887573+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/500s/511/": {
+      "lastmod": "2022-04-20T09:01:38+00:00",
+      "ingested_at": "2026-05-07T03:23:58.678137+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/411/": {
+      "lastmod": "2022-04-20T08:59:23+00:00",
+      "ingested_at": "2026-05-07T03:24:00.491877+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/423/": {
+      "lastmod": "2022-04-20T08:57:20+00:00",
+      "ingested_at": "2026-05-07T03:24:02.532705+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/400/": {
+      "lastmod": "2022-04-20T08:54:01+00:00",
+      "ingested_at": "2026-05-07T03:24:04.542053+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/424/": {
+      "lastmod": "2022-04-20T08:50:38+00:00",
+      "ingested_at": "2026-05-07T03:24:06.463680+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/412/": {
+      "lastmod": "2022-04-20T08:45:45+00:00",
+      "ingested_at": "2026-05-07T03:24:08.178374+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/413/": {
+      "lastmod": "2022-04-20T08:40:28+00:00",
+      "ingested_at": "2026-05-07T03:24:09.908531+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/425/": {
+      "lastmod": "2022-04-20T08:39:58+00:00",
+      "ingested_at": "2026-05-07T03:24:11.789959+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/401/": {
+      "lastmod": "2022-04-20T08:39:25+00:00",
+      "ingested_at": "2026-05-07T03:24:13.573884+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/430/": {
+      "lastmod": "2022-04-20T08:38:05+00:00",
+      "ingested_at": "2026-05-07T03:24:15.343485+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/420/": {
+      "lastmod": "2022-04-20T08:32:45+00:00",
+      "ingested_at": "2026-05-07T03:24:17.166836+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/500s/505/": {
+      "lastmod": "2022-04-20T08:26:57+00:00",
+      "ingested_at": "2026-05-07T03:24:18.944775+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/500s/529/": {
+      "lastmod": "2022-04-20T08:26:29+00:00",
+      "ingested_at": "2026-05-07T03:24:20.862844+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/421/": {
+      "lastmod": "2022-04-20T08:25:34+00:00",
+      "ingested_at": "2026-05-07T03:24:22.568210+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/498/": {
+      "lastmod": "2022-04-20T08:22:06+00:00",
+      "ingested_at": "2026-05-07T03:24:24.375001+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/450/": {
+      "lastmod": "2022-04-20T08:21:27+00:00",
+      "ingested_at": "2026-05-07T03:24:26.147324+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/499/": {
+      "lastmod": "2022-04-20T08:18:12+00:00",
+      "ingested_at": "2026-05-07T03:24:27.803613+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/400s/451/": {
+      "lastmod": "2022-04-20T08:17:40+00:00",
+      "ingested_at": "2026-05-07T03:24:29.618489+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/500s/530/": {
+      "lastmod": "2022-04-20T08:16:02+00:00",
+      "ingested_at": "2026-05-07T03:24:31.424674+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/500s/510/": {
+      "lastmod": "2022-04-20T08:04:50+00:00",
+      "ingested_at": "2026-05-07T03:24:33.115711+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/hreflang/": {
+      "lastmod": "2022-04-20T07:51:31+00:00",
+      "ingested_at": "2026-05-07T03:24:34.661960+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/300s/307/": {
+      "lastmod": "2022-04-20T07:26:51+00:00",
+      "ingested_at": "2026-05-07T03:24:36.044720+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/500s/598/": {
+      "lastmod": "2022-04-20T07:16:44+00:00",
+      "ingested_at": "2026-05-07T03:24:37.692716+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/300s/305/": {
+      "lastmod": "2022-04-20T07:15:04+00:00",
+      "ingested_at": "2026-05-07T03:24:39.201949+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/status-code/300s/306/": {
+      "lastmod": "2022-04-20T07:12:27+00:00",
+      "ingested_at": "2026-05-07T03:24:40.790567+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/website-categorization/": {
+      "lastmod": "2022-04-20T06:59:22+00:00",
+      "ingested_at": "2026-05-07T03:24:42.192228+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/http-header/http-authentication/": {
+      "lastmod": "2022-04-20T06:55:47+00:00",
+      "ingested_at": "2026-05-07T03:24:43.706070+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/pagination/": {
+      "lastmod": "2021-12-30T18:32:08+00:00",
+      "ingested_at": "2026-05-07T03:24:45.808679+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/test-page-for-indexing/": {
+      "lastmod": "2021-12-29T18:56:40+00:00",
+      "ingested_at": "2026-05-07T03:24:47.312163+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/pop-up-blocker/": {
+      "lastmod": "2021-11-25T17:35:16+00:00",
+      "ingested_at": "2026-05-07T03:24:48.776393+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/ikea-effect/": {
+      "lastmod": "2021-10-30T20:33:38+00:00",
+      "ingested_at": "2026-05-07T03:24:50.207724+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/website/": {
+      "lastmod": "2021-10-05T18:24:12+00:00",
+      "ingested_at": "2026-05-07T03:24:51.735242+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/amp/": {
+      "lastmod": "2021-10-05T08:37:52+00:00",
+      "ingested_at": "2026-05-07T03:24:53.510602+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/semantic/": {
+      "lastmod": "2021-10-04T21:54:26+00:00",
+      "ingested_at": "2026-05-07T03:24:55.317323+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/css/": {
+      "lastmod": "2021-10-04T12:06:03+00:00",
+      "ingested_at": "2026-05-07T03:24:56.881305+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/change-of-address/": {
+      "lastmod": "2021-09-29T16:24:50+00:00",
+      "ingested_at": "2026-05-07T03:24:58.382459+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/loading-font/": {
+      "lastmod": "2021-09-28T10:56:39+00:00",
+      "ingested_at": "2026-05-07T03:25:00.036239+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/search-intent/": {
+      "lastmod": "2021-09-26T11:09:49+00:00",
+      "ingested_at": "2026-05-07T03:25:02.167038+00:00"
+    },
+    "https://www.holisticseo.digital/user-experience/mobile-first/": {
+      "lastmod": "2021-09-25T14:27:05+00:00",
+      "ingested_at": "2026-05-07T03:25:04.978379+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/seo-career/": {
+      "lastmod": "2021-09-13T16:22:44+00:00",
+      "ingested_at": "2026-05-07T03:25:06.693708+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/named-entity-recognition/": {
+      "lastmod": "2021-07-19T09:35:42+00:00",
+      "ingested_at": "2026-05-07T03:25:08.452851+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/apache-bench/": {
+      "lastmod": "2021-06-09T10:48:31+00:00",
+      "ingested_at": "2026-05-07T03:25:10.104352+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/layout-trashing/": {
+      "lastmod": "2021-06-02T07:27:35+00:00",
+      "ingested_at": "2026-05-07T03:25:11.779406+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/fid/": {
+      "lastmod": "2021-05-20T21:42:08+00:00",
+      "ingested_at": "2026-05-07T03:25:13.444060+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/dns/": {
+      "lastmod": "2021-05-13T21:13:59+00:00",
+      "ingested_at": "2026-05-07T03:25:15.098275+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/add-expires/": {
+      "lastmod": "2021-04-25T12:39:18+00:00",
+      "ingested_at": "2026-05-07T03:25:16.681689+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/newsjacking/": {
+      "lastmod": "2021-04-16T12:45:22+00:00",
+      "ingested_at": "2026-05-07T03:25:18.173722+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/cache-control/": {
+      "lastmod": "2021-04-15T09:05:39+00:00",
+      "ingested_at": "2026-05-07T03:25:19.872999+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/if-none-match/": {
+      "lastmod": "2021-04-14T08:42:48+00:00",
+      "ingested_at": "2026-05-07T03:25:21.392350+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/tcp/": {
+      "lastmod": "2021-04-13T14:53:10+00:00",
+      "ingested_at": "2026-05-07T03:25:22.829278+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/etag/": {
+      "lastmod": "2021-04-12T10:29:40+00:00",
+      "ingested_at": "2026-05-07T03:25:24.395208+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/content-farm/": {
+      "lastmod": "2021-04-06T13:26:43+00:00",
+      "ingested_at": "2026-05-07T03:25:25.854150+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/dom/": {
+      "lastmod": "2021-02-09T15:53:51+00:00",
+      "ingested_at": "2026-05-07T03:25:27.498195+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/subscription-economy/": {
+      "lastmod": "2021-01-20T16:04:41+00:00",
+      "ingested_at": "2026-05-07T03:25:29.079237+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/speed-index/": {
+      "lastmod": "2021-01-15T10:12:37+00:00",
+      "ingested_at": "2026-05-07T03:25:30.531064+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/ttfb/": {
+      "lastmod": "2021-01-12T17:02:06+00:00",
+      "ingested_at": "2026-05-07T03:25:31.981750+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/async-css/": {
+      "lastmod": "2021-01-12T16:51:14+00:00",
+      "ingested_at": "2026-05-07T03:25:33.383951+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/kpi/": {
+      "lastmod": "2021-01-12T16:45:50+00:00",
+      "ingested_at": "2026-05-07T03:25:35.188010+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/tbt/": {
+      "lastmod": "2021-01-12T16:43:10+00:00",
+      "ingested_at": "2026-05-07T03:25:36.559287+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/vary-header/": {
+      "lastmod": "2020-11-22T10:10:54+00:00",
+      "ingested_at": "2026-05-07T03:25:38.109855+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/nofollow/": {
+      "lastmod": "2020-11-11T20:05:16+00:00",
+      "ingested_at": "2026-05-07T03:25:39.589290+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/content-seeding/": {
+      "lastmod": "2020-10-21T18:49:15+00:00",
+      "ingested_at": "2026-05-07T03:25:41.023635+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/lead-generation/": {
+      "lastmod": "2020-09-19T21:21:06+00:00",
+      "ingested_at": "2026-05-07T03:25:42.671847+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/landing-page/": {
+      "lastmod": "2020-09-19T21:17:51+00:00",
+      "ingested_at": "2026-05-07T03:25:44.126182+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/serp/": {
+      "lastmod": "2020-09-19T21:10:03+00:00",
+      "ingested_at": "2026-05-07T03:25:46.514031+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/log-file/": {
+      "lastmod": "2020-09-19T21:08:05+00:00",
+      "ingested_at": "2026-05-07T03:25:48.075848+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/domain/": {
+      "lastmod": "2020-09-19T13:13:05+00:00",
+      "ingested_at": "2026-05-07T03:25:49.562279+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/cctld/": {
+      "lastmod": "2020-09-19T13:13:00+00:00",
+      "ingested_at": "2026-05-07T03:25:51.329077+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/aso/": {
+      "lastmod": "2020-09-06T11:44:09+00:00",
+      "ingested_at": "2026-05-07T03:25:52.845471+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/googlebot/": {
+      "lastmod": "2020-09-03T04:52:41+00:00",
+      "ingested_at": "2026-05-07T03:25:54.439686+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/buzz/": {
+      "lastmod": "2020-09-01T16:29:42+00:00",
+      "ingested_at": "2026-05-07T03:25:56.087930+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/video-sitemap/": {
+      "lastmod": "2020-08-15T11:49:59+00:00",
+      "ingested_at": "2026-05-07T03:25:57.656279+00:00"
+    },
+    "https://www.holisticseo.digital/user-experience/bounce-rate/": {
+      "lastmod": "2020-08-15T09:49:59+00:00",
+      "ingested_at": "2026-05-07T03:25:59.303577+00:00"
+    },
+    "https://www.holisticseo.digital/user-experience/click-path/": {
+      "lastmod": "2020-08-15T09:49:39+00:00",
+      "ingested_at": "2026-05-07T03:26:00.819233+00:00"
+    },
+    "https://www.holisticseo.digital/user-experience/above-below-the-fold/": {
+      "lastmod": "2020-08-15T09:49:19+00:00",
+      "ingested_at": "2026-05-07T03:26:02.544810+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/flywheel/": {
+      "lastmod": "2020-08-15T09:49:00+00:00",
+      "ingested_at": "2026-05-07T03:26:04.418834+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/neuromarketing/": {
+      "lastmod": "2020-08-15T09:48:23+00:00",
+      "ingested_at": "2026-05-07T03:26:05.828058+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/press-release/": {
+      "lastmod": "2020-08-15T09:48:06+00:00",
+      "ingested_at": "2026-05-07T03:26:07.397659+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/cookie/": {
+      "lastmod": "2020-08-15T09:47:47+00:00",
+      "ingested_at": "2026-05-07T03:26:08.889981+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/inbound/": {
+      "lastmod": "2020-08-15T09:46:55+00:00",
+      "ingested_at": "2026-05-07T03:26:10.533380+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/customer-journey-map/": {
+      "lastmod": "2020-08-15T09:46:28+00:00",
+      "ingested_at": "2026-05-07T03:26:11.996634+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/mobile-first-index/": {
+      "lastmod": "2020-08-15T09:44:25+00:00",
+      "ingested_at": "2026-05-07T03:26:13.513142+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/influencer/": {
+      "lastmod": "2020-08-15T09:43:38+00:00",
+      "ingested_at": "2026-05-07T03:26:15.294436+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/cpc/": {
+      "lastmod": "2020-08-15T09:41:35+00:00",
+      "ingested_at": "2026-05-07T03:26:16.783795+00:00"
+    },
+    "https://www.holisticseo.digital/user-experience/a-b-testing/": {
+      "lastmod": "2020-08-15T09:39:40+00:00",
+      "ingested_at": "2026-05-07T03:26:18.358159+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/user-agent/": {
+      "lastmod": "2020-08-15T08:55:45+00:00",
+      "ingested_at": "2026-05-07T03:26:19.827437+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/html/": {
+      "lastmod": "2020-08-15T08:49:16+00:00",
+      "ingested_at": "2026-05-07T03:26:21.633736+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/caffeine/": {
+      "lastmod": "2020-08-15T08:46:02+00:00",
+      "ingested_at": "2026-05-07T03:26:23.164976+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/hilltop/": {
+      "lastmod": "2020-08-15T08:45:41+00:00",
+      "ingested_at": "2026-05-07T03:26:24.679957+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/rankbrain/": {
+      "lastmod": "2020-08-15T08:39:52+00:00",
+      "ingested_at": "2026-05-07T03:26:26.253332+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/log-file-analysis/": {
+      "lastmod": "2020-08-15T08:38:22+00:00",
+      "ingested_at": "2026-05-07T03:26:27.697489+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/javascript/": {
+      "lastmod": "2020-08-15T08:25:28+00:00",
+      "ingested_at": "2026-05-07T03:26:29.092052+00:00"
+    },
+    "https://www.holisticseo.digital/on-page-seo/alt-tag/": {
+      "lastmod": "2020-08-15T08:24:21+00:00",
+      "ingested_at": "2026-05-07T03:26:30.782890+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/panda/": {
+      "lastmod": "2020-08-15T08:18:55+00:00",
+      "ingested_at": "2026-05-07T03:26:32.261868+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/stemming/": {
+      "lastmod": "2020-08-15T08:16:23+00:00",
+      "ingested_at": "2026-05-07T03:26:33.839269+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/click-fraud/": {
+      "lastmod": "2020-08-15T08:04:13+00:00",
+      "ingested_at": "2026-05-07T03:26:35.300884+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/google-sandbox/": {
+      "lastmod": "2020-08-15T08:01:50+00:00",
+      "ingested_at": "2026-05-07T03:26:36.751573+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/penguin/": {
+      "lastmod": "2020-08-15T07:54:36+00:00",
+      "ingested_at": "2026-05-07T03:26:38.321094+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/phantom-update/": {
+      "lastmod": "2020-08-15T07:53:12+00:00",
+      "ingested_at": "2026-05-07T03:26:39.816343+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/cache/": {
+      "lastmod": "2020-08-15T07:21:21+00:00",
+      "ingested_at": "2026-05-07T03:26:41.258362+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/tf-idf-analysis/": {
+      "lastmod": "2020-08-15T07:17:15+00:00",
+      "ingested_at": "2026-05-07T03:26:42.702660+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/link-juice/": {
+      "lastmod": "2020-08-15T07:13:20+00:00",
+      "ingested_at": "2026-05-07T03:26:44.061548+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/submit-sitemap/": {
+      "lastmod": "2020-08-14T17:08:04+00:00",
+      "ingested_at": "2026-05-07T03:26:45.568216+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/url-hijacking/": {
+      "lastmod": "2020-08-14T17:04:58+00:00",
+      "ingested_at": "2026-05-07T03:26:46.922008+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/cta/": {
+      "lastmod": "2020-08-14T16:36:23+00:00",
+      "ingested_at": "2026-05-07T03:26:48.285615+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/cloaking/": {
+      "lastmod": "2020-08-14T15:48:41+00:00",
+      "ingested_at": "2026-05-07T03:26:49.588476+00:00"
+    },
+    "https://www.holisticseo.digital/on-page-seo/breadcrumb/": {
+      "lastmod": "2020-08-14T15:43:25+00:00",
+      "ingested_at": "2026-05-07T03:26:50.930867+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/whois/": {
+      "lastmod": "2020-08-13T15:14:10+00:00",
+      "ingested_at": "2026-05-07T03:26:52.459966+00:00"
+    },
+    "https://www.holisticseo.digital/": {
+      "lastmod": "2023-11-13T08:30:15+00:00",
+      "ingested_at": "2026-05-07T03:26:54.235231+00:00"
+    },
+    "https://www.holisticseo.digital/seo-chatbot": {
+      "lastmod": "2023-11-13T08:47:10+00:00",
+      "ingested_at": "2026-05-07T03:26:55.617608+00:00"
+    },
+    "https://www.holisticseo.digital/about/": {
+      "lastmod": "2022-05-20T12:50:14+00:00",
+      "ingested_at": "2026-05-07T03:26:57.018773+00:00"
+    },
+    "https://www.holisticseo.digital/marketing/": {
+      "lastmod": "2024-08-14T22:48:52+00:00",
+      "ingested_at": "2026-05-07T03:27:05.680783+00:00"
+    },
+    "https://www.holisticseo.digital/python-seo/": {
+      "lastmod": "2024-09-08T11:23:50+00:00",
+      "ingested_at": "2026-05-07T03:27:07.987254+00:00"
+    },
+    "https://www.holisticseo.digital/technical-seo/": {
+      "lastmod": "2024-08-30T14:53:04+00:00",
+      "ingested_at": "2026-05-07T03:27:13.202475+00:00"
+    },
+    "https://www.holisticseo.digital/user-experience/": {
+      "lastmod": "2023-09-13T13:32:54+00:00",
+      "ingested_at": "2026-05-07T03:27:14.801349+00:00"
+    },
+    "https://www.holisticseo.digital/on-page-seo/": {
+      "lastmod": "2023-12-27T15:08:20+00:00",
+      "ingested_at": "2026-05-07T03:27:16.567427+00:00"
+    },
+    "https://www.holisticseo.digital/theoretical-seo/": {
+      "lastmod": "2025-08-27T18:50:14+00:00",
+      "ingested_at": "2026-05-07T03:27:19.298625+00:00"
+    },
+    "https://www.holisticseo.digital/pagespeed/": {
+      "lastmod": "2023-12-18T09:44:31+00:00",
+      "ingested_at": "2026-05-07T03:27:21.371916+00:00"
+    },
+    "https://www.holisticseo.digital/review/": {
+      "lastmod": "2025-08-27T17:30:29+00:00",
+      "ingested_at": "2026-05-07T03:27:23.000358+00:00"
+    },
+    "https://www.holisticseo.digital/author/koray-tugberk-gubur/": {
+      "lastmod": "2025-08-27T18:50:14+00:00",
+      "ingested_at": "2026-05-07T03:27:29.680894+00:00"
+    },
+    "https://www.holisticseo.digital/author/holistic-seo/": {
+      "lastmod": "2024-08-30T14:53:04+00:00",
+      "ingested_at": "2026-05-07T03:27:36.291879+00:00"
+    },
+    "https://www.holisticseo.digital/author/daniel-heredia-mejias/": {
+      "lastmod": "2024-02-05T08:57:40+00:00",
+      "ingested_at": "2026-05-07T03:27:37.652207+00:00"
+    }
+  }
+}

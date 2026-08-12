@@ -1,0 +1,361 @@
+{
+  "query_data": {
+    "Q1-workflow": {
+      "target": "methodology_workflow",
+      "query": "What is the complete step by step workflow process for building topical authority? List every phase, every step, in order. What comes first? What framework or method applies at each step?",
+      "response_length": 8263,
+      "steps": [
+        {
+          "number": 1,
+          "description": "**Define the Source Context** Determine who you are, how you monetize, and your brand identity. This anchors all later decisions and ensures a logical bridge between your business and the topic. *Method: Source Context definition (part of Topical Map construction).*"
+        },
+        {
+          "number": 2,
+          "description": "**Choose the Central Entity** Select the primary subject that will appear consistently across every page of the site (e.g., \u201cwater,\u201d \u201cGermany,\u201d \u201cQR code generator\u201d). This entity becomes the site\u2011wide thematic core. *Method: Central Entity selection (Topical Map framework).*"
+        },
+        {
+          "number": 3,
+          "description": "**Establish the Central Search Intent** Identify the unifying user need that ties all content together. Together with the central entity, this creates site\u2011wide engrams that signal the main topic to search engines. *Method: Central Search Intent integration (Topical Map framework).*"
+        },
+        {
+          "number": 4,
+          "description": "**Perform Query Parsing** Analyse how search engines interpret queries related to your central entity. This understanding is essential for building a proper topical map. *Method: Query Parsing.*"
+        },
+        {
+          "number": 5,
+          "description": "**Create a Raw Topical Map** List all entity\u2013attribute pairs for the central entity (e.g., \u201cwater \u2013 benefits,\u201d \u201cwater \u2013 quality\u201d). This raw map is a simple inventory of topics. *Method: Raw Topical Map drafting.*"
+        },
+        {
+          "number": 6,
+          "description": "**Apply Attribute Filtration** Filter attributes based on prominence (derived from the entity\u2019s definition) and relevance to your source context. Keep only the most important attributes. *Method: Attribute Filtration Methodologies.*"
+        },
+        {
+          "number": 7,
+          "description": "**Partition into Core and Outer Sections** - **Core Section**: Directly tied to your source context and monetisation (e.g., \u201cvisa types\u201d for a visa consultancy). - **Outer Section**: Covers the central entity\u2019s broader attributes (e.g., \u201cclimate,\u201d \u201cculture\u201d) to build historical data and topical rele"
+        },
+        {
+          "number": 8,
+          "description": "**Prioritise Attributes and Design the Information Hierarchy** Place the most important attribute at the top. This hierarchy will govern URL structure, internal linking, and content prominence. *Method: Attribute/Context Hierarchy (Topical Map).*"
+        },
+        {
+          "number": 9,
+          "description": "**Refine into a Processed Topical Map** For each entity\u2013attribute pair, choose precise predicates, context terms, and form query networks. Define the macro context that will appear in H1 tags and title tags. *Method: Processed Topical Map with Macro Context.*"
+        },
+        {
+          "number": 10,
+          "description": "**Identify Quality Notes** Select the most authoritative articles (usually from the core section) that will be featured on the homepage to improve crawl depth and first impression. *Method: Quality Notes designation.*"
+        },
+        {
+          "number": 11,
+          "description": "**Design the URL Structure** Create a three\u2011layer hierarchy (root \u2192 seed \u2192 node) that reflects the topical map. Ensure URLs are logical, avoid word repetition, and form contextual crawl paths. *Method: URL Structure design (Semantic Content Network).*"
+        },
+        {
+          "number": 12,
+          "description": "**Write Title Tags** Incorporate the macro context into title tags, aligning them with the URL structure and the overall content hierarchy. *Method: Title Tag writing (Topical Map process).*"
+        },
+        {
+          "number": 13,
+          "description": "**Build the Contextual Vector** Determine the exact order of headings (H1, H2, H3\u2026) to create a logical flow and distribute context correctly. This vector reflects the relative importance of each section. *Method: Contextual Vector (Quarice Framework).*"
+        },
+        {
+          "number": 14,
+          "description": "**Establish the Contextual Hierarchy** - Generate questions from query terms. - Prioritise them (Question Orders). - Arrange them into a structured hierarchy that mirrors the topical map\u2019s attribute order. *Method: Processing Query Terms \u2192 Question Hierarchy.*"
+        },
+        {
+          "number": 15,
+          "description": "**Define the Contextual Structure** For each question/heading, specify: - Answer format (paragraph, table, list) - Table row/column counts, column names, and order - Preceding and following sentences - Tonality, entity connections, sentence structures, phrase taxonomies - Image design and alt tags *"
+        },
+        {
+          "number": 16,
+          "description": "**Plan the Contextual Connection** Design internal links and anchor texts. The most important anchor tags are placed in the root article; contextual bridges connect related nodes. Use bold/italic styling to mark predicates and contextual domains. *Method: Contextual Connection (Quarice Framework).*"
+        },
+        {
+          "number": 17,
+          "description": "**Integrate Macro Context Expansion** Provide definitive answers, evidence, quotes, and required scientific terms. Include order hints and variables (e.g., \u201cX\u201d) to guide authors on sequence and placeholders. *Method: Macro Context Expansion (Article Methodology).*"
+        },
+        {
+          "number": 18,
+          "description": "**Write According to the Article Methodology** - **Open with a scientific definition** of the central entity and key predicates. - **State the main benefit**, then support it with physical, psychological, nutritional, etc., evidence. - **Use scientific terms** and cite authoritative sources (WHO, FD"
+        },
+        {
+          "number": 19,
+          "description": "**Publish in Batches** Release content in groups (e.g., 20\u2011article batches) based on the total URL count of the site. This creates a noticeable publication frequency. *Method: Batch Publishing (Momentum principle).*"
+        },
+        {
+          "number": 20,
+          "description": "**Surface Quality Notes** Place the highest\u2011quality articles on the homepage, close to the crawlers, to pass PageRank and improve the site\u2019s perceived authority. *Method: Quality Notes placement.*"
+        },
+        {
+          "number": 21,
+          "description": "**Maintain Consistent Publishing** Continue releasing content on a regular schedule to sustain momentum and signal ongoing relevance. *Method: Momentum maintenance.*"
+        },
+        {
+          "number": 22,
+          "description": "**Monitor Performance** Track rankings and traffic, paying special attention to core algorithm updates\u2014these are when re\u2011evaluations occur and true authority gains are reflected. *Method: Performance monitoring (Historical Data analysis).*"
+        },
+        {
+          "number": 23,
+          "description": "**Analyse the Semantic Content Network** Compare content briefs against actual articles. Check if certain questions, heading orders, or structures consistently underperform across multiple entities. *Method: Content Configuration analysis.*"
+        },
+        {
+          "number": 24,
+          "description": "**Apply Bulk Iterations** Make systematic changes\u2014swap question order, add/remove sections, adjust macro context\u2014across many pages at once. This allows quick feedback from search engines. *Method: Bulk Content Configuration (Iterative Refinement).*"
+        },
+        {
+          "number": 25,
+          "description": "**Repeat the Topical Map Process** Deepen authority by going further into the topical map, processing new attributes, or even repeating the same process. Because of the way semantic authority compounds, even competitors imitating you can reinforce your own authority. *Method: Iterative Topical Map e"
+        }
+      ],
+      "frameworks": [],
+      "sections": [],
+      "directives": [
+        "guided by the principles of **vastness, depth, and momentum** and the goal of reducing the **cost of retrieval** for search engines",
+        "connect back to the central entity",
+        "reinforce your own authority",
+        "that transforms a website into the definitive source on a subject",
+        "historical data and topical relevance",
+        "information hierarchy**",
+        "macro context that will appear in h1 tags and title tags",
+        "three\u2011layer hierarchy (root \u2192 seed \u2192 node) that reflects the topical map",
+        "(semantic content network)",
+        "logical flow and distribute context correctly",
+        "questions from query terms",
+        "contextual structure**",
+        "internal links and anchor texts",
+        "ccording to the article methodology**"
+      ],
+      "query_time_seconds": 100.9,
+      "timestamp": "2026-05-26T11:40:35.636128"
+    },
+    "Q2-quarice-vector": {
+      "target": "quarice_vector",
+      "query": "What is the Quarice Framework? Explain the contextual vector component \u2014 how do you build a contextual vector, what is question ordering, how does contextual flow work?",
+      "response_length": 4663,
+      "steps": [],
+      "frameworks": [],
+      "sections": [
+        {
+          "name": "References",
+          "description": "No reference documents available."
+        }
+      ],
+      "directives": [
+        "linking back to the central topic",
+        "topical authority and relevance",
+        "logical sequence that covers the topic comprehensively",
+        "bridges between related subtopics (e"
+      ],
+      "query_time_seconds": 95.6,
+      "timestamp": "2026-05-26T11:42:11.270363"
+    },
+    "Q3-quarice-structure": {
+      "target": "quarice_structure",
+      "query": "Explain contextual hierarchy and contextual structure. How do you determine heading levels? What is article methodology? How does contextual coverage work?",
+      "response_length": 4717,
+      "steps": [],
+      "frameworks": [],
+      "sections": [],
+      "directives": [],
+      "query_time_seconds": 81.5,
+      "timestamp": "2026-05-26T11:43:32.730944"
+    },
+    "Q4-quarice-connection": {
+      "target": "quarice_connection",
+      "query": "Explain contextual connection, contextual bridges, and contextual borders. How do you link articles together? What makes an internal link pass PageRank and relevance?",
+      "response_length": 4626,
+      "steps": [],
+      "frameworks": [],
+      "sections": [],
+      "directives": [
+        "used in harmony with the contextual vector and are placed at least once before the actual link to reinforce the topical connection",
+        "logical bridge and reasoning between two different articles",
+        "that prioritizes contextual relevance over sheer volume"
+      ],
+      "query_time_seconds": 203.7,
+      "timestamp": "2026-05-26T11:46:56.481565"
+    },
+    "Q5-content-brief": {
+      "target": "content_brief_template",
+      "query": "What is the complete Semantic Content Item Brief template? List every section, every component, every field. What is the macro context, micro context, contextual vector, anchor texts, article methodology?",
+      "response_length": 5031,
+      "steps": [],
+      "frameworks": [],
+      "sections": [],
+      "directives": [
+        "single article within a semantic content network",
+        "entire document flow and reinforce the macro context"
+      ],
+      "query_time_seconds": 136.8,
+      "timestamp": "2026-05-26T11:49:13.262625"
+    },
+    "Q6-topical-map": {
+      "target": "topical_map_process",
+      "query": "What is the complete topical map creation process? From choosing the central entity to creating content briefs. Every step: central entity, source context, central search intent, core vs outdoor partition, attribute filtering, raw map, title tags, URL structure, content briefs.",
+      "response_length": 5187,
+      "steps": [],
+      "frameworks": [],
+      "sections": [
+        {
+          "name": "The topical map is divided into two main sections",
+          "description": "- **Core Section**: Directly derived from the unification of the central entity and the source context. It focuses on monetization and goes deep into a specific attribute (e.g., all visa types for a visa consultancy). This section contains the most quality\u2011critical articles and is linked from the ho"
+        },
+        {
+          "name": "References",
+          "description": "No reference documents were provided in the context."
+        }
+      ],
+      "directives": [
+        "is a structured methodology that transforms a central entity into a fully realized semantic content network",
+        "starts by selecting a central entity\u2014the core subject that will appear across every article and web page on the site",
+        "macro and micro context"
+      ],
+      "query_time_seconds": 60.0,
+      "timestamp": "2026-05-26T11:50:13.235708"
+    },
+    "Q7-linguistics": {
+      "target": "linguistics_methodology",
+      "query": "What is the complete data-driven linguistics methodology? How do you build text graphs, extract vocabulary, do corpus linguistics, n-gram analysis, seconds modeling, and query parsing? What Python tools and libraries?",
+      "response_length": 4055,
+      "steps": [],
+      "frameworks": [],
+      "sections": [
+        {
+          "name": "Statistical Linguistics and Distributional Semantics",
+          "description": "**Statistical Linguistics** is described as the first ranking algorithm that checks word distributions and co\u2011occurrences, focusing on quantitative aspects. It is used to manipulate term distributions and create new occurrences. - **Distributional Semantics** is a complementary method that focuses o"
+        },
+        {
+          "name": "Text Graphs",
+          "description": "A **Text Graph** is a visual or conceptual representation of word connections found in top\u2011ranking web pages. It is built by scraping those pages to map how words are connected, and it is then used to configure your own content to match those patterns. - The process involves identifying the main top"
+        },
+        {
+          "name": "Seconds Modeling and Sequence Modeling",
+          "description": "**Seconds Modeling** is a technique for fine\u2011tuning language models by including specific word sequences to affect context. It analyzes the probabilities of word sequences (e.g., which words can appear before or after a given term) and is used to improve content optimization. - **Sequence Modeling**"
+        },
+        {
+          "name": "Query Parsing and Query Networks",
+          "description": "A **Query Network** is a structured set of interconnected search queries relevant to a specific entity or attribute. It is derived from the core entity and its characteristics, and it guides content creation by determining which sections should receive more weight. - Query parsing involves interpret"
+        },
+        {
+          "name": "Missing Elements",
+          "description": "The context does not describe **vocabulary extraction**, **corpus linguistics**, or **n\u2011gram analysis** as standalone procedures. While seconds modeling and sequence modeling touch on word sequences, no explicit methodology for n\u2011gram extraction is provided. - No **Python tools or libraries** are me"
+        }
+      ],
+      "directives": [
+        "own content to match those patterns",
+        "involves identifying the main topics and context terms that appear across high\u2011ranking pages",
+        "of modeling the probabilities of word sequences"
+      ],
+      "query_time_seconds": 60.8,
+      "timestamp": "2026-05-26T11:51:14.079236"
+    },
+    "Q8-content-network": {
+      "target": "content_network",
+      "query": "What is the Semantic Content Network? Explain root, seed, and node architecture. How does PageRank distribution work across the network? What is the information tree? How does momentum work?",
+      "response_length": 4049,
+      "steps": [],
+      "frameworks": [],
+      "sections": [
+        {
+          "name": "PageRank Distribution Across the Network\n\nPageRank and relevance are distributed through carefully planned internal linking",
+          "description": "- The **first anchor text link** to a specific article passes PageRank; subsequent links to the same target do not. - As you move **lower in the hierarchy** (from root to seed to node), the number of internal links from the bottom increases, helping to channel authority upward. - The **root document"
+        }
+      ],
+      "directives": [],
+      "query_time_seconds": 64.6,
+      "timestamp": "2026-05-26T11:52:18.632126"
+    },
+    "Q9-frameworks": {
+      "target": "framework_inventory",
+      "query": "List every framework, method, and technique taught in the Koray course. For each one, give its name, its purpose, and what phase or layer it belongs to. Include: Topical Map, Quarice, Semantic Content Network, Information Tree, Question Generation, Seconds Modeling, Contextual Vector/Bridge/Border/Flow/Coverage, Lexical Relations, Query Network Analysis.",
+      "response_length": 10943,
+      "steps": [],
+      "frameworks": [],
+      "sections": [
+        {
+          "name": "Content Brief Creation",
+          "description": "**Content Item Brief** *Purpose:* A detailed instruction document that tells authors exactly what to write, in what order, and in what format (e.g., tables, lists, specific phrases). It bridges strategy and execution. *Phase:* Content Brief Creation"
+        },
+        {
+          "name": "Additional structuring concepts that work within or alongside Quarice",
+          "description": "- **Contextual Border** *Purpose:* A specific heading that acts as a separator between the main content (macro context) and supplementary content (micro context). It prevents context dilution and clearly defines the scope of each section. *Phase:* Content Structuring"
+        },
+        {
+          "name": "Content Optimization",
+          "description": "**Content Configuration** *Purpose:* The iterative process of adjusting content\u2014such as word order, sentence structure, or the placement of questions\u2014based on performance data. It aims to improve rankings by fine\u2011tuning relevance and responsiveness. *Phase:* Content Optimization"
+        },
+        {
+          "name": "Advanced Techniques",
+          "description": "**Seconds Modeling** *Purpose:* A technique for fine\u2011tuning language models by controlling word sequences and context. It allows you to influence how a model generates text, ensuring that specific terms appear together in the right context. *Phase:* Advanced / Language Model Training"
+        }
+      ],
+      "directives": [
+        "also introduce \u201cgroup practice",
+        "of analyzing the network of search queries related to a topic",
+        "content that answers follow-up questions",
+        "of adjusting content\u2014such as word order"
+      ],
+      "query_time_seconds": 115.3,
+      "timestamp": "2026-05-26T11:54:13.974842"
+    },
+    "Q10-action-directives": {
+      "target": "action_directives",
+      "query": "What are the exact action directives for building topical authority? For each step, give the specific action: what do you actually do? What file do you create? What tool do you run? What output do you produce?",
+      "response_length": 5103,
+      "steps": [],
+      "frameworks": [],
+      "sections": [
+        {
+          "name": "Define the Central Entity and Source Context",
+          "description": "**What you do:** Choose the primary subject (central entity) that will appear across the entire website. Then, define your source context\u2014your brand identity, monetization model, and unique perspective. Unite these to form the core section of your topical map and the central search intent. - **Outpu"
+        },
+        {
+          "name": "Create the Raw Topical Map",
+          "description": "**What you do:** Build a structured diagram or spreadsheet that lists entity-attribute pairs. Organize them into two segments: the **core section** (directly tied to monetization) and the **outer section** (attributes of the central entity that prove broader relevance). Include the central search in"
+        },
+        {
+          "name": "Process the Topical Map into Title Tags and URL Structure",
+          "description": "**What you do:** Verbalize each raw node into a **title tag** using specific methodologies (e.g., conjunctive words like \u201cand,\u201d hypernym-hyponym pairs). Design the **URL structure** with a three-layer hierarchy (root \u2192 seed \u2192 node), ensuring no word repetition and logical crawl paths. Place the most"
+        },
+        {
+          "name": "Create Content Briefs",
+          "description": "**What you do:** For each page, draft a **content brief**\u2014a strategic document that captures the central search intent and outlines the article\u2019s structure. It must include: - The H1 (macro context). - All headings (contextual vectors) in hierarchical order. - **Answer terms** for specific question "
+        },
+        {
+          "name": "Write Articles Using the Article Methodology",
+          "description": "**What you do:** Human authors follow the content briefs to produce the actual web pages. The writing must adhere to the **Article Methodology**: - Start with a definition that includes synonyms and scientific terminology. - Cover root attributes (e.g., benefits, types) early. - Use extractive/abstr"
+        },
+        {
+          "name": "Implement Internal Linking with Anchor Text",
+          "description": "**What you do:** Connect all pages using **anchor text** that matches the target page\u2019s title and the source page\u2019s heading. The first instance of anchor text often carries a location attribute. Links must follow the contextual vectors defined in the topical map, passing relevance and PageRank. Use "
+        },
+        {
+          "name": "Publish with Momentum and Monitor",
+          "description": "**What you do:** Publish content with proper **publication dates** to create momentum. Maintain a consistent frequency. After publishing, monitor search engine feedback and perform **bulk changes** across the network (e.g., swapping question order, adding new query terms) to improve relevance. Use h"
+        }
+      ],
+      "directives": [
+        "is centered around creating a **topical map**",
+        "central entity and source context",
+        "primary subject (central entity) that will appear across the entire website",
+        "source context\u2014your brand identity",
+        "structured diagram or spreadsheet that lists entity-attribute pairs",
+        "topical map into title tags and url structure",
+        "**url structure** with a three-layer hierarchy (root \u2192 seed \u2192 node)",
+        "rticles using the article methodology",
+        "internal linking with anchor text"
+      ],
+      "query_time_seconds": 82.2,
+      "timestamp": "2026-05-26T11:55:36.178448"
+    }
+  },
+  "delta": {
+    "new_frameworks": [],
+    "new_methods": [],
+    "new_directives": [],
+    "enhanced_rules": [],
+    "total_new": 0,
+    "total_enhanced": 0,
+    "total_new_frameworks": 0,
+    "total_new_methods": 0
+  }
+}

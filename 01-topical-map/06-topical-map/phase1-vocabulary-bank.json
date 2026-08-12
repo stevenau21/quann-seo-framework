@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "source": "SERP Corpus Extraction \u2014 26 competing domains across 5 queries",
+    "methodology": "DuckDuckGo organic SERP \u2192 title + snippet + URL slug parsing \u2192 expert filter",
+    "replaces": "WordNet 3.1 extraction (v1.0) \u2014 discarded due to algorithmic noise (barony, trafficker, cliff dwelling)",
+    "date_generated": "2026-05-25T23:36:46.464152",
+    "expert_filter": "Quan Nguyen \u2014 approved all terms; 'buyer rebate' removed per explicit filter instruction",
+    "total_terms": 94
+  },
+  "government_programs": {
+    "description": "State & federal programs relevant to Texas home buyers. USE ON: First-Time Buyer Guide, Relocation Guide, DPA pages.",
+    "terms": {
+      "primary": [
+        "TSAHC",
+        "TDHCA",
+        "My First Texas Home",
+        "Home Sweet Texas Loan",
+        "Homes for Texas Heroes",
+        "Texas Homebuyers Program"
+      ],
+      "supporting": [
+        "down payment assistance",
+        "closing cost assistance",
+        "DPA program",
+        "grant",
+        "forgivable loan",
+        "deferred second lien",
+        "620+ credit score",
+        "first-time home buyer",
+        "FTHB"
+      ]
+    }
+  },
+  "tax_districts": {
+    "description": "Texas-specific tax entities. USE ON: Relocation Guide, Property Tax page, Master-Planned Community pages.",
+    "terms": {
+      "abbreviations": [
+        "MUD",
+        "PID",
+        "WCID",
+        "PUD",
+        "TIF"
+      ],
+      "expanded": [
+        "Municipal Utility District",
+        "Property Improvement District",
+        "Water Control and Improvement District"
+      ],
+      "concepts": [
+        "MUD tax rate",
+        "PID assessment",
+        "infrastructure bond",
+        "homestead exemption",
+        "property tax assessment",
+        "tax deductible",
+        "disclosure requirement"
+      ]
+    }
+  },
+  "buyer_representation": {
+    "description": "Terms defining the agent-client relationship. USE ON: Buyer Representation page, About page, Why a Buyer's Agent.",
+    "terms": {
+      "primary": [
+        "buyer agent",
+        "buyer broker",
+        "buyer representation agreement",
+        "fiduciary duty",
+        "exclusive representation"
+      ],
+      "supporting": [
+        "pre-approval",
+        "mortgage readiness",
+        "negotiation",
+        "offer strategy",
+        "closing coordination"
+      ]
+    }
+  },
+  "relocation": {
+    "description": "Terms for out-of-state/cross-market movers. USE ON: Relocation Guide, Houston/Katy area pages.",
+    "terms": {
+      "primary": [
+        "relocating to",
+        "out of state",
+        "transferee",
+        "relocation package",
+        "corporate relocation",
+        "moving to"
+      ],
+      "supporting": [
+        "cost of living",
+        "commute time",
+        "school district",
+        "neighborhood tour",
+        "virtual tour"
+      ]
+    }
+  },
+  "houston_metro": {
+    "description": "Greater Houston submarket names. USE ON: Area Guides, Neighborhood pages, Market Reports.",
+    "terms": [
+      "Houston metro",
+      "Greater Houston",
+      "Houston area",
+      "inner-loop",
+      "Energy Corridor",
+      "West Houston",
+      "Fort Bend County",
+      "Harris County"
+    ]
+  },
+  "katy_submarket": {
+    "description": "Katy-specific location entities. USE ON: Katy Buyer Guide, Community pages, School pages.",
+    "terms": [
+      "Katy ISD",
+      "Katy Texas",
+      "Katy area",
+      "Katy Mills",
+      "Cinco Ranch",
+      "master-planned community",
+      "77494",
+      "77450",
+      "Katy Freeway",
+      "Grand Parkway"
+    ]
+  },
+  "new_construction": {
+    "description": "Builder & new-home terminology. USE ON: New Construction Guide, Master-Planned Community pages.",
+    "terms": [
+      "new construction",
+      "builder incentive",
+      "quick move-in",
+      "inventory home",
+      "model home",
+      "floor plan",
+      "spec home",
+      "production builder",
+      "custom builder",
+      "new home community",
+      "master-planned",
+      "amenity center",
+      "HOA dues"
+    ]
+  },
+  "financial": {
+    "description": "Transaction & lending terms. USE ON: Buyer Guide, First-Time Buyer, Financing pages.",
+    "terms": [
+      "closing cost",
+      "earnest money",
+      "option period",
+      "inspection contingency",
+      "appraisal gap",
+      "seller concession",
+      "rate buydown",
+      "mortgage points",
+      "FHA loan",
+      "conventional loan",
+      "VA loan",
+      "USDA loan"
+    ]
+  },
+  "predicate_families": {
+    "FIND": {
+      "approved": [
+        "search",
+        "discover",
+        "locate",
+        "identify",
+        "browse",
+        "explore"
+      ],
+      "banned": [
+        "look for",
+        "hunt down",
+        "scour"
+      ],
+      "example": "Browse new construction inventory in Katy"
+    },
+    "LEARN": {
+      "approved": [
+        "understand",
+        "know",
+        "master",
+        "grasp",
+        "compare",
+        "differentiate"
+      ],
+      "banned": [
+        "get smart about",
+        "wrap your head around",
+        "figure out"
+      ],
+      "example": "Understand how MUD and PID taxes affect your monthly payment"
+    },
+    "COMPARE": {
+      "approved": [
+        "weigh",
+        "evaluate",
+        "contrast",
+        "assess",
+        "side-by-side"
+      ],
+      "banned": [
+        "pit against",
+        "stack up"
+      ],
+      "example": "Compare FHA, conventional, and VA loan options side by side"
+    },
+    "PROTECT": {
+      "approved": [
+        "secure",
+        "safeguard",
+        "ensure",
+        "verify",
+        "inspect"
+      ],
+      "banned": [
+        "shield",
+        "guard",
+        "defend"
+      ],
+      "example": "Verify inspection contingencies protect your earnest money"
+    },
+    "SAVE": {
+      "approved": [
+        "reduce",
+        "minimize",
+        "offset",
+        "offset",
+        "preserve"
+      ],
+      "banned": [
+        "slash",
+        "hack",
+        "trick"
+      ],
+      "example": "TSAHC grants offset up to 5% of your down payment"
+    },
+    "BUILD": {
+      "approved": [
+        "construct",
+        "design",
+        "customize",
+        "select",
+        "upgrade"
+      ],
+      "banned": [
+        "erect",
+        "fabricate",
+        "fashion"
+      ],
+      "example": "Select your floor plan and customize finishes"
+    },
+    "INVEST": {
+      "approved": [
+        "grow",
+        "accumulate",
+        "appreciate",
+        "build equity",
+        "leverage"
+      ],
+      "banned": [
+        "play the market",
+        "flip",
+        "bet on"
+      ],
+      "example": "Build equity through new home appreciation in master-planned communities"
+    },
+    "MOVE": {
+      "approved": [
+        "relocate",
+        "transfer",
+        "transition",
+        "settle"
+      ],
+      "banned": [
+        "uproot",
+        "haul",
+        "cart"
+      ],
+      "example": "Relocate from out of state to Katy with a guided transition plan"
+    }
+  },
+  "banned": {
+    "modality": [
+      "might",
+      "maybe",
+      "perhaps",
+      "could possibly",
+      "one might say"
+    ],
+    "empty_adjectives": [
+      "amazing",
+      "incredible",
+      "unbelievable",
+      "stunning",
+      "breathtaking",
+      "top-notch",
+      "world-class",
+      "premier",
+      "leading",
+      "best-in-class"
+    ],
+    "fluff_transitions": [
+      "without further ado",
+      "in today's market",
+      "needless to say",
+      "it goes without saying",
+      "as you may know"
+    ],
+    "passive_starts": [
+      "it is believed that",
+      "it can be seen that",
+      "it has been noted that",
+      "there are many",
+      "it is important to note"
+    ]
+  },
+  "prewrite_checklist": [
+    "What is the single entity this page serves? (One only.)",
+    "Which canonical predicate family applies? (Pick from 8 approved.)",
+    "Which vocabulary buckets are approved for this page intent?",
+    "Is every sentence Entity-First? (Subject leads the sentence.)",
+    "Have all modal verbs and empty adjectives been removed?",
+    "Does the headline contain the primary approved entity from the vocabulary bank?",
+    "Are all bridge concepts (schools, commute, parks) relevant to the Katy/Houston submarket?",
+    "Is the CTA predicate-aligned? (PROTECT \u2192 'Secure your offer', SAVE \u2192 'Reduce your costs')",
+    "Does the page contribute to one specific contextual bridge in the topical map?"
+  ]
+}
