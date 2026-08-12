@@ -1,0 +1,1400 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "id": "topical-authority",
+          "label": "Topical Authority",
+          "tier1": 12,
+          "tier2": 38,
+          "grounding_rate": 0.24,
+          "centrality": 89,
+          "size": 74
+        }
+      },
+      {
+        "data": {
+          "id": "semantic-seo",
+          "label": "Semantic SEO",
+          "tier1": 11,
+          "tier2": 26,
+          "grounding_rate": 0.2973,
+          "centrality": 63,
+          "size": 59
+        }
+      },
+      {
+        "data": {
+          "id": "holistic-seo",
+          "label": "Holistic SEO",
+          "tier1": 9,
+          "tier2": 51,
+          "grounding_rate": 0.15,
+          "centrality": 78,
+          "size": 78
+        }
+      },
+      {
+        "data": {
+          "id": "entity-based-seo",
+          "label": "Entity-Based SEO",
+          "tier1": 19,
+          "tier2": 33,
+          "grounding_rate": 0.3654,
+          "centrality": 95,
+          "size": 90
+        }
+      },
+      {
+        "data": {
+          "id": "technical-seo",
+          "label": "Technical SEO",
+          "tier1": 24,
+          "tier2": 58,
+          "grounding_rate": 0.2927,
+          "centrality": 127,
+          "size": 130
+        }
+      },
+      {
+        "data": {
+          "id": "seo-information-retrieval",
+          "label": "SEO Information Retrieval",
+          "tier1": 7,
+          "tier2": 23,
+          "grounding_rate": 0.2333,
+          "centrality": 49,
+          "size": 44
+        }
+      },
+      {
+        "data": {
+          "id": "content-quality-linguistics",
+          "label": "Content Quality & Linguistics",
+          "tier1": 7,
+          "tier2": 20,
+          "grounding_rate": 0.2593,
+          "centrality": 40,
+          "size": 41
+        }
+      },
+      {
+        "data": {
+          "id": "multilingual-international-seo",
+          "label": "Multilingual & International SEO",
+          "tier1": 6,
+          "tier2": 36,
+          "grounding_rate": 0.1429,
+          "centrality": 66,
+          "size": 54
+        }
+      },
+      {
+        "data": {
+          "id": "knowledge-graph-structured-data",
+          "label": "Knowledge Graph & Structured Data",
+          "tier1": 14,
+          "tier2": 39,
+          "grounding_rate": 0.2642,
+          "centrality": 70,
+          "size": 81
+        }
+      },
+      {
+        "data": {
+          "id": "python-data-driven-seo",
+          "label": "Python & Data-Driven SEO",
+          "tier1": 16,
+          "tier2": 18,
+          "grounding_rate": 0.4706,
+          "centrality": 53,
+          "size": 66
+        }
+      },
+      {
+        "data": {
+          "id": "conversion-growth",
+          "label": "Conversion & Growth",
+          "tier1": 10,
+          "tier2": 36,
+          "grounding_rate": 0.2174,
+          "centrality": 56,
+          "size": 66
+        }
+      },
+      {
+        "data": {
+          "id": "seo-case-study-methodology",
+          "label": "SEO Case Study Methodology",
+          "tier1": 9,
+          "tier2": 12,
+          "grounding_rate": 0.4286,
+          "centrality": 1692,
+          "size": 39
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "id": "e0",
+          "source": "topical-authority",
+          "target": "entity-based-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e1",
+          "source": "topical-authority",
+          "target": "multilingual-international-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e2",
+          "source": "topical-authority",
+          "target": "knowledge-graph-structured-data",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e3",
+          "source": "topical-authority",
+          "target": "semantic-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e4",
+          "source": "topical-authority",
+          "target": "technical-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e5",
+          "source": "topical-authority",
+          "target": "content-quality-linguistics",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e6",
+          "source": "topical-authority",
+          "target": "seo-information-retrieval",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e7",
+          "source": "semantic-seo",
+          "target": "knowledge-graph-structured-data",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e8",
+          "source": "semantic-seo",
+          "target": "topical-authority",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e9",
+          "source": "semantic-seo",
+          "target": "content-quality-linguistics",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e10",
+          "source": "holistic-seo",
+          "target": "semantic-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e11",
+          "source": "holistic-seo",
+          "target": "python-data-driven-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e12",
+          "source": "holistic-seo",
+          "target": "content-quality-linguistics",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e13",
+          "source": "entity-based-seo",
+          "target": "knowledge-graph-structured-data",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e14",
+          "source": "entity-based-seo",
+          "target": "semantic-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e15",
+          "source": "entity-based-seo",
+          "target": "content-quality-linguistics",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e16",
+          "source": "entity-based-seo",
+          "target": "seo-information-retrieval",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e17",
+          "source": "entity-based-seo",
+          "target": "topical-authority",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e18",
+          "source": "technical-seo",
+          "target": "entity-based-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e19",
+          "source": "technical-seo",
+          "target": "conversion-growth",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e20",
+          "source": "technical-seo",
+          "target": "python-data-driven-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e21",
+          "source": "technical-seo",
+          "target": "semantic-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e22",
+          "source": "technical-seo",
+          "target": "seo-information-retrieval",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e23",
+          "source": "seo-information-retrieval",
+          "target": "entity-based-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e24",
+          "source": "seo-information-retrieval",
+          "target": "technical-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e25",
+          "source": "seo-information-retrieval",
+          "target": "python-data-driven-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e26",
+          "source": "seo-information-retrieval",
+          "target": "content-quality-linguistics",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e27",
+          "source": "content-quality-linguistics",
+          "target": "conversion-growth",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e28",
+          "source": "content-quality-linguistics",
+          "target": "python-data-driven-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e29",
+          "source": "multilingual-international-seo",
+          "target": "conversion-growth",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e30",
+          "source": "multilingual-international-seo",
+          "target": "python-data-driven-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e31",
+          "source": "multilingual-international-seo",
+          "target": "technical-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e32",
+          "source": "multilingual-international-seo",
+          "target": "content-quality-linguistics",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e33",
+          "source": "multilingual-international-seo",
+          "target": "topical-authority",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e34",
+          "source": "knowledge-graph-structured-data",
+          "target": "content-quality-linguistics",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e35",
+          "source": "python-data-driven-seo",
+          "target": "content-quality-linguistics",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e36",
+          "source": "seo-case-study-methodology",
+          "target": "entity-based-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e37",
+          "source": "seo-case-study-methodology",
+          "target": "knowledge-graph-structured-data",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e38",
+          "source": "seo-case-study-methodology",
+          "target": "semantic-seo",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e39",
+          "source": "seo-case-study-methodology",
+          "target": "content-quality-linguistics",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e40",
+          "source": "seo-case-study-methodology",
+          "target": "seo-information-retrieval",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e41",
+          "source": "seo-case-study-methodology",
+          "target": "topical-authority",
+          "type": "depends_on",
+          "strength": 1.0,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e42",
+          "source": "topical-authority",
+          "target": "semantic-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e43",
+          "source": "topical-authority",
+          "target": "entity-based-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e44",
+          "source": "topical-authority",
+          "target": "multilingual-international-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e45",
+          "source": "topical-authority",
+          "target": "seo-case-study-methodology",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e46",
+          "source": "semantic-seo",
+          "target": "topical-authority",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e47",
+          "source": "semantic-seo",
+          "target": "holistic-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e48",
+          "source": "semantic-seo",
+          "target": "entity-based-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e49",
+          "source": "semantic-seo",
+          "target": "technical-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e50",
+          "source": "semantic-seo",
+          "target": "seo-case-study-methodology",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e51",
+          "source": "entity-based-seo",
+          "target": "topical-authority",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e52",
+          "source": "entity-based-seo",
+          "target": "technical-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e53",
+          "source": "entity-based-seo",
+          "target": "seo-information-retrieval",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e54",
+          "source": "entity-based-seo",
+          "target": "seo-case-study-methodology",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e55",
+          "source": "technical-seo",
+          "target": "topical-authority",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e56",
+          "source": "technical-seo",
+          "target": "seo-information-retrieval",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e57",
+          "source": "technical-seo",
+          "target": "multilingual-international-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e58",
+          "source": "seo-information-retrieval",
+          "target": "topical-authority",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e59",
+          "source": "seo-information-retrieval",
+          "target": "entity-based-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e60",
+          "source": "seo-information-retrieval",
+          "target": "technical-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e61",
+          "source": "seo-information-retrieval",
+          "target": "seo-case-study-methodology",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e62",
+          "source": "content-quality-linguistics",
+          "target": "topical-authority",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e63",
+          "source": "content-quality-linguistics",
+          "target": "semantic-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e64",
+          "source": "content-quality-linguistics",
+          "target": "holistic-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e65",
+          "source": "content-quality-linguistics",
+          "target": "entity-based-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e66",
+          "source": "content-quality-linguistics",
+          "target": "seo-information-retrieval",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e67",
+          "source": "content-quality-linguistics",
+          "target": "multilingual-international-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e68",
+          "source": "content-quality-linguistics",
+          "target": "knowledge-graph-structured-data",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e69",
+          "source": "content-quality-linguistics",
+          "target": "python-data-driven-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e70",
+          "source": "content-quality-linguistics",
+          "target": "seo-case-study-methodology",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e71",
+          "source": "multilingual-international-seo",
+          "target": "topical-authority",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e72",
+          "source": "knowledge-graph-structured-data",
+          "target": "topical-authority",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e73",
+          "source": "knowledge-graph-structured-data",
+          "target": "semantic-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e74",
+          "source": "knowledge-graph-structured-data",
+          "target": "entity-based-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e75",
+          "source": "knowledge-graph-structured-data",
+          "target": "seo-case-study-methodology",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e76",
+          "source": "python-data-driven-seo",
+          "target": "holistic-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e77",
+          "source": "python-data-driven-seo",
+          "target": "technical-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e78",
+          "source": "python-data-driven-seo",
+          "target": "seo-information-retrieval",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e79",
+          "source": "python-data-driven-seo",
+          "target": "content-quality-linguistics",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e80",
+          "source": "python-data-driven-seo",
+          "target": "multilingual-international-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e81",
+          "source": "conversion-growth",
+          "target": "technical-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e82",
+          "source": "conversion-growth",
+          "target": "content-quality-linguistics",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e83",
+          "source": "conversion-growth",
+          "target": "multilingual-international-seo",
+          "type": "supports",
+          "strength": 0.8,
+          "directed": true
+        }
+      },
+      {
+        "data": {
+          "id": "e84",
+          "source": "topical-authority",
+          "target": "entity-based-seo",
+          "type": "cross_membership",
+          "strength": 0.5506,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e85",
+          "source": "topical-authority",
+          "target": "seo-information-retrieval",
+          "type": "cross_membership",
+          "strength": 0.5453,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e86",
+          "source": "topical-authority",
+          "target": "semantic-seo",
+          "type": "cross_membership",
+          "strength": 0.4081,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e87",
+          "source": "semantic-seo",
+          "target": "entity-based-seo",
+          "type": "cross_membership",
+          "strength": 0.5289,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e88",
+          "source": "semantic-seo",
+          "target": "knowledge-graph-structured-data",
+          "type": "cross_membership",
+          "strength": 0.3617,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e89",
+          "source": "semantic-seo",
+          "target": "technical-seo",
+          "type": "cross_membership",
+          "strength": 0.446,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e90",
+          "source": "semantic-seo",
+          "target": "seo-information-retrieval",
+          "type": "cross_membership",
+          "strength": 0.5073,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e91",
+          "source": "holistic-seo",
+          "target": "entity-based-seo",
+          "type": "cross_membership",
+          "strength": 0.5268,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e92",
+          "source": "holistic-seo",
+          "target": "topical-authority",
+          "type": "cross_membership",
+          "strength": 0.5566,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e93",
+          "source": "holistic-seo",
+          "target": "seo-information-retrieval",
+          "type": "cross_membership",
+          "strength": 0.561,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e94",
+          "source": "holistic-seo",
+          "target": "semantic-seo",
+          "type": "cross_membership",
+          "strength": 0.4044,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e95",
+          "source": "entity-based-seo",
+          "target": "seo-information-retrieval",
+          "type": "cross_membership",
+          "strength": 0.5265,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e96",
+          "source": "technical-seo",
+          "target": "topical-authority",
+          "type": "cross_membership",
+          "strength": 0.4787,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e97",
+          "source": "technical-seo",
+          "target": "seo-information-retrieval",
+          "type": "cross_membership",
+          "strength": 0.4857,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e98",
+          "source": "technical-seo",
+          "target": "knowledge-graph-structured-data",
+          "type": "cross_membership",
+          "strength": 0.4533,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e99",
+          "source": "technical-seo",
+          "target": "holistic-seo",
+          "type": "cross_membership",
+          "strength": 0.4731,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e100",
+          "source": "technical-seo",
+          "target": "entity-based-seo",
+          "type": "cross_membership",
+          "strength": 0.5861,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e101",
+          "source": "seo-information-retrieval",
+          "target": "knowledge-graph-structured-data",
+          "type": "cross_membership",
+          "strength": 0.4138,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e102",
+          "source": "content-quality-linguistics",
+          "target": "entity-based-seo",
+          "type": "cross_membership",
+          "strength": 0.564,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e103",
+          "source": "content-quality-linguistics",
+          "target": "semantic-seo",
+          "type": "cross_membership",
+          "strength": 0.4415,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e104",
+          "source": "content-quality-linguistics",
+          "target": "topical-authority",
+          "type": "cross_membership",
+          "strength": 0.4366,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e105",
+          "source": "content-quality-linguistics",
+          "target": "technical-seo",
+          "type": "cross_membership",
+          "strength": 0.4362,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e106",
+          "source": "multilingual-international-seo",
+          "target": "topical-authority",
+          "type": "cross_membership",
+          "strength": 0.4241,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e107",
+          "source": "multilingual-international-seo",
+          "target": "semantic-seo",
+          "type": "cross_membership",
+          "strength": 0.4181,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e108",
+          "source": "multilingual-international-seo",
+          "target": "knowledge-graph-structured-data",
+          "type": "cross_membership",
+          "strength": 0.3869,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e109",
+          "source": "multilingual-international-seo",
+          "target": "entity-based-seo",
+          "type": "cross_membership",
+          "strength": 0.4341,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e110",
+          "source": "multilingual-international-seo",
+          "target": "seo-information-retrieval",
+          "type": "cross_membership",
+          "strength": 0.4445,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e111",
+          "source": "knowledge-graph-structured-data",
+          "target": "topical-authority",
+          "type": "cross_membership",
+          "strength": 0.4692,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e112",
+          "source": "knowledge-graph-structured-data",
+          "target": "entity-based-seo",
+          "type": "cross_membership",
+          "strength": 0.5253,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e113",
+          "source": "knowledge-graph-structured-data",
+          "target": "holistic-seo",
+          "type": "cross_membership",
+          "strength": 0.4136,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e114",
+          "source": "python-data-driven-seo",
+          "target": "entity-based-seo",
+          "type": "cross_membership",
+          "strength": 0.4899,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e115",
+          "source": "python-data-driven-seo",
+          "target": "semantic-seo",
+          "type": "cross_membership",
+          "strength": 0.423,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e116",
+          "source": "python-data-driven-seo",
+          "target": "topical-authority",
+          "type": "cross_membership",
+          "strength": 0.4368,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e117",
+          "source": "python-data-driven-seo",
+          "target": "seo-information-retrieval",
+          "type": "cross_membership",
+          "strength": 0.4433,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e118",
+          "source": "conversion-growth",
+          "target": "semantic-seo",
+          "type": "cross_membership",
+          "strength": 0.4359,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e119",
+          "source": "conversion-growth",
+          "target": "topical-authority",
+          "type": "cross_membership",
+          "strength": 0.4956,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e120",
+          "source": "conversion-growth",
+          "target": "seo-information-retrieval",
+          "type": "cross_membership",
+          "strength": 0.5339,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e121",
+          "source": "conversion-growth",
+          "target": "entity-based-seo",
+          "type": "cross_membership",
+          "strength": 0.4941,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e122",
+          "source": "seo-case-study-methodology",
+          "target": "entity-based-seo",
+          "type": "cross_membership",
+          "strength": 0.5407,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e123",
+          "source": "seo-case-study-methodology",
+          "target": "topical-authority",
+          "type": "cross_membership",
+          "strength": 0.5081,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e124",
+          "source": "seo-case-study-methodology",
+          "target": "semantic-seo",
+          "type": "cross_membership",
+          "strength": 0.399,
+          "directed": false
+        }
+      },
+      {
+        "data": {
+          "id": "e125",
+          "source": "seo-case-study-methodology",
+          "target": "seo-information-retrieval",
+          "type": "cross_membership",
+          "strength": 0.5731,
+          "directed": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+Backlinko - On-Page SEO: The Definitive Guide (2026)
+
+Source: https://backlinko.com/on-page-seo
+Type: practitioner_research
+Author: Brian Dean
+Confidence: probable
+
+On-page SEO means optimizing for two key audiences: people reading your content AND machines that decide whether to rank or cite it.
+
+Key principles:
+
+1. Title Tags: Still help with rankings. Limit to 50-60 characters. Put keyword near the beginning. Use modifiers like "best", "guide", "checklist", "fast", "review" to rank for long-tail versions. Every page must have a UNIQUE title tag.
+
+2. Meta Descriptions: Google doesn't use them for ranking but they influence CTR. Keep under ~160 characters (120 for mobile). Include keyword - Google bolds matching terms. Be concise, unique per page, focus on value, avoid clickbait.
+
+3. Unique Content: Don't just regurgitate what's out there. Add "information gain" - something new: a new tip, better curation, original research, case study, strong design/UX, downloadable resources. Pages with strong information gain get cited by AI tools like ChatGPT and Perplexity.
+
+4. Content Value: Content must be SUPER valuable to stand out. Millions of blog posts published daily.
+
+5. Search Intent: Optimize for what users actually want. Match content format to intent (informational, commercial, transactional, navigational).
+
+6. LLM-Friendly Formatting: Structure content so both humans and LLMs can quickly scan, chunk, and summarize. This matters for AI search engines.
+
+7. Internal Links: Important for SEO structure and user navigation.
+
+8. On-Page UX: Consider bounce rate, dwell time, page loading speed, and mobile optimization.
+
+9. Schema Markup: Important for rich results and AI citation potential.
+
+10. Keywords: Still matter. Google's "How Search Works" confirms keywords are the "most basic signal" of relevance. Top-ranking pages almost all use exact keyword in title tag.
+
+Key shift in 2026: Traditional on-page SEO still matters BUT you must also optimize for LLM-friendly formatting and AI citation potential. The same factors that hook human readers also matter to LLMs.

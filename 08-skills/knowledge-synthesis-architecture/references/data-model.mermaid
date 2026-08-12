@@ -1,0 +1,44 @@
+graph TB
+    subgraph ENTITIES["🧬 Entity Layer — 204 extracted from LightRAG"]
+        E["Entity<br/>━━━━━━━━<br/>entity_name: string<br/>content: text (description)<br/>types: [PERSON, ORG, LOC...]<br/>source_id: chunks that produced it<br/>vector: 768-dim embedding<br/>__created_at__: timestamp<br/>__id__: ent-xxxxx<br/>━━━━━━━━<br/>flagged: contamination?<br/>confidence: confirmed/probable/speculative"]
+    end
+
+    subgraph RELATIONS["🔗 Relation Layer — connections between entities"]
+        R["Relation<br/>━━━━━━━━<br/>source: entity_name<br/>target: entity_name<br/>description: text<br/>keywords: [buyer, mortgage...]<br/>source_id: chunk reference<br/>━━━━━━━━<br/>weight: occurrence frequency<br/>is_contaminated: from template?"]
+    end
+
+    subgraph DOCUMENTS["📄 Document Layer — ingested pages"]
+        DOC["Document<br/>━━━━━━━━<br/>doc_id: doc-xxxxx<br/>track_id: insert_20260514_...<br/>status: processed/processing<br/>url: quann.homes/...<br/>category: real | template<br/>page_type: blog_post | service | homepage<br/>content: full text<br/>word_count: 10661<br/>entity_names: [14 entities]<br/>relation_pairs: [12 relations]<br/>━━━━━━━━<br/>created_at: timestamp<br/>updated_at: timestamp<br/>freshness: >90 days = stale"]
+    end
+
+    subgraph RULES["📏 Rule Layer — from methodology + platforms"]
+        RL["Rule<br/>━━━━━━━━<br/>rule_id: RE-FAQ-SCHEMA<br/>rule: description text<br/>category: schema | content_depth | seo<br/>applies_to: [blog_post, service]<br/>check: schema_faq<br/>confidence: confirmed | probable | speculative<br/>━━━━━━━━<br/>source: holisticseo.digital<br/>paradigm: SEO | AEO | GEO<br/>last_validated: timestamp<br/>citation_evidence: count"]
+    end
+
+    subgraph GAPS["🕳️ Gap Layer — detected deficiencies"]
+        G["Gap<br/>━━━━━━━━<br/>type: rule_gap | entity_coverage | format | freshness<br/>url: quann.homes/...<br/>severity: high | medium | low<br/>rule_id: RE-FAQ-SCHEMA<br/>detail: 'FAQ structure NOT found'<br/>━━━━━━━━<br/>dismissed: false<br/>dismissal_feeds_rule_confidence"]
+    end
+
+    subgraph EXPLOITS["💎 Exploit Layer — novel strategies"]
+        EX["Exploit<br/>━━━━━━━━<br/>hypothesis: text<br/>synthesis_ops: [contradiction, pattern, gap, cross-domain]<br/>test_page: url<br/>expected_outcome: text<br/>citation_results: count<br/>confidence: speculative → confirmed<br/>━━━━━━━━<br/>competitors_using: 0 (moat)"]
+    end
+
+    ENTITIES ===|"HAS"| DOCUMENTS
+    ENTITIES ===|"RELATES_TO"| RELATIONS
+    DOCUMENTS ===|"EVALUATED_BY"| RULES
+    RULES ===|"PRODUCES"| GAPS
+    GAPS ===|"INFORMS"| EXPLOITS
+    RELATIONS ===|"VALIDATES"| EXPLOITS
+    DOCUMENTS ===|"TESTED_IN"| EXPLOITS
+
+    TEMPLATE["⚠️ Contamination Flag<br/>━━━━━━━━<br/>entity.source = template page<br/>→ flagged as foreign<br/>→ excluded from briefs<br/>→ confidence downgraded<br/>━━━━━━━━<br/>54 pure contamination entities<br/>17 shared (merged in real pages)"]
+
+    ENTITIES -.->|"marked by"| TEMPLATE
+
+    style ENTITIES fill:#0f3460,stroke:#e94560,color:#fff
+    style RELATIONS fill:#16213e,stroke:#0f3460,color:#fff
+    style DOCUMENTS fill:#0f3460,stroke:#00b894,color:#fff
+    style RULES fill:#16213e,stroke:#e94560,color:#fff
+    style GAPS fill:#e94560,stroke:#fff,color:#fff
+    style EXPLOITS fill:#ffd700,stroke:#fff,color:#000
+    style TEMPLATE fill:#d63031,stroke:#fff,color:#fff

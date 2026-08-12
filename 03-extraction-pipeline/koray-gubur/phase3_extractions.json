@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "phase": 3,
+    "date": "2026-05-22T06:23:47.190601",
+    "total_extractions": 14
+  },
+  "extractions": [
+    {
+      "community_id": "merged_0",
+      "framework_name": "Topical Authority & Entity-Based SEO",
+      "doc_count": 374,
+      "entity_count": 186,
+      "extraction": {
+        "definition": "not found",
+        "components": "not found",
+        "methods": "not found",
+        "evolution": "not found",
+        "metrics": "not found",
+        "context": "not found",
+        "nuances": "not found",
+        "dependencies": "not found",
+        "unique_terms": "not found"
+      }
+    },
+    {
+      "community_id": "merged_2",
+      "framework_name": "Accessibility-Driven Technical SEO",
+      "doc_count": 149,
+      "entity_count": 136,
+      "extraction": {
+        "definition": "not found",
+        "components": "not found",
+        "methods": "not found",
+        "evolution": "not found",
+        "metrics": "not found",
+        "context": "not found",
+        "nuances": "not found",
+        "dependencies": "not found",
+        "unique_terms": "not found"
+      }
+    },
+    {
+      "community_id": 39,
+      "framework_name": "Multi-Channel Digital Acquisition & Conversion Optimization",
+      "doc_count": 89,
+      "entity_count": 129,
+      "extraction": {
+        "definition": "not found",
+        "components": "not found",
+        "methods": "not found",
+        "evolution": "not found",
+        "metrics": "not found",
+        "context": "not found",
+        "nuances": "not found",
+        "dependencies": "not found",
+        "unique_terms": "not found"
+      }
+    },
+    {
+      "community_id": "merged_4",
+      "framework_name": "Semantic SEO & Algorithmic Information Retrieval",
+      "doc_count": 302,
+      "entity_count": 92,
+      "extraction": {
+        "definition": "not found",
+        "components": "not found",
+        "methods": "not found",
+        "evolution": "not found",
+        "metrics": "not found",
+        "context": "not found",
+        "nuances": "not found",
+        "dependencies": "not found",
+        "unique_terms": "not found"
+      }
+    },
+    {
+      "community_id": "merged_3",
+      "framework_name": "Semantic Content Quality & Linguistic Precision",
+      "doc_count": 180,
+      "entity_count": 73,
+      "extraction": {
+        "definition": "not found",
+        "components": "not found",
+        "methods": "not found",
+        "evolution": "not found",
+        "metrics": "not found",
+        "context": "not found",
+        "nuances": "not found",
+        "dependencies": "not found",
+        "unique_terms": "not found"
+      }
+    },
+    {
+      "community_id": "merged_7",
+      "framework_name": "Holistic SEO Process",
+      "doc_count": 381,
+      "entity_count": 31,
+      "extraction": {
+        "definition": "not found",
+        "components": "not found",
+        "methods": "not found",
+        "evolution": "not found",
+        "metrics": "not found",
+        "context": "not found",
+        "nuances": "not found",
+        "dependencies": "not found",
+        "unique_terms": "not found"
+      }
+    },
+    {
+      "community_id": "merged_21",
+      "framework_name": "Choosing the Right Attributes with Accurate Values from Text SEO Case Study",
+      "doc_count": 5,
+      "entity_count": 11,
+      "extraction": {
+        "definition": "not found",
+        "components": "not found",
+        "methods": "not found",
+        "evolution": "not found",
+        "metrics": "not found",
+        "context": "not found",
+        "nuances": "not found",
+        "dependencies": "not found",
+        "unique_terms": "not found"
+      }
+    },
+    {
+      "community_id": 28,
+      "framework_name": "Inbound Conversion & Lifecycle Framework",
+      "doc_count": 9,
+      "entity_count": 8,
+      "extraction": {
+        "definition": "not found",
+        "components": "not found",
+        "methods": "not found",
+        "evolution": "not found",
+        "metrics": "not found",
+        "context": "not found",
+        "nuances": "not found",
+        "dependencies": "not found",
+        "unique_terms": "not found"
+      }
+    },
+    {
+      "community_id": 53,
+      "framework_name": "Strategic SEO Analysis Framework",
+      "doc_count": 4,
+      "entity_count": 8,
+      "extraction": {
+        "definition": "not found",
+        "components": "not found",
+        "methods": "not found",
+        "evolution": "not found",
+        "metrics": "not found",
+        "context": "not found",
+        "nuances": "not found",
+        "dependencies": "not found",
+        "unique_terms": "not found"
+      }
+    },
+    {
+      "community_id": "merged_15",
+      "framework_name": "Casino Search Engine Optimization",
+      "doc_count": 6,
+      "entity_count": 8,
+      "extraction": {
+        "definition": "Casino Search Engine Optimization is a specialized framework designed to provide better organic search performance for websites within the gambling market and industry, including both casino operators and casino affiliate websites.",
+        "components": [
+          "Competitive branding",
+          "Historical data",
+          "Search sessions",
+          "Information Retrieval",
+          "Extraction optimization for gambling types and betting industries"
+        ],
+        "methods": "not found",
+        "evolution": "not found",
+        "metrics": "not found",
+        "context": "The framework was created to address the specific needs of the highly competitive gambling and betting industry to improve organic visibility and search performance.",
+        "nuances": "Unlike generic SEO, this framework specifically integrates 'Extraction optimization' tailored to gambling types and betting industries, and emphasizes the role of Information Retrieval in the context of the gambling market.",
+        "dependencies": [
+          "Holistic SEO",
+          "Information Retrieval",
+          "Competitive Branding"
+        ],
+        "unique_terms": [
+          "Extraction optimization for gambling types"
+        ]
+      }
+    },
+    {
+      "community_id": "merged_19",
+      "framework_name": "Social Media Marketing Strategy",
+      "doc_count": 3,
+      "entity_count": 6,
+      "extraction": {
+        "definition": "Social Media Marketing (SMM) is defined as the use of social networks, including blogs and wikis, to promote a brand, product, or service. A key theoretical point of this framework is the interaction where users simultaneously act as both recipients and advertisers of the brand.",
+        "components": [
+          "Social networks (e.g., Facebook, Twitter)",
+          "Blogs",
+          "Wikis",
+          "Organic social media marketing",
+          "Paid social media marketing",
+          "Influencer marketing",
+          "Social listening",
+          "Customer service and support integration"
+        ],
+        "methods": [
+          "Viral marketing integration",
+          "Using social listening to inform strategy",
+          "Creating engaging social media content",
+          "Leveraging influencers for promotion",
+          "Generating leads and sales through platform interaction",
+          "Providing customer support via social channels"
+        ],
+        "evolution": "not found",
+        "metrics": [
+          "User retention rate (percentage of customers remaining after a defined period)",
+          "Gross retention rate",
+          "Net retention rate",
+          "Stickiness",
+          "Churn rate",
+          "Brand awareness",
+          "Engagement levels"
+        ],
+        "context": "The framework is designed to address the need for brands to promote products/services in a digital environment where the boundary between the consumer and the advertiser is blurred, solving the problem of how to effectively engage users to drive brand growth.",
+        "nuances": "Koray distinguishes SMM by emphasizing that users should not just be targets of advertising but should become 'sales' or 'advertisers' themselves, effectively turning the audience into a promotional force.",
+        "dependencies": [
+          "Buyer Personas (using analytical user data to represent specific user segments for targeted strategies)",
+          "Digital Marketing (as the overarching category)",
+          "Cohort Analysis (for measuring retention over time)"
+        ],
+        "unique_terms": [
+          "Holistic SEO (contextual framework)",
+          "Searcher Persona (distinguished from classic persona)"
+        ]
+      }
+    },
+    {
+      "community_id": "merged_20",
+      "framework_name": "Entity-Oriented Search",
+      "doc_count": 6,
+      "entity_count": 6,
+      "extraction": {
+        "definition": "Entity-oriented search is a strategy and framework within Semantic SEO that focuses on the recognition, definition, and ranking of named entities (such as brands, people, or organizations) rather than just keywords. It leverages the way search engines understand entities through their types, attributes, and values to improve prominence and trust.",
+        "components": [
+          "Entity-Attribute-Value (EAV) Architecture",
+          "Knowledge Bases",
+          "Named Entities",
+          "Knowledge Panel",
+          "Brand SERP",
+          "Author Rank / Author Named Entities",
+          "Semantic Content Networks"
+        ],
+        "methods": [
+          "Entity Identity Resolution: The process of recognizing an entity with its specific type, attributes, and values.",
+          "EAV Modeling: Using the Entity, Attribute, Value model to encode a space-efficient knowledge base for better knowledge representation.",
+          "Brand SERP Optimization: Improving the search engine result page for a company, organization, or person to enhance prestige and trust.",
+          "Knowledge Panel Optimization: Managing the structured data and information displayed in the knowledge panel to support the brand entity.",
+          "Author Recognition: Utilizing author tags and digital signatures to help search engines associate content with a specific author's expertise and validity."
+        ],
+        "evolution": "not found",
+        "metrics": [
+          "Click satisfaction models",
+          "Expertise thresholds for topics",
+          "Prominence of the named entity",
+          "Search engine trust"
+        ],
+        "context": "The framework was created to address the shift from lexical search (robotic, keyword-based queries) to semantic search (natural language, meaning-based queries). It solves the problem of how to establish authority and trust in an environment where search engines use neural nets and knowledge representation to understand the 'meaning' of concepts.",
+        "nuances": [
+          "Distinguishes between 'Entity Identity Resolution' and 'Named Entity Recognition', noting that resolution is a necessary subsequent step.",
+          "Differentiates between 'Branded SERP' (a SERP for a branded query) and 'Brand SERP' (the SERP for the exact brand name itself).",
+          "Views entities as 'living things' inside Knowledge Bases whose identities change as their attribute-value pairs evolve."
+        ],
+        "dependencies": [
+          "Semantic Search",
+          "Natural Language Processing (NLP)",
+          "Knowledge Representation (Semantic networks, frames, production rules)",
+          "Topical Authority",
+          "Information Retrieval"
+        ],
+        "unique_terms": [
+          "Entity-Attribute-Value (EAV) Architecture",
+          "Entity Identity Resolution",
+          "Brand SERP",
+          "Author Rank",
+          "Semantic Content Networks",
+          "Topical Borders",
+          "Topical Coverage",
+          "Contextual Vectors"
+        ]
+      }
+    },
+    {
+      "community_id": 2,
+      "framework_name": "AI-Driven Content Validation Framework",
+      "doc_count": 3,
+      "entity_count": 5,
+      "extraction": {
+        "definition": "not found",
+        "components": "not found",
+        "methods": "not found",
+        "evolution": "not found",
+        "metrics": "not found",
+        "context": "not found",
+        "nuances": "not found",
+        "dependencies": "not found",
+        "unique_terms": "not found"
+      }
+    },
+    {
+      "community_id": "merged_38",
+      "framework_name": "World Wide Web Page",
+      "doc_count": 5,
+      "entity_count": 5,
+      "extraction": {
+        "definition": "A World Wide Web (WEB) page is defined as a hypertext document that is part of a website on the open World Wide Web, designed to be presented to a user via a web browser and a web server. Koray uses the analogy of a website being a book, where the web page represents the individual concrete papers connected within that book.",
+        "components": [
+          "Hypertext Markup Language (HTML) for rendering the DOM",
+          "Cascaded StyleSheet (CSS) for design effects",
+          "JavaScript Code for dynamic interaction",
+          "Images (PNG, JPG, WebP, AVIF, JPEG)",
+          "Videos (WebM, MP4)",
+          "Font Files (TTF, WOFF, WOFF2, EOT)",
+          "Iframes as embeddable content",
+          "Navigation Design Elements (Header and Footer Menu)",
+          "Web Page Layout for internal components",
+          "Web Server (to serve the page to the user-agent)",
+          "Web Site (the parent entity the page belongs to)",
+          "Uniform Resource Locator (URL)"
+        ],
+        "methods": "not found",
+        "evolution": "The term 'web page' originated in the 1990s as an analogy for concrete papers connected to a book, leading to the conceptualization of the 'World Wide Web Site' as the book and the 'World Wide Web Page' as its constituent parts.",
+        "metrics": [
+          "Web page speed",
+          "Interaction to Next Paint (INP) for interactivity and user experience quality",
+          "PageRank (ability of a page to pass it)",
+          "Mobile usability (responsiveness)"
+        ],
+        "context": "The framework is created to define the fundamental elements and functions of a web page within the broader context of Holistic SEO, addressing how individual pages contribute to the overall quality, success of marketing campaigns, and search engine visibility of a website.",
+        "nuances": "Koray distinguishes the web page not just as a piece of content, but as a technical assembly of a DOM (Document Object Model) that interacts with specific user-agents (browsers) and servers, emphasizing the structural relationship between the page, the site, and the URL.",
+        "dependencies": [
+          "Document Object Model (DOM)",
+          "User-Agent/Web Browser functionality",
+          "Web Server architecture",
+          "Hypertext protocols"
+        ],
+        "unique_terms": [
+          "Holistic SEO"
+        ]
+      }
+    }
+  ]
+}

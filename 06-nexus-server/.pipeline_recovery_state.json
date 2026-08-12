@@ -1,0 +1,12 @@
+{
+  "recovery_counts": {},
+  "persistent_failures": {},
+  "quann-chat": {
+    "last_recoveries": [],
+    "total_recovered": 0
+  },
+  "seo-methodology": {
+    "last_recoveries": [],
+    "total_recovered": 0
+  }
+}

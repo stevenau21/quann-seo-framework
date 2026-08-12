@@ -1,0 +1,7 @@
+{
+    "sitemap_url": "https://quann.homes/sitemap.xml",
+    "sitemap_index": false,
+    "backend_port": 8011,
+    "chunk_size": 800,
+    "exclude_patterns": []
+}

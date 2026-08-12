@@ -1,0 +1,36 @@
+# LightRAG workspace data (large binary/graph files — not for git)
+workspace/
+*.graphml
+*.jsonl
+vdb_*
+kv_store_*
+graph_chunk_*
+graph_store_*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+*.egg
+
+# Environment & secrets
+.env
+*.key
+*.pem
+
+# Dify upload files (3,944 files — too large for repo)
+upload_files/
+
+# Logs (large, continuously updated)
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

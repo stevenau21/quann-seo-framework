@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Koray Gubur — Framework Dependency Graph (Phase 5)</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0a0f1a;
+    color: #cbd5e1;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    overflow: hidden;
+    height: 100vh;
+  }
+  #header {
+    position: absolute;
+    top: 20px; left: 24px;
+    z-index: 10;
+  }
+  #header h1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #e2e8f0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  #header .dot {
+    width: 8px; height: 8px;
+    background: #34d399;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+  #header .subtitle {
+    font-size: 11px;
+    color: #64748b;
+    margin-top: 4px;
+  }
+  #legend {
+    position: absolute;
+    bottom: 24px; right: 24px;
+    background: rgba(15, 23, 42, 0.9);
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+    padding: 14px 18px;
+    font-size: 10px;
+    z-index: 10;
+  }
+  #legend h3 {
+    font-size: 10px;
+    color: #94a3b8;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .legend-row { display: flex; align-items: center; gap: 8px; margin: 4px 0; }
+  .legend-line { width: 20px; height: 2px; border-radius: 1px; }
+  .legend-line.depends { background: #f87171; }
+  .legend-line.cross { background: #a78bfa; stroke-dasharray: 3 2; border: none; border-top: 1.5px dashed #a78bfa; background: none; }
+  .legend-node { width: 12px; height: 12px; border-radius: 50%; }
+  .legend-node.tier1 { background: #34d399; }
+  .legend-node.tier2 { background: #64748b; }
+  #stats {
+    position: absolute;
+    top: 20px; right: 24px;
+    z-index: 10;
+    text-align: right;
+    font-size: 10px;
+    color: #64748b;
+  }
+  #stats span { color: #34d399; font-weight: 600; }
+  svg { width: 100%; height: 100%; }
+  .node-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    fill: #e2e8f0;
+    text-anchor: middle;
+    pointer-events: none;
+  }
+  .node-sublabel {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8px;
+    fill: #64748b;
+    text-anchor: middle;
+    pointer-events: none;
+  }
+  .edge-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 7px;
+    fill: #475569;
+    text-anchor: middle;
+  }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <h1><span class="dot"></span>Koray Gubur — Framework Dependency Graph</h1>
+  <div class="subtitle">Phase 5 | 12 frameworks · 144 Tier 1 rules · 390 Tier 2 context · 126 edges</div>
+</div>
+
+<div id="stats">
+  <span>144</span> computable · <span>390</span> heuristic · <span>42</span> cross-memberships
+</div>
+
+<div id="legend">
+  <h3>Legend</h3>
+  <div class="legend-row"><div class="legend-node tier1"></div> Tier 1 (GROUNDED)</div>
+  <div class="legend-row"><div class="legend-node tier2"></div> Tier 2 (UNVERIFIED)</div>
+  <div class="legend-row" style="margin-top:6px"><div class="legend-line depends"></div> depends_on / supports</div>
+  <div class="legend-row"><div class="legend-line cross"></div> cross-membership</div>
+  <div style="margin-top:6px; color:#475569; font-size:9px">Node size ∝ Tier 1 count</div>
+</div>
+
+<svg id="graph"></svg>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+// ─── DATA ────────────────────────────────────────
+const nodes = [
+  {id:"topical-authority", name:"Topical Authority", t1:12, t2:38, g:0.24, centrality:89},
+  {id:"semantic-seo", name:"Semantic SEO", t1:11, t2:26, g:0.30, centrality:63},
+  {id:"holistic-seo", name:"Holistic SEO", t1:9, t2:51, g:0.15, centrality:78},
+  {id:"entity-based-seo", name:"Entity-Based SEO", t1:19, t2:33, g:0.37, centrality:95},
+  {id:"technical-seo", name:"Technical SEO", t1:24, t2:58, g:0.29, centrality:127},
+  {id:"seo-information-retrieval", name:"SEO IR", t1:7, t2:23, g:0.23, centrality:49},
+  {id:"content-quality-linguistics", name:"Content Quality", t1:7, t2:20, g:0.26, centrality:40},
+  {id:"multilingual-international-seo", name:"Multilingual SEO", t1:6, t2:36, g:0.14, centrality:66},
+  {id:"knowledge-graph-structured-data", name:"Knowledge Graph", t1:14, t2:39, g:0.26, centrality:70},
+  {id:"python-data-driven-seo", name:"Python SEO", t1:16, t2:18, g:0.47, centrality:53},
+  {id:"conversion-growth", name:"Conversion", t1:10, t2:36, g:0.22, centrality:56},
+  {id:"seo-case-study-methodology", name:"Case Study Method", t1:9, t2:12, g:0.43, centrality:1692}
+];
+
+const links = [
+  // depends_on (solid red)
+  {source:"topical-authority", target:"entity-based-seo", type:"depends_on"},
+  {source:"topical-authority", target:"multilingual-international-seo", type:"depends_on"},
+  {source:"topical-authority", target:"knowledge-graph-structured-data", type:"depends_on"},
+  {source:"topical-authority", target:"semantic-seo", type:"depends_on"},
+  {source:"topical-authority", target:"technical-seo", type:"depends_on"},
+  {source:"topical-authority", target:"content-quality-linguistics", type:"depends_on"},
+  {source:"topical-authority", target:"seo-information-retrieval", type:"depends_on"},
+  {source:"semantic-seo", target:"knowledge-graph-structured-data", type:"depends_on"},
+  {source:"semantic-seo", target:"seo-information-retrieval", type:"depends_on"},
+  {source:"semantic-seo", target:"topical-authority", type:"depends_on"},
+  {source:"semantic-seo", target:"holistic-seo", type:"depends_on"},
+  {source:"holistic-seo", target:"semantic-seo", type:"depends_on"},
+  {source:"holistic-seo", target:"entity-based-seo", type:"depends_on"},
+  {source:"holistic-seo", target:"python-data-driven-seo", type:"depends_on"},
+  {source:"entity-based-seo", target:"semantic-seo", type:"depends_on"},
+  {source:"entity-based-seo", target:"topical-authority", type:"depends_on"},
+  {source:"entity-based-seo", target:"knowledge-graph-structured-data", type:"depends_on"},
+  {source:"technical-seo", target:"semantic-seo", type:"depends_on"},
+  {source:"technical-seo", target:"entity-based-seo", type:"depends_on"},
+  {source:"seo-information-retrieval", target:"entity-based-seo", type:"depends_on"},
+  {source:"seo-information-retrieval", target:"knowledge-graph-structured-data", type:"depends_on"},
+  {source:"seo-information-retrieval", target:"multilingual-international-seo", type:"depends_on"},
+  {source:"content-quality-linguistics", target:"conversion-growth", type:"depends_on"},
+  {source:"content-quality-linguistics", target:"seo-information-retrieval", type:"depends_on"},
+  {source:"content-quality-linguistics", target:"python-data-driven-seo", type:"depends_on"},
+  {source:"multilingual-international-seo", target:"technical-seo", type:"depends_on"},
+  {source:"multilingual-international-seo", target:"semantic-seo", type:"depends_on"},
+  {source:"knowledge-graph-structured-data", target:"entity-based-seo", type:"depends_on"},
+  {source:"knowledge-graph-structured-data", target:"seo-information-retrieval", type:"depends_on"},
+  {source:"knowledge-graph-structured-data", target:"python-data-driven-seo", type:"depends_on"},
+  {source:"python-data-driven-seo", target:"seo-information-retrieval", type:"depends_on"},
+  {source:"python-data-driven-seo", target:"knowledge-graph-structured-data", type:"depends_on"},
+  {source:"python-data-driven-seo", target:"content-quality-linguistics", type:"depends_on"},
+  {source:"conversion-growth", target:"technical-seo", type:"depends_on"},
+  {source:"conversion-growth", target:"content-quality-linguistics", type:"depends_on"},
+  {source:"seo-case-study-methodology", target:"entity-based-seo", type:"depends_on"},
+  {source:"seo-case-study-methodology", target:"topical-authority", type:"depends_on"},
+  {source:"seo-case-study-methodology", target:"knowledge-graph-structured-data", type:"depends_on"},
+  {source:"seo-case-study-methodology", target:"semantic-seo", type:"depends_on"},
+  {source:"seo-case-study-methodology", target:"technical-seo", type:"depends_on"},
+  {source:"seo-case-study-methodology", target:"multilingual-international-seo", type:"depends_on"},
+  {source:"seo-case-study-methodology", target:"seo-information-retrieval", type:"depends_on"},
+  // cross_membership (dashed violet)
+  {source:"entity-based-seo", target:"semantic-seo", type:"cross"},
+  {source:"entity-based-seo", target:"seo-information-retrieval", type:"cross"},
+  {source:"entity-based-seo", target:"topical-authority", type:"cross"},
+  {source:"entity-based-seo", target:"knowledge-graph-structured-data", type:"cross"},
+  {source:"topical-authority", target:"seo-information-retrieval", type:"cross"},
+  {source:"topical-authority", target:"semantic-seo", type:"cross"},
+  {source:"semantic-seo", target:"content-quality-linguistics", type:"cross"},
+  {source:"semantic-seo", target:"topical-authority", type:"cross"},
+  {source:"technical-seo", target:"multilingual-international-seo", type:"cross"},
+  {source:"technical-seo", target:"knowledge-graph-structured-data", type:"cross"},
+  {source:"knowledge-graph-structured-data", target:"entity-based-seo", type:"cross"},
+  {source:"knowledge-graph-structured-data", target:"conversion-growth", type:"cross"},
+  {source:"knowledge-graph-structured-data", target:"seo-case-study-methodology", type:"cross"},
+  {source:"python-data-driven-seo", target:"technical-seo", type:"cross"},
+  {source:"python-data-driven-seo", target:"conversion-growth", type:"cross"},
+  {source:"python-data-driven-seo", target:"seo-case-study-methodology", type:"cross"},
+  {source:"conversion-growth", target:"holistic-seo", type:"cross"},
+  {source:"conversion-growth", target:"python-data-driven-seo", type:"cross"},
+  {source:"holistic-seo", target:"conversion-growth", type:"cross"},
+  {source:"holistic-seo", target:"content-quality-linguistics", type:"cross"},
+  {source:"seo-case-study-methodology", target:"entity-based-seo", type:"cross"},
+  {source:"seo-case-study-methodology", target:"content-quality-linguistics", type:"cross"},
+  {source:"seo-information-retrieval", target:"python-data-driven-seo", type:"cross"},
+  {source:"seo-information-retrieval", target:"holistic-seo", type:"cross"},
+  {source:"content-quality-linguistics", target:"python-data-driven-seo", type:"cross"},
+  {source:"multilingual-international-seo", target:"semantic-seo", type:"cross"},
+  {source:"multilingual-international-seo", target:"content-quality-linguistics", type:"cross"},
+];
+
+// ─── FORCE SIMULATION ────────────────────────────────
+
+const svg = d3.select("#graph");
+const W = window.innerWidth;
+const H = window.innerHeight;
+
+// Arrowhead markers
+const defs = svg.append("defs");
+defs.append("marker")
+  .attr("id","arrow-red").attr("viewBox","0 -5 10 10").attr("refX",22).attr("refY",0)
+  .attr("markerWidth",6).attr("markerHeight",6).attr("orient","auto")
+  .append("path").attr("d","M0,-5L10,0L0,5").attr("fill","#f87171");
+
+defs.append("marker")
+  .attr("id","arrow-violet").attr("viewBox","0 -5 10 10").attr("refX",22).attr("refY",0)
+  .attr("markerWidth",5).attr("markerHeight",5).attr("orient","auto")
+  .append("path").attr("d","M0,-5L10,0L0,5").attr("fill","#a78bfa");
+
+// Create containers
+const g = svg.append("g");
+const linkG = g.append("g");
+const nodeG = g.append("g");
+const labelG = g.append("g");
+
+// Links
+const link = linkG.selectAll("line")
+  .data(links)
+  .join("line")
+  .attr("stroke", d => d.type === "depends_on" ? "#f87171" : "#a78bfa")
+  .attr("stroke-width", d => d.type === "depends_on" ? 1.5 : 1)
+  .attr("stroke-dasharray", d => d.type === "cross" ? "4,3" : null)
+  .attr("stroke-opacity", d => d.type === "depends_on" ? 0.6 : 0.4)
+  .attr("marker-end", d => d.type === "depends_on" ? "url(#arrow-red)" : "url(#arrow-violet)");
+
+// Nodes
+const node = nodeG.selectAll("g")
+  .data(nodes)
+  .join("g")
+  .call(d3.drag()
+    .on("start", (e,d) => { if(!e.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+    .on("drag", (e,d) => { d.fx = e.x; d.fy = e.y; })
+    .on("end", (e,d) => { if(!e.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }));
+
+// Outer glow for Tier 1
+node.append("circle")
+  .attr("r", d => Math.max(d.t1 * 1.2 + 8, 16))
+  .attr("fill", d => d.g >= 0.30 ? "rgba(52,211,153,0.12)" : "rgba(100,116,139,0.08)")
+  .attr("stroke", d => d.g >= 0.30 ? "rgba(52,211,153,0.3)" : "rgba(100,116,139,0.15)")
+  .attr("stroke-width", 1);
+
+// Main node circle
+node.append("circle")
+  .attr("r", d => Math.max(d.t1 * 1.2 + 6, 14))
+  .attr("fill", d => {
+    const gRate = d.g;
+    if (gRate >= 0.35) return "#0d3326"; // High grounding
+    if (gRate >= 0.25) return "#1a2332";
+    return "#121a26";
+  })
+  .attr("stroke", d => {
+    const gRate = d.g;
+    if (gRate >= 0.35) return "#34d399";
+    if (gRate >= 0.25) return "#94a3b8";
+    return "#64748b";
+  })
+  .attr("stroke-width", d => d.g >= 0.30 ? 2 : 1.5);
+
+// Labels (outside nodes)
+const labels = labelG.selectAll("text")
+  .data(nodes)
+  .join("text")
+  .attr("class","node-label")
+  .attr("dy", d => -Math.max(d.t1 * 1.2 + 6, 14) - 6)
+  .text(d => d.name);
+
+const sublabels = labelG.selectAll("text.sublabel")
+  .data(nodes)
+  .join("text")
+  .attr("class","node-sublabel")
+  .attr("dy", d => -Math.max(d.t1 * 1.2 + 6, 14) - 17)
+  .text(d => `T1:${d.t1}  T2:${d.t2}  g:${(d.g*100).toFixed(0)}%`);
+
+// Force simulation
+const sim = d3.forceSimulation(nodes)
+  .force("link", d3.forceLink(links).id(d => d.id).distance(160).strength(d => d.type === "depends_on" ? 0.4 : 0.15))
+  .force("charge", d3.forceManyBody().strength(-400))
+  .force("center", d3.forceCenter(W/2, H/2))
+  .force("collision", d3.forceCollide().radius(d => Math.max(d.t1 * 1.2 + 6, 14) + 20));
+
+sim.on("tick", () => {
+  link
+    .attr("x1", d => d.source.x)
+    .attr("y1", d => d.source.y)
+    .attr("x2", d => d.target.x)
+    .attr("y2", d => d.target.y);
+
+  node.attr("transform", d => `translate(${d.x},${d.y})`);
+
+  labels
+    .attr("x", d => d.x)
+    .attr("y", d => d.y);
+
+  sublabels
+    .attr("x", d => d.x)
+    .attr("y", d => d.y);
+});
+
+// Handle resize
+window.addEventListener("resize", () => {
+  const w = window.innerWidth, h = window.innerHeight;
+  sim.force("center", d3.forceCenter(w/2, h/2));
+  sim.alpha(0.3).restart();
+});
+</script>
+</body>
+</html>

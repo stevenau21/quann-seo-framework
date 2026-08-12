@@ -1,0 +1,50 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment & secrets
+.env
+*.env.local
+
+# Workspace data — large binary graphs, vectors, caches
+**/workspace/
+**/workspace_old/
+**/workspace_new/
+**/workspace_corrupted/
+
+# Data directory — chunk files, embeddings, npy files
+**/data/
+
+# Cron/health/shell artifacts
+**/cron_scrape.sh
+**/watchdog.sh
+**/health_check.py
+**/health_last.txt
+
+# Scraping utilities (used ad-hoc, not core code)
+**/scrape_site.py
+
+# Temp/utility scripts
+has_changed.py
+ollama-forwarder.py
+**/precompute_embeddings.py
+
+# Virtual environment
+lightrag-env/
+*.egg-info/
+dist/
+
+# IDE / editor
+.venv/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+ingest_state.json

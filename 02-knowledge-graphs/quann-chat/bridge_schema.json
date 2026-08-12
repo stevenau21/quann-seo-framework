@@ -1,0 +1,4016 @@
+{
+  "bridge_version": "1.0.0",
+  "source": "koray-gubur-phase5",
+  "source_file": "/home/steve/lightrag-apps/knowledge-synthesis/extractions/koray-gubur/phase5_frameworks.json",
+  "tier": 1,
+  "total_cards": 144,
+  "classification": {
+    "deterministic": 28,
+    "directive": 116
+  },
+  "rules": [
+    {
+      "card_id": "Topical Authority-method-0005",
+      "track": "directive",
+      "content": "6. Use predicates (verbs) to create semantically connected content networks; leverage Frame Semantics and Semantic Role Labels.",
+      "target_entity": "Semantically Connected Content Networks",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Topical Authority",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Topical Authority): MUST implement: 6. Use predicates (verbs) to create semantically connected content networks; leverage Frame Semantics and Semantic Role Labels."
+      }
+    },
+    {
+      "card_id": "Topical Authority-concept-0002",
+      "track": "directive",
+      "content": "Topical Maps",
+      "target_entity": "Topical Maps",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Topical Authority",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Topical Authority): MUST demonstrate understanding of: Topical Maps"
+      }
+    },
+    {
+      "card_id": "Topical Authority-concept-0003",
+      "track": "directive",
+      "content": "Historical Data",
+      "target_entity": "Historical Data",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Topical Authority",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Topical Authority): MUST demonstrate understanding of: Historical Data"
+      }
+    },
+    {
+      "card_id": "Topical Authority-concept-0007",
+      "track": "directive",
+      "content": "Semantic Content Networks",
+      "target_entity": "Semantic Content Networks",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Topical Authority",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Topical Authority): MUST demonstrate understanding of: Semantic Content Networks"
+      }
+    },
+    {
+      "card_id": "Topical Authority-concept-0009",
+      "track": "directive",
+      "content": "Topical Gaps",
+      "target_entity": "Topical Gaps",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Topical Authority",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Topical Authority): MUST demonstrate understanding of: Topical Gaps"
+      }
+    },
+    {
+      "card_id": "Topical Authority-concept-0017",
+      "track": "directive",
+      "content": "Topical Consolidation",
+      "target_entity": "Topical Consolidation",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Topical Authority",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Topical Authority): MUST demonstrate understanding of: Topical Consolidation"
+      }
+    },
+    {
+      "card_id": "Topical Authority-concept-0019",
+      "track": "directive",
+      "content": "Ranking Signal Consolidation",
+      "target_entity": "Ranking Signal Consolidation",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Topical Authority",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Topical Authority): MUST demonstrate understanding of: Ranking Signal Consolidation"
+      }
+    },
+    {
+      "card_id": "Topical Authority-concept-0022",
+      "track": "directive",
+      "content": "Author Authority and Rank",
+      "target_entity": "Author Authority and Rank",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Topical Authority",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Topical Authority): MUST demonstrate understanding of: Author Authority and Rank"
+      }
+    },
+    {
+      "card_id": "Topical Authority-concept-0026",
+      "track": "directive",
+      "content": "Brand Identity",
+      "target_entity": "Brand Identity",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Topical Authority",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Topical Authority): MUST demonstrate understanding of: Brand Identity"
+      }
+    },
+    {
+      "card_id": "Topical Authority-concept-0027",
+      "track": "directive",
+      "content": "Contextual Bridges",
+      "target_entity": "Contextual Bridges",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Topical Authority",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Topical Authority): MUST demonstrate understanding of: Contextual Bridges"
+      }
+    },
+    {
+      "card_id": "Topical Authority-concept-0029",
+      "track": "directive",
+      "content": "Cost-of-Retrieval",
+      "target_entity": "Cost-of-Retrieval",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Topical Authority",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Topical Authority): MUST demonstrate understanding of: Cost-of-Retrieval"
+      }
+    },
+    {
+      "card_id": "Topical Authority-concept-0033",
+      "track": "directive",
+      "content": "Frame Semantics",
+      "target_entity": "Frame Semantics",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Topical Authority",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Topical Authority): MUST demonstrate understanding of: Frame Semantics"
+      }
+    },
+    {
+      "card_id": "Semantic SEO-method-0000",
+      "track": "directive",
+      "content": "1. Identify the Source Context (brand purpose, target audience) to sharpen and deepen the context.",
+      "target_entity": "Source Context",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Semantic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Semantic SEO): MUST implement: 1. Identify the Source Context (brand purpose, target audience) to sharpen and deepen the context."
+      }
+    },
+    {
+      "card_id": "Semantic SEO-method-0001",
+      "track": "directive",
+      "content": "2. Select canonical verbs (predicates) and nouns that represent core behaviors and outcomes (e.g., 'learn', 'earn', 'improve').",
+      "target_entity": "Canonical Verbs and Nouns",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Semantic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Semantic SEO): MUST implement: 2. Select canonical verbs (predicates) and nouns that represent core behaviors and outcomes (e.g., 'learn', 'earn', 'improve')."
+      }
+    },
+    {
+      "card_id": "Semantic SEO-method-0002",
+      "track": "directive",
+      "content": "3. Create Semantic Content Networks by connecting verb-noun pairs across related contexts (e.g., 'Universities and Occupations', 'Occupations and Salaries').",
+      "target_entity": "Semantic Content Networks",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Semantic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Semantic SEO): MUST implement: 3. Create Semantic Content Networks by connecting verb-noun pairs across related contexts (e.g., 'Universities and Occupations', 'Occupations and Salaries')."
+      }
+    },
+    {
+      "card_id": "Semantic SEO-method-0005",
+      "track": "directive",
+      "content": "6. Sculpt the context by refining verb and noun connections to a specific domain (e.g., restaurants vs. students).",
+      "target_entity": "Context Sculpting",
+      "action_directive": "optimize",
+      "type": "method",
+      "framework": "Semantic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Semantic SEO): MUST optimize for: 6. Sculpt the context by refining verb and noun connections to a specific domain (e.g., restaurants vs. students)."
+      }
+    },
+    {
+      "card_id": "Semantic SEO-method-0006",
+      "track": "directive",
+      "content": "7. Expand topical maps by finding topical gaps and using contextual bridges (e.g., from 'energy' to 'credit' via 'money saving').",
+      "target_entity": "Topical Maps",
+      "action_directive": "optimize",
+      "type": "method",
+      "framework": "Semantic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Semantic SEO): MUST optimize for: 7. Expand topical maps by finding topical gaps and using contextual bridges (e.g., from 'energy' to 'credit' via 'money saving')."
+      }
+    },
+    {
+      "card_id": "Semantic SEO-evidence-0005",
+      "track": "directive",
+      "content": "Advertools (Elias Dabbas) for Knowledge Graph API",
+      "target_entity": "Advertools",
+      "action_directive": "implement",
+      "type": "evidence",
+      "framework": "Semantic SEO",
+      "inject": {
+        "category": "case_study_format",
+        "section": "architectural_directives",
+        "sub_section": "Case Study & Evidence Standards",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Semantic SEO): MUST implement: Advertools (Elias Dabbas) for Knowledge Graph API"
+      }
+    },
+    {
+      "card_id": "Semantic SEO-concept-0000",
+      "track": "directive",
+      "content": "Topical Authority",
+      "target_entity": "Topical Authority",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Semantic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Semantic SEO): MUST demonstrate understanding of: Topical Authority"
+      }
+    },
+    {
+      "card_id": "Semantic SEO-concept-0001",
+      "track": "directive",
+      "content": "Semantic Content Networks",
+      "target_entity": "Semantic Content Networks",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Semantic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Semantic SEO): MUST demonstrate understanding of: Semantic Content Networks"
+      }
+    },
+    {
+      "card_id": "Semantic SEO-concept-0002",
+      "track": "directive",
+      "content": "Predicates (Verbs of Life)",
+      "target_entity": "Predicates (Verbs of Life)",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Semantic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Semantic SEO): MUST demonstrate understanding of: Predicates (Verbs of Life)"
+      }
+    },
+    {
+      "card_id": "Semantic SEO-concept-0007",
+      "track": "directive",
+      "content": "Contextual Bridges",
+      "target_entity": "Contextual Bridges",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Semantic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Semantic SEO): MUST demonstrate understanding of: Contextual Bridges"
+      }
+    },
+    {
+      "card_id": "Semantic SEO-concept-0008",
+      "track": "directive",
+      "content": "Topical Maps and Topical Gaps",
+      "target_entity": "Topical Maps and Topical Gaps",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Semantic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Semantic SEO): MUST demonstrate understanding of: Topical Maps and Topical Gaps"
+      }
+    },
+    {
+      "card_id": "Holistic SEO-method-0009",
+      "track": "deterministic",
+      "content": "Conduct local SEO optimization (Google My Business, Apple Maps, Yandex, Yellow Pages).",
+      "target_entity": "local SEO optimization",
+      "action_directive": "optimize",
+      "type": "method",
+      "framework": "Holistic SEO",
+      "check": {
+        "method": "localbusiness_schema_present",
+        "category": "local_seo",
+        "priority": "high",
+        "gap_message": "No LocalBusiness schema — Google Maps and local pack visibility reduced.",
+        "fix_directive": "Add JSON-LD LocalBusiness or RealEstateAgent schema with address, phone, geo coordinates",
+        "detection": "regex: (LocalBusiness|RealEstateAgent|Place)[\"']"
+      }
+    },
+    {
+      "card_id": "Holistic SEO-concept-0000",
+      "track": "directive",
+      "content": "Topical Authority",
+      "target_entity": "Topical Authority",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Holistic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Holistic SEO): MUST demonstrate understanding of: Topical Authority"
+      }
+    },
+    {
+      "card_id": "Holistic SEO-concept-0001",
+      "track": "directive",
+      "content": "Semantic Content Networks",
+      "target_entity": "Semantic Content Networks",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Holistic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Holistic SEO): MUST demonstrate understanding of: Semantic Content Networks"
+      }
+    },
+    {
+      "card_id": "Holistic SEO-concept-0004",
+      "track": "directive",
+      "content": "Topical Gaps",
+      "target_entity": "Topical Gaps",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Holistic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Holistic SEO): MUST demonstrate understanding of: Topical Gaps"
+      }
+    },
+    {
+      "card_id": "Holistic SEO-concept-0012",
+      "track": "directive",
+      "content": "Topical Consolidation",
+      "target_entity": "Topical Consolidation",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Holistic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Holistic SEO): MUST demonstrate understanding of: Topical Consolidation"
+      }
+    },
+    {
+      "card_id": "Holistic SEO-concept-0020",
+      "track": "directive",
+      "content": "Source Context",
+      "target_entity": "Source Context",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Holistic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Holistic SEO): MUST demonstrate understanding of: Source Context"
+      }
+    },
+    {
+      "card_id": "Holistic SEO-concept-0021",
+      "track": "directive",
+      "content": "Brand Identity",
+      "target_entity": "Brand Identity",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Holistic SEO",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Holistic SEO): MUST demonstrate understanding of: Brand Identity"
+      }
+    },
+    {
+      "card_id": "Holistic SEO-concept-0022",
+      "track": "directive",
+      "content": "Contextual Bridges",
+      "target_entity": "Contextual Bridges",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Holistic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Holistic SEO): MUST demonstrate understanding of: Contextual Bridges"
+      }
+    },
+    {
+      "card_id": "Holistic SEO-concept-0033",
+      "track": "directive",
+      "content": "Technical SEO",
+      "target_entity": "Technical SEO",
+      "action_directive": "optimize",
+      "type": "concept",
+      "framework": "Holistic SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Holistic SEO): MUST optimize for: Technical SEO"
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-method-0004",
+      "track": "directive",
+      "content": "5. Set locations (up to 5) to track Knowledge Panel variations by language and region.",
+      "target_entity": "Knowledge Panel variations",
+      "action_directive": "monitor",
+      "type": "method",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): SHOULD monitor: 5. Set locations (up to 5) to track Knowledge Panel variations by language and region."
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-method-0006",
+      "track": "directive",
+      "content": "7. In the Knowledge Panel tasks section, follow a 6-step process: Entity Home, Description, Fundamental Facts, Classify, Schema, Corroboration.",
+      "target_entity": "Knowledge Panel tasks",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST implement: 7. In the Knowledge Panel tasks section, follow a 6-step process: Entity Home, Description, Fundamental Facts, Classify, Schema, Corroboration."
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-method-0008",
+      "track": "directive",
+      "content": "9. Add fundamental facts (basic factual information).",
+      "target_entity": "Fundamental facts",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST implement: 9. Add fundamental facts (basic factual information)."
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-method-0009",
+      "track": "directive",
+      "content": "10. Classify knowledge resources (web pages) that affect the entity's Knowledge Graph presence using filters (profile, review, data source, etc.).",
+      "target_entity": "Knowledge resources",
+      "action_directive": "optimize",
+      "type": "method",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST optimize for: 10. Classify knowledge resources (web pages) that affect the entity's Knowledge Graph presence using filters (profile, review, data source, etc.)."
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-method-0014",
+      "track": "directive",
+      "content": "15. Expand topical maps by covering more entities, attributes, and deepening context with contextual bridges.",
+      "target_entity": "Topical maps",
+      "action_directive": "optimize",
+      "type": "method",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST optimize for: 15. Expand topical maps by covering more entities, attributes, and deepening context with contextual bridges."
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-method-0015",
+      "track": "directive",
+      "content": "16. Use Python and Google Knowledge Graph API (via Advertools) to analyze entity profiles, relevance scores, and entity relations.",
+      "target_entity": "Google Knowledge Graph API",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST implement: 16. Use Python and Google Knowledge Graph API (via Advertools) to analyze entity profiles, relevance scores, and entity relations."
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-evidence-0003",
+      "track": "directive",
+      "content": "Use of Google Knowledge Graph API and NLP analysis to demonstrate entity relations and sentence patterns.",
+      "target_entity": "Google Knowledge Graph API",
+      "action_directive": "implement",
+      "type": "evidence",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "case_study_format",
+        "section": "architectural_directives",
+        "sub_section": "Case Study & Evidence Standards",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST implement: Use of Google Knowledge Graph API and NLP analysis to demonstrate entity relations and sentence patterns."
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-concept-0000",
+      "track": "directive",
+      "content": "Entity Identity",
+      "target_entity": "Entity Identity",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST demonstrate understanding of: Entity Identity"
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-concept-0002",
+      "track": "directive",
+      "content": "Entity Home",
+      "target_entity": "Entity Home",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST demonstrate understanding of: Entity Home"
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-concept-0005",
+      "track": "directive",
+      "content": "Entity Fundamental Facts",
+      "target_entity": "Entity Fundamental Facts",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST demonstrate understanding of: Entity Fundamental Facts"
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-concept-0006",
+      "track": "directive",
+      "content": "Entity Description",
+      "target_entity": "Entity Description",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST demonstrate understanding of: Entity Description"
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-concept-0008",
+      "track": "directive",
+      "content": "Knowledge Panel Management",
+      "target_entity": "Knowledge Panel Management",
+      "action_directive": "implement",
+      "type": "concept",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST implement: Knowledge Panel Management"
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-concept-0010",
+      "track": "directive",
+      "content": "Topical Authority",
+      "target_entity": "Topical Authority",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST demonstrate understanding of: Topical Authority"
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-concept-0011",
+      "track": "directive",
+      "content": "Semantic Content Networks",
+      "target_entity": "Semantic Content Networks",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST demonstrate understanding of: Semantic Content Networks"
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-concept-0012",
+      "track": "directive",
+      "content": "Source Context",
+      "target_entity": "Source Context",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST demonstrate understanding of: Source Context"
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-concept-0013",
+      "track": "directive",
+      "content": "Contextual Bridges",
+      "target_entity": "Contextual Bridges",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST demonstrate understanding of: Contextual Bridges"
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-concept-0015",
+      "track": "directive",
+      "content": "Algorithmic Trinity (Search, Knowledge Graphs, LLMs)",
+      "target_entity": "Algorithmic Trinity",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST demonstrate understanding of: Algorithmic Trinity (Search, Knowledge Graphs, LLMs)"
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-nuance-0000",
+      "track": "directive",
+      "content": "Entity identity can vary by language and location; tracking multiple locations is essential.",
+      "target_entity": "Entity identity",
+      "action_directive": "monitor",
+      "type": "nuance",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): SHOULD monitor: Entity identity can vary by language and location; tracking multiple locations is essential."
+      }
+    },
+    {
+      "card_id": "Entity-Based SEO-nuance-0001",
+      "track": "directive",
+      "content": "Entity reconciliation (deduping) is critical when Google creates duplicate entities (e.g., same person as actor and entrepreneur).",
+      "target_entity": "Entity reconciliation",
+      "action_directive": "implement",
+      "type": "nuance",
+      "framework": "Entity-Based SEO",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Entity-Based SEO): MUST implement: Entity reconciliation (deduping) is critical when Google creates duplicate entities (e.g., same person as actor and entrepreneur)."
+      }
+    },
+    {
+      "card_id": "Technical SEO-method-0010",
+      "track": "deterministic",
+      "content": "Use canonical URLs.",
+      "target_entity": "Canonical URLs",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "canonical_url_present",
+        "category": "technical_seo",
+        "priority": "high",
+        "gap_message": "Page is missing a canonical URL tag — search engines may index duplicate versions.",
+        "fix_directive": "Add <link rel='canonical' href='...'> to <head>",
+        "detection": "regex: <link[^>]*rel=[\"']canonical[\"']"
+      }
+    },
+    {
+      "card_id": "Technical SEO-method-0014",
+      "track": "deterministic",
+      "content": "Preload key requests (fonts, CSS, JS) with correct 'as' attribute.",
+      "target_entity": "Preload",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "preload_key_requests",
+        "category": "technical_seo",
+        "priority": "medium",
+        "gap_message": "No preload hints found — key requests (fonts, CSS) load late.",
+        "fix_directive": "Add <link rel='preload' href='...' as='font|style|script'> for critical resources",
+        "detection": "regex: rel=[\"']preload[\"'].*as="
+      }
+    },
+    {
+      "card_id": "Technical SEO-method-0018",
+      "track": "deterministic",
+      "content": "Clean unused code.",
+      "target_entity": "Unused code",
+      "action_directive": "optimize",
+      "type": "method",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "dead_code_indicators",
+        "category": "technical_seo",
+        "priority": "low",
+        "gap_message": "Signs of unused/dead code — excessive CSS classes, empty style blocks, or orphaned scripts.",
+        "fix_directive": "Remove unused CSS/JS, minify assets, and run Lighthouse coverage audit",
+        "detection": "heuristic: empty <style> blocks, multiple copies of same library, excessive class count"
+      }
+    },
+    {
+      "card_id": "Technical SEO-method-0023",
+      "track": "deterministic",
+      "content": "Defer third-party JavaScript.",
+      "target_entity": "Third-party JavaScript deferral",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "javascript_deferred",
+        "category": "technical_seo",
+        "priority": "medium",
+        "gap_message": "Scripts lack defer/async — render-blocking JavaScript detected.",
+        "fix_directive": "Add defer or async attribute to <script> tags loading external JS",
+        "detection": "regex: <script[^>]*(defer|async)[^>]*src="
+      }
+    },
+    {
+      "card_id": "Technical SEO-method-0027",
+      "track": "deterministic",
+      "content": "Use CDN.",
+      "target_entity": "CDN",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "cdn_detected",
+        "category": "technical_seo",
+        "priority": "low",
+        "gap_message": "No CDN detected for static assets — latency may increase cost-of-retrieval.",
+        "fix_directive": "Serve fonts, images, and CSS from a CDN (Cloudflare, BunnyCDN, etc.)",
+        "detection": "regex: (cdn\\.|cloudfront|fastly|bunnycdn|jsdelivr|unpkg)"
+      }
+    },
+    {
+      "card_id": "Technical SEO-method-0028",
+      "track": "deterministic",
+      "content": "Preload key requests.",
+      "target_entity": "Preload",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "preload_key_requests",
+        "category": "technical_seo",
+        "priority": "medium",
+        "gap_message": "No preload hints found — key requests (fonts, CSS) load late.",
+        "fix_directive": "Add <link rel='preload' href='...' as='font|style|script'> for critical resources",
+        "detection": "regex: rel=[\"']preload[\"'].*as="
+      }
+    },
+    {
+      "card_id": "Technical SEO-method-0029",
+      "track": "deterministic",
+      "content": "Use server-side rendering with caching.",
+      "target_entity": "Server-side rendering",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "ssr_or_prerender",
+        "category": "technical_seo",
+        "priority": "high",
+        "gap_message": "No SSR/prerender indicators — JavaScript-heavy pages may not be fully crawlable.",
+        "fix_directive": "Use server-side rendering or pre-rendering to ensure search engines receive complete HTML",
+        "detection": "negative: <div id='root'></div> with no fallback content (SPA indicator)"
+      }
+    },
+    {
+      "card_id": "Technical SEO-method-0030",
+      "track": "deterministic",
+      "content": "Use pre-rendering.",
+      "target_entity": "Pre-rendering",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "ssr_or_prerender",
+        "category": "technical_seo",
+        "priority": "high",
+        "gap_message": "No SSR/prerender indicators — JavaScript-heavy pages may not be fully crawlable.",
+        "fix_directive": "Use server-side rendering or pre-rendering to ensure search engines receive complete HTML",
+        "detection": "negative: <div id='root'></div> with no fallback content (SPA indicator)"
+      }
+    },
+    {
+      "card_id": "Technical SEO-method-0034",
+      "track": "deterministic",
+      "content": "Use content-visibility: auto.",
+      "target_entity": "content-visibility: auto",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "content_visibility_auto",
+        "category": "technical_seo",
+        "priority": "low",
+        "gap_message": "content-visibility: auto not detected — off-screen rendering optimization missing.",
+        "fix_directive": "Add content-visibility: auto to below-fold sections for rendering performance",
+        "detection": "regex: content-visibility:\\s*auto"
+      }
+    },
+    {
+      "card_id": "Technical SEO-method-0037",
+      "track": "deterministic",
+      "content": "Use transform instead of top/left for animations.",
+      "target_entity": "Transform for animations",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "transform_animations",
+        "category": "technical_seo",
+        "priority": "low",
+        "gap_message": "CSS animations using top/left detected — use transform for GPU-accelerated rendering.",
+        "fix_directive": "Replace top/left animation keyframes with transform: translate() for compositor-only rendering",
+        "detection": "regex: (top\\s*:\\s*\\d|left\\s*:\\s*\\d).*(@keyframes|animation|transition)"
+      }
+    },
+    {
+      "card_id": "Technical SEO-evidence-0000",
+      "track": "deterministic",
+      "content": "Google Search Console",
+      "target_entity": "Google Search Console",
+      "action_directive": "monitor",
+      "type": "evidence",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "canonical_url_present",
+        "category": "technical_seo",
+        "priority": "high",
+        "gap_message": "Page is missing a canonical URL tag — search engines may index duplicate versions.",
+        "fix_directive": "Add <link rel='canonical' href='...'> to <head>",
+        "detection": "regex: <link[^>]*rel=[\"']canonical[\"']"
+      }
+    },
+    {
+      "card_id": "Technical SEO-evidence-0002",
+      "track": "deterministic",
+      "content": "Lighthouse",
+      "target_entity": "Lighthouse",
+      "action_directive": "implement",
+      "type": "evidence",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "critical_request_chain_short",
+        "category": "technical_seo",
+        "priority": "medium",
+        "gap_message": "Deep critical request chain detected — render-blocking resource waterfall.",
+        "fix_directive": "Inline critical CSS, preload fonts, and reduce the depth of render-blocking request chains",
+        "detection": "count: <script src=*> and <link rel=stylesheet> before first meaningful paint — heuristic"
+      }
+    },
+    {
+      "card_id": "Technical SEO-concept-0000",
+      "track": "directive",
+      "content": "Crawl Budget",
+      "target_entity": "Crawl Budget",
+      "action_directive": "optimize",
+      "type": "concept",
+      "framework": "Technical SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Technical SEO): MUST optimize for: Crawl Budget"
+      }
+    },
+    {
+      "card_id": "Technical SEO-concept-0001",
+      "track": "directive",
+      "content": "Crawl Quota",
+      "target_entity": "Crawl Quota",
+      "action_directive": "optimize",
+      "type": "concept",
+      "framework": "Technical SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Technical SEO): MUST optimize for: Crawl Quota"
+      }
+    },
+    {
+      "card_id": "Technical SEO-concept-0002",
+      "track": "directive",
+      "content": "Crawl Efficiency",
+      "target_entity": "Crawl Efficiency",
+      "action_directive": "optimize",
+      "type": "concept",
+      "framework": "Technical SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Technical SEO): MUST optimize for: Crawl Efficiency"
+      }
+    },
+    {
+      "card_id": "Technical SEO-concept-0003",
+      "track": "directive",
+      "content": "Cost of Retrieval",
+      "target_entity": "Cost of Retrieval",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Technical SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Technical SEO): MUST demonstrate understanding of: Cost of Retrieval"
+      }
+    },
+    {
+      "card_id": "Technical SEO-concept-0005",
+      "track": "deterministic",
+      "content": "Critical Request Chain",
+      "target_entity": "Critical Request Chain",
+      "action_directive": "optimize",
+      "type": "concept",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "critical_request_chain_short",
+        "category": "technical_seo",
+        "priority": "medium",
+        "gap_message": "Deep critical request chain detected — render-blocking resource waterfall.",
+        "fix_directive": "Inline critical CSS, preload fonts, and reduce the depth of render-blocking request chains",
+        "detection": "count: <script src=*> and <link rel=stylesheet> before first meaningful paint — heuristic"
+      }
+    },
+    {
+      "card_id": "Technical SEO-concept-0008",
+      "track": "deterministic",
+      "content": "Preload",
+      "target_entity": "Preload",
+      "action_directive": "implement",
+      "type": "concept",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "preload_key_requests",
+        "category": "technical_seo",
+        "priority": "medium",
+        "gap_message": "No preload hints found — key requests (fonts, CSS) load late.",
+        "fix_directive": "Add <link rel='preload' href='...' as='font|style|script'> for critical resources",
+        "detection": "regex: rel=[\"']preload[\"'].*as="
+      }
+    },
+    {
+      "card_id": "Technical SEO-concept-0011",
+      "track": "directive",
+      "content": "Rendering Cost",
+      "target_entity": "Rendering Cost",
+      "action_directive": "optimize",
+      "type": "concept",
+      "framework": "Technical SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Technical SEO): MUST optimize for: Rendering Cost"
+      }
+    },
+    {
+      "card_id": "Technical SEO-concept-0019",
+      "track": "deterministic",
+      "content": "Faceted Navigation",
+      "target_entity": "Faceted Navigation",
+      "action_directive": "optimize",
+      "type": "concept",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "faceted_nav_clean",
+        "category": "technical_seo",
+        "priority": "medium",
+        "gap_message": "Faceted navigation query parameters found in internal links — crawl budget waste.",
+        "fix_directive": "Canonicalize or noindex faceted URL variants; use rel=canonical on filter pages",
+        "detection": "regex: (href=[\"'][^\"']*\\?(filter|sort|page|category|tag|color|size)=)"
+      }
+    },
+    {
+      "card_id": "Technical SEO-concept-0020",
+      "track": "deterministic",
+      "content": "Session IDs",
+      "target_entity": "Session IDs",
+      "action_directive": "avoid",
+      "type": "concept",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "no_session_ids_in_urls",
+        "category": "technical_seo",
+        "priority": "high",
+        "gap_message": "Session IDs found in URLs — creates duplicate content for search engines.",
+        "fix_directive": "Remove session_id/sid/phpsessid from all internal hrefs",
+        "detection": "regex: [?&](session_?id|sid|phpsessid)="
+      }
+    },
+    {
+      "card_id": "Technical SEO-nuance-0004",
+      "track": "deterministic",
+      "content": "Preload cache is session-based.",
+      "target_entity": "Preload cache",
+      "action_directive": "understand",
+      "type": "nuance",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "preload_key_requests",
+        "category": "technical_seo",
+        "priority": "medium",
+        "gap_message": "No preload hints found — key requests (fonts, CSS) load late.",
+        "fix_directive": "Add <link rel='preload' href='...' as='font|style|script'> for critical resources",
+        "detection": "regex: rel=[\"']preload[\"'].*as="
+      }
+    },
+    {
+      "card_id": "Technical SEO-nuance-0005",
+      "track": "deterministic",
+      "content": "CLS measured over entire page lifespan, not just load.",
+      "target_entity": "CLS",
+      "action_directive": "understand",
+      "type": "nuance",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "content_visibility_auto",
+        "category": "technical_seo",
+        "priority": "low",
+        "gap_message": "content-visibility: auto not detected — off-screen rendering optimization missing.",
+        "fix_directive": "Add content-visibility: auto to below-fold sections for rendering performance",
+        "detection": "regex: content-visibility:\\s*auto"
+      }
+    },
+    {
+      "card_id": "Technical SEO-nuance-0006",
+      "track": "deterministic",
+      "content": "Good CLS <0.1.",
+      "target_entity": "CLS",
+      "action_directive": "optimize",
+      "type": "nuance",
+      "framework": "Technical SEO",
+      "check": {
+        "method": "content_visibility_auto",
+        "category": "technical_seo",
+        "priority": "low",
+        "gap_message": "content-visibility: auto not detected — off-screen rendering optimization missing.",
+        "fix_directive": "Add content-visibility: auto to below-fold sections for rendering performance",
+        "detection": "regex: content-visibility:\\s*auto"
+      }
+    },
+    {
+      "card_id": "SEO Information Retrieval-method-0001",
+      "track": "directive",
+      "content": "Compute PageRank iteratively or algebraically using formulas (PR(A)=1-d/N + d*(PR(B)/L(B)+...)).",
+      "target_entity": "PageRank",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "SEO Information Retrieval",
+      "inject": {
+        "category": "methodology_depth",
+        "section": "architectural_directives",
+        "sub_section": "Methodology & Depth Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — SEO Information Retrieval): MUST implement: Compute PageRank iteratively or algebraically using formulas (PR(A)=1-d/N + d*(PR(B)/L(B)+...))."
+      }
+    },
+    {
+      "card_id": "SEO Information Retrieval-method-0006",
+      "track": "deterministic",
+      "content": "Ensure consistent design, topicality, and brand identity across all language versions to avoid inorganic site structure penalties.",
+      "target_entity": "Language versions",
+      "action_directive": "avoid",
+      "type": "method",
+      "framework": "SEO Information Retrieval",
+      "check": {
+        "method": "hreflang_present",
+        "category": "multilingual_seo",
+        "priority": "low",
+        "gap_message": "No hreflang annotations — search engines see this as single-language content.",
+        "fix_directive": "Add <link rel='alternate' hreflang='...'> tags for language/region variants",
+        "detection": "regex: <link[^>]*rel=[\"']alternate[\"'].*hreflang="
+      }
+    },
+    {
+      "card_id": "SEO Information Retrieval-evidence-0004",
+      "track": "directive",
+      "content": "Koray's own case study: ForexSuggest.com multilingual SEO with 425% organic growth in 6 months",
+      "target_entity": "Koray's case study",
+      "action_directive": "cite",
+      "type": "evidence",
+      "framework": "SEO Information Retrieval",
+      "inject": {
+        "category": "case_study_format",
+        "section": "architectural_directives",
+        "sub_section": "Case Study & Evidence Standards",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — SEO Information Retrieval): SHOULD cite or reference: Koray's own case study: ForexSuggest.com multilingual SEO with 425% organic growth in 6 months"
+      }
+    },
+    {
+      "card_id": "SEO Information Retrieval-concept-0000",
+      "track": "directive",
+      "content": "Boolean Model",
+      "target_entity": "Boolean Model",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "SEO Information Retrieval",
+      "inject": {
+        "category": "methodology_depth",
+        "section": "architectural_directives",
+        "sub_section": "Methodology & Depth Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — SEO Information Retrieval): MUST demonstrate understanding of: Boolean Model"
+      }
+    },
+    {
+      "card_id": "SEO Information Retrieval-concept-0004",
+      "track": "directive",
+      "content": "RankBrain (machine learning for query understanding)",
+      "target_entity": "RankBrain",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "SEO Information Retrieval",
+      "inject": {
+        "category": "methodology_depth",
+        "section": "architectural_directives",
+        "sub_section": "Methodology & Depth Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — SEO Information Retrieval): MUST demonstrate understanding of: RankBrain (machine learning for query understanding)"
+      }
+    },
+    {
+      "card_id": "SEO Information Retrieval-concept-0005",
+      "track": "directive",
+      "content": "Semantic SEO / Entity-oriented Search",
+      "target_entity": "Semantic SEO",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "SEO Information Retrieval",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — SEO Information Retrieval): MUST demonstrate understanding of: Semantic SEO / Entity-oriented Search"
+      }
+    },
+    {
+      "card_id": "SEO Information Retrieval-concept-0006",
+      "track": "directive",
+      "content": "Topical Authority",
+      "target_entity": "Topical Authority",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "SEO Information Retrieval",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — SEO Information Retrieval): MUST demonstrate understanding of: Topical Authority"
+      }
+    },
+    {
+      "card_id": "Content Quality & Linguistics-evidence-0000",
+      "track": "directive",
+      "content": "Google's Webmaster Guidelines and Quality Rater Guidelines",
+      "target_entity": "Google's Webmaster Guidelines",
+      "action_directive": "understand",
+      "type": "evidence",
+      "framework": "Content Quality & Linguistics",
+      "inject": {
+        "category": "case_study_format",
+        "section": "architectural_directives",
+        "sub_section": "Case Study & Evidence Standards",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Content Quality & Linguistics): MUST demonstrate understanding of: Google's Webmaster Guidelines and Quality Rater Guidelines"
+      }
+    },
+    {
+      "card_id": "Content Quality & Linguistics-concept-0000",
+      "track": "deterministic",
+      "content": "Thin Content",
+      "target_entity": "Thin Content",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Content Quality & Linguistics",
+      "check": {
+        "method": "thin_content",
+        "category": "content_depth",
+        "priority": "high",
+        "gap_message": "Page word count below 300 — classified as thin content by quality raters.",
+        "fix_directive": "Expand to 1500+ words covering entity, context, examples, and related subtopics",
+        "detection": "count: words < 300"
+      }
+    },
+    {
+      "card_id": "Content Quality & Linguistics-concept-0001",
+      "track": "directive",
+      "content": "Dwell Time",
+      "target_entity": "Dwell Time",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Content Quality & Linguistics",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Content Quality & Linguistics): MUST demonstrate understanding of: Dwell Time"
+      }
+    },
+    {
+      "card_id": "Content Quality & Linguistics-concept-0002",
+      "track": "directive",
+      "content": "E-A-T (Expertise, Authoritativeness, Trustworthiness)",
+      "target_entity": "E-A-T",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Content Quality & Linguistics",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Content Quality & Linguistics): MUST demonstrate understanding of: E-A-T (Expertise, Authoritativeness, Trustworthiness)"
+      }
+    },
+    {
+      "card_id": "Content Quality & Linguistics-concept-0003",
+      "track": "directive",
+      "content": "User Engagement",
+      "target_entity": "User Engagement",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Content Quality & Linguistics",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Content Quality & Linguistics): MUST demonstrate understanding of: User Engagement"
+      }
+    },
+    {
+      "card_id": "Content Quality & Linguistics-concept-0006",
+      "track": "directive",
+      "content": "Linguistic Correctness (spelling, grammar, homophones)",
+      "target_entity": "Linguistic Correctness",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Content Quality & Linguistics",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Content Quality & Linguistics): MUST demonstrate understanding of: Linguistic Correctness (spelling, grammar, homophones)"
+      }
+    },
+    {
+      "card_id": "Content Quality & Linguistics-concept-0008",
+      "track": "directive",
+      "content": "User Experience (UX) and Readability",
+      "target_entity": "User Experience (UX) and Readability",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Content Quality & Linguistics",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Content Quality & Linguistics): MUST demonstrate understanding of: User Experience (UX) and Readability"
+      }
+    },
+    {
+      "card_id": "Multilingual & International SEO-method-0004",
+      "track": "deterministic",
+      "content": "5. Maintain consistency: use the same brand logo, colors, layout, and topic across all language versions to avoid inorganic site structure penalties.",
+      "target_entity": "Brand consistency",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Multilingual & International SEO",
+      "check": {
+        "method": "hreflang_present",
+        "category": "multilingual_seo",
+        "priority": "low",
+        "gap_message": "No hreflang annotations — search engines see this as single-language content.",
+        "fix_directive": "Add <link rel='alternate' hreflang='...'> tags for language/region variants",
+        "detection": "regex: <link[^>]*rel=[\"']alternate[\"'].*hreflang="
+      }
+    },
+    {
+      "card_id": "Multilingual & International SEO-evidence-0007",
+      "track": "directive",
+      "content": "Case study data from ForexSuggest.com showing 425% organic growth in 6 months",
+      "target_entity": "ForexSuggest.com case study",
+      "action_directive": "cite",
+      "type": "evidence",
+      "framework": "Multilingual & International SEO",
+      "inject": {
+        "category": "case_study_format",
+        "section": "architectural_directives",
+        "sub_section": "Case Study & Evidence Standards",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Multilingual & International SEO): SHOULD cite or reference: Case study data from ForexSuggest.com showing 425% organic growth in 6 months"
+      }
+    },
+    {
+      "card_id": "Multilingual & International SEO-concept-0001",
+      "track": "directive",
+      "content": "Historical Data",
+      "target_entity": "Historical Data",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Multilingual & International SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Multilingual & International SEO): MUST demonstrate understanding of: Historical Data"
+      }
+    },
+    {
+      "card_id": "Multilingual & International SEO-concept-0004",
+      "track": "directive",
+      "content": "Consistency (design, topicality, internal links, brand identity)",
+      "target_entity": "Consistency",
+      "action_directive": "optimize",
+      "type": "concept",
+      "framework": "Multilingual & International SEO",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Multilingual & International SEO): MUST optimize for: Consistency (design, topicality, internal links, brand identity)"
+      }
+    },
+    {
+      "card_id": "Multilingual & International SEO-concept-0005",
+      "track": "deterministic",
+      "content": "Inorganic Site Structure (avoiding different designs/logos per language)",
+      "target_entity": "Inorganic Site Structure",
+      "action_directive": "avoid",
+      "type": "concept",
+      "framework": "Multilingual & International SEO",
+      "check": {
+        "method": "hreflang_present",
+        "category": "multilingual_seo",
+        "priority": "low",
+        "gap_message": "No hreflang annotations — search engines see this as single-language content.",
+        "fix_directive": "Add <link rel='alternate' hreflang='...'> tags for language/region variants",
+        "detection": "regex: <link[^>]*rel=[\"']alternate[\"'].*hreflang="
+      }
+    },
+    {
+      "card_id": "Multilingual & International SEO-concept-0009",
+      "track": "directive",
+      "content": "Query Expansion (cross-lingual query translation by search engines)",
+      "target_entity": "Query Expansion",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Multilingual & International SEO",
+      "inject": {
+        "category": "multilingual_consistency",
+        "section": "architectural_directives",
+        "sub_section": "Multilingual & Cross-Language Consistency",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Multilingual & International SEO): MUST demonstrate understanding of: Query Expansion (cross-lingual query translation by search engines)"
+      }
+    },
+    {
+      "card_id": "Knowledge Graph & Structured Data-method-0005",
+      "track": "directive",
+      "content": "6. Select locations (up to 5) to track Knowledge Panel variations by language and region.",
+      "target_entity": "Locations to track Knowledge Panel variations",
+      "action_directive": "monitor",
+      "type": "method",
+      "framework": "Knowledge Graph & Structured Data",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Knowledge Graph & Structured Data): SHOULD monitor: 6. Select locations (up to 5) to track Knowledge Panel variations by language and region."
+      }
+    },
+    {
+      "card_id": "Knowledge Graph & Structured Data-method-0012",
+      "track": "directive",
+      "content": "13. Use the Task Management system to set goals (e.g., remove a negative result, add a SERP feature).",
+      "target_entity": "Task Management system",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Knowledge Graph & Structured Data",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Knowledge Graph & Structured Data): MUST implement: 13. Use the Task Management system to set goals (e.g., remove a negative result, add a SERP feature)."
+      }
+    },
+    {
+      "card_id": "Knowledge Graph & Structured Data-evidence-0002",
+      "track": "directive",
+      "content": "Amit Singhal's 'Not strings, things' (2012 Knowledge Graph announcement)",
+      "target_entity": "Amit Singhal",
+      "action_directive": "cite",
+      "type": "evidence",
+      "framework": "Knowledge Graph & Structured Data",
+      "inject": {
+        "category": "case_study_format",
+        "section": "architectural_directives",
+        "sub_section": "Case Study & Evidence Standards",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Knowledge Graph & Structured Data): SHOULD cite or reference: Amit Singhal's 'Not strings, things' (2012 Knowledge Graph announcement)"
+      }
+    },
+    {
+      "card_id": "Knowledge Graph & Structured Data-evidence-0005",
+      "track": "directive",
+      "content": "Jason Barnard's Kalicube Pro platform and Brand SERP concept (2012)",
+      "target_entity": "Jason Barnard",
+      "action_directive": "cite",
+      "type": "evidence",
+      "framework": "Knowledge Graph & Structured Data",
+      "inject": {
+        "category": "case_study_format",
+        "section": "architectural_directives",
+        "sub_section": "Case Study & Evidence Standards",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Knowledge Graph & Structured Data): SHOULD cite or reference: Jason Barnard's Kalicube Pro platform and Brand SERP concept (2012)"
+      }
+    },
+    {
+      "card_id": "Knowledge Graph & Structured Data-evidence-0007",
+      "track": "directive",
+      "content": "Bill Slawski's patent analysis articles",
+      "target_entity": "Bill Slawski",
+      "action_directive": "cite",
+      "type": "evidence",
+      "framework": "Knowledge Graph & Structured Data",
+      "inject": {
+        "category": "case_study_format",
+        "section": "architectural_directives",
+        "sub_section": "Case Study & Evidence Standards",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Knowledge Graph & Structured Data): SHOULD cite or reference: Bill Slawski's patent analysis articles"
+      }
+    },
+    {
+      "card_id": "Knowledge Graph & Structured Data-concept-0000",
+      "track": "directive",
+      "content": "Entity",
+      "target_entity": "Entity",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Knowledge Graph & Structured Data",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Knowledge Graph & Structured Data): MUST demonstrate understanding of: Entity"
+      }
+    },
+    {
+      "card_id": "Knowledge Graph & Structured Data-concept-0001",
+      "track": "directive",
+      "content": "Knowledge Panel",
+      "target_entity": "Knowledge Panel",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Knowledge Graph & Structured Data",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Knowledge Graph & Structured Data): MUST demonstrate understanding of: Knowledge Panel"
+      }
+    },
+    {
+      "card_id": "Knowledge Graph & Structured Data-concept-0002",
+      "track": "directive",
+      "content": "Brand SERP",
+      "target_entity": "Brand SERP",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Knowledge Graph & Structured Data",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Knowledge Graph & Structured Data): MUST demonstrate understanding of: Brand SERP"
+      }
+    },
+    {
+      "card_id": "Knowledge Graph & Structured Data-concept-0007",
+      "track": "directive",
+      "content": "Topical Authority",
+      "target_entity": "Topical Authority",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Knowledge Graph & Structured Data",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Knowledge Graph & Structured Data): MUST demonstrate understanding of: Topical Authority"
+      }
+    },
+    {
+      "card_id": "Knowledge Graph & Structured Data-concept-0009",
+      "track": "directive",
+      "content": "Semantic SEO",
+      "target_entity": "Semantic SEO",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Knowledge Graph & Structured Data",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Knowledge Graph & Structured Data): MUST demonstrate understanding of: Semantic SEO"
+      }
+    },
+    {
+      "card_id": "Knowledge Graph & Structured Data-concept-0011",
+      "track": "directive",
+      "content": "Algorithmic Trinity (Search, Knowledge Graphs, LLMs)",
+      "target_entity": "Algorithmic Trinity",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Knowledge Graph & Structured Data",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Knowledge Graph & Structured Data): MUST demonstrate understanding of: Algorithmic Trinity (Search, Knowledge Graphs, LLMs)"
+      }
+    },
+    {
+      "card_id": "Knowledge Graph & Structured Data-concept-0013",
+      "track": "directive",
+      "content": "Understandability, Credibility, Deliverability",
+      "target_entity": "Understandability, Credibility, Deliverability",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Knowledge Graph & Structured Data",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Knowledge Graph & Structured Data): MUST demonstrate understanding of: Understandability, Credibility, Deliverability"
+      }
+    },
+    {
+      "card_id": "Knowledge Graph & Structured Data-nuance-0006",
+      "track": "directive",
+      "content": "Entity descriptions in the Knowledge Graph follow a strict pattern: definitive, answers 'what'/'who', includes related entities, no subjective opinions.",
+      "target_entity": "Entity descriptions in Knowledge Graph",
+      "action_directive": "implement",
+      "type": "nuance",
+      "framework": "Knowledge Graph & Structured Data",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Knowledge Graph & Structured Data): MUST implement: Entity descriptions in the Knowledge Graph follow a strict pattern: definitive, answers 'what'/'who', includes related entities, no subjective opinions."
+      }
+    },
+    {
+      "card_id": "Knowledge Graph & Structured Data-nuance-0008",
+      "track": "directive",
+      "content": "The framework applies to both traditional search and AI Assistive Engines (ChatGPT, Google AI Mode).",
+      "target_entity": "The framework",
+      "action_directive": "understand",
+      "type": "nuance",
+      "framework": "Knowledge Graph & Structured Data",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Knowledge Graph & Structured Data): MUST demonstrate understanding of: The framework applies to both traditional search and AI Assistive Engines (ChatGPT, Google AI Mode)."
+      }
+    },
+    {
+      "card_id": "Python & Data-Driven SEO-method-0000",
+      "track": "directive",
+      "content": "1. For NLTK Lemmatization: Import WordNetLemmatizer, tokenize text, apply lemmatize() with POS tag (e.g., wordnet.VERB) to get base forms.",
+      "target_entity": "NLTK Lemmatization",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Python & Data-Driven SEO",
+      "inject": {
+        "category": "methodology_depth",
+        "section": "architectural_directives",
+        "sub_section": "Methodology & Depth Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Python & Data-Driven SEO): MUST implement: 1. For NLTK Lemmatization: Import WordNetLemmatizer, tokenize text, apply lemmatize() with POS tag (e.g., wordnet.VERB) to get base forms."
+      }
+    },
+    {
+      "card_id": "Python & Data-Driven SEO-method-0001",
+      "track": "directive",
+      "content": "2. For NLTK Tokenization: Use word_tokenize() or sent_tokenize(); remove stop words with stopwords.words('english') and punctuation with isalnum(); count tokens with Counter; visualize with pandas.",
+      "target_entity": "NLTK Tokenization",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Python & Data-Driven SEO",
+      "inject": {
+        "category": "methodology_depth",
+        "section": "architectural_directives",
+        "sub_section": "Methodology & Depth Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Python & Data-Driven SEO): MUST implement: 2. For NLTK Tokenization: Use word_tokenize() or sent_tokenize(); remove stop words with stopwords.words('english') and punctuation with isalnum(); count tokens with Counter; visualize with pandas."
+      }
+    },
+    {
+      "card_id": "Python & Data-Driven SEO-method-0002",
+      "track": "directive",
+      "content": "3. For NLTK Stemming: Import PorterStemmer, tokenize, apply stem() to each token; compare with LancasterStemmer or SnowballStemmer.",
+      "target_entity": "NLTK Stemming",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Python & Data-Driven SEO",
+      "inject": {
+        "category": "methodology_depth",
+        "section": "architectural_directives",
+        "sub_section": "Methodology & Depth Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Python & Data-Driven SEO): MUST implement: 3. For NLTK Stemming: Import PorterStemmer, tokenize, apply stem() to each token; compare with LancasterStemmer or SnowballStemmer."
+      }
+    },
+    {
+      "card_id": "Python & Data-Driven SEO-concept-0000",
+      "track": "directive",
+      "content": "NLTK Lemmatization",
+      "target_entity": "NLTK Lemmatization",
+      "action_directive": "implement",
+      "type": "concept",
+      "framework": "Python & Data-Driven SEO",
+      "inject": {
+        "category": "methodology_depth",
+        "section": "architectural_directives",
+        "sub_section": "Methodology & Depth Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Python & Data-Driven SEO): MUST implement: NLTK Lemmatization"
+      }
+    },
+    {
+      "card_id": "Python & Data-Driven SEO-concept-0001",
+      "track": "directive",
+      "content": "NLTK Tokenization",
+      "target_entity": "NLTK Tokenization",
+      "action_directive": "implement",
+      "type": "concept",
+      "framework": "Python & Data-Driven SEO",
+      "inject": {
+        "category": "methodology_depth",
+        "section": "architectural_directives",
+        "sub_section": "Methodology & Depth Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Python & Data-Driven SEO): MUST implement: NLTK Tokenization"
+      }
+    },
+    {
+      "card_id": "Python & Data-Driven SEO-concept-0002",
+      "track": "directive",
+      "content": "NLTK Stemming",
+      "target_entity": "NLTK Stemming",
+      "action_directive": "implement",
+      "type": "concept",
+      "framework": "Python & Data-Driven SEO",
+      "inject": {
+        "category": "methodology_depth",
+        "section": "architectural_directives",
+        "sub_section": "Methodology & Depth Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Python & Data-Driven SEO): MUST implement: NLTK Stemming"
+      }
+    },
+    {
+      "card_id": "Python & Data-Driven SEO-concept-0003",
+      "track": "directive",
+      "content": "WordNet (synonyms, antonyms, hypernyms, hyponyms)",
+      "target_entity": "WordNet",
+      "action_directive": "implement",
+      "type": "concept",
+      "framework": "Python & Data-Driven SEO",
+      "inject": {
+        "category": "methodology_depth",
+        "section": "architectural_directives",
+        "sub_section": "Methodology & Depth Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Python & Data-Driven SEO): MUST implement: WordNet (synonyms, antonyms, hypernyms, hyponyms)"
+      }
+    },
+    {
+      "card_id": "Python & Data-Driven SEO-concept-0006",
+      "track": "directive",
+      "content": "Log File Analysis",
+      "target_entity": "Log File Analysis",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Python & Data-Driven SEO",
+      "inject": {
+        "category": "methodology_depth",
+        "section": "architectural_directives",
+        "sub_section": "Methodology & Depth Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Python & Data-Driven SEO): MUST demonstrate understanding of: Log File Analysis"
+      }
+    },
+    {
+      "card_id": "Python & Data-Driven SEO-concept-0007",
+      "track": "deterministic",
+      "content": "A/B Testing",
+      "target_entity": "A/B Testing",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Python & Data-Driven SEO",
+      "check": {
+        "method": "canonical_url_present",
+        "category": "technical_seo",
+        "priority": "high",
+        "gap_message": "Page is missing a canonical URL tag — search engines may index duplicate versions.",
+        "fix_directive": "Add <link rel='canonical' href='...'> to <head>",
+        "detection": "regex: <link[^>]*rel=[\"']canonical[\"']"
+      }
+    },
+    {
+      "card_id": "Python & Data-Driven SEO-concept-0008",
+      "track": "directive",
+      "content": "Word Clouds",
+      "target_entity": "Word Clouds",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Python & Data-Driven SEO",
+      "inject": {
+        "category": "methodology_depth",
+        "section": "architectural_directives",
+        "sub_section": "Methodology & Depth Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Python & Data-Driven SEO): MUST demonstrate understanding of: Word Clouds"
+      }
+    },
+    {
+      "card_id": "Python & Data-Driven SEO-concept-0010",
+      "track": "directive",
+      "content": "Semantic SEO",
+      "target_entity": "Semantic SEO",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Python & Data-Driven SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Python & Data-Driven SEO): MUST demonstrate understanding of: Semantic SEO"
+      }
+    },
+    {
+      "card_id": "Python & Data-Driven SEO-concept-0011",
+      "track": "directive",
+      "content": "Topical Authority",
+      "target_entity": "Topical Authority",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Python & Data-Driven SEO",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Python & Data-Driven SEO): MUST demonstrate understanding of: Topical Authority"
+      }
+    },
+    {
+      "card_id": "Python & Data-Driven SEO-concept-0012",
+      "track": "directive",
+      "content": "Data Science for SEO",
+      "target_entity": "Data Science for SEO",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Python & Data-Driven SEO",
+      "inject": {
+        "category": "methodology_depth",
+        "section": "architectural_directives",
+        "sub_section": "Methodology & Depth Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Python & Data-Driven SEO): MUST demonstrate understanding of: Data Science for SEO"
+      }
+    },
+    {
+      "card_id": "Python & Data-Driven SEO-concept-0014",
+      "track": "directive",
+      "content": "Conversion Optimization",
+      "target_entity": "Conversion Optimization",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Python & Data-Driven SEO",
+      "inject": {
+        "category": "conversion_optimization",
+        "section": "architectural_directives",
+        "sub_section": "Conversion & Growth Architecture",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Python & Data-Driven SEO): MUST demonstrate understanding of: Conversion Optimization"
+      }
+    },
+    {
+      "card_id": "Python & Data-Driven SEO-nuance-0003",
+      "track": "directive",
+      "content": "Word clouds should not be used as definitive insight extraction methodology; they are for visualization only.",
+      "target_entity": "Word clouds",
+      "action_directive": "avoid",
+      "type": "nuance",
+      "framework": "Python & Data-Driven SEO",
+      "inject": {
+        "category": "methodology_depth",
+        "section": "architectural_directives",
+        "sub_section": "Methodology & Depth Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Python & Data-Driven SEO): MUST avoid: Word clouds should not be used as definitive insight extraction methodology; they are for visualization only."
+      }
+    },
+    {
+      "card_id": "Python & Data-Driven SEO-nuance-0006",
+      "track": "directive",
+      "content": "When using WordNet, a word can have multiple synonyms with different meanings depending on POS and context.",
+      "target_entity": "WordNet",
+      "action_directive": "understand",
+      "type": "nuance",
+      "framework": "Python & Data-Driven SEO",
+      "inject": {
+        "category": "methodology_depth",
+        "section": "architectural_directives",
+        "sub_section": "Methodology & Depth Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Python & Data-Driven SEO): MUST demonstrate understanding of: When using WordNet, a word can have multiple synonyms with different meanings depending on POS and context."
+      }
+    },
+    {
+      "card_id": "Conversion & Growth-method-ab_testing_steps-0005",
+      "track": "directive",
+      "content": "6. Introduce the best version to all users.",
+      "target_entity": "Best version rollout",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Conversion & Growth",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Conversion & Growth): MUST implement: 6. Introduce the best version to all users."
+      }
+    },
+    {
+      "card_id": "Conversion & Growth-method-flywheel_improvement-0002",
+      "track": "directive",
+      "content": "Grow size by turning customers into advocates who generate referrals.",
+      "target_entity": "Size",
+      "action_directive": "optimize",
+      "type": "method",
+      "framework": "Conversion & Growth",
+      "inject": {
+        "category": "conversion_optimization",
+        "section": "architectural_directives",
+        "sub_section": "Conversion & Growth Architecture",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Conversion & Growth): MUST optimize for: Grow size by turning customers into advocates who generate referrals."
+      }
+    },
+    {
+      "card_id": "Conversion & Growth-method-user_retention_improvement-0000",
+      "track": "directive",
+      "content": "Improve content quality and relevance.",
+      "target_entity": "Content Quality",
+      "action_directive": "optimize",
+      "type": "method",
+      "framework": "Conversion & Growth",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Conversion & Growth): MUST optimize for: Improve content quality and relevance."
+      }
+    },
+    {
+      "card_id": "Conversion & Growth-method-user_retention_improvement-0005",
+      "track": "deterministic",
+      "content": "Use A/B testing to validate changes.",
+      "target_entity": "A/B testing",
+      "action_directive": "implement",
+      "type": "method",
+      "framework": "Conversion & Growth",
+      "check": {
+        "method": "canonical_url_present",
+        "category": "technical_seo",
+        "priority": "high",
+        "gap_message": "Page is missing a canonical URL tag — search engines may index duplicate versions.",
+        "fix_directive": "Add <link rel='canonical' href='...'> to <head>",
+        "detection": "regex: <link[^>]*rel=[\"']canonical[\"']"
+      }
+    },
+    {
+      "card_id": "Conversion & Growth-method-aso_methods-0003",
+      "track": "deterministic",
+      "content": "Manage ratings and reviews (ask at the right moment, respond).",
+      "target_entity": "Ratings and reviews",
+      "action_directive": "monitor",
+      "type": "method",
+      "framework": "Conversion & Growth",
+      "check": {
+        "method": "review_schema_present",
+        "category": "local_seo",
+        "priority": "medium",
+        "gap_message": "No Review or AggregateRating schema — star ratings won't appear in SERP.",
+        "fix_directive": "Add JSON-LD Review or AggregateRating schema for Google star ratings in search results",
+        "detection": "regex: (Review|AggregateRating|reviewRating)[\"']"
+      }
+    },
+    {
+      "card_id": "Conversion & Growth-concept-0002",
+      "track": "deterministic",
+      "content": "A/B Testing (Split Testing)",
+      "target_entity": "A/B Testing",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Conversion & Growth",
+      "check": {
+        "method": "canonical_url_present",
+        "category": "technical_seo",
+        "priority": "high",
+        "gap_message": "Page is missing a canonical URL tag — search engines may index duplicate versions.",
+        "fix_directive": "Add <link rel='canonical' href='...'> to <head>",
+        "detection": "regex: <link[^>]*rel=[\"']canonical[\"']"
+      }
+    },
+    {
+      "card_id": "Conversion & Growth-concept-0003",
+      "track": "directive",
+      "content": "User Retention Rate",
+      "target_entity": "User Retention Rate",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Conversion & Growth",
+      "inject": {
+        "category": "conversion_optimization",
+        "section": "architectural_directives",
+        "sub_section": "Conversion & Growth Architecture",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Conversion & Growth): MUST demonstrate understanding of: User Retention Rate"
+      }
+    },
+    {
+      "card_id": "Conversion & Growth-concept-0004",
+      "track": "directive",
+      "content": "Key Performance Indicators (KPIs)",
+      "target_entity": "Key Performance Indicators",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Conversion & Growth",
+      "inject": {
+        "category": "conversion_optimization",
+        "section": "architectural_directives",
+        "sub_section": "Conversion & Growth Architecture",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Conversion & Growth): MUST demonstrate understanding of: Key Performance Indicators (KPIs)"
+      }
+    },
+    {
+      "card_id": "Conversion & Growth-concept-0006",
+      "track": "directive",
+      "content": "App Store Optimization (ASO)",
+      "target_entity": "App Store Optimization",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "Conversion & Growth",
+      "inject": {
+        "category": "conversion_optimization",
+        "section": "architectural_directives",
+        "sub_section": "Conversion & Growth Architecture",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Conversion & Growth): MUST demonstrate understanding of: App Store Optimization (ASO)"
+      }
+    },
+    {
+      "card_id": "Conversion & Growth-nuance-0002",
+      "track": "directive",
+      "content": "User retention measurement requires consistent definition and proper timeframe selection.",
+      "target_entity": "User retention measurement",
+      "action_directive": "implement",
+      "type": "nuance",
+      "framework": "Conversion & Growth",
+      "inject": {
+        "category": "conversion_optimization",
+        "section": "architectural_directives",
+        "sub_section": "Conversion & Growth Architecture",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — Conversion & Growth): MUST implement: User retention measurement requires consistent definition and proper timeframe selection."
+      }
+    },
+    {
+      "card_id": "SEO Case Study Methodology-concept-0000",
+      "track": "directive",
+      "content": "Topical Authority",
+      "target_entity": "Topical Authority",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "SEO Case Study Methodology",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — SEO Case Study Methodology): MUST demonstrate understanding of: Topical Authority"
+      }
+    },
+    {
+      "card_id": "SEO Case Study Methodology-concept-0001",
+      "track": "directive",
+      "content": "Semantic Content Networks",
+      "target_entity": "Semantic Content Networks",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "SEO Case Study Methodology",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — SEO Case Study Methodology): MUST demonstrate understanding of: Semantic Content Networks"
+      }
+    },
+    {
+      "card_id": "SEO Case Study Methodology-concept-0002",
+      "track": "directive",
+      "content": "Source Context",
+      "target_entity": "Source Context",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "SEO Case Study Methodology",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — SEO Case Study Methodology): MUST demonstrate understanding of: Source Context"
+      }
+    },
+    {
+      "card_id": "SEO Case Study Methodology-concept-0003",
+      "track": "directive",
+      "content": "Contextual Bridges",
+      "target_entity": "Contextual Bridges",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "SEO Case Study Methodology",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — SEO Case Study Methodology): MUST demonstrate understanding of: Contextual Bridges"
+      }
+    },
+    {
+      "card_id": "SEO Case Study Methodology-concept-0004",
+      "track": "directive",
+      "content": "Brand Identity",
+      "target_entity": "Brand Identity",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "SEO Case Study Methodology",
+      "inject": {
+        "category": "entity_requirements",
+        "section": "architectural_directives",
+        "sub_section": "Entity & Schema Requirements",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — SEO Case Study Methodology): MUST demonstrate understanding of: Brand Identity"
+      }
+    },
+    {
+      "card_id": "SEO Case Study Methodology-concept-0005",
+      "track": "directive",
+      "content": "Predicates (Verbs of Life)",
+      "target_entity": "Predicates (Verbs of Life)",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "SEO Case Study Methodology",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — SEO Case Study Methodology): MUST demonstrate understanding of: Predicates (Verbs of Life)"
+      }
+    },
+    {
+      "card_id": "SEO Case Study Methodology-concept-0014",
+      "track": "directive",
+      "content": "Cost of Retrieval",
+      "target_entity": "Cost of Retrieval",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "SEO Case Study Methodology",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — SEO Case Study Methodology): MUST demonstrate understanding of: Cost of Retrieval"
+      }
+    },
+    {
+      "card_id": "SEO Case Study Methodology-concept-0017",
+      "track": "directive",
+      "content": "Holistic SEO",
+      "target_entity": "Holistic SEO",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "SEO Case Study Methodology",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — SEO Case Study Methodology): MUST demonstrate understanding of: Holistic SEO"
+      }
+    },
+    {
+      "card_id": "SEO Case Study Methodology-concept-0018",
+      "track": "directive",
+      "content": "Search Engine Trust and Historical Data",
+      "target_entity": "Search Engine Trust and Historical Data",
+      "action_directive": "understand",
+      "type": "concept",
+      "framework": "SEO Case Study Methodology",
+      "inject": {
+        "category": "content_strategy",
+        "section": "architectural_directives",
+        "sub_section": "Architectural Directives — Content Strategy",
+        "prompt_fragment": "CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur — SEO Case Study Methodology): MUST demonstrate understanding of: Search Engine Trust and Historical Data"
+      }
+    }
+  ],
+  "directive_router": {
+    "by_framework": {
+      "Topical Authority": [
+        "Topical Authority-concept-0002",
+        "Topical Authority-concept-0003",
+        "Topical Authority-concept-0007",
+        "Topical Authority-concept-0009",
+        "Topical Authority-concept-0017",
+        "Topical Authority-concept-0019",
+        "Topical Authority-concept-0022",
+        "Topical Authority-concept-0026",
+        "Topical Authority-concept-0027",
+        "Topical Authority-concept-0029",
+        "Topical Authority-concept-0033",
+        "Topical Authority-method-0005"
+      ],
+      "Semantic SEO": [
+        "Semantic SEO-concept-0000",
+        "Semantic SEO-concept-0001",
+        "Semantic SEO-concept-0002",
+        "Semantic SEO-concept-0007",
+        "Semantic SEO-concept-0008",
+        "Semantic SEO-evidence-0005",
+        "Semantic SEO-method-0000",
+        "Semantic SEO-method-0001",
+        "Semantic SEO-method-0002",
+        "Semantic SEO-method-0005",
+        "Semantic SEO-method-0006"
+      ],
+      "Holistic SEO": [
+        "Holistic SEO-concept-0000",
+        "Holistic SEO-concept-0001",
+        "Holistic SEO-concept-0004",
+        "Holistic SEO-concept-0012",
+        "Holistic SEO-concept-0020",
+        "Holistic SEO-concept-0021",
+        "Holistic SEO-concept-0022",
+        "Holistic SEO-concept-0033"
+      ],
+      "Entity-Based SEO": [
+        "Entity-Based SEO-concept-0000",
+        "Entity-Based SEO-concept-0002",
+        "Entity-Based SEO-concept-0005",
+        "Entity-Based SEO-concept-0006",
+        "Entity-Based SEO-concept-0008",
+        "Entity-Based SEO-concept-0010",
+        "Entity-Based SEO-concept-0011",
+        "Entity-Based SEO-concept-0012",
+        "Entity-Based SEO-concept-0013",
+        "Entity-Based SEO-concept-0015",
+        "Entity-Based SEO-evidence-0003",
+        "Entity-Based SEO-method-0004",
+        "Entity-Based SEO-method-0006",
+        "Entity-Based SEO-method-0008",
+        "Entity-Based SEO-method-0009",
+        "Entity-Based SEO-method-0014",
+        "Entity-Based SEO-method-0015",
+        "Entity-Based SEO-nuance-0000",
+        "Entity-Based SEO-nuance-0001"
+      ],
+      "Technical SEO": [
+        "Technical SEO-concept-0000",
+        "Technical SEO-concept-0001",
+        "Technical SEO-concept-0002",
+        "Technical SEO-concept-0003",
+        "Technical SEO-concept-0011"
+      ],
+      "SEO Information Retrieval": [
+        "SEO Information Retrieval-concept-0000",
+        "SEO Information Retrieval-concept-0004",
+        "SEO Information Retrieval-concept-0005",
+        "SEO Information Retrieval-concept-0006",
+        "SEO Information Retrieval-evidence-0004",
+        "SEO Information Retrieval-method-0001"
+      ],
+      "Content Quality & Linguistics": [
+        "Content Quality & Linguistics-concept-0001",
+        "Content Quality & Linguistics-concept-0002",
+        "Content Quality & Linguistics-concept-0003",
+        "Content Quality & Linguistics-concept-0006",
+        "Content Quality & Linguistics-concept-0008",
+        "Content Quality & Linguistics-evidence-0000"
+      ],
+      "Multilingual & International SEO": [
+        "Multilingual & International SEO-concept-0001",
+        "Multilingual & International SEO-concept-0004",
+        "Multilingual & International SEO-concept-0009",
+        "Multilingual & International SEO-evidence-0007"
+      ],
+      "Knowledge Graph & Structured Data": [
+        "Knowledge Graph & Structured Data-concept-0000",
+        "Knowledge Graph & Structured Data-concept-0001",
+        "Knowledge Graph & Structured Data-concept-0002",
+        "Knowledge Graph & Structured Data-concept-0007",
+        "Knowledge Graph & Structured Data-concept-0009",
+        "Knowledge Graph & Structured Data-concept-0011",
+        "Knowledge Graph & Structured Data-concept-0013",
+        "Knowledge Graph & Structured Data-evidence-0002",
+        "Knowledge Graph & Structured Data-evidence-0005",
+        "Knowledge Graph & Structured Data-evidence-0007",
+        "Knowledge Graph & Structured Data-method-0005",
+        "Knowledge Graph & Structured Data-method-0012",
+        "Knowledge Graph & Structured Data-nuance-0006",
+        "Knowledge Graph & Structured Data-nuance-0008"
+      ],
+      "Python & Data-Driven SEO": [
+        "Python & Data-Driven SEO-concept-0000",
+        "Python & Data-Driven SEO-concept-0001",
+        "Python & Data-Driven SEO-concept-0002",
+        "Python & Data-Driven SEO-concept-0003",
+        "Python & Data-Driven SEO-concept-0006",
+        "Python & Data-Driven SEO-concept-0008",
+        "Python & Data-Driven SEO-concept-0010",
+        "Python & Data-Driven SEO-concept-0011",
+        "Python & Data-Driven SEO-concept-0012",
+        "Python & Data-Driven SEO-concept-0014",
+        "Python & Data-Driven SEO-method-0000",
+        "Python & Data-Driven SEO-method-0001",
+        "Python & Data-Driven SEO-method-0002",
+        "Python & Data-Driven SEO-nuance-0003",
+        "Python & Data-Driven SEO-nuance-0006"
+      ],
+      "Conversion & Growth": [
+        "Conversion & Growth-concept-0003",
+        "Conversion & Growth-concept-0004",
+        "Conversion & Growth-concept-0006",
+        "Conversion & Growth-method-ab_testing_steps-0005",
+        "Conversion & Growth-method-flywheel_improvement-0002",
+        "Conversion & Growth-method-user_retention_improvement-0000",
+        "Conversion & Growth-nuance-0002"
+      ],
+      "SEO Case Study Methodology": [
+        "SEO Case Study Methodology-concept-0000",
+        "SEO Case Study Methodology-concept-0001",
+        "SEO Case Study Methodology-concept-0002",
+        "SEO Case Study Methodology-concept-0003",
+        "SEO Case Study Methodology-concept-0004",
+        "SEO Case Study Methodology-concept-0005",
+        "SEO Case Study Methodology-concept-0014",
+        "SEO Case Study Methodology-concept-0017",
+        "SEO Case Study Methodology-concept-0018"
+      ]
+    },
+    "by_category": {
+      "content_strategy": [
+        "Content Quality & Linguistics-concept-0001",
+        "Content Quality & Linguistics-concept-0002",
+        "Content Quality & Linguistics-concept-0003",
+        "Content Quality & Linguistics-concept-0006",
+        "Content Quality & Linguistics-concept-0008",
+        "Conversion & Growth-method-ab_testing_steps-0005",
+        "Conversion & Growth-method-user_retention_improvement-0000",
+        "Entity-Based SEO-concept-0010",
+        "Entity-Based SEO-concept-0011",
+        "Entity-Based SEO-concept-0012",
+        "Entity-Based SEO-concept-0013",
+        "Entity-Based SEO-method-0014",
+        "Holistic SEO-concept-0000",
+        "Holistic SEO-concept-0001",
+        "Holistic SEO-concept-0004",
+        "Holistic SEO-concept-0012",
+        "Holistic SEO-concept-0020",
+        "Holistic SEO-concept-0022",
+        "Holistic SEO-concept-0033",
+        "Knowledge Graph & Structured Data-concept-0007",
+        "Knowledge Graph & Structured Data-concept-0009",
+        "Knowledge Graph & Structured Data-concept-0013",
+        "Knowledge Graph & Structured Data-method-0012",
+        "Knowledge Graph & Structured Data-nuance-0008",
+        "Multilingual & International SEO-concept-0001",
+        "Python & Data-Driven SEO-concept-0010",
+        "Python & Data-Driven SEO-concept-0011",
+        "SEO Case Study Methodology-concept-0000",
+        "SEO Case Study Methodology-concept-0001",
+        "SEO Case Study Methodology-concept-0002",
+        "SEO Case Study Methodology-concept-0003",
+        "SEO Case Study Methodology-concept-0005",
+        "SEO Case Study Methodology-concept-0014",
+        "SEO Case Study Methodology-concept-0017",
+        "SEO Case Study Methodology-concept-0018",
+        "SEO Information Retrieval-concept-0006",
+        "Semantic SEO-concept-0000",
+        "Semantic SEO-concept-0001",
+        "Semantic SEO-concept-0002",
+        "Semantic SEO-concept-0007",
+        "Semantic SEO-concept-0008",
+        "Semantic SEO-method-0000",
+        "Semantic SEO-method-0001",
+        "Semantic SEO-method-0002",
+        "Semantic SEO-method-0005",
+        "Semantic SEO-method-0006",
+        "Technical SEO-concept-0000",
+        "Technical SEO-concept-0001",
+        "Technical SEO-concept-0002",
+        "Technical SEO-concept-0003",
+        "Technical SEO-concept-0011",
+        "Topical Authority-concept-0002",
+        "Topical Authority-concept-0003",
+        "Topical Authority-concept-0007",
+        "Topical Authority-concept-0009",
+        "Topical Authority-concept-0017",
+        "Topical Authority-concept-0019",
+        "Topical Authority-concept-0022",
+        "Topical Authority-concept-0027",
+        "Topical Authority-concept-0029",
+        "Topical Authority-concept-0033",
+        "Topical Authority-method-0005"
+      ],
+      "entity_requirements": [
+        "Entity-Based SEO-concept-0000",
+        "Entity-Based SEO-concept-0002",
+        "Entity-Based SEO-concept-0005",
+        "Entity-Based SEO-concept-0006",
+        "Entity-Based SEO-concept-0008",
+        "Entity-Based SEO-concept-0015",
+        "Entity-Based SEO-method-0004",
+        "Entity-Based SEO-method-0006",
+        "Entity-Based SEO-method-0008",
+        "Entity-Based SEO-method-0009",
+        "Entity-Based SEO-method-0015",
+        "Entity-Based SEO-nuance-0000",
+        "Entity-Based SEO-nuance-0001",
+        "Holistic SEO-concept-0021",
+        "Knowledge Graph & Structured Data-concept-0000",
+        "Knowledge Graph & Structured Data-concept-0001",
+        "Knowledge Graph & Structured Data-concept-0002",
+        "Knowledge Graph & Structured Data-concept-0011",
+        "Knowledge Graph & Structured Data-method-0005",
+        "Knowledge Graph & Structured Data-nuance-0006",
+        "Multilingual & International SEO-concept-0004",
+        "SEO Case Study Methodology-concept-0004",
+        "SEO Information Retrieval-concept-0005",
+        "Topical Authority-concept-0026"
+      ],
+      "case_study_format": [
+        "Content Quality & Linguistics-evidence-0000",
+        "Entity-Based SEO-evidence-0003",
+        "Knowledge Graph & Structured Data-evidence-0002",
+        "Knowledge Graph & Structured Data-evidence-0005",
+        "Knowledge Graph & Structured Data-evidence-0007",
+        "Multilingual & International SEO-evidence-0007",
+        "SEO Information Retrieval-evidence-0004",
+        "Semantic SEO-evidence-0005"
+      ],
+      "methodology_depth": [
+        "Python & Data-Driven SEO-concept-0000",
+        "Python & Data-Driven SEO-concept-0001",
+        "Python & Data-Driven SEO-concept-0002",
+        "Python & Data-Driven SEO-concept-0003",
+        "Python & Data-Driven SEO-concept-0006",
+        "Python & Data-Driven SEO-concept-0008",
+        "Python & Data-Driven SEO-concept-0012",
+        "Python & Data-Driven SEO-method-0000",
+        "Python & Data-Driven SEO-method-0001",
+        "Python & Data-Driven SEO-method-0002",
+        "Python & Data-Driven SEO-nuance-0003",
+        "Python & Data-Driven SEO-nuance-0006",
+        "SEO Information Retrieval-concept-0000",
+        "SEO Information Retrieval-concept-0004",
+        "SEO Information Retrieval-method-0001"
+      ],
+      "multilingual_consistency": [
+        "Multilingual & International SEO-concept-0009"
+      ],
+      "conversion_optimization": [
+        "Conversion & Growth-concept-0003",
+        "Conversion & Growth-concept-0004",
+        "Conversion & Growth-concept-0006",
+        "Conversion & Growth-method-flywheel_improvement-0002",
+        "Conversion & Growth-nuance-0002",
+        "Python & Data-Driven SEO-concept-0014"
+      ]
+    },
+    "by_page_type": {
+      "blog_post": {
+        "content_strategy": [
+          "Content Quality & Linguistics-concept-0001",
+          "Content Quality & Linguistics-concept-0002",
+          "Content Quality & Linguistics-concept-0003",
+          "Content Quality & Linguistics-concept-0006",
+          "Content Quality & Linguistics-concept-0008",
+          "Conversion & Growth-method-ab_testing_steps-0005",
+          "Conversion & Growth-method-user_retention_improvement-0000",
+          "Entity-Based SEO-concept-0010",
+          "Entity-Based SEO-concept-0011",
+          "Entity-Based SEO-concept-0012",
+          "Entity-Based SEO-concept-0013",
+          "Entity-Based SEO-method-0014",
+          "Holistic SEO-concept-0000",
+          "Holistic SEO-concept-0001",
+          "Holistic SEO-concept-0004",
+          "Holistic SEO-concept-0012",
+          "Holistic SEO-concept-0020",
+          "Holistic SEO-concept-0022",
+          "Holistic SEO-concept-0033",
+          "Knowledge Graph & Structured Data-concept-0007",
+          "Knowledge Graph & Structured Data-concept-0009",
+          "Knowledge Graph & Structured Data-concept-0013",
+          "Knowledge Graph & Structured Data-method-0012",
+          "Knowledge Graph & Structured Data-nuance-0008",
+          "Multilingual & International SEO-concept-0001",
+          "Python & Data-Driven SEO-concept-0010",
+          "Python & Data-Driven SEO-concept-0011",
+          "SEO Case Study Methodology-concept-0000",
+          "SEO Case Study Methodology-concept-0001",
+          "SEO Case Study Methodology-concept-0002",
+          "SEO Case Study Methodology-concept-0003",
+          "SEO Case Study Methodology-concept-0005",
+          "SEO Case Study Methodology-concept-0014",
+          "SEO Case Study Methodology-concept-0017",
+          "SEO Case Study Methodology-concept-0018",
+          "SEO Information Retrieval-concept-0006",
+          "Semantic SEO-concept-0000",
+          "Semantic SEO-concept-0001",
+          "Semantic SEO-concept-0002",
+          "Semantic SEO-concept-0007",
+          "Semantic SEO-concept-0008",
+          "Semantic SEO-method-0000",
+          "Semantic SEO-method-0001",
+          "Semantic SEO-method-0002",
+          "Semantic SEO-method-0005",
+          "Semantic SEO-method-0006",
+          "Technical SEO-concept-0000",
+          "Technical SEO-concept-0001",
+          "Technical SEO-concept-0002",
+          "Technical SEO-concept-0003",
+          "Technical SEO-concept-0011",
+          "Topical Authority-concept-0002",
+          "Topical Authority-concept-0003",
+          "Topical Authority-concept-0007",
+          "Topical Authority-concept-0009",
+          "Topical Authority-concept-0017",
+          "Topical Authority-concept-0019",
+          "Topical Authority-concept-0022",
+          "Topical Authority-concept-0027",
+          "Topical Authority-concept-0029",
+          "Topical Authority-concept-0033",
+          "Topical Authority-method-0005"
+        ],
+        "entity_requirements": [
+          "Entity-Based SEO-concept-0000",
+          "Entity-Based SEO-concept-0002",
+          "Entity-Based SEO-concept-0005",
+          "Entity-Based SEO-concept-0006",
+          "Entity-Based SEO-concept-0008",
+          "Entity-Based SEO-concept-0015",
+          "Entity-Based SEO-method-0004",
+          "Entity-Based SEO-method-0006",
+          "Entity-Based SEO-method-0008",
+          "Entity-Based SEO-method-0009",
+          "Entity-Based SEO-method-0015",
+          "Entity-Based SEO-nuance-0000",
+          "Entity-Based SEO-nuance-0001",
+          "Holistic SEO-concept-0021",
+          "Knowledge Graph & Structured Data-concept-0000",
+          "Knowledge Graph & Structured Data-concept-0001",
+          "Knowledge Graph & Structured Data-concept-0002",
+          "Knowledge Graph & Structured Data-concept-0011",
+          "Knowledge Graph & Structured Data-method-0005",
+          "Knowledge Graph & Structured Data-nuance-0006",
+          "Multilingual & International SEO-concept-0004",
+          "SEO Case Study Methodology-concept-0004",
+          "SEO Information Retrieval-concept-0005",
+          "Topical Authority-concept-0026"
+        ],
+        "case_study_format": [
+          "Content Quality & Linguistics-evidence-0000",
+          "Entity-Based SEO-evidence-0003",
+          "Knowledge Graph & Structured Data-evidence-0002",
+          "Knowledge Graph & Structured Data-evidence-0005",
+          "Knowledge Graph & Structured Data-evidence-0007",
+          "Multilingual & International SEO-evidence-0007",
+          "SEO Information Retrieval-evidence-0004",
+          "Semantic SEO-evidence-0005"
+        ],
+        "methodology_depth": [
+          "Python & Data-Driven SEO-concept-0000",
+          "Python & Data-Driven SEO-concept-0001",
+          "Python & Data-Driven SEO-concept-0002",
+          "Python & Data-Driven SEO-concept-0003",
+          "Python & Data-Driven SEO-concept-0006",
+          "Python & Data-Driven SEO-concept-0008",
+          "Python & Data-Driven SEO-concept-0012",
+          "Python & Data-Driven SEO-method-0000",
+          "Python & Data-Driven SEO-method-0001",
+          "Python & Data-Driven SEO-method-0002",
+          "Python & Data-Driven SEO-nuance-0003",
+          "Python & Data-Driven SEO-nuance-0006",
+          "SEO Information Retrieval-concept-0000",
+          "SEO Information Retrieval-concept-0004",
+          "SEO Information Retrieval-method-0001"
+        ],
+        "multilingual_consistency": [
+          "Multilingual & International SEO-concept-0009"
+        ]
+      },
+      "service": {
+        "content_strategy": [
+          "Content Quality & Linguistics-concept-0001",
+          "Content Quality & Linguistics-concept-0002",
+          "Content Quality & Linguistics-concept-0003",
+          "Content Quality & Linguistics-concept-0006",
+          "Content Quality & Linguistics-concept-0008",
+          "Conversion & Growth-method-ab_testing_steps-0005",
+          "Conversion & Growth-method-user_retention_improvement-0000",
+          "Entity-Based SEO-concept-0010",
+          "Entity-Based SEO-concept-0011",
+          "Entity-Based SEO-concept-0012",
+          "Entity-Based SEO-concept-0013",
+          "Entity-Based SEO-method-0014",
+          "Holistic SEO-concept-0000",
+          "Holistic SEO-concept-0001",
+          "Holistic SEO-concept-0004",
+          "Holistic SEO-concept-0012",
+          "Holistic SEO-concept-0020",
+          "Holistic SEO-concept-0022",
+          "Holistic SEO-concept-0033",
+          "Knowledge Graph & Structured Data-concept-0007",
+          "Knowledge Graph & Structured Data-concept-0009",
+          "Knowledge Graph & Structured Data-concept-0013",
+          "Knowledge Graph & Structured Data-method-0012",
+          "Knowledge Graph & Structured Data-nuance-0008",
+          "Multilingual & International SEO-concept-0001",
+          "Python & Data-Driven SEO-concept-0010",
+          "Python & Data-Driven SEO-concept-0011",
+          "SEO Case Study Methodology-concept-0000",
+          "SEO Case Study Methodology-concept-0001",
+          "SEO Case Study Methodology-concept-0002",
+          "SEO Case Study Methodology-concept-0003",
+          "SEO Case Study Methodology-concept-0005",
+          "SEO Case Study Methodology-concept-0014",
+          "SEO Case Study Methodology-concept-0017",
+          "SEO Case Study Methodology-concept-0018",
+          "SEO Information Retrieval-concept-0006",
+          "Semantic SEO-concept-0000",
+          "Semantic SEO-concept-0001",
+          "Semantic SEO-concept-0002",
+          "Semantic SEO-concept-0007",
+          "Semantic SEO-concept-0008",
+          "Semantic SEO-method-0000",
+          "Semantic SEO-method-0001",
+          "Semantic SEO-method-0002",
+          "Semantic SEO-method-0005",
+          "Semantic SEO-method-0006",
+          "Technical SEO-concept-0000",
+          "Technical SEO-concept-0001",
+          "Technical SEO-concept-0002",
+          "Technical SEO-concept-0003",
+          "Technical SEO-concept-0011",
+          "Topical Authority-concept-0002",
+          "Topical Authority-concept-0003",
+          "Topical Authority-concept-0007",
+          "Topical Authority-concept-0009",
+          "Topical Authority-concept-0017",
+          "Topical Authority-concept-0019",
+          "Topical Authority-concept-0022",
+          "Topical Authority-concept-0027",
+          "Topical Authority-concept-0029",
+          "Topical Authority-concept-0033",
+          "Topical Authority-method-0005"
+        ],
+        "entity_requirements": [
+          "Entity-Based SEO-concept-0000",
+          "Entity-Based SEO-concept-0002",
+          "Entity-Based SEO-concept-0005",
+          "Entity-Based SEO-concept-0006",
+          "Entity-Based SEO-concept-0008",
+          "Entity-Based SEO-concept-0015",
+          "Entity-Based SEO-method-0004",
+          "Entity-Based SEO-method-0006",
+          "Entity-Based SEO-method-0008",
+          "Entity-Based SEO-method-0009",
+          "Entity-Based SEO-method-0015",
+          "Entity-Based SEO-nuance-0000",
+          "Entity-Based SEO-nuance-0001",
+          "Holistic SEO-concept-0021",
+          "Knowledge Graph & Structured Data-concept-0000",
+          "Knowledge Graph & Structured Data-concept-0001",
+          "Knowledge Graph & Structured Data-concept-0002",
+          "Knowledge Graph & Structured Data-concept-0011",
+          "Knowledge Graph & Structured Data-method-0005",
+          "Knowledge Graph & Structured Data-nuance-0006",
+          "Multilingual & International SEO-concept-0004",
+          "SEO Case Study Methodology-concept-0004",
+          "SEO Information Retrieval-concept-0005",
+          "Topical Authority-concept-0026"
+        ],
+        "methodology_depth": [
+          "Python & Data-Driven SEO-concept-0000",
+          "Python & Data-Driven SEO-concept-0001",
+          "Python & Data-Driven SEO-concept-0002",
+          "Python & Data-Driven SEO-concept-0003",
+          "Python & Data-Driven SEO-concept-0006",
+          "Python & Data-Driven SEO-concept-0008",
+          "Python & Data-Driven SEO-concept-0012",
+          "Python & Data-Driven SEO-method-0000",
+          "Python & Data-Driven SEO-method-0001",
+          "Python & Data-Driven SEO-method-0002",
+          "Python & Data-Driven SEO-nuance-0003",
+          "Python & Data-Driven SEO-nuance-0006",
+          "SEO Information Retrieval-concept-0000",
+          "SEO Information Retrieval-concept-0004",
+          "SEO Information Retrieval-method-0001"
+        ],
+        "multilingual_consistency": [
+          "Multilingual & International SEO-concept-0009"
+        ],
+        "conversion_optimization": [
+          "Conversion & Growth-concept-0003",
+          "Conversion & Growth-concept-0004",
+          "Conversion & Growth-concept-0006",
+          "Conversion & Growth-method-flywheel_improvement-0002",
+          "Conversion & Growth-nuance-0002",
+          "Python & Data-Driven SEO-concept-0014"
+        ]
+      },
+      "homepage": {
+        "content_strategy": [
+          "Content Quality & Linguistics-concept-0001",
+          "Content Quality & Linguistics-concept-0002",
+          "Content Quality & Linguistics-concept-0003",
+          "Content Quality & Linguistics-concept-0006",
+          "Content Quality & Linguistics-concept-0008",
+          "Conversion & Growth-method-ab_testing_steps-0005",
+          "Conversion & Growth-method-user_retention_improvement-0000",
+          "Entity-Based SEO-concept-0010",
+          "Entity-Based SEO-concept-0011",
+          "Entity-Based SEO-concept-0012",
+          "Entity-Based SEO-concept-0013",
+          "Entity-Based SEO-method-0014",
+          "Holistic SEO-concept-0000",
+          "Holistic SEO-concept-0001",
+          "Holistic SEO-concept-0004",
+          "Holistic SEO-concept-0012",
+          "Holistic SEO-concept-0020",
+          "Holistic SEO-concept-0022",
+          "Holistic SEO-concept-0033",
+          "Knowledge Graph & Structured Data-concept-0007",
+          "Knowledge Graph & Structured Data-concept-0009",
+          "Knowledge Graph & Structured Data-concept-0013",
+          "Knowledge Graph & Structured Data-method-0012",
+          "Knowledge Graph & Structured Data-nuance-0008",
+          "Multilingual & International SEO-concept-0001",
+          "Python & Data-Driven SEO-concept-0010",
+          "Python & Data-Driven SEO-concept-0011",
+          "SEO Case Study Methodology-concept-0000",
+          "SEO Case Study Methodology-concept-0001",
+          "SEO Case Study Methodology-concept-0002",
+          "SEO Case Study Methodology-concept-0003",
+          "SEO Case Study Methodology-concept-0005",
+          "SEO Case Study Methodology-concept-0014",
+          "SEO Case Study Methodology-concept-0017",
+          "SEO Case Study Methodology-concept-0018",
+          "SEO Information Retrieval-concept-0006",
+          "Semantic SEO-concept-0000",
+          "Semantic SEO-concept-0001",
+          "Semantic SEO-concept-0002",
+          "Semantic SEO-concept-0007",
+          "Semantic SEO-concept-0008",
+          "Semantic SEO-method-0000",
+          "Semantic SEO-method-0001",
+          "Semantic SEO-method-0002",
+          "Semantic SEO-method-0005",
+          "Semantic SEO-method-0006",
+          "Technical SEO-concept-0000",
+          "Technical SEO-concept-0001",
+          "Technical SEO-concept-0002",
+          "Technical SEO-concept-0003",
+          "Technical SEO-concept-0011",
+          "Topical Authority-concept-0002",
+          "Topical Authority-concept-0003",
+          "Topical Authority-concept-0007",
+          "Topical Authority-concept-0009",
+          "Topical Authority-concept-0017",
+          "Topical Authority-concept-0019",
+          "Topical Authority-concept-0022",
+          "Topical Authority-concept-0027",
+          "Topical Authority-concept-0029",
+          "Topical Authority-concept-0033",
+          "Topical Authority-method-0005"
+        ],
+        "entity_requirements": [
+          "Entity-Based SEO-concept-0000",
+          "Entity-Based SEO-concept-0002",
+          "Entity-Based SEO-concept-0005",
+          "Entity-Based SEO-concept-0006",
+          "Entity-Based SEO-concept-0008",
+          "Entity-Based SEO-concept-0015",
+          "Entity-Based SEO-method-0004",
+          "Entity-Based SEO-method-0006",
+          "Entity-Based SEO-method-0008",
+          "Entity-Based SEO-method-0009",
+          "Entity-Based SEO-method-0015",
+          "Entity-Based SEO-nuance-0000",
+          "Entity-Based SEO-nuance-0001",
+          "Holistic SEO-concept-0021",
+          "Knowledge Graph & Structured Data-concept-0000",
+          "Knowledge Graph & Structured Data-concept-0001",
+          "Knowledge Graph & Structured Data-concept-0002",
+          "Knowledge Graph & Structured Data-concept-0011",
+          "Knowledge Graph & Structured Data-method-0005",
+          "Knowledge Graph & Structured Data-nuance-0006",
+          "Multilingual & International SEO-concept-0004",
+          "SEO Case Study Methodology-concept-0004",
+          "SEO Information Retrieval-concept-0005",
+          "Topical Authority-concept-0026"
+        ],
+        "multilingual_consistency": [
+          "Multilingual & International SEO-concept-0009"
+        ],
+        "conversion_optimization": [
+          "Conversion & Growth-concept-0003",
+          "Conversion & Growth-concept-0004",
+          "Conversion & Growth-concept-0006",
+          "Conversion & Growth-method-flywheel_improvement-0002",
+          "Conversion & Growth-nuance-0002",
+          "Python & Data-Driven SEO-concept-0014"
+        ]
+      },
+      "about": {
+        "content_strategy": [
+          "Content Quality & Linguistics-concept-0001",
+          "Content Quality & Linguistics-concept-0002",
+          "Content Quality & Linguistics-concept-0003",
+          "Content Quality & Linguistics-concept-0006",
+          "Content Quality & Linguistics-concept-0008",
+          "Conversion & Growth-method-ab_testing_steps-0005",
+          "Conversion & Growth-method-user_retention_improvement-0000",
+          "Entity-Based SEO-concept-0010",
+          "Entity-Based SEO-concept-0011",
+          "Entity-Based SEO-concept-0012",
+          "Entity-Based SEO-concept-0013",
+          "Entity-Based SEO-method-0014",
+          "Holistic SEO-concept-0000",
+          "Holistic SEO-concept-0001",
+          "Holistic SEO-concept-0004",
+          "Holistic SEO-concept-0012",
+          "Holistic SEO-concept-0020",
+          "Holistic SEO-concept-0022",
+          "Holistic SEO-concept-0033",
+          "Knowledge Graph & Structured Data-concept-0007",
+          "Knowledge Graph & Structured Data-concept-0009",
+          "Knowledge Graph & Structured Data-concept-0013",
+          "Knowledge Graph & Structured Data-method-0012",
+          "Knowledge Graph & Structured Data-nuance-0008",
+          "Multilingual & International SEO-concept-0001",
+          "Python & Data-Driven SEO-concept-0010",
+          "Python & Data-Driven SEO-concept-0011",
+          "SEO Case Study Methodology-concept-0000",
+          "SEO Case Study Methodology-concept-0001",
+          "SEO Case Study Methodology-concept-0002",
+          "SEO Case Study Methodology-concept-0003",
+          "SEO Case Study Methodology-concept-0005",
+          "SEO Case Study Methodology-concept-0014",
+          "SEO Case Study Methodology-concept-0017",
+          "SEO Case Study Methodology-concept-0018",
+          "SEO Information Retrieval-concept-0006",
+          "Semantic SEO-concept-0000",
+          "Semantic SEO-concept-0001",
+          "Semantic SEO-concept-0002",
+          "Semantic SEO-concept-0007",
+          "Semantic SEO-concept-0008",
+          "Semantic SEO-method-0000",
+          "Semantic SEO-method-0001",
+          "Semantic SEO-method-0002",
+          "Semantic SEO-method-0005",
+          "Semantic SEO-method-0006",
+          "Technical SEO-concept-0000",
+          "Technical SEO-concept-0001",
+          "Technical SEO-concept-0002",
+          "Technical SEO-concept-0003",
+          "Technical SEO-concept-0011",
+          "Topical Authority-concept-0002",
+          "Topical Authority-concept-0003",
+          "Topical Authority-concept-0007",
+          "Topical Authority-concept-0009",
+          "Topical Authority-concept-0017",
+          "Topical Authority-concept-0019",
+          "Topical Authority-concept-0022",
+          "Topical Authority-concept-0027",
+          "Topical Authority-concept-0029",
+          "Topical Authority-concept-0033",
+          "Topical Authority-method-0005"
+        ],
+        "entity_requirements": [
+          "Entity-Based SEO-concept-0000",
+          "Entity-Based SEO-concept-0002",
+          "Entity-Based SEO-concept-0005",
+          "Entity-Based SEO-concept-0006",
+          "Entity-Based SEO-concept-0008",
+          "Entity-Based SEO-concept-0015",
+          "Entity-Based SEO-method-0004",
+          "Entity-Based SEO-method-0006",
+          "Entity-Based SEO-method-0008",
+          "Entity-Based SEO-method-0009",
+          "Entity-Based SEO-method-0015",
+          "Entity-Based SEO-nuance-0000",
+          "Entity-Based SEO-nuance-0001",
+          "Holistic SEO-concept-0021",
+          "Knowledge Graph & Structured Data-concept-0000",
+          "Knowledge Graph & Structured Data-concept-0001",
+          "Knowledge Graph & Structured Data-concept-0002",
+          "Knowledge Graph & Structured Data-concept-0011",
+          "Knowledge Graph & Structured Data-method-0005",
+          "Knowledge Graph & Structured Data-nuance-0006",
+          "Multilingual & International SEO-concept-0004",
+          "SEO Case Study Methodology-concept-0004",
+          "SEO Information Retrieval-concept-0005",
+          "Topical Authority-concept-0026"
+        ],
+        "case_study_format": [
+          "Content Quality & Linguistics-evidence-0000",
+          "Entity-Based SEO-evidence-0003",
+          "Knowledge Graph & Structured Data-evidence-0002",
+          "Knowledge Graph & Structured Data-evidence-0005",
+          "Knowledge Graph & Structured Data-evidence-0007",
+          "Multilingual & International SEO-evidence-0007",
+          "SEO Information Retrieval-evidence-0004",
+          "Semantic SEO-evidence-0005"
+        ],
+        "conversion_optimization": [
+          "Conversion & Growth-concept-0003",
+          "Conversion & Growth-concept-0004",
+          "Conversion & Growth-concept-0006",
+          "Conversion & Growth-method-flywheel_improvement-0002",
+          "Conversion & Growth-nuance-0002",
+          "Python & Data-Driven SEO-concept-0014"
+        ]
+      },
+      "legal": {
+        "content_strategy": [
+          "Content Quality & Linguistics-concept-0001",
+          "Content Quality & Linguistics-concept-0002",
+          "Content Quality & Linguistics-concept-0003",
+          "Content Quality & Linguistics-concept-0006",
+          "Content Quality & Linguistics-concept-0008",
+          "Conversion & Growth-method-ab_testing_steps-0005",
+          "Conversion & Growth-method-user_retention_improvement-0000",
+          "Entity-Based SEO-concept-0010",
+          "Entity-Based SEO-concept-0011",
+          "Entity-Based SEO-concept-0012",
+          "Entity-Based SEO-concept-0013",
+          "Entity-Based SEO-method-0014",
+          "Holistic SEO-concept-0000",
+          "Holistic SEO-concept-0001",
+          "Holistic SEO-concept-0004",
+          "Holistic SEO-concept-0012",
+          "Holistic SEO-concept-0020",
+          "Holistic SEO-concept-0022",
+          "Holistic SEO-concept-0033",
+          "Knowledge Graph & Structured Data-concept-0007",
+          "Knowledge Graph & Structured Data-concept-0009",
+          "Knowledge Graph & Structured Data-concept-0013",
+          "Knowledge Graph & Structured Data-method-0012",
+          "Knowledge Graph & Structured Data-nuance-0008",
+          "Multilingual & International SEO-concept-0001",
+          "Python & Data-Driven SEO-concept-0010",
+          "Python & Data-Driven SEO-concept-0011",
+          "SEO Case Study Methodology-concept-0000",
+          "SEO Case Study Methodology-concept-0001",
+          "SEO Case Study Methodology-concept-0002",
+          "SEO Case Study Methodology-concept-0003",
+          "SEO Case Study Methodology-concept-0005",
+          "SEO Case Study Methodology-concept-0014",
+          "SEO Case Study Methodology-concept-0017",
+          "SEO Case Study Methodology-concept-0018",
+          "SEO Information Retrieval-concept-0006",
+          "Semantic SEO-concept-0000",
+          "Semantic SEO-concept-0001",
+          "Semantic SEO-concept-0002",
+          "Semantic SEO-concept-0007",
+          "Semantic SEO-concept-0008",
+          "Semantic SEO-method-0000",
+          "Semantic SEO-method-0001",
+          "Semantic SEO-method-0002",
+          "Semantic SEO-method-0005",
+          "Semantic SEO-method-0006",
+          "Technical SEO-concept-0000",
+          "Technical SEO-concept-0001",
+          "Technical SEO-concept-0002",
+          "Technical SEO-concept-0003",
+          "Technical SEO-concept-0011",
+          "Topical Authority-concept-0002",
+          "Topical Authority-concept-0003",
+          "Topical Authority-concept-0007",
+          "Topical Authority-concept-0009",
+          "Topical Authority-concept-0017",
+          "Topical Authority-concept-0019",
+          "Topical Authority-concept-0022",
+          "Topical Authority-concept-0027",
+          "Topical Authority-concept-0029",
+          "Topical Authority-concept-0033",
+          "Topical Authority-method-0005"
+        ],
+        "entity_requirements": [
+          "Entity-Based SEO-concept-0000",
+          "Entity-Based SEO-concept-0002",
+          "Entity-Based SEO-concept-0005",
+          "Entity-Based SEO-concept-0006",
+          "Entity-Based SEO-concept-0008",
+          "Entity-Based SEO-concept-0015",
+          "Entity-Based SEO-method-0004",
+          "Entity-Based SEO-method-0006",
+          "Entity-Based SEO-method-0008",
+          "Entity-Based SEO-method-0009",
+          "Entity-Based SEO-method-0015",
+          "Entity-Based SEO-nuance-0000",
+          "Entity-Based SEO-nuance-0001",
+          "Holistic SEO-concept-0021",
+          "Knowledge Graph & Structured Data-concept-0000",
+          "Knowledge Graph & Structured Data-concept-0001",
+          "Knowledge Graph & Structured Data-concept-0002",
+          "Knowledge Graph & Structured Data-concept-0011",
+          "Knowledge Graph & Structured Data-method-0005",
+          "Knowledge Graph & Structured Data-nuance-0006",
+          "Multilingual & International SEO-concept-0004",
+          "SEO Case Study Methodology-concept-0004",
+          "SEO Information Retrieval-concept-0005",
+          "Topical Authority-concept-0026"
+        ],
+        "case_study_format": [
+          "Content Quality & Linguistics-evidence-0000",
+          "Entity-Based SEO-evidence-0003",
+          "Knowledge Graph & Structured Data-evidence-0002",
+          "Knowledge Graph & Structured Data-evidence-0005",
+          "Knowledge Graph & Structured Data-evidence-0007",
+          "Multilingual & International SEO-evidence-0007",
+          "SEO Information Retrieval-evidence-0004",
+          "Semantic SEO-evidence-0005"
+        ]
+      },
+      "policy": {
+        "content_strategy": [
+          "Content Quality & Linguistics-concept-0001",
+          "Content Quality & Linguistics-concept-0002",
+          "Content Quality & Linguistics-concept-0003",
+          "Content Quality & Linguistics-concept-0006",
+          "Content Quality & Linguistics-concept-0008",
+          "Conversion & Growth-method-ab_testing_steps-0005",
+          "Conversion & Growth-method-user_retention_improvement-0000",
+          "Entity-Based SEO-concept-0010",
+          "Entity-Based SEO-concept-0011",
+          "Entity-Based SEO-concept-0012",
+          "Entity-Based SEO-concept-0013",
+          "Entity-Based SEO-method-0014",
+          "Holistic SEO-concept-0000",
+          "Holistic SEO-concept-0001",
+          "Holistic SEO-concept-0004",
+          "Holistic SEO-concept-0012",
+          "Holistic SEO-concept-0020",
+          "Holistic SEO-concept-0022",
+          "Holistic SEO-concept-0033",
+          "Knowledge Graph & Structured Data-concept-0007",
+          "Knowledge Graph & Structured Data-concept-0009",
+          "Knowledge Graph & Structured Data-concept-0013",
+          "Knowledge Graph & Structured Data-method-0012",
+          "Knowledge Graph & Structured Data-nuance-0008",
+          "Multilingual & International SEO-concept-0001",
+          "Python & Data-Driven SEO-concept-0010",
+          "Python & Data-Driven SEO-concept-0011",
+          "SEO Case Study Methodology-concept-0000",
+          "SEO Case Study Methodology-concept-0001",
+          "SEO Case Study Methodology-concept-0002",
+          "SEO Case Study Methodology-concept-0003",
+          "SEO Case Study Methodology-concept-0005",
+          "SEO Case Study Methodology-concept-0014",
+          "SEO Case Study Methodology-concept-0017",
+          "SEO Case Study Methodology-concept-0018",
+          "SEO Information Retrieval-concept-0006",
+          "Semantic SEO-concept-0000",
+          "Semantic SEO-concept-0001",
+          "Semantic SEO-concept-0002",
+          "Semantic SEO-concept-0007",
+          "Semantic SEO-concept-0008",
+          "Semantic SEO-method-0000",
+          "Semantic SEO-method-0001",
+          "Semantic SEO-method-0002",
+          "Semantic SEO-method-0005",
+          "Semantic SEO-method-0006",
+          "Technical SEO-concept-0000",
+          "Technical SEO-concept-0001",
+          "Technical SEO-concept-0002",
+          "Technical SEO-concept-0003",
+          "Technical SEO-concept-0011",
+          "Topical Authority-concept-0002",
+          "Topical Authority-concept-0003",
+          "Topical Authority-concept-0007",
+          "Topical Authority-concept-0009",
+          "Topical Authority-concept-0017",
+          "Topical Authority-concept-0019",
+          "Topical Authority-concept-0022",
+          "Topical Authority-concept-0027",
+          "Topical Authority-concept-0029",
+          "Topical Authority-concept-0033",
+          "Topical Authority-method-0005"
+        ],
+        "entity_requirements": [
+          "Entity-Based SEO-concept-0000",
+          "Entity-Based SEO-concept-0002",
+          "Entity-Based SEO-concept-0005",
+          "Entity-Based SEO-concept-0006",
+          "Entity-Based SEO-concept-0008",
+          "Entity-Based SEO-concept-0015",
+          "Entity-Based SEO-method-0004",
+          "Entity-Based SEO-method-0006",
+          "Entity-Based SEO-method-0008",
+          "Entity-Based SEO-method-0009",
+          "Entity-Based SEO-method-0015",
+          "Entity-Based SEO-nuance-0000",
+          "Entity-Based SEO-nuance-0001",
+          "Holistic SEO-concept-0021",
+          "Knowledge Graph & Structured Data-concept-0000",
+          "Knowledge Graph & Structured Data-concept-0001",
+          "Knowledge Graph & Structured Data-concept-0002",
+          "Knowledge Graph & Structured Data-concept-0011",
+          "Knowledge Graph & Structured Data-method-0005",
+          "Knowledge Graph & Structured Data-nuance-0006",
+          "Multilingual & International SEO-concept-0004",
+          "SEO Case Study Methodology-concept-0004",
+          "SEO Information Retrieval-concept-0005",
+          "Topical Authority-concept-0026"
+        ]
+      }
+    },
+    "keyword_index_size": 327,
+    "card_index": {
+      "Topical Authority-method-0005": {
+        "content": "6. Use predicates (verbs) to create semantically connected content networks; leverage Frame Semantic",
+        "framework": "Topical Authority",
+        "category": "content_strategy"
+      },
+      "Topical Authority-concept-0002": {
+        "content": "Topical Maps",
+        "framework": "Topical Authority",
+        "category": "content_strategy"
+      },
+      "Topical Authority-concept-0003": {
+        "content": "Historical Data",
+        "framework": "Topical Authority",
+        "category": "content_strategy"
+      },
+      "Topical Authority-concept-0007": {
+        "content": "Semantic Content Networks",
+        "framework": "Topical Authority",
+        "category": "content_strategy"
+      },
+      "Topical Authority-concept-0009": {
+        "content": "Topical Gaps",
+        "framework": "Topical Authority",
+        "category": "content_strategy"
+      },
+      "Topical Authority-concept-0017": {
+        "content": "Topical Consolidation",
+        "framework": "Topical Authority",
+        "category": "content_strategy"
+      },
+      "Topical Authority-concept-0019": {
+        "content": "Ranking Signal Consolidation",
+        "framework": "Topical Authority",
+        "category": "content_strategy"
+      },
+      "Topical Authority-concept-0022": {
+        "content": "Author Authority and Rank",
+        "framework": "Topical Authority",
+        "category": "content_strategy"
+      },
+      "Topical Authority-concept-0026": {
+        "content": "Brand Identity",
+        "framework": "Topical Authority",
+        "category": "entity_requirements"
+      },
+      "Topical Authority-concept-0027": {
+        "content": "Contextual Bridges",
+        "framework": "Topical Authority",
+        "category": "content_strategy"
+      },
+      "Topical Authority-concept-0029": {
+        "content": "Cost-of-Retrieval",
+        "framework": "Topical Authority",
+        "category": "content_strategy"
+      },
+      "Topical Authority-concept-0033": {
+        "content": "Frame Semantics",
+        "framework": "Topical Authority",
+        "category": "content_strategy"
+      },
+      "Semantic SEO-method-0000": {
+        "content": "1. Identify the Source Context (brand purpose, target audience) to sharpen and deepen the context.",
+        "framework": "Semantic SEO",
+        "category": "content_strategy"
+      },
+      "Semantic SEO-method-0001": {
+        "content": "2. Select canonical verbs (predicates) and nouns that represent core behaviors and outcomes (e.g., '",
+        "framework": "Semantic SEO",
+        "category": "content_strategy"
+      },
+      "Semantic SEO-method-0002": {
+        "content": "3. Create Semantic Content Networks by connecting verb-noun pairs across related contexts (e.g., 'Un",
+        "framework": "Semantic SEO",
+        "category": "content_strategy"
+      },
+      "Semantic SEO-method-0005": {
+        "content": "6. Sculpt the context by refining verb and noun connections to a specific domain (e.g., restaurants ",
+        "framework": "Semantic SEO",
+        "category": "content_strategy"
+      },
+      "Semantic SEO-method-0006": {
+        "content": "7. Expand topical maps by finding topical gaps and using contextual bridges (e.g., from 'energy' to ",
+        "framework": "Semantic SEO",
+        "category": "content_strategy"
+      },
+      "Semantic SEO-evidence-0005": {
+        "content": "Advertools (Elias Dabbas) for Knowledge Graph API",
+        "framework": "Semantic SEO",
+        "category": "case_study_format"
+      },
+      "Semantic SEO-concept-0000": {
+        "content": "Topical Authority",
+        "framework": "Semantic SEO",
+        "category": "content_strategy"
+      },
+      "Semantic SEO-concept-0001": {
+        "content": "Semantic Content Networks",
+        "framework": "Semantic SEO",
+        "category": "content_strategy"
+      },
+      "Semantic SEO-concept-0002": {
+        "content": "Predicates (Verbs of Life)",
+        "framework": "Semantic SEO",
+        "category": "content_strategy"
+      },
+      "Semantic SEO-concept-0007": {
+        "content": "Contextual Bridges",
+        "framework": "Semantic SEO",
+        "category": "content_strategy"
+      },
+      "Semantic SEO-concept-0008": {
+        "content": "Topical Maps and Topical Gaps",
+        "framework": "Semantic SEO",
+        "category": "content_strategy"
+      },
+      "Holistic SEO-concept-0000": {
+        "content": "Topical Authority",
+        "framework": "Holistic SEO",
+        "category": "content_strategy"
+      },
+      "Holistic SEO-concept-0001": {
+        "content": "Semantic Content Networks",
+        "framework": "Holistic SEO",
+        "category": "content_strategy"
+      },
+      "Holistic SEO-concept-0004": {
+        "content": "Topical Gaps",
+        "framework": "Holistic SEO",
+        "category": "content_strategy"
+      },
+      "Holistic SEO-concept-0012": {
+        "content": "Topical Consolidation",
+        "framework": "Holistic SEO",
+        "category": "content_strategy"
+      },
+      "Holistic SEO-concept-0020": {
+        "content": "Source Context",
+        "framework": "Holistic SEO",
+        "category": "content_strategy"
+      },
+      "Holistic SEO-concept-0021": {
+        "content": "Brand Identity",
+        "framework": "Holistic SEO",
+        "category": "entity_requirements"
+      },
+      "Holistic SEO-concept-0022": {
+        "content": "Contextual Bridges",
+        "framework": "Holistic SEO",
+        "category": "content_strategy"
+      },
+      "Holistic SEO-concept-0033": {
+        "content": "Technical SEO",
+        "framework": "Holistic SEO",
+        "category": "content_strategy"
+      },
+      "Entity-Based SEO-method-0004": {
+        "content": "5. Set locations (up to 5) to track Knowledge Panel variations by language and region.",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements"
+      },
+      "Entity-Based SEO-method-0006": {
+        "content": "7. In the Knowledge Panel tasks section, follow a 6-step process: Entity Home, Description, Fundamen",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements"
+      },
+      "Entity-Based SEO-method-0008": {
+        "content": "9. Add fundamental facts (basic factual information).",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements"
+      },
+      "Entity-Based SEO-method-0009": {
+        "content": "10. Classify knowledge resources (web pages) that affect the entity's Knowledge Graph presence using",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements"
+      },
+      "Entity-Based SEO-method-0014": {
+        "content": "15. Expand topical maps by covering more entities, attributes, and deepening context with contextual",
+        "framework": "Entity-Based SEO",
+        "category": "content_strategy"
+      },
+      "Entity-Based SEO-method-0015": {
+        "content": "16. Use Python and Google Knowledge Graph API (via Advertools) to analyze entity profiles, relevance",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements"
+      },
+      "Entity-Based SEO-evidence-0003": {
+        "content": "Use of Google Knowledge Graph API and NLP analysis to demonstrate entity relations and sentence patt",
+        "framework": "Entity-Based SEO",
+        "category": "case_study_format"
+      },
+      "Entity-Based SEO-concept-0000": {
+        "content": "Entity Identity",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements"
+      },
+      "Entity-Based SEO-concept-0002": {
+        "content": "Entity Home",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements"
+      },
+      "Entity-Based SEO-concept-0005": {
+        "content": "Entity Fundamental Facts",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements"
+      },
+      "Entity-Based SEO-concept-0006": {
+        "content": "Entity Description",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements"
+      },
+      "Entity-Based SEO-concept-0008": {
+        "content": "Knowledge Panel Management",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements"
+      },
+      "Entity-Based SEO-concept-0010": {
+        "content": "Topical Authority",
+        "framework": "Entity-Based SEO",
+        "category": "content_strategy"
+      },
+      "Entity-Based SEO-concept-0011": {
+        "content": "Semantic Content Networks",
+        "framework": "Entity-Based SEO",
+        "category": "content_strategy"
+      },
+      "Entity-Based SEO-concept-0012": {
+        "content": "Source Context",
+        "framework": "Entity-Based SEO",
+        "category": "content_strategy"
+      },
+      "Entity-Based SEO-concept-0013": {
+        "content": "Contextual Bridges",
+        "framework": "Entity-Based SEO",
+        "category": "content_strategy"
+      },
+      "Entity-Based SEO-concept-0015": {
+        "content": "Algorithmic Trinity (Search, Knowledge Graphs, LLMs)",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements"
+      },
+      "Entity-Based SEO-nuance-0000": {
+        "content": "Entity identity can vary by language and location; tracking multiple locations is essential.",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements"
+      },
+      "Entity-Based SEO-nuance-0001": {
+        "content": "Entity reconciliation (deduping) is critical when Google creates duplicate entities (e.g., same pers",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements"
+      },
+      "Technical SEO-concept-0000": {
+        "content": "Crawl Budget",
+        "framework": "Technical SEO",
+        "category": "content_strategy"
+      },
+      "Technical SEO-concept-0001": {
+        "content": "Crawl Quota",
+        "framework": "Technical SEO",
+        "category": "content_strategy"
+      },
+      "Technical SEO-concept-0002": {
+        "content": "Crawl Efficiency",
+        "framework": "Technical SEO",
+        "category": "content_strategy"
+      },
+      "Technical SEO-concept-0003": {
+        "content": "Cost of Retrieval",
+        "framework": "Technical SEO",
+        "category": "content_strategy"
+      },
+      "Technical SEO-concept-0011": {
+        "content": "Rendering Cost",
+        "framework": "Technical SEO",
+        "category": "content_strategy"
+      },
+      "SEO Information Retrieval-method-0001": {
+        "content": "Compute PageRank iteratively or algebraically using formulas (PR(A)=1-d/N + d*(PR(B)/L(B)+...)).",
+        "framework": "SEO Information Retrieval",
+        "category": "methodology_depth"
+      },
+      "SEO Information Retrieval-evidence-0004": {
+        "content": "Koray's own case study: ForexSuggest.com multilingual SEO with 425% organic growth in 6 months",
+        "framework": "SEO Information Retrieval",
+        "category": "case_study_format"
+      },
+      "SEO Information Retrieval-concept-0000": {
+        "content": "Boolean Model",
+        "framework": "SEO Information Retrieval",
+        "category": "methodology_depth"
+      },
+      "SEO Information Retrieval-concept-0004": {
+        "content": "RankBrain (machine learning for query understanding)",
+        "framework": "SEO Information Retrieval",
+        "category": "methodology_depth"
+      },
+      "SEO Information Retrieval-concept-0005": {
+        "content": "Semantic SEO / Entity-oriented Search",
+        "framework": "SEO Information Retrieval",
+        "category": "entity_requirements"
+      },
+      "SEO Information Retrieval-concept-0006": {
+        "content": "Topical Authority",
+        "framework": "SEO Information Retrieval",
+        "category": "content_strategy"
+      },
+      "Content Quality & Linguistics-evidence-0000": {
+        "content": "Google's Webmaster Guidelines and Quality Rater Guidelines",
+        "framework": "Content Quality & Linguistics",
+        "category": "case_study_format"
+      },
+      "Content Quality & Linguistics-concept-0001": {
+        "content": "Dwell Time",
+        "framework": "Content Quality & Linguistics",
+        "category": "content_strategy"
+      },
+      "Content Quality & Linguistics-concept-0002": {
+        "content": "E-A-T (Expertise, Authoritativeness, Trustworthiness)",
+        "framework": "Content Quality & Linguistics",
+        "category": "content_strategy"
+      },
+      "Content Quality & Linguistics-concept-0003": {
+        "content": "User Engagement",
+        "framework": "Content Quality & Linguistics",
+        "category": "content_strategy"
+      },
+      "Content Quality & Linguistics-concept-0006": {
+        "content": "Linguistic Correctness (spelling, grammar, homophones)",
+        "framework": "Content Quality & Linguistics",
+        "category": "content_strategy"
+      },
+      "Content Quality & Linguistics-concept-0008": {
+        "content": "User Experience (UX) and Readability",
+        "framework": "Content Quality & Linguistics",
+        "category": "content_strategy"
+      },
+      "Multilingual & International SEO-evidence-0007": {
+        "content": "Case study data from ForexSuggest.com showing 425% organic growth in 6 months",
+        "framework": "Multilingual & International SEO",
+        "category": "case_study_format"
+      },
+      "Multilingual & International SEO-concept-0001": {
+        "content": "Historical Data",
+        "framework": "Multilingual & International SEO",
+        "category": "content_strategy"
+      },
+      "Multilingual & International SEO-concept-0004": {
+        "content": "Consistency (design, topicality, internal links, brand identity)",
+        "framework": "Multilingual & International SEO",
+        "category": "entity_requirements"
+      },
+      "Multilingual & International SEO-concept-0009": {
+        "content": "Query Expansion (cross-lingual query translation by search engines)",
+        "framework": "Multilingual & International SEO",
+        "category": "multilingual_consistency"
+      },
+      "Knowledge Graph & Structured Data-method-0005": {
+        "content": "6. Select locations (up to 5) to track Knowledge Panel variations by language and region.",
+        "framework": "Knowledge Graph & Structured Data",
+        "category": "entity_requirements"
+      },
+      "Knowledge Graph & Structured Data-method-0012": {
+        "content": "13. Use the Task Management system to set goals (e.g., remove a negative result, add a SERP feature)",
+        "framework": "Knowledge Graph & Structured Data",
+        "category": "content_strategy"
+      },
+      "Knowledge Graph & Structured Data-evidence-0002": {
+        "content": "Amit Singhal's 'Not strings, things' (2012 Knowledge Graph announcement)",
+        "framework": "Knowledge Graph & Structured Data",
+        "category": "case_study_format"
+      },
+      "Knowledge Graph & Structured Data-evidence-0005": {
+        "content": "Jason Barnard's Kalicube Pro platform and Brand SERP concept (2012)",
+        "framework": "Knowledge Graph & Structured Data",
+        "category": "case_study_format"
+      },
+      "Knowledge Graph & Structured Data-evidence-0007": {
+        "content": "Bill Slawski's patent analysis articles",
+        "framework": "Knowledge Graph & Structured Data",
+        "category": "case_study_format"
+      },
+      "Knowledge Graph & Structured Data-concept-0000": {
+        "content": "Entity",
+        "framework": "Knowledge Graph & Structured Data",
+        "category": "entity_requirements"
+      },
+      "Knowledge Graph & Structured Data-concept-0001": {
+        "content": "Knowledge Panel",
+        "framework": "Knowledge Graph & Structured Data",
+        "category": "entity_requirements"
+      },
+      "Knowledge Graph & Structured Data-concept-0002": {
+        "content": "Brand SERP",
+        "framework": "Knowledge Graph & Structured Data",
+        "category": "entity_requirements"
+      },
+      "Knowledge Graph & Structured Data-concept-0007": {
+        "content": "Topical Authority",
+        "framework": "Knowledge Graph & Structured Data",
+        "category": "content_strategy"
+      },
+      "Knowledge Graph & Structured Data-concept-0009": {
+        "content": "Semantic SEO",
+        "framework": "Knowledge Graph & Structured Data",
+        "category": "content_strategy"
+      },
+      "Knowledge Graph & Structured Data-concept-0011": {
+        "content": "Algorithmic Trinity (Search, Knowledge Graphs, LLMs)",
+        "framework": "Knowledge Graph & Structured Data",
+        "category": "entity_requirements"
+      },
+      "Knowledge Graph & Structured Data-concept-0013": {
+        "content": "Understandability, Credibility, Deliverability",
+        "framework": "Knowledge Graph & Structured Data",
+        "category": "content_strategy"
+      },
+      "Knowledge Graph & Structured Data-nuance-0006": {
+        "content": "Entity descriptions in the Knowledge Graph follow a strict pattern: definitive, answers 'what'/'who'",
+        "framework": "Knowledge Graph & Structured Data",
+        "category": "entity_requirements"
+      },
+      "Knowledge Graph & Structured Data-nuance-0008": {
+        "content": "The framework applies to both traditional search and AI Assistive Engines (ChatGPT, Google AI Mode).",
+        "framework": "Knowledge Graph & Structured Data",
+        "category": "content_strategy"
+      },
+      "Python & Data-Driven SEO-method-0000": {
+        "content": "1. For NLTK Lemmatization: Import WordNetLemmatizer, tokenize text, apply lemmatize() with POS tag (",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth"
+      },
+      "Python & Data-Driven SEO-method-0001": {
+        "content": "2. For NLTK Tokenization: Use word_tokenize() or sent_tokenize(); remove stop words with stopwords.w",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth"
+      },
+      "Python & Data-Driven SEO-method-0002": {
+        "content": "3. For NLTK Stemming: Import PorterStemmer, tokenize, apply stem() to each token; compare with Lanca",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth"
+      },
+      "Python & Data-Driven SEO-concept-0000": {
+        "content": "NLTK Lemmatization",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth"
+      },
+      "Python & Data-Driven SEO-concept-0001": {
+        "content": "NLTK Tokenization",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth"
+      },
+      "Python & Data-Driven SEO-concept-0002": {
+        "content": "NLTK Stemming",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth"
+      },
+      "Python & Data-Driven SEO-concept-0003": {
+        "content": "WordNet (synonyms, antonyms, hypernyms, hyponyms)",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth"
+      },
+      "Python & Data-Driven SEO-concept-0006": {
+        "content": "Log File Analysis",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth"
+      },
+      "Python & Data-Driven SEO-concept-0008": {
+        "content": "Word Clouds",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth"
+      },
+      "Python & Data-Driven SEO-concept-0010": {
+        "content": "Semantic SEO",
+        "framework": "Python & Data-Driven SEO",
+        "category": "content_strategy"
+      },
+      "Python & Data-Driven SEO-concept-0011": {
+        "content": "Topical Authority",
+        "framework": "Python & Data-Driven SEO",
+        "category": "content_strategy"
+      },
+      "Python & Data-Driven SEO-concept-0012": {
+        "content": "Data Science for SEO",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth"
+      },
+      "Python & Data-Driven SEO-concept-0014": {
+        "content": "Conversion Optimization",
+        "framework": "Python & Data-Driven SEO",
+        "category": "conversion_optimization"
+      },
+      "Python & Data-Driven SEO-nuance-0003": {
+        "content": "Word clouds should not be used as definitive insight extraction methodology; they are for visualizat",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth"
+      },
+      "Python & Data-Driven SEO-nuance-0006": {
+        "content": "When using WordNet, a word can have multiple synonyms with different meanings depending on POS and c",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth"
+      },
+      "Conversion & Growth-method-ab_testing_steps-0005": {
+        "content": "6. Introduce the best version to all users.",
+        "framework": "Conversion & Growth",
+        "category": "content_strategy"
+      },
+      "Conversion & Growth-method-flywheel_improvement-0002": {
+        "content": "Grow size by turning customers into advocates who generate referrals.",
+        "framework": "Conversion & Growth",
+        "category": "conversion_optimization"
+      },
+      "Conversion & Growth-method-user_retention_improvement-0000": {
+        "content": "Improve content quality and relevance.",
+        "framework": "Conversion & Growth",
+        "category": "content_strategy"
+      },
+      "Conversion & Growth-concept-0003": {
+        "content": "User Retention Rate",
+        "framework": "Conversion & Growth",
+        "category": "conversion_optimization"
+      },
+      "Conversion & Growth-concept-0004": {
+        "content": "Key Performance Indicators (KPIs)",
+        "framework": "Conversion & Growth",
+        "category": "conversion_optimization"
+      },
+      "Conversion & Growth-concept-0006": {
+        "content": "App Store Optimization (ASO)",
+        "framework": "Conversion & Growth",
+        "category": "conversion_optimization"
+      },
+      "Conversion & Growth-nuance-0002": {
+        "content": "User retention measurement requires consistent definition and proper timeframe selection.",
+        "framework": "Conversion & Growth",
+        "category": "conversion_optimization"
+      },
+      "SEO Case Study Methodology-concept-0000": {
+        "content": "Topical Authority",
+        "framework": "SEO Case Study Methodology",
+        "category": "content_strategy"
+      },
+      "SEO Case Study Methodology-concept-0001": {
+        "content": "Semantic Content Networks",
+        "framework": "SEO Case Study Methodology",
+        "category": "content_strategy"
+      },
+      "SEO Case Study Methodology-concept-0002": {
+        "content": "Source Context",
+        "framework": "SEO Case Study Methodology",
+        "category": "content_strategy"
+      },
+      "SEO Case Study Methodology-concept-0003": {
+        "content": "Contextual Bridges",
+        "framework": "SEO Case Study Methodology",
+        "category": "content_strategy"
+      },
+      "SEO Case Study Methodology-concept-0004": {
+        "content": "Brand Identity",
+        "framework": "SEO Case Study Methodology",
+        "category": "entity_requirements"
+      },
+      "SEO Case Study Methodology-concept-0005": {
+        "content": "Predicates (Verbs of Life)",
+        "framework": "SEO Case Study Methodology",
+        "category": "content_strategy"
+      },
+      "SEO Case Study Methodology-concept-0014": {
+        "content": "Cost of Retrieval",
+        "framework": "SEO Case Study Methodology",
+        "category": "content_strategy"
+      },
+      "SEO Case Study Methodology-concept-0017": {
+        "content": "Holistic SEO",
+        "framework": "SEO Case Study Methodology",
+        "category": "content_strategy"
+      },
+      "SEO Case Study Methodology-concept-0018": {
+        "content": "Search Engine Trust and Historical Data",
+        "framework": "SEO Case Study Methodology",
+        "category": "content_strategy"
+      }
+    }
+  },
+  "deterministic_check_registry": {
+    "canonical_url_present": {
+      "method": "canonical_url_present",
+      "category": "technical_seo",
+      "applies_to": [
+        "blog_post",
+        "service",
+        "homepage",
+        "about",
+        "legal",
+        "policy"
+      ],
+      "priority": "high",
+      "detection": "regex: <link[^>]*rel=[\"']canonical[\"']"
+    },
+    "preload_key_requests": {
+      "method": "preload_key_requests",
+      "category": "technical_seo",
+      "applies_to": [
+        "blog_post",
+        "service",
+        "homepage"
+      ],
+      "priority": "medium",
+      "detection": "regex: rel=[\"']preload[\"'].*as="
+    },
+    "javascript_deferred": {
+      "method": "javascript_deferred",
+      "category": "technical_seo",
+      "applies_to": [
+        "blog_post",
+        "service",
+        "homepage",
+        "about"
+      ],
+      "priority": "medium",
+      "detection": "regex: <script[^>]*(defer|async)[^>]*src="
+    },
+    "cdn_detected": {
+      "method": "cdn_detected",
+      "category": "technical_seo",
+      "applies_to": [
+        "blog_post",
+        "service",
+        "homepage",
+        "about"
+      ],
+      "priority": "low",
+      "detection": "regex: (cdn\\.|cloudfront|fastly|bunnycdn|jsdelivr|unpkg)"
+    },
+    "no_session_ids_in_urls": {
+      "method": "no_session_ids_in_urls",
+      "category": "technical_seo",
+      "applies_to": [
+        "blog_post",
+        "service",
+        "homepage",
+        "about",
+        "legal",
+        "policy"
+      ],
+      "priority": "high",
+      "detection": "regex: [?&](session_?id|sid|phpsessid)="
+    },
+    "content_visibility_auto": {
+      "method": "content_visibility_auto",
+      "category": "technical_seo",
+      "applies_to": [
+        "blog_post",
+        "homepage"
+      ],
+      "priority": "low",
+      "detection": "regex: content-visibility:\\s*auto"
+    },
+    "no_legacy_position_animations": {
+      "method": "no_legacy_position_animations",
+      "category": "technical_seo",
+      "applies_to": [
+        "blog_post",
+        "homepage",
+        "service"
+      ],
+      "priority": "low",
+      "detection": "regex: (top\\s*:\\s*\\d|left\\s*:\\s*\\d).*(@keyframes|animation)"
+    },
+    "transform_animations": {
+      "method": "transform_animations",
+      "category": "technical_seo",
+      "applies_to": [
+        "blog_post",
+        "homepage",
+        "service"
+      ],
+      "priority": "low",
+      "detection": "regex: (top\\s*:\\s*\\d|left\\s*:\\s*\\d).*(@keyframes|animation|transition)"
+    },
+    "ssr_or_prerender": {
+      "method": "ssr_or_prerender",
+      "category": "technical_seo",
+      "applies_to": [
+        "blog_post",
+        "service",
+        "homepage"
+      ],
+      "priority": "high",
+      "detection": "negative: <div id='root'></div> with no fallback content (SPA indicator)"
+    },
+    "critical_request_chain_short": {
+      "method": "critical_request_chain_short",
+      "category": "technical_seo",
+      "applies_to": [
+        "blog_post",
+        "homepage"
+      ],
+      "priority": "medium",
+      "detection": "count: <script src=*> and <link rel=stylesheet> before first meaningful paint — heuristic"
+    },
+    "review_schema_present": {
+      "method": "review_schema_present",
+      "category": "local_seo",
+      "applies_to": [
+        "service",
+        "homepage"
+      ],
+      "priority": "medium",
+      "detection": "regex: (Review|AggregateRating|reviewRating)[\"']"
+    },
+    "dead_code_indicators": {
+      "method": "dead_code_indicators",
+      "category": "technical_seo",
+      "applies_to": [
+        "blog_post",
+        "service",
+        "homepage"
+      ],
+      "priority": "low",
+      "detection": "heuristic: empty <style> blocks, multiple copies of same library, excessive class count"
+    },
+    "viewport_meta_present": {
+      "method": "viewport_meta_present",
+      "category": "technical_seo",
+      "applies_to": [
+        "blog_post",
+        "service",
+        "homepage",
+        "about",
+        "legal",
+        "policy"
+      ],
+      "priority": "high",
+      "detection": "regex: <meta[^>]*name=[\"']viewport[\"']"
+    },
+    "image_alt_present": {
+      "method": "image_alt_present",
+      "category": "technical_seo",
+      "applies_to": [
+        "blog_post",
+        "service",
+        "homepage"
+      ],
+      "priority": "medium",
+      "detection": "regex: <img[^>]*alt=[\"'][^\"']+[\"']"
+    },
+    "hreflang_present": {
+      "method": "hreflang_present",
+      "category": "multilingual_seo",
+      "applies_to": [
+        "blog_post",
+        "homepage"
+      ],
+      "priority": "low",
+      "detection": "regex: <link[^>]*rel=[\"']alternate[\"'].*hreflang="
+    },
+    "localbusiness_schema_present": {
+      "method": "localbusiness_schema_present",
+      "category": "local_seo",
+      "applies_to": [
+        "homepage",
+        "service",
+        "about"
+      ],
+      "priority": "high",
+      "detection": "regex: (LocalBusiness|RealEstateAgent|Place)[\"']"
+    },
+    "faceted_nav_clean": {
+      "method": "faceted_nav_clean",
+      "category": "technical_seo",
+      "applies_to": [
+        "blog_post",
+        "service",
+        "homepage"
+      ],
+      "priority": "medium",
+      "detection": "regex: (href=[\"'][^\"']*\\?(filter|sort|page|category|tag|color|size)=)"
+    },
+    "thin_content": {
+      "method": "thin_content",
+      "category": "content_depth",
+      "applies_to": [
+        "blog_post",
+        "service"
+      ],
+      "priority": "high",
+      "detection": "count: words < 300"
+    }
+  },
+  "directive_injection_categories": {
+    "content_strategy": {
+      "label": "Architectural Directives — Content Strategy",
+      "description": "How to structure content semantically for topical authority",
+      "applies_to": [
+        "blog_post",
+        "service",
+        "homepage",
+        "about",
+        "legal",
+        "policy"
+      ]
+    },
+    "entity_requirements": {
+      "label": "Entity & Schema Requirements",
+      "description": "Entity identity, relationships, and structured data patterns",
+      "applies_to": [
+        "blog_post",
+        "service",
+        "homepage",
+        "about",
+        "legal",
+        "policy"
+      ]
+    },
+    "methodology_depth": {
+      "label": "Methodology & Depth Requirements",
+      "description": "Technical depth, NLP methods, and analytical rigor",
+      "applies_to": [
+        "blog_post",
+        "service"
+      ]
+    },
+    "case_study_format": {
+      "label": "Case Study & Evidence Standards",
+      "description": "How to present evidence, cite sources, and build authority",
+      "applies_to": [
+        "blog_post",
+        "about",
+        "legal"
+      ]
+    },
+    "multilingual_consistency": {
+      "label": "Multilingual & Cross-Language Consistency",
+      "description": "Brand and topical consistency across language versions",
+      "applies_to": [
+        "blog_post",
+        "homepage",
+        "service"
+      ]
+    },
+    "conversion_optimization": {
+      "label": "Conversion & Growth Architecture",
+      "description": "User retention, A/B testing, ratings, and growth loops",
+      "applies_to": [
+        "service",
+        "homepage",
+        "about"
+      ]
+    },
+    "general_knowledge": {
+      "label": "Foundational SEO Knowledge",
+      "description": "Core search-engine principles every piece should respect",
+      "applies_to": [
+        "blog_post",
+        "service",
+        "homepage",
+        "about",
+        "legal",
+        "policy"
+      ]
+    }
+  }
+}

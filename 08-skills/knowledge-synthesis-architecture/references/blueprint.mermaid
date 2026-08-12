@@ -1,0 +1,83 @@
+graph TB
+    subgraph PEOPLE["👥 People Layer"]
+        Q["🏠 Quan Nguyen<br/>Katy, TX Real Estate"]
+        W["👤 Content Writer<br/>Creates pages from briefs"]
+    end
+
+    subgraph INPUT["📥 Input Sources"]
+        DC["🌐 quann.homes<br/>22 pages ingested<br/>Real + Framer templates"]
+        SM["📚 SEO Methodology<br/>holisticseo.digital<br/>Backlinko, Search Engine Journal"]
+        SE["🔍 Search Engines<br/>Google Search Central<br/>Schema.org<br/>Perplexity behavior"]
+        CI["📊 Citation Data<br/>What content gets cited<br/>By which platform"]
+    end
+
+    subgraph INFRA["🖥️ Infrastructure"]
+        subgraph WIN["Windows Host — 192.168.4.148"]
+            OLLAMA["🦙 Ollama :11434<br/>9 models loaded"]
+            MODELS["gemma4:31b-cloud<br/>deepseek-v4-pro:cloud<br/>kimi-k2.6:cloud<br/>glm-5.1:cloud<br/>minimax-m2.7:cloud<br/>nomic-embed-text-v2-moe<br/>deepseek-v4-flash:cloud"]
+        end
+        subgraph WSL["WSL2 — steve@quann"]
+            SYS["systemd services"]
+            LRS["lightrag-quann-chat.service<br/>Port :8011<br/>MAX_GLEANING=2<br/>MAX_ASYNC=1"]
+            OTHER["other services:<br/>:8000 python3<br/>:5003 :8080 :80 :443"]
+        end
+        WIN <-->|"TCP :11434"| WSL
+    end
+
+    subgraph PROCESS["⚙️ Processing Layer"]
+        subgraph SCRIPTS["Scripts — quann-chat/"]
+            INGEST["ingest_via_api.py<br/>Docling extraction<br/>Batched 5/batch"]
+            KERNEL["kernel_v2.py 23.6KB<br/>Graph queries<br/>Rule + gap detection"]
+        end
+        subgraph LIGHTRAG["LightRAG Server v1.4.15"]
+            API["FastAPI :8011<br/>/documents/text<br/>/query local/global"]
+            EXTRACT["Entity Extraction<br/>gleaning=2<br/>LLM: gemma4:31b-cloud"]
+        end
+        INGEST -->|"POST /documents/text"| API
+        API --> EXTRACT
+    end
+
+    subgraph STORAGE["💾 Storage — workspace/"]
+        GRAPH["🧬 graph_chunk_entity_relation.graphml<br/>NetworkXStorage max_nodes=1000"]
+        VDB["🔢 NanoVectorDB<br/>vdb_entities.json 1.3MB<br/>vdb_relationships.json 1.2MB<br/>vdb_chunks.json 678KB"]
+        KV["📋 JsonKVStorage<br/>full_docs 294KB<br/>full_entities 15KB<br/>full_relations 25KB<br/>doc_status 19KB<br/>text_chunks 320KB<br/>entity_chunks 54KB<br/>llm_cache 1.3MB"]
+        GRAPH --- VDB --- KV
+    end
+
+    subgraph SYNTH["⚡ Synthesis & Output"]
+        PRD["📋 PRD.md v0.2.0<br/>Living product doc"]
+        GAP["🕳️ gap_report.json<br/>Entities + rules + contamination"]
+        CB["📝 Content Briefs<br/>Per-platform requirements"]
+        EXPLOIT["💎 Exploit Library<br/>Cross-tier synthesis<br/>Novel strategies | confidence-scored"]
+    end
+
+    subgraph FLYWHEEL["🔄 Flywheel"]
+        F1["Writer publishes"] --> F2["Citations tracked"]
+        F2 --> F3["Rules validated/invalidated"]
+        F3 --> F4["Confidence adjusted"]
+        F4 --> F5["Next brief sharper"]
+        F5 --> F1
+    end
+
+    Q --> DC & SM & SE
+    Q --> GAP & EXPLOIT
+    DC & SM & SE --> INGEST
+    INGEST --> EXTRACT --> GRAPH & VDB & KV
+    KERNEL --> API & GRAPH --> GAP
+    GAP --> CB & EXPLOIT --> W
+    CI --> EXPLOIT
+    W --> F1
+    GAP & EXPLOIT --> PRD
+
+    style PEOPLE fill:#e94560,stroke:#fff,color:#fff
+    style INPUT fill:#16213e,stroke:#0f3460,color:#fff
+    style INFRA fill:#1a1a2e,stroke:#e94560,color:#fff
+    style WIN fill:#0f3460,stroke:#0f3460,color:#fff
+    style WSL fill:#16213e,stroke:#0f3460,color:#fff
+    style PROCESS fill:#0f3460,stroke:#e94560,color:#fff
+    style STORAGE fill:#1a1a2e,stroke:#e94560,color:#fff
+    style SYNTH fill:#e94560,stroke:#fff,color:#fff
+    style FLYWHEEL fill:#00b894,stroke:#fff,color:#fff
+    style Q fill:#ffd700,stroke:#fff,color:#000
+    style W fill:#ffd700,stroke:#fff,color:#000
+    style EXPLOIT fill:#ffd700,stroke:#fff,color:#000

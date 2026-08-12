@@ -1,0 +1,3 @@
+pass=true
+time=2026-05-05T03:10:49.344650+00:00
+checks=['✅ basic_health', '✅ cors_preflight', '✅ research_flow']

@@ -1,0 +1,411 @@
+{
+  "meta": {
+    "url": "https://quann.homes/privacy-policy",
+    "slug": "privacy-policy",
+    "page_type": "policy",
+    "bridge_page_type": "policy",
+    "generated_at": "2026-05-24T16:54:50.994350+00:00",
+    "priority_score": {
+      "score": 59.7,
+      "factors": [
+        {
+          "label": "Deterministic Gap Rate",
+          "value": "2/3 (67%)",
+          "weight": 40,
+          "contribution": 26.666666666666664
+        },
+        {
+          "label": "Kernel Failures",
+          "value": "0",
+          "weight": 25,
+          "contribution": 0.0
+        },
+        {
+          "label": "Directive Injections",
+          "value": "8/8",
+          "weight": 20,
+          "contribution": 20.0
+        },
+        {
+          "label": "KG Anchor Entities",
+          "value": "13",
+          "weight": 15,
+          "contribution": 13.0
+        }
+      ],
+      "interpretation": "IMPORTANT \u2014 Several gaps to address. Solid entity context available."
+    },
+    "compliance_pct": 33.3,
+    "word_count": 3760,
+    "total_checks": 3,
+    "bridge_checks": 3
+  },
+  "stream_1_gaps": {
+    "deterministic_fails": [
+      {
+        "rule_id": "bridge_Technical SEO-method-0010",
+        "rule": "Use canonical URLs.",
+        "detail": "Canonical URL tag NOT found",
+        "fix_directive": "",
+        "priority": "high",
+        "category": "technical_seo"
+      },
+      {
+        "rule_id": "bridge_bridge_viewport_meta_present",
+        "rule": "",
+        "detail": "Viewport meta tag: MISSING",
+        "fix_directive": "",
+        "priority": "high",
+        "category": "technical_seo"
+      }
+    ],
+    "kernel_fails": [],
+    "total_det_checks": 3,
+    "det_fail_count": 2,
+    "kernel_fail_count": 0
+  },
+  "stream_2_directives": {
+    "injected": [
+      {
+        "card_id": "Content Quality & Linguistics-concept-0001",
+        "content": "Dwell Time",
+        "framework": "Content Quality & Linguistics",
+        "category": "content_strategy",
+        "priority": "direct_hit"
+      },
+      {
+        "card_id": "Content Quality & Linguistics-concept-0002",
+        "content": "E-A-T (Expertise, Authoritativeness, Trustworthiness)",
+        "framework": "Content Quality & Linguistics",
+        "category": "content_strategy",
+        "priority": "direct_hit"
+      },
+      {
+        "card_id": "Content Quality & Linguistics-concept-0003",
+        "content": "User Engagement",
+        "framework": "Content Quality & Linguistics",
+        "category": "content_strategy",
+        "priority": "direct_hit"
+      },
+      {
+        "card_id": "Content Quality & Linguistics-concept-0006",
+        "content": "Linguistic Correctness (spelling, grammar, homophones)",
+        "framework": "Content Quality & Linguistics",
+        "category": "content_strategy",
+        "priority": "direct_hit"
+      },
+      {
+        "card_id": "Entity-Based SEO-concept-0000",
+        "content": "Entity Identity",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements",
+        "priority": "page_match"
+      },
+      {
+        "card_id": "Entity-Based SEO-concept-0002",
+        "content": "Entity Home",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements",
+        "priority": "page_match"
+      },
+      {
+        "card_id": "Content Quality & Linguistics-concept-0008",
+        "content": "User Experience (UX) and Readability",
+        "framework": "Content Quality & Linguistics",
+        "category": "content_strategy",
+        "priority": "direct_hit"
+      },
+      {
+        "card_id": "Conversion & Growth-method-ab_testing_steps-0005",
+        "content": "6. Introduce the best version to all users.",
+        "framework": "Conversion & Growth",
+        "category": "content_strategy",
+        "priority": "direct_hit"
+      }
+    ],
+    "injection_cap": 8,
+    "total_available": 116,
+    "prompt_section": "## \ud83c\udfd7\ufe0f Architectural Directives (Koray Gubur \u2014 Phase 5 Tier 1)\n\n_The following 8 directives are sourced from the Koray Gubur Architect Extraction Pipeline. They represent grounded, computable rules validated against source material. Adhere to these when writing this content._\n\n### Architectural Directives \u2014 Content Strategy\n\n1. CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur \u2014 Content Quality & Linguistics): MUST demonstrate understanding of: Dwell Time\n\n2. CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur \u2014 Content Quality & Linguistics): MUST demonstrate understanding of: E-A-T (Expertise, Authoritativeness, Trustworthiness)\n\n3. CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur \u2014 Content Quality & Linguistics): MUST demonstrate understanding of: User Engagement\n\n4. CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur \u2014 Content Quality & Linguistics): MUST demonstrate understanding of: Linguistic Correctness (spelling, grammar, homophones)\n\n5. CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur \u2014 Content Quality & Linguistics): MUST demonstrate understanding of: User Experience (UX) and Readability\n\n6. CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur \u2014 Conversion & Growth): MUST implement: 6. Introduce the best version to all users.\n\n\n### Entity & Schema Requirements\n\n1. CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur \u2014 Entity-Based SEO): MUST demonstrate understanding of: Entity Identity\n\n2. CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur \u2014 Entity-Based SEO): MUST demonstrate understanding of: Entity Home\n\n"
+  },
+  "stream_3_entities": {
+    "anchor_entities": [
+      {
+        "name": "Texas Real Estate Commission",
+        "contaminated": false,
+        "relations": [
+          "Texas",
+          "Condominium Contract Forms",
+          "Farm And Ranch Contract",
+          "Consumer Protection Notice",
+          "New Home Contract (Incomplete Construction)",
+          "Minh Quan T Nguyen",
+          "Texas Real Estate Commission Consumer Protection Notice",
+          "Texas Real Estate Commission Information About Brokerage Services",
+          "One To Four Family Residential Contract (Resale)",
+          "New Home Contract (Completed Construction)"
+        ],
+        "relation_count": 12,
+        "page_count": 24,
+        "pages": [
+          "https://quann.homes/portfolio-dark-work/hideaway",
+          "https://quann.homes/portfolio-dark-work/lightric-motors",
+          "https://quann.homes/privacy-policy",
+          "https://quann.homes/home-tours",
+          "https://quann.homes/cookie-policy"
+        ],
+        "snippet": "quan@thequantumteam.net  quan@thequantumteam.net  <!-- image -->  <!-- image -->  <!-- image -->  [Texas Real Estate Commission Consumer Protection Notice](https://www.trec.texas.gov/sites/default/files/pdf-forms/CN%201-5_0.pdf) | [Texas Real Estate Commission Information About Brokerage Services |]",
+        "description": ""
+      },
+      {
+        "name": "Website",
+        "contaminated": false,
+        "relations": [
+          "Quan Nguyen Real Estate",
+          "Vonage",
+          "GDPR",
+          "Services",
+          "Home Junction / Attom Data",
+          "MailParser",
+          "Google Cloud Platform (GCP)",
+          "Secure Sockets Layer (SSL)",
+          "OpenAI",
+          "AI Tools"
+        ],
+        "relation_count": 19,
+        "page_count": 2,
+        "pages": [
+          "https://quann.homes/terms-of-service",
+          "https://quann.homes/privacy-policy"
+        ],
+        "snippet": "](.)  [NGUYEN](.)  <!-- image -->  [BUY A HOME](contact-us-2)  When you use Services (including our website and mobile apps) on this website and any subdomains of this website (collectively, the \u00e2\u0080\u009cWebsite\u00e2\u0080\u009d) to find, buy, rent, or sell real estate or connect with mortgage lenders or other real est",
+        "description": ""
+      },
+      {
+        "name": "Minh Quan T Nguyen",
+        "contaminated": false,
+        "relations": [
+          "Quann Homes",
+          "quan@thequantumteam.net",
+          "Quan Nguyen Real Estate",
+          "Texas",
+          "Quan.realtor",
+          "Quan@txaspiregroup.com",
+          "Home Deals",
+          "The Quantum Team",
+          "Texas Real Estate Commission",
+          "Lets Talk Home Deals"
+        ],
+        "relation_count": 17,
+        "page_count": 24,
+        "pages": [
+          "https://quann.homes/portfolio-dark-work/hideaway",
+          "https://quann.homes/portfolio-dark-work/lightric-motors",
+          "https://quann.homes/privacy-policy",
+          "https://quann.homes/home-tours",
+          "https://quann.homes/cookie-policy"
+        ],
+        "snippet": "r your future?  Enter Your Email*  Quan@txaspiregroup.com  Submit  - [ ] I agree to be contacted by Minh Quan T Nguyen via call, text, and email. To opt-out, you can reply 'stop' at any time or click the unsubscribe link in the email. Message frequency may vary. Message and data rates may apply. $Pr",
+        "description": ""
+      },
+      {
+        "name": "Quan Nguyen",
+        "contaminated": false,
+        "relations": [
+          "Dallas",
+          "Texas",
+          "Hella Store",
+          "Positive Energy",
+          "Houston",
+          "Austin",
+          "Westbury",
+          "Califfo",
+          "Xiong Wall",
+          "Froadmile"
+        ],
+        "relation_count": 17,
+        "page_count": 3,
+        "pages": [
+          "https://quann.homes/",
+          "https://quann.homes/privacy-policy",
+          "https://quann.homes/portfolio-dark-work"
+        ],
+        "snippet": "[QUAN NGUYEN](.)  <!-- image -->  [BUY A HOME](contact-us-2)  [QUAN](.)  [NGUYEN](.)  <!-- image -->  [BUY A HOME](contact-us-2)  When you use Services (including our website and mobile apps) on this website and",
+        "description": ""
+      },
+      {
+        "name": "Services",
+        "contaminated": false,
+        "relations": [
+          "Quann Homes",
+          "Website",
+          "Third-Party Websites",
+          "Content",
+          "User",
+          "User Data",
+          "The Quantum Team",
+          "Terms of Service",
+          "Mobile Application",
+          "Terms Of Service"
+        ],
+        "relation_count": 13,
+        "page_count": 2,
+        "pages": [
+          "https://quann.homes/terms-of-service",
+          "https://quann.homes/privacy-policy"
+        ],
+        "snippet": "ME](contact-us-2)  [QUAN](.)  [NGUYEN](.)  <!-- image -->  [BUY A HOME](contact-us-2)  When you use Services (including our website and mobile apps) on this website and any subdomains of this website (collectively, the \u00e2\u0080\u009cWebsite\u00e2\u0080\u009d) to find, buy, rent, or sell real estate or connect with mortgage l",
+        "description": ""
+      },
+      {
+        "name": "Terms of Service",
+        "contaminated": false,
+        "relations": [
+          "Personal Information",
+          "User",
+          "User Content",
+          "Privacy Policy",
+          "Services"
+        ],
+        "relation_count": 5,
+        "page_count": 2,
+        "pages": [
+          "https://quann.homes/terms-of-service",
+          "https://quann.homes/privacy-policy"
+        ],
+        "snippet": "information. This policy applies to any of our websites or apps that link to this Privacy Policy.  Terms of Service  This Privacy Policy is governed by the [Terms of Service](terms-of-service) , which includes all disclaimers of warranties and limitations of liabilities. All terms not defined separa",
+        "description": ""
+      },
+      {
+        "name": "Privacy Policy",
+        "contaminated": false,
+        "relations": [
+          "CAN-SPAM Act",
+          "Minh Quan T Nguyen",
+          "Terms of Service",
+          "Canada"
+        ],
+        "relation_count": 4,
+        "page_count": 24,
+        "pages": [
+          "https://quann.homes/portfolio-dark-work/hideaway",
+          "https://quann.homes/portfolio-dark-work/lightric-motors",
+          "https://quann.homes/privacy-policy",
+          "https://quann.homes/home-tours",
+          "https://quann.homes/cookie-policy"
+        ],
+        "snippet": "h respect to your information. This policy applies to any of our websites or apps that link to this Privacy Policy.  Terms of Service  This Privacy Policy is governed by the [Terms of Service](terms-of-service) , which includes all disclaimers of warranties and limitations of liabilities. All terms ",
+        "description": ""
+      },
+      {
+        "name": "Google",
+        "contaminated": false,
+        "relations": [
+          "Google Display Network",
+          "Remarketing Services",
+          "Third-Party Cookies"
+        ],
+        "relation_count": 3,
+        "page_count": 2,
+        "pages": [
+          "https://quann.homes/cookie-policy",
+          "https://quann.homes/privacy-policy"
+        ],
+        "snippet": "ie-policy) . - Ads: We use the remarketing services to advertise on third party websites (including Google, Facebook, and others) to previous visitors to our website. It could mean that we advertise to previous visitors who haven\u00e2\u0080\u0099t completed a task on our website (such as using the contact form to",
+        "description": ""
+      },
+      {
+        "name": "Real Brokerage",
+        "contaminated": false,
+        "relations": [
+          "Minh Quan Nguyen",
+          "Minh Quan T Nguyen"
+        ],
+        "relation_count": 2,
+        "page_count": 24,
+        "pages": [
+          "https://quann.homes/portfolio-dark-work/hideaway",
+          "https://quann.homes/portfolio-dark-work/lightric-motors",
+          "https://quann.homes/privacy-policy",
+          "https://quann.homes/home-tours",
+          "https://quann.homes/cookie-policy"
+        ],
+        "snippet": "ission-information-about-brokerage-services) \u00c2\u00a9 2025 MINH QUAN NGUYEN, REALTOR | LICENSE #0774451 | REAL BROKERAGE - [All rights reserved (more details)](disclosure) [Privacy Policy](privacy-policy)  [Texas Real Estate Commission Consumer Protection Notice](https://www.trec.texas.gov/sites/default/f",
+        "description": ""
+      },
+      {
+        "name": "Facebook",
+        "contaminated": false,
+        "relations": [
+          "Remarketing Services",
+          "Third-Party Cookies"
+        ],
+        "relation_count": 2,
+        "page_count": 4,
+        "pages": [
+          "https://quann.homes/cookie-policy",
+          "https://quann.homes/privacy-policy",
+          "doc-efa3c986c472c29f6ca4303ef7bb0e03",
+          "https://quann.homes/blog/texas-first-time-home-buyer-guide5"
+        ],
+        "snippet": "y) . - Ads: We use the remarketing services to advertise on third party websites (including Google, Facebook, and others) to previous visitors to our website. It could mean that we advertise to previous visitors who haven\u00e2\u0080\u0099t completed a task on our website (such as using the contact form to make an",
+        "description": ""
+      },
+      {
+        "name": "quan@thequantumteam.net",
+        "contaminated": false,
+        "relations": [
+          "Personal Information",
+          "Minh Quan T Nguyen"
+        ],
+        "relation_count": 2,
+        "page_count": 3,
+        "pages": [
+          "https://quann.homes/portfolio-dark-work/califfo",
+          "https://quann.homes/privacy-policy",
+          "https://quann.homes/portfolio-dark-work/westbury"
+        ],
+        "snippet": "receiving messages, reply \u00e2\u0080\u0098STOP\u00e2\u0080\u0099 at any time. You can also request this by sending a request to quan@thequantumteam.net. If you would like to opt out of your information being shared with our AI Tools, please send a request via email to quan@thequantumteam.net.  Please take note that if you opt ",
+        "description": ""
+      },
+      {
+        "name": "Consumer Protection Notice",
+        "contaminated": false,
+        "relations": [
+          "Texas Real Estate Commission"
+        ],
+        "relation_count": 1,
+        "page_count": 21,
+        "pages": [
+          "https://quann.homes/portfolio-dark-work/hideaway",
+          "https://quann.homes/portfolio-dark-work/lightric-motors",
+          "https://quann.homes/privacy-policy",
+          "https://quann.homes/cookie-policy",
+          "https://quann.homes/blog/texas-first-time-home-buyer-guide5"
+        ],
+        "snippet": "n@thequantumteam.net  <!-- image -->  <!-- image -->  <!-- image -->  [Texas Real Estate Commission Consumer Protection Notice](https://www.trec.texas.gov/sites/default/files/pdf-forms/CN%201-5_0.pdf) | [Texas Real Estate Commission Information About Brokerage Services |](texas-real-estate-commissio",
+        "description": ""
+      },
+      {
+        "name": "Information About Brokerage Services",
+        "contaminated": false,
+        "relations": [
+          "Texas Real Estate Commission"
+        ],
+        "relation_count": 1,
+        "page_count": 21,
+        "pages": [
+          "https://quann.homes/portfolio-dark-work/hideaway",
+          "https://quann.homes/portfolio-dark-work/lightric-motors",
+          "https://quann.homes/privacy-policy",
+          "https://quann.homes/cookie-policy",
+          "https://quann.homes/blog/texas-first-time-home-buyer-guide5"
+        ],
+        "snippet": "://www.trec.texas.gov/sites/default/files/pdf-forms/CN%201-5_0.pdf) | [Texas Real Estate Commission Information About Brokerage Services |](texas-real-estate-commission-information-about-brokerage-services) \u00c2\u00a9 2025 MINH QUAN NGUYEN, REALTOR | LICENSE #0774451 | REAL BROKERAGE - [All rights reserved ",
+        "description": ""
+      }
+    ],
+    "contaminated_on_page": [],
+    "total_page_entities": 47,
+    "clean_entities": 47
+  }
+}

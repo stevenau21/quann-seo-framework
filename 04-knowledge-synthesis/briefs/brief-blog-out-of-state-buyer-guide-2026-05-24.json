@@ -1,0 +1,590 @@
+{
+  "meta": {
+    "url": "https://quann.homes/blog/out-of-state-buyer-guide",
+    "slug": "blog/out-of-state-buyer-guide",
+    "page_type": "blog_post",
+    "bridge_page_type": "blog_post",
+    "generated_at": "2026-05-24T16:56:52.161461+00:00",
+    "priority_score": {
+      "score": 61.5,
+      "factors": [
+        {
+          "label": "Deterministic Gap Rate",
+          "value": "5/16 (31%)",
+          "weight": 40,
+          "contribution": 12.5
+        },
+        {
+          "label": "Kernel Failures",
+          "value": "7",
+          "weight": 25,
+          "contribution": 14.0
+        },
+        {
+          "label": "Directive Injections",
+          "value": "8/8",
+          "weight": 20,
+          "contribution": 20.0
+        },
+        {
+          "label": "KG Anchor Entities",
+          "value": "15",
+          "weight": 15,
+          "contribution": 15.0
+        }
+      ],
+      "interpretation": "IMPORTANT \u2014 Several gaps to address. Solid entity context available."
+    },
+    "compliance_pct": 40.0,
+    "word_count": 1765,
+    "total_checks": 35,
+    "bridge_checks": 16
+  },
+  "stream_1_gaps": {
+    "deterministic_fails": [
+      {
+        "rule_id": "bridge_Technical SEO-method-0010",
+        "rule": "Use canonical URLs.",
+        "detail": "Canonical URL tag NOT found",
+        "fix_directive": "",
+        "priority": "high",
+        "category": "technical_seo"
+      },
+      {
+        "rule_id": "bridge_Technical SEO-method-0014",
+        "rule": "Preload key requests (fonts, CSS, JS) with correct 'as' attribute.",
+        "detail": "Preload hints: 0 (none)",
+        "fix_directive": "",
+        "priority": "medium",
+        "category": "technical_seo"
+      },
+      {
+        "rule_id": "bridge_Technical SEO-method-0027",
+        "rule": "Use CDN.",
+        "detail": "CDN indicators: none detected",
+        "fix_directive": "",
+        "priority": "low",
+        "category": "technical_seo"
+      },
+      {
+        "rule_id": "bridge_Technical SEO-method-0034",
+        "rule": "Use content-visibility: auto.",
+        "detail": "content-visibility: auto NOT found",
+        "fix_directive": "",
+        "priority": "low",
+        "category": "technical_seo"
+      },
+      {
+        "rule_id": "bridge_bridge_viewport_meta_present",
+        "rule": "",
+        "detail": "Viewport meta tag: MISSING",
+        "fix_directive": "",
+        "priority": "high",
+        "category": "technical_seo"
+      }
+    ],
+    "kernel_fails": [
+      {
+        "rule_id": "SEO-TITLE-LENGTH",
+        "rule": "Title tag must be between 50-60 characters",
+        "detail": "Title chars: 26 (target 50-60)"
+      },
+      {
+        "rule_id": "SEO-KEYWORD-IN-TITLE-FRONT",
+        "rule": "Primary keyword must appear within the first 60 characters of the title tag",
+        "detail": "Keyword in title front: no"
+      },
+      {
+        "rule_id": "SEO-SCHEMA-MARKUP",
+        "rule": "Page must implement structured data markup (JSON-LD) appropriate to content type",
+        "detail": "Schema markup: NOT found"
+      },
+      {
+        "rule_id": "SEO-ARTICLE-SCHEMA",
+        "rule": "Blog posts must include Article or BlogPosting schema with datePublished, author, and headline",
+        "detail": "Article schema NOT found"
+      },
+      {
+        "rule_id": "SEO-FAQ-SCHEMA",
+        "rule": "Pages answering buyer questions must have FAQPage schema markup with at least 3 Question/Answer pairs",
+        "detail": "FAQ structure NOT found"
+      },
+      {
+        "rule_id": "RE-KATY-LOCAL",
+        "rule": "Katy-targeted pages must include Katy-specific market context, not generic Texas real estate content",
+        "detail": "Katy context: missing"
+      },
+      {
+        "rule_id": "RE-BUYER-ENTITY-COVERAGE",
+        "rule": "Pages targeting first-time buyers must cover core entities: Buyer's Agent, Closing Costs, Down Payment Assistance, Home Inspection, Mortgage Pre-approval",
+        "detail": "Core entities covered: 0/5 (none)"
+      }
+    ],
+    "total_det_checks": 16,
+    "det_fail_count": 5,
+    "kernel_fail_count": 7
+  },
+  "stream_2_directives": {
+    "injected": [
+      {
+        "card_id": "Python & Data-Driven SEO-concept-0000",
+        "content": "NLTK Lemmatization",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth",
+        "priority": "direct_hit"
+      },
+      {
+        "card_id": "Python & Data-Driven SEO-concept-0001",
+        "content": "NLTK Tokenization",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth",
+        "priority": "direct_hit"
+      },
+      {
+        "card_id": "Python & Data-Driven SEO-concept-0002",
+        "content": "NLTK Stemming",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth",
+        "priority": "direct_hit"
+      },
+      {
+        "card_id": "Python & Data-Driven SEO-concept-0003",
+        "content": "WordNet (synonyms, antonyms, hypernyms, hyponyms)",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth",
+        "priority": "direct_hit"
+      },
+      {
+        "card_id": "Entity-Based SEO-concept-0000",
+        "content": "Entity Identity",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements",
+        "priority": "page_match"
+      },
+      {
+        "card_id": "Entity-Based SEO-concept-0002",
+        "content": "Entity Home",
+        "framework": "Entity-Based SEO",
+        "category": "entity_requirements",
+        "priority": "page_match"
+      },
+      {
+        "card_id": "Python & Data-Driven SEO-concept-0006",
+        "content": "Log File Analysis",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth",
+        "priority": "direct_hit"
+      },
+      {
+        "card_id": "Python & Data-Driven SEO-concept-0008",
+        "content": "Word Clouds",
+        "framework": "Python & Data-Driven SEO",
+        "category": "methodology_depth",
+        "priority": "direct_hit"
+      }
+    ],
+    "injection_cap": 8,
+    "total_available": 116,
+    "prompt_section": "## \ud83c\udfd7\ufe0f Architectural Directives (Koray Gubur \u2014 Phase 5 Tier 1)\n\n_The following 8 directives are sourced from the Koray Gubur Architect Extraction Pipeline. They represent grounded, computable rules validated against source material. Adhere to these when writing this content._\n\n### Methodology & Depth Requirements\n\n1. CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur \u2014 Python & Data-Driven SEO): MUST implement: NLTK Lemmatization\n\n2. CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur \u2014 Python & Data-Driven SEO): MUST implement: NLTK Tokenization\n\n3. CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur \u2014 Python & Data-Driven SEO): MUST implement: NLTK Stemming\n\n4. CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur \u2014 Python & Data-Driven SEO): MUST implement: WordNet (synonyms, antonyms, hypernyms, hyponyms)\n\n5. CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur \u2014 Python & Data-Driven SEO): MUST demonstrate understanding of: Log File Analysis\n\n6. CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur \u2014 Python & Data-Driven SEO): MUST demonstrate understanding of: Word Clouds\n\n\n### Entity & Schema Requirements\n\n1. CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur \u2014 Entity-Based SEO): MUST demonstrate understanding of: Entity Identity\n\n2. CRITICAL ARCHITECTURAL DIRECTIVE (Koray Gubur \u2014 Entity-Based SEO): MUST demonstrate understanding of: Entity Home\n\n"
+  },
+  "stream_3_entities": {
+    "anchor_entities": [
+      {
+        "name": "Texas Property Taxes",
+        "contaminated": false,
+        "relations": [
+          "Mortgage Payment",
+          "Texas Housing Market",
+          "Texas Homestead Exemption",
+          "Texas Real Estate Agents",
+          "Texas Real Estate Purchase"
+        ],
+        "relation_count": 5,
+        "page_count": 4,
+        "pages": [
+          "https://quann.homes/blog/out-of-state-buyer-guide",
+          "doc-3d4eaae2719b8bfe46d3d029366230af",
+          "doc-efa3c986c472c29f6ca4303ef7bb0e03",
+          "https://quann.homes/blog/texas-first-time-home-buyer-guide5"
+        ],
+        "snippet": "uction vs. existing homes - Market stability factors  ### Unique Texas Property Considerations  - **Texas property taxes** explained - Homestead exemptions and other tax benefits - HOA prevalence and considerations - Mineral rights understanding - Land use and zoning differences from other states  #",
+        "description": ""
+      },
+      {
+        "name": "Texas Home Buying Process",
+        "contaminated": false,
+        "relations": [
+          "Plano",
+          "Final Walk-Through",
+          "Redfin",
+          "Realtor.com",
+          "First-time Homebuyer Texas",
+          "Priority Matrix",
+          "T-47 Affidavit",
+          "Scoring System",
+          "Texas Homestead Exemption",
+          "Texas Option Period"
+        ],
+        "relation_count": 26,
+        "page_count": 4,
+        "pages": [
+          "https://quann.homes/blog/out-of-state-buyer-guide",
+          "doc-3d4eaae2719b8bfe46d3d029366230af",
+          "doc-efa3c986c472c29f6ca4303ef7bb0e03",
+          "https://quann.homes/blog/texas-first-time-home-buyer-guide5"
+        ],
+        "snippet": "eas for investment - **Best places to live in Texas** based on different priorities  ## Part 4: The Texas Home Buying Process (2500 words)  ### Step-by-Step Guide  - **Home buying in Texas** timeline overview - **How long is the home buying process in Texas** explained - Finding and working with a T",
+        "description": ""
+      },
+      {
+        "name": "Texas Real Estate Commission",
+        "contaminated": false,
+        "relations": [
+          "Condominium Contract Forms",
+          "Minh Quan T Nguyen",
+          "New Home Contract (Incomplete Construction)",
+          "Texas Real Estate Commission Information About Brokerage Services",
+          "Consumer Protection Notice",
+          "Texas",
+          "Texas Real Estate Commission Consumer Protection Notice",
+          "New Home Contract (Completed Construction)",
+          "One To Four Family Residential Contract (Resale)",
+          "Information About Brokerage Services"
+        ],
+        "relation_count": 12,
+        "page_count": 24,
+        "pages": [
+          "doc-3d4eaae2719b8bfe46d3d029366230af",
+          "https://quann.homes/portfolio-dark-work",
+          "https://quann.homes/home-tours",
+          "https://quann.homes/",
+          "https://quann.homes/disclosure"
+        ],
+        "snippet": "quan@thequantumteam.net  quan@thequantumteam.net  <!-- image -->  <!-- image -->  <!-- image -->  [Texas Real Estate Commission Consumer Protection Notice](https://www.trec.texas.gov/sites/default/files/pdf-forms/CN%201-5_0.pdf) | [Texas Real Estate Commission Information About Brokerage Services |]",
+        "description": ""
+      },
+      {
+        "name": "Texas Relocation Guide",
+        "contaminated": false,
+        "relations": [
+          "Moving Checklist for Texas",
+          "Climate in Texas",
+          "Texas"
+        ],
+        "relation_count": 3,
+        "page_count": 2,
+        "pages": [
+          "https://quann.homes/blog/out-of-state-buyer-guide",
+          "doc-3d4eaae2719b8bfe46d3d029366230af"
+        ],
+        "snippet": "exas's popularity as a relocation destination - The unique perspective of an out-of-state buyer - **Texas relocation guide** purpose and navigation - Why this guide is essential for **out of state relocation** success - Statistics on migration to Texas in recent years - Introduction to the multiface",
+        "description": ""
+      },
+      {
+        "name": "Texas Schools and Education",
+        "contaminated": false,
+        "relations": [
+          "Support for Relocating Families"
+        ],
+        "relation_count": 1,
+        "page_count": 2,
+        "pages": [
+          "https://quann.homes/blog/out-of-state-buyer-guide",
+          "doc-3d4eaae2719b8bfe46d3d029366230af"
+        ],
+        "snippet": "pitality - Space and land availability compared to other states  ### Educational Opportunities  - **Texas schools and education** system overview - Higher education institutions and opportunities - School districts excellence across different regions - Special education programs and resources - Cont",
+        "description": ""
+      },
+      {
+        "name": "Texas",
+        "contaminated": false,
+        "relations": [
+          "Title Insurance",
+          "Retirees",
+          "Military Families",
+          "Texas Home Buying Process",
+          "Steps For Buying Your First Home",
+          "Galveston",
+          "VA Loans",
+          "San Antonio",
+          "Texas Department Of Housing And Community Affairs",
+          "Texas Homestead Exemption"
+        ],
+        "relation_count": 30,
+        "page_count": 8,
+        "pages": [
+          "https://quann.homes/aboutme",
+          "https://quann.homes/blog/out-of-state-buyer-guide",
+          "https://quann.homes/blog",
+          "doc-3d4eaae2719b8bfe46d3d029366230af",
+          "https://quann.homes/blog/steps-for-buying-your-first-home"
+        ],
+        "snippet": "de  Jan 22, 2026  No headings found on page  # Comprehensive Outline: Out-of-State Buyers Moving to Texas  ## Introduction (800 words)  - Welcome to Texas: Setting the context for relocation - Brief overview of Texas's popularity as a relocation destination - The unique perspective of an out-of-stat",
+        "description": ""
+      },
+      {
+        "name": "Texas Housing Market",
+        "contaminated": false,
+        "relations": [
+          "Texas Property Taxes",
+          "Texas Home Buying Process"
+        ],
+        "relation_count": 2,
+        "page_count": 2,
+        "pages": [
+          "https://quann.homes/blog/out-of-state-buyer-guide",
+          "doc-3d4eaae2719b8bfe46d3d029366230af"
+        ],
+        "snippet": "ifestyle transitions - Climate adjustments for newcomers - Employment market shifts  ## Part 3: The Texas Housing Market Explained (2000 words)  ### Market Overview  - **Texas housing market** trends and forecasts - Regional market variations (metro vs. suburban vs. rural) - Investment potential ana",
+        "description": ""
+      },
+      {
+        "name": "Out Of State Buyer's Guide",
+        "contaminated": false,
+        "relations": [
+          "Texas"
+        ],
+        "relation_count": 1,
+        "page_count": 3,
+        "pages": [
+          "https://quann.homes/blog/out-of-state-buyer-guide",
+          "https://quann.homes/blog",
+          "doc-3d4eaae2719b8bfe46d3d029366230af"
+        ],
+        "snippet": "# Out of State Buyer's Guide  Jan 22, 2026  No headings found on page  # Comprehensive Outline: Out-of-State Buyers Moving to Texas  ## Introduction (800 words)  - Welcome to Texas: Setting the context for relocation - Brief ove",
+        "description": ""
+      },
+      {
+        "name": "Cost of Living in Texas",
+        "contaminated": false,
+        "relations": [
+          "Texas Lifestyle"
+        ],
+        "relation_count": 1,
+        "page_count": 2,
+        "pages": [
+          "https://quann.homes/blog/out-of-state-buyer-guide",
+          "doc-3d4eaae2719b8bfe46d3d029366230af"
+        ],
+        "snippet": "ncome tax and its financial implications - Business-friendly environment and economic stability - **Cost of living in Texas** compared to national averages - Real estate affordability analysis  ### Lifestyle Benefits  - Cultural diversity and **Texas lifestyle** highlights - Recreational opportuniti",
+        "description": ""
+      },
+      {
+        "name": "Moving Checklist for Texas",
+        "contaminated": false,
+        "relations": [
+          "Texas Relocation Guide"
+        ],
+        "relation_count": 1,
+        "page_count": 2,
+        "pages": [
+          "https://quann.homes/blog/out-of-state-buyer-guide",
+          "doc-3d4eaae2719b8bfe46d3d029366230af"
+        ],
+        "snippet": "k transition coordination  ### Moving Your Belongings  - Long-distance moving company selection - **Moving checklist for Texas** relocation - How to safely transport valuables across state lines - Climate considerations for belongings - Storage options during transition  ### Setting Up Your New Texa",
+        "description": ""
+      },
+      {
+        "name": "Texas Lifestyle",
+        "contaminated": false,
+        "relations": [
+          "Cost of Living in Texas"
+        ],
+        "relation_count": 1,
+        "page_count": 2,
+        "pages": [
+          "https://quann.homes/blog/out-of-state-buyer-guide",
+          "doc-3d4eaae2719b8bfe46d3d029366230af"
+        ],
+        "snippet": "l averages - Real estate affordability analysis  ### Lifestyle Benefits  - Cultural diversity and **Texas lifestyle** highlights - Recreational opportunities throughout the state - Food, music, and entertainment scenes - Community values and Texan hospitality - Space and land availability compared t",
+        "description": ""
+      },
+      {
+        "name": "Climate in Texas",
+        "contaminated": false,
+        "relations": [
+          "Texas Relocation Guide"
+        ],
+        "relation_count": 1,
+        "page_count": 2,
+        "pages": [
+          "https://quann.homes/blog/out-of-state-buyer-guide",
+          "doc-3d4eaae2719b8bfe46d3d029366230af"
+        ],
+        "snippet": "education programs and resources - Continuing education for adults  ### Weather and Geography  - **Climate in Texas** by region (variations and considerations) - Natural landscapes and outdoor living - Seasonal considerations for new residents - Adapting to Texas weather patterns - Emergency prepare",
+        "description": ""
+      },
+      {
+        "name": "Texas Job Market",
+        "contaminated": false,
+        "relations": [],
+        "relation_count": 0,
+        "page_count": 2,
+        "pages": [
+          "https://quann.homes/blog/out-of-state-buyer-guide",
+          "doc-3d4eaae2719b8bfe46d3d029366230af"
+        ],
+        "snippet": "ies - Remote work transition planning - Industry networking in new location - Resume adaptation for Texas job market - Interview preparation for Texas employers  ## Part 8: Cost Analysis and Financial Planning (1800 words)  ### Relocation Budget Creation  - Moving expenses comprehensive breakdown - ",
+        "description": ""
+      },
+      {
+        "name": "Employment Opportunities in Texas",
+        "contaminated": false,
+        "relations": [],
+        "relation_count": 0,
+        "page_count": 2,
+        "pages": [
+          "https://quann.homes/blog/out-of-state-buyer-guide",
+          "doc-3d4eaae2719b8bfe46d3d029366230af"
+        ],
+        "snippet": "Texas Appeal - Why People Are Moving to the Lone Star State (1500 words)  ### Economic Factors  - **Employment opportunities in Texas** across various industries - No state income tax and its financial implications - Business-friendly environment and economic stability - **Cost of living in Texas** ",
+        "description": ""
+      },
+      {
+        "name": "Relocation Budget",
+        "contaminated": false,
+        "relations": [],
+        "relation_count": 0,
+        "page_count": 2,
+        "pages": [
+          "https://quann.homes/blog/out-of-state-buyer-guide",
+          "doc-3d4eaae2719b8bfe46d3d029366230af"
+        ],
+        "snippet": "preparation for Texas employers  ## Part 8: Cost Analysis and Financial Planning (1800 words)  ### Relocation Budget Creation  - Moving expenses comprehensive breakdown - Hidden costs identification and planning - Tax implications of interstate moves - Cost savings opportunities - Financial cushion ",
+        "description": ""
+      }
+    ],
+    "gap_entities": [
+      {
+        "name": "First-time Homebuyer Texas",
+        "found_on": [
+          "https://quann.homes/blog/texas-first-time-home-buyer-guide5"
+        ],
+        "relation_count": 8,
+        "page_count": 2,
+        "relations": [
+          "Backup Offer",
+          "Buyer Letter",
+          "Texas Home Buying Process",
+          "Underwritten Pre-approval"
+        ]
+      },
+      {
+        "name": "First-Time Homebuyer Texas",
+        "found_on": [
+          "https://quann.homes/blog/texas-first-time-home-buyer-guide5"
+        ],
+        "relation_count": 4,
+        "page_count": 2,
+        "relations": [
+          "Texas Real Estate Purchase",
+          "Texas Real Estate Agent"
+        ]
+      },
+      {
+        "name": "First-Time Homebuyer In Texas",
+        "found_on": [
+          "https://quann.homes/blog/texas-first-time-home-buyer-guide5"
+        ],
+        "relation_count": 4,
+        "page_count": 2,
+        "relations": [
+          "FHA Loans",
+          "Texas Home Buying Process"
+        ]
+      },
+      {
+        "name": "Property Inspection Texas",
+        "found_on": [
+          "https://quann.homes/blog/texas-first-time-home-buyer-guide5"
+        ],
+        "relation_count": 8,
+        "page_count": 2,
+        "relations": [
+          "General Home Inspection",
+          "Specialized Inspections",
+          "Texas Option Period",
+          "Home Inspection Professionals"
+        ]
+      },
+      {
+        "name": "Texas Real Estate Agents",
+        "found_on": [
+          "https://quann.homes/blog/texas-first-time-home-buyer-guide5"
+        ],
+        "relation_count": 8,
+        "page_count": 2,
+        "relations": [
+          "Texas Property Taxes",
+          "Texas Real Estate Purchase",
+          "Texas Home Buying Process",
+          "ABR"
+        ]
+      },
+      {
+        "name": "Texas Home Loan Options",
+        "found_on": [
+          "https://quann.homes/blog/texas-first-time-home-buyer-guide5"
+        ],
+        "relation_count": 4,
+        "page_count": 2,
+        "relations": [
+          "Home Appraisal Texas",
+          "Appraisal Gap",
+          "Credit Score"
+        ]
+      },
+      {
+        "name": "TSAHC Home Sweet Texas Home Loan Program",
+        "found_on": [
+          "https://quann.homes/blog/texas-first-time-home-buyer-guide5"
+        ],
+        "relation_count": 2,
+        "page_count": 2,
+        "relations": [
+          "TSAHC"
+        ]
+      },
+      {
+        "name": "Texas Real Estate Agent",
+        "found_on": [
+          "https://quann.homes/blog/texas-first-time-home-buyer-guide5"
+        ],
+        "relation_count": 2,
+        "page_count": 2,
+        "relations": [
+          "First-Time Homebuyer Texas"
+        ]
+      },
+      {
+        "name": "First-Time Homebuyer Education Courses",
+        "found_on": [
+          "https://quann.homes/blog/steps-for-buying-your-first-home"
+        ],
+        "relation_count": 1,
+        "page_count": 1,
+        "relations": [
+          "Texas"
+        ]
+      },
+      {
+        "name": "Texas Real Estate Purchase",
+        "found_on": [
+          "https://quann.homes/blog/texas-first-time-home-buyer-guide5"
+        ],
+        "relation_count": 24,
+        "page_count": 2,
+        "relations": [
+          "Houston Area",
+          "Home Appraisal Texas",
+          "San Antonio Area",
+          "First-Time Homebuyer Texas",
+          "Texas Education Agency (TEA)"
+        ]
+      }
+    ],
+    "contaminated_on_page": [],
+    "total_page_entities": 27,
+    "clean_entities": 27
+  }
+}

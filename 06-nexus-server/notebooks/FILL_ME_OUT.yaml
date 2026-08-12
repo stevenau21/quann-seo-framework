@@ -1,0 +1,112 @@
+# ────────────────────────────────────────────────────────────────────
+#  NOTEBOOK CONFIG — FILL THIS OUT ONCE
+#
+#  This form defines how your knowledge base works.  Every setting
+#  maps to a real stage in the pipeline.  Skipping a section means
+#  the system uses a default — which may silently break things.
+#  ────────────────────────────────────────────────────────────────────
+
+# ── ① WHAT ARE YOU INDEXING? ──────────────────────────────────────
+# Choose ONE:
+#   A) Raw files (PDFs, transcripts, markdown — you drop them in a folder)
+#   B) Pre-sliced data (a .jsonl file, each line = one chunk)
+#
+#  WHY IT MATTERS:
+#    If you pick A, LightRAG decides how to cut your documents into
+#    pieces.  If it cuts in the middle of a key sentence, that fact
+#    becomes invisible.  Pick B only if your scraper already produces
+#    clean, paragraph-sized chunks.
+
+data_source:
+  type: raw-files              # or: pre-chunked
+  path: transcripts/           # folder path (for raw-files) or .jsonl path
+  # chunk_field: text          # only needed for pre-chunked — which JSON key holds the content?
+
+# ── ② HOW THOROUGH SHOULD THE SYSTEM BE? ──────────────────────────
+# LightRAG reads every chunk and asks the LLM: "what people, places,
+# concepts, and relationships are in here?"
+#
+#   PASSES = how many times it re-reads the data:
+#     1 pass  → fast, but fragments stay fragmented
+#               (you'll see <SEP> and repeated sentences)
+#     2 passes → slower, but descriptions are merged and coherent
+#     3 passes → unnecessary for most use cases
+#
+#  WHY IT MATTERS:
+#    One pass cannot connect facts split across chunks.  "HOA fees"
+#    mentioned in chunk 3 and chunk 7 will appear as two separate,
+#    redundant descriptions with a <SEP> delimiter between them
+#    instead of one clean summary.  A second pass fixes this.
+
+extraction:
+  passes: 2                    # 1 = minimum, 2 = recommended, 3 = max
+
+# ── ③ WHAT KIND OF THINGS SHOULD IT LOOK FOR? ─────────────────────
+# Tell the LLM which categories of entities to identify.  If you
+# leave this blank, entity types will show as "?" and the extraction
+# prompt will be generic.
+#
+#  WHY IT MATTERS:
+#    Specifying types focuses the LLM.  "Find people, organizations,
+#    and financial concepts" produces richer results than "find
+#    entities."  This directly affects what shows up in the Explore
+#    graph and what gets cited in answers.
+
+entity_types:
+  - person                     # individuals mentioned by name or role
+  - organization               # companies, brokerages, HOAs, lenders
+  - financial_concept          # interest rates, closing costs, HOA dues
+  - location                   # cities, neighborhoods, school districts
+  - event                      # meetings, property tours, deadlines
+
+# ── ④ WHAT MODEL DOES THE THINKING? ────────────────────────────────
+# Two separate models run at different stages:
+#
+#   EXTRACTION model — runs during ingestion.  Finds entities.
+#     A smaller, faster model is fine here (it's doing classification,
+#     not writing paragraphs).
+#
+#   CHAT model — runs when users ask questions.  Generates answers.
+#     A stronger model is better here (it's synthesizing context into
+#     natural language).
+#
+#  WHY IT MATTERS:
+#    These can be different models.  You might use gemma4 for
+#    extraction (cheap, fast) and deepseek-v4 for answering (stronger
+#    reasoning).  Or use the same model for both if simplicity matters.
+
+models:
+  extraction: "gemma4:31b-cloud"     # model for finding entities
+  chat: "gemma4:31b-cloud"           # model for generating answers
+  embedding: "nomic-embed-text-v2-moe"  # model for vector search
+
+# ── ⑤ WHAT HAPPENS WHEN YOU RE-INGEST? ────────────────────────────
+# When you add new documents to an existing knowledge base:
+#
+#   incremental → only new/changed files are processed.  Fast (minutes).
+#                  Existing data is untouched.  LightRAG checks file
+#                  hashes — unchanged files are skipped.
+#
+#   full-rebuild → everything is wiped and re-processed from scratch.
+#                   Slow (hours for large corpora).  Only necessary when
+#                   you change chunking settings or the embedding model.
+
+update:
+  mode: incremental            # or: full-rebuild
+
+# ── ⑥ EMBEDDING BUDGET ────────────────────────────────────────────
+# The embedding model has a hard limit on how much text it can
+# process in one call.  Exceeding it causes silent HTTP 500 errors
+# and corrupted workspace files.
+#
+#   nomic-embed-text-v2-moe → 512 tokens (~2,000 characters)
+#   nomic-embed-text:v1.5    → 8,192 tokens
+#
+#  WHY IT MATTERS:
+#    This is the #1 cause of "why isn't my data processing?" bugs.
+#    The chunk size must stay UNDER the embedding model's limit.
+#    A good rule: chunk at 50% of the limit so there's breathing room.
+
+embedding:
+  context_limit: 512            # hard cap from the model (DO NOT EXCEED)
+  chunk_size: 256               # tokens per chunk (keep ≤ 50% of limit)

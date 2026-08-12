@@ -1,0 +1,101 @@
+graph TD
+    %% Phase 5: Koray Gubur Framework Dependency Graph
+    %% 12 frameworks | 144 Tier 1 rules | 390 Tier 2 context
+
+    topical-authority["Topical Authority<br/>T1:12 T2:38"]
+    semantic-seo["Semantic SEO<br/>T1:11 T2:26"]
+    holistic-seo["Holistic SEO<br/>T1:9 T2:51"]
+    entity-based-seo["Entity-Based SEO<br/>T1:19 T2:33"]
+    technical-seo["Technical SEO<br/>T1:24 T2:58"]
+    seo-information-retrieval["SEO Information Retrieval<br/>T1:7 T2:23"]
+    content-quality-linguistics["Content Quality & Linguistics<br/>T1:7 T2:20"]
+    multilingual-international-seo["Multilingual & International SEO<br/>T1:6 T2:36"]
+    knowledge-graph-structured-data["Knowledge Graph & Structured Data<br/>T1:14 T2:39"]
+    python-data-driven-seo["Python & Data-Driven SEO<br/>T1:16 T2:18"]
+    conversion-growth["Conversion & Growth<br/>T1:10 T2:36"]
+    seo-case-study-methodology["SEO Case Study Methodology<br/>T1:9 T2:12"]
+
+    topical-authority -->|depends_on| entity-based-seo
+    topical-authority -->|depends_on| multilingual-international-seo
+    topical-authority -->|depends_on| knowledge-graph-structured-data
+    topical-authority -->|depends_on| semantic-seo
+    topical-authority -->|depends_on| technical-seo
+    topical-authority -->|depends_on| content-quality-linguistics
+    topical-authority -->|depends_on| seo-information-retrieval
+    semantic-seo -->|depends_on| knowledge-graph-structured-data
+    semantic-seo -->|depends_on| topical-authority
+    semantic-seo -->|depends_on| content-quality-linguistics
+    holistic-seo -->|depends_on| semantic-seo
+    holistic-seo -->|depends_on| python-data-driven-seo
+    holistic-seo -->|depends_on| content-quality-linguistics
+    entity-based-seo -->|depends_on| knowledge-graph-structured-data
+    entity-based-seo -->|depends_on| semantic-seo
+    entity-based-seo -->|depends_on| content-quality-linguistics
+    entity-based-seo -->|depends_on| seo-information-retrieval
+    entity-based-seo -->|depends_on| topical-authority
+    technical-seo -->|depends_on| entity-based-seo
+    technical-seo -->|depends_on| conversion-growth
+    technical-seo -->|depends_on| python-data-driven-seo
+    technical-seo -->|depends_on| semantic-seo
+    technical-seo -->|depends_on| seo-information-retrieval
+    seo-information-retrieval -->|depends_on| entity-based-seo
+    seo-information-retrieval -->|depends_on| technical-seo
+    seo-information-retrieval -->|depends_on| python-data-driven-seo
+    seo-information-retrieval -->|depends_on| content-quality-linguistics
+    content-quality-linguistics -->|depends_on| conversion-growth
+    content-quality-linguistics -->|depends_on| python-data-driven-seo
+    multilingual-international-seo -->|depends_on| conversion-growth
+    multilingual-international-seo -->|depends_on| python-data-driven-seo
+    multilingual-international-seo -->|depends_on| technical-seo
+    multilingual-international-seo -->|depends_on| content-quality-linguistics
+    multilingual-international-seo -->|depends_on| topical-authority
+    knowledge-graph-structured-data -->|depends_on| content-quality-linguistics
+    python-data-driven-seo -->|depends_on| content-quality-linguistics
+    seo-case-study-methodology -->|depends_on| entity-based-seo
+    seo-case-study-methodology -->|depends_on| knowledge-graph-structured-data
+    seo-case-study-methodology -->|depends_on| semantic-seo
+    seo-case-study-methodology -->|depends_on| content-quality-linguistics
+    seo-case-study-methodology -->|depends_on| seo-information-retrieval
+    seo-case-study-methodology -->|depends_on| topical-authority
+    entity-based-seo -.->|cross 11 cards| topical-authority
+    seo-information-retrieval -.->|cross 11 cards| topical-authority
+    semantic-seo -.->|cross 2 cards| topical-authority
+    entity-based-seo -.->|cross 3 cards| semantic-seo
+    knowledge-graph-structured-data -.->|cross 1 cards| semantic-seo
+    semantic-seo -.->|cross 1 cards| technical-seo
+    semantic-seo -.->|cross 2 cards| seo-information-retrieval
+    entity-based-seo -.->|cross 4 cards| holistic-seo
+    holistic-seo -.->|cross 10 cards| topical-authority
+    holistic-seo -.->|cross 8 cards| seo-information-retrieval
+    holistic-seo -.->|cross 2 cards| semantic-seo
+    entity-based-seo -.->|cross 15 cards| seo-information-retrieval
+    technical-seo -.->|cross 15 cards| topical-authority
+    seo-information-retrieval -.->|cross 13 cards| technical-seo
+    knowledge-graph-structured-data -.->|cross 6 cards| technical-seo
+    holistic-seo -.->|cross 3 cards| technical-seo
+    entity-based-seo -.->|cross 4 cards| technical-seo
+    knowledge-graph-structured-data -.->|cross 2 cards| seo-information-retrieval
+    content-quality-linguistics -.->|cross 1 cards| entity-based-seo
+    content-quality-linguistics -.->|cross 1 cards| semantic-seo
+    content-quality-linguistics -.->|cross 1 cards| topical-authority
+    content-quality-linguistics -.->|cross 1 cards| technical-seo
+    multilingual-international-seo -.->|cross 3 cards| topical-authority
+    multilingual-international-seo -.->|cross 3 cards| semantic-seo
+    knowledge-graph-structured-data -.->|cross 2 cards| multilingual-international-seo
+    entity-based-seo -.->|cross 1 cards| multilingual-international-seo
+    multilingual-international-seo -.->|cross 1 cards| seo-information-retrieval
+    knowledge-graph-structured-data -.->|cross 21 cards| topical-authority
+    entity-based-seo -.->|cross 13 cards| knowledge-graph-structured-data
+    holistic-seo -.->|cross 1 cards| knowledge-graph-structured-data
+    entity-based-seo -.->|cross 6 cards| python-data-driven-seo
+    python-data-driven-seo -.->|cross 3 cards| semantic-seo
+    python-data-driven-seo -.->|cross 5 cards| topical-authority
+    python-data-driven-seo -.->|cross 1 cards| seo-information-retrieval
+    conversion-growth -.->|cross 3 cards| semantic-seo
+    conversion-growth -.->|cross 7 cards| topical-authority
+    conversion-growth -.->|cross 4 cards| seo-information-retrieval
+    conversion-growth -.->|cross 7 cards| entity-based-seo
+    entity-based-seo -.->|cross 2 cards| seo-case-study-methodology
+    seo-case-study-methodology -.->|cross 5 cards| topical-authority
+    semantic-seo -.->|cross 1 cards| seo-case-study-methodology
+    seo-case-study-methodology -.->|cross 2 cards| seo-information-retrieval

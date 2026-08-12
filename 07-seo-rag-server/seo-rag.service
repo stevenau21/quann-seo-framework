@@ -1,0 +1,14 @@
+[Unit]
+Description=SEO RAG Chatbot
+After=network.target
+
+[Service]
+Type=simple
+User=steve
+WorkingDirectory=/home/steve/seo-rag
+ExecStart=/home/steve/seo-rag/.venv/bin/python /home/steve/seo-rag/server.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

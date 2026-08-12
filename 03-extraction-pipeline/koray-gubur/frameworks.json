@@ -1,0 +1,344 @@
+{
+  "architect": {
+    "name": "Koray Tugberk GUBUR",
+    "paradigm": "seo",
+    "domains": [
+      "holisticseo.digital",
+      "koraygubur.com"
+    ],
+    "extraction_date": "2026-05-22",
+    "total_docs_analyzed": 394
+  },
+  "frameworks": [
+    {
+      "name": "Holistic SEO",
+      "definition": "A comprehensive, scientific methodology and integrated digital marketing process. It treats websites as central sources for determining document relevance by synthesizing coding, NLP, data science, and technical SEO.",
+      "problem_solved": "Fragmented SEO approaches that treat technical, content, and marketing as isolated silos.",
+      "evolution": "Not specified",
+      "depends_on": [
+        "Natural Language Processing (NLP)",
+        "Data Science",
+        "Technical SEO",
+        "Digital Analytics"
+      ],
+      "contradicts": "Conventional SEO that focuses on isolated tactics rather than an integrated scientific process.",
+      "unique_position": "Synthesizes multiple technical disciplines into a single integrated digital marketing process.",
+      "confidence": "core"
+    },
+    {
+      "name": "Topical Authority",
+      "definition": "A semantic SEO methodology and strategic framework designed to establish a brand or website as a credible, authoritative, and expert source within a specific niche. It focuses on comprehensive coverage of a subject area.",
+      "problem_solved": "Lack of credibility and expertise in the eyes of search engines for specific niches.",
+      "evolution": "Not specified",
+      "depends_on": [
+        "Semantic SEO",
+        "Topical Maps"
+      ],
+      "contradicts": "Keyword-centric content strategies that ignore the breadth and depth of a subject.",
+      "unique_position": "Focuses on establishing the publisher as an expert source through semantic coverage.",
+      "confidence": "core"
+    },
+    {
+      "name": "Semantic SEO",
+      "definition": "A specialized branch of SEO that prioritizes the underlying meaning, intent, and semantic behavior patterns of search queries. It moves beyond isolated keywords to understand the context of information.",
+      "problem_solved": "The inefficiency of relying on isolated keywords which fail to capture user intent and meaning.",
+      "evolution": "Not specified",
+      "depends_on": [
+        "NLP",
+        "Entity-based SEO"
+      ],
+      "contradicts": "Traditional keyword-based SEO.",
+      "unique_position": "Prioritizes semantic behavior patterns and meaning over keyword frequency.",
+      "confidence": "core"
+    },
+    {
+      "name": "Entity-based Search Engine Optimization Projects",
+      "definition": "Strategic initiatives used to demonstrate brand authority and trustworthiness by leveraging real-world entities and structured data.",
+      "problem_solved": "Difficulty in proving to search engines that a brand is a real-world expert or authoritative entity.",
+      "evolution": "Not specified",
+      "depends_on": [
+        "Structured Data",
+        "Real-world Entities"
+      ],
+      "contradicts": "Content strategies that ignore the relationship between entities and the knowledge graph.",
+      "unique_position": "Uses entity relationships to prove trustworthiness and expertise.",
+      "confidence": "secondary"
+    },
+    {
+      "name": "Topical Maps",
+      "definition": "A structured representation and strategic plan used to organize content and establish comprehensive topical authority over a subject.",
+      "problem_solved": "Disorganized content structures and gaps in topical coverage.",
+      "evolution": "Not specified",
+      "depends_on": [
+        "Semantic SEO",
+        "Topical Authority"
+      ],
+      "contradicts": "Ad-hoc content creation without a structural map of the subject.",
+      "unique_position": "Provides a formal strategic plan for organizing content to ensure total subject coverage.",
+      "confidence": "core"
+    },
+    {
+      "name": "SaaS SEO",
+      "definition": "A specialized methodology tailored for Software as a Service companies, often split into distinct B2B and B2C strategies.",
+      "problem_solved": "The failure of general SEO tactics to address the specific conversion funnels and user intents of software products.",
+      "evolution": "Not specified",
+      "depends_on": [
+        "Topical Maps",
+        "Semantic SEO"
+      ],
+      "contradicts": "One-size-fits-all SEO strategies applied to software products.",
+      "unique_position": "Differentiates between B2B and B2C strategic approaches within the SaaS vertical.",
+      "confidence": "secondary"
+    },
+    {
+      "name": "Theoretical SEO",
+      "definition": "A conceptual framework used to discuss and analyze underlying principles and theories of search engines.",
+      "problem_solved": "The lack of a theoretical basis for understanding how algorithms (like TrustRank or Sandbox) actually function.",
+      "evolution": "Not specified",
+      "depends_on": [
+        "TrustRank",
+        "Link Juice",
+        "Google Sandbox"
+      ],
+      "contradicts": "Purely empirical 'trial and error' SEO that lacks a theoretical foundation.",
+      "unique_position": "Focuses on the underlying theories of search engine mechanics.",
+      "confidence": "secondary"
+    },
+    {
+      "name": "Flywheel Model",
+      "definition": "A business model utilized by Holistic SEO to create an ecosystem for clients and projects, treating users as micro-marketing sources.",
+      "problem_solved": "Linear growth models that do not leverage the compounding effect of a user-driven ecosystem.",
+      "evolution": "Not specified",
+      "depends_on": [
+        "Digital Marketing Ecosystems"
+      ],
+      "contradicts": "Traditional linear marketing funnels.",
+      "unique_position": "Treats users as active micro-marketing sources to drive a self-sustaining growth loop.",
+      "confidence": "secondary"
+    }
+  ],
+  "mental_models": [
+    {
+      "name": "Holistic SEO",
+      "description": "Treating websites as central sources for determining document relevance by integrating NLP, data science, coding, digital analytics, and psychology.",
+      "origin": "Multi-disciplinary (NLP, Data Science, NeuroMarketing)",
+      "implications": "Optimizing web entities for all possible search scenarios rather than focusing on isolated SEO tactics."
+    },
+    {
+      "name": "Entity-Oriented Search Understanding",
+      "description": "Viewing search engine communication as a process of analyzing decision trees to understand how ranking and retrieval decisions are made.",
+      "origin": "Information Retrieval / Data Science",
+      "implications": "Using Python and data science to analyze click curves and 'baby search engine algorithms' to uncover internal operational frameworks."
+    },
+    {
+      "name": "Semantic Content Networks",
+      "description": "Framing content as a structured system of interconnected concepts built using verbs, nouns, and predicates to map search behaviors.",
+      "origin": "Linguistics",
+      "implications": "Moving away from keyword matching toward comprehensive topic coverage through structured semantic maps."
+    },
+    {
+      "name": "Frame Semantics",
+      "description": "Organizing semantic behavior using 'frames' to define pre-determined themes and verbs of words to create intuitive ontologies.",
+      "origin": "Charles J. Fillmore (Linguistic Theory)",
+      "implications": "Structuring content to align with how search engines organize the semantic web and understand conceptual relationships."
+    },
+    {
+      "name": "Entity-Based Optimization",
+      "description": "The belief that search engines distinguish between real-world entities and simple strings, requiring brands to be recognized as authoritative entities.",
+      "origin": "Semantic Search / Knowledge Graph theory",
+      "implications": "Focusing on signaling authority, trustworthiness, and expertise for the brand as an entity rather than just optimizing individual pages."
+    },
+    {
+      "name": "Signal Reinterpretation",
+      "description": "Viewing ranking not as a result of isolated factors, but as the reinterpretation of signals (anchors, queries, backlinks) through AI systems.",
+      "origin": "AI/Machine Learning (e.g., RankBrain)",
+      "implications": "Analyzing how AI evaluates authority and trust rather than treating backlinks or keywords as static ranking triggers."
+    }
+  ],
+  "signal_hierarchy": {
+    "signal_hierarchy": [
+      {
+        "rank": 1,
+        "name": "Topical Authority & Entity Coverage",
+        "description": "The most critical factor; requires exhaustive topical coverage and comprehension using Topical Maps and defined Topical Borders to be seen as an authoritative source.",
+        "source": "Creator of the Topical Authority concept; emphasizes entity-based SEO projects",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "name": "Semantic Structure",
+        "description": "Increasingly critical for determining if a source is authoritative and trustworthy; involves Semantic Entity Structure and Semantic HTML Elements.",
+        "source": "Holistic SEO methodology",
+        "confidence": "high"
+      },
+      {
+        "rank": 3,
+        "name": "Linguistic Quality & Content Depth",
+        "description": "Essential for global rankings; focuses on preventing thin content and ensuring correct spelling/accents to avoid hindering visibility.",
+        "source": "Search philosophy and content strategy",
+        "confidence": "high"
+      },
+      {
+        "rank": 4,
+        "name": "Technical Infrastructure",
+        "description": "A fundamental pillar including TTFB for indexing speed, crawl budget management, and security (HSTS).",
+        "source": "Technical SEO pillar of Holistic SEO",
+        "confidence": "high"
+      },
+      {
+        "rank": 5,
+        "name": "User Signals & Performance",
+        "description": "Indicators of relevance and intent satisfaction, including Dwell Time, User Retention Rates, and Total Blocking Time (TBT).",
+        "source": "Data science monitoring of bounce rates and click curves",
+        "confidence": "medium"
+      },
+      {
+        "rank": 6,
+        "name": "Backlinks",
+        "description": "Viewed as singular ranking factors that are decreasing in relative importance, though still used to evaluate expertise and trust.",
+        "source": "Comparison of singular factors vs. semantic structures",
+        "confidence": "high"
+      }
+    ]
+  },
+  "negative_space": {
+    "topics_avoided": [
+      {
+        "topic": "Generative Search / AI Overviews",
+        "reason": "Notable because the current SEO landscape is shifting toward SGE, AI Overviews, and LLM-based search (Perplexity, ChatGPT), which fundamentally alters the traffic dynamics he focuses on."
+      },
+      {
+        "topic": "Enterprise SEO",
+        "reason": "Notable because managing SEO at a scale of millions of pages requires specific governance and organizational frameworks distinct from purely technical/semantic optimization."
+      }
+    ],
+    "questions_unanswered": [],
+    "contradictions": [],
+    "blind_spots": [
+      {
+        "paradigm": "AI-driven search behavior",
+        "description": "The methodology focuses heavily on traditional search engine algorithms (Google, Bing, Yandex) but overlooks the paradigm shift toward generative answer engines."
+      }
+    ],
+    "aeo_geo_coverage": {
+      "status": "minimal",
+      "assessment": "There is no mention of Answer Engine Optimization (AEO) or Generative Engine Optimization (GEO) in the provided context."
+    }
+  },
+  "breadcrumbs": {
+    "patents": [
+      {
+        "id": "Agent Rank Patent",
+        "title": "Agent Rank Patent",
+        "why_cited": "Fundamental design for understanding authorship on the open web"
+      },
+      {
+        "id": "Google Agent Patent",
+        "title": "Google Agent Patent",
+        "why_cited": "Invented by David Minogue and Paul A. Tucker"
+      },
+      {
+        "id": "August 12, 2009 / April 3, 2012",
+        "title": "Ranking Authors and Their Content in the Same Framework",
+        "why_cited": "Focusing on ranking scores for users and comments using graph theory"
+      },
+      {
+        "id": "Not specified",
+        "title": "Google Penguin Update Patents",
+        "why_cited": "Identified and explained by Bill Slawski"
+      },
+      {
+        "id": "Not specified",
+        "title": "Related Entities Patent",
+        "why_cited": "Association of entities and construction of search result pages"
+      },
+      {
+        "id": "Not specified",
+        "title": "Website Representations Vectors",
+        "why_cited": "Related to Author Vectors"
+      },
+      {
+        "id": "Not specified",
+        "title": "Content Author Badges",
+        "why_cited": "Referenced as a design document"
+      },
+      {
+        "id": "Not specified",
+        "title": "System and Method for Confirming Authorship Documents",
+        "why_cited": "Referenced as a design document"
+      },
+      {
+        "id": "Not specified",
+        "title": "Detecting Product Lines Within Product Search Queries",
+        "why_cited": "Referenced as a design document"
+      },
+      {
+        "id": "Not specified",
+        "title": "Method and System for Character Recognition Patent",
+        "why_cited": "Referenced as a design document"
+      },
+      {
+        "id": "Not specified",
+        "title": "Reordering Search Query Results Patent",
+        "why_cited": "Referenced as a design document"
+      }
+    ],
+    "papers": [
+      {
+        "title": "PageRank Citation Ranking, Bringing Order to the Web",
+        "authors": "Not specified",
+        "venue": "Stanford",
+        "why_cited": "Research paper published January 29, 1998"
+      },
+      {
+        "title": "PageRank variants in the evaluation of citation networks",
+        "authors": "Not specified",
+        "venue": "University of West Bohemia (Department of Computer Science and Engineering)",
+        "why_cited": "2014 study on citation networks"
+      },
+      {
+        "title": "PageRank as a method to rank biomedical literature by importance",
+        "authors": "Not specified",
+        "venue": "National Library of Medicine",
+        "why_cited": "Research paper published December 9, 2015"
+      }
+    ],
+    "official_docs": [
+      {
+        "name": "Official Google Search Engine Documentation",
+        "why_cited": "Authoritative source for Google's search engine guidelines"
+      },
+      {
+        "name": "Google Patents",
+        "why_cited": "Repository for observing lemmatization and source for NLTK and WordNet methodologies for synonym finding"
+      }
+    ],
+    "api_docs": [],
+    "books": [
+      {
+        "title": "Foundations of Statistical Natural Language Processing",
+        "author": "Manning, C.D. and Sch\u00fctze, H.",
+        "why_cited": "Reference for the collocation threshold"
+      },
+      {
+        "title": "Tales from Shakespeare",
+        "author": "Charles and Mary Lamb",
+        "why_cited": "Example of containing the 'gist' of a playwright's works"
+      }
+    ],
+    "practitioners": [
+      {
+        "name": "Bill Slawski",
+        "context": "Mentorship since 2016; cited in SEO Case Studies; acknowledged as a great SEO theoretician and philosopher"
+      },
+      {
+        "name": "Jason Barnard",
+        "context": "Teachings and materials used for Knowledge Panel management"
+      },
+      {
+        "name": "Hamlet Batista",
+        "context": "Mentor in coding and automation; provided a quote for the Python SEO section of Holistic SEO"
+      }
+    ]
+  }
+}

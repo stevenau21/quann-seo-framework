@@ -1,0 +1,122 @@
+# notebooks/project-name/notebook.yaml
+# ─────────────────────────────────────────────────────────────────────
+# This single file defines everything the system needs to know about
+# your notebook.  Fill it out once, drop it in this directory, and
+# the Nexus server picks it up automatically — chat routes, explore
+# graph, Web UI cards, and health checks are all derived from here.
+# ─────────────────────────────────────────────────────────────────────
+
+# ── IDENTITY ────────────────────────────────────────────────────────
+# These show up in the UI — tab labels, page titles, card descriptions.
+name: "quann-chat"          # machine name (slugs, hyphens only)
+title: "Client Knowledge"         # human-facing label
+description: |                    # one-line summary for the landing card
+  Buyer consultation transcripts, discovery calls, and client Q&A —
+  verbatim conversations indexed for retrieval.
+
+# ── INGESTION ────────────────────────────────────────────────────────
+# How does data get into this notebook?  Pick ONE strategy.
+
+ingestion:
+
+  # STRATEGY A — "whole-file" (you give it raw documents, LightRAG
+  # handles splitting them into pieces internally)
+  #
+  #   Use when: you have .txt, .md, .pdf files and don't want to
+  #             think about chunk boundaries.
+  #   What it does: each file → LightRAG's built-in tokenizer slices
+  #                 it → each slice gets an embedding vector →
+  #                 entities are extracted across all slices.
+  #
+  # strategy: whole-file
+  # source: transcripts/           # directory of raw files
+  # chunk_token_size: 256          # tokens per internal slice
+  #                                 # (keep under embedding_max_tokens)
+
+  # STRATEGY B — "pre-chunked" (you've already sliced the content
+  # yourself, e.g. from a web scraper pipeline)
+  #
+  #   Use when: you have a .jsonl file where each line = one chunk
+  #             with a "text" field.
+  #   What it does: each chunk → gets its own embedding vector →
+  #                 LightRAG stitches entities across chunks via
+  #                 gleaning.
+  #
+  strategy: pre-chunked
+  source: data/quann_chunks.jsonl  # path to your .jsonl file
+  chunk_field: text                # JSON key that holds the chunk body
+
+# ── ENTITY EXTRACTION ────────────────────────────────────────────────
+# LightRAG reads every chunk and asks the LLM: "what entities and
+# relationships are in here?"  These settings control how that works.
+
+extraction:
+  llm_model: "gemma4:31b-cloud"   # model used for entity extraction
+                                   # (separate from the chat LLM — set
+                                   # below under 'chat')
+
+  # GLEANING — how many extra passes LightRAG makes to find entities
+  # it might have missed on the first pass.
+  #
+  #   0 = single-pass only (fastest, but misses cross-chunk connections)
+  #   1 = one refinement loop  (LightRAG default; good balance)
+  #   2 = two refinement loops (richest graph, slower — recommended
+  #       for small corpora where quality matters)
+  gleaning_passes: 2
+
+# ── EMBEDDINGS ───────────────────────────────────────────────────────
+# Embeddings are the numeric "fingerprints" that make text searchable.
+# The model you pick determines your token budget.
+
+embedding:
+  model: "nomic-embed-text-v2-moe" # embedding model name (Ollama)
+  dimension: 768                   # output vector size (fixed per model)
+  max_tokens: 512                  # HARD CAP — how many tokens the model
+                                   # can handle in one call.  Exceeding
+                                   # this causes silent failures.
+                                   # nomic-embed-text-v2-moe = 512
+                                   # nomic-embed-text:v1.5    = 8192
+
+# ── CHAT / QUERYING ──────────────────────────────────────────────────
+# When a user sends a message, this is the model that formulates the
+# answer after retrieval finds the relevant context.
+
+chat:
+  llm_model: "gemma4:31b-cloud"    # answer-generation model
+  temperature: 0.7                 # 0.0=deterministic, 1.0=creative
+  max_tokens: 500                  # cap on response length
+  max_context_chars: 4000          # how much retrieved text to feed in
+
+  # RETRIEVAL MODES — LightRAG supports three strategies:
+  #   local  = "what is X?" — looks up specific facts/entities
+  #   global = "how does Y work?" — scans high-level summaries
+  #   hybrid = tries both, merges results (default for general queries)
+  #
+  # The system auto-classifies each question, but you can tune knobs:
+  top_k_retrieve: 20               # how many chunks to pull per query
+  top_n_rerank: 5                  # after retrieval, keep top N after
+                                   # cross-encoder reranking
+
+  # SYSTEM PROMPT — injected before every answer.  {context} is
+  # replaced with whatever retrieval found.
+  system_prompt: |
+    You are Quan's real estate assistant. Answer only from
+    the provided transcript context — do not fabricate.
+
+    ## TRANSCRIPT CONTEXT:
+    {context}
+
+# ── UPDATE STRATEGY ──────────────────────────────────────────────────
+# When you add new data to an existing notebook, what should happen?
+
+update:
+  # "incremental" — only process new files, skip existing ones.
+  #   Fast (5-10 min for a few new docs).  Safe for daily use.
+  #   LightRAG checks MD5 hashes — unchanged files are skipped.
+  mode: incremental
+
+  # "full-rebuild" — wipe the workspace and start over.
+  #   Use only when: chunking settings changed, embed model changed,
+  #   or the graph has degraded over time.  Hours for large corpora.
+  #
+  # mode: full-rebuild

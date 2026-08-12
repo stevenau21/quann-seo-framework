@@ -1,0 +1,31 @@
+Google Search Central - SEO Starter Guide
+
+Source: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+Type: official_documentation
+Confidence: confirmed
+
+SEO is about helping search engines understand your content, and helping users find your site. Google is a fully automated search engine using crawlers to explore the web. Google primarily finds pages through links from other pages it already crawled.
+
+Key guidelines from Google:
+
+1. Help Google find your content: submit a sitemap, ensure pages aren't blocked. Check if Google can see your page the same way a user does. Don't hide CSS and JavaScript.
+
+2. Organize your site: use descriptive URLs with words useful for users. Group topically similar pages in directories. Reduce duplicate content - search engines choose a single canonical URL per piece of content.
+
+3. Make your site interesting and useful: create compelling, useful content. Text should be easy-to-read and well organized. Content should be unique - don't copy others, create original content. Content should be up-to-date - check and update previously published content. Content should be helpful, reliable, and people-first. Expect your readers' search terms - anticipate what users search for.
+
+4. Avoid distracting advertisements that prevent users from reading content.
+
+5. Link to relevant resources. Write good link text (anchor text) that tells users and Google what linked pages contain.
+
+6. Optimize images: use alt text, descriptive filenames, proper formats.
+
+7. Make your site mobile-friendly. Use responsive design.
+
+8. Promote your website. Effective promotion of new content leads to faster discovery.
+
+9. Analyze search performance and user behavior. Use Search Console and Analytics.
+
+Important: Every change takes time to reflect - some hours, some months. Not all changes result in noticeable impact. Iterate if unsatisfied.
+
+Key principle: Content created with users in mind, not search engines. People-first content.
